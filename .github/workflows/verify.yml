@@ -4,6 +4,7 @@ on:
   pull_request:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -20,18 +21,31 @@ jobs:
           python-version: "3.11"
 
       # Offline on purpose. A live --check here would fail every time the site
-      # gained a question between the sync and the pull request, which is normal
-      # and is not the contributor's problem. What CI owes a contributor is that
-      # the renderers still work; the hourly job owns whether the tables are
-      # current.
+      # gained a question between the last sync and the pull request, which is
+      # normal and is not the contributor's problem. What CI owes a contributor
+      # is that the renderers still work; the hourly job owns whether the
+      # published tables are current.
       - name: Unit tests (fixture, no network)
         run: python3 -m unittest discover scripts -v
 
       - name: Render the fixture and enforce the byte budgets
+        # In a COPY of the repository, so the fixture's synthetic rows cannot be
+        # confused with the real ones in the checkout — and so a failure here
+        # leaves nothing behind to explain.
         run: |
+          cp -r . "$RUNNER_TEMP/render-check"
+          cd "$RUNNER_TEMP/render-check"
+          rm -rf companies formats by-month data
+          python3 scripts/sync.py \
+            --catalog-file scripts/fixtures/catalog-sample.json \
+            --today 2026-09-11
+
+      - name: Re-render must be a no-op
+        # The determinism the hourly job depends on: if a second pass over the
+        # same snapshot still finds work, every sync commits noise for ever.
+        run: |
+          cd "$RUNNER_TEMP/render-check"
           python3 scripts/sync.py \
             --catalog-file scripts/fixtures/catalog-sample.json \
             --today 2026-09-11 \
-            --quiet
-          git diff --stat
-          git checkout -- . && git clean -fd companies formats by-month data
+            --check
