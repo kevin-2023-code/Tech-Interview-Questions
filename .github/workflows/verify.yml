@@ -13,6 +13,11 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # Not on the hourly sync's own commits. This job tests the RENDERERS, and a
+    # sync commit changes no renderer — it changes what they produced. Without
+    # this the repository would run a full CI job every hour, for ever, to
+    # re-prove code that did not change.
+    if: github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v4
 
