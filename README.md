@@ -45,7 +45,6 @@ recorded, which is not the same as old.</sub>
 <!-- gen:latest:start -->
 | Company | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-- | :-: | :-- |
-| **LinkedIn** | [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Algorithm | Hard | Feb 23, 2126 |
 | **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | 🆕 Aug 13, 2026 |
 | **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | 🆕 Aug 13, 2026 |
 | **Google** | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | 🆕 Aug 13, 2026 |
@@ -145,6 +144,7 @@ recorded, which is not the same as old.</sub>
 | **Apple / Bloomberg / Meta / Uber** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | **Rippling / ByteDance / Expedia / Google** | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | Jun 28, 2026 |
 | **Rippling** | [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | System Design | Hard | Jun 28, 2026 |
+| **Apple** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Low-Level Design | Medium | Jun 28, 2026 |
 <!-- gen:latest:end -->
 
 <sub>This is the newest slice, not the bank. Use the navigation above for the rest — every
