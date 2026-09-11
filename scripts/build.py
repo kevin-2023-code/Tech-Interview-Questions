@@ -85,7 +85,7 @@ def build(
     readme_template: str,
     today: date,
 ) -> RenderResult:
-    ordered = sort_questions(questions)
+    ordered = sort_questions(questions, today)
     by_company = group_by_company(ordered, api_labels)
     by_format = group_by_format(ordered)
     by_month = group_by_month(ordered)
@@ -112,6 +112,7 @@ def build(
                 back="[← All companies](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("company", api_labels, today),
+                today=today,
             )
         )
 
@@ -151,6 +152,7 @@ def build(
                 back="[← All formats](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("format", api_labels, today),
+                today=today,
             )
         )
 
@@ -187,6 +189,7 @@ def build(
                 back="[← Every month](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("month", api_labels, today),
+                today=today,
             )
         )
 
@@ -220,7 +223,13 @@ def build(
     files["data/companies.csv"] = render_companies_csv(company_rows)
 
     # ── README ───────────────────────────────────────────────────────────────
-    latest = [q for q in ordered if q.reported_date is not None][:README_LATEST_ROWS]
+    # The landing page's newest slice: a real sighting, on or before today.
+    # A future-dated row is excluded here specifically — `_sort_key` already
+    # denies it the top of the ordering, and this denies it the list whose
+    # whole claim is that these questions were asked recently.
+    latest = [
+        q for q in ordered if q.reported_date is not None and q.reported_date <= today
+    ][:README_LATEST_ROWS]
     readme = readme_template
     readme = inject(
         readme,

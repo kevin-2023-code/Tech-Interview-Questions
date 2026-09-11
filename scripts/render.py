@@ -152,16 +152,32 @@ def reported_cell(question: Question, today: date) -> str:
     return f"{marker}{MONTH_NAMES[stamp.month - 1]} {stamp.day:02d}, {stamp.year}"
 
 
-def _sort_key(question: Question) -> tuple:
-    """Newest sighting first; undated last; ties broken so the order is total.
+def _sort_key(question: Question, today: date) -> tuple:
+    """Newest real sighting first, then future-dated, then undated.
 
-    A total order matters more than it looks: two questions that compared equal
-    would be free to swap places between syncs, and every swap is a committed
-    diff on a file nobody changed.
+    Three buckets rather than two, and the middle one is the interesting one. A
+    sighting dated after today is a data-entry error upstream, and sorting purely
+    on the date would hand that error the top row of the landing page — the most
+    valuable slot in the repository, awarded to whichever row is most wrong. So a
+    future date loses its claim to *recent* while keeping everything else: it
+    still appears on its company page, its format page, and the month it claims,
+    where a page titled "Reported in Feb 2126" is a visible bug report rather
+    than a quiet correction. Dropping the row instead would hide the error from
+    the only people who can fix it.
+
+    Ties break down to the slug so the order is TOTAL. That matters more than it
+    looks: two questions that compared equal would be free to swap places between
+    syncs, and every swap is a committed diff on a file nobody changed.
     """
     reported = question.reported_date
+    if reported is None:
+        bucket = 2
+    elif reported > today:
+        bucket = 1
+    else:
+        bucket = 0
     return (
-        0 if reported else 1,
+        bucket,
         -(reported.toordinal() if reported else 0),
         -(question.added_date.toordinal() if question.added_date else 0),
         -question.number,
@@ -169,8 +185,8 @@ def _sort_key(question: Question) -> tuple:
     )
 
 
-def sort_questions(questions: Iterable[Question]) -> list[Question]:
-    return sorted(questions, key=_sort_key)
+def sort_questions(questions: Iterable[Question], today: date) -> list[Question]:
+    return sorted(questions, key=lambda question: _sort_key(question, today))
 
 
 # ── tables ───────────────────────────────────────────────────────────────────
@@ -248,6 +264,7 @@ def render_shard(
     back: str,
     questions: Sequence[Question],
     cols: Sequence[Column],
+    today: date,
 ) -> dict[str, str]:
     """One shard, paginated at :data:`ROWS_PER_PAGE`.
 
@@ -255,7 +272,7 @@ def render_shard(
     the ``-2.md`` suffix never appears for it — so a company whose count crosses
     the threshold gains a file rather than renaming the one it had.
     """
-    ordered = sort_questions(questions)
+    ordered = sort_questions(questions, today)
     chunks = [ordered[i : i + ROWS_PER_PAGE] for i in range(0, len(ordered), ROWS_PER_PAGE)] or [[]]
     pages: dict[str, str] = {}
     for index, chunk in enumerate(chunks, start=1):

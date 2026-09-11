@@ -113,6 +113,19 @@ no export at all, which is odd for a dataset whose whole value is being a datase
 **The freshness mechanic, kept.** 🔥 ≤14 days, 🆕 ≤45 days, hourly. It is the best idea in
 the prior art.
 
+**A date in the future is neither fatal nor invisible.** The prior art exits non-zero on one
+(`sys.exit(f"row {i} has a future update date")`), which lets a single mistyped date upstream
+stop several thousand good rows from syncing. Here it is *reported* — named in the run
+summary — and it loses its claim to *recent*: no freshness marker, and sorted behind every
+real sighting so it cannot take the top row of the landing page, which is the most valuable
+slot in the repository and should not be awarded to whichever row is most wrong. It keeps
+everything else: its company page, its format page, and the month it claims, where a page
+titled "Reported in Feb 2126" is a visible bug report rather than a quiet correction.
+
+This is not hypothetical. The first live sync found exactly one:
+`coding-biased-coin-uniform` is dated **2126-02-23**, a century out, and it led the landing
+page until this rule existed.
+
 **But an unknown date is never printed as a date.** This is the one place the two designs
 disagree on substance rather than performance. The reference repo gives every row a date,
 falling back to a sync timestamp when it has no sighting. Here, a question with no recorded
@@ -164,6 +177,9 @@ site, not a copy of it.
   the site's own `formatCompany` rules as a fallback for the tail — correct today, and a
   transcription that will drift. Adding a `page` parameter to that operation on the site
   would remove the need for the fallback entirely.
+- **One catalog row is mistyped.** `coding-biased-coin-uniform` carries `reported:
+  2126-02-23`. It is handled correctly here (unmarked, sorted back, still listed), but the
+  fix belongs upstream in the question bank, not in this renderer.
 - **Contribution is one-way.** Reported sightings arrive as issues and a maintainer enters
   them on the site, which is then synced back here. That is deliberate for now: an automatic
   path from a GitHub issue into the live question bank is a write path into candidate-facing

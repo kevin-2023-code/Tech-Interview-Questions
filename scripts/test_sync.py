@@ -114,13 +114,28 @@ class TestEscaping(unittest.TestCase):
 
 
 class TestSorting(unittest.TestCase):
-    def test_newest_first_and_undated_last(self):
+    def test_three_buckets_real_then_future_then_undated(self):
         questions, _ = load_fixture()
-        ordered = sort_questions(questions)
-        dated = [q.reported_date for q in ordered if q.reported_date]
-        self.assertEqual(dated, sorted(dated, reverse=True))
-        first_undated = next(i for i, q in enumerate(ordered) if q.reported_date is None)
-        self.assertTrue(all(q.reported_date is None for q in ordered[first_undated:]))
+        ordered = sort_questions(questions, TODAY)
+        buckets = [
+            2 if q.reported_date is None else (1 if q.reported_date > TODAY else 0)
+            for q in ordered
+        ]
+        self.assertEqual(buckets, sorted(buckets), "buckets must not interleave")
+        self.assertEqual(set(buckets), {0, 1, 2}, "the fixture must exercise all three")
+
+    def test_real_sightings_are_newest_first(self):
+        questions, _ = load_fixture()
+        ordered = sort_questions(questions, TODAY)
+        real = [q.reported_date for q in ordered if q.reported_date and q.reported_date <= TODAY]
+        self.assertEqual(real, sorted(real, reverse=True))
+
+    def test_a_future_date_never_takes_the_top_row(self):
+        # The most valuable slot in the repository must not be awarded to
+        # whichever row is most wrong.
+        questions, _ = load_fixture()
+        ordered = sort_questions(questions, TODAY)
+        self.assertLessEqual(ordered[0].reported_date, TODAY)
 
     def test_order_is_total_so_reruns_do_not_churn(self):
         # Two rows that compared equal would be free to swap between syncs, and
@@ -128,7 +143,7 @@ class TestSorting(unittest.TestCase):
         questions, _ = load_fixture()
         from render import _sort_key
 
-        keys = [_sort_key(q) for q in questions]
+        keys = [_sort_key(q, TODAY) for q in questions]
         self.assertEqual(len(set(keys)), len(keys))
 
 
@@ -167,6 +182,7 @@ class TestPagination(unittest.TestCase):
             back="b",
             questions=questions,
             cols=columns_for("format", labels, TODAY),
+            today=TODAY,
         )
         expected = -(-len(questions) // ROWS_PER_PAGE)
         self.assertEqual(len(pages), expected)
@@ -185,6 +201,7 @@ class TestPagination(unittest.TestCase):
             back="b",
             questions=questions[:5],
             cols=columns_for("company", labels, TODAY),
+            today=TODAY,
         )
         self.assertEqual(list(pages), ["companies/meta.md"])
 
@@ -345,3 +362,26 @@ class TestFutureDates(unittest.TestCase):
                 if any(f"/questions/{slug})" in line for slug in future):
                     self.assertNotIn("🔥", line, path)
                     self.assertNotIn("🆕", line, path)
+
+
+class TestFutureDatesInTheIndex(unittest.TestCase):
+    def test_the_landing_page_latest_list_excludes_future_dates(self):
+        # Caught a real one on the first live sync: a catalog row dated 2126 led
+        # "Latest sightings" until this rule existed.
+        result = render()
+        questions, _ = load_fixture()
+        future = {q.slug for q in questions if q.reported_date and q.reported_date > TODAY}
+        self.assertTrue(future)
+        readme = result.files["README.md"]
+        latest = readme.split("<!-- gen:latest:start -->")[1].split("<!-- gen:latest:end -->")[0]
+        for slug in future:
+            self.assertNotIn(f"/questions/{slug})", latest)
+
+    def test_a_future_dated_question_still_reaches_its_company_page(self):
+        # Excluded from the newest list, never from the bank: dropping the row
+        # would hide the error from the only people who can fix it.
+        result = render()
+        questions, labels = load_fixture()
+        future = next(q for q in questions if q.reported_date and q.reported_date > TODAY)
+        page = result.files[f"companies/{company_key(future.companies[0], labels)}.md"]
+        self.assertIn(future.url, page)
