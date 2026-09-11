@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Practise these questions
+    url: https://trueinterview.io/problems
+    about: Every question in this tracker opens a runnable, server-judged workspace.
+  - name: How this repository works
+    url: https://github.com/kevin-2023-code/Tech-Interview-Questions/blob/main/DESIGN.md
+    about: The sync pipeline, the byte budgets, and the rules the renderers hold.

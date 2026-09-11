@@ -1,0 +1,40 @@
+name: Fix a row
+description: Something in the tracker is wrong — a company, a date, a link, a duplicate.
+title: "[Fix]: short description"
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are applied on [TrueInterview](https://trueinterview.io) and reach this
+        repository on the next hourly sync — so there is nothing to edit here directly.
+  - type: input
+    id: row
+    attributes:
+      label: Which row
+      description: Paste the question link, or the page and title.
+      placeholder: https://trueinterview.io/questions/some-slug
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong
+      options:
+        - Wrong company
+        - Wrong format
+        - Wrong or missing sighting date
+        - Broken link
+        - Duplicate of another row
+        - Typo in the title
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What it should say
+      description: The exact change, and how you know.
+      placeholder: Reported at Stripe, not Square — it was my own OA in Aug 2026.
+    validations:
+      required: true

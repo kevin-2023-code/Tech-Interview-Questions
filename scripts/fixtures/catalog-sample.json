@@ -1,0 +1,6589 @@
+{
+  "companyLabels": {
+    "amazon": "Amazon",
+    "anthropic": "Anthropic",
+    "coinbase": "Coinbase",
+    "google": "Google",
+    "meta": "Meta",
+    "netflix": "Netflix",
+    "openai": "OpenAI",
+    "uber": "Uber"
+  },
+  "questions": [
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "meta",
+        "netflix"
+      ],
+      "company": "anthropic",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1000,
+      "reported": "2026-03-17",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0000",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Pipe | Bracket [x] & <tag> \\ backslash",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0000"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta",
+        "coinbase"
+      ],
+      "company": "meta",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1001,
+      "reported": "2026-09-10",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0001",
+      "tags": [],
+      "title": "Stream Merge Cache Queue",
+      "topics": [
+        "graphs",
+        "concurrency"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0001"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "stripe"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1002,
+      "reported": "2026-08-20",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0002",
+      "tags": [],
+      "title": "Ledger Budget Index Window",
+      "topics": [
+        "dp",
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0002"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1003,
+      "reported": "2026-13-45",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0003",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Index Balance",
+      "topics": [
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0003"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1004,
+      "reported": "2026-06-09",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0004",
+      "tags": [
+        "bfs",
+        "iterator"
+      ],
+      "title": "Balance Merge Router Queue",
+      "topics": [
+        "dp"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0004"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1005,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0005",
+      "tags": [
+        "async",
+        "python"
+      ],
+      "title": "Merge Window Token",
+      "topics": [
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0005"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "google"
+      ],
+      "company": "ibm",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1006,
+      "reported": "2026-05-06",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0006",
+      "tags": [],
+      "title": "Budget Merge Token Window",
+      "topics": [
+        "dp",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0006"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1007,
+      "reported": "2026-06",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0007",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Merge Budget Window Index",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0007"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1008,
+      "reported": "2026-02-10",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0008",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Replay Graph Router Window",
+      "topics": [
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0008"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1009,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0009",
+      "tags": [
+        "bfs",
+        "iterator"
+      ],
+      "title": "Index Cache Graph Token",
+      "topics": [
+        "concurrency",
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0009"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1010,
+      "reported": "2026-07-28",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0010",
+      "tags": [
+        "python",
+        "iterator"
+      ],
+      "title": "Merge Graph Window",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0010"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1011,
+      "reported": "2026-05-12",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0011",
+      "tags": [
+        "python"
+      ],
+      "title": "Balance Cache Merge Stream",
+      "topics": [
+        "graphs"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0011"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1012,
+      "reported": "2026-01-16",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0012",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Rate Stream",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0012"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe",
+        "scale.ai",
+        "lyft"
+      ],
+      "company": "stripe",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1013,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0013",
+      "tags": [
+        "async",
+        "bfs"
+      ],
+      "title": "Window Stream Budget Cache",
+      "topics": [
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0013"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1014,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0014",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Balance Rate",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0014"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1015,
+      "reported": "2026-08",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0015",
+      "tags": [
+        "iterator",
+        "bfs"
+      ],
+      "title": "Stream Shard",
+      "topics": [
+        "concurrency",
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0015"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1016,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0016",
+      "tags": [],
+      "title": "Ledger Balance Merge Stream",
+      "topics": [
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0016"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "meta"
+      ],
+      "company": "scale.ai",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1017,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0017",
+      "tags": [
+        "python"
+      ],
+      "title": "Merge Cache Token",
+      "topics": [
+        "graphs"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0017"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "lyft"
+      ],
+      "company": "scale.ai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1018,
+      "reported": "2026-02",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0018",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Rate Queue",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0018"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "capitalone",
+        "meta"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1019,
+      "reported": "2026-02-28",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0019",
+      "tags": [
+        "bfs",
+        "async"
+      ],
+      "title": "Router Budget",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0019"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "coinbase",
+        "openai"
+      ],
+      "company": "scale.ai",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1020,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0020",
+      "tags": [],
+      "title": "Shard Index Budget",
+      "topics": [
+        "arrays",
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0020"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1021,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0021",
+      "tags": [],
+      "title": "Stream Rate Token",
+      "topics": [
+        "concurrency",
+        "sql"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0021"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1022,
+      "reported": "2026-08",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0022",
+      "tags": [],
+      "title": "Token Graph Shard Router",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0022"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone",
+        "coinbase",
+        "ibm"
+      ],
+      "company": "capitalone",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1023,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0023",
+      "tags": [
+        "iterator",
+        "bfs"
+      ],
+      "title": "Replay Token Rate",
+      "topics": [
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0023"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1024,
+      "reported": "2026-02-04",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0024",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Index Balance Stream Shard",
+      "topics": [
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0024"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1025,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0025",
+      "tags": [],
+      "title": "Window Cache",
+      "topics": [
+        "graphs",
+        "arrays"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0025"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1026,
+      "reported": "2026-04-28",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0026",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Merge Graph",
+      "topics": [
+        "graphs",
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0026"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft",
+        "two-sigma"
+      ],
+      "company": "lyft",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1027,
+      "reported": "2026-03-11",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0027",
+      "tags": [
+        "async",
+        "bfs"
+      ],
+      "title": "Budget Balance",
+      "topics": [
+        "dp"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0027"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone",
+        "two-sigma"
+      ],
+      "company": "capitalone",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1028,
+      "reported": "2026-08-14",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0028",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Queue Cache Token",
+      "topics": [
+        "concurrency",
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0028"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "stripe",
+        "lyft"
+      ],
+      "company": "ibm",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1029,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0029",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Graph Ledger",
+      "topics": [
+        "concurrency",
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0029"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1030,
+      "reported": "2026-05-02",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0030",
+      "tags": [
+        "python"
+      ],
+      "title": "Cache Token Stream",
+      "topics": [
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0030"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber",
+        "google"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1031,
+      "reported": "2026-09-28",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0031",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Cache Budget Router Replay",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0031"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1032,
+      "reported": "2026-08-08",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0032",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Graph Shard",
+      "topics": [
+        "graphs"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0032"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "capitalone",
+        "netflix"
+      ],
+      "company": "anthropic",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1033,
+      "reported": "2026-01",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0033",
+      "tags": [],
+      "title": "Budget Ledger Index Replay",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0033"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1034,
+      "reported": "2026-06",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0034",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Shard Router Index Ledger",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0034"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1035,
+      "reported": "2026-01-23",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0035",
+      "tags": [
+        "bfs",
+        "iterator"
+      ],
+      "title": "Cache Queue Budget",
+      "topics": [
+        "sql",
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0035"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1036,
+      "reported": "2026-02-09",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0036",
+      "tags": [
+        "async",
+        "bfs"
+      ],
+      "title": "Token Budget Stream",
+      "topics": [
+        "sql",
+        "concurrency"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0036"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1037,
+      "reported": "2026-05",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0037",
+      "tags": [],
+      "title": "Window Token Graph Queue",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0037"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1038,
+      "reported": "2026-06",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0038",
+      "tags": [
+        "python",
+        "iterator"
+      ],
+      "title": "Window Replay Balance Ledger",
+      "topics": [
+        "dp"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0038"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1039,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0039",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Cache Token Replay Window",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0039"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "amazon",
+        "openai"
+      ],
+      "company": "scale.ai",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1040,
+      "reported": "2026-09",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0040",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Rate Token",
+      "topics": [
+        "arrays",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0040"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber",
+        "google",
+        "two-sigma"
+      ],
+      "company": "uber",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1041,
+      "reported": "2026-08-14",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0041",
+      "tags": [],
+      "title": "Merge Stream Budget Rate",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0041"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "amazon",
+        "two-sigma"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1042,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0042",
+      "tags": [],
+      "title": "Queue Graph Cache",
+      "topics": [
+        "graphs",
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0042"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1043,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0043",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Shard Budget Ledger",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0043"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1044,
+      "reported": "2026-02-08",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0044",
+      "tags": [
+        "bfs",
+        "async"
+      ],
+      "title": "Graph Replay Window Rate",
+      "topics": [
+        "dp"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0044"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "openai",
+        "coinbase"
+      ],
+      "company": "anthropic",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1045,
+      "reported": "2026-05",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0045",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Balance Window Ledger Index",
+      "topics": [
+        "arrays"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0045"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "netflix"
+      ],
+      "company": "amazon",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1046,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0046",
+      "tags": [
+        "python"
+      ],
+      "title": "Token Stream Shard Window",
+      "topics": [
+        "arrays"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0046"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "amazon"
+      ],
+      "company": "anthropic",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1047,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0047",
+      "tags": [
+        "bfs",
+        "iterator"
+      ],
+      "title": "Index Replay",
+      "topics": [
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0047"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1048,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0048",
+      "tags": [
+        "iterator",
+        "bfs"
+      ],
+      "title": "Budget Rate Token Stream",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0048"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1049,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0049",
+      "tags": [
+        "iterator",
+        "bfs"
+      ],
+      "title": "Budget Merge Index",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0049"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1050,
+      "reported": "2026-05-25",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0050",
+      "tags": [],
+      "title": "Router Balance Merge Ledger",
+      "topics": [
+        "arrays",
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0050"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma",
+        "amazon",
+        "meta"
+      ],
+      "company": "two-sigma",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1051,
+      "reported": "2026-07-08",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0051",
+      "tags": [],
+      "title": "Window Index Merge",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0051"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1052,
+      "reported": "2026-02-11",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0052",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Replay Router",
+      "topics": [
+        "sql",
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0052"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1053,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0053",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Window Graph Merge",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0053"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1054,
+      "reported": "2026-09-04",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0054",
+      "tags": [
+        "bfs",
+        "iterator"
+      ],
+      "title": "Ledger Cache",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0054"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber",
+        "ibm"
+      ],
+      "company": "uber",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1055,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0055",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Router Merge",
+      "topics": [
+        "graphs"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0055"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "lyft",
+        "ibm"
+      ],
+      "company": "google",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1056,
+      "reported": "2026-08-07",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0056",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Cache Router Balance Token",
+      "topics": [
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0056"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1057,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0057",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Budget Graph Stream Window",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0057"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1058,
+      "reported": "2026-09-05",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0058",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Ledger Stream Rate Window",
+      "topics": [
+        "sql",
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0058"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1059,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0059",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Stream Budget Shard Index",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0059"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1060,
+      "reported": "2026-04-01",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0060",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Window Queue Graph Replay",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0060"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1061,
+      "reported": "2026-05",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0061",
+      "tags": [],
+      "title": "Index Stream Rate Budget",
+      "topics": [
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0061"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft",
+        "amazon"
+      ],
+      "company": "lyft",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1062,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0062",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Shard Merge",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0062"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1063,
+      "reported": "2026-05",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0063",
+      "tags": [
+        "async"
+      ],
+      "title": "Token Budget Stream",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0063"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1064,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0064",
+      "tags": [],
+      "title": "Budget Cache",
+      "topics": [
+        "dp",
+        "concurrency"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0064"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1065,
+      "reported": "2026-09-13",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0065",
+      "tags": [],
+      "title": "Rate Balance Replay",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0065"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "uber",
+        "meta"
+      ],
+      "company": "amazon",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1066,
+      "reported": "2026-09-18",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0066",
+      "tags": [],
+      "title": "Stream Ledger Cache Queue",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0066"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix",
+        "scale.ai"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1067,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0067",
+      "tags": [],
+      "title": "Shard Balance Ledger",
+      "topics": [
+        "graphs"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0067"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1068,
+      "reported": "2026-01",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0068",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Router Token",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0068"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1069,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0069",
+      "tags": [],
+      "title": "Cache Merge Stream Window",
+      "topics": [
+        "concurrency",
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0069"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1070,
+      "reported": "2026-05-09",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0070",
+      "tags": [],
+      "title": "Window Graph",
+      "topics": [
+        "sql",
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0070"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1071,
+      "reported": "2026-04",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0071",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Balance Rate Window",
+      "topics": [
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0071"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1072,
+      "reported": "2026-06-01",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0072",
+      "tags": [],
+      "title": "Cache Window",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0072"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1073,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0073",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Router Cache Budget Shard",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0073"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1074,
+      "reported": "2026-09-01",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0074",
+      "tags": [],
+      "title": "Rate Queue Budget",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0074"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1075,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0075",
+      "tags": [],
+      "title": "Router Ledger",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0075"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "scale.ai"
+      ],
+      "company": "google",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1076,
+      "reported": "2026-05-14",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0076",
+      "tags": [],
+      "title": "Cache Merge",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0076"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1077,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0077",
+      "tags": [
+        "python"
+      ],
+      "title": "Queue Stream Replay",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0077"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1078,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0078",
+      "tags": [
+        "python",
+        "iterator"
+      ],
+      "title": "Merge Shard Queue Router",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0078"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1079,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0079",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Router Merge",
+      "topics": [
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0079"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1080,
+      "reported": "2026-04-14",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0080",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Budget Merge Graph Rate",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0080"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1081,
+      "reported": "2026-07",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0081",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Queue Shard Stream",
+      "topics": [
+        "dp",
+        "graphs"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0081"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma",
+        "netflix"
+      ],
+      "company": "two-sigma",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1082,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0082",
+      "tags": [],
+      "title": "Ledger Graph Replay Token",
+      "topics": [
+        "graphs",
+        "arrays"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0082"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1083,
+      "reported": "2026-04-25",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0083",
+      "tags": [
+        "iterator",
+        "async"
+      ],
+      "title": "Stream Graph",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0083"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1084,
+      "reported": "2026-01-02",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0084",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Replay Shard",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0084"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1085,
+      "reported": "2026-04",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0085",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Ledger Balance Graph Rate",
+      "topics": [
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0085"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1086,
+      "reported": "2026-05",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0086",
+      "tags": [],
+      "title": "Ledger Token",
+      "topics": [
+        "dp",
+        "concurrency"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0086"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai",
+        "uber",
+        "ibm"
+      ],
+      "company": "openai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1087,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0087",
+      "tags": [],
+      "title": "Graph Cache Index Ledger",
+      "topics": [
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0087"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1088,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0088",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Cache Router Stream",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0088"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1089,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0089",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Window Cache",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0089"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "ibm"
+      ],
+      "company": "google",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1090,
+      "reported": "2026-01",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0090",
+      "tags": [],
+      "title": "Token Rate Replay Shard",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0090"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1091,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0091",
+      "tags": [
+        "bfs",
+        "async"
+      ],
+      "title": "Graph Window Balance",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0091"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1092,
+      "reported": "2026-09",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0092",
+      "tags": [
+        "iterator",
+        "async"
+      ],
+      "title": "Stream Budget Merge Token",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0092"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1093,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0093",
+      "tags": [
+        "python",
+        "iterator"
+      ],
+      "title": "Merge Balance Window Rate",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0093"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1094,
+      "reported": "2026-04",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0094",
+      "tags": [],
+      "title": "Rate Router Shard",
+      "topics": [
+        "graphs",
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0094"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "openai"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1095,
+      "reported": "2026-05-01",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0095",
+      "tags": [],
+      "title": "Queue Budget",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0095"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1096,
+      "reported": "2026-07",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0096",
+      "tags": [
+        "async"
+      ],
+      "title": "Graph Cache Ledger Replay",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0096"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber",
+        "netflix",
+        "anthropic"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1097,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0097",
+      "tags": [],
+      "title": "Ledger Token Budget Rate",
+      "topics": [
+        "arrays",
+        "graphs"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0097"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase",
+        "ibm"
+      ],
+      "company": "coinbase",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1098,
+      "reported": "2026-03",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0098",
+      "tags": [
+        "bfs",
+        "async"
+      ],
+      "title": "Token Replay Merge Queue",
+      "topics": [
+        "dp",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0098"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta",
+        "stripe",
+        "amazon"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1099,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0099",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Ledger Router",
+      "topics": [
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0099"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "anthropic",
+        "scale.ai"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1100,
+      "reported": "2026-06-11",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0100",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Replay Shard",
+      "topics": [
+        "concurrency",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0100"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1101,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0101",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Token Cache Rate Budget",
+      "topics": [
+        "arrays",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0101"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1102,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0102",
+      "tags": [],
+      "title": "Index Window Budget Rate",
+      "topics": [
+        "graphs",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0102"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1103,
+      "reported": "2026-07",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0103",
+      "tags": [],
+      "title": "Balance Index",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0103"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta",
+        "uber",
+        "coinbase"
+      ],
+      "company": "meta",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1104,
+      "reported": "2026-07-08",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0104",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Queue Router Stream Budget",
+      "topics": [
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0104"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1105,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0105",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Rate Replay Token Shard",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0105"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1106,
+      "reported": "2026-05",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0106",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Balance Router",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0106"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1107,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0107",
+      "tags": [],
+      "title": "Replay Router",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0107"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1108,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0108",
+      "tags": [
+        "python"
+      ],
+      "title": "Cache Budget",
+      "topics": [
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0108"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1109,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0109",
+      "tags": [],
+      "title": "Shard Cache Index",
+      "topics": [
+        "sql",
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0109"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1110,
+      "reported": "2026-03",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0110",
+      "tags": [],
+      "title": "Queue Cache Shard",
+      "topics": [
+        "arrays",
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0110"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "google"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1111,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0111",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Stream Queue Router Rate",
+      "topics": [
+        "dp",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0111"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1112,
+      "reported": "2026-02-13",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0112",
+      "tags": [
+        "python"
+      ],
+      "title": "Budget Window Stream",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0112"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1113,
+      "reported": "2026-07-06",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0113",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Graph Balance Queue Index",
+      "topics": [
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0113"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1114,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0114",
+      "tags": [],
+      "title": "Shard Merge Balance",
+      "topics": [
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0114"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1115,
+      "reported": "2026-03",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0115",
+      "tags": [
+        "async"
+      ],
+      "title": "Token Balance Index Replay",
+      "topics": [
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0115"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1116,
+      "reported": "2026-04",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0116",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Index Replay Token Graph",
+      "topics": [
+        "dp",
+        "concurrency"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0116"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai",
+        "amazon"
+      ],
+      "company": "openai",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1117,
+      "reported": "2026-09-05",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0117",
+      "tags": [],
+      "title": "Budget Window Token",
+      "topics": [
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0117"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1118,
+      "reported": "2026-07",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0118",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Window Merge Balance",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0118"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1119,
+      "reported": "2026-07-26",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0119",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Stream Graph Queue Balance",
+      "topics": [
+        "arrays"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0119"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1120,
+      "reported": "2026-09-23",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0120",
+      "tags": [],
+      "title": "Graph Balance Rate Queue",
+      "topics": [
+        "arrays",
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0120"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "netflix"
+      ],
+      "company": "scale.ai",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1121,
+      "reported": "2026-02",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0121",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Budget Router Balance",
+      "topics": [
+        "graphs"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0121"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1122,
+      "reported": "2026-04-10",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0122",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Balance Shard Cache",
+      "topics": [
+        "dp"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0122"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "openai",
+        "coinbase"
+      ],
+      "company": "scale.ai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1123,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0123",
+      "tags": [],
+      "title": "Token Balance Index",
+      "topics": [
+        "concurrency",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0123"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1124,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0124",
+      "tags": [
+        "python"
+      ],
+      "title": "Rate Graph",
+      "topics": [
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0124"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1125,
+      "reported": "2026-09",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0125",
+      "tags": [],
+      "title": "Window Index Cache Budget",
+      "topics": [
+        "concurrency",
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0125"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta",
+        "ibm"
+      ],
+      "company": "meta",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1126,
+      "reported": "2026-03-01",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0126",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Token Replay",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0126"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase",
+        "uber"
+      ],
+      "company": "coinbase",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1127,
+      "reported": "2026-07-13",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0127",
+      "tags": [],
+      "title": "Queue Index",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0127"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1128,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0128",
+      "tags": [],
+      "title": "Budget Cache Balance Token",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0128"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai",
+        "capitalone"
+      ],
+      "company": "openai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1129,
+      "reported": "2026-09",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0129",
+      "tags": [
+        "python"
+      ],
+      "title": "Ledger Balance Graph",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0129"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1130,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0130",
+      "tags": [],
+      "title": "Stream Ledger Merge",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0130"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe",
+        "two-sigma",
+        "uber"
+      ],
+      "company": "stripe",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1131,
+      "reported": "2026-04-20",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0131",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Graph Merge",
+      "topics": [
+        "arrays",
+        "sql"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0131"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1132,
+      "reported": "2026-01-28",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0132",
+      "tags": [
+        "async"
+      ],
+      "title": "Window Graph",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0132"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "coinbase"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1133,
+      "reported": "2026-03-11",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0133",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Shard Stream",
+      "topics": [
+        "dp",
+        "concurrency"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0133"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "coinbase",
+        "scale.ai"
+      ],
+      "company": "ibm",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1134,
+      "reported": "2026-03",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0134",
+      "tags": [],
+      "title": "Replay Rate",
+      "topics": [
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0134"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1135,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0135",
+      "tags": [
+        "async"
+      ],
+      "title": "Budget Ledger",
+      "topics": [
+        "dp",
+        "graphs"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0135"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1136,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0136",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Ledger Shard",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0136"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1137,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0137",
+      "tags": [
+        "async",
+        "python"
+      ],
+      "title": "Balance Token",
+      "topics": [
+        "graphs",
+        "concurrency"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0137"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1138,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0138",
+      "tags": [
+        "async"
+      ],
+      "title": "Queue Window Router",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0138"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma",
+        "scale.ai"
+      ],
+      "company": "two-sigma",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1139,
+      "reported": "2026-02",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0139",
+      "tags": [
+        "async"
+      ],
+      "title": "Replay Budget Balance",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0139"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1140,
+      "reported": "2026-07-25",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0140",
+      "tags": [],
+      "title": "Index Rate Ledger",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0140"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma",
+        "capitalone",
+        "scale.ai"
+      ],
+      "company": "two-sigma",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1141,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0141",
+      "tags": [],
+      "title": "Budget Cache",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0141"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1142,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0142",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Ledger Window Shard Index",
+      "topics": [
+        "dp"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0142"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma",
+        "google"
+      ],
+      "company": "two-sigma",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1143,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0143",
+      "tags": [],
+      "title": "Window Index Router",
+      "topics": [
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0143"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1144,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0144",
+      "tags": [
+        "iterator",
+        "async"
+      ],
+      "title": "Budget Shard Merge",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0144"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1145,
+      "reported": "2026-02",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0145",
+      "tags": [],
+      "title": "Stream Token",
+      "topics": [
+        "concurrency",
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0145"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone",
+        "scale.ai"
+      ],
+      "company": "capitalone",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1146,
+      "reported": "2026-05-24",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0146",
+      "tags": [],
+      "title": "Window Budget Merge Router",
+      "topics": [
+        "concurrency",
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0146"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1147,
+      "reported": "2026-01-19",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0147",
+      "tags": [],
+      "title": "Shard Cache Router",
+      "topics": [
+        "graphs",
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0147"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1148,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0148",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Ledger Balance",
+      "topics": [
+        "sql"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0148"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1149,
+      "reported": "2026-02-12",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0149",
+      "tags": [
+        "async"
+      ],
+      "title": "Cache Replay Token Balance",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0149"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "uber"
+      ],
+      "company": "amazon",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1150,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0150",
+      "tags": [],
+      "title": "Budget Window",
+      "topics": [
+        "concurrency",
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0150"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "capitalone"
+      ],
+      "company": "google",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1151,
+      "reported": "2026-01-23",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0151",
+      "tags": [
+        "python"
+      ],
+      "title": "Rate Window Shard",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0151"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1152,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0152",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Shard Window Stream",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0152"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "lyft"
+      ],
+      "company": "anthropic",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1153,
+      "reported": "2026-05-18",
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0153",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Ledger Rate Budget Replay",
+      "topics": [
+        "arrays"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0153"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1154,
+      "reported": "2026-02-23",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0154",
+      "tags": [
+        "async"
+      ],
+      "title": "Token Shard Budget",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0154"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1155,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0155",
+      "tags": [],
+      "title": "Window Balance Token",
+      "topics": [
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0155"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1156,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0156",
+      "tags": [
+        "python",
+        "iterator"
+      ],
+      "title": "Cache Balance Router",
+      "topics": [
+        "dp",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0156"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe",
+        "two-sigma"
+      ],
+      "company": "stripe",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1157,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0157",
+      "tags": [
+        "async"
+      ],
+      "title": "Queue Budget Merge Shard",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0157"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta",
+        "stripe",
+        "two-sigma"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1158,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0158",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Index Shard Graph Window",
+      "topics": [
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0158"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1159,
+      "reported": "2026-04-06",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0159",
+      "tags": [],
+      "title": "Index Cache",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0159"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "coinbase"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1160,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0160",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Token Rate Cache Budget",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0160"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1161,
+      "reported": "2026-06-23",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0161",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Window Cache Shard",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0161"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1162,
+      "reported": "2026-03-28",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0162",
+      "tags": [],
+      "title": "Merge Graph",
+      "topics": [
+        "dp",
+        "concurrency"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0162"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1163,
+      "reported": "2026-09-12",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0163",
+      "tags": [],
+      "title": "Router Balance",
+      "topics": [
+        "sql",
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0163"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1164,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0164",
+      "tags": [],
+      "title": "Shard Replay",
+      "topics": [
+        "graphs"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0164"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1165,
+      "reported": "2026-08",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0165",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Queue Index",
+      "topics": [
+        "concurrency",
+        "arrays"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0165"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone",
+        "anthropic",
+        "stripe"
+      ],
+      "company": "capitalone",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1166,
+      "reported": "2026-09",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0166",
+      "tags": [
+        "async",
+        "python"
+      ],
+      "title": "Merge Replay Graph",
+      "topics": [
+        "concurrency",
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0166"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1167,
+      "reported": "2026-04-25",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0167",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Queue Window",
+      "topics": [
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0167"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "google",
+        "anthropic"
+      ],
+      "company": "amazon",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1168,
+      "reported": "2026-01",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0168",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Balance Router Rate Window",
+      "topics": [
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0168"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "google"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1169,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0169",
+      "tags": [],
+      "title": "Replay Token Graph Shard",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0169"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1170,
+      "reported": "2026-04",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0170",
+      "tags": [],
+      "title": "Replay Graph Window Queue",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0170"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "netflix"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": false,
+      "number": 1171,
+      "reported": "2026-04",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0171",
+      "tags": [
+        "iterator",
+        "async"
+      ],
+      "title": "Shard Cache",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0171"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1172,
+      "reported": "2026-06",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0172",
+      "tags": [
+        "bfs",
+        "async"
+      ],
+      "title": "Shard Budget",
+      "topics": [
+        "graphs",
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0172"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1173,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0173",
+      "tags": [
+        "iterator",
+        "async"
+      ],
+      "title": "Budget Ledger Index",
+      "topics": [
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0173"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1174,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0174",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Cache Ledger",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0174"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1175,
+      "reported": "2026-09-19",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0175",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Rate Queue",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0175"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1176,
+      "reported": "2026-08-14",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0176",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Window Merge",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0176"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1177,
+      "reported": "2026-09-02",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0177",
+      "tags": [
+        "async"
+      ],
+      "title": "Balance Merge",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0177"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "openai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1178,
+      "reported": "2026-05",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0178",
+      "tags": [],
+      "title": "Merge Index Replay",
+      "topics": [
+        "graphs"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0178"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1179,
+      "reported": "2026-06",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0179",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Token Merge Window",
+      "topics": [
+        "concurrency",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0179"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "two-sigma",
+        "openai"
+      ],
+      "company": "google",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1180,
+      "reported": "2026-04-25",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0180",
+      "tags": [],
+      "title": "Balance Replay",
+      "topics": [
+        "dp"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0180"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber",
+        "coinbase",
+        "capitalone"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1181,
+      "reported": "2026-07-24",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0181",
+      "tags": [
+        "async"
+      ],
+      "title": "Window Stream Token Shard",
+      "topics": [
+        "concurrency",
+        "arrays"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0181"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "anthropic",
+        "stripe"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1182,
+      "reported": "2026-09-14",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0182",
+      "tags": [],
+      "title": "Rate Stream",
+      "topics": [
+        "sql",
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0182"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft",
+        "anthropic",
+        "meta"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1183,
+      "reported": "2026-04-06",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0183",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Rate Budget Router",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0183"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1184,
+      "reported": "2026-08-24",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0184",
+      "tags": [
+        "python"
+      ],
+      "title": "Router Shard",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0184"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1185,
+      "reported": null,
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0185",
+      "tags": [],
+      "title": "Shard Merge",
+      "topics": [
+        "arrays",
+        "graphs"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0185"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1186,
+      "reported": "2026-02-02",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0186",
+      "tags": [],
+      "title": "Budget Router",
+      "topics": [
+        "graphs",
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0186"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe",
+        "uber",
+        "two-sigma"
+      ],
+      "company": "stripe",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1187,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0187",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Shard Cache Budget Queue",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0187"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1188,
+      "reported": "2026-09",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0188",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Graph Merge Balance",
+      "topics": [
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0188"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1189,
+      "reported": "2026-05-10",
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0189",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Queue Token Rate",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0189"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "anthropic",
+        "meta"
+      ],
+      "company": "google",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1190,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0190",
+      "tags": [],
+      "title": "Window Token Queue Ledger",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0190"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1191,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0191",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Index Window",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0191"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone",
+        "coinbase"
+      ],
+      "company": "capitalone",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1192,
+      "reported": "2026-05-14",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0192",
+      "tags": [
+        "async"
+      ],
+      "title": "Index Shard Balance Merge",
+      "topics": [
+        "graphs",
+        "arrays"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0192"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1193,
+      "reported": "2026-03",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0193",
+      "tags": [],
+      "title": "Token Window Merge",
+      "topics": [
+        "graphs",
+        "concurrency"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0193"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber",
+        "openai",
+        "two-sigma"
+      ],
+      "company": "uber",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1194,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0194",
+      "tags": [
+        "iterator",
+        "async"
+      ],
+      "title": "Rate Token Ledger Index",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0194"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai",
+        "google"
+      ],
+      "company": "openai",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1195,
+      "reported": "2026-01-22",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0195",
+      "tags": [
+        "python"
+      ],
+      "title": "Window Ledger Stream",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0195"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe",
+        "netflix",
+        "meta"
+      ],
+      "company": "stripe",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1196,
+      "reported": "2026-06-28",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0196",
+      "tags": [
+        "iterator",
+        "bfs"
+      ],
+      "title": "Budget Merge Graph",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0196"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1197,
+      "reported": "2026-07-16",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0197",
+      "tags": [],
+      "title": "Router Budget Window",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0197"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1198,
+      "reported": null,
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0198",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Replay Budget Window Merge",
+      "topics": [
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0198"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google",
+        "netflix",
+        "meta"
+      ],
+      "company": "google",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1199,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0199",
+      "tags": [
+        "python",
+        "async"
+      ],
+      "title": "Cache Router Budget Merge",
+      "topics": [
+        "dp",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0199"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix",
+        "meta",
+        "two-sigma"
+      ],
+      "company": "netflix",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1200,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0200",
+      "tags": [],
+      "title": "Queue Budget Token",
+      "topics": [
+        "arrays",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0200"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai",
+        "netflix"
+      ],
+      "company": "openai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1201,
+      "reported": "2026-06-10",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0201",
+      "tags": [
+        "python"
+      ],
+      "title": "Queue Window Cache Index",
+      "topics": [
+        "sql",
+        "graphs"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0201"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1202,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0202",
+      "tags": [],
+      "title": "Stream Merge Queue",
+      "topics": [
+        "arrays",
+        "concurrency"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0202"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1203,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0203",
+      "tags": [
+        "async"
+      ],
+      "title": "Merge Cache",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0203"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1204,
+      "reported": "2026-03-08",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0204",
+      "tags": [
+        "python"
+      ],
+      "title": "Ledger Stream Index",
+      "topics": [
+        "graphs",
+        "dp"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0204"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1205,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0205",
+      "tags": [
+        "python"
+      ],
+      "title": "Budget Rate Stream",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0205"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "meta"
+      ],
+      "company": "anthropic",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1206,
+      "reported": "2026-04-21",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0206",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Rate Queue Stream",
+      "topics": [
+        "dp",
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0206"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1207,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0207",
+      "tags": [],
+      "title": "Queue Token",
+      "topics": [
+        "dp",
+        "graphs"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0207"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "capitalone",
+        "stripe",
+        "anthropic"
+      ],
+      "company": "capitalone",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1208,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0208",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Budget Router Queue",
+      "topics": [
+        "dp",
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0208"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1209,
+      "reported": "2026-02-10",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0209",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Queue Balance Merge",
+      "topics": [],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0209"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "coinbase"
+      ],
+      "company": "amazon",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1210,
+      "reported": "2026-02-20",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0210",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Token Stream",
+      "topics": [
+        "arrays",
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0210"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta",
+        "two-sigma",
+        "lyft"
+      ],
+      "company": "meta",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1211,
+      "reported": "2026-02-17",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0211",
+      "tags": [],
+      "title": "Index Cache",
+      "topics": [
+        "graphs",
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0211"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1212,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0212",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Cache Stream",
+      "topics": [
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0212"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic",
+        "two-sigma",
+        "google"
+      ],
+      "company": "anthropic",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1213,
+      "reported": "2026-04-24",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0213",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Queue Shard Ledger",
+      "topics": [
+        "arrays"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0213"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1214,
+      "reported": "2026-01-16",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0214",
+      "tags": [],
+      "title": "Merge Budget",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0214"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "anthropic",
+        "coinbase"
+      ],
+      "company": "scale.ai",
+      "difficulty": null,
+      "hasSolution": false,
+      "number": 1215,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0215",
+      "tags": [
+        "async"
+      ],
+      "title": "Stream Router Shard",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0215"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft",
+        "ibm",
+        "anthropic"
+      ],
+      "company": "lyft",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1216,
+      "reported": null,
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0216",
+      "tags": [
+        "async",
+        "bfs"
+      ],
+      "title": "Ledger Stream Cache",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0216"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "uber"
+      ],
+      "company": "ibm",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1217,
+      "reported": "2026-03-01",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0217",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Index Stream Replay Balance",
+      "topics": [
+        "sql",
+        "concurrency"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0217"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1218,
+      "reported": "2026-03",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0218",
+      "tags": [],
+      "title": "Index Cache Queue",
+      "topics": [
+        "dp",
+        "arrays"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0218"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "google"
+      ],
+      "company": "amazon",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1219,
+      "reported": "2026-01-23",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0219",
+      "tags": [
+        "bfs",
+        "python"
+      ],
+      "title": "Shard Index",
+      "topics": [
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0219"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1220,
+      "reported": "2026-03-15",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0220",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Queue Budget Graph",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0220"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1221,
+      "reported": "2026-02-14",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0221",
+      "tags": [],
+      "title": "Budget Queue",
+      "topics": [
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0221"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1222,
+      "reported": "2026-09-12",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0222",
+      "tags": [],
+      "title": "Rate Shard",
+      "topics": [
+        "dp"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0222"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1223,
+      "reported": "2026-04",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0223",
+      "tags": [
+        "python",
+        "bfs"
+      ],
+      "title": "Budget Router",
+      "topics": [
+        "sql"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0223"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1224,
+      "reported": null,
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0224",
+      "tags": [],
+      "title": "Stream Replay",
+      "topics": [
+        "dp",
+        "sql"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0224"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1225,
+      "reported": "2026-05-26",
+      "rounds": [
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0225",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Window Shard Index Token",
+      "topics": [
+        "sql"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0225"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "ibm",
+        "google",
+        "meta"
+      ],
+      "company": "ibm",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1226,
+      "reported": "2026-07-22",
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0226",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Router Rate",
+      "topics": [
+        "arrays"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0226"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1227,
+      "reported": "2026-06-25",
+      "rounds": [
+        "phone-screen",
+        "onsite"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0227",
+      "tags": [
+        "async",
+        "iterator"
+      ],
+      "title": "Window Shard Replay Budget",
+      "topics": [
+        "concurrency"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0227"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "scale.ai",
+        "openai"
+      ],
+      "company": "scale.ai",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1228,
+      "reported": "2026-09-13",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0228",
+      "tags": [
+        "async"
+      ],
+      "title": "Stream Index Queue",
+      "topics": [
+        "graphs"
+      ],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0228"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "netflix"
+      ],
+      "company": "netflix",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1229,
+      "reported": "2026-02",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0229",
+      "tags": [
+        "async"
+      ],
+      "title": "Token Budget Stream Shard",
+      "topics": [],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0229"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "stripe",
+        "two-sigma",
+        "scale.ai"
+      ],
+      "company": "stripe",
+      "difficulty": "hard",
+      "hasSolution": false,
+      "number": 1230,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0230",
+      "tags": [
+        "iterator",
+        "python"
+      ],
+      "title": "Budget Cache Index",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0230"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "openai"
+      ],
+      "company": "amazon",
+      "difficulty": "medium",
+      "hasSolution": false,
+      "number": 1231,
+      "reported": "2026-06",
+      "rounds": [
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0231",
+      "tags": [],
+      "title": "Budget Ledger",
+      "topics": [
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0231"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "difficulty": null,
+      "hasSolution": true,
+      "number": 1232,
+      "reported": "2026-04-11",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0232",
+      "tags": [
+        "python"
+      ],
+      "title": "Budget Router Token Rate",
+      "topics": [
+        "sql"
+      ],
+      "type": "sql",
+      "typeLabel": "SQL",
+      "url": "https://trueinterview.io/questions/q-0232"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "coinbase",
+        "scale.ai",
+        "openai"
+      ],
+      "company": "coinbase",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1233,
+      "reported": "2026-04-10",
+      "rounds": [
+        "onsite",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0233",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Window Cache Rate Index",
+      "topics": [
+        "graphs"
+      ],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0233"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "amazon",
+        "ibm",
+        "openai"
+      ],
+      "company": "amazon",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1234,
+      "reported": null,
+      "rounds": [
+        "oa",
+        "onsite"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0234",
+      "tags": [
+        "bfs"
+      ],
+      "title": "Queue Replay Merge",
+      "topics": [],
+      "type": "low-level-design",
+      "typeLabel": "Low-Level Design",
+      "url": "https://trueinterview.io/questions/q-0234"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1235,
+      "reported": null,
+      "rounds": [
+        "phone-screen"
+      ],
+      "roundsSource": "reported",
+      "slug": "q-0235",
+      "tags": [],
+      "title": "Shard Window",
+      "topics": [
+        "graphs",
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0235"
+    },
+    {
+      "accessTier": "pro",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "medium",
+      "hasSolution": true,
+      "number": 1236,
+      "reported": "2026-07",
+      "rounds": [
+        "oa",
+        "phone-screen"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0236",
+      "tags": [
+        "python"
+      ],
+      "title": "Graph Balance Rate Queue",
+      "topics": [
+        "concurrency",
+        "dp"
+      ],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0236"
+    },
+    {
+      "accessTier": "insider",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "openai",
+        "netflix"
+      ],
+      "company": "openai",
+      "difficulty": "hard",
+      "hasSolution": true,
+      "number": 1237,
+      "reported": "2026-08",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0237",
+      "tags": [],
+      "title": "Token Budget Ledger Index",
+      "topics": [],
+      "type": "system-design",
+      "typeLabel": "System Design",
+      "url": "https://trueinterview.io/questions/q-0237"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1238,
+      "reported": "2026-06-07",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0238",
+      "tags": [
+        "iterator"
+      ],
+      "title": "Index Router",
+      "topics": [],
+      "type": "ai-coding",
+      "typeLabel": "AI Coding",
+      "url": "https://trueinterview.io/questions/q-0238"
+    },
+    {
+      "accessTier": "free",
+      "addedAt": "2026-07-13T02:41:04.431947+00:00",
+      "companies": [
+        "lyft",
+        "netflix",
+        "openai"
+      ],
+      "company": "lyft",
+      "difficulty": "easy",
+      "hasSolution": true,
+      "number": 1239,
+      "reported": "2026-07-18",
+      "rounds": [
+        "phone-screen",
+        "oa"
+      ],
+      "roundsSource": "derived",
+      "slug": "q-0239",
+      "tags": [],
+      "title": "Balance Graph",
+      "topics": [
+        "sql"
+      ],
+      "type": "algorithm",
+      "typeLabel": "Algorithm",
+      "url": "https://trueinterview.io/questions/q-0239"
+    }
+  ],
+  "source": "https://trueinterview.io"
+}
