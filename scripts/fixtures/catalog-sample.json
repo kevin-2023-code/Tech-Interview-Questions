@@ -9,6 +9,713 @@
     "openai": "OpenAI",
     "uber": "Uber"
   },
+  "guides": [
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "slug": "guide-000",
+      "tags": [],
+      "title": "Pipe | Bracket [x] & <tag> round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-000"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [],
+      "company": null,
+      "slug": "guide-001",
+      "tags": [
+        "presentation",
+        "ml-knowledge"
+      ],
+      "title": "System Design Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-001"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "slug": "guide-002",
+      "tags": [
+        "culture-fit",
+        "leadership",
+        "probability",
+        "bq"
+      ],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-002"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "ibm",
+        "capitalone"
+      ],
+      "company": "ibm",
+      "slug": "guide-003",
+      "tags": [
+        "why-company",
+        "presentation",
+        "bq",
+        "deep-dive"
+      ],
+      "title": "Work Style Assessment",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-003"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "coinbase"
+      ],
+      "company": "coinbase",
+      "slug": "guide-004",
+      "tags": [
+        "leadership",
+        "bq",
+        "ml-knowledge",
+        "why-company"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-004"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "slug": "guide-005",
+      "tags": [
+        "star",
+        "values",
+        "bq",
+        "leadership"
+      ],
+      "title": "Culture & Values Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-005"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "amazon"
+      ],
+      "company": "amazon",
+      "slug": "guide-006",
+      "tags": [
+        "presentation"
+      ],
+      "title": "Work Style Assessment",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-006"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "slug": "guide-007",
+      "tags": [
+        "star",
+        "culture-fit",
+        "why-company"
+      ],
+      "title": "Work Style Assessment",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-007"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "slug": "guide-008",
+      "tags": [
+        "probability",
+        "why-company",
+        "values"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-008"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "slug": "guide-009",
+      "tags": [
+        "probability",
+        "culture-fit"
+      ],
+      "title": "Onsite Coding Loop",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-009"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "amazon",
+        "anthropic"
+      ],
+      "company": "amazon",
+      "slug": "guide-010",
+      "tags": [
+        "star",
+        "leadership",
+        "bq",
+        "why-company"
+      ],
+      "title": "Culture & Values Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-010"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "slug": "guide-011",
+      "tags": [
+        "presentation",
+        "why-company",
+        "ml-knowledge",
+        "culture-fit"
+      ],
+      "title": "Onsite Coding Loop",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-011"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "slug": "guide-012",
+      "tags": [
+        "why-company",
+        "ml-knowledge",
+        "bq",
+        "probability"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-012"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "slug": "guide-013",
+      "tags": [
+        "values",
+        "bq"
+      ],
+      "title": "Onsite Coding Loop",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-013"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "slug": "guide-014",
+      "tags": [
+        "bq",
+        "deep-dive",
+        "leadership",
+        "why-company"
+      ],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-014"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "slug": "guide-015",
+      "tags": [
+        "star",
+        "leadership",
+        "bq",
+        "presentation"
+      ],
+      "title": "Hiring Manager Behavioral",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-015"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "slug": "guide-016",
+      "tags": [],
+      "title": "ML Breadth Orals",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-016"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "slug": "guide-017",
+      "tags": [],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-017"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "slug": "guide-018",
+      "tags": [],
+      "title": "Hiring Manager Behavioral",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-018"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "netflix",
+        "ibm"
+      ],
+      "company": "netflix",
+      "slug": "guide-019",
+      "tags": [
+        "ml-knowledge",
+        "star"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-019"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "anthropic"
+      ],
+      "company": "anthropic",
+      "slug": "guide-020",
+      "tags": [
+        "probability",
+        "why-company"
+      ],
+      "title": "Hiring Manager Behavioral",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-020"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "scale.ai",
+        "amazon"
+      ],
+      "company": "scale.ai",
+      "slug": "guide-021",
+      "tags": [
+        "why-company",
+        "values"
+      ],
+      "title": "ML Breadth Orals",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-021"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "two-sigma"
+      ],
+      "company": "two-sigma",
+      "slug": "guide-022",
+      "tags": [],
+      "title": "Onsite Coding Loop",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-022"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "stripe",
+        "ibm"
+      ],
+      "company": "stripe",
+      "slug": "guide-023",
+      "tags": [
+        "bq",
+        "culture-fit",
+        "probability",
+        "presentation"
+      ],
+      "title": "ML Breadth Orals",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-023"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "stripe"
+      ],
+      "company": "stripe",
+      "slug": "guide-024",
+      "tags": [
+        "star",
+        "why-company",
+        "bq",
+        "presentation"
+      ],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-024"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "slug": "guide-025",
+      "tags": [
+        "presentation"
+      ],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-025"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "slug": "guide-026",
+      "tags": [
+        "ml-knowledge",
+        "leadership",
+        "probability",
+        "deep-dive"
+      ],
+      "title": "Hiring Manager Behavioral",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-026"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai",
+        "google"
+      ],
+      "company": "openai",
+      "slug": "guide-027",
+      "tags": [
+        "leadership",
+        "deep-dive",
+        "probability",
+        "why-company"
+      ],
+      "title": "System Design Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-027"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "slug": "guide-028",
+      "tags": [],
+      "title": "Onsite Coding Loop",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-028"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "slug": "guide-029",
+      "tags": [
+        "why-company",
+        "probability"
+      ],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-029"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "slug": "guide-030",
+      "tags": [],
+      "title": "Recruiter Screen",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-030"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "google",
+        "anthropic"
+      ],
+      "company": "google",
+      "slug": "guide-031",
+      "tags": [],
+      "title": "Recruiter Screen",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-031"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "uber"
+      ],
+      "company": "uber",
+      "slug": "guide-032",
+      "tags": [
+        "values",
+        "presentation",
+        "leadership"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-032"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "meta",
+        "two-sigma"
+      ],
+      "company": "meta",
+      "slug": "guide-033",
+      "tags": [],
+      "title": "Hiring Manager Behavioral",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-033"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "capitalone"
+      ],
+      "company": "capitalone",
+      "slug": "guide-034",
+      "tags": [
+        "probability",
+        "culture-fit"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-034"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "ibm"
+      ],
+      "company": "ibm",
+      "slug": "guide-035",
+      "tags": [
+        "bq"
+      ],
+      "title": "Recruiter Screen",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-035"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "scale.ai"
+      ],
+      "company": "scale.ai",
+      "slug": "guide-036",
+      "tags": [
+        "star",
+        "ml-knowledge",
+        "why-company",
+        "probability"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-036"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "slug": "guide-037",
+      "tags": [
+        "ml-knowledge",
+        "presentation",
+        "deep-dive",
+        "star"
+      ],
+      "title": "System Design Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-037"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "lyft"
+      ],
+      "company": "lyft",
+      "slug": "guide-038",
+      "tags": [
+        "star",
+        "why-company",
+        "leadership",
+        "bq"
+      ],
+      "title": "Technical Deep Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-038"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "slug": "guide-039",
+      "tags": [],
+      "title": "Onsite Coding Loop",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-039"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "meta",
+        "uber"
+      ],
+      "company": "meta",
+      "slug": "guide-040",
+      "tags": [
+        "deep-dive",
+        "ml-knowledge",
+        "presentation"
+      ],
+      "title": "System Design Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-040"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "meta"
+      ],
+      "company": "meta",
+      "slug": "guide-041",
+      "tags": [
+        "star",
+        "probability",
+        "ml-knowledge",
+        "culture-fit"
+      ],
+      "title": "Recruiter Screen",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-041"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "scale.ai",
+        "lyft"
+      ],
+      "company": "scale.ai",
+      "slug": "guide-042",
+      "tags": [
+        "leadership",
+        "ml-knowledge",
+        "bq"
+      ],
+      "title": "Hiring Manager Behavioral",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-042"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai",
+        "lyft"
+      ],
+      "company": "openai",
+      "slug": "guide-043",
+      "tags": [],
+      "title": "ML Breadth Orals",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-043"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "openai"
+      ],
+      "company": "openai",
+      "slug": "guide-044",
+      "tags": [
+        "ml-knowledge",
+        "presentation",
+        "star"
+      ],
+      "title": "Project Deep-Dive",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-044"
+    },
+    {
+      "addedAt": "2026-07-18T21:25:02.689409+00:00",
+      "companies": [
+        "google"
+      ],
+      "company": "google",
+      "slug": "guide-045",
+      "tags": [
+        "deep-dive",
+        "leadership",
+        "ml-knowledge",
+        "why-company"
+      ],
+      "title": "Culture & Values Round",
+      "topics": [],
+      "url": "https://trueinterview.io/study/guide-045"
+    }
+  ],
   "questions": [
     {
       "accessTier": "pro",

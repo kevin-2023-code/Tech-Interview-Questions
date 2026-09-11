@@ -42,7 +42,7 @@ README_TEMPLATE = ROOT / "README.md"
 
 # Directories whose entire contents this script owns. Anything inside them that
 # a render did not produce is deleted; anything outside them is never touched.
-GENERATED_DIRS = ("companies", "formats", "by-month", "data")
+GENERATED_DIRS = ("companies", "formats", "by-month", "guides", "data")
 
 
 def parse_args() -> argparse.Namespace:
@@ -84,9 +84,9 @@ def main() -> int:
             payload = json.loads(args.catalog_file.read_text(encoding="utf-8"))
         else:
             payload = fetch_catalog(args.base_url)
-        questions, api_labels = load_catalog(payload)
+        questions, guides, api_labels = load_catalog(payload)
         template = README_TEMPLATE.read_text(encoding="utf-8")
-        result = build(questions, api_labels, template, today)
+        result = build(questions, guides, api_labels, template, today)
     except (CatalogError, OSError, ValueError, json.JSONDecodeError) as error:
         print(f"sync failed: {error}", file=sys.stderr)
         return 2
@@ -108,7 +108,7 @@ def main() -> int:
     stats = result.stats
     largest_bytes, largest_path = stats["largest_page"]  # type: ignore[misc]
     summary = (
-        f"{stats['questions']:,} questions · {stats['companies']} companies · "
+        f"{stats['questions']:,} questions · {stats['guides']:,} guides "f"({stats['guide_companies']} companies) · {stats['companies']} companies · "
         f"{stats['months']} months · {stats['undated']:,} undated · "
         f"{stats['files']} files · README {stats['readme_bytes']:,} B · "
         f"largest page {largest_bytes:,} B ({largest_path})"
@@ -144,7 +144,12 @@ def main() -> int:
     if args.snapshot_out:
         args.snapshot_out.parent.mkdir(parents=True, exist_ok=True)
         args.snapshot_out.write_text(
-            json.dumps(snapshot(questions, api_labels, args.base_url), ensure_ascii=False, indent=2, sort_keys=True)
+            json.dumps(
+                snapshot(questions, guides, api_labels, args.base_url),
+                ensure_ascii=False,
+                indent=2,
+                sort_keys=True,
+            )
             + "\n",
             encoding="utf-8",
         )

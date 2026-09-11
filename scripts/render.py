@@ -53,7 +53,7 @@ from dataclasses import dataclass
 from datetime import date
 from typing import Callable, Iterable, Sequence
 
-from catalog import Question
+from catalog import Guide, Question
 from labels import (
     DIFFICULTY_ORDER,
     FORMAT_ORDER,
@@ -77,7 +77,7 @@ README_LATEST_ROWS = 100
 
 # Companies named directly in the README's navigation. The rest are one click
 # away in `companies/README.md`, which has no row budget to defend.
-README_TOP_COMPANIES = 48
+README_TOP_COMPANIES = 24
 
 # Rows per generated page before it paginates. Chosen so a page stays a fast
 # load on a phone rather than so it stays under the byte cap — the cap is the
@@ -226,7 +226,10 @@ def columns_for(view: str, api_labels: dict[str, str], today: date) -> list[Colu
         return [company, question, difficulty, reported]
     if view == "month":
         return [company, question, fmt, difficulty]
-    return [company, question, fmt, difficulty, reported]
+    # The README, which is the one table read on a phone more often than not.
+    # Four columns fit ~400px; the fifth (difficulty) wrapped every title onto
+    # three lines to carry one word that is on the company page anyway.
+    return [company, question, fmt, reported]
 
 
 def render_table(questions: Sequence[Question], cols: Sequence[Column]) -> str:
@@ -265,6 +268,7 @@ def render_shard(
     questions: Sequence[Question],
     cols: Sequence[Column],
     today: date,
+    preamble: str = "",
 ) -> dict[str, str]:
     """One shard, paginated at :data:`ROWS_PER_PAGE`.
 
@@ -287,6 +291,11 @@ def render_shard(
             back,
             "",
         ]
+        # The preamble rides on page 1 only. It is reference material about the
+        # shard as a whole, and repeating it above page 4 of a table would push
+        # the rows a reader paged forward to see off the top of the screen.
+        if index == 1 and preamble:
+            body += [preamble, ""]
         if pager:
             body += [pager, ""]
         body += [render_table(chunk, cols), ""]
@@ -294,6 +303,44 @@ def render_shard(
             body += [pager, ""]
         pages[_page_path(base, index)] = "\n".join(body)
     return pages
+
+
+# ── guides ───────────────────────────────────────────────────────────────────
+
+
+def guide_rows(guides: Sequence[Guide], api_labels: dict[str, str], *, with_company: bool) -> str:
+    """A guide table. `with_company` is off on a company page, which is the company."""
+    header = ["Interview round / guide"] + ([] if not with_company else ["Company"]) + ["Topics"]
+    align = [":--"] + ([] if not with_company else [":--"]) + [":--"]
+    lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(align) + " |"]
+    for guide in sort_guides(guides, api_labels):
+        cells = [f"[{escape_cell(guide.title)}]({guide.url})"]
+        if with_company:
+            names = " / ".join(escape_cell(company_label(c, api_labels)) for c in guide.companies)
+            cells.append(f"**{names or '—'}**")
+        # Tags are the only description a guide carries in the API — the prose is
+        # on the page — so they are what tells a reader whether this is the
+        # culture round or the system-design one before they click.
+        cells.append(", ".join(escape_cell(t) for t in guide.tags[:5]) or "—")
+        lines.append("| " + " | ".join(cells) + " |")
+    return "\n".join(lines)
+
+
+def sort_guides(guides: Iterable[Guide], api_labels: dict[str, str]) -> list[Guide]:
+    """Company, then title. Alphabetical, not by date.
+
+    Guides are reference material, not sightings: nobody opens this list asking
+    what changed this week, they open it asking what Google's loop looks like.
+    Sorting by date would shuffle a reference index on every import.
+    """
+    return sorted(
+        guides,
+        key=lambda g: (
+            company_label(g.companies[0], api_labels).casefold() if g.companies else "zzz",
+            g.title.casefold(),
+            g.slug,
+        ),
+    )
 
 
 # ── navigation blocks (injected into README between markers) ─────────────────
@@ -308,22 +355,40 @@ def format_nav(by_format: dict[str, list[Question]]) -> str:
         parts.append(f"[{format_label(fmt)} ({len(rows):,})](formats/{fmt}.md)")
     for fmt in sorted(set(by_format) - set(FORMAT_ORDER)):
         parts.append(f"[{format_label(fmt)} ({len(by_format[fmt]):,})](formats/{fmt}.md)")
-    return "**By format:** " + " · ".join(parts)
+    return " · ".join(parts)
 
 
 def company_nav(companies: Sequence[tuple[str, str, int]]) -> str:
-    """The README's company row: the busiest, then a link to all of them."""
+    """The busiest companies inline, the rest behind a fold.
+
+    A fold rather than a truncation: every company stays one tap away and named
+    on the landing page (which is what the search engines read), but a phone
+    opening this does not scroll through ninety-nine links to reach the table
+    below them. GitHub renders `<details>` in markdown, so this costs nothing.
+    """
+
+    def link(entry: tuple[str, str, int]) -> str:
+        key, name, count = entry
+        return f"[{escape_cell(name)} ({count})](companies/{key}.md)"
+
     shown = companies[:README_TOP_COMPANIES]
-    parts = [f"[{escape_cell(name)} ({count})](companies/{key}.md)" for key, name, count in shown]
-    line = "**By company:** " + " · ".join(parts)
-    if len(companies) > len(shown):
-        line += f" · [**all {len(companies)} companies →**](companies/README.md)"
-    return line
+    line = " · ".join(link(entry) for entry in shown)
+    rest = companies[README_TOP_COMPANIES:]
+    if not rest:
+        return line
+    return (
+        line
+        + "\n\n<details>\n"
+        + f"<summary><b>+ {len(rest)} more companies</b></summary>\n\n"
+        + " · ".join(link(entry) for entry in rest)
+        + "\n\n</details>\n\n"
+        + f"[**Every company, with counts →**](companies/README.md)"
+    )
 
 
 def month_nav(months: Sequence[tuple[str, int]]) -> str:
     parts = [f"[{_month_label(key)} ({count})](by-month/{key}.md)" for key, count in months[:12]]
-    line = "**By month:** " + " · ".join(parts)
+    line = " · ".join(parts)
     if len(months) > 12:
         line += f" · [**every month →**](by-month/README.md)"
     return line

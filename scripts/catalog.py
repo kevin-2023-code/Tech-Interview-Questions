@@ -115,6 +115,26 @@ def parse_catalog_date(value: str | None) -> tuple[date | None, bool]:
     return None, False
 
 
+@dataclass(frozen=True)
+class Guide:
+    """One published guide from the site's Study section.
+
+    These are the "how does this company actually interview" writeups — a
+    recruiter screen, a culture round, a technical deep dive — and they are a
+    different KIND of thing from a question: a question is one task you solve,
+    a guide is the shape of the loop it sits inside. The catalog stores them as
+    an ordinary row of a reading type, which is why they arrive from their own
+    endpoint rather than in the question list.
+    """
+
+    slug: str
+    title: str
+    companies: tuple[str, ...]
+    tags: tuple[str, ...]
+    url: str
+    added_at: str | None
+
+
 def _str_list(value: Any) -> tuple[str, ...]:
     if not isinstance(value, list):
         return ()
@@ -173,6 +193,32 @@ def question_from_payload(item: dict[str, Any]) -> Question:
         url=url,
         added_at=added_at,
         added_date=added_date,
+    )
+
+
+def guide_from_payload(item: dict[str, Any]) -> Guide:
+    """Build a :class:`Guide`, refusing a row with no address."""
+    slug, title, url = item.get("slug"), item.get("title"), item.get("url")
+    if not isinstance(slug, str) or not slug.strip():
+        raise CatalogError(f"guide row has no slug: {item!r:.200}")
+    if not isinstance(title, str) or not title.strip():
+        raise CatalogError(f"guide row {slug} has no title")
+    if not isinstance(url, str) or not url.startswith("https://"):
+        raise CatalogError(f"guide row {slug} has no absolute url")
+
+    primary = item.get("company")
+    companies = _str_list(item.get("companies"))
+    if isinstance(primary, str) and primary.strip() and primary.strip() not in companies:
+        companies = (primary.strip(),) + companies
+
+    added_at = item.get("addedAt") if isinstance(item.get("addedAt"), str) else None
+    return Guide(
+        slug=slug.strip(),
+        title=" ".join(title.split()),
+        companies=companies,
+        tags=_str_list(item.get("tags")),
+        url=url,
+        added_at=added_at,
     )
 
 
@@ -264,17 +310,72 @@ def fetch_company_labels(base_url: str, *, timeout: int = 30) -> dict[str, str]:
     return labels
 
 
+def fetch_guides(base_url: str, *, timeout: int = 30) -> list[dict[str, Any]]:
+    """Every published Study guide, as raw API objects.
+
+    Pages like `fetch_questions`, with one extra job: it tolerates BOTH shapes
+    `/api/v1/articles` can answer with, because this repository and that
+    endpoint's paging shipped separately and either can be deployed first.
+
+      * The paged shape — `{articles, page: {…, hasMore}}` — is followed to the
+        end, and the row count is checked against `page.total` exactly as the
+        question read is.
+      * The older shape — `{articles, total}` — has no offset to page with, and
+        its `total` is the length of the slice it just returned rather than the
+        size of the Study section, so it cannot even report its own truncation.
+        A full page under that shape therefore means "there are probably more
+        and I cannot reach them", and that RAISES: a company page silently
+        missing its interview-process guides is the one failure these pages
+        exist to prevent, and it would look exactly like a company that has
+        none. A short page is the whole set and is returned.
+    """
+    rows: list[dict[str, Any]] = []
+    page = 1
+    total: int | None = None
+    while page <= MAX_PAGES:
+        data = _get_json(f"{base_url}/api/v1/articles?page={page}&limit={PAGE_LIMIT}", timeout)
+        articles = data.get("articles")
+        if not isinstance(articles, list):
+            raise CatalogError("articles response has no articles array")
+        rows.extend(item for item in articles if isinstance(item, dict))
+
+        page_info = data.get("page")
+        if not isinstance(page_info, dict):
+            if len(articles) >= PAGE_LIMIT:
+                raise CatalogError(
+                    f"/api/v1/articles returned a full page of {PAGE_LIMIT} with no `page` object: "
+                    "this deployment predates article paging, so the rest of the Study section "
+                    "cannot be read. Deploy the paged listArticles first."
+                )
+            return rows
+        if total is None and isinstance(page_info.get("total"), int):
+            total = page_info["total"]
+        if not page_info.get("hasMore"):
+            break
+        if not articles:
+            raise CatalogError(f"articles page {page} was empty but claimed more")
+        page += 1
+        time.sleep(REQUEST_PAUSE_SECONDS)
+    else:
+        raise CatalogError(f"articles did not terminate within {MAX_PAGES} pages")
+
+    if total is not None and len(rows) != total:
+        raise CatalogError(f"read {len(rows)} guides but the catalog reports {total}")
+    return rows
+
+
 def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dict[str, Any]:
     """The whole snapshot this repository is rendered from."""
     base = base_url.rstrip("/")
     return {
         "source": base,
         "questions": fetch_questions(base, timeout=timeout),
+        "guides": fetch_guides(base, timeout=timeout),
         "companyLabels": fetch_company_labels(base, timeout=timeout),
     }
 
 
-def load_catalog(payload: Any) -> tuple[list[Question], dict[str, str]]:
+def load_catalog(payload: Any) -> tuple[list[Question], list[Guide], dict[str, str]]:
     """Validate a snapshot and turn it into records."""
     if not isinstance(payload, dict):
         raise CatalogError("catalog snapshot must be a JSON object")
@@ -290,14 +391,46 @@ def load_catalog(payload: Any) -> tuple[list[Question], dict[str, str]]:
         if question.slug in seen:
             raise CatalogError(f"catalog snapshot has duplicate slug {question.slug!r}")
         seen.add(question.slug)
-    return questions, {str(k): str(v) for k, v in labels.items() if isinstance(v, str)}
+
+    # Guides are OPTIONAL in a snapshot, unlike questions. A deployment with an
+    # empty Study section is a normal state; a deployment with no questions is
+    # a failed read. The two must not be refused the same way.
+    raw_guides = payload.get("guides")
+    guides = (
+        [guide_from_payload(item) for item in raw_guides if isinstance(item, dict)]
+        if isinstance(raw_guides, list)
+        else []
+    )
+    seen_guides: set[str] = set()
+    for guide in guides:
+        if guide.slug in seen_guides:
+            raise CatalogError(f"catalog snapshot has duplicate guide slug {guide.slug!r}")
+        seen_guides.add(guide.slug)
+
+    return questions, guides, {str(k): str(v) for k, v in labels.items() if isinstance(v, str)}
 
 
-def snapshot(questions: Iterable[Question], labels: dict[str, str], source: str) -> dict[str, Any]:
+def snapshot(
+    questions: Iterable[Question],
+    guides: Iterable[Guide],
+    labels: dict[str, str],
+    source: str,
+) -> dict[str, Any]:
     """Round-trip a set of records back into the snapshot shape (for --snapshot-out)."""
     return {
         "source": source,
         "companyLabels": labels,
+        "guides": [
+            {
+                "slug": g.slug,
+                "title": g.title,
+                "companies": list(g.companies),
+                "tags": list(g.tags),
+                "url": g.url,
+                "addedAt": g.added_at,
+            }
+            for g in guides
+        ],
         "questions": [
             {
                 "slug": q.slug,

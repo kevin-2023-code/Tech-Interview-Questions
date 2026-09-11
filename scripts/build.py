@@ -11,10 +11,12 @@ from __future__ import annotations
 from datetime import date
 from typing import Sequence
 
-from catalog import Question
+from catalog import Guide, Question
 from labels import FORMAT_ORDER, company_key, company_label, format_label
 from render import (
     GENERATED_NOTICE,
+    guide_rows,
+    sort_guides,
     GITHUB_RENDER_LIMIT,
     MONTH_NAMES,
     PAGE_MAX_BYTES,
@@ -79,13 +81,31 @@ def group_by_month(questions: Sequence[Question]) -> dict[str, list[Question]]:
     return groups
 
 
+def group_guides_by_company(guides: Sequence[Guide], api_labels: dict[str, str]):
+    """Company slug → its interview-process guides.
+
+    Same multi-company rule as questions: a guide tagged at two employers is
+    filed under both, because "how does Robinhood run its recruiter screen" is
+    the question being asked and the answer is the same document either way.
+    """
+    groups: dict[str, list[Guide]] = {}
+    for guide in guides:
+        for company in guide.companies:
+            key = company_key(company, api_labels)
+            if key:
+                groups.setdefault(key, []).append(guide)
+    return groups
+
+
 def build(
     questions: Sequence[Question],
+    guides: Sequence[Guide],
     api_labels: dict[str, str],
     readme_template: str,
     today: date,
 ) -> RenderResult:
     ordered = sort_questions(questions, today)
+    guides_by_company = group_guides_by_company(guides, api_labels)
     by_company = group_by_company(ordered, api_labels)
     by_format = group_by_format(ordered)
     by_month = group_by_month(ordered)
@@ -100,19 +120,33 @@ def build(
 
     # ── company pages ────────────────────────────────────────────────────────
     for key, (name, rows) in by_company.items():
+        # The interview PROCESS goes above the questions, because it is the
+        # thing you need first: which rounds this company runs, and what each
+        # one is for. A question is what you practise once you know that.
+        company_guides = guides_by_company.get(key, [])
+        process = ""
+        if company_guides:
+            process = (
+                f"### How {escape_cell(name)} interviews\n\n"
+                f"**{len(company_guides)} round-by-round guides.**\n\n"
+                + guide_rows(company_guides, api_labels, with_company=False)
+                + "\n\n### Questions"
+            )
         files.update(
             render_shard(
                 base=f"companies/{key}",
                 title=f"{name} interview & OA questions",
                 lede=(
-                    f"**{len(rows):,} questions** reported at {escape_cell(name)}. "
-                    f"Every title opens the full problem, with a runnable workspace and a "
+                    f"**{len(rows):,} questions** reported at {escape_cell(name)}"
+                    + (f" · **{len(company_guides)} interview guides**" if company_guides else "")
+                    + f". Every title opens the full problem, with a runnable workspace and a "
                     f"server-judged verdict, on [TrueInterview]({SITE}/problems/company/{key})."
                 ),
                 back="[← All companies](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("company", api_labels, today),
                 today=today,
+                preamble=process,
             )
         )
 
@@ -217,6 +251,48 @@ def build(
         ]
     )
 
+    # ── the guides index ─────────────────────────────────────────────────────
+    if guides:
+        ordered_guides = sort_guides(guides, api_labels)
+        with_company = [g for g in ordered_guides if g.companies]
+        unattributed = [g for g in ordered_guides if not g.companies]
+        body = [
+            GENERATED_NOTICE,
+            "",
+            "# How each company interviews",
+            "",
+            f"**{len(guides):,} round-by-round guides** across "
+            f"**{len(guides_by_company)} companies** — what each stage of the loop actually is: "
+            "the recruiter screen, the hiring-manager round, the culture interview, the "
+            "project deep-dive. Read one before you practise for it.",
+            "",
+            "[← Question bank](../README.md)",
+            "",
+        ]
+        for key in sorted(guides_by_company, key=lambda k: (-len(guides_by_company[k]), k)):
+            rows = guides_by_company[key]
+            name = next(
+                (company_label(c, api_labels) for g in rows for c in g.companies
+                 if company_key(c, api_labels) == key),
+                key,
+            )
+            body += [
+                f"### {escape_cell(name)}",
+                "",
+                f"<sub>{len(rows)} guides · [questions at {escape_cell(name)}](../companies/{key}.md)</sub>",
+                "",
+                guide_rows(rows, api_labels, with_company=False),
+                "",
+            ]
+        if unattributed:
+            body += [
+                "### Not tied to one company",
+                "",
+                guide_rows(unattributed, api_labels, with_company=False),
+                "",
+            ]
+        files["guides/README.md"] = "\n".join(body)
+
     # ── data exports ─────────────────────────────────────────────────────────
     files["data/questions.jsonl"] = render_jsonl(ordered, api_labels)
     files["data/questions.csv"] = render_csv(ordered, api_labels)
@@ -234,11 +310,21 @@ def build(
     readme = inject(
         readme,
         "gen:stats",
-        f"**{len(ordered):,} questions** · **{len(company_rows)} companies** · "
-        f"**{len(format_keys)} formats** · synced from "
+        f"**{len(ordered):,} questions** · **{len(guides):,} interview guides** · "
+        f"**{len(company_rows)} companies** · **{len(format_keys)} formats** · synced from "
         f"[the live catalog]({SITE}/developers/api) every hour",
     )
     readme = inject(readme, "gen:formats", format_nav(by_format))
+    readme = inject(
+        readme,
+        "gen:guides",
+        (
+            f"**Interview process:** [How {len(guides_by_company)} companies interview, "
+            f"round by round ({len(guides):,} guides)](guides/README.md)"
+        )
+        if guides
+        else "_No interview guides published yet._",
+    )
     readme = inject(readme, "gen:companies", company_nav(company_rows))
     readme = inject(readme, "gen:months", month_nav([(key, len(by_month[key])) for key in month_keys]))
     readme = inject(
@@ -259,6 +345,8 @@ def build(
     stats = {
         "future_dated": future_dated,
         "questions": len(ordered),
+        "guides": len(guides),
+        "guide_companies": len(guides_by_company),
         "companies": len(company_rows),
         "formats": len(format_keys),
         "months": len(month_keys),

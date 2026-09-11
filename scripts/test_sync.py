@@ -42,9 +42,9 @@ def load_fixture():
 
 
 def render():
-    questions, labels = load_fixture()
+    questions, guides, labels = load_fixture()
     template = (ROOT / "README.md").read_text(encoding="utf-8")
-    return build(questions, labels, template, TODAY)
+    return build(questions, guides, labels, template, TODAY)
 
 
 class TestDates(unittest.TestCase):
@@ -115,7 +115,7 @@ class TestEscaping(unittest.TestCase):
 
 class TestSorting(unittest.TestCase):
     def test_three_buckets_real_then_future_then_undated(self):
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         ordered = sort_questions(questions, TODAY)
         buckets = [
             2 if q.reported_date is None else (1 if q.reported_date > TODAY else 0)
@@ -125,7 +125,7 @@ class TestSorting(unittest.TestCase):
         self.assertEqual(set(buckets), {0, 1, 2}, "the fixture must exercise all three")
 
     def test_real_sightings_are_newest_first(self):
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         ordered = sort_questions(questions, TODAY)
         real = [q.reported_date for q in ordered if q.reported_date and q.reported_date <= TODAY]
         self.assertEqual(real, sorted(real, reverse=True))
@@ -133,14 +133,14 @@ class TestSorting(unittest.TestCase):
     def test_a_future_date_never_takes_the_top_row(self):
         # The most valuable slot in the repository must not be awarded to
         # whichever row is most wrong.
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         ordered = sort_questions(questions, TODAY)
         self.assertLessEqual(ordered[0].reported_date, TODAY)
 
     def test_order_is_total_so_reruns_do_not_churn(self):
         # Two rows that compared equal would be free to swap between syncs, and
         # every swap is a committed diff on a file nobody changed.
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         from render import _sort_key
 
         keys = [_sort_key(q, TODAY) for q in questions]
@@ -174,7 +174,7 @@ class TestPagination(unittest.TestCase):
     def test_a_shard_over_the_row_cap_paginates(self):
         from render import columns_for, render_shard
 
-        questions, labels = load_fixture()
+        questions, _, labels = load_fixture()
         pages = render_shard(
             base="formats/algorithm",
             title="t",
@@ -193,7 +193,7 @@ class TestPagination(unittest.TestCase):
         # it had — a renamed page breaks every link anyone ever shared.
         from render import columns_for, render_shard
 
-        questions, labels = load_fixture()
+        questions, _, labels = load_fixture()
         pages = render_shard(
             base="companies/meta",
             title="t",
@@ -208,7 +208,7 @@ class TestPagination(unittest.TestCase):
 
 class TestMonthPages(unittest.TestCase):
     def test_undated_questions_are_absent_from_by_month(self):
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         undated = [q for q in questions if q.reported_date is None]
         self.assertTrue(undated, "the fixture must contain undated rows")
         filed = {q.slug for rows in group_by_month(questions).values() for q in rows}
@@ -219,7 +219,7 @@ class TestMonthPages(unittest.TestCase):
         # A quiet omission is the failure mode here: the count has to be on the
         # page, or the monthly view silently under-reports the bank.
         result = render()
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         undated = sum(1 for q in questions if q.reported_date is None)
         self.assertIn(f"**{undated:,}** carry no sighting date", result.files["by-month/README.md"])
 
@@ -312,14 +312,14 @@ class TestDeterminism(unittest.TestCase):
 
     def test_csv_row_count_matches_the_bank(self):
         result = render()
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         self.assertEqual(len(result.files["data/questions.csv"].splitlines()) - 1, len(questions))
 
 
 class TestCoverage(unittest.TestCase):
     def test_every_question_reaches_a_company_page_and_a_format_page(self):
         result = render()
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         markdown = "\n".join(
             content for path, content in result.files.items()
             if path.startswith(("companies/", "formats/"))
@@ -329,7 +329,7 @@ class TestCoverage(unittest.TestCase):
 
     def test_a_question_at_several_companies_is_on_each_of_their_pages(self):
         result = render()
-        questions, labels = load_fixture()
+        questions, _, labels = load_fixture()
         multi = next(q for q in questions if len(q.companies) > 1)
         for company in multi.companies:
             page = result.files[f"companies/{company_key(company, labels)}.md"]
@@ -353,7 +353,7 @@ class TestFutureDates(unittest.TestCase):
 
     def test_a_future_sighting_is_still_never_marked_fresh(self):
         result = render()
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         future = {q.slug for q in questions if q.reported_date and q.reported_date > TODAY}
         for path, content in result.files.items():
             if not path.endswith(".md"):
@@ -369,7 +369,7 @@ class TestFutureDatesInTheIndex(unittest.TestCase):
         # Caught a real one on the first live sync: a catalog row dated 2126 led
         # "Latest sightings" until this rule existed.
         result = render()
-        questions, _ = load_fixture()
+        questions, _, _ = load_fixture()
         future = {q.slug for q in questions if q.reported_date and q.reported_date > TODAY}
         self.assertTrue(future)
         readme = result.files["README.md"]
@@ -381,7 +381,109 @@ class TestFutureDatesInTheIndex(unittest.TestCase):
         # Excluded from the newest list, never from the bank: dropping the row
         # would hide the error from the only people who can fix it.
         result = render()
-        questions, labels = load_fixture()
+        questions, _, labels = load_fixture()
         future = next(q for q in questions if q.reported_date and q.reported_date > TODAY)
         page = result.files[f"companies/{company_key(future.companies[0], labels)}.md"]
         self.assertIn(future.url, page)
+
+
+class TestGuides(unittest.TestCase):
+    def test_the_guides_index_lists_every_guide(self):
+        result = render()
+        _, guides, _ = load_fixture()
+        index = result.files["guides/README.md"]
+        for guide in guides:
+            self.assertIn(guide.url, index, guide.slug)
+
+    def test_a_company_page_carries_its_guides_above_its_questions(self):
+        # The order is the point: which rounds this company runs comes first,
+        # because a question is what you practise once you know that.
+        result = render()
+        _, guides, labels = load_fixture()
+        guide = next(g for g in guides if g.companies)
+        key = company_key(guide.companies[0], labels)
+        page = result.files[f"companies/{key}.md"]
+        self.assertIn(guide.url, page)
+        self.assertLess(page.index(guide.url), page.index("| Question |"))
+
+    def test_a_multi_company_guide_is_on_each_of_their_pages(self):
+        result = render()
+        _, guides, labels = load_fixture()
+        multi = next((g for g in guides if len(g.companies) > 1), None)
+        self.assertIsNotNone(multi, "the fixture should carry a two-company guide")
+        for company in multi.companies:
+            page = result.files[f"companies/{company_key(company, labels)}.md"]
+            self.assertIn(multi.url, page)
+
+    def test_an_unattributed_guide_is_still_published(self):
+        # It belongs to no company page, so the index is its only home. Dropping
+        # it would lose a document with no error anywhere.
+        result = render()
+        _, guides, _ = load_fixture()
+        orphan = next(g for g in guides if not g.companies)
+        self.assertIn(orphan.url, result.files["guides/README.md"])
+        self.assertIn("Not tied to one company", result.files["guides/README.md"])
+
+    def test_a_company_with_no_guides_renders_no_empty_block(self):
+        result = render()
+        _, guides, labels = load_fixture()
+        have = {company_key(c, labels) for g in guides for c in g.companies}
+        questions, _, _ = load_fixture()
+        all_companies = {company_key(c, labels) for q in questions for c in q.companies}
+        without = all_companies - have
+        for key in list(without)[:5]:
+            self.assertNotIn("How ", result.files[f"companies/{key}.md"].split("| Question |")[0])
+
+    def test_guide_titles_are_escaped_like_question_titles(self):
+        result = render()
+        self.assertTrue(any("&#124;" in c for c in result.files.values()))
+
+    def test_a_catalog_with_no_guides_still_renders(self):
+        # An empty Study section is a normal deployment state, not a failed read.
+        questions, _, labels = load_fixture()
+        template = (ROOT / "README.md").read_text(encoding="utf-8")
+        result = build(questions, [], labels, template, TODAY)
+        self.assertNotIn("guides/README.md", result.files)
+        self.assertIn("No interview guides published yet", result.files["README.md"])
+
+
+class TestReadmeShape(unittest.TestCase):
+    def test_the_latest_table_is_four_columns_for_a_phone(self):
+        readme = render().files["README.md"]
+        latest = readme.split("<!-- gen:latest:start -->")[1].split("<!-- gen:latest:end -->")[0]
+        header = next(line for line in latest.splitlines() if line.startswith("|"))
+        self.assertEqual(header.count("|"), 5, f"expected 4 columns, got: {header}")
+
+    def test_the_company_nav_folds_the_tail_when_there_is_one(self):
+        # Tested on the function rather than the fixture: production carries ~99
+        # companies and the fixture 14, so only a direct call exercises both
+        # branches — and the no-fold branch is the one a fixture-only test would
+        # silently be asserting nothing about.
+        from render import README_TOP_COMPANIES, company_nav
+
+        many = [(f"c{i}", f"Company {i}", 100 - i) for i in range(README_TOP_COMPANIES + 9)]
+        folded = company_nav(many)
+        self.assertIn("<details>", folded)
+        self.assertIn("+ 9 more companies", folded)
+        self.assertIn("Every company, with counts", folded)
+        # Every company is still NAMED on the landing page — a fold, not a cut.
+        for _, name, _ in many:
+            self.assertIn(name, folded)
+
+    def test_the_company_nav_does_not_fold_a_short_list(self):
+        from render import company_nav
+
+        few = [("a", "Alpha", 3), ("b", "Beta", 2)]
+        self.assertNotIn("<details>", company_nav(few))
+
+    def test_the_fixtures_company_nav_is_short_enough_not_to_fold(self):
+        readme = render().files["README.md"]
+        nav = readme.split("<!-- gen:companies:start -->")[1].split("<!-- gen:companies:end -->")[0]
+        self.assertNotIn("<details>", nav)
+
+    def test_no_self_congratulation_section(self):
+        # Removed deliberately: the argument for the layout belongs in DESIGN.md,
+        # not on the landing page of a repository people open to find questions.
+        readme = render().files["README.md"]
+        self.assertNotIn("Why this repo loads fast", readme)
+        self.assertNotIn("One-giant-README", readme)
