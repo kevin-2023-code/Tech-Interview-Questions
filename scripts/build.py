@@ -11,7 +11,7 @@ from __future__ import annotations
 from datetime import date
 from typing import Sequence
 
-from catalog import Guide, Question
+from catalog import Catalog, Guide, Question
 from labels import FORMAT_ORDER, company_key, company_label, format_label
 from render import (
     GENERATED_NOTICE,
@@ -97,13 +97,8 @@ def group_guides_by_company(guides: Sequence[Guide], api_labels: dict[str, str])
     return groups
 
 
-def build(
-    questions: Sequence[Question],
-    guides: Sequence[Guide],
-    api_labels: dict[str, str],
-    readme_template: str,
-    today: date,
-) -> RenderResult:
+def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
+    questions, guides, api_labels = catalog.questions, catalog.guides, catalog.labels
     ordered = sort_questions(questions, today)
     guides_by_company = group_guides_by_company(guides, api_labels)
     by_company = group_by_company(ordered, api_labels)
@@ -269,6 +264,18 @@ def build(
             "[← Question bank](../README.md)",
             "",
         ]
+        if not catalog.guides_complete:
+            # On the page, not only in a log. A short list of guides looks
+            # exactly like a site that publishes few of them, and the only
+            # person who can tell the difference is the one reading this.
+            body += [
+                "> **This list is incomplete.** The catalog API can only hand over one page of "
+                "guides, so these are the first "
+                f"{len(guides):,} and there are more on "
+                f"[the Study section]({SITE}/study). It fills in automatically once the API "
+                "can page.",
+                "",
+            ]
         for key in sorted(guides_by_company, key=lambda k: (-len(guides_by_company[k]), k)):
             rows = guides_by_company[key]
             name = next(
@@ -321,6 +328,7 @@ def build(
         (
             f"**Interview process:** [How {len(guides_by_company)} companies interview, "
             f"round by round ({len(guides):,} guides)](guides/README.md)"
+            + ("" if catalog.guides_complete else " — _partial, see the note there_")
         )
         if guides
         else "_No interview guides published yet._",
@@ -346,6 +354,7 @@ def build(
         "future_dated": future_dated,
         "questions": len(ordered),
         "guides": len(guides),
+        "guides_complete": catalog.guides_complete,
         "guide_companies": len(guides_by_company),
         "companies": len(company_rows),
         "formats": len(format_keys),

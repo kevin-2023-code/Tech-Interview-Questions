@@ -11,6 +11,7 @@ whose reason is not written down is a test the next person deletes.
 
 from __future__ import annotations
 
+import dataclasses
 import json
 import sys
 import unittest
@@ -41,10 +42,9 @@ def load_fixture():
     return load_catalog(json.loads(FIXTURE.read_text(encoding="utf-8")))
 
 
-def render():
-    questions, guides, labels = load_fixture()
+def render(catalog=None):
     template = (ROOT / "README.md").read_text(encoding="utf-8")
-    return build(questions, guides, labels, template, TODAY)
+    return build(catalog or load_fixture(), template, TODAY)
 
 
 class TestDates(unittest.TestCase):
@@ -115,7 +115,7 @@ class TestEscaping(unittest.TestCase):
 
 class TestSorting(unittest.TestCase):
     def test_three_buckets_real_then_future_then_undated(self):
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         ordered = sort_questions(questions, TODAY)
         buckets = [
             2 if q.reported_date is None else (1 if q.reported_date > TODAY else 0)
@@ -125,7 +125,7 @@ class TestSorting(unittest.TestCase):
         self.assertEqual(set(buckets), {0, 1, 2}, "the fixture must exercise all three")
 
     def test_real_sightings_are_newest_first(self):
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         ordered = sort_questions(questions, TODAY)
         real = [q.reported_date for q in ordered if q.reported_date and q.reported_date <= TODAY]
         self.assertEqual(real, sorted(real, reverse=True))
@@ -133,14 +133,14 @@ class TestSorting(unittest.TestCase):
     def test_a_future_date_never_takes_the_top_row(self):
         # The most valuable slot in the repository must not be awarded to
         # whichever row is most wrong.
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         ordered = sort_questions(questions, TODAY)
         self.assertLessEqual(ordered[0].reported_date, TODAY)
 
     def test_order_is_total_so_reruns_do_not_churn(self):
         # Two rows that compared equal would be free to swap between syncs, and
         # every swap is a committed diff on a file nobody changed.
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         from render import _sort_key
 
         keys = [_sort_key(q, TODAY) for q in questions]
@@ -174,7 +174,7 @@ class TestPagination(unittest.TestCase):
     def test_a_shard_over_the_row_cap_paginates(self):
         from render import columns_for, render_shard
 
-        questions, _, labels = load_fixture()
+        c = load_fixture(); questions, labels = c.questions, c.labels
         pages = render_shard(
             base="formats/algorithm",
             title="t",
@@ -193,7 +193,7 @@ class TestPagination(unittest.TestCase):
         # it had — a renamed page breaks every link anyone ever shared.
         from render import columns_for, render_shard
 
-        questions, _, labels = load_fixture()
+        c = load_fixture(); questions, labels = c.questions, c.labels
         pages = render_shard(
             base="companies/meta",
             title="t",
@@ -208,7 +208,7 @@ class TestPagination(unittest.TestCase):
 
 class TestMonthPages(unittest.TestCase):
     def test_undated_questions_are_absent_from_by_month(self):
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         undated = [q for q in questions if q.reported_date is None]
         self.assertTrue(undated, "the fixture must contain undated rows")
         filed = {q.slug for rows in group_by_month(questions).values() for q in rows}
@@ -219,7 +219,7 @@ class TestMonthPages(unittest.TestCase):
         # A quiet omission is the failure mode here: the count has to be on the
         # page, or the monthly view silently under-reports the bank.
         result = render()
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         undated = sum(1 for q in questions if q.reported_date is None)
         self.assertIn(f"**{undated:,}** carry no sighting date", result.files["by-month/README.md"])
 
@@ -312,14 +312,14 @@ class TestDeterminism(unittest.TestCase):
 
     def test_csv_row_count_matches_the_bank(self):
         result = render()
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         self.assertEqual(len(result.files["data/questions.csv"].splitlines()) - 1, len(questions))
 
 
 class TestCoverage(unittest.TestCase):
     def test_every_question_reaches_a_company_page_and_a_format_page(self):
         result = render()
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         markdown = "\n".join(
             content for path, content in result.files.items()
             if path.startswith(("companies/", "formats/"))
@@ -329,7 +329,7 @@ class TestCoverage(unittest.TestCase):
 
     def test_a_question_at_several_companies_is_on_each_of_their_pages(self):
         result = render()
-        questions, _, labels = load_fixture()
+        c = load_fixture(); questions, labels = c.questions, c.labels
         multi = next(q for q in questions if len(q.companies) > 1)
         for company in multi.companies:
             page = result.files[f"companies/{company_key(company, labels)}.md"]
@@ -353,7 +353,7 @@ class TestFutureDates(unittest.TestCase):
 
     def test_a_future_sighting_is_still_never_marked_fresh(self):
         result = render()
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         future = {q.slug for q in questions if q.reported_date and q.reported_date > TODAY}
         for path, content in result.files.items():
             if not path.endswith(".md"):
@@ -369,7 +369,7 @@ class TestFutureDatesInTheIndex(unittest.TestCase):
         # Caught a real one on the first live sync: a catalog row dated 2126 led
         # "Latest sightings" until this rule existed.
         result = render()
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         future = {q.slug for q in questions if q.reported_date and q.reported_date > TODAY}
         self.assertTrue(future)
         readme = result.files["README.md"]
@@ -381,7 +381,7 @@ class TestFutureDatesInTheIndex(unittest.TestCase):
         # Excluded from the newest list, never from the bank: dropping the row
         # would hide the error from the only people who can fix it.
         result = render()
-        questions, _, labels = load_fixture()
+        c = load_fixture(); questions, labels = c.questions, c.labels
         future = next(q for q in questions if q.reported_date and q.reported_date > TODAY)
         page = result.files[f"companies/{company_key(future.companies[0], labels)}.md"]
         self.assertIn(future.url, page)
@@ -390,7 +390,7 @@ class TestFutureDatesInTheIndex(unittest.TestCase):
 class TestGuides(unittest.TestCase):
     def test_the_guides_index_lists_every_guide(self):
         result = render()
-        _, guides, _ = load_fixture()
+        guides = load_fixture().guides
         index = result.files["guides/README.md"]
         for guide in guides:
             self.assertIn(guide.url, index, guide.slug)
@@ -399,7 +399,7 @@ class TestGuides(unittest.TestCase):
         # The order is the point: which rounds this company runs comes first,
         # because a question is what you practise once you know that.
         result = render()
-        _, guides, labels = load_fixture()
+        c = load_fixture(); guides, labels = c.guides, c.labels
         guide = next(g for g in guides if g.companies)
         key = company_key(guide.companies[0], labels)
         page = result.files[f"companies/{key}.md"]
@@ -408,7 +408,7 @@ class TestGuides(unittest.TestCase):
 
     def test_a_multi_company_guide_is_on_each_of_their_pages(self):
         result = render()
-        _, guides, labels = load_fixture()
+        c = load_fixture(); guides, labels = c.guides, c.labels
         multi = next((g for g in guides if len(g.companies) > 1), None)
         self.assertIsNotNone(multi, "the fixture should carry a two-company guide")
         for company in multi.companies:
@@ -419,16 +419,16 @@ class TestGuides(unittest.TestCase):
         # It belongs to no company page, so the index is its only home. Dropping
         # it would lose a document with no error anywhere.
         result = render()
-        _, guides, _ = load_fixture()
+        guides = load_fixture().guides
         orphan = next(g for g in guides if not g.companies)
         self.assertIn(orphan.url, result.files["guides/README.md"])
         self.assertIn("Not tied to one company", result.files["guides/README.md"])
 
     def test_a_company_with_no_guides_renders_no_empty_block(self):
         result = render()
-        _, guides, labels = load_fixture()
+        c = load_fixture(); guides, labels = c.guides, c.labels
         have = {company_key(c, labels) for g in guides for c in g.companies}
-        questions, _, _ = load_fixture()
+        questions = load_fixture().questions
         all_companies = {company_key(c, labels) for q in questions for c in q.companies}
         without = all_companies - have
         for key in list(without)[:5]:
@@ -440,11 +440,23 @@ class TestGuides(unittest.TestCase):
 
     def test_a_catalog_with_no_guides_still_renders(self):
         # An empty Study section is a normal deployment state, not a failed read.
-        questions, _, labels = load_fixture()
-        template = (ROOT / "README.md").read_text(encoding="utf-8")
-        result = build(questions, [], labels, template, TODAY)
+        result = render(dataclasses.replace(load_fixture(), guides=[]))
         self.assertNotIn("guides/README.md", result.files)
         self.assertIn("No interview guides published yet", result.files["README.md"])
+
+    def test_an_incomplete_guide_read_says_so_on_the_page(self):
+        # The bug this replaced: raising here stopped the WHOLE sync — all two
+        # thousand questions with it — because one endpoint could not page yet.
+        # Partial is fine; silent is not, because a short list of guides looks
+        # exactly like a site that publishes few of them.
+        result = render(dataclasses.replace(load_fixture(), guides_complete=False))
+        self.assertIn("This list is incomplete", result.files["guides/README.md"])
+        self.assertIn("partial", result.files["README.md"])
+
+    def test_a_complete_guide_read_prints_no_caveat(self):
+        result = render()
+        self.assertNotIn("This list is incomplete", result.files["guides/README.md"])
+        self.assertNotIn("partial, see the note", result.files["README.md"])
 
 
 class TestReadmeShape(unittest.TestCase):
@@ -487,3 +499,59 @@ class TestReadmeShape(unittest.TestCase):
         readme = render().files["README.md"]
         self.assertNotIn("Why this repo loads fast", readme)
         self.assertNotIn("One-giant-README", readme)
+
+
+class TestGuideFetchShapes(unittest.TestCase):
+    """`/api/v1/articles` can answer in two shapes; the sync must survive both."""
+
+    def _with_stub(self, responses):
+        import catalog as catalog_module
+
+        calls = {"n": 0}
+
+        def fake(url, timeout):
+            payload = responses[min(calls["n"], len(responses) - 1)]
+            calls["n"] += 1
+            return payload
+
+        original = catalog_module._get_json
+        catalog_module._get_json = fake
+        self.addCleanup(setattr, catalog_module, "_get_json", original)
+        return catalog_module
+
+    @staticmethod
+    def _articles(n, start=0):
+        return [
+            {"slug": f"g{i}", "title": f"T{i}", "url": f"https://trueinterview.io/study/g{i}"}
+            for i in range(start, start + n)
+        ]
+
+    def test_old_shape_full_page_is_partial_not_an_error(self):
+        m = self._with_stub([{"articles": self._articles(50), "total": 50}])
+        rows, complete = m.fetch_guides("https://x")
+        self.assertEqual(len(rows), 50)
+        self.assertFalse(complete)
+
+    def test_old_shape_short_page_is_the_whole_set(self):
+        m = self._with_stub([{"articles": self._articles(7), "total": 7}])
+        rows, complete = m.fetch_guides("https://x")
+        self.assertEqual(len(rows), 7)
+        self.assertTrue(complete)
+
+    def test_new_shape_pages_to_the_end(self):
+        m = self._with_stub([
+            {"articles": self._articles(50, 0), "page": {"page": 1, "limit": 50, "total": 60, "hasMore": True}},
+            {"articles": self._articles(10, 50), "page": {"page": 2, "limit": 50, "total": 60, "hasMore": False}},
+        ])
+        rows, complete = m.fetch_guides("https://x")
+        self.assertEqual(len(rows), 60)
+        self.assertTrue(complete)
+
+    def test_new_shape_short_read_against_total_is_an_error(self):
+        # Here it IS fatal: the API said how many there are and handed over
+        # fewer, which is a broken read rather than a known limitation.
+        m = self._with_stub([
+            {"articles": self._articles(5), "page": {"page": 1, "limit": 50, "total": 99, "hasMore": False}},
+        ])
+        with self.assertRaises(CatalogError):
+            m.fetch_guides("https://x")

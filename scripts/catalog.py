@@ -310,7 +310,7 @@ def fetch_company_labels(base_url: str, *, timeout: int = 30) -> dict[str, str]:
     return labels
 
 
-def fetch_guides(base_url: str, *, timeout: int = 30) -> list[dict[str, Any]]:
+def fetch_guides(base_url: str, *, timeout: int = 30) -> tuple[list[dict[str, Any]], bool]:
     """Every published Study guide, as raw API objects.
 
     Pages like `fetch_questions`, with one extra job: it tolerates BOTH shapes
@@ -324,10 +324,16 @@ def fetch_guides(base_url: str, *, timeout: int = 30) -> list[dict[str, Any]]:
         its `total` is the length of the slice it just returned rather than the
         size of the Study section, so it cannot even report its own truncation.
         A full page under that shape therefore means "there are probably more
-        and I cannot reach them", and that RAISES: a company page silently
-        missing its interview-process guides is the one failure these pages
-        exist to prevent, and it would look exactly like a company that has
-        none. A short page is the whole set and is returned.
+        and I cannot reach them".
+
+    Returns `(rows, complete)`. An incomplete read is NOT an error: making it one
+    stopped the whole sync — all two thousand questions included — because one
+    endpoint could not page yet, which is a far worse outcome than a short list
+    of guides. What the incompleteness must never be is SILENT, since a company
+    page missing its guides looks exactly like a company that has none. So
+    `complete` travels, and the renderer prints the shortfall on the guides page
+    itself rather than the job dying to protect a reader who would then have no
+    page to read at all.
     """
     rows: list[dict[str, Any]] = []
     page = 1
@@ -341,13 +347,9 @@ def fetch_guides(base_url: str, *, timeout: int = 30) -> list[dict[str, Any]]:
 
         page_info = data.get("page")
         if not isinstance(page_info, dict):
-            if len(articles) >= PAGE_LIMIT:
-                raise CatalogError(
-                    f"/api/v1/articles returned a full page of {PAGE_LIMIT} with no `page` object: "
-                    "this deployment predates article paging, so the rest of the Study section "
-                    "cannot be read. Deploy the paged listArticles first."
-                )
-            return rows
+            # The old shape. A full page means there are almost certainly more
+            # and no offset exists to reach them; a short page is the whole set.
+            return rows, len(articles) < PAGE_LIMIT
         if total is None and isinstance(page_info.get("total"), int):
             total = page_info["total"]
         if not page_info.get("hasMore"):
@@ -361,21 +363,35 @@ def fetch_guides(base_url: str, *, timeout: int = 30) -> list[dict[str, Any]]:
 
     if total is not None and len(rows) != total:
         raise CatalogError(f"read {len(rows)} guides but the catalog reports {total}")
-    return rows
+    return rows, True
 
 
 def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dict[str, Any]:
     """The whole snapshot this repository is rendered from."""
     base = base_url.rstrip("/")
+    guides, guides_complete = fetch_guides(base, timeout=timeout)
     return {
         "source": base,
         "questions": fetch_questions(base, timeout=timeout),
-        "guides": fetch_guides(base, timeout=timeout),
+        "guides": guides,
+        "guidesComplete": guides_complete,
         "companyLabels": fetch_company_labels(base, timeout=timeout),
     }
 
 
-def load_catalog(payload: Any) -> tuple[list[Question], list[Guide], dict[str, str]]:
+@dataclass(frozen=True)
+class Catalog:
+    """One validated snapshot: what was read, and what could not be."""
+
+    questions: list[Question]
+    guides: list[Guide]
+    #: False when the API could not hand over the whole Study section. Carried
+    #: rather than logged, because the renderer prints it on the page.
+    guides_complete: bool
+    labels: dict[str, str]
+
+
+def load_catalog(payload: Any) -> Catalog:
     """Validate a snapshot and turn it into records."""
     if not isinstance(payload, dict):
         raise CatalogError("catalog snapshot must be a JSON object")
@@ -407,19 +423,24 @@ def load_catalog(payload: Any) -> tuple[list[Question], list[Guide], dict[str, s
             raise CatalogError(f"catalog snapshot has duplicate guide slug {guide.slug!r}")
         seen_guides.add(guide.slug)
 
-    return questions, guides, {str(k): str(v) for k, v in labels.items() if isinstance(v, str)}
+    # Absent means complete: a hand-written fixture should not have to opt in to
+    # the normal case, and only a live read that fell short sets it False.
+    guides_complete = payload.get("guidesComplete")
+    return Catalog(
+        questions=questions,
+        guides=guides,
+        guides_complete=guides_complete is not False,
+        labels={str(k): str(v) for k, v in labels.items() if isinstance(v, str)},
+    )
 
 
-def snapshot(
-    questions: Iterable[Question],
-    guides: Iterable[Guide],
-    labels: dict[str, str],
-    source: str,
-) -> dict[str, Any]:
+def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
     """Round-trip a set of records back into the snapshot shape (for --snapshot-out)."""
+    questions, guides, labels = catalog.questions, catalog.guides, catalog.labels
     return {
         "source": source,
         "companyLabels": labels,
+        "guidesComplete": catalog.guides_complete,
         "guides": [
             {
                 "slug": g.slug,

@@ -84,9 +84,9 @@ def main() -> int:
             payload = json.loads(args.catalog_file.read_text(encoding="utf-8"))
         else:
             payload = fetch_catalog(args.base_url)
-        questions, guides, api_labels = load_catalog(payload)
+        catalog = load_catalog(payload)
         template = README_TEMPLATE.read_text(encoding="utf-8")
-        result = build(questions, guides, api_labels, template, today)
+        result = build(catalog, template, today)
     except (CatalogError, OSError, ValueError, json.JSONDecodeError) as error:
         print(f"sync failed: {error}", file=sys.stderr)
         return 2
@@ -108,11 +108,21 @@ def main() -> int:
     stats = result.stats
     largest_bytes, largest_path = stats["largest_page"]  # type: ignore[misc]
     summary = (
-        f"{stats['questions']:,} questions · {stats['guides']:,} guides "f"({stats['guide_companies']} companies) · {stats['companies']} companies · "
+        f"{stats['questions']:,} questions · "
+        f"{stats['guides']:,}{'' if stats['guides_complete'] else '+'} guides "
+        f"({stats['guide_companies']} companies) · {stats['companies']} companies · "
         f"{stats['months']} months · {stats['undated']:,} undated · "
         f"{stats['files']} files · README {stats['readme_bytes']:,} B · "
         f"largest page {largest_bytes:,} B ({largest_path})"
     )
+
+    if not stats["guides_complete"]:
+        print(
+            f"warning: only {stats['guides']} guides were reachable — /api/v1/articles on this "
+            "deployment returns one page and takes no offset. The guides index says so on the "
+            "page; deploy the paged listArticles to get the rest.",
+            file=sys.stderr,
+        )
 
     future_dated = stats["future_dated"]  # type: ignore[index]
     if future_dated:
@@ -145,7 +155,7 @@ def main() -> int:
         args.snapshot_out.parent.mkdir(parents=True, exist_ok=True)
         args.snapshot_out.write_text(
             json.dumps(
-                snapshot(questions, guides, api_labels, args.base_url),
+                snapshot(catalog, args.base_url),
                 ensure_ascii=False,
                 indent=2,
                 sort_keys=True,
