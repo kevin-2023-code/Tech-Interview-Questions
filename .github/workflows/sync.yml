@@ -52,6 +52,13 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A README.md companies formats by-month data
+          # `git add -A` over the whole tree, deliberately, rather than a list of
+          # the generated directories. That list already existed in exactly one
+          # other place — GENERATED_DIRS in scripts/sync.py — and writing it
+          # twice is what let `guides/` be generated, be linked from the README,
+          # and never be committed: the README pointed at a page that did not
+          # exist. The sync only ever writes README.md and the generated
+          # directories, so there is nothing else here for -A to pick up.
+          git add -A
           git commit -m "Sync question bank from trueinterview.io"
           git push
