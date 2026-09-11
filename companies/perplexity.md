@@ -2,9 +2,21 @@
 
 # Perplexity interview & OA questions
 
-**22 questions** reported at Perplexity. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/perplexity).
+**22 questions** reported at Perplexity · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/perplexity).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Perplexity interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
+| [Map-Reduce and Blockwise Attention](https://trueinterview.io/study/map-reduce-and-blockwise-attention) | attention, map-reduce, numerical-stability, parallelism |
+| [Understand Code Functionality](https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

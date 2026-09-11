@@ -2,9 +2,19 @@
 
 # Rippling interview & OA questions
 
-**26 questions** reported at Rippling. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/rippling).
+**26 questions** reported at Rippling · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/rippling).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Rippling interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Intern OA Fixed Set](https://trueinterview.io/study/intern-oa-fixed-set) | api-integration, dfs, hashmap, heap, sliding-window |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

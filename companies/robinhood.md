@@ -2,9 +2,20 @@
 
 # Robinhood interview & OA questions
 
-**30 questions** reported at Robinhood. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/robinhood).
+**30 questions** reported at Robinhood · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/robinhood).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Robinhood interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | why-company |
+| [Test Plan Design for a Ride-sharing Application](https://trueinterview.io/study/03cca6eb-1380-4985-8ddd-f69c70b2206d) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

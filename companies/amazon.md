@@ -2,9 +2,27 @@
 
 # Amazon interview & OA questions
 
-**154 questions** reported at Amazon. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/amazon).
+**154 questions** reported at Amazon · **9 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/amazon).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Amazon interviews
+
+**9 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/study/bq-genai-usage) | ai-tools |
+| [Leadership Principles Standard Set](https://trueinterview.io/study/bq-leadership-principles-standard-set) | deep-dive |
+| [LoRA and PEFT Variants](https://trueinterview.io/study/lora-and-peft-variants) | ml-knowledge, transformer |
+| [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/study/as-ml-breadth-orals) | math-reasoning, ml-knowledge, probability |
+| [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/study/paper-read-round-far) | deep-dive, ml-knowledge, presentation |
+| [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/study/rlhf-ppo-grpo-gspo) | math-reasoning, ml-knowledge |
+| [Science Application (Ambiguous Problem)](https://trueinterview.io/study/science-application-ambiguous-problem) | deep-dive, ml-knowledge |
+| [Transformer / Attention Deep-Dive](https://trueinterview.io/study/transformer-attention-deep-dive) | ml-knowledge, pytorch, transformer |
+| [Work Simulation & Work Style Assessment](https://trueinterview.io/study/work-style-simulation-assessment) | work-style |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,21 @@
 
 # OpenAI interview & OA questions
 
-**87 questions** reported at OpenAI. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/openai).
+**87 questions** reported at OpenAI · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/openai).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How OpenAI interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/study/llm-inference-timeout-and-restart-strategy) | math, new, algorithm-design, math-reasoning, ml-knowledge |
+| [Technical Deep Dive (slide-based)](https://trueinterview.io/study/technical-deep-dive) | deep-dive, presentation, project-deep-dive |
+| [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | why-company |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

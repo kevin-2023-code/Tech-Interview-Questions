@@ -2,9 +2,19 @@
 
 # Netflix interview & OA questions
 
-**64 questions** reported at Netflix. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/netflix).
+**64 questions** reported at Netflix · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Netflix interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | collaboration, culture, culture-fit, fit, impact |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

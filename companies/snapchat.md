@@ -2,9 +2,19 @@
 
 # Snapchat interview & OA questions
 
-**50 questions** reported at Snapchat. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snapchat).
+**50 questions** reported at Snapchat · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Snapchat interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

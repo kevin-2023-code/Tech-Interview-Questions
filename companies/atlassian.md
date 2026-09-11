@@ -2,9 +2,19 @@
 
 # Atlassian interview & OA questions
 
-**43 questions** reported at Atlassian. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/atlassian).
+**43 questions** reported at Atlassian · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/atlassian).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Atlassian interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Atlassian Values and Management Rounds](https://trueinterview.io/study/atlassian-values-and-management-rounds) | ambiguity, culture-fit, leadership, mentorship, values |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,19 @@
 
 # Uber interview & OA questions
 
-**132 questions** reported at Uber. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/uber).
+**132 questions** reported at Uber · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/uber).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Uber interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | deep-dive, math-reasoning, ml-knowledge, probability |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,23 @@
 
 # Apple interview & OA questions
 
-**91 questions** reported at Apple. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/apple).
+**91 questions** reported at Apple · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/apple).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Apple interviews
+
+**5 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | ambiguity, bq, collaboration, conflict, fit |
+| [Build a Tree and Perform BFS Traversal](https://trueinterview.io/study/662ddd89-02d8-4f10-bdaf-4778877ab42a) | — |
+| [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | ab-testing, ads, debugging, evaluation, llm |
+| [OS Fundamentals & Concurrency Drill](https://trueinterview.io/study/os-fundamentals-and-concurrency) | concurrency, operating-systems, race-condition, threading |
+| [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/study/systemverilog-dv-constraint-and-architecture-loop) | concurrency, cs-fundamentals, probability, testing |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

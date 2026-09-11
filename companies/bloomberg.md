@@ -2,9 +2,19 @@
 
 # Bloomberg interview & OA questions
 
-**55 questions** reported at Bloomberg. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bloomberg).
+**55 questions** reported at Bloomberg · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bloomberg).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Bloomberg interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral Question Pool](https://trueinterview.io/study/behavioral-question-pool) | deep-dive, star, why-company |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

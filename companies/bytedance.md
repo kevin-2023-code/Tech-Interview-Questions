@@ -2,9 +2,23 @@
 
 # ByteDance interview & OA questions
 
-**111 questions** reported at ByteDance. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bytedance).
+**111 questions** reported at ByteDance · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How ByteDance interviews
+
+**5 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
+| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal |
+| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
+| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

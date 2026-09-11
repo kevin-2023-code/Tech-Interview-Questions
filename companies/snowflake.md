@@ -2,9 +2,19 @@
 
 # Snowflake interview & OA questions
 
-**87 questions** reported at Snowflake. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snowflake).
+**87 questions** reported at Snowflake · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Snowflake interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | ai-screening, ai-tools, deep-dive, new-round, verbal |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

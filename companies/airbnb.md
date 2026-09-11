@@ -2,9 +2,21 @@
 
 # Airbnb interview & OA questions
 
-**48 questions** reported at Airbnb. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/airbnb).
+**48 questions** reported at Airbnb · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/airbnb).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Airbnb interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Core Values Behavioral Round](https://trueinterview.io/study/core-values-bq-round) | bq, culture-fit, star, values, why-company |
+| [Experience / Project Deep-Dive Round](https://trueinterview.io/study/experience-project-deep-dive) | deep-dive, impact, leadership, technical-deep-dive |
+| [Hiring Manager Screen](https://trueinterview.io/study/hiring-manager-screen) | deep-dive, fit |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

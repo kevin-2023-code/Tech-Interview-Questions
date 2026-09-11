@@ -2,9 +2,19 @@
 
 # xAI interview & OA questions
 
-**31 questions** reported at xAI. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/xai).
+**31 questions** reported at xAI · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/xai).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How xAI interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Most Challenging Project + Why xAI](https://trueinterview.io/study/most-challenging-project-why-xai) | fit, project-deep-dive |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
