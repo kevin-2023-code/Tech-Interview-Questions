@@ -88,6 +88,10 @@ is also the landing page.** Those two jobs have opposite requirements.
   because the file *is* the company.
 - `formats/<slug>.md` — drops the Format column, same reason.
 - `by-month/YYYY-MM.md` — what was being asked in a given month.
+- `guides/README.md` — the interview PROCESS, grouped by company: the recruiter screen, the
+  hiring-manager round, the culture interview, the project deep-dive. Each company's guides
+  are also repeated at the TOP of its own page, above the questions, because that is the
+  order you need them in — which rounds a company runs, and then what to practise for them.
 - Every page is capped at 192,000 bytes and paginates into `-2.md`, `-3.md` before it gets
   close, so no single file can ever reach the truncation limit however large the bank grows.
 
@@ -139,6 +143,7 @@ fact about us, not about anybody's interview.
 
 ```
 trueinterview.io/api/v1/questions   ──┐
+trueinterview.io/api/v1/articles    ──┤
 trueinterview.io/api/v1/companies   ──┤
                                       ├─► scripts/catalog.py   fetch + validate → records
                                       ├─► scripts/labels.py    display names, slugs
@@ -169,9 +174,23 @@ site, not a copy of it.
   generated directories by construction, so a bad run cannot reach the prose.
 - **Company counts sum to more than the bank.** A question reported at three employers is on
   three company pages. Every surface that prints a company count says what it is counting.
+- **A partial read is printed, not thrown.** An endpoint that cannot hand over everything is
+  a normal state to be *in* and a terrible state to be *silent about*: a short list of
+  guides looks exactly like a site that publishes few of them. So the shortfall travels as
+  data and lands on the page itself. The first version raised instead, and one endpoint that
+  could not page yet stopped the whole sync — all 2,240 questions with it. A reader with a
+  caveat beats a reader with no page.
 
 ## 5. Known gaps
 
+- **Company display names.** A few come back from the site wrong — `Ebay`, `Hubspot`,
+  `Mongodb`, `Weride`, `Okx`, `Stackadapt`, `Sigmacomputing` — because they are slugs with
+  no entry in the site's own `COMPANY_LABELS` and title-casing cannot recover the real
+  brand. They are page titles here and on the site, so the fix belongs there: one line each
+  in `web/lib/labels.ts`, mirrored in `scripts/labels.py`.
+- **`/api/v1/articles` returns one page today.** Guides are therefore capped at 50 of 335
+  until kevin-2023-code/trueinterview#1279 deploys; the index says so, and the rest arrive
+  on the next sync after it lands with no change here.
 - **`/api/v1/companies` cannot page.** It reports `total: 99` but takes no offset and caps at
   50, so only the busiest 50 display names come from the API. `scripts/labels.py` transcribes
   the site's own `formatCompany` rules as a fallback for the tail — correct today, and a

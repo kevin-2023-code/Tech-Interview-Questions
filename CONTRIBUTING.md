@@ -55,7 +55,7 @@ PRs are welcome for the **tooling**, not the tables:
 - `README.md` prose, `CONTRIBUTING.md`, `DESIGN.md`.
 - `.github/` — workflows and issue forms.
 
-Everything inside `companies/`, `formats/`, `by-month/` and `data/` is generated. The sync
+Everything inside `companies/`, `formats/`, `by-month/`, `guides/` and `data/` is generated. The sync
 overwrites those directories and deletes anything in them it did not produce.
 
 Before opening a PR that touches `scripts/`:
