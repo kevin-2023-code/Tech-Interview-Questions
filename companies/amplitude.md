@@ -2,9 +2,19 @@
 
 # Amplitude interview & OA questions
 
-**6 questions** reported at Amplitude. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/amplitude).
+**6 questions** reported at Amplitude · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/amplitude).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Amplitude interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Amplitude Interview Process & Questions](https://trueinterview.io/study/amplitude-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

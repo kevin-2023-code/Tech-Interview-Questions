@@ -2,18 +2,22 @@
 
 # Roblox interview & OA questions
 
-**54 questions** reported at Roblox · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/roblox).
+**54 questions** reported at Roblox · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/roblox).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Roblox interviews
 
-**2 round-by-round guides.**
+**6 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
 | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/study/behavioral-hm-traffic-and-scope) | ambiguity, bq, culture-fit, leadership, scaling |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/study/mle-project-deep-dive) | deep-dive, ml-knowledge, paper-read, presentation |
+| [Roblox Frontend Engineer Interview Process](https://trueinterview.io/study/roblox-frontend-engineer-interview-process) | — |
+| [Roblox Interview Process & Questions](https://trueinterview.io/study/roblox-interview-process) | — |
+| [Roblox Machine Learning Engineer Interview Process](https://trueinterview.io/study/roblox-machine-learning-engineer-interview-process) | — |
+| [Roblox Software Engineer Interview Process](https://trueinterview.io/study/roblox-software-engineer-interview-process) | — |
 
 ### Questions
 

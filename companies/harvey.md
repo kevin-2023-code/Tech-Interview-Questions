@@ -2,9 +2,20 @@
 
 # Harvey interview & OA questions
 
-**13 questions** reported at Harvey. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/harvey).
+**13 questions** reported at Harvey · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/harvey).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Harvey interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Harvey Interview Process & Questions](https://trueinterview.io/study/harvey-interview-process) | — |
+| [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | collaboration, conflict, culture-fit, leadership, mentorship |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

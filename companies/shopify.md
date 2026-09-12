@@ -2,9 +2,21 @@
 
 # Shopify interview & OA questions
 
-**13 questions** reported at Shopify. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/shopify).
+**13 questions** reported at Shopify · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/shopify).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Shopify interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | culture-fit, star, values, why-company |
+| [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/study/ml-modeling-round) | classification, evaluation, feature-engineering, ml-knowledge, mlsd |
+| [Shopify Interview Process & Questions](https://trueinterview.io/study/shopify-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

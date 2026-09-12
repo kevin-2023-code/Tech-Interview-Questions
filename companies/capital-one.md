@@ -2,9 +2,31 @@
 
 # Capital One interview & OA questions
 
-**41 questions** reported at Capital One. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/capital-one).
+**41 questions** reported at Capital One · **13 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/capital-one).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Capital One interviews
+
+**13 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | critical-thinking, open-ended, verbal |
+| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | deep-dive, open-ended, paper-read, presentation, verbal |
+| [Capital One Data Scientist Interview Process](https://trueinterview.io/study/capitalone-data-scientist-interview-process) | — |
+| [Capital One Interview Process & Questions](https://trueinterview.io/study/capitalone-interview-process) | — |
+| [Capital One Machine Learning Engineer Interview Process](https://trueinterview.io/study/capitalone-machine-learning-engineer-interview-process) | — |
+| [Capital One Research Scientist Interview Process](https://trueinterview.io/study/capitalone-research-scientist-interview-process) | — |
+| [Capital One Software Engineer Interview Process](https://trueinterview.io/study/capitalone-software-engineer-interview-process) | — |
+| [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/study/f63e89db-acce-46ac-9ee8-4b85820078e0) | — |
+| [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | critical-thinking, math-reasoning, open-ended, verbal |
+| [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | ab-testing, critical-thinking, ml-knowledge, open-ended, verbal |
+| [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | cs-fundamentals, deep-dive, ml-knowledge, verbal |
+| [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | cs-fundamentals, math-reasoning, open-ended, probability, verbal |
+| [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | ambiguity, bq, conflict, leadership, star |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

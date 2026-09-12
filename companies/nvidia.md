@@ -2,9 +2,25 @@
 
 # NVIDIA interview & OA questions
 
-**26 questions** reported at NVIDIA. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/nvidia).
+**26 questions** reported at NVIDIA · **7 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/nvidia).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How NVIDIA interviews
+
+**7 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/study/culture-fit-motivation-and-learning-habits) | culture-fit, values, why-company |
+| [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/study/deep-learning-fundamentals) | calibration, distribution, ml-knowledge, optimization |
+| [GPU and Inference Systems Fundamentals](https://trueinterview.io/study/gpu-and-inference-systems-fundamentals) | gpu, inference, kernel, matmul, transformer |
+| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/study/hardware-adjacent-project-deep-dive) | domain-knowledge, gpu, infra, metrics |
+| [NVIDIA Infrastructure Engineer Interview Process](https://trueinterview.io/study/nvidia-infrastructure-engineer-interview-process) | — |
+| [NVIDIA Interview Process & Questions](https://trueinterview.io/study/nvidia-interview-process) | — |
+| [NVIDIA Machine Learning Engineer Interview Process](https://trueinterview.io/study/nvidia-machine-learning-engineer-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

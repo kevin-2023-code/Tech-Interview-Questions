@@ -2,9 +2,20 @@
 
 # Salesforce interview & OA questions
 
-**16 questions** reported at Salesforce. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/salesforce).
+**16 questions** reported at Salesforce · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/salesforce).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Salesforce interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
+| [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

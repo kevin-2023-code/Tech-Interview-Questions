@@ -2,9 +2,24 @@
 
 # Scale AI interview & OA questions
 
-**12 questions** reported at Scale AI. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/scale-ai).
+**12 questions** reported at Scale AI · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/scale-ai).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Scale AI interviews
+
+**6 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Credo Behavioral and Customer Engagement](https://trueinterview.io/study/credo-behavioral-and-customer-engagement) | — |
+| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/study/147c9781-846f-407b-a3e9-cb2f61ae898d) | — |
+| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/study/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | — |
+| [LLM Post-Training Theory Conversation](https://trueinterview.io/study/llm-post-training-theory-conversation) | domain-knowledge, ml-knowledge, transformer |
+| [Project Deep Dive and Paper Presentation](https://trueinterview.io/study/project-deep-dive-and-paper-presentation) | domain-knowledge, ml-knowledge |
+| [Scale AI Interview Process & Questions](https://trueinterview.io/study/scale-ai-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

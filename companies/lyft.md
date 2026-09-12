@@ -2,9 +2,21 @@
 
 # Lyft interview & OA questions
 
-**27 questions** reported at Lyft. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/lyft).
+**27 questions** reported at Lyft · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/lyft).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Lyft interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Commuter Coupon Conditional Probability](https://trueinterview.io/study/ds-commuter-coupon-probability) | math-reasoning, probability |
+| [Lyft Interview Process & Questions](https://trueinterview.io/study/lyft-interview-process) | — |
+| [Project, Conflict, Failure, and DEI](https://trueinterview.io/study/behavioral-project-conflict-and-dei) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

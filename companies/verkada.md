@@ -2,9 +2,19 @@
 
 # Verkada interview & OA questions
 
-**24 questions** reported at Verkada. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/verkada).
+**24 questions** reported at Verkada · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/verkada).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Verkada interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Verkada Interview Process & Questions](https://trueinterview.io/study/verkada-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

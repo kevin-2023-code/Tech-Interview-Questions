@@ -2,9 +2,19 @@
 
 # Visa interview & OA questions
 
-**15 questions** reported at Visa. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/visa).
+**15 questions** reported at Visa · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/visa).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Visa interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Visa Interview Process & Questions](https://trueinterview.io/study/visa-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

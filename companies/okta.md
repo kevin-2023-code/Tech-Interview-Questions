@@ -2,9 +2,20 @@
 
 # Okta interview & OA questions
 
-**10 questions** reported at Okta. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/okta).
+**10 questions** reported at Okta · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/okta).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Okta interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/study/hm-project-and-ai-philosophy) | ai-collaboration, deep-dive, leadership |
+| [Okta Interview Process & Questions](https://trueinterview.io/study/okta-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

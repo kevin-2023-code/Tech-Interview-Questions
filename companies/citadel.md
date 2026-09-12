@@ -2,9 +2,29 @@
 
 # Citadel interview & OA questions
 
-**31 questions** reported at Citadel. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/citadel).
+**31 questions** reported at Citadel · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Citadel interviews
+
+**11 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | culture-fit, deep-dive, fit, why-company |
+| [Case study — LLM inference stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — |
+| [Citadel Interview Process & Questions](https://trueinterview.io/study/citadel-interview-process) | — |
+| [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/study/qd-eqr-onsite-coding-ladder) | data-structure, dp, hashmap, heap |
+| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive) | deep-dive, llm, math-reasoning, ml-knowledge, probability |
+| [Expected Keystrokes to Form Specific Words by Random Typing](https://trueinterview.io/study/8dcd51f0-320d-4878-b523-41942b60ec1b) | — |
+| [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/study/gqs-quant-phone-brainteasers) | linear-algebra, math-reasoning, probability, sampling |
+| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | array, binary-search, bst, data-structure, sliding-window |
+| [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/study/citadel-hft-onsite-fundamentals) | complexity-analysis, cs-fundamentals, io, operating-systems, sorting |
+| [Trading OA — 15-Question Probability Quickfire](https://trueinterview.io/study/trading-probability-quickfire) | math-reasoning, probability |
+| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/study/quadratic-form-finite-min) | linear-algebra, math-reasoning, optimization |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

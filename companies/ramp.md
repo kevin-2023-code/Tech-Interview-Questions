@@ -2,9 +2,20 @@
 
 # Ramp interview & OA questions
 
-**23 questions** reported at Ramp. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ramp).
+**23 questions** reported at Ramp · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ramp).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Ramp interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Async Video Behavioral Screen](https://trueinterview.io/study/video-interview-behavioral) | ai-collaboration, why-company |
+| [Ramp Interview Process & Questions](https://trueinterview.io/study/ramp-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

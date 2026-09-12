@@ -2,9 +2,19 @@
 
 # Geico interview & OA questions
 
-**6 questions** reported at Geico. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/geico).
+**6 questions** reported at Geico · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/geico).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Geico interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [GEICO Interview Process & Questions](https://trueinterview.io/study/geico-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

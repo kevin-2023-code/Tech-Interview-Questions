@@ -2,9 +2,19 @@
 
 # Hudson River Trading interview & OA questions
 
-**16 questions** reported at Hudson River Trading. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading).
+**16 questions** reported at Hudson River Trading · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Hudson River Trading interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Hudson River Trading Interview Process & Questions](https://trueinterview.io/study/hudson-river-trading-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,19 @@
 
 # PayPal interview & OA questions
 
-**17 questions** reported at PayPal. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/paypal).
+**17 questions** reported at PayPal · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/paypal).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How PayPal interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [PayPal Interview Process & Questions](https://trueinterview.io/study/paypal-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

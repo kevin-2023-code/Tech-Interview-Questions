@@ -2,9 +2,21 @@
 
 # Walmart Labs interview & OA questions
 
-**28 questions** reported at Walmart Labs. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs).
+**28 questions** reported at Walmart Labs · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Walmart Labs interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | backend, cs-fundamentals, verbal |
+| [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | bq, conflict, culture-fit, impact, leadership |
+| [Walmart Global Tech Interview Process & Questions](https://trueinterview.io/study/walmartlabs-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

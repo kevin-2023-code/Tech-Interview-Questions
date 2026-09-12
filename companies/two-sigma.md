@@ -2,9 +2,24 @@
 
 # Two Sigma interview & OA questions
 
-**22 questions** reported at Two Sigma. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/two-sigma).
+**22 questions** reported at Two Sigma · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/two-sigma).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Two Sigma interviews
+
+**6 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | agentic-workflow, evaluation, llm, lora, technical-deep-dive |
+| [QR Data Analysis Prediction Case](https://trueinterview.io/study/qr-data-analysis-prediction-case) | data-analysis, experiment-design, feature-engineering, linear-regression, open-ended |
+| [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/study/qr-statistics-domain-oral) | expected-value, linear-algebra, linear-regression, math-reasoning, probability |
+| [Two Sigma Interview Process & Questions](https://trueinterview.io/study/twosigma-interview-process) | — |
+| [Two Sigma Quantitative Finance Interview Process](https://trueinterview.io/study/twosigma-quantitative-finance-interview-process) | — |
+| [Two Sigma Research Scientist Interview Process](https://trueinterview.io/study/twosigma-research-scientist-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

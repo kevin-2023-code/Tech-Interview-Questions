@@ -2,9 +2,28 @@
 
 # Goldman Sachs interview & OA questions
 
-**23 questions** reported at Goldman Sachs. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
+**23 questions** reported at Goldman Sachs · **10 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Goldman Sachs interviews
+
+**10 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | math-reasoning, verbal |
+| [Effect of Doubling Data on Regression Coefficients and Statistics](https://trueinterview.io/study/30195c71-57af-4259-a3ab-5aa9886b4746) | — |
+| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | bq, cs-fundamentals, verbal |
+| [Goldman Sachs Interview Process & Questions](https://trueinterview.io/study/goldmansachs-interview-process) | — |
+| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/study/hash-collision-fundamentals) | complexity-analysis, cs-fundamentals, hashmap, verbal |
+| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | bq, culture-fit, values |
+| [Minimum Number of Socks](https://trueinterview.io/study/a2b173f5-b900-44d0-bf9f-f2a83d249e64) | — |
+| [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | math-reasoning, probability, verbal |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | domain-knowledge, math-reasoning, probability, verbal |
+| [Sample Size for Sharpe Ratio Significance Testing](https://trueinterview.io/study/b1ebb833-1431-4992-9f21-a90c9d413d8d) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

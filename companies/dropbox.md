@@ -2,9 +2,19 @@
 
 # Dropbox interview & OA questions
 
-**13 questions** reported at Dropbox. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/dropbox).
+**13 questions** reported at Dropbox · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/dropbox).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Dropbox interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Dropbox Interview Process & Questions](https://trueinterview.io/study/dropbox-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

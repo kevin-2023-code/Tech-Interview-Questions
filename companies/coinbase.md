@@ -2,9 +2,23 @@
 
 # Coinbase interview & OA questions
 
-**45 questions** reported at Coinbase. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/coinbase).
+**45 questions** reported at Coinbase · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/coinbase).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Coinbase interviews
+
+**5 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Coinbase Frontend Engineer Interview Process](https://trueinterview.io/study/coinbase-frontend-engineer-interview-process) | — |
+| [Coinbase Interview Process & Questions](https://trueinterview.io/study/coinbase-interview-process) | — |
+| [Coinbase Machine Learning Engineer Interview Process](https://trueinterview.io/study/coinbase-machine-learning-engineer-interview-process) | — |
+| [Coinbase Software Engineer Interview Process](https://trueinterview.io/study/coinbase-software-engineer-interview-process) | — |
+| [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | ai-collaboration, culture-fit, deep-dive, leadership |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

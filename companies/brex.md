@@ -2,9 +2,19 @@
 
 # Brex interview & OA questions
 
-**2 questions** reported at Brex. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/brex).
+**2 questions** reported at Brex · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/brex).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Brex interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/study/72fc1b26-d7bc-4260-a442-36f08b50385c) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

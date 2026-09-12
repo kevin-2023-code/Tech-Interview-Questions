@@ -2,9 +2,19 @@
 
 # Ebay interview & OA questions
 
-**31 questions** reported at Ebay. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ebay).
+**31 questions** reported at Ebay · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ebay).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Ebay interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [eBay Interview Process & Questions](https://trueinterview.io/study/ebay-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

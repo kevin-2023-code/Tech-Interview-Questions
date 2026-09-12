@@ -2,9 +2,21 @@
 
 # JPMorgan interview & OA questions
 
-**15 questions** reported at JPMorgan. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan).
+**15 questions** reported at JPMorgan · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How JPMorgan interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [JPMorgan Chase Interview Process & Questions](https://trueinterview.io/study/jpmorgan-interview-process) | — |
+| [Quant Probability and Statistics Orals](https://trueinterview.io/study/quant-probability-and-statistics-orals) | combinatorics, expected-value, math-reasoning, probability |
+| [Super Day Behavioral Round](https://trueinterview.io/study/superday-behavioral-round) | leadership, project-deep-dive |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

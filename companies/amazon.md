@@ -2,20 +2,27 @@
 
 # Amazon interview & OA questions
 
-**154 questions** reported at Amazon · **9 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/amazon).
+**154 questions** reported at Amazon · **16 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/amazon).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Amazon interviews
 
-**9 round-by-round guides.**
+**16 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [Algorithm and AI Coding Tasks](https://trueinterview.io/study/4d161574-3e90-458a-9f0c-883915ea2c6c) | — |
+| [Amazon Frontend Engineer Interview Process](https://trueinterview.io/study/amazon-frontend-engineer-interview-process) | — |
+| [Amazon Interview Process & Questions](https://trueinterview.io/study/amazon-interview-process) | — |
+| [Amazon Machine Learning Engineer Interview Process](https://trueinterview.io/study/amazon-machine-learning-engineer-interview-process) | — |
+| [Amazon Research Scientist Interview Process](https://trueinterview.io/study/amazon-research-scientist-interview-process) | — |
+| [Amazon Software Engineer Interview Process](https://trueinterview.io/study/amazon-software-engineer-interview-process) | — |
 | [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/study/bq-genai-usage) | ai-tools |
 | [Leadership Principles Standard Set](https://trueinterview.io/study/bq-leadership-principles-standard-set) | deep-dive |
 | [LoRA and PEFT Variants](https://trueinterview.io/study/lora-and-peft-variants) | ml-knowledge, transformer |
 | [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/study/as-ml-breadth-orals) | math-reasoning, ml-knowledge, probability |
+| [Modified OA with AI assisted debugging](https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5) | — |
 | [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/study/paper-read-round-far) | deep-dive, ml-knowledge, presentation |
 | [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/study/rlhf-ppo-grpo-gspo) | math-reasoning, ml-knowledge |
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/study/science-application-ambiguous-problem) | deep-dive, ml-knowledge |

@@ -2,13 +2,13 @@
 
 # Reddit interview & OA questions
 
-**26 questions** reported at Reddit · **4 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/reddit).
+**26 questions** reported at Reddit · **7 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/reddit).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Reddit interviews
 
-**4 round-by-round guides.**
+**7 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -16,6 +16,9 @@
 | [Hiring-Manager Domain Round](https://trueinterview.io/study/hiring-manager-domain-round) | ads, deep-dive, fit, leadership, ml-infra |
 | [ML Fundamentals](https://trueinterview.io/study/ml-fundamentals) | ml fundamentals |
 | [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/study/product-sense-improve-onboarding) | ambiguity, open-ended, product-design, ux |
+| [Reddit Interview Process & Questions](https://trueinterview.io/study/reddit-interview-process) | — |
+| [Reddit Machine Learning Engineer Interview Process](https://trueinterview.io/study/reddit-machine-learning-engineer-interview-process) | — |
+| [Reddit Software Engineer Interview Process](https://trueinterview.io/study/reddit-software-engineer-interview-process) | — |
 
 ### Questions
 

@@ -2,17 +2,22 @@
 
 # xAI interview & OA questions
 
-**31 questions** reported at xAI · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/xai).
+**31 questions** reported at xAI · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/xai).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How xAI interviews
 
-**1 round-by-round guides.**
+**6 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
 | [Most Challenging Project + Why xAI](https://trueinterview.io/study/most-challenging-project-why-xai) | fit, project-deep-dive |
+| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/study/process-vs-thread-verbal) | concurrency, cs-fundamentals, operating-systems, verbal |
+| [xAI Infrastructure Engineer Interview Process](https://trueinterview.io/study/xai-infrastructure-engineer-interview-process) | — |
+| [xAI Interview Process & Questions](https://trueinterview.io/study/xai-interview-process) | — |
+| [xAI Machine Learning Engineer Interview Process](https://trueinterview.io/study/xai-machine-learning-engineer-interview-process) | — |
+| [xAI Software Engineer Interview Process](https://trueinterview.io/study/xai-software-engineer-interview-process) | — |
 
 ### Questions
 

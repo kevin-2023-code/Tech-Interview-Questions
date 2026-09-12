@@ -2,16 +2,19 @@
 
 # Akuna Capital interview & OA questions
 
-**27 questions** reported at Akuna Capital · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital).
+**27 questions** reported at Akuna Capital · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Akuna Capital interviews
 
-**3 round-by-round guides.**
+**6 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [Akuna Capital Interview Process & Questions](https://trueinterview.io/study/akunacapital-interview-process) | — |
+| [Akuna Capital Quantitative Finance Interview Process](https://trueinterview.io/study/akunacapital-quantitative-finance-interview-process) | — |
+| [Akuna Capital Research Scientist Interview Process](https://trueinterview.io/study/akunacapital-research-scientist-interview-process) | — |
 | [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/study/junior-trader-final-games) | brainteaser, expected-value, fermi-estimation, market-making, verbal |
 | [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | linear-algebra, math, math-reasoning, probability, verbal |
 | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/study/trader-fair-bet-probability-and-number-sequences) | math, math-reasoning, probability, verbal |

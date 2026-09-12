@@ -2,9 +2,19 @@
 
 # Instacart interview & OA questions
 
-**24 questions** reported at Instacart. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/instacart).
+**24 questions** reported at Instacart · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/instacart).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Instacart interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Instacart Interview Process & Questions](https://trueinterview.io/study/instacart-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,17 +2,22 @@
 
 # Netflix interview & OA questions
 
-**64 questions** reported at Netflix · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/netflix).
+**64 questions** reported at Netflix · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Netflix interviews
 
-**1 round-by-round guides.**
+**6 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/study/ml-research-orals) | attention, lora, ml-knowledge, transformer |
 | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | collaboration, culture, culture-fit, fit, impact |
+| [Netflix Infrastructure Engineer Interview Process](https://trueinterview.io/study/netflix-infrastructure-engineer-interview-process) | — |
+| [Netflix Interview Process & Questions](https://trueinterview.io/study/netflix-interview-process) | — |
+| [Netflix Machine Learning Engineer Interview Process](https://trueinterview.io/study/netflix-machine-learning-engineer-interview-process) | — |
+| [Netflix Software Engineer Interview Process](https://trueinterview.io/study/netflix-software-engineer-interview-process) | — |
 
 ### Questions
 

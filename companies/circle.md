@@ -2,9 +2,19 @@
 
 # Circle interview & OA questions
 
-**5 questions** reported at Circle. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/circle).
+**5 questions** reported at Circle · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/circle).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Circle interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Circle Interview Process & Questions](https://trueinterview.io/study/circle-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

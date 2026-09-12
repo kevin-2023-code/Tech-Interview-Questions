@@ -2,18 +2,26 @@
 
 # ByteDance interview & OA questions
 
-**111 questions** reported at ByteDance · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bytedance).
+**111 questions** reported at ByteDance · **13 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How ByteDance interviews
 
-**5 round-by-round guides.**
+**13 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [AI-Native Coding Interview](https://trueinterview.io/study/e9620abb-1e2c-4ca2-9542-5dfaa576cce5) | — |
+| [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
+| [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
+| [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
+| [ByteDance Machine Learning Engineer Interview Process](https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process) | — |
+| [ByteDance Software Engineer Interview Process](https://trueinterview.io/study/bytedance-software-engineer-interview-process) | — |
+| [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f) | — |
 | [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
 | [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
+| [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/study/7407f837-dc41-46fe-8a55-3168b8b48b85) | — |
 | [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal |
 | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
 | [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |

@@ -2,9 +2,19 @@
 
 # Stubhub interview & OA questions
 
-**3 questions** reported at Stubhub. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/stubhub).
+**3 questions** reported at Stubhub · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/stubhub).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Stubhub interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [StubHub Interview Process & Questions](https://trueinterview.io/study/stubhub-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

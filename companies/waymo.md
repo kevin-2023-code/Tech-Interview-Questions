@@ -2,9 +2,21 @@
 
 # Waymo interview & OA questions
 
-**48 questions** reported at Waymo. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/waymo).
+**48 questions** reported at Waymo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/waymo).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Waymo interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/study/behavioral-policy-vs-efficiency-leadership) | ambiguity, conflict, deep-dive, leadership |
+| [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/study/project-deep-dive-ml-fundamentals) | deep-dive, ml-knowledge, open-ended, presentation |
+| [Waymo Interview Process & Questions](https://trueinterview.io/study/waymo-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

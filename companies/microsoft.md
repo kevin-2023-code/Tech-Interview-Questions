@@ -2,9 +2,29 @@
 
 # Microsoft interview & OA questions
 
-**90 questions** reported at Microsoft. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/microsoft).
+**90 questions** reported at Microsoft · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Microsoft interviews
+
+**11 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | ai-collaboration, conflict, culture-fit, leadership, star |
+| [Enhancing Research Skills and Team Collaboration in Publishing](https://trueinterview.io/study/7950592e-16e7-4050-8bf7-c4c96b96c546) | — |
+| [Microsoft AI Engineer Interview Process](https://trueinterview.io/study/microsoft-ai-engineer-interview-process) | — |
+| [Microsoft Infrastructure Engineer Interview Process](https://trueinterview.io/study/microsoft-infrastructure-engineer-interview-process) | — |
+| [Microsoft Interview Process & Questions](https://trueinterview.io/study/microsoft-interview-process) | — |
+| [Microsoft Machine Learning Engineer Interview Process](https://trueinterview.io/study/microsoft-machine-learning-engineer-interview-process) | — |
+| [Microsoft Software Engineer Interview Process](https://trueinterview.io/study/microsoft-software-engineer-interview-process) | — |
+| [Object-Oriented Design Round](https://trueinterview.io/study/object-oriented-design-round) | object-design, ood, oop-design |
+| [Project Deep Dive](https://trueinterview.io/study/project-deep-dive-2) | deep-dive, impact, leadership |
+| [Random Process Walkthrough](https://trueinterview.io/study/85c68b1b-e2d0-46c9-952e-54b510d2586f) | — |
+| [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/study/transformer-roofline-fp-precision) | arithmetic-intensity, gpu, kernel, numerical-stability, transformer |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

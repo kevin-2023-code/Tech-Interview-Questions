@@ -2,9 +2,26 @@
 
 # Google interview & OA questions
 
-**140 questions** reported at Google. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/google).
+**140 questions** reported at Google · **8 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/google).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Google interviews
+
+**8 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral Round (Googliness Themes)](https://trueinterview.io/study/bq-round-google-style) | culture-fit |
+| [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/study/google-hiring-assessment-gha) | culture-fit |
+| [Google Interview Process & Questions](https://trueinterview.io/study/google-interview-process) | — |
+| [Google Machine Learning Engineer Interview Process](https://trueinterview.io/study/google-machine-learning-engineer-interview-process) | — |
+| [Google Software Engineer Interview Process](https://trueinterview.io/study/google-software-engineer-interview-process) | — |
+| [Heap Problem](https://trueinterview.io/study/f1466cd0-7903-4d56-af58-59263940b493) | — |
+| [Importance of Personality Traits in Workplace Success](https://trueinterview.io/study/1ef211c1-b8ca-4b34-b1c1-2cfdaea06646) | — |
+| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

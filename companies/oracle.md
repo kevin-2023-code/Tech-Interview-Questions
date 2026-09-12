@@ -2,9 +2,21 @@
 
 # Oracle interview & OA questions
 
-**43 questions** reported at Oracle. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/oracle).
+**43 questions** reported at Oracle · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Oracle interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | ambiguity, bq, conflict, deep-dive, leadership |
+| [Oracle Interview Process & Questions](https://trueinterview.io/study/oracle-interview-process) | — |
+| [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | cs-fundamentals, domain-knowledge, networking, operating-systems, verbal |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,20 @@
 
 # Vanta interview & OA questions
 
-**13 questions** reported at Vanta. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/vanta).
+**13 questions** reported at Vanta · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/vanta).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Vanta interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Principles & Leadership Behavioral Rounds](https://trueinterview.io/study/principles-and-leadership-bq) | ambiguity, conflict, leadership, values |
+| [Vanta Interview Process & Questions](https://trueinterview.io/study/vanta-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

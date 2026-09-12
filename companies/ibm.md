@@ -2,9 +2,21 @@
 
 # IBM interview & OA questions
 
-**20 questions** reported at IBM. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ibm).
+**20 questions** reported at IBM · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ibm).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How IBM interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Competency and Resume Interview](https://trueinterview.io/study/competency-and-resume-interview) | bq, deep-dive, star, why-company |
+| [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/study/devsecops-kubernetes-cicd-screen) | cs-fundamentals, docker, networking, sre, troubleshooting |
+| [IBM Interview Process & Questions](https://trueinterview.io/study/ibm-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

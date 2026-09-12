@@ -2,9 +2,19 @@
 
 # Tradedesk interview & OA questions
 
-**15 questions** reported at Tradedesk. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/tradedesk).
+**15 questions** reported at Tradedesk · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/tradedesk).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Tradedesk interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [The Trade Desk Interview Process & Questions](https://trueinterview.io/study/tradedesk-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

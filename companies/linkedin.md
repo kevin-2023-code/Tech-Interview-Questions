@@ -2,9 +2,23 @@
 
 # LinkedIn interview & OA questions
 
-**55 questions** reported at LinkedIn. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/linkedin).
+**55 questions** reported at LinkedIn · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/linkedin).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How LinkedIn interviews
+
+**5 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | ambiguity, conflict, impact, leadership, star |
+| [LinkedIn Infrastructure Engineer Interview Process](https://trueinterview.io/study/linkedin-infrastructure-engineer-interview-process) | — |
+| [LinkedIn Interview Process & Questions](https://trueinterview.io/study/linkedin-interview-process) | — |
+| [LinkedIn Machine Learning Engineer Interview Process](https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process) | — |
+| [LinkedIn Software Engineer Interview Process](https://trueinterview.io/study/linkedin-software-engineer-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,34 @@
 
 # Meta interview & OA questions
 
-**164 questions** reported at Meta. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/meta).
+**164 questions** reported at Meta · **16 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/meta).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Meta interviews
+
+**16 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [AI-Oriented Behavioral](https://trueinterview.io/study/ai-oriented-behavioral) | ai-collaboration, bq, star |
+| [Comparative Metrics Analysis for Facebook Dating Advantages](https://trueinterview.io/study/d52244dd-4a5c-4f29-9ded-8417ebddeb4f) | — |
+| [Detecting and Handling Fake Friend Requests via Machine Learning](https://trueinterview.io/study/5739fc5a-6b17-4f4d-8261-443168884c2a) | — |
+| [Dry Run Array Problems](https://trueinterview.io/study/26fce5a4-6e36-4018-a807-81296258e4e4) | — |
+| [Instagram User Classification: Features, Challenges, and Evaluation Methods](https://trueinterview.io/study/051a0bb7-e10e-4bf1-b9ad-1e0124a393a1) | — |
+| [Meta Data Scientist Interview Process](https://trueinterview.io/study/meta-data-scientist-interview-process) | — |
+| [Meta Infrastructure Engineer Interview Process](https://trueinterview.io/study/meta-infrastructure-engineer-interview-process) | — |
+| [Meta Interview Process & Questions](https://trueinterview.io/study/meta-interview-process) | — |
+| [Meta Machine Learning Engineer Interview Process](https://trueinterview.io/study/meta-machine-learning-engineer-interview-process) | — |
+| [Meta Research Scientist Interview Process](https://trueinterview.io/study/meta-research-scientist-interview-process) | — |
+| [Meta Software Engineer Interview Process](https://trueinterview.io/study/meta-software-engineer-interview-process) | — |
+| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | clustering, llm, ml-knowledge, optimization |
+| [Mouse and Cheese / Maze Rewards](https://trueinterview.io/study/mouse-and-cheese-maze-rewards) | backtracking, dfs, dp, grid |
+| [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/study/03c246e8-c1a4-47b1-b1bd-5c212e569288) | — |
+| [SQL CASE Statement Result When No Conditions Match Without ELSE](https://trueinterview.io/study/e37f51bf-1f79-4770-a9dd-fe4aa859cc1e) | — |
+| [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | ambiguity, bq, conflict, leadership, star |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

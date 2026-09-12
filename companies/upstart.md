@@ -2,9 +2,19 @@
 
 # Upstart interview & OA questions
 
-**16 questions** reported at Upstart. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/upstart).
+**16 questions** reported at Upstart · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/upstart).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Upstart interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Upstart Interview Process & Questions](https://trueinterview.io/study/upstart-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

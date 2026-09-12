@@ -2,9 +2,21 @@
 
 # Intuit interview & OA questions
 
-**15 questions** reported at Intuit. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/intuit).
+**15 questions** reported at Intuit · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/intuit).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Intuit interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | ai-collaboration, ai-safety, llm, open-ended, prompt-engineering |
+| [Intuit Interview Process & Questions](https://trueinterview.io/study/intuit-interview-process) | — |
+| [Unit Testing in Industry Code](https://trueinterview.io/study/e2a629a6-f54c-4584-96a3-b6dfaf1e43a4) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,17 +2,21 @@
 
 # Uber interview & OA questions
 
-**132 questions** reported at Uber · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/uber).
+**132 questions** reported at Uber · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/uber).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Uber interviews
 
-**1 round-by-round guides.**
+**5 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | deep-dive, presentation |
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | deep-dive, math-reasoning, ml-knowledge, probability |
+| [Uber Interview Process & Questions](https://trueinterview.io/study/uber-interview-process) | — |
+| [Uber Machine Learning Engineer Interview Process](https://trueinterview.io/study/uber-machine-learning-engineer-interview-process) | — |
+| [Uber Software Engineer Interview Process](https://trueinterview.io/study/uber-software-engineer-interview-process) | — |
 
 ### Questions
 

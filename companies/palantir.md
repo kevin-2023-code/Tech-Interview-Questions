@@ -2,9 +2,19 @@
 
 # Palantir interview & OA questions
 
-**5 questions** reported at Palantir. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/palantir).
+**5 questions** reported at Palantir · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/palantir).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Palantir interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Palantir Technologies Interview Process & Questions](https://trueinterview.io/study/palantir-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

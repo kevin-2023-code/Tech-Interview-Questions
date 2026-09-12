@@ -2,9 +2,19 @@
 
 # Luma AI interview & OA questions
 
-**6 questions** reported at Luma AI. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/luma-ai).
+**6 questions** reported at Luma AI · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/luma-ai).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Luma AI interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Luma AI Interview Process & Questions](https://trueinterview.io/study/luma-ai-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

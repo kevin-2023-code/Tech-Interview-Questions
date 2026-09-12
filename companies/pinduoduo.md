@@ -2,9 +2,21 @@
 
 # Pinduoduo interview & OA questions
 
-**21 questions** reported at Pinduoduo. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
+**21 questions** reported at Pinduoduo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Pinduoduo interviews
+
+**3 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Pinduoduo Interview Process & Questions](https://trueinterview.io/study/pinduoduo-interview-process) | — |
+| [Project Deep Dive & Behavioral](https://trueinterview.io/study/project-deep-dive-and-bq-2) | deep-dive, star |
+| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/study/resume-driven-language-database-fundamentals) | cs-fundamentals, java, database, verbal |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

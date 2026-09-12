@@ -2,9 +2,20 @@
 
 # Stripe interview & OA questions
 
-**61 questions** reported at Stripe. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/stripe).
+**61 questions** reported at Stripe · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Stripe interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral-2) | deep-dive, why-company |
+| [Stripe Interview Process & Questions](https://trueinterview.io/study/stripe-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,19 @@
 
 # Expedia interview & OA questions
 
-**25 questions** reported at Expedia. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/expedia).
+**25 questions** reported at Expedia · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/expedia).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Expedia interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Expedia Group Interview Process & Questions](https://trueinterview.io/study/expedia-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

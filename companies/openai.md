@@ -2,17 +2,25 @@
 
 # OpenAI interview & OA questions
 
-**87 questions** reported at OpenAI · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/openai).
+**87 questions** reported at OpenAI · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/openai).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How OpenAI interviews
 
-**3 round-by-round guides.**
+**11 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/study/hm-bq-why-openai) | culture-fit, why-company |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/study/llm-inference-timeout-and-restart-strategy) | math, new, algorithm-design, math-reasoning, ml-knowledge |
+| [OpenAI AI Engineer Interview Process](https://trueinterview.io/study/openai-ai-engineer-interview-process) | — |
+| [OpenAI Frontend Engineer Interview Process](https://trueinterview.io/study/openai-frontend-engineer-interview-process) | — |
+| [OpenAI Infrastructure Engineer Interview Process](https://trueinterview.io/study/openai-infrastructure-engineer-interview-process) | — |
+| [OpenAI Interview Process & Questions](https://trueinterview.io/study/openai-interview-process) | — |
+| [OpenAI Machine Learning Engineer Interview Process](https://trueinterview.io/study/openai-machine-learning-engineer-interview-process) | — |
+| [OpenAI Research Scientist Interview Process](https://trueinterview.io/study/openai-research-scientist-interview-process) | — |
+| [OpenAI Software Engineer Interview Process](https://trueinterview.io/study/openai-software-engineer-interview-process) | — |
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/study/technical-deep-dive) | deep-dive, presentation, project-deep-dive |
 | [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | why-company |
 

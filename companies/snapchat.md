@@ -2,17 +2,22 @@
 
 # Snapchat interview & OA questions
 
-**50 questions** reported at Snapchat · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snapchat).
+**50 questions** reported at Snapchat · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Snapchat interviews
 
-**1 round-by-round guides.**
+**6 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
 | [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
+| [First Discovery and Resolution of Critical Project Bug](https://trueinterview.io/study/cbb98e2c-2461-49dd-933a-1741e0c81985) | — |
+| [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/study/ml-fundamentals-transformer-and-regularization) | ml-knowledge, optimization, transformer |
+| [Snapchat Interview Process & Questions](https://trueinterview.io/study/snapchat-interview-process) | — |
+| [Snapchat Machine Learning Engineer Interview Process](https://trueinterview.io/study/snapchat-machine-learning-engineer-interview-process) | — |
+| [Snapchat Software Engineer Interview Process](https://trueinterview.io/study/snapchat-software-engineer-interview-process) | — |
 
 ### Questions
 

@@ -2,16 +2,18 @@
 
 # Figma interview & OA questions
 
-**18 questions** reported at Figma · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/figma).
+**18 questions** reported at Figma · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/figma).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Figma interviews
 
-**1 round-by-round guides.**
+**3 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/study/deep-dive-url-request-lifecycle) | cs-fundamentals, http, networking, open-ended |
+| [Figma Interview Process & Questions](https://trueinterview.io/study/figma-interview-process) | — |
 | [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | conflict, deep-dive, ownership, presentation, project-retro |
 
 ### Questions

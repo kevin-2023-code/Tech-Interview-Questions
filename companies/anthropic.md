@@ -2,16 +2,22 @@
 
 # Anthropic interview & OA questions
 
-**63 questions** reported at Anthropic · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/anthropic).
+**63 questions** reported at Anthropic · **9 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/anthropic).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Anthropic interviews
 
-**3 round-by-round guides.**
+**9 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
+| [Anthropic AI Engineer Interview Process](https://trueinterview.io/study/anthropic-ai-engineer-interview-process) | — |
+| [Anthropic Infrastructure Engineer Interview Process](https://trueinterview.io/study/anthropic-infrastructure-engineer-interview-process) | — |
+| [Anthropic Interview Process & Questions](https://trueinterview.io/study/anthropic-interview-process) | — |
+| [Anthropic Machine Learning Engineer Interview Process](https://trueinterview.io/study/anthropic-machine-learning-engineer-interview-process) | — |
+| [Anthropic Research Scientist Interview Process](https://trueinterview.io/study/anthropic-research-scientist-interview-process) | — |
+| [Anthropic Software Engineer Interview Process](https://trueinterview.io/study/anthropic-software-engineer-interview-process) | — |
 | [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | ai-safety, critical-thinking, culture, values |
 | [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/study/onsite-hm-behavioral) | collaboration, impact, leadership, mentorship |
 | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/study/recruiter-screen-why-anthropic) | ai-safety |

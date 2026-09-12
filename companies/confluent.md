@@ -2,9 +2,19 @@
 
 # Confluent interview & OA questions
 
-**17 questions** reported at Confluent. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/confluent).
+**17 questions** reported at Confluent · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/confluent).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Confluent interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Confluent Interview Process & Questions](https://trueinterview.io/study/confluent-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

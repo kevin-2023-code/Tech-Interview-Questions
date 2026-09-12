@@ -2,9 +2,19 @@
 
 # Sigmacomputing interview & OA questions
 
-**5 questions** reported at Sigmacomputing. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/sigmacomputing).
+**5 questions** reported at Sigmacomputing · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/sigmacomputing).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Sigmacomputing interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Sigma Computing Interview Process & Questions](https://trueinterview.io/study/sigmacomputing-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

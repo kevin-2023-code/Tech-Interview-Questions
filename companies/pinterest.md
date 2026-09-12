@@ -2,9 +2,24 @@
 
 # Pinterest interview & OA questions
 
-**61 questions** reported at Pinterest. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinterest).
+**61 questions** reported at Pinterest · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinterest).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Pinterest interviews
+
+**6 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | ambiguity, conflict, deep-dive, impact, leadership |
+| [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/study/mle-intern-codesignal-oa) | classification, ml-knowledge, python |
+| [ML Fundamentals Quick-Fire](https://trueinterview.io/study/ml-fundamentals-quick-fire) | cs-fundamentals, ml-knowledge, verbal |
+| [Pinterest Interview Process & Questions](https://trueinterview.io/study/pinterest-interview-process) | — |
+| [Pinterest Machine Learning Engineer Interview Process](https://trueinterview.io/study/pinterest-machine-learning-engineer-interview-process) | — |
+| [Pinterest Software Engineer Interview Process](https://trueinterview.io/study/pinterest-software-engineer-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

@@ -2,9 +2,19 @@
 
 # Lead Bank interview & OA questions
 
-**5 questions** reported at Lead Bank. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/lead-bank).
+**5 questions** reported at Lead Bank · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/lead-bank).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Lead Bank interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Lead Bank Interview Process & Questions](https://trueinterview.io/study/lead-bank-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

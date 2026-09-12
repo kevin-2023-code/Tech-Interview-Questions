@@ -2,9 +2,20 @@
 
 # SoFi interview & OA questions
 
-**27 questions** reported at SoFi. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/sofi).
+**27 questions** reported at SoFi · **2 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/sofi).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How SoFi interviews
+
+**2 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Manager Behavioral and Project Deep Dive](https://trueinterview.io/study/manager-behavioral-and-project-deep-dive) | bq, conflict, deep-dive, impact, leadership |
+| [SoFi Interview Process & Questions](https://trueinterview.io/study/sofi-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

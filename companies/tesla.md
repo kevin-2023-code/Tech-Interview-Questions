@@ -2,9 +2,23 @@
 
 # Tesla interview & OA questions
 
-**28 questions** reported at Tesla. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/tesla).
+**28 questions** reported at Tesla · **5 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/tesla).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Tesla interviews
+
+**5 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Battery Cell Quality Statistical Case](https://trueinterview.io/study/battery-cell-quality-statistical-case) | experiment-design, probability |
+| [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/study/cv-sensing-ml-fundamentals-oral) | cnn, computer-vision, ml-knowledge |
+| [Tesla Interview Process & Questions](https://trueinterview.io/study/tesla-interview-process) | — |
+| [Tesla Machine Learning Engineer Interview Process](https://trueinterview.io/study/tesla-machine-learning-engineer-interview-process) | — |
+| [Tesla Software Engineer Interview Process](https://trueinterview.io/study/tesla-software-engineer-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |

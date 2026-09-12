@@ -2,9 +2,19 @@
 
 # Chicago Trading interview & OA questions
 
-**5 questions** reported at Chicago Trading. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/chicago-trading).
+**5 questions** reported at Chicago Trading · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/chicago-trading).
 
 [← All companies](README.md) · [← Question bank](../README.md)
+
+### How Chicago Trading interviews
+
+**1 round-by-round guides.**
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Chicago Trading Company Interview Process & Questions](https://trueinterview.io/study/chicago-trading-interview-process) | — |
+
+### Questions
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
