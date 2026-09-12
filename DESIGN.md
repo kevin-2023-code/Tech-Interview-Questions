@@ -179,7 +179,9 @@ site, not a copy of it.
   guides looks exactly like a site that publishes few of them. So the shortfall travels as
   data and lands on the page itself. The first version raised instead, and one endpoint that
   could not page yet stopped the whole sync — all 2,240 questions with it. A reader with a
-  caveat beats a reader with no page.
+  caveat beats a reader with no page. It resolved the way it was designed to: the endpoint
+  gained paging (kevin-2023-code/trueinterview#1279), and the next sync filled the index
+  from 50 guides to 335 and dropped the caveat by itself, with no change on this side.
 
 ## 5. Known gaps
 
@@ -188,9 +190,6 @@ site, not a copy of it.
   no entry in the site's own `COMPANY_LABELS` and title-casing cannot recover the real
   brand. They are page titles here and on the site, so the fix belongs there: one line each
   in `web/lib/labels.ts`, mirrored in `scripts/labels.py`.
-- **`/api/v1/articles` returns one page today.** Guides are therefore capped at 50 of 335
-  until kevin-2023-code/trueinterview#1279 deploys; the index says so, and the rest arrive
-  on the next sync after it lands with no change here.
 - **`/api/v1/companies` cannot page.** It reports `total: 99` but takes no offset and caps at
   50, so only the busiest 50 display names come from the API. `scripts/labels.py` transcribes
   the site's own `formatCompany` rules as a fallback for the tail — correct today, and a
