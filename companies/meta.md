@@ -2,7 +2,7 @@
 
 # Meta interview & OA questions
 
-**164 questions** reported at Meta · **16 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/meta).
+**166 questions** reported at Meta · **16 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/meta).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -57,6 +57,7 @@
 | [Average Reactions per Post](https://trueinterview.io/questions/average-reactions-per-post) | SQL | Medium | May 23, 2026 |
 | [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis) | SQL | Hard | May 23, 2026 |
 | [Valid Number](https://trueinterview.io/questions/lc-valid-number) | Algorithm | Medium | May 16, 2026 |
+| [Remove Nth Node From End of List](https://trueinterview.io/questions/lc-remove-nth-from-end) | Algorithm | Medium | May 08, 2026 |
 | [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction) | System Design | Hard | May 08, 2026 |
 | [Harmful / Weapon-Sales Content Detection](https://trueinterview.io/questions/mlsd-harmful-content-detection) | System Design | Hard | May 06, 2026 |
 | [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select) | Algorithm | Medium | May 06, 2026 |
@@ -175,6 +176,7 @@
 | [Fix an AI-generated query and address data quality issues](https://trueinterview.io/questions/01f555c7-1416-450a-9bff-c393859356bd) | AI Coding | Hard | — |
 | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
 | [Dot Product of Two Sparse Vectors](https://trueinterview.io/questions/aa3b7b34-eb9e-40d4-9c23-9ab29c4827a4) | Algorithm | Medium | — |
+| [Construct Binary Tree from Preorder and Inorder Traversal](https://trueinterview.io/questions/366ee784-2ba4-440f-990c-01acf83d407e) | Algorithm | Medium | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
 | [SQL Query for Connected Ad Tables](https://trueinterview.io/questions/a1591988-c338-4582-87e6-3c61cd131eba) | SQL | Medium | — |
 | [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2) | Algorithm | Medium | — |

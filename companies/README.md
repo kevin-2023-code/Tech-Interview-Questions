@@ -8,11 +8,11 @@
 
 | Company | Questions | On TrueInterview |
 | :-- | --: | :-- |
-| [Meta](../companies/meta.md) | 164 | [meta](https://trueinterview.io/problems/company/meta) |
+| [Meta](../companies/meta.md) | 166 | [meta](https://trueinterview.io/problems/company/meta) |
 | [Amazon](../companies/amazon.md) | 154 | [amazon](https://trueinterview.io/problems/company/amazon) |
 | [Google](../companies/google.md) | 140 | [google](https://trueinterview.io/problems/company/google) |
 | [Uber](../companies/uber.md) | 132 | [uber](https://trueinterview.io/problems/company/uber) |
-| [ByteDance](../companies/bytedance.md) | 111 | [bytedance](https://trueinterview.io/problems/company/bytedance) |
+| [ByteDance](../companies/bytedance.md) | 112 | [bytedance](https://trueinterview.io/problems/company/bytedance) |
 | [Apple](../companies/apple.md) | 91 | [apple](https://trueinterview.io/problems/company/apple) |
 | [Microsoft](../companies/microsoft.md) | 90 | [microsoft](https://trueinterview.io/problems/company/microsoft) |
 | [OpenAI](../companies/openai.md) | 87 | [openai](https://trueinterview.io/problems/company/openai) |
@@ -22,7 +22,7 @@
 | [Anthropic](../companies/anthropic.md) | 63 | [anthropic](https://trueinterview.io/problems/company/anthropic) |
 | [Pinterest](../companies/pinterest.md) | 61 | [pinterest](https://trueinterview.io/problems/company/pinterest) |
 | [Stripe](../companies/stripe.md) | 61 | [stripe](https://trueinterview.io/problems/company/stripe) |
-| [Bloomberg](../companies/bloomberg.md) | 55 | [bloomberg](https://trueinterview.io/problems/company/bloomberg) |
+| [Bloomberg](../companies/bloomberg.md) | 56 | [bloomberg](https://trueinterview.io/problems/company/bloomberg) |
 | [Databricks](../companies/databricks.md) | 55 | [databricks](https://trueinterview.io/problems/company/databricks) |
 | [LinkedIn](../companies/linkedin.md) | 55 | [linkedin](https://trueinterview.io/problems/company/linkedin) |
 | [Roblox](../companies/roblox.md) | 54 | [roblox](https://trueinterview.io/problems/company/roblox) |
@@ -89,6 +89,7 @@
 | [Geico](../companies/geico.md) | 6 | [geico](https://trueinterview.io/problems/company/geico) |
 | [Luma AI](../companies/luma-ai.md) | 6 | [luma-ai](https://trueinterview.io/problems/company/luma-ai) |
 | [Mongodb](../companies/mongodb.md) | 6 | [mongodb](https://trueinterview.io/problems/company/mongodb) |
+| [Stackadapt](../companies/stackadapt.md) | 6 | [stackadapt](https://trueinterview.io/problems/company/stackadapt) |
 | [Airtable](../companies/airtable.md) | 5 | [airtable](https://trueinterview.io/problems/company/airtable) |
 | [Arista](../companies/arista.md) | 5 | [arista](https://trueinterview.io/problems/company/arista) |
 | [Chicago Trading](../companies/chicago-trading.md) | 5 | [chicago-trading](https://trueinterview.io/problems/company/chicago-trading) |
@@ -96,7 +97,6 @@
 | [Lead Bank](../companies/lead-bank.md) | 5 | [lead-bank](https://trueinterview.io/problems/company/lead-bank) |
 | [Palantir](../companies/palantir.md) | 5 | [palantir](https://trueinterview.io/problems/company/palantir) |
 | [Sigmacomputing](../companies/sigmacomputing.md) | 5 | [sigmacomputing](https://trueinterview.io/problems/company/sigmacomputing) |
-| [Stackadapt](../companies/stackadapt.md) | 5 | [stackadapt](https://trueinterview.io/problems/company/stackadapt) |
 | [Voleon](../companies/voleon.md) | 5 | [voleon](https://trueinterview.io/problems/company/voleon) |
 | [Faire](../companies/faire.md) | 4 | [faire](https://trueinterview.io/problems/company/faire) |
 | [Gusto](../companies/gusto.md) | 4 | [gusto](https://trueinterview.io/problems/company/gusto) |
