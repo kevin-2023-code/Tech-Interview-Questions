@@ -17,12 +17,12 @@
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Hard | 🆕 Aug 04, 2026 |
 | **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Easy | 🆕 Aug 01, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Medium | 🆕 Jul 30, 2026 |
-| **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Medium | 🆕 Jul 29, 2026 |
-| **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Easy | 🆕 Jul 29, 2026 |
-| **Microsoft / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | 🆕 Jul 29, 2026 |
-| **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Easy | 🆕 Jul 29, 2026 |
-| **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Hard | 🆕 Jul 29, 2026 |
-| **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Hard | 🆕 Jul 29, 2026 |
+| **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Medium | Jul 29, 2026 |
+| **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Easy | Jul 29, 2026 |
+| **Microsoft / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Easy | Jul 29, 2026 |
+| **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Hard | Jul 29, 2026 |
+| **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Hard | Jul 29, 2026 |
 | **Pinduoduo** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Medium | Jul 17, 2026 |
 | **Pinduoduo** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Hard | Jul 17, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |

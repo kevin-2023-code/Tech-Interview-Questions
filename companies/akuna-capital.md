@@ -23,7 +23,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 🆕 Jul 29, 2026 |
+| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Medium | May 25, 2026 |
 | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Low-Level Design | Medium | May 25, 2026 |
 | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | May 25, 2026 |

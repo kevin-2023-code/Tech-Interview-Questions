@@ -8,8 +8,8 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
-| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
+| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Jul 29, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
 | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | Mar 03, 2026 |

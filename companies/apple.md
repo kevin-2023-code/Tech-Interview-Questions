@@ -27,7 +27,7 @@
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Medium | 🆕 Aug 13, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Medium | Jul 26, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Low-Level Design | Medium | Jun 28, 2026 |

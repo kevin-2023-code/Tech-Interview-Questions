@@ -18,7 +18,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Algorithm | Hard | — |
 | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Algorithm | Hard | — |

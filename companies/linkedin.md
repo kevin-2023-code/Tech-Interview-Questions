@@ -22,7 +22,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | SQL | Medium | Jul 22, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Low-Level Design | Easy | May 27, 2026 |

@@ -23,7 +23,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | May 10, 2026 |
 | [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | May 10, 2026 |
 | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | Algorithm | Medium | May 10, 2026 |

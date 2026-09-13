@@ -18,9 +18,9 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | 🆕 Jul 29, 2026 |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 🆕 Jul 29, 2026 |
-| [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | 🆕 Jul 29, 2026 |
+| [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | Jul 29, 2026 |
+| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
+| [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Jul 29, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
 | [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Low-Level Design | Medium | — |
 | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Algorithm | Medium | — |

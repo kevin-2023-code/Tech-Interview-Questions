@@ -30,7 +30,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Signup Activation Rate](https://trueinterview.io/questions/signup-activation-rate) | SQL | Medium | Jul 22, 2026 |
 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Jun 29, 2026 |
 | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | AI Coding | Hard | Jun 28, 2026 |

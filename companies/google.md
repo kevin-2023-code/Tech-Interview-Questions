@@ -26,7 +26,7 @@
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | 🆕 Aug 13, 2026 |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 🆕 Jul 29, 2026 |
+| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | SQL | Medium | Jul 22, 2026 |
 | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | SQL | Medium | Jul 22, 2026 |
 | [L6 System Design (Staff Loop)](https://trueinterview.io/questions/l6-system-design-staff-loop) | System Design | Hard | Jul 06, 2026 |

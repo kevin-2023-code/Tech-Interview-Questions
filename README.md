@@ -86,13 +86,13 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | 🆕 Aug 04, 2026 |
 | **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | 🆕 Aug 01, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | 🆕 Jul 30, 2026 |
-| **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | 🆕 Jul 29, 2026 |
-| **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | 🆕 Jul 29, 2026 |
-| **Microsoft / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | 🆕 Jul 29, 2026 |
-| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | 🆕 Jul 29, 2026 |
-| **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | 🆕 Jul 29, 2026 |
-| **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | 🆕 Jul 29, 2026 |
-| **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | 🆕 Jul 29, 2026 |
+| **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Jul 29, 2026 |
+| **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Jul 29, 2026 |
+| **Microsoft / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Jul 29, 2026 |
+| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Jul 29, 2026 |
+| **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Jul 29, 2026 |
+| **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Jul 29, 2026 |
+| **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Jul 29, 2026 |
 | **Salesforce** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Jul 26, 2026 |
 | **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Jul 26, 2026 |
 | **Pinterest** | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | SQL | Jul 23, 2026 |

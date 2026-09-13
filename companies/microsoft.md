@@ -28,8 +28,8 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
-| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
+| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Jul 29, 2026 |
 | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | SQL | Medium | Jul 22, 2026 |
 | [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design) | System Design | Medium | Jun 29, 2026 |
 | [Todo List Full-Stack System Design](https://trueinterview.io/questions/todo-list-full-stack-system-design) | System Design | Medium | Jun 21, 2026 |

@@ -33,7 +33,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 🆕 Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Jul 22, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Jul 22, 2026 |
 | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | Jul 04, 2026 |

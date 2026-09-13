@@ -20,8 +20,8 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Medium | 🆕 Jul 29, 2026 |
-| [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | 🆕 Jul 29, 2026 |
+| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Medium | Jul 29, 2026 |
+| [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Jul 29, 2026 |
 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Jun 29, 2026 |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |

@@ -12,7 +12,7 @@
 | :-- | :-- | :-: | :-- |
 | **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Medium | 🆕 Aug 12, 2026 |
 | **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Medium | 🆕 Aug 06, 2026 |
-| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Medium | 🆕 Jul 29, 2026 |
+| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Medium | Jul 29, 2026 |
 | **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Medium | Jul 15, 2026 |
 | **Figma** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Medium | Jul 06, 2026 |
 | **Harvey** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Hard | Jul 2026 |
