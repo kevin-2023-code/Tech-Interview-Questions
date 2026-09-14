@@ -56,7 +56,7 @@
 | **Instacart** | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Medium | Apr 04, 2026 |
 | **Instacart** | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Hard | Apr 04, 2026 |
 | **Salesforce / Goldman Sachs** | [String Compression (HackerRank OA, LeetCode 443)](https://trueinterview.io/questions/string-compression-oa) | Medium | Apr 03, 2026 |
-| **Stripe** | [String Path Compression](https://trueinterview.io/questions/string-path-compression) | Hard | Apr 03, 2026 |
+| **Stripe** | [String Path Compression](https://trueinterview.io/questions/string-path-compression) | Medium | Apr 03, 2026 |
 | **Meta / ByteDance / Citadel** | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Geico / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Waymo** | [Streaming Interval Coverage on a Number Axis](https://trueinterview.io/questions/interval-pollution-coverage) | Hard | Apr 01, 2026 |

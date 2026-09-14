@@ -39,7 +39,7 @@
 | [Factory Cost Optimizer](https://trueinterview.io/questions/factory-cost-optimizer) | Algorithm | Hard | Apr 15, 2026 |
 | [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve) | Algorithm | Medium | Apr 14, 2026 |
 | [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join) | Algorithm | Medium | Apr 09, 2026 |
-| [String Path Compression](https://trueinterview.io/questions/string-path-compression) | Algorithm | Hard | Apr 03, 2026 |
+| [String Path Compression](https://trueinterview.io/questions/string-path-compression) | Algorithm | Medium | Apr 03, 2026 |
 | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | System Design | Medium | Mar 31, 2026 |
 | [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru) | Low-Level Design | Medium | Mar 27, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
