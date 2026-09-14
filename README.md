@@ -49,7 +49,7 @@ company's page carries its guides above its questions.
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (1,396)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (248)](formats/system-design.md) · [Low-Level Design (392)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
+[Algorithm (1,397)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (248)](formats/system-design.md) · [Low-Level Design (391)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported
