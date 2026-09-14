@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,243 questions** · **335 interview guides** · **99 companies** · **5 formats** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,256 questions** · **335 interview guides** · **99 companies** · **5 formats** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -49,7 +49,7 @@ company's page carries its guides above its questions.
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (1,384)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (248)](formats/system-design.md) · [Low-Level Design (391)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
+[Algorithm (1,396)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (248)](formats/system-design.md) · [Low-Level Design (392)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported
@@ -85,7 +85,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | 🆕 Aug 04, 2026 |
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | 🆕 Aug 04, 2026 |
 | **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | 🆕 Aug 01, 2026 |
-| **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | 🆕 Jul 30, 2026 |
+| **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Jul 30, 2026 |
 | **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Jul 29, 2026 |
 | **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Jul 29, 2026 |
 | **Microsoft / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Jul 29, 2026 |
