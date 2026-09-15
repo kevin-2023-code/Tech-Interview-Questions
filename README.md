@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,249 questions** · **334 interview guides** · **99 companies** · **5 formats** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,249 questions** · **334 interview guides** · **99 companies** · **167 free to practise** · **163 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -31,19 +31,30 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-Run `python3 scripts/sync.py` to populate.
+**Last 90 days:** 163 sightings at 49 companies — Algorithm 75 · SQL 32 · System Design 31 · Low-Level Design 19 · AI Coding 6.
+
+**Reported most:** [Amazon (24)](companies/amazon.md) · [Google (16)](companies/google.md) · [Meta (13)](companies/meta.md) · [Snowflake (11)](companies/snowflake.md) · [ByteDance (10)](companies/bytedance.md) · [Figma (8)](companies/figma.md) · [Airbnb (7)](companies/airbnb.md) · [Apple (7)](companies/apple.md)
+
+**Asked at the most companies:** [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (14) · [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) (12) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (12)
+
+[**What companies are actually asking →**](insights/README.md) &nbsp;·&nbsp; [Topics](insights/topics.md) &nbsp;·&nbsp; [Companies](insights/companies.md) &nbsp;·&nbsp; [Trends](insights/trends.md) &nbsp;·&nbsp; [`insights.json`](data/insights.json)
+
 <!-- gen:insights:end -->
 
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-Run `python3 scripts/sync.py` to populate.
+**167 of the 2,249 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+
+[Algorithm (104)](free/algorithm.md) · [System Design (12)](free/system-design.md) · [Low-Level Design (44)](free/low-level-design.md) · [AI Coding (7)](free/ai-coding.md)
+
+[**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
 
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [How 82 companies interview, round by round (334 guides)](guides/README.md)
+**Interview process:** [How 82 companies interview, round by round (334 guides)](guides/README.md) &nbsp;·&nbsp; [the same guides by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 Round-by-round writeups: the recruiter screen, the hiring-manager round, the culture
@@ -57,7 +68,18 @@ loop — the freshest thing here, since a report lands the week the interview
 happened.
 
 <!-- gen:experiences:start -->
-Run `python3 scripts/sync.py` to populate.
+| Company | Role | Report | Posted |
+| :-- | :-- | :-- | :-- |
+| **Amplitude** | Software | [Amplitude Software Engineer Interview Experience](https://trueinterview.io/interviews/571add9f-d520-4bc5-8a41-27022d993f4d) | Sep 04, 2026 |
+| **Arista** | Software | [Arista Software Engineer (Network System) Interview Experience](https://trueinterview.io/interviews/3580d91d-b6a2-4ec4-b1f0-f5e3642cf792) | Sep 04, 2026 |
+| **Arista** | Software | [Arista Software Engineer Interview Experience](https://trueinterview.io/interviews/00fd59cd-515d-46cf-81f1-7990fe258dbc) | Sep 04, 2026 |
+| **Arista** | Software | [Arista Software Engineer Interview Experience](https://trueinterview.io/interviews/049ab8c5-1a35-444a-b14d-5b8a8df0323d) | Sep 04, 2026 |
+| **Sigmacomputing** | Software | [AST Evaluator for Boolean Formulas Interview Experience](https://trueinterview.io/interviews/7ddcf947-3ace-4467-9475-c4938229430d) | Sep 04, 2026 |
+| **Stubhub** | Software | [Backend Role Interview Experience](https://trueinterview.io/interviews/b689455c-d60b-4a3a-a295-e4677559984a) | Sep 04, 2026 |
+| **Circle** | Software | [Banking System Coding Interview Experience](https://trueinterview.io/interviews/4193e4d9-4102-4c57-a2a6-a6190d0592ba) | Sep 04, 2026 |
+| **Chicago Trading** | Quantitative Finance | [C++ Data Structures, Concurrency & Memory Interview Experience](https://trueinterview.io/interviews/dc311ce6-b945-43a2-93fb-1014f613dd39) | Sep 04, 2026 |
+
+[**2,313 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏢 Browse by company
