@@ -2,7 +2,7 @@
 
 # Google interview & OA questions
 
-**140 questions** reported at Google · **8 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/google).
+**139 questions** reported at Google · **8 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/google).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -129,7 +129,6 @@
 | [Refactoring Exercise](https://trueinterview.io/questions/c827c677-e606-4d3c-8704-230bdc66ab55) | AI Coding | Easy | — |
 | [Multi-Elevator Controller: Scheduling and Dispatching](https://trueinterview.io/questions/c0c1eabf-11cc-45b5-902c-f615b8fa389e) | Low-Level Design | Hard | — |
 | [Belt Packing: Return a Triplet When 3 Items Fit a Threshold](https://trueinterview.io/questions/b529815f-11de-4c9b-b00c-abf641811da9) | Algorithm | Hard | — |
-| [Modified Meeting Rooms](https://trueinterview.io/questions/b3268e33-17e3-45ad-83cc-173e328e3edf) | Algorithm | Medium | — |
 | [Find Timed-Out Activities from Logs (OO Design)](https://trueinterview.io/questions/ad01f55b-fde8-4a15-8995-b438f5576b3a) | Low-Level Design | Medium | — |
 | [Serialize and Deserialize List of Strings](https://trueinterview.io/questions/a0d558e6-66d0-4094-a169-e6e3e081374b) | Algorithm | Medium | — |
 | [Consolidate On-call Rotations into Maximal Constant Segments](https://trueinterview.io/questions/9c213936-135f-4a6a-8b44-aa71ed0ac82a) | Algorithm | Hard | — |

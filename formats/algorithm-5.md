@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,397 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,390 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,10 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Datadog** | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc) | Medium | — |
-| **Datadog** | [Implement Grouped Query Attention Forward Pass](https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7) | Medium | — |
-| **Datadog** | [Latency Bucket Counter](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e) | Easy | — |
-| **Confluent** | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Easy | — |
 | **Confluent** | [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Easy | — |
 | **Confluent** | [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Hard | — |
 | **Confluent** | [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062) | Medium | — |
@@ -185,7 +181,6 @@
 | **Google** | [Count Total Number (or Total Area) of Square Submatrices](https://trueinterview.io/questions/ed1d0cbf-3496-440a-b2f6-aad685d2d707) | Medium | — |
 | **Google** | [Find the Longest Subarray with a Given Mean](https://trueinterview.io/questions/e7e5e498-d62e-4b08-9ba0-49e3a3e2616d) | Medium | — |
 | **Google** | [Belt Packing: Return a Triplet When 3 Items Fit a Threshold](https://trueinterview.io/questions/b529815f-11de-4c9b-b00c-abf641811da9) | Hard | — |
-| **Google** | [Modified Meeting Rooms](https://trueinterview.io/questions/b3268e33-17e3-45ad-83cc-173e328e3edf) | Medium | — |
 | **Google** | [Serialize and Deserialize List of Strings](https://trueinterview.io/questions/a0d558e6-66d0-4094-a169-e6e3e081374b) | Medium | — |
 | **Google** | [Consolidate On-call Rotations into Maximal Constant Segments](https://trueinterview.io/questions/9c213936-135f-4a6a-8b44-aa71ed0ac82a) | Hard | — |
 | **Google** | [Unique Paths in a 2D Matrix with Moves](https://trueinterview.io/questions/9bc06af6-5391-48cc-9eb3-8364423d3a52) | Medium | — |
@@ -226,7 +221,6 @@
 | **ByteDance** | [Can Cut All Given Squares From a Rectangle Grid](https://trueinterview.io/questions/8df7409a-9106-435c-8157-bf0c94e6467e) | Hard | — |
 | **ByteDance** | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Medium | — |
 | **ByteDance** | [Array Partition](https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6) | Easy | — |
-| **ByteDance** | [LeetCode-Style Coding Problem (Implement and Pass Provided Tests)](https://trueinterview.io/questions/64898a2d-d53a-4ec1-ad42-92aa91605b8b) | Easy | — |
 | **ByteDance / Pinduoduo** | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Medium | — |
 | **ByteDance / Meta** | [Construct Binary Tree from Preorder and Inorder Traversal](https://trueinterview.io/questions/366ee784-2ba4-440f-990c-01acf83d407e) | Medium | — |
 | **ByteDance** | [Find Local Maximums in Temperature Data](https://trueinterview.io/questions/2efaddee-93c4-473f-8897-4e45b68612dc) | Medium | — |
@@ -260,5 +254,11 @@
 | **Amazon** | [Find Middle and Cycle Start in Linked List](https://trueinterview.io/questions/77fafabb-4814-4d6d-a77a-8490798dc751) | Medium | — |
 | **Amazon** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Easy | — |
 | **Amazon / Google** | [Binary Tree Level Average (Level-order traversal)](https://trueinterview.io/questions/317e2feb-db97-48b9-9a58-0959ba8569f5) | Medium | — |
+| **Amazon** | [Student Printing Queue: Enumerate All Valid Printing Orders (Queue to Ring Variant)](https://trueinterview.io/questions/2f74ec78-ce03-4ec9-985d-86839640c844) | Medium | — |
+| **Amazon** | [Find Minimum Replacements](https://trueinterview.io/questions/2ef5cfde-d106-4f9e-b45d-e8935da35da2) | Hard | — |
+| **Amazon** | [Median Rating of Most Recent N Comments](https://trueinterview.io/questions/076fe196-70a4-4387-a808-a26eabd45cdd) | Hard | — |
+| **Akuna Capital** | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Medium | — |
+| **Akuna Capital** | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Easy | — |
+| **Akuna Capital** | [Earliest Completion Date](https://trueinterview.io/questions/8aac20d0-1504-4d77-a135-6d802ad17cc3) | Easy | — |
 
 <sub>[← Page 4](algorithm-4.md) · Page 5 of 6 · [Page 6 →](algorithm-6.md)</sub>

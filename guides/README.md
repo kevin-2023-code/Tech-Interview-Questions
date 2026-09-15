@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**335 round-by-round guides** across **82 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
+**334 round-by-round guides** across **82 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -52,26 +52,6 @@
 | [SQL CASE Statement Result When No Conditions Match Without ELSE](https://trueinterview.io/study/e37f51bf-1f79-4770-a9dd-fe4aa859cc1e) | — |
 | [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | ambiguity, bq, conflict, leadership, star |
 
-### ByteDance
-
-<sub>13 guides · [questions at ByteDance](../companies/bytedance.md)</sub>
-
-| Interview round / guide | Topics |
-| :-- | :-- |
-| [AI-Native Coding Interview](https://trueinterview.io/study/e9620abb-1e2c-4ca2-9542-5dfaa576cce5) | — |
-| [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
-| [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
-| [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
-| [ByteDance Machine Learning Engineer Interview Process](https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process) | — |
-| [ByteDance Software Engineer Interview Process](https://trueinterview.io/study/bytedance-software-engineer-interview-process) | — |
-| [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f) | — |
-| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
-| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
-| [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/study/7407f837-dc41-46fe-8a55-3168b8b48b85) | — |
-| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal |
-| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
-| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
-
 ### Capital One
 
 <sub>13 guides · [questions at Capital One](../companies/capital-one.md)</sub>
@@ -111,6 +91,25 @@
 | [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/study/qr-technical-brainteasers) | brainteaser, fermi-estimation, math-reasoning, probability |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/study/trading-betting-game) | expected-value, market-making, mental-math, probability, trading |
 | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/study/zap-n-reaction-games) | brainteaser, reaction-speed |
+
+### ByteDance
+
+<sub>12 guides · [questions at ByteDance](../companies/bytedance.md)</sub>
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
+| [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
+| [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
+| [ByteDance Machine Learning Engineer Interview Process](https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process) | — |
+| [ByteDance Software Engineer Interview Process](https://trueinterview.io/study/bytedance-software-engineer-interview-process) | — |
+| [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f) | — |
+| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
+| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
+| [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/study/7407f837-dc41-46fe-8a55-3168b8b48b85) | — |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal |
+| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
+| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
 
 ### Citadel
 

@@ -10,13 +10,13 @@
 | :-- | --: | :-- |
 | [Meta](../companies/meta.md) | 166 | [meta](https://trueinterview.io/problems/company/meta) |
 | [Amazon](../companies/amazon.md) | 154 | [amazon](https://trueinterview.io/problems/company/amazon) |
-| [Google](../companies/google.md) | 140 | [google](https://trueinterview.io/problems/company/google) |
+| [Google](../companies/google.md) | 139 | [google](https://trueinterview.io/problems/company/google) |
 | [Uber](../companies/uber.md) | 132 | [uber](https://trueinterview.io/problems/company/uber) |
-| [ByteDance](../companies/bytedance.md) | 112 | [bytedance](https://trueinterview.io/problems/company/bytedance) |
+| [ByteDance](../companies/bytedance.md) | 111 | [bytedance](https://trueinterview.io/problems/company/bytedance) |
 | [Apple](../companies/apple.md) | 91 | [apple](https://trueinterview.io/problems/company/apple) |
 | [Microsoft](../companies/microsoft.md) | 90 | [microsoft](https://trueinterview.io/problems/company/microsoft) |
 | [OpenAI](../companies/openai.md) | 87 | [openai](https://trueinterview.io/problems/company/openai) |
-| [Snowflake](../companies/snowflake.md) | 87 | [snowflake](https://trueinterview.io/problems/company/snowflake) |
+| [Snowflake](../companies/snowflake.md) | 86 | [snowflake](https://trueinterview.io/problems/company/snowflake) |
 | [DoorDash](../companies/doordash.md) | 65 | [doordash](https://trueinterview.io/problems/company/doordash) |
 | [Netflix](../companies/netflix.md) | 64 | [netflix](https://trueinterview.io/problems/company/netflix) |
 | [Anthropic](../companies/anthropic.md) | 63 | [anthropic](https://trueinterview.io/problems/company/anthropic) |
@@ -53,9 +53,9 @@
 | [Perplexity](../companies/perplexity.md) | 22 | [perplexity](https://trueinterview.io/problems/company/perplexity) |
 | [Two Sigma](../companies/two-sigma.md) | 22 | [two-sigma](https://trueinterview.io/problems/company/two-sigma) |
 | [Weride](../companies/weride.md) | 22 | [weride](https://trueinterview.io/problems/company/weride) |
-| [Pinduoduo](../companies/pinduoduo.md) | 21 | [pinduoduo](https://trueinterview.io/problems/company/pinduoduo) |
 | [Datadog](../companies/datadog.md) | 20 | [datadog](https://trueinterview.io/problems/company/datadog) |
 | [IBM](../companies/ibm.md) | 20 | [ibm](https://trueinterview.io/problems/company/ibm) |
+| [Pinduoduo](../companies/pinduoduo.md) | 20 | [pinduoduo](https://trueinterview.io/problems/company/pinduoduo) |
 | [Cisco](../companies/cisco.md) | 19 | [cisco](https://trueinterview.io/problems/company/cisco) |
 | [Figma](../companies/figma.md) | 18 | [figma](https://trueinterview.io/problems/company/figma) |
 | [Optiver](../companies/optiver.md) | 18 | [optiver](https://trueinterview.io/problems/company/optiver) |
@@ -67,10 +67,10 @@
 | [Applied Intuition](../companies/applied-intuition.md) | 16 | [applied-intuition](https://trueinterview.io/problems/company/applied-intuition) |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 16 | [hudson-river-trading](https://trueinterview.io/problems/company/hudson-river-trading) |
 | [Salesforce](../companies/salesforce.md) | 16 | [salesforce](https://trueinterview.io/problems/company/salesforce) |
-| [Upstart](../companies/upstart.md) | 16 | [upstart](https://trueinterview.io/problems/company/upstart) |
 | [Intuit](../companies/intuit.md) | 15 | [intuit](https://trueinterview.io/problems/company/intuit) |
 | [JPMorgan](../companies/jpmorgan.md) | 15 | [jpmorgan](https://trueinterview.io/problems/company/jpmorgan) |
 | [Tradedesk](../companies/tradedesk.md) | 15 | [tradedesk](https://trueinterview.io/problems/company/tradedesk) |
+| [Upstart](../companies/upstart.md) | 15 | [upstart](https://trueinterview.io/problems/company/upstart) |
 | [Visa](../companies/visa.md) | 15 | [visa](https://trueinterview.io/problems/company/visa) |
 | [Affirm](../companies/affirm.md) | 14 | [affirm](https://trueinterview.io/problems/company/affirm) |
 | [Rubrik](../companies/rubrik.md) | 14 | [rubrik](https://trueinterview.io/problems/company/rubrik) |
@@ -85,13 +85,13 @@
 | [Okta](../companies/okta.md) | 10 | [okta](https://trueinterview.io/problems/company/okta) |
 | [Whatnot](../companies/whatnot.md) | 7 | [whatnot](https://trueinterview.io/problems/company/whatnot) |
 | [Amplitude](../companies/amplitude.md) | 6 | [amplitude](https://trueinterview.io/problems/company/amplitude) |
-| [Block](../companies/block.md) | 6 | [block](https://trueinterview.io/problems/company/block) |
 | [Geico](../companies/geico.md) | 6 | [geico](https://trueinterview.io/problems/company/geico) |
 | [Luma AI](../companies/luma-ai.md) | 6 | [luma-ai](https://trueinterview.io/problems/company/luma-ai) |
 | [Mongodb](../companies/mongodb.md) | 6 | [mongodb](https://trueinterview.io/problems/company/mongodb) |
 | [Stackadapt](../companies/stackadapt.md) | 6 | [stackadapt](https://trueinterview.io/problems/company/stackadapt) |
 | [Airtable](../companies/airtable.md) | 5 | [airtable](https://trueinterview.io/problems/company/airtable) |
 | [Arista](../companies/arista.md) | 5 | [arista](https://trueinterview.io/problems/company/arista) |
+| [Block](../companies/block.md) | 5 | [block](https://trueinterview.io/problems/company/block) |
 | [Chicago Trading](../companies/chicago-trading.md) | 5 | [chicago-trading](https://trueinterview.io/problems/company/chicago-trading) |
 | [Circle](../companies/circle.md) | 5 | [circle](https://trueinterview.io/problems/company/circle) |
 | [Lead Bank](../companies/lead-bank.md) | 5 | [lead-bank](https://trueinterview.io/problems/company/lead-bank) |
@@ -100,8 +100,8 @@
 | [Voleon](../companies/voleon.md) | 5 | [voleon](https://trueinterview.io/problems/company/voleon) |
 | [Faire](../companies/faire.md) | 4 | [faire](https://trueinterview.io/problems/company/faire) |
 | [Gusto](../companies/gusto.md) | 4 | [gusto](https://trueinterview.io/problems/company/gusto) |
-| [Moveworks](../companies/moveworks.md) | 4 | [moveworks](https://trueinterview.io/problems/company/moveworks) |
 | [Okx](../companies/okx.md) | 4 | [okx](https://trueinterview.io/problems/company/okx) |
+| [Moveworks](../companies/moveworks.md) | 3 | [moveworks](https://trueinterview.io/problems/company/moveworks) |
 | [Oscar Health](../companies/oscar-health.md) | 3 | [oscar-health](https://trueinterview.io/problems/company/oscar-health) |
 | [Rokt](../companies/rokt.md) | 3 | [rokt](https://trueinterview.io/problems/company/rokt) |
 | [Stubhub](../companies/stubhub.md) | 3 | [stubhub](https://trueinterview.io/problems/company/stubhub) |

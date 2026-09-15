@@ -2,7 +2,7 @@
 
 # Snowflake interview & OA questions
 
-**87 questions** reported at Snowflake · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snowflake).
+**86 questions** reported at Snowflake · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -101,7 +101,6 @@
 | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Algorithm | Hard | — |
 | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Algorithm | Hard | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
-| [LeetCode 1600/1610 (uncertain) with follow-up](https://trueinterview.io/questions/ed7162db-fccc-4a06-8e2a-32397711ebbc) | Algorithm | Medium | — |
 | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c) | Low-Level Design | Medium | — |
 | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Algorithm | Easy | — |
 | [Handle Intervals When Input Is Not Sorted](https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac) | Algorithm | Medium | — |

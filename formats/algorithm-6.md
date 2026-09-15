@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,397 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,390 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,12 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon** | [Student Printing Queue: Enumerate All Valid Printing Orders (Queue to Ring Variant)](https://trueinterview.io/questions/2f74ec78-ce03-4ec9-985d-86839640c844) | Medium | — |
-| **Amazon** | [Find Minimum Replacements](https://trueinterview.io/questions/2ef5cfde-d106-4f9e-b45d-e8935da35da2) | Hard | — |
-| **Amazon** | [Median Rating of Most Recent N Comments](https://trueinterview.io/questions/076fe196-70a4-4387-a808-a26eabd45cdd) | Hard | — |
-| **Akuna Capital** | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Medium | — |
-| **Akuna Capital** | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Easy | — |
-| **Akuna Capital** | [Earliest Completion Date](https://trueinterview.io/questions/8aac20d0-1504-4d77-a135-6d802ad17cc3) | Easy | — |
 | **Akuna Capital** | [Min Mod and Max](https://trueinterview.io/questions/300141c0-9e82-4bc4-8055-d73e3ca2fae2) | Easy | — |
 | **Akuna Capital** | [Maximize Ratings](https://trueinterview.io/questions/17c24b04-1216-4d82-bd29-3109997252c4) | Medium | — |
 | **Airbnb** | [Find Split Stays for Airbnb Listings](https://trueinterview.io/questions/e03cb6a7-a689-4b72-ba5e-bc25eceb157b) | Medium | — |
@@ -101,7 +95,6 @@
 | **Stripe** | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Easy | — |
 | **Stripe** | [Email (Multi-part)](https://trueinterview.io/questions/48dbfe85-e973-4205-950a-2a075b7d0307) | Medium | — |
 | **Stripe** | [Fee Calculation for Transactions](https://trueinterview.io/questions/012ccdf5-7691-4ff9-9a61-9b5cf3c60ead) | Easy | — |
-| **Snowflake** | [LeetCode 1600/1610 (uncertain) with follow-up](https://trueinterview.io/questions/ed7162db-fccc-4a06-8e2a-32397711ebbc) | Medium | — |
 | **Snowflake** | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Easy | — |
 | **Snowflake** | [Handle Intervals When Input Is Not Sorted](https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac) | Medium | — |
 | **Snowflake** | [Tree Height After Node Removal](https://trueinterview.io/questions/656949e3-a5f9-4e20-bf38-ee5b7cab1eef) | Medium | — |

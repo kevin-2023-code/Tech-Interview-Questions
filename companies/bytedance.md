@@ -2,17 +2,16 @@
 
 # ByteDance interview & OA questions
 
-**112 questions** reported at ByteDance · **13 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bytedance).
+**111 questions** reported at ByteDance · **12 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How ByteDance interviews
 
-**13 round-by-round guides.**
+**12 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
-| [AI-Native Coding Interview](https://trueinterview.io/study/e9620abb-1e2c-4ca2-9542-5dfaa576cce5) | — |
 | [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
 | [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
 | [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
@@ -122,7 +121,6 @@
 | [Can Cut All Given Squares From a Rectangle Grid](https://trueinterview.io/questions/8df7409a-9106-435c-8157-bf0c94e6467e) | Algorithm | Hard | — |
 | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Algorithm | Medium | — |
 | [Array Partition](https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6) | Algorithm | Easy | — |
-| [LeetCode-Style Coding Problem (Implement and Pass Provided Tests)](https://trueinterview.io/questions/64898a2d-d53a-4ec1-ad42-92aa91605b8b) | Algorithm | Easy | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Find Highest Salary In Each Department](https://trueinterview.io/questions/5348b956-13e3-4f3a-a381-f80594e38002) | SQL | Medium | — |
 | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Algorithm | Medium | — |

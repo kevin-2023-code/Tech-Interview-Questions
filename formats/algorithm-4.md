@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,397 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,390 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Bobyard** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | Medium | — |
 | **Bobyard** | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | Easy | — |
-| **Block** | [Data Manipulation and NLP with Bayesian Methods](https://trueinterview.io/questions/e2839e21-c3d1-40c1-b1e7-21febb6df36d) | Medium | — |
 | **Block** | [Minesweeper Board Generation](https://trueinterview.io/questions/a0eccf02-13b4-4c9b-a2ac-69c127f7cc18) | Easy | — |
 | **Block** | [Tournament Progression Chart with JavaScript Simulation and UI](https://trueinterview.io/questions/5d30d8fe-838b-4c5a-9e01-a47461a797fc) | Medium | — |
 | **Block** | [Optimal Crop Selection for Maximum Profit](https://trueinterview.io/questions/50177e10-60ce-48f3-8baa-05cae30ae9e2) | Medium | — |
@@ -64,7 +62,6 @@
 | **Pinduoduo** | [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84) | Hard | — |
 | **Mongodb** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Medium | — |
 | **Palantir** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Hard | — |
-| **Pinduoduo** | [Triplets Counting with Three Pointers](https://trueinterview.io/questions/d3ad7576-d7f0-4e00-9d5a-53085715a06c) | Medium | — |
 | **Palantir / SoFi** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Medium | — |
 | **Mongodb** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Easy | — |
 | **Mongodb** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Medium | — |
@@ -206,7 +203,6 @@
 | **Upstart** | [Maximum Cities Visited Traveling West to East with Lexicographic City Names](https://trueinterview.io/questions/fd4b3743-ae4a-56c3-8ddc-875d67c82fb9) | Medium | — |
 | **Upstart** | [Decrypt a Double-Substitution Cipher](https://trueinterview.io/questions/f7f2a358-a5bb-55e0-a442-4ba0ed8f1869) | Medium | — |
 | **Upstart** | [Increase Exclamation Marks and Replace Periods](https://trueinterview.io/questions/f2aa7ead-a63b-5709-8feb-03c891c03e4d) | Easy | — |
-| **Upstart** | [Find anagrams matching first letter](https://trueinterview.io/questions/c0a9b0a6-542b-4bec-85bf-5408ed038178) | Medium | — |
 | **Upstart** | [Check Value Occurrence by Position and Half](https://trueinterview.io/questions/b66c3fdf-2dee-553d-ad9d-baa7bee7db8a) | Easy | — |
 | **Upstart** | [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532) | Medium | — |
 | **Upstart** | [Compute File Size on Disk](https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133) | Easy | — |
@@ -260,5 +256,9 @@
 | **Dropbox** | [Worker Registration Payroll Calculation](https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0) | Medium | — |
 | **Dropbox** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Easy | — |
 | **Datadog** | [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518) | Medium | — |
+| **Datadog** | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc) | Medium | — |
+| **Datadog** | [Implement Grouped Query Attention Forward Pass](https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7) | Medium | — |
+| **Datadog** | [Latency Bucket Counter](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e) | Easy | — |
+| **Confluent** | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Easy | — |
 
 <sub>[← Page 3](algorithm-3.md) · Page 4 of 6 · [Page 5 →](algorithm-5.md)</sub>

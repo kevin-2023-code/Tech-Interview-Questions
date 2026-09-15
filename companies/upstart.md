@@ -2,7 +2,7 @@
 
 # Upstart interview & OA questions
 
-**16 questions** reported at Upstart · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/upstart).
+**15 questions** reported at Upstart · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/upstart).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -24,7 +24,6 @@
 | [Maximum Cities Visited Traveling West to East with Lexicographic City Names](https://trueinterview.io/questions/fd4b3743-ae4a-56c3-8ddc-875d67c82fb9) | Algorithm | Medium | — |
 | [Decrypt a Double-Substitution Cipher](https://trueinterview.io/questions/f7f2a358-a5bb-55e0-a442-4ba0ed8f1869) | Algorithm | Medium | — |
 | [Increase Exclamation Marks and Replace Periods](https://trueinterview.io/questions/f2aa7ead-a63b-5709-8feb-03c891c03e4d) | Algorithm | Easy | — |
-| [Find anagrams matching first letter](https://trueinterview.io/questions/c0a9b0a6-542b-4bec-85bf-5408ed038178) | Algorithm | Medium | — |
 | [Check Value Occurrence by Position and Half](https://trueinterview.io/questions/b66c3fdf-2dee-553d-ad9d-baa7bee7db8a) | Algorithm | Easy | — |
 | [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532) | Algorithm | Medium | — |
 | [Compute File Size on Disk](https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133) | Algorithm | Easy | — |

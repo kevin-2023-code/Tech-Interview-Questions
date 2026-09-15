@@ -2,7 +2,7 @@
 
 # Pinduoduo interview & OA questions
 
-**21 questions** reported at Pinduoduo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
+**20 questions** reported at Pinduoduo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -34,7 +34,6 @@
 | [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44) | Algorithm | Hard | — |
 | [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6) | Algorithm | Medium | — |
 | [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84) | Algorithm | Hard | — |
-| [Triplets Counting with Three Pointers](https://trueinterview.io/questions/d3ad7576-d7f0-4e00-9d5a-53085715a06c) | Algorithm | Medium | — |
 | [Logistics Variant](https://trueinterview.io/questions/86561494-7d80-47e0-a298-bb7b9e51ad7b) | Algorithm | Hard | — |
 | [Sort Colors and Sizes](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) | Algorithm | Easy | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |

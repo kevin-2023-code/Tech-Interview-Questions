@@ -2,13 +2,12 @@
 
 # Block interview & OA questions
 
-**6 questions** reported at Block. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/block).
+**5 questions** reported at Block. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/block).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Data Manipulation and NLP with Bayesian Methods](https://trueinterview.io/questions/e2839e21-c3d1-40c1-b1e7-21febb6df36d) | Algorithm | Medium | — |
 | [Minesweeper Board Generation](https://trueinterview.io/questions/a0eccf02-13b4-4c9b-a2ac-69c127f7cc18) | Algorithm | Easy | — |
 | [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Low-Level Design | Medium | — |
 | [Tournament Progression Chart with JavaScript Simulation and UI](https://trueinterview.io/questions/5d30d8fe-838b-4c5a-9e01-a47461a797fc) | Algorithm | Medium | — |

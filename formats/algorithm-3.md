@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,397 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,390 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -255,10 +255,10 @@
 | **Okx** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Easy | — |
 | **Okx** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Medium | — |
 | **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
-| **Moveworks** | [Select Least-Similar Candidates After Rarest Max-Character Proportion Filtering](https://trueinterview.io/questions/07da57d4-d077-4eab-8fea-a5e1ae7418c2) | Hard | — |
 | **Faire** | [Sliding Window Problem](https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782) | Easy | — |
 | **Faire** | [Print Pascal's Triangle (Symmetric Formatting)](https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3) | Medium | — |
 | **Faire** | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) | Hard | — |
 | **Faire** | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) | Hard | — |
+| **Bobyard** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | Medium | — |
 
 <sub>[← Page 2](algorithm-2.md) · Page 3 of 6 · [Page 4 →](algorithm-4.md)</sub>
