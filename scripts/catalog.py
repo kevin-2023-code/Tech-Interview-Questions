@@ -135,6 +135,26 @@ class Guide:
     added_at: str | None
 
 
+@dataclass(frozen=True)
+class Experience:
+    """One candidate-written interview report from the 面经 board.
+
+    The newest thing this repository can point at: a question enters the bank
+    when someone curates it, but a report lands the week the loop happened. It
+    is metadata like everything else here — company, role, title, date, URL —
+    and the write-up itself stays on the site, which is both the rule this
+    repository holds and the reason the board can meter its bodies at all.
+    """
+
+    id: str
+    company: str
+    role: str | None
+    title: str
+    url: str
+    posted_at: str | None
+    posted_date: date | None
+
+
 def _str_list(value: Any) -> tuple[str, ...]:
     if not isinstance(value, list):
         return ()
@@ -219,6 +239,29 @@ def guide_from_payload(item: dict[str, Any]) -> Guide:
         tags=_str_list(item.get("tags")),
         url=url,
         added_at=added_at,
+    )
+
+
+def experience_from_payload(item: dict[str, Any]) -> Experience:
+    """Build an :class:`Experience`, refusing a row with no address."""
+    identifier, title, url = item.get("id"), item.get("title"), item.get("url")
+    if not isinstance(identifier, str) or not identifier.strip():
+        raise CatalogError(f"experience row has no id: {item!r:.200}")
+    if not isinstance(title, str) or not title.strip():
+        raise CatalogError(f"experience row {identifier} has no title")
+    if not isinstance(url, str) or not url.startswith("https://"):
+        raise CatalogError(f"experience row {identifier} has no absolute url")
+    posted_at = item.get("postedAt") if isinstance(item.get("postedAt"), str) else None
+    posted_date, _ = parse_catalog_date(posted_at)
+    role = item.get("role")
+    return Experience(
+        id=identifier.strip(),
+        company=str(item.get("company") or "").strip(),
+        role=" ".join(role.split()) if isinstance(role, str) and role.strip() else None,
+        title=" ".join(title.split()),
+        url=url,
+        posted_at=posted_at,
+        posted_date=posted_date,
     )
 
 
@@ -366,15 +409,43 @@ def fetch_guides(base_url: str, *, timeout: int = 30) -> tuple[list[dict[str, An
     return rows, True
 
 
+def fetch_experiences(base_url: str, *, timeout: int = 30) -> tuple[list[dict[str, Any]], int | None]:
+    """The newest interview reports, and how many the board holds in total.
+
+    `/api/v1/interview-experiences` takes a `limit` and nothing else — no page,
+    no offset — so this read is a SLICE by construction and can never be the
+    whole board. That is a documented limitation rather than a failure, and it
+    is handled the way the guides read handles its own: the shortfall travels
+    as data (`total`) and the page says which slice it is showing. A section
+    headed "every interview report" that silently held fifty of two thousand
+    would be the same lie the guides index was built to stop telling.
+
+    A read that FAILS still raises, like every other read in this module. The
+    difference is not arbitrary: a limitation is a fact about the endpoint that
+    a caveat can state, while a failure is the absence of any fact at all, and
+    publishing an empty section over a good one is how an hourly job quietly
+    deletes a page nobody was watching.
+    """
+    data = _get_json(f"{base_url}/api/v1/interview-experiences?limit={PAGE_LIMIT}", timeout)
+    rows = data.get("experiences")
+    if not isinstance(rows, list):
+        raise CatalogError("interview-experiences response has no experiences array")
+    total = data.get("total") if isinstance(data.get("total"), int) else None
+    return [item for item in rows if isinstance(item, dict)], total
+
+
 def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dict[str, Any]:
     """The whole snapshot this repository is rendered from."""
     base = base_url.rstrip("/")
     guides, guides_complete = fetch_guides(base, timeout=timeout)
+    experiences, experiences_total = fetch_experiences(base, timeout=timeout)
     return {
         "source": base,
         "questions": fetch_questions(base, timeout=timeout),
         "guides": guides,
         "guidesComplete": guides_complete,
+        "experiences": experiences,
+        "experiencesTotal": experiences_total,
         "companyLabels": fetch_company_labels(base, timeout=timeout),
     }
 
@@ -388,6 +459,13 @@ class Catalog:
     #: False when the API could not hand over the whole Study section. Carried
     #: rather than logged, because the renderer prints it on the page.
     guides_complete: bool
+    #: The newest interview reports the board would hand over — a slice, never
+    #: the board, since that endpoint takes no offset.
+    experiences: list[Experience]
+    #: How many reports the board holds, or ``None`` when it did not say. The
+    #: page prints "the 50 newest of 2,426" from this pair and says plainly
+    #: that it is a slice; `None` means the size is unknown, not zero.
+    experiences_total: int | None
     labels: dict[str, str]
 
 
@@ -423,6 +501,22 @@ def load_catalog(payload: Any) -> Catalog:
             raise CatalogError(f"catalog snapshot has duplicate guide slug {guide.slug!r}")
         seen_guides.add(guide.slug)
 
+    # Interview reports are OPTIONAL in a snapshot for the same reason guides
+    # are: a deployment whose board is empty is a normal state, and a fixture
+    # written before this section existed must still render.
+    raw_experiences = payload.get("experiences")
+    experiences = (
+        [experience_from_payload(item) for item in raw_experiences if isinstance(item, dict)]
+        if isinstance(raw_experiences, list)
+        else []
+    )
+    seen_experiences: set[str] = set()
+    for experience in experiences:
+        if experience.id in seen_experiences:
+            raise CatalogError(f"catalog snapshot has duplicate experience id {experience.id!r}")
+        seen_experiences.add(experience.id)
+    experiences_total = payload.get("experiencesTotal")
+
     # Absent means complete: a hand-written fixture should not have to opt in to
     # the normal case, and only a live read that fell short sets it False.
     guides_complete = payload.get("guidesComplete")
@@ -430,6 +524,8 @@ def load_catalog(payload: Any) -> Catalog:
         questions=questions,
         guides=guides,
         guides_complete=guides_complete is not False,
+        experiences=experiences,
+        experiences_total=experiences_total if isinstance(experiences_total, int) else None,
         labels={str(k): str(v) for k, v in labels.items() if isinstance(v, str)},
     )
 
@@ -441,6 +537,18 @@ def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
         "source": source,
         "companyLabels": labels,
         "guidesComplete": catalog.guides_complete,
+        "experiencesTotal": catalog.experiences_total,
+        "experiences": [
+            {
+                "id": e.id,
+                "company": e.company,
+                "role": e.role,
+                "title": e.title,
+                "url": e.url,
+                "postedAt": e.posted_at,
+            }
+            for e in catalog.experiences
+        ],
         "guides": [
             {
                 "slug": g.slug,

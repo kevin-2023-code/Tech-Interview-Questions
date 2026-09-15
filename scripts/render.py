@@ -226,6 +226,11 @@ def columns_for(view: str, api_labels: dict[str, str], today: date) -> list[Colu
         return [company, question, difficulty, reported]
     if view == "month":
         return [company, question, fmt, difficulty]
+    if view == "free":
+        # The free pages are read as a study list rather than a news feed, so
+        # difficulty earns its column here: it is what decides which row you
+        # open first, and the list is already ordered by it.
+        return [question, company, difficulty, reported]
     # The README, which is the one table read on a phone more often than not.
     # Four columns fit ~400px; the fifth (difficulty) wrapped every title onto
     # three lines to carry one word that is on the company page anyway.
@@ -237,6 +242,63 @@ def render_table(questions: Sequence[Question], cols: Sequence[Column]) -> str:
     divider = "| " + " | ".join(align for _, align, _ in cols) + " |"
     rows = ["| " + " | ".join(cell(q) for _, _, cell in cols) + " |" for q in questions]
     return "\n".join([header, divider, *rows])
+
+
+# ── statistics cells ─────────────────────────────────────────────────────────
+
+
+def percent(count: int, of: int, *, places: int = 0) -> str:
+    """``count`` as a share of ``of`` — or ``—`` when there is no denominator.
+
+    A share of nothing is unmeasured, and printing it as ``0%`` states that a
+    thing was measured and found absent. Every other renderer here holds the
+    same line for dates; a statistic is not the place to give it up.
+    """
+    if of <= 0:
+        return "—"
+    value = 100.0 * count / of
+    return f"{value:.{places}f}%"
+
+
+def bar(value: int, largest: int, *, width: int = 16) -> str:
+    """A block bar for a table cell, scaled against the biggest row.
+
+    Text rather than an image: it survives GitHub's markdown, costs no request,
+    and reads the same in both themes. A non-zero value always gets at least one
+    block, because a row that exists and renders as nothing is worse than no bar.
+    """
+    if largest <= 0 or value <= 0:
+        return ""
+    filled = max(1, round(width * value / largest))
+    return "█" * filled
+
+
+def table(headers: Sequence[str], aligns: Sequence[str], rows: Iterable[Sequence[str]]) -> str:
+    """A markdown table from already-rendered cells.
+
+    The question tables go through `render_table`, which knows what a Question
+    is. The statistics pages count things that are not questions — topics,
+    months, rounds — so they need the plain shape as well.
+    """
+    lines = [
+        "| " + " | ".join(headers) + " |",
+        "| " + " | ".join(aligns) + " |",
+    ]
+    lines.extend("| " + " | ".join(cells) + " |" for cells in rows)
+    return "\n".join(lines)
+
+
+def question_link(question: Question) -> str:
+    return f"[{escape_cell(question.title)}]({question.url})"
+
+
+def date_label(stamp: date | None, *, month_only: bool = False) -> str:
+    """A date as this repository prints one, or ``—`` for an unknown."""
+    if stamp is None:
+        return "—"
+    if month_only:
+        return f"{MONTH_NAMES[stamp.month - 1]} {stamp.year}"
+    return f"{MONTH_NAMES[stamp.month - 1]} {stamp.day:02d}, {stamp.year}"
 
 
 # ── pages ────────────────────────────────────────────────────────────────────
@@ -269,14 +331,21 @@ def render_shard(
     cols: Sequence[Column],
     today: date,
     preamble: str = "",
+    preserve_order: bool = False,
 ) -> dict[str, str]:
     """One shard, paginated at :data:`ROWS_PER_PAGE`.
 
     Returns every page it produced. A shard that fits is exactly one file, and
     the ``-2.md`` suffix never appears for it — so a company whose count crosses
     the threshold gains a file rather than renaming the one it had.
+
+    Sightings-newest-first by default, which is what every catalog shard wants.
+    `preserve_order` is for a shard whose lede promises a DIFFERENT order — the
+    free pages say "easiest first" — because a renderer that re-sorts what it
+    was handed makes a page contradict its own first sentence, and does it
+    where no caller can see.
     """
-    ordered = sort_questions(questions, today)
+    ordered = list(questions) if preserve_order else sort_questions(questions, today)
     chunks = [ordered[i : i + ROWS_PER_PAGE] for i in range(0, len(ordered), ROWS_PER_PAGE)] or [[]]
     pages: dict[str, str] = {}
     for index, chunk in enumerate(chunks, start=1):
@@ -308,12 +377,24 @@ def render_shard(
 # ── guides ───────────────────────────────────────────────────────────────────
 
 
-def guide_rows(guides: Sequence[Guide], api_labels: dict[str, str], *, with_company: bool) -> str:
-    """A guide table. `with_company` is off on a company page, which is the company."""
+def guide_rows(
+    guides: Sequence[Guide],
+    api_labels: dict[str, str],
+    *,
+    with_company: bool,
+    preserve_order: bool = False,
+) -> str:
+    """A guide table. `with_company` is off on a company page, which is the company.
+
+    `preserve_order` is for a caller that has already ordered its rows and means
+    it — the *recently published* block, whose whole claim is that it is in date
+    order. Sorting inside a renderer silently overrides a caller's ordering, and
+    the caller cannot see that it happened.
+    """
     header = ["Interview round / guide"] + ([] if not with_company else ["Company"]) + ["Topics"]
     align = [":--"] + ([] if not with_company else [":--"]) + [":--"]
     lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(align) + " |"]
-    for guide in sort_guides(guides, api_labels):
+    for guide in (guides if preserve_order else sort_guides(guides, api_labels)):
         cells = [f"[{escape_cell(guide.title)}]({guide.url})"]
         if with_company:
             names = " / ".join(escape_cell(company_label(c, api_labels)) for c in guide.companies)
@@ -467,6 +548,30 @@ def render_csv(questions: Sequence[Question], api_labels: dict[str, str]) -> str
         for key in ("companies", "topics", "tags", "rounds"):
             row[key] = "; ".join(row[key])  # type: ignore[arg-type]
         writer.writerow(row)
+    return buffer.getvalue()
+
+
+def render_guides_csv(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
+    """The reading list as a spreadsheet, slug-sorted like the question exports.
+
+    The guides were the one thing this repository published and did not export,
+    which made "take the data" a half-truth: a reader who wanted the writeups
+    had to scrape the markdown the sync had just generated from JSON.
+    """
+    buffer = io.StringIO()
+    writer = csv.writer(buffer, lineterminator="\n")
+    writer.writerow(["slug", "title", "companies", "topics", "url", "added_at"])
+    for guide in sorted(guides, key=lambda g: g.slug):
+        writer.writerow(
+            [
+                guide.slug,
+                guide.title,
+                "; ".join(company_label(c, api_labels) for c in guide.companies),
+                "; ".join(guide.tags),
+                guide.url,
+                guide.added_at or "",
+            ]
+        )
     return buffer.getvalue()
 
 

@@ -11,7 +11,9 @@ from __future__ import annotations
 from datetime import date
 from typing import Sequence
 
-from catalog import Catalog, Guide, Question
+import report
+from catalog import Catalog, Guide, Question, parse_catalog_date
+from insights import compute as compute_insights
 from labels import FORMAT_ORDER, company_key, company_label, format_label
 from render import (
     GENERATED_NOTICE,
@@ -31,6 +33,7 @@ from render import (
     month_nav,
     render_companies_csv,
     render_csv,
+    render_guides_csv,
     render_jsonl,
     render_shard,
     render_table,
@@ -39,6 +42,15 @@ from render import (
 )
 
 SITE = "https://trueinterview.io"
+
+# Guides shown in the "recently published" block above the company sections.
+# Short on purpose: it is a what-is-new block, and a long one is just the index
+# again in a different order.
+RECENT_GUIDES = 12
+
+# Interview reports named on the landing page. Enough to show the board is
+# moving, short enough that it is a teaser rather than a second index.
+README_EXPERIENCE_ROWS = 8
 
 
 def group_by_company(questions: Sequence[Question], api_labels: dict[str, str]):
@@ -276,6 +288,36 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                 "can page.",
                 "",
             ]
+        # Newest first, above the company sections. The index below is
+        # reference material sorted alphabetically on purpose (nobody opens it
+        # asking what changed this week), which leaves nowhere for a guide
+        # published yesterday to be seen — so it gets its own short block, and
+        # the hourly job has something new to show on a day with no questions.
+        # A publication date after today is a mistyped date upstream, and the
+        # rule the sightings hold applies here too: it loses its claim to
+        # *recent* rather than being handed the top of the block.
+        dated_guides = [
+            (stamp, g)
+            for g, stamp in ((g, parse_catalog_date(g.added_at)[0]) for g in ordered_guides)
+            if stamp is not None and stamp <= today
+        ]
+        newest = [
+            g
+            for _, g in sorted(
+                dated_guides, key=lambda row: (-row[0].toordinal(), row[1].title.casefold(), row[1].slug)
+            )
+        ][:RECENT_GUIDES]
+        if newest:
+            body += [
+                "## Recently published",
+                "",
+                guide_rows(newest, api_labels, with_company=True, preserve_order=True),
+                "",
+                "[Grouped by topic instead →](by-topic.md)",
+                "",
+                "## By company",
+                "",
+            ]
         for key in sorted(guides_by_company, key=lambda k: (-len(guides_by_company[k]), k)):
             rows = guides_by_company[key]
             name = next(
@@ -300,10 +342,28 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             ]
         files["guides/README.md"] = "\n".join(body)
 
+    # ── statistics, free practice, free reading, latest reports ──────────────
+    # The four surfaces that carry value rather than navigation. Computed from
+    # the same records everything above is rendered from, so a number on an
+    # insights page and a row on a company page can never disagree.
+    stats_view = compute_insights(ordered, guides, api_labels, today)
+    files["insights/README.md"] = report.insights_index(stats_view, api_labels)
+    files["insights/topics.md"] = report.topics_page(stats_view)
+    files["insights/companies.md"] = report.companies_page(stats_view)
+    files["insights/trends.md"] = report.trends_page(stats_view)
+    files.update(report.free_pages(ordered, stats_view, api_labels, today))
+    if guides:
+        files["guides/by-topic.md"] = report.guides_by_topic(guides, api_labels)
+    if catalog.experiences:
+        files["experiences/README.md"] = report.experiences_page(catalog, api_labels, today)
+
     # ── data exports ─────────────────────────────────────────────────────────
     files["data/questions.jsonl"] = render_jsonl(ordered, api_labels)
     files["data/questions.csv"] = render_csv(ordered, api_labels)
     files["data/companies.csv"] = render_companies_csv(company_rows)
+    files["data/insights.json"] = report.insights_json(stats_view)
+    if guides:
+        files["data/guides.csv"] = render_guides_csv(guides, api_labels)
 
     # ── README ───────────────────────────────────────────────────────────────
     # The landing page's newest slice: a real sighting, on or before today.
@@ -318,8 +378,18 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         readme,
         "gen:stats",
         f"**{len(ordered):,} questions** · **{len(guides):,} interview guides** · "
-        f"**{len(company_rows)} companies** · **{len(format_keys)} formats** · synced from "
-        f"[the live catalog]({SITE}/developers/api) every hour",
+        f"**{len(company_rows)} companies** · **{stats_view.free_total:,} free to practise** · "
+        f"**{stats_view.window_total:,} reported in the last {stats_view.window_days} days** · "
+        f"synced from [the live catalog]({SITE}/developers/api) every hour",
+    )
+    readme = inject(readme, "gen:insights", report.readme_insights_block(stats_view, api_labels))
+    readme = inject(readme, "gen:free", report.readme_free_block(stats_view))
+    readme = inject(
+        readme,
+        "gen:experiences",
+        report.readme_experiences_block(catalog, api_labels, README_EXPERIENCE_ROWS)
+        if catalog.experiences
+        else "_No interview report was published in this snapshot._",
     )
     readme = inject(readme, "gen:formats", format_nav(by_format))
     readme = inject(
@@ -327,7 +397,8 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         "gen:guides",
         (
             f"**Interview process:** [How {len(guides_by_company)} companies interview, "
-            f"round by round ({len(guides):,} guides)](guides/README.md)"
+            f"round by round ({len(guides):,} guides)](guides/README.md) &nbsp;·&nbsp; "
+            f"[the same guides by topic](guides/by-topic.md)"
             + ("" if catalog.guides_complete else " — _partial, see the note there_")
         )
         if guides
@@ -360,6 +431,11 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         "formats": len(format_keys),
         "months": len(month_keys),
         "undated": undated,
+        "free": stats_view.free_total,
+        "window": stats_view.window_total,
+        "window_days": stats_view.window_days,
+        "experiences": len(catalog.experiences),
+        "experiences_total": catalog.experiences_total,
         "files": len(files),
         "readme_bytes": len(files["README.md"].encode("utf-8")),
         "largest_page": max(
