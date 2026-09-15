@@ -226,6 +226,11 @@ def columns_for(view: str, api_labels: dict[str, str], today: date) -> list[Colu
         return [company, question, difficulty, reported]
     if view == "month":
         return [company, question, fmt, difficulty]
+    if view == "free":
+        # The free pages are read as a study list rather than a news feed, so
+        # difficulty earns its column here: it is what decides which row you
+        # open first, and the list is already ordered by it.
+        return [question, company, difficulty, reported]
     # The README, which is the one table read on a phone more often than not.
     # Four columns fit ~400px; the fifth (difficulty) wrapped every title onto
     # three lines to carry one word that is on the company page anyway.
@@ -237,6 +242,63 @@ def render_table(questions: Sequence[Question], cols: Sequence[Column]) -> str:
     divider = "| " + " | ".join(align for _, align, _ in cols) + " |"
     rows = ["| " + " | ".join(cell(q) for _, _, cell in cols) + " |" for q in questions]
     return "\n".join([header, divider, *rows])
+
+
+# ── statistics cells ─────────────────────────────────────────────────────────
+
+
+def percent(count: int, of: int, *, places: int = 0) -> str:
+    """``count`` as a share of ``of`` — or ``—`` when there is no denominator.
+
+    A share of nothing is unmeasured, and printing it as ``0%`` states that a
+    thing was measured and found absent. Every other renderer here holds the
+    same line for dates; a statistic is not the place to give it up.
+    """
+    if of <= 0:
+        return "—"
+    value = 100.0 * count / of
+    return f"{value:.{places}f}%"
+
+
+def bar(value: int, largest: int, *, width: int = 16) -> str:
+    """A block bar for a table cell, scaled against the biggest row.
+
+    Text rather than an image: it survives GitHub's markdown, costs no request,
+    and reads the same in both themes. A non-zero value always gets at least one
+    block, because a row that exists and renders as nothing is worse than no bar.
+    """
+    if largest <= 0 or value <= 0:
+        return ""
+    filled = max(1, round(width * value / largest))
+    return "█" * filled
+
+
+def table(headers: Sequence[str], aligns: Sequence[str], rows: Iterable[Sequence[str]]) -> str:
+    """A markdown table from already-rendered cells.
+
+    The question tables go through `render_table`, which knows what a Question
+    is. The statistics pages count things that are not questions — topics,
+    months, rounds — so they need the plain shape as well.
+    """
+    lines = [
+        "| " + " | ".join(headers) + " |",
+        "| " + " | ".join(aligns) + " |",
+    ]
+    lines.extend("| " + " | ".join(cells) + " |" for cells in rows)
+    return "\n".join(lines)
+
+
+def question_link(question: Question) -> str:
+    return f"[{escape_cell(question.title)}]({question.url})"
+
+
+def date_label(stamp: date | None, *, month_only: bool = False) -> str:
+    """A date as this repository prints one, or ``—`` for an unknown."""
+    if stamp is None:
+        return "—"
+    if month_only:
+        return f"{MONTH_NAMES[stamp.month - 1]} {stamp.year}"
+    return f"{MONTH_NAMES[stamp.month - 1]} {stamp.day:02d}, {stamp.year}"
 
 
 # ── pages ────────────────────────────────────────────────────────────────────
@@ -467,6 +529,30 @@ def render_csv(questions: Sequence[Question], api_labels: dict[str, str]) -> str
         for key in ("companies", "topics", "tags", "rounds"):
             row[key] = "; ".join(row[key])  # type: ignore[arg-type]
         writer.writerow(row)
+    return buffer.getvalue()
+
+
+def render_guides_csv(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
+    """The reading list as a spreadsheet, slug-sorted like the question exports.
+
+    The guides were the one thing this repository published and did not export,
+    which made "take the data" a half-truth: a reader who wanted the writeups
+    had to scrape the markdown the sync had just generated from JSON.
+    """
+    buffer = io.StringIO()
+    writer = csv.writer(buffer, lineterminator="\n")
+    writer.writerow(["slug", "title", "companies", "topics", "url", "added_at"])
+    for guide in sorted(guides, key=lambda g: g.slug):
+        writer.writerow(
+            [
+                guide.slug,
+                guide.title,
+                "; ".join(company_label(c, api_labels) for c in guide.companies),
+                "; ".join(guide.tags),
+                guide.url,
+                guide.added_at or "",
+            ]
+        )
     return buffer.getvalue()
 
 

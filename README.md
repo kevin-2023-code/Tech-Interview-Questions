@@ -9,7 +9,9 @@
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
-[**Report a question**](../../issues/new?template=question-report.yml) &nbsp;·&nbsp;
+[**Free questions**](free/README.md) &nbsp;·&nbsp;
+[**What companies are asking**](insights/README.md) &nbsp;·&nbsp;
+[Report a question](../../issues/new?template=question-report.yml) &nbsp;·&nbsp;
 [Fix a row](../../issues/new?template=correction.yml) &nbsp;·&nbsp;
 [Contributing](CONTRIBUTING.md)
 
@@ -21,6 +23,23 @@ Every title here opens the real problem on [TrueInterview](https://trueinterview
 runnable workspace and a server-judged verdict, not a screenshot. Synced from the live
 catalog every hour.
 
+## 📊 What companies are actually asking
+
+Counted from the whole bank rather than claimed: which formats and companies
+have been reported this quarter, which questions turn up at the most employers,
+what the difficulty and topic mix actually is. Recomputed hourly, with every
+share naming the population it is a share of.
+
+<!-- gen:insights:start -->
+Run `python3 scripts/sync.py` to populate.
+<!-- gen:insights:end -->
+
+## 🆓 Free to practise right now
+
+<!-- gen:free:start -->
+Run `python3 scripts/sync.py` to populate.
+<!-- gen:free:end -->
+
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
@@ -30,6 +49,16 @@ catalog every hour.
 Round-by-round writeups: the recruiter screen, the hiring-manager round, the culture
 interview, the project deep-dive. **Read the loop before you practise for it** — each
 company's page carries its guides above its questions.
+
+## 🗣️ Latest interview reports
+
+What candidates say happened in the room, written up by the people who sat the
+loop — the freshest thing here, since a report lands the week the interview
+happened.
+
+<!-- gen:experiences:start -->
+Run `python3 scripts/sync.py` to populate.
+<!-- gen:experiences:end -->
 
 ## 🏢 Browse by company
 
@@ -182,12 +211,14 @@ is on a company page, a format page, and (if it carries a sighting date) a month
 | [`data/questions.jsonl`](data/questions.jsonl) | one JSON object per line, slug-sorted |
 | [`data/questions.csv`](data/questions.csv) | the same rows as a spreadsheet |
 | [`data/companies.csv`](data/companies.csv) | every company and its question count |
+| [`data/guides.csv`](data/guides.csv) | every interview guide, with its company and topics |
+| [`data/insights.json`](data/insights.json) | every number on the [insights pages](insights/README.md), as data |
 | [Live API](https://trueinterview.io/developers/api) | what this repo is generated from |
 
 ## ⚙️ How it stays current
 
-Everything under `companies/`, `formats/`, `by-month/`, `guides/` and `data/` is generated
-hourly by [`scripts/sync.py`](scripts/sync.py) from TrueInterview's public, documented,
+Everything under `companies/`, `formats/`, `by-month/`, `guides/`, `insights/`, `free/`,
+`experiences/` and `data/` is generated hourly by [`scripts/sync.py`](scripts/sync.py) from TrueInterview's public, documented,
 read-only catalog API. That API publishes **metadata only** — a title, a company, a format,
 a difficulty, a sighting month, a URL. No problem statements, no solutions, no test cases,
 and neither does this repository: what you get here is the index, and the questions

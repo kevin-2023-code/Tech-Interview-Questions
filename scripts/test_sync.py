@@ -20,8 +20,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import insights as insights_module  # noqa: E402
+import report  # noqa: E402
 from build import build, check_budgets, group_by_month  # noqa: E402
 from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
+from insights import compute as compute_insights  # noqa: E402
 from labels import company_key, company_label  # noqa: E402
 from render import (  # noqa: E402
     PAGE_MAX_BYTES,
@@ -30,6 +33,7 @@ from render import (  # noqa: E402
     escape_cell,
     freshness_marker,
     inject,
+    percent,
     sort_questions,
 )
 
@@ -555,3 +559,193 @@ class TestGuideFetchShapes(unittest.TestCase):
         ])
         with self.assertRaises(CatalogError):
             m.fetch_guides("https://x")
+
+
+class TestInsightNumbers(unittest.TestCase):
+    """The arithmetic behind the statistics pages."""
+
+    def setUp(self):
+        self.catalog = load_fixture()
+        self.insights = compute_insights(self.catalog.questions, self.catalog.guides, self.catalog.labels, TODAY)
+
+    def test_dated_and_undated_add_up_to_the_bank(self):
+        # The index prints both numbers in one sentence. An earlier version
+        # counted only sightings on or before today as "dated", so the two
+        # numbers silently failed to add up by however many rows carried a
+        # mistyped future date.
+        self.assertEqual(self.insights.dated + self.insights.undated, self.insights.total)
+
+    def test_a_future_sighting_is_dated_but_never_in_a_window(self):
+        future = [q for q in self.catalog.questions if q.reported_date and q.reported_date > TODAY]
+        self.assertTrue(future, "fixture must carry a future-dated row for this to mean anything")
+        self.assertEqual(self.insights.future_dated, len(future))
+        window = {q.slug for q in self.catalog.questions if insights_module._in_window(q, TODAY, 90)}
+        self.assertTrue(window.isdisjoint({q.slug for q in future}))
+
+    def test_the_window_holds_only_sightings_inside_it(self):
+        counted = [
+            q
+            for q in self.catalog.questions
+            if q.reported_date and q.reported_date <= TODAY and (TODAY - q.reported_date).days <= 90
+        ]
+        self.assertEqual(self.insights.window_total, len(counted))
+
+    def test_a_share_of_nothing_is_a_dash_not_a_zero(self):
+        # The null-is-not-a-zero rule, at the cell level: 0% states that a thing
+        # was measured and found absent, which is the opposite of unmeasured.
+        self.assertEqual(percent(0, 0), "—")
+        self.assertEqual(percent(0, 10), "0%")
+
+    def test_topic_shares_are_taken_over_labelled_rows_only(self):
+        labelled = sum(1 for q in self.catalog.questions if q.topics)
+        self.assertEqual(self.insights.topics_known, labelled)
+        self.assertLess(labelled, self.insights.total, "fixture must carry unlabelled rows")
+        page = render().files["insights/topics.md"]
+        self.assertIn(f"{labelled:,} questions that carry a topic label", page)
+
+    def test_the_most_asked_list_is_multi_company_and_totally_ordered(self):
+        self.assertTrue(all(len(q.companies) > 1 for q in self.insights.breadth))
+        again = compute_insights(
+            list(reversed(self.catalog.questions)), self.catalog.guides, self.catalog.labels, TODAY
+        )
+        self.assertEqual([q.slug for q in self.insights.breadth], [q.slug for q in again.breadth])
+
+    def test_company_counts_match_the_company_pages(self):
+        # One source of truth: a number on an insights page and the row count on
+        # the company page it links to are computed from the same records, and a
+        # reader who clicks through must not find a different bank.
+        pages = render().files
+        for row in self.insights.companies[:5]:
+            page = pages[f"companies/{row.key}.md"]
+            self.assertIn(f"**{row.questions:,} questions** reported at", page)
+
+
+class TestInsightPages(unittest.TestCase):
+    def test_an_unmeasurable_window_prints_a_dash_not_a_zero(self):
+        # A company whose questions carry no sighting date at all has an UNKNOWN
+        # recent count. Printing 0 there would say we looked and found nothing.
+        catalog = load_fixture()
+        stripped = [dataclasses.replace(q, reported=None, reported_date=None) for q in catalog.questions]
+        insights = compute_insights(stripped, catalog.guides, catalog.labels, TODAY)
+        page = report.companies_page(insights)
+        self.assertNotIn("| 0 |", page)
+        self.assertIn("could not be measured", page)
+
+    def test_an_empty_window_is_a_sentence_not_a_table_of_zeros(self):
+        catalog = load_fixture()
+        # Every sighting a decade old: the window is legitimately empty, which
+        # is a recurring state for this catalog rather than a broken pipeline.
+        old = [
+            dataclasses.replace(q, reported="2015-01-01", reported_date=date(2015, 1, 1))
+            for q in catalog.questions
+        ]
+        insights = compute_insights(old, catalog.guides, catalog.labels, TODAY)
+        page = report.insights_index(insights, catalog.labels)
+        self.assertIn("No sighting has been recorded in this window", page)
+        self.assertIn("Jan 01, 2015", page)
+
+    def test_every_page_states_what_it_counted_over(self):
+        pages = render().files
+        self.assertIn("carry a sighting date", pages["insights/README.md"])
+        self.assertIn("carry a topic label", pages["insights/topics.md"])
+        self.assertIn("carry a sighting date", pages["insights/trends.md"])
+
+    def test_the_insights_export_publishes_inputs_rather_than_percentages(self):
+        # A published percentage is the one place a denominator can go missing.
+        payload = json.loads(render().files["data/insights.json"])
+        self.assertEqual(payload["totals"]["questions"], len(load_fixture().questions))
+        flat = json.dumps(payload)
+        self.assertNotIn("percent", flat)
+        self.assertNotIn("share", flat)
+
+    def test_the_export_keeps_a_stable_key_order(self):
+        text = render().files["data/insights.json"]
+        self.assertEqual(text, json.dumps(json.loads(text), ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+
+
+class TestFreePages(unittest.TestCase):
+    def test_every_free_question_reaches_a_free_page_and_nothing_else_does(self):
+        catalog = load_fixture()
+        free = {q.slug for q in catalog.questions if q.access_tier == "free"}
+        self.assertTrue(free, "fixture must carry free questions")
+        paid = {q.slug for q in catalog.questions if q.access_tier != "free"}
+        pages = {path: text for path, text in render().files.items() if path.startswith("free/")}
+        listed = " ".join(pages.values())
+        by_format = " ".join(text for path, text in pages.items() if path != "free/README.md")
+        for slug in free:
+            self.assertIn(f"/questions/{slug})", by_format, slug)
+        for slug in paid:
+            self.assertNotIn(f"/questions/{slug})", listed, slug)
+
+    def test_free_pages_are_ordered_easiest_first(self):
+        catalog = load_fixture()
+        free = [q for q in catalog.questions if q.access_tier == "free" and q.type == "algorithm"]
+        order = [q.difficulty for q in sorted(free, key=report._free_sort_key)]
+        ranks = [{"easy": 0, "medium": 1, "hard": 2}.get(d or "", 3) for d in order]
+        self.assertEqual(ranks, sorted(ranks))
+
+    def test_the_tier_is_the_catalogs_own_never_asserted_here(self):
+        catalog = load_fixture()
+        none_free = [dataclasses.replace(q, access_tier="insider") for q in catalog.questions]
+        insights = compute_insights(none_free, catalog.guides, catalog.labels, TODAY)
+        files = report.free_pages(none_free, insights, catalog.labels, TODAY)
+        self.assertIn("No question in the bank is currently on the free tier", files["free/README.md"])
+        self.assertEqual([path for path in files if path != "free/README.md"], [])
+
+
+class TestExperiences(unittest.TestCase):
+    def test_the_slice_says_how_much_of_the_board_it_is_not_showing(self):
+        catalog = load_fixture()
+        self.assertTrue(catalog.experiences, "fixture must carry interview reports")
+        page = render().files["experiences/README.md"]
+        self.assertIn(f"the {len(catalog.experiences)} newest of {catalog.experiences_total:,}", page)
+
+    def test_reports_are_newest_first_and_escaped(self):
+        page = render().files["experiences/README.md"]
+        rows = [line for line in page.splitlines() if line.startswith("| **")]
+        self.assertEqual(rows[0].count("|"), 5)
+        self.assertIn("&#124;", page)  # a pipe in a title must not end its cell
+
+    def test_a_catalog_with_no_reports_renders_no_page(self):
+        catalog = load_fixture()
+        bare = dataclasses.replace(catalog, experiences=[], experiences_total=None)
+        files = build(bare, (ROOT / "README.md").read_text(encoding="utf-8"), TODAY).files
+        self.assertNotIn("experiences/README.md", files)
+
+    def test_a_failed_read_is_never_an_empty_section(self):
+        # The distinction the whole pipeline holds: a LIMITATION travels as a
+        # caveat on the page, a FAILURE stops the run. Publishing an empty
+        # section over a good one is how an hourly job deletes a page nobody
+        # was watching.
+        import catalog as catalog_module
+
+        def boom(url, timeout):
+            raise CatalogError("upstream is down")
+
+        original = catalog_module._get_json
+        catalog_module._get_json = boom
+        self.addCleanup(setattr, catalog_module, "_get_json", original)
+        with self.assertRaises(CatalogError):
+            catalog_module.fetch_experiences("https://x")
+
+
+class TestGuidesByTopic(unittest.TestCase):
+    def test_every_tagged_guide_is_listed_and_the_untagged_are_counted(self):
+        catalog = load_fixture()
+        page = render().files["guides/by-topic.md"]
+        untagged = [g for g in catalog.guides if not g.tags]
+        for guide in catalog.guides:
+            if guide.tags:
+                self.assertIn(guide.url, page, guide.slug)
+        if untagged:
+            self.assertIn(f"**{len(untagged):,} of them carry no topic label**", page)
+            for guide in untagged:
+                self.assertNotIn(guide.url, page, guide.slug)
+
+    def test_a_guide_with_several_topics_is_under_each(self):
+        catalog = load_fixture()
+        multi = next((g for g in catalog.guides if len(g.tags) > 1), None)
+        if multi is None:
+            self.skipTest("fixture carries no multi-topic guide")
+        page = render().files["guides/by-topic.md"]
+        self.assertEqual(page.count(multi.url), len(set(multi.tags)))

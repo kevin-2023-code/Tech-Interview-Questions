@@ -42,7 +42,7 @@ README_TEMPLATE = ROOT / "README.md"
 
 # Directories whose entire contents this script owns. Anything inside them that
 # a render did not produce is deleted; anything outside them is never touched.
-GENERATED_DIRS = ("companies", "formats", "by-month", "guides", "data")
+GENERATED_DIRS = ("companies", "formats", "by-month", "guides", "insights", "free", "experiences", "data")
 
 
 def parse_args() -> argparse.Namespace:
@@ -112,6 +112,8 @@ def main() -> int:
         f"{stats['guides']:,}{'' if stats['guides_complete'] else '+'} guides "
         f"({stats['guide_companies']} companies) · {stats['companies']} companies · "
         f"{stats['months']} months · {stats['undated']:,} undated · "
+        f"{stats['free']:,} free · {stats['window']:,} in the last {stats['window_days']}d · "
+        f"{stats['experiences']:,} reports · "
         f"{stats['files']} files · README {stats['readme_bytes']:,} B · "
         f"largest page {largest_bytes:,} B ({largest_path})"
     )

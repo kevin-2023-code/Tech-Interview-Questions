@@ -9,6 +9,105 @@
     "openai": "OpenAI",
     "uber": "Uber"
   },
+  "experiences": [
+    {
+      "company": "Meta",
+      "id": "exp-000",
+      "postedAt": "2026-09-11",
+      "role": "Software Engineer",
+      "title": "Pipe | Bracket [x] & <tag> onsite",
+      "url": "https://trueinterview.io/interviews/exp-000"
+    },
+    {
+      "company": "Google",
+      "id": "exp-001",
+      "postedAt": "2026-09-10",
+      "role": "New Grad SWE",
+      "title": "Onsite loop debrief 1",
+      "url": "https://trueinterview.io/interviews/exp-001"
+    },
+    {
+      "company": "OpenAI",
+      "id": "exp-002",
+      "postedAt": "2026-09-09",
+      "role": "Machine Learning Engineer",
+      "title": "Onsite loop debrief 2",
+      "url": "https://trueinterview.io/interviews/exp-002"
+    },
+    {
+      "company": "Coinbase",
+      "id": "exp-003",
+      "postedAt": "2026-09-08",
+      "role": "Data Engineer",
+      "title": "Onsite loop debrief 3",
+      "url": "https://trueinterview.io/interviews/exp-003"
+    },
+    {
+      "company": "lyft",
+      "id": "exp-004",
+      "postedAt": "2026-09-07",
+      "role": null,
+      "title": "Onsite loop debrief 4",
+      "url": "https://trueinterview.io/interviews/exp-004"
+    },
+    {
+      "company": "Netflix",
+      "id": "exp-005",
+      "postedAt": "2026-09-06",
+      "role": "Software Engineer",
+      "title": "Onsite loop debrief 5",
+      "url": "https://trueinterview.io/interviews/exp-005"
+    },
+    {
+      "company": "stripe",
+      "id": "exp-006",
+      "postedAt": "2026-09-05",
+      "role": "New Grad SWE",
+      "title": "Onsite loop debrief 6",
+      "url": "https://trueinterview.io/interviews/exp-006"
+    },
+    {
+      "company": "Uber",
+      "id": "exp-007",
+      "postedAt": "2026-09-04",
+      "role": "Machine Learning Engineer",
+      "title": "Onsite loop debrief 7",
+      "url": "https://trueinterview.io/interviews/exp-007"
+    },
+    {
+      "company": "ibm",
+      "id": "exp-008",
+      "postedAt": "2026-09-03",
+      "role": "Data Engineer",
+      "title": "Onsite loop debrief 8",
+      "url": "https://trueinterview.io/interviews/exp-008"
+    },
+    {
+      "company": "Amazon",
+      "id": "exp-009",
+      "postedAt": "2026-09-02",
+      "role": null,
+      "title": "Onsite loop debrief 9",
+      "url": "https://trueinterview.io/interviews/exp-009"
+    },
+    {
+      "company": "Meta",
+      "id": "exp-010",
+      "postedAt": "2026-09-01",
+      "role": "Software Engineer",
+      "title": "Onsite loop debrief 10",
+      "url": "https://trueinterview.io/interviews/exp-010"
+    },
+    {
+      "company": "Google",
+      "id": "exp-011",
+      "postedAt": "2026-09-11",
+      "role": "New Grad SWE",
+      "title": "Onsite loop debrief 11",
+      "url": "https://trueinterview.io/interviews/exp-011"
+    }
+  ],
+  "experiencesTotal": 2426,
   "guides": [
     {
       "addedAt": "2026-07-18T21:25:02.689409+00:00",

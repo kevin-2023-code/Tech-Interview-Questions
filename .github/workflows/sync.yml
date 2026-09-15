@@ -33,7 +33,10 @@ jobs:
         run: python3 -m unittest discover scripts -v
 
       - name: Sync from the live catalog
-        run: python3 scripts/sync.py
+        # The summary line is kept for the commit body: the bot commits hourly,
+        # and a log of identical one-line messages tells a reader nothing about
+        # which hour the bank actually moved in.
+        run: python3 scripts/sync.py | tee "$RUNNER_TEMP/sync.log"
 
       - name: Confirm the result is self-consistent
         # Re-rendering what was just written must produce no further change. A
@@ -60,5 +63,7 @@ jobs:
           # exist. The sync only ever writes README.md and the generated
           # directories, so there is nothing else here for -A to pick up.
           git add -A
-          git commit -m "Sync question bank from trueinterview.io"
+          git commit \
+            -m "Sync question bank from trueinterview.io" \
+            -m "$(tail -n 2 "$RUNNER_TEMP/sync.log")"
           git push
