@@ -406,7 +406,14 @@ def compute(
     breadth = tuple(
         sorted(
             (q for q in questions if len(q.companies) > 1),
-            key=lambda q: (-len(q.companies), -(q.reported_date.toordinal() if q.reported_date else 0), q.slug),
+            # The tie-break treats a future sighting as undated, like every
+            # other ordering here: a mistyped date has the largest ordinal in
+            # the bank and would otherwise win every tie it entered.
+            key=lambda q: (
+                -len(q.companies),
+                -(q.reported_date.toordinal() if q.reported_date and q.reported_date <= today else 0),
+                q.slug,
+            ),
         )[:TOP_QUESTIONS]
     )
 

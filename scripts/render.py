@@ -331,14 +331,21 @@ def render_shard(
     cols: Sequence[Column],
     today: date,
     preamble: str = "",
+    preserve_order: bool = False,
 ) -> dict[str, str]:
     """One shard, paginated at :data:`ROWS_PER_PAGE`.
 
     Returns every page it produced. A shard that fits is exactly one file, and
     the ``-2.md`` suffix never appears for it — so a company whose count crosses
     the threshold gains a file rather than renaming the one it had.
+
+    Sightings-newest-first by default, which is what every catalog shard wants.
+    `preserve_order` is for a shard whose lede promises a DIFFERENT order — the
+    free pages say "easiest first" — because a renderer that re-sorts what it
+    was handed makes a page contradict its own first sentence, and does it
+    where no caller can see.
     """
-    ordered = sort_questions(questions, today)
+    ordered = list(questions) if preserve_order else sort_questions(questions, today)
     chunks = [ordered[i : i + ROWS_PER_PAGE] for i in range(0, len(ordered), ROWS_PER_PAGE)] or [[]]
     pages: dict[str, str] = {}
     for index, chunk in enumerate(chunks, start=1):
@@ -370,12 +377,24 @@ def render_shard(
 # ── guides ───────────────────────────────────────────────────────────────────
 
 
-def guide_rows(guides: Sequence[Guide], api_labels: dict[str, str], *, with_company: bool) -> str:
-    """A guide table. `with_company` is off on a company page, which is the company."""
+def guide_rows(
+    guides: Sequence[Guide],
+    api_labels: dict[str, str],
+    *,
+    with_company: bool,
+    preserve_order: bool = False,
+) -> str:
+    """A guide table. `with_company` is off on a company page, which is the company.
+
+    `preserve_order` is for a caller that has already ordered its rows and means
+    it — the *recently published* block, whose whole claim is that it is in date
+    order. Sorting inside a renderer silently overrides a caller's ordering, and
+    the caller cannot see that it happened.
+    """
     header = ["Interview round / guide"] + ([] if not with_company else ["Company"]) + ["Topics"]
     align = [":--"] + ([] if not with_company else [":--"]) + [":--"]
     lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(align) + " |"]
-    for guide in sort_guides(guides, api_labels):
+    for guide in (guides if preserve_order else sort_guides(guides, api_labels)):
         cells = [f"[{escape_cell(guide.title)}]({guide.url})"]
         if with_company:
             names = " / ".join(escape_cell(company_label(c, api_labels)) for c in guide.companies)

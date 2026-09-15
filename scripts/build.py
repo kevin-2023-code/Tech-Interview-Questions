@@ -293,15 +293,25 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         # asking what changed this week), which leaves nowhere for a guide
         # published yesterday to be seen — so it gets its own short block, and
         # the hourly job has something new to show on a day with no questions.
-        newest = sorted(
-            (g for g in ordered_guides if parse_catalog_date(g.added_at)[0]),
-            key=lambda g: (-parse_catalog_date(g.added_at)[0].toordinal(), g.title.casefold(), g.slug),
-        )[:RECENT_GUIDES]
+        # A publication date after today is a mistyped date upstream, and the
+        # rule the sightings hold applies here too: it loses its claim to
+        # *recent* rather than being handed the top of the block.
+        dated_guides = [
+            (stamp, g)
+            for g, stamp in ((g, parse_catalog_date(g.added_at)[0]) for g in ordered_guides)
+            if stamp is not None and stamp <= today
+        ]
+        newest = [
+            g
+            for _, g in sorted(
+                dated_guides, key=lambda row: (-row[0].toordinal(), row[1].title.casefold(), row[1].slug)
+            )
+        ][:RECENT_GUIDES]
         if newest:
             body += [
                 "## Recently published",
                 "",
-                guide_rows(newest, api_labels, with_company=True),
+                guide_rows(newest, api_labels, with_company=True, preserve_order=True),
                 "",
                 "[Grouped by topic instead →](by-topic.md)",
                 "",

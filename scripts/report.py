@@ -191,7 +191,7 @@ def _format_section(insights: Insights) -> list[str]:
                 f"{row.difficulty['medium']:,}",
                 f"{row.difficulty['hard']:,}",
                 f"{row.difficulty_known:,}",
-                f"{row.free:,}" if row.free else "—",
+                f"{row.free:,}",
             ]
         )
     return [
@@ -529,9 +529,15 @@ def companies_page(insights: Insights) -> str:
         "",
     ]
 
-    active = [row for row in insights.companies if row.window][:COMPANY_ROWS]
+    # Ranked over EVERY company with a sighting in the window, then capped.
+    # `insights.companies` is ordered by lifetime question count, so capping
+    # first would have dropped a company that is busy this quarter and small
+    # overall — which is the exact row this table exists to surface.
+    active = sorted(
+        (row for row in insights.companies if row.window),
+        key=lambda r: (-r.window, r.name.casefold(), r.key),
+    )[:COMPANY_ROWS]
     if active:
-        active = sorted(active, key=lambda r: (-r.window, r.name.casefold(), r.key))
         largest = active[0].window
         body += [
             f"## Most reported in the last {insights.window_days} days",
@@ -581,8 +587,8 @@ def companies_page(insights: Insights) -> str:
                 [
                     f"[{escape_cell(row.name)}](../companies/{row.key}.md)",
                     f"{row.questions:,}",
-                    f"{row.guides:,}" if row.guides else "—",
-                    f"{row.free:,}" if row.free else "—",
+                    f"{row.guides:,}",
+                    f"{row.free:,}",
                     # A company none of whose questions carry a date has an
                     # UNKNOWN recent count, not a zero one. Printing 0 there
                     # would say we looked and found nothing.
@@ -718,6 +724,9 @@ def free_pages(
                 questions=sorted(rows, key=_free_sort_key),
                 cols=cols,
                 today=today,
+                # The lede says "easiest first"; the default shard order is
+                # newest-sighting first, which would contradict it in place.
+                preserve_order=True,
             )
         )
 
@@ -924,6 +933,7 @@ def insights_json(insights: Insights) -> str:
             "free": insights.free_total,
             "inWindow": insights.window_total,
             "inLastYear": insights.year_total,
+            "futureDated": insights.future_dated,
             "gradedDifficulty": insights.difficulty_known,
             "labelledTopic": insights.topics_known,
             "namingARound": insights.rounds_known,
@@ -1016,7 +1026,7 @@ def readme_insights_block(insights: Insights, api_labels: dict[str, str]) -> str
         )
         lines.append(
             f"**Last {insights.window_days} days:** {insights.window_total:,} sightings at "
-            f"{len(insights.window_companies):,} companies — {mix}."
+            f"{sum(1 for row in insights.companies if row.window):,} companies — {mix}."
         )
         if insights.window_companies:
             named = " · ".join(

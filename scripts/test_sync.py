@@ -749,3 +749,132 @@ class TestGuidesByTopic(unittest.TestCase):
             self.skipTest("fixture carries no multi-topic guide")
         page = render().files["guides/by-topic.md"]
         self.assertEqual(page.count(multi.url), len(set(multi.tags)))
+
+
+class TestOrderingSurvivesTheRenderer(unittest.TestCase):
+    """A renderer must not silently re-sort what a caller ordered on purpose.
+
+    Both holes below shipped in the first draft of these pages and neither was
+    visible from the calling code: the caller sorted, passed the rows on, and a
+    helper sorted them again. What the reader saw then contradicted the lede
+    directly above it, which is the one kind of wrong a statistics page cannot
+    afford.
+    """
+
+    def test_free_pages_render_easiest_first_as_their_lede_promises(self):
+        pages = render().files
+        rank = {"Easy": 0, "Medium": 1, "Hard": 2}
+        for path, text in pages.items():
+            if not path.startswith("free/") or path == "free/README.md":
+                continue
+            self.assertIn("Easiest first", text, path)
+            levels = [
+                rank[cell]
+                for line in text.splitlines()
+                if line.startswith("| [")
+                for cell in [line.split("|")[3].strip()]
+                if cell in rank
+            ]
+            self.assertEqual(levels, sorted(levels), path)
+
+    def test_recently_published_guides_are_in_date_order(self):
+        catalog = load_fixture()
+        page = render().files["guides/README.md"]
+        block = page.split("## Recently published")[1].split("## By company")[0]
+        urls = [line.split("](")[1].split(")")[0] for line in block.splitlines() if line.startswith("| [")]
+        added = {g.url: parse_catalog_date(g.added_at)[0] for g in catalog.guides}
+        stamps = [added[url] for url in urls]
+        self.assertEqual(stamps, sorted(stamps, reverse=True))
+
+    def test_a_guide_dated_after_today_is_not_called_recently_published(self):
+        catalog = load_fixture()
+        ahead = dataclasses.replace(catalog.guides[0], added_at="2099-01-01T00:00:00+00:00")
+        patched = dataclasses.replace(catalog, guides=[ahead, *catalog.guides[1:]])
+        page = build(patched, (ROOT / "README.md").read_text(encoding="utf-8"), TODAY).files["guides/README.md"]
+        block = page.split("## Recently published")[1].split("## By company")[0]
+        self.assertNotIn(ahead.url, block)
+        self.assertIn(ahead.url, page)  # still published, just not called recent
+
+    def test_a_future_sighting_does_not_win_the_most_asked_tie_break(self):
+        catalog = load_fixture()
+        pair = [q for q in catalog.questions if len(q.companies) > 1][:2]
+        self.assertEqual(len(pair), 2, "fixture must carry multi-company questions")
+        same = min(len(q.companies) for q in pair)
+        ahead, behind = (
+            dataclasses.replace(pair[0], companies=pair[0].companies[:same], reported="2099-01-01",
+                                reported_date=date(2099, 1, 1)),
+            dataclasses.replace(pair[1], companies=pair[1].companies[:same], reported="2026-09-01",
+                                reported_date=date(2026, 9, 1)),
+        )
+        ranked = compute_insights([ahead, behind], [], {}, TODAY).breadth
+        self.assertEqual(ranked[0].slug, behind.slug)
+
+
+class TestMeasuredZeros(unittest.TestCase):
+    def test_a_counted_zero_prints_zero_and_only_the_unmeasurable_prints_a_dash(self):
+        # `free` and `guides` are counted for every row, so 0 of them is a
+        # measured fact. Only the window column can be genuinely unmeasurable,
+        # and only when the company carries no sighting date at all.
+        catalog = load_fixture()
+        insights = compute_insights(
+            [dataclasses.replace(q, access_tier="insider") for q in catalog.questions],
+            [],
+            catalog.labels,
+            TODAY,
+        )
+        page = report.companies_page(insights)
+        rows = [line for line in page.splitlines() if line.startswith("| [") and line.count("|") == 9]
+        self.assertTrue(rows)
+        for row in rows:
+            cells = [cell.strip() for cell in row.split("|")]
+            self.assertEqual(cells[3], "0", row)  # guides
+            self.assertEqual(cells[4], "0", row)  # free
+
+    def test_the_export_carries_the_future_dated_count(self):
+        payload = json.loads(render().files["data/insights.json"])
+        catalog = load_fixture()
+        expected = sum(1 for q in catalog.questions if q.reported_date and q.reported_date > TODAY)
+        self.assertEqual(payload["totals"]["futureDated"], expected)
+
+
+class TestReadmeCounts(unittest.TestCase):
+    def test_the_window_company_count_is_the_population_not_the_ranking(self):
+        # `window_companies` is a capped ranking, so reading its length reported
+        # exactly TOP_COMPANIES on any catalog with more active companies than
+        # that — a number that would be wrong in one direction for ever.
+        catalog = load_fixture()
+        rows = [
+            insights_module.CompanyRow(
+                key=f"c{i}", name=f"Company {i}", questions=1, guides=0, dated=1, window=1,
+                year=1, last_seen=TODAY, top_format=None, top_topic=None, free=0,
+            )
+            for i in range(insights_module.TOP_COMPANIES + 7)
+        ]
+        stats = compute_insights(catalog.questions, catalog.guides, catalog.labels, TODAY)
+        stats = dataclasses.replace(stats, companies=tuple(rows))
+        block = report.readme_insights_block(stats, catalog.labels)
+        self.assertIn(f"{len(rows):,} companies", block)
+
+
+class TestMostReportedRanking(unittest.TestCase):
+    def test_a_busy_small_company_is_not_capped_out_of_the_ranking(self):
+        # `insights.companies` is ordered by LIFETIME question count, so capping
+        # before sorting dropped exactly the row this table exists to show: a
+        # company with one question in the bank and all of it this quarter.
+        catalog = load_fixture()
+        big = [
+            insights_module.CompanyRow(
+                key=f"big{i}", name=f"Big {i}", questions=1000 - i, guides=0, dated=1, window=1,
+                year=1, last_seen=TODAY, top_format=None, top_topic=None, free=0,
+            )
+            for i in range(report.COMPANY_ROWS)
+        ]
+        busy = insights_module.CompanyRow(
+            key="busy", name="Busy", questions=1, guides=0, dated=1, window=99,
+            year=99, last_seen=TODAY, top_format=None, top_topic=None, free=0,
+        )
+        stats = compute_insights(catalog.questions, catalog.guides, catalog.labels, TODAY)
+        stats = dataclasses.replace(stats, companies=tuple(big + [busy]))
+        page = report.companies_page(stats)
+        ranking = page.split("## Most reported")[1].split("## Every company")[0]
+        self.assertIn("../companies/busy.md", ranking)
