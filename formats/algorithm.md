@@ -255,7 +255,7 @@
 | **Uber** | [Jump Game Prime](https://trueinterview.io/questions/jump-game-prime) | Medium | Apr 24, 2026 |
 | **Walmart Labs** | [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices) | Medium | Apr 24, 2026 |
 | **Waymo** | [Largest Rectangle Area](https://trueinterview.io/questions/max-area-rectangle-coordinate-set) | Medium | Apr 24, 2026 |
-| **Walmart Labs** | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Easy | Apr 24, 2026 |
+| **Walmart Labs** | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Medium | Apr 24, 2026 |
 | **Meta / Amazon** | [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight) | Medium | Apr 24, 2026 |
 | **Apple** | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Medium | Apr 24, 2026 |
 | **Netflix** | [Nested Map Path Query (JSON Parser)](https://trueinterview.io/questions/nested-map-path-query-json-parser) | Medium | Apr 24, 2026 |

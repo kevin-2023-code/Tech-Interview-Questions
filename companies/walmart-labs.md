@@ -25,7 +25,7 @@
 | [AI-Assisted Full-Stack OA (Spring Boot + React)](https://trueinterview.io/questions/ai-assisted-fullstack-oa) | AI Coding | Hard | Jul 07, 2026 |
 | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum) | Algorithm | Easy | May 07, 2026 |
 | [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices) | Algorithm | Medium | Apr 24, 2026 |
-| [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Algorithm | Easy | Apr 24, 2026 |
+| [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Algorithm | Medium | Apr 24, 2026 |
 | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Low-Level Design | Medium | Apr 06, 2026 |
 | [Remove m Elements to Minimize Unique Count](https://trueinterview.io/questions/remove-m-minimize-unique-elements) | Algorithm | Medium | Mar 26, 2026 |
 | [Design Ticketmaster — Event Booking & Seat Reservation](https://trueinterview.io/questions/design-ticketmaster-event-booking) | System Design | Hard | Mar 03, 2026 |
