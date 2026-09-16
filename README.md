@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,249 questions** · **334 interview guides** · **99 companies** · **167 free to practise** · **163 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,249 questions** · **334 interview guides** · **99 companies** · **167 free to practise** · **154 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -31,9 +31,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 163 sightings at 49 companies — Algorithm 75 · SQL 32 · System Design 31 · Low-Level Design 19 · AI Coding 6.
+**Last 90 days:** 154 sightings at 46 companies — Algorithm 70 · SQL 32 · System Design 28 · Low-Level Design 18 · AI Coding 6.
 
-**Reported most:** [Amazon (24)](companies/amazon.md) · [Google (16)](companies/google.md) · [Meta (13)](companies/meta.md) · [Snowflake (11)](companies/snowflake.md) · [ByteDance (10)](companies/bytedance.md) · [Figma (8)](companies/figma.md) · [Airbnb (7)](companies/airbnb.md) · [Apple (7)](companies/apple.md)
+**Reported most:** [Amazon (23)](companies/amazon.md) · [Google (16)](companies/google.md) · [Meta (12)](companies/meta.md) · [ByteDance (9)](companies/bytedance.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (7)](companies/snowflake.md) · [Microsoft (5)](companies/microsoft.md)
 
 **Asked at the most companies:** [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (14) · [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) (12) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (12)
 
@@ -135,7 +135,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Low-Level Design | 🆕 Aug 06, 2026 |
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | 🆕 Aug 04, 2026 |
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | 🆕 Aug 04, 2026 |
-| **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | 🆕 Aug 01, 2026 |
+| **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Aug 01, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Jul 30, 2026 |
 | **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Jul 29, 2026 |
 | **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Jul 29, 2026 |

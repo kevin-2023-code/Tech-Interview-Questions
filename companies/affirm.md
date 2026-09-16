@@ -11,7 +11,7 @@
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | Hard | 🆕 Aug 12, 2026 |
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Medium | 🆕 Aug 07, 2026 |
 | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Low-Level Design | Medium | 🆕 Aug 06, 2026 |
-| [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | 🆕 Aug 01, 2026 |
+| [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | Aug 01, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |

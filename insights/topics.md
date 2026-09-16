@@ -9,15 +9,15 @@ What the bank is *about*, counted over the **1,015 questions that carry a topic 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
 | `hashing` | 182 | 18% | 10 | 48 | 117 | 17 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
-| `arrays` | 147 | 14% | 10 | 40 | 95 | 12 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Amazon](../companies/amazon.md) |
-| `graphs` | 142 | 14% | 11 | 11 | 99 | 32 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Meta](../companies/meta.md) |
-| `strings` | 122 | 12% | 5 | 38 | 70 | 14 | [Uber](../companies/uber.md), [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md) |
-| `greedy` | 93 | 9% | 6 | 9 | 68 | 16 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Pinterest](../companies/pinterest.md) |
-| `dynamic-programming` | 70 | 7% | 3 | 6 | 39 | 25 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Snowflake](../companies/snowflake.md) |
+| `arrays` | 147 | 14% | 9 | 40 | 95 | 12 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Amazon](../companies/amazon.md) |
+| `graphs` | 142 | 14% | 8 | 11 | 99 | 32 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Meta](../companies/meta.md) |
+| `strings` | 122 | 12% | 4 | 38 | 70 | 14 | [Uber](../companies/uber.md), [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md) |
+| `greedy` | 93 | 9% | 5 | 9 | 68 | 16 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Pinterest](../companies/pinterest.md) |
+| `dynamic-programming` | 70 | 7% | 2 | 6 | 39 | 25 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Snowflake](../companies/snowflake.md) |
 | `trees` | 65 | 6% | 4 | 12 | 42 | 11 | [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md), [Snowflake](../companies/snowflake.md) |
 | `sorting` | 62 | 6% | 7 | 12 | 42 | 8 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Akuna Capital](../companies/akuna-capital.md) |
-| `backtracking` | 57 | 6% | 2 | 5 | 33 | 19 | [Bloomberg](../companies/bloomberg.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
-| `two-pointers` | 53 | 5% | 4 | 15 | 37 | 1 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
+| `backtracking` | 57 | 6% | 1 | 5 | 33 | 19 | [Bloomberg](../companies/bloomberg.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
+| `two-pointers` | 53 | 5% | 3 | 15 | 37 | 1 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
 | `heap` | 51 | 5% | 1 | 1 | 36 | 14 | [Apple](../companies/apple.md), [Snowflake](../companies/snowflake.md), [ByteDance](../companies/bytedance.md) |
 | `matrix` | 51 | 5% | 1 | 9 | 35 | 7 | [Capital One](../companies/capital-one.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
 | `stack` | 49 | 5% | 6 | 6 | 33 | 10 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Bloomberg](../companies/bloomberg.md) |
