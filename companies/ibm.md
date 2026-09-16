@@ -2,7 +2,7 @@
 
 # IBM interview & OA questions
 
-**20 questions** reported at IBM · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ibm).
+**19 questions** reported at IBM · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ibm).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -38,5 +38,4 @@
 | [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Algorithm | Medium | — |
 | [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Algorithm | Medium | — |
 | [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Algorithm | Medium | — |
-| [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

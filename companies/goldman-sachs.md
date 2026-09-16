@@ -2,7 +2,7 @@
 
 # Goldman Sachs interview & OA questions
 
-**23 questions** reported at Goldman Sachs · **10 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
+**21 questions** reported at Goldman Sachs · **10 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,6 @@
 | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Low-Level Design | Medium | Jun 21, 2026 |
 | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Medium | Jun 18, 2026 |
 | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Low-Level Design | Easy | Jun 18, 2026 |
-| [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Low-Level Design | Easy | May 27, 2026 |
 | [String Compression (HackerRank OA, LeetCode 443)](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Apr 03, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Algorithm | Medium | Mar 11, 2026 |
@@ -42,11 +41,10 @@
 | [Process Starvation Time](https://trueinterview.io/questions/process-starvation-time) | Algorithm | Medium | Sep 22, 2025 |
 | [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count) | Algorithm | Easy | Sep 22, 2025 |
 | [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | Algorithm | Medium | Sep 10, 2025 |
+| [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Algorithm | Medium | Sep 08, 2025 |
 | [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Algorithm | Easy | Nov 21, 2024 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
-| [Anagram Queries on Word List](https://trueinterview.io/questions/anagram-queries) | Algorithm | Medium | Oct 26, 2024 |
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
-| [Find k-th Smallest Element in Array](https://trueinterview.io/questions/b2139963-784f-4086-86cf-0afe1a9e5ea2) | Algorithm | Medium | — |
 | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | — |
 | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Low-Level Design | Medium | — |

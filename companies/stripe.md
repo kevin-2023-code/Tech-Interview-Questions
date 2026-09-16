@@ -21,6 +21,7 @@
 | :-- | :-- | :-: | :-- |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | SQL | Medium | Jul 22, 2026 |
 | [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Algorithm | Medium | Jun 24, 2026 |
+| [Factory Network Cost Minimization](https://trueinterview.io/questions/factory-network-cost-minimization) | Algorithm | Easy | Jun 11, 2026 |
 | [Requests Library Debug (BugSquash)](https://trueinterview.io/questions/requests-library-debug) | AI Coding | Hard | Jun 10, 2026 |
 | [AI-Assisted Coding Round (HackerRank + Claude)](https://trueinterview.io/questions/ai-assisted-coding-round) | AI Coding | Medium | Jun 10, 2026 |
 | [Matching Contacts](https://trueinterview.io/questions/matching-contacts) | Algorithm | Medium | Jun 10, 2026 |
@@ -67,10 +68,9 @@
 | [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9) | Low-Level Design | Medium | — |
 | [Bitmap Character Lookup: Print, Compress/Decompress, and Manipulate](https://trueinterview.io/questions/581723d6-46ce-415b-a363-39e8c0a37a19) | Algorithm | Medium | — |
 | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Algorithm | Medium | — |
-| [Update and Expire Timestamps in Order](https://trueinterview.io/questions/c9adc5e4-84ff-4f43-9d12-8a80471097f1) | Algorithm | Easy | — |
 | [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Low-Level Design | Medium | — |
 | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | SQL | Hard | — |
-| [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | AI Coding | Medium | — |
+| [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | AI Coding | Hard | — |
 | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Algorithm | Easy | — |
 | [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Low-Level Design | Medium | — |
 | [Create a UI Component for Passport Validation](https://trueinterview.io/questions/6906bc8c-d026-4897-935f-ad4842034fa0) | AI Coding | Medium | — |

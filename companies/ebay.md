@@ -2,7 +2,7 @@
 
 # Ebay interview & OA questions
 
-**31 questions** reported at Ebay · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ebay).
+**30 questions** reported at Ebay · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/ebay).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -19,7 +19,6 @@
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
-| [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum) | Algorithm | Medium | Jun 16, 2026 |
 | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | Jun 12, 2026 |
 | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | Jun 12, 2026 |
 | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Low-Level Design | Medium | Jun 12, 2026 |

@@ -2,7 +2,7 @@
 
 # Microsoft interview & OA questions
 
-**90 questions** reported at Microsoft · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/microsoft).
+**98 questions** reported at Microsoft · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -45,6 +45,7 @@
 | [Sliding-Window Stream Session Bucketing](https://trueinterview.io/questions/sliding-window-stream-bucketing) | Algorithm | Easy | Apr 16, 2026 |
 | [Minimum Swaps to Group Evens First](https://trueinterview.io/questions/sort-array-by-parity-min-swaps) | Algorithm | Medium | Apr 14, 2026 |
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [In-Place Sub-Matrix Move](https://trueinterview.io/questions/in-place-submatrix-move) | Algorithm | Hard | Apr 07, 2026 |
 | [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | Algorithm | Easy | Apr 01, 2026 |
 | [Count Positive Pairs Satisfying 1/x + 1/y = 1/N](https://trueinterview.io/questions/equations-reciprocal-pair-count) | Algorithm | Medium | Mar 26, 2026 |
@@ -52,10 +53,14 @@
 | [KV Store with Snapshot Versions](https://trueinterview.io/questions/kv-store-with-snapshot) | Low-Level Design | Hard | Mar 23, 2026 |
 | [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader) | Algorithm | Medium | Mar 18, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Low-Level Design | Hard | Mar 17, 2026 |
+| [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Algorithm | Medium | Mar 14, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
+| [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
 | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | Mar 03, 2026 |
+| [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
 | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | Feb 23, 2026 |
+| [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Algorithm | Medium | Feb 21, 2026 |
 | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Algorithm | Medium | Feb 18, 2026 |
 | [Find the Closest Palindrome](https://trueinterview.io/questions/find-the-closest-palindrome) | Algorithm | Hard | Feb 14, 2026 |
 | [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means) | Algorithm | Medium | Feb 13, 2026 |
@@ -67,6 +72,7 @@
 | [Parse Email Addresses from a Log String](https://trueinterview.io/questions/parse-emails-state-machine) | Algorithm | Hard | Feb 01, 2026 |
 | [Multiply Strings (LC 43)](https://trueinterview.io/questions/multiply-strings) | Algorithm | Medium | Feb 01, 2026 |
 | [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
+| [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Binary Search Tree Iterator](https://trueinterview.io/questions/binary-search-tree-iterator) | Low-Level Design | Medium | Jan 29, 2026 |
 | [Job Scheduler / ETL Pipeline System Design](https://trueinterview.io/questions/job-scheduler-etl-pipeline) | System Design | Hard | Jan 26, 2026 |
 | [Idempotency API with Idempotency-Key Header](https://trueinterview.io/questions/idempotency-api-with-key) | Low-Level Design | Medium | Jan 26, 2026 |
@@ -87,11 +93,12 @@
 | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
 | [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Algorithm | Medium | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |
 | [Shortest Path in a Grid with at Most K Cells per Move](https://trueinterview.io/questions/0acfe24d-4391-53e8-bebd-f31d970fbe3a) | Algorithm | Hard | — |
+| [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Algorithm | Medium | — |
 | [CUDA Vibe Coding: Implement or Optimize a CUDA Kernel](https://trueinterview.io/questions/8eb54136-fc2f-4f32-b89d-b97c5fbf9e38) | Algorithm | Hard | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
 | [DNA Sequence Concatenation](https://trueinterview.io/questions/edb32bbd-b688-4323-9145-8935dfef9893) | Algorithm | Hard | — |
-| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Reverse a Linked List](https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c) | Algorithm | Easy | — |
 | [Find the Maximum Length of Subarray with Sum Less Than Target](https://trueinterview.io/questions/d79ccd99-253b-4c50-af8b-1721844580a0) | Algorithm | Medium | — |
 | [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3) | AI Coding | Medium | — |
@@ -110,11 +117,12 @@
 | [Longest Palindromic Subsequence](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5) | Algorithm | Hard | — |
 | [Rate Limiter and Scaling](https://trueinterview.io/questions/38e79c9a-4c70-46a0-b781-d63b089c8571) | System Design | Hard | — |
 | [Low Level Logger Design](https://trueinterview.io/questions/2ac0a0ec-b27f-45f3-85bd-1f1476d9ed47) | Low-Level Design | Medium | — |
-| [Minimal Board Length for Holes](https://trueinterview.io/questions/0df3b897-7563-413a-9bea-06eeeb50a399) | Algorithm | Medium | — |
 | [Remove All Comments from Source String (C++)](https://trueinterview.io/questions/0490c246-1ba7-4cf9-bcf9-634c22f273cc) | Algorithm | Medium | — |
+| [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Algorithm | Medium | — |
 | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Algorithm | Medium | — |
 | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Algorithm | Medium | — |
 | [Maximize Edge Sum in Graph](https://trueinterview.io/questions/1d26ae33-53bb-4d9b-b5a4-201ff25783b4) | Algorithm | Medium | — |
+| [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

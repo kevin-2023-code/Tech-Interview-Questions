@@ -2,17 +2,18 @@
 
 # Google interview & OA questions
 
-**139 questions** reported at Google · **8 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/google).
+**140 questions** reported at Google · **10 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/google).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 ### How Google interviews
 
-**8 round-by-round guides.**
+**10 round-by-round guides.**
 
 | Interview round / guide | Topics |
 | :-- | :-- |
 | [Behavioral Round (Googliness Themes)](https://trueinterview.io/study/bq-round-google-style) | culture-fit |
+| [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/study/cpu-architecture-simulator-deep-dive) | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
 | [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/study/google-hiring-assessment-gha) | culture-fit |
 | [Google Interview Process & Questions](https://trueinterview.io/study/google-interview-process) | — |
 | [Google Machine Learning Engineer Interview Process](https://trueinterview.io/study/google-machine-learning-engineer-interview-process) | — |
@@ -20,6 +21,7 @@
 | [Heap Problem](https://trueinterview.io/study/f1466cd0-7903-4d56-af58-59263940b493) | — |
 | [Importance of Personality Traits in Workplace Success](https://trueinterview.io/study/1ef211c1-b8ca-4b34-b1c1-2cfdaea06646) | — |
 | [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
+| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | critique, deep-dive, presentation, vlm |
 
 ### Questions
 
@@ -44,6 +46,7 @@
 | [First Bad Version with Parallel Search Follow-up](https://trueinterview.io/questions/first-bad-version-parallel-search) | Algorithm | Medium | Jun 15, 2026 |
 | [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete) | Low-Level Design | Medium | Jun 10, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Huffman Tree Construction](https://trueinterview.io/questions/huffman-tree-construction) | Algorithm | Medium | Jun 01, 2026 |
 | [Matrix Flower Placement with House Adjacency](https://trueinterview.io/questions/matrix-flower-placement-with-house-adjacency) | Algorithm | Hard | May 31, 2026 |
@@ -51,6 +54,7 @@
 | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Algorithm | Medium | May 28, 2026 |
 | [ML System Design (Recsys / Chatbot / Image Classifier)](https://trueinterview.io/questions/ml-system-design-recsys-chatbot-classifier) | System Design | Hard | May 22, 2026 |
 | [Feature Rollout with Dependency Cycle Detection](https://trueinterview.io/questions/oa-feature-rollout-dependency-cycle-report) | AI Coding | Medium | May 17, 2026 |
+| [Email Checksum + Verification-String Lookup](https://trueinterview.io/questions/oa-email-checksum-verification-string) | Algorithm | Medium | May 17, 2026 |
 | [Largest Group Sharing a Digit](https://trueinterview.io/questions/oa-group-two-digit-numbers-shared-digit) | Algorithm | Medium | May 07, 2026 |
 | [Count Perfect Wake Numbers up to N](https://trueinterview.io/questions/perfect-wake-number-count) | Algorithm | Hard | May 07, 2026 |
 | [Collect Coins on 1D Board](https://trueinterview.io/questions/oa-collect-coins-1d-board) | Algorithm | Medium | May 07, 2026 |
@@ -88,7 +92,6 @@
 | [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
-| [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Algorithm | Medium | Jan 29, 2026 |
 | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Algorithm | Medium | Jan 22, 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Run-Length Vector Storage + Dot Product](https://trueinterview.io/questions/compressed-vector-dot-product) | Low-Level Design | Medium | Jan 21, 2026 |
@@ -98,21 +101,22 @@
 | [Binary Tree Longest Consecutive Sequence II](https://trueinterview.io/questions/binary-tree-longest-consecutive-sequence-ii) | Algorithm | Hard | Jan 11, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
 | [Babylon Tile-Stack Merge Game](https://trueinterview.io/questions/babylon-stack-merge-game) | Low-Level Design | Hard | Dec 29, 2025 |
+| [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Algorithm | Medium | Dec 23, 2025 |
 | [Wordle-Style 5-Letter Minimum-Guess Strategy](https://trueinterview.io/questions/wordle-min-guess-strategy) | Algorithm | Hard | Dec 15, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Low-Level Design | Hard | Nov 28, 2025 |
 | [Find All Bad Pairs Using runTest Oracle](https://trueinterview.io/questions/find-bad-pairs-with-oracle) | Algorithm | Hard | Nov 27, 2025 |
 | [Two-Day Log Intersection under Memory Limit](https://trueinterview.io/questions/two-logs-intersection-memory-limit) | Algorithm | Medium | Nov 27, 2025 |
+| [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
-| [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Algorithm | Medium | Jun 10, 2025 |
-| [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
 | [Build Binary Tree From Character Counts](https://trueinterview.io/questions/build-binary-tree-from-character-counts-2) | Algorithm | Medium | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
+| [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |
 | [Count Nested Key Pairs and Return Most Frequent Inner Key](https://trueinterview.io/questions/00e2c5ae-3af2-5102-9b0f-51fefca7e047) | Algorithm | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
 | [Minimum Cars to Satisfy Rental Requests + Assignment Records](https://trueinterview.io/questions/e44dda44-9b47-453a-9c31-9c5b589b348f) | Algorithm | Medium | — |
@@ -133,8 +137,6 @@
 | [Serialize and Deserialize List of Strings](https://trueinterview.io/questions/a0d558e6-66d0-4094-a169-e6e3e081374b) | Algorithm | Medium | — |
 | [Consolidate On-call Rotations into Maximal Constant Segments](https://trueinterview.io/questions/9c213936-135f-4a6a-8b44-aa71ed0ac82a) | Algorithm | Hard | — |
 | [Unique Paths in a 2D Matrix with Moves](https://trueinterview.io/questions/9bc06af6-5391-48cc-9eb3-8364423d3a52) | Algorithm | Medium | — |
-| [Ways to Split String](https://trueinterview.io/questions/90a700ff-7d10-465f-9024-040ee24bb7e2) | Algorithm | Medium | — |
-| [Find Min Distance to Furthest Node (Google Tokyo)](https://trueinterview.io/questions/5a172edd-dfd1-47f8-a06c-5cf23f94bb6d) | Algorithm | Medium | — |
 | [Number of Distinct Islands](https://trueinterview.io/questions/4efa382e-08ab-43e2-8ad5-306b5e2fbc86) | Algorithm | Medium | — |
 | [Detonate Bombs with Chain Reactions (Graph reachability)](https://trueinterview.io/questions/4e270197-d462-4ba2-8769-4553ba1d3b16) | Algorithm | Medium | — |
 | [Implement deleteDirectory with getChildrenPaths and deleteFile APIs](https://trueinterview.io/questions/4e02ab32-f7f8-4070-b12a-604e8470808c) | Low-Level Design | Medium | — |
@@ -161,6 +163,7 @@
 | [Signal Propagation in Graph](https://trueinterview.io/questions/11b83d9a-5ded-4bb0-8889-b1692adf9464) | Algorithm | Medium | — |
 | [Longest Non Decreasing Subarray Part 2](https://trueinterview.io/questions/0cd23ef7-9668-4a6a-82e2-63eedeeceead) | Algorithm | Medium | — |
 | [Group Array](https://trueinterview.io/questions/19b3ac67-7f53-4497-9f89-93551984b216) | Algorithm | Easy | — |
-| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Medium | — |
+| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Hard | — |
 | [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
+| [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | Algorithm | Easy | — |

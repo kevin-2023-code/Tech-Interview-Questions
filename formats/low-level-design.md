@@ -2,7 +2,7 @@
 
 # Low-Level Design interview & OA questions
 
-**391 questions** in the Low-Level Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=low-level-design).
+**398 questions** in the Low-Level Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=low-level-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,13 +10,19 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🔥 Sep 06, 2026 |
+| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🔥 Sep 02, 2026 |
+| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
+| **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
+| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | 🆕 Aug 16, 2026 |
 | **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Medium | 🆕 Aug 12, 2026 |
+| **ByteDance** | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Medium | 🆕 Aug 06, 2026 |
 | **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Medium | 🆕 Aug 06, 2026 |
 | **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Medium | Jul 29, 2026 |
+| **Amazon** | [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model) | Medium | Jul 22, 2026 |
 | **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Medium | Jul 15, 2026 |
 | **Figma** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Medium | Jul 06, 2026 |
 | **Harvey** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Hard | Jul 2026 |
-| **Amazon** | [Pizza / Restaurant System](https://trueinterview.io/questions/pizza-restaurant-ood) | Medium | Jul 01, 2026 |
 | **Uber** | [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Medium | Jul 2026 |
 | **Apple** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Medium | Jun 28, 2026 |
 | **Databricks / Google / Ramp** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Medium | Jun 26, 2026 |
@@ -35,7 +41,6 @@
 | **Anthropic** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Medium | Jun 15, 2026 |
 | **Snowflake / ByteDance / Netflix** | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Medium | Jun 15, 2026 |
 | **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
-| **Waymo** | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Medium | Jun 13, 2026 |
 | **Ebay** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Medium | Jun 12, 2026 |
 | **Reddit** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Medium | Jun 12, 2026 |
 | **OpenAI** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Medium | Jun 12, 2026 |
@@ -54,12 +59,13 @@
 | **Databricks** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Medium | Jun 2026 |
 | **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **Databricks** | [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Medium | Jun 2026 |
+| **Amazon** | [Playlist / Guide Voting System](https://trueinterview.io/questions/playlist-guide-voting-ood) | Medium | May 31, 2026 |
 | **Optiver** | [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock) | Medium | May 30, 2026 |
 | **Uber** | [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution) | Medium | May 29, 2026 |
 | **Rippling** | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Medium | May 29, 2026 |
 | **Anthropic** | [File Systems](https://trueinterview.io/questions/oa-file-systems) | Medium | May 28, 2026 |
 | **Anthropic** | [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management) | Hard | May 27, 2026 |
-| **Apple / Goldman Sachs / LinkedIn** | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Easy | May 27, 2026 |
+| **Apple / ByteDance / LinkedIn** | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Easy | May 27, 2026 |
 | **Meta** | [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system) | Hard | May 26, 2026 |
 | **Pinterest / Oracle** | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Medium | May 26, 2026 |
 | **OpenAI** | [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Medium | May 26, 2026 |
@@ -100,10 +106,10 @@
 | **Pinterest** | [Grant / Revoke / Check Access on Hierarchy](https://trueinterview.io/questions/grant-revoke-access-tree) | Medium | Apr 21, 2026 |
 | **Coinbase** | [Food Delivery System (Multi-Level Coding)](https://trueinterview.io/questions/food-delivery-system-2) | Medium | Apr 20, 2026 |
 | **Pinterest** | [Escape Room](https://trueinterview.io/questions/escape-room-player-tracking) | Medium | Apr 19, 2026 |
-| **Anthropic** | [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Medium | Apr 17, 2026 |
+| **Anthropic** | [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Hard | Apr 17, 2026 |
 | **NVIDIA** | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Medium | Apr 15, 2026 |
 | **Amazon** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter-ood) | Medium | Apr 15, 2026 |
-| **Oracle** | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Medium | Apr 14, 2026 |
+| **Oracle** | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Hard | Apr 14, 2026 |
 | **Meta** | [Friend Recommendation II](https://trueinterview.io/questions/ai-coding-friend-recommendation) | Medium | Apr 14, 2026 |
 | **Amazon** | [Minesweeper Game Design](https://trueinterview.io/questions/minesweeper-game-design) | Medium | Apr 13, 2026 |
 | **Databricks / Amazon** | [Design Lazy Array](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) | Medium | Apr 13, 2026 |
@@ -181,7 +187,6 @@
 | **JPMorgan** | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Easy | Jan 15, 2026 |
 | **Citadel** | [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler) | Medium | Jan 15, 2026 |
 | **Apple** | [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api) | Medium | Jan 06, 2026 |
-| **Bloomberg** | [Todo List OOP Design](https://trueinterview.io/questions/todo-list-oop) | Medium | Jan 04, 2026 |
 | **Apple** | [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache) | Medium | Jan 02, 2026 |
 | **Netflix** | [Spam Email Detection](https://trueinterview.io/questions/spam-email-detection) | Medium | Jan 01, 2026 |
 | **Google** | [Babylon Tile-Stack Merge Game](https://trueinterview.io/questions/babylon-stack-merge-game) | Hard | Dec 29, 2025 |
@@ -238,12 +243,16 @@
 | **SoFi** | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Medium | Jul 14, 2025 |
 | **Pinterest** | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Medium | May 30, 2025 |
 | **Oracle** | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Medium | Jan 15, 2025 |
+| **Uber** | [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) | Medium | — |
+| **Amazon** | [Implement a Priority Queue from Scratch](https://trueinterview.io/questions/96ab949c-d905-528b-9d0c-da46018b1df0) | Medium | — |
+| **Amazon** | [Fix Django Post Creation API](https://trueinterview.io/questions/71e6edc3-c57b-529a-8419-d1445f2419fd) | Medium | — |
+| **Amazon** | [Design a Per-Message Rate Limiter](https://trueinterview.io/questions/57e1bd09-af24-537a-8584-1bf325fbe5c0) | Medium | — |
 | **Stackadapt** | [SongShuffler with Cooldown to Prevent Recent Repeats](https://trueinterview.io/questions/f2ece2d0-63e8-4cff-8b0b-adcbdb3fd61a) | Medium | — |
 | **Stackadapt** | [Restaurant Recipe and Inventory Management](https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272) | Medium | — |
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |
 | **Gusto** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Easy | — |
 | **Gusto** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Medium | — |
-| **Brex** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Medium | — |
+| **Brex** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Easy | — |
 | **Block** | [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Medium | — |
 | **Airtable** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Hard | — |
 | **Airtable** | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | Medium | — |
@@ -251,14 +260,5 @@
 | **Sigmacomputing** | [Implement a Task Manager That Executes Tasks in Run Order](https://trueinterview.io/questions/d21635a1-8233-50a5-87b5-df068ad61cc9) | Medium | — |
 | **Sigmacomputing** | [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f) | Medium | — |
 | **Sigmacomputing** | [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d) | Medium | — |
-| **Palantir** | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Medium | — |
-| **Palantir** | [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Medium | — |
-| **Lead Bank** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Medium | — |
-| **Circle** | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Medium | — |
-| **Arista** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Medium | — |
-| **Sigmacomputing** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Medium | — |
-| **Amplitude** | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Medium | — |
-| **Lyft** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
-| **Confluent / Pinterest** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](low-level-design-2.md)</sub>

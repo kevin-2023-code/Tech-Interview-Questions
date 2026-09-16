@@ -2,7 +2,7 @@
 
 # Citadel interview & OA questions
 
-**31 questions** reported at Citadel · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/citadel).
+**32 questions** reported at Citadel · **11 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -57,5 +57,6 @@
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
+| [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
 | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Low-Level Design | Medium | — |

@@ -2,7 +2,7 @@
 
 # Snapchat interview & OA questions
 
-**50 questions** reported at Snapchat · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snapchat).
+**49 questions** reported at Snapchat · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -65,11 +65,10 @@
 | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f) | SQL | Medium | — |
 | [K Closest Points to Origin (N log K)](https://trueinterview.io/questions/99a55d10-3af0-49e2-91c4-d24bbfec7bb5) | Algorithm | Medium | — |
 | [Can a target string be formed using double-sided letter cards (each card used at most once)?](https://trueinterview.io/questions/5ed24cce-5556-420b-922b-69afe32a617d) | Algorithm | Medium | — |
-| [Non-connected People Pairs](https://trueinterview.io/questions/0bd6bb2c-ede5-418a-a65c-0c6491fbcb35) | Algorithm | Medium | — |
+| [Combinations of Elements Using Recursive Mapping](https://trueinterview.io/questions/3fa8d5db-2936-4c91-82c5-57d91408cc7b) | Algorithm | Medium | — |
 | [4Sum (Find all unique quadruplets)](https://trueinterview.io/questions/07f8b449-7967-4e4b-9036-b337ac8e591f) | Algorithm | Medium | — |
 | [Merge N sorted lists into one sorted list](https://trueinterview.io/questions/05df5d18-4c49-4622-9296-d227c283f950) | Algorithm | Medium | — |
 | [O(1) Get and Add Data Structure](https://trueinterview.io/questions/004790d3-cd6c-4d92-9e71-b810ddad3a63) | Low-Level Design | Easy | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
-| [Distinct Products Of Prime Subsets](https://trueinterview.io/questions/105bb2c5-a958-467e-bbb2-ac7c2bb81fe2) | Algorithm | Medium | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |

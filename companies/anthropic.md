@@ -56,7 +56,7 @@
 | [Onsite Design Doc Review](https://trueinterview.io/questions/onsite-design-doc-review) | System Design | Easy | Apr 28, 2026 |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Low-Level Design | Medium | Apr 28, 2026 |
 | [Mechanistic Interpretability Take-Home — Sample-Aspect Double Descent](https://trueinterview.io/questions/mech-interp-take-home) | AI Coding | Hard | Apr 19, 2026 |
-| [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Low-Level Design | Medium | Apr 17, 2026 |
+| [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Low-Level Design | Hard | Apr 17, 2026 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure) | System Design | Hard | Mar 07, 2026 |
 | [Bank System](https://trueinterview.io/questions/bank-system) | Low-Level Design | Medium | Mar 04, 2026 |
@@ -82,7 +82,7 @@
 | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | SQL | Medium | — |
 | [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) | Algorithm | Medium | — |
 | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | AI Coding | Hard | — |
-| [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | AI Coding | Medium | — |
+| [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | AI Coding | Easy | — |
 | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | System Design | Hard | — |
 | [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a) | Algorithm | Medium | — |
 | [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a) | Algorithm | Easy | — |

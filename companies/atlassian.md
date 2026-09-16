@@ -2,7 +2,7 @@
 
 # Atlassian interview & OA questions
 
-**43 questions** reported at Atlassian · **4 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/atlassian).
+**39 questions** reported at Atlassian · **4 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/atlassian).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -35,7 +35,7 @@
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Low-Level Design | Medium | Feb 15, 2026 |
 | [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher) | Algorithm | Medium | Jan 30, 2026 |
-| [Product Feed and Shopping Recommendation System](https://trueinterview.io/questions/product-feed-and-shopping-recommendation-system) | System Design | Hard | Jan 05, 2026 |
+| [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Algorithm | Medium | Jan 20, 2026 |
 | [Snowy Mountain Path with Melting](https://trueinterview.io/questions/snowy-mountain-path-with-melting) | Algorithm | Hard | Dec 16, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Low-Level Design | Hard | Nov 28, 2025 |
@@ -50,17 +50,13 @@
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [File Directory Tree UI with Expand/Collapse Functionality](https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae) | AI Coding | Easy | — |
 | [Trending (Moving) Average on Integer Stream](https://trueinterview.io/questions/80ba1fe6-a6cd-4143-b4d5-c0b0744e4dea) | Algorithm | Medium | — |
-| [Overlap Segments and Isolated Intervals](https://trueinterview.io/questions/0aa220f2-9b3d-40c6-88e2-4fd70cad7809) | Algorithm | Medium | — |
 | [Implement Moving Average from Data Stream](https://trueinterview.io/questions/94192aa7-a909-49a7-80b7-24c84876985d) | Algorithm | Easy | — |
 | [Calculate and Sort Customer Ratings](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) | Algorithm | Easy | — |
 | [Fetch a list of URLs sequentially and return responses](https://trueinterview.io/questions/f070ed97-d100-4e7f-a139-8d6432f64b83) | Algorithm | Medium | — |
 | [LeetCode Problem 636](https://trueinterview.io/questions/e232949d-8555-44bc-9410-40b2b8c91190) | Algorithm | Medium | — |
-| [Secure Web Login Page with Front-End Validation and Backend Integration](https://trueinterview.io/questions/db499923-0eef-4ac1-aa11-4207726b8a9e) | Low-Level Design | Easy | — |
 | [Is one string a subsequence of another?](https://trueinterview.io/questions/bc22cdd6-a42e-4871-9342-b3016bba9933) | Algorithm | Easy | — |
 | [Spiral Matrix](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) | Algorithm | Medium | — |
-| [Agent Vote API Design](https://trueinterview.io/questions/acb7f800-86e4-4960-8ef2-15336c0c5562) | Low-Level Design | Medium | — |
 | [OOD Release Notification Service](https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1) | Low-Level Design | Easy | — |
 | [O(1) Data Structure Using Double Linked List](https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338) | Low-Level Design | Medium | — |
-| [Find Maximum Stock Price](https://trueinterview.io/questions/25f42cec-e6c5-4261-87f3-f1c6d6c9efbb) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |

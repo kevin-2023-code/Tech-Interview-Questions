@@ -2,7 +2,7 @@
 
 # Oracle interview & OA questions
 
-**43 questions** reported at Oracle · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/oracle).
+**41 questions** reported at Oracle · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -27,18 +27,19 @@
 | [Number of Islands (LC 200)](https://trueinterview.io/questions/number-of-islands-4) | Algorithm | Medium | Apr 14, 2026 |
 | [Monotone Increasing Digits II](https://trueinterview.io/questions/monotone-increasing-digits) | Algorithm | Medium | Apr 14, 2026 |
 | [Same N-ary Tree Comparison](https://trueinterview.io/questions/same-nary-tree-comparison) | Algorithm | Medium | Apr 14, 2026 |
-| [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Low-Level Design | Medium | Apr 14, 2026 |
+| [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Low-Level Design | Hard | Apr 14, 2026 |
 | [VM Health Monitoring at 1M Scale](https://trueinterview.io/questions/system-design-vm-health-monitoring) | System Design | Hard | Feb 13, 2026 |
 | [Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search) | System Design | Hard | Feb 13, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Simplified Redis-Like KV / List Store](https://trueinterview.io/questions/simplified-redis-kv-store) | Low-Level Design | Medium | Feb 04, 2026 |
 | [Hospital Appointment Booking API](https://trueinterview.io/questions/hospital-appointment-booking-api) | Low-Level Design | Medium | Feb 04, 2026 |
 | [Apply List of Operations (Command Pattern)](https://trueinterview.io/questions/apply-operations-command-pattern) | Low-Level Design | Medium | Feb 03, 2026 |
+| [Sparse Matrix Multiplication](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication) | Algorithm | Medium | Jan 22, 2026 |
+| [Multi-Head Attention (from scratch)](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-multi-head-attention-from-scratch) | Algorithm | Hard | Jan 22, 2026 |
 | [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | Algorithm | Hard | Jan 22, 2026 |
 | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | Jan 19, 2026 |
 | [Container With Most Water](https://trueinterview.io/questions/container-with-most-water-2) | Algorithm | Medium | Jan 06, 2026 |
 | [First-Login Only-Once User Tracker (O(1) Worst-Case)](https://trueinterview.io/questions/first-unique-login-tracker) | Low-Level Design | Hard | Dec 01, 2025 |
-| [Palindrome Check with Ignore Set](https://trueinterview.io/questions/palindrome-check-with-ignore-set) | Algorithm | Easy | Nov 24, 2025 |
 | [Anagram Word Replacement in Phrases](https://trueinterview.io/questions/anagram-phrase-replacement) | Algorithm | Medium | Nov 21, 2025 |
 | [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists) | Algorithm | Medium | Nov 20, 2025 |
 | [Course Scheduler — Print Path (Simplified)](https://trueinterview.io/questions/course-scheduler-simplified) | Algorithm | Easy | Nov 19, 2025 |
@@ -48,7 +49,7 @@
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | Low-Level Design | Easy | Sep 15, 2025 |
 | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | Low-Level Design | Medium | Sep 15, 2025 |
 | [Minimum Sum After K Halvings (Max-Heap)](https://trueinterview.io/questions/min-sum-after-k-halvings) | Algorithm | Medium | Aug 06, 2025 |
-| [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Algorithm | Medium | Jun 10, 2025 |
+| [Log Parser with Multi-Line Follow-up](https://trueinterview.io/questions/log-parser-multiline) | Algorithm | Medium | Aug 06, 2025 |
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Low-Level Design | Medium | Jan 15, 2025 |
 | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | System Design | Hard | Jan 15, 2025 |
 | [Missing Number](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) | Algorithm | Easy | — |
@@ -58,8 +59,5 @@
 | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Low-Level Design | Medium | — |
 | [Find File with Phone Number](https://trueinterview.io/questions/7d164823-0460-4877-8bc5-3f16b36edcbd) | Algorithm | Easy | — |
 | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Algorithm | Medium | — |
-| [Log Line Formatter: Timestamp and Level Conversion](https://trueinterview.io/questions/73cc817d-b8cd-4033-9676-16c876b45576) | Algorithm | Easy | — |
 | [Merge 2 Arrays](https://trueinterview.io/questions/4920427a-c447-463d-8860-284fa28e7649) | Algorithm | Easy | — |
-| [Multithreading Functionality](https://trueinterview.io/questions/2543c618-5a05-4ba0-b994-dfc0a7596470) | Algorithm | Medium | — |
-| [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Medium | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |

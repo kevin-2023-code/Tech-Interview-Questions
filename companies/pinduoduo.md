@@ -2,7 +2,7 @@
 
 # Pinduoduo interview & OA questions
 
-**20 questions** reported at Pinduoduo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
+**19 questions** reported at Pinduoduo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -36,7 +36,6 @@
 | [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84) | Algorithm | Hard | — |
 | [Logistics Variant](https://trueinterview.io/questions/86561494-7d80-47e0-a298-bb7b9e51ad7b) | Algorithm | Hard | — |
 | [Sort Colors and Sizes](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) | Algorithm | Easy | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |
 | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Algorithm | Medium | — |
 | [Spiral Matrix](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) | Algorithm | Medium | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |

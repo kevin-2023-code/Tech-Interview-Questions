@@ -18,5 +18,5 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Low-Level Design | Medium | — |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Low-Level Design | Easy | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Algorithm | Easy | — |

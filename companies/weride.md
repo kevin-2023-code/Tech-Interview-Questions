@@ -2,7 +2,7 @@
 
 # Weride interview & OA questions
 
-**22 questions** reported at Weride · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/weride).
+**20 questions** reported at Weride · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/weride).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -36,7 +36,5 @@
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | — |
 | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Algorithm | Easy | — |
-| [Find k-th Smallest Element in Array](https://trueinterview.io/questions/b2139963-784f-4086-86cf-0afe1a9e5ea2) | Algorithm | Medium | — |
 | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | — |
 | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | — |
-| [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |

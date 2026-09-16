@@ -2,7 +2,7 @@
 
 # Databricks interview & OA questions
 
-**55 questions** reported at Databricks · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/databricks).
+**54 questions** reported at Databricks · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/databricks).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -60,7 +60,6 @@
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Multi-Threaded Chat System](https://trueinterview.io/questions/multi-threaded-chat-system) | Low-Level Design | Medium | Oct 24, 2025 |
 | [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) | System Design | Medium | Oct 09, 2025 |
-| [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |

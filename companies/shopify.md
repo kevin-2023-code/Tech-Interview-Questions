@@ -2,7 +2,7 @@
 
 # Shopify interview & OA questions
 
-**13 questions** reported at Shopify · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/shopify).
+**14 questions** reported at Shopify · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/shopify).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -24,6 +24,7 @@
 | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | May 12, 2026 |
 | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | May 10, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
+| [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
 | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [Dynamic programming, ~45 min, any language](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) | Algorithm | Medium | Aug 29, 2025 |

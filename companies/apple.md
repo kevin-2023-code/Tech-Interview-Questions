@@ -2,7 +2,7 @@
 
 # Apple interview & OA questions
 
-**91 questions** reported at Apple · **9 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/apple).
+**90 questions** reported at Apple · **9 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/apple).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -52,7 +52,6 @@
 | [Flood Fill](https://trueinterview.io/questions/flood-fill) | Algorithm | Easy | Apr 20, 2026 |
 | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | System Design | Medium | Apr 18, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
-| [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | System Design | Medium | Apr 08, 2026 |
 | [Container With Most Water II](https://trueinterview.io/questions/container-with-most-water) | Algorithm | Medium | Apr 08, 2026 |
@@ -106,7 +105,7 @@
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Algorithm | Easy | Nov 20, 2025 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2) | SQL | Easy | — |
-| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Medium | — |
+| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Hard | — |
 | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Algorithm | Hard | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Hard | — |

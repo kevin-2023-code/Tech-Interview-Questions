@@ -2,15 +2,15 @@
 
 # Free questions
 
-**167 of the 2,249 tracked questions open without a paid plan** (7%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**166 of the 2,311 tracked questions open without a paid plan** (7%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 104 | 22 | 60 | 22 |
+| [Algorithm](algorithm.md) | 106 | 21 | 63 | 22 |
 | [System Design](system-design.md) | 12 | 3 | 6 | 3 |
-| [Low-Level Design](low-level-design.md) | 44 | 4 | 36 | 4 |
+| [Low-Level Design](low-level-design.md) | 41 | 4 | 33 | 4 |
 | [AI Coding](ai-coding.md) | 7 | 1 | 5 | 1 |
 
 ## Start here
@@ -27,20 +27,18 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | Easy | Mar 24, 2026 |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | **Apple / Amazon / Atlassian / ByteDance / Cisco / PayPal / Squarepoint** | Easy | — |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | Easy | Oct 29, 2025 |
-| [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | **Apple / Goldman Sachs / LinkedIn** | Easy | May 27, 2026 |
 | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | **Microsoft / Ebay / Visa** | Easy | — |
 | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | **Microsoft / Geico / Weride** | Easy | — |
 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | **Meta / NVIDIA / Upstart** | Easy | — |
-| [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | **Uber / Amazon / Weride** | Easy | — |
 | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | **Coinbase / Capital One** | Easy | — |
 | [Check Prefix Permutation](https://trueinterview.io/questions/oa-permutation-prefix-balanced) | **Uber / Microsoft** | Easy | Feb 02, 2026 |
+| [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | **Netflix / Google** | Easy | — |
 | [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | **Uber / Microsoft** | Easy | Apr 01, 2026 |
 | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | **Uber / Block** | Easy | — |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / SoFi** | Easy | Jun 2025 |
 | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | **Bobyard** | Easy | — |
 | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | **JPMorgan** | Easy | Jan 15, 2026 |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | **Brex** | Easy | — |
-| [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | **Netflix** | Easy | — |
 | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree) | **Apple** | Easy | Dec 10, 2025 |
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | **Apple** | Easy | Nov 20, 2025 |
 | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | **Luma AI** | Easy | — |
@@ -48,16 +46,18 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Interleave Three Equal-Length Strings](https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7) | **Upstart** | Easy | — |
 | [IP CIDR Range Query](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) | **Databricks** | Easy | — |
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | **Arista** | Easy | — |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) | **Lead Bank** | Easy | — |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | Medium | Jan 14, 2026 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | **Apple / Amazon / Google / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | Medium | Feb 04, 2026 |
+| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | Medium | Feb 04, 2026 |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | **Ramp / Amazon / Bloomberg / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | Medium | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | Medium | — |
+| [Course Schedule](https://trueinterview.io/questions/course-schedule) | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | Medium | Mar 20, 2026 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Medium | Nov 08, 2025 |
-| [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | **Uber / Amazon / Apple / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | Medium | Apr 09, 2026 |
-| [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | **Netflix / ByteDance / Google / Instacart / Meta / Snapchat / SoFi / Uber** | Medium | Jan 30, 2026 |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | **Apple / Amazon / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake** | Medium | Mar 20, 2026 |
+| [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | **Netflix / ByteDance / Google / Instacart / Meta / Microsoft / Snapchat / SoFi / Uber** | Medium | Jan 30, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | **OpenAI / Amazon / Datadog / Google / Hubspot / Netflix / Snapchat / Verkada** | Medium | Feb 2026 |
-| [Design Instagram](https://trueinterview.io/questions/design-instagram) | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | Medium | Jan 22, 2026 |
+| [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | **Uber / Amazon / Atlassian / ByteDance / Google / Meta / Microsoft / PayPal** | Medium | Feb 26, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | Medium | Apr 09, 2026 |
+| [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | Medium | Apr 09, 2026 |
 
 <sub>The rest are on the per-format pages above. A dash in *Reported* means no sighting date was recorded, which is not the same as old.</sub>

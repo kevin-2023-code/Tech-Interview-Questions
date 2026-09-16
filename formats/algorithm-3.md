@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,390 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,442 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,8 +10,39 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **ByteDance** | [Valid Parentheses with Wildcard '*' and DFS All Strings](https://trueinterview.io/questions/valid-parentheses-with-wildcard) | Medium | Jan 30, 2026 |
+| **DoorDash** | [Menu Tree Diff — Count Changed Nodes](https://trueinterview.io/questions/code-craft-menu-tree-diff) | Hard | Jan 30, 2026 |
+| **Atlassian** | [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher) | Medium | Jan 30, 2026 |
+| **Snowflake** | [Maximum Number of Events That Can Be Attended](https://trueinterview.io/questions/maximum-number-of-events-that-can-be-attended) | Hard | Jan 30, 2026 |
+| **Netflix / ByteDance / Google / Instacart / Meta / Microsoft / Snapchat / SoFi / Uber** | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Medium | Jan 30, 2026 |
+| **Coinbase** | [Thread Logs Processing](https://trueinterview.io/questions/thread-logs-processing) | Easy | Jan 29, 2026 |
+| **ByteDance** | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | Hard | Jan 29, 2026 |
+| **Apple / ByteDance / Meta** | [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Medium | Jan 29, 2026 |
+| **Citadel** | [Task Scheduler with Priority + Lazy Deletion](https://trueinterview.io/questions/task-scheduler-priority-lazy-delete) | Medium | Jan 28, 2026 |
+| **Citadel** | [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state) | Medium | Jan 28, 2026 |
+| **Netflix** | [Movie History Friends](https://trueinterview.io/questions/a5e89ec7-7af5-47b7-a8e5-e7d453d2e070) | Medium | Jan 28, 2026 |
+| **Uber / Apple / Snowflake** | [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) | Hard | Jan 28, 2026 |
+| **Capital One** | [AP Replacement Rounds](https://trueinterview.io/questions/ap-replacement-rounds) | Medium | Jan 27, 2026 |
+| **Microsoft** | [15-Puzzle Minimum Moves (BFS)](https://trueinterview.io/questions/15-puzzle-bfs) | Hard | Jan 26, 2026 |
+| **ByteDance / DoorDash / Meta** | [Binary Tree Maximum Path Sum (with path reconstruction)](https://trueinterview.io/questions/binary-tree-max-path-sum) | Hard | Jan 26, 2026 |
+| **xAI** | [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time) | Medium | Jan 26, 2026 |
+| **Netflix** | [Timer Function](https://trueinterview.io/questions/timer-function) | Easy | Jan 25, 2026 |
+| **Uber** | [K Shuttle Pickup Locations](https://trueinterview.io/questions/k-shuttle-pickup-locations) | Hard | Jan 24, 2026 |
+| **Waymo** | [LED Digit Display Invariant Under 180° Rotation](https://trueinterview.io/questions/strobogrammatic-led-display) | Medium | Jan 23, 2026 |
+| **Waymo** | [Run-Length Encoded String: Find by Index and Range Max](https://trueinterview.io/questions/run-length-encoding-find-by-index) | Medium | Jan 23, 2026 |
+| **Waymo** | [Sort Target String by Custom Order](https://trueinterview.io/questions/custom-sort-string-by-order) | Medium | Jan 23, 2026 |
+| **Akuna Capital** | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Medium | Jan 23, 2026 |
+| **Akuna Capital** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Easy | Jan 23, 2026 |
+| **Oracle** | [Sparse Matrix Multiplication](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication) | Medium | Jan 22, 2026 |
+| **Oracle** | [Multi-Head Attention (from scratch)](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-multi-head-attention-from-scratch) | Hard | Jan 22, 2026 |
+| **Oracle** | [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | Hard | Jan 22, 2026 |
+| **Bloomberg** | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Hard | Jan 22, 2026 |
+| **Bloomberg** | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Hard | Jan 22, 2026 |
+| **Apple / Google** | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Medium | Jan 22, 2026 |
+| **Uber** | [Sqrt(x)](https://trueinterview.io/questions/sqrt-x) | Easy | Jan 22, 2026 |
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Jan 22, 2026 |
 | **Bloomberg** | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Medium | Jan 21, 2026 |
+| **Snowflake / Amazon / Atlassian / ByteDance / Meta** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Medium | Jan 20, 2026 |
 | **Salesforce** | [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring) | Medium | Jan 20, 2026 |
 | **Hubspot / Oracle** | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Medium | Jan 19, 2026 |
 | **Hubspot** | [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Hard | Jan 19, 2026 |
@@ -24,7 +55,7 @@
 | **Google** | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Medium | Jan 19, 2026 |
 | **Capital One / Meta** | [Sawtooth (Alternating Parity) Subarray Count](https://trueinterview.io/questions/sawtooth-subarray-count) | Medium | Jan 19, 2026 |
 | **Capital One** | [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling) | Medium | Jan 19, 2026 |
-| **Capital One** | [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Hard | Jan 19, 2026 |
+| **Capital One** | [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Medium | Jan 19, 2026 |
 | **Capital One** | [Matrix Commands: Reverse / Swap / Rotate](https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate) | Medium | Jan 19, 2026 |
 | **Capital One** | [Train Schedule Nearest Departure](https://trueinterview.io/questions/train-schedule-nearest-departure) | Medium | Jan 18, 2026 |
 | **Snowflake** | [Recipe Sequence Matcher](https://trueinterview.io/questions/recipe-sequence-matcher) | Medium | Jan 17, 2026 |
@@ -53,14 +84,13 @@
 | **Uber / Meta** | [Making a Large Island](https://trueinterview.io/questions/making-a-large-island) | Medium | Jan 07, 2026 |
 | **Oracle** | [Container With Most Water](https://trueinterview.io/questions/container-with-most-water-2) | Medium | Jan 06, 2026 |
 | **Citadel / Luma AI** | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Hard | Jan 05, 2026 |
-| **Uber** | [Word Search](https://trueinterview.io/questions/word-search) | Medium | Jan 05, 2026 |
+| **Uber / Amazon / Shopify** | [Word Search](https://trueinterview.io/questions/word-search) | Medium | Jan 05, 2026 |
 | **Uber** | [Number of Ways to Earn Points](https://trueinterview.io/questions/number-of-ways-to-earn-points) | Medium | Jan 05, 2026 |
 | **ByteDance** | [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch) | Medium | Jan 04, 2026 |
-| **ByteDance** | [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch) | Medium | Jan 04, 2026 |
+| **ByteDance** | [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch) | Easy | Jan 04, 2026 |
 | **ByteDance** | [Local maximum on a 1-D stream](https://trueinterview.io/questions/codesignal-ml-rs-oa-local-maximum-on-a-1-d-stream) | Medium | Jan 04, 2026 |
 | **ByteDance** | [CodeSignal ML / Research Scientist OA (10-Problem Battery)](https://trueinterview.io/questions/codesignal-ml-rs-oa) | Hard | Jan 04, 2026 |
-| **Bloomberg** | [Wordle Character Compare](https://trueinterview.io/questions/wordle-character-compare) | Medium | Jan 04, 2026 |
-| **Snowflake / Meta / Stackadapt** | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Hard | Jan 04, 2026 |
+| **Snowflake / Amazon / Meta** | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Hard | Jan 04, 2026 |
 | **Uber** | [Isomorphic Strings](https://trueinterview.io/questions/isomorphic-strings) | Easy | Jan 03, 2026 |
 | **Netflix** | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns) | Medium | Jan 02, 2026 |
 | **Bloomberg** | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Medium | Jan 01, 2026 |
@@ -74,7 +104,7 @@
 | **Salesforce** | [Binary String Synchronous '01' → '10' Replacement](https://trueinterview.io/questions/binary-string-01-10-swap) | Hard | Dec 25, 2025 |
 | **Salesforce** | [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check) | Easy | Dec 25, 2025 |
 | **Intuit** | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | Medium | Dec 25, 2025 |
-| **Snowflake** | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Medium | Dec 23, 2025 |
+| **Snowflake / Google** | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Medium | Dec 23, 2025 |
 | **Roblox** | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Medium | Dec 23, 2025 |
 | **LinkedIn** | [Service Dependency Impact Propagation](https://trueinterview.io/questions/coding-service-dependency-impact) | Hard | Dec 22, 2025 |
 | **Citadel** | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Medium | Dec 22, 2025 |
@@ -113,10 +143,9 @@
 | **Google** | [Find All Bad Pairs Using runTest Oracle](https://trueinterview.io/questions/find-bad-pairs-with-oracle) | Hard | Nov 27, 2025 |
 | **Google** | [Two-Day Log Intersection under Memory Limit](https://trueinterview.io/questions/two-logs-intersection-memory-limit) | Medium | Nov 27, 2025 |
 | **ByteDance** | [Contiguous Subarray with Largest Min + Max](https://trueinterview.io/questions/largest-min-max-subarray) | Easy | Nov 26, 2025 |
-| **Databricks** | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Medium | Nov 26, 2025 |
+| **Databricks / Uber** | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Medium | Nov 26, 2025 |
 | **Goldman Sachs** | [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays) | Easy | Nov 25, 2025 |
 | **Goldman Sachs** | [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty) | Medium | Nov 25, 2025 |
-| **Oracle** | [Palindrome Check with Ignore Set](https://trueinterview.io/questions/palindrome-check-with-ignore-set) | Easy | Nov 24, 2025 |
 | **Snowflake** | [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Medium | Nov 23, 2025 |
 | **Bloomberg** | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Medium | Nov 22, 2025 |
 | **Ramp** | [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions) | Hard | Nov 22, 2025 |
@@ -134,9 +163,9 @@
 | **Pinterest** | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Medium | Nov 18, 2025 |
 | **Two Sigma** | [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree) | Hard | Nov 18, 2025 |
 | **Optiver** | [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching) | Medium | Nov 18, 2025 |
-| **Databricks / Expedia** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Medium | Nov 18, 2025 |
+| **Databricks / Amazon / Expedia** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Medium | Nov 18, 2025 |
 | **Lyft** | [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Medium | Nov 17, 2025 |
-| **Oracle / Bloomberg / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
+| **Oracle / Bloomberg / Google / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
 | **OpenAI** | [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check) | Medium | Nov 17, 2025 |
 | **Waymo** | [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider) | Medium | Nov 14, 2025 |
 | **SoFi** | [GIF Info Pagination by Tag](https://trueinterview.io/questions/gif-info-pagination-by-tag) | Easy | Nov 12, 2025 |
@@ -190,6 +219,7 @@
 | **Goldman Sachs** | [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | Medium | Sep 10, 2025 |
 | **IBM** | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Medium | Sep 09, 2025 |
 | **IBM** | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Medium | Sep 09, 2025 |
+| **Goldman Sachs** | [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Medium | Sep 08, 2025 |
 | **Cisco** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Medium | Sep 06, 2025 |
 | **JPMorgan** | [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater) | Easy | Sep 05, 2025 |
 | **Cisco** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Easy | Sep 04, 2025 |
@@ -204,6 +234,7 @@
 | **Cisco** | [Nested Pattern String Expansion](https://trueinterview.io/questions/nested-pattern-string-expansion) | Hard | Aug 26, 2025 |
 | **DoorDash** | [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart) | Medium | Aug 23, 2025 |
 | **Oracle** | [Minimum Sum After K Halvings (Max-Heap)](https://trueinterview.io/questions/min-sum-after-k-halvings) | Medium | Aug 06, 2025 |
+| **Oracle** | [Log Parser with Multi-Line Follow-up](https://trueinterview.io/questions/log-parser-multiline) | Medium | Aug 06, 2025 |
 | **Ramp** | [Cloud Storage System](https://trueinterview.io/questions/cloud-storage-system) | Medium | Aug 2025 |
 | **Vanta** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Hard | Jul 31, 2025 |
 | **Instacart** | [Pivot Table Profit Analyzer](https://trueinterview.io/questions/pivot-table-profit-analyzer) | Medium | Jul 30, 2025 |
@@ -213,9 +244,7 @@
 | **Cisco** | [Word Search in Rows and Columns](https://trueinterview.io/questions/word-search-rows-columns) | Medium | Jul 17, 2025 |
 | **Cisco** | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | Easy | Jul 17, 2025 |
 | **Shopify** | [Cows and Bulls (Guess the Number)](https://trueinterview.io/questions/cows-and-bulls) | Medium | Jun 19, 2025 |
-| **Oracle / Google / Meta** | [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Medium | Jun 10, 2025 |
 | **Ramp / OpenAI** | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Medium | Jun 2025 |
-| **Pinterest** | [Max Non-overlapping Tasks](https://trueinterview.io/questions/max-non-overlapping-tasks) | Medium | May 30, 2025 |
 | **Pinterest** | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Medium | May 30, 2025 |
 | **Yelp** | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) | Medium | Apr 21, 2025 |
 | **Yelp** | [Top Love Message Receivers](https://trueinterview.io/questions/top-love-message-receivers) | Medium | Apr 20, 2025 |
@@ -226,39 +255,10 @@
 | **Yelp** | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Easy | Apr 20, 2025 |
 | **Robinhood** | [Find Middle Course](https://trueinterview.io/questions/find-middle-course) | Medium | Apr 10, 2025 |
 | **Ramp / Ebay** | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Easy | Apr 2025 |
-| **Meta** | [Word Pattern Match](https://trueinterview.io/questions/word-pattern-match) | Easy | Mar 28, 2025 |
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
 | **Goldman Sachs** | [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Easy | Nov 21, 2024 |
 | **Goldman Sachs / Citadel / Voleon** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Medium | Oct 26, 2024 |
-| **Goldman Sachs** | [Anagram Queries on Word List](https://trueinterview.io/questions/anagram-queries) | Medium | Oct 26, 2024 |
 | **LinkedIn** | [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Hard | Feb 23, 2126 |
-| **—** | [Sum of Two Integers](https://trueinterview.io/questions/sum-of-two-integers) | Medium | — |
-| **—** | [Subtree of Another Tree](https://trueinterview.io/questions/subtree-of-another-tree) | Easy | — |
-| **—** | [Same Tree](https://trueinterview.io/questions/same-tree) | Easy | — |
-| **—** | [Reverse Bits](https://trueinterview.io/questions/reverse-bits) | Easy | — |
-| **—** | [Pacific Atlantic Water Flow](https://trueinterview.io/questions/pacific-atlantic-water-flow) | Medium | — |
-| **—** | [Number of 1 Bits](https://trueinterview.io/questions/number-of-1-bits) | Easy | — |
-| **—** | [House Robber II](https://trueinterview.io/questions/house-robber-ii) | Medium | — |
-| **—** | [Graph Valid Tree](https://trueinterview.io/questions/graph-valid-tree) | Medium | — |
-| **—** | [Counting Bits](https://trueinterview.io/questions/counting-bits) | Easy | — |
-| **—** | [Combination Sum](https://trueinterview.io/questions/combination-sum) | Medium | — |
-| **—** | [Combination Sum IV](https://trueinterview.io/questions/combination-sum-iv) | Medium | — |
-| **—** | [Climbing Stairs](https://trueinterview.io/questions/climbing-stairs) | Easy | — |
-| **—** | [Add and Search Word](https://trueinterview.io/questions/add-and-search-word) | Medium | — |
-| **Voleon** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Hard | — |
-| **Voleon** | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Medium | — |
-| **Voleon** | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Medium | — |
-| **Voleon** | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | Hard | — |
-| **Stackadapt** | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21) | Hard | — |
-| **Rokt** | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Easy | — |
-| **Oscar Health** | [Decode Morse Code to All Possible Original Strings](https://trueinterview.io/questions/93be479d-c2bc-46b0-9f1f-36d31c30bfb6) | Medium | — |
-| **Okx** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Easy | — |
-| **Okx** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Medium | — |
-| **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
-| **Faire** | [Sliding Window Problem](https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782) | Easy | — |
-| **Faire** | [Print Pascal's Triangle (Symmetric Formatting)](https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3) | Medium | — |
-| **Faire** | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) | Hard | — |
-| **Faire** | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) | Hard | — |
-| **Bobyard** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | Medium | — |
+| **Uber** | [Track Customer Website Visits](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) | Medium | — |
 
 <sub>[← Page 2](algorithm-2.md) · Page 3 of 6 · [Page 4 →](algorithm-4.md)</sub>

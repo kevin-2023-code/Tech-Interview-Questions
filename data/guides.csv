@@ -20,6 +20,7 @@ slug,title,companies,topics,url,added_at
 85c68b1b-e2d0-46c9-952e-54b510d2586f,Random Process Walkthrough,Microsoft,,https://trueinterview.io/study/85c68b1b-e2d0-46c9-952e-54b510d2586f,2026-07-18T21:25:06.542515+00:00
 8dcd51f0-320d-4878-b523-41942b60ec1b,Expected Keystrokes to Form Specific Words by Random Typing,Citadel,,https://trueinterview.io/study/8dcd51f0-320d-4878-b523-41942b60ec1b,2026-07-18T21:24:45.920569+00:00
 a2b173f5-b900-44d0-bf9f-f2a83d249e64,Minimum Number of Socks,Goldman Sachs,,https://trueinterview.io/study/a2b173f5-b900-44d0-bf9f-f2a83d249e64,2026-07-18T21:24:46.675742+00:00
+ai-agent-intern-oral-fundamentals,AI Agent Intern Technical Questions,ByteDance,agents; evaluation; networking; operating-systems; troubleshooting,https://trueinterview.io/study/ai-agent-intern-oral-fundamentals,2026-09-16T20:29:36.727428+00:00
 ai-application-conversation,AI Application Conversation,Intuit,ai-collaboration; ai-safety; llm; open-ended; prompt-engineering,https://trueinterview.io/study/ai-application-conversation,2026-07-18T21:25:03.803999+00:00
 ai-conducted-screening,AI-Conducted Screening Interview,Snowflake,ai-screening; ai-tools; deep-dive; new-round; verbal,https://trueinterview.io/study/ai-conducted-screening,2026-07-13T02:41:01.719632+00:00
 ai-oriented-behavioral,AI-Oriented Behavioral,Meta,ai-collaboration; bq; star,https://trueinterview.io/study/ai-oriented-behavioral,2026-07-18T21:25:03.803999+00:00
@@ -50,11 +51,14 @@ applied-intuition-interview-process,Applied Intuition Interview Process & Questi
 ar-panel-talk-deep-dive,AR Panel Talk Project Deep-Dive,Capital One,deep-dive; open-ended; paper-read; presentation; verbal,https://trueinterview.io/study/ar-panel-talk-deep-dive,2026-07-18T21:25:03.254642+00:00
 arista-interview-process,Arista Networks Interview Process & Questions,Arista,,https://trueinterview.io/study/arista-interview-process,2026-09-04T14:45:48.380701+00:00
 as-ml-breadth-orals,ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers,Amazon,math-reasoning; ml-knowledge; probability,https://trueinterview.io/study/as-ml-breadth-orals,2026-07-18T21:25:02.689409+00:00
+asm-phone-screen-deep-dive-bq,Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ,Amazon,deep-dive,https://trueinterview.io/study/asm-phone-screen-deep-dive-bq,2026-09-16T20:29:36.727428+00:00
 atlassian-interview-process,Atlassian Interview Process & Questions,Atlassian,,https://trueinterview.io/study/atlassian-interview-process,2026-07-24T14:41:44.432528+00:00
 atlassian-machine-learning-engineer-interview-process,Atlassian Machine Learning Engineer Interview Process,Atlassian,,https://trueinterview.io/study/atlassian-machine-learning-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 atlassian-software-engineer-interview-process,Atlassian Software Engineer Interview Process,Atlassian,,https://trueinterview.io/study/atlassian-software-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 atlassian-values-and-management-rounds,Atlassian Values and Management Rounds,Atlassian,ambiguity; culture-fit; leadership; mentorship; values,https://trueinterview.io/study/atlassian-values-and-management-rounds,2026-07-18T21:25:02.689409+00:00
 b1ebb833-1431-4992-9f21-a90c9d413d8d,Sample Size for Sharpe Ratio Significance Testing,Goldman Sachs,,https://trueinterview.io/study/b1ebb833-1431-4992-9f21-a90c9d413d8d,2026-07-18T21:25:06.129144+00:00
+backend-fundamentals-oral-cluster,"CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round",ByteDance,concurrency; database; distributed-systems; verbal,https://trueinterview.io/study/backend-fundamentals-oral-cluster,2026-09-16T20:29:38.036078+00:00
+bar-raiser-architecture-and-values,"Bar Raiser: Architecture, Influence, and Values",Uber,culture-fit; leadership,https://trueinterview.io/study/bar-raiser-architecture-and-values,2026-09-16T20:29:38.036078+00:00
 battery-cell-quality-statistical-case,Battery Cell Quality Statistical Case,Tesla,experiment-design; probability,https://trueinterview.io/study/battery-cell-quality-statistical-case,2026-07-18T21:25:04.80775+00:00
 beat-the-odds-probability,Beat the Odds — Probability Test,Optiver,brainteaser; expected-value; math-reasoning; mental-math; probability,https://trueinterview.io/study/beat-the-odds-probability,2026-07-18T21:25:04.346976+00:00
 behavioral-and-project-deep-dive,Behavioral and Project Deep-Dive,Perplexity,collaboration; project-deep-dive; why-company,https://trueinterview.io/study/behavioral-and-project-deep-dive,2026-07-13T02:41:01.719632+00:00
@@ -96,6 +100,7 @@ coinbase-software-engineer-interview-process,Coinbase Software Engineer Intervie
 competency-and-resume-interview,Competency and Resume Interview,IBM,bq; deep-dive; star; why-company,https://trueinterview.io/study/competency-and-resume-interview,2026-07-18T21:25:03.803999+00:00
 confluent-interview-process,Confluent Interview Process & Questions,Confluent,,https://trueinterview.io/study/confluent-interview-process,2026-08-22T03:02:59.028389+00:00
 core-values-bq-round,Core Values Behavioral Round,Airbnb,bq; culture-fit; star; values; why-company,https://trueinterview.io/study/core-values-bq-round,2026-07-18T21:25:01.975685+00:00
+cpu-architecture-simulator-deep-dive,CPU Architecture and Simulator Design Deep Dive,Google,cpp; cpu-architecture; cs-fundamentals; technical-deep-dive,https://trueinterview.io/study/cpu-architecture-simulator-deep-dive,2026-09-16T20:29:38.036078+00:00
 credo-behavioral-and-customer-engagement,Credo Behavioral and Customer Engagement,Scale AI,,https://trueinterview.io/study/credo-behavioral-and-customer-engagement,2026-07-18T21:25:04.80775+00:00
 cross-functional-pm-bq,Cross-Functional & PM Behavioral,Reddit,collaboration; conflict; values,https://trueinterview.io/study/cross-functional-pm-bq,2026-07-13T02:41:01.719632+00:00
 culture-behavioral-interview-questions,Culture & Behavioral Interview Questions,Anthropic,ai-safety; critical-thinking; culture; values,https://trueinterview.io/study/culture-behavioral-interview-questions,2026-07-13T02:41:00.329978+00:00
@@ -103,12 +108,14 @@ culture-fit-motivation-and-learning-habits,"Culture Fit, Motivation, and Learnin
 cv-sensing-ml-fundamentals-oral,CV / Sensing ML Fundamentals Oral,Tesla,cnn; computer-vision; ml-knowledge,https://trueinterview.io/study/cv-sensing-ml-fundamentals-oral,2026-07-18T21:25:04.80775+00:00
 d29e18c6-5bb1-4eb6-844c-87669be7d92f,Centering a Div in a Web Page: Two Methods Explained,ByteDance,,https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f,2026-07-18T21:25:05.760924+00:00
 d52244dd-4a5c-4f29-9ded-8417ebddeb4f,Comparative Metrics Analysis for Facebook Dating Advantages,Meta,,https://trueinterview.io/study/d52244dd-4a5c-4f29-9ded-8417ebddeb4f,2026-07-18T21:25:06.542515+00:00
+data-engineering-experience-screen,Data Engineering Experience Screen,ByteDance,database,https://trueinterview.io/study/data-engineering-experience-screen,2026-09-16T20:29:38.036078+00:00
 databricks-infrastructure-engineer-interview-process,Databricks Infrastructure Engineer Interview Process,Databricks,,https://trueinterview.io/study/databricks-infrastructure-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 databricks-interview-process,Databricks Interview Process & Questions,Databricks,,https://trueinterview.io/study/databricks-interview-process,2026-07-24T14:41:44.432528+00:00
 databricks-software-engineer-interview-process,Databricks Software Engineer Interview Process,Databricks,,https://trueinterview.io/study/databricks-software-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 datadog-interview-process,Datadog Interview Process & Questions,Datadog,,https://trueinterview.io/study/datadog-interview-process,2026-08-22T03:02:59.028389+00:00
 deep-dive-url-request-lifecycle,Deep Dive — What Happens When You Access a URL,Figma,cs-fundamentals; http; networking; open-ended,https://trueinterview.io/study/deep-dive-url-request-lifecycle,2026-08-21T13:58:53.143278+00:00
 deep-learning-fundamentals,"Deep Learning Fundamentals: Optimization, Drift, Calibration",NVIDIA,calibration; distribution; ml-knowledge; optimization,https://trueinterview.io/study/deep-learning-fundamentals,2026-07-18T21:25:04.346976+00:00
+deepmind-rs-paper-presentation-defense,Research Paper Presentation and Defense (DeepMind RS),Google,critique; deep-dive; presentation; vlm,https://trueinterview.io/study/deepmind-rs-paper-presentation-defense,2026-09-16T20:29:38.036078+00:00
 devsecops-kubernetes-cicd-screen,DevSecOps Kubernetes / CI-CD Technical Screen,IBM,cs-fundamentals; docker; networking; sre; troubleshooting,https://trueinterview.io/study/devsecops-kubernetes-cicd-screen,2026-07-18T21:25:03.803999+00:00
 doordash-interview-process,DoorDash Interview Process & Questions,DoorDash,,https://trueinterview.io/study/doordash-interview-process,2026-07-24T14:41:44.432528+00:00
 doordash-machine-learning-engineer-interview-process,DoorDash Machine Learning Engineer Interview Process,DoorDash,,https://trueinterview.io/study/doordash-machine-learning-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
@@ -203,6 +210,7 @@ mle-project-deep-dive,MLE Project / Paper Deep Dive,Roblox,deep-dive; ml-knowled
 model-risk-quant-orals,Model Risk: VaR & Monte Carlo Orals,Capital One,cs-fundamentals; math-reasoning; open-ended; probability; verbal,https://trueinterview.io/study/model-risk-quant-orals,2026-07-18T21:25:03.254642+00:00
 mongodb-interview-process,MongoDB Interview Process & Questions,Mongodb,,https://trueinterview.io/study/mongodb-interview-process,2026-09-04T14:45:48.380701+00:00
 most-challenging-project-why-xai,Most Challenging Project + Why xAI,xAI,fit; project-deep-dive,https://trueinterview.io/study/most-challenging-project-why-xai,2026-07-13T02:41:01.719632+00:00
+motivation-ambiguity-collaboration-screen,"Motivation, Ambiguity, and Collaboration Screen",ByteDance,ambiguity; bq; fit,https://trueinterview.io/study/motivation-ambiguity-collaboration-screen,2026-09-16T20:29:38.036078+00:00
 mouse-and-cheese-maze-rewards,Mouse and Cheese / Maze Rewards,Meta,backtracking; dfs; dp; grid,https://trueinterview.io/study/mouse-and-cheese-maze-rewards,2026-07-18T21:24:38.925595+00:00
 netflix-culture-and-domain-manager-rounds,Netflix Culture / Domain Manager Rounds,Netflix,collaboration; culture; culture-fit; fit; impact; leadership,https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds,2026-07-13T02:41:01.719632+00:00
 netflix-infrastructure-engineer-interview-process,Netflix Infrastructure Engineer Interview Process,Netflix,,https://trueinterview.io/study/netflix-infrastructure-engineer-interview-process,2026-07-31T04:36:40.593833+00:00

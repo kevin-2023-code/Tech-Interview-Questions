@@ -51,7 +51,7 @@
 | **Meta** | [DE AI-Native Full-Stack Round](https://trueinterview.io/questions/de-ai-native-full-stack-round) | Medium | Apr 17, 2026 |
 | **Databricks** | [Gradient Descent for Simple Linear Regression](https://trueinterview.io/questions/274c024f-d789-4f9c-99cd-ad66381cfc31) | Medium | Apr 17, 2026 |
 | **Perplexity** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | Medium | Apr 12, 2026 |
-| **Apple / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
+| **Apple / Amazon / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **xAI** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Medium | Apr 04, 2026 |
 | **xAI** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | Hard | Apr 04, 2026 |
 | **Meta** | [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting) | Medium | Apr 01, 2026 |
@@ -68,7 +68,7 @@
 | **Coinbase** | [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component) | Medium | Feb 23, 2026 |
 | **SoFi** | [React Loan Estimator](https://trueinterview.io/questions/react-loan-estimator) | Easy | Feb 14, 2026 |
 | **NVIDIA** | [C++ Project Debugging with AI Tools](https://trueinterview.io/questions/cpp-debugging-with-ai-tools) | Hard | Feb 12, 2026 |
-| **Meta** | [AI Project Round (Take-Home-Style, NEW)](https://trueinterview.io/questions/ai-project-take-home-style-round) | Hard | Feb 03, 2026 |
+| **Meta** | [AI Project Round (Take-Home-Style, NEW)](https://trueinterview.io/questions/ai-project-take-home-style-round) | Medium | Feb 03, 2026 |
 | **xAI** | [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home) | Hard | Jan 28, 2026 |
 | **Optiver** | [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling) | Hard | Jan 22, 2026 |
 | **Tesla** | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | Hard | Jan 15, 2026 |
@@ -78,7 +78,7 @@
 | **Tesla** | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward) | Hard | Nov 22, 2025 |
 | **Perplexity** | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | Medium | Nov 22, 2025 |
 | **SoFi** | [Kanban Board Task Actions](https://trueinterview.io/questions/kanban-board-task-actions) | Medium | Nov 14, 2025 |
-| **OpenAI / Uber** | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | Hard | Oct 19, 2025 |
+| **OpenAI / ByteDance / Uber** | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | Hard | Oct 19, 2025 |
 | **Stripe** | [Tabular Data Neural Network](https://trueinterview.io/questions/tabular-data-neural-network) | Hard | Oct 07, 2025 |
 | **Tesla** | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | Medium | Aug 23, 2025 |
 | **Robinhood** | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | Medium | Aug 2025 |
@@ -113,7 +113,7 @@
 | **Ramp** | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | Medium | — |
 | **OpenAI** | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | Hard | — |
 | **OpenAI** | [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | Hard | — |
-| **Stripe** | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | Medium | — |
+| **Stripe** | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | Hard | — |
 | **Stripe** | [Create a UI Component for Passport Validation](https://trueinterview.io/questions/6906bc8c-d026-4897-935f-ad4842034fa0) | Medium | — |
 | **Stripe** | [CSV Parsing Drops Quotes](https://trueinterview.io/questions/3edbdc05-8e28-41b5-b174-305e4e4e96bc) | Medium | — |
 | **Stripe** | [Exception handling in debugging](https://trueinterview.io/questions/2db842ae-625f-4098-8075-aab97db253a8) | Easy | — |
@@ -130,7 +130,7 @@
 | **Apple** | [Python Debugging — Fix a Loop Condition Bug](https://trueinterview.io/questions/e9adef64-7ceb-4294-bae4-8d77a203ee81) | Easy | — |
 | **Anthropic** | [Python Data Analysis on a Provided Dataset (Capacity Management Context)](https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719) | Hard | — |
 | **Anthropic** | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | Hard | — |
-| **Anthropic** | [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | Medium | — |
+| **Anthropic** | [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | Easy | — |
 | **Anthropic** | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | Medium | — |
 | **Anthropic** | [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | Medium | — |
 | **Stripe** | [Repo Debugging: Fix Failing Tests in a Failsafe Project](https://trueinterview.io/questions/46333f06-4228-4ad2-9088-75edef798537) | Medium | — |

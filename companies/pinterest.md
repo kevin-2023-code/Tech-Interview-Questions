@@ -2,7 +2,7 @@
 
 # Pinterest interview & OA questions
 
-**61 questions** reported at Pinterest · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinterest).
+**60 questions** reported at Pinterest · **6 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/pinterest).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -62,7 +62,6 @@
 | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Algorithm | Medium | Nov 18, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
 | [Subarray Score ≤ K (Sliding-Window)](https://trueinterview.io/questions/subarray-score-at-most-k) | Algorithm | Medium | Nov 07, 2025 |
-| [Max Non-overlapping Tasks](https://trueinterview.io/questions/max-non-overlapping-tasks) | Algorithm | Medium | May 30, 2025 |
 | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Algorithm | Medium | May 30, 2025 |
 | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Low-Level Design | Medium | May 30, 2025 |
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Low-Level Design | Medium | — |

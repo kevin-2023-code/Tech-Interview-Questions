@@ -2,7 +2,7 @@
 
 # Bloomberg interview & OA questions
 
-**56 questions** reported at Bloomberg · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bloomberg).
+**55 questions** reported at Bloomberg · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/bloomberg).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Jul 22, 2026 |
+| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Hard | Jul 22, 2026 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Jul 22, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
@@ -29,12 +29,14 @@
 | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Low-Level Design | Medium | Jun 16, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Algorithm | Medium | Jun 04, 2026 |
+| [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
+| [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Algorithm | Medium | Mar 03, 2026 |
 | [Subway / Network Connectivity](https://trueinterview.io/questions/subway-network-connectivity) | Algorithm | Hard | Feb 25, 2026 |
 | [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges) | Algorithm | Medium | Feb 25, 2026 |
@@ -44,15 +46,13 @@
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Feb 16, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
-| [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Hard | Jan 31, 2026 |
+| [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
 | [Top-K Frequent Tickers (Stock Leaderboard)](https://trueinterview.io/questions/top-k-frequent-stock-tickers) | Low-Level Design | Hard | Jan 26, 2026 |
 | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Algorithm | Hard | Jan 22, 2026 |
 | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Algorithm | Hard | Jan 22, 2026 |
 | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Algorithm | Medium | Jan 21, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Algorithm | Easy | Jan 13, 2026 |
-| [Wordle Character Compare](https://trueinterview.io/questions/wordle-character-compare) | Algorithm | Medium | Jan 04, 2026 |
-| [Todo List OOP Design](https://trueinterview.io/questions/todo-list-oop) | Low-Level Design | Medium | Jan 04, 2026 |
 | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Algorithm | Medium | Jan 01, 2026 |
 | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Low-Level Design | Medium | Dec 22, 2025 |
 | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Low-Level Design | Hard | Nov 27, 2025 |
@@ -65,7 +65,6 @@
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | — |
-| [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Algorithm | Medium | — |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
 | [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Algorithm | Easy | — |
 | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Algorithm | Medium | — |

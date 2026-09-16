@@ -2,7 +2,7 @@
 
 # Applied Intuition interview & OA questions
 
-**16 questions** reported at Applied Intuition · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition).
+**17 questions** reported at Applied Intuition · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -27,6 +27,7 @@
 | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | — |
 | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Algorithm | Hard | — |
 | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | System Design | Medium | — |
+| [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Algorithm | Easy | — |
 | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Algorithm | Medium | — |
 | [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Algorithm | Hard | — |
 | [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1) | Algorithm | Hard | — |

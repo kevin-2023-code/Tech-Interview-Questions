@@ -2,7 +2,7 @@
 
 # Waymo interview & OA questions
 
-**48 questions** reported at Waymo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/waymo).
+**47 questions** reported at Waymo · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/waymo).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -23,7 +23,6 @@
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | Jul 06, 2026 |
 | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | Jul 02, 2026 |
-| [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Low-Level Design | Medium | Jun 13, 2026 |
 | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | Jun 04, 2026 |
 | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | SQL | Hard | May 23, 2026 |
 | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | SQL | Medium | May 23, 2026 |

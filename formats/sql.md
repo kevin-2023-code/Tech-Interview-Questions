@@ -30,7 +30,7 @@
 | **LinkedIn** | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | Medium | Jul 22, 2026 |
 | **Google** | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | Medium | Jul 22, 2026 |
 | **Google** | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | Medium | Jul 22, 2026 |
-| **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Medium | Jul 22, 2026 |
+| **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Hard | Jul 22, 2026 |
 | **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Medium | Jul 22, 2026 |
 | **Amazon** | [User Shopping Sprees](https://trueinterview.io/questions/user-shopping-sprees) | Medium | Jul 22, 2026 |
 | **Amazon** | [Server Utilization Time](https://trueinterview.io/questions/server-utilization-time) | Medium | Jul 22, 2026 |
@@ -83,7 +83,7 @@
 | **Meta** | [SQL Floor Function Usage for Numeric Values](https://trueinterview.io/questions/4154d677-1a2c-4e36-8a65-a9568c1436db) | Easy | — |
 | **Meta** | [Group Video Call Data Analysis Queries](https://trueinterview.io/questions/3f8ab151-1633-4675-a957-6dfb74b18779) | Medium | — |
 | **Meta** | [Find Total Sales by Unique Customers](https://trueinterview.io/questions/237e2cdf-214c-4455-9486-bcc9c85df7a9) | Easy | — |
-| **Intuit** | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | Medium | — |
+| **Intuit** | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | Easy | — |
 | **DoorDash** | [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | Medium | — |
 | **DoorDash** | [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | Easy | — |
 | **ByteDance** | [SQL Query Session](https://trueinterview.io/questions/b0150c5e-8dd9-4acb-834f-e778ed8bff5f) | Medium | — |

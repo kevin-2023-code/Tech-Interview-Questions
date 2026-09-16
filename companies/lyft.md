@@ -2,7 +2,7 @@
 
 # Lyft interview & OA questions
 
-**27 questions** reported at Lyft · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/lyft).
+**28 questions** reported at Lyft · **3 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/lyft).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,6 +32,7 @@
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis) | Algorithm | Medium | Mar 21, 2026 |
 | [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means) | Algorithm | Medium | Feb 13, 2026 |
+| [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Low-Level Design | Medium | Feb 04, 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |

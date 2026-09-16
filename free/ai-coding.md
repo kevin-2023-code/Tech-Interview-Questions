@@ -9,7 +9,7 @@
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / SoFi** | Easy | Jun 2025 |
-| [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / PayPal / Pinduoduo / Shopify** | Medium | Apr 09, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | Medium | Apr 09, 2026 |
 | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | **Stripe** | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | **Meta** | Medium | May 30, 2026 |
 | [Payment Invoice Reconciliation](https://trueinterview.io/questions/payment-invoice-reconciliation) | **Stripe** | Medium | May 12, 2026 |

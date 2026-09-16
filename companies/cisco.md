@@ -2,7 +2,7 @@
 
 # Cisco interview & OA questions
 
-**19 questions** reported at Cisco · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/cisco).
+**18 questions** reported at Cisco · **1 interview guides**. Every title opens the full problem, with a runnable workspace and a server-judged verdict, on [TrueInterview](https://trueinterview.io/problems/company/cisco).
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -35,5 +35,4 @@
 | [Process Queries to Find Critical Nodes](https://trueinterview.io/questions/3be3ddff-6db5-49c0-916c-299316bc4912) | Algorithm | Hard | — |
 | [Minimum Steps to Achieve Target State](https://trueinterview.io/questions/06061640-c929-4879-9ba9-f3b90aac35e1) | Algorithm | Medium | — |
 | [Find Minimum Cost to Shift Machines](https://trueinterview.io/questions/71de7e3c-61cc-4603-a234-49b9aef8e4ad) | Algorithm | Hard | — |
-| [Longest Odd Length Palindrome](https://trueinterview.io/questions/baa9ed7c-a7d9-4087-b9db-9fe48d593e8d) | Algorithm | Medium | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |

@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**334 round-by-round guides** across **82 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
+**342 round-by-round guides** across **82 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,18 +10,18 @@
 
 | Interview round / guide | Company | Topics |
 | :-- | :-- | :-- |
+| [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | **ByteDance** | agents, evaluation, networking, operating-systems, troubleshooting |
+| [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/study/asm-phone-screen-deep-dive-bq) | **Amazon** | deep-dive |
+| [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/study/bar-raiser-architecture-and-values) | **Uber** | culture-fit, leadership |
+| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | **ByteDance** | concurrency, database, distributed-systems, verbal |
+| [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/study/cpu-architecture-simulator-deep-dive) | **Google** | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
+| [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | **ByteDance** | database |
+| [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | **ByteDance** | ambiguity, bq, fit |
+| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | **Google** | critique, deep-dive, presentation, vlm |
 | [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/study/72fc1b26-d7bc-4260-a442-36f08b50385c) | **Brex** | — |
 | [Amplitude Interview Process & Questions](https://trueinterview.io/study/amplitude-interview-process) | **Amplitude** | — |
 | [Arista Networks Interview Process & Questions](https://trueinterview.io/study/arista-interview-process) | **Arista** | — |
 | [Chicago Trading Company Interview Process & Questions](https://trueinterview.io/study/chicago-trading-interview-process) | **Chicago Trading** | — |
-| [Circle Interview Process & Questions](https://trueinterview.io/study/circle-interview-process) | **Circle** | — |
-| [GEICO Interview Process & Questions](https://trueinterview.io/study/geico-interview-process) | **Geico** | — |
-| [Lead Bank Interview Process & Questions](https://trueinterview.io/study/lead-bank-interview-process) | **Lead Bank** | — |
-| [Luma AI Interview Process & Questions](https://trueinterview.io/study/luma-ai-interview-process) | **Luma AI** | — |
-| [MongoDB Interview Process & Questions](https://trueinterview.io/study/mongodb-interview-process) | **Mongodb** | — |
-| [Palantir Technologies Interview Process & Questions](https://trueinterview.io/study/palantir-interview-process) | **Palantir** | — |
-| [Pinduoduo Interview Process & Questions](https://trueinterview.io/study/pinduoduo-interview-process) | **Pinduoduo** | — |
-| [Project Deep Dive & Behavioral](https://trueinterview.io/study/project-deep-dive-and-bq-2) | **Pinduoduo** | deep-dive, star |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,7 +29,7 @@
 
 ### Amazon
 
-<sub>16 guides · [questions at Amazon](../companies/amazon.md)</sub>
+<sub>17 guides · [questions at Amazon](../companies/amazon.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -39,6 +39,7 @@
 | [Amazon Machine Learning Engineer Interview Process](https://trueinterview.io/study/amazon-machine-learning-engineer-interview-process) | — |
 | [Amazon Research Scientist Interview Process](https://trueinterview.io/study/amazon-research-scientist-interview-process) | — |
 | [Amazon Software Engineer Interview Process](https://trueinterview.io/study/amazon-software-engineer-interview-process) | — |
+| [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/study/asm-phone-screen-deep-dive-bq) | deep-dive |
 | [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/study/bq-genai-usage) | ai-tools |
 | [Leadership Principles Standard Set](https://trueinterview.io/study/bq-leadership-principles-standard-set) | deep-dive |
 | [LoRA and PEFT Variants](https://trueinterview.io/study/lora-and-peft-variants) | ml-knowledge, transformer |
@@ -49,6 +50,29 @@
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/study/science-application-ambiguous-problem) | deep-dive, ml-knowledge |
 | [Transformer / Attention Deep-Dive](https://trueinterview.io/study/transformer-attention-deep-dive) | ml-knowledge, pytorch, transformer |
 | [Work Simulation & Work Style Assessment](https://trueinterview.io/study/work-style-simulation-assessment) | work-style |
+
+### ByteDance
+
+<sub>16 guides · [questions at ByteDance](../companies/bytedance.md)</sub>
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | agents, evaluation, networking, operating-systems, troubleshooting |
+| [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
+| [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
+| [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
+| [ByteDance Machine Learning Engineer Interview Process](https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process) | — |
+| [ByteDance Software Engineer Interview Process](https://trueinterview.io/study/bytedance-software-engineer-interview-process) | — |
+| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | concurrency, database, distributed-systems, verbal |
+| [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f) | — |
+| [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | database |
+| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
+| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
+| [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/study/7407f837-dc41-46fe-8a55-3168b8b48b85) | — |
+| [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | ambiguity, bq, fit |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal |
+| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
+| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
 
 ### Meta
 
@@ -112,25 +136,6 @@
 | [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/study/qr-technical-brainteasers) | brainteaser, fermi-estimation, math-reasoning, probability |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/study/trading-betting-game) | expected-value, market-making, mental-math, probability, trading |
 | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/study/zap-n-reaction-games) | brainteaser, reaction-speed |
-
-### ByteDance
-
-<sub>12 guides · [questions at ByteDance](../companies/bytedance.md)</sub>
-
-| Interview round / guide | Topics |
-| :-- | :-- |
-| [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
-| [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
-| [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
-| [ByteDance Machine Learning Engineer Interview Process](https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process) | — |
-| [ByteDance Software Engineer Interview Process](https://trueinterview.io/study/bytedance-software-engineer-interview-process) | — |
-| [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f) | — |
-| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
-| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
-| [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/study/7407f837-dc41-46fe-8a55-3168b8b48b85) | — |
-| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal |
-| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
-| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
 
 ### Citadel
 
@@ -203,6 +208,23 @@
 | [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | domain-knowledge, math-reasoning, probability, verbal |
 | [Sample Size for Sharpe Ratio Significance Testing](https://trueinterview.io/study/b1ebb833-1431-4992-9f21-a90c9d413d8d) | — |
 
+### Google
+
+<sub>10 guides · [questions at Google](../companies/google.md)</sub>
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Behavioral Round (Googliness Themes)](https://trueinterview.io/study/bq-round-google-style) | culture-fit |
+| [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/study/cpu-architecture-simulator-deep-dive) | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
+| [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/study/google-hiring-assessment-gha) | culture-fit |
+| [Google Interview Process & Questions](https://trueinterview.io/study/google-interview-process) | — |
+| [Google Machine Learning Engineer Interview Process](https://trueinterview.io/study/google-machine-learning-engineer-interview-process) | — |
+| [Google Software Engineer Interview Process](https://trueinterview.io/study/google-software-engineer-interview-process) | — |
+| [Heap Problem](https://trueinterview.io/study/f1466cd0-7903-4d56-af58-59263940b493) | — |
+| [Importance of Personality Traits in Workplace Success](https://trueinterview.io/study/1ef211c1-b8ca-4b34-b1c1-2cfdaea06646) | — |
+| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
+| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | critique, deep-dive, presentation, vlm |
+
 ### Anthropic
 
 <sub>9 guides · [questions at Anthropic](../companies/anthropic.md)</sub>
@@ -234,21 +256,6 @@
 | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | ab-testing, ads, debugging, evaluation, llm |
 | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/study/os-fundamentals-and-concurrency) | concurrency, operating-systems, race-condition, threading |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/study/systemverilog-dv-constraint-and-architecture-loop) | concurrency, cs-fundamentals, probability, testing |
-
-### Google
-
-<sub>8 guides · [questions at Google](../companies/google.md)</sub>
-
-| Interview round / guide | Topics |
-| :-- | :-- |
-| [Behavioral Round (Googliness Themes)](https://trueinterview.io/study/bq-round-google-style) | culture-fit |
-| [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/study/google-hiring-assessment-gha) | culture-fit |
-| [Google Interview Process & Questions](https://trueinterview.io/study/google-interview-process) | — |
-| [Google Machine Learning Engineer Interview Process](https://trueinterview.io/study/google-machine-learning-engineer-interview-process) | — |
-| [Google Software Engineer Interview Process](https://trueinterview.io/study/google-software-engineer-interview-process) | — |
-| [Heap Problem](https://trueinterview.io/study/f1466cd0-7903-4d56-af58-59263940b493) | — |
-| [Importance of Personality Traits in Workplace Success](https://trueinterview.io/study/1ef211c1-b8ca-4b34-b1c1-2cfdaea06646) | — |
-| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
 
 ### NVIDIA
 
@@ -408,6 +415,19 @@
 | [Two Sigma Quantitative Finance Interview Process](https://trueinterview.io/study/twosigma-quantitative-finance-interview-process) | — |
 | [Two Sigma Research Scientist Interview Process](https://trueinterview.io/study/twosigma-research-scientist-interview-process) | — |
 
+### Uber
+
+<sub>6 guides · [questions at Uber](../companies/uber.md)</sub>
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/study/bar-raiser-architecture-and-values) | culture-fit, leadership |
+| [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | deep-dive, presentation |
+| [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | deep-dive, math-reasoning, ml-knowledge, probability |
+| [Uber Interview Process & Questions](https://trueinterview.io/study/uber-interview-process) | — |
+| [Uber Machine Learning Engineer Interview Process](https://trueinterview.io/study/uber-machine-learning-engineer-interview-process) | — |
+| [Uber Software Engineer Interview Process](https://trueinterview.io/study/uber-software-engineer-interview-process) | — |
+
 ### xAI
 
 <sub>6 guides · [questions at xAI](../companies/xai.md)</sub>
@@ -468,18 +488,6 @@
 | [Tesla Interview Process & Questions](https://trueinterview.io/study/tesla-interview-process) | — |
 | [Tesla Machine Learning Engineer Interview Process](https://trueinterview.io/study/tesla-machine-learning-engineer-interview-process) | — |
 | [Tesla Software Engineer Interview Process](https://trueinterview.io/study/tesla-software-engineer-interview-process) | — |
-
-### Uber
-
-<sub>5 guides · [questions at Uber](../companies/uber.md)</sub>
-
-| Interview round / guide | Topics |
-| :-- | :-- |
-| [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | deep-dive, presentation |
-| [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | deep-dive, math-reasoning, ml-knowledge, probability |
-| [Uber Interview Process & Questions](https://trueinterview.io/study/uber-interview-process) | — |
-| [Uber Machine Learning Engineer Interview Process](https://trueinterview.io/study/uber-machine-learning-engineer-interview-process) | — |
-| [Uber Software Engineer Interview Process](https://trueinterview.io/study/uber-software-engineer-interview-process) | — |
 
 ### Atlassian
 

@@ -56,7 +56,7 @@
 | [Virtual Credit Card Validator (Case Study)](https://trueinterview.io/questions/virtual-credit-card-validator) | Low-Level Design | Medium | Jan 19, 2026 |
 | [Sawtooth (Alternating Parity) Subarray Count](https://trueinterview.io/questions/sawtooth-subarray-count) | Algorithm | Medium | Jan 19, 2026 |
 | [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling) | Algorithm | Medium | Jan 19, 2026 |
-| [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Algorithm | Hard | Jan 19, 2026 |
+| [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Algorithm | Medium | Jan 19, 2026 |
 | [Matrix Commands: Reverse / Swap / Rotate](https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate) | Algorithm | Medium | Jan 19, 2026 |
 | [Train Schedule Nearest Departure](https://trueinterview.io/questions/train-schedule-nearest-departure) | Algorithm | Medium | Jan 18, 2026 |
 | [Online Banking Application](https://trueinterview.io/questions/online-banking-application) | System Design | Hard | Jan 17, 2026 |
