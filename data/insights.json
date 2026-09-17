@@ -1,7 +1,7 @@
 {
   "accessTiers": {
     "free": 166,
-    "insider": 2069,
+    "insider": 2073,
     "pro": 76
   },
   "companies": [
@@ -13,7 +13,7 @@
       "inWindow": 50,
       "lastSighting": "2026-09-10",
       "name": "Amazon",
-      "questions": 228,
+      "questions": 231,
       "slug": "amazon",
       "topFormat": "Algorithm",
       "topTopic": "hashing"
@@ -45,6 +45,19 @@
       "topTopic": "arrays"
     },
     {
+      "dated": 84,
+      "free": 21,
+      "guides": 10,
+      "inLastYear": 84,
+      "inWindow": 16,
+      "lastSighting": "2026-08-13",
+      "name": "Google",
+      "questions": 141,
+      "slug": "google",
+      "topFormat": "Algorithm",
+      "topTopic": "graphs"
+    },
+    {
       "dated": 100,
       "free": 24,
       "guides": 6,
@@ -54,19 +67,6 @@
       "name": "Uber",
       "questions": 141,
       "slug": "uber",
-      "topFormat": "Algorithm",
-      "topTopic": "graphs"
-    },
-    {
-      "dated": 84,
-      "free": 21,
-      "guides": 10,
-      "inLastYear": 84,
-      "inWindow": 16,
-      "lastSighting": "2026-08-13",
-      "name": "Google",
-      "questions": 140,
-      "slug": "google",
       "topFormat": "Algorithm",
       "topTopic": "graphs"
     },
@@ -1294,22 +1294,22 @@
     }
   ],
   "difficulty": {
-    "easy": 331,
-    "hard": 476,
-    "medium": 1504
+    "easy": 332,
+    "hard": 478,
+    "medium": 1505
   },
   "earliestSighting": "2024-05-28",
   "formats": [
     {
-      "easy": 253,
+      "easy": 254,
       "format": "algorithm",
       "free": 106,
-      "graded": 1442,
-      "hard": 259,
+      "graded": 1446,
+      "hard": 261,
       "inWindow": 95,
       "label": "Algorithm",
-      "medium": 930,
-      "questions": 1442
+      "medium": 931,
+      "questions": 1446
     },
     {
       "easy": 20,
@@ -1995,11 +1995,11 @@
   ],
   "rounds": [
     {
-      "questions": 416,
+      "questions": 417,
       "round": "oa"
     },
     {
-      "questions": 1167,
+      "questions": 1170,
       "round": "phone-screen"
     },
     {
@@ -2013,16 +2013,16 @@
   ],
   "topics": [
     {
-      "easy": 50,
-      "graded": 188,
+      "easy": 51,
+      "graded": 189,
       "hard": 18,
       "inWindow": 13,
       "medium": 120,
-      "questions": 188,
+      "questions": 189,
       "topCompanies": [
         {
           "name": "Amazon",
-          "questions": 20,
+          "questions": 21,
           "slug": "amazon"
         },
         {
@@ -2086,21 +2086,21 @@
     },
     {
       "easy": 11,
-      "graded": 148,
+      "graded": 149,
       "hard": 34,
       "inWindow": 10,
-      "medium": 103,
-      "questions": 148,
+      "medium": 104,
+      "questions": 149,
       "topCompanies": [
+        {
+          "name": "Google",
+          "questions": 16,
+          "slug": "google"
+        },
         {
           "name": "Amazon",
           "questions": 15,
           "slug": "amazon"
-        },
-        {
-          "name": "Google",
-          "questions": 15,
-          "slug": "google"
         },
         {
           "name": "Uber",
@@ -2158,11 +2158,11 @@
     },
     {
       "easy": 9,
-      "graded": 99,
-      "hard": 17,
+      "graded": 100,
+      "hard": 18,
       "inWindow": 8,
       "medium": 73,
-      "questions": 99,
+      "questions": 100,
       "topCompanies": [
         {
           "name": "Google",
@@ -2171,7 +2171,7 @@
         },
         {
           "name": "Amazon",
-          "questions": 8,
+          "questions": 9,
           "slug": "amazon"
         },
         {
@@ -2482,11 +2482,11 @@
     },
     {
       "easy": 7,
-      "graded": 48,
-      "hard": 6,
+      "graded": 49,
+      "hard": 7,
       "inWindow": 4,
       "medium": 35,
-      "questions": 48,
+      "questions": 49,
       "topCompanies": [
         {
           "name": "ByteDance",
@@ -2495,7 +2495,7 @@
         },
         {
           "name": "Amazon",
-          "questions": 5,
+          "questions": 6,
           "slug": "amazon"
         },
         {
@@ -2774,14 +2774,14 @@
     "dated": 1332,
     "free": 166,
     "futureDated": 1,
-    "gradedDifficulty": 2311,
+    "gradedDifficulty": 2315,
     "guides": 342,
     "inLastYear": 1270,
     "inWindow": 184,
-    "labelledTopic": 1050,
-    "namingARound": 2311,
-    "questions": 2311,
-    "undated": 979
+    "labelledTopic": 1054,
+    "namingARound": 2315,
+    "questions": 2315,
+    "undated": 983
   },
   "windowDays": 90
 }

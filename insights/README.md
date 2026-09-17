@@ -2,11 +2,11 @@
 
 # What companies are actually asking
 
-**2,311 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 10, 2026. Windows below are measured against **Sep 17, 2026**, and everything on this page is recomputed hourly.
+**2,315 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 10, 2026. Windows below are measured against **Sep 17, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
-> **What the numbers are counted over.** 1,332 of the 2,311 questions carry a sighting date and 979 do not; an undated question is *unmeasured*, not *old*, so it is in every total below and in no window. Every share on this page names the population it is a share of, because most of them are not the whole bank. One row carries a sighting dated after today — a mistyped date upstream rather than a forecast, so it is counted as dated and excluded from every window.
+> **What the numbers are counted over.** 1,332 of the 2,315 questions carry a sighting date and 983 do not; an undated question is *unmeasured*, not *old*, so it is in every total below and in no window. Every share on this page names the population it is a share of, because most of them are not the whole bank. One row carries a sighting dated after today — a mistyped date upstream rather than a forecast, so it is counted as dated and excluded from every window.
 
 ## The last 90 days
 
@@ -50,7 +50,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,442 | 62% | 95 | 253 | 930 | 259 | 1,442 | 106 |
+| [Algorithm](../formats/algorithm.md) | 1,446 | 62% | 95 | 254 | 931 | 261 | 1,446 | 106 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
 | [System Design](../formats/system-design.md) | 251 | 11% | 31 | 14 | 128 | 109 | 251 | 12 |
 | [Low-Level Design](../formats/low-level-design.md) | 398 | 17% | 21 | 33 | 321 | 44 | 398 | 41 |
@@ -60,24 +60,24 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 ## Difficulty
 
-Of the **2,311 questions the catalog has graded** (100% of the bank):
+Of the **2,315 questions the catalog has graded** (100% of the bank):
 
 | Difficulty | Questions | Share of graded |  |
 | :-- | --: | --: | :-- |
-| Easy | 331 | 14% | ████ |
-| Medium | 1,504 | 65% | ████████████████ |
-| Hard | 476 | 21% | █████ |
+| Easy | 332 | 14% | ████ |
+| Medium | 1,505 | 65% | ████████████████ |
+| Hard | 478 | 21% | █████ |
 
 <sub>The other 0 carry no grade. That is not *easy* — it is ungraded, and the two are only the same number if you let them be.</sub>
 
 ## Where in the loop
 
-Of the **2,311 questions that name a round** (100% of the bank):
+Of the **2,315 questions that name a round** (100% of the bank):
 
 | Round | Questions |  |
 | :-- | --: | :-- |
-| Online assessment | 416 | ██████ |
-| Phone screen | 1,167 | ████████████████ |
+| Online assessment | 417 | ██████ |
+| Phone screen | 1,170 | ████████████████ |
 | Onsite / virtual onsite | 1,009 | ██████████████ |
 | Take-home | 9 | █ |
 
@@ -85,15 +85,15 @@ Of the **2,311 questions that name a round** (100% of the bank):
 
 ## Topics
 
-Of the **1,050 questions that carry a topic label** (45% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **1,054 questions that carry a topic label** (46% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 188 | 18% | 13 | ████████████████ |
+| `hashing` | 189 | 18% | 13 | ████████████████ |
 | `arrays` | 153 | 15% | 14 | █████████████ |
-| `graphs` | 148 | 14% | 10 | █████████████ |
+| `graphs` | 149 | 14% | 10 | █████████████ |
 | `strings` | 125 | 12% | 6 | ███████████ |
-| `greedy` | 99 | 9% | 8 | ████████ |
+| `greedy` | 100 | 9% | 8 | ████████ |
 | `dynamic-programming` | 74 | 7% | 4 | ██████ |
 | `trees` | 69 | 7% | 4 | ██████ |
 | `backtracking` | 64 | 6% | 4 | █████ |
@@ -147,7 +147,7 @@ The closest thing this data has to an instruction. A question reported at one em
 | :-- | --: | --: |
 | Free | 166 | 7% |
 | Pro | 76 | 3% |
-| Insider | 2,069 | 90% |
+| Insider | 2,073 | 90% |
 
 <sub>Straight from the catalog's own `accessTier`, never asserted here. The **166 free ones are listed in full** — [start there](../free/README.md).</sub>
 

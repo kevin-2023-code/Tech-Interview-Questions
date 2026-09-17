@@ -8,7 +8,7 @@ Each question is asked in exactly one format, so these counts sum to the whole b
 
 | Format | Questions | On TrueInterview |
 | :-- | --: | :-- |
-| [Algorithm](algorithm.md) | 1,442 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
+| [Algorithm](algorithm.md) | 1,446 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
 | [SQL](sql.md) | 94 | [sql](https://trueinterview.io/problems?type=sql) |
 | [System Design](system-design.md) | 251 | [system-design](https://trueinterview.io/problems?type=system-design) |
 | [Low-Level Design](low-level-design.md) | 398 | [low-level-design](https://trueinterview.io/problems?type=low-level-design) |

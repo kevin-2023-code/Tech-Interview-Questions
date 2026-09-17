@@ -2,17 +2,17 @@
 
 # Topics
 
-What the bank is *about*, counted over the **1,050 questions that carry a topic label** — 45% of 2,311. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
+What the bank is *about*, counted over the **1,054 questions that carry a topic label** — 46% of 2,315. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
 
 [← Insights](README.md) · [← Question bank](../README.md)
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 188 | 18% | 13 | 50 | 120 | 18 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
+| `hashing` | 189 | 18% | 13 | 51 | 120 | 18 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
 | `arrays` | 153 | 15% | 14 | 40 | 99 | 14 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
-| `graphs` | 148 | 14% | 10 | 11 | 103 | 34 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
+| `graphs` | 149 | 14% | 10 | 11 | 104 | 34 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `strings` | 125 | 12% | 6 | 38 | 72 | 15 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
-| `greedy` | 99 | 9% | 8 | 9 | 73 | 17 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `greedy` | 100 | 9% | 8 | 9 | 73 | 18 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `dynamic-programming` | 74 | 7% | 4 | 7 | 40 | 27 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `trees` | 69 | 7% | 4 | 13 | 44 | 12 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `backtracking` | 64 | 6% | 4 | 5 | 38 | 21 | [Amazon](../companies/amazon.md), [Bloomberg](../companies/bloomberg.md), [Google](../companies/google.md) |
@@ -21,7 +21,7 @@ What the bank is *about*, counted over the **1,050 questions that carry a topic 
 | `matrix` | 52 | 5% | 1 | 9 | 37 | 6 | [Capital One](../companies/capital-one.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
 | `heap` | 51 | 5% | 2 | 1 | 37 | 13 | [Apple](../companies/apple.md), [Snowflake](../companies/snowflake.md), [Uber](../companies/uber.md) |
 | `stack` | 50 | 5% | 8 | 6 | 34 | 10 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Meta](../companies/meta.md) |
-| `sliding-window` | 48 | 5% | 4 | 7 | 35 | 6 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
+| `sliding-window` | 49 | 5% | 4 | 7 | 35 | 7 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `intervals` | 43 | 4% | 2 | 1 | 35 | 7 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `binary-search` | 42 | 4% | 2 | 8 | 24 | 10 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md) |
 | `math` | 38 | 4% | 4 | 5 | 25 | 8 | [Amazon](../companies/amazon.md), [Applied Intuition](../companies/applied-intuition.md), [Luma AI](../companies/luma-ai.md) |
@@ -36,7 +36,7 @@ What the bank is *about*, counted over the **1,050 questions that carry a topic 
 
 The most recently reported question carrying each label — newest sighting first, so this is what somebody was actually asked, not what sorts first alphabetically.
 
-**`hashing`** — 188 questions
+**`hashing`** — 189 questions
 
 - [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) · Algorithm · Easy
 - [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) · Algorithm · Medium
@@ -48,7 +48,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) · Algorithm · Medium
 - [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) · Algorithm · Medium
 
-**`graphs`** — 148 questions
+**`graphs`** — 149 questions
 
 - [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) · Low-Level Design · Hard
 - [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) · Algorithm · Medium
@@ -60,7 +60,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) · Algorithm · Medium
 - [Edit Distance (LC 72) with a Follow-Up Variant](https://trueinterview.io/questions/edit-distance-one-reverse) · Algorithm · Hard
 
-**`greedy`** — 99 questions
+**`greedy`** — 100 questions
 
 - [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) · Algorithm · Medium
 - [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) · Algorithm · Medium
@@ -114,7 +114,7 @@ The most recently reported question carrying each label — newest sighting firs
 - [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) · Algorithm · Medium
 - [Basic Calculator with Postfix Notation](https://trueinterview.io/questions/postfix-basic-calculator) · Algorithm · Medium
 
-**`sliding-window`** — 48 questions
+**`sliding-window`** — 49 questions
 
 - [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) · Algorithm · Medium
 - [Minimum Talent-Complete Team from Every Start](https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start) · Algorithm · Medium

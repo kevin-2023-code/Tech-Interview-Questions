@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,311 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **184 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,315 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **184 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -44,7 +44,7 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**166 of the 2,311 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**166 of the 2,315 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
 [Algorithm (106)](free/algorithm.md) · [System Design (12)](free/system-design.md) · [Low-Level Design (41)](free/low-level-design.md) · [AI Coding (7)](free/ai-coding.md)
 
@@ -85,7 +85,7 @@ happened.
 ## 🏢 Browse by company
 
 <!-- gen:companies:start -->
-[Amazon (228)](companies/amazon.md) · [Meta (168)](companies/meta.md) · [ByteDance (144)](companies/bytedance.md) · [Uber (141)](companies/uber.md) · [Google (140)](companies/google.md) · [Microsoft (98)](companies/microsoft.md) · [Apple (90)](companies/apple.md) · [Snowflake (88)](companies/snowflake.md) · [OpenAI (87)](companies/openai.md) · [DoorDash (65)](companies/doordash.md) · [Netflix (64)](companies/netflix.md) · [Anthropic (63)](companies/anthropic.md) · [Stripe (61)](companies/stripe.md) · [Pinterest (60)](companies/pinterest.md) · [Bloomberg (55)](companies/bloomberg.md) · [LinkedIn (55)](companies/linkedin.md) · [Databricks (54)](companies/databricks.md) · [Roblox (54)](companies/roblox.md) · [Snapchat (49)](companies/snapchat.md) · [Airbnb (48)](companies/airbnb.md) · [Waymo (47)](companies/waymo.md) · [Coinbase (45)](companies/coinbase.md) · [Capital One (41)](companies/capital-one.md) · [Oracle (41)](companies/oracle.md)
+[Amazon (231)](companies/amazon.md) · [Meta (168)](companies/meta.md) · [ByteDance (144)](companies/bytedance.md) · [Google (141)](companies/google.md) · [Uber (141)](companies/uber.md) · [Microsoft (98)](companies/microsoft.md) · [Apple (90)](companies/apple.md) · [Snowflake (88)](companies/snowflake.md) · [OpenAI (87)](companies/openai.md) · [DoorDash (65)](companies/doordash.md) · [Netflix (64)](companies/netflix.md) · [Anthropic (63)](companies/anthropic.md) · [Stripe (61)](companies/stripe.md) · [Pinterest (60)](companies/pinterest.md) · [Bloomberg (55)](companies/bloomberg.md) · [LinkedIn (55)](companies/linkedin.md) · [Databricks (54)](companies/databricks.md) · [Roblox (54)](companies/roblox.md) · [Snapchat (49)](companies/snapchat.md) · [Airbnb (48)](companies/airbnb.md) · [Waymo (47)](companies/waymo.md) · [Coinbase (45)](companies/coinbase.md) · [Capital One (41)](companies/capital-one.md) · [Oracle (41)](companies/oracle.md)
 
 <details>
 <summary><b>+ 75 more companies</b></summary>
@@ -100,7 +100,7 @@ happened.
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (1,442)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (251)](formats/system-design.md) · [Low-Level Design (398)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
+[Algorithm (1,446)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (251)](formats/system-design.md) · [Low-Level Design (398)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported

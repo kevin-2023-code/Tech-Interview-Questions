@@ -2,7 +2,7 @@
 
 # Trends by month
 
-Counted over the **1,332 questions that carry a sighting date**. The other 979 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **1,332 questions that carry a sighting date**. The other 983 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
