@@ -36,7 +36,7 @@
 | :-- | :-- | :-: | :-- |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | 🔥 Sep 10, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | 🔥 Sep 05, 2026 |
-| [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | 🔥 Sep 02, 2026 |
+| [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Low-Level Design | Medium | 🆕 Sep 01, 2026 |
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | 🆕 Sep 01, 2026 |
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | Medium | 🆕 Sep 01, 2026 |

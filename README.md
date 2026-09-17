@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,311 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **191 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,311 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **184 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -31,9 +31,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 191 sightings at 47 companies — Algorithm 97 · SQL 32 · System Design 32 · Low-Level Design 24 · AI Coding 6.
+**Last 90 days:** 184 sightings at 47 companies — Algorithm 95 · SQL 31 · System Design 31 · Low-Level Design 21 · AI Coding 6.
 
-**Reported most:** [Amazon (50)](companies/amazon.md) · [ByteDance (22)](companies/bytedance.md) · [Google (16)](companies/google.md) · [Meta (13)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (7)](companies/snowflake.md) · [Microsoft (5)](companies/microsoft.md)
+**Reported most:** [Amazon (50)](companies/amazon.md) · [ByteDance (22)](companies/bytedance.md) · [Google (16)](companies/google.md) · [Meta (12)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (6)](companies/snowflake.md) · [Microsoft (5)](companies/microsoft.md)
 
 **Asked at the most companies:** [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) (12) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (12)
 
@@ -79,7 +79,7 @@ happened.
 | **Uber** | Software | [Coding Interview Experience with Matrix Diagonal Pattern and Interval Queries](https://trueinterview.io/interviews/3c495179-784b-43b8-8cc9-c80d2e300669) | Sep 16, 2026 |
 | **Uber** | Software | [Coding Interview Experience: Currency Conversion and DFS Problems](https://trueinterview.io/interviews/89fd0054-7709-4212-934d-35fc9049265e) | Sep 16, 2026 |
 
-[**2,586 reports on the board →**](experiences/README.md)
+[**2,588 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏢 Browse by company
@@ -123,8 +123,8 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Low-Level Design | 🔥 Sep 06, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | 🔥 Sep 05, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | 🔥 Sep 04, 2026 |
-| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Low-Level Design | 🔥 Sep 02, 2026 |
-| **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | 🔥 Sep 02, 2026 |
+| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Low-Level Design | 🆕 Sep 02, 2026 |
+| **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | 🆕 Sep 02, 2026 |
 | **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Low-Level Design | 🆕 Sep 01, 2026 |
 | **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | 🆕 Sep 01, 2026 |
 | **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | 🆕 Sep 01, 2026 |

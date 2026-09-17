@@ -11,7 +11,7 @@
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🔥 Sep 06, 2026 |
-| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🔥 Sep 02, 2026 |
+| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
 | **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | 🆕 Aug 16, 2026 |

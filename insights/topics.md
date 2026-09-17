@@ -8,13 +8,13 @@ What the bank is *about*, counted over the **1,050 questions that carry a topic 
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 188 | 18% | 14 | 50 | 120 | 18 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
+| `hashing` | 188 | 18% | 13 | 50 | 120 | 18 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
 | `arrays` | 153 | 15% | 14 | 40 | 99 | 14 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
-| `graphs` | 148 | 14% | 11 | 11 | 103 | 34 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
+| `graphs` | 148 | 14% | 10 | 11 | 103 | 34 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `strings` | 125 | 12% | 6 | 38 | 72 | 15 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `greedy` | 99 | 9% | 8 | 9 | 73 | 17 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `dynamic-programming` | 74 | 7% | 4 | 7 | 40 | 27 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
-| `trees` | 69 | 7% | 5 | 13 | 44 | 12 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `trees` | 69 | 7% | 4 | 13 | 44 | 12 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `backtracking` | 64 | 6% | 4 | 5 | 38 | 21 | [Amazon](../companies/amazon.md), [Bloomberg](../companies/bloomberg.md), [Google](../companies/google.md) |
 | `sorting` | 61 | 6% | 8 | 13 | 40 | 8 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Uber](../companies/uber.md) |
 | `two-pointers` | 55 | 5% | 3 | 15 | 39 | 1 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |

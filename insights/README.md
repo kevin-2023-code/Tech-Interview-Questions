@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**2,311 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 10, 2026. Windows below are measured against **Sep 16, 2026**, and everything on this page is recomputed hourly.
+**2,311 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 10, 2026. Windows below are measured against **Sep 17, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,16 +10,16 @@
 
 ## The last 90 days
 
-**191 sightings** recorded between Jun 18, 2026 → Sep 16, 2026 — 14% of the 1,332 questions in the bank that carry a sighting date at all.
+**184 sightings** recorded between Jun 19, 2026 → Sep 17, 2026 — 14% of the 1,332 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 97 | 51% | ████████████████ |
-| [SQL](../formats/sql.md) | 32 | 17% | █████ |
-| [System Design](../formats/system-design.md) | 32 | 17% | █████ |
-| [Low-Level Design](../formats/low-level-design.md) | 24 | 13% | ████ |
+| [Algorithm](../formats/algorithm.md) | 95 | 52% | ████████████████ |
+| [SQL](../formats/sql.md) | 31 | 17% | █████ |
+| [System Design](../formats/system-design.md) | 31 | 17% | █████ |
+| [Low-Level Design](../formats/low-level-design.md) | 21 | 11% | ████ |
 | [AI Coding](../formats/ai-coding.md) | 6 | 3% | █ |
 
 ### Where
@@ -29,20 +29,20 @@
 | [Amazon](../companies/amazon.md) | 50 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 22 | ███████ |
 | [Google](../companies/google.md) | 16 | █████ |
-| [Meta](../companies/meta.md) | 13 | ████ |
+| [Meta](../companies/meta.md) | 12 | ████ |
 | [Figma](../companies/figma.md) | 8 | ███ |
 | [Apple](../companies/apple.md) | 7 | ██ |
-| [Snowflake](../companies/snowflake.md) | 7 | ██ |
+| [Snowflake](../companies/snowflake.md) | 6 | ██ |
 | [Microsoft](../companies/microsoft.md) | 5 | ██ |
 | [OpenAI](../companies/openai.md) | 5 | ██ |
 | [Uber](../companies/uber.md) | 5 | ██ |
 | [Affirm](../companies/affirm.md) | 4 | █ |
 | [Airbnb](../companies/airbnb.md) | 4 | █ |
-| [Goldman Sachs](../companies/goldman-sachs.md) | 4 | █ |
 | [Harvey](../companies/harvey.md) | 4 | █ |
 | [JPMorgan](../companies/jpmorgan.md) | 4 | █ |
+| [Lyft](../companies/lyft.md) | 4 | █ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 191 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 184 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -50,10 +50,10 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,442 | 62% | 97 | 253 | 930 | 259 | 1,442 | 106 |
-| [SQL](../formats/sql.md) | 94 | 4% | 32 | 20 | 57 | 17 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 251 | 11% | 32 | 14 | 128 | 109 | 251 | 12 |
-| [Low-Level Design](../formats/low-level-design.md) | 398 | 17% | 24 | 33 | 321 | 44 | 398 | 41 |
+| [Algorithm](../formats/algorithm.md) | 1,442 | 62% | 95 | 253 | 930 | 259 | 1,442 | 106 |
+| [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
+| [System Design](../formats/system-design.md) | 251 | 11% | 31 | 14 | 128 | 109 | 251 | 12 |
+| [Low-Level Design](../formats/low-level-design.md) | 398 | 17% | 21 | 33 | 321 | 44 | 398 | 41 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 5% | 6 | 11 | 68 | 47 | 126 | 7 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
@@ -89,13 +89,13 @@ Of the **1,050 questions that carry a topic label** (45% of the bank — the res
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 188 | 18% | 14 | ████████████████ |
+| `hashing` | 188 | 18% | 13 | ████████████████ |
 | `arrays` | 153 | 15% | 14 | █████████████ |
-| `graphs` | 148 | 14% | 11 | █████████████ |
+| `graphs` | 148 | 14% | 10 | █████████████ |
 | `strings` | 125 | 12% | 6 | ███████████ |
 | `greedy` | 99 | 9% | 8 | ████████ |
 | `dynamic-programming` | 74 | 7% | 4 | ██████ |
-| `trees` | 69 | 7% | 5 | ██████ |
+| `trees` | 69 | 7% | 4 | ██████ |
 | `backtracking` | 64 | 6% | 4 | █████ |
 | `sorting` | 61 | 6% | 8 | █████ |
 | `two-pointers` | 55 | 5% | 3 | █████ |
