@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**2,315 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 10, 2026. Windows below are measured against **Sep 17, 2026**, and everything on this page is recomputed hourly.
+**2,315 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 10, 2026. Windows below are measured against **Sep 18, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,23 +10,23 @@
 
 ## The last 90 days
 
-**184 sightings** recorded between Jun 19, 2026 → Sep 17, 2026 — 14% of the 1,332 questions in the bank that carry a sighting date at all.
+**179 sightings** recorded between Jun 20, 2026 → Sep 18, 2026 — 13% of the 1,332 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 95 | 52% | ████████████████ |
+| [Algorithm](../formats/algorithm.md) | 92 | 51% | ████████████████ |
 | [SQL](../formats/sql.md) | 31 | 17% | █████ |
-| [System Design](../formats/system-design.md) | 31 | 17% | █████ |
-| [Low-Level Design](../formats/low-level-design.md) | 21 | 11% | ████ |
+| [System Design](../formats/system-design.md) | 29 | 16% | █████ |
+| [Low-Level Design](../formats/low-level-design.md) | 21 | 12% | ████ |
 | [AI Coding](../formats/ai-coding.md) | 6 | 3% | █ |
 
 ### Where
 
 | Company | Sightings |  |
 | :-- | --: | :-- |
-| [Amazon](../companies/amazon.md) | 50 | ████████████████ |
+| [Amazon](../companies/amazon.md) | 49 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 22 | ███████ |
 | [Google](../companies/google.md) | 16 | █████ |
 | [Meta](../companies/meta.md) | 12 | ████ |
@@ -34,15 +34,15 @@
 | [Apple](../companies/apple.md) | 7 | ██ |
 | [Snowflake](../companies/snowflake.md) | 6 | ██ |
 | [Microsoft](../companies/microsoft.md) | 5 | ██ |
-| [OpenAI](../companies/openai.md) | 5 | ██ |
 | [Uber](../companies/uber.md) | 5 | ██ |
 | [Affirm](../companies/affirm.md) | 4 | █ |
 | [Airbnb](../companies/airbnb.md) | 4 | █ |
 | [Harvey](../companies/harvey.md) | 4 | █ |
 | [JPMorgan](../companies/jpmorgan.md) | 4 | █ |
 | [Lyft](../companies/lyft.md) | 4 | █ |
+| [Bloomberg](../companies/bloomberg.md) | 3 | █ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 184 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 179 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -50,9 +50,9 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,446 | 62% | 95 | 254 | 931 | 261 | 1,446 | 106 |
+| [Algorithm](../formats/algorithm.md) | 1,446 | 62% | 92 | 254 | 931 | 261 | 1,446 | 106 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 251 | 11% | 31 | 14 | 128 | 109 | 251 | 12 |
+| [System Design](../formats/system-design.md) | 251 | 11% | 29 | 14 | 128 | 109 | 251 | 12 |
 | [Low-Level Design](../formats/low-level-design.md) | 398 | 17% | 21 | 33 | 321 | 44 | 398 | 41 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 5% | 6 | 11 | 68 | 47 | 126 | 7 |
 
@@ -91,7 +91,7 @@ Of the **1,054 questions that carry a topic label** (46% of the bank — the res
 | :-- | --: | --: | --: | :-- |
 | `hashing` | 189 | 18% | 13 | ████████████████ |
 | `arrays` | 153 | 15% | 14 | █████████████ |
-| `graphs` | 149 | 14% | 10 | █████████████ |
+| `graphs` | 149 | 14% | 9 | █████████████ |
 | `strings` | 125 | 12% | 6 | ███████████ |
 | `greedy` | 100 | 9% | 8 | ████████ |
 | `dynamic-programming` | 74 | 7% | 4 | ██████ |

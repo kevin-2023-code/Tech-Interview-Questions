@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,315 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **184 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,315 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **179 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -31,9 +31,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 184 sightings at 47 companies — Algorithm 95 · SQL 31 · System Design 31 · Low-Level Design 21 · AI Coding 6.
+**Last 90 days:** 179 sightings at 47 companies — Algorithm 92 · SQL 31 · System Design 29 · Low-Level Design 21 · AI Coding 6.
 
-**Reported most:** [Amazon (50)](companies/amazon.md) · [ByteDance (22)](companies/bytedance.md) · [Google (16)](companies/google.md) · [Meta (12)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (6)](companies/snowflake.md) · [Microsoft (5)](companies/microsoft.md)
+**Reported most:** [Amazon (49)](companies/amazon.md) · [ByteDance (22)](companies/bytedance.md) · [Google (16)](companies/google.md) · [Meta (12)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (6)](companies/snowflake.md) · [Microsoft (5)](companies/microsoft.md)
 
 **Asked at the most companies:** [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) (12) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (12)
 
