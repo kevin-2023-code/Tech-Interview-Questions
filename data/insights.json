@@ -13,7 +13,7 @@
       "inWindow": 49,
       "lastSighting": "2026-09-10",
       "name": "Amazon",
-      "questions": 231,
+      "questions": 232,
       "slug": "amazon",
       "topFormat": "Algorithm",
       "topTopic": "hashing"
@@ -2483,9 +2483,9 @@
     {
       "easy": 7,
       "graded": 49,
-      "hard": 7,
+      "hard": 6,
       "inWindow": 4,
-      "medium": 35,
+      "medium": 36,
       "questions": 49,
       "topCompanies": [
         {

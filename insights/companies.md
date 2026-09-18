@@ -10,7 +10,7 @@
 
 | Company | Last 90d | Questions | Last sighting |  |
 | :-- | --: | --: | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 49 | 231 | Sep 10, 2026 | ████████████████ |
+| [Amazon](../companies/amazon.md) | 49 | 232 | Sep 10, 2026 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 22 | 144 | Sep 10, 2026 | ███████ |
 | [Google](../companies/google.md) | 16 | 141 | Aug 13, 2026 | █████ |
 | [Meta](../companies/meta.md) | 12 | 168 | Aug 16, 2026 | ████ |
@@ -40,7 +40,7 @@
 
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 231 | 17 | 28 | 49 | Sep 10, 2026 | Algorithm | `hashing` |
+| [Amazon](../companies/amazon.md) | 232 | 17 | 28 | 49 | Sep 10, 2026 | Algorithm | `hashing` |
 | [Meta](../companies/meta.md) | 168 | 16 | 21 | 12 | Aug 16, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 144 | 16 | 18 | 22 | Sep 10, 2026 | Algorithm | `arrays` |
 | [Google](../companies/google.md) | 141 | 10 | 21 | 16 | Aug 13, 2026 | Algorithm | `graphs` |

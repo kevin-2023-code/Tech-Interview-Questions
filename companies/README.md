@@ -8,7 +8,7 @@
 
 | Company | Questions | On TrueInterview |
 | :-- | --: | :-- |
-| [Amazon](../companies/amazon.md) | 231 | [amazon](https://trueinterview.io/problems/company/amazon) |
+| [Amazon](../companies/amazon.md) | 232 | [amazon](https://trueinterview.io/problems/company/amazon) |
 | [Meta](../companies/meta.md) | 168 | [meta](https://trueinterview.io/problems/company/meta) |
 | [ByteDance](../companies/bytedance.md) | 144 | [bytedance](https://trueinterview.io/problems/company/bytedance) |
 | [Google](../companies/google.md) | 141 | [google](https://trueinterview.io/problems/company/google) |

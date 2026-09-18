@@ -21,7 +21,7 @@ What the bank is *about*, counted over the **1,054 questions that carry a topic 
 | `matrix` | 52 | 5% | 1 | 9 | 37 | 6 | [Capital One](../companies/capital-one.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
 | `heap` | 51 | 5% | 2 | 1 | 37 | 13 | [Apple](../companies/apple.md), [Snowflake](../companies/snowflake.md), [Uber](../companies/uber.md) |
 | `stack` | 50 | 5% | 8 | 6 | 34 | 10 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Meta](../companies/meta.md) |
-| `sliding-window` | 49 | 5% | 4 | 7 | 35 | 7 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
+| `sliding-window` | 49 | 5% | 4 | 7 | 36 | 6 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `intervals` | 43 | 4% | 2 | 1 | 35 | 7 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `binary-search` | 42 | 4% | 2 | 8 | 24 | 10 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md) |
 | `math` | 38 | 4% | 4 | 5 | 25 | 8 | [Amazon](../companies/amazon.md), [Applied Intuition](../companies/applied-intuition.md), [Luma AI](../companies/luma-ai.md) |
