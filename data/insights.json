@@ -1295,8 +1295,8 @@
   ],
   "difficulty": {
     "easy": 332,
-    "hard": 478,
-    "medium": 1505
+    "hard": 479,
+    "medium": 1504
   },
   "earliestSighting": "2024-05-28",
   "formats": [
@@ -1327,10 +1327,10 @@
       "format": "system-design",
       "free": 12,
       "graded": 251,
-      "hard": 109,
+      "hard": 110,
       "inWindow": 29,
       "label": "System Design",
-      "medium": 128,
+      "medium": 127,
       "questions": 251
     },
     {

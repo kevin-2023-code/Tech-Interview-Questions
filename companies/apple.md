@@ -50,7 +50,7 @@
 | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Algorithm | Medium | Apr 24, 2026 |
 | [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Algorithm | Easy | Apr 20, 2026 |
 | [Flood Fill](https://trueinterview.io/questions/flood-fill) | Algorithm | Easy | Apr 20, 2026 |
-| [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | System Design | Medium | Apr 18, 2026 |
+| [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | System Design | Hard | Apr 18, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | System Design | Medium | Apr 08, 2026 |

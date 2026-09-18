@@ -52,7 +52,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
 | [Algorithm](../formats/algorithm.md) | 1,446 | 62% | 92 | 254 | 931 | 261 | 1,446 | 106 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 251 | 11% | 29 | 14 | 128 | 109 | 251 | 12 |
+| [System Design](../formats/system-design.md) | 251 | 11% | 29 | 14 | 127 | 110 | 251 | 12 |
 | [Low-Level Design](../formats/low-level-design.md) | 398 | 17% | 21 | 33 | 321 | 44 | 398 | 41 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 5% | 6 | 11 | 68 | 47 | 126 | 7 |
 
@@ -65,8 +65,8 @@ Of the **2,315 questions the catalog has graded** (100% of the bank):
 | Difficulty | Questions | Share of graded |  |
 | :-- | --: | --: | :-- |
 | Easy | 332 | 14% | ████ |
-| Medium | 1,505 | 65% | ████████████████ |
-| Hard | 478 | 21% | █████ |
+| Medium | 1,504 | 65% | ████████████████ |
+| Hard | 479 | 21% | █████ |
 
 <sub>The other 0 carry no grade. That is not *easy* — it is ungraded, and the two are only the same number if you let them be.</sub>
 
