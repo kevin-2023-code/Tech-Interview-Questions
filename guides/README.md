@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**342 round-by-round guides** across **82 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
+**350 round-by-round guides** across **83 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,18 +10,18 @@
 
 | Interview round / guide | Company | Topics |
 | :-- | :-- | :-- |
+| [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | **General** | — |
+| [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | **General** | — |
+| [Hack2hire Review 2026: Company-Tagged SDE Questions — Worth It?](https://trueinterview.io/study/hack2hire-review-2026) | **General** | — |
+| [Hello Interview Review 2026: Best for System Design — Worth It?](https://trueinterview.io/study/hellointerview-review-2026) | **General** | — |
+| [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | **General** | — |
+| [LeetCode Premium Review 2026: Is $159 a Year Worth It?](https://trueinterview.io/study/leetcode-review-2026) | **General** | — |
+| [NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?](https://trueinterview.io/study/neetcode-review-2026) | **General** | — |
+| [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | **General** | — |
 | [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | **ByteDance** | agents, evaluation, networking, operating-systems, troubleshooting |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/study/asm-phone-screen-deep-dive-bq) | **Amazon** | deep-dive |
 | [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/study/bar-raiser-architecture-and-values) | **Uber** | culture-fit, leadership |
 | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | **ByteDance** | concurrency, database, distributed-systems, verbal |
-| [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/study/cpu-architecture-simulator-deep-dive) | **Google** | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
-| [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | **ByteDance** | database |
-| [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | **ByteDance** | ambiguity, bq, fit |
-| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | **Google** | critique, deep-dive, presentation, vlm |
-| [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/study/72fc1b26-d7bc-4260-a442-36f08b50385c) | **Brex** | — |
-| [Amplitude Interview Process & Questions](https://trueinterview.io/study/amplitude-interview-process) | **Amplitude** | — |
-| [Arista Networks Interview Process & Questions](https://trueinterview.io/study/arista-interview-process) | **Arista** | — |
-| [Chicago Trading Company Interview Process & Questions](https://trueinterview.io/study/chicago-trading-interview-process) | **Chicago Trading** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -256,6 +256,21 @@
 | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | ab-testing, ads, debugging, evaluation, llm |
 | [OS Fundamentals & Concurrency Drill](https://trueinterview.io/study/os-fundamentals-and-concurrency) | concurrency, operating-systems, race-condition, threading |
 | [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/study/systemverilog-dv-constraint-and-architecture-loop) | concurrency, cs-fundamentals, probability, testing |
+
+### General
+
+<sub>8 guides · [questions at General](../companies/general.md)</sub>
+
+| Interview round / guide | Topics |
+| :-- | :-- |
+| [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | — |
+| [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | — |
+| [Hack2hire Review 2026: Company-Tagged SDE Questions — Worth It?](https://trueinterview.io/study/hack2hire-review-2026) | — |
+| [Hello Interview Review 2026: Best for System Design — Worth It?](https://trueinterview.io/study/hellointerview-review-2026) | — |
+| [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | — |
+| [LeetCode Premium Review 2026: Is $159 a Year Worth It?](https://trueinterview.io/study/leetcode-review-2026) | — |
+| [NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?](https://trueinterview.io/study/neetcode-review-2026) | — |
+| [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | — |
 
 ### NVIDIA
 

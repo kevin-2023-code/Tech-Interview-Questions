@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,315 questions** · **342 interview guides** · **99 companies** · **166 free to practise** · **178 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,315 questions** · **350 interview guides** · **99 companies** · **166 free to practise** · **178 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -54,7 +54,7 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [How 82 companies interview, round by round (342 guides)](guides/README.md) &nbsp;·&nbsp; [the same guides by topic](guides/by-topic.md)
+**Interview process:** [How 83 companies interview, round by round (350 guides)](guides/README.md) &nbsp;·&nbsp; [the same guides by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 Round-by-round writeups: the recruiter screen, the hiring-manager round, the culture

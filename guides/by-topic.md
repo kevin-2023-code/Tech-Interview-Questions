@@ -2,11 +2,11 @@
 
 # Free reading, by topic
 
-**342 round-by-round guides**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
+**350 round-by-round guides**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
 
 [← By company](README.md) · [← Question bank](../README.md)
 
-> **196 of them carry no topic label** and are therefore absent from this page. They are not missing: every one is on [its company's section](README.md), which is the other way into the same set.
+> **204 of them carry no topic label** and are therefore absent from this page. They are not missing: every one is on [its company's section](README.md), which is the other way into the same set.
 
 ### `deep-dive`
 
