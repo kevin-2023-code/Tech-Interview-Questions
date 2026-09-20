@@ -112,12 +112,12 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | May 10, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
+| [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [Dynamic programming, ~45 min, any language](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) | Algorithm | Medium | Aug 29, 2025 |
-| [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) | Algorithm | Medium | Aug 29, 2025 |
 | [Cows and Bulls (Guess the Number)](https://trueinterview.io/questions/cows-and-bulls) | Algorithm | Medium | Jun 19, 2025 |
-| [Terminal Robot Simulator with Multiple Robots](https://trueinterview.io/questions/5aa25c82-81de-5056-8e63-c7125c1306be) | Algorithm | Medium | — |
-| [Simulate a Robot Following Commands on a Grid](https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d) | Algorithm | Easy | — |
-| [Design an Extensible Text Editor with Multiple Renderers](https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15) | Algorithm | Medium | — |
 | [Design a 2D Robot with Turning and Movement + CLI](https://trueinterview.io/questions/a917e16a-22aa-4528-9a7f-f579c8782e91) | Low-Level Design | Easy | — |
+| [Design an Extensible Text Editor with Multiple Renderers](https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15) | Algorithm | Medium | — |
+| [Simulate a Robot Following Commands on a Grid](https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d) | Algorithm | Easy | — |
+| [Terminal Robot Simulator with Multiple Robots](https://trueinterview.io/questions/5aa25c82-81de-5056-8e63-c7125c1306be) | Algorithm | Medium | — |

@@ -119,13 +119,13 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Jul 22, 2026 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Hard | Jul 22, 2026 |
+| [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Jul 22, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
-| [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Low-Level Design | Medium | Jun 16, 2026 |
-| [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
-| [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | Jun 16, 2026 |
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
+| [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | Jun 16, 2026 |
+| [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
+| [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Low-Level Design | Medium | Jun 16, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Algorithm | Medium | Jun 04, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
@@ -137,10 +137,10 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Algorithm | Medium | Mar 03, 2026 |
-| [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges) | Algorithm | Medium | Feb 25, 2026 |
 | [Subway / Network Connectivity](https://trueinterview.io/questions/subway-network-connectivity) | Algorithm | Hard | Feb 25, 2026 |
-| [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Algorithm | Hard | Feb 22, 2026 |
+| [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges) | Algorithm | Medium | Feb 25, 2026 |
 | [Streaming Social-Media Mentions & Aggregation](https://trueinterview.io/questions/streaming-social-media-mentions-aggregation) | System Design | Hard | Feb 22, 2026 |
+| [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Algorithm | Hard | Feb 22, 2026 |
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Feb 16, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
@@ -155,22 +155,22 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Algorithm | Medium | Jan 01, 2026 |
 | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Low-Level Design | Medium | Dec 22, 2025 |
 | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Low-Level Design | Hard | Nov 27, 2025 |
-| [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Nov 22, 2025 |
 | [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Low-Level Design | Medium | Nov 22, 2025 |
+| [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Nov 22, 2025 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
-| [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Low-Level Design | Easy | — |
-| [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Algorithm | Easy | — |
-| [Validate Stack Sequences](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) | Algorithm | Medium | — |
-| [Anagram Question](https://trueinterview.io/questions/34828e80-d9ef-43e4-856f-8b5bf8c29609) | Algorithm | Easy | — |
-| [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
-| [Van Eck-like Sequence: N-th Term](https://trueinterview.io/questions/583c19ba-9611-43b2-a516-a8c35f3c1621) | Algorithm | Medium | — |
-| [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Algorithm | Easy | — |
-| [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Algorithm | Medium | — |
-| [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Algorithm | Easy | — |
-| [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
-| [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | — |
+| [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
+| [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | — |
+| [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
+| [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Algorithm | Easy | — |
+| [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Algorithm | Medium | — |
+| [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Algorithm | Easy | — |
+| [Van Eck-like Sequence: N-th Term](https://trueinterview.io/questions/583c19ba-9611-43b2-a516-a8c35f3c1621) | Algorithm | Medium | — |
+| [Anagram Question](https://trueinterview.io/questions/34828e80-d9ef-43e4-856f-8b5bf8c29609) | Algorithm | Easy | — |
+| [Validate Stack Sequences](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) | Algorithm | Medium | — |
+| [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Algorithm | Easy | — |
+| [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Low-Level Design | Easy | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

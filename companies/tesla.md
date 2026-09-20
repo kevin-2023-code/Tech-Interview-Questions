@@ -124,8 +124,8 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | Apr 17, 2026 |
 | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | System Design | Hard | Mar 11, 2026 |
 | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Algorithm | Medium | Feb 21, 2026 |
-| [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Algorithm | Medium | Feb 03, 2026 |
 | [Batched Trajectory Suffix Sum](https://trueinterview.io/questions/trajectory-suffix-sum) | Algorithm | Medium | Feb 03, 2026 |
+| [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Algorithm | Medium | Feb 03, 2026 |
 | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | AI Coding | Hard | Jan 15, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Low-Level Design | Hard | Nov 28, 2025 |
@@ -136,11 +136,11 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | AI Coding | Medium | Aug 23, 2025 |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | — |
 | [C++ Debugging: Doubly Linked List](https://trueinterview.io/questions/7f05aa82-8ea2-4d37-a3bb-3fd8ff97c6c8) | AI Coding | Medium | — |
-| [Decode Ways](https://trueinterview.io/questions/37632eca-7568-544f-bd3c-98fcd234717d) | Algorithm | Medium | — |
 | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533) | Low-Level Design | Easy | — |
-| [Burning a Binary Tree (Time to Burn Entire Tree)](https://trueinterview.io/questions/19d7abba-9f7c-4acd-ab07-797730cfba83) | Algorithm | Medium | — |
-| [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | SQL | Hard | — |
-| [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
-| [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | SQL | Medium | — |
-| [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b) | SQL | Medium | — |
+| [Decode Ways](https://trueinterview.io/questions/37632eca-7568-544f-bd3c-98fcd234717d) | Algorithm | Medium | — |
 | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Low-Level Design | Medium | — |
+| [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b) | SQL | Medium | — |
+| [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | SQL | Medium | — |
+| [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | SQL | Hard | — |
+| [Burning a Binary Tree (Time to Burn Entire Tree)](https://trueinterview.io/questions/19d7abba-9f7c-4acd-ab07-797730cfba83) | Algorithm | Medium | — |
+| [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |

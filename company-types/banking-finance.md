@@ -67,42 +67,42 @@ Of the **98 questions in this cut that carry a topic label** (63% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Medium | Jul 22, 2026 |
 | **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Hard | Jul 22, 2026 |
+| **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Medium | Jul 22, 2026 |
 | **Goldman Sachs** | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Medium | Jul 06, 2026 |
 | **Apple / Amazon / Bloomberg / Meta / Uber** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Medium | Jun 28, 2026 |
-| **JPMorgan** | [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) | Medium | Jun 23, 2026 |
-| **JPMorgan** | [Prerequisite Cycle OA](https://trueinterview.io/questions/prerequisite-cycle-oa) | Medium | Jun 23, 2026 |
-| **JPMorgan** | [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | Hard | Jun 23, 2026 |
 | **JPMorgan** | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Easy | Jun 23, 2026 |
+| **JPMorgan** | [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | Hard | Jun 23, 2026 |
+| **JPMorgan** | [Prerequisite Cycle OA](https://trueinterview.io/questions/prerequisite-cycle-oa) | Medium | Jun 23, 2026 |
+| **JPMorgan** | [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) | Medium | Jun 23, 2026 |
 | **Goldman Sachs** | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Medium | Jun 21, 2026 |
-| **Goldman Sachs** | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Easy | Jun 18, 2026 |
 | **Goldman Sachs** | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Medium | Jun 18, 2026 |
-| **Bloomberg** | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Medium | Jun 16, 2026 |
-| **Bloomberg / ByteDance / Cisco** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
-| **Bloomberg** | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | Hard | Jun 16, 2026 |
+| **Goldman Sachs** | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Easy | Jun 18, 2026 |
 | **Bloomberg / Amazon / ByteDance / Pinduoduo** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Medium | Jun 16, 2026 |
+| **Bloomberg** | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | Hard | Jun 16, 2026 |
+| **Bloomberg / ByteDance / Cisco** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
+| **Bloomberg** | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Medium | Jun 16, 2026 |
 | **Rippling / Bloomberg / ByteDance / Uber** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Hard | Jun 16, 2026 |
-| **Capital One** | [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries) | Medium | Jun 05, 2026 |
 | **Capital One** | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Medium | Jun 05, 2026 |
+| **Capital One** | [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries) | Medium | Jun 05, 2026 |
 | **Bloomberg** | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Medium | Jun 04, 2026 |
-| **Capital One** | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Easy | May 31, 2026 |
-| **Capital One** | [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Medium | May 31, 2026 |
-| **Capital One** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Medium | May 31, 2026 |
 | **Capital One** | [Longest Same-Character Run](https://trueinterview.io/questions/longest-same-character-run) | Easy | May 31, 2026 |
+| **Capital One** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Medium | May 31, 2026 |
+| **Capital One** | [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Medium | May 31, 2026 |
+| **Capital One** | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Easy | May 31, 2026 |
 | **Capital One** | [Wheat Harvest Optimisation Case](https://trueinterview.io/questions/wheat-harvest-case) | Medium | May 13, 2026 |
 | **Uber / Amazon / Bloomberg / Meta / Netflix** | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Easy | May 2026 |
 | **Capital One** | [Tetris-Style Figure Placement](https://trueinterview.io/questions/tetris-figure-placement) | Medium | Apr 29, 2026 |
-| **Capital One** | [Beautify Houses to Strict Monotone](https://trueinterview.io/questions/beautify-houses-monotone) | Medium | Apr 25, 2026 |
-| **Capital One** | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Easy | Apr 25, 2026 |
 | **Capital One** | [Repeated Leading-Nonzero Subtraction](https://trueinterview.io/questions/repeated-subtraction-zeroing) | Medium | Apr 25, 2026 |
+| **Capital One** | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Easy | Apr 25, 2026 |
+| **Capital One** | [Beautify Houses to Strict Monotone](https://trueinterview.io/questions/beautify-houses-monotone) | Medium | Apr 25, 2026 |
 | **JPMorgan** | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | Medium | Apr 22, 2026 |
 | **Capital One** | [Odd Zero-Digit Count](https://trueinterview.io/questions/odd-zero-digit-count) | Easy | Apr 16, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
-| **Capital One** | [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Medium | Apr 08, 2026 |
 | **Capital One** | [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Medium | Apr 08, 2026 |
-| **Capital One** | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets) | Easy | Apr 08, 2026 |
 | **Capital One** | [Warehouse Round-Robin Allocation with Closures](https://trueinterview.io/questions/warehouse-round-robin-allocation) | Medium | Apr 08, 2026 |
+| **Capital One** | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets) | Easy | Apr 08, 2026 |
+| **Capital One** | [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Medium | Apr 08, 2026 |
 | **Salesforce / Goldman Sachs** | [String Compression (HackerRank OA, LeetCode 443)](https://trueinterview.io/questions/string-compression-oa) | Medium | Apr 03, 2026 |
 | **Apple / Amazon / GEICO / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
@@ -110,22 +110,22 @@ Of the **98 questions in this cut that carry a topic label** (63% of it):
 | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | Easy | Mar 24, 2026 |
 | **Snowflake / Amazon / Atlassian / Bloomberg / Datadog / LinkedIn / Rippling / Snapchat / Yelp** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | Medium | Mar 23, 2026 |
 | **JPMorgan** | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Hard | Mar 18, 2026 |
-| **JPMorgan / Microsoft** | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Medium | Mar 14, 2026 |
 | **JPMorgan** | [Table of Contents from Markdown Headings II](https://trueinterview.io/questions/markdown-table-of-contents) | Easy | Mar 14, 2026 |
+| **JPMorgan / Microsoft** | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Medium | Mar 14, 2026 |
 | **Netflix / Goldman Sachs** | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Medium | Mar 11, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **Uber / Apple / Bloomberg / ByteDance / Meta / Microsoft** | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Hard | Mar 04, 2026 |
 | **Netflix / Bloomberg** | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Medium | Mar 03, 2026 |
-| **Bloomberg** | [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges) | Medium | Feb 25, 2026 |
 | **Bloomberg** | [Subway / Network Connectivity](https://trueinterview.io/questions/subway-network-connectivity) | Hard | Feb 25, 2026 |
-| **Bloomberg** | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Hard | Feb 22, 2026 |
+| **Bloomberg** | [Find Tree Root from Edge List](https://trueinterview.io/questions/find-tree-root-from-edges) | Medium | Feb 25, 2026 |
 | **Bloomberg** | [Streaming Social-Media Mentions & Aggregation](https://trueinterview.io/questions/streaming-social-media-mentions-aggregation) | Hard | Feb 22, 2026 |
+| **Bloomberg** | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Hard | Feb 22, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Reddit / Snowflake** | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Hard | Feb 19, 2026 |
 | **Apple / Bloomberg / Google** | [Decode String](https://trueinterview.io/questions/decode-string) | Medium | Feb 16, 2026 |
 | **Capital One** | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study) | Hard | Feb 13, 2026 |
 | **JPMorgan** | [Property Rental Search System](https://trueinterview.io/questions/property-rental-search-system) | Medium | Feb 08, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Goldman Sachs** | [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Easy | Feb 05, 2026 |
 | **Capital One** | [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency) | Easy | Feb 04, 2026 |
 | **Capital One** | [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths) | Medium | Feb 04, 2026 |
@@ -137,17 +137,17 @@ Of the **98 questions in this cut that carry a topic label** (63% of it):
 | **Bloomberg** | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Hard | Jan 22, 2026 |
 | **Bloomberg** | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Hard | Jan 22, 2026 |
 | **Bloomberg** | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Medium | Jan 21, 2026 |
-| **Capital One** | [Matrix Commands: Reverse / Swap / Rotate](https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate) | Medium | Jan 19, 2026 |
-| **Capital One** | [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Medium | Jan 19, 2026 |
-| **Capital One** | [Linear Regression from Scratch](https://trueinterview.io/questions/ml-coding-linear-regression) | Medium | Jan 19, 2026 |
-| **Capital One** | [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling) | Medium | Jan 19, 2026 |
-| **Capital One / Meta** | [Sawtooth (Alternating Parity) Subarray Count](https://trueinterview.io/questions/sawtooth-subarray-count) | Medium | Jan 19, 2026 |
-| **Capital One** | [Virtual Credit Card Validator (Case Study)](https://trueinterview.io/questions/virtual-credit-card-validator) | Medium | Jan 19, 2026 |
 | **Capital One** | [Vowel-Wrapped Substring Middle Reverse](https://trueinterview.io/questions/vowel-wrap-reverse-middle) | Medium | Jan 19, 2026 |
+| **Capital One** | [Linear Regression from Scratch](https://trueinterview.io/questions/ml-coding-linear-regression) | Medium | Jan 19, 2026 |
+| **Capital One** | [Virtual Credit Card Validator (Case Study)](https://trueinterview.io/questions/virtual-credit-card-validator) | Medium | Jan 19, 2026 |
+| **Capital One / Meta** | [Sawtooth (Alternating Parity) Subarray Count](https://trueinterview.io/questions/sawtooth-subarray-count) | Medium | Jan 19, 2026 |
+| **Capital One** | [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling) | Medium | Jan 19, 2026 |
+| **Capital One** | [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Medium | Jan 19, 2026 |
+| **Capital One** | [Matrix Commands: Reverse / Swap / Rotate](https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate) | Medium | Jan 19, 2026 |
 | **Capital One** | [Train Schedule Nearest Departure](https://trueinterview.io/questions/train-schedule-nearest-departure) | Medium | Jan 18, 2026 |
 | **Capital One** | [Online Banking Application](https://trueinterview.io/questions/online-banking-application) | Hard | Jan 17, 2026 |
-| **JPMorgan** | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Easy | Jan 15, 2026 |
 | **JPMorgan** | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Medium | Jan 15, 2026 |
+| **JPMorgan** | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Easy | Jan 15, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
 | **Netflix / Amazon / Bloomberg / Meta** | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Easy | Jan 13, 2026 |
 | **Capital One** | [Color Match-Three Grid](https://trueinterview.io/questions/color-match-three-grid) | Medium | Jan 09, 2026 |
@@ -156,69 +156,69 @@ Of the **98 questions in this cut that carry a topic label** (63% of it):
 | **Akuna Capital / JPMorgan** | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Medium | Dec 20, 2025 |
 | **Goldman Sachs / Amazon** | [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Easy | Dec 12, 2025 |
 | **Bloomberg** | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Hard | Nov 27, 2025 |
-| **Goldman Sachs** | [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty) | Medium | Nov 25, 2025 |
 | **Goldman Sachs** | [Transaction Segments / Increasing Subarrays of Length K](https://trueinterview.io/questions/transaction-segments-increasing-subarrays) | Easy | Nov 25, 2025 |
-| **Bloomberg** | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Medium | Nov 22, 2025 |
+| **Goldman Sachs** | [Efficient Tasks / Three-Server Difficulty Split](https://trueinterview.io/questions/efficient-tasks-three-server-difficulty) | Medium | Nov 25, 2025 |
 | **Bloomberg** | [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Medium | Nov 22, 2025 |
+| **Bloomberg** | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Medium | Nov 22, 2025 |
 | **JPMorgan** | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips) | Medium | Nov 19, 2025 |
 | **Oracle / Bloomberg / Google / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
 | **IBM / Capital One** | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Medium | Nov 03, 2025 |
 | **Bloomberg / Citadel / Hudson River Trading / Meta / Tesla** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Easy | Oct 16, 2025 |
-| **Goldman Sachs** | [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count) | Easy | Sep 22, 2025 |
 | **Goldman Sachs** | [Process Starvation Time](https://trueinterview.io/questions/process-starvation-time) | Medium | Sep 22, 2025 |
+| **Goldman Sachs** | [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count) | Easy | Sep 22, 2025 |
 | **Goldman Sachs** | [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | Medium | Sep 10, 2025 |
 | **Goldman Sachs** | [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Medium | Sep 08, 2025 |
 | **JPMorgan** | [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater) | Easy | Sep 05, 2025 |
 | **Goldman Sachs** | [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Easy | Nov 21, 2024 |
 | **Goldman Sachs / Citadel / Voleon** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Medium | Oct 26, 2024 |
 | **Lead Bank** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Medium | — |
-| **GEICO** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Medium | — |
-| **Lead Bank** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) | Easy | — |
-| **GEICO** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Easy | — |
-| **Lead Bank** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) | Hard | — |
-| **GEICO** | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Medium | — |
-| **GEICO** | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Medium | — |
-| **Lead Bank** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Easy | — |
 | **Lead Bank** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Medium | — |
-| **Visa** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | Medium | — |
-| **Visa** | [Minimize Value by Parentheses in Concatenated Expression](https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b) | Medium | — |
-| **Visa** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Easy | — |
-| **Visa** | [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) | Hard | — |
-| **Visa** | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | Medium | — |
-| **Visa** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Easy | — |
-| **Visa** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
-| **Visa** | [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6) | Medium | — |
+| **Lead Bank** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Easy | — |
+| **Lead Bank** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) | Hard | — |
+| **Lead Bank** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) | Easy | — |
+| **GEICO** | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Medium | — |
+| **GEICO** | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Medium | — |
+| **GEICO** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Easy | — |
+| **GEICO** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Medium | — |
 | **Visa** | [AI-augmented Course Schedule Variation](https://trueinterview.io/questions/f07d3e71-08f4-4626-a568-17e13bd74cbc) | Medium | — |
-| **Visa** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Medium | — |
-| **Visa** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Medium | — |
-| **Visa** | [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) | Medium | — |
+| **Visa** | [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6) | Medium | — |
+| **Visa** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
+| **Visa** | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | Medium | — |
+| **Visa** | [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) | Hard | — |
+| **Visa** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Easy | — |
+| **Visa** | [Minimize Value by Parentheses in Concatenated Expression](https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b) | Medium | — |
+| **Visa** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | Medium | — |
+| **Visa** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Easy | — |
 | **Visa** | [Count Distinct Movement Subsequences on a Number Line](https://trueinterview.io/questions/f70afa37-90a2-5c42-a173-236efea88ec0) | Hard | — |
-| **Bloomberg** | [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Easy | — |
-| **Bloomberg** | [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Easy | — |
+| **Visa** | [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) | Medium | — |
+| **Visa** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Medium | — |
+| **Visa** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Medium | — |
+| **Anthropic / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
+| **Meta / Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Weride** | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Easy | — |
+| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
+| **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
+| **Microsoft / GEICO / Weride** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
+| **Meta / Amazon / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
+| **Goldman Sachs / Weride** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
+| **Capital One / Weride** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
+| **Capital One** | [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342) | Easy | — |
+| **Capital One** | [Ordered Fragment Pairs String-Counting Problem](https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c) | Medium | — |
+| **Capital One** | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Medium | — |
+| **Capital One** | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Medium | — |
 | **Capital One** | [Implement Test Harness](https://trueinterview.io/questions/1ed1ee1c-e0e3-404e-ae31-959a0593f0b6) | Easy | — |
 | **ByteDance / Microsoft / Visa** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Medium | — |
-| **Capital One** | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Medium | — |
-| **Bloomberg / ByteDance** | [Validate Stack Sequences](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) | Medium | — |
-| **Amazon / Goldman Sachs** | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Medium | — |
-| **Bloomberg** | [Anagram Question](https://trueinterview.io/questions/34828e80-d9ef-43e4-856f-8b5bf8c29609) | Easy | — |
-| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
-| **Goldman Sachs / WeRide** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
-| **Anthropic / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
-| **Capital One** | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Medium | — |
-| **Capital One** | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Medium | — |
-| **Bloomberg** | [Van Eck-like Sequence: N-th Term](https://trueinterview.io/questions/583c19ba-9611-43b2-a516-a8c35f3c1621) | Medium | — |
-| **Capital One** | [Ordered Fragment Pairs String-Counting Problem](https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c) | Medium | — |
-| **Capital One** | [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342) | Easy | — |
-| **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
-| **Bloomberg** | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Easy | — |
-| **Bloomberg** | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Medium | — |
-| **Bloomberg** | [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Easy | — |
-| **Microsoft / eBay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
-| **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
-| **Meta / Amazon / Bloomberg / ByteDance / eBay / Goldman Sachs / WeRide** | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Easy | — |
-| **Capital One / WeRide** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
 | **Bloomberg** | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Hard | — |
-| **Meta / Amazon / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
-| **Ramp / Amazon / Bloomberg / eBay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |
+| **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
+| **Bloomberg** | [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Easy | — |
+| **Bloomberg** | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Medium | — |
+| **Bloomberg** | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Easy | — |
+| **Bloomberg** | [Van Eck-like Sequence: N-th Term](https://trueinterview.io/questions/583c19ba-9611-43b2-a516-a8c35f3c1621) | Medium | — |
+| **Bloomberg** | [Anagram Question](https://trueinterview.io/questions/34828e80-d9ef-43e4-856f-8b5bf8c29609) | Easy | — |
+| **Bloomberg / ByteDance** | [Validate Stack Sequences](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) | Medium | — |
+| **Bloomberg** | [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Easy | — |
+| **Bloomberg** | [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Easy | — |
+| **Amazon / Goldman Sachs** | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Medium | — |
+| **Capital One** | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Medium | — |
 | **Coinbase / Capital One** | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
 | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Medium | — |
+| **Ramp / Amazon / Bloomberg / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

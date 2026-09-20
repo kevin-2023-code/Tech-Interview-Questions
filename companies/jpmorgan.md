@@ -115,18 +115,18 @@ The 8 questions to open first if you are preparing for JPMorgan, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) | Algorithm | Medium | Jun 23, 2026 |
-| [Prerequisite Cycle OA](https://trueinterview.io/questions/prerequisite-cycle-oa) | Algorithm | Medium | Jun 23, 2026 |
-| [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | System Design | Hard | Jun 23, 2026 |
 | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Algorithm | Easy | Jun 23, 2026 |
+| [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | System Design | Hard | Jun 23, 2026 |
+| [Prerequisite Cycle OA](https://trueinterview.io/questions/prerequisite-cycle-oa) | Algorithm | Medium | Jun 23, 2026 |
+| [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) | Algorithm | Medium | Jun 23, 2026 |
 | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | System Design | Medium | Apr 22, 2026 |
 | [Process Scheduler II](https://trueinterview.io/questions/minimum-cpu-cores) | Algorithm | Medium | Mar 31, 2026 |
 | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Algorithm | Hard | Mar 18, 2026 |
-| [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Algorithm | Medium | Mar 14, 2026 |
 | [Table of Contents from Markdown Headings II](https://trueinterview.io/questions/markdown-table-of-contents) | Algorithm | Easy | Mar 14, 2026 |
+| [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Algorithm | Medium | Mar 14, 2026 |
 | [Property Rental Search System](https://trueinterview.io/questions/property-rental-search-system) | System Design | Medium | Feb 08, 2026 |
-| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Low-Level Design | Easy | Jan 15, 2026 |
 | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Algorithm | Medium | Jan 15, 2026 |
+| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Low-Level Design | Easy | Jan 15, 2026 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Algorithm | Medium | Dec 20, 2025 |
 | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips) | Algorithm | Medium | Nov 19, 2025 |
 | [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater) | Algorithm | Easy | Sep 05, 2025 |

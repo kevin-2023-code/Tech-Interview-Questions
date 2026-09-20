@@ -109,9 +109,9 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
 | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Low-Level Design | Medium | — |
-| [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples) | Algorithm | Medium | — |
-| [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance) | Algorithm | Easy | — |
-| [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller) | Algorithm | Easy | — |
-| [Persistent Stack](https://trueinterview.io/questions/persistent-stack) | Low-Level Design | Medium | — |
-| [Prefix to Postfix](https://trueinterview.io/questions/prefix-to-postfix) | Algorithm | Medium | — |
 | [Sum of Islands Max](https://trueinterview.io/questions/sum-of-islands-max) | Algorithm | Medium | — |
+| [Prefix to Postfix](https://trueinterview.io/questions/prefix-to-postfix) | Algorithm | Medium | — |
+| [Persistent Stack](https://trueinterview.io/questions/persistent-stack) | Low-Level Design | Medium | — |
+| [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller) | Algorithm | Easy | — |
+| [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance) | Algorithm | Easy | — |
+| [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples) | Algorithm | Medium | — |

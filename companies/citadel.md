@@ -123,8 +123,8 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Algorithm | Hard | Jun 13, 2026 |
 | [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) | Algorithm | Medium | Jun 04, 2026 |
 | [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Low-Level Design | Hard | May 21, 2026 |
-| [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Low-Level Design | Medium | May 07, 2026 |
 | [Implement `tac` — Reverse-Order File Reader](https://trueinterview.io/questions/reverse-file-tac-implementation) | Algorithm | Medium | May 07, 2026 |
+| [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Low-Level Design | Medium | May 07, 2026 |
 | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Algorithm | Medium | Apr 02, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Game of Life — In-Place and Infinite Board](https://trueinterview.io/questions/game-of-life-in-place-infinite) | Algorithm | Hard | Mar 21, 2026 |
@@ -135,9 +135,9 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
 | [Multi-Exchange BBO / NBBO Class](https://trueinterview.io/questions/multi-exchange-nbbo-class) | Low-Level Design | Medium | Jan 29, 2026 |
 | [Application-to-Exchange Routing OOD with Sliding-Window Alerts](https://trueinterview.io/questions/application-exchange-routing-alerting) | Low-Level Design | Medium | Jan 28, 2026 |
-| [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state) | Algorithm | Medium | Jan 28, 2026 |
-| [Task Scheduler with Priority + Lazy Deletion](https://trueinterview.io/questions/task-scheduler-priority-lazy-delete) | Algorithm | Medium | Jan 28, 2026 |
 | [Weighted Random Sampling with Insert / Delete](https://trueinterview.io/questions/weighted-sampling-with-updates) | Low-Level Design | Hard | Jan 28, 2026 |
+| [Task Scheduler with Priority + Lazy Deletion](https://trueinterview.io/questions/task-scheduler-priority-lazy-delete) | Algorithm | Medium | Jan 28, 2026 |
+| [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state) | Algorithm | Medium | Jan 28, 2026 |
 | [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict) | Low-Level Design | Medium | Jan 25, 2026 |
 | [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Low-Level Design | Medium | Jan 22, 2026 |
 | [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler) | Low-Level Design | Medium | Jan 15, 2026 |
@@ -149,6 +149,6 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
+| [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
 | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Low-Level Design | Medium | — |
-| [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |

@@ -123,11 +123,11 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Customer Revenue System](https://trueinterview.io/questions/revenue-tracking-system-with-referrals) | Low-Level Design | Medium | Jun 05, 2026 |
 | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Low-Level Design | Medium | Jun 2026 |
 | [Tetris Block Drop](https://trueinterview.io/questions/tetris-block-drop) | Algorithm | Medium | Jun 2026 |
-| [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Low-Level Design | Medium | Jun 2026 |
 | [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules) | Algorithm | Hard | Jun 2026 |
-| [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
-| [Problem Statement](https://trueinterview.io/questions/problem-statement) | System Design | Medium | May 22, 2026 |
+| [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Low-Level Design | Medium | Jun 2026 |
 | [String Pattern Partition by Source Indices](https://trueinterview.io/questions/string-pattern-partition) | Algorithm | Medium | May 22, 2026 |
+| [Problem Statement](https://trueinterview.io/questions/problem-statement) | System Design | Medium | May 22, 2026 |
+| [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
 | [Distributed File System](https://trueinterview.io/questions/distributed-file-system) | System Design | Medium | May 15, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
 | [Uniform Random Edges to Connect Node Groups](https://trueinterview.io/questions/uniform-random-edges-to-connect-node-groups) | Algorithm | Hard | May 05, 2026 |
@@ -136,9 +136,9 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Design A Harmful Content Detection System](https://trueinterview.io/questions/harmful-content-detection-system) | System Design | Hard | Apr 13, 2026 |
 | [Design Lazy Array](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) | Low-Level Design | Medium | Apr 13, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | System Design | Medium | Apr 06, 2026 |
-| [Remove Covered Point](https://trueinterview.io/questions/delete-element-from-interval-array-by-index) | Algorithm | Medium | Apr 2026 |
-| [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
+| [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
+| [Remove Covered Point](https://trueinterview.io/questions/delete-element-from-interval-array-by-index) | Algorithm | Medium | Apr 2026 |
 | [Find Path in Fibonacci Tree](https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Encode And Decode](https://trueinterview.io/questions/integer-stream-encoder-decoder) | Algorithm | Hard | Mar 20, 2026 |
@@ -160,13 +160,13 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) | Algorithm | Medium | — |
-| [Lazy Array (Delayed Evaluation Array)](https://trueinterview.io/questions/240da66e-fee4-4897-a81e-75c7dad94bff) | Low-Level Design | Easy | — |
-| [IP CIDR Range Query](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) | Algorithm | Easy | — |
-| [Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time](https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d) | Algorithm | Medium | — |
-| [Grid pathfinding with time & cost optimality (BFS / shortest path variant)](https://trueinterview.io/questions/5ef47226-c611-4570-99aa-51ed22a3d12b) | Algorithm | Medium | — |
-| [Reconstruct a Binary Tree from Inorder Traversal (Follow-up)](https://trueinterview.io/questions/763b1a0b-3c17-478c-9efb-43a4e22d4e3d) | Algorithm | Medium | — |
-| [Top-5 Most Similar Rows Using MSE Across Multiple Features](https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50) | SQL | Hard | — |
-| [Design Key Value Class with Average Operations](https://trueinterview.io/questions/abcd2c0b-6316-42ed-8a99-20aa16716961) | Low-Level Design | Medium | — |
-| [Bottom-K Customers by Revenue (with Nested Revenue Follow-up)](https://trueinterview.io/questions/ac49da6b-4bab-473b-9087-c81aa1bd7986) | Algorithm | Medium | — |
-| [Design Hit Counter with Variable Time Windows](https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows) | Low-Level Design | Medium | — |
 | [SQL for Data Analysis](https://trueinterview.io/questions/fbafc874-d6f5-487f-988f-47f0b70c83c1) | SQL | Medium | — |
+| [Bottom-K Customers by Revenue (with Nested Revenue Follow-up)](https://trueinterview.io/questions/ac49da6b-4bab-473b-9087-c81aa1bd7986) | Algorithm | Medium | — |
+| [Design Key Value Class with Average Operations](https://trueinterview.io/questions/abcd2c0b-6316-42ed-8a99-20aa16716961) | Low-Level Design | Medium | — |
+| [Top-5 Most Similar Rows Using MSE Across Multiple Features](https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50) | SQL | Hard | — |
+| [Reconstruct a Binary Tree from Inorder Traversal (Follow-up)](https://trueinterview.io/questions/763b1a0b-3c17-478c-9efb-43a4e22d4e3d) | Algorithm | Medium | — |
+| [Grid pathfinding with time & cost optimality (BFS / shortest path variant)](https://trueinterview.io/questions/5ef47226-c611-4570-99aa-51ed22a3d12b) | Algorithm | Medium | — |
+| [Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time](https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d) | Algorithm | Medium | — |
+| [Lazy Array (Delayed Evaluation Array)](https://trueinterview.io/questions/240da66e-fee4-4897-a81e-75c7dad94bff) | Low-Level Design | Easy | — |
+| [Design Hit Counter with Variable Time Windows](https://trueinterview.io/questions/design-hit-counter-with-variable-time-windows) | Low-Level Design | Medium | — |
+| [IP CIDR Range Query](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) | Algorithm | Easy | — |

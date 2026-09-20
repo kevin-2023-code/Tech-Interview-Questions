@@ -119,7 +119,7 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Low-Level Design | Medium | Apr 30, 2026 |
 | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Low-Level Design | Medium | Apr 2026 |
 | [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Low-Level Design | Medium | — |
-| [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2) | Algorithm | Medium | — |
-| [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce) | Algorithm | Hard | — |
-| [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Algorithm | Medium | — |
 | [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e) | Algorithm | Medium | — |
+| [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce) | Algorithm | Hard | — |
+| [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2) | Algorithm | Medium | — |
+| [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Algorithm | Medium | — |

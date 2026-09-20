@@ -165,34 +165,34 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Compare Two Structs / Classes for Equality](https://trueinterview.io/questions/compare-two-structs-or-classes) | Low-Level Design | Medium | Jun 23, 2026 |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [App User Behavior Data Platform](https://trueinterview.io/questions/onsite-sd-app-user-behavior-data-platform) | System Design | Medium | Jun 17, 2026 |
-| [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
-| [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
-| [Rate Limiter (Coding + Trade-offs)](https://trueinterview.io/questions/phone-screen-rate-limiter) | Algorithm | Medium | Jun 16, 2026 |
-| [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum) | Algorithm | Medium | Jun 16, 2026 |
 | [Word Break](https://trueinterview.io/questions/word-break) | Algorithm | Medium | Jun 16, 2026 |
+| [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum) | Algorithm | Medium | Jun 16, 2026 |
+| [Rate Limiter (Coding + Trade-offs)](https://trueinterview.io/questions/phone-screen-rate-limiter) | Algorithm | Medium | Jun 16, 2026 |
+| [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
+| [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [First Customer Who Visited Only Once](https://trueinterview.io/questions/phone-screen-first-unique-visitor) | Low-Level Design | Medium | Jun 15, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
 | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Algorithm | Hard | Jun 08, 2026 |
-| [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
+| [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Random Bingo Card Generator](https://trueinterview.io/questions/bingo-card-generator) | Low-Level Design | Medium | Jun 06, 2026 |
-| [Construct Quad Tree](https://trueinterview.io/questions/construct-quad-tree) | Algorithm | Medium | Jun 06, 2026 |
 | [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood) | AI Coding | Medium | Jun 06, 2026 |
+| [Construct Quad Tree](https://trueinterview.io/questions/construct-quad-tree) | Algorithm | Medium | Jun 06, 2026 |
 | [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) | Algorithm | Medium | Jun 04, 2026 |
 | [Leftmost Column with At Least a One](https://trueinterview.io/questions/b9b9aff1-0435-543b-80eb-51ae69a79788) | Algorithm | Medium | Jun 04, 2026 |
 | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Low-Level Design | Medium | Jun 2026 |
 | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Algorithm | Medium | May 31, 2026 |
-| [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution) | Low-Level Design | Medium | May 29, 2026 |
-| [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter) | Algorithm | Medium | May 29, 2026 |
-| [Maximum Number of Points from Grid Queries](https://trueinterview.io/questions/maximum-number-of-points-from-grid-queries) | Algorithm | Hard | May 29, 2026 |
 | [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Algorithm | Medium | May 29, 2026 |
+| [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution) | Low-Level Design | Medium | May 29, 2026 |
+| [Maximum Number of Points from Grid Queries](https://trueinterview.io/questions/maximum-number-of-points-from-grid-queries) | Algorithm | Hard | May 29, 2026 |
+| [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter) | Algorithm | Medium | May 29, 2026 |
 | [Tennis Rounds — Print Round Winners](https://trueinterview.io/questions/phone-screen-tennis-rounds) | Algorithm | Easy | May 23, 2026 |
-| [Seat Assignment / Exam Room](https://trueinterview.io/questions/exam-room-seat-assignment) | Algorithm | Hard | May 15, 2026 |
-| [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap) | System Design | Medium | May 15, 2026 |
 | [Longest Subarray with Bounded Diff](https://trueinterview.io/questions/phone-screen-longest-stable-subarray) | Algorithm | Medium | May 15, 2026 |
+| [Design Driver Location Heatmap](https://trueinterview.io/questions/onsite-sd-driver-location-heatmap) | System Design | Medium | May 15, 2026 |
+| [Seat Assignment / Exam Room](https://trueinterview.io/questions/exam-room-seat-assignment) | Algorithm | Hard | May 15, 2026 |
 | [Merge Step Functions of (timestamp, value) Pairs](https://trueinterview.io/questions/merge-step-functions-of-timestamp-value-pairs) | Algorithm | Medium | May 13, 2026 |
-| [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine) | Low-Level Design | Medium | May 12, 2026 |
 | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | May 12, 2026 |
+| [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine) | Low-Level Design | Medium | May 12, 2026 |
 | [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms) | Low-Level Design | Medium | May 10, 2026 |
 | [AI-Assisted Coding / Debug Round (HackerRank IDE + AI)](https://trueinterview.io/questions/vo-ai-assisted-debug-round) | AI Coding | Hard | May 08, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
@@ -205,25 +205,25 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Rotting Oranges](https://trueinterview.io/questions/rotting-oranges) | Algorithm | Medium | Apr 13, 2026 |
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
 | [Exclusive Time of Functions](https://trueinterview.io/questions/exclusive-time-of-functions) | Algorithm | Medium | Apr 05, 2026 |
-| [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | Algorithm | Easy | Apr 01, 2026 |
-| [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | Algorithm | Medium | Apr 01, 2026 |
 | [Shortest Subarray with At Least K Distinct](https://trueinterview.io/questions/oa-shortest-subarray-k-distinct) | Algorithm | Medium | Apr 01, 2026 |
+| [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | Algorithm | Medium | Apr 01, 2026 |
+| [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | Algorithm | Easy | Apr 01, 2026 |
 | [Minimum Knight Moves](https://trueinterview.io/questions/minimum-knight-moves) | Algorithm | Medium | Mar 28, 2026 |
-| [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Toy Order Completion Analysis](https://trueinterview.io/questions/toy-order-completion-analysis) | Algorithm | Easy | Mar 24, 2026 |
+| [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Active Couriers Timeline](https://trueinterview.io/questions/active-couriers-timeline) | Algorithm | Medium | Mar 23, 2026 |
 | [OOD Counter Class](https://trueinterview.io/questions/ood-counter-class) | Low-Level Design | Medium | Mar 23, 2026 |
+| [Customer Revenue and Referral Tracking](https://trueinterview.io/questions/customer-revenue-and-referral-tracking) | Low-Level Design | Medium | Mar 22, 2026 |
 | [Checking Existence of Edge Length Limited Paths](https://trueinterview.io/questions/checking-existence-of-edge-length-limited-paths) | Algorithm | Hard | Mar 22, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
-| [Customer Revenue and Referral Tracking](https://trueinterview.io/questions/customer-revenue-and-referral-tracking) | Low-Level Design | Medium | Mar 22, 2026 |
 | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Easy | Mar 21, 2026 |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system) | System Design | Hard | Mar 16, 2026 |
 | [Letter Combinations of a Phone Number](https://trueinterview.io/questions/letter-combinations-of-a-phone-number) | Algorithm | Easy | Mar 15, 2026 |
 | [Shortest Word Distance](https://trueinterview.io/questions/shortest-word-distance) | Algorithm | Easy | Mar 13, 2026 |
-| [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [ML System Design (Recommendation / Feed Ranking / ETA)](https://trueinterview.io/questions/mle-onsite-ml-system-design) | System Design | Medium | Mar 09, 2026 |
+| [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Algorithm | Hard | Mar 08, 2026 |
 | [Uber Eats Search](https://trueinterview.io/questions/uber-eats-search) | System Design | Hard | Mar 06, 2026 |
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
@@ -250,8 +250,8 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Interval List Intersections](https://trueinterview.io/questions/interval-list-intersections) | Algorithm | Medium | Jan 09, 2026 |
 | [My Calendar I](https://trueinterview.io/questions/my-calendar-i) | Algorithm | Medium | Jan 09, 2026 |
 | [Making a Large Island](https://trueinterview.io/questions/making-a-large-island) | Algorithm | Medium | Jan 07, 2026 |
-| [Number of Ways to Earn Points](https://trueinterview.io/questions/number-of-ways-to-earn-points) | Algorithm | Medium | Jan 05, 2026 |
 | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
+| [Number of Ways to Earn Points](https://trueinterview.io/questions/number-of-ways-to-earn-points) | Algorithm | Medium | Jan 05, 2026 |
 | [Isomorphic Strings](https://trueinterview.io/questions/isomorphic-strings) | Algorithm | Easy | Jan 03, 2026 |
 | [Service Dependency Topological Order](https://trueinterview.io/questions/phone-screen-topological-dependency-order) | Algorithm | Medium | Dec 01, 2025 |
 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Algorithm | Medium | Nov 26, 2025 |
@@ -259,13 +259,13 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
 | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | AI Coding | Hard | Oct 19, 2025 |
 | [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | Algorithm | Easy | Sep 2025 |
-| [Maximize Score Sum](https://trueinterview.io/questions/1aaab4e0-9f68-4ab4-b6f5-430ea315a3b6) | Algorithm | Medium | — |
-| [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Algorithm | Medium | — |
-| [Track Customer Website Visits](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) | Algorithm | Medium | — |
 | [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) | Low-Level Design | Medium | — |
+| [Track Customer Website Visits](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) | Algorithm | Medium | — |
+| [Maximize Score Sum](https://trueinterview.io/questions/1aaab4e0-9f68-4ab4-b6f5-430ea315a3b6) | Algorithm | Medium | — |
 | [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01) | Algorithm | Hard | — |
-| [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
+| [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Algorithm | Medium | — |
 | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | System Design | Hard | — |
+| [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
 | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Algorithm | Medium | — |
@@ -273,30 +273,30 @@ What candidates said happened in the room at Uber — written up by the people w
 | [K Closest Points to Origin (N log K)](https://trueinterview.io/questions/99a55d10-3af0-49e2-91c4-d24bbfec7bb5) | Algorithm | Medium | — |
 | [Insert Intervals with Set](https://trueinterview.io/questions/c7b0a764-6082-4594-b239-e18448718a1c) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
-| [Kth Largest Element in a BST](https://trueinterview.io/questions/03374ebf-7274-4299-8e01-fe473216995d) | Algorithm | Medium | — |
-| [Reachability with restricted backward moves and prime-step jumps (digit contains 3)](https://trueinterview.io/questions/0972c04c-fd7d-4c75-a098-28f56edf1955) | Algorithm | Medium | — |
-| [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) | Algorithm | Medium | — |
-| [Robot Bounded In Circle](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a) | Algorithm | Medium | — |
-| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
-| [Find the Majority Element](https://trueinterview.io/questions/5798d303-8492-41f1-a337-35c1393f7138) | Algorithm | Easy | — |
-| [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Algorithm | Medium | — |
-| [Design a TinyURL service (encode/decode)](https://trueinterview.io/questions/5bf82361-e2aa-4c14-b224-cd4c5689f83c) | Low-Level Design | Medium | — |
-| [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
-| [Count Concurrent Meeting Rooms Over Time](https://trueinterview.io/questions/64012470-cb3e-4716-9b83-2159f40021fe) | Algorithm | Medium | — |
-| [Connectivity Queries on Dynamic Components (Union-Find)](https://trueinterview.io/questions/6403f04b-b9cf-4350-a0a6-61f10aa6dc1f) | Algorithm | Medium | — |
-| [LeetCode 380](https://trueinterview.io/questions/668182ef-7df4-4a8d-a1b4-a2b6f24b1576) | Low-Level Design | Medium | — |
-| [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Algorithm | Hard | — |
-| [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c) | Algorithm | Medium | — |
-| [Task Dependency Completion Time](https://trueinterview.io/questions/98b9acbe-4393-4f2d-b6f2-023dda164e9a) | Algorithm | Medium | — |
-| [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f) | Low-Level Design | Medium | — |
-| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Hard | — |
-| [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
-| [Design an In-Memory Queue (Tradeoffs: Clearing, Background Cleanup, Stale Data)](https://trueinterview.io/questions/bdf19ae1-4e20-4e90-9f24-4f01b4f4c72e) | Low-Level Design | Medium | — |
-| [Max Levels from Each Index](https://trueinterview.io/questions/cd60b396-8c00-4022-8e75-8c2c02cff3dc) | Algorithm | Medium | — |
-| [Total Cost to Convert All Substrings into Palindromes](https://trueinterview.io/questions/cf8e2d4a-b375-4bf0-99f7-9ea20847ee18) | Algorithm | Hard | — |
-| [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |
-| [Serialize and Deserialize Binary Tree, then Extend to N-ary Tree](https://trueinterview.io/questions/dd87d39f-2574-5a10-a447-0f7f3340ce44) | Algorithm | Medium | — |
-| [Add/Sub Calculator with String Verification Follow-up](https://trueinterview.io/questions/e1a8f514-a21b-418e-a502-3692d1b53353) | Algorithm | Medium | — |
-| [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/f81c8862-7d95-4d4f-9537-73b6b1642297) | Algorithm | Medium | — |
 | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | Algorithm | Easy | — |
+| [Serialize and Deserialize Binary Tree, then Extend to N-ary Tree](https://trueinterview.io/questions/dd87d39f-2574-5a10-a447-0f7f3340ce44) | Algorithm | Medium | — |
+| [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |
+| [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |
+| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Hard | — |
+| [Count Concurrent Meeting Rooms Over Time](https://trueinterview.io/questions/64012470-cb3e-4716-9b83-2159f40021fe) | Algorithm | Medium | — |
+| [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
+| [Kth Largest Element in a BST](https://trueinterview.io/questions/03374ebf-7274-4299-8e01-fe473216995d) | Algorithm | Medium | — |
+| [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/f81c8862-7d95-4d4f-9537-73b6b1642297) | Algorithm | Medium | — |
+| [Add/Sub Calculator with String Verification Follow-up](https://trueinterview.io/questions/e1a8f514-a21b-418e-a502-3692d1b53353) | Algorithm | Medium | — |
+| [Total Cost to Convert All Substrings into Palindromes](https://trueinterview.io/questions/cf8e2d4a-b375-4bf0-99f7-9ea20847ee18) | Algorithm | Hard | — |
+| [Max Levels from Each Index](https://trueinterview.io/questions/cd60b396-8c00-4022-8e75-8c2c02cff3dc) | Algorithm | Medium | — |
+| [Design an In-Memory Queue (Tradeoffs: Clearing, Background Cleanup, Stale Data)](https://trueinterview.io/questions/bdf19ae1-4e20-4e90-9f24-4f01b4f4c72e) | Low-Level Design | Medium | — |
+| [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f) | Low-Level Design | Medium | — |
+| [Task Dependency Completion Time](https://trueinterview.io/questions/98b9acbe-4393-4f2d-b6f2-023dda164e9a) | Algorithm | Medium | — |
+| [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c) | Algorithm | Medium | — |
+| [LeetCode 380](https://trueinterview.io/questions/668182ef-7df4-4a8d-a1b4-a2b6f24b1576) | Low-Level Design | Medium | — |
+| [Connectivity Queries on Dynamic Components (Union-Find)](https://trueinterview.io/questions/6403f04b-b9cf-4350-a0a6-61f10aa6dc1f) | Algorithm | Medium | — |
+| [Design a TinyURL service (encode/decode)](https://trueinterview.io/questions/5bf82361-e2aa-4c14-b224-cd4c5689f83c) | Low-Level Design | Medium | — |
+| [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Algorithm | Medium | — |
+| [Find the Majority Element](https://trueinterview.io/questions/5798d303-8492-41f1-a337-35c1393f7138) | Algorithm | Easy | — |
+| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
+| [Robot Bounded In Circle](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a) | Algorithm | Medium | — |
+| [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) | Algorithm | Medium | — |
+| [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Algorithm | Hard | — |
+| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
+| [Reachability with restricted backward moves and prime-step jumps (digit contains 3)](https://trueinterview.io/questions/0972c04c-fd7d-4c75-a098-28f56edf1955) | Algorithm | Medium | — |

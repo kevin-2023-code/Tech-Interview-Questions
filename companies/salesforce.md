@@ -118,15 +118,15 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition) | Algorithm | Medium | Jun 22, 2026 |
 | [String Compression (HackerRank OA, LeetCode 443)](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Apr 03, 2026 |
 | [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | Algorithm | Medium | Apr 01, 2026 |
-| [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Algorithm | Medium | Mar 19, 2026 |
 | [Maximum Requests in a Time Window](https://trueinterview.io/questions/maximum-requests-in-time-window) | Algorithm | Easy | Mar 19, 2026 |
+| [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Algorithm | Medium | Mar 19, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Low-Level Design | Hard | Mar 17, 2026 |
 | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | AI Coding | Medium | Mar 10, 2026 |
 | [Code Review OA — Python Files (Salesforce / Slack)](https://trueinterview.io/questions/code-review-oa) | AI Coding | Medium | Mar 05, 2026 |
 | [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system) | System Design | Medium | Feb 09, 2026 |
-| [Frontend Curry: addTwoNumbers → addThreeNumbers(a)(b)(c)](https://trueinterview.io/questions/frontend-currying-add-numbers) | Algorithm | Medium | Jan 30, 2026 |
 | [Singly Linked List — Remove Duplicate Values](https://trueinterview.io/questions/linked-list-remove-duplicates) | Algorithm | Medium | Jan 30, 2026 |
+| [Frontend Curry: addTwoNumbers → addThreeNumbers(a)(b)(c)](https://trueinterview.io/questions/frontend-currying-add-numbers) | Algorithm | Medium | Jan 30, 2026 |
 | [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring) | Algorithm | Medium | Jan 20, 2026 |
 | [Flatten Nested JSON / HashMap to String](https://trueinterview.io/questions/flatten-nested-json) | Algorithm | Medium | Jan 11, 2026 |
-| [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check) | Algorithm | Easy | Dec 25, 2025 |
 | [Binary String Synchronous '01' → '10' Replacement](https://trueinterview.io/questions/binary-string-01-10-swap) | Algorithm | Hard | Dec 25, 2025 |
+| [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check) | Algorithm | Easy | Dec 25, 2025 |

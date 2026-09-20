@@ -127,9 +127,9 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Algorithm | Hard | Jun 26, 2026 |
 | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | AI Coding | Hard | Jun 22, 2026 |
 | [Group Chat / Messaging System Design](https://trueinterview.io/questions/group-chat-messaging-system-design) | System Design | Hard | Jun 22, 2026 |
-| [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
-| [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Algorithm | Medium | Jun 17, 2026 |
 | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | System Design | Hard | Jun 17, 2026 |
+| [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Algorithm | Medium | Jun 17, 2026 |
+| [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Build Smallest Number](https://trueinterview.io/questions/smallest-permutation-bound) | Algorithm | Hard | Jun 03, 2026 |
 | [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Low-Level Design | Medium | Jun 02, 2026 |
@@ -137,20 +137,20 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Low-Level Design | Medium | May 24, 2026 |
 | [Average Vacant Days](https://trueinterview.io/questions/average-vacant-days) | SQL | Easy | May 23, 2026 |
 | [Key Store With Sum-Dependency Cascades](https://trueinterview.io/questions/key-dependency-sum-store) | Low-Level Design | Hard | May 19, 2026 |
-| [Linked-List Intersection With Cycles](https://trueinterview.io/questions/linked-list-intersection-with-cycles) | Algorithm | Hard | May 19, 2026 |
 | [Multi-Stream Round-Robin Iterator](https://trueinterview.io/questions/multi-stream-iterator) | Low-Level Design | Medium | May 19, 2026 |
+| [Linked-List Intersection With Cycles](https://trueinterview.io/questions/linked-list-intersection-with-cycles) | Algorithm | Hard | May 19, 2026 |
 | [URL Query Parameter Parsing](https://trueinterview.io/questions/url-query-string-parser) | Algorithm | Medium | May 16, 2026 |
 | [Format Articles Within Width](https://trueinterview.io/questions/text-justification-table) | Algorithm | Hard | May 12, 2026 |
 | [Listing Lifetime Value — Estimation](https://trueinterview.io/questions/listing-lifetime-value-ml-design) | System Design | Medium | May 03, 2026 |
-| [Account Registration Deduplication](https://trueinterview.io/questions/account-merge-dedup-users) | Algorithm | Hard | Apr 28, 2026 |
 | [Waitlist System Design](https://trueinterview.io/questions/waitlist-system-design) | System Design | Medium | Apr 28, 2026 |
+| [Account Registration Deduplication](https://trueinterview.io/questions/account-merge-dedup-users) | Algorithm | Hard | Apr 28, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Home Page — Search + Availability + Ranking](https://trueinterview.io/questions/home-page-search-availability-design) | System Design | Hard | Mar 29, 2026 |
 | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Algorithm | Medium | Mar 20, 2026 |
 | [Highlight Phrases in Review](https://trueinterview.io/questions/review-token-replace) | Algorithm | Medium | Feb 28, 2026 |
-| [Split Stay Booking](https://trueinterview.io/questions/split-stay-availability-combinations) | Algorithm | Medium | Feb 28, 2026 |
 | [Terrain Rendering + Water Drop Simulation](https://trueinterview.io/questions/terrain-water-drop) | Algorithm | Hard | Feb 28, 2026 |
+| [Split Stay Booking](https://trueinterview.io/questions/split-stay-availability-combinations) | Algorithm | Medium | Feb 28, 2026 |
 | [Banking — Deposit / Withdraw / Transaction / Balance](https://trueinterview.io/questions/banking-transactions-class) | Low-Level Design | Medium | Feb 19, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
@@ -165,9 +165,9 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | — |
 | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Algorithm | Medium | — |
 | [URL Parser with Percent Unquote](https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722) | Algorithm | Medium | — |
-| [Lodging / Booking Problem (Airbnb-style)](https://trueinterview.io/questions/129e7f92-adec-40f3-b20c-105a2cc74c67) | Algorithm | Medium | — |
-| [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Algorithm | Medium | — |
-| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
-| [Dependency Resolution / Build Order](https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
+| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Find Split Stays for Airbnb Listings](https://trueinterview.io/questions/e03cb6a7-a689-4b72-ba5e-bc25eceb157b) | Algorithm | Medium | — |
+| [Dependency Resolution / Build Order](https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e) | Algorithm | Medium | — |
+| [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Algorithm | Medium | — |
+| [Lodging / Booking Problem (Airbnb-style)](https://trueinterview.io/questions/129e7f92-adec-40f3-b20c-105a2cc74c67) | Algorithm | Medium | — |

@@ -17,7 +17,7 @@
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | Medium | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | **Verkada / Amazon / ByteDance / Lyft / Microsoft / Rokt** | Medium | — |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | **Coinbase / Anthropic / HubSpot / Ramp** | Medium | Dec 15, 2025 |
-| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | **Coinbase / eBay / HubSpot** | Medium | — |
+| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | **Coinbase / Ebay / HubSpot** | Medium | — |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | **Coinbase / Anthropic / Applied Intuition** | Medium | Apr 28, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | **Perplexity / Harvey / Shopify** | Medium | Jun 15, 2026 |
 | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | **Snowflake / ByteDance / Netflix** | Medium | Jun 15, 2026 |

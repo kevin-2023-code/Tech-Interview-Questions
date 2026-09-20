@@ -118,8 +118,8 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Hard | Jul 22, 2026 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | May 26, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
-| [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | AI Coding | Hard | Apr 04, 2026 |
 | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | AI Coding | Medium | Apr 04, 2026 |
+| [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | AI Coding | Hard | Apr 04, 2026 |
 | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Low-Level Design | Medium | Apr 02, 2026 |
 | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Low-Level Design | Hard | Apr 01, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
@@ -130,19 +130,19 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home) | AI Coding | Hard | Jan 28, 2026 |
 | [Checkers Game](https://trueinterview.io/questions/checkers-backend-design) | Low-Level Design | Medium | Jan 26, 2026 |
 | [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time) | Algorithm | Medium | Jan 26, 2026 |
-| [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Algorithm | Medium | Jan 15, 2026 |
 | [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort) | Algorithm | Medium | Jan 15, 2026 |
+| [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Algorithm | Medium | Jan 15, 2026 |
 | [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window) | Algorithm | Hard | Jan 14, 2026 |
 | [Dynamic Batch Inference](https://trueinterview.io/questions/dynamic-batch-inference) | Low-Level Design | Medium | Dec 14, 2025 |
 | [Find Bad GPU Nodes](https://trueinterview.io/questions/group-test-gpu-nodes) | Algorithm | Hard | Dec 14, 2025 |
 | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Algorithm | Medium | — |
 | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Low-Level Design | Hard | — |
-| [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Algorithm | Medium | — |
 | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Algorithm | Medium | — |
-| [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | System Design | Medium | — |
 | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | — |
-| [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | System Design | Easy | — |
-| [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache) | Low-Level Design | Medium | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
-| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Low-Level Design | Medium | — |
 | [Radix Cache](https://trueinterview.io/questions/radix-cache) | Low-Level Design | Hard | — |
+| [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache) | Low-Level Design | Medium | — |
+| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Low-Level Design | Medium | — |
+| [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Algorithm | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | System Design | Medium | — |
+| [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | System Design | Easy | — |

@@ -57,19 +57,19 @@ Of the **16 questions in this cut that carry a topic label** (84% of it):
 | **Expedia / IBM** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Medium | May 30, 2026 |
 | **IBM** | [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) | Medium | Apr 25, 2026 |
 | **IBM** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Medium | Feb 26, 2026 |
-| **IBM** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Medium | Feb 22, 2026 |
 | **IBM** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Medium | Feb 22, 2026 |
+| **IBM** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Medium | Feb 22, 2026 |
 | **IBM** | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Medium | Nov 07, 2025 |
 | **IBM / Capital One** | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Medium | Nov 03, 2025 |
 | **IBM** | [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Easy | Oct 07, 2025 |
 | **IBM** | [Minimum Link Reallocation to Connect Repositories](https://trueinterview.io/questions/minimum-link-reallocation) | Medium | Sep 21, 2025 |
-| **IBM** | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Medium | Sep 09, 2025 |
 | **IBM** | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Medium | Sep 09, 2025 |
-| **IBM** | [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Medium | — |
-| **IBM** | [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Medium | — |
+| **IBM** | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Medium | Sep 09, 2025 |
 | **Oracle / IBM** | [Merge 2 Arrays](https://trueinterview.io/questions/4920427a-c447-463d-8860-284fa28e7649) | Easy | — |
-| **IBM** | [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Medium | — |
-| **IBM** | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Medium | — |
-| **IBM** | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Medium | — |
 | **IBM** | [Reverse Last Two Characters with a Space](https://trueinterview.io/questions/aed17c65-c5b3-4e56-a00d-9edbfd9f0f59) | Easy | — |
-| **Ramp / Amazon / Bloomberg / eBay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |
+| **IBM** | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Medium | — |
+| **IBM** | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Medium | — |
+| **IBM** | [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Medium | — |
+| **IBM** | [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Medium | — |
+| **IBM** | [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Medium | — |
+| **Ramp / Amazon / Bloomberg / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

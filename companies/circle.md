@@ -84,7 +84,7 @@ The 5 questions to open first if you are preparing for Circle. **This is not a r
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Low-Level Design | Medium | — |
-| [Task Query by Time and Name Filter with Sorting](https://trueinterview.io/questions/091d8486-b41a-4846-8a15-c30d696e1a7f) | Algorithm | Medium | — |
-| [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | Low-Level Design | Hard | — |
-| [User Quota Scheduling with Expiring Assignments](https://trueinterview.io/questions/352f05c4-1319-4655-a5b4-7ce1c67f972c) | Algorithm | Hard | — |
 | [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc) | Algorithm | Easy | — |
+| [User Quota Scheduling with Expiring Assignments](https://trueinterview.io/questions/352f05c4-1319-4655-a5b4-7ce1c67f972c) | Algorithm | Hard | — |
+| [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | Low-Level Design | Hard | — |
+| [Task Query by Time and Name Filter with Sorting](https://trueinterview.io/questions/091d8486-b41a-4846-8a15-c30d696e1a7f) | Algorithm | Medium | — |

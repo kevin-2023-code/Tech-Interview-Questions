@@ -90,11 +90,11 @@ The 8 questions to open first if you are preparing for HubSpot, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
-| [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country) | Algorithm | Medium | Jan 19, 2026 |
-| [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment) | Algorithm | Medium | Jan 19, 2026 |
-| [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree) | Algorithm | Medium | Jan 19, 2026 |
-| [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Algorithm | Hard | Jan 19, 2026 |
 | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | Jan 19, 2026 |
+| [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Algorithm | Hard | Jan 19, 2026 |
+| [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree) | Algorithm | Medium | Jan 19, 2026 |
+| [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment) | Algorithm | Medium | Jan 19, 2026 |
+| [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country) | Algorithm | Medium | Jan 19, 2026 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Low-Level Design | Medium | Dec 15, 2025 |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |

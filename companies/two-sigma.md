@@ -119,24 +119,24 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
+| [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | May 10, 2026 |
 | [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | May 10, 2026 |
 | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | Algorithm | Medium | May 10, 2026 |
-| [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | May 10, 2026 |
 | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Low-Level Design | Medium | Apr 07, 2026 |
-| [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
 | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Algorithm | Medium | Mar 25, 2026 |
+| [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
 | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Algorithm | Medium | Feb 18, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Huffman-Style Binary Encode / Decode](https://trueinterview.io/questions/huffman-style-binary-encode-decode) | Algorithm | Hard | Dec 15, 2025 |
 | [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree) | Algorithm | Hard | Nov 18, 2025 |
 | [HashMap from Scratch](https://trueinterview.io/questions/hashmap-from-scratch) | Low-Level Design | Medium | Nov 13, 2025 |
 | [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Low-Level Design | Medium | Oct 13, 2025 |
-| [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) | Algorithm | Hard | Oct 09, 2025 |
 | [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round) | Algorithm | Medium | Oct 09, 2025 |
+| [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) | Algorithm | Hard | Oct 09, 2025 |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
-| [Calculate y/x using Patch](https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796) | Algorithm | Easy | — |
-| [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7) | Algorithm | Medium | — |
-| [Redundant Connection: Underground Pipes](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) | Algorithm | Medium | — |
-| [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Algorithm | Medium | — |
-| [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Algorithm | Medium | — |
 | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Algorithm | Medium | — |
+| [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Algorithm | Medium | — |
+| [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Algorithm | Medium | — |
+| [Redundant Connection: Underground Pipes](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) | Algorithm | Medium | — |
+| [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7) | Algorithm | Medium | — |
+| [Calculate y/x using Patch](https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796) | Algorithm | Easy | — |

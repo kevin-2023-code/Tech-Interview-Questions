@@ -115,9 +115,9 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Low-Level Design | Medium | Jun 15, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
 | [Contains Duplicate III](https://trueinterview.io/questions/contains-duplicate-iii) | Algorithm | Medium | May 26, 2026 |
+| [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Low-Level Design | Medium | May 21, 2026 |
 | [Design an Ads Frequency Cap System](https://trueinterview.io/questions/design-an-ads-frequency-cap-system) | System Design | Hard | May 21, 2026 |
 | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | Low-Level Design | Medium | May 21, 2026 |
-| [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Low-Level Design | Medium | May 21, 2026 |
 | [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Low-Level Design | Hard | May 12, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
 | [Design a File Backup System](https://trueinterview.io/questions/design-a-file-backup-system) | System Design | Medium | May 01, 2026 |
@@ -152,27 +152,27 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns) | Algorithm | Medium | Jan 02, 2026 |
 | [Number Pairs That Match Target](https://trueinterview.io/questions/number-pairs-that-match-target) | Algorithm | Easy | Jan 01, 2026 |
 | [Spam Email Detection](https://trueinterview.io/questions/spam-email-detection) | Low-Level Design | Medium | Jan 01, 2026 |
-| [Count the Number of String Pairs With No Common Characters](https://trueinterview.io/questions/044e7295-5015-4975-b30c-5cdc060ccec8) | Algorithm | Medium | — |
 | [Homepage Title Deduplication](https://trueinterview.io/questions/homepage-title-deduplication) | Algorithm | Easy | — |
-| [Music Playlist Implementation](https://trueinterview.io/questions/07093608-c84a-4bc2-bee5-c906cb37cba6) | Low-Level Design | Medium | — |
-| [User Last Order Date and Order Count SQL Query](https://trueinterview.io/questions/271dd842-2fcc-4d29-834a-4db7987216dd) | SQL | Medium | — |
-| [Command Executor with Execute and Undo](https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968) | Low-Level Design | Medium | — |
-| [SQL Query to Retrieve User IDs and Names from Users Table](https://trueinterview.io/questions/46cf5bbc-362f-41d2-87e4-5ec71acac4ad) | SQL | Easy | — |
-| [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf) | Low-Level Design | Medium | — |
-| [Implement a Multithreaded Map](https://trueinterview.io/questions/5eae4920-e16f-4632-91b8-6f8ebdd6d4a1) | Low-Level Design | Medium | — |
-| [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Algorithm | Easy | — |
-| [Bucket Users by Movie Completion Percentage from an Event Stream](https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf) | Algorithm | Medium | — |
-| [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Low-Level Design | Medium | — |
+| [Count the Number of String Pairs With No Common Characters](https://trueinterview.io/questions/044e7295-5015-4975-b30c-5cdc060ccec8) | Algorithm | Medium | — |
 | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec) | Algorithm | Easy | — |
-| [Sort Dictionary Keys](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) | Algorithm | Easy | — |
-| [Auto-Expire Cache](https://trueinterview.io/questions/auto-expire-cache) | Low-Level Design | Medium | — |
-| [Inverted Index with Phrase Search](https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6) | Algorithm | Medium | — |
-| [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | Algorithm | Easy | — |
-| [Countdown Latch](https://trueinterview.io/questions/countdown-latch) | Low-Level Design | Medium | — |
-| [Calculate Kullback-Leibler Divergence Between Two Distributions](https://trueinterview.io/questions/d511049a-0e9c-4ef8-8716-7ed85fb33120) | Algorithm | Easy | — |
-| [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Low-Level Design | Medium | — |
-| [DFS: Print Each Node's Level and Whether It Is Balanced](https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42) | Algorithm | Medium | — |
-| [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Algorithm | Medium | — |
+| [Command Executor with Execute and Undo](https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968) | Low-Level Design | Medium | — |
+| [Music Playlist Implementation](https://trueinterview.io/questions/07093608-c84a-4bc2-bee5-c906cb37cba6) | Low-Level Design | Medium | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Hard | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
+| [Countdown Latch](https://trueinterview.io/questions/countdown-latch) | Low-Level Design | Medium | — |
+| [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Algorithm | Medium | — |
+| [DFS: Print Each Node's Level and Whether It Is Balanced](https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42) | Algorithm | Medium | — |
+| [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Low-Level Design | Medium | — |
+| [Calculate Kullback-Leibler Divergence Between Two Distributions](https://trueinterview.io/questions/d511049a-0e9c-4ef8-8716-7ed85fb33120) | Algorithm | Easy | — |
+| [Inverted Index with Phrase Search](https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6) | Algorithm | Medium | — |
+| [Sort Dictionary Keys](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) | Algorithm | Easy | — |
+| [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Low-Level Design | Medium | — |
+| [Bucket Users by Movie Completion Percentage from an Event Stream](https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf) | Algorithm | Medium | — |
+| [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Algorithm | Easy | — |
+| [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf) | Low-Level Design | Medium | — |
+| [SQL Query to Retrieve User IDs and Names from Users Table](https://trueinterview.io/questions/46cf5bbc-362f-41d2-87e4-5ec71acac4ad) | SQL | Easy | — |
+| [User Last Order Date and Order Count SQL Query](https://trueinterview.io/questions/271dd842-2fcc-4d29-834a-4db7987216dd) | SQL | Medium | — |
+| [Implement a Multithreaded Map](https://trueinterview.io/questions/5eae4920-e16f-4632-91b8-6f8ebdd6d4a1) | Low-Level Design | Medium | — |
 | [Friends by Last-K Movie Overlap](https://trueinterview.io/questions/movie-history-friends-ii) | Algorithm | Medium | — |
+| [Auto-Expire Cache](https://trueinterview.io/questions/auto-expire-cache) | Low-Level Design | Medium | — |
+| [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | Algorithm | Easy | — |

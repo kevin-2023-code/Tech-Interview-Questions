@@ -97,11 +97,11 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | System Design | Medium | Apr 06, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
-| [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list) | Algorithm | Easy | Nov 11, 2025 |
-| [Design an Interactive Paginator](https://trueinterview.io/questions/design-an-interactive-paginator) | Algorithm | Medium | Nov 11, 2025 |
-| [Find Nearest Exit in Maze](https://trueinterview.io/questions/find-nearest-exit-in-maze) | Algorithm | Medium | Nov 11, 2025 |
-| [Find Valid Sock Pairs](https://trueinterview.io/questions/find-valid-sock-pairs) | Algorithm | Medium | Nov 11, 2025 |
-| [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
-| [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Low-Level Design | Easy | Nov 11, 2025 |
 | [Racing Points and Winner](https://trueinterview.io/questions/racing-points-and-winner) | Algorithm | Medium | Nov 11, 2025 |
+| [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Low-Level Design | Easy | Nov 11, 2025 |
+| [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
+| [Find Valid Sock Pairs](https://trueinterview.io/questions/find-valid-sock-pairs) | Algorithm | Medium | Nov 11, 2025 |
+| [Find Nearest Exit in Maze](https://trueinterview.io/questions/find-nearest-exit-in-maze) | Algorithm | Medium | Nov 11, 2025 |
+| [Design an Interactive Paginator](https://trueinterview.io/questions/design-an-interactive-paginator) | Algorithm | Medium | Nov 11, 2025 |
+| [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list) | Algorithm | Easy | Nov 11, 2025 |
 | [Build Binary Tree From Character Counts](https://trueinterview.io/questions/build-binary-tree-from-character-counts-2) | Algorithm | Medium | — |

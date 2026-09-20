@@ -69,7 +69,7 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | 🆕 Aug 09, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Hard | Jul 29, 2026 |
 | **xAI** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | Hard | Jul 22, 2026 |
 | **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Medium | Jul 15, 2026 |
@@ -79,46 +79,46 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | **Uber / Anthropic / Google / Lyft / Meta / Snapchat** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | Medium | Jun 21, 2026 |
 | **OpenAI** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Medium | Jun 20, 2026 |
 | **OpenAI** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Hard | Jun 19, 2026 |
-| **OpenAI / Anthropic** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Medium | Jun 19, 2026 |
 | **OpenAI** | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | Hard | Jun 19, 2026 |
+| **OpenAI / Anthropic** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Medium | Jun 19, 2026 |
 | **Apple / Scale AI** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Hard | Jun 16, 2026 |
 | **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Medium | Jun 15, 2026 |
-| **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Hard | Jun 15, 2026 |
-| **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
 | **Anthropic** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Medium | Jun 15, 2026 |
 | **Anthropic** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | Medium | Jun 15, 2026 |
+| **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Hard | Jun 15, 2026 |
+| **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
 | **Scale AI** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Hard | Jun 14, 2026 |
 | **OpenAI** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Medium | Jun 12, 2026 |
 | **Harvey** | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | Medium | Jun 11, 2026 |
+| **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
 | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Hard | Jun 11, 2026 |
-| **OpenAI / eBay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
 | **Anthropic** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Medium | Jun 10, 2026 |
 | **OpenAI** | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | Hard | Jun 09, 2026 |
 | **OpenAI / Perplexity** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Hard | Jun 08, 2026 |
-| **Anthropic** | [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability) | Hard | Jun 04, 2026 |
 | **Anthropic** | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) | Medium | Jun 04, 2026 |
 | **Anthropic** | [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design) | Hard | Jun 04, 2026 |
+| **Anthropic** | [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability) | Hard | Jun 04, 2026 |
 | **Anthropic** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | Medium | Jun 02, 2026 |
 | **Anthropic** | [LRU Cache (Python)](https://trueinterview.io/questions/lru-cache-python) | Hard | Jun 2026 |
-| **Anthropic** | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Medium | Jun 2026 |
-| **Anthropic** | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | Medium | Jun 2026 |
-| **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **Anthropic** | [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python) | Medium | Jun 2026 |
-| **OpenAI** | [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Hard | May 31, 2026 |
+| **Anthropic** | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | Medium | Jun 2026 |
+| **Anthropic** | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Medium | Jun 2026 |
+| **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **OpenAI** | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Medium | May 31, 2026 |
+| **OpenAI** | [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Hard | May 31, 2026 |
 | **OpenAI** | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Hard | May 31, 2026 |
 | **Anthropic** | [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor) | Medium | May 30, 2026 |
 | **Anthropic** | [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) | Medium | May 28, 2026 |
-| **Anthropic / Google** | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Medium | May 28, 2026 |
 | **Anthropic** | [File Systems](https://trueinterview.io/questions/oa-file-systems) | Medium | May 28, 2026 |
-| **Anthropic** | [DNS Resolver (Fellows CodeSignal, Round 1)](https://trueinterview.io/questions/oa-fellows-dns-resolver) | Hard | May 27, 2026 |
+| **Anthropic / Google** | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Medium | May 28, 2026 |
 | **Anthropic** | [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management) | Hard | May 27, 2026 |
-| **OpenAI** | [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | Hard | May 26, 2026 |
-| **Amazon / Anthropic / xAI** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | Medium | May 26, 2026 |
+| **Anthropic** | [DNS Resolver (Fellows CodeSignal, Round 1)](https://trueinterview.io/questions/oa-fellows-dns-resolver) | Hard | May 27, 2026 |
 | **OpenAI** | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | Hard | May 26, 2026 |
-| **Perplexity** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Medium | May 26, 2026 |
+| **Amazon / Anthropic / xAI** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | Medium | May 26, 2026 |
 | **OpenAI** | [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Medium | May 26, 2026 |
+| **Perplexity** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Medium | May 26, 2026 |
+| **OpenAI** | [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | Hard | May 26, 2026 |
 | **Databricks / OpenAI** | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | Hard | May 22, 2026 |
 | **OpenAI** | [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Medium | May 20, 2026 |
 | **OpenAI** | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Medium | May 15, 2026 |
@@ -139,11 +139,11 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | **LinkedIn / Amazon / Google / Meta / Microsoft AI / Perplexity / Pinterest** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | Medium | Apr 16, 2026 |
 | **Perplexity** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | Medium | Apr 12, 2026 |
 | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
-| **xAI** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | Hard | Apr 04, 2026 |
 | **xAI** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Medium | Apr 04, 2026 |
+| **xAI** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | Hard | Apr 04, 2026 |
 | **xAI** | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Medium | Apr 02, 2026 |
-| **Harvey** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Medium | Apr 2026 |
 | **xAI** | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Hard | Apr 01, 2026 |
+| **Harvey** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Medium | Apr 2026 |
 | **Databricks / Anthropic / Netflix / OpenAI** | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | Hard | Apr 2026 |
 | **xAI / Atlassian / Expedia / LinkedIn / Snowflake** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Medium | Apr 01, 2026 |
 | **OpenAI** | [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug) | Hard | Apr 2026 |
@@ -165,17 +165,17 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | **Scale AI / Verkada** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Medium | Feb 16, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
 | **xAI / Amazon / Bloomberg / ByteDance / Citadel / Google / LinkedIn / Microsoft / Netflix / Snapchat** | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Medium | Feb 01, 2026 |
-| **OpenAI** | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | Medium | Feb 01, 2026 |
 | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | [Design Youtube](https://trueinterview.io/questions/design-youtube) | Medium | Feb 2026 |
+| **OpenAI** | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | Medium | Feb 01, 2026 |
 | **xAI** | [Agentic Workflow for 1-Hour Movie Generation](https://trueinterview.io/questions/agentic-one-hour-movie-generation) | Medium | Jan 29, 2026 |
 | **xAI** | [Rate Limiter — Inbound + Outbound](https://trueinterview.io/questions/rate-limiter-design) | Medium | Jan 28, 2026 |
 | **xAI** | [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home) | Hard | Jan 28, 2026 |
 | **xAI** | [Checkers Game](https://trueinterview.io/questions/checkers-backend-design) | Medium | Jan 26, 2026 |
 | **xAI** | [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time) | Medium | Jan 26, 2026 |
-| **OpenAI / Airbnb / LinkedIn** | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | Medium | Jan 22, 2026 |
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Jan 22, 2026 |
-| **xAI** | [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Medium | Jan 15, 2026 |
+| **OpenAI / Airbnb / LinkedIn** | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | Medium | Jan 22, 2026 |
 | **xAI** | [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort) | Medium | Jan 15, 2026 |
+| **xAI** | [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Medium | Jan 15, 2026 |
 | **xAI** | [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window) | Hard | Jan 14, 2026 |
 | **Perplexity** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Hard | Jan 06, 2026 |
 | **Citadel / Luma AI** | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Hard | Jan 05, 2026 |
@@ -196,110 +196,110 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
 | **OpenAI / ByteDance / Uber** | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | Hard | Oct 19, 2025 |
 | **OpenAI** | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | Medium | Oct 18, 2025 |
-| **Amazon / Confluent / eBay / Google / Microsoft / OpenAI / Roblox / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
+| **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
 | **Perplexity** | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Medium | Oct 12, 2025 |
 | **Perplexity** | [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Medium | Oct 09, 2025 |
 | **OpenAI** | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | Medium | Oct 07, 2025 |
 | **Perplexity** | [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path) | Medium | Oct 03, 2025 |
 | **Perplexity** | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Medium | Aug 09, 2025 |
 | **Ramp / OpenAI** | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Medium | Jun 2025 |
-| **Moveworks** | [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c) | Medium | — |
-| **Moveworks** | [Find Maximum Number of Strings](https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019) | Medium | — |
 | **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
+| **Moveworks** | [Find Maximum Number of Strings](https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019) | Medium | — |
+| **Moveworks** | [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c) | Medium | — |
 | **Harvey** | [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Medium | — |
-| **Luma AI** | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | Easy | — |
-| **Luma AI** | [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410) | Easy | — |
-| **Luma AI** | [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571) | Medium | — |
-| **Luma AI** | [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Hard | — |
 | **Luma AI** | [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4) | Easy | — |
+| **Luma AI** | [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Hard | — |
+| **Luma AI** | [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571) | Medium | — |
+| **Luma AI** | [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410) | Easy | — |
+| **Luma AI** | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | Easy | — |
 | **Microsoft / Microsoft AI** | [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2) | Medium | — |
 | **OpenAI** | [ML Coding with NP and NN Layers](https://trueinterview.io/questions/59c77c9a-49d0-4955-be64-91473bb8ab7f) | Easy | — |
-| **Figma / eBay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
-| **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
-| **Coinbase / Anthropic / HubSpot / Microsoft AI / Ramp** | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Easy | — |
-| **OpenAI / Meta** | [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Medium | — |
 | **Yelp / xAI** | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Medium | — |
+| **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
+| **OpenAI / Meta** | [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Medium | — |
 | **Microsoft AI / Microsoft** | [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Medium | — |
-| **Harvey** | [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2) | Medium | — |
-| **Harvey** | [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce) | Hard | — |
-| **Harvey** | [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Medium | — |
+| **Figma / Ebay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
+| **Coinbase / Anthropic / HubSpot / Microsoft AI / Ramp** | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Easy | — |
 | **Lyft / Anthropic / Google / Meta / Snapchat / Uber** | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | Medium | — |
 | **Harvey** | [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e) | Medium | — |
+| **Harvey** | [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce) | Hard | — |
+| **Harvey** | [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2) | Medium | — |
+| **Harvey** | [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Medium | — |
 | **Scale AI** | [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4) | Hard | — |
 | **OpenAI** | [Infectious Disease Simulation (Multi-part)](https://trueinterview.io/questions/06f15ce5-2ae4-473c-baa8-1edfdb0936f8) | Medium | — |
 | **OpenAI** | [Implement a Minimal SQL-Like Query Engine Over an In-Memory Database](https://trueinterview.io/questions/2b9e4599-47c1-4076-8f8f-b04086ee8a88) | Medium | — |
-| **Anthropic** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Medium | — |
-| **Scale AI** | [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | Medium | — |
-| **Perplexity** | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | Medium | — |
 | **Anthropic / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
-| **ByteDance / Airbnb / Databricks / eBay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | Hard | — |
-| **Scale AI** | [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c) | Hard | — |
-| **Scale AI** | [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0) | Medium | — |
-| **Anthropic** | [Process Cat Images](https://trueinterview.io/questions/a91f29c5-e919-47ed-b1fd-aa5470b62735) | Easy | — |
+| **Anthropic** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Medium | — |
 | **Anthropic** | [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Medium | — |
-| **Anthropic** | [Numpy Debugging Task](https://trueinterview.io/questions/cf0e36da-02f9-46a9-be16-dd6fac7d456c) | Medium | — |
 | **xAI / Lyft** | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Hard | — |
-| **OpenAI** | [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | Hard | — |
-| **OpenAI** | [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | Hard | — |
-| **OpenAI** | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Medium | — |
-| **Anthropic** | [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f) | Medium | — |
-| **Anthropic** | [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | Medium | — |
-| **Anthropic** | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | Medium | — |
-| **Anthropic** | [Python Class and Data Structures](https://trueinterview.io/questions/1c35c2c1-9209-49c2-8ad6-aca71db1ffdb) | Easy | — |
-| **Anthropic** | [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a) | Easy | — |
-| **OpenAI** | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | Hard | — |
-| **OpenAI** | [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Medium | — |
-| **OpenAI** | [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | Hard | — |
-| **Anthropic** | [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a) | Medium | — |
-| **OpenAI** | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | Medium | — |
-| **OpenAI** | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Hard | — |
-| **OpenAI** | [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | Easy | — |
-| **Anthropic** | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | Hard | — |
-| **OpenAI / Uber** | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Medium | — |
-| **OpenAI** | [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | Hard | — |
-| **OpenAI / Perplexity** | [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Medium | — |
-| **OpenAI** | [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Medium | — |
-| **OpenAI** | [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Medium | — |
-| **OpenAI** | [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Medium | — |
-| **OpenAI** | [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | Hard | — |
-| **OpenAI** | [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Hard | — |
-| **Anthropic** | [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | Easy | — |
-| **Anthropic** | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | Hard | — |
-| **Anthropic** | [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) | Medium | — |
-| **OpenAI** | [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9) | Hard | — |
-| **Anthropic** | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | Medium | — |
-| **xAI** | [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Medium | — |
-| **Perplexity** | [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719) | Medium | — |
-| **OpenAI** | [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) | Medium | — |
-| **OpenAI** | [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | Medium | — |
-| **OpenAI** | [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | Medium | — |
-| **OpenAI** | [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Medium | — |
-| **OpenAI** | [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Medium | — |
-| **OpenAI / ByteDance / OKX** | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Medium | — |
-| **Anthropic** | [Implement a Function 'get_when' in an In-Memory Database](https://trueinterview.io/questions/b6750541-51ba-4dfa-93b2-568a0c81515b) | Easy | — |
-| **Anthropic** | [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) | Medium | — |
-| **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Medium | — |
-| **xAI** | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Medium | — |
-| **OpenAI** | [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Easy | — |
-| **Anthropic** | [Python Data Analysis on a Provided Dataset (Capacity Management Context)](https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719) | Hard | — |
-| **OpenAI** | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | Medium | — |
-| **Anthropic** | [Image Transformation using Python Libraries](https://trueinterview.io/questions/d5535584-0980-47fb-862d-6f9f7569791d) | Medium | — |
-| **OpenAI** | [Toy Language Interpreter](https://trueinterview.io/questions/d7b129eb-5166-4c1e-97bc-02132d748c47) | Easy | — |
-| **Anthropic** | [File Profiler](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) | Easy | — |
+| **Scale AI** | [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0) | Medium | — |
+| **Scale AI** | [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c) | Hard | — |
+| **Perplexity** | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | Medium | — |
+| **ByteDance / Airbnb / Databricks / Ebay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | Hard | — |
+| **Anthropic** | [Numpy Debugging Task](https://trueinterview.io/questions/cf0e36da-02f9-46a9-be16-dd6fac7d456c) | Medium | — |
+| **Anthropic** | [Process Cat Images](https://trueinterview.io/questions/a91f29c5-e919-47ed-b1fd-aa5470b62735) | Easy | — |
+| **Scale AI** | [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | Medium | — |
 | **OpenAI** | [Chatbot Channel: Multi-bot Message Router](https://trueinterview.io/questions/ddd9458c-76ca-4204-a65c-df13f65c5a0e) | Hard | — |
-| **xAI** | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | Medium | — |
+| **Anthropic** | [Image Transformation using Python Libraries](https://trueinterview.io/questions/d5535584-0980-47fb-862d-6f9f7569791d) | Medium | — |
+| **xAI** | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Medium | — |
+| **OpenAI / Uber** | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Medium | — |
+| **OpenAI** | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Hard | — |
+| **OpenAI** | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | Hard | — |
+| **Anthropic** | [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f) | Medium | — |
+| **OpenAI** | [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | Hard | — |
 | **xAI** | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | Easy | — |
-| **xAI** | [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | Easy | — |
-| **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |
+| **xAI** | [Radix Cache](https://trueinterview.io/questions/radix-cache) | Hard | — |
 | **xAI** | [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache) | Medium | — |
-| **OpenAI** | [Draw Paths / Strokes on a Set of Points](https://trueinterview.io/questions/e27c0df7-1849-4946-8f9d-70773e7d96e3) | Medium | — |
-| **OpenAI** | [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | Hard | — |
-| **OpenAI** | [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Medium | — |
-| **OpenAI** | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Hard | — |
-| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
-| **Perplexity** | [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f) | Medium | — |
-| **OpenAI** | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | Medium | — |
 | **Rippling / xAI** | [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Medium | — |
 | **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
-| **xAI** | [Radix Cache](https://trueinterview.io/questions/radix-cache) | Hard | — |
+| **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |
 | **Perplexity** | [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Medium | — |
+| **xAI** | [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Medium | — |
+| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
+| **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Medium | — |
+| **Perplexity** | [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f) | Medium | — |
+| **Perplexity** | [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719) | Medium | — |
+| **OpenAI** | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | Medium | — |
+| **OpenAI** | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Hard | — |
+| **OpenAI** | [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Medium | — |
+| **OpenAI** | [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | Hard | — |
+| **OpenAI** | [Draw Paths / Strokes on a Set of Points](https://trueinterview.io/questions/e27c0df7-1849-4946-8f9d-70773e7d96e3) | Medium | — |
+| **OpenAI** | [Toy Language Interpreter](https://trueinterview.io/questions/d7b129eb-5166-4c1e-97bc-02132d748c47) | Easy | — |
+| **OpenAI** | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | Medium | — |
+| **OpenAI** | [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Easy | — |
+| **OpenAI / ByteDance / OKX** | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Medium | — |
+| **OpenAI** | [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Medium | — |
+| **OpenAI** | [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | Medium | — |
+| **OpenAI** | [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | Medium | — |
+| **OpenAI** | [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) | Medium | — |
+| **OpenAI** | [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9) | Hard | — |
+| **OpenAI** | [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Hard | — |
+| **OpenAI** | [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | Hard | — |
+| **OpenAI** | [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Medium | — |
+| **OpenAI** | [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Medium | — |
+| **OpenAI / Perplexity** | [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Medium | — |
+| **OpenAI** | [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | Hard | — |
+| **OpenAI** | [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | Easy | — |
+| **OpenAI** | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | Medium | — |
+| **OpenAI** | [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | Hard | — |
+| **OpenAI** | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Medium | — |
+| **OpenAI** | [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | Hard | — |
+| **Anthropic** | [File Profiler](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) | Easy | — |
+| **Anthropic** | [Python Data Analysis on a Provided Dataset (Capacity Management Context)](https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719) | Hard | — |
+| **Anthropic** | [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) | Medium | — |
+| **Anthropic** | [Implement a Function 'get_when' in an In-Memory Database](https://trueinterview.io/questions/b6750541-51ba-4dfa-93b2-568a0c81515b) | Easy | — |
+| **Anthropic** | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | Medium | — |
+| **Anthropic** | [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) | Medium | — |
+| **Anthropic** | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | Hard | — |
+| **Anthropic** | [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | Easy | — |
+| **Anthropic** | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | Hard | — |
+| **Anthropic** | [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a) | Medium | — |
+| **Anthropic** | [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a) | Easy | — |
+| **Anthropic** | [Python Class and Data Structures](https://trueinterview.io/questions/1c35c2c1-9209-49c2-8ad6-aca71db1ffdb) | Easy | — |
+| **Anthropic** | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | Medium | — |
+| **Anthropic** | [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | Medium | — |
+| **xAI** | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | Medium | — |
+| **OpenAI** | [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Medium | — |
+| **OpenAI** | [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Medium | — |
+| **xAI** | [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | Easy | — |
+| **OpenAI** | [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Medium | — |

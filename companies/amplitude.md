@@ -96,7 +96,7 @@ The 6 questions to open first if you are preparing for Amplitude, ranked by **th
 | :-- | :-- | :-: | :-- |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | Low-Level Design | Medium | Oct 02, 2025 |
 | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Low-Level Design | Medium | — |
-| [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | Algorithm | Medium | — |
-| [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | — |
-| [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | — |
 | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | — |
+| [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | — |
+| [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | — |
+| [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | Algorithm | Medium | — |

@@ -67,7 +67,7 @@
 | [Atlassian](../companies/atlassian.md) | 39 | 4 | 9 | 0 | Apr 21, 2026 | Algorithm | `hashing` |
 | [Citadel](../companies/citadel.md) | 32 | 11 | 5 | 0 | Jun 13, 2026 | Algorithm | `binary-search` |
 | [xAI](../companies/xai.md) | 31 | 6 | 5 | 1 | Jul 22, 2026 | Algorithm | `greedy` |
-| [eBay](../companies/ebay.md) | 30 | 1 | 4 | 0 | Jun 17, 2026 | Algorithm | `arrays` |
+| [Ebay](../companies/ebay.md) | 30 | 1 | 4 | 0 | Jun 17, 2026 | Algorithm | `arrays` |
 | [Robinhood](../companies/robinhood.md) | 30 | 6 | 6 | 0 | May 09, 2026 | Algorithm | `graphs` |
 | [Lyft](../companies/lyft.md) | 28 | 3 | 7 | 3 | Jul 29, 2026 | Algorithm | `intervals` |
 | [Tesla](../companies/tesla.md) | 28 | 5 | 3 | 0 | Jun 03, 2026 | Algorithm | `graphs` |
@@ -85,7 +85,7 @@
 | [Two Sigma](../companies/two-sigma.md) | 22 | 6 | 3 | 1 | Jul 29, 2026 | Algorithm | `graphs` |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 21 | 10 | 4 | 1 | Jul 06, 2026 | Algorithm | `hashing` |
 | [Datadog](../companies/datadog.md) | 20 | 1 | 3 | 0 | Mar 23, 2026 | Algorithm | `hashing` |
-| [WeRide](../companies/weride.md) | 20 | 1 | 3 | 1 | Jul 29, 2026 | Algorithm | `graphs` |
+| [Weride](../companies/weride.md) | 20 | 1 | 3 | 1 | Jul 29, 2026 | Algorithm | `graphs` |
 | [IBM](../companies/ibm.md) | 19 | 3 | 2 | 0 | May 30, 2026 | Algorithm | `greedy` |
 | [Pinduoduo](../companies/pinduoduo.md) | 19 | 3 | 3 | 3 | Jul 30, 2026 | Algorithm | `arrays` |
 | [Cisco](../companies/cisco.md) | 18 | 1 | 2 | 0 | Jun 16, 2026 | Algorithm | `dynamic-programming` |

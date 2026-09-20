@@ -111,19 +111,19 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | May 30, 2026 |
 | [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) | Algorithm | Medium | Apr 25, 2026 |
 | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | Feb 26, 2026 |
-| [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Algorithm | Medium | Feb 22, 2026 |
 | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Algorithm | Medium | Feb 22, 2026 |
+| [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Algorithm | Medium | Feb 22, 2026 |
 | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Algorithm | Medium | Nov 07, 2025 |
 | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Algorithm | Medium | Nov 03, 2025 |
 | [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Low-Level Design | Easy | Oct 07, 2025 |
 | [Minimum Link Reallocation to Connect Repositories](https://trueinterview.io/questions/minimum-link-reallocation) | Algorithm | Medium | Sep 21, 2025 |
-| [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Algorithm | Medium | Sep 09, 2025 |
 | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Algorithm | Medium | Sep 09, 2025 |
-| [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Algorithm | Medium | — |
-| [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Algorithm | Medium | — |
+| [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Algorithm | Medium | Sep 09, 2025 |
 | [Merge 2 Arrays](https://trueinterview.io/questions/4920427a-c447-463d-8860-284fa28e7649) | Algorithm | Easy | — |
-| [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Algorithm | Medium | — |
-| [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Algorithm | Medium | — |
-| [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Algorithm | Medium | — |
 | [Reverse Last Two Characters with a Space](https://trueinterview.io/questions/aed17c65-c5b3-4e56-a00d-9edbfd9f0f59) | Algorithm | Easy | — |
+| [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Algorithm | Medium | — |
+| [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Algorithm | Medium | — |
+| [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Algorithm | Medium | — |
+| [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Algorithm | Medium | — |
+| [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

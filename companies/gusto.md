@@ -75,6 +75,6 @@ The 4 questions to open first if you are preparing for Gusto, ranked by **the mo
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
-| [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | Algorithm | Medium | — |
-| [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Low-Level Design | Medium | — |
 | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Low-Level Design | Easy | — |
+| [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Low-Level Design | Medium | — |
+| [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | Algorithm | Medium | — |

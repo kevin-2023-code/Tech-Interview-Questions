@@ -108,13 +108,13 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Low-Level Design | Medium | Jun 24, 2026 |
 | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Low-Level Design | Medium | Jun 24, 2026 |
+| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Low-Level Design | Medium | Jun 24, 2026 |
 | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Jun 24, 2026 |
 | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | Jun 02, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
-| [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | Apr 20, 2026 |
 | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | Apr 20, 2026 |
-| [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | Algorithm | Medium | Nov 05, 2025 |
+| [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | Apr 20, 2026 |
 | [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3) | Algorithm | Medium | Nov 05, 2025 |
+| [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | Algorithm | Medium | Nov 05, 2025 |
 | [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Algorithm | Easy | — |

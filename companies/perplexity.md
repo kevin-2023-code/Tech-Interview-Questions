@@ -130,9 +130,9 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Low-Level Design | Medium | Aug 09, 2025 |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
 | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | AI Coding | Medium | — |
-| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Low-Level Design | Medium | — |
-| [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719) | Algorithm | Medium | — |
-| [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | System Design | Medium | — |
-| [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f) | Algorithm | Medium | — |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | — |
+| [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | System Design | Medium | — |
 | [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Algorithm | Medium | — |
+| [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f) | Algorithm | Medium | — |
+| [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719) | Algorithm | Medium | — |
+| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Low-Level Design | Medium | — |

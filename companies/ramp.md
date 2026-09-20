@@ -128,11 +128,11 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions) | Algorithm | Hard | Nov 22, 2025 |
 | [Rate Limiter by IP Address](https://trueinterview.io/questions/rate-limiter-by-ip-address) | Algorithm | Medium | Sep 29, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-storage-system) | Algorithm | Medium | Aug 2025 |
-| [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
+| [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
 | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Algorithm | Easy | Apr 2025 |
 | [Maximum Profit from Unordered Stock Price Records](https://trueinterview.io/questions/522363cd-bdb8-5f9b-bfd8-86d74fb6f057) | Algorithm | Medium | — |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
 | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | AI Coding | Medium | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
+| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

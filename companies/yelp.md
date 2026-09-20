@@ -101,12 +101,12 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) | Algorithm | Medium | Apr 21, 2025 |
-| [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Algorithm | Easy | Apr 20, 2025 |
-| [Jaccard Business Similarity](https://trueinterview.io/questions/jaccard-business-similarity) | Algorithm | Easy | Apr 20, 2025 |
-| [Merge Common Substring](https://trueinterview.io/questions/merge-common-substring) | Algorithm | Medium | Apr 20, 2025 |
-| [Prefix Search I](https://trueinterview.io/questions/prefix-search-i) | Algorithm | Medium | Apr 20, 2025 |
-| [Random User Pairing](https://trueinterview.io/questions/random-user-pairing) | Algorithm | Medium | Apr 20, 2025 |
 | [Top Love Message Receivers](https://trueinterview.io/questions/top-love-message-receivers) | Algorithm | Medium | Apr 20, 2025 |
+| [Random User Pairing](https://trueinterview.io/questions/random-user-pairing) | Algorithm | Medium | Apr 20, 2025 |
+| [Prefix Search I](https://trueinterview.io/questions/prefix-search-i) | Algorithm | Medium | Apr 20, 2025 |
+| [Merge Common Substring](https://trueinterview.io/questions/merge-common-substring) | Algorithm | Medium | Apr 20, 2025 |
+| [Jaccard Business Similarity](https://trueinterview.io/questions/jaccard-business-similarity) | Algorithm | Easy | Apr 20, 2025 |
+| [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Algorithm | Easy | Apr 20, 2025 |
 | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | System Design | Hard | — |
 | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Algorithm | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |

@@ -125,10 +125,10 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system) | System Design | Medium | Jun 04, 2026 |
 | [Cursor-Based Pagination Over Sorted Logs](https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs) | Algorithm | Medium | May 24, 2026 |
 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Low-Level Design | Easy | May 20, 2026 |
-| [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Algorithm | Medium | May 19, 2026 |
 | [Recommend Games to a Roblox User](https://trueinterview.io/questions/ml-modeling-game-recommendation) | System Design | Medium | May 19, 2026 |
-| [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Algorithm | Medium | May 09, 2026 |
+| [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Algorithm | Medium | May 19, 2026 |
 | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | May 09, 2026 |
+| [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Algorithm | Medium | May 09, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | System Design | Hard | Apr 18, 2026 |
 | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | System Design | Medium | Apr 13, 2026 |
@@ -154,8 +154,8 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Low-Level Design | Medium | Jan 16, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
-| [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | Low-Level Design | Medium | Dec 23, 2025 |
 | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Algorithm | Medium | Dec 23, 2025 |
+| [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | Low-Level Design | Medium | Dec 23, 2025 |
 | [Remove Prefix String](https://trueinterview.io/questions/remove-prefix-strings) | Algorithm | Medium | Dec 11, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Minimum Height Difference Between Distant Peaks](https://trueinterview.io/questions/minimum-height-difference-between-distant-peaks) | Algorithm | Medium | Dec 09, 2025 |
@@ -167,9 +167,9 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | — |
 | [Optimize the Space of Code in Coding Screen](https://trueinterview.io/questions/92dadf5d-6db1-424c-b110-2cd7b367704d) | AI Coding | Medium | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
-| [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Algorithm | Hard | — |
-| [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Algorithm | Easy | — |
-| [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Algorithm | Easy | — |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
 | [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893) | Algorithm | Medium | — |
+| [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Algorithm | Easy | — |
+| [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Algorithm | Easy | — |
+| [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Algorithm | Hard | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

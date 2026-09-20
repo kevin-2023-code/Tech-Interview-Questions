@@ -129,21 +129,21 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Low-Level Design | Medium | Jul 15, 2026 |
 | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Low-Level Design | Medium | Jun 20, 2026 |
 | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Jun 19, 2026 |
-| [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
 | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | System Design | Hard | Jun 19, 2026 |
+| [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
 | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Low-Level Design | Medium | Jun 12, 2026 |
+| [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Jun 11, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Low-Level Design | Hard | Jun 11, 2026 |
-| [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Jun 11, 2026 |
 | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | AI Coding | Hard | Jun 09, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
 | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Low-Level Design | Medium | Jun 2026 |
-| [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Algorithm | Hard | May 31, 2026 |
 | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Algorithm | Medium | May 31, 2026 |
+| [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Algorithm | Hard | May 31, 2026 |
 | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Algorithm | Hard | May 31, 2026 |
-| [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Hard | May 26, 2026 |
 | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | System Design | Hard | May 26, 2026 |
 | [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Low-Level Design | Medium | May 26, 2026 |
+| [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Hard | May 26, 2026 |
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
 | [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Algorithm | Medium | May 20, 2026 |
 | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Algorithm | Medium | May 15, 2026 |
@@ -157,8 +157,8 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Algorithm | Hard | Mar 09, 2026 |
 | [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Hard | Feb 18, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
-| [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | System Design | Medium | Feb 01, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
+| [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | System Design | Medium | Feb 01, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
 | [Design a Crossword Puzzle Solver](https://trueinterview.io/questions/crossword-puzzle-solver) | System Design | Hard | Jan 05, 2026 |
 | [Implement a CD Command](https://trueinterview.io/questions/implement-a-cd-command) | Algorithm | Hard | Dec 27, 2025 |
@@ -180,36 +180,36 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Infectious Disease Simulation (Multi-part)](https://trueinterview.io/questions/06f15ce5-2ae4-473c-baa8-1edfdb0936f8) | Algorithm | Medium | — |
 | [Implement a Minimal SQL-Like Query Engine Over an In-Memory Database](https://trueinterview.io/questions/2b9e4599-47c1-4076-8f8f-b04086ee8a88) | Low-Level Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
-| [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | AI Coding | Hard | — |
-| [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | AI Coding | Hard | — |
-| [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Algorithm | Medium | — |
-| [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | AI Coding | Hard | — |
-| [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Low-Level Design | Medium | — |
-| [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | AI Coding | Hard | — |
-| [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | SQL | Medium | — |
-| [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Low-Level Design | Hard | — |
-| [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | System Design | Easy | — |
-| [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
-| [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | AI Coding | Hard | — |
-| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Low-Level Design | Medium | — |
-| [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Algorithm | Medium | — |
-| [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Low-Level Design | Medium | — |
-| [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Low-Level Design | Medium | — |
-| [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | AI Coding | Hard | — |
-| [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Algorithm | Hard | — |
-| [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9) | AI Coding | Hard | — |
-| [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) | Algorithm | Medium | — |
-| [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | AI Coding | Medium | — |
-| [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | AI Coding | Medium | — |
-| [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Low-Level Design | Medium | — |
-| [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Low-Level Design | Medium | — |
-| [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Algorithm | Medium | — |
-| [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Algorithm | Easy | — |
-| [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | AI Coding | Medium | — |
-| [Toy Language Interpreter](https://trueinterview.io/questions/d7b129eb-5166-4c1e-97bc-02132d748c47) | Algorithm | Easy | — |
 | [Chatbot Channel: Multi-bot Message Router](https://trueinterview.io/questions/ddd9458c-76ca-4204-a65c-df13f65c5a0e) | Algorithm | Hard | — |
-| [Draw Paths / Strokes on a Set of Points](https://trueinterview.io/questions/e27c0df7-1849-4946-8f9d-70773e7d96e3) | Algorithm | Medium | — |
-| [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | AI Coding | Hard | — |
-| [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Algorithm | Medium | — |
-| [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Algorithm | Hard | — |
+| [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
+| [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Low-Level Design | Hard | — |
+| [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | AI Coding | Hard | — |
+| [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | AI Coding | Hard | — |
 | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | AI Coding | Medium | — |
+| [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Algorithm | Hard | — |
+| [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Algorithm | Medium | — |
+| [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | AI Coding | Hard | — |
+| [Draw Paths / Strokes on a Set of Points](https://trueinterview.io/questions/e27c0df7-1849-4946-8f9d-70773e7d96e3) | Algorithm | Medium | — |
+| [Toy Language Interpreter](https://trueinterview.io/questions/d7b129eb-5166-4c1e-97bc-02132d748c47) | Algorithm | Easy | — |
+| [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | AI Coding | Medium | — |
+| [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Algorithm | Easy | — |
+| [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Algorithm | Medium | — |
+| [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Low-Level Design | Medium | — |
+| [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | AI Coding | Medium | — |
+| [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | AI Coding | Medium | — |
+| [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) | Algorithm | Medium | — |
+| [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9) | AI Coding | Hard | — |
+| [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Algorithm | Hard | — |
+| [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | AI Coding | Hard | — |
+| [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Low-Level Design | Medium | — |
+| [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Algorithm | Medium | — |
+| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Low-Level Design | Medium | — |
+| [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | AI Coding | Hard | — |
+| [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | System Design | Easy | — |
+| [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | SQL | Medium | — |
+| [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | AI Coding | Hard | — |
+| [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Algorithm | Medium | — |
+| [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | AI Coding | Hard | — |
+| [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Low-Level Design | Medium | — |
+| [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Low-Level Design | Medium | — |
+| [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Low-Level Design | Medium | — |

@@ -363,7 +363,7 @@
       "inLastYear": 10,
       "inWindow": 0,
       "lastSighting": "2026-06-17",
-      "name": "eBay",
+      "name": "Ebay",
       "questions": 30,
       "slug": "ebay",
       "topFormat": "Algorithm",
@@ -597,7 +597,7 @@
       "inLastYear": 2,
       "inWindow": 1,
       "lastSighting": "2026-07-29",
-      "name": "WeRide",
+      "name": "Weride",
       "questions": 20,
       "slug": "weride",
       "topFormat": "Algorithm",
@@ -1472,7 +1472,7 @@
         "PayPal",
         "Pinduoduo",
         "Scale AI",
-        "WeRide"
+        "Weride"
       ],
       "formats": {
         "ai-coding": 6,
@@ -1653,7 +1653,7 @@
     {
       "companies": 4,
       "firstReportedCompanies": [
-        "eBay",
+        "Ebay",
         "Ramp",
         "Robinhood",
         "Yelp"
@@ -2617,7 +2617,7 @@
           "slug": "upstart"
         },
         {
-          "name": "WeRide",
+          "name": "Weride",
           "questions": 3,
           "slug": "weride"
         }

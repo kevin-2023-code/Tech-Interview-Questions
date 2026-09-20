@@ -93,6 +93,6 @@ The 7 questions to open first if you are preparing for Whatnot, ranked by **the 
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
+| [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |

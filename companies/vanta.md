@@ -119,8 +119,8 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | Jul 31, 2025 |
 | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Low-Level Design | Medium | Jul 24, 2025 |
 | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Algorithm | Medium | Dec 04, 2024 |
-| [Find All Dependencies](https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558) | Algorithm | Medium | — |
-| [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf) | Algorithm | Medium | — |
-| [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Algorithm | Easy | — |
-| [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Algorithm | Easy | — |
 | [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Algorithm | Medium | — |
+| [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Algorithm | Easy | — |
+| [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf) | Algorithm | Medium | — |
+| [Find All Dependencies](https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558) | Algorithm | Medium | — |
+| [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Algorithm | Easy | — |

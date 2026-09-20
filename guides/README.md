@@ -799,9 +799,9 @@
 | :-- | :-- |
 | [Dropbox Interview Process & Questions](https://trueinterview.io/study/dropbox-interview-process) | — |
 
-### eBay
+### Ebay
 
-<sub>1 guide · [questions at eBay](../companies/ebay.md)</sub>
+<sub>1 guide · [questions at Ebay](../companies/ebay.md)</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -951,9 +951,9 @@
 | :-- | :-- |
 | [Visa Interview Process & Questions](https://trueinterview.io/study/visa-interview-process) | — |
 
-### WeRide
+### Weride
 
-<sub>1 guide · [questions at WeRide](../companies/weride.md)</sub>
+<sub>1 guide · [questions at Weride](../companies/weride.md)</sub>
 
 | Writeup | Topics |
 | :-- | :-- |

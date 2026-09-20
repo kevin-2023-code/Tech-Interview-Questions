@@ -136,8 +136,8 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Metrics & Monitoring Platform](https://trueinterview.io/questions/sd-metrics-monitoring-platform) | System Design | Hard | Mar 20, 2026 |
 | [Design Linkedin Learning Recommendation System](https://trueinterview.io/questions/sd-job-recommendation-ranking) | System Design | Medium | Mar 18, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Low-Level Design | Hard | Mar 17, 2026 |
-| [Max Stack](https://trueinterview.io/questions/coding-max-stack) | Low-Level Design | Hard | Mar 02, 2026 |
 | [Phone Number Word Matching](https://trueinterview.io/questions/coding-phone-letter-combinations) | Algorithm | Medium | Mar 02, 2026 |
+| [Max Stack](https://trueinterview.io/questions/coding-max-stack) | Low-Level Design | Hard | Mar 02, 2026 |
 | [Intersection of Two Linked Lists](https://trueinterview.io/questions/intersection-of-two-linked-lists) | Algorithm | Medium | Mar 02, 2026 |
 | [LinkedIn Skills — Data Mining & ML System Design](https://trueinterview.io/questions/sd-linkedin-skills-extraction) | System Design | Hard | Feb 23, 2026 |
 | [Minimum Sum-of-Distances Meeting Point on a Line](https://trueinterview.io/questions/coding-min-sum-distance-line) | Algorithm | Medium | Feb 17, 2026 |
@@ -155,23 +155,23 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
 | [Incremental Task Scheduler](https://trueinterview.io/questions/incremental-task-scheduler) | Algorithm | Medium | Aug 31, 2025 |
 | [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Algorithm | Hard | Feb 23, 2126 |
-| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
 | [Longest Circular Sequence of Ones](https://trueinterview.io/questions/longest-circular-sequence-of-ones-2) | Algorithm | Hard | — |
+| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
 | [Split Array Largest Sum](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) | Algorithm | Hard | — |
 | [Find the Celebrity with Minimum API Calls](https://trueinterview.io/questions/590462c8-36cd-5a7f-86ee-bb03d9cd3526) | Low-Level Design | Medium | — |
-| [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e) | Algorithm | Hard | — |
-| [Degree of Connection Between LinkedIn Users](https://trueinterview.io/questions/1455a901-868c-4006-973c-c5bbc2c3206d) | Algorithm | Medium | — |
-| [Rankable Object Cache Implementation](https://trueinterview.io/questions/145e29f1-f83c-4a08-ae4e-546b98e07477) | Low-Level Design | Medium | — |
-| [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Algorithm | Medium | — |
-| [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Low-Level Design | Easy | — |
-| [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84) | Algorithm | Easy | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
-| [CPU Execution Time Calculation](https://trueinterview.io/questions/5a23961c-f9e2-4dcb-8484-3040652f49c1) | Algorithm | Medium | — |
-| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
-| [Thread-Safe MultiPut Blocking Queue Implementation and Tests](https://trueinterview.io/questions/a1043767-f728-428e-97b0-7b35c931b3f8) | Low-Level Design | Hard | — |
-| [Binary Tree Traversal using Iterative and Recursive Methods](https://trueinterview.io/questions/af752656-c437-4650-9101-e1f7472265a5) | Algorithm | Medium | — |
-| [Find the Substring](https://trueinterview.io/questions/c3c45cd3-e588-432e-9554-f617ea392df6) | Algorithm | Medium | — |
 | [Meeting Rooms II](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280) | Algorithm | Medium | — |
+| [Find the Substring](https://trueinterview.io/questions/c3c45cd3-e588-432e-9554-f617ea392df6) | Algorithm | Medium | — |
+| [Binary Tree Traversal using Iterative and Recursive Methods](https://trueinterview.io/questions/af752656-c437-4650-9101-e1f7472265a5) | Algorithm | Medium | — |
+| [Thread-Safe MultiPut Blocking Queue Implementation and Tests](https://trueinterview.io/questions/a1043767-f728-428e-97b0-7b35c931b3f8) | Low-Level Design | Hard | — |
+| [CPU Execution Time Calculation](https://trueinterview.io/questions/5a23961c-f9e2-4dcb-8484-3040652f49c1) | Algorithm | Medium | — |
+| [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Algorithm | Medium | — |
+| [Degree of Connection Between LinkedIn Users](https://trueinterview.io/questions/1455a901-868c-4006-973c-c5bbc2c3206d) | Algorithm | Medium | — |
+| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
+| [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e) | Algorithm | Hard | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
-| [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Algorithm | Easy | — |
+| [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84) | Algorithm | Easy | — |
+| [Rankable Object Cache Implementation](https://trueinterview.io/questions/145e29f1-f83c-4a08-ae4e-546b98e07477) | Low-Level Design | Medium | — |
+| [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Low-Level Design | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Algorithm | Easy | — |

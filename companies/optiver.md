@@ -125,8 +125,8 @@ The 8 questions to open first if you are preparing for Optiver, ranked by **the 
 | [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges) | Algorithm | Hard | Jun 15, 2026 |
 | [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock) | Low-Level Design | Medium | May 30, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
-| [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Algorithm | Hard | Feb 06, 2026 |
 | [Target Stock Portfolio Operations](https://trueinterview.io/questions/target-stock-portfolio-operations) | Algorithm | Medium | Feb 06, 2026 |
+| [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Algorithm | Hard | Feb 06, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling) | AI Coding | Hard | Jan 22, 2026 |
 | [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design) | Low-Level Design | Medium | Jan 16, 2026 |
@@ -137,6 +137,6 @@ The 8 questions to open first if you are preparing for Optiver, ranked by **the 
 | [Design Squirrel Nut Tracker](https://trueinterview.io/questions/squirrel-nut-storage) | Low-Level Design | Medium | Oct 07, 2025 |
 | [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation) | Low-Level Design | Medium | Sep 09, 2025 |
 | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | Low-Level Design | Medium | Aug 05, 2025 |
-| [Trading Sequence Counting](https://trueinterview.io/questions/0634993a-4228-496a-bd0a-a0fe61e46e49) | Algorithm | Medium | — |
-| [Optimize Cargo Transport Algorithm](https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc) | Algorithm | Hard | — |
 | [Days Between Dates (Days Between 3.0 V2)](https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6) | Algorithm | Medium | — |
+| [Optimize Cargo Transport Algorithm](https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc) | Algorithm | Hard | — |
+| [Trading Sequence Counting](https://trueinterview.io/questions/0634993a-4228-496a-bd0a-a0fe61e46e49) | Algorithm | Medium | — |

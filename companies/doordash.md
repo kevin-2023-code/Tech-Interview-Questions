@@ -123,15 +123,15 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | System Design | Hard | Jul 02, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Low-Level Design | Medium | Jun 11, 2026 |
-| [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Low-Level Design | Medium | Jun 11, 2026 |
 | [Design Food Review System](https://trueinterview.io/questions/system-design-food-review-system) | System Design | Medium | Jun 11, 2026 |
+| [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Low-Level Design | Medium | Jun 11, 2026 |
 | [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Low-Level Design | Medium | Jun 10, 2026 |
-| [Bottom Quartile Reach](https://trueinterview.io/questions/bottom-quartile-reach) | SQL | Medium | May 23, 2026 |
-| [Monthly Sales Growth](https://trueinterview.io/questions/monthly-sales-growth) | SQL | Medium | May 23, 2026 |
-| [Monthly Top Eligible Customer](https://trueinterview.io/questions/monthly-top-eligible-customer) | SQL | Medium | May 23, 2026 |
-| [Order-Level Request Statistics](https://trueinterview.io/questions/order-level-request-statistics) | SQL | Medium | May 23, 2026 |
-| [Orders with Offer Increase](https://trueinterview.io/questions/orders-with-offer-increase) | SQL | Medium | May 23, 2026 |
 | [Percent of Late Orders](https://trueinterview.io/questions/percent-of-late-orders) | SQL | Easy | May 23, 2026 |
+| [Orders with Offer Increase](https://trueinterview.io/questions/orders-with-offer-increase) | SQL | Medium | May 23, 2026 |
+| [Order-Level Request Statistics](https://trueinterview.io/questions/order-level-request-statistics) | SQL | Medium | May 23, 2026 |
+| [Monthly Top Eligible Customer](https://trueinterview.io/questions/monthly-top-eligible-customer) | SQL | Medium | May 23, 2026 |
+| [Monthly Sales Growth](https://trueinterview.io/questions/monthly-sales-growth) | SQL | Medium | May 23, 2026 |
+| [Bottom Quartile Reach](https://trueinterview.io/questions/bottom-quartile-reach) | SQL | Medium | May 23, 2026 |
 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Low-Level Design | Easy | May 20, 2026 |
 | [Monthly Percentage of High-Frequency Customers](https://trueinterview.io/questions/monthly-percentage-of-high-frequency-customers) | SQL | Medium | May 19, 2026 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
@@ -147,9 +147,9 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | System Design | Medium | Apr 02, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Code Craft: Restaurant Delivery Heatmap](https://trueinterview.io/questions/code-craft-restaurant-heatmap) | Algorithm | Medium | Mar 23, 2026 |
-| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen) | SQL | Medium | Mar 20, 2026 |
 | [Build UI from Mockup with API](https://trueinterview.io/questions/frontend-vo-build-ui) | Low-Level Design | Medium | Mar 20, 2026 |
+| [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | SQL | Hard | Mar 16, 2026 |
 | [Code Craft: Similar Restaurant Names (K-Swap Anagram)](https://trueinterview.io/questions/code-craft-similar-restaurant-names) | Algorithm | Easy | Mar 13, 2026 |
 | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle) | Algorithm | Medium | Feb 07, 2026 |
@@ -163,24 +163,24 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart) | Algorithm | Medium | Aug 23, 2025 |
 | [Design Path Key Value Store](https://trueinterview.io/questions/design-path-key-value-store) | Low-Level Design | Medium | — |
 | [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | System Design | Medium | — |
-| [Calculate Dasher Salary](https://trueinterview.io/questions/calculate-dasher-salary) | Algorithm | Medium | — |
-| [Construct Restaurant Daily Menu](https://trueinterview.io/questions/construct-restaurant-daily-menu) | Algorithm | Medium | — |
 | [Find Eligible Order Sequence](https://trueinterview.io/questions/find-eligible-order-sequence) | Algorithm | Medium | — |
+| [Construct Restaurant Daily Menu](https://trueinterview.io/questions/construct-restaurant-daily-menu) | Algorithm | Medium | — |
+| [Calculate Dasher Salary](https://trueinterview.io/questions/calculate-dasher-salary) | Algorithm | Medium | — |
 | [Dasher Pay](https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f) | Algorithm | Hard | — |
 | [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374) | Algorithm | Medium | — |
-| [Calculate Dasher Pay](https://trueinterview.io/questions/14422fe4-b9b1-4311-9900-313a365e8e70) | Algorithm | Easy | — |
-| [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Algorithm | Medium | — |
-| [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076) | AI Coding | Medium | — |
-| [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | SQL | Easy | — |
-| [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | SQL | Medium | — |
-| [Minimum Number of Couriers Needed (Meeting Rooms II Variant)](https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d) | Algorithm | Medium | — |
 | [Minimum Replacements to Make Two Strings Anagrams](https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf) | Algorithm | Medium | — |
-| [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833) | Low-Level Design | Medium | — |
-| [Generate Date String Every 5 Minutes](https://trueinterview.io/questions/c1d19781-02fc-46d8-a28c-3e5a7969e244) | Algorithm | Easy | — |
-| [Dasher Pay Classic Problem](https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187) | Algorithm | Medium | — |
-| [Max Sum Sliding Window and Return Start Days (1-based)](https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39) | Algorithm | Easy | — |
-| [Dasher Picker](https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88) | Low-Level Design | Medium | — |
+| [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076) | AI Coding | Medium | — |
+| [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Calculate Total Payment for Dasher](https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec) | Algorithm | Medium | — |
+| [Dasher Picker](https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88) | Low-Level Design | Medium | — |
+| [Max Sum Sliding Window and Return Start Days (1-based)](https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39) | Algorithm | Easy | — |
+| [Dasher Pay Classic Problem](https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187) | Algorithm | Medium | — |
+| [Generate Date String Every 5 Minutes](https://trueinterview.io/questions/c1d19781-02fc-46d8-a28c-3e5a7969e244) | Algorithm | Easy | — |
+| [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833) | Low-Level Design | Medium | — |
+| [Minimum Number of Couriers Needed (Meeting Rooms II Variant)](https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d) | Algorithm | Medium | — |
+| [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | SQL | Medium | — |
+| [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | SQL | Easy | — |
+| [Calculate Dasher Pay](https://trueinterview.io/questions/14422fe4-b9b1-4311-9900-313a365e8e70) | Algorithm | Easy | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |
