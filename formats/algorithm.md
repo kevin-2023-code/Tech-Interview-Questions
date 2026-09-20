@@ -11,7 +11,7 @@
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Amazon / ByteDance** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Medium | 🔥 Sep 10, 2026 |
-| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🔥 Sep 05, 2026 |
+| **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | 🆕 Sep 04, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Medium | 🆕 Sep 01, 2026 |
