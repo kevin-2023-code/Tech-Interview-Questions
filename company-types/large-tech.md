@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**859 questions** reported across the **37 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**860 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,38 +10,38 @@
 
 ## The companies in this cut
 
-[Snowflake (88)](../companies/snowflake.md) · [OpenAI (87)](../companies/openai.md) · [Anthropic (63)](../companies/anthropic.md) · [Stripe (61)](../companies/stripe.md) · [Pinterest (60)](../companies/pinterest.md) · [Roblox (54)](../companies/roblox.md) · [Snapchat (49)](../companies/snapchat.md) · [Airbnb (48)](../companies/airbnb.md) · [Coinbase (45)](../companies/coinbase.md) · [xAI (31)](../companies/xai.md) · [Robinhood (30)](../companies/robinhood.md) · [Lyft (28)](../companies/lyft.md) · [SoFi (27)](../companies/sofi.md) · [Reddit (26)](../companies/reddit.md) · [Rippling (26)](../companies/rippling.md) · [Instacart (24)](../companies/instacart.md) · [Verkada (24)](../companies/verkada.md) · [Ramp (23)](../companies/ramp.md) · [Datadog (20)](../companies/datadog.md) · [Figma (18)](../companies/figma.md) · [Confluent (17)](../companies/confluent.md) · [Yelp (17)](../companies/yelp.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Upstart (15)](../companies/upstart.md) · [Affirm (14)](../companies/affirm.md) · [Rubrik (14)](../companies/rubrik.md) · [Shopify (14)](../companies/shopify.md) · [Dropbox (13)](../companies/dropbox.md) · [Scale AI (12)](../companies/scale-ai.md) · [HubSpot (10)](../companies/hubspot.md) · [Okta (10)](../companies/okta.md) · [MongoDB (6)](../companies/mongodb.md) · [Arista (5)](../companies/arista.md) · [OKX (5)](../companies/okx.md) · [Palantir (5)](../companies/palantir.md) · [Faire (4)](../companies/faire.md) · [Gusto (4)](../companies/gusto.md)
+[Snowflake (88)](../companies/snowflake.md) · [OpenAI (87)](../companies/openai.md) · [Anthropic (63)](../companies/anthropic.md) · [Stripe (61)](../companies/stripe.md) · [Pinterest (60)](../companies/pinterest.md) · [Roblox (54)](../companies/roblox.md) · [Snapchat (49)](../companies/snapchat.md) · [Airbnb (48)](../companies/airbnb.md) · [Coinbase (45)](../companies/coinbase.md) · [xAI (31)](../companies/xai.md) · [Robinhood (30)](../companies/robinhood.md) · [Lyft (28)](../companies/lyft.md) · [SoFi (27)](../companies/sofi.md) · [Reddit (26)](../companies/reddit.md) · [Rippling (26)](../companies/rippling.md) · [Instacart (24)](../companies/instacart.md) · [Verkada (24)](../companies/verkada.md) · [Ramp (23)](../companies/ramp.md) · [Datadog (20)](../companies/datadog.md) · [Figma (18)](../companies/figma.md) · [Confluent (17)](../companies/confluent.md) · [Yelp (17)](../companies/yelp.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Upstart (15)](../companies/upstart.md) · [Affirm (14)](../companies/affirm.md) · [Rubrik (14)](../companies/rubrik.md) · [Shopify (14)](../companies/shopify.md) · [Dropbox (13)](../companies/dropbox.md) · [Scale AI (12)](../companies/scale-ai.md) · [HubSpot (10)](../companies/hubspot.md) · [Okta (10)](../companies/okta.md) · [MongoDB (6)](../companies/mongodb.md) · [Arista (5)](../companies/arista.md) · [OKX (5)](../companies/okx.md) · [Palantir (5)](../companies/palantir.md) · [Gusto (4)](../companies/gusto.md) · [Stubhub (3)](../companies/stubhub.md) · [Brex (2)](../companies/brex.md)
 
-<sub>37 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
+<sub>38 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
 ## What this cut asks
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 469 | 55% | ██████████████ | 45 |
-| [Low-Level Design](../formats/low-level-design.md) | 166 | 19% | █████ | 24 |
+| [Algorithm](../formats/algorithm.md) | 466 | 54% | ██████████████ | 44 |
+| [Low-Level Design](../formats/low-level-design.md) | 170 | 20% | █████ | 27 |
 | [System Design](../formats/system-design.md) | 128 | 15% | ████ | 10 |
 | [AI Coding](../formats/ai-coding.md) | 77 | 9% | ██ | 6 |
 | [SQL](../formats/sql.md) | 19 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **113 / 561 / 185**, over the rows the catalog has graded. 85 of the 859 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **114 / 562 / 184**, over the rows the catalog has graded. 87 of the 860 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **337 questions in this cut that carry a topic label** (39% of it):
+Of the **335 questions in this cut that carry a topic label** (39% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 70 | 21% | ████████████ |
 | `strings` | 44 | 13% | ████████ |
-| `arrays` | 42 | 12% | ███████ |
-| `graphs` | 42 | 12% | ███████ |
+| `graphs` | 42 | 13% | ███████ |
+| `arrays` | 41 | 12% | ███████ |
 | `greedy` | 34 | 10% | ██████ |
 | `backtracking` | 23 | 7% | ████ |
 | `heap` | 21 | 6% | ████ |
 | `dynamic-programming` | 20 | 6% | ███ |
-| `sorting` | 20 | 6% | ███ |
 | `stack` | 20 | 6% | ███ |
+| `sorting` | 19 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

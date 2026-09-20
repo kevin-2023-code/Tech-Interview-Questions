@@ -38,7 +38,7 @@ Which stage each question came from, for the **90 of 90** questions at Apple tha
 
 ## Asked here in the last 90 days
 
-**7 sightings** recorded between Jun 22, 2026 and Sep 20, 2026. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |

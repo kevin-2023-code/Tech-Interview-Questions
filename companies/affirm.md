@@ -38,7 +38,7 @@ Which stage each question came from, for the **14 of 14** questions at Affirm th
 
 ## Asked here in the last 90 days
 
-**4 sightings** recorded between Jun 22, 2026 and Sep 20, 2026. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |

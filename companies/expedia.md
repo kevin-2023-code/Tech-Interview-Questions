@@ -38,7 +38,7 @@ Which stage each question came from, for the **25 of 25** questions at Expedia t
 
 ## Asked here in the last 90 days
 
-**1 sighting** recorded between Jun 22, 2026 and Sep 20, 2026. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |

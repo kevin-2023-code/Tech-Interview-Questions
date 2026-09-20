@@ -38,7 +38,7 @@ Which stage each question came from, for the **49 of 49** questions at Snapchat 
 
 ## Asked here in the last 90 days
 
-**1 sighting** recorded between Jun 22, 2026 and Sep 20, 2026. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |

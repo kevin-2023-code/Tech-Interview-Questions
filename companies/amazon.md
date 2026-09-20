@@ -38,7 +38,7 @@ Which stage each question came from, for the **232 of 232** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**49 sightings** recorded between Jun 22, 2026 and Sep 20, 2026. Newest first.
+**49 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |

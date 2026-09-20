@@ -39,7 +39,7 @@ Which stage each question came from, for the **168 of 168** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**11 sightings** recorded between Jun 22, 2026 and Sep 20, 2026. Newest first.
+**11 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |

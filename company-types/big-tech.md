@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**1,122 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,112 questions** reported across the **23 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,37 +10,37 @@
 
 ## The companies in this cut
 
-[Amazon (232)](../companies/amazon.md) · [Meta (168)](../companies/meta.md) · [ByteDance (144)](../companies/bytedance.md) · [Google (141)](../companies/google.md) · [Uber (141)](../companies/uber.md) · [Microsoft (98)](../companies/microsoft.md) · [Apple (90)](../companies/apple.md) · [DoorDash (65)](../companies/doordash.md) · [Netflix (64)](../companies/netflix.md) · [LinkedIn (55)](../companies/linkedin.md) · [Oracle (41)](../companies/oracle.md) · [Atlassian (39)](../companies/atlassian.md) · [eBay (30)](../companies/ebay.md) · [Walmart Labs (28)](../companies/walmart-labs.md) · [NVIDIA (26)](../companies/nvidia.md) · [Expedia (25)](../companies/expedia.md) · [Pinduoduo (19)](../companies/pinduoduo.md) · [Cisco (18)](../companies/cisco.md) · [PayPal (17)](../companies/paypal.md) · [Salesforce (16)](../companies/salesforce.md) · [Intuit (15)](../companies/intuit.md) · [Square (13)](../companies/square.md) · [Microsoft AI (12)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md)
+[Amazon (232)](../companies/amazon.md) · [Meta (168)](../companies/meta.md) · [ByteDance (144)](../companies/bytedance.md) · [Google (141)](../companies/google.md) · [Uber (141)](../companies/uber.md) · [Microsoft (98)](../companies/microsoft.md) · [Apple (90)](../companies/apple.md) · [DoorDash (65)](../companies/doordash.md) · [Netflix (64)](../companies/netflix.md) · [LinkedIn (55)](../companies/linkedin.md) · [Oracle (41)](../companies/oracle.md) · [Atlassian (39)](../companies/atlassian.md) · [eBay (30)](../companies/ebay.md) · [Walmart Labs (28)](../companies/walmart-labs.md) · [NVIDIA (26)](../companies/nvidia.md) · [Expedia (25)](../companies/expedia.md) · [Pinduoduo (19)](../companies/pinduoduo.md) · [Cisco (18)](../companies/cisco.md) · [PayPal (17)](../companies/paypal.md) · [Salesforce (16)](../companies/salesforce.md) · [Intuit (15)](../companies/intuit.md) · [Microsoft AI (12)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md)
 
-<sub>24 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
+<sub>23 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
 ## What this cut asks
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 724 | 65% | ██████████████ | 47 |
-| [Low-Level Design](../formats/low-level-design.md) | 166 | 15% | ███ | 15 |
-| [System Design](../formats/system-design.md) | 133 | 12% | ███ | 12 |
+| [Algorithm](../formats/algorithm.md) | 719 | 65% | ██████████████ | 47 |
+| [Low-Level Design](../formats/low-level-design.md) | 164 | 15% | ███ | 15 |
+| [System Design](../formats/system-design.md) | 130 | 12% | ███ | 10 |
 | [SQL](../formats/sql.md) | 60 | 5% | █ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 39 | 3% | █ | 2 |
+| [AI Coding](../formats/ai-coding.md) | 39 | 4% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **165 / 726 / 231**, over the rows the catalog has graded. 76 of the 1,122 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **163 / 720 / 229**, over the rows the catalog has graded. 74 of the 1,112 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **529 questions in this cut that carry a topic label** (47% of it):
+Of the **524 questions in this cut that carry a topic label** (47% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 88 | 17% | ████████████ |
-| `arrays` | 79 | 15% | ███████████ |
-| `graphs` | 73 | 14% | ██████████ |
-| `strings` | 61 | 12% | ████████ |
+| `hashing` | 85 | 16% | ████████████ |
+| `arrays` | 78 | 15% | ███████████ |
+| `graphs` | 72 | 14% | ██████████ |
+| `strings` | 61 | 12% | █████████ |
 | `greedy` | 49 | 9% | ███████ |
 | `dynamic-programming` | 37 | 7% | █████ |
 | `two-pointers` | 35 | 7% | █████ |
 | `trees` | 34 | 6% | █████ |
-| `backtracking` | 33 | 6% | ████ |
+| `backtracking` | 33 | 6% | █████ |
 | `sliding-window` | 30 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -263,7 +263,6 @@ Of the **529 questions in this cut that carry a topic label** (47% of it):
 | **Netflix** | [Contains Duplicate III](https://trueinterview.io/questions/contains-duplicate-iii) | Medium | May 26, 2026 |
 | **Amazon / Anthropic / xAI** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | Medium | May 26, 2026 |
 | **Amazon** | [Max Money from K Consecutive Bags](https://trueinterview.io/questions/311525d4-2675-4709-b108-5237fc93c89c) | Medium | May 24, 2026 |
-| **Airbnb / Snowflake / Square** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Medium | May 24, 2026 |
 | **Meta** | [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis) | Hard | May 23, 2026 |
 | **Meta** | [Average Reactions per Post](https://trueinterview.io/questions/average-reactions-per-post) | Medium | May 23, 2026 |
 | **DoorDash** | [Bottom Quartile Reach](https://trueinterview.io/questions/bottom-quartile-reach) | Medium | May 23, 2026 |
@@ -311,7 +310,6 @@ Of the **529 questions in this cut that carry a topic label** (47% of it):
 | **Meta** | [Remove Nth Node From End of List](https://trueinterview.io/questions/lc-remove-nth-from-end) | Medium | May 08, 2026 |
 | **Intuit** | [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation) | Medium | May 08, 2026 |
 | **Meta** | [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction) | Hard | May 08, 2026 |
-| **Coinbase / Databricks / Robinhood / Square** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | Hard | May 08, 2026 |
 | **Uber** | [AI-Assisted Coding / Debug Round (HackerRank IDE + AI)](https://trueinterview.io/questions/vo-ai-assisted-debug-round) | Hard | May 08, 2026 |
 | **Google** | [Collect Coins on 1D Board](https://trueinterview.io/questions/oa-collect-coins-1d-board) | Medium | May 07, 2026 |
 | **Google** | [Largest Group Sharing a Digit](https://trueinterview.io/questions/oa-group-two-digit-numbers-shared-digit) | Medium | May 07, 2026 |
@@ -326,5 +324,7 @@ Of the **529 questions in this cut that carry a topic label** (47% of it):
 | **Google** | [Necklace Cut into Two Halves with Equal D/R Counts](https://trueinterview.io/questions/necklace-cut-equal-counts) | Medium | May 03, 2026 |
 | **Databricks / Apple / Google / Oracle / Tesla** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | Hard | May 03, 2026 |
 | **Apple** | [Substring Pattern Matches](https://trueinterview.io/questions/substring-pattern-matches) | Easy | May 03, 2026 |
+| **Meta** | [Lowest Common Ancestor (BT / BST / N-ary)](https://trueinterview.io/questions/lowest-common-ancestor) | Medium | May 02, 2026 |
+| **Meta** | [Valid Palindrome II](https://trueinterview.io/questions/valid-palindrome-ii) | Medium | May 02, 2026 |
 
 <sub>Page 1 of 5 · [Page 2 →](big-tech-2.md)</sub>

@@ -6,7 +6,7 @@
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 💳 Fintech, payments & crypto · 10,000+ people · Big Tech
+> 💳 Fintech, payments & crypto
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-square)
 

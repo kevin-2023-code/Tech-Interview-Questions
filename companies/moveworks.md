@@ -6,7 +6,7 @@
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🧠 AI labs & AI infrastructure
+> 🧠 AI labs & AI infrastructure · 200–999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-moveworks)
 

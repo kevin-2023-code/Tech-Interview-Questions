@@ -36,7 +36,7 @@ disagree, because they are the same rows.
 from __future__ import annotations
 
 import re
-from datetime import date, timedelta
+from datetime import date
 from typing import Iterable, Sequence
 
 from catalog import Experience, Guide, Question
@@ -346,8 +346,11 @@ def _recent(name: str, questions: Sequence[Question], today: date) -> list[str]:
     return [
         heading,
         "",
-        f"**{plural(len(window), 'sighting')}** recorded between "
-        f"{date_label(today - timedelta(days=WINDOW_DAYS))} and {date_label(today)}. Newest first.",
+        # No dates in this sentence. Both bounds moved with the clock, so every
+        # company page was rewritten once a day with one line changed and
+        # nothing about the company different — and the heading above already
+        # says the window, while the Reported column dates every row in it.
+        f"**{plural(len(window), 'sighting')}** in this window. Newest first.",
         "",
         table(
             ["Question", "Format", "Difficulty", "Round", "Reported"],

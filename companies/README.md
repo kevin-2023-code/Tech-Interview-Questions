@@ -10,7 +10,7 @@
 
 The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **99 of 99** of the companies here. An employer it does not cover is under *Not classified* below and in the table like everybody else — guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
 
-🏛️ **Big Tech** (24) — [Amazon (232)](amazon.md) · [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Uber (141)](uber.md) · [Microsoft (98)](microsoft.md) · [Apple (90)](apple.md) · [DoorDash (65)](doordash.md) · [Netflix (64)](netflix.md) · [LinkedIn (55)](linkedin.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [eBay (30)](ebay.md) · [Walmart Labs (28)](walmart-labs.md) · [NVIDIA (26)](nvidia.md) · [Expedia (25)](expedia.md) · [Pinduoduo (19)](pinduoduo.md) · [Cisco (18)](cisco.md) · [PayPal (17)](paypal.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Square (13)](square.md) · [Microsoft AI (12)](microsoft-ai.md) · [Block (5)](block.md)
+🏛️ **Big Tech** (23) — [Amazon (232)](amazon.md) · [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Uber (141)](uber.md) · [Microsoft (98)](microsoft.md) · [Apple (90)](apple.md) · [DoorDash (65)](doordash.md) · [Netflix (64)](netflix.md) · [LinkedIn (55)](linkedin.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [eBay (30)](ebay.md) · [Walmart Labs (28)](walmart-labs.md) · [NVIDIA (26)](nvidia.md) · [Expedia (25)](expedia.md) · [Pinduoduo (19)](pinduoduo.md) · [Cisco (18)](cisco.md) · [PayPal (17)](paypal.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Microsoft AI (12)](microsoft-ai.md) · [Block (5)](block.md)
 
 <sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ people. Every company in it also appears under its own sector below.</sub>
 
@@ -100,7 +100,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 18 | 3 | 8 | Aug 12, 2026 | 2 |
 | [Optiver](optiver.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 13 | 0 | Jun 15, 2026 | 2 |
 | [Squarepoint](squarepoint.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 1 | 0 | May 23, 2026 | 3 |
-| [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 17 | 1 | 0 | Apr 28, 2026 | 2 |
+| [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 17 | 1 | 0 | Apr 28, 2026 | 2 |
 | [Confluent](confluent.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 17 | 1 | 0 | Jan 14, 2026 | 2 |
 | [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 3 |
 | [Point72](point72.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 3 | Jul 29, 2026 | 2 |
@@ -117,16 +117,16 @@ The sector and size of an employer are facts about the company rather than about
 | [Shopify](shopify.md) | E-commerce & marketplaces · 1,000–9,999 people | 14 | 3 | 0 | Jun 15, 2026 | 2 |
 | [Dropbox](dropbox.md) | Enterprise & business software · 1,000–9,999 people | 13 | 1 | — | — | 2 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 13 | 2 | 4 | Aug 09, 2026 | 2 |
-| [Square](square.md) | Fintech, payments & crypto · 10,000+ people | 13 | — | 0 | Jun 17, 2026 | 2 |
+| [Square](square.md) | Fintech, payments & crypto | 13 | — | 0 | Jun 17, 2026 | 2 |
 | [Vanta](vanta.md) | Cybersecurity · 200–999 people | 13 | 2 | 3 | Jul 16, 2026 | 2 |
 | [Microsoft AI](microsoft-ai.md) | AI labs & AI infrastructure · 10,000+ people | 12 | — | 2 | Jul 29, 2026 | 2 |
 | [Scale AI](scale-ai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 12 | 6 | 0 | Jun 16, 2026 | 2 |
 | [HubSpot](hubspot.md) | Enterprise & business software · 1,000–9,999 people | 10 | — | 0 | Feb 01, 2026 | 4 |
 | [Okta](okta.md) | Cybersecurity · 1,000–9,999 people | 10 | 2 | 3 | Jun 24, 2026 | 2 |
-| [Whatnot](whatnot.md) | E-commerce & marketplaces | 7 | — | 0 | Jun 12, 2026 | 2 |
+| [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 7 | — | 0 | Jun 12, 2026 | 2 |
 | [Amplitude](amplitude.md) | Enterprise & business software · 200–999 people | 6 | 1 | 0 | Oct 02, 2025 | 2 |
 | [GEICO](geico.md) | Banks, insurers & asset managers · 10,000+ people | 6 | 1 | 0 | Apr 02, 2026 | 2 |
-| [Luma AI](luma-ai.md) | AI labs & AI infrastructure | 6 | 1 | 0 | Jan 05, 2026 | 2 |
+| [Luma AI](luma-ai.md) | AI labs & AI infrastructure · Under 200 people | 6 | 1 | 0 | Jan 05, 2026 | 2 |
 | [MongoDB](mongodb.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 6 | 1 | — | — | 2 |
 | [Airtable](airtable.md) | Enterprise & business software · 200–999 people | 5 | — | — | — | 2 |
 | [Arista](arista.md) | Hardware, devices & networking · 1,000–9,999 people | 5 | 1 | — | — | 2 |
@@ -139,13 +139,13 @@ The sector and size of an employer are facts about the company rather than about
 | [Sigmacomputing](sigmacomputing.md) | Developer tools, cloud & data infrastructure · 200–999 people | 5 | 1 | — | — | 2 |
 | [StackAdapt](stackadapt.md) | Enterprise & business software | 5 | — | — | — | 2 |
 | [Voleon](voleon.md) | Quant trading & hedge funds | 5 | — | 0 | Oct 26, 2024 | 2 |
-| [Faire](faire.md) | E-commerce & marketplaces · 1,000–9,999 people | 4 | — | — | — | 2 |
+| [Faire](faire.md) | E-commerce & marketplaces | 4 | — | — | — | 2 |
 | [Gusto](gusto.md) | Enterprise & business software · 1,000–9,999 people | 4 | — | 0 | Mar 20, 2026 | 2 |
 | [Rokt](rokt.md) | Enterprise & business software · 200–999 people | 4 | — | — | — | 2 |
 | [Bobyard](bobyard.md) | Enterprise & business software · Under 200 people | 3 | — | 1 | Aug 13, 2026 | 2 |
-| [Moveworks](moveworks.md) | AI labs & AI infrastructure | 3 | — | — | — | 2 |
+| [Moveworks](moveworks.md) | AI labs & AI infrastructure · 200–999 people | 3 | — | — | — | 2 |
 | [Oscar Health](oscar-health.md) | Health, biotech & medical devices · 1,000–9,999 people | 3 | — | — | — | 2 |
-| [Stubhub](stubhub.md) | E-commerce & marketplaces | 3 | 1 | — | — | 2 |
-| [Brex](brex.md) | Fintech, payments & crypto | 2 | 1 | — | — | 2 |
+| [Stubhub](stubhub.md) | E-commerce & marketplaces · 1,000–9,999 people | 3 | 1 | — | — | 2 |
+| [Brex](brex.md) | Fintech, payments & crypto · 1,000–9,999 people | 2 | 1 | — | — | 2 |
 
 <sub>*Last 90d* and *Last reported* are `—` where none of that company's questions carries a sighting date at all: unmeasured, which is not the same as quiet.</sub>

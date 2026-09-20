@@ -94,6 +94,9 @@ COMPANY_LABELS: dict[str, str] = {
     "hpe": "HPE",
     "kla": "KLA",
     "amd": "AMD",
+    # Not casing: the sibling lists derive `field-ai` for this one, and a
+    # registry entry is only ever found under one key.
+    "fieldai": "Field AI",
 }
 
 # Practice formats, in the order every navigation block prints them. The order is

@@ -6,7 +6,7 @@
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🛒 E-commerce & marketplaces
+> 🛒 E-commerce & marketplaces · 1,000–9,999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-stubhub)
 
