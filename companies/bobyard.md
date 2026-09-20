@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 3) |
 | Difficulty (easy / medium / hard) | 1 / 2 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 3 questions reported at Bobyard. 1 of them carry a sighting date; the other 2 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 

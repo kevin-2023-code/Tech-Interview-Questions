@@ -2,7 +2,7 @@
 
 # Free reading, by topic
 
-**350 round-by-round guides**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
+**350 writeups**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
 
 [← By company](README.md) · [← Question bank](../README.md)
 

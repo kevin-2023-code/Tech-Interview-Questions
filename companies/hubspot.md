@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 10) |
 | Difficulty (easy / medium / hard) | 1 / 8 / 1 |
 | Free to practise | [4](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 10 questions reported at HubSpot. 7 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 

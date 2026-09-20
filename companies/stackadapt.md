@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 5) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 2 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 | Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 5 questions reported at StackAdapt. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -54,7 +54,7 @@ Of the **3 questions at StackAdapt that carry a topic label** (60% of them — t
 
 ## Start here
 
-The 5 questions to open first if you are preparing for StackAdapt, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 5 questions to open first if you are preparing for StackAdapt. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |

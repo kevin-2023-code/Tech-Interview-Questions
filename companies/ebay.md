@@ -2,13 +2,13 @@
 
 # eBay interview process, OA & interview questions
 
-**30 questions** reported at eBay · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at eBay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-ebay)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-ebay)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 30) |
 | Difficulty (easy / medium / hard) | 7 / 17 / 6 |
 | Free to practise | [4](../free/README.md) |
-| Round-by-round guides | 1 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 30 questions reported at eBay. 11 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -87,11 +87,11 @@ The 8 questions to open first if you are preparing for eBay, ranked by **the mos
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**1 writeup** on what each stage of the eBay loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**1 writeup** filed under eBay in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [eBay Interview Process & Questions](https://trueinterview.io/study/ebay-interview-process) | — |
 

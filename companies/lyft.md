@@ -2,13 +2,13 @@
 
 # Lyft interview process, OA & interview questions
 
-**28 questions** reported at Lyft · **3 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lyft), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Lyft · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lyft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-lyft)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-lyft)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 28) |
 | Difficulty (easy / medium / hard) | 1 / 23 / 4 |
 | Free to practise | [7](../free/README.md) |
-| Round-by-round guides | 3 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 28 questions reported at Lyft. 19 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -95,11 +95,11 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**3 writeups** on what each stage of the Lyft loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**3 writeups** filed under Lyft in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Commuter Coupon Conditional Probability](https://trueinterview.io/study/ds-commuter-coupon-probability) | math-reasoning, probability |
 | [Lyft Interview Process & Questions](https://trueinterview.io/study/lyft-interview-process) | — |

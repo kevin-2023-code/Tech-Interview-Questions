@@ -117,14 +117,20 @@ def parse_catalog_date(value: str | None) -> tuple[date | None, bool]:
 
 @dataclass(frozen=True)
 class Guide:
-    """One published guide from the site's Study section.
+    """One published article from the site's Study section.
 
-    These are the "how does this company actually interview" writeups — a
-    recruiter screen, a culture round, a technical deep dive — and they are a
-    different KIND of thing from a question: a question is one task you solve,
-    a guide is the shape of the loop it sits inside. The catalog stores them as
+    A different KIND of thing from a question: a question is one task you
+    solve, and this is something to read around it. The catalog stores them as
     an ordinary row of a reading type, which is why they arrive from their own
     endpoint rather than in the question list.
+
+    What a guide is ABOUT is not knowable from this row, and a renderer must
+    not assume. Most are the "how does this company actually interview"
+    writeups — a recruiter screen, a culture round, a deep dive — but the same
+    endpoint also carries problems worked end to end and reviews of other
+    products, and a company page that announced the first kind over a row of
+    the third was wrong in print. `tags` is the only evidence here of what one
+    covers; where there is none, say nothing.
     """
 
     slug: str

@@ -2,13 +2,13 @@
 
 # Robinhood interview process, OA & interview questions
 
-**30 questions** reported at Robinhood · **6 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Robinhood · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-robinhood)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-robinhood)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 30) |
 | Difficulty (easy / medium / hard) | 3 / 19 / 8 |
 | Free to practise | [6](../free/README.md) |
-| Round-by-round guides | 6 |
+| Guides & writeups | 6 |
 
 <sub>Counted from the 30 questions reported at Robinhood. 25 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -88,11 +88,11 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**6 writeups** on what each stage of the Robinhood loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**6 writeups** filed under Robinhood in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Project Deep Dive](https://trueinterview.io/study/project-deep-dive-3) | deep-dive |
 | [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | why-company |

@@ -2,13 +2,13 @@
 
 # Perplexity interview process, OA & interview questions
 
-**22 questions** reported at Perplexity · **6 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Perplexity · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-perplexity)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-perplexity)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (32% of 22) |
 | Difficulty (easy / medium / hard) | 1 / 17 / 4 |
 | Free to practise | [3](../free/README.md) |
-| Round-by-round guides | 6 |
+| Guides & writeups | 6 |
 
 <sub>Counted from the 22 questions reported at Perplexity. 14 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -91,11 +91,11 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**6 writeups** on what each stage of the Perplexity loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**6 writeups** filed under Perplexity in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
 | [Map-Reduce and Blockwise Attention](https://trueinterview.io/study/map-reduce-and-blockwise-attention) | attention, map-reduce, numerical-stability, parallelism |

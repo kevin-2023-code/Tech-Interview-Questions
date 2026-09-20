@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (53% of 17) |
 | Difficulty (easy / medium / hard) | 4 / 9 / 4 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 17 questions reported at Yelp. 13 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 

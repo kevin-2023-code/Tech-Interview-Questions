@@ -2,13 +2,13 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**21 questions** reported at Goldman Sachs · **10 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side.
+**21 questions** reported at Goldman Sachs · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-goldman-sachs)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-goldman-sachs)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (86% of 21) |
 | Difficulty (easy / medium / hard) | 8 / 12 / 1 |
 | Free to practise | [4](../free/README.md) |
-| Round-by-round guides | 10 |
+| Guides & writeups | 10 |
 
 <sub>Counted from the 21 questions reported at Goldman Sachs. 17 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -97,11 +97,11 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**10 writeups** on what each stage of the Goldman Sachs loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**10 writeups** filed under Goldman Sachs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | math-reasoning, verbal |
 | [Effect of Doubling Data on Regression Coefficients and Statistics](https://trueinterview.io/study/30195c71-57af-4259-a3ab-5aa9886b4746) | — |

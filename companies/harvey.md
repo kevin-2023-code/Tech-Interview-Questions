@@ -2,13 +2,13 @@
 
 # Harvey interview process, OA & interview questions
 
-**13 questions** reported at Harvey · **2 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
+**13 questions** reported at Harvey · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-harvey)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-harvey)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (38% of 13) |
 | Difficulty (easy / medium / hard) | 0 / 8 / 5 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 2 |
+| Guides & writeups | 2 |
 
 <sub>Counted from the 13 questions reported at Harvey. 8 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -91,11 +91,11 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**2 writeups** on what each stage of the Harvey loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**2 writeups** filed under Harvey in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Harvey Interview Process & Questions](https://trueinterview.io/study/harvey-interview-process) | — |
 | [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | collaboration, conflict, culture-fit, leadership, mentorship |

@@ -45,11 +45,11 @@ from labels import company_key, company_label, difficulty_label, format_label
 from render import (
     MONTH_NAMES,
     bar,
-    plural,
     date_label,
     escape_cell,
     guide_rows,
     percent,
+    plural,
     question_link,
     table,
 )
@@ -80,6 +80,12 @@ RECENT_ROWS = 12
 START_HERE_ROWS = 8
 TOPIC_ROWS = 10
 MONTHS_SHOWN = 18
+
+#: The heading AND the "At a glance" row label for the writeups block, spelled
+#: once so the jump link, the summary row and the section can never drift. It
+#: used to read "Round-by-round guides", which named a content type nothing
+#: verified — see `_guides_section`.
+GUIDES_HEADING = "Guides & writeups"
 
 
 def anchor(heading: str) -> str:
@@ -157,7 +163,7 @@ def _glance(name: str, questions: Sequence[Question], guides: Sequence[Guide],
         # `17+` when the catalog could only hand over one page of guides. The
         # index says so in a standing notice; a bare count on this page reads as
         # a total, which is the same lie in a smaller font.
-        ["Round-by-round guides", (f"{len(guides):,}" + ("" if guides_complete else "+")) if guides else "0"],
+        [GUIDES_HEADING, (f"{len(guides):,}" + ("" if guides_complete else "+")) if guides else "0"],
     ]
     if experiences:
         rows.append(["Interview reports on the board", f"{len(experiences):,} in this snapshot"])
@@ -365,6 +371,52 @@ def _recent(name: str, questions: Sequence[Question], today: date) -> list[str]:
     ]
 
 
+def _start_here_rule(name: str, ranked: Sequence[Question], today: date) -> str:
+    """The sentence above the table, naming only the keys that ordered THESE rows.
+
+    The rule has two keys — recency, then how many other employers ask the same
+    question — and on a thin company neither of them separates anything: every
+    row prints `—` in both of the columns the sentence names, and what actually
+    decided the order was difficulty and then the slug. Announcing a ranking the
+    table visibly contradicts is worse than announcing no ranking, so the claim
+    is narrowed to whichever key did work, and dropped entirely when neither
+    did. The tie-break in force is always named, because it is what a reader is
+    actually looking at.
+    """
+    dated = any(q.reported_date and q.reported_date <= today for q in ranked)
+    shared = any(len(q.companies) > 1 for q in ranked)
+    opening = (
+        f"The {plural(len(ranked), 'question')} to open first if you are preparing "
+        f"for {escape_cell(name)}"
+    )
+    trailer = "🆓 opens without a paid plan."
+
+    if dated and shared:
+        return (
+            f"{opening}, ranked by **the most recently reported, then the ones the most other companies also "
+            f"ask**. Both are facts about the bank rather than an opinion of ours, and an undated question "
+            f"sorts last rather than being guessed at a date. {trailer}"
+        )
+    if dated:
+        return (
+            f"{opening}, ranked by **the most recently reported** — a fact about the bank rather than an "
+            f"opinion of ours, and an undated question sorts last rather than being guessed at a date. No row "
+            f"here is recorded at another employer, so the usual second key separates nothing and the easier "
+            f"questions come first instead. {trailer}"
+        )
+    if shared:
+        return (
+            f"{opening}, ranked by **the ones the most other companies also ask** — a fact about the bank "
+            f"rather than an opinion of ours. No row here carries a sighting date, so recency could not order "
+            f"them; after that key the easier questions come first. {trailer}"
+        )
+    return (
+        f"{opening}. **This is not a ranking:** no row here carries a sighting date and none is recorded at "
+        f"another employer, so neither of the keys this section normally uses separates them. They are the "
+        f"{plural(len(ranked), 'question')} on file, easiest first. {trailer}"
+    )
+
+
 def _start_here(name: str, questions: Sequence[Question], today: date) -> list[str]:
     """A short ordered list, with the rule that ordered it printed above it.
 
@@ -401,10 +453,7 @@ def _start_here(name: str, questions: Sequence[Question], today: date) -> list[s
     return [
         "## Start here",
         "",
-        f"The {len(ranked)} questions to open first if you are preparing for {escape_cell(name)}, ranked by "
-        "**the most recently reported, then the ones the most other companies also ask**. Both are facts "
-        "about the bank rather than an opinion of ours, and an undated question sorts last rather than being "
-        "guessed at a date. 🆓 opens without a paid plan.",
+        _start_here_rule(name, ranked, today),
         "",
         table(
             ["#", "Question", "Format", "Difficulty", "Also asked at", "Reported"],
@@ -420,16 +469,27 @@ def _start_here(name: str, questions: Sequence[Question], today: date) -> list[s
 
 def _guides_section(name: str, guides: Sequence[Guide], guides_complete: bool,
                     api_labels: dict[str, str]) -> list[str]:
+    """The writeups filed under this employer, described by what they ARE.
+
+    The version before this said every one of them covered "the recruiter
+    screen, the hiring-manager round, the culture interview, the project
+    deep-dive" — a list of round names nothing had checked. Across the bank a
+    guide is as often a problem worked end to end or a review of somebody
+    else's product, and on a company with a single guide the claim was visibly
+    false about the one row printed under it. The *Topics* column is the
+    evidence, so the prose points at it instead of speaking for it.
+    """
     if not guides:
         return []
+    count = f"{len(guides)}{'' if guides_complete else ' or more'}"
+    noun = "writeup" if len(guides) == 1 else "writeups"
+    this = "it" if len(guides) == 1 else "each one"
     return [
-        "## Round-by-round guides",
+        f"## {GUIDES_HEADING}",
         "",
-        f"**{len(guides)}{'' if guides_complete else ' or more'} "
-        f"{'writeup' if len(guides) == 1 else 'writeups'}** on what each stage of the "
-        f"{escape_cell(name)} loop actually is — the "
-        "recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the "
-        "one for the round you have next.",
+        f"**{count} {noun}** filed under {escape_cell(name)} in the Study section — how a round runs, a "
+        f"problem worked end to end, or notes on the process. The *Topics* column says what {this} covers; "
+        "open the one closest to what you have next.",
         "",
         guide_rows(guides, api_labels, with_company=False),
         "",
@@ -686,7 +746,7 @@ def company_preamble(
         ("What they ask about", _topics(name, questions, today)),
         ("When they asked it", _timeline(name, questions, today)),
         ("Start here", _start_here(name, questions, today)),
-        ("Round-by-round guides", _guides_section(name, guides, guides_complete, api_labels)),
+        (GUIDES_HEADING, _guides_section(name, guides, guides_complete, api_labels)),
         ("Interview reports", _reports(name, experiences, experiences_total, today)),
     ]
     present = [(title, lines) for title, lines in blocks if lines]

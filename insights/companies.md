@@ -140,4 +140,4 @@
 | [Stubhub](../companies/stubhub.md) | 3 | 1 | 2 | — | — | Low-Level Design | — |
 | [Brex](../companies/brex.md) | 2 | 1 | 2 | — | — | Algorithm | — |
 
-<sub>A dash in the last-90-days column means none of that company's questions carry a sighting date at all, so the window could not be measured — different from a measured zero. *Guides* counts the round-by-round writeups in [guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>
+<sub>A dash in the last-90-days column means none of that company's questions carry a sighting date at all, so the window could not be measured — different from a measured zero. *Guides* counts the Study-section writeups in [guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>

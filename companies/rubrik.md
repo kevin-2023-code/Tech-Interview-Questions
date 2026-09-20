@@ -2,13 +2,13 @@
 
 # Rubrik interview process, OA & interview questions
 
-**14 questions** reported at Rubrik · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
+**14 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔒 [Cybersecurity](../company-types/security.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-rubrik)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-rubrik)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 14) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 10 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 1 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 14 questions reported at Rubrik. 0 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -59,7 +59,7 @@ Of the **9 questions at Rubrik that carry a topic label** (64% of them — the r
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Rubrik, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Rubrik. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 8 questions on file, easiest first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -74,11 +74,11 @@ The 8 questions to open first if you are preparing for Rubrik, ranked by **the m
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**1 writeup** on what each stage of the Rubrik loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**1 writeup** filed under Rubrik in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Rubrik Interview Process & Questions](https://trueinterview.io/study/rubrik-interview-process) | — |
 

@@ -604,7 +604,7 @@ def companies_page(insights: Insights) -> str:
         "",
         f"<sub>A dash in the last-{insights.window_days}-days column means none of that company's "
         "questions carry a sighting date at all, so the window could not be measured — different "
-        "from a measured zero. *Guides* counts the round-by-round writeups in "
+        "from a measured zero. *Guides* counts the Study-section writeups in "
         "[guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>",
         "",
     ]
@@ -808,7 +808,7 @@ def guides_by_topic(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
         "",
         "# Free reading, by topic",
         "",
-        f"**{len(guides):,} round-by-round guides**, grouped by what each one is about. They are "
+        f"**{len(guides):,} writeups**, grouped by what each one is about. They are "
         "free to read on the site. A guide carrying several topics is listed under each.",
         "",
         "[← By company](README.md) · [← Question bank](../README.md)",

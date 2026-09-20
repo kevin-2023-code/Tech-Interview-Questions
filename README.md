@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,315 questions** · **350 interview guides** · **99 companies** · **166 free to practise** · **175 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,315 questions** · **350 writeups** · **99 companies** · **166 free to practise** · **175 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -59,11 +59,12 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [How 83 companies interview, round by round (350 guides)](guides/README.md) &nbsp;·&nbsp; [the same guides by topic](guides/by-topic.md)
+**Interview process:** [Writeups on how 83 companies interview (350 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
-Round-by-round writeups: the recruiter screen, the hiring-manager round, the culture
-interview, the project deep-dive. **Read the loop before you practise for it.**
+How a round runs, a problem worked end to end, notes on a process — each one filed
+under the company it was reported at, and tagged with what it covers.
+**Read the loop before you practise for it.**
 
 Every company page opens with the loop rather than the catalog — and all of it is
 *counted from what candidates reported*, never asserted:
@@ -75,8 +76,8 @@ Every company page opens with the loop rather than the catalog — and all of it
 | **Asked here in the last 90 days** | What is actually being asked *now*, newest first. |
 | **What they ask about** | The topics, as a share of the rows that carry a label — and when each was last seen. |
 | **When they asked it** | Month by month, so a quiet quarter looks like a quiet quarter. |
-| **Start here** | The handful to open tonight, ranked by *most recently reported, then asked at the most other companies*. |
-| **Guides & interview reports** | The writeups for each round, and what candidates said happened in the room. |
+| **Start here** | The handful to open tonight, under whichever of *most recently reported* and *asked at the most other companies* actually separates them — and it says so when neither does. |
+| **Guides & writeups** | The writeups filed under that company, and what candidates said happened in the room. |
 
 [**Amazon**](companies/amazon.md) · [**Google**](companies/google.md) · [**Meta**](companies/meta.md) · [**OpenAI**](companies/openai.md) · [**Stripe**](companies/stripe.md) · [**Citadel**](companies/citadel.md) — or [every company →](companies/README.md)
 
@@ -264,7 +265,7 @@ is on a company page, a format page, and (if it carries a sighting date) a month
 | [`data/questions.jsonl`](data/questions.jsonl) | one JSON object per line, slug-sorted |
 | [`data/questions.csv`](data/questions.csv) | the same rows as a spreadsheet |
 | [`data/companies.csv`](data/companies.csv) | every company and its question count |
-| [`data/guides.csv`](data/guides.csv) | every interview guide, with its company and topics |
+| [`data/guides.csv`](data/guides.csv) | every Study-section writeup, with its company and topics |
 | [`data/insights.json`](data/insights.json) | every number on the [insights pages](insights/README.md), as data |
 | [Live API](https://trueinterview.io/developers/api) | what this repo is generated from |
 

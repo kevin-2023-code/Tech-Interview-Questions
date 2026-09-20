@@ -2,13 +2,13 @@
 
 # How each company interviews
 
-**350 round-by-round guides** across **83 companies** — what each stage of the loop actually is: the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read one before you practise for it.
+**350 writeups** across **83 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
 ## Recently published
 
-| Interview round / guide | Company | Topics |
+| Writeup | Company | Topics |
 | :-- | :-- | :-- |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | **General** | — |
 | [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | **General** | — |
@@ -31,7 +31,7 @@
 
 <sub>17 guides · [questions at Amazon](../companies/amazon.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Algorithm and AI Coding Tasks](https://trueinterview.io/study/4d161574-3e90-458a-9f0c-883915ea2c6c) | — |
 | [Amazon Frontend Engineer Interview Process](https://trueinterview.io/study/amazon-frontend-engineer-interview-process) | — |
@@ -55,7 +55,7 @@
 
 <sub>16 guides · [questions at ByteDance](../companies/bytedance.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | agents, evaluation, networking, operating-systems, troubleshooting |
 | [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
@@ -78,7 +78,7 @@
 
 <sub>16 guides · [questions at Meta](../companies/meta.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [AI-Oriented Behavioral](https://trueinterview.io/study/ai-oriented-behavioral) | ai-collaboration, bq, star |
 | [Comparative Metrics Analysis for Facebook Dating Advantages](https://trueinterview.io/study/d52244dd-4a5c-4f29-9ded-8417ebddeb4f) | — |
@@ -101,7 +101,7 @@
 
 <sub>13 guides · [questions at Capital One](../companies/capital-one.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | critical-thinking, open-ended, verbal |
 | [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | deep-dive, open-ended, paper-read, presentation, verbal |
@@ -121,7 +121,7 @@
 
 <sub>13 guides · [questions at Optiver](../companies/optiver.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Beat the Odds — Probability Test](https://trueinterview.io/study/beat-the-odds-probability) | brainteaser, expected-value, math-reasoning, mental-math, probability |
 | [HR / Behavioral Phone Screen](https://trueinterview.io/study/hr-behavioral-screen) | why-company |
@@ -141,7 +141,7 @@
 
 <sub>11 guides · [questions at Citadel](../companies/citadel.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | culture-fit, deep-dive, fit, why-company |
 | [Case study — LLM inference stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — |
@@ -159,7 +159,7 @@
 
 <sub>11 guides · [questions at Microsoft](../companies/microsoft.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | ai-collaboration, conflict, culture-fit, leadership, star |
 | [Enhancing Research Skills and Team Collaboration in Publishing](https://trueinterview.io/study/7950592e-16e7-4050-8bf7-c4c96b96c546) | — |
@@ -177,7 +177,7 @@
 
 <sub>11 guides · [questions at OpenAI](../companies/openai.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/study/hm-bq-why-openai) | culture-fit, why-company |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/study/llm-inference-timeout-and-restart-strategy) | math, new, algorithm-design, math-reasoning, ml-knowledge |
@@ -195,7 +195,7 @@
 
 <sub>10 guides · [questions at Goldman Sachs](../companies/goldman-sachs.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | math-reasoning, verbal |
 | [Effect of Doubling Data on Regression Coefficients and Statistics](https://trueinterview.io/study/30195c71-57af-4259-a3ab-5aa9886b4746) | — |
@@ -212,7 +212,7 @@
 
 <sub>10 guides · [questions at Google](../companies/google.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral Round (Googliness Themes)](https://trueinterview.io/study/bq-round-google-style) | culture-fit |
 | [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/study/cpu-architecture-simulator-deep-dive) | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
@@ -229,7 +229,7 @@
 
 <sub>9 guides · [questions at Anthropic](../companies/anthropic.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Anthropic AI Engineer Interview Process](https://trueinterview.io/study/anthropic-ai-engineer-interview-process) | — |
 | [Anthropic Infrastructure Engineer Interview Process](https://trueinterview.io/study/anthropic-infrastructure-engineer-interview-process) | — |
@@ -245,7 +245,7 @@
 
 <sub>9 guides · [questions at Apple](../companies/apple.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Apple Infrastructure Engineer Interview Process](https://trueinterview.io/study/apple-infrastructure-engineer-interview-process) | — |
 | [Apple Interview Process & Questions](https://trueinterview.io/study/apple-interview-process) | — |
@@ -261,7 +261,7 @@
 
 <sub>8 guides · no questions reported at this employer yet</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | — |
 | [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | — |
@@ -276,7 +276,7 @@
 
 <sub>7 guides · [questions at NVIDIA](../companies/nvidia.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/study/culture-fit-motivation-and-learning-habits) | culture-fit, values, why-company |
 | [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/study/deep-learning-fundamentals) | calibration, distribution, ml-knowledge, optimization |
@@ -290,7 +290,7 @@
 
 <sub>7 guides · [questions at Reddit](../companies/reddit.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Cross-Functional & PM Behavioral](https://trueinterview.io/study/cross-functional-pm-bq) | collaboration, conflict, values |
 | [Hiring-Manager Domain Round](https://trueinterview.io/study/hiring-manager-domain-round) | ads, deep-dive, fit, leadership, ml-infra |
@@ -304,7 +304,7 @@
 
 <sub>6 guides · [questions at Airbnb](../companies/airbnb.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Airbnb Interview Process & Questions](https://trueinterview.io/study/airbnb-interview-process) | — |
 | [Airbnb Machine Learning Engineer Interview Process](https://trueinterview.io/study/airbnb-machine-learning-engineer-interview-process) | — |
@@ -317,7 +317,7 @@
 
 <sub>6 guides · [questions at Akuna Capital](../companies/akuna-capital.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Akuna Capital Interview Process & Questions](https://trueinterview.io/study/akunacapital-interview-process) | — |
 | [Akuna Capital Quantitative Finance Interview Process](https://trueinterview.io/study/akunacapital-quantitative-finance-interview-process) | — |
@@ -330,7 +330,7 @@
 
 <sub>6 guides · [questions at Netflix](../companies/netflix.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/study/ml-research-orals) | attention, lora, ml-knowledge, transformer |
 | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | collaboration, culture, culture-fit, fit, impact |
@@ -343,7 +343,7 @@
 
 <sub>6 guides · [questions at Perplexity](../companies/perplexity.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
 | [Map-Reduce and Blockwise Attention](https://trueinterview.io/study/map-reduce-and-blockwise-attention) | attention, map-reduce, numerical-stability, parallelism |
@@ -356,7 +356,7 @@
 
 <sub>6 guides · [questions at Pinterest](../companies/pinterest.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | ambiguity, conflict, deep-dive, impact, leadership |
 | [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/study/mle-intern-codesignal-oa) | classification, ml-knowledge, python |
@@ -369,7 +369,7 @@
 
 <sub>6 guides · [questions at Robinhood](../companies/robinhood.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Project Deep Dive](https://trueinterview.io/study/project-deep-dive-3) | deep-dive |
 | [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | why-company |
@@ -382,7 +382,7 @@
 
 <sub>6 guides · [questions at Roblox](../companies/roblox.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/study/behavioral-hm-traffic-and-scope) | ambiguity, bq, culture-fit, leadership, scaling |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/study/mle-project-deep-dive) | deep-dive, ml-knowledge, paper-read, presentation |
@@ -395,7 +395,7 @@
 
 <sub>6 guides · [questions at Scale AI](../companies/scale-ai.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Credo Behavioral and Customer Engagement](https://trueinterview.io/study/credo-behavioral-and-customer-engagement) | — |
 | [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/study/147c9781-846f-407b-a3e9-cb2f61ae898d) | — |
@@ -408,7 +408,7 @@
 
 <sub>6 guides · [questions at Snapchat](../companies/snapchat.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
 | [First Discovery and Resolution of Critical Project Bug](https://trueinterview.io/study/cbb98e2c-2461-49dd-933a-1741e0c81985) | — |
@@ -421,7 +421,7 @@
 
 <sub>6 guides · [questions at Two Sigma](../companies/two-sigma.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | agentic-workflow, evaluation, llm, lora, technical-deep-dive |
 | [QR Data Analysis Prediction Case](https://trueinterview.io/study/qr-data-analysis-prediction-case) | data-analysis, experiment-design, feature-engineering, linear-regression, open-ended |
@@ -434,7 +434,7 @@
 
 <sub>6 guides · [questions at Uber](../companies/uber.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/study/bar-raiser-architecture-and-values) | culture-fit, leadership |
 | [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | deep-dive, presentation |
@@ -447,7 +447,7 @@
 
 <sub>6 guides · [questions at xAI](../companies/xai.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Most Challenging Project + Why xAI](https://trueinterview.io/study/most-challenging-project-why-xai) | fit, project-deep-dive |
 | [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/study/process-vs-thread-verbal) | concurrency, cs-fundamentals, operating-systems, verbal |
@@ -460,7 +460,7 @@
 
 <sub>5 guides · [questions at Coinbase](../companies/coinbase.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Coinbase Frontend Engineer Interview Process](https://trueinterview.io/study/coinbase-frontend-engineer-interview-process) | — |
 | [Coinbase Interview Process & Questions](https://trueinterview.io/study/coinbase-interview-process) | — |
@@ -472,7 +472,7 @@
 
 <sub>5 guides · [questions at DoorDash](../companies/doordash.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [DoorDash Interview Process & Questions](https://trueinterview.io/study/doordash-interview-process) | — |
 | [DoorDash Machine Learning Engineer Interview Process](https://trueinterview.io/study/doordash-machine-learning-engineer-interview-process) | — |
@@ -484,7 +484,7 @@
 
 <sub>5 guides · [questions at LinkedIn](../companies/linkedin.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | ambiguity, conflict, impact, leadership, star |
 | [LinkedIn Infrastructure Engineer Interview Process](https://trueinterview.io/study/linkedin-infrastructure-engineer-interview-process) | — |
@@ -496,7 +496,7 @@
 
 <sub>5 guides · [questions at Tesla](../companies/tesla.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Battery Cell Quality Statistical Case](https://trueinterview.io/study/battery-cell-quality-statistical-case) | experiment-design, probability |
 | [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/study/cv-sensing-ml-fundamentals-oral) | cnn, computer-vision, ml-knowledge |
@@ -508,7 +508,7 @@
 
 <sub>4 guides · [questions at Atlassian](../companies/atlassian.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Atlassian Interview Process & Questions](https://trueinterview.io/study/atlassian-interview-process) | — |
 | [Atlassian Machine Learning Engineer Interview Process](https://trueinterview.io/study/atlassian-machine-learning-engineer-interview-process) | — |
@@ -519,7 +519,7 @@
 
 <sub>4 guides · [questions at Rippling](../companies/rippling.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Intern OA Fixed Set](https://trueinterview.io/study/intern-oa-fixed-set) | api-integration, dfs, hashmap, heap, sliding-window |
 | [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | bq, deep-dive, impact, mentorship, presentation |
@@ -530,7 +530,7 @@
 
 <sub>3 guides · [questions at Bloomberg](../companies/bloomberg.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral Question Pool](https://trueinterview.io/study/behavioral-question-pool) | deep-dive, star, why-company |
 | [Bloomberg Interview Process & Questions](https://trueinterview.io/study/bloomberg-interview-process) | — |
@@ -540,7 +540,7 @@
 
 <sub>3 guides · [questions at Databricks](../companies/databricks.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Databricks Infrastructure Engineer Interview Process](https://trueinterview.io/study/databricks-infrastructure-engineer-interview-process) | — |
 | [Databricks Interview Process & Questions](https://trueinterview.io/study/databricks-interview-process) | — |
@@ -550,7 +550,7 @@
 
 <sub>3 guides · [questions at Figma](../companies/figma.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/study/deep-dive-url-request-lifecycle) | cs-fundamentals, http, networking, open-ended |
 | [Figma Interview Process & Questions](https://trueinterview.io/study/figma-interview-process) | — |
@@ -560,7 +560,7 @@
 
 <sub>3 guides · [questions at IBM](../companies/ibm.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Competency and Resume Interview](https://trueinterview.io/study/competency-and-resume-interview) | bq, deep-dive, star, why-company |
 | [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/study/devsecops-kubernetes-cicd-screen) | cs-fundamentals, docker, networking, sre, troubleshooting |
@@ -570,7 +570,7 @@
 
 <sub>3 guides · [questions at Intuit](../companies/intuit.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | ai-collaboration, ai-safety, llm, open-ended, prompt-engineering |
 | [Intuit Interview Process & Questions](https://trueinterview.io/study/intuit-interview-process) | — |
@@ -580,7 +580,7 @@
 
 <sub>3 guides · [questions at JPMorgan](../companies/jpmorgan.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [JPMorgan Chase Interview Process & Questions](https://trueinterview.io/study/jpmorgan-interview-process) | — |
 | [Quant Probability and Statistics Orals](https://trueinterview.io/study/quant-probability-and-statistics-orals) | combinatorics, expected-value, math-reasoning, probability |
@@ -590,7 +590,7 @@
 
 <sub>3 guides · [questions at Lyft](../companies/lyft.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Commuter Coupon Conditional Probability](https://trueinterview.io/study/ds-commuter-coupon-probability) | math-reasoning, probability |
 | [Lyft Interview Process & Questions](https://trueinterview.io/study/lyft-interview-process) | — |
@@ -600,7 +600,7 @@
 
 <sub>3 guides · [questions at Oracle](../companies/oracle.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | ambiguity, bq, conflict, deep-dive, leadership |
 | [Oracle Interview Process & Questions](https://trueinterview.io/study/oracle-interview-process) | — |
@@ -610,7 +610,7 @@
 
 <sub>3 guides · [questions at Pinduoduo](../companies/pinduoduo.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Pinduoduo Interview Process & Questions](https://trueinterview.io/study/pinduoduo-interview-process) | — |
 | [Project Deep Dive & Behavioral](https://trueinterview.io/study/project-deep-dive-and-bq-2) | deep-dive, star |
@@ -620,7 +620,7 @@
 
 <sub>3 guides · [questions at Shopify](../companies/shopify.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | culture-fit, star, values, why-company |
 | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/study/ml-modeling-round) | classification, evaluation, feature-engineering, ml-knowledge, mlsd |
@@ -630,7 +630,7 @@
 
 <sub>3 guides · [questions at Snowflake](../companies/snowflake.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | ai-screening, ai-tools, deep-dive, new-round, verbal |
 | [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | conflict, ownership |
@@ -640,7 +640,7 @@
 
 <sub>3 guides · [questions at Walmart Labs](../companies/walmart-labs.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | backend, cs-fundamentals, verbal |
 | [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | bq, conflict, culture-fit, impact, leadership |
@@ -650,7 +650,7 @@
 
 <sub>3 guides · [questions at Waymo](../companies/waymo.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/study/behavioral-policy-vs-efficiency-leadership) | ambiguity, conflict, deep-dive, leadership |
 | [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/study/project-deep-dive-ml-fundamentals) | deep-dive, ml-knowledge, open-ended, presentation |
@@ -660,7 +660,7 @@
 
 <sub>2 guides · [questions at Harvey](../companies/harvey.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Harvey Interview Process & Questions](https://trueinterview.io/study/harvey-interview-process) | — |
 | [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | collaboration, conflict, culture-fit, leadership, mentorship |
@@ -669,7 +669,7 @@
 
 <sub>2 guides · [questions at Okta](../companies/okta.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/study/hm-project-and-ai-philosophy) | ai-collaboration, deep-dive, leadership |
 | [Okta Interview Process & Questions](https://trueinterview.io/study/okta-interview-process) | — |
@@ -678,7 +678,7 @@
 
 <sub>2 guides · [questions at Ramp](../companies/ramp.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Async Video Behavioral Screen](https://trueinterview.io/study/video-interview-behavioral) | ai-collaboration, why-company |
 | [Ramp Interview Process & Questions](https://trueinterview.io/study/ramp-interview-process) | — |
@@ -687,7 +687,7 @@
 
 <sub>2 guides · [questions at Salesforce](../companies/salesforce.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
 | [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
@@ -696,7 +696,7 @@
 
 <sub>2 guides · [questions at SoFi](../companies/sofi.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Manager Behavioral and Project Deep Dive](https://trueinterview.io/study/manager-behavioral-and-project-deep-dive) | bq, conflict, deep-dive, impact, leadership |
 | [SoFi Interview Process & Questions](https://trueinterview.io/study/sofi-interview-process) | — |
@@ -705,7 +705,7 @@
 
 <sub>2 guides · [questions at Stripe](../companies/stripe.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral-2) | deep-dive, why-company |
 | [Stripe Interview Process & Questions](https://trueinterview.io/study/stripe-interview-process) | — |
@@ -714,7 +714,7 @@
 
 <sub>2 guides · [questions at Vanta](../companies/vanta.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/study/principles-and-leadership-bq) | ambiguity, conflict, leadership, values |
 | [Vanta Interview Process & Questions](https://trueinterview.io/study/vanta-interview-process) | — |
@@ -723,7 +723,7 @@
 
 <sub>1 guide · [questions at Amplitude](../companies/amplitude.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Amplitude Interview Process & Questions](https://trueinterview.io/study/amplitude-interview-process) | — |
 
@@ -731,7 +731,7 @@
 
 <sub>1 guide · [questions at Applied Intuition](../companies/applied-intuition.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Applied Intuition Interview Process & Questions](https://trueinterview.io/study/applied-intuition-interview-process) | — |
 
@@ -739,7 +739,7 @@
 
 <sub>1 guide · [questions at Arista](../companies/arista.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Arista Networks Interview Process & Questions](https://trueinterview.io/study/arista-interview-process) | — |
 
@@ -747,7 +747,7 @@
 
 <sub>1 guide · [questions at Brex](../companies/brex.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/study/72fc1b26-d7bc-4260-a442-36f08b50385c) | — |
 
@@ -755,7 +755,7 @@
 
 <sub>1 guide · [questions at Chicago Trading](../companies/chicago-trading.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Chicago Trading Company Interview Process & Questions](https://trueinterview.io/study/chicago-trading-interview-process) | — |
 
@@ -763,7 +763,7 @@
 
 <sub>1 guide · [questions at Circle](../companies/circle.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Circle Interview Process & Questions](https://trueinterview.io/study/circle-interview-process) | — |
 
@@ -771,7 +771,7 @@
 
 <sub>1 guide · [questions at Cisco](../companies/cisco.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Cisco Interview Process & Questions](https://trueinterview.io/study/cisco-interview-process) | — |
 
@@ -779,7 +779,7 @@
 
 <sub>1 guide · [questions at Confluent](../companies/confluent.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Confluent Interview Process & Questions](https://trueinterview.io/study/confluent-interview-process) | — |
 
@@ -787,7 +787,7 @@
 
 <sub>1 guide · [questions at Datadog](../companies/datadog.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Datadog Interview Process & Questions](https://trueinterview.io/study/datadog-interview-process) | — |
 
@@ -795,7 +795,7 @@
 
 <sub>1 guide · [questions at Dropbox](../companies/dropbox.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Dropbox Interview Process & Questions](https://trueinterview.io/study/dropbox-interview-process) | — |
 
@@ -803,7 +803,7 @@
 
 <sub>1 guide · [questions at eBay](../companies/ebay.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [eBay Interview Process & Questions](https://trueinterview.io/study/ebay-interview-process) | — |
 
@@ -811,7 +811,7 @@
 
 <sub>1 guide · [questions at Expedia](../companies/expedia.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Expedia Group Interview Process & Questions](https://trueinterview.io/study/expedia-interview-process) | — |
 
@@ -819,7 +819,7 @@
 
 <sub>1 guide · [questions at GEICO](../companies/geico.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [GEICO Interview Process & Questions](https://trueinterview.io/study/geico-interview-process) | — |
 
@@ -827,7 +827,7 @@
 
 <sub>1 guide · [questions at Hudson River Trading](../companies/hudson-river-trading.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Hudson River Trading Interview Process & Questions](https://trueinterview.io/study/hudson-river-trading-interview-process) | — |
 
@@ -835,7 +835,7 @@
 
 <sub>1 guide · [questions at Instacart](../companies/instacart.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Instacart Interview Process & Questions](https://trueinterview.io/study/instacart-interview-process) | — |
 
@@ -843,7 +843,7 @@
 
 <sub>1 guide · [questions at Lead Bank](../companies/lead-bank.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Lead Bank Interview Process & Questions](https://trueinterview.io/study/lead-bank-interview-process) | — |
 
@@ -851,7 +851,7 @@
 
 <sub>1 guide · [questions at Luma AI](../companies/luma-ai.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Luma AI Interview Process & Questions](https://trueinterview.io/study/luma-ai-interview-process) | — |
 
@@ -859,7 +859,7 @@
 
 <sub>1 guide · [questions at MongoDB](../companies/mongodb.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [MongoDB Interview Process & Questions](https://trueinterview.io/study/mongodb-interview-process) | — |
 
@@ -867,7 +867,7 @@
 
 <sub>1 guide · [questions at Palantir](../companies/palantir.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Palantir Technologies Interview Process & Questions](https://trueinterview.io/study/palantir-interview-process) | — |
 
@@ -875,7 +875,7 @@
 
 <sub>1 guide · [questions at PayPal](../companies/paypal.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [PayPal Interview Process & Questions](https://trueinterview.io/study/paypal-interview-process) | — |
 
@@ -883,7 +883,7 @@
 
 <sub>1 guide · [questions at Point72](../companies/point72.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Point72 Interview Process & Questions](https://trueinterview.io/study/point72-interview-process) | — |
 
@@ -891,7 +891,7 @@
 
 <sub>1 guide · [questions at Rubrik](../companies/rubrik.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Rubrik Interview Process & Questions](https://trueinterview.io/study/rubrik-interview-process) | — |
 
@@ -899,7 +899,7 @@
 
 <sub>1 guide · [questions at Sigmacomputing](../companies/sigmacomputing.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Sigma Computing Interview Process & Questions](https://trueinterview.io/study/sigmacomputing-interview-process) | — |
 
@@ -907,7 +907,7 @@
 
 <sub>1 guide · [questions at Squarepoint](../companies/squarepoint.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Squarepoint Capital Interview Process & Questions](https://trueinterview.io/study/squarepoint-interview-process) | — |
 
@@ -915,7 +915,7 @@
 
 <sub>1 guide · [questions at Stubhub](../companies/stubhub.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [StubHub Interview Process & Questions](https://trueinterview.io/study/stubhub-interview-process) | — |
 
@@ -923,7 +923,7 @@
 
 <sub>1 guide · [questions at Tradedesk](../companies/tradedesk.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [The Trade Desk Interview Process & Questions](https://trueinterview.io/study/tradedesk-interview-process) | — |
 
@@ -931,7 +931,7 @@
 
 <sub>1 guide · [questions at Upstart](../companies/upstart.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Upstart Interview Process & Questions](https://trueinterview.io/study/upstart-interview-process) | — |
 
@@ -939,7 +939,7 @@
 
 <sub>1 guide · [questions at Verkada](../companies/verkada.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Verkada Interview Process & Questions](https://trueinterview.io/study/verkada-interview-process) | — |
 
@@ -947,7 +947,7 @@
 
 <sub>1 guide · [questions at Visa](../companies/visa.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Visa Interview Process & Questions](https://trueinterview.io/study/visa-interview-process) | — |
 
@@ -955,6 +955,6 @@
 
 <sub>1 guide · [questions at WeRide](../companies/weride.md)</sub>
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [WeRide Interview Process & Questions](https://trueinterview.io/study/weride-interview-process) | — |

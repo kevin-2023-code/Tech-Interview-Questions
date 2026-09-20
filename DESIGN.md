@@ -88,8 +88,10 @@ is also the landing page.** Those two jobs have opposite requirements.
   because the file *is* the company.
 - `formats/<slug>.md` — drops the Format column, same reason.
 - `by-month/YYYY-MM.md` — what was being asked in a given month.
-- `guides/README.md` — the interview PROCESS, grouped by company: the recruiter screen, the
-  hiring-manager round, the culture interview, the project deep-dive. Each company's guides
+- `guides/README.md` — the Study-section writeups, grouped by company. Most are the interview
+  PROCESS — a recruiter screen, a hiring-manager round, a culture interview — but the same
+  endpoint also carries problems worked end to end and reviews of other products, so no
+  renderer may announce which kind a row is. `tags` is the only evidence. Each company's guides
   are also repeated at the TOP of its own page, above the questions, because that is the
   order you need them in — which rounds a company runs, and then what to practise for them.
 - Every page is capped at 192,000 bytes and paginates into `-2.md`, `-3.md` before it gets

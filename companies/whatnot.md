@@ -20,7 +20,7 @@
 | Most common format | [System Design](../formats/system-design.md) (57% of 7) |
 | Difficulty (easy / medium / hard) | 1 / 6 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 7 questions reported at Whatnot. 4 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 

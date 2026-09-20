@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 4) |
 | Difficulty (easy / medium / hard) | 1 / 3 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 4 questions reported at Gusto. 1 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 

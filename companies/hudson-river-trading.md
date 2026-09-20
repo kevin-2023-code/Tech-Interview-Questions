@@ -2,13 +2,13 @@
 
 # Hudson River Trading interview process, OA & interview questions
 
-**16 questions** reported at Hudson River Trading · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side.
+**16 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📈 [Quant trading & hedge funds](../company-types/quant-trading.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-hudson-river-trading)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-hudson-river-trading)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (88% of 16) |
 | Difficulty (easy / medium / hard) | 4 / 11 / 1 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 1 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 16 questions reported at Hudson River Trading. 2 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -79,11 +79,11 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
-## Round-by-round guides
+## Guides & writeups
 
-**1 writeup** on what each stage of the Hudson River Trading loop actually is — the recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the one for the round you have next.
+**1 writeup** filed under Hudson River Trading in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
-| Interview round / guide | Topics |
+| Writeup | Topics |
 | :-- | :-- |
 | [Hudson River Trading Interview Process & Questions](https://trueinterview.io/study/hudson-river-trading-interview-process) | — |
 

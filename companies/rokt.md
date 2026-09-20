@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 4) |
 | Difficulty (easy / medium / hard) | 1 / 3 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 | Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 4 questions reported at Rokt. 0 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -53,7 +53,7 @@ Of the **1 question at Rokt that carries a topic label** (25% of them — the re
 
 ## Start here
 
-The 4 questions to open first if you are preparing for Rokt, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 4 questions to open first if you are preparing for Rokt, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |

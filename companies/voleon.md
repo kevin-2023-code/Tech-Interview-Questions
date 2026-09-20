@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 5) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 2 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 | Interview reports on the board | 6 in this snapshot |
 
 <sub>Counted from the 5 questions reported at Voleon. 1 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

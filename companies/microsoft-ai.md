@@ -20,7 +20,7 @@
 | Most common format | [System Design](../formats/system-design.md) (50% of 12) |
 | Difficulty (easy / medium / hard) | 2 / 6 / 4 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 12 questions reported at Microsoft AI. 7 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 

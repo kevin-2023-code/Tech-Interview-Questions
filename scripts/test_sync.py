@@ -33,7 +33,13 @@ from build import (  # noqa: E402
     group_by_company,
     group_by_month,
 )
-from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
+from catalog import (  # noqa: E402
+    CatalogError,
+    Guide,
+    load_catalog,
+    parse_catalog_date,
+    question_from_payload,
+)
 from insights import compute as compute_insights  # noqa: E402
 from labels import ACRONYMS, COMPANY_LABELS, company_key, company_label  # noqa: E402
 from render import (  # noqa: E402
@@ -461,7 +467,7 @@ class TestGuides(unittest.TestCase):
         # An empty Study section is a normal deployment state, not a failed read.
         result = render(dataclasses.replace(load_fixture(), guides=[]))
         self.assertNotIn("guides/README.md", result.files)
-        self.assertIn("No interview guides published yet", result.files["README.md"])
+        self.assertIn("No writeups published yet", result.files["README.md"])
 
     def test_an_incomplete_guide_read_says_so_on_the_page(self):
         # The bug this replaced: raising here stopped the WHOLE sync — all two
@@ -903,7 +909,7 @@ class TestMostReportedRanking(unittest.TestCase):
 # not a count, a zero standing in for an unknown, and a jump link pointing at a
 # heading that is not on the page.
 
-from company_page import ROUND_MEANINGS, anchor, company_preamble  # noqa: E402
+from company_page import GUIDES_HEADING, ROUND_MEANINGS, anchor, company_preamble  # noqa: E402
 from company_registry import COMPANY_SEGMENTS  # noqa: E402
 from segments import SECTOR_BY_ID, SIZE_LABELS, is_big_tech, sector_chip, segment_of  # noqa: E402
 
@@ -929,6 +935,17 @@ def _question(**over):
     return question_from_payload(payload)
 
 
+def _guide(**over):
+    return Guide(
+        slug=over.pop("slug", "g-1"),
+        title=over.pop("title", "A Writeup"),
+        companies=tuple(over.pop("companies", ("Acme",))),
+        tags=tuple(over.pop("tags", ())),
+        url=over.pop("url", "https://trueinterview.io/study/g-1"),
+        added_at=over.pop("added_at", None),
+    )
+
+
 def _preamble(questions, **over):
     return company_preamble(
         name=over.pop("name", "Acme"),
@@ -944,6 +961,52 @@ def _preamble(questions, **over):
 
 
 class TestCompanyPage(unittest.TestCase):
+    def test_start_here_never_names_a_key_that_separated_nothing(self):
+        # Every row prints `—` in both of the columns the old sentence named,
+        # so it announced a ranking the table under it visibly contradicted.
+        page = _preamble([_question(reported=None), _question(slug="q-2", reported=None)])
+        start = page[page.index("## Start here"):]
+        self.assertIn("This is not a ranking", start)
+        self.assertNotIn("most recently reported", start)
+        self.assertNotIn("most other companies also ask", start)
+
+    def test_start_here_names_recency_alone_when_that_is_all_that_ordered_it(self):
+        page = _preamble([_question(reported="2026-09-01"), _question(slug="q-2", reported="2026-08-01")])
+        start = page[page.index("## Start here"):]
+        self.assertIn("most recently reported", start)
+        self.assertIn("the usual second key separates nothing", start)
+        self.assertNotIn("This is not a ranking", start)
+
+    def test_start_here_names_both_keys_when_both_did_work(self):
+        page = _preamble([
+            _question(reported="2026-09-01", companies=["Acme", "Globex"]),
+            _question(slug="q-2", reported="2026-08-01"),
+        ])
+        start = page[page.index("## Start here"):]
+        self.assertIn("most recently reported, then the ones the most other companies also ask", start)
+        self.assertNotIn("This is not a ranking", start)
+
+    def test_the_guides_block_claims_no_content_it_has_not_read(self):
+        # It used to assert every writeup covered "the recruiter screen, the
+        # hiring-manager round, the culture interview, the project deep-dive".
+        # Across the bank a guide is as often a worked problem or a review of
+        # somebody else's product, and on a one-guide company the claim was
+        # false about the single row printed beneath it.
+        page = _preamble([_question()], guides=[_guide(title="Credit Card Service with Points")])
+        block = page[page.index("## Guides & writeups"):]
+        self.assertIn("**1 writeup** filed under Acme", block)
+        self.assertIn("The *Topics* column says what it covers", block)
+        for invented in ("recruiter screen", "hiring-manager round", "culture interview"):
+            self.assertNotIn(invented, block)
+
+    def test_the_glance_row_and_the_guides_heading_are_one_string(self):
+        # A jump link, a summary row and a heading that drift apart produce a
+        # link that scrolls to the top, which nobody reports.
+        page = _preamble([_question()], guides=[_guide()])
+        self.assertIn(f"| {GUIDES_HEADING} | 1 |", page)
+        self.assertIn(f"## {GUIDES_HEADING}", page)
+        self.assertIn(f"[{GUIDES_HEADING}](#{anchor(GUIDES_HEADING)})", page)
+
     def test_every_jump_link_lands_on_a_heading_that_exists(self):
         # The one defect on this page nobody reports: a link that silently
         # scrolls to the top because an anchor drifted by one character.
@@ -1187,8 +1250,8 @@ class TestPartialReads(unittest.TestCase):
         guide = load_fixture().guides[0]
         whole = _preamble([_question()], guides=[guide], guides_complete=True)
         partial = _preamble([_question()], guides=[guide], guides_complete=False)
-        self.assertIn("| Round-by-round guides | 1 |", whole)
-        self.assertIn("| Round-by-round guides | 1+ |", partial)
+        self.assertIn("| Guides & writeups | 1 |", whole)
+        self.assertIn("| Guides & writeups | 1+ |", partial)
         self.assertIn("could only hand over one page of guides", partial)
         self.assertNotIn("could only hand over one page of guides", whole)
 

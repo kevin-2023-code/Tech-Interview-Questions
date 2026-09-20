@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 1 |
 | Free to practise | [2](../free/README.md) |
-| Round-by-round guides | 0 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 5 questions reported at Airtable. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -52,7 +52,7 @@ Of the **1 question at Airtable that carries a topic label** (20% of them — th
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Airtable, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 5 questions to open first if you are preparing for Airtable. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |

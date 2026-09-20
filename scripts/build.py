@@ -378,8 +378,7 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                 lede=(
                     f"**{plural(len(rows), 'question')}** reported at {escape_cell(name)}"
                     + (
-                        f" · **{len(company_guides)} interview "
-                        f"{'guide' if len(company_guides) == 1 else 'guides'}**"
+                        f" · **{plural(len(company_guides), 'writeup')}**"
                         if company_guides
                         else ""
                     )
@@ -583,10 +582,10 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             "",
             "# How each company interviews",
             "",
-            f"**{len(guides):,} round-by-round guides** across "
-            f"**{len(guides_by_company)} companies** — what each stage of the loop actually is: "
-            "the recruiter screen, the hiring-manager round, the culture interview, the "
-            "project deep-dive. Read one before you practise for it.",
+            f"**{len(guides):,} writeups** across "
+            f"**{plural(len(guides_by_company), 'company', 'companies')}** — how a round runs, a "
+            "problem worked end to end, notes on a process. The *Topics* column says what each one "
+            "covers. Read one before you practise for it.",
             "",
             "[← Question bank](../README.md)",
             "",
@@ -699,7 +698,7 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
     readme = inject(
         readme,
         "gen:stats",
-        f"**{len(ordered):,} questions** · **{len(guides):,} interview guides** · "
+        f"**{len(ordered):,} questions** · **{len(guides):,} writeups** · "
         f"**{len(company_rows)} companies** · **{stats_view.free_total:,} free to practise** · "
         f"**{stats_view.window_total:,} reported in the last {stats_view.window_days} days** · "
         f"synced from [the live catalog]({SITE}/developers/api) every hour",
@@ -718,13 +717,14 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         readme,
         "gen:guides",
         (
-            f"**Interview process:** [How {len(guides_by_company)} companies interview, "
-            f"round by round ({len(guides):,} guides)](guides/README.md) &nbsp;·&nbsp; "
-            f"[the same guides by topic](guides/by-topic.md)"
+            f"**Interview process:** "
+            f"[Writeups on how {plural(len(guides_by_company), 'company', 'companies')} interview "
+            f"({len(guides):,} of them)](guides/README.md) &nbsp;·&nbsp; "
+            f"[the same writeups by topic](guides/by-topic.md)"
             + ("" if catalog.guides_complete else " — _partial, see the note there_")
         )
         if guides
-        else "_No interview guides published yet._",
+        else "_No writeups published yet._",
     )
     readme = inject(
         readme,

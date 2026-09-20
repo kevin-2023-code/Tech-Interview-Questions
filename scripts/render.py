@@ -402,7 +402,10 @@ def guide_rows(
     order. Sorting inside a renderer silently overrides a caller's ordering, and
     the caller cannot see that it happened.
     """
-    header = ["Interview round / guide"] + ([] if not with_company else ["Company"]) + ["Topics"]
+    # "Interview round" was a claim about the row's CONTENT that nothing here
+    # checks — the same endpoint carries worked problems and product reviews.
+    # The Topics column is the evidence; this column is just the title.
+    header = ["Writeup"] + ([] if not with_company else ["Company"]) + ["Topics"]
     align = [":--"] + ([] if not with_company else [":--"]) + [":--"]
     lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(align) + " |"]
     for guide in (guides if preserve_order else sort_guides(guides, api_labels)):
