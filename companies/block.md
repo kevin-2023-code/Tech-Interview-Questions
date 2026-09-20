@@ -2,11 +2,11 @@
 
 # Block interview process, OA & interview questions
 
-**5 questions** reported at Block. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/block).
+**5 questions** reported at Block. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/block), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 💳 Fintech, payments & crypto · 10,000+ people · Big Tech
+> 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-block)
 
@@ -67,7 +67,7 @@ The 5 questions to open first if you are preparing for Block, ranked by **the mo
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Block on TrueInterview](https://trueinterview.io/problems/company/block).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Block on TrueInterview](https://trueinterview.io/problems/company/block).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Fintech, payments & crypto* is one click in from their filter hub.
 

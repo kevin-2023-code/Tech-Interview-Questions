@@ -2,11 +2,11 @@
 
 # IBM interview process, OA & interview questions
 
-**19 questions** reported at IBM · **3 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/ibm).
+**19 questions** reported at IBM · **3 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🧾 IT services & consulting · 10,000+ people
+> 🧾 [IT services & consulting](../company-types/it-consulting.md) · 10,000+ people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-ibm)
 
@@ -100,7 +100,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [IBM on TrueInterview](https://trueinterview.io/problems/company/ibm).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [IBM on TrueInterview](https://trueinterview.io/problems/company/ibm).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *IT services & consulting* is one click in from their filter hub.
 

@@ -2,11 +2,11 @@
 
 # Perplexity interview process, OA & interview questions
 
-**22 questions** reported at Perplexity · **6 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/perplexity).
+**22 questions** reported at Perplexity · **6 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🧠 AI labs & AI infrastructure · 200–999 people
+> 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 200–999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-perplexity)
 
@@ -106,7 +106,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Perplexity on TrueInterview](https://trueinterview.io/problems/company/perplexity).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Perplexity on TrueInterview](https://trueinterview.io/problems/company/perplexity).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *AI labs & AI infrastructure* is one click in from their filter hub.
 

@@ -2,11 +2,11 @@
 
 # Verkada interview process, OA & interview questions
 
-**24 questions** reported at Verkada · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/verkada).
+**24 questions** reported at Verkada · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/verkada), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🔒 Cybersecurity · 1,000–9,999 people
+> 🔒 [Cybersecurity](../company-types/security.md) · 1,000–9,999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-verkada)
 
@@ -95,7 +95,7 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Verkada on TrueInterview](https://trueinterview.io/problems/company/verkada).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Verkada on TrueInterview](https://trueinterview.io/problems/company/verkada).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Cybersecurity* is one click in from their filter hub.
 

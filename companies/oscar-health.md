@@ -2,7 +2,7 @@
 
 # Oscar Health interview process, OA & interview questions
 
-**3 questions** reported at Oscar Health · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/oscar-health).
+**3 questions** reported at Oscar Health · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oscar-health), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -76,7 +76,7 @@ What candidates said happened in the room at Oscar Health — written up by the 
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Oscar Health on TrueInterview](https://trueinterview.io/problems/company/oscar-health).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Oscar Health on TrueInterview](https://trueinterview.io/problems/company/oscar-health).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Health, biotech & medical devices* is one click in from their filter hub.
 

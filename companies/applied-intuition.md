@@ -2,11 +2,11 @@
 
 # Applied Intuition interview process, OA & interview questions
 
-**17 questions** reported at Applied Intuition · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition).
+**17 questions** reported at Applied Intuition · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🚗 Autonomy, automotive & mobility
+> 🚗 [Autonomy, automotive & mobility](../company-types/autonomy-mobility.md)
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-applied-intuition)
 
@@ -95,7 +95,7 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Applied Intuition on TrueInterview](https://trueinterview.io/problems/company/applied-intuition).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Applied Intuition on TrueInterview](https://trueinterview.io/problems/company/applied-intuition).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Autonomy, automotive & mobility* is one click in from their filter hub.
 

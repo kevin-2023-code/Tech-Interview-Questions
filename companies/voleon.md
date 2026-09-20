@@ -2,11 +2,11 @@
 
 # Voleon interview process, OA & interview questions
 
-**5 questions** reported at Voleon · **6 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/voleon).
+**5 questions** reported at Voleon · **6 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/voleon), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 📈 Quant trading & hedge funds
+> 📈 [Quant trading & hedge funds](../company-types/quant-trading.md)
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-voleon)
 
@@ -91,7 +91,7 @@ What candidates said happened in the room at Voleon — written up by the people
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Voleon on TrueInterview](https://trueinterview.io/problems/company/voleon).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Voleon on TrueInterview](https://trueinterview.io/problems/company/voleon).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Quant trading & hedge funds* is one click in from their filter hub.
 

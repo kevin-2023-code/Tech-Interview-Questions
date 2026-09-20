@@ -16,7 +16,7 @@ from catalog import Catalog, Experience, Guide, Question, parse_catalog_date
 from company_page import company_preamble, company_type_preamble
 from segments import SECTORS, SECTOR_BY_ID, SIZE_LABELS, is_big_tech, segment_of
 from insights import compute as compute_insights
-from labels import FORMAT_ORDER, company_key, company_label, format_label
+from labels import FORMAT_ORDER, JUDGED_FORMATS, company_key, company_label, format_label
 from render import (
     GENERATED_NOTICE,
     date_label,
@@ -352,6 +352,11 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
     # open tonight. A table of two hundred questions is what you use once you
     # know that — see `company_page.py` for the rules it holds.
     experiences_by_company = group_experiences_by_company(catalog.experiences, api_labels)
+    # Computed before the pages that LINK at it: a company page's sector chip
+    # points at the cut that states its rule, and a cut with too little behind
+    # it has no page to point at.
+    cuts = company_type_cuts(by_company, api_labels)
+    cut_ids = frozenset(cut["id"] for cut in cuts)
     for key, (name, rows) in by_company.items():
         company_guides = guides_by_company.get(key, [])
         company_experiences = experiences_by_company.get(key, [])
@@ -375,8 +380,12 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                     )
                     + f". How the loop runs, what has been asked lately, and where to start — counted from "
                     f"what candidates reported, never asserted. Every title opens the full problem in a "
-                    f"runnable workspace with a server-judged verdict on "
-                    f"[TrueInterview]({SITE}/problems/company/{key})."
+                    f"runnable workspace on [TrueInterview]({SITE}/problems/company/{key})"
+                    + (
+                        ", judged server-side."
+                        if all(q.type in JUDGED_FORMATS for q in rows)
+                        else ", judged server-side on the algorithm, low-level-design and SQL formats."
+                    )
                 ),
                 back="[← All companies](README.md) · [← Question bank](../README.md)",
                 questions=rows,
@@ -387,7 +396,9 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                     key=key,
                     questions=rows,
                     guides=company_guides,
+                    guides_complete=catalog.guides_complete,
                     experiences=company_experiences,
+                    cut_ids=cut_ids,
                     experiences_total=catalog.experiences_total,
                     api_labels=api_labels,
                     today=today,

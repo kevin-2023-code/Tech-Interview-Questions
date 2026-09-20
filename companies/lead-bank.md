@@ -2,11 +2,11 @@
 
 # Lead Bank interview process, OA & interview questions
 
-**5 questions** reported at Lead Bank · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/lead-bank).
+**5 questions** reported at Lead Bank · **1 interview guide**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lead-bank), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🏦 Banks, insurers & asset managers
+> 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md)
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-lead-bank)
 
@@ -77,7 +77,7 @@ The 5 questions to open first if you are preparing for Lead Bank, ranked by **th
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Lead Bank on TrueInterview](https://trueinterview.io/problems/company/lead-bank).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Lead Bank on TrueInterview](https://trueinterview.io/problems/company/lead-bank).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Banks, insurers & asset managers* is one click in from their filter hub.
 

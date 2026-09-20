@@ -934,6 +934,7 @@ def _preamble(questions, **over):
         key=over.pop("key", "acme"),
         questions=questions,
         guides=over.pop("guides", []),
+        guides_complete=over.pop("guides_complete", True),
         experiences=over.pop("experiences", []),
         experiences_total=over.pop("experiences_total", None),
         api_labels={},
@@ -1163,3 +1164,41 @@ class TestLinks(unittest.TestCase):
                     continue
                 broken.append(f"{path} → {href}")
         self.assertEqual(broken, [])
+
+
+class TestPartialReads(unittest.TestCase):
+    def test_a_guide_count_is_a_floor_when_the_catalog_read_fell_short(self):
+        # The guides index carries a standing "this list is incomplete" notice
+        # for this state; a bare count on a company page reads as a total,
+        # which is the same lie in a smaller font.
+        guide = load_fixture().guides[0]
+        whole = _preamble([_question()], guides=[guide], guides_complete=True)
+        partial = _preamble([_question()], guides=[guide], guides_complete=False)
+        self.assertIn("| Round-by-round guides | 1 |", whole)
+        self.assertIn("| Round-by-round guides | 1+ |", partial)
+        self.assertIn("could only hand over one page of guides", partial)
+        self.assertNotIn("could only hand over one page of guides", whole)
+
+    def test_the_sector_chip_carries_its_rule_and_links_at_it(self):
+        # The one line on the page that is not a count. It is printed under a
+        # docstring promising the page asserts nothing, so it says what selects
+        # it and points at the cut that states the rule in full.
+        page = render().files["companies/amazon.md"]
+        chip = page.split("\n")[8]
+        self.assertIn("company-types/", chip, chip)
+        if "Big Tech" in chip:
+            self.assertIn("a technology-sector employer with 10,000+ people", chip)
+
+    def test_no_page_promises_a_verdict_the_bank_cannot_give(self):
+        # 377 of 2,315 questions are system-design or AI-coding, where a run's
+        # exit code is a diagnostic and there is no verdict at all.
+        for path, contents in render().files.items():
+            if not path.endswith(".md"):
+                continue
+            # Over the whole document rather than per line: the claim wraps.
+            for match in re.finditer(r"server-judged verdict|judged server-side", contents):
+                window = " ".join(contents[match.start() : match.end() + 160].split())
+                self.assertTrue(
+                    "algorithm" in window and "SQL" in window,
+                    f"{path}: unqualified judging claim — {window[:160]}",
+                )

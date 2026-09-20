@@ -2,11 +2,11 @@
 
 # Anthropic interview process, OA & interview questions
 
-**63 questions** reported at Anthropic · **9 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/anthropic).
+**63 questions** reported at Anthropic · **9 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🧠 AI labs & AI infrastructure · 1,000–9,999 people
+> 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 1,000–9,999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-anthropic)
 
@@ -109,7 +109,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Anthropic on TrueInterview](https://trueinterview.io/problems/company/anthropic).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Anthropic on TrueInterview](https://trueinterview.io/problems/company/anthropic).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *AI labs & AI infrastructure* is one click in from their filter hub.
 

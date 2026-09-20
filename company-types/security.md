@@ -58,7 +58,7 @@ Of the **32 questions in this cut that carry a topic label** (52% of it):
 
 ---
 
-**Preparing for one of these?** Open a company page above for its own loop, its rounds and its reports. Everything in the table below is practisable on [TrueInterview](https://trueinterview.io/problems) with a runnable workspace and a server-judged verdict.
+**Preparing for one of these?** Open a company page above for its own loop, its rounds and its reports. Everything in the table below opens in a runnable workspace on [TrueInterview](https://trueinterview.io/problems) — judged server-side on the algorithm, low-level-design and SQL formats.
 
 ## Every question reported across Cybersecurity
 

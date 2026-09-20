@@ -53,7 +53,7 @@ from render import (
     question_link,
     table,
 )
-from segments import SECTOR_BY_ID, sector_chip, segment_of
+from segments import SECTOR_BY_ID, is_big_tech, sector_chip, segment_of
 
 SITE = "https://trueinterview.io"
 
@@ -132,7 +132,7 @@ def _top_format(questions: Sequence[Question]) -> tuple[str | None, int]:
 
 
 def _glance(name: str, questions: Sequence[Question], guides: Sequence[Guide],
-            experiences: Sequence[Experience], today: date) -> list[str]:
+            guides_complete: bool, experiences: Sequence[Experience], today: date) -> list[str]:
     dated = _dated(questions, today)
     window = _in_window(questions, today, WINDOW_DAYS)
     top_key, top_count = _top_format(questions)
@@ -154,7 +154,10 @@ def _glance(name: str, questions: Sequence[Question], guides: Sequence[Guide],
         ],
         ["Difficulty (easy / medium / hard)", _difficulty_cell(questions)],
         ["Free to practise", f"[{free:,}](../free/README.md)" if free else "0"],
-        ["Round-by-round guides", f"{len(guides):,}" if guides else "0"],
+        # `17+` when the catalog could only hand over one page of guides. The
+        # index says so in a standing notice; a bare count on this page reads as
+        # a total, which is the same lie in a smaller font.
+        ["Round-by-round guides", (f"{len(guides):,}" + ("" if guides_complete else "+")) if guides else "0"],
     ]
     if experiences:
         rows.append(["Interview reports on the board", f"{len(experiences):,} in this snapshot"])
@@ -415,19 +418,27 @@ def _start_here(name: str, questions: Sequence[Question], today: date) -> list[s
     ]
 
 
-def _guides_section(name: str, guides: Sequence[Guide], api_labels: dict[str, str]) -> list[str]:
+def _guides_section(name: str, guides: Sequence[Guide], guides_complete: bool,
+                    api_labels: dict[str, str]) -> list[str]:
     if not guides:
         return []
     return [
         "## Round-by-round guides",
         "",
-        f"**{len(guides)} {'writeup' if len(guides) == 1 else 'writeups'}** on what each stage of the "
+        f"**{len(guides)}{'' if guides_complete else ' or more'} "
+        f"{'writeup' if len(guides) == 1 else 'writeups'}** on what each stage of the "
         f"{escape_cell(name)} loop actually is — the "
         "recruiter screen, the hiring-manager round, the culture interview, the project deep-dive. Read the "
         "one for the round you have next.",
         "",
         guide_rows(guides, api_labels, with_company=False),
         "",
+        *([] if guides_complete else [
+            "<sub>The catalog API could only hand over one page of guides on this run, so this is what it "
+            f"reached rather than every guide — see [the index](../guides/README.md) and "
+            f"[the Study section]({SITE}/study).</sub>",
+            "",
+        ]),
     ]
 
 
@@ -604,8 +615,9 @@ def company_type_preamble(
         "---",
         "",
         f"**Preparing for one of these?** Open a company page above for its own loop, its rounds and its "
-        f"reports. Everything in the table below is practisable on [TrueInterview]({SITE}/problems) with a "
-        "runnable workspace and a server-judged verdict.",
+        f"reports. Everything in the table below opens in a runnable workspace on "
+        f"[TrueInterview]({SITE}/problems) — judged server-side on the algorithm, low-level-design and SQL "
+        "formats.",
         "",
         f"## Every question reported across {escape_cell(title)}",
     ]
@@ -628,7 +640,8 @@ def _footer(name: str, key: str, sector_label: str | None) -> list[str]:
         "---",
         "",
         f"**Practise these on TrueInterview.** Every title above opens the full problem in a runnable "
-        f"workspace with a server-judged verdict: [{escape_cell(name)} on TrueInterview]({SITE}/problems/company/{key}).",
+        f"workspace — judged server-side on the algorithm, low-level-design and SQL formats: "
+        f"[{escape_cell(name)} on TrueInterview]({SITE}/problems/company/{key}).",
         "",
         f"**Hiring right now?** Open roles are in the sibling lists, refreshed hourly: {jobs}. {where}",
         "",
@@ -641,23 +654,39 @@ def company_preamble(
     key: str,
     questions: Sequence[Question],
     guides: Sequence[Guide],
+    guides_complete: bool,
     experiences: Sequence[Experience],
     experiences_total: int | None,
     api_labels: dict[str, str],
+    cut_ids: frozenset[str] = frozenset(),
     today: date,
 ) -> str:
     """Everything above the question table on one company's page."""
     sector, size = segment_of(name, api_labels)
+    # The chip is the one line on this page that is not a count, so it carries
+    # its rule and links at the cut that states it in full. A bare
+    # "🛒 E-commerce & marketplaces · 10,000+ people · Big Tech" is an assertion
+    # printed under a docstring promising the page makes none.
     chip = sector_chip(sector, size)
+    if chip and sector and sector in cut_ids:
+        chip = chip.replace(
+            SECTOR_BY_ID[sector].label,
+            f"[{SECTOR_BY_ID[sector].label}](../company-types/{sector}.md)",
+            1,
+        )
+    if chip and is_big_tech(sector, size) and "big-tech" in cut_ids:
+        chip = chip.replace("Big Tech", "[Big Tech](../company-types/big-tech.md)", 1)
+    if chip and is_big_tech(sector, size):
+        chip += " — a derived cut: a technology-sector employer with 10,000+ people"
 
     blocks: list[tuple[str, list[str]]] = [
-        ("At a glance", _glance(name, questions, guides, experiences, today)),
+        ("At a glance", _glance(name, questions, guides, guides_complete, experiences, today)),
         ("The loop, as reported", _loop(name, questions)),
         (f"Asked here in the last {WINDOW_DAYS} days", _recent(name, questions, today)),
         ("What they ask about", _topics(name, questions, today)),
         ("When they asked it", _timeline(name, questions, today)),
         ("Start here", _start_here(name, questions, today)),
-        ("Round-by-round guides", _guides_section(name, guides, api_labels)),
+        ("Round-by-round guides", _guides_section(name, guides, guides_complete, api_labels)),
         ("Interview reports", _reports(name, experiences, experiences_total, today)),
     ]
     present = [(title, lines) for title, lines in blocks if lines]

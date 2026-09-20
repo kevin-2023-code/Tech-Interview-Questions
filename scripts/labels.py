@@ -113,6 +113,14 @@ FORMAT_LABELS: dict[str, str] = {
     "ai-coding": "AI Coding",
 }
 
+#: The formats a submission is JUDGED on, as opposed to opened in. Algorithm and
+#: low-level design run on the external judge and SQL on an in-process Postgres;
+#: system design opens a whiteboard and AI coding opens a sandbox where a run's
+#: exit code is a diagnostic, never a verdict. The distinction is the site's own
+#: and is the reason no page here may promise "a server-judged verdict" over a
+#: bank in which 377 of 2,315 questions have no verdict to give.
+JUDGED_FORMATS: frozenset[str] = frozenset({"algorithm", "low-level-design", "sql"})
+
 DIFFICULTY_ORDER: tuple[str, ...] = ("easy", "medium", "hard")
 DIFFICULTY_LABELS: dict[str, str] = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}
 

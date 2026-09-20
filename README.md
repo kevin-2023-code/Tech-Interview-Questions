@@ -25,8 +25,8 @@
 ---
 
 Every title here opens the real problem on [TrueInterview](https://trueinterview.io) — a
-runnable workspace and a server-judged verdict, not a screenshot. Synced from the live
-catalog every hour.
+runnable workspace, not a screenshot, and a server-judged verdict on the algorithm,
+low-level-design and SQL formats. Synced from the live catalog every hour.
 
 ## 📊 What companies are actually asking
 
@@ -307,7 +307,7 @@ under its own terms.
 | --- | --- |
 | 💼 [**New-Grad-Opportunities**](https://github.com/kevin-2023-code/New-Grad-Opportunities) | Every open entry-level tech role in the catalog, refreshed hourly and filtered by company type, role and metro. |
 | 🎓 [**Internship-Opportunities**](https://github.com/kevin-2023-code/Internship-Opportunities) | The same, for internships and co-ops. |
-| 🧭 [**TrueInterview**](https://trueinterview.io) | The catalog behind all three: a runnable workspace, a server-judged verdict, CV tailoring and application tracking. |
+| 🧭 [**TrueInterview**](https://trueinterview.io) | The catalog behind all three: a runnable workspace, server-side judging on the coding formats, CV tailoring and application tracking. |
 
 **The loop, end to end:** find the role on one of the job lists → read how that company
 interviews here → practise the exact questions it has been reported asking.

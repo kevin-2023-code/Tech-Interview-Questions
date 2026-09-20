@@ -2,11 +2,11 @@
 
 # Moveworks interview process, OA & interview questions
 
-**3 questions** reported at Moveworks · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/moveworks).
+**3 questions** reported at Moveworks · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/moveworks), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🧠 AI labs & AI infrastructure · 200–999 people
+> 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 200–999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-moveworks)
 
@@ -73,7 +73,7 @@ What candidates said happened in the room at Moveworks — written up by the peo
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Moveworks on TrueInterview](https://trueinterview.io/problems/company/moveworks).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Moveworks on TrueInterview](https://trueinterview.io/problems/company/moveworks).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *AI labs & AI infrastructure* is one click in from their filter hub.
 

@@ -2,11 +2,11 @@
 
 # Airtable interview process, OA & interview questions
 
-**5 questions** reported at Airtable. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/airtable).
+**5 questions** reported at Airtable. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airtable), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 🏢 Enterprise & business software · 200–999 people
+> 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 200–999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-airtable)
 
@@ -66,7 +66,7 @@ The 5 questions to open first if you are preparing for Airtable, ranked by **the
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Airtable on TrueInterview](https://trueinterview.io/problems/company/airtable).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Airtable on TrueInterview](https://trueinterview.io/problems/company/airtable).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Enterprise & business software* is one click in from their filter hub.
 

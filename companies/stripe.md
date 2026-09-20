@@ -2,11 +2,11 @@
 
 # Stripe interview process, OA & interview questions
 
-**61 questions** reported at Stripe · **2 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace with a server-judged verdict on [TrueInterview](https://trueinterview.io/problems/company/stripe).
+**61 questions** reported at Stripe · **2 interview guides**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
-> 💳 Fintech, payments & crypto · 1,000–9,999 people
+> 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
 **On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Round-by-round guides](#round-by-round-guides) · [Every question](#every-question-reported-at-stripe)
 
@@ -107,7 +107,7 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Stripe on TrueInterview](https://trueinterview.io/problems/company/stripe).
+**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Stripe on TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Fintech, payments & crypto* is one click in from their filter hub.
 
