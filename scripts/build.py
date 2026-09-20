@@ -67,13 +67,26 @@ def group_by_company(questions: Sequence[Question], api_labels: dict[str, str]):
     """
     groups: dict[str, tuple[str, list[Question]]] = {}
     for question in questions:
-        for company in question.companies:
-            key = company_key(company, api_labels)
-            if not key:
-                continue
-            name, rows = groups.setdefault(key, (company_label(company, api_labels), []))
+        # Deduped by KEY within the question. The alias tables exist to fold
+        # `SpaceX` and `Spacex` onto one key, which is exactly what let a row
+        # carrying both spellings be appended to that key twice — counted twice
+        # on the employer's own page, and in every share taken over it.
+        for key in _keys_of(question.companies, api_labels):
+            name, rows = groups.setdefault(key, (_name_for(key, question.companies, api_labels), []))
             rows.append(question)
     return groups
+
+
+def _keys_of(companies: Sequence[str], api_labels: dict[str, str]) -> list[str]:
+    """The distinct company keys a row names, in the order it named them."""
+    return list(dict.fromkeys(filter(None, (company_key(c, api_labels) for c in companies))))
+
+
+def _name_for(key: str, companies: Sequence[str], api_labels: dict[str, str]) -> str:
+    for company in companies:
+        if company_key(company, api_labels) == key:
+            return company_label(company, api_labels)
+    return key
 
 
 def group_by_format(questions: Sequence[Question]) -> dict[str, list[Question]]:
@@ -122,10 +135,8 @@ def group_guides_by_company(guides: Sequence[Guide], api_labels: dict[str, str])
     """
     groups: dict[str, list[Guide]] = {}
     for guide in guides:
-        for company in guide.companies:
-            key = company_key(company, api_labels)
-            if key:
-                groups.setdefault(key, []).append(guide)
+        for key in _keys_of(guide.companies, api_labels):
+            groups.setdefault(key, []).append(guide)
     return groups
 
 

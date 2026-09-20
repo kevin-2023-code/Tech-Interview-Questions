@@ -30,6 +30,7 @@ from build import (  # noqa: E402
     build,
     check_budgets,
     company_type_cuts,
+    group_by_company,
     group_by_month,
 )
 from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
@@ -1202,3 +1203,33 @@ class TestPartialReads(unittest.TestCase):
                     "algorithm" in window and "SQL" in window,
                     f"{path}: unqualified judging claim — {window[:160]}",
                 )
+
+
+class TestPathSafety(unittest.TestCase):
+    def test_a_rendered_path_outside_the_generated_directories_is_refused(self):
+        # A question's `type` is free text to the catalog API and becomes a
+        # path (`formats/{type}.md`). Nothing downstream checked it, and the
+        # writer makes directories on the way.
+        from sync import refuse_unwritable
+
+        self.assertEqual(refuse_unwritable(["README.md", "companies/a.md", "data/x.csv"]), [])
+        for bad in ("formats/../../../etc/passwd.md", "/etc/x.md", "scripts/evil.md", ".git/config.md",
+                    "formats/x.py", "formats/..%2f.md"):
+            self.assertEqual(len(refuse_unwritable([bad])), 1, bad)
+
+    def test_every_path_the_real_build_produces_is_writable(self):
+        from sync import refuse_unwritable
+
+        self.assertEqual(refuse_unwritable(render().files), [])
+
+
+class TestOneEmployerCountedOnce(unittest.TestCase):
+    def test_a_row_naming_one_employer_twice_is_one_row_on_its_page(self):
+        # The alias table folds `SpaceX` and `Spacex` onto one key, which is
+        # what let a row carrying both be appended to that key twice.
+        question = _question(companies=["SpaceX", "Spacex"], reported="2026-09-01")
+        groups = group_by_company([question], {})
+        self.assertEqual(list(groups), ["spacex"])
+        self.assertEqual(len(groups["spacex"][1]), 1)
+        stats = compute_insights([question], [], {}, TODAY)
+        self.assertEqual([(row.key, row.questions) for row in stats.companies], [("spacex", 1)])
