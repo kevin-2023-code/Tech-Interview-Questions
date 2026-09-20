@@ -428,7 +428,11 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                 ),
             )
         )
-    if cuts:
+    # Written even when there are no cuts, because the README's hand-written
+    # nav links at it unconditionally — and an empty registry is a reachable
+    # state (it is what a fresh checkout has before the registry lands). An
+    # empty section is a sentence here, the way it is everywhere else.
+    if True:
         files["company-types/README.md"] = "\n".join(
             [
                 GENERATED_NOTICE,
@@ -453,7 +457,12 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                         ]
                         for cut in cuts
                     ],
-                ),
+                )
+                if cuts
+                else "**No employer in the bank is in the company registry yet**, so there is nothing to cut "
+                "by. That is a gap in the registry rather than in the bank — every question is still on its "
+                "company page. [Adding a company](../CONTRIBUTING.md#adding-a-company-to-the-registry) is a "
+                "two-line change.",
                 "",
                 f"<sub>A cut with fewer than {COMPANY_TYPE_MIN_QUESTIONS} questions behind it does not get a "
                 "page: it would appear for an hour and break every link anybody had shared. The sector and "
@@ -609,11 +618,18 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                  if company_key(c, api_labels) == key),
                 key,
             )
+            # Company pages are generated from QUESTIONS and this index is built
+            # from GUIDES, so an employer with a guide and no question has no
+            # page — and this line linked at one anyway. `companies/general.md`
+            # was a live 404 in the published index.
+            has_page = key in by_company
             body += [
                 f"### {escape_cell(name)}",
                 "",
-                f"<sub>{plural(len(rows), 'guide')} · "
-                f"[questions at {escape_cell(name)}](../companies/{key}.md)</sub>",
+                f"<sub>{plural(len(rows), 'guide')}"
+                + (f" · [questions at {escape_cell(name)}](../companies/{key}.md)" if has_page
+                   else " · no questions reported at this employer yet")
+                + "</sub>",
                 "",
                 guide_rows(rows, api_labels, with_company=False),
                 "",

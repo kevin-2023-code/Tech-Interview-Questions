@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Snowflake (88)](../companies/snowflake.md) · [OpenAI (87)](../companies/openai.md) · [Anthropic (63)](../companies/anthropic.md) · [Stripe (61)](../companies/stripe.md) · [Pinterest (60)](../companies/pinterest.md) · [Roblox (54)](../companies/roblox.md) · [Snapchat (49)](../companies/snapchat.md) · [Airbnb (48)](../companies/airbnb.md) · [Coinbase (45)](../companies/coinbase.md) · [xAI (31)](../companies/xai.md) · [Robinhood (30)](../companies/robinhood.md) · [Lyft (28)](../companies/lyft.md) · [SoFi (27)](../companies/sofi.md) · [Reddit (26)](../companies/reddit.md) · [Rippling (26)](../companies/rippling.md) · [Instacart (24)](../companies/instacart.md) · [Verkada (24)](../companies/verkada.md) · [Ramp (23)](../companies/ramp.md) · [Datadog (20)](../companies/datadog.md) · [Figma (18)](../companies/figma.md) · [Confluent (17)](../companies/confluent.md) · [Yelp (17)](../companies/yelp.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Upstart (15)](../companies/upstart.md) · [Affirm (14)](../companies/affirm.md) · [Rubrik (14)](../companies/rubrik.md) · [Shopify (14)](../companies/shopify.md) · [Dropbox (13)](../companies/dropbox.md) · [Scale AI (12)](../companies/scale-ai.md) · [Hubspot (10)](../companies/hubspot.md) · [Okta (10)](../companies/okta.md) · [Mongodb (6)](../companies/mongodb.md) · [Arista (5)](../companies/arista.md) · [Okx (5)](../companies/okx.md) · [Palantir (5)](../companies/palantir.md) · [Faire (4)](../companies/faire.md) · [Gusto (4)](../companies/gusto.md)
+[Snowflake (88)](../companies/snowflake.md) · [OpenAI (87)](../companies/openai.md) · [Anthropic (63)](../companies/anthropic.md) · [Stripe (61)](../companies/stripe.md) · [Pinterest (60)](../companies/pinterest.md) · [Roblox (54)](../companies/roblox.md) · [Snapchat (49)](../companies/snapchat.md) · [Airbnb (48)](../companies/airbnb.md) · [Coinbase (45)](../companies/coinbase.md) · [xAI (31)](../companies/xai.md) · [Robinhood (30)](../companies/robinhood.md) · [Lyft (28)](../companies/lyft.md) · [SoFi (27)](../companies/sofi.md) · [Reddit (26)](../companies/reddit.md) · [Rippling (26)](../companies/rippling.md) · [Instacart (24)](../companies/instacart.md) · [Verkada (24)](../companies/verkada.md) · [Ramp (23)](../companies/ramp.md) · [Datadog (20)](../companies/datadog.md) · [Figma (18)](../companies/figma.md) · [Confluent (17)](../companies/confluent.md) · [Yelp (17)](../companies/yelp.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Upstart (15)](../companies/upstart.md) · [Affirm (14)](../companies/affirm.md) · [Rubrik (14)](../companies/rubrik.md) · [Shopify (14)](../companies/shopify.md) · [Dropbox (13)](../companies/dropbox.md) · [Scale AI (12)](../companies/scale-ai.md) · [HubSpot (10)](../companies/hubspot.md) · [Okta (10)](../companies/okta.md) · [MongoDB (6)](../companies/mongodb.md) · [Arista (5)](../companies/arista.md) · [OKX (5)](../companies/okx.md) · [Palantir (5)](../companies/palantir.md) · [Faire (4)](../companies/faire.md) · [Gusto (4)](../companies/gusto.md)
 
 <sub>37 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -129,7 +129,7 @@ Of the **337 questions in this cut that carry a topic label** (39% of it):
 | **Rippling** | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | Medium | Jun 18, 2026 |
 | **Rippling** | [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Medium | Jun 18, 2026 |
 | **Snowflake** | [Project Duration & Budget per Employee](https://trueinterview.io/questions/sql-project-duration-budget-per-employee) | Medium | Jun 18, 2026 |
-| **Airbnb / Amazon / Ebay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
+| **Airbnb / Amazon / eBay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
 | **Airbnb** | [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Medium | Jun 17, 2026 |
 | **Airbnb** | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | Hard | Jun 17, 2026 |
 | **Snowflake** | [Calculate Amount Paid in Taxes](https://trueinterview.io/questions/calculate-amount-paid-in-taxes) | Easy | Jun 17, 2026 |
@@ -156,7 +156,7 @@ Of the **337 questions in this cut that carry a topic label** (39% of it):
 | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | Medium | Jun 11, 2026 |
 | **Stripe** | [Factory Network Cost Minimization](https://trueinterview.io/questions/factory-network-cost-minimization) | Easy | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Hard | Jun 11, 2026 |
-| **OpenAI / Ebay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
+| **OpenAI / eBay** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | Medium | Jun 11, 2026 |
 | **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 | **Pinterest** | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Medium | Jun 10, 2026 |
 | **Anthropic** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Medium | Jun 10, 2026 |
@@ -238,7 +238,7 @@ Of the **337 questions in this cut that carry a topic label** (39% of it):
 | **Snapchat** | [Course Schedule Cycle Detection](https://trueinterview.io/questions/course-schedule-cycle-detection) | Medium | May 13, 2026 |
 | **Stripe** | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Medium | May 13, 2026 |
 | **Shopify** | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Medium | May 12, 2026 |
-| **Lyft / DoorDash / Ebay / Whatnot** | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | Medium | May 12, 2026 |
+| **Lyft / DoorDash / eBay / Whatnot** | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | Medium | May 12, 2026 |
 | **Lyft** | [Rotten Oranges / Grid Infection BFS](https://trueinterview.io/questions/rotten-oranges-grid-bfs) | Medium | May 12, 2026 |
 | **Airbnb** | [Format Articles Within Width](https://trueinterview.io/questions/text-justification-table) | Hard | May 12, 2026 |
 | **Stripe** | [Account Balance Processor](https://trueinterview.io/questions/account-balance-manager) | Medium | May 12, 2026 |

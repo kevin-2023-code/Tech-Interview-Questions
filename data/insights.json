@@ -363,7 +363,7 @@
       "inLastYear": 10,
       "inWindow": 0,
       "lastSighting": "2026-06-17",
-      "name": "Ebay",
+      "name": "eBay",
       "questions": 30,
       "slug": "ebay",
       "topFormat": "Algorithm",
@@ -597,7 +597,7 @@
       "inLastYear": 2,
       "inWindow": 1,
       "lastSighting": "2026-07-29",
-      "name": "Weride",
+      "name": "WeRide",
       "questions": 20,
       "slug": "weride",
       "topFormat": "Algorithm",
@@ -961,7 +961,7 @@
       "inLastYear": 7,
       "inWindow": 0,
       "lastSighting": "2026-02-01",
-      "name": "Hubspot",
+      "name": "HubSpot",
       "questions": 10,
       "slug": "hubspot",
       "topFormat": "Algorithm",
@@ -1013,7 +1013,7 @@
       "inLastYear": 1,
       "inWindow": 0,
       "lastSighting": "2026-04-02",
-      "name": "Geico",
+      "name": "GEICO",
       "questions": 6,
       "slug": "geico",
       "topFormat": "Algorithm",
@@ -1039,7 +1039,7 @@
       "inLastYear": null,
       "inWindow": null,
       "lastSighting": null,
-      "name": "Mongodb",
+      "name": "MongoDB",
       "questions": 6,
       "slug": "mongodb",
       "topFormat": "Algorithm",
@@ -1130,7 +1130,7 @@
       "inLastYear": null,
       "inWindow": null,
       "lastSighting": null,
-      "name": "Okx",
+      "name": "OKX",
       "questions": 5,
       "slug": "okx",
       "topFormat": "Algorithm",
@@ -1169,7 +1169,7 @@
       "inLastYear": null,
       "inWindow": null,
       "lastSighting": null,
-      "name": "Stackadapt",
+      "name": "StackAdapt",
       "questions": 5,
       "slug": "stackadapt",
       "topFormat": "Algorithm",
@@ -1434,7 +1434,7 @@
     {
       "companies": 57,
       "firstReportedCompanies": [
-        "Geico",
+        "GEICO",
         "Harvey",
         "Squarepoint",
         "Tradedesk"
@@ -1472,7 +1472,7 @@
         "PayPal",
         "Pinduoduo",
         "Scale AI",
-        "Weride"
+        "WeRide"
       ],
       "formats": {
         "ai-coding": 6,
@@ -1505,7 +1505,7 @@
       "companies": 42,
       "firstReportedCompanies": [
         "Anthropic",
-        "Hubspot",
+        "HubSpot",
         "NVIDIA",
         "Rippling",
         "Salesforce",
@@ -1653,7 +1653,7 @@
     {
       "companies": 4,
       "firstReportedCompanies": [
-        "Ebay",
+        "eBay",
         "Ramp",
         "Robinhood",
         "Yelp"
@@ -2617,7 +2617,7 @@
           "slug": "upstart"
         },
         {
-          "name": "Weride",
+          "name": "WeRide",
           "questions": 3,
           "slug": "weride"
         }
@@ -2725,7 +2725,7 @@
           "slug": "expedia"
         },
         {
-          "name": "Mongodb",
+          "name": "MongoDB",
           "questions": 1,
           "slug": "mongodb"
         }

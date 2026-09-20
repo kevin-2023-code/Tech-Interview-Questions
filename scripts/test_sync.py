@@ -13,12 +13,13 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import os
 import re
 import sys
 import unittest
 from datetime import date
 from unittest import mock
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -33,7 +34,7 @@ from build import (  # noqa: E402
 )
 from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
 from insights import compute as compute_insights  # noqa: E402
-from labels import company_key, company_label  # noqa: E402
+from labels import COMPANY_LABELS, company_key, company_label  # noqa: E402
 from render import (  # noqa: E402
     PAGE_MAX_BYTES,
     README_MAX_BYTES,
@@ -1118,3 +1119,47 @@ class TestPlurals(unittest.TestCase):
             for match in pattern.finditer(contents):
                 offenders.append(f"{path}: …{contents[max(0, match.start() - 40):match.end() + 10]}…")
         self.assertEqual(offenders, [])
+
+
+class TestCompanyLabelAliases(unittest.TestCase):
+    def test_an_alias_never_splits_one_company_into_two_pages(self):
+        # `company_key` derives from the LABEL, so an alias that changes the
+        # slug moves the company's page — and the slug is also the address of
+        # its page on the site. An alias must resolve the stored spelling and
+        # its own display name to the same key, or the two spellings become two
+        # pages that each hold half the questions.
+        for stored, label in COMPANY_LABELS.items():
+            self.assertEqual(
+                company_key(stored), company_key(label), f"{stored!r} → {label!r} moves the page"
+            )
+
+    def test_the_bank_renders_no_obviously_mangled_capitalisation(self):
+        # Not a rule a machine can settle in general, so it is pinned to the
+        # names this repository has actually been publishing wrong.
+        for stored, expected in (("mongodb", "MongoDB"), ("ebay", "eBay"), ("geico", "GEICO")):
+            self.assertEqual(company_label(stored), expected)
+
+
+class TestLinks(unittest.TestCase):
+    def test_every_relative_link_points_at_a_file_that_exists(self):
+        # The guard the sibling job-list repositories have and this one did not:
+        # `guides/README.md` linked at `companies/general.md`, a company with
+        # guides and no questions, and so a page the generator never writes. A
+        # 404 in a published index is invisible to every other test here.
+        result = render()
+        generated = set(result.files)
+        broken = []
+        for path, contents in result.files.items():
+            if not path.endswith(".md"):
+                continue
+            here = PurePosixPath(path).parent
+            for href in re.findall(r"\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)", contents):
+                if href.startswith(("http://", "https://", "mailto:", "#")):
+                    continue
+                if href.startswith("../../../issues") or href.startswith("../../issues"):
+                    continue
+                target = os.path.normpath(str(here / href.split("#")[0]))
+                if target in generated or (ROOT / target).exists():
+                    continue
+                broken.append(f"{path} → {href}")
+        self.assertEqual(broken, [])

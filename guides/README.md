@@ -259,7 +259,7 @@
 
 ### General
 
-<sub>8 guides · [questions at General](../companies/general.md)</sub>
+<sub>8 guides · no questions reported at this employer yet</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -799,9 +799,9 @@
 | :-- | :-- |
 | [Dropbox Interview Process & Questions](https://trueinterview.io/study/dropbox-interview-process) | — |
 
-### Ebay
+### eBay
 
-<sub>1 guide · [questions at Ebay](../companies/ebay.md)</sub>
+<sub>1 guide · [questions at eBay](../companies/ebay.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -815,9 +815,9 @@
 | :-- | :-- |
 | [Expedia Group Interview Process & Questions](https://trueinterview.io/study/expedia-interview-process) | — |
 
-### Geico
+### GEICO
 
-<sub>1 guide · [questions at Geico](../companies/geico.md)</sub>
+<sub>1 guide · [questions at GEICO](../companies/geico.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -855,9 +855,9 @@
 | :-- | :-- |
 | [Luma AI Interview Process & Questions](https://trueinterview.io/study/luma-ai-interview-process) | — |
 
-### Mongodb
+### MongoDB
 
-<sub>1 guide · [questions at Mongodb](../companies/mongodb.md)</sub>
+<sub>1 guide · [questions at MongoDB](../companies/mongodb.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -951,9 +951,9 @@
 | :-- | :-- |
 | [Visa Interview Process & Questions](https://trueinterview.io/study/visa-interview-process) | — |
 
-### Weride
+### WeRide
 
-<sub>1 guide · [questions at Weride](../companies/weride.md)</sub>
+<sub>1 guide · [questions at WeRide](../companies/weride.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |

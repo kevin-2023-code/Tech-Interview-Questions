@@ -58,6 +58,42 @@ COMPANY_LABELS: dict[str, str] = {
     "sofi": "SoFi",
     "scale.ai": "Scale AI",
     "scaleai": "Scale AI",
+    # Casing only, below this line. An entry that inserts a SPACE changes the
+    # slug (`capitalone` → `Capital One` → `capital-one`), and the slug is the
+    # address of the company's page on the site — so a word break invented here
+    # rather than transcribed from the site publishes a link to a page that does
+    # not exist. Casing cannot do that: the slug lowercases either way. The
+    # sibling job lists carry the same entries in `lib/companies.mjs`; an
+    # employer that reads "Mongodb" on one list and "MongoDB" on the other is
+    # the drift this closes.
+    "mongodb": "MongoDB",
+    "ebay": "eBay",
+    "hubspot": "HubSpot",
+    "geico": "GEICO",
+    "okx": "OKX",
+    "weride": "WeRide",
+    "stackadapt": "StackAdapt",
+    "crowdstrike": "CrowdStrike",
+    "servicenow": "ServiceNow",
+    "hashicorp": "HashiCorp",
+    "digitalocean": "DigitalOcean",
+    "coreweave": "CoreWeave",
+    "pagerduty": "PagerDuty",
+    "applovin": "AppLovin",
+    "circleci": "CircleCI",
+    "clickup": "ClickUp",
+    "sonarsource": "SonarSource",
+    "squarespace": "Squarespace",
+    "elevenlabs": "ElevenLabs",
+    "spacex": "SpaceX",
+    "abbvie": "AbbVie",
+    "epam": "EPAM",
+    "pwc": "PwC",
+    "kpmg": "KPMG",
+    "wsp": "WSP",
+    "hpe": "HPE",
+    "kla": "KLA",
+    "amd": "AMD",
 }
 
 # Practice formats, in the order every navigation block prints them. The order is

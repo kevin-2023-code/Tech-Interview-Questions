@@ -42,11 +42,11 @@ The month a company's earliest recorded sighting falls in. A company appearing h
 | Month | Companies first reported |
 | :-- | :-- |
 | [Aug 2026](../by-month/2026-08.md) | Bobyard |
-| [Apr 2026](../by-month/2026-04.md) | Geico, Harvey, Squarepoint, Tradedesk |
+| [Apr 2026](../by-month/2026-04.md) | GEICO, Harvey, Squarepoint, Tradedesk |
 | [Mar 2026](../by-month/2026-03.md) | Gusto, Point72 |
-| [Feb 2026](../by-month/2026-02.md) | Applied Intuition, PayPal, Pinduoduo, Scale AI, Weride |
+| [Feb 2026](../by-month/2026-02.md) | Applied Intuition, PayPal, Pinduoduo, Scale AI, WeRide |
 | [Jan 2026](../by-month/2026-01.md) | Datadog, Luma AI, Netflix, Verkada, Whatnot |
-| [Dec 2025](../by-month/2025-12.md) | Anthropic, Hubspot, NVIDIA, Rippling, Salesforce, xAI |
+| [Dec 2025](../by-month/2025-12.md) | Anthropic, HubSpot, NVIDIA, Rippling, Salesforce, xAI |
 | [Nov 2025](../by-month/2025-11.md) | Capital One, Expedia, Okta, Square |
 | [Oct 2025](../by-month/2025-10.md) | Affirm, Amplitude, Apple, Bloomberg, ByteDance, Confluent, Databricks, Google, Hudson River Trading, Lyft, Microsoft, Microsoft AI, Snapchat, Stripe, Two Sigma |
 | [Sep 2025](../by-month/2025-09.md) | Airbnb, Akuna Capital, Atlassian, IBM, Intuit, JPMorgan, Meta, Roblox, Uber, Waymo |
@@ -54,7 +54,7 @@ The month a company's earliest recorded sighting falls in. A company appearing h
 | [Jul 2025](../by-month/2025-07.md) | Cisco, Coinbase, Instacart, Reddit, Snowflake, Walmart Labs |
 | [Jun 2025](../by-month/2025-06.md) | OpenAI, Shopify, SoFi |
 | [May 2025](../by-month/2025-05.md) | Pinterest |
-| [Apr 2025](../by-month/2025-04.md) | Ebay, Ramp, Robinhood, Yelp |
+| [Apr 2025](../by-month/2025-04.md) | eBay, Ramp, Robinhood, Yelp |
 | [Jan 2025](../by-month/2025-01.md) | Oracle |
 | [Dec 2024](../by-month/2024-12.md) | Vanta |
 | [Oct 2024](../by-month/2024-10.md) | Citadel, Goldman Sachs, Voleon |
