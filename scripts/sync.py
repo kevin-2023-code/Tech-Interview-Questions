@@ -42,7 +42,17 @@ README_TEMPLATE = ROOT / "README.md"
 
 # Directories whose entire contents this script owns. Anything inside them that
 # a render did not produce is deleted; anything outside them is never touched.
-GENERATED_DIRS = ("companies", "formats", "by-month", "guides", "insights", "free", "experiences", "data")
+GENERATED_DIRS = (
+    "companies",
+    "company-types",
+    "formats",
+    "by-month",
+    "guides",
+    "insights",
+    "free",
+    "experiences",
+    "data",
+)
 
 
 def parse_args() -> argparse.Namespace:

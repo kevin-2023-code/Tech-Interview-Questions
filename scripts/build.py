@@ -12,11 +12,16 @@ from datetime import date
 from typing import Sequence
 
 import report
-from catalog import Catalog, Guide, Question, parse_catalog_date
+from catalog import Catalog, Experience, Guide, Question, parse_catalog_date
+from company_page import company_preamble, company_type_preamble
+from segments import SECTORS, SECTOR_BY_ID, SIZE_LABELS, is_big_tech, segment_of
 from insights import compute as compute_insights
 from labels import FORMAT_ORDER, company_key, company_label, format_label
 from render import (
     GENERATED_NOTICE,
+    date_label,
+    plural,
+    table,
     guide_rows,
     sort_guides,
     GITHUB_RENDER_LIMIT,
@@ -93,6 +98,21 @@ def group_by_month(questions: Sequence[Question]) -> dict[str, list[Question]]:
     return groups
 
 
+def group_experiences_by_company(experiences: Sequence[Experience], api_labels: dict[str, str]):
+    """Company slug → the interview reports filed under it.
+
+    A SLICE of the board by construction — the catalog endpoint takes a limit
+    and no offset — so most companies have none and the page says so rather
+    than implying the board is empty.
+    """
+    groups: dict[str, list[Experience]] = {}
+    for experience in experiences:
+        key = company_key(experience.company, api_labels)
+        if key:
+            groups.setdefault(key, []).append(experience)
+    return groups
+
+
 def group_guides_by_company(guides: Sequence[Guide], api_labels: dict[str, str]):
     """Company slug → its interview-process guides.
 
@@ -107,6 +127,200 @@ def group_guides_by_company(guides: Sequence[Guide], api_labels: dict[str, str])
             if key:
                 groups.setdefault(key, []).append(guide)
     return groups
+
+
+#: A cut needs at least this many questions to be worth a page of its own.
+#: Below it the page is a heading, a caveat and four rows, and every link to it
+#: breaks the week a company is reclassified.
+COMPANY_TYPE_MIN_QUESTIONS = 5
+
+#: The size cuts, derived from the sector and the headcount band rather than
+#: declared. Same rule and same words as the job-list repositories use.
+SIZE_CUTS = (
+    ("big-tech", "🏛️", "Big Tech", ("mega",),
+     "A technology-sector employer with 10,000+ people."),
+    ("large-tech", "🏗️", "Large tech (1,000–9,999)", ("large",),
+     "A technology-sector employer with between 1,000 and 9,999 people."),
+    ("mid-size-tech", "🏤", "Mid-sized tech (200–999)", ("mid",),
+     "A technology-sector employer with between 200 and 999 people."),
+    ("startups", "🌱", "Startups (under 200)", ("startup",),
+     "A technology-sector employer with fewer than 200 people."),
+)
+
+
+def company_type_cuts(by_company, api_labels: dict[str, str]):
+    """Every company-type cut with enough behind it to be a page.
+
+    A cut is a set of EMPLOYERS, and its questions are the union of theirs —
+    deduplicated, because a question reported at Google and at Meta is one
+    question to somebody preparing for Big Tech, and counting it twice would
+    make every share on the page wrong in the same direction.
+    """
+    segments = {key: segment_of(name, api_labels) for key, (name, _) in by_company.items()}
+
+    def cut(identifier, emoji, title, note, keys):
+        companies = sorted(
+            ((key, by_company[key][0], len(by_company[key][1])) for key in keys),
+            key=lambda row: (-row[2], row[1].casefold()),
+        )
+        seen: set[str] = set()
+        questions = []
+        for key, _, _ in companies:
+            for question in by_company[key][1]:
+                if question.slug in seen:
+                    continue
+                seen.add(question.slug)
+                questions.append(question)
+        return {
+            "id": identifier,
+            "emoji": emoji,
+            "title": title,
+            "note": note,
+            "companies": companies,
+            "questions": questions,
+        }
+
+    cuts = []
+    for identifier, emoji, title, sizes, rule in SIZE_CUTS:
+        keys = [
+            key
+            for key, (sector, size) in segments.items()
+            if sector and SECTOR_BY_ID[sector].tech and size in sizes
+        ]
+        if keys:
+            cuts.append(cut(identifier, emoji, title, f"{rule} A derived cut, not a hand-picked list — "
+                            "an employer the company registry does not cover is in no size cut at all.", keys))
+    for sector in SECTORS:
+        keys = [key for key, (found, _) in segments.items() if found == sector.id]
+        if keys:
+            cuts.append(
+                cut(
+                    sector.id,
+                    sector.emoji,
+                    sector.label,
+                    f"Every employer the company registry files under {sector.label}, at any size. "
+                    "The sector is a fact about the company recorded once, never inferred from a question.",
+                    keys,
+                )
+            )
+    return [c for c in cuts if len(c["questions"]) >= COMPANY_TYPE_MIN_QUESTIONS]
+
+
+def _companies_index(stats_view, api_labels: dict[str, str]) -> str:
+    """`companies/README.md`: every employer, and the sector each one is in.
+
+    Two ways in, because there are two questions. "Where is Stripe" is answered
+    by the table; "which of these ninety-nine are the quant firms" is answered
+    by the sector blocks above it, and it was not answerable at all before —
+    which is the question somebody preparing for a KIND of loop actually has.
+
+    The sector comes from a hand-written registry and covers what it covers, so
+    the page prints the coverage rather than implying the taxonomy is complete.
+    An employer it does not know is under *Not classified*, in the table like
+    everybody else, and no worse off than it was.
+    """
+    rows = list(stats_view.companies)
+    by_sector: dict[str, list] = {}
+    unclassified: list = []
+    big_tech: list = []
+    for row in rows:
+        sector, size = segment_of(row.name, api_labels)
+        if sector is None:
+            unclassified.append(row)
+        else:
+            by_sector.setdefault(sector, []).append(row)
+        if is_big_tech(sector, size):
+            big_tech.append(row)
+
+    def link(row) -> str:
+        return f"[{escape_cell(row.name)} ({row.questions:,})]({row.key}.md)"
+
+    body = [
+        GENERATED_NOTICE,
+        "",
+        "# Companies",
+        "",
+        f"**{len(rows)} companies**, busiest first. Counts are questions *reported at* that company, so a "
+        "question reported at more than one employer is counted under each — the column therefore sums to "
+        "more than the size of the bank.",
+        "",
+        "[← Question bank](../README.md) · [What companies are asking](../insights/README.md) · "
+        "[How each company interviews](../guides/README.md)",
+        "",
+        "## Browse by company type",
+        "",
+        f"The sector and size of an employer are facts about the company rather than about a question, so "
+        f"they come from a hand-written registry, which covers **{len(rows) - len(unclassified)} of "
+        f"{len(rows)}** of the companies here. An employer it does not cover is under *Not classified* "
+        "below and in the table like everybody else — guessing a sector from a company's name is how a "
+        "reader preparing for one kind of loop ends up with the wrong shortlist.",
+        "",
+    ]
+    if big_tech:
+        body += [
+            f"🏛️ **Big Tech** ({len(big_tech)}) — "
+            + " · ".join(link(row) for row in big_tech),
+            "",
+            "<sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ "
+            "people. Every company in it also appears under its own sector below.</sub>",
+            "",
+        ]
+    for sector in SECTORS:
+        matches = by_sector.get(sector.id)
+        if not matches:
+            continue
+        body += [
+            f"{sector.emoji} **{escape_cell(sector.label)}** ({len(matches)}) — "
+            + " · ".join(link(row) for row in matches),
+            "",
+        ]
+    if unclassified:
+        body += [
+            f"❔ **Not classified** ({len(unclassified)}) — " + " · ".join(link(row) for row in unclassified),
+            "",
+            "<sub>The registry has no entry for these. [Adding one](../CONTRIBUTING.md#adding-a-company-to-the-registry) "
+            "is a two-line change.</sub>",
+            "",
+        ]
+
+    body += [
+        "## Every company",
+        "",
+        table(
+            ["Company", "Type", "Questions", "Guides", f"Last {stats_view.window_days}d", "Last reported", "Free"],
+            [":--", ":--", "--:", "--:", "--:", ":--", "--:"],
+            [
+                [
+                    f"[{escape_cell(row.name)}]({row.key}.md)",
+                    escape_cell(_type_cell(row.name, api_labels)),
+                    f"{row.questions:,}",
+                    f"{row.guides:,}" if row.guides else "—",
+                    # A company with no dated sighting has an UNKNOWN recent
+                    # count, not a zero one. Printing 0 says we looked and found
+                    # nothing, which is a different claim.
+                    f"{row.window:,}" if row.dated else "—",
+                    date_label(row.last_seen) if row.last_seen else "—",
+                    f"{row.free:,}" if row.free else "—",
+                ]
+                for row in rows
+            ],
+        ),
+        "",
+        f"<sub>*Last {stats_view.window_days}d* and *Last reported* are `—` where none of that company's "
+        "questions carries a sighting date at all: unmeasured, which is not the same as quiet.</sub>",
+        "",
+    ]
+    return "\n".join(body)
+
+
+def _type_cell(name: str, api_labels: dict[str, str]) -> str:
+    sector, size = segment_of(name, api_labels)
+    if sector is None and size is None:
+        return "—"
+    parts = [SECTOR_BY_ID[sector].label] if sector else []
+    if size:
+        parts.append(SIZE_LABELS[size])
+    return " · ".join(parts)
 
 
 def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
@@ -125,60 +339,128 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
 
     files: dict[str, str] = {}
 
+    # Computed here rather than further down because the company INDEX reads it:
+    # the per-company recency and coverage numbers on that page are the same
+    # ones the insights pages print, and computing them twice is how two pages
+    # end up disagreeing about one company.
+    stats_view = compute_insights(ordered, guides, api_labels, today)
+
     # ── company pages ────────────────────────────────────────────────────────
+    # The interview PROCESS goes above the questions, because it is the thing
+    # you need first: which rounds this company runs, what each one is for,
+    # what has actually been reported this quarter, and which five questions to
+    # open tonight. A table of two hundred questions is what you use once you
+    # know that — see `company_page.py` for the rules it holds.
+    experiences_by_company = group_experiences_by_company(catalog.experiences, api_labels)
     for key, (name, rows) in by_company.items():
-        # The interview PROCESS goes above the questions, because it is the
-        # thing you need first: which rounds this company runs, and what each
-        # one is for. A question is what you practise once you know that.
         company_guides = guides_by_company.get(key, [])
-        process = ""
-        if company_guides:
-            process = (
-                f"### How {escape_cell(name)} interviews\n\n"
-                f"**{len(company_guides)} round-by-round guides.**\n\n"
-                + guide_rows(company_guides, api_labels, with_company=False)
-                + "\n\n### Questions"
-            )
+        company_experiences = experiences_by_company.get(key, [])
         files.update(
             render_shard(
                 base=f"companies/{key}",
-                title=f"{name} interview & OA questions",
+                title=f"{name} interview process, OA & interview questions",
                 lede=(
-                    f"**{len(rows):,} questions** reported at {escape_cell(name)}"
-                    + (f" · **{len(company_guides)} interview guides**" if company_guides else "")
-                    + f". Every title opens the full problem, with a runnable workspace and a "
-                    f"server-judged verdict, on [TrueInterview]({SITE}/problems/company/{key})."
+                    f"**{plural(len(rows), 'question')}** reported at {escape_cell(name)}"
+                    + (
+                        f" · **{len(company_guides)} interview "
+                        f"{'guide' if len(company_guides) == 1 else 'guides'}**"
+                        if company_guides
+                        else ""
+                    )
+                    + (
+                        f" · **{len(company_experiences)} interview "
+                        f"{'report' if len(company_experiences) == 1 else 'reports'}**"
+                        if company_experiences
+                        else ""
+                    )
+                    + f". How the loop runs, what has been asked lately, and where to start — counted from "
+                    f"what candidates reported, never asserted. Every title opens the full problem in a "
+                    f"runnable workspace with a server-judged verdict on "
+                    f"[TrueInterview]({SITE}/problems/company/{key})."
                 ),
                 back="[← All companies](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("company", api_labels, today),
                 today=today,
-                preamble=process,
+                preamble=company_preamble(
+                    name=name,
+                    key=key,
+                    questions=rows,
+                    guides=company_guides,
+                    experiences=company_experiences,
+                    experiences_total=catalog.experiences_total,
+                    api_labels=api_labels,
+                    today=today,
+                ),
             )
         )
 
-    files["companies/README.md"] = "\n".join(
-        [
-            GENERATED_NOTICE,
-            "",
-            "# Companies",
-            "",
-            f"**{len(company_rows)} companies**, busiest first. Counts are questions *reported at* that "
-            "company, so a question reported at more than one employer is counted under each — the "
-            "column therefore sums to more than the size of the bank.",
-            "",
-            "[← Question bank](../README.md)",
-            "",
-            "| Company | Questions | On TrueInterview |",
-            "| :-- | --: | :-- |",
-            *[
-                f"| [{escape_cell(name)}](../companies/{key}.md) | {count:,} | "
-                f"[{key}]({SITE}/problems/company/{key}) |"
-                for key, name, count in company_rows
-            ],
-            "",
-        ]
-    )
+    files["companies/README.md"] = _companies_index(stats_view, api_labels)
+
+    # ── company-type pages ───────────────────────────────────────────────────
+    # "What do quant firms ask" was not a question this repository could answer:
+    # it knew what Citadel asks and what Optiver asks, and had no way to put the
+    # nine of them together. A candidate prepares for a KIND of loop.
+    cuts = company_type_cuts(by_company, api_labels)
+    for cut in cuts:
+        files.update(
+            render_shard(
+                base=f"company-types/{cut['id']}",
+                title=f"{cut['emoji']} {cut['title']} — interview & OA questions",
+                lede=(
+                    f"**{plural(len(cut['questions']), 'question')}** reported across the "
+                    f"**{len(cut['companies'])} {escape_cell(cut['title'])} "
+                    f"{'employer' if len(cut['companies']) == 1 else 'employers'}** in this bank. "
+                    "What this kind of company asks, counted from what candidates reported."
+                ),
+                back="[← All company types](README.md) · [← All companies](../companies/README.md) · "
+                "[← Question bank](../README.md)",
+                questions=cut["questions"],
+                cols=columns_for("format", api_labels, today),
+                today=today,
+                preamble=company_type_preamble(
+                    title=cut["title"],
+                    note=cut["note"],
+                    companies=cut["companies"],
+                    questions=cut["questions"],
+                    today=today,
+                ),
+            )
+        )
+    if cuts:
+        files["company-types/README.md"] = "\n".join(
+            [
+                GENERATED_NOTICE,
+                "",
+                "# Browse by company type",
+                "",
+                "The same bank cut by **what kind of company asks**, because that is how preparation "
+                "actually works: you are getting ready for a quant loop, a Big Tech loop or a "
+                "twenty-person startup's loop, not for one employer at a time.",
+                "",
+                "[← Question bank](../README.md) · [← All companies](../companies/README.md)",
+                "",
+                table(
+                    ["Company type", "Companies", "Questions", "What it selects"],
+                    [":--", "--:", "--:", ":--"],
+                    [
+                        [
+                            f"[{cut['emoji']} {escape_cell(cut['title'])}]({cut['id']}.md)",
+                            f"{len(cut['companies']):,}",
+                            f"{len(cut['questions']):,}",
+                            escape_cell(cut["note"]),
+                        ]
+                        for cut in cuts
+                    ],
+                ),
+                "",
+                f"<sub>A cut with fewer than {COMPANY_TYPE_MIN_QUESTIONS} questions behind it does not get a "
+                "page: it would appear for an hour and break every link anybody had shared. The sector and "
+                "size of an employer come from a hand-written registry — "
+                "[adding one](../CONTRIBUTING.md#adding-a-company-to-the-registry) is a two-line change.</sub>",
+                "",
+            ]
+        )
 
     # ── format pages ─────────────────────────────────────────────────────────
     for fmt, rows in by_format.items():
@@ -187,7 +469,7 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                 base=f"formats/{fmt}",
                 title=f"{format_label(fmt)} interview & OA questions",
                 lede=(
-                    f"**{len(rows):,} questions** in the {format_label(fmt)} format. "
+                    f"**{plural(len(rows), 'question')}** in the {format_label(fmt)} format. "
                     f"Open one to practise it on [TrueInterview]({SITE}/problems?type={fmt})."
                 ),
                 back="[← All formats](README.md) · [← Question bank](../README.md)",
@@ -226,7 +508,8 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             render_shard(
                 base=f"by-month/{key}",
                 title=f"Reported in {_month_label(key)}",
-                lede=f"**{len(rows):,} questions** with a sighting recorded in {_month_label(key)}.",
+                lede=f"**{plural(len(rows), 'question')}** with a sighting recorded in "
+                f"{_month_label(key)}.",
                 back="[← Every month](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("month", api_labels, today),
@@ -328,7 +611,8 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             body += [
                 f"### {escape_cell(name)}",
                 "",
-                f"<sub>{len(rows)} guides · [questions at {escape_cell(name)}](../companies/{key}.md)</sub>",
+                f"<sub>{plural(len(rows), 'guide')} · "
+                f"[questions at {escape_cell(name)}](../companies/{key}.md)</sub>",
                 "",
                 guide_rows(rows, api_labels, with_company=False),
                 "",
@@ -346,7 +630,6 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
     # The four surfaces that carry value rather than navigation. Computed from
     # the same records everything above is rendered from, so a number on an
     # insights page and a row on a company page can never disagree.
-    stats_view = compute_insights(ordered, guides, api_labels, today)
     files["insights/README.md"] = report.insights_index(stats_view, api_labels)
     files["insights/topics.md"] = report.topics_page(stats_view)
     files["insights/companies.md"] = report.companies_page(stats_view)
@@ -403,6 +686,20 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         )
         if guides
         else "_No interview guides published yet._",
+    )
+    readme = inject(
+        readme,
+        "gen:company-types",
+        (
+            " · ".join(
+                f"[{cut['emoji']} {escape_cell(cut['title'])} ({len(cut['questions']):,})]"
+                f"(company-types/{cut['id']}.md)"
+                for cut in cuts
+            )
+            + f"\n\n[**Every company type, with what each one selects →**](company-types/README.md)"
+        )
+        if cuts
+        else "_No employer in the bank is in the company registry yet._",
     )
     readme = inject(readme, "gen:companies", company_nav(company_rows))
     readme = inject(readme, "gen:months", month_nav([(key, len(by_month[key])) for key in month_keys]))

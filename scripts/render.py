@@ -288,6 +288,17 @@ def table(headers: Sequence[str], aligns: Sequence[str], rows: Iterable[Sequence
     return "\n".join(lines)
 
 
+def plural(count: int, singular: str, many: str | None = None) -> str:
+    """``1 question`` / ``12 questions``, with the count already formatted.
+
+    Worth a helper rather than an f-string at each site: this repository renders
+    a page per company, per format and per month, and the small ones are exactly
+    the pages where a count of one turns up. "**1 questions** with a sighting
+    recorded in May 2024" was live on four month pages.
+    """
+    return f"{count:,} {singular if count == 1 else (many or singular + 's')}"
+
+
 def question_link(question: Question) -> str:
     return f"[{escape_cell(question.title)}]({question.url})"
 

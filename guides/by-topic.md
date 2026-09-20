@@ -979,7 +979,7 @@
 
 ### `agentic-workflow`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -987,7 +987,7 @@
 
 ### `agents`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -995,7 +995,7 @@
 
 ### `ai-screening`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1003,7 +1003,7 @@
 
 ### `algorithm-design`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1011,7 +1011,7 @@
 
 ### `api-integration`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1019,7 +1019,7 @@
 
 ### `arithmetic-intensity`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1027,7 +1027,7 @@
 
 ### `array`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1035,7 +1035,7 @@
 
 ### `backend`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1043,7 +1043,7 @@
 
 ### `backtracking`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1051,7 +1051,7 @@
 
 ### `binary-search`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1059,7 +1059,7 @@
 
 ### `bst`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1067,7 +1067,7 @@
 
 ### `calibration`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1075,7 +1075,7 @@
 
 ### `clustering`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1083,7 +1083,7 @@
 
 ### `cnn`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1091,7 +1091,7 @@
 
 ### `code-reading`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1099,7 +1099,7 @@
 
 ### `combinatorics`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1107,7 +1107,7 @@
 
 ### `computer-vision`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1115,7 +1115,7 @@
 
 ### `cpp`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1123,7 +1123,7 @@
 
 ### `cpu-architecture`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1131,7 +1131,7 @@
 
 ### `critique`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1139,7 +1139,7 @@
 
 ### `debugging`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1147,7 +1147,7 @@
 
 ### `distributed-systems`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1155,7 +1155,7 @@
 
 ### `distribution`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1163,7 +1163,7 @@
 
 ### `docker`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1171,7 +1171,7 @@
 
 ### `frontend`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1179,7 +1179,7 @@
 
 ### `fullstack`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1187,7 +1187,7 @@
 
 ### `grid`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1195,7 +1195,7 @@
 
 ### `http`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1203,7 +1203,7 @@
 
 ### `inference`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1211,7 +1211,7 @@
 
 ### `infra`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1219,7 +1219,7 @@
 
 ### `io`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1227,7 +1227,7 @@
 
 ### `java`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1235,7 +1235,7 @@
 
 ### `kafka`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1243,7 +1243,7 @@
 
 ### `llm-agent`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1251,7 +1251,7 @@
 
 ### `map-reduce`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1259,7 +1259,7 @@
 
 ### `matmul`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1267,7 +1267,7 @@
 
 ### `metrics`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1275,7 +1275,7 @@
 
 ### `ml fundamentals`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1283,7 +1283,7 @@
 
 ### `ml-infra`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1291,7 +1291,7 @@
 
 ### `mlsd`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1299,7 +1299,7 @@
 
 ### `new`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1307,7 +1307,7 @@
 
 ### `object-design`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1315,7 +1315,7 @@
 
 ### `ood`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1323,7 +1323,7 @@
 
 ### `pandas`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1331,7 +1331,7 @@
 
 ### `parallelism`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1339,7 +1339,7 @@
 
 ### `pattern-recognition`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1347,7 +1347,7 @@
 
 ### `product-design`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1355,7 +1355,7 @@
 
 ### `project-retro`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1363,7 +1363,7 @@
 
 ### `prompt-engineering`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1371,7 +1371,7 @@
 
 ### `python`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1379,7 +1379,7 @@
 
 ### `pytorch`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1387,7 +1387,7 @@
 
 ### `race-condition`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1395,7 +1395,7 @@
 
 ### `reaction-speed`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1403,7 +1403,7 @@
 
 ### `redis`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1411,7 +1411,7 @@
 
 ### `refactoring`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1419,7 +1419,7 @@
 
 ### `retrieval`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1427,7 +1427,7 @@
 
 ### `sampling`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1435,7 +1435,7 @@
 
 ### `scaling`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1443,7 +1443,7 @@
 
 ### `sorting`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1451,7 +1451,7 @@
 
 ### `testing`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1459,7 +1459,7 @@
 
 ### `threading`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1467,7 +1467,7 @@
 
 ### `tool-use`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1475,7 +1475,7 @@
 
 ### `top-k`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1483,7 +1483,7 @@
 
 ### `trading`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1491,7 +1491,7 @@
 
 ### `typescript`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1499,7 +1499,7 @@
 
 ### `ux`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1507,7 +1507,7 @@
 
 ### `vlm`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -1515,7 +1515,7 @@
 
 ### `work-style`
 
-<sub>1 guides</sub>
+<sub>1 guide</sub>
 
 | Guide | Company |
 | :-- | :-- |

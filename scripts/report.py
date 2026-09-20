@@ -62,6 +62,7 @@ from render import (
     GENERATED_NOTICE,
     MONTH_NAMES,
     bar,
+    plural,
     columns_for,
     date_label,
     escape_cell,
@@ -829,7 +830,7 @@ def guides_by_topic(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
         body += [
             f"### `{escape_cell(tag)}`",
             "",
-            f"<sub>{len(rows)} guides</sub>",
+            f"<sub>{plural(len(rows), 'guide')}</sub>",
             "",
             table(
                 ["Guide", "Company"],

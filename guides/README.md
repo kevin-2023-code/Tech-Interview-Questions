@@ -721,7 +721,7 @@
 
 ### Amplitude
 
-<sub>1 guides · [questions at Amplitude](../companies/amplitude.md)</sub>
+<sub>1 guide · [questions at Amplitude](../companies/amplitude.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -729,7 +729,7 @@
 
 ### Applied Intuition
 
-<sub>1 guides · [questions at Applied Intuition](../companies/applied-intuition.md)</sub>
+<sub>1 guide · [questions at Applied Intuition](../companies/applied-intuition.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -737,7 +737,7 @@
 
 ### Arista
 
-<sub>1 guides · [questions at Arista](../companies/arista.md)</sub>
+<sub>1 guide · [questions at Arista](../companies/arista.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -745,7 +745,7 @@
 
 ### Brex
 
-<sub>1 guides · [questions at Brex](../companies/brex.md)</sub>
+<sub>1 guide · [questions at Brex](../companies/brex.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -753,7 +753,7 @@
 
 ### Chicago Trading
 
-<sub>1 guides · [questions at Chicago Trading](../companies/chicago-trading.md)</sub>
+<sub>1 guide · [questions at Chicago Trading](../companies/chicago-trading.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -761,7 +761,7 @@
 
 ### Circle
 
-<sub>1 guides · [questions at Circle](../companies/circle.md)</sub>
+<sub>1 guide · [questions at Circle](../companies/circle.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -769,7 +769,7 @@
 
 ### Cisco
 
-<sub>1 guides · [questions at Cisco](../companies/cisco.md)</sub>
+<sub>1 guide · [questions at Cisco](../companies/cisco.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -777,7 +777,7 @@
 
 ### Confluent
 
-<sub>1 guides · [questions at Confluent](../companies/confluent.md)</sub>
+<sub>1 guide · [questions at Confluent](../companies/confluent.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -785,7 +785,7 @@
 
 ### Datadog
 
-<sub>1 guides · [questions at Datadog](../companies/datadog.md)</sub>
+<sub>1 guide · [questions at Datadog](../companies/datadog.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -793,7 +793,7 @@
 
 ### Dropbox
 
-<sub>1 guides · [questions at Dropbox](../companies/dropbox.md)</sub>
+<sub>1 guide · [questions at Dropbox](../companies/dropbox.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -801,7 +801,7 @@
 
 ### Ebay
 
-<sub>1 guides · [questions at Ebay](../companies/ebay.md)</sub>
+<sub>1 guide · [questions at Ebay](../companies/ebay.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -809,7 +809,7 @@
 
 ### Expedia
 
-<sub>1 guides · [questions at Expedia](../companies/expedia.md)</sub>
+<sub>1 guide · [questions at Expedia](../companies/expedia.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -817,7 +817,7 @@
 
 ### Geico
 
-<sub>1 guides · [questions at Geico](../companies/geico.md)</sub>
+<sub>1 guide · [questions at Geico](../companies/geico.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -825,7 +825,7 @@
 
 ### Hudson River Trading
 
-<sub>1 guides · [questions at Hudson River Trading](../companies/hudson-river-trading.md)</sub>
+<sub>1 guide · [questions at Hudson River Trading](../companies/hudson-river-trading.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -833,7 +833,7 @@
 
 ### Instacart
 
-<sub>1 guides · [questions at Instacart](../companies/instacart.md)</sub>
+<sub>1 guide · [questions at Instacart](../companies/instacart.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -841,7 +841,7 @@
 
 ### Lead Bank
 
-<sub>1 guides · [questions at Lead Bank](../companies/lead-bank.md)</sub>
+<sub>1 guide · [questions at Lead Bank](../companies/lead-bank.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -849,7 +849,7 @@
 
 ### Luma AI
 
-<sub>1 guides · [questions at Luma AI](../companies/luma-ai.md)</sub>
+<sub>1 guide · [questions at Luma AI](../companies/luma-ai.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -857,7 +857,7 @@
 
 ### Mongodb
 
-<sub>1 guides · [questions at Mongodb](../companies/mongodb.md)</sub>
+<sub>1 guide · [questions at Mongodb](../companies/mongodb.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -865,7 +865,7 @@
 
 ### Palantir
 
-<sub>1 guides · [questions at Palantir](../companies/palantir.md)</sub>
+<sub>1 guide · [questions at Palantir](../companies/palantir.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -873,7 +873,7 @@
 
 ### PayPal
 
-<sub>1 guides · [questions at PayPal](../companies/paypal.md)</sub>
+<sub>1 guide · [questions at PayPal](../companies/paypal.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -881,7 +881,7 @@
 
 ### Point72
 
-<sub>1 guides · [questions at Point72](../companies/point72.md)</sub>
+<sub>1 guide · [questions at Point72](../companies/point72.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -889,7 +889,7 @@
 
 ### Rubrik
 
-<sub>1 guides · [questions at Rubrik](../companies/rubrik.md)</sub>
+<sub>1 guide · [questions at Rubrik](../companies/rubrik.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -897,7 +897,7 @@
 
 ### Sigmacomputing
 
-<sub>1 guides · [questions at Sigmacomputing](../companies/sigmacomputing.md)</sub>
+<sub>1 guide · [questions at Sigmacomputing](../companies/sigmacomputing.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -905,7 +905,7 @@
 
 ### Squarepoint
 
-<sub>1 guides · [questions at Squarepoint](../companies/squarepoint.md)</sub>
+<sub>1 guide · [questions at Squarepoint](../companies/squarepoint.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -913,7 +913,7 @@
 
 ### Stubhub
 
-<sub>1 guides · [questions at Stubhub](../companies/stubhub.md)</sub>
+<sub>1 guide · [questions at Stubhub](../companies/stubhub.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -921,7 +921,7 @@
 
 ### Tradedesk
 
-<sub>1 guides · [questions at Tradedesk](../companies/tradedesk.md)</sub>
+<sub>1 guide · [questions at Tradedesk](../companies/tradedesk.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -929,7 +929,7 @@
 
 ### Upstart
 
-<sub>1 guides · [questions at Upstart](../companies/upstart.md)</sub>
+<sub>1 guide · [questions at Upstart](../companies/upstart.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -937,7 +937,7 @@
 
 ### Verkada
 
-<sub>1 guides · [questions at Verkada](../companies/verkada.md)</sub>
+<sub>1 guide · [questions at Verkada](../companies/verkada.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -945,7 +945,7 @@
 
 ### Visa
 
-<sub>1 guides · [questions at Visa](../companies/visa.md)</sub>
+<sub>1 guide · [questions at Visa](../companies/visa.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
@@ -953,7 +953,7 @@
 
 ### Weride
 
-<sub>1 guides · [questions at Weride](../companies/weride.md)</sub>
+<sub>1 guide · [questions at Weride](../companies/weride.md)</sub>
 
 | Interview round / guide | Topics |
 | :-- | :-- |
