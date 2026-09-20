@@ -318,10 +318,14 @@ def compute(
     by_company: dict[str, list[Question]] = {}
     names: dict[str, str] = {}
     for question in questions:
+        # Distinct keys per question: a row naming one employer under two
+        # spellings is one sighting at that employer, not two.
+        seen_keys: set[str] = set()
         for company in question.companies:
             key = company_key(company, api_labels)
-            if not key:
+            if not key or key in seen_keys:
                 continue
+            seen_keys.add(key)
             by_company.setdefault(key, []).append(question)
             names.setdefault(key, company_label(company, api_labels))
 

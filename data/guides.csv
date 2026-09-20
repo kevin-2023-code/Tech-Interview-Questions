@@ -127,7 +127,7 @@ ds-commuter-coupon-probability,Commuter Coupon Conditional Probability,Lyft,math
 ds-role-play-pm-explanation,DS Role-Play: Explain Model Regression to PM,Capital One,ab-testing; critical-thinking; ml-knowledge; open-ended; verbal,https://trueinterview.io/study/ds-role-play-pm-explanation,2026-07-18T21:25:03.254642+00:00
 e2a629a6-f54c-4584-96a3-b6dfaf1e43a4,Unit Testing in Industry Code,Intuit,,https://trueinterview.io/study/e2a629a6-f54c-4584-96a3-b6dfaf1e43a4,2026-07-18T21:25:06.129144+00:00
 e37f51bf-1f79-4770-a9dd-fe4aa859cc1e,SQL CASE Statement Result When No Conditions Match Without ELSE,Meta,,https://trueinterview.io/study/e37f51bf-1f79-4770-a9dd-fe4aa859cc1e,2026-07-18T21:25:06.542515+00:00
-ebay-interview-process,eBay Interview Process & Questions,Ebay,,https://trueinterview.io/study/ebay-interview-process,2026-08-22T03:02:59.028389+00:00
+ebay-interview-process,eBay Interview Process & Questions,eBay,,https://trueinterview.io/study/ebay-interview-process,2026-08-22T03:02:59.028389+00:00
 eqr-alpha-factor-deep-dive,EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability,Citadel,deep-dive; llm; math-reasoning; ml-knowledge; probability,https://trueinterview.io/study/eqr-alpha-factor-deep-dive,2026-07-18T21:25:03.254642+00:00
 eqr-alpha-factor-deep-dive-case-study-llm-inference-stability,Case study — LLM inference stability,Citadel,,https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability,2026-09-01T08:42:18.945753+00:00
 expedia-interview-process,Expedia Group Interview Process & Questions,Expedia,,https://trueinterview.io/study/expedia-interview-process,2026-08-22T03:02:59.028389+00:00
@@ -138,7 +138,7 @@ f1466cd0-7903-4d56-af58-59263940b493,Heap Problem,Google,,https://trueinterview.
 f63e89db-acce-46ac-9ee8-4b85820078e0,"Data Challenge: Presentation + Coding (Python, Data Processing)",Capital One,,https://trueinterview.io/study/f63e89db-acce-46ac-9ee8-4b85820078e0,2026-07-18T21:25:05.760924+00:00
 fc060aa0-b909-41da-b78b-6ee1285b13a5,Modified OA with AI assisted debugging,Amazon,,https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5,2026-08-03T15:50:22.579444+00:00
 figma-interview-process,Figma Interview Process & Questions,Figma,,https://trueinterview.io/study/figma-interview-process,2026-08-22T03:02:59.028389+00:00
-geico-interview-process,GEICO Interview Process & Questions,Geico,,https://trueinterview.io/study/geico-interview-process,2026-09-04T14:45:48.380701+00:00
+geico-interview-process,GEICO Interview Process & Questions,GEICO,,https://trueinterview.io/study/geico-interview-process,2026-09-04T14:45:48.380701+00:00
 genai-quant-swe-manager-deep-dive,GenAI Quant SWE Manager Deep Dive,Two Sigma,agentic-workflow; evaluation; llm; lora; technical-deep-dive,https://trueinterview.io/study/genai-quant-swe-manager-deep-dive,2026-07-18T21:25:04.80775+00:00
 goldmansachs-interview-process,Goldman Sachs Interview Process & Questions,Goldman Sachs,,https://trueinterview.io/study/goldmansachs-interview-process,2026-07-24T14:41:44.432528+00:00
 google-hiring-assessment-gha,Google Hiring Assessment (GHA / Work Styles),Google,culture-fit,https://trueinterview.io/study/google-hiring-assessment-gha,2026-07-18T21:25:03.803999+00:00
@@ -214,7 +214,7 @@ mle-ml-discussion-round,ML Knowledge / Discussion Round,DoorDash,ab-testing; exp
 mle-ml-knowledge-orals,MLE ML Knowledge Orals (Set A),Capital One,cs-fundamentals; deep-dive; ml-knowledge; verbal,https://trueinterview.io/study/mle-ml-knowledge-orals,2026-07-18T21:25:03.254642+00:00
 mle-project-deep-dive,MLE Project / Paper Deep Dive,Roblox,deep-dive; ml-knowledge; paper-read; presentation,https://trueinterview.io/study/mle-project-deep-dive,2026-07-13T02:41:01.719632+00:00
 model-risk-quant-orals,Model Risk: VaR & Monte Carlo Orals,Capital One,cs-fundamentals; math-reasoning; open-ended; probability; verbal,https://trueinterview.io/study/model-risk-quant-orals,2026-07-18T21:25:03.254642+00:00
-mongodb-interview-process,MongoDB Interview Process & Questions,Mongodb,,https://trueinterview.io/study/mongodb-interview-process,2026-09-04T14:45:48.380701+00:00
+mongodb-interview-process,MongoDB Interview Process & Questions,MongoDB,,https://trueinterview.io/study/mongodb-interview-process,2026-09-04T14:45:48.380701+00:00
 most-challenging-project-why-xai,Most Challenging Project + Why xAI,xAI,fit; project-deep-dive,https://trueinterview.io/study/most-challenging-project-why-xai,2026-07-13T02:41:01.719632+00:00
 motivation-ambiguity-collaboration-screen,"Motivation, Ambiguity, and Collaboration Screen",ByteDance,ambiguity; bq; fit,https://trueinterview.io/study/motivation-ambiguity-collaboration-screen,2026-09-16T20:29:38.036078+00:00
 mouse-and-cheese-maze-rewards,Mouse and Cheese / Maze Rewards,Meta,backtracking; dfs; dp; grid,https://trueinterview.io/study/mouse-and-cheese-maze-rewards,2026-07-18T21:24:38.925595+00:00
@@ -342,7 +342,7 @@ visa-interview-process,Visa Interview Process & Questions,Visa,,https://trueinte
 walmart-bq-loop,Walmart Behavioral / HM Loop,Walmart Labs,bq; conflict; culture-fit; impact; leadership; star,https://trueinterview.io/study/walmart-bq-loop,2026-07-18T21:25:05.338314+00:00
 walmartlabs-interview-process,Walmart Global Tech Interview Process & Questions,Walmart Labs,,https://trueinterview.io/study/walmartlabs-interview-process,2026-07-24T14:41:47.326299+00:00
 waymo-interview-process,Waymo Interview Process & Questions,Waymo,,https://trueinterview.io/study/waymo-interview-process,2026-07-24T14:41:47.326299+00:00
-weride-interview-process,WeRide Interview Process & Questions,Weride,,https://trueinterview.io/study/weride-interview-process,2026-08-22T03:02:59.028389+00:00
+weride-interview-process,WeRide Interview Process & Questions,WeRide,,https://trueinterview.io/study/weride-interview-process,2026-08-22T03:02:59.028389+00:00
 work-style-simulation-assessment,Work Simulation & Work Style Assessment,Amazon,work-style,https://trueinterview.io/study/work-style-simulation-assessment,2026-07-18T21:25:02.689409+00:00
 xai-infrastructure-engineer-interview-process,xAI Infrastructure Engineer Interview Process,xAI,,https://trueinterview.io/study/xai-infrastructure-engineer-interview-process,2026-07-31T04:36:40.593833+00:00
 xai-interview-process,xAI Interview Process & Questions,xAI,,https://trueinterview.io/study/xai-interview-process,2026-07-24T14:41:47.326299+00:00

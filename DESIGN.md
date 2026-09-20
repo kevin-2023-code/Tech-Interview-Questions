@@ -88,8 +88,10 @@ is also the landing page.** Those two jobs have opposite requirements.
   because the file *is* the company.
 - `formats/<slug>.md` — drops the Format column, same reason.
 - `by-month/YYYY-MM.md` — what was being asked in a given month.
-- `guides/README.md` — the interview PROCESS, grouped by company: the recruiter screen, the
-  hiring-manager round, the culture interview, the project deep-dive. Each company's guides
+- `guides/README.md` — the Study-section writeups, grouped by company. Most are the interview
+  PROCESS — a recruiter screen, a hiring-manager round, a culture interview — but the same
+  endpoint also carries problems worked end to end and reviews of other products, so no
+  renderer may announce which kind a row is. `tags` is the only evidence. Each company's guides
   are also repeated at the TOP of its own page, above the questions, because that is the
   order you need them in — which rounds a company runs, and then what to practise for them.
 - Every page is capped at 192,000 bytes and paginates into `-2.md`, `-3.md` before it gets
@@ -203,6 +205,58 @@ They are the same rules as §3, applied to numbers instead of rows.
   *failed*, though, raises: publishing an empty section over a good one is how an hourly job
   deletes a page nobody was watching.
 - **Nothing claims quality.** These pages say what the catalog counted.
+
+## 3b. The company page, and the cut above it
+
+A company page used to be a table of questions with a list of guides on top. That answers
+*what has been asked at Amazon*, which is the second question somebody has. The first one is
+**what is the loop, and what should I do first** — and every part of that answer was already
+in the metadata this repository carries, being shown nowhere.
+
+So `scripts/company_page.py` builds a preamble before the catalog, and every block in it is
+a count of what was REPORTED rather than a claim about the employer:
+
+| Block | What it counts |
+| :-- | :-- |
+| **At a glance** | Questions tracked, the most recent sighting, the last quarter, the dominant format, the difficulty split, how much is free. |
+| **The loop, as reported** | Rows per round — OA, phone screen, onsite, take-home — with the format each round leans on and its difficulty split. |
+| **Asked here in the last 90 days** | The actual rows, newest first. The answer to "is any of this current?" |
+| **What they ask about** | Topics as a share of the rows *that carry a label*, with when each was last seen. |
+| **When they asked it** | Sightings by month, so a quiet quarter looks like a quiet quarter. |
+| **Start here** | Eight rows, ranked by *most recently reported, then asked at the most other companies* — the rule printed above the table. |
+| **Guides · Interview reports** | The round writeups, and what candidates said happened in the room. |
+
+The distinction that keeps this honest is one column wide. *What this round is* — "a timed
+set you sit alone, usually before a human has read your CV" — is a definition of the
+FORMAT, true of the industry and of no employer in particular. The number beside it is
+about this employer. Putting them in one table is what stops the page drifting from
+counting into asserting, and it is why `ROUND_MEANINGS` carries no company-specific words.
+
+**`company-types/` is the same machinery pointed at a GROUP of employers**, because nobody
+prepares for one company at a time: they are getting ready for a quant loop, a Big Tech loop
+or a twenty-person startup's loop. The bank knew what Citadel asks and what Optiver asks and
+had no way to put the nine of them together.
+
+- The cut is over **employers**, and its questions are the **union, deduplicated** — a
+  question reported at Google and at Meta is one question to somebody preparing for Big
+  Tech, and counting it twice makes every share on the page wrong in the same direction.
+- The sector and headcount band come from `scripts/company_registry.py`, a hand-written
+  file, and `scripts/segments.py` defines what the values mean. **A company nobody could
+  identify is unclassified, never guessed**: it appears on every page exactly as before and
+  is in no company-type cut, because a reader who filters to Fintech and finds a staffing
+  agency stops trusting the other cuts too. The index prints the coverage rather than
+  implying the taxonomy is complete.
+- **"Big Tech" is derived, not declared** — a technology-sector employer with 10,000+
+  people, a rule the page prints. That is why Cisco is in it and a 40,000-person
+  engineering consultancy is not, and why the fix for a company in the wrong place is its
+  sector and size rather than a new bucket.
+- A cut with fewer than five questions behind it gets no page: it would appear for an hour
+  and break every link anybody had shared.
+
+The same taxonomy, with the same keys, is used by the two job-list repositories. The
+company whose loop you read about here is filed under the same sector on the list that told
+you the job was open — which is the whole reason it is a transcription rather than two
+independent inventions.
 
 ## 4. The pipeline
 

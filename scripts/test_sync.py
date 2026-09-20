@@ -13,23 +13,42 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import os
+import re
 import sys
 import unittest
 from datetime import date
-from pathlib import Path
+from unittest import mock
+from pathlib import Path, PurePosixPath
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import insights as insights_module  # noqa: E402
 import report  # noqa: E402
-from build import build, check_budgets, group_by_month  # noqa: E402
-from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
+from build import (
+    SIZE_CUTS,  # noqa: E402
+    COMPANY_TYPE_MIN_QUESTIONS,
+    build,
+    check_budgets,
+    company_type_cuts,
+    group_by_company,
+    group_by_month,
+)
+from catalog import (  # noqa: E402
+    CatalogError,
+    Guide,
+    load_catalog,
+    parse_catalog_date,
+    question_from_payload,
+)
 from insights import compute as compute_insights  # noqa: E402
-from labels import company_key, company_label  # noqa: E402
+from labels import ACRONYMS, COMPANY_LABELS, company_key, company_label  # noqa: E402
 from render import (  # noqa: E402
     PAGE_MAX_BYTES,
     README_MAX_BYTES,
     ROWS_PER_PAGE,
+    columns_for,
+    render_shard,
     escape_cell,
     freshness_marker,
     inject,
@@ -228,6 +247,67 @@ class TestMonthPages(unittest.TestCase):
         self.assertIn(f"**{undated:,}** carry no sighting date", result.files["by-month/README.md"])
 
 
+    def test_a_future_month_is_listed_last_and_explained(self):
+        # One mistyped upstream date headed the month index, led the landing
+        # page's month row, and EVICTED a real month from that row's twelve
+        # slots — the most valuable ordering in the repository, awarded to
+        # whichever row is most wrong. `render._sort_key` has stated the
+        # three-bucket rule all along; the month index was the one place not
+        # applying it.
+        payload = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        rows = payload["questions"] if "questions" in payload else payload["data"]
+        forward = dict(rows[0])
+        forward["slug"] = "a-mistyped-sighting"
+        forward["reported"] = "2126-02-23"
+        rows.append(forward)
+        result = render(load_catalog(payload))
+
+        index = result.files["by-month/README.md"]
+        months = re.findall(r"^\| \[([^\]]+)\]", index, re.M)
+        self.assertGreater(len(months), 1)
+        self.assertEqual(months[-1], "Feb 2126", "a future month must sort last, never first")
+        self.assertIn("data-entry error upstream, not a forecast", index)
+
+        # And the page itself says which of the two it is.
+        self.assertIn("This month is after today", result.files["by-month/2126-02.md"])
+
+    def test_a_bank_with_no_future_month_prints_no_warning_about_one(self):
+        result = render()
+        self.assertNotIn("data-entry error upstream", result.files["by-month/README.md"])
+        self.assertNotIn("data-entry error upstream", result.files["insights/trends.md"])
+
+
+class TestCompaniesIndex(unittest.TestCase):
+    def test_it_promises_no_section_it_will_not_emit(self):
+        # At full registry coverage the page pointed at a *Not classified*
+        # heading the generator only writes when something is unclassified, so
+        # a reader hunted for a section that was never going to be there.
+        page = render().files["companies/README.md"]
+        if "## Not classified" not in page:
+            self.assertNotIn("*Not classified*", page)
+
+    def test_every_group_heading_reaches_the_page_it_names(self):
+        # This is the index headed "Browse by company type", and it was the one
+        # place in the repository from which "what does Big Tech ask" could not
+        # be reached: the group names were plain bold text.
+        result = render()
+        page = result.files["companies/README.md"]
+        targets = re.findall(r"\]\(\.\./company-types/([a-z0-9-]+)\.md\)", page)
+        self.assertTrue(targets, "no group heading links at a company-type page")
+        for target in targets:
+            self.assertIn(f"company-types/{target}.md", result.files)
+
+    def test_it_carries_every_size_cut_that_has_a_page(self):
+        # Three of the four were on the root README and on
+        # `company-types/README.md` and missing from this one.
+        result = render()
+        page = result.files["companies/README.md"]
+        for identifier, _emoji, title, _sizes, _rule in SIZE_CUTS:
+            if f"company-types/{identifier}.md" not in result.files:
+                continue
+            self.assertIn(title, page, f"{title} has a page but is not on the companies index")
+
+
 class TestLabels(unittest.TestCase):
     def test_api_labels_win_over_the_transcription(self):
         # The transcription is a fallback for the tail the capped companies
@@ -401,14 +481,17 @@ class TestGuides(unittest.TestCase):
 
     def test_a_company_page_carries_its_guides_above_its_questions(self):
         # The order is the point: which rounds this company runs comes first,
-        # because a question is what you practise once you know that.
+        # because a question is what you practise once you know that. Anchored
+        # on the catalog HEADING rather than on a `| Question |` header row,
+        # because the blocks above it — what was asked this quarter, where to
+        # start — are question tables too.
         result = render()
         c = load_fixture(); guides, labels = c.guides, c.labels
         guide = next(g for g in guides if g.companies)
         key = company_key(guide.companies[0], labels)
         page = result.files[f"companies/{key}.md"]
         self.assertIn(guide.url, page)
-        self.assertLess(page.index(guide.url), page.index("| Question |"))
+        self.assertLess(page.index(guide.url), page.index("## Every question reported at"))
 
     def test_a_multi_company_guide_is_on_each_of_their_pages(self):
         result = render()
@@ -446,7 +529,7 @@ class TestGuides(unittest.TestCase):
         # An empty Study section is a normal deployment state, not a failed read.
         result = render(dataclasses.replace(load_fixture(), guides=[]))
         self.assertNotIn("guides/README.md", result.files)
-        self.assertIn("No interview guides published yet", result.files["README.md"])
+        self.assertIn("No writeups published yet", result.files["README.md"])
 
     def test_an_incomplete_guide_read_says_so_on_the_page(self):
         # The bug this replaced: raising here stopped the WHOLE sync — all two
@@ -878,3 +961,445 @@ class TestMostReportedRanking(unittest.TestCase):
         page = report.companies_page(stats)
         ranking = page.split("## Most reported")[1].split("## Every company")[0]
         self.assertIn("../companies/busy.md", ranking)
+
+
+# ── the company page ─────────────────────────────────────────────────────────
+#
+# The page went from "a table of questions" to "how this employer's loop runs,
+# then the table". Everything on it is a COUNT of what was reported, and the
+# tests below are about the three ways that stops being true: a claim that is
+# not a count, a zero standing in for an unknown, and a jump link pointing at a
+# heading that is not on the page.
+
+from company_page import GUIDES_HEADING, ROUND_MEANINGS, anchor, company_preamble  # noqa: E402
+from company_registry import COMPANY_SEGMENTS  # noqa: E402
+from segments import SECTOR_BY_ID, SIZE_LABELS, is_big_tech, sector_chip, segment_of  # noqa: E402
+
+
+def _question(**over):
+    payload = {
+        "slug": over.pop("slug", "q-1"),
+        "title": over.pop("title", "A Question"),
+        "url": over.pop("url", "https://trueinterview.io/questions/q-1"),
+        "type": over.pop("type", "algorithm"),
+        "typeLabel": "Algorithm",
+        "difficulty": over.pop("difficulty", "medium"),
+        "companies": over.pop("companies", ["Acme"]),
+        "topics": over.pop("topics", []),
+        "tags": [],
+        "rounds": over.pop("rounds", []),
+        "reported": over.pop("reported", None),
+        "hasSolution": True,
+        "accessTier": over.pop("accessTier", "insider"),
+        "addedAt": over.pop("addedAt", "2026-01-01T00:00:00+00:00"),
+    }
+    payload.update(over)
+    return question_from_payload(payload)
+
+
+def _guide(**over):
+    return Guide(
+        slug=over.pop("slug", "g-1"),
+        title=over.pop("title", "A Writeup"),
+        companies=tuple(over.pop("companies", ("Acme",))),
+        tags=tuple(over.pop("tags", ())),
+        url=over.pop("url", "https://trueinterview.io/study/g-1"),
+        added_at=over.pop("added_at", None),
+    )
+
+
+def _preamble(questions, **over):
+    return company_preamble(
+        name=over.pop("name", "Acme"),
+        key=over.pop("key", "acme"),
+        questions=questions,
+        guides=over.pop("guides", []),
+        guides_complete=over.pop("guides_complete", True),
+        experiences=over.pop("experiences", []),
+        experiences_total=over.pop("experiences_total", None),
+        api_labels={},
+        today=over.pop("today", TODAY),
+    )
+
+
+class TestCompanyPage(unittest.TestCase):
+    def test_start_here_never_names_a_key_that_separated_nothing(self):
+        # Every row prints `—` in both of the columns the old sentence named,
+        # so it announced a ranking the table under it visibly contradicted.
+        page = _preamble([_question(reported=None), _question(slug="q-2", reported=None)])
+        start = page[page.index("## Start here"):]
+        self.assertIn("This is not a ranking", start)
+        self.assertNotIn("most recently reported", start)
+        self.assertNotIn("most other companies also ask", start)
+
+    def test_start_here_names_recency_alone_when_that_is_all_that_ordered_it(self):
+        page = _preamble([_question(reported="2026-09-01"), _question(slug="q-2", reported="2026-08-01")])
+        start = page[page.index("## Start here"):]
+        self.assertIn("most recently reported", start)
+        self.assertIn("the usual second key separates nothing", start)
+        self.assertNotIn("This is not a ranking", start)
+
+    def test_start_here_names_both_keys_when_both_did_work(self):
+        page = _preamble([
+            _question(reported="2026-09-01", companies=["Acme", "Globex"]),
+            _question(slug="q-2", reported="2026-08-01"),
+        ])
+        start = page[page.index("## Start here"):]
+        self.assertIn("most recently reported, then the ones the most other companies also ask", start)
+        self.assertNotIn("This is not a ranking", start)
+
+    def test_the_guides_block_claims_no_content_it_has_not_read(self):
+        # It used to assert every writeup covered "the recruiter screen, the
+        # hiring-manager round, the culture interview, the project deep-dive".
+        # Across the bank a guide is as often a worked problem or a review of
+        # somebody else's product, and on a one-guide company the claim was
+        # false about the single row printed beneath it.
+        page = _preamble([_question()], guides=[_guide(title="Credit Card Service with Points")])
+        block = page[page.index("## Guides & writeups"):]
+        self.assertIn("**1 writeup** filed under Acme", block)
+        self.assertIn("The *Topics* column says what it covers", block)
+        for invented in ("recruiter screen", "hiring-manager round", "culture interview"):
+            self.assertNotIn(invented, block)
+
+    def test_the_glance_row_and_the_guides_heading_are_one_string(self):
+        # A jump link, a summary row and a heading that drift apart produce a
+        # link that scrolls to the top, which nobody reports.
+        page = _preamble([_question()], guides=[_guide()])
+        self.assertIn(f"| {GUIDES_HEADING} | 1 |", page)
+        self.assertIn(f"## {GUIDES_HEADING}", page)
+        self.assertIn(f"[{GUIDES_HEADING}](#{anchor(GUIDES_HEADING)})", page)
+
+    def test_the_practise_block_points_at_the_table_it_sits_above(self):
+        # It is emitted directly before the largest section on the page, so a
+        # closing note there reads as the end of the document — and "every
+        # title above" was false, with most of the question links below it.
+        page = _preamble([_question()])
+        self.assertLess(page.index("Practise these on TrueInterview"), page.index("## Every question reported at"))
+        self.assertIn("including every row of the table below", page)
+        self.assertNotIn("Every title above", page)
+
+    def test_every_jump_link_lands_on_a_heading_that_exists(self):
+        # The one defect on this page nobody reports: a link that silently
+        # scrolls to the top because an anchor drifted by one character.
+        page = render().files["companies/google.md"]
+        headings = {anchor(line[3:].strip()) for line in page.splitlines() if line.startswith("## ")}
+        jump = next(line for line in page.splitlines() if line.startswith("**On this page:**"))
+        targets = re.findall(r"\]\(#([^)]+)\)", jump)
+        self.assertTrue(targets)
+        for target in targets:
+            self.assertIn(target, headings, f"#{target} is not a heading on the page")
+
+    def test_a_company_with_no_reported_round_gets_a_sentence_not_a_table(self):
+        page = _preamble([_question(rounds=[])])
+        self.assertIn("No question reported at Acme names which round", page)
+        self.assertNotIn("What this round is", page)
+
+    def test_a_round_is_described_by_its_format_and_counted_by_the_employer(self):
+        page = _preamble([_question(rounds=["oa"]), _question(slug="q-2", rounds=["oa", "onsite"])])
+        self.assertIn(ROUND_MEANINGS["oa"], page)
+        # The count is the claim about the employer; the description is not.
+        self.assertIn("**Online assessment**", page)
+        self.assertIn("2 of 2", page)
+
+    def test_the_census_line_ties_out_against_the_table_below_it(self):
+        # It counted "dated on or before today" and called the complement
+        # *unmeasured*, which is the UNDATED set — so the one future-dated row
+        # in the bank was reported as carrying no date. The LinkedIn page said
+        # 34/21 where its own table showed 35 dates and 20 dashes.
+        page = _preamble([
+            _question(slug="q-1", reported="2026-08-01"),
+            _question(slug="q-2", reported="2126-02-23"),
+            _question(slug="q-3", reported=None),
+        ])
+        self.assertIn("3 questions reported at Acme. 2 of them carry a sighting date", page)
+        self.assertIn("the other 1 are *unmeasured*", page)
+        # And the third state is named rather than folded into either side.
+        self.assertIn("1 of those is dated after today, so it is in no window", page)
+        # The window cells still exclude it — that part was always right: one
+        # row is inside the window, the 2126 row is in no window at all.
+        self.assertIn("| Reported in the last 90 days | 1 |", page)
+        self.assertIn("| Most recent sighting | Aug 01, 2026 |", page)
+
+    def test_the_census_line_says_nothing_extra_when_every_date_has_happened(self):
+        page = _preamble([_question(reported="2026-08-01"), _question(slug="q-2", reported=None)])
+        self.assertIn("2 questions reported at Acme. 1 of them carry a sighting date;", page)
+        self.assertNotIn("dated after today", page)
+
+    def test_an_undated_company_is_unmeasured_rather_than_quiet(self):
+        page = _preamble([_question(reported=None)])
+        self.assertIn("no sighting date on file", page)
+        self.assertIn("unmeasured", page)
+        # A real zero would say we looked in the window and found nothing.
+        self.assertNotIn("| Reported in the last 90 days | 0 |", page)
+
+    def test_a_quiet_window_names_the_last_time_anything_was_reported(self):
+        page = _preamble([_question(reported="2024-01-15")])
+        self.assertIn("Nothing has been reported at Acme since Jan 15, 2024", page)
+
+    def test_also_asked_at_excludes_the_company_whose_page_this_is(self):
+        # Off by one on every row of every page if this counts the company
+        # itself: "also asked at 3" has to mean three OTHER employers.
+        page = _preamble([_question(companies=["Acme", "Globex", "Initech"], reported="2026-09-01")])
+        start = page[page.index("## Start here"):]
+        self.assertIn("| 2 |", start)
+        self.assertNotIn("| 3 |", start)
+
+    def test_a_future_sighting_never_becomes_the_most_recent_one(self):
+        page = _preamble([_question(reported="2126-01-01"), _question(slug="q-2", reported="2026-08-01")])
+        self.assertIn("Aug 01, 2026", page)
+        self.assertNotIn("Jan 01, 2126", page[: page.index("## Start here")])
+
+    def test_the_topic_share_names_the_rows_it_is_a_share_of(self):
+        page = _preamble([_question(topics=["graphs"]), _question(slug="q-2", topics=[])])
+        self.assertIn("1 question at Acme that carries a topic label", page)
+
+    def test_the_preamble_rides_the_first_page_of_a_paginated_company(self):
+        rows = [_question(slug=f"q-{n}", reported="2026-09-01") for n in range(ROWS_PER_PAGE + 5)]
+        pages = render_shard(
+            base="companies/acme",
+            title="Acme",
+            lede="lede",
+            back="back",
+            questions=rows,
+            cols=columns_for("company", {}, TODAY),
+            today=TODAY,
+            preamble=_preamble(rows),
+        )
+        self.assertIn("## At a glance", pages["companies/acme.md"])
+        self.assertNotIn("## At a glance", pages["companies/acme-2.md"])
+
+
+class TestCompanySegments(unittest.TestCase):
+    def test_every_registry_key_is_the_slug_a_company_is_filed_under(self):
+        # A key that is not what `company_key` produces is an entry nothing will
+        # ever look up, and nothing anywhere would report it.
+        for key in COMPANY_SEGMENTS:
+            self.assertEqual(company_key(key), key, key)
+
+    def test_the_registry_only_records_values_the_taxonomy_defines(self):
+        for key, entry in COMPANY_SEGMENTS.items():
+            sector, size = entry.get("sector"), entry.get("size")
+            self.assertTrue(sector is None or sector in SECTOR_BY_ID, f"{key}: {sector}")
+            self.assertTrue(size is None or size in SIZE_LABELS, f"{key}: {size}")
+
+    def test_an_unknown_company_is_unclassified_rather_than_guessed(self):
+        self.assertEqual(segment_of("Zzz Definitely Not A Real Employer"), (None, None))
+        self.assertEqual(sector_chip(None, None), "")
+
+    def test_big_tech_is_derived_from_the_sector_and_the_size(self):
+        self.assertTrue(is_big_tech("consumer-internet", "mega"))
+        # Ten thousand people and not a technology company: big, not Big Tech.
+        self.assertFalse(is_big_tech("engineering-services", "mega"))
+        self.assertFalse(is_big_tech("consumer-internet", "large"))
+        self.assertFalse(is_big_tech(None, "mega"))
+
+    def test_the_chip_prints_what_it_knows_and_nothing_else(self):
+        self.assertEqual(sector_chip("fintech", None), "💳 Fintech, payments & crypto")
+        self.assertEqual(sector_chip(None, "mid"), "200–999 people")
+
+
+class TestCompanyTypeCuts(unittest.TestCase):
+    """The cut a candidate preparing for "a quant loop" actually opens."""
+
+    def _by_company(self):
+        shared = _question(slug="shared", companies=["Alpha", "Beta"], reported="2026-09-01")
+        return {
+            "alpha": ("Alpha", [shared] + [_question(slug=f"a{n}", companies=["Alpha"]) for n in range(4)]),
+            "beta": ("Beta", [shared] + [_question(slug=f"b{n}", companies=["Beta"]) for n in range(4)]),
+            "gamma": ("Gamma", [_question(slug=f"g{n}", companies=["Gamma"]) for n in range(6)]),
+            "delta": ("Delta", [_question(slug=f"d{n}", companies=["Delta"]) for n in range(2)]),
+        }
+
+    def test_a_question_asked_at_two_companies_in_one_cut_is_counted_once(self):
+        # Every share on the page is wrong in the same direction otherwise.
+        registry = {
+            "alpha": {"sector": "fintech", "size": "large"},
+            "beta": {"sector": "fintech", "size": "mid"},
+        }
+        with mock.patch.dict(COMPANY_SEGMENTS, registry, clear=True):
+            cuts = {cut["id"]: cut for cut in company_type_cuts(self._by_company(), {})}
+        # Five each, one of them the same question: nine, not ten.
+        self.assertEqual(len(cuts["fintech"]["questions"]), 9)
+        self.assertEqual(len(cuts["fintech"]["companies"]), 2)
+
+    def test_an_unclassified_company_is_in_no_cut_at_all(self):
+        registry = {"alpha": {"sector": "fintech", "size": "large"}}
+        with mock.patch.dict(COMPANY_SEGMENTS, registry, clear=True):
+            cuts = company_type_cuts(self._by_company(), {})
+        named = {key for cut in cuts for key, _, _ in cut["companies"]}
+        self.assertIn("alpha", named)
+        self.assertNotIn("gamma", named)
+
+    def test_big_tech_is_technology_and_ten_thousand_people_together(self):
+        registry = {
+            "alpha": {"sector": "consumer-internet", "size": "mega"},
+            # Ten thousand people and not a technology company.
+            "beta": {"sector": "engineering-services", "size": "mega"},
+            "gamma": {"sector": "consumer-internet", "size": "mid"},
+        }
+        with mock.patch.dict(COMPANY_SEGMENTS, registry, clear=True):
+            cuts = {cut["id"]: cut for cut in company_type_cuts(self._by_company(), {})}
+        self.assertEqual([key for key, _, _ in cuts["big-tech"]["companies"]], ["alpha"])
+        self.assertEqual([key for key, _, _ in cuts["mid-size-tech"]["companies"]], ["gamma"])
+
+    def test_a_cut_too_small_to_be_worth_a_page_does_not_get_one(self):
+        registry = {"delta": {"sector": "gaming", "size": "mid"}}
+        with mock.patch.dict(COMPANY_SEGMENTS, registry, clear=True):
+            cuts = company_type_cuts(self._by_company(), {})
+        # Delta carries 2 questions; the floor is COMPANY_TYPE_MIN_QUESTIONS.
+        self.assertLess(2, COMPANY_TYPE_MIN_QUESTIONS)
+        self.assertEqual(cuts, [])
+
+    def test_every_cut_in_the_readme_block_has_a_page_behind_it(self):
+        result = render()
+        readme = result.files["README.md"]
+        block = readme[readme.index("gen:company-types:start"):readme.index("gen:company-types:end")]
+        for target in re.findall(r"\]\((company-types/[^)]+)\)", block):
+            self.assertIn(target, result.files, target)
+
+    def test_a_cut_page_states_the_rule_that_selected_it(self):
+        result = render()
+        for path, contents in result.files.items():
+            if path.startswith("company-types/") and path != "company-types/README.md":
+                self.assertIn("registry", contents, path)
+                self.assertIn("## The companies in this cut", contents, path)
+
+
+class TestPlurals(unittest.TestCase):
+    def test_no_page_says_one_of_something_plural(self):
+        # Small pages are where a count of one turns up, and they are exactly
+        # the pages nobody re-reads: "**1 questions** with a sighting recorded
+        # in May 2024" was live on four month pages and on every company page
+        # with a single labelled topic.
+        offenders = []
+        pattern = re.compile(r"(?<![\d\"])1 (questions|guides|writeups|sightings|employers|reports|companies|roles)\b")
+        for path, contents in render().files.items():
+            if not path.endswith(".md"):
+                continue
+            for match in pattern.finditer(contents):
+                offenders.append(f"{path}: …{contents[max(0, match.start() - 40):match.end() + 10]}…")
+        self.assertEqual(offenders, [])
+
+
+class TestCompanyLabelAliases(unittest.TestCase):
+    def test_an_alias_never_splits_one_company_into_two_pages(self):
+        # `company_key` derives from the LABEL, so an alias that changes the
+        # slug moves the company's page — and the slug is also the address of
+        # its page on the site. An alias must resolve the stored spelling and
+        # its own display name to the same key, or the two spellings become two
+        # pages that each hold half the questions.
+        for stored, label in COMPANY_LABELS.items():
+            self.assertEqual(
+                company_key(stored), company_key(label), f"{stored!r} → {label!r} moves the page"
+            )
+
+    def test_an_acronym_never_moves_a_slug(self):
+        # The safety argument for keeping ACRONYMS equal to the job lists' own
+        # set: an entry there only ever changes CASE, and `company_key` lowers
+        # everything before slugging. So widening that table can never move a
+        # company's page, which is what makes it a free parity edit and a word
+        # break in COMPANY_LABELS a deliberate one.
+        for token in ACRONYMS:
+            for stored in (token, f"{token}-research", f"acme-{token}"):
+                self.assertEqual(
+                    company_key(stored), stored, f"{stored!r} moved when {token!r} was uppercased"
+                )
+
+    def test_the_bank_renders_no_obviously_mangled_capitalisation(self):
+        # Not a rule a machine can settle in general, so it is pinned to the
+        # names this repository has actually been publishing wrong.
+        for stored, expected in (("mongodb", "MongoDB"), ("ebay", "eBay"), ("geico", "GEICO")):
+            self.assertEqual(company_label(stored), expected)
+
+
+class TestLinks(unittest.TestCase):
+    def test_every_relative_link_points_at_a_file_that_exists(self):
+        # The guard the sibling job-list repositories have and this one did not:
+        # `guides/README.md` linked at `companies/general.md`, a company with
+        # guides and no questions, and so a page the generator never writes. A
+        # 404 in a published index is invisible to every other test here.
+        result = render()
+        generated = set(result.files)
+        broken = []
+        for path, contents in result.files.items():
+            if not path.endswith(".md"):
+                continue
+            here = PurePosixPath(path).parent
+            for href in re.findall(r"\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)", contents):
+                if href.startswith(("http://", "https://", "mailto:", "#")):
+                    continue
+                if href.startswith("../../../issues") or href.startswith("../../issues"):
+                    continue
+                target = os.path.normpath(str(here / href.split("#")[0]))
+                if target in generated or (ROOT / target).exists():
+                    continue
+                broken.append(f"{path} → {href}")
+        self.assertEqual(broken, [])
+
+
+class TestPartialReads(unittest.TestCase):
+    def test_a_guide_count_is_a_floor_when_the_catalog_read_fell_short(self):
+        # The guides index carries a standing "this list is incomplete" notice
+        # for this state; a bare count on a company page reads as a total,
+        # which is the same lie in a smaller font.
+        guide = load_fixture().guides[0]
+        whole = _preamble([_question()], guides=[guide], guides_complete=True)
+        partial = _preamble([_question()], guides=[guide], guides_complete=False)
+        self.assertIn("| Guides & writeups | 1 |", whole)
+        self.assertIn("| Guides & writeups | 1+ |", partial)
+        self.assertIn("could only hand over one page of guides", partial)
+        self.assertNotIn("could only hand over one page of guides", whole)
+
+    def test_the_sector_chip_carries_its_rule_and_links_at_it(self):
+        # The one line on the page that is not a count. It is printed under a
+        # docstring promising the page asserts nothing, so it says what selects
+        # it and points at the cut that states the rule in full.
+        page = render().files["companies/amazon.md"]
+        chip = page.split("\n")[8]
+        self.assertIn("company-types/", chip, chip)
+        if "Big Tech" in chip:
+            self.assertIn("a technology-sector employer with 10,000+ people", chip)
+
+    def test_no_page_promises_a_verdict_the_bank_cannot_give(self):
+        # 377 of 2,315 questions are system-design or AI-coding, where a run's
+        # exit code is a diagnostic and there is no verdict at all.
+        for path, contents in render().files.items():
+            if not path.endswith(".md"):
+                continue
+            # Over the whole document rather than per line: the claim wraps.
+            for match in re.finditer(r"server-judged verdict|judged server-side", contents):
+                window = " ".join(contents[match.start() : match.end() + 160].split())
+                self.assertTrue(
+                    "algorithm" in window and "SQL" in window,
+                    f"{path}: unqualified judging claim — {window[:160]}",
+                )
+
+
+class TestPathSafety(unittest.TestCase):
+    def test_a_rendered_path_outside_the_generated_directories_is_refused(self):
+        # A question's `type` is free text to the catalog API and becomes a
+        # path (`formats/{type}.md`). Nothing downstream checked it, and the
+        # writer makes directories on the way.
+        from sync import refuse_unwritable
+
+        self.assertEqual(refuse_unwritable(["README.md", "companies/a.md", "data/x.csv"]), [])
+        for bad in ("formats/../../../etc/passwd.md", "/etc/x.md", "scripts/evil.md", ".git/config.md",
+                    "formats/x.py", "formats/..%2f.md"):
+            self.assertEqual(len(refuse_unwritable([bad])), 1, bad)
+
+    def test_every_path_the_real_build_produces_is_writable(self):
+        from sync import refuse_unwritable
+
+        self.assertEqual(refuse_unwritable(render().files), [])
+
+
+class TestOneEmployerCountedOnce(unittest.TestCase):
+    def test_a_row_naming_one_employer_twice_is_one_row_on_its_page(self):
+        # The alias table folds `SpaceX` and `Spacex` onto one key, which is
+        # what let a row carrying both be appended to that key twice.
+        question = _question(companies=["SpaceX", "Spacex"], reported="2026-09-01")
+        groups = group_by_company([question], {})
+        self.assertEqual(list(groups), ["spacex"])
+        self.assertEqual(len(groups["spacex"][1]), 1)
+        stats = compute_insights([question], [], {}, TODAY)
+        self.assertEqual([(row.key, row.questions) for row in stats.companies], [("spacex", 1)])

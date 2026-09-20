@@ -62,6 +62,7 @@ from render import (
     GENERATED_NOTICE,
     MONTH_NAMES,
     bar,
+    plural,
     columns_for,
     date_label,
     escape_cell,
@@ -603,7 +604,7 @@ def companies_page(insights: Insights) -> str:
         "",
         f"<sub>A dash in the last-{insights.window_days}-days column means none of that company's "
         "questions carry a sighting date at all, so the window could not be measured — different "
-        "from a measured zero. *Guides* counts the round-by-round writeups in "
+        "from a measured zero. *Guides* counts the Study-section writeups in "
         "[guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>",
         "",
     ]
@@ -650,10 +651,21 @@ def trends_page(insights: Insights) -> str:
             ],
         ),
         "",
-        "<sub>A month dated after today is a data-entry error upstream rather than a forecast; it "
-        "is listed here for the same reason it keeps its month page — so the error is visible to "
-        "the people who can fix it.</sub>",
-        "",
+        # Gated on a future MONTH being on this table. Unconditional, it
+        # printed a warning about future months on a bank that has none, which
+        # teaches a reader to skip the notice for the run where it is true.
+        #
+        # NOT gated on `insights.future_dated`: that counts a row dated after
+        # today, which on any ordinary day includes rows later in the CURRENT
+        # month — nine of them in the test fixture. Those are not the error
+        # this sentence describes, and the month they fall in is not a future
+        # month. The claim is about the table, so the test is about the table.
+        *([
+            "<sub>A month dated after today is a data-entry error upstream rather than a forecast; it "
+            "is listed here for the same reason it keeps its month page — so the error is visible to "
+            "the people who can fix it.</sub>",
+            "",
+        ] if any(row.key > insights.today.strftime("%Y-%m") for row in months) else []),
         "## First seen",
         "",
         "The month a company's earliest recorded sighting falls in. A company appearing here is a "
@@ -807,7 +819,7 @@ def guides_by_topic(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
         "",
         "# Free reading, by topic",
         "",
-        f"**{len(guides):,} round-by-round guides**, grouped by what each one is about. They are "
+        f"**{len(guides):,} writeups**, grouped by what each one is about. They are "
         "free to read on the site. A guide carrying several topics is listed under each.",
         "",
         "[← By company](README.md) · [← Question bank](../README.md)",
@@ -829,7 +841,7 @@ def guides_by_topic(guides: Sequence[Guide], api_labels: dict[str, str]) -> str:
         body += [
             f"### `{escape_cell(tag)}`",
             "",
-            f"<sub>{len(rows)} guides</sub>",
+            f"<sub>{plural(len(rows), 'guide')}</sub>",
             "",
             table(
                 ["Guide", "Company"],

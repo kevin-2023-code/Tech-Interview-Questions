@@ -114,10 +114,10 @@ The closest thing this data has to an instruction. A question reported at one em
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | **16** | System Design | Medium | Amazon, Bloomberg, Confluent, Google … |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | **14** | System Design | Medium | Robinhood, Airbnb, Atlassian, ByteDance … |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **12** | System Design | Easy | Reddit, Airbnb, Amazon, DoorDash … |
-| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | **12** | Algorithm | Medium | Ramp, Amazon, Bloomberg, Ebay … |
+| [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | **12** | Algorithm | Medium | Ramp, Amazon, Bloomberg, eBay … |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | **11** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **11** | Low-Level Design | Medium | Rippling, Amazon, Atlassian, LinkedIn … |
-| [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | **10** | System Design | Hard | Airbnb, Amazon, Ebay, Expedia … |
+| [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | **10** | System Design | Hard | Airbnb, Amazon, eBay, Expedia … |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | **10** | Algorithm | Medium | Apple, Amazon, ByteDance, DoorDash … |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | **10** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | **10** | Low-Level Design | Medium | xAI, Amazon, Bloomberg, ByteDance … |
@@ -128,9 +128,9 @@ The closest thing this data has to an instruction. A question reported at one em
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | **9** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | **9** | Algorithm | Medium | Netflix, ByteDance, Google, Instacart … |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | **9** | System Design | Hard | ByteDance, Affirm, Expedia, Google … |
-| [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | **9** | System Design | Easy | Amazon, Confluent, Ebay, Google … |
+| [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | **9** | System Design | Easy | Amazon, Confluent, eBay, Google … |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | **9** | Low-Level Design | Medium | Anthropic, Amazon, Bloomberg, ByteDance … |
-| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | **9** | System Design | Hard | ByteDance, Airbnb, Databricks, Ebay … |
+| [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | **9** | System Design | Hard | ByteDance, Airbnb, Databricks, eBay … |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | **9** | System Design | Hard | Amazon, Datadog, DoorDash, Google … |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | **8** | Algorithm | Medium | Apple, Amazon, ByteDance, Google … |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | **8** | AI Coding | Medium | Apple, Amazon, ByteDance, Meta … |

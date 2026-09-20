@@ -20,16 +20,16 @@ What candidates say happened in the room — written up by the people who sat th
 | **Uber** | Software | [Coding Interview Experience: Currency Conversion and DFS Problems](https://trueinterview.io/interviews/89fd0054-7709-4212-934d-35fc9049265e) | Sep 16, 2026 |
 | **Uber** | Software | [Company Not Mentioned / Role Not Mentioned Interview Experience (Location not mentioned, Year not mentioned)](https://trueinterview.io/interviews/da019064-e25b-4176-a2e4-0a1487ef9bfd) | Sep 16, 2026 |
 | **Uber** | Software | [Concurrent File Downloader and Delayed Event Firing System Coding Interview](https://trueinterview.io/interviews/f2a9016b-ed05-4f7c-916d-47d4ad87440d) | Sep 16, 2026 |
-| **Okx** | Software | [Cross-Region Data Migration and PSP Reconciliation Interview Experience](https://trueinterview.io/interviews/0d734cfc-3a92-45d6-8195-2bff294785e7) | Sep 16, 2026 |
+| **OKX** | Software | [Cross-Region Data Migration and PSP Reconciliation Interview Experience](https://trueinterview.io/interviews/0d734cfc-3a92-45d6-8195-2bff294785e7) | Sep 16, 2026 |
 | **Uber** | Software | [Directory Tree Construction Coding Interview Experience](https://trueinterview.io/interviews/5a7c8bb7-b628-4a7d-b395-ecf4c401f700) | Sep 16, 2026 |
 | **Uber** | Software | [Driver Dispatch and Uber Eats ETA System Design Interview Experience](https://trueinterview.io/interviews/64334272-95d3-493d-a00c-f863e308e859) | Sep 16, 2026 |
 | **Rokt** | Software | [Frontend Dashboard System Design and Coding Interview Experience](https://trueinterview.io/interviews/66396024-ee41-4755-803a-c2051ddc02a0) | Sep 16, 2026 |
-| **Okx** | Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/b3ceafd4-f4bd-4ac1-8ff4-d5d16d8ea5e6) | Sep 16, 2026 |
+| **OKX** | Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/b3ceafd4-f4bd-4ac1-8ff4-d5d16d8ea5e6) | Sep 16, 2026 |
 | **Uber** | Software | [Interview Experience](https://trueinterview.io/interviews/66f9e880-ae19-4a82-976c-587c757e909e) | Sep 16, 2026 |
-| **Stackadapt** | Data & AI | [Interview Experience](https://trueinterview.io/interviews/87cd3886-7c1c-4a52-82f6-ceb4047d6e3e) | Sep 16, 2026 |
+| **StackAdapt** | Data & AI | [Interview Experience](https://trueinterview.io/interviews/87cd3886-7c1c-4a52-82f6-ceb4047d6e3e) | Sep 16, 2026 |
 | **Rokt** | Software | [Interview Experience (Recruiter Contact via LinkedIn)](https://trueinterview.io/interviews/a195e0c7-cb2c-473d-9fa7-1e9ef512b4cf) | Sep 16, 2026 |
-| **Stackadapt** | Data & AI | [LeetCode 295 and Statistics Technical Interview Experience](https://trueinterview.io/interviews/b5aaef0f-4880-44b8-8899-4f48201b65bf) | Sep 16, 2026 |
-| **Okx** | Software | [Linked List Insertion and Deletion Coding Interview Experience](https://trueinterview.io/interviews/2d7f7b37-bead-4843-9a98-bef59a4a546e) | Sep 16, 2026 |
+| **StackAdapt** | Data & AI | [LeetCode 295 and Statistics Technical Interview Experience](https://trueinterview.io/interviews/b5aaef0f-4880-44b8-8899-4f48201b65bf) | Sep 16, 2026 |
+| **OKX** | Software | [Linked List Insertion and Deletion Coding Interview Experience](https://trueinterview.io/interviews/2d7f7b37-bead-4843-9a98-bef59a4a546e) | Sep 16, 2026 |
 | **Uber** | Software | [Linux File System & Calculator Coding, Trip Tracking System Design Interview Experience](https://trueinterview.io/interviews/51b41d92-dea4-4b3a-884a-4fa7fe2483e2) | Sep 16, 2026 |
 | **ByteDance** | Software | [Machine Learning Technical Interview Experience](https://trueinterview.io/interviews/f5e724a4-00d9-42eb-8a92-2466ed942c0e) | Sep 16, 2026 |
 | **Uber** | Software | [Meeting Room Scheduler Coding Interview Experience](https://trueinterview.io/interviews/fd6631e5-b1ba-4931-94e0-251bf2057205) | Sep 16, 2026 |
@@ -37,7 +37,7 @@ What candidates say happened in the room — written up by the people who sat th
 | **Uber** | Software | [New Grad Software Engineer Interview Experience (2026)](https://trueinterview.io/interviews/f981108a-df4e-4afe-ab83-a3ec46a0cc12) | Sep 16, 2026 |
 | **Rokt** | Software | [Not mentioned / Not mentioned Interview Experience (New York, 2025)](https://trueinterview.io/interviews/a1ec221b-3574-41a5-941a-0b36c400db30) | Sep 16, 2026 |
 | **Voleon** | Software | [Not mentioned Site Reliability Engineer Interview Experience (Location not mentioned, Year not mentioned)](https://trueinterview.io/interviews/50249b92-ce01-42f3-ad03-2e42a800f05c) | Sep 16, 2026 |
-| **Okx** | Software | [OKX Interview Experience](https://trueinterview.io/interviews/6add3c50-66a6-4e28-bffc-d9aa06de7e0f) | Sep 16, 2026 |
+| **OKX** | Software | [OKX Interview Experience](https://trueinterview.io/interviews/6add3c50-66a6-4e28-bffc-d9aa06de7e0f) | Sep 16, 2026 |
 | **Uber** | Software | [Online Assessment Interview Experience with Three Coding Problems](https://trueinterview.io/interviews/24af26d0-5e84-46c9-8c4c-62aea0f69a66) | Sep 16, 2026 |
 | **Uber** | Software | [Onsite Interview Experience: System Design, OOD, and Coding](https://trueinterview.io/interviews/e6d0342b-2011-4072-9fde-fc613aa1721e) | Sep 16, 2026 |
 | **Oscar Health** | Software | [Oscar Health Network Adequacy Interview Experience](https://trueinterview.io/interviews/4c210ac3-dab0-4936-8f8d-f5fae9553e3b) | Sep 16, 2026 |
@@ -45,7 +45,7 @@ What candidates say happened in the room — written up by the people who sat th
 | **Oscar Health** | Software | [Oscar Interview Experience](https://trueinterview.io/interviews/79dcb63d-4c6f-4318-aedc-cf8dd50a7d95) | Sep 16, 2026 |
 | **ByteDance** | Software | [Phone Screen: Remove Duplicate Letters (LeetCode 316)](https://trueinterview.io/interviews/5884a3df-8087-4588-aa81-883f611dbbbb) | Sep 16, 2026 |
 | **Uber** | Software | [Project Discussion and Coding Problems 57 and 56 Interview Experience](https://trueinterview.io/interviews/948f33f7-c118-484c-aae1-80c2b612ea68) | Sep 16, 2026 |
-| **Stackadapt** | Software | [Recipe & Supply OOP Design Interview Experience](https://trueinterview.io/interviews/a6fade67-795c-4c36-a2d6-18587228c881) | Sep 16, 2026 |
+| **StackAdapt** | Software | [Recipe & Supply OOP Design Interview Experience](https://trueinterview.io/interviews/a6fade67-795c-4c36-a2d6-18587228c881) | Sep 16, 2026 |
 | **Voleon** | Software | [Software Engineer Interview Experience](https://trueinterview.io/interviews/8436a9ea-ee10-40af-a044-34c97c6cbed9) | Sep 16, 2026 |
 | **Oscar Health** | Software | [Software Engineer Interview Experience: Morse Code Conversion and Decoding](https://trueinterview.io/interviews/e5589366-94fc-4a83-a7f4-b766af17582f) | Sep 16, 2026 |
 | **Voleon** | Quantitative Finance | [Trading Firm / Financial Exchange Broker Role Interview Experience](https://trueinterview.io/interviews/13bfdf50-3886-42b9-b4b0-63237a68982b) | Sep 16, 2026 |
@@ -59,6 +59,6 @@ What candidates say happened in the room — written up by the people who sat th
 | **Uber** | Software | [Unknown Company Software Engineer Interview Experience (Location not mentioned, Year not mentioned)](https://trueinterview.io/interviews/0b413bfc-08e7-44e3-a944-ba1264a35bf1) | Sep 16, 2026 |
 | **Voleon** | Quantitative Finance | [Voleon Interview Experience](https://trueinterview.io/interviews/de413f68-9d9f-4db2-9c4f-702397d10d11) | Sep 16, 2026 |
 | **Voleon** | Software | [Voleon Software Engineer Interview Experience](https://trueinterview.io/interviews/311f1ff8-ac9a-4f8e-a77d-6986f675ac38) | Sep 16, 2026 |
-| **Stackadapt** | Software | [Windowed Map Design Interview Experience (Software Engineer, Injestion Team)](https://trueinterview.io/interviews/beb5ebea-0039-4823-afca-05216ea512c9) | Sep 16, 2026 |
+| **StackAdapt** | Software | [Windowed Map Design Interview Experience (Software Engineer, Injestion Team)](https://trueinterview.io/interviews/beb5ebea-0039-4823-afca-05216ea512c9) | Sep 16, 2026 |
 
 [**Every report on the board →**](https://trueinterview.io/interviews)

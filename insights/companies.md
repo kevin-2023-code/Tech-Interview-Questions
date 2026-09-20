@@ -67,7 +67,7 @@
 | [Atlassian](../companies/atlassian.md) | 39 | 4 | 9 | 0 | Apr 21, 2026 | Algorithm | `hashing` |
 | [Citadel](../companies/citadel.md) | 32 | 11 | 5 | 0 | Jun 13, 2026 | Algorithm | `binary-search` |
 | [xAI](../companies/xai.md) | 31 | 6 | 5 | 1 | Jul 22, 2026 | Algorithm | `greedy` |
-| [Ebay](../companies/ebay.md) | 30 | 1 | 4 | 0 | Jun 17, 2026 | Algorithm | `arrays` |
+| [eBay](../companies/ebay.md) | 30 | 1 | 4 | 0 | Jun 17, 2026 | Algorithm | `arrays` |
 | [Robinhood](../companies/robinhood.md) | 30 | 6 | 6 | 0 | May 09, 2026 | Algorithm | `graphs` |
 | [Lyft](../companies/lyft.md) | 28 | 3 | 7 | 3 | Jul 29, 2026 | Algorithm | `intervals` |
 | [Tesla](../companies/tesla.md) | 28 | 5 | 3 | 0 | Jun 03, 2026 | Algorithm | `graphs` |
@@ -85,7 +85,7 @@
 | [Two Sigma](../companies/two-sigma.md) | 22 | 6 | 3 | 1 | Jul 29, 2026 | Algorithm | `graphs` |
 | [Goldman Sachs](../companies/goldman-sachs.md) | 21 | 10 | 4 | 1 | Jul 06, 2026 | Algorithm | `hashing` |
 | [Datadog](../companies/datadog.md) | 20 | 1 | 3 | 0 | Mar 23, 2026 | Algorithm | `hashing` |
-| [Weride](../companies/weride.md) | 20 | 1 | 3 | 1 | Jul 29, 2026 | Algorithm | `graphs` |
+| [WeRide](../companies/weride.md) | 20 | 1 | 3 | 1 | Jul 29, 2026 | Algorithm | `graphs` |
 | [IBM](../companies/ibm.md) | 19 | 3 | 2 | 0 | May 30, 2026 | Algorithm | `greedy` |
 | [Pinduoduo](../companies/pinduoduo.md) | 19 | 3 | 3 | 3 | Jul 30, 2026 | Algorithm | `arrays` |
 | [Cisco](../companies/cisco.md) | 18 | 1 | 2 | 0 | Jun 16, 2026 | Algorithm | `dynamic-programming` |
@@ -113,23 +113,23 @@
 | [Vanta](../companies/vanta.md) | 13 | 2 | 2 | 3 | Jul 16, 2026 | Algorithm | `graphs` |
 | [Microsoft AI](../companies/microsoft-ai.md) | 12 | 0 | 2 | 2 | Jul 29, 2026 | System Design | `graphs` |
 | [Scale AI](../companies/scale-ai.md) | 12 | 6 | 2 | 0 | Jun 16, 2026 | Algorithm | `heap` |
-| [Hubspot](../companies/hubspot.md) | 10 | 0 | 4 | 0 | Feb 01, 2026 | Algorithm | `hashing` |
+| [HubSpot](../companies/hubspot.md) | 10 | 0 | 4 | 0 | Feb 01, 2026 | Algorithm | `hashing` |
 | [Okta](../companies/okta.md) | 10 | 2 | 2 | 3 | Jun 24, 2026 | Algorithm | `arrays` |
 | [Whatnot](../companies/whatnot.md) | 7 | 0 | 2 | 0 | Jun 12, 2026 | System Design | `hashing` |
 | [Amplitude](../companies/amplitude.md) | 6 | 1 | 2 | 0 | Oct 02, 2025 | Algorithm | `graphs` |
-| [Geico](../companies/geico.md) | 6 | 1 | 2 | 0 | Apr 02, 2026 | Algorithm | `dynamic-programming` |
+| [GEICO](../companies/geico.md) | 6 | 1 | 2 | 0 | Apr 02, 2026 | Algorithm | `dynamic-programming` |
 | [Luma AI](../companies/luma-ai.md) | 6 | 1 | 2 | 0 | Jan 05, 2026 | Algorithm | `math` |
-| [Mongodb](../companies/mongodb.md) | 6 | 1 | 2 | — | — | Algorithm | `bit-manipulation` |
+| [MongoDB](../companies/mongodb.md) | 6 | 1 | 2 | — | — | Algorithm | `bit-manipulation` |
 | [Airtable](../companies/airtable.md) | 5 | 0 | 2 | — | — | Algorithm | `dynamic-programming` |
 | [Arista](../companies/arista.md) | 5 | 1 | 2 | — | — | Algorithm | `dynamic-programming` |
 | [Block](../companies/block.md) | 5 | 0 | 2 | — | — | Algorithm | `dynamic-programming` |
 | [Chicago Trading](../companies/chicago-trading.md) | 5 | 1 | 2 | — | — | Algorithm | `arrays` |
 | [Circle](../companies/circle.md) | 5 | 1 | 2 | — | — | Algorithm | `arrays` |
 | [Lead Bank](../companies/lead-bank.md) | 5 | 1 | 2 | — | — | Algorithm | `hashing` |
-| [Okx](../companies/okx.md) | 5 | 0 | 2 | — | — | Algorithm | `backtracking` |
+| [OKX](../companies/okx.md) | 5 | 0 | 2 | — | — | Algorithm | `backtracking` |
 | [Palantir](../companies/palantir.md) | 5 | 1 | 2 | — | — | Algorithm | `graphs` |
 | [Sigmacomputing](../companies/sigmacomputing.md) | 5 | 1 | 2 | — | — | Low-Level Design | `trees` |
-| [Stackadapt](../companies/stackadapt.md) | 5 | 0 | 2 | — | — | Algorithm | `graphs` |
+| [StackAdapt](../companies/stackadapt.md) | 5 | 0 | 2 | — | — | Algorithm | `graphs` |
 | [Voleon](../companies/voleon.md) | 5 | 0 | 2 | 0 | Oct 26, 2024 | Algorithm | `arrays` |
 | [Faire](../companies/faire.md) | 4 | 0 | 2 | — | — | Algorithm | `arrays` |
 | [Gusto](../companies/gusto.md) | 4 | 0 | 2 | 0 | Mar 20, 2026 | Algorithm | — |
@@ -140,4 +140,4 @@
 | [Stubhub](../companies/stubhub.md) | 3 | 1 | 2 | — | — | Low-Level Design | — |
 | [Brex](../companies/brex.md) | 2 | 1 | 2 | — | — | Algorithm | — |
 
-<sub>A dash in the last-90-days column means none of that company's questions carry a sighting date at all, so the window could not be measured — different from a measured zero. *Guides* counts the round-by-round writeups in [guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>
+<sub>A dash in the last-90-days column means none of that company's questions carry a sighting date at all, so the window could not be measured — different from a measured zero. *Guides* counts the Study-section writeups in [guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>

@@ -288,6 +288,17 @@ def table(headers: Sequence[str], aligns: Sequence[str], rows: Iterable[Sequence
     return "\n".join(lines)
 
 
+def plural(count: int, singular: str, many: str | None = None) -> str:
+    """``1 question`` / ``12 questions``, with the count already formatted.
+
+    Worth a helper rather than an f-string at each site: this repository renders
+    a page per company, per format and per month, and the small ones are exactly
+    the pages where a count of one turns up. "**1 questions** with a sighting
+    recorded in May 2024" was live on four month pages.
+    """
+    return f"{count:,} {singular if count == 1 else (many or singular + 's')}"
+
+
 def question_link(question: Question) -> str:
     return f"[{escape_cell(question.title)}]({question.url})"
 
@@ -391,7 +402,10 @@ def guide_rows(
     order. Sorting inside a renderer silently overrides a caller's ordering, and
     the caller cannot see that it happened.
     """
-    header = ["Interview round / guide"] + ([] if not with_company else ["Company"]) + ["Topics"]
+    # "Interview round" was a claim about the row's CONTENT that nothing here
+    # checks — the same endpoint carries worked problems and product reviews.
+    # The Topics column is the evidence; this column is just the title.
+    header = ["Writeup"] + ([] if not with_company else ["Company"]) + ["Topics"]
     align = [":--"] + ([] if not with_company else [":--"]) + [":--"]
     lines = ["| " + " | ".join(header) + " |", "| " + " | ".join(align) + " |"]
     for guide in (guides if preserve_order else sort_guides(guides, api_labels)):

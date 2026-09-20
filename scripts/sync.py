@@ -28,9 +28,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
+from typing import Iterable
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
@@ -42,7 +44,17 @@ README_TEMPLATE = ROOT / "README.md"
 
 # Directories whose entire contents this script owns. Anything inside them that
 # a render did not produce is deleted; anything outside them is never touched.
-GENERATED_DIRS = ("companies", "formats", "by-month", "guides", "insights", "free", "experiences", "data")
+GENERATED_DIRS = (
+    "companies",
+    "company-types",
+    "formats",
+    "by-month",
+    "guides",
+    "insights",
+    "free",
+    "experiences",
+    "data",
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -60,6 +72,37 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--quiet", action="store_true", help="Only print the summary line.")
     return parser.parse_args()
+
+
+#: The only shape a generated path may have. Anchored at both ends, opening on
+#: a lowercase directory character (so nothing starts with a dot or a slash),
+#: and ending in one of the four extensions this repository publishes. Uppercase
+#: is allowed after the first character because every directory has a README.md.
+WRITABLE_PATH = re.compile(r"^[a-z0-9][A-Za-z0-9._/-]*\.(?:md|csv|jsonl|json)$")
+
+
+def refuse_unwritable(paths: Iterable[str]) -> list[str]:
+    """Every rendered path this script may NOT write, with the reason.
+
+    A question's ``type`` is free text as far as the catalog API is concerned,
+    and it becomes a path — ``formats/{type}.md``, ``free/{type}.md``. Nothing
+    downstream checked it, so one row could name a file anywhere the process can
+    reach, and ``mkdir(parents=True)`` would make the directories on the way.
+    The repository's own rule is that pruning is "scoped to the generated
+    directories by construction"; writing has to be too, and by the same
+    construction rather than by trusting the renderer's f-strings.
+    """
+    refused = []
+    for path in sorted(paths):
+        # The one hand-written file this script rewrites, in place, between
+        # markers. Everything else lives in a generated directory.
+        if path == "README.md":
+            continue
+        if ".." in path.split("/") or path.startswith("/") or not WRITABLE_PATH.match(path):
+            refused.append(f"{path} (not a generated path)")
+        elif not any(path.startswith(f"{directory}/") for directory in GENERATED_DIRS):
+            refused.append(f"{path} (outside the generated directories)")
+    return refused
 
 
 def generated_paths() -> set[str]:
@@ -89,6 +132,12 @@ def main() -> int:
         result = build(catalog, template, today)
     except (CatalogError, OSError, ValueError, json.JSONDecodeError) as error:
         print(f"sync failed: {error}", file=sys.stderr)
+        return 2
+
+    refused = refuse_unwritable(result.files)
+    if refused:
+        for problem in refused:
+            print(f"path: refusing to write {problem}", file=sys.stderr)
         return 2
 
     problems = check_budgets(result)

@@ -4,106 +4,154 @@
 
 **99 companies**, busiest first. Counts are questions *reported at* that company, so a question reported at more than one employer is counted under each — the column therefore sums to more than the size of the bank.
 
-[← Question bank](../README.md)
+[← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [How each company interviews](../guides/README.md)
 
-| Company | Questions | On TrueInterview |
-| :-- | --: | :-- |
-| [Amazon](../companies/amazon.md) | 232 | [amazon](https://trueinterview.io/problems/company/amazon) |
-| [Meta](../companies/meta.md) | 168 | [meta](https://trueinterview.io/problems/company/meta) |
-| [ByteDance](../companies/bytedance.md) | 144 | [bytedance](https://trueinterview.io/problems/company/bytedance) |
-| [Google](../companies/google.md) | 141 | [google](https://trueinterview.io/problems/company/google) |
-| [Uber](../companies/uber.md) | 141 | [uber](https://trueinterview.io/problems/company/uber) |
-| [Microsoft](../companies/microsoft.md) | 98 | [microsoft](https://trueinterview.io/problems/company/microsoft) |
-| [Apple](../companies/apple.md) | 90 | [apple](https://trueinterview.io/problems/company/apple) |
-| [Snowflake](../companies/snowflake.md) | 88 | [snowflake](https://trueinterview.io/problems/company/snowflake) |
-| [OpenAI](../companies/openai.md) | 87 | [openai](https://trueinterview.io/problems/company/openai) |
-| [DoorDash](../companies/doordash.md) | 65 | [doordash](https://trueinterview.io/problems/company/doordash) |
-| [Netflix](../companies/netflix.md) | 64 | [netflix](https://trueinterview.io/problems/company/netflix) |
-| [Anthropic](../companies/anthropic.md) | 63 | [anthropic](https://trueinterview.io/problems/company/anthropic) |
-| [Stripe](../companies/stripe.md) | 61 | [stripe](https://trueinterview.io/problems/company/stripe) |
-| [Pinterest](../companies/pinterest.md) | 60 | [pinterest](https://trueinterview.io/problems/company/pinterest) |
-| [Bloomberg](../companies/bloomberg.md) | 55 | [bloomberg](https://trueinterview.io/problems/company/bloomberg) |
-| [LinkedIn](../companies/linkedin.md) | 55 | [linkedin](https://trueinterview.io/problems/company/linkedin) |
-| [Databricks](../companies/databricks.md) | 54 | [databricks](https://trueinterview.io/problems/company/databricks) |
-| [Roblox](../companies/roblox.md) | 54 | [roblox](https://trueinterview.io/problems/company/roblox) |
-| [Snapchat](../companies/snapchat.md) | 49 | [snapchat](https://trueinterview.io/problems/company/snapchat) |
-| [Airbnb](../companies/airbnb.md) | 48 | [airbnb](https://trueinterview.io/problems/company/airbnb) |
-| [Waymo](../companies/waymo.md) | 47 | [waymo](https://trueinterview.io/problems/company/waymo) |
-| [Coinbase](../companies/coinbase.md) | 45 | [coinbase](https://trueinterview.io/problems/company/coinbase) |
-| [Capital One](../companies/capital-one.md) | 41 | [capital-one](https://trueinterview.io/problems/company/capital-one) |
-| [Oracle](../companies/oracle.md) | 41 | [oracle](https://trueinterview.io/problems/company/oracle) |
-| [Atlassian](../companies/atlassian.md) | 39 | [atlassian](https://trueinterview.io/problems/company/atlassian) |
-| [Citadel](../companies/citadel.md) | 32 | [citadel](https://trueinterview.io/problems/company/citadel) |
-| [xAI](../companies/xai.md) | 31 | [xai](https://trueinterview.io/problems/company/xai) |
-| [Ebay](../companies/ebay.md) | 30 | [ebay](https://trueinterview.io/problems/company/ebay) |
-| [Robinhood](../companies/robinhood.md) | 30 | [robinhood](https://trueinterview.io/problems/company/robinhood) |
-| [Lyft](../companies/lyft.md) | 28 | [lyft](https://trueinterview.io/problems/company/lyft) |
-| [Tesla](../companies/tesla.md) | 28 | [tesla](https://trueinterview.io/problems/company/tesla) |
-| [Walmart Labs](../companies/walmart-labs.md) | 28 | [walmart-labs](https://trueinterview.io/problems/company/walmart-labs) |
-| [Akuna Capital](../companies/akuna-capital.md) | 27 | [akuna-capital](https://trueinterview.io/problems/company/akuna-capital) |
-| [SoFi](../companies/sofi.md) | 27 | [sofi](https://trueinterview.io/problems/company/sofi) |
-| [NVIDIA](../companies/nvidia.md) | 26 | [nvidia](https://trueinterview.io/problems/company/nvidia) |
-| [Reddit](../companies/reddit.md) | 26 | [reddit](https://trueinterview.io/problems/company/reddit) |
-| [Rippling](../companies/rippling.md) | 26 | [rippling](https://trueinterview.io/problems/company/rippling) |
-| [Expedia](../companies/expedia.md) | 25 | [expedia](https://trueinterview.io/problems/company/expedia) |
-| [Instacart](../companies/instacart.md) | 24 | [instacart](https://trueinterview.io/problems/company/instacart) |
-| [Verkada](../companies/verkada.md) | 24 | [verkada](https://trueinterview.io/problems/company/verkada) |
-| [Ramp](../companies/ramp.md) | 23 | [ramp](https://trueinterview.io/problems/company/ramp) |
-| [Perplexity](../companies/perplexity.md) | 22 | [perplexity](https://trueinterview.io/problems/company/perplexity) |
-| [Two Sigma](../companies/two-sigma.md) | 22 | [two-sigma](https://trueinterview.io/problems/company/two-sigma) |
-| [Goldman Sachs](../companies/goldman-sachs.md) | 21 | [goldman-sachs](https://trueinterview.io/problems/company/goldman-sachs) |
-| [Datadog](../companies/datadog.md) | 20 | [datadog](https://trueinterview.io/problems/company/datadog) |
-| [Weride](../companies/weride.md) | 20 | [weride](https://trueinterview.io/problems/company/weride) |
-| [IBM](../companies/ibm.md) | 19 | [ibm](https://trueinterview.io/problems/company/ibm) |
-| [Pinduoduo](../companies/pinduoduo.md) | 19 | [pinduoduo](https://trueinterview.io/problems/company/pinduoduo) |
-| [Cisco](../companies/cisco.md) | 18 | [cisco](https://trueinterview.io/problems/company/cisco) |
-| [Figma](../companies/figma.md) | 18 | [figma](https://trueinterview.io/problems/company/figma) |
-| [Optiver](../companies/optiver.md) | 18 | [optiver](https://trueinterview.io/problems/company/optiver) |
-| [Squarepoint](../companies/squarepoint.md) | 18 | [squarepoint](https://trueinterview.io/problems/company/squarepoint) |
-| [Applied Intuition](../companies/applied-intuition.md) | 17 | [applied-intuition](https://trueinterview.io/problems/company/applied-intuition) |
-| [Confluent](../companies/confluent.md) | 17 | [confluent](https://trueinterview.io/problems/company/confluent) |
-| [PayPal](../companies/paypal.md) | 17 | [paypal](https://trueinterview.io/problems/company/paypal) |
-| [Point72](../companies/point72.md) | 17 | [point72](https://trueinterview.io/problems/company/point72) |
-| [Yelp](../companies/yelp.md) | 17 | [yelp](https://trueinterview.io/problems/company/yelp) |
-| [Hudson River Trading](../companies/hudson-river-trading.md) | 16 | [hudson-river-trading](https://trueinterview.io/problems/company/hudson-river-trading) |
-| [Salesforce](../companies/salesforce.md) | 16 | [salesforce](https://trueinterview.io/problems/company/salesforce) |
-| [Intuit](../companies/intuit.md) | 15 | [intuit](https://trueinterview.io/problems/company/intuit) |
-| [JPMorgan](../companies/jpmorgan.md) | 15 | [jpmorgan](https://trueinterview.io/problems/company/jpmorgan) |
-| [Tradedesk](../companies/tradedesk.md) | 15 | [tradedesk](https://trueinterview.io/problems/company/tradedesk) |
-| [Upstart](../companies/upstart.md) | 15 | [upstart](https://trueinterview.io/problems/company/upstart) |
-| [Visa](../companies/visa.md) | 15 | [visa](https://trueinterview.io/problems/company/visa) |
-| [Affirm](../companies/affirm.md) | 14 | [affirm](https://trueinterview.io/problems/company/affirm) |
-| [Rubrik](../companies/rubrik.md) | 14 | [rubrik](https://trueinterview.io/problems/company/rubrik) |
-| [Shopify](../companies/shopify.md) | 14 | [shopify](https://trueinterview.io/problems/company/shopify) |
-| [Dropbox](../companies/dropbox.md) | 13 | [dropbox](https://trueinterview.io/problems/company/dropbox) |
-| [Harvey](../companies/harvey.md) | 13 | [harvey](https://trueinterview.io/problems/company/harvey) |
-| [Square](../companies/square.md) | 13 | [square](https://trueinterview.io/problems/company/square) |
-| [Vanta](../companies/vanta.md) | 13 | [vanta](https://trueinterview.io/problems/company/vanta) |
-| [Microsoft AI](../companies/microsoft-ai.md) | 12 | [microsoft-ai](https://trueinterview.io/problems/company/microsoft-ai) |
-| [Scale AI](../companies/scale-ai.md) | 12 | [scale-ai](https://trueinterview.io/problems/company/scale-ai) |
-| [Hubspot](../companies/hubspot.md) | 10 | [hubspot](https://trueinterview.io/problems/company/hubspot) |
-| [Okta](../companies/okta.md) | 10 | [okta](https://trueinterview.io/problems/company/okta) |
-| [Whatnot](../companies/whatnot.md) | 7 | [whatnot](https://trueinterview.io/problems/company/whatnot) |
-| [Amplitude](../companies/amplitude.md) | 6 | [amplitude](https://trueinterview.io/problems/company/amplitude) |
-| [Geico](../companies/geico.md) | 6 | [geico](https://trueinterview.io/problems/company/geico) |
-| [Luma AI](../companies/luma-ai.md) | 6 | [luma-ai](https://trueinterview.io/problems/company/luma-ai) |
-| [Mongodb](../companies/mongodb.md) | 6 | [mongodb](https://trueinterview.io/problems/company/mongodb) |
-| [Airtable](../companies/airtable.md) | 5 | [airtable](https://trueinterview.io/problems/company/airtable) |
-| [Arista](../companies/arista.md) | 5 | [arista](https://trueinterview.io/problems/company/arista) |
-| [Block](../companies/block.md) | 5 | [block](https://trueinterview.io/problems/company/block) |
-| [Chicago Trading](../companies/chicago-trading.md) | 5 | [chicago-trading](https://trueinterview.io/problems/company/chicago-trading) |
-| [Circle](../companies/circle.md) | 5 | [circle](https://trueinterview.io/problems/company/circle) |
-| [Lead Bank](../companies/lead-bank.md) | 5 | [lead-bank](https://trueinterview.io/problems/company/lead-bank) |
-| [Okx](../companies/okx.md) | 5 | [okx](https://trueinterview.io/problems/company/okx) |
-| [Palantir](../companies/palantir.md) | 5 | [palantir](https://trueinterview.io/problems/company/palantir) |
-| [Sigmacomputing](../companies/sigmacomputing.md) | 5 | [sigmacomputing](https://trueinterview.io/problems/company/sigmacomputing) |
-| [Stackadapt](../companies/stackadapt.md) | 5 | [stackadapt](https://trueinterview.io/problems/company/stackadapt) |
-| [Voleon](../companies/voleon.md) | 5 | [voleon](https://trueinterview.io/problems/company/voleon) |
-| [Faire](../companies/faire.md) | 4 | [faire](https://trueinterview.io/problems/company/faire) |
-| [Gusto](../companies/gusto.md) | 4 | [gusto](https://trueinterview.io/problems/company/gusto) |
-| [Rokt](../companies/rokt.md) | 4 | [rokt](https://trueinterview.io/problems/company/rokt) |
-| [Bobyard](../companies/bobyard.md) | 3 | [bobyard](https://trueinterview.io/problems/company/bobyard) |
-| [Moveworks](../companies/moveworks.md) | 3 | [moveworks](https://trueinterview.io/problems/company/moveworks) |
-| [Oscar Health](../companies/oscar-health.md) | 3 | [oscar-health](https://trueinterview.io/problems/company/oscar-health) |
-| [Stubhub](../companies/stubhub.md) | 3 | [stubhub](https://trueinterview.io/problems/company/stubhub) |
-| [Brex](../companies/brex.md) | 2 | [brex](https://trueinterview.io/problems/company/brex) |
+## Browse by company type
+
+The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **99 of 99** of the companies here. Guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
+
+🏛️ **[Big Tech](../company-types/big-tech.md)** (23) — [Amazon (232)](amazon.md) · [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Uber (141)](uber.md) · [Microsoft (98)](microsoft.md) · [Apple (90)](apple.md) · [DoorDash (65)](doordash.md) · [Netflix (64)](netflix.md) · [LinkedIn (55)](linkedin.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [eBay (30)](ebay.md) · [Walmart Labs (28)](walmart-labs.md) · [NVIDIA (26)](nvidia.md) · [Expedia (25)](expedia.md) · [Pinduoduo (19)](pinduoduo.md) · [Cisco (18)](cisco.md) · [PayPal (17)](paypal.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Microsoft AI (12)](microsoft-ai.md) · [Block (5)](block.md)
+
+<sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ people. Every company in it also appears under its own sector below.</sub>
+
+🏗️ **[Large tech (1,000–9,999)](../company-types/large-tech.md)** (38) — [Snowflake (88)](snowflake.md) · [OpenAI (87)](openai.md) · [Anthropic (63)](anthropic.md) · [Stripe (61)](stripe.md) · [Pinterest (60)](pinterest.md) · [Roblox (54)](roblox.md) · [Snapchat (49)](snapchat.md) · [Airbnb (48)](airbnb.md) · [Coinbase (45)](coinbase.md) · [xAI (31)](xai.md) · [Robinhood (30)](robinhood.md) · [Lyft (28)](lyft.md) · [SoFi (27)](sofi.md) · [Reddit (26)](reddit.md) · [Rippling (26)](rippling.md) · [Instacart (24)](instacart.md) · [Verkada (24)](verkada.md) · [Ramp (23)](ramp.md) · [Datadog (20)](datadog.md) · [Figma (18)](figma.md) · [Confluent (17)](confluent.md) · [Yelp (17)](yelp.md) · [Tradedesk (15)](tradedesk.md) · [Upstart (15)](upstart.md) · [Affirm (14)](affirm.md) · [Rubrik (14)](rubrik.md) · [Shopify (14)](shopify.md) · [Dropbox (13)](dropbox.md) · [Scale AI (12)](scale-ai.md) · [HubSpot (10)](hubspot.md) · [Okta (10)](okta.md) · [MongoDB (6)](mongodb.md) · [Arista (5)](arista.md) · [OKX (5)](okx.md) · [Palantir (5)](palantir.md) · [Gusto (4)](gusto.md) · [Stubhub (3)](stubhub.md) · [Brex (2)](brex.md)
+
+🏤 **[Mid-sized tech (200–999)](../company-types/mid-size-tech.md)** (9) — [Perplexity (22)](perplexity.md) · [Harvey (13)](harvey.md) · [Vanta (13)](vanta.md) · [Whatnot (7)](whatnot.md) · [Amplitude (6)](amplitude.md) · [Airtable (5)](airtable.md) · [Sigmacomputing (5)](sigmacomputing.md) · [Rokt (4)](rokt.md) · [Moveworks (3)](moveworks.md)
+
+🌱 **[Startups (under 200)](../company-types/startups.md)** (2) — [Luma AI (6)](luma-ai.md) · [Bobyard (3)](bobyard.md)
+
+🧠 **[AI labs & AI infrastructure](../company-types/ai.md)** (9) — [OpenAI (87)](openai.md) · [Anthropic (63)](anthropic.md) · [xAI (31)](xai.md) · [Perplexity (22)](perplexity.md) · [Harvey (13)](harvey.md) · [Microsoft AI (12)](microsoft-ai.md) · [Scale AI (12)](scale-ai.md) · [Luma AI (6)](luma-ai.md) · [Moveworks (3)](moveworks.md)
+
+📱 **[Consumer internet & media](../company-types/consumer-internet.md)** (9) — [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Netflix (64)](netflix.md) · [Pinterest (60)](pinterest.md) · [LinkedIn (55)](linkedin.md) · [Snapchat (49)](snapchat.md) · [Reddit (26)](reddit.md) · [Yelp (17)](yelp.md)
+
+🛒 **[E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)** (14) — [Amazon (232)](amazon.md) · [Uber (141)](uber.md) · [DoorDash (65)](doordash.md) · [Airbnb (48)](airbnb.md) · [eBay (30)](ebay.md) · [Lyft (28)](lyft.md) · [Walmart Labs (28)](walmart-labs.md) · [Expedia (25)](expedia.md) · [Instacart (24)](instacart.md) · [Pinduoduo (19)](pinduoduo.md) · [Shopify (14)](shopify.md) · [Whatnot (7)](whatnot.md) · [Faire (4)](faire.md) · [Stubhub (3)](stubhub.md)
+
+☁️ **[Developer tools, cloud & data infrastructure](../company-types/dev-infra.md)** (6) — [Snowflake (88)](snowflake.md) · [Databricks (54)](databricks.md) · [Datadog (20)](datadog.md) · [Confluent (17)](confluent.md) · [MongoDB (6)](mongodb.md) · [Sigmacomputing (5)](sigmacomputing.md)
+
+🏢 **[Enterprise & business software](../company-types/enterprise-saas.md)** (17) — [Microsoft (98)](microsoft.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [Rippling (26)](rippling.md) · [Figma (18)](figma.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Tradedesk (15)](tradedesk.md) · [Dropbox (13)](dropbox.md) · [HubSpot (10)](hubspot.md) · [Amplitude (6)](amplitude.md) · [Airtable (5)](airtable.md) · [Palantir (5)](palantir.md) · [StackAdapt (5)](stackadapt.md) · [Gusto (4)](gusto.md) · [Rokt (4)](rokt.md) · [Bobyard (3)](bobyard.md)
+
+🔒 **[Cybersecurity](../company-types/security.md)** (4) — [Verkada (24)](verkada.md) · [Rubrik (14)](rubrik.md) · [Vanta (13)](vanta.md) · [Okta (10)](okta.md)
+
+💳 **[Fintech, payments & crypto](../company-types/fintech.md)** (13) — [Stripe (61)](stripe.md) · [Coinbase (45)](coinbase.md) · [Robinhood (30)](robinhood.md) · [SoFi (27)](sofi.md) · [Ramp (23)](ramp.md) · [PayPal (17)](paypal.md) · [Upstart (15)](upstart.md) · [Affirm (14)](affirm.md) · [Square (13)](square.md) · [Block (5)](block.md) · [Circle (5)](circle.md) · [OKX (5)](okx.md) · [Brex (2)](brex.md)
+
+📈 **[Quant trading & hedge funds](../company-types/quant-trading.md)** (9) — [Citadel (32)](citadel.md) · [Akuna Capital (27)](akuna-capital.md) · [Two Sigma (22)](two-sigma.md) · [Optiver (18)](optiver.md) · [Squarepoint (18)](squarepoint.md) · [Point72 (17)](point72.md) · [Hudson River Trading (16)](hudson-river-trading.md) · [Chicago Trading (5)](chicago-trading.md) · [Voleon (5)](voleon.md)
+
+🏦 **[Banks, insurers & asset managers](../company-types/banking-finance.md)** (7) — [Bloomberg (55)](bloomberg.md) · [Capital One (41)](capital-one.md) · [Goldman Sachs (21)](goldman-sachs.md) · [JPMorgan (15)](jpmorgan.md) · [Visa (15)](visa.md) · [GEICO (6)](geico.md) · [Lead Bank (5)](lead-bank.md)
+
+🔬 **[Semiconductors & chips](../company-types/semiconductors.md)** (1) — [NVIDIA (26)](nvidia.md)
+
+🖥️ **[Hardware, devices & networking](../company-types/hardware-devices.md)** (3) — [Apple (90)](apple.md) · [Cisco (18)](cisco.md) · [Arista (5)](arista.md)
+
+🚗 **[Autonomy, automotive & mobility](../company-types/autonomy-mobility.md)** (4) — [Waymo (47)](waymo.md) · [Tesla (28)](tesla.md) · [WeRide (20)](weride.md) · [Applied Intuition (17)](applied-intuition.md)
+
+🎮 **[Gaming & interactive](../company-types/gaming.md)** (1) — [Roblox (54)](roblox.md)
+
+🧬 **Health, biotech & medical devices** (1) — [Oscar Health (3)](oscar-health.md)
+
+🧾 **[IT services & consulting](../company-types/it-consulting.md)** (1) — [IBM (19)](ibm.md)
+
+## Every company
+
+| Company | Type | Questions | Guides | Last 90d | Last reported | Free |
+| :-- | :-- | --: | --: | --: | :-- | --: |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 17 | 49 | Sep 10, 2026 | 28 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 168 | 16 | 11 | Aug 16, 2026 | 21 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 144 | 16 | 22 | Sep 10, 2026 | 18 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 141 | 10 | 15 | Aug 13, 2026 | 21 |
+| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 141 | 6 | 4 | Jul 01, 2026 | 24 |
+| [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 98 | 11 | 4 | Jul 29, 2026 | 19 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 90 | 9 | 7 | Aug 13, 2026 | 21 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 88 | 3 | 6 | Aug 13, 2026 | 12 |
+| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 87 | 11 | 1 | Jul 15, 2026 | 11 |
+| [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 65 | 5 | 2 | Jul 02, 2026 | 4 |
+| [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 64 | 6 | 0 | Jun 15, 2026 | 11 |
+| [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 63 | 9 | 0 | Jun 21, 2026 | 7 |
+| [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 61 | 2 | 2 | Jul 22, 2026 | 5 |
+| [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 60 | 6 | 3 | Jul 23, 2026 | 5 |
+| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 55 | 3 | 3 | Jul 22, 2026 | 11 |
+| [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 55 | 5 | 2 | Jul 29, 2026 | 6 |
+| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 54 | 3 | 2 | Jun 29, 2026 | 10 |
+| [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 54 | 6 | 1 | Jun 29, 2026 | 9 |
+| [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 49 | 6 | 1 | Jul 22, 2026 | 11 |
+| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 48 | 6 | 4 | Jul 22, 2026 | 4 |
+| [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 47 | 3 | 3 | Jul 09, 2026 | 2 |
+| [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 45 | 5 | 0 | Jun 15, 2026 | 9 |
+| [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 41 | 13 | 0 | Jun 05, 2026 | 3 |
+| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 41 | 3 | 1 | Aug 13, 2026 | 3 |
+| [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 39 | 4 | 0 | Apr 21, 2026 | 9 |
+| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 32 | 11 | 0 | Jun 13, 2026 | 5 |
+| [xAI](xai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 31 | 6 | 1 | Jul 22, 2026 | 5 |
+| [eBay](ebay.md) | E-commerce & marketplaces · 10,000+ people | 30 | 1 | 0 | Jun 17, 2026 | 4 |
+| [Robinhood](robinhood.md) | Fintech, payments & crypto · 1,000–9,999 people | 30 | 6 | 0 | May 09, 2026 | 6 |
+| [Lyft](lyft.md) | E-commerce & marketplaces · 1,000–9,999 people | 28 | 3 | 3 | Jul 29, 2026 | 7 |
+| [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 28 | 5 | 0 | Jun 03, 2026 | 3 |
+| [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 28 | 3 | 3 | Jul 07, 2026 | 2 |
+| [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 27 | 6 | 1 | Jul 29, 2026 | 2 |
+| [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 2 | 1 | Jul 04, 2026 | 3 |
+| [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 26 | 7 | 3 | Jul 03, 2026 | 5 |
+| [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 1 | Jun 23, 2026 | 5 |
+| [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 26 | 4 | 2 | Jun 28, 2026 | 5 |
+| [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 1 | Jun 28, 2026 | 3 |
+| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 24 | 1 | 2 | Jun 24, 2026 | 3 |
+| [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 24 | 1 | 0 | Jun 17, 2026 | 3 |
+| [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 23 | 2 | 1 | Jun 26, 2026 | 6 |
+| [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 22 | 6 | 0 | Jun 15, 2026 | 3 |
+| [Two Sigma](two-sigma.md) | Quant trading & hedge funds · 1,000–9,999 people | 22 | 6 | 1 | Jul 29, 2026 | 3 |
+| [Goldman Sachs](goldman-sachs.md) | Banks, insurers & asset managers · 10,000+ people | 21 | 10 | 1 | Jul 06, 2026 | 4 |
+| [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 20 | 1 | 0 | Mar 23, 2026 | 3 |
+| [WeRide](weride.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 20 | 1 | 1 | Jul 29, 2026 | 3 |
+| [IBM](ibm.md) | IT services & consulting · 10,000+ people | 19 | 3 | 0 | May 30, 2026 | 2 |
+| [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 19 | 3 | 3 | Jul 30, 2026 | 3 |
+| [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 18 | 1 | 0 | Jun 16, 2026 | 2 |
+| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 18 | 3 | 8 | Aug 12, 2026 | 2 |
+| [Optiver](optiver.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 13 | 0 | Jun 15, 2026 | 2 |
+| [Squarepoint](squarepoint.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 1 | 0 | May 23, 2026 | 3 |
+| [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 17 | 1 | 0 | Apr 28, 2026 | 2 |
+| [Confluent](confluent.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 17 | 1 | 0 | Jan 14, 2026 | 2 |
+| [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 3 |
+| [Point72](point72.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 3 | Jul 29, 2026 | 2 |
+| [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 17 | — | 0 | Apr 12, 2026 | 2 |
+| [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 16 | 1 | 0 | May 01, 2026 | 2 |
+| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 16 | 2 | 2 | Jul 26, 2026 | 2 |
+| [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 15 | 3 | 2 | Jun 28, 2026 | 2 |
+| [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 3 | 4 | Jun 23, 2026 | 2 |
+| [Tradedesk](tradedesk.md) | Enterprise & business software · 1,000–9,999 people | 15 | 1 | 0 | Apr 01, 2026 | 2 |
+| [Upstart](upstart.md) | Fintech, payments & crypto · 1,000–9,999 people | 15 | 1 | — | — | 2 |
+| [Visa](visa.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 1 | — | — | 2 |
+| [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 14 | — | 4 | Aug 12, 2026 | 2 |
+| [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 14 | 1 | — | — | 2 |
+| [Shopify](shopify.md) | E-commerce & marketplaces · 1,000–9,999 people | 14 | 3 | 0 | Jun 15, 2026 | 2 |
+| [Dropbox](dropbox.md) | Enterprise & business software · 1,000–9,999 people | 13 | 1 | — | — | 2 |
+| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 13 | 2 | 4 | Aug 09, 2026 | 2 |
+| [Square](square.md) | Fintech, payments & crypto | 13 | — | 0 | Jun 17, 2026 | 2 |
+| [Vanta](vanta.md) | Cybersecurity · 200–999 people | 13 | 2 | 3 | Jul 16, 2026 | 2 |
+| [Microsoft AI](microsoft-ai.md) | AI labs & AI infrastructure · 10,000+ people | 12 | — | 2 | Jul 29, 2026 | 2 |
+| [Scale AI](scale-ai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 12 | 6 | 0 | Jun 16, 2026 | 2 |
+| [HubSpot](hubspot.md) | Enterprise & business software · 1,000–9,999 people | 10 | — | 0 | Feb 01, 2026 | 4 |
+| [Okta](okta.md) | Cybersecurity · 1,000–9,999 people | 10 | 2 | 3 | Jun 24, 2026 | 2 |
+| [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 7 | — | 0 | Jun 12, 2026 | 2 |
+| [Amplitude](amplitude.md) | Enterprise & business software · 200–999 people | 6 | 1 | 0 | Oct 02, 2025 | 2 |
+| [GEICO](geico.md) | Banks, insurers & asset managers · 10,000+ people | 6 | 1 | 0 | Apr 02, 2026 | 2 |
+| [Luma AI](luma-ai.md) | AI labs & AI infrastructure · Under 200 people | 6 | 1 | 0 | Jan 05, 2026 | 2 |
+| [MongoDB](mongodb.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 6 | 1 | — | — | 2 |
+| [Airtable](airtable.md) | Enterprise & business software · 200–999 people | 5 | — | — | — | 2 |
+| [Arista](arista.md) | Hardware, devices & networking · 1,000–9,999 people | 5 | 1 | — | — | 2 |
+| [Block](block.md) | Fintech, payments & crypto · 10,000+ people | 5 | — | — | — | 2 |
+| [Chicago Trading](chicago-trading.md) | Quant trading & hedge funds · 200–999 people | 5 | 1 | — | — | 2 |
+| [Circle](circle.md) | Fintech, payments & crypto | 5 | 1 | — | — | 2 |
+| [Lead Bank](lead-bank.md) | Banks, insurers & asset managers | 5 | 1 | — | — | 2 |
+| [OKX](okx.md) | Fintech, payments & crypto · 1,000–9,999 people | 5 | — | — | — | 2 |
+| [Palantir](palantir.md) | Enterprise & business software · 1,000–9,999 people | 5 | 1 | — | — | 2 |
+| [Sigmacomputing](sigmacomputing.md) | Developer tools, cloud & data infrastructure · 200–999 people | 5 | 1 | — | — | 2 |
+| [StackAdapt](stackadapt.md) | Enterprise & business software | 5 | — | — | — | 2 |
+| [Voleon](voleon.md) | Quant trading & hedge funds | 5 | — | 0 | Oct 26, 2024 | 2 |
+| [Faire](faire.md) | E-commerce & marketplaces | 4 | — | — | — | 2 |
+| [Gusto](gusto.md) | Enterprise & business software · 1,000–9,999 people | 4 | — | 0 | Mar 20, 2026 | 2 |
+| [Rokt](rokt.md) | Enterprise & business software · 200–999 people | 4 | — | — | — | 2 |
+| [Bobyard](bobyard.md) | Enterprise & business software · Under 200 people | 3 | — | 1 | Aug 13, 2026 | 2 |
+| [Moveworks](moveworks.md) | AI labs & AI infrastructure · 200–999 people | 3 | — | — | — | 2 |
+| [Oscar Health](oscar-health.md) | Health, biotech & medical devices · 1,000–9,999 people | 3 | — | — | — | 2 |
+| [Stubhub](stubhub.md) | E-commerce & marketplaces · 1,000–9,999 people | 3 | 1 | — | — | 2 |
+| [Brex](brex.md) | Fintech, payments & crypto · 1,000–9,999 people | 2 | 1 | — | — | 2 |
+
+<sub>*Last 90d* and *Last reported* are `—` where none of that company's questions carries a sighting date at all: unmeasured, which is not the same as quiet.</sub>
