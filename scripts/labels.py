@@ -24,10 +24,15 @@ from __future__ import annotations
 import re
 
 # Tokens that stay uppercase when title-casing a slug we have no label for.
+# Kept equal to the `ACRONYMS` set in the job lists' `lib/companies.mjs`: the
+# two tables only agree about an employer's name while they agree about this.
+# Casing never moves a slug, so an entry here is safe in a way a word break is
+# not — see the note on COMPANY_LABELS below.
 ACRONYMS = frozenset(
     {
         "ai", "ml", "ui", "ux", "ios", "qa", "sre", "api", "sde", "swe",
-        "llm", "nlp", "hr", "it", "pm", "tpm", "em",
+        "llm", "nlp", "hr", "it", "pm", "tpm", "em", "hp", "ibm", "kla",
+        "amd", "nxp", "gm", "ge", "bmw", "sap", "usa", "uk",
     }
 )
 

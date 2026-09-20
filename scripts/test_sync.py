@@ -35,7 +35,7 @@ from build import (  # noqa: E402
 )
 from catalog import CatalogError, load_catalog, parse_catalog_date, question_from_payload  # noqa: E402
 from insights import compute as compute_insights  # noqa: E402
-from labels import COMPANY_LABELS, company_key, company_label  # noqa: E402
+from labels import ACRONYMS, COMPANY_LABELS, company_key, company_label  # noqa: E402
 from render import (  # noqa: E402
     PAGE_MAX_BYTES,
     README_MAX_BYTES,
@@ -1134,6 +1134,18 @@ class TestCompanyLabelAliases(unittest.TestCase):
             self.assertEqual(
                 company_key(stored), company_key(label), f"{stored!r} → {label!r} moves the page"
             )
+
+    def test_an_acronym_never_moves_a_slug(self):
+        # The safety argument for keeping ACRONYMS equal to the job lists' own
+        # set: an entry there only ever changes CASE, and `company_key` lowers
+        # everything before slugging. So widening that table can never move a
+        # company's page, which is what makes it a free parity edit and a word
+        # break in COMPANY_LABELS a deliberate one.
+        for token in ACRONYMS:
+            for stored in (token, f"{token}-research", f"acme-{token}"):
+                self.assertEqual(
+                    company_key(stored), stored, f"{stored!r} moved when {token!r} was uppercased"
+                )
 
     def test_the_bank_renders_no_obviously_mangled_capitalisation(self):
         # Not a rule a machine can settle in general, so it is pinned to the
