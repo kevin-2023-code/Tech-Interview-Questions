@@ -14,7 +14,7 @@ The same registry, with the same keys, lives in the two job-list repositories
 (``lib/company-registry.mjs``). A company's sector must not depend on which
 repository you read it in.
 
-1,103 employers, 1,099 with a sector and 781 with a headcount band.
+1,099 employers, 1,095 with a sector and 780 with a headcount band.
 """
 
 from __future__ import annotations
@@ -54,7 +54,7 @@ COMPANY_SEGMENTS: dict[str, dict[str, str | None]] = {
     "airbnb": {"sector": "ecommerce-marketplace", "size": "large"},
     "airtable": {"sector": "enterprise-saas", "size": "mid"},
     "airwallex": {"sector": "fintech", "size": "large"},
-    "akuna-capital": {"sector": "quant-trading", "size": None},
+    "akuna-capital": {"sector": "quant-trading", "size": "mid"},
     "albireo-energy": {"sector": "energy-industrial", "size": None},
     "alertmedia": {"sector": "enterprise-saas", "size": "mid"},
     "algaecal": {"sector": None, "size": "startup"},
@@ -204,7 +204,6 @@ COMPANY_SEGMENTS: dict[str, dict[str, str | None]] = {
     "checkout-com": {"sector": "fintech", "size": "large"},
     "checkr": {"sector": "enterprise-saas", "size": None},
     "chicago-trading": {"sector": "quant-trading", "size": "mid"},
-    "chicagotrading": {"sector": "quant-trading", "size": "mid"},
     "chime": {"sector": "fintech", "size": "large"},
     "ci-and-t": {"sector": "it-consulting", "size": "large"},
     "cibc": {"sector": "banking-finance", "size": "mega"},
@@ -840,7 +839,6 @@ COMPANY_SEGMENTS: dict[str, dict[str, str | None]] = {
     "rogo": {"sector": "ai", "size": "startup"},
     "rokt": {"sector": "enterprise-saas", "size": "mid"},
     "roku": {"sector": "consumer-internet", "size": "large"},
-    "roshal-health": {"sector": "health-bio", "size": None},
     "rover": {"sector": "ecommerce-marketplace", "size": None},
     "rubrik": {"sector": "security", "size": "large"},
     "rundoo": {"sector": "enterprise-saas", "size": "startup"},
@@ -1039,7 +1037,6 @@ COMPANY_SEGMENTS: dict[str, dict[str, str | None]] = {
     "valdes-architecture-and-engineering": {"sector": "engineering-services", "size": None},
     "valmont-industries-inc": {"sector": "energy-industrial", "size": "mega"},
     "valon": {"sector": "fintech", "size": None},
-    "valon-mortgage": {"sector": "fintech", "size": None},
     "valtech": {"sector": "it-consulting", "size": "large"},
     "vanta": {"sector": "security", "size": "mid"},
     "vapi": {"sector": "ai", "size": "startup"},
@@ -1049,7 +1046,6 @@ COMPANY_SEGMENTS: dict[str, dict[str, str | None]] = {
     "vendavo": {"sector": "enterprise-saas", "size": "mid"},
     "vercel": {"sector": "dev-infra", "size": "mid"},
     "verkada": {"sector": "security", "size": "large"},
-    "verkada-inc": {"sector": "security", "size": "large"},
     "versa-networks": {"sector": "security", "size": None},
     "veson-nautical": {"sector": "enterprise-saas", "size": "mid"},
     "vetsez": {"sector": "it-consulting", "size": None},

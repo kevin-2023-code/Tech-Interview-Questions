@@ -66,7 +66,11 @@ SECTORS: tuple[Sector, ...] = (
     Sector("energy-industrial", "⚡", "Energy, climate & industrial", False),
     Sector("engineering-services", "📐", "Engineering & architecture firms", False),
     Sector("it-consulting", "🧾", "IT services & consulting", False),
-    Sector("public-research", "🏛️", "Government, labs & universities", False),
+    # Named for what it actually holds: the old label read as *research* over a
+    # homelessness charity, while a non-profit school chain sat in Other
+    # industries — two charities, two sectors, and a reader sees that as
+    # arbitrary.
+    Sector("public-research", "🏛️", "Government, research & non-profits", False),
     Sector("other-industry", "💼", "Other industries", False),
 )
 

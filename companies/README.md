@@ -80,7 +80,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Lyft](lyft.md) | E-commerce & marketplaces · 1,000–9,999 people | 28 | 3 | 3 | Jul 29, 2026 | 7 |
 | [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 28 | 5 | 0 | Jun 03, 2026 | 3 |
 | [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 28 | 3 | 3 | Jul 07, 2026 | 2 |
-| [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds | 27 | 6 | 1 | Jul 29, 2026 | 2 |
+| [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 27 | 6 | 1 | Jul 29, 2026 | 2 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 2 | 1 | Jul 04, 2026 | 3 |
 | [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 26 | 7 | 3 | Jul 03, 2026 | 5 |
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 1 | Jun 23, 2026 | 5 |
