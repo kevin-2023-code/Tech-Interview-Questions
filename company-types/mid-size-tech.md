@@ -42,11 +42,13 @@ Of the **26 questions in this cut that carry a topic label** (39% of it):
 | `intervals` | 2 | 8% | ███ |
 | `sorting` | 2 | 8% | ███ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **7 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Harvey | Algorithm | Aug 09, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |

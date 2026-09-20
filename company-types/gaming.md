@@ -42,11 +42,13 @@ Of the **20 questions in this cut that carry a topic label** (37% of it):
 | `strings` | 2 | 10% | ██████ |
 | `tries` | 2 | 10% | ██████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **1 sighting** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Roblox | Algorithm | Jun 29, 2026 |
 

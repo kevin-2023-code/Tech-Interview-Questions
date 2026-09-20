@@ -43,11 +43,13 @@ Of the **337 questions in this cut that carry a topic label** (39% of it):
 | `sorting` | 20 | 6% | ███ |
 | `stack` | 20 | 6% | ███ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **44 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Snowflake | SQL | Aug 13, 2026 |
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
@@ -61,6 +63,8 @@ Of the **337 questions in this cut that carry a topic label** (39% of it):
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Figma | System Design | Aug 04, 2026 |
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Affirm | Algorithm | Aug 01, 2026 |
 | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Lyft | Algorithm | Jul 29, 2026 |
+
+<sub>32 more in this window are in the table below.</sub>
 
 ---
 

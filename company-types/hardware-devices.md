@@ -43,16 +43,18 @@ Of the **58 questions in this cut that carry a topic label** (52% of it):
 | `dynamic-programming` | 4 | 7% | ████ |
 | `greedy` | 4 | 7% | ████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **7 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Apple | SQL | Aug 13, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft, Amazon, Apple … | Algorithm | Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Apple … | Algorithm | Jul 29, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Apple | SQL | Jul 26, 2026 |
-| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Apple, Amazon, Bloomberg … | Algorithm | Jun 28, 2026 |
+| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Apple … | Algorithm | Jun 28, 2026 |
 | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Apple | Low-Level Design | Jun 28, 2026 |
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | Apple | System Design | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Apple | Algorithm | Jun 24, 2026 |

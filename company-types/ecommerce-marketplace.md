@@ -43,13 +43,15 @@ Of the **255 questions in this cut that carry a topic label** (44% of it):
 | `intervals` | 15 | 6% | ████ |
 | `sliding-window` | 15 | 6% | ████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **69 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Amazon, ByteDance | Algorithm | Sep 10, 2026 |
+| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Amazon … | Algorithm | Sep 10, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Amazon | Algorithm | Sep 05, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Amazon | Algorithm | Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Low-Level Design | Sep 01, 2026 |
@@ -61,6 +63,8 @@ Of the **255 questions in this cut that carry a topic label** (44% of it):
 | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Amazon | Algorithm | Aug 24, 2026 |
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Amazon | Algorithm | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Amazon | Algorithm | Aug 22, 2026 |
+
+<sub>57 more in this window are in the table below.</sub>
 
 ---
 

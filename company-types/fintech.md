@@ -43,11 +43,13 @@ Of the **102 questions in this cut that carry a topic label** (41% of it):
 | `matrix` | 5 | 5% | ██ |
 | `math` | 4 | 4% | █ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **8 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Affirm | Algorithm | Aug 12, 2026 |
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Affirm | Algorithm | Aug 07, 2026 |
@@ -55,7 +57,7 @@ Of the **102 questions in this cut that carry a topic label** (41% of it):
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Affirm | Algorithm | Aug 01, 2026 |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | Stripe | SQL | Jul 22, 2026 |
 | [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | SoFi | Algorithm | Jul 04, 2026 |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Databricks, Google, Ramp | Low-Level Design | Jun 26, 2026 |
+| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Ramp … | Low-Level Design | Jun 26, 2026 |
 | [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Stripe | Algorithm | Jun 24, 2026 |
 
 ---

@@ -41,11 +41,13 @@ Of the **32 questions in this cut that carry a topic label** (52% of it):
 | `binary-search` | 2 | 6% | ███ |
 | `bit-manipulation` | 2 | 6% | ███ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **6 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |

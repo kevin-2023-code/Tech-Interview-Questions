@@ -423,6 +423,7 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                     note=cut["note"],
                     companies=cut["companies"],
                     questions=cut["questions"],
+                    api_labels=api_labels,
                     today=today,
                 ),
             )

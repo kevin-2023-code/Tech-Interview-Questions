@@ -43,15 +43,17 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | `backtracking` | 5 | 8% | █████ |
 | `tries` | 5 | 8% | █████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **8 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Harvey | Algorithm | Aug 09, 2026 |
-| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Microsoft AI, Microsoft | Algorithm | Jul 29, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft, Amazon, Apple … | Algorithm | Jul 29, 2026 |
+| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Microsoft AI … | Algorithm | Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft AI … | Algorithm | Jul 29, 2026 |
 | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | xAI | SQL | Jul 22, 2026 |
 | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | OpenAI | Low-Level Design | Jul 15, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Harvey | System Design | Jul 07, 2026 |

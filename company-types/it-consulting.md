@@ -40,6 +40,8 @@ Of the **16 questions in this cut that carry a topic label** (84% of it):
 | `graphs` | 1 | 6% | ███ |
 | `math` | 1 | 6% | ███ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **Nothing in this cut has been reported in the window.** The most recent sighting across these employers is May 30, 2026. That is a statement about what candidates have reported, not about whether these companies are interviewing.

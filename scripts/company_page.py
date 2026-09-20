@@ -41,7 +41,7 @@ from typing import Iterable, Sequence
 
 from catalog import Experience, Guide, Question
 from insights import DIFFICULTIES, ROUND_LABELS, ROUND_ORDER, WINDOW_DAYS
-from labels import company_label, difficulty_label, format_label
+from labels import company_key, company_label, difficulty_label, format_label
 from render import (
     MONTH_NAMES,
     bar,
@@ -466,15 +466,33 @@ def _reports(name: str, experiences: Sequence[Experience], total: int | None, to
 # and what Optiver asks and had no way to say what the nine of them ask.
 
 
+def _cut_companies(question: Question, company_keys: frozenset[str], api_labels: dict[str, str]) -> str:
+    """The employers on this row that are IN this cut, then the rest.
+
+    `q.companies[:3]` was the question's whole list, unordered with respect to
+    the cut, so a row on the quant page could name Microsoft, Amazon and Apple
+    and none of the quant firms that put it there — on a page whose entire
+    promise is what THIS kind of company asks.
+    """
+    inside = [c for c in question.companies if company_key(c, api_labels) in company_keys]
+    outside = [c for c in question.companies if company_key(c, api_labels) not in company_keys]
+    named = inside[:3]
+    cell = ", ".join(escape_cell(company_label(c, api_labels)) for c in named)
+    hidden = len(inside) - len(named) + len(outside)
+    return (cell or "—") + (" …" if hidden else "")
+
+
 def company_type_preamble(
     *,
     title: str,
     note: str,
     companies: Sequence[tuple[str, str, int]],
     questions: Sequence[Question],
+    api_labels: dict[str, str],
     today: date,
 ) -> str:
     """Everything above the question table on a company-type page."""
+    company_keys = frozenset(key for key, _, _ in companies)
     dated = _dated(questions, today)
     window = _in_window(questions, today, WINDOW_DAYS)
     formats = _counter(q.type for q in questions)
@@ -534,23 +552,29 @@ def company_type_preamble(
                 ],
             ),
             "",
+            # The same caveat the company page carries. Without it the column
+            # visibly sums past 100% and the page looks like it cannot add up,
+            # when what is actually true is that a question has two topics.
+            "<sub>A question can carry more than one topic, so this column sums to more than the number "
+            "of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>",
+            "",
         ]
 
     if window:
         recent = sorted(window, key=lambda q: (-q.reported_date.toordinal(), q.slug))[:RECENT_ROWS]
+        more = len(window) - len(recent)
         body += [
             f"## Asked here in the last {WINDOW_DAYS} days",
             "",
             f"**{plural(len(window), 'sighting')}** across this cut. Newest first.",
             "",
             table(
-                ["Question", "Company", "Format", "Reported"],
+                ["Question", "In this cut", "Format", "Reported"],
                 [":--", ":--", ":--", ":--"],
                 [
                     [
                         question_link(q),
-                        ", ".join(escape_cell(company_label(c)) for c in q.companies[:3])
-                        + (" …" if len(q.companies) > 3 else ""),
+                        _cut_companies(q, company_keys, api_labels),
                         format_label(q.type),
                         date_label(q.reported_date, month_only=q.reported_is_month_only),
                     ]
@@ -558,6 +582,10 @@ def company_type_preamble(
                 ],
             ),
             "",
+            # The same note the company page carries under the same table. A
+            # sentence promising 115 sightings over a table of 12, with nothing
+            # saying so, is a page a reader can count and catch out.
+            *([f"<sub>{more:,} more in this window are in the table below.</sub>", ""] if more > 0 else []),
         ]
     elif dated:
         body += [

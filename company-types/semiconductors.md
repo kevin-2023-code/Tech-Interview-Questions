@@ -43,11 +43,13 @@ Of the **11 questions in this cut that carry a topic label** (42% of it):
 | `matrix` | 1 | 9% | ██████ |
 | `sliding-window` | 1 | 9% | ██████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **3 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | NVIDIA | System Design | Jul 03, 2026 |
 | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | NVIDIA | System Design | Jul 03, 2026 |

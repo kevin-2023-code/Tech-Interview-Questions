@@ -43,13 +43,15 @@ Of the **139 questions in this cut that carry a topic label** (45% of it):
 | `trees` | 9 | 6% | ████ |
 | `backtracking` | 8 | 6% | ████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **20 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | ByteDance, Bobyard | Algorithm | Aug 13, 2026 |
+| [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Bobyard … | Algorithm | Aug 13, 2026 |
 | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Oracle | SQL | Aug 13, 2026 |
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
 | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Figma | Low-Level Design | Aug 12, 2026 |
@@ -57,10 +59,12 @@ Of the **139 questions in this cut that carry a topic label** (45% of it):
 | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Figma | Algorithm | Aug 12, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Figma | Algorithm | Aug 04, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Figma | System Design | Aug 04, 2026 |
-| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Microsoft AI, Microsoft | Algorithm | Jul 29, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft, Amazon, Apple … | Algorithm | Jul 29, 2026 |
+| [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Microsoft … | Algorithm | Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft … | Algorithm | Jul 29, 2026 |
 | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | Salesforce | SQL | Jul 26, 2026 |
 | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | Microsoft | SQL | Jul 22, 2026 |
+
+<sub>8 more in this window are in the table below.</sub>
 
 ---
 

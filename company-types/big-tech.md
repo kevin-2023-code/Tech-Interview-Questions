@@ -43,11 +43,13 @@ Of the **529 questions in this cut that carry a topic label** (47% of it):
 | `backtracking` | 33 | 6% | ████ |
 | `sliding-window` | 30 | 6% | ████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **115 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Amazon, ByteDance | Algorithm | Sep 10, 2026 |
 | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Low-Level Design | Sep 06, 2026 |
@@ -61,6 +63,8 @@ Of the **529 questions in this cut that carry a topic label** (47% of it):
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Amazon | Algorithm | Sep 01, 2026 |
 | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Amazon | Algorithm | Aug 30, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | ByteDance | System Design | Aug 30, 2026 |
+
+<sub>103 more in this window are in the table below.</sub>
 
 ---
 

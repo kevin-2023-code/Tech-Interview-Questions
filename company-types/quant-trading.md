@@ -43,16 +43,18 @@ Of the **69 questions in this cut that carry a topic label** (46% of it):
 | `sorting` | 6 | 9% | ██████ |
 | `trees` | 5 | 7% | █████ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **4 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Point72, Akuna Capital, Google | Algorithm | Jul 29, 2026 |
+| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Point72, Akuna Capital … | Algorithm | Jul 29, 2026 |
 | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Point72 | Algorithm | Jul 29, 2026 |
 | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Point72 | Algorithm | Jul 29, 2026 |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft, Amazon, Apple … | Algorithm | Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Two Sigma … | Algorithm | Jul 29, 2026 |
 
 ---
 

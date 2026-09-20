@@ -43,13 +43,15 @@ Of the **59 questions in this cut that carry a topic label** (54% of it):
 | `stack` | 4 | 7% | ████ |
 | `backtracking` | 3 | 5% | ███ |
 
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
 ## Asked here in the last 90 days
 
 **4 sightings** across this cut. Newest first.
 
-| Question | Company | Format | Reported |
+| Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft, Amazon, Apple … | Algorithm | Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Weride … | Algorithm | Jul 29, 2026 |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Waymo | Algorithm | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Waymo | Algorithm | Jul 06, 2026 |
 | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Waymo | Algorithm | Jul 02, 2026 |
