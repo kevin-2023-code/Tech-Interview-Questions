@@ -8,9 +8,10 @@ The other **983** carry no sighting date. They are in the bank and on every comp
 
 [← Question bank](../README.md)
 
+> **Feb 2126 is a data-entry error upstream, not a forecast.** A month dated after today is listed here, and last, so the error stays visible to the people who can fix it rather than being quietly dropped.
+
 | Month | Questions |
 | :-- | --: |
-| [Feb 2126](2126-02.md) | 1 |
 | [Sep 2026](2026-09.md) | 10 |
 | [Aug 2026](2026-08.md) | 39 |
 | [Jul 2026](2026-07.md) | 72 |
@@ -34,3 +35,4 @@ The other **983** carry no sighting date. They are in the bank and on every comp
 | [Nov 2024](2024-11.md) | 1 |
 | [Oct 2024](2024-10.md) | 1 |
 | [May 2024](2024-05.md) | 1 |
+| [Feb 2126](2126-02.md) | 1 |

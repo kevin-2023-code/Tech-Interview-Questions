@@ -25,7 +25,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import insights as insights_module  # noqa: E402
 import report  # noqa: E402
-from build import (  # noqa: E402
+from build import (
+    SIZE_CUTS,  # noqa: E402
     COMPANY_TYPE_MIN_QUESTIONS,
     build,
     check_budgets,
@@ -244,6 +245,67 @@ class TestMonthPages(unittest.TestCase):
         questions = load_fixture().questions
         undated = sum(1 for q in questions if q.reported_date is None)
         self.assertIn(f"**{undated:,}** carry no sighting date", result.files["by-month/README.md"])
+
+
+    def test_a_future_month_is_listed_last_and_explained(self):
+        # One mistyped upstream date headed the month index, led the landing
+        # page's month row, and EVICTED a real month from that row's twelve
+        # slots — the most valuable ordering in the repository, awarded to
+        # whichever row is most wrong. `render._sort_key` has stated the
+        # three-bucket rule all along; the month index was the one place not
+        # applying it.
+        payload = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        rows = payload["questions"] if "questions" in payload else payload["data"]
+        forward = dict(rows[0])
+        forward["slug"] = "a-mistyped-sighting"
+        forward["reported"] = "2126-02-23"
+        rows.append(forward)
+        result = render(load_catalog(payload))
+
+        index = result.files["by-month/README.md"]
+        months = re.findall(r"^\| \[([^\]]+)\]", index, re.M)
+        self.assertGreater(len(months), 1)
+        self.assertEqual(months[-1], "Feb 2126", "a future month must sort last, never first")
+        self.assertIn("data-entry error upstream, not a forecast", index)
+
+        # And the page itself says which of the two it is.
+        self.assertIn("This month is after today", result.files["by-month/2126-02.md"])
+
+    def test_a_bank_with_no_future_month_prints_no_warning_about_one(self):
+        result = render()
+        self.assertNotIn("data-entry error upstream", result.files["by-month/README.md"])
+        self.assertNotIn("data-entry error upstream", result.files["insights/trends.md"])
+
+
+class TestCompaniesIndex(unittest.TestCase):
+    def test_it_promises_no_section_it_will_not_emit(self):
+        # At full registry coverage the page pointed at a *Not classified*
+        # heading the generator only writes when something is unclassified, so
+        # a reader hunted for a section that was never going to be there.
+        page = render().files["companies/README.md"]
+        if "## Not classified" not in page:
+            self.assertNotIn("*Not classified*", page)
+
+    def test_every_group_heading_reaches_the_page_it_names(self):
+        # This is the index headed "Browse by company type", and it was the one
+        # place in the repository from which "what does Big Tech ask" could not
+        # be reached: the group names were plain bold text.
+        result = render()
+        page = result.files["companies/README.md"]
+        targets = re.findall(r"\]\(\.\./company-types/([a-z0-9-]+)\.md\)", page)
+        self.assertTrue(targets, "no group heading links at a company-type page")
+        for target in targets:
+            self.assertIn(f"company-types/{target}.md", result.files)
+
+    def test_it_carries_every_size_cut_that_has_a_page(self):
+        # Three of the four were on the root README and on
+        # `company-types/README.md` and missing from this one.
+        result = render()
+        page = result.files["companies/README.md"]
+        for identifier, _emoji, title, _sizes, _rule in SIZE_CUTS:
+            if f"company-types/{identifier}.md" not in result.files:
+                continue
+            self.assertIn(title, page, f"{title} has a page but is not on the companies index")
 
 
 class TestLabels(unittest.TestCase):
@@ -1007,6 +1069,15 @@ class TestCompanyPage(unittest.TestCase):
         self.assertIn(f"## {GUIDES_HEADING}", page)
         self.assertIn(f"[{GUIDES_HEADING}](#{anchor(GUIDES_HEADING)})", page)
 
+    def test_the_practise_block_points_at_the_table_it_sits_above(self):
+        # It is emitted directly before the largest section on the page, so a
+        # closing note there reads as the end of the document — and "every
+        # title above" was false, with most of the question links below it.
+        page = _preamble([_question()])
+        self.assertLess(page.index("Practise these on TrueInterview"), page.index("## Every question reported at"))
+        self.assertIn("including every row of the table below", page)
+        self.assertNotIn("Every title above", page)
+
     def test_every_jump_link_lands_on_a_heading_that_exists(self):
         # The one defect on this page nobody reports: a link that silently
         # scrolls to the top because an anchor drifted by one character.
@@ -1029,6 +1100,30 @@ class TestCompanyPage(unittest.TestCase):
         # The count is the claim about the employer; the description is not.
         self.assertIn("**Online assessment**", page)
         self.assertIn("2 of 2", page)
+
+    def test_the_census_line_ties_out_against_the_table_below_it(self):
+        # It counted "dated on or before today" and called the complement
+        # *unmeasured*, which is the UNDATED set — so the one future-dated row
+        # in the bank was reported as carrying no date. The LinkedIn page said
+        # 34/21 where its own table showed 35 dates and 20 dashes.
+        page = _preamble([
+            _question(slug="q-1", reported="2026-08-01"),
+            _question(slug="q-2", reported="2126-02-23"),
+            _question(slug="q-3", reported=None),
+        ])
+        self.assertIn("3 questions reported at Acme. 2 of them carry a sighting date", page)
+        self.assertIn("the other 1 are *unmeasured*", page)
+        # And the third state is named rather than folded into either side.
+        self.assertIn("1 of those is dated after today, so it is in no window", page)
+        # The window cells still exclude it — that part was always right: one
+        # row is inside the window, the 2126 row is in no window at all.
+        self.assertIn("| Reported in the last 90 days | 1 |", page)
+        self.assertIn("| Most recent sighting | Aug 01, 2026 |", page)
+
+    def test_the_census_line_says_nothing_extra_when_every_date_has_happened(self):
+        page = _preamble([_question(reported="2026-08-01"), _question(slug="q-2", reported=None)])
+        self.assertIn("2 questions reported at Acme. 1 of them carry a sighting date;", page)
+        self.assertNotIn("dated after today", page)
 
     def test_an_undated_company_is_unmeasured_rather_than_quiet(self):
         page = _preamble([_question(reported=None)])

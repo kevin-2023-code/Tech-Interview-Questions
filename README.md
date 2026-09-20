@@ -138,7 +138,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 📅 Browse by month reported
 
 <!-- gen:months:start -->
-[Feb 2126 (1)](by-month/2126-02.md) · [Sep 2026 (10)](by-month/2026-09.md) · [Aug 2026 (39)](by-month/2026-08.md) · [Jul 2026 (72)](by-month/2026-07.md) · [Jun 2026 (182)](by-month/2026-06.md) · [May 2026 (203)](by-month/2026-05.md) · [Apr 2026 (168)](by-month/2026-04.md) · [Mar 2026 (127)](by-month/2026-03.md) · [Feb 2026 (126)](by-month/2026-02.md) · [Jan 2026 (147)](by-month/2026-01.md) · [Dec 2025 (67)](by-month/2025-12.md) · [Nov 2025 (76)](by-month/2025-11.md) · [**every month →**](by-month/README.md)
+[Sep 2026 (10)](by-month/2026-09.md) · [Aug 2026 (39)](by-month/2026-08.md) · [Jul 2026 (72)](by-month/2026-07.md) · [Jun 2026 (182)](by-month/2026-06.md) · [May 2026 (203)](by-month/2026-05.md) · [Apr 2026 (168)](by-month/2026-04.md) · [Mar 2026 (127)](by-month/2026-03.md) · [Feb 2026 (126)](by-month/2026-02.md) · [Jan 2026 (147)](by-month/2026-01.md) · [Dec 2025 (67)](by-month/2025-12.md) · [Nov 2025 (76)](by-month/2025-11.md) · [Oct 2025 (39)](by-month/2025-10.md) · [**every month →**](by-month/README.md)
 <!-- gen:months:end -->
 
 ---

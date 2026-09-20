@@ -651,10 +651,21 @@ def trends_page(insights: Insights) -> str:
             ],
         ),
         "",
-        "<sub>A month dated after today is a data-entry error upstream rather than a forecast; it "
-        "is listed here for the same reason it keeps its month page — so the error is visible to "
-        "the people who can fix it.</sub>",
-        "",
+        # Gated on a future MONTH being on this table. Unconditional, it
+        # printed a warning about future months on a bank that has none, which
+        # teaches a reader to skip the notice for the run where it is true.
+        #
+        # NOT gated on `insights.future_dated`: that counts a row dated after
+        # today, which on any ordinary day includes rows later in the CURRENT
+        # month — nine of them in the test fixture. Those are not the error
+        # this sentence describes, and the month they fall in is not a future
+        # month. The claim is about the table, so the test is about the table.
+        *([
+            "<sub>A month dated after today is a data-entry error upstream rather than a forecast; it "
+            "is listed here for the same reason it keeps its month page — so the error is visible to "
+            "the people who can fix it.</sub>",
+            "",
+        ] if any(row.key > insights.today.strftime("%Y-%m") for row in months) else []),
         "## First seen",
         "",
         "The month a company's earliest recorded sighting falls in. A company appearing here is a "

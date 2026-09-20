@@ -91,7 +91,7 @@ What candidates said happened in the room at Voleon — written up by the people
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Voleon on TrueInterview](https://trueinterview.io/problems/company/voleon).
+**Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [Voleon on TrueInterview](https://trueinterview.io/problems/company/voleon).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Quant trading & hedge funds* is one click in from their filter hub.
 

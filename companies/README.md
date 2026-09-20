@@ -8,41 +8,47 @@
 
 ## Browse by company type
 
-The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **99 of 99** of the companies here. An employer it does not cover is under *Not classified* below and in the table like everybody else — guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
+The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **99 of 99** of the companies here. Guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
 
-🏛️ **Big Tech** (23) — [Amazon (232)](amazon.md) · [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Uber (141)](uber.md) · [Microsoft (98)](microsoft.md) · [Apple (90)](apple.md) · [DoorDash (65)](doordash.md) · [Netflix (64)](netflix.md) · [LinkedIn (55)](linkedin.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [eBay (30)](ebay.md) · [Walmart Labs (28)](walmart-labs.md) · [NVIDIA (26)](nvidia.md) · [Expedia (25)](expedia.md) · [Pinduoduo (19)](pinduoduo.md) · [Cisco (18)](cisco.md) · [PayPal (17)](paypal.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Microsoft AI (12)](microsoft-ai.md) · [Block (5)](block.md)
+🏛️ **[Big Tech](../company-types/big-tech.md)** (23) — [Amazon (232)](amazon.md) · [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Uber (141)](uber.md) · [Microsoft (98)](microsoft.md) · [Apple (90)](apple.md) · [DoorDash (65)](doordash.md) · [Netflix (64)](netflix.md) · [LinkedIn (55)](linkedin.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [eBay (30)](ebay.md) · [Walmart Labs (28)](walmart-labs.md) · [NVIDIA (26)](nvidia.md) · [Expedia (25)](expedia.md) · [Pinduoduo (19)](pinduoduo.md) · [Cisco (18)](cisco.md) · [PayPal (17)](paypal.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Microsoft AI (12)](microsoft-ai.md) · [Block (5)](block.md)
 
 <sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ people. Every company in it also appears under its own sector below.</sub>
 
-🧠 **AI labs & AI infrastructure** (9) — [OpenAI (87)](openai.md) · [Anthropic (63)](anthropic.md) · [xAI (31)](xai.md) · [Perplexity (22)](perplexity.md) · [Harvey (13)](harvey.md) · [Microsoft AI (12)](microsoft-ai.md) · [Scale AI (12)](scale-ai.md) · [Luma AI (6)](luma-ai.md) · [Moveworks (3)](moveworks.md)
+🏗️ **[Large tech (1,000–9,999)](../company-types/large-tech.md)** (38) — [Snowflake (88)](snowflake.md) · [OpenAI (87)](openai.md) · [Anthropic (63)](anthropic.md) · [Stripe (61)](stripe.md) · [Pinterest (60)](pinterest.md) · [Roblox (54)](roblox.md) · [Snapchat (49)](snapchat.md) · [Airbnb (48)](airbnb.md) · [Coinbase (45)](coinbase.md) · [xAI (31)](xai.md) · [Robinhood (30)](robinhood.md) · [Lyft (28)](lyft.md) · [SoFi (27)](sofi.md) · [Reddit (26)](reddit.md) · [Rippling (26)](rippling.md) · [Instacart (24)](instacart.md) · [Verkada (24)](verkada.md) · [Ramp (23)](ramp.md) · [Datadog (20)](datadog.md) · [Figma (18)](figma.md) · [Confluent (17)](confluent.md) · [Yelp (17)](yelp.md) · [Tradedesk (15)](tradedesk.md) · [Upstart (15)](upstart.md) · [Affirm (14)](affirm.md) · [Rubrik (14)](rubrik.md) · [Shopify (14)](shopify.md) · [Dropbox (13)](dropbox.md) · [Scale AI (12)](scale-ai.md) · [HubSpot (10)](hubspot.md) · [Okta (10)](okta.md) · [MongoDB (6)](mongodb.md) · [Arista (5)](arista.md) · [OKX (5)](okx.md) · [Palantir (5)](palantir.md) · [Gusto (4)](gusto.md) · [Stubhub (3)](stubhub.md) · [Brex (2)](brex.md)
 
-📱 **Consumer internet & media** (9) — [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Netflix (64)](netflix.md) · [Pinterest (60)](pinterest.md) · [LinkedIn (55)](linkedin.md) · [Snapchat (49)](snapchat.md) · [Reddit (26)](reddit.md) · [Yelp (17)](yelp.md)
+🏤 **[Mid-sized tech (200–999)](../company-types/mid-size-tech.md)** (9) — [Perplexity (22)](perplexity.md) · [Harvey (13)](harvey.md) · [Vanta (13)](vanta.md) · [Whatnot (7)](whatnot.md) · [Amplitude (6)](amplitude.md) · [Airtable (5)](airtable.md) · [Sigmacomputing (5)](sigmacomputing.md) · [Rokt (4)](rokt.md) · [Moveworks (3)](moveworks.md)
 
-🛒 **E-commerce & marketplaces** (14) — [Amazon (232)](amazon.md) · [Uber (141)](uber.md) · [DoorDash (65)](doordash.md) · [Airbnb (48)](airbnb.md) · [eBay (30)](ebay.md) · [Lyft (28)](lyft.md) · [Walmart Labs (28)](walmart-labs.md) · [Expedia (25)](expedia.md) · [Instacart (24)](instacart.md) · [Pinduoduo (19)](pinduoduo.md) · [Shopify (14)](shopify.md) · [Whatnot (7)](whatnot.md) · [Faire (4)](faire.md) · [Stubhub (3)](stubhub.md)
+🌱 **[Startups (under 200)](../company-types/startups.md)** (2) — [Luma AI (6)](luma-ai.md) · [Bobyard (3)](bobyard.md)
 
-☁️ **Developer tools, cloud & data infrastructure** (6) — [Snowflake (88)](snowflake.md) · [Databricks (54)](databricks.md) · [Datadog (20)](datadog.md) · [Confluent (17)](confluent.md) · [MongoDB (6)](mongodb.md) · [Sigmacomputing (5)](sigmacomputing.md)
+🧠 **[AI labs & AI infrastructure](../company-types/ai.md)** (9) — [OpenAI (87)](openai.md) · [Anthropic (63)](anthropic.md) · [xAI (31)](xai.md) · [Perplexity (22)](perplexity.md) · [Harvey (13)](harvey.md) · [Microsoft AI (12)](microsoft-ai.md) · [Scale AI (12)](scale-ai.md) · [Luma AI (6)](luma-ai.md) · [Moveworks (3)](moveworks.md)
 
-🏢 **Enterprise & business software** (17) — [Microsoft (98)](microsoft.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [Rippling (26)](rippling.md) · [Figma (18)](figma.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Tradedesk (15)](tradedesk.md) · [Dropbox (13)](dropbox.md) · [HubSpot (10)](hubspot.md) · [Amplitude (6)](amplitude.md) · [Airtable (5)](airtable.md) · [Palantir (5)](palantir.md) · [StackAdapt (5)](stackadapt.md) · [Gusto (4)](gusto.md) · [Rokt (4)](rokt.md) · [Bobyard (3)](bobyard.md)
+📱 **[Consumer internet & media](../company-types/consumer-internet.md)** (9) — [Meta (168)](meta.md) · [ByteDance (144)](bytedance.md) · [Google (141)](google.md) · [Netflix (64)](netflix.md) · [Pinterest (60)](pinterest.md) · [LinkedIn (55)](linkedin.md) · [Snapchat (49)](snapchat.md) · [Reddit (26)](reddit.md) · [Yelp (17)](yelp.md)
 
-🔒 **Cybersecurity** (4) — [Verkada (24)](verkada.md) · [Rubrik (14)](rubrik.md) · [Vanta (13)](vanta.md) · [Okta (10)](okta.md)
+🛒 **[E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)** (14) — [Amazon (232)](amazon.md) · [Uber (141)](uber.md) · [DoorDash (65)](doordash.md) · [Airbnb (48)](airbnb.md) · [eBay (30)](ebay.md) · [Lyft (28)](lyft.md) · [Walmart Labs (28)](walmart-labs.md) · [Expedia (25)](expedia.md) · [Instacart (24)](instacart.md) · [Pinduoduo (19)](pinduoduo.md) · [Shopify (14)](shopify.md) · [Whatnot (7)](whatnot.md) · [Faire (4)](faire.md) · [Stubhub (3)](stubhub.md)
 
-💳 **Fintech, payments & crypto** (13) — [Stripe (61)](stripe.md) · [Coinbase (45)](coinbase.md) · [Robinhood (30)](robinhood.md) · [SoFi (27)](sofi.md) · [Ramp (23)](ramp.md) · [PayPal (17)](paypal.md) · [Upstart (15)](upstart.md) · [Affirm (14)](affirm.md) · [Square (13)](square.md) · [Block (5)](block.md) · [Circle (5)](circle.md) · [OKX (5)](okx.md) · [Brex (2)](brex.md)
+☁️ **[Developer tools, cloud & data infrastructure](../company-types/dev-infra.md)** (6) — [Snowflake (88)](snowflake.md) · [Databricks (54)](databricks.md) · [Datadog (20)](datadog.md) · [Confluent (17)](confluent.md) · [MongoDB (6)](mongodb.md) · [Sigmacomputing (5)](sigmacomputing.md)
 
-📈 **Quant trading & hedge funds** (9) — [Citadel (32)](citadel.md) · [Akuna Capital (27)](akuna-capital.md) · [Two Sigma (22)](two-sigma.md) · [Optiver (18)](optiver.md) · [Squarepoint (18)](squarepoint.md) · [Point72 (17)](point72.md) · [Hudson River Trading (16)](hudson-river-trading.md) · [Chicago Trading (5)](chicago-trading.md) · [Voleon (5)](voleon.md)
+🏢 **[Enterprise & business software](../company-types/enterprise-saas.md)** (17) — [Microsoft (98)](microsoft.md) · [Oracle (41)](oracle.md) · [Atlassian (39)](atlassian.md) · [Rippling (26)](rippling.md) · [Figma (18)](figma.md) · [Salesforce (16)](salesforce.md) · [Intuit (15)](intuit.md) · [Tradedesk (15)](tradedesk.md) · [Dropbox (13)](dropbox.md) · [HubSpot (10)](hubspot.md) · [Amplitude (6)](amplitude.md) · [Airtable (5)](airtable.md) · [Palantir (5)](palantir.md) · [StackAdapt (5)](stackadapt.md) · [Gusto (4)](gusto.md) · [Rokt (4)](rokt.md) · [Bobyard (3)](bobyard.md)
 
-🏦 **Banks, insurers & asset managers** (7) — [Bloomberg (55)](bloomberg.md) · [Capital One (41)](capital-one.md) · [Goldman Sachs (21)](goldman-sachs.md) · [JPMorgan (15)](jpmorgan.md) · [Visa (15)](visa.md) · [GEICO (6)](geico.md) · [Lead Bank (5)](lead-bank.md)
+🔒 **[Cybersecurity](../company-types/security.md)** (4) — [Verkada (24)](verkada.md) · [Rubrik (14)](rubrik.md) · [Vanta (13)](vanta.md) · [Okta (10)](okta.md)
 
-🔬 **Semiconductors & chips** (1) — [NVIDIA (26)](nvidia.md)
+💳 **[Fintech, payments & crypto](../company-types/fintech.md)** (13) — [Stripe (61)](stripe.md) · [Coinbase (45)](coinbase.md) · [Robinhood (30)](robinhood.md) · [SoFi (27)](sofi.md) · [Ramp (23)](ramp.md) · [PayPal (17)](paypal.md) · [Upstart (15)](upstart.md) · [Affirm (14)](affirm.md) · [Square (13)](square.md) · [Block (5)](block.md) · [Circle (5)](circle.md) · [OKX (5)](okx.md) · [Brex (2)](brex.md)
 
-🖥️ **Hardware, devices & networking** (3) — [Apple (90)](apple.md) · [Cisco (18)](cisco.md) · [Arista (5)](arista.md)
+📈 **[Quant trading & hedge funds](../company-types/quant-trading.md)** (9) — [Citadel (32)](citadel.md) · [Akuna Capital (27)](akuna-capital.md) · [Two Sigma (22)](two-sigma.md) · [Optiver (18)](optiver.md) · [Squarepoint (18)](squarepoint.md) · [Point72 (17)](point72.md) · [Hudson River Trading (16)](hudson-river-trading.md) · [Chicago Trading (5)](chicago-trading.md) · [Voleon (5)](voleon.md)
 
-🚗 **Autonomy, automotive & mobility** (4) — [Waymo (47)](waymo.md) · [Tesla (28)](tesla.md) · [WeRide (20)](weride.md) · [Applied Intuition (17)](applied-intuition.md)
+🏦 **[Banks, insurers & asset managers](../company-types/banking-finance.md)** (7) — [Bloomberg (55)](bloomberg.md) · [Capital One (41)](capital-one.md) · [Goldman Sachs (21)](goldman-sachs.md) · [JPMorgan (15)](jpmorgan.md) · [Visa (15)](visa.md) · [GEICO (6)](geico.md) · [Lead Bank (5)](lead-bank.md)
 
-🎮 **Gaming & interactive** (1) — [Roblox (54)](roblox.md)
+🔬 **[Semiconductors & chips](../company-types/semiconductors.md)** (1) — [NVIDIA (26)](nvidia.md)
+
+🖥️ **[Hardware, devices & networking](../company-types/hardware-devices.md)** (3) — [Apple (90)](apple.md) · [Cisco (18)](cisco.md) · [Arista (5)](arista.md)
+
+🚗 **[Autonomy, automotive & mobility](../company-types/autonomy-mobility.md)** (4) — [Waymo (47)](waymo.md) · [Tesla (28)](tesla.md) · [WeRide (20)](weride.md) · [Applied Intuition (17)](applied-intuition.md)
+
+🎮 **[Gaming & interactive](../company-types/gaming.md)** (1) — [Roblox (54)](roblox.md)
 
 🧬 **Health, biotech & medical devices** (1) — [Oscar Health (3)](oscar-health.md)
 
-🧾 **IT services & consulting** (1) — [IBM (19)](ibm.md)
+🧾 **[IT services & consulting](../company-types/it-consulting.md)** (1) — [IBM (19)](ibm.md)
 
 ## Every company
 

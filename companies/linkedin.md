@@ -22,7 +22,7 @@
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 55 questions reported at LinkedIn. 34 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 55 questions reported at LinkedIn. 35 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -112,7 +112,7 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [LinkedIn on TrueInterview](https://trueinterview.io/problems/company/linkedin).
+**Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [LinkedIn on TrueInterview](https://trueinterview.io/problems/company/linkedin).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Consumer internet & media* is one click in from their filter hub.
 

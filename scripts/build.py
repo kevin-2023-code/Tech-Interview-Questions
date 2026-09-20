@@ -14,7 +14,7 @@ from typing import Sequence
 import report
 from catalog import Catalog, Experience, Guide, Question, parse_catalog_date
 from company_page import company_preamble, company_type_preamble
-from segments import SECTORS, SECTOR_BY_ID, SIZE_LABELS, is_big_tech, segment_of
+from segments import SECTORS, SECTOR_BY_ID, SIZE_LABELS, segment_of
 from insights import compute as compute_insights
 from labels import FORMAT_ORDER, JUDGED_FORMATS, company_key, company_label, format_label
 from render import (
@@ -217,7 +217,13 @@ def company_type_cuts(by_company, api_labels: dict[str, str]):
     return [c for c in cuts if len(c["questions"]) >= COMPANY_TYPE_MIN_QUESTIONS]
 
 
-def _companies_index(stats_view, api_labels: dict[str, str]) -> str:
+def _in_size_cut(name: str, api_labels: dict[str, str], sizes: tuple[str, ...]) -> bool:
+    """The size-cut rule, spelled once: a technology sector AND one of these bands."""
+    sector, size = segment_of(name, api_labels)
+    return bool(sector) and SECTOR_BY_ID[sector].tech and size in sizes
+
+
+def _companies_index(stats_view, api_labels: dict[str, str], cut_ids: frozenset[str]) -> str:
     """`companies/README.md`: every employer, and the sector each one is in.
 
     Two ways in, because there are two questions. "Where is Stripe" is answered
@@ -233,15 +239,12 @@ def _companies_index(stats_view, api_labels: dict[str, str]) -> str:
     rows = list(stats_view.companies)
     by_sector: dict[str, list] = {}
     unclassified: list = []
-    big_tech: list = []
     for row in rows:
-        sector, size = segment_of(row.name, api_labels)
+        sector, _size = segment_of(row.name, api_labels)
         if sector is None:
             unclassified.append(row)
         else:
             by_sector.setdefault(sector, []).append(row)
-        if is_big_tech(sector, size):
-            big_tech.append(row)
 
     def link(row) -> str:
         return f"[{escape_cell(row.name)} ({row.questions:,})]({row.key}.md)"
@@ -262,27 +265,53 @@ def _companies_index(stats_view, api_labels: dict[str, str]) -> str:
         "",
         f"The sector and size of an employer are facts about the company rather than about a question, so "
         f"they come from a hand-written registry, which covers **{len(rows) - len(unclassified)} of "
-        f"{len(rows)}** of the companies here. An employer it does not cover is under *Not classified* "
-        "below and in the table like everybody else — guessing a sector from a company's name is how a "
-        "reader preparing for one kind of loop ends up with the wrong shortlist.",
+        f"{len(rows)}** of the companies here. "
+        # Guarded by the same condition as the section it points at. At full
+        # coverage this sent a reader hunting for a heading the generator was
+        # never going to emit.
+        + (
+            "An employer it does not cover is under *Not classified* below and in the table like "
+            "everybody else — guessing "
+            if unclassified
+            else "Guessing "
+        )
+        + "a sector from a company's name is how a reader preparing for one kind of loop ends up with "
+        "the wrong shortlist.",
         "",
     ]
-    if big_tech:
-        body += [
-            f"🏛️ **Big Tech** ({len(big_tech)}) — "
-            + " · ".join(link(row) for row in big_tech),
-            "",
-            "<sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ "
-            "people. Every company in it also appears under its own sector below.</sub>",
-            "",
-        ]
+    def heading(identifier: str, emoji: str, label: str, total: int) -> str:
+        """A group heading, linked at its own page when it has one.
+
+        The names were plain bold text, so this page — the one headed "Browse
+        by company type" — was the only place in the repository from which
+        "what does Big Tech ask" could not be reached. A cut below
+        COMPANY_TYPE_MIN_QUESTIONS has no page, so it stays bold rather than
+        becoming a 404.
+        """
+        name = escape_cell(label)
+        target = f"[{name}](../company-types/{identifier}.md)" if identifier in cut_ids else name
+        return f"{emoji} **{target}** ({total}) — "
+
+    # All FOUR size cuts, not Big Tech alone. The other three had pages, were
+    # on the root README and on `company-types/README.md`, and were missing
+    # from the one index that exists to group employers by type.
+    for identifier, emoji, title, sizes, _rule in SIZE_CUTS:
+        matches = [row for row in rows if _in_size_cut(row.name, api_labels, sizes)]
+        if not matches:
+            continue
+        body += [heading(identifier, emoji, title, len(matches)) + " · ".join(link(row) for row in matches), ""]
+        if identifier == "big-tech":
+            body += [
+                "<sub>A derived cut rather than a list of opinions: a technology-sector employer with "
+                "10,000+ people. Every company in it also appears under its own sector below.</sub>",
+                "",
+            ]
     for sector in SECTORS:
         matches = by_sector.get(sector.id)
         if not matches:
             continue
         body += [
-            f"{sector.emoji} **{escape_cell(sector.label)}** ({len(matches)}) — "
-            + " · ".join(link(row) for row in matches),
+            heading(sector.id, sector.emoji, sector.label, len(matches)) + " · ".join(link(row) for row in matches),
             "",
         ]
     if unclassified:
@@ -346,7 +375,20 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         ((key, name, len(rows)) for key, (name, rows) in by_company.items()),
         key=lambda row: (-row[2], row[1].casefold()),
     )
-    month_keys = sorted(by_month, reverse=True)
+    # The three-bucket rule `render._sort_key` applies to every other ordering
+    # in this repository, applied here too. A plain reverse sort put "Feb 2126"
+    # — one mistyped upstream date — at the top of the month index, first in
+    # the landing page's month row, and it EVICTED a real month (Oct 2025, 39
+    # questions) from that row's twelve slots. The most valuable ordering in
+    # the repository, awarded to whichever row is most wrong.
+    #
+    # The month keeps its page and its place, as the rule says: the error stays
+    # visible to the people who can fix it. It just stops leading.
+    this_month = today.strftime("%Y-%m")
+    month_keys = sorted((key for key in by_month if key <= this_month), reverse=True) + sorted(
+        (key for key in by_month if key > this_month), reverse=True
+    )
+    future_months = [key for key in month_keys if key > this_month]
 
     files: dict[str, str] = {}
 
@@ -416,7 +458,7 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             )
         )
 
-    files["companies/README.md"] = _companies_index(stats_view, api_labels)
+    files["companies/README.md"] = _companies_index(stats_view, api_labels, cut_ids)
 
     # ── company-type pages ───────────────────────────────────────────────────
     # "What do quant firms ask" was not a question this repository could answer:
@@ -539,8 +581,20 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             render_shard(
                 base=f"by-month/{key}",
                 title=f"Reported in {_month_label(key)}",
+                # A page headed "Reported in Feb 2126" with no caveat reads as
+                # a claim rather than as the visible bug report it is meant to
+                # be. The row is kept on purpose — dropping it hides the error
+                # from the only people who can fix it — so the page says which
+                # of the two it is.
                 lede=f"**{plural(len(rows), 'question')}** with a sighting recorded in "
-                f"{_month_label(key)}.",
+                f"{_month_label(key)}."
+                + (
+                    " This month is after today: a mistyped date upstream rather than a forecast. The "
+                    "row is listed here, in the month it claims, so the error is visible to the people "
+                    "who can fix it — and it is excluded from every window."
+                    if key > this_month
+                    else ""
+                ),
                 back="[← Every month](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("month", api_labels, today),
@@ -565,6 +619,19 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
             "",
             "[← Question bank](../README.md)",
             "",
+            # The sentence `insights/` has carried all along, on the page a
+            # reader in the month browser actually lands on. Neither this index
+            # nor a month page links to `insights/`, so the explanation existed
+            # where nobody meeting the row could reach it — and a month a
+            # century out, unexplained at the top of the table, makes the whole
+            # dataset look unreliable.
+            *([
+                f"> **{_month_label(future_months[0])} is a data-entry error upstream, not a forecast.** "
+                f"{'A month' if len(future_months) == 1 else 'A few months'} dated after today "
+                f"{'is' if len(future_months) == 1 else 'are'} listed here, and last, so the error stays "
+                "visible to the people who can fix it rather than being quietly dropped.",
+                "",
+            ] if future_months else []),
             "| Month | Questions |",
             "| :-- | --: |",
             *[f"| [{_month_label(key)}]({key}.md) | {len(by_month[key]):,} |" for key in month_keys],

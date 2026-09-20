@@ -91,7 +91,7 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Squarepoint on TrueInterview](https://trueinterview.io/problems/company/squarepoint).
+**Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [Squarepoint on TrueInterview](https://trueinterview.io/problems/company/squarepoint).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Quant trading & hedge funds* is one click in from their filter hub.
 

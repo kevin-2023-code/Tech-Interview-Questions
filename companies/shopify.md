@@ -99,7 +99,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [Shopify on TrueInterview](https://trueinterview.io/problems/company/shopify).
+**Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [Shopify on TrueInterview](https://trueinterview.io/problems/company/shopify).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *E-commerce & marketplaces* is one click in from their filter hub.
 

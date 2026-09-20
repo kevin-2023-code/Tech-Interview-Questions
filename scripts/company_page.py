@@ -137,6 +137,42 @@ def _top_format(questions: Sequence[Question]) -> tuple[str | None, int]:
     return key, counts[key]
 
 
+def _census_note(name: str, questions: Sequence[Question], dated: Sequence[Question]) -> str:
+    """The line under the glance table: how many of these rows carry a date.
+
+    Three states, not two. This counted `_dated` — "a sighting ON OR BEFORE
+    today" — and called its complement *unmeasured*, which is the UNDATED set.
+    A row dated in the future is in neither, so it was silently reported as
+    carrying no date at all: the LinkedIn page said "34 of them carry a
+    sighting date; the other 21 are unmeasured" while the table below it showed
+    35 dates and 20 dashes, one of them reading "Feb 23, 2126". Both numbers
+    were wrong, in opposite directions, on the one line whose whole job is to
+    let a reader audit the table under it.
+
+    It also contradicted the rest of the repository, which is what settles it:
+    `insights/README.md` says of that same row "it is counted as dated and
+    excluded from every window", and `by-month/` counts it as dated.
+
+    So the census asks whether there IS a date, the window cells go on asking
+    whether it has happened, and when the two disagree the page says so rather
+    than picking one.
+    """
+    on_file = [q for q in questions if q.reported_date is not None]
+    future = len(on_file) - len(dated)
+    carried = (
+        f"{len(on_file):,} of them carry a sighting date"
+        if not future
+        else f"{len(on_file):,} of them carry a sighting date "
+        f"({plural(future, 'of those is', 'of those are')} dated after today, so "
+        f"{'it is' if future == 1 else 'they are'} in no window)"
+    )
+    return (
+        f"<sub>Counted from the {plural(len(questions), 'question')} reported at {escape_cell(name)}. "
+        f"{carried}; the other {len(questions) - len(on_file):,} are *unmeasured*, which is a different "
+        "fact from *old* — they are in every total here and in no window.</sub>"
+    )
+
+
 def _glance(name: str, questions: Sequence[Question], guides: Sequence[Guide],
             guides_complete: bool, experiences: Sequence[Experience], today: date) -> list[str]:
     dated = _dated(questions, today)
@@ -172,10 +208,7 @@ def _glance(name: str, questions: Sequence[Question], guides: Sequence[Guide],
         "",
         table(["", ""], [":--", ":--"], rows),
         "",
-        f"<sub>Counted from the {len(questions):,} questions reported at {escape_cell(name)}. "
-        f"{len(dated):,} of them carry a sighting date; the other {len(questions) - len(dated):,} are "
-        "*unmeasured*, which is a different fact from *old* — they are in every total here and in no "
-        "window.</sub>",
+        _census_note(name, questions, dated),
         "",
     ]
 
@@ -684,7 +717,23 @@ def company_type_preamble(
     return "\n".join(body)
 
 
-def _footer(name: str, key: str, sector_label: str | None) -> list[str]:
+def _before_the_table(name: str, key: str, sector_label: str | None) -> list[str]:
+    """The block between the summary sections and the full question table.
+
+    NOT a footer, though it was called one and read like one: it is emitted
+    just before `## Every question reported at <Name>`, so all 99 company pages
+    put a horizontal rule and a sign-off directly above their largest section —
+    a reader hit what looked like the end of the document and then found
+    another 60 to 230 rows. "Every title **above**" was false there too: on the
+    Google page 20 of the 161 question links are above this block and 141 are
+    below it, and the thing immediately above it is the month histogram, whose
+    "titles" are months.
+
+    So it points FORWARD, which is what the company-type page beside it has
+    always done ("Everything in the table below opens in a runnable
+    workspace"). That makes it a lead-in to the table rather than a closing
+    note in front of one, and costs no change to how the page is assembled.
+    """
     jobs = " · ".join(f"[{label}]({url})" for label, url in JOB_LISTS)
     # The sector is NAMED rather than linked. Both sibling repositories carry a
     # page per sector, but a cut with too little behind it does not get one —
@@ -699,8 +748,9 @@ def _footer(name: str, key: str, sector_label: str | None) -> list[str]:
     return [
         "---",
         "",
-        f"**Practise these on TrueInterview.** Every title above opens the full problem in a runnable "
-        f"workspace — judged server-side on the algorithm, low-level-design and SQL formats: "
+        f"**Practise these on TrueInterview.** Every title on this page — including every row of the "
+        f"table below — opens the full problem in a runnable workspace, judged server-side on the "
+        f"algorithm, low-level-design and SQL formats: "
         f"[{escape_cell(name)} on TrueInterview]({SITE}/problems/company/{key}).",
         "",
         f"**Hiring right now?** Open roles are in the sibling lists, refreshed hourly: {jobs}. {where}",
@@ -763,6 +813,6 @@ def company_preamble(
         ]
     for _, lines in present:
         body += lines
-    body += _footer(name, key, SECTOR_BY_ID[sector].label if sector else None)
+    body += _before_the_table(name, key, SECTOR_BY_ID[sector].label if sector else None)
     body += [f"## Every question reported at {escape_cell(name)}"]
     return "\n".join(body)

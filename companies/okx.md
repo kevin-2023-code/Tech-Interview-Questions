@@ -82,7 +82,7 @@ What candidates said happened in the room at OKX — written up by the people wh
 
 ---
 
-**Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace — judged server-side on the algorithm, low-level-design and SQL formats: [OKX on TrueInterview](https://trueinterview.io/problems/company/okx).
+**Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [OKX on TrueInterview](https://trueinterview.io/problems/company/okx).
 
 **Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Fintech, payments & crypto* is one click in from their filter hub.
 
