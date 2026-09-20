@@ -87,7 +87,7 @@ The 6 questions to open first if you are preparing for Geico, ranked by **the mo
 
 **Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Geico on TrueInterview](https://trueinterview.io/problems/company/geico).
 
-**Hiring right now?** The open roles at these companies are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities).
+**Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Banks, insurers & asset managers* is one click in from their filter hub.
 
 ## Every question reported at Geico
 

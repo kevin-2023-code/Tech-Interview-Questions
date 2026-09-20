@@ -53,7 +53,7 @@ from render import (
     question_link,
     table,
 )
-from segments import sector_chip, segment_of
+from segments import SECTOR_BY_ID, sector_chip, segment_of
 
 SITE = "https://trueinterview.io"
 
@@ -581,15 +581,25 @@ def company_type_preamble(
     return "\n".join(body)
 
 
-def _footer(name: str, key: str) -> list[str]:
+def _footer(name: str, key: str, sector_label: str | None) -> list[str]:
     jobs = " · ".join(f"[{label}]({url})" for label, url in JOB_LISTS)
+    # The sector is NAMED rather than linked. Both sibling repositories carry a
+    # page per sector, but a cut with too little behind it does not get one —
+    # and a cross-repository link cannot be checked by this repository's own
+    # link test, so the one that could 404 is the one not worth having.
+    where = (
+        f"Both are filtered by the same company types this page is labelled with, so "
+        f"*{escape_cell(sector_label)}* is one click in from their filter hub."
+        if sector_label
+        else "Both are filtered by company type, role and metro."
+    )
     return [
         "---",
         "",
         f"**Practise these on TrueInterview.** Every title above opens the full problem in a runnable "
         f"workspace with a server-judged verdict: [{escape_cell(name)} on TrueInterview]({SITE}/problems/company/{key}).",
         "",
-        f"**Hiring right now?** The open roles at these companies are in the sibling lists, refreshed hourly: {jobs}.",
+        f"**Hiring right now?** Open roles are in the sibling lists, refreshed hourly: {jobs}. {where}",
         "",
     ]
 
@@ -606,7 +616,8 @@ def company_preamble(
     today: date,
 ) -> str:
     """Everything above the question table on one company's page."""
-    chip = sector_chip(*segment_of(name, api_labels))
+    sector, size = segment_of(name, api_labels)
+    chip = sector_chip(sector, size)
 
     blocks: list[tuple[str, list[str]]] = [
         ("At a glance", _glance(name, questions, guides, experiences, today)),
@@ -632,6 +643,6 @@ def company_preamble(
         ]
     for _, lines in present:
         body += lines
-    body += _footer(name, key)
+    body += _footer(name, key, SECTOR_BY_ID[sector].label if sector else None)
     body += [f"## Every question reported at {escape_cell(name)}"]
     return "\n".join(body)

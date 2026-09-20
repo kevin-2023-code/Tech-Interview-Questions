@@ -81,7 +81,7 @@ What candidates said happened in the room at Rokt — written up by the people w
 
 **Practise these on TrueInterview.** Every title above opens the full problem in a runnable workspace with a server-judged verdict: [Rokt on TrueInterview](https://trueinterview.io/problems/company/rokt).
 
-**Hiring right now?** The open roles at these companies are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities).
+**Hiring right now?** Open roles are in the sibling lists, refreshed hourly: [New-grad roles](https://github.com/kevin-2023-code/New-Grad-Opportunities) · [Internships](https://github.com/kevin-2023-code/Internship-Opportunities). Both are filtered by the same company types this page is labelled with, so *Enterprise & business software* is one click in from their filter hub.
 
 ## Every question reported at Rokt
 
