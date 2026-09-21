@@ -54,14 +54,14 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 17 | 49 | Sep 10, 2026 | 28 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 17 | 46 | Sep 10, 2026 | 28 |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 168 | 16 | 11 | Aug 16, 2026 | 21 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 144 | 16 | 22 | Sep 10, 2026 | 18 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 141 | 10 | 15 | Aug 13, 2026 | 21 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 141 | 6 | 4 | Jul 01, 2026 | 24 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 98 | 11 | 4 | Jul 29, 2026 | 19 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 90 | 9 | 7 | Aug 13, 2026 | 21 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 88 | 3 | 6 | Aug 13, 2026 | 12 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 88 | 3 | 5 | Aug 13, 2026 | 12 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 87 | 11 | 1 | Jul 15, 2026 | 11 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 65 | 5 | 2 | Jul 02, 2026 | 4 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 64 | 6 | 0 | Jun 15, 2026 | 11 |
@@ -73,7 +73,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 54 | 3 | 2 | Jun 29, 2026 | 10 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 54 | 6 | 1 | Jun 29, 2026 | 9 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 49 | 6 | 1 | Jul 22, 2026 | 11 |
-| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 48 | 6 | 4 | Jul 22, 2026 | 4 |
+| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 48 | 6 | 2 | Jul 22, 2026 | 4 |
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 47 | 3 | 3 | Jul 09, 2026 | 2 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 45 | 5 | 0 | Jun 15, 2026 | 9 |
 | [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 41 | 13 | 0 | Jun 05, 2026 | 3 |
@@ -92,7 +92,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 1 | Jun 23, 2026 | 5 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 26 | 4 | 2 | Jun 28, 2026 | 5 |
 | [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 1 | Jun 28, 2026 | 3 |
-| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 24 | 1 | 2 | Jun 24, 2026 | 3 |
+| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 24 | 1 | 1 | Jun 24, 2026 | 3 |
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 24 | 1 | 0 | Jun 17, 2026 | 3 |
 | [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 23 | 2 | 1 | Jun 26, 2026 | 6 |
 | [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 22 | 6 | 0 | Jun 15, 2026 | 3 |
@@ -112,7 +112,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Point72](point72.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 3 | Jul 29, 2026 | 2 |
 | [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 17 | — | 0 | Apr 12, 2026 | 2 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 16 | 1 | 0 | May 01, 2026 | 2 |
-| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 16 | 2 | 2 | Jul 26, 2026 | 2 |
+| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 16 | 2 | 1 | Jul 26, 2026 | 2 |
 | [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 15 | 3 | 2 | Jun 28, 2026 | 2 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 3 | 4 | Jun 23, 2026 | 2 |
 | [Tradedesk](tradedesk.md) | Enterprise & business software · 1,000–9,999 people | 15 | 1 | 0 | Apr 01, 2026 | 2 |

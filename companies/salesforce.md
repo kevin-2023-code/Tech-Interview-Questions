@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **16** |
 | Most recent sighting | Jul 26, 2026 |
-| Reported in the last 90 days | 2 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 16) |
 | Difficulty (easy / medium / hard) | 3 / 11 / 2 |
 | Free to practise | [2](../free/README.md) |
@@ -39,12 +39,11 @@ Which stage each question came from, for the **16 of 16** questions at Salesforc
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | Phone screen | Jul 26, 2026 |
-| [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition) | Algorithm | Medium | Onsite / virtual onsite | Jun 22, 2026 |
 
 ## What they ask about
 

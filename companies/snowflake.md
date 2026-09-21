@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **88** |
 | Most recent sighting | Aug 13, 2026 |
-| Reported in the last 90 days | 6 |
+| Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 88) |
 | Difficulty (easy / medium / hard) | 8 / 63 / 17 |
 | Free to practise | [12](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **88 of 88** questions at Snowflake
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,7 +47,6 @@ Which stage each question came from, for the **88 of 88** questions at Snowflake
 | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | System Design | Medium | Onsite / virtual onsite | Jun 25, 2026 |
 | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Algorithm | Hard | Onsite / virtual onsite | Jun 24, 2026 |
 | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Algorithm | Medium | Phone screen | Jun 24, 2026 |
-| [Design an AI-Powered Jira Ticket Automation System](https://trueinterview.io/questions/design-an-ai-powered-jira-ticket-automation-system) | System Design | Hard | Onsite / virtual onsite | Jun 22, 2026 |
 
 ## What they ask about
 

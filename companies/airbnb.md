@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **48** |
 | Most recent sighting | Jul 22, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (46% of 48) |
 | Difficulty (easy / medium / hard) | 2 / 29 / 17 |
 | Free to practise | [4](../free/README.md) |
@@ -37,14 +37,12 @@ Which stage each question came from, for the **48 of 48** questions at Airbnb th
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jun 26, 2026 |
-| [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | AI Coding | Hard | Onsite / virtual onsite | Jun 22, 2026 |
-| [Group Chat / Messaging System Design](https://trueinterview.io/questions/group-chat-messaging-system-design) | System Design | Hard | Onsite / virtual onsite | Jun 22, 2026 |
 
 ## What they ask about
 

@@ -47,7 +47,7 @@ Of the **255 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**69 sightings** across this cut. Newest first.
+**63 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **255 questions in this cut that carry a topic label** (44% of it):
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Amazon | Algorithm | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Amazon | Algorithm | Aug 22, 2026 |
 
-<sub>57 more in this window are in the table below.</sub>
+<sub>51 more in this window are in the table below.</sub>
 
 ---
 

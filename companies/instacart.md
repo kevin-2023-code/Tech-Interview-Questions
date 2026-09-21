@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **24** |
 | Most recent sighting | Jun 24, 2026 |
-| Reported in the last 90 days | 2 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 24) |
 | Difficulty (easy / medium / hard) | 2 / 15 / 7 |
 | Free to practise | [3](../free/README.md) |
@@ -39,12 +39,11 @@ Which stage each question came from, for the **24 of 24** questions at Instacart
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 24, 2026 |
-| [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | AI Coding | Hard | Online assessment, Take-home | Jun 22, 2026 |
 
 ## What they ask about
 

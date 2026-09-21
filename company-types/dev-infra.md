@@ -47,7 +47,7 @@ Of the **72 questions in this cut that carry a topic label** (39% of it):
 
 ## Asked here in the last 90 days
 
-**8 sightings** across this cut. Newest first.
+**7 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -58,7 +58,6 @@ Of the **72 questions in this cut that carry a topic label** (39% of it):
 | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | Snowflake | System Design | Jun 25, 2026 |
 | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Snowflake | Algorithm | Jun 24, 2026 |
 | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Snowflake | Algorithm | Jun 24, 2026 |
-| [Design an AI-Powered Jira Ticket Automation System](https://trueinterview.io/questions/design-an-ai-powered-jira-ticket-automation-system) | Snowflake | System Design | Jun 22, 2026 |
 
 ---
 

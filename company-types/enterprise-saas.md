@@ -47,7 +47,7 @@ Of the **139 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**20 sightings** across this cut. Newest first.
+**19 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **139 questions in this cut that carry a topic label** (45% of it):
 | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | Salesforce | SQL | Jul 26, 2026 |
 | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | Microsoft | SQL | Jul 22, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>7 more in this window are in the table below.</sub>
 
 ---
 
