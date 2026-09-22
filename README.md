@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,315 questions** · **350 writeups** · **99 companies** · **166 free to practise** · **158 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,543 questions** · **363 writeups** · **99 companies** · **166 free to practise** · **216 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -36,11 +36,11 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 158 sightings at 44 companies — Algorithm 81 · SQL 31 · System Design 24 · AI Coding 4 · Object Oriented Programming 18.
+**Last 90 days:** 216 sightings at 45 companies — Algorithm 120 · SQL 31 · System Design 35 · AI Coding 4 · Object Oriented Programming 26.
 
-**Reported most:** [Amazon (46)](companies/amazon.md) · [ByteDance (22)](companies/bytedance.md) · [Google (12)](companies/google.md) · [Meta (11)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (5)](companies/snowflake.md) · [Affirm (4)](companies/affirm.md)
+**Reported most:** [Amazon (47)](companies/amazon.md) · [ByteDance (24)](companies/bytedance.md) · [Google (23)](companies/google.md) · [Apple (14)](companies/apple.md) · [Meta (11)](companies/meta.md) · [Microsoft (11)](companies/microsoft.md) · [Figma (8)](companies/figma.md) · [Snowflake (7)](companies/snowflake.md)
 
-**Asked at the most companies:** [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) (12) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (12)
+**Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (13)
 
 [**What companies are actually asking →**](insights/README.md) &nbsp;·&nbsp; [Topics](insights/topics.md) &nbsp;·&nbsp; [Companies](insights/companies.md) &nbsp;·&nbsp; [Trends](insights/trends.md) &nbsp;·&nbsp; [`insights.json`](data/insights.json)
 
@@ -49,9 +49,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**166 of the 2,315 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**166 of the 2,543 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (106)](free/algorithm.md) · [System Design (12)](free/system-design.md) · [AI Coding (7)](free/ai-coding.md) · [Object Oriented Programming (41)](free/object-oriented-programming.md)
+[Algorithm (107)](free/algorithm.md) · [System Design (12)](free/system-design.md) · [AI Coding (7)](free/ai-coding.md) · [Object Oriented Programming (40)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -59,7 +59,7 @@ share naming the population it is a share of.
 ## 📖 How each company interviews
 
 <!-- gen:guides:start -->
-**Interview process:** [Writeups on how 83 companies interview (350 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
+**Interview process:** [Writeups on how 83 companies interview (363 of them)](guides/README.md) &nbsp;·&nbsp; [the same writeups by topic](guides/by-topic.md)
 <!-- gen:guides:end -->
 
 How a round runs, a problem worked end to end, notes on a process — each one filed
@@ -90,16 +90,16 @@ happened.
 <!-- gen:experiences:start -->
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Uber** | Software | [Amazon Software Development Engineer Interview Experience](https://trueinterview.io/interviews/9c12a8a5-c126-48f8-9226-ef10d02bad13) | Sep 16, 2026 |
-| **Uber** | Software | [Array and Matrix Coding Interview Experience](https://trueinterview.io/interviews/966105b6-25eb-4584-ad20-de90e4d90305) | Sep 16, 2026 |
-| **Uber** | Software | [Backend (Grocery team) Interview Experience](https://trueinterview.io/interviews/ef8af452-3ae1-4622-9dbe-e9747eb3c2f1) | Sep 16, 2026 |
-| **Rokt** | Software | [Backend Infrastructure Interview Experience](https://trueinterview.io/interviews/9df78fa7-ab55-425b-85d2-6750b74da706) | Sep 16, 2026 |
-| **Voleon** | Software | [Ball Flipping Simulation Coding Problem Interview Experience](https://trueinterview.io/interviews/6a1c4df5-a5cb-472c-9a4d-7ccd44e770d3) | Sep 16, 2026 |
-| **Uber** | Software | [Codesignal Online Assessment Interview Experience](https://trueinterview.io/interviews/84d7862a-3296-4020-bb83-f05596c60eec) | Sep 16, 2026 |
-| **Uber** | Software | [Coding Interview Experience with Matrix Diagonal Pattern and Interval Queries](https://trueinterview.io/interviews/3c495179-784b-43b8-8cc9-c80d2e300669) | Sep 16, 2026 |
-| **Uber** | Software | [Coding Interview Experience: Currency Conversion and DFS Problems](https://trueinterview.io/interviews/89fd0054-7709-4212-934d-35fc9049265e) | Sep 16, 2026 |
+| **Roblox** | Software | [Roblox Frontend Engineer Tic-Tac-Toe Coding Challenge Interview Experience](https://trueinterview.io/interviews/b1bdae53-2500-41c2-bbdb-03f124c3609b) | Sep 22, 2026 |
+| **Roblox** | Software | [Roblox Interview Experience](https://trueinterview.io/interviews/06970eb7-81e9-4368-8386-de7cb605aecc) | Sep 22, 2026 |
+| **Roblox** | Software | [Roblox Interview Experience](https://trueinterview.io/interviews/0eb3917a-00fd-440e-9ca2-fbe083afcd95) | Sep 22, 2026 |
+| **Roblox** | Software | [Roblox Interview Experience](https://trueinterview.io/interviews/1c103853-257d-43a4-a033-26dc631a49a1) | Sep 22, 2026 |
+| **Roblox** | Data & AI | [Roblox Interview Experience (Senior Level)](https://trueinterview.io/interviews/8d305629-f33d-42dd-a3bb-213d0b6f0b44) | Sep 22, 2026 |
+| **Roblox** | Software | [Roblox New Grad Online Assessment with Mini-Games and Group Anagrams Coding Interview Experience](https://trueinterview.io/interviews/e6a44d63-354d-4675-8959-0cb103a70e30) | Sep 22, 2026 |
+| **Roblox** | Software | [Roblox Software Engineer (New Grad/Intern) Interview Experience](https://trueinterview.io/interviews/74dfd7c8-234e-4afc-a7f5-e3101916cc44) | Sep 22, 2026 |
+| **Snowflake** | Software | [Snowflake Coding Interview Experience with LeetCode 2096](https://trueinterview.io/interviews/b1b0a0c2-74d8-46fd-ba9d-fa2f187e778c) | Sep 22, 2026 |
 
-[**2,588 reports on the board →**](experiences/README.md)
+[**2,808 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type
@@ -109,7 +109,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 **company**, kept in one registry, and every cut says exactly what it selects.
 
 <!-- gen:company-types:start -->
-[🏛️ Big Tech (1,112)](company-types/big-tech.md) · [🏗️ Large tech (1,000–9,999) (860)](company-types/large-tech.md) · [🏤 Mid-sized tech (200–999) (77)](company-types/mid-size-tech.md) · [🌱 Startups (under 200) (9)](company-types/startups.md) · [🧠 AI labs & AI infrastructure (235)](company-types/ai.md) · [📱 Consumer internet & media (593)](company-types/consumer-internet.md) · [🛒 E-commerce & marketplaces (581)](company-types/ecommerce-marketplace.md) · [☁️ Developer tools, cloud & data infrastructure (185)](company-types/dev-infra.md) · [🏢 Enterprise & business software (307)](company-types/enterprise-saas.md) · [🔒 Cybersecurity (61)](company-types/security.md) · [💳 Fintech, payments & crypto (248)](company-types/fintech.md) · [📈 Quant trading & hedge funds (151)](company-types/quant-trading.md) · [🏦 Banks, insurers & asset managers (155)](company-types/banking-finance.md) · [🔬 Semiconductors & chips (26)](company-types/semiconductors.md) · [🖥️ Hardware, devices & networking (111)](company-types/hardware-devices.md) · [🚗 Autonomy, automotive & mobility (110)](company-types/autonomy-mobility.md) · [🎮 Gaming & interactive (54)](company-types/gaming.md) · [🧾 IT services & consulting (19)](company-types/it-consulting.md)
+[🏛️ Big Tech (1,262)](company-types/big-tech.md) · [🏗️ Large tech (1,000–9,999) (932)](company-types/large-tech.md) · [🏤 Mid-sized tech (200–999) (78)](company-types/mid-size-tech.md) · [🌱 Startups (under 200) (9)](company-types/startups.md) · [🧠 AI labs & AI infrastructure (250)](company-types/ai.md) · [📱 Consumer internet & media (697)](company-types/consumer-internet.md) · [🛒 E-commerce & marketplaces (622)](company-types/ecommerce-marketplace.md) · [☁️ Developer tools, cloud & data infrastructure (219)](company-types/dev-infra.md) · [🏢 Enterprise & business software (326)](company-types/enterprise-saas.md) · [🔒 Cybersecurity (60)](company-types/security.md) · [💳 Fintech, payments & crypto (256)](company-types/fintech.md) · [📈 Quant trading & hedge funds (173)](company-types/quant-trading.md) · [🏦 Banks, insurers & asset managers (151)](company-types/banking-finance.md) · [🔬 Semiconductors & chips (29)](company-types/semiconductors.md) · [🖥️ Hardware, devices & networking (135)](company-types/hardware-devices.md) · [🚗 Autonomy, automotive & mobility (110)](company-types/autonomy-mobility.md) · [🎮 Gaming & interactive (62)](company-types/gaming.md) · [🧾 IT services & consulting (16)](company-types/it-consulting.md)
 
 [**Every company type, with what each one selects →**](company-types/README.md)
 <!-- gen:company-types:end -->
@@ -117,12 +117,12 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🏢 Browse by company
 
 <!-- gen:companies:start -->
-[Amazon (232)](companies/amazon.md) · [Meta (168)](companies/meta.md) · [ByteDance (144)](companies/bytedance.md) · [Google (141)](companies/google.md) · [Uber (141)](companies/uber.md) · [Microsoft (98)](companies/microsoft.md) · [Apple (90)](companies/apple.md) · [Snowflake (88)](companies/snowflake.md) · [OpenAI (87)](companies/openai.md) · [DoorDash (65)](companies/doordash.md) · [Netflix (64)](companies/netflix.md) · [Anthropic (63)](companies/anthropic.md) · [Stripe (61)](companies/stripe.md) · [Pinterest (60)](companies/pinterest.md) · [Bloomberg (55)](companies/bloomberg.md) · [LinkedIn (55)](companies/linkedin.md) · [Databricks (54)](companies/databricks.md) · [Roblox (54)](companies/roblox.md) · [Snapchat (49)](companies/snapchat.md) · [Airbnb (48)](companies/airbnb.md) · [Waymo (47)](companies/waymo.md) · [Coinbase (45)](companies/coinbase.md) · [Capital One (41)](companies/capital-one.md) · [Oracle (41)](companies/oracle.md)
+[Amazon (237)](companies/amazon.md) · [Google (190)](companies/google.md) · [Meta (180)](companies/meta.md) · [ByteDance (179)](companies/bytedance.md) · [Uber (169)](companies/uber.md) · [Microsoft (116)](companies/microsoft.md) · [Apple (114)](companies/apple.md) · [Snowflake (112)](companies/snowflake.md) · [OpenAI (101)](companies/openai.md) · [Pinterest (77)](companies/pinterest.md) · [Stripe (73)](companies/stripe.md) · [Netflix (70)](companies/netflix.md) · [DoorDash (69)](companies/doordash.md) · [Databricks (64)](companies/databricks.md) · [Anthropic (63)](companies/anthropic.md) · [Roblox (62)](companies/roblox.md) · [LinkedIn (57)](companies/linkedin.md) · [Bloomberg (56)](companies/bloomberg.md) · [Citadel (54)](companies/citadel.md) · [Snapchat (53)](companies/snapchat.md) · [Airbnb (51)](companies/airbnb.md) · [Waymo (48)](companies/waymo.md) · [Atlassian (42)](companies/atlassian.md) · [Coinbase (42)](companies/coinbase.md)
 
 <details>
 <summary><b>+ 75 more companies</b></summary>
 
-[Atlassian (39)](companies/atlassian.md) · [Citadel (32)](companies/citadel.md) · [xAI (31)](companies/xai.md) · [Ebay (30)](companies/ebay.md) · [Robinhood (30)](companies/robinhood.md) · [Lyft (28)](companies/lyft.md) · [Tesla (28)](companies/tesla.md) · [Walmart Labs (28)](companies/walmart-labs.md) · [Akuna Capital (27)](companies/akuna-capital.md) · [SoFi (27)](companies/sofi.md) · [NVIDIA (26)](companies/nvidia.md) · [Reddit (26)](companies/reddit.md) · [Rippling (26)](companies/rippling.md) · [Expedia (25)](companies/expedia.md) · [Instacart (24)](companies/instacart.md) · [Verkada (24)](companies/verkada.md) · [Ramp (23)](companies/ramp.md) · [Perplexity (22)](companies/perplexity.md) · [Two Sigma (22)](companies/two-sigma.md) · [Goldman Sachs (21)](companies/goldman-sachs.md) · [Datadog (20)](companies/datadog.md) · [Weride (20)](companies/weride.md) · [IBM (19)](companies/ibm.md) · [Pinduoduo (19)](companies/pinduoduo.md) · [Cisco (18)](companies/cisco.md) · [Figma (18)](companies/figma.md) · [Optiver (18)](companies/optiver.md) · [Squarepoint (18)](companies/squarepoint.md) · [Applied Intuition (17)](companies/applied-intuition.md) · [Confluent (17)](companies/confluent.md) · [PayPal (17)](companies/paypal.md) · [Point72 (17)](companies/point72.md) · [Yelp (17)](companies/yelp.md) · [Hudson River Trading (16)](companies/hudson-river-trading.md) · [Salesforce (16)](companies/salesforce.md) · [Intuit (15)](companies/intuit.md) · [JPMorgan (15)](companies/jpmorgan.md) · [Tradedesk (15)](companies/tradedesk.md) · [Upstart (15)](companies/upstart.md) · [Visa (15)](companies/visa.md) · [Affirm (14)](companies/affirm.md) · [Rubrik (14)](companies/rubrik.md) · [Shopify (14)](companies/shopify.md) · [Dropbox (13)](companies/dropbox.md) · [Harvey (13)](companies/harvey.md) · [Square (13)](companies/square.md) · [Vanta (13)](companies/vanta.md) · [Microsoft AI (12)](companies/microsoft-ai.md) · [Scale AI (12)](companies/scale-ai.md) · [HubSpot (10)](companies/hubspot.md) · [Okta (10)](companies/okta.md) · [Whatnot (7)](companies/whatnot.md) · [Amplitude (6)](companies/amplitude.md) · [GEICO (6)](companies/geico.md) · [Luma AI (6)](companies/luma-ai.md) · [MongoDB (6)](companies/mongodb.md) · [Airtable (5)](companies/airtable.md) · [Arista (5)](companies/arista.md) · [Block (5)](companies/block.md) · [Chicago Trading (5)](companies/chicago-trading.md) · [Circle (5)](companies/circle.md) · [Lead Bank (5)](companies/lead-bank.md) · [OKX (5)](companies/okx.md) · [Palantir (5)](companies/palantir.md) · [Sigmacomputing (5)](companies/sigmacomputing.md) · [StackAdapt (5)](companies/stackadapt.md) · [Voleon (5)](companies/voleon.md) · [Faire (4)](companies/faire.md) · [Gusto (4)](companies/gusto.md) · [Rokt (4)](companies/rokt.md) · [Bobyard (3)](companies/bobyard.md) · [Moveworks (3)](companies/moveworks.md) · [Oscar Health (3)](companies/oscar-health.md) · [Stubhub (3)](companies/stubhub.md) · [Brex (2)](companies/brex.md)
+[Oracle (39)](companies/oracle.md) · [Capital One (37)](companies/capital-one.md) · [Ebay (32)](companies/ebay.md) · [Robinhood (31)](companies/robinhood.md) · [xAI (31)](companies/xai.md) · [Lyft (29)](companies/lyft.md) · [NVIDIA (29)](companies/nvidia.md) · [Rippling (27)](companies/rippling.md) · [Tesla (27)](companies/tesla.md) · [Walmart Labs (27)](companies/walmart-labs.md) · [Akuna Capital (26)](companies/akuna-capital.md) · [Reddit (26)](companies/reddit.md) · [SoFi (26)](companies/sofi.md) · [Expedia (25)](companies/expedia.md) · [Instacart (25)](companies/instacart.md) · [Ramp (23)](companies/ramp.md) · [Two Sigma (23)](companies/two-sigma.md) · [Verkada (23)](companies/verkada.md) · [Perplexity (22)](companies/perplexity.md) · [Goldman Sachs (21)](companies/goldman-sachs.md) · [Weride (21)](companies/weride.md) · [Datadog (20)](companies/datadog.md) · [Optiver (19)](companies/optiver.md) · [Pinduoduo (19)](companies/pinduoduo.md) · [Cisco (18)](companies/cisco.md) · [Figma (18)](companies/figma.md) · [Squarepoint (18)](companies/squarepoint.md) · [Confluent (17)](companies/confluent.md) · [PayPal (17)](companies/paypal.md) · [Point72 (17)](companies/point72.md) · [Applied Intuition (16)](companies/applied-intuition.md) · [Hudson River Trading (16)](companies/hudson-river-trading.md) · [IBM (16)](companies/ibm.md) · [Salesforce (16)](companies/salesforce.md) · [Yelp (16)](companies/yelp.md) · [Intuit (15)](companies/intuit.md) · [JPMorgan (15)](companies/jpmorgan.md) · [Shopify (15)](companies/shopify.md) · [Tradedesk (15)](companies/tradedesk.md) · [Upstart (15)](companies/upstart.md) · [Visa (15)](companies/visa.md) · [Affirm (14)](companies/affirm.md) · [Rubrik (14)](companies/rubrik.md) · [Dropbox (13)](companies/dropbox.md) · [Harvey (13)](companies/harvey.md) · [Microsoft AI (13)](companies/microsoft-ai.md) · [Vanta (13)](companies/vanta.md) · [Scale AI (12)](companies/scale-ai.md) · [Square (12)](companies/square.md) · [HubSpot (10)](companies/hubspot.md) · [Okta (10)](companies/okta.md) · [Whatnot (7)](companies/whatnot.md) · [Amplitude (6)](companies/amplitude.md) · [GEICO (6)](companies/geico.md) · [Luma AI (6)](companies/luma-ai.md) · [MongoDB (6)](companies/mongodb.md) · [Airtable (5)](companies/airtable.md) · [Arista (5)](companies/arista.md) · [Block (5)](companies/block.md) · [Chicago Trading (5)](companies/chicago-trading.md) · [Circle (5)](companies/circle.md) · [Lead Bank (5)](companies/lead-bank.md) · [OKX (5)](companies/okx.md) · [Palantir (5)](companies/palantir.md) · [Rokt (5)](companies/rokt.md) · [Sigmacomputing (5)](companies/sigmacomputing.md) · [StackAdapt (5)](companies/stackadapt.md) · [Voleon (5)](companies/voleon.md) · [Faire (4)](companies/faire.md) · [Gusto (4)](companies/gusto.md) · [Bobyard (3)](companies/bobyard.md) · [Moveworks (3)](companies/moveworks.md) · [Oscar Health (3)](companies/oscar-health.md) · [Stubhub (3)](companies/stubhub.md) · [Brex (2)](companies/brex.md)
 
 </details>
 
@@ -132,13 +132,13 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (1,446)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (251)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Object Oriented Programming (398)](formats/object-oriented-programming.md)
+[Algorithm (1,644)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (261)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Object Oriented Programming (418)](formats/object-oriented-programming.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported
 
 <!-- gen:months:start -->
-[Sep 2026 (10)](by-month/2026-09.md) · [Aug 2026 (39)](by-month/2026-08.md) · [Jul 2026 (72)](by-month/2026-07.md) · [Jun 2026 (182)](by-month/2026-06.md) · [May 2026 (203)](by-month/2026-05.md) · [Apr 2026 (168)](by-month/2026-04.md) · [Mar 2026 (127)](by-month/2026-03.md) · [Feb 2026 (126)](by-month/2026-02.md) · [Jan 2026 (147)](by-month/2026-01.md) · [Dec 2025 (67)](by-month/2025-12.md) · [Nov 2025 (76)](by-month/2025-11.md) · [Oct 2025 (39)](by-month/2025-10.md) · [**every month →**](by-month/README.md)
+[Sep 2026 (18)](by-month/2026-09.md) · [Aug 2026 (80)](by-month/2026-08.md) · [Jul 2026 (82)](by-month/2026-07.md) · [Jun 2026 (179)](by-month/2026-06.md) · [May 2026 (201)](by-month/2026-05.md) · [Apr 2026 (167)](by-month/2026-04.md) · [Mar 2026 (128)](by-month/2026-03.md) · [Feb 2026 (124)](by-month/2026-02.md) · [Jan 2026 (147)](by-month/2026-01.md) · [Dec 2025 (66)](by-month/2025-12.md) · [Nov 2025 (75)](by-month/2025-11.md) · [Oct 2025 (39)](by-month/2025-10.md) · [**every month →**](by-month/README.md)
 <!-- gen:months:end -->
 
 ---
@@ -151,35 +151,72 @@ means no sighting date was recorded, which is not the same as old.</sub>
 <!-- gen:latest:start -->
 | Company | Question | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | 🔥 Sep 11, 2026 |
+| **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | 🔥 Sep 11, 2026 |
+| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | 🔥 Sep 10, 2026 |
 | **Amazon / ByteDance** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | 🔥 Sep 10, 2026 |
+| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | 🔥 Sep 09, 2026 |
+| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | 🔥 Sep 09, 2026 |
+| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | 🔥 Sep 09, 2026 |
+| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | 🔥 Sep 08, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | 🆕 Sep 06, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | 🆕 Sep 05, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | 🆕 Sep 04, 2026 |
 | **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | 🆕 Sep 02, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | 🆕 Sep 02, 2026 |
+| **Google** | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | 🆕 Sep 02, 2026 |
 | **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | 🆕 Sep 01, 2026 |
 | **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | 🆕 Sep 01, 2026 |
 | **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | 🆕 Sep 01, 2026 |
 | **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | 🆕 Sep 01, 2026 |
 | **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | 🆕 Aug 30, 2026 |
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Algorithm | 🆕 Aug 30, 2026 |
+| **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | 🆕 Aug 29, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Object Oriented Programming | 🆕 Aug 27, 2026 |
+| **Pinterest** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Algorithm | 🆕 Aug 26, 2026 |
+| **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Algorithm | 🆕 Aug 26, 2026 |
 | **ByteDance** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | 🆕 Aug 25, 2026 |
+| **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Algorithm | 🆕 Aug 24, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Algorithm | 🆕 Aug 24, 2026 |
+| **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | 🆕 Aug 22, 2026 |
 | **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Algorithm | 🆕 Aug 22, 2026 |
 | **Amazon** | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | 🆕 Aug 22, 2026 |
 | **Amazon** | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator) | Algorithm | 🆕 Aug 21, 2026 |
 | **Amazon** | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | 🆕 Aug 21, 2026 |
-| **ByteDance** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | 🆕 Aug 21, 2026 |
+| **ByteDance / Ebay / NVIDIA** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | 🆕 Aug 21, 2026 |
+| **Microsoft** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Object Oriented Programming | 🆕 Aug 20, 2026 |
+| **Google** | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | 🆕 Aug 20, 2026 |
 | **ByteDance** | [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) | Algorithm | 🆕 Aug 20, 2026 |
+| **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Algorithm | 🆕 Aug 17, 2026 |
 | **ByteDance** | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | System Design | 🆕 Aug 17, 2026 |
 | **Amazon / ByteDance** | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | 🆕 Aug 17, 2026 |
+| **ByteDance** | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Algorithm | 🆕 Aug 17, 2026 |
+| **ByteDance** | [Pythagorean Triple in an Integer Array](https://trueinterview.io/questions/pythagorean-triple-integer-array) | Algorithm | 🆕 Aug 17, 2026 |
+| **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | 🆕 Aug 16, 2026 |
+| **Apple** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | System Design | 🆕 Aug 16, 2026 |
+| **DoorDash** | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | 🆕 Aug 16, 2026 |
+| **DoorDash** | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | 🆕 Aug 16, 2026 |
+| **Apple** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Algorithm | 🆕 Aug 16, 2026 |
+| **DoorDash** | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | 🆕 Aug 16, 2026 |
+| **Uber** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | 🆕 Aug 16, 2026 |
+| **Google** | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | 🆕 Aug 16, 2026 |
+| **Uber** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | 🆕 Aug 16, 2026 |
+| **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | 🆕 Aug 16, 2026 |
+| **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | 🆕 Aug 16, 2026 |
 | **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | 🆕 Aug 16, 2026 |
+| **Google** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | 🆕 Aug 16, 2026 |
 | **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Algorithm | 🆕 Aug 16, 2026 |
+| **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | 🆕 Aug 16, 2026 |
+| **Microsoft** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | 🆕 Aug 16, 2026 |
+| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | 🆕 Aug 15, 2026 |
+| **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | 🆕 Aug 15, 2026 |
+| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Algorithm | 🆕 Aug 15, 2026 |
 | **Amazon** | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | 🆕 Aug 14, 2026 |
 | **Amazon** | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | 🆕 Aug 14, 2026 |
 | **Amazon** | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Algorithm | 🆕 Aug 14, 2026 |
 | **Amazon** | [Group Anagrams (LC 49)](https://trueinterview.io/questions/group-anagrams-lc-49) | Algorithm | 🆕 Aug 14, 2026 |
+| **OpenAI** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | 🆕 Aug 13, 2026 |
+| **Google** | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | 🆕 Aug 13, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | 🆕 Aug 13, 2026 |
 | **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | 🆕 Aug 13, 2026 |
 | **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | 🆕 Aug 13, 2026 |
@@ -187,70 +224,33 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | 🆕 Aug 13, 2026 |
 | **Amazon** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | SQL | 🆕 Aug 13, 2026 |
 | **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | SQL | 🆕 Aug 13, 2026 |
+| **Roblox** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Algorithm | 🆕 Aug 12, 2026 |
 | **Affirm** | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | 🆕 Aug 12, 2026 |
 | **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | 🆕 Aug 12, 2026 |
 | **Figma** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | 🆕 Aug 12, 2026 |
 | **Figma** | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | 🆕 Aug 12, 2026 |
 | **Figma** | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | 🆕 Aug 12, 2026 |
+| **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | 🆕 Aug 11, 2026 |
+| **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | 🆕 Aug 11, 2026 |
+| **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Algorithm | 🆕 Aug 11, 2026 |
+| **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | 🆕 Aug 10, 2026 |
 | **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | 🆕 Aug 09, 2026 |
+| **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | 🆕 Aug 08, 2026 |
+| **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | 🆕 Aug 08, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | System Design | 🆕 Aug 08, 2026 |
 | **Affirm** | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Aug 07, 2026 |
 | **ByteDance** | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Object Oriented Programming | Aug 06, 2026 |
 | **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Aug 06, 2026 |
+| **Citadel** | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Aug 05, 2026 |
+| **Citadel** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Aug 05, 2026 |
+| **Apple** | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Aug 05, 2026 |
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Aug 04, 2026 |
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Aug 04, 2026 |
+| **Pinterest** | [Experiment Bucket Allocation / Rebalancing](https://trueinterview.io/questions/experiment-bucket-allocation-rebalancing) | Object Oriented Programming | Aug 03, 2026 |
+| **Snowflake** | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Aug 01, 2026 |
 | **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Aug 01, 2026 |
-| **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Jul 30, 2026 |
-| **ByteDance** | [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) | Algorithm | Jul 29, 2026 |
-| **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Jul 29, 2026 |
-| **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Jul 29, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Jul 29, 2026 |
-| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Jul 29, 2026 |
-| **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Jul 29, 2026 |
-| **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Jul 29, 2026 |
-| **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Jul 29, 2026 |
-| **Salesforce** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Jul 26, 2026 |
-| **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Jul 26, 2026 |
-| **Pinterest** | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | SQL | Jul 23, 2026 |
-| **Amazon** | [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model) | Object Oriented Programming | Jul 22, 2026 |
-| **Amazon** | [Word Segmentation with a Dictionary Helper](https://trueinterview.io/questions/word-segmentation-dictionary-helper) | Algorithm | Jul 22, 2026 |
-| **Amazon** | [Fulfillment-Center Inventory Transfer](https://trueinterview.io/questions/fulfillment-center-inventory-transfer) | Algorithm | Jul 22, 2026 |
-| **xAI** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Jul 22, 2026 |
-| **ByteDance** | [Signup Activation Rate](https://trueinterview.io/questions/signup-activation-rate) | SQL | Jul 22, 2026 |
-| **Stripe** | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | SQL | Jul 22, 2026 |
-| **Snowflake** | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Jul 22, 2026 |
-| **Snapchat** | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Jul 22, 2026 |
-| **Pinterest** | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | SQL | Jul 22, 2026 |
-| **Pinterest** | [Same Week Purchases](https://trueinterview.io/questions/same-week-purchases) | SQL | Jul 22, 2026 |
-| **Microsoft** | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | SQL | Jul 22, 2026 |
-| **Meta** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Jul 22, 2026 |
-| **Meta** | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Jul 22, 2026 |
-| **LinkedIn** | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | SQL | Jul 22, 2026 |
-| **Google** | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | SQL | Jul 22, 2026 |
-| **Google** | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | SQL | Jul 22, 2026 |
-| **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Jul 22, 2026 |
-| **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Jul 22, 2026 |
-| **Amazon** | [User Shopping Sprees](https://trueinterview.io/questions/user-shopping-sprees) | SQL | Jul 22, 2026 |
-| **Amazon** | [Server Utilization Time](https://trueinterview.io/questions/server-utilization-time) | SQL | Jul 22, 2026 |
-| **Amazon** | [Maximize Prime Item Inventory](https://trueinterview.io/questions/maximize-prime-item-inventory) | SQL | Jul 22, 2026 |
-| **Amazon** | [Highest-Grossing Items](https://trueinterview.io/questions/highest-grossing-items) | SQL | Jul 22, 2026 |
-| **Amazon** | [Best-Selling Product](https://trueinterview.io/questions/best-selling-product) | SQL | Jul 22, 2026 |
-| **Airbnb** | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | SQL | Jul 22, 2026 |
-| **Amazon** | [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention) | Algorithm | Jul 20, 2026 |
-| **Pinduoduo** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Algorithm | Jul 17, 2026 |
-| **Pinduoduo** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Jul 17, 2026 |
-| **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Jul 16, 2026 |
-| **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Jul 16, 2026 |
-| **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Jul 15, 2026 |
-| **Amazon** | [Edit Distance (LC 72) with a Follow-Up Variant](https://trueinterview.io/questions/edit-distance-one-reverse) | Algorithm | Jul 14, 2026 |
-| **Amazon** | [Best Time to Buy & Sell Stock — Merged Variants](https://trueinterview.io/questions/buy-sell-stock-merged-variants) | Algorithm | Jul 10, 2026 |
-| **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Jul 10, 2026 |
-| **Figma** | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Jul 09, 2026 |
-| **Waymo** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Jul 09, 2026 |
-| **Harvey** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Jul 07, 2026 |
-| **Walmart Labs** | [Minimum Talent-Complete Team from Every Start](https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start) | Algorithm | Jul 07, 2026 |
-| **Walmart Labs** | [Merge Strings Alternately](https://trueinterview.io/questions/merge-strings-alternately) | Algorithm | Jul 07, 2026 |
-| **Walmart Labs** | [AI-Assisted Full-Stack OA (Spring Boot + React)](https://trueinterview.io/questions/ai-assisted-fullstack-oa) | AI Coding | Jul 07, 2026 |
+| **OpenAI** | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Jul 31, 2026 |
+| **Databricks** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Jul 30, 2026 |
 <!-- gen:latest:end -->
 
 <sub>The newest slice, not the bank — use the navigation above for the rest. Every question

@@ -2,7 +2,7 @@
 
 # Ebay interview process, OA & interview questions
 
-**30 questions** reported at Ebay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
+**32 questions** reported at Ebay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,43 +14,47 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **30** |
-| Most recent sighting | Jun 17, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 30) |
-| Difficulty (easy / medium / hard) | 7 / 17 / 6 |
-| Free to practise | [4](../free/README.md) |
+| Questions tracked | **32** |
+| Most recent sighting | Aug 21, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (69% of 32) |
+| Difficulty (easy / medium / hard) | 8 / 18 / 6 |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 30 questions reported at Ebay. 11 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 32 questions reported at Ebay. 13 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **30 of 30** questions at Ebay that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **32 of 32** questions at Ebay that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (78%) | 5 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 1 / 11 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████ | [System Design](../formats/system-design.md) (67%) | 1 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 1 / 12 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 11 | ███████ | [System Design](../formats/system-design.md) (55%) | 2 / 6 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Ebay since Jun 17, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 21, 2026 |
 
 ## What they ask about
 
-Of the **16 questions at Ebay that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Ebay that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 5 | 31% | ████████████ | Jun 12, 2026 |
-| `hashing` | 4 | 25% | ██████████ | — |
-| `strings` | 4 | 25% | ██████████ | Jun 12, 2026 |
-| `graphs` | 2 | 12% | █████ | — |
-| `binary-search` | 1 | 6% | ██ | — |
+| `arrays` | 6 | 35% | ████████████ | Aug 21, 2026 |
+| `hashing` | 4 | 24% | ████████ | — |
+| `strings` | 4 | 24% | ████████ | Jun 12, 2026 |
+| `binary-search` | 2 | 12% | ████ | Aug 21, 2026 |
+| `graphs` | 2 | 12% | ████ | — |
 | `heap` | 1 | 6% | ██ | — |
 | `intervals` | 1 | 6% | ██ | — |
 | `sliding-window` | 1 | 6% | ██ | — |
@@ -60,12 +64,14 @@ Of the **16 questions at Ebay that carry a topic label** (53% of them — the re
 
 ## When they asked it
 
-Every recorded sighting at Ebay, by the month it was reported in — Apr 01, 2025 to Jun 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Ebay, by the month it was reported in — Apr 01, 2025 to Aug 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 6 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 2 | ████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ████ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ████ |
 | [Apr 2025](../by-month/2025-04.md) | 1 | ████ |
@@ -76,14 +82,14 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **2** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
-| **3** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | — | Jun 12, 2026 |
-| **4** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | — | Jun 12, 2026 |
-| **5** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | 1 | Jun 11, 2026 |
-| **6** | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | 3 | Jun 04, 2026 |
-| **7** | [Valid Number](https://trueinterview.io/questions/lc-valid-number) | Algorithm | Medium | 1 | May 16, 2026 |
-| **8** | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | 3 | May 12, 2026 |
+| **1** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
+| **2** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
+| **3** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
+| **4** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | — | Jun 12, 2026 |
+| **5** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | — | Jun 12, 2026 |
+| **6** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | 1 | Jun 11, 2026 |
+| **7** | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | 3 | Jun 04, 2026 |
+| **8** | [Valid Number](https://trueinterview.io/questions/lc-valid-number) | Algorithm | Medium | 1 | May 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -105,6 +111,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 🆕 Aug 21, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | Jun 12, 2026 |
 | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | Jun 12, 2026 |
@@ -113,6 +120,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
 | [Valid Number](https://trueinterview.io/questions/lc-valid-number) | Algorithm | Medium | May 16, 2026 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
+| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Algorithm | Easy | Apr 2025 |

@@ -2,7 +2,7 @@
 
 # 🔬 Semiconductors & chips — interview & OA questions
 
-**26 questions** reported across the **1 Semiconductors & chips employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**29 questions** reported across the **1 Semiconductors & chips employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[NVIDIA (26)](../companies/nvidia.md)
+[NVIDIA (29)](../companies/nvidia.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,39 +18,41 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 16 | 62% | ██████████████ | 4 |
-| [System Design](../formats/system-design.md) | 4 | 15% | ████ | 0 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 12% | ███ | 1 |
-| [AI Coding](../formats/ai-coding.md) | 2 | 8% | ██ | 0 |
-| [SQL](../formats/sql.md) | 1 | 4% | █ | 0 |
+| [Algorithm](../formats/algorithm.md) | 18 | 62% | ██████████████ | 4 |
+| [System Design](../formats/system-design.md) | 5 | 17% | ████ | 0 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 10% | ██ | 1 |
+| [AI Coding](../formats/ai-coding.md) | 2 | 7% | ██ | 0 |
+| [SQL](../formats/sql.md) | 1 | 3% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **6 / 12 / 8**, over the rows the catalog has graded. 5 of the 26 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **6 / 15 / 8**, over the rows the catalog has graded. 5 of the 29 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **11 questions in this cut that carry a topic label** (42% of it):
+Of the **12 questions in this cut that carry a topic label** (41% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `heap` | 2 | 18% | ████████████ |
-| `strings` | 2 | 18% | ████████████ |
-| `arrays` | 1 | 9% | ██████ |
-| `binary-search` | 1 | 9% | ██████ |
-| `graphs` | 1 | 9% | ██████ |
-| `greedy` | 1 | 9% | ██████ |
-| `hashing` | 1 | 9% | ██████ |
-| `intervals` | 1 | 9% | ██████ |
-| `matrix` | 1 | 9% | ██████ |
-| `sliding-window` | 1 | 9% | ██████ |
+| `arrays` | 2 | 17% | ████████████ |
+| `binary-search` | 2 | 17% | ████████████ |
+| `heap` | 2 | 17% | ████████████ |
+| `strings` | 2 | 17% | ████████████ |
+| `graphs` | 1 | 8% | ██████ |
+| `greedy` | 1 | 8% | ██████ |
+| `hashing` | 1 | 8% | ██████ |
+| `intervals` | 1 | 8% | ██████ |
+| `matrix` | 1 | 8% | ██████ |
+| `sliding-window` | 1 | 8% | ██████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** across this cut. Newest first.
+**5 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | NVIDIA … | Algorithm | Aug 21, 2026 |
+| [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | NVIDIA | System Design | Jul 03, 2026 |
 | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | NVIDIA | System Design | Jul 03, 2026 |
 | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | NVIDIA | System Design | Jul 03, 2026 |
 | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | NVIDIA | System Design | Jun 30, 2026 |
@@ -63,6 +65,8 @@ Of the **11 questions in this cut that carry a topic label** (42% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **ByteDance / Ebay / NVIDIA** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Medium | 🆕 Aug 21, 2026 |
+| **NVIDIA** | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | Medium | Jul 03, 2026 |
 | **NVIDIA** | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | Medium | Jul 03, 2026 |
 | **NVIDIA** | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | Hard | Jul 03, 2026 |
 | **NVIDIA** | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | Hard | Jun 30, 2026 |
@@ -79,6 +83,7 @@ Of the **11 questions in this cut that carry a topic label** (42% of it):
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
 | **NVIDIA** | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Hard | Dec 10, 2025 |
 | **NVIDIA** | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | Hard | — |
+| **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
 | **Oracle / Ebay / NVIDIA** | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Medium | — |
 | **NVIDIA / ByteDance / Ebay** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/ef59b32b-948c-4f2a-a1ea-0672a8432eae) | Medium | — |
 | **NVIDIA** | [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2) | Medium | — |

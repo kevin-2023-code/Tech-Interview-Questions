@@ -18,7 +18,7 @@
 | Most recent sighting | Aug 09, 2026 |
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (38% of 13) |
-| Difficulty (easy / medium / hard) | 0 / 8 / 5 |
+| Difficulty (easy / medium / hard) | 0 / 9 / 4 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 2 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **13 of 13** questions at Harvey th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 7 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 4 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 4 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 8 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **13 of 13** questions at Harvey th
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 09, 2026 |
-| [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Hard | Onsite / virtual onsite | Jul 07, 2026 |
+| [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Onsite / virtual onsite | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Onsite / virtual onsite | Jul 2026 |
 | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Jul 2026 |
 
@@ -81,7 +81,7 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) 🆓 | Algorithm | Hard | — | Aug 09, 2026 |
-| **2** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Hard | — | Jul 07, 2026 |
+| **2** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | — | Jul 07, 2026 |
 | **3** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | — | Jul 2026 |
 | **4** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | — | Jul 2026 |
 | **5** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
@@ -111,7 +111,7 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | 🆕 Aug 09, 2026 |
-| [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Hard | Jul 07, 2026 |
+| [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Jul 2026 |
 | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Jul 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |

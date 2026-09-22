@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (47)](../companies/waymo.md) · [Tesla (28)](../companies/tesla.md) · [Weride (20)](../companies/weride.md) · [Applied Intuition (17)](../companies/applied-intuition.md)
+[Waymo (48)](../companies/waymo.md) · [Tesla (27)](../companies/tesla.md) · [Weride (21)](../companies/weride.md) · [Applied Intuition (16)](../companies/applied-intuition.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,8 +18,8 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 74 | 67% | ██████████████ | 5 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 13 | 12% | ██ | 4 |
+| [Algorithm](../formats/algorithm.md) | 73 | 66% | ██████████████ | 5 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 14 | 13% | ███ | 4 |
 | [System Design](../formats/system-design.md) | 10 | 9% | ██ | 1 |
 | [SQL](../formats/sql.md) | 8 | 7% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 5% | █ | 0 |
@@ -28,7 +28,7 @@
 
 ## What they ask about
 
-Of the **59 questions in this cut that carry a topic label** (54% of it):
+Of the **58 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -36,7 +36,7 @@ Of the **59 questions in this cut that carry a topic label** (54% of it):
 | `hashing` | 7 | 12% | ██████ |
 | `greedy` | 6 | 10% | ██████ |
 | `math` | 6 | 10% | ██████ |
-| `strings` | 6 | 10% | ██████ |
+| `strings` | 5 | 9% | █████ |
 | `binary-search` | 4 | 7% | ████ |
 | `dynamic-programming` | 4 | 7% | ████ |
 | `matrix` | 4 | 7% | ████ |
@@ -68,6 +68,7 @@ Of the **59 questions in this cut that carry a topic label** (54% of it):
 | **Waymo** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Hard | Jul 09, 2026 |
 | **Waymo** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Hard | Jul 06, 2026 |
 | **Waymo** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Medium | Jul 02, 2026 |
+| **Waymo** | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Medium | Jun 13, 2026 |
 | **Waymo** | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Medium | Jun 04, 2026 |
 | **Tesla** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Medium | Jun 03, 2026 |
 | **Tesla** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Hard | May 27, 2026 |
@@ -101,11 +102,11 @@ Of the **59 questions in this cut that carry a topic label** (54% of it):
 | **Waymo** | [Prefix Autocomplete via Trie](https://trueinterview.io/questions/trie-prefix-autocomplete) | Medium | Mar 27, 2026 |
 | **Waymo** | [Car Maze with Incrementally Revealed Neighbors (DFS)](https://trueinterview.io/questions/car-maze-incremental-discovery-dfs) | Medium | Mar 25, 2026 |
 | **Waymo** | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Medium | Mar 23, 2026 |
+| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / Weride** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **Tesla** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | Hard | Mar 11, 2026 |
 | **Snowflake / Applied Intuition** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
-| **Tesla** | [Batched Trajectory Suffix Sum](https://trueinterview.io/questions/trajectory-suffix-sum) | Medium | Feb 03, 2026 |
 | **Tesla** | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Medium | Feb 03, 2026 |
 | **Waymo** | [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human) | Hard | Jan 29, 2026 |
 | **Waymo** | [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Medium | Jan 29, 2026 |
@@ -146,7 +147,6 @@ Of the **59 questions in this cut that carry a topic label** (54% of it):
 | **Applied Intuition** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Easy | — |
 | **Applied Intuition** | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Hard | — |
 | **Applied Intuition** | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | Medium | — |
-| **Applied Intuition** | [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Easy | — |
 | **Applied Intuition** | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Medium | — |
 | **Applied Intuition** | [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Hard | — |
 | **Applied Intuition** | [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1) | Hard | — |

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (95% of 19) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 5 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 19 questions reported at Pinduoduo. 10 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

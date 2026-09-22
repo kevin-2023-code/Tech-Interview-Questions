@@ -19,4 +19,4 @@
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | **Databricks / Square** | Medium | Apr 06, 2026 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | **Stripe / Affirm / Robinhood / Roblox / Uber** | Hard | Oct 26, 2025 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | **Databricks / Apple / Google / Oracle / Tesla** | Hard | May 03, 2026 |
-| [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | **Coinbase / Databricks / Robinhood / Square** | Hard | May 08, 2026 |
+| [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | **Robinhood / Coinbase / Databricks / Square** | Hard | Apr 2026 |

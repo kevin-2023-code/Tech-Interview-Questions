@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**87 questions** reported at OpenAI · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**101 questions** reported at OpenAI · **14 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,66 +14,71 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **87** |
-| Most recent sighting | Jul 15, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (32% of 87) |
-| Difficulty (easy / medium / hard) | 6 / 47 / 34 |
+| Questions tracked | **101** |
+| Most recent sighting | Aug 22, 2026 |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (39% of 101) |
+| Difficulty (easy / medium / hard) | 7 / 53 / 41 |
 | Free to practise | [11](../free/README.md) |
-| Guides & writeups | 11 |
+| Guides & writeups | 14 |
 
-<sub>Counted from the 87 questions reported at OpenAI. 48 of them carry a sighting date; the other 39 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 101 questions reported at OpenAI. 53 of them carry a sighting date; the other 48 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **87 of 87** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **101 of 101** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (60%) | 3 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 40 | ███████ | [Algorithm](../formats/algorithm.md) (58%) | 1 / 26 / 13 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 59 | ██████████ | [System Design](../formats/system-design.md) (34%) | 2 / 31 / 26 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 48 | ███████ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 29 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 65 | ██████████ | [System Design](../formats/system-design.md) (34%) | 4 / 32 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 15, 2026 |
+| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Hard | Phone screen, Onsite / virtual onsite | Aug 22, 2026 |
+| [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | Onsite / virtual onsite | Aug 13, 2026 |
+| [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Medium | Onsite / virtual onsite | Aug 08, 2026 |
+| [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Medium | Onsite / virtual onsite | Jul 31, 2026 |
+| [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | Onsite / virtual onsite | Jul 16, 2026 |
 
 ## What they ask about
 
-Of the **19 questions at OpenAI that carry a topic label** (22% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **26 questions at OpenAI that carry a topic label** (26% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 5 | 26% | ████████████ | May 15, 2026 |
-| `arrays` | 4 | 21% | ██████████ | Feb 04, 2026 |
-| `matrix` | 3 | 16% | ███████ | Feb 18, 2026 |
-| `backtracking` | 2 | 11% | █████ | May 26, 2026 |
-| `greedy` | 2 | 11% | █████ | — |
-| `hashing` | 2 | 11% | █████ | — |
-| `math` | 2 | 11% | █████ | May 26, 2026 |
-| `stack` | 2 | 11% | █████ | Dec 27, 2025 |
-| `bit-manipulation` | 1 | 5% | ██ | May 15, 2026 |
-| `intervals` | 1 | 5% | ██ | Feb 04, 2026 |
+| `strings` | 5 | 19% | ████████████ | May 15, 2026 |
+| `hashing` | 4 | 15% | ██████████ | Aug 22, 2026 |
+| `arrays` | 3 | 12% | ███████ | Feb 04, 2026 |
+| `backtracking` | 2 | 8% | █████ | May 26, 2026 |
+| `graphs` | 2 | 8% | █████ | — |
+| `greedy` | 2 | 8% | █████ | — |
+| `math` | 2 | 8% | █████ | Jul 31, 2026 |
+| `matrix` | 2 | 8% | █████ | Feb 18, 2026 |
+| `sorting` | 2 | 8% | █████ | Feb 04, 2026 |
+| `stack` | 2 | 8% | █████ | Dec 27, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2025 to Jul 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2025 to Aug 22, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
+| [Aug 2026](../by-month/2026-08.md) | 3 | ███████ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 11 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 10 | ██████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████ |
-| [Mar 2026](../by-month/2026-03.md) | 5 | ███████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | █████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 4 | █████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ███████ |
@@ -87,23 +92,26 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | — | Jul 15, 2026 |
-| **2** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | — | Jun 20, 2026 |
-| **3** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
-| **4** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | — | Jun 19, 2026 |
-| **5** | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | System Design | Hard | — | Jun 19, 2026 |
-| **6** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
-| **7** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Jun 11, 2026 |
-| **8** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | 1 | Jun 11, 2026 |
+| **1** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Hard | — | Aug 22, 2026 |
+| **2** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | — | Aug 13, 2026 |
+| **3** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Medium | — | Aug 08, 2026 |
+| **4** | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Medium | — | Jul 31, 2026 |
+| **5** | [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | — | Jul 16, 2026 |
+| **6** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | — | Jun 20, 2026 |
+| **7** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
+| **8** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | — | Jun 19, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**11 writeups** filed under OpenAI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**14 writeups** filed under OpenAI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
+| [Challenges and Strategies in Transitioning Non-Profit to For-Profit](https://trueinterview.io/study/89149d57-b4d1-4cb6-a153-b1118845ea1d) | — |
+| [Diagnosing and Fixing Transformer Model Training Performance Drop](https://trueinterview.io/study/b326bc75-155a-4590-88e2-a92fb8cd01a1) | — |
+| [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/study/engineering-management-fundamentals) | leadership, mentorship, ownership |
 | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/study/hm-bq-why-openai) | culture-fit, why-company |
 | [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/study/llm-inference-timeout-and-restart-strategy) | math, new, algorithm-design, math-reasoning, ml-knowledge |
 | [OpenAI AI Engineer Interview Process](https://trueinterview.io/study/openai-ai-engineer-interview-process) | — |
@@ -126,7 +134,11 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Jul 15, 2026 |
+| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Hard | 🆕 Aug 22, 2026 |
+| [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | 🆕 Aug 13, 2026 |
+| [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Medium | 🆕 Aug 08, 2026 |
+| [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Medium | Jul 31, 2026 |
+| [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | Jul 16, 2026 |
 | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | Jun 20, 2026 |
 | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Jun 19, 2026 |
 | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | System Design | Hard | Jun 19, 2026 |
@@ -155,6 +167,7 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design) | System Design | Hard | Mar 22, 2026 |
 | [Code Reading — 400-line PyTorch Refactor](https://trueinterview.io/questions/code-reading-pytorch-refactor) | AI Coding | Hard | Mar 09, 2026 |
 | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Algorithm | Hard | Mar 09, 2026 |
+| [Design IP Range Iterator](https://trueinterview.io/questions/design-ip-range-iterator) | Algorithm | Medium | Mar 03, 2026 |
 | [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Hard | Feb 18, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
@@ -174,12 +187,19 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | System Design | Medium | Oct 07, 2025 |
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
-| [ML Coding with NP and NN Layers](https://trueinterview.io/questions/59c77c9a-49d0-4955-be64-91473bb8ab7f) | Algorithm | Easy | — |
+| [Guess a Secret Number with One-Call Delayed Feedback](https://trueinterview.io/questions/e41553c0-20ac-51a0-bc69-17309dce31b6) | Algorithm | Medium | — |
+| [Find the Incorrect Data Labeler](https://trueinterview.io/questions/d2fcfdcf-7015-535c-aecb-8729bdd9edcf) | Algorithm | Medium | — |
+| [Versioned User Follow Graph with Snapshots](https://trueinterview.io/questions/a2405f87-543a-54c9-8884-3b476be29ece) | Algorithm | Hard | — |
+| [Snapshot Set](https://trueinterview.io/questions/8ed246bb-89da-5107-83a0-194469269a2a) | Algorithm | Hard | — |
+| [In-Memory Key-Value Database CRUD Implementation](https://trueinterview.io/questions/4c7b892d-2d33-4bb2-8855-2dc6a30fa1d1) | Object Oriented Programming | Easy | — |
+| [Dependency-Aware Multi-Agent Request Scheduler](https://trueinterview.io/questions/472b106a-5204-5e12-acf4-8a1fca2a099f) | Algorithm | Hard | — |
+| [GPU Credit System with Validity Windows](https://trueinterview.io/questions/1811d9e3-291b-5957-a868-af0368f92233) | Algorithm | Hard | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
-| [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Object Oriented Programming | Medium | — |
 | [Infectious Disease Simulation (Multi-part)](https://trueinterview.io/questions/06f15ce5-2ae4-473c-baa8-1edfdb0936f8) | Algorithm | Medium | — |
-| [Implement a Minimal SQL-Like Query Engine Over an In-Memory Database](https://trueinterview.io/questions/2b9e4599-47c1-4076-8f8f-b04086ee8a88) | Object Oriented Programming | Medium | — |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
+| [Friend Circle Detection](https://trueinterview.io/questions/4f1379cf-84aa-485a-80a7-23c14177a4da) | Algorithm | Medium | — |
+| [Dependency Resolution / Build Order](https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e) | Algorithm | Medium | — |
 | [Chatbot Channel: Multi-bot Message Router](https://trueinterview.io/questions/ddd9458c-76ca-4204-a65c-df13f65c5a0e) | Algorithm | Hard | — |
 | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
 | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Object Oriented Programming | Hard | — |
@@ -189,6 +209,7 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Algorithm | Hard | — |
 | [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Algorithm | Medium | — |
 | [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | AI Coding | Hard | — |
+| [CRUD Backend API and Debugging](https://trueinterview.io/questions/e971a19f-9946-4e1f-b431-aed746c00283) | Object Oriented Programming | Medium | — |
 | [Draw Paths / Strokes on a Set of Points](https://trueinterview.io/questions/e27c0df7-1849-4946-8f9d-70773e7d96e3) | Algorithm | Medium | — |
 | [Toy Language Interpreter](https://trueinterview.io/questions/d7b129eb-5166-4c1e-97bc-02132d748c47) | Algorithm | Easy | — |
 | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | AI Coding | Medium | — |
@@ -211,5 +232,6 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Algorithm | Medium | — |
 | [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | AI Coding | Hard | — |
 | [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Object Oriented Programming | Medium | — |
-| [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Object Oriented Programming | Medium | — |
+| [Design an in-memory rate limiter (token bucket / sliding window)](https://trueinterview.io/questions/91b46503-5a56-4b8a-a1f3-b4f15da02b11) | Object Oriented Programming | Medium | — |
+| [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Object Oriented Programming | Easy | — |
 | [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Object Oriented Programming | Medium | — |

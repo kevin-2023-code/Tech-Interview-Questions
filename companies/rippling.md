@@ -2,7 +2,7 @@
 
 # Rippling interview process, OA & interview questions
 
-**26 questions** reported at Rippling · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
+**27 questions** reported at Rippling · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
+| Questions tracked | **27** |
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (35% of 26) |
-| Difficulty (easy / medium / hard) | 1 / 18 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (37% of 27) |
+| Difficulty (easy / medium / hard) | 1 / 19 / 7 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 26 questions reported at Rippling. 13 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 27 questions reported at Rippling. 13 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at Rippling that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **27 of 27** questions at Rippling that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [SQL](../formats/sql.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 0 / 14 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 16 | █████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 11 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 17 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (47%) | 0 / 12 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -47,7 +47,7 @@ Which stage each question came from, for the **26 of 26** questions at Rippling 
 
 ## What they ask about
 
-Of the **9 questions at Rippling that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Rippling that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -125,6 +125,7 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Music Player](https://trueinterview.io/questions/music-player) | Object Oriented Programming | Medium | Dec 08, 2025 |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Delivery Cost Problem](https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d) | Algorithm | Medium | — |
 | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Algorithm | Medium | — |

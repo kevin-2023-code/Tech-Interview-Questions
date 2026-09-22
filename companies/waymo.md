@@ -2,7 +2,7 @@
 
 # Waymo interview process, OA & interview questions
 
-**47 questions** reported at Waymo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
+**48 questions** reported at Waymo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **47** |
+| Questions tracked | **48** |
 | Most recent sighting | Jul 09, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 47) |
-| Difficulty (easy / medium / hard) | 1 / 32 / 14 |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 48) |
+| Difficulty (easy / medium / hard) | 1 / 33 / 14 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 47 questions reported at Waymo. 41 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 48 questions reported at Waymo. 42 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **47 of 47** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **48 of 48** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ██ | [SQL](../formats/sql.md) (100%) | 0 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 26 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 20 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 4 | █ | [SQL](../formats/sql.md) (100%) | 0 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 27 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 0 / 21 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 19 | ███████ | [Algorithm](../formats/algorithm.md) (37%) | 1 / 11 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -48,7 +48,7 @@ Which stage each question came from, for the **47 of 47** questions at Waymo tha
 
 ## What they ask about
 
-Of the **22 questions at Waymo that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Waymo that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -72,7 +72,7 @@ Every recorded sighting at Waymo, by the month it was reported in — Sep 29, 20
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 3 | ██████ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ██ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ████ |
 | [May 2026](../by-month/2026-05.md) | 13 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 10 | ██████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ██████ |
@@ -90,11 +90,11 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | **1** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | — | Jul 09, 2026 |
 | **2** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | — | Jul 06, 2026 |
 | **3** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | — | Jul 02, 2026 |
-| **4** | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | — | Jun 04, 2026 |
-| **5** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | SQL | Medium | — | May 23, 2026 |
-| **6** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | SQL | Medium | — | May 23, 2026 |
-| **7** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | SQL | Medium | — | May 23, 2026 |
-| **8** | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | SQL | Hard | — | May 23, 2026 |
+| **4** | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Object Oriented Programming | Medium | — | Jun 13, 2026 |
+| **5** | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | — | Jun 04, 2026 |
+| **6** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | SQL | Medium | — | May 23, 2026 |
+| **7** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | SQL | Medium | — | May 23, 2026 |
+| **8** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | SQL | Medium | — | May 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -121,6 +121,7 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | Jul 06, 2026 |
 | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | Jul 02, 2026 |
+| [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Object Oriented Programming | Medium | Jun 13, 2026 |
 | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | Jun 04, 2026 |
 | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | SQL | Hard | May 23, 2026 |
 | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | SQL | Medium | May 23, 2026 |

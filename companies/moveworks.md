@@ -2,13 +2,13 @@
 
 # Moveworks interview process, OA & interview questions
 
-**3 questions** reported at Moveworks · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/moveworks), judged server-side.
+**3 questions** reported at Moveworks. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/moveworks), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-moveworks)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-moveworks)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 0 / 3 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 3 questions reported at Moveworks. 0 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -60,16 +59,6 @@ The 3 questions to open first if you are preparing for Moveworks. **This is not 
 | **3** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at Moveworks — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Moveworks Technical Screen Interview Experience](https://trueinterview.io/interviews/48aa2c18-dc27-48f1-b264-23937c3d9b75) | Sep 16, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,588 in total). [Every report at Moveworks and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

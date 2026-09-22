@@ -2,7 +2,7 @@
 
 # Yelp interview process, OA & interview questions
 
-**17 questions** reported at Yelp. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/yelp), judged server-side on the algorithm, low-level-design and SQL formats.
+**16 questions** reported at Yelp. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/yelp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **17** |
+| Questions tracked | **16** |
 | Most recent sighting | Apr 12, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (53% of 17) |
-| Difficulty (easy / medium / hard) | 4 / 9 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (50% of 16) |
+| Difficulty (easy / medium / hard) | 4 / 10 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 17 questions reported at Yelp. 13 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 16 questions reported at Yelp. 13 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **17 of 17** questions at Yelp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **16 of 16** questions at Yelp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 12 | ████████ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 8 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 9 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 11 | ███████ | [Algorithm](../formats/algorithm.md) (73%) | 3 / 8 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **17 of 17** questions at Yelp that
 
 ## What they ask about
 
-Of the **8 questions at Yelp that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Yelp that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -107,7 +107,6 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 | [Merge Common Substring](https://trueinterview.io/questions/merge-common-substring) | Algorithm | Medium | Apr 20, 2025 |
 | [Jaccard Business Similarity](https://trueinterview.io/questions/jaccard-business-similarity) | Algorithm | Easy | Apr 20, 2025 |
 | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Algorithm | Easy | Apr 20, 2025 |
-| [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | System Design | Hard | — |
+| [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | System Design | Medium | — |
 | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Algorithm | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
-| [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |

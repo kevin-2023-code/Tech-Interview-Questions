@@ -41,14 +41,13 @@ Which stage each question came from, for the **6 of 6** questions at GEICO that 
 
 ## What they ask about
 
-Of the **4 questions at GEICO that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at GEICO that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 2 | 50% | ████████████ | — |
-| `arrays` | 1 | 25% | ██████ | — |
-| `hashing` | 1 | 25% | ██████ | — |
-| `strings` | 1 | 25% | ██████ | — |
+| `dynamic-programming` | 2 | 67% | ████████████ | — |
+| `arrays` | 1 | 33% | ██████ | — |
+| `hashing` | 1 | 33% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

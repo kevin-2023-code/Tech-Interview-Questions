@@ -2,7 +2,7 @@
 
 # Microsoft AI interview process, OA & interview questions
 
-**12 questions** reported at Microsoft AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft-ai), judged server-side on the algorithm, low-level-design and SQL formats.
+**13 questions** reported at Microsoft AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **12** |
+| Questions tracked | **13** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [System Design](../formats/system-design.md) (50% of 12) |
-| Difficulty (easy / medium / hard) | 2 / 6 / 4 |
+| Most common format | [System Design](../formats/system-design.md) (46% of 13) |
+| Difficulty (easy / medium / hard) | 2 / 7 / 4 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 12 questions reported at Microsoft AI. 7 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 13 questions reported at Microsoft AI. 7 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **12 of 12** questions at Microsoft AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **13 of 13** questions at Microsoft AI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 5 | ██████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████████ | [System Design](../formats/system-design.md) (67%) | 2 / 4 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 5 | █████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 10 | ██████████ | [System Design](../formats/system-design.md) (60%) | 2 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -47,13 +47,14 @@ Which stage each question came from, for the **12 of 12** questions at Microsoft
 
 ## What they ask about
 
-Of the **2 questions at Microsoft AI that carry a topic label** (17% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Microsoft AI that carry a topic label** (23% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 1 | 50% | ████████████ | — |
-| `hashing` | 1 | 50% | ████████████ | — |
-| `heap` | 1 | 50% | ████████████ | Jul 29, 2026 |
+| `arrays` | 1 | 33% | ████████████ | — |
+| `graphs` | 1 | 33% | ████████████ | — |
+| `hashing` | 1 | 33% | ████████████ | — |
+| `heap` | 1 | 33% | ████████████ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -106,6 +107,7 @@ The 8 questions to open first if you are preparing for Microsoft AI, ranked by *
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2) | Object Oriented Programming | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
+| [Suffix Maximum Count](https://trueinterview.io/questions/suffix-maximum-count-2) | Algorithm | Medium | — |
 | [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Algorithm | Medium | — |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |

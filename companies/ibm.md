@@ -2,7 +2,7 @@
 
 # IBM interview process, OA & interview questions
 
-**19 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
+**16 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
+| Questions tracked | **16** |
 | Most recent sighting | May 30, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (95% of 19) |
-| Difficulty (easy / medium / hard) | 3 / 16 / 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (94% of 16) |
+| Difficulty (easy / medium / hard) | 2 / 14 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 19 questions reported at IBM. 11 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 16 questions reported at IBM. 11 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at IBM that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **16 of 16** questions at IBM that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 3 / 10 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 2 / 10 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 4 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,20 +41,20 @@ Which stage each question came from, for the **19 of 19** questions at IBM that 
 
 ## What they ask about
 
-Of the **16 questions at IBM that carry a topic label** (84% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at IBM that carry a topic label** (88% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 4 | 25% | ████████████ | May 30, 2026 |
-| `intervals` | 3 | 19% | █████████ | Feb 26, 2026 |
-| `sliding-window` | 3 | 19% | █████████ | Feb 22, 2026 |
-| `strings` | 3 | 19% | █████████ | Nov 07, 2025 |
-| `arrays` | 2 | 12% | ██████ | Apr 25, 2026 |
-| `hashing` | 2 | 12% | ██████ | Feb 22, 2026 |
-| `sorting` | 2 | 12% | ██████ | Feb 26, 2026 |
-| `dynamic-programming` | 1 | 6% | ███ | Sep 09, 2025 |
-| `graphs` | 1 | 6% | ███ | Sep 21, 2025 |
-| `math` | 1 | 6% | ███ | May 30, 2026 |
+| `greedy` | 4 | 29% | ████████████ | May 30, 2026 |
+| `intervals` | 3 | 21% | █████████ | Feb 26, 2026 |
+| `strings` | 3 | 21% | █████████ | Nov 07, 2025 |
+| `arrays` | 2 | 14% | ██████ | Apr 25, 2026 |
+| `hashing` | 2 | 14% | ██████ | Feb 22, 2026 |
+| `sliding-window` | 2 | 14% | ██████ | Feb 22, 2026 |
+| `sorting` | 2 | 14% | ██████ | Feb 26, 2026 |
+| `dynamic-programming` | 1 | 7% | ███ | Sep 09, 2025 |
+| `graphs` | 1 | 7% | ███ | Sep 21, 2025 |
+| `math` | 1 | 7% | ███ | May 30, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -79,7 +79,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | 1 | May 30, 2026 |
 | **2** | [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) 🆓 | Algorithm | Medium | — | Apr 25, 2026 |
-| **3** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | — | Feb 26, 2026 |
+| **3** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | 2 | Feb 26, 2026 |
 | **4** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Algorithm | Medium | — | Feb 22, 2026 |
 | **5** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Algorithm | Medium | — | Feb 22, 2026 |
 | **6** | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Algorithm | Medium | — | Nov 07, 2025 |
@@ -119,11 +119,8 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | [Minimum Link Reallocation to Connect Repositories](https://trueinterview.io/questions/minimum-link-reallocation) | Algorithm | Medium | Sep 21, 2025 |
 | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Algorithm | Medium | Sep 09, 2025 |
 | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Algorithm | Medium | Sep 09, 2025 |
-| [Merge 2 Arrays](https://trueinterview.io/questions/4920427a-c447-463d-8860-284fa28e7649) | Algorithm | Easy | — |
 | [Reverse Last Two Characters with a Space](https://trueinterview.io/questions/aed17c65-c5b3-4e56-a00d-9edbfd9f0f59) | Algorithm | Easy | — |
 | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Algorithm | Medium | — |
 | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Algorithm | Medium | — |
 | [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Algorithm | Medium | — |
-| [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Algorithm | Medium | — |
-| [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

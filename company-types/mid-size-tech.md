@@ -2,7 +2,7 @@
 
 # 🏤 Mid-sized tech (200–999) — interview & OA questions
 
-**77 questions** reported across the **9 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**78 questions** reported across the **9 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Amplitude (6)](../companies/amplitude.md) · [Airtable (5)](../companies/airtable.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md)
+[Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Amplitude (6)](../companies/amplitude.md) · [Airtable (5)](../companies/airtable.md) · [Rokt (5)](../companies/rokt.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Moveworks (3)](../companies/moveworks.md)
 
 <sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,29 +18,29 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 38 | 49% | ██████████████ | 8 |
+| [Algorithm](../formats/algorithm.md) | 39 | 50% | ██████████████ | 8 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 21 | 27% | ████████ | 7 |
 | [System Design](../formats/system-design.md) | 13 | 17% | █████ | 3 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 6% | ██ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **5 / 60 / 12**, over the rows the catalog has graded. 18 of the 77 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **5 / 63 / 10**, over the rows the catalog has graded. 18 of the 78 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **30 questions in this cut that carry a topic label** (39% of it):
+Of the **31 questions in this cut that carry a topic label** (40% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 7 | 23% | ████████████ |
 | `trees` | 7 | 23% | ████████████ |
-| `graphs` | 6 | 20% | ██████████ |
-| `strings` | 5 | 17% | █████████ |
+| `graphs` | 6 | 19% | ██████████ |
+| `strings` | 5 | 16% | █████████ |
 | `tries` | 4 | 13% | ███████ |
 | `backtracking` | 3 | 10% | █████ |
 | `math` | 3 | 10% | █████ |
 | `sorting` | 3 | 10% | █████ |
-| `arrays` | 2 | 7% | ███ |
-| `intervals` | 2 | 7% | ███ |
+| `arrays` | 2 | 6% | ███ |
+| `binary-search` | 2 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -70,7 +70,7 @@ Of the **30 questions in this cut that carry a topic label** (39% of it):
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
 | **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Hard | Jul 10, 2026 |
-| **Harvey** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Hard | Jul 07, 2026 |
+| **Harvey** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Medium | Jul 07, 2026 |
 | **Harvey** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | Hard | Jul 2026 |
 | **Harvey** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Hard | Jul 2026 |
 | **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
@@ -89,7 +89,7 @@ Of the **30 questions in this cut that carry a topic label** (39% of it):
 | **Vanta** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Medium | Mar 17, 2026 |
 | **Perplexity / Microsoft** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Hard | Feb 23, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
-| **Perplexity** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Hard | Jan 06, 2026 |
+| **Perplexity** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Medium | Jan 06, 2026 |
 | **Snowflake / ByteDance / Databricks / Perplexity** | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Medium | Dec 27, 2025 |
 | **Perplexity** | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | Medium | Nov 22, 2025 |
 | **Perplexity** | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Medium | Oct 12, 2025 |
@@ -137,6 +137,7 @@ Of the **30 questions in this cut that carry a topic label** (39% of it):
 | **Vanta** | [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Easy | — |
 | **Harvey** | [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Medium | — |
 | **Perplexity** | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | Medium | — |
+| **Snapchat / ByteDance / Google / Meta / Pinduoduo / Rokt / Walmart Labs** | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Medium | — |
 | **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
 | **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |
 | **Perplexity** | [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Medium | — |

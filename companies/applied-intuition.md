@@ -2,7 +2,7 @@
 
 # Applied Intuition interview process, OA & interview questions
 
-**17 questions** reported at Applied Intuition · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition), judged server-side on the algorithm, low-level-design and SQL formats.
+**16 questions** reported at Applied Intuition · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **17** |
+| Questions tracked | **16** |
 | Most recent sighting | Apr 28, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 17) |
-| Difficulty (easy / medium / hard) | 3 / 9 / 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 16) |
+| Difficulty (easy / medium / hard) | 2 / 9 / 5 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 17 questions reported at Applied Intuition. 2 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 16 questions reported at Applied Intuition. 2 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **17 of 17** questions at Applied Intuition that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **16 of 16** questions at Applied Intuition that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 2 | ██ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 7 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 3 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -42,20 +42,20 @@ Which stage each question came from, for the **17 of 17** questions at Applied I
 
 ## What they ask about
 
-Of the **13 questions at Applied Intuition that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Applied Intuition that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 23% | ████████████ | — |
-| `hashing` | 3 | 23% | ████████████ | Apr 28, 2026 |
-| `math` | 3 | 23% | ████████████ | — |
-| `binary-search` | 2 | 15% | ████████ | — |
+| `graphs` | 3 | 25% | ████████████ | — |
+| `hashing` | 3 | 25% | ████████████ | Apr 28, 2026 |
+| `math` | 3 | 25% | ████████████ | — |
+| `binary-search` | 2 | 17% | ████████ | — |
 | `greedy` | 1 | 8% | ████ | — |
 | `intervals` | 1 | 8% | ████ | — |
 | `matrix` | 1 | 8% | ████ | — |
 | `sorting` | 1 | 8% | ████ | — |
 | `stack` | 1 | 8% | ████ | — |
-| `strings` | 1 | 8% | ████ | — |
+| `topological-sort` | 1 | 8% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -76,12 +76,12 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) 🆓 | Object Oriented Programming | Medium | 2 | Apr 28, 2026 |
 | **2** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) 🆓 | Object Oriented Programming | Medium | 1 | Feb 26, 2026 |
-| **3** | [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Algorithm | Easy | — | — |
-| **4** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | — | — |
-| **5** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Object Oriented Programming | Easy | — | — |
-| **6** | [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Algorithm | Medium | — | — |
-| **7** | [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76) | Algorithm | Medium | — | — |
-| **8** | [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) | Algorithm | Medium | — | — |
+| **3** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | — | — |
+| **4** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Object Oriented Programming | Easy | — | — |
+| **5** | [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Algorithm | Medium | — | — |
+| **6** | [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76) | Algorithm | Medium | — | — |
+| **7** | [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) | Algorithm | Medium | — | — |
+| **8** | [First Collision Time in a Multi-Agent Unicycle Simulator](https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -112,7 +112,6 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | — |
 | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Algorithm | Hard | — |
 | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | System Design | Medium | — |
-| [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Algorithm | Easy | — |
 | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Algorithm | Medium | — |
 | [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Algorithm | Hard | — |
 | [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1) | Algorithm | Hard | — |

@@ -2,13 +2,13 @@
 
 # StackAdapt interview process, OA & interview questions
 
-**5 questions** reported at StackAdapt · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stackadapt), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at StackAdapt. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stackadapt), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-stackadapt)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-stackadapt)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 0 / 3 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 5 questions reported at StackAdapt. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -65,19 +64,6 @@ The 5 questions to open first if you are preparing for StackAdapt. **This is not
 | **5** | [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) 🆓 | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at StackAdapt — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Data & AI | [Interview Experience](https://trueinterview.io/interviews/87cd3886-7c1c-4a52-82f6-ceb4047d6e3e) | Sep 16, 2026 |
-| Data & AI | [LeetCode 295 and Statistics Technical Interview Experience](https://trueinterview.io/interviews/b5aaef0f-4880-44b8-8899-4f48201b65bf) | Sep 16, 2026 |
-| Software | [Recipe & Supply OOP Design Interview Experience](https://trueinterview.io/interviews/a6fade67-795c-4c36-a2d6-18587228c881) | Sep 16, 2026 |
-| Software | [Windowed Map Design Interview Experience (Software Engineer, Injestion Team)](https://trueinterview.io/interviews/beb5ebea-0039-4823-afca-05216ea512c9) | Sep 16, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,588 in total). [Every report at StackAdapt and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

@@ -2,7 +2,7 @@
 
 # Airbnb interview process, OA & interview questions
 
-**48 questions** reported at Airbnb · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
+**51 questions** reported at Airbnb · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **48** |
+| Questions tracked | **51** |
 | Most recent sighting | Jul 22, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (46% of 48) |
-| Difficulty (easy / medium / hard) | 2 / 29 / 17 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 51) |
+| Difficulty (easy / medium / hard) | 2 / 30 / 19 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 48 questions reported at Airbnb. 39 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 51 questions reported at Airbnb. 39 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **48 of 48** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **51 of 51** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 26 | ████████ | [Algorithm](../formats/algorithm.md) (69%) | 0 / 19 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 31 | ██████████ | [System Design](../formats/system-design.md) (48%) | 2 / 15 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 28 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 20 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (50%) | 2 / 15 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **48 of 48** questions at Airbnb th
 
 ## What they ask about
 
-Of the **7 questions at Airbnb that carry a topic label** (15% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Airbnb that carry a topic label** (18% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 2 | 29% | ████████████ | Jan 07, 2026 |
-| `intervals` | 2 | 29% | ████████████ | Jan 07, 2026 |
-| `arrays` | 1 | 14% | ██████ | Feb 28, 2026 |
-| `binary-search` | 1 | 14% | ██████ | Jan 07, 2026 |
-| `graphs` | 1 | 14% | ██████ | Jun 17, 2026 |
-| `greedy` | 1 | 14% | ██████ | Sep 17, 2025 |
-| `hashing` | 1 | 14% | ██████ | May 19, 2026 |
-| `linked-list` | 1 | 14% | ██████ | May 19, 2026 |
-| `matrix` | 1 | 14% | ██████ | Feb 28, 2026 |
-| `two-pointers` | 1 | 14% | ██████ | Feb 28, 2026 |
+| `binary-search` | 2 | 22% | ████████████ | Jan 07, 2026 |
+| `dynamic-programming` | 2 | 22% | ████████████ | Jan 07, 2026 |
+| `graphs` | 2 | 22% | ████████████ | Jun 17, 2026 |
+| `intervals` | 2 | 22% | ████████████ | Jan 07, 2026 |
+| `arrays` | 1 | 11% | ██████ | Feb 28, 2026 |
+| `greedy` | 1 | 11% | ██████ | Sep 17, 2025 |
+| `hashing` | 1 | 11% | ██████ | May 19, 2026 |
+| `linked-list` | 1 | 11% | ██████ | May 19, 2026 |
+| `matrix` | 1 | 11% | ██████ | Feb 28, 2026 |
+| `sorting` | 1 | 11% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -160,12 +160,15 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Object Oriented Programming | Medium | Nov 07, 2025 |
 | [Text Box Formatter](https://trueinterview.io/questions/text-box-formatter) | Algorithm | Medium | Oct 07, 2025 |
 | [Payment Refund Allocation](https://trueinterview.io/questions/payment-refund-allocation) | Algorithm | Medium | Sep 17, 2025 |
+| [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection) | System Design | Hard | — |
+| [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Hard | — |
 | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | — |
 | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Algorithm | Medium | — |
 | [URL Parser with Percent Unquote](https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Find Split Stays for Airbnb Listings](https://trueinterview.io/questions/e03cb6a7-a689-4b72-ba5e-bc25eceb157b) | Algorithm | Medium | — |
+| [Water Pouring Problem](https://trueinterview.io/questions/b70c9cb6-02b6-445e-bc21-2135d02ea01b) | Algorithm | Medium | — |
 | [Dependency Resolution / Build Order](https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e) | Algorithm | Medium | — |
 | [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Algorithm | Medium | — |
 | [Lodging / Booking Problem (Airbnb-style)](https://trueinterview.io/questions/129e7f92-adec-40f3-b20c-105a2cc74c67) | Algorithm | Medium | — |

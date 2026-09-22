@@ -18,7 +18,7 @@
 | Most recent sighting | Jun 23, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [System Design](../formats/system-design.md) (46% of 26) |
-| Difficulty (easy / medium / hard) | 2 / 17 / 7 |
+| Difficulty (easy / medium / hard) | 2 / 16 / 8 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 7 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **26 of 26** questions at Reddit th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ██████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 11 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 12 | ██████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 19 | ██████████ | [System Design](../formats/system-design.md) (63%) | 1 / 12 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -125,7 +125,7 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Design Reddit Comments Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system) | System Design | Medium | Mar 23, 2026 |
 | [Feature Store](https://trueinterview.io/questions/feature-store) | System Design | Medium | Mar 23, 2026 |
-| [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Algorithm | Medium | Mar 2026 |
+| [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Algorithm | Hard | Mar 2026 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Mar 2026 |
 | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Algorithm | Easy | Mar 2026 |
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |

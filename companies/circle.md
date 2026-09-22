@@ -17,7 +17,7 @@
 | Questions tracked | **5** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (60% of 5) |
 | Difficulty (easy / medium / hard) | 1 / 2 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
@@ -30,9 +30,8 @@ Which stage each question came from, for the **5 of 5** questions at Circle that
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 2 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -57,7 +56,7 @@ The 5 questions to open first if you are preparing for Circle. **This is not a r
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc) | Algorithm | Easy | — | — |
+| **1** | [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc) | Object Oriented Programming | Easy | — | — |
 | **2** | [Task Query by Time and Name Filter with Sorting](https://trueinterview.io/questions/091d8486-b41a-4846-8a15-c30d696e1a7f) 🆓 | Algorithm | Medium | — | — |
 | **3** | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Object Oriented Programming | Medium | — | — |
 | **4** | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) 🆓 | Object Oriented Programming | Hard | — | — |
@@ -84,7 +83,7 @@ The 5 questions to open first if you are preparing for Circle. **This is not a r
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Object Oriented Programming | Medium | — |
-| [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc) | Algorithm | Easy | — |
+| [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc) | Object Oriented Programming | Easy | — |
 | [User Quota Scheduling with Expiring Assignments](https://trueinterview.io/questions/352f05c4-1319-4655-a5b4-7ce1c67f972c) | Algorithm | Hard | — |
 | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | Object Oriented Programming | Hard | — |
 | [Task Query by Time and Name Filter with Sorting](https://trueinterview.io/questions/091d8486-b41a-4846-8a15-c30d696e1a7f) | Algorithm | Medium | — |

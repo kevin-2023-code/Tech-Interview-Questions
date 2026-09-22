@@ -2,7 +2,7 @@
 
 # Tesla interview process, OA & interview questions
 
-**28 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
+**27 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **28** |
+| Questions tracked | **27** |
 | Most recent sighting | Jun 03, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 28) |
-| Difficulty (easy / medium / hard) | 2 / 17 / 9 |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 27) |
+| Difficulty (easy / medium / hard) | 2 / 16 / 9 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 28 questions reported at Tesla. 18 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 27 questions reported at Tesla. 17 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **28 of 28** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **27 of 27** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ██ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (61%) | 1 / 11 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | ████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 5 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 1 / 10 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | █████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 5 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -43,7 +43,7 @@ Which stage each question came from, for the **28 of 28** questions at Tesla tha
 
 ## What they ask about
 
-Of the **9 questions at Tesla that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Tesla that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -69,7 +69,7 @@ Every recorded sighting at Tesla, by the month it was reported in — Aug 23, 20
 | [May 2026](../by-month/2026-05.md) | 2 | ████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ████████ |
-| [Feb 2026](../by-month/2026-02.md) | 3 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ████████████████ |
@@ -124,7 +124,6 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | Apr 17, 2026 |
 | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | System Design | Hard | Mar 11, 2026 |
 | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Algorithm | Medium | Feb 21, 2026 |
-| [Batched Trajectory Suffix Sum](https://trueinterview.io/questions/trajectory-suffix-sum) | Algorithm | Medium | Feb 03, 2026 |
 | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Algorithm | Medium | Feb 03, 2026 |
 | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | AI Coding | Hard | Jan 15, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |

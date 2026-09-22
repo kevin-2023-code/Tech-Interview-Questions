@@ -2,7 +2,7 @@
 
 # Databricks interview process, OA & interview questions
 
-**54 questions** reported at Databricks · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
+**64 questions** reported at Databricks · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,63 +14,65 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **54** |
-| Most recent sighting | Jun 29, 2026 |
-| Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (37% of 54) |
-| Difficulty (easy / medium / hard) | 4 / 36 / 14 |
-| Free to practise | [10](../free/README.md) |
-| Guides & writeups | 3 |
+| Questions tracked | **64** |
+| Most recent sighting | Jul 30, 2026 |
+| Reported in the last 90 days | 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (42% of 64) |
+| Difficulty (easy / medium / hard) | 5 / 44 / 15 |
+| Free to practise | [11](../free/README.md) |
+| Guides & writeups | 6 |
 
-<sub>Counted from the 54 questions reported at Databricks. 40 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 64 questions reported at Databricks. 43 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **54 of 54** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **64 of 64** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | █ | [SQL](../formats/sql.md) (67%) | 1 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 22 | █████ | [Algorithm](../formats/algorithm.md) (64%) | 1 / 17 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 41 | ██████████ | [System Design](../formats/system-design.md) (46%) | 3 / 27 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 30 | ███████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 24 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 43 | ██████████ | [System Design](../formats/system-design.md) (47%) | 3 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jul 30, 2026 |
 | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 29, 2026 |
 | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 26, 2026 |
 
 ## What they ask about
 
-Of the **11 questions at Databricks that carry a topic label** (20% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Databricks that carry a topic label** (27% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 27% | ████████████ | May 05, 2026 |
-| `trees` | 3 | 27% | ████████████ | Feb 04, 2026 |
-| `hashing` | 2 | 18% | ████████ | Nov 07, 2025 |
-| `sliding-window` | 2 | 18% | ████████ | Nov 07, 2025 |
-| `arrays` | 1 | 9% | ████ | — |
-| `dynamic-programming` | 1 | 9% | ████ | Nov 18, 2025 |
-| `matrix` | 1 | 9% | ████ | Jun 01, 2026 |
-| `strings` | 1 | 9% | ████ | Nov 07, 2025 |
-| `tries` | 1 | 9% | ████ | Dec 27, 2025 |
+| `hashing` | 4 | 24% | ████████████ | Nov 07, 2025 |
+| `graphs` | 3 | 18% | █████████ | May 05, 2026 |
+| `matrix` | 3 | 18% | █████████ | Jun 01, 2026 |
+| `sliding-window` | 3 | 18% | █████████ | Nov 07, 2025 |
+| `trees` | 3 | 18% | █████████ | Feb 04, 2026 |
+| `arrays` | 2 | 12% | ██████ | May 31, 2026 |
+| `dynamic-programming` | 2 | 12% | ██████ | Nov 18, 2025 |
+| `strings` | 2 | 12% | ██████ | Nov 07, 2025 |
+| `tries` | 1 | 6% | ███ | Dec 27, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Databricks, by the month it was reported in — Oct 09, 2025 to Jun 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Databricks, by the month it was reported in — Jun 01, 2025 to Jul 30, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 9 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 7 | ███████████████████ |
+| [May 2026](../by-month/2026-05.md) | 8 | █████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 8 | █████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | █████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ███ |
@@ -78,6 +80,7 @@ Every recorded sighting at Databricks, by the month it was reported in — Oct 0
 | [Dec 2025](../by-month/2025-12.md) | 1 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 7 | ███████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 4 | ███████████ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | ███ |
 
 ## Start here
 
@@ -85,26 +88,29 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Algorithm | Medium | — | Jun 29, 2026 |
-| **2** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) 🆓 | Object Oriented Programming | Medium | 2 | Jun 26, 2026 |
-| **3** | [Design Book Price Aggregator](https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform) | System Design | Medium | — | Jun 18, 2026 |
-| **4** | [File Encryption Tree Optimization](https://trueinterview.io/questions/file-encryption-tree-optimization) | Algorithm | Hard | — | Jun 06, 2026 |
-| **5** | [Customer Revenue System](https://trueinterview.io/questions/revenue-tracking-system-with-referrals) | Object Oriented Programming | Medium | — | Jun 05, 2026 |
-| **6** | [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Object Oriented Programming | Medium | — | Jun 2026 |
-| **7** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Object Oriented Programming | Medium | — | Jun 2026 |
-| **8** | [Tetris Block Drop](https://trueinterview.io/questions/tetris-block-drop) | Algorithm | Medium | — | Jun 2026 |
+| **1** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | — | Jul 30, 2026 |
+| **2** | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Algorithm | Medium | — | Jun 29, 2026 |
+| **3** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | 1 | Jun 26, 2026 |
+| **4** | [Design Book Price Aggregator](https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform) | System Design | Medium | — | Jun 18, 2026 |
+| **5** | [File Encryption Tree Optimization](https://trueinterview.io/questions/file-encryption-tree-optimization) | Algorithm | Hard | — | Jun 06, 2026 |
+| **6** | [Customer Revenue System](https://trueinterview.io/questions/revenue-tracking-system-with-referrals) | Object Oriented Programming | Medium | — | Jun 05, 2026 |
+| **7** | [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Object Oriented Programming | Medium | — | Jun 2026 |
+| **8** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Object Oriented Programming | Medium | — | Jun 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**3 writeups** filed under Databricks in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**6 writeups** filed under Databricks in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Databricks Infrastructure Engineer Interview Process](https://trueinterview.io/study/databricks-infrastructure-engineer-interview-process) | — |
 | [Databricks Interview Process & Questions](https://trueinterview.io/study/databricks-interview-process) | — |
 | [Databricks Software Engineer Interview Process](https://trueinterview.io/study/databricks-software-engineer-interview-process) | — |
+| [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/study/18740a79-71e0-4f42-9231-0432e82af752) | — |
+| [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | culture-fit, fit, verbal, why-company |
+| [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | conflict, culture-fit, deep-dive, why-company |
 
 ---
 
@@ -116,6 +122,7 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Jul 30, 2026 |
 | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Algorithm | Medium | Jun 29, 2026 |
 | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Jun 26, 2026 |
 | [Design Book Price Aggregator](https://trueinterview.io/questions/book-price-aggregator-and-purchase-platform) | System Design | Medium | Jun 18, 2026 |
@@ -125,6 +132,7 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Tetris Block Drop](https://trueinterview.io/questions/tetris-block-drop) | Algorithm | Medium | Jun 2026 |
 | [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules) | Algorithm | Hard | Jun 2026 |
 | [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Object Oriented Programming | Medium | Jun 2026 |
+| [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Algorithm | Medium | May 31, 2026 |
 | [String Pattern Partition by Source Indices](https://trueinterview.io/questions/string-pattern-partition) | Algorithm | Medium | May 22, 2026 |
 | [Problem Statement](https://trueinterview.io/questions/problem-statement) | System Design | Medium | May 22, 2026 |
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
@@ -156,11 +164,19 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Multi-Threaded Chat System](https://trueinterview.io/questions/multi-threaded-chat-system) | Object Oriented Programming | Medium | Oct 24, 2025 |
 | [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) | System Design | Medium | Oct 09, 2025 |
+| [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
+| [KV Store with Sliding-Window Average Latency](https://trueinterview.io/questions/908ac171-29c9-53ff-b6ad-26faa94d0b1c) | Object Oriented Programming | Hard | — |
+| [Space-Efficient Versioned Set Snapshot Design](https://trueinterview.io/questions/7d84af64-a9ca-43ad-bef8-8a3725cf9d70) | Algorithm | Medium | — |
+| [Circuit Breaker Based Database Replica Routing](https://trueinterview.io/questions/4ce104e2-73c6-501b-8be8-92ced07f6431) | Algorithm | Medium | — |
+| [Count Encrypted Files in a Directory Tree](https://trueinterview.io/questions/09691fdc-0417-5cb5-ba45-91a19e04f104) | Algorithm | Medium | — |
+| [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
+| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
 | [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) | Algorithm | Medium | — |
 | [SQL for Data Analysis](https://trueinterview.io/questions/fbafc874-d6f5-487f-988f-47f0b70c83c1) | SQL | Medium | — |
+| [Revenue Calculation](https://trueinterview.io/questions/defc1881-3c2c-49ae-934b-39263ce423cf) | Algorithm | Medium | — |
 | [Bottom-K Customers by Revenue (with Nested Revenue Follow-up)](https://trueinterview.io/questions/ac49da6b-4bab-473b-9087-c81aa1bd7986) | Algorithm | Medium | — |
 | [Design Key Value Class with Average Operations](https://trueinterview.io/questions/abcd2c0b-6316-42ed-8a99-20aa16716961) | Object Oriented Programming | Medium | — |
 | [Top-5 Most Similar Rows Using MSE Across Multiple Features](https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50) | SQL | Hard | — |

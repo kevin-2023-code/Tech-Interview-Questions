@@ -2,7 +2,7 @@
 
 # Bloomberg interview process, OA & interview questions
 
-**55 questions** reported at Bloomberg · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
+**56 questions** reported at Bloomberg · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **55** |
+| Questions tracked | **56** |
 | Most recent sighting | Jul 22, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (73% of 55) |
-| Difficulty (easy / medium / hard) | 13 / 28 / 14 |
-| Free to practise | [11](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (73% of 56) |
+| Difficulty (easy / medium / hard) | 13 / 29 / 14 |
+| Free to practise | [12](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 55 questions reported at Bloomberg. 40 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 56 questions reported at Bloomberg. 41 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **55 of 55** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **56 of 56** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 6 / 20 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 28 | ████████ | [Algorithm](../formats/algorithm.md) (61%) | 4 / 14 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 36 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 6 / 21 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 29 | ████████ | [Algorithm](../formats/algorithm.md) (62%) | 5 / 14 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -48,7 +48,7 @@ Which stage each question came from, for the **55 of 55** questions at Bloomberg
 
 ## What they ask about
 
-Of the **33 questions at Bloomberg that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **33 questions at Bloomberg that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -57,11 +57,11 @@ Of the **33 questions at Bloomberg that carry a topic label** (60% of them — t
 | `graphs` | 6 | 18% | ██████████ | Apr 09, 2026 |
 | `arrays` | 5 | 15% | █████████ | Jun 16, 2026 |
 | `hashing` | 5 | 15% | █████████ | Feb 25, 2026 |
-| `stack` | 5 | 15% | █████████ | Feb 07, 2026 |
+| `stack` | 4 | 12% | ███████ | Feb 07, 2026 |
+| `sorting` | 3 | 9% | █████ | May 01, 2026 |
 | `trees` | 3 | 9% | █████ | Jun 28, 2026 |
 | `binary-search` | 2 | 6% | ███ | Jun 16, 2026 |
 | `greedy` | 2 | 6% | ███ | Mar 09, 2026 |
-| `intervals` | 2 | 6% | ███ | Jan 13, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -75,7 +75,7 @@ Every recorded sighting at Bloomberg, by the month it was reported in — Oct 16
 | [Jun 2026](../by-month/2026-06.md) | 7 | █████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ███ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ██████ |
-| [Mar 2026](../by-month/2026-03.md) | 6 | ██████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 7 | █████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 8 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 8 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ███ |
@@ -133,6 +133,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
+| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
@@ -164,8 +165,8 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | — |
+| [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Algorithm | Medium | — |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
-| [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Algorithm | Easy | — |
 | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Algorithm | Medium | — |
 | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Algorithm | Easy | — |
 | [Van Eck-like Sequence: N-th Term](https://trueinterview.io/questions/583c19ba-9611-43b2-a516-a8c35f3c1621) | Algorithm | Medium | — |

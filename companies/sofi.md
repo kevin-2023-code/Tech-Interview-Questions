@@ -2,7 +2,7 @@
 
 # SoFi interview process, OA & interview questions
 
-**27 questions** reported at SoFi · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sofi), judged server-side on the algorithm, low-level-design and SQL formats.
+**26 questions** reported at SoFi · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sofi), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **27** |
+| Questions tracked | **26** |
 | Most recent sighting | Jul 04, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (63% of 27) |
-| Difficulty (easy / medium / hard) | 9 / 16 / 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (65% of 26) |
+| Difficulty (easy / medium / hard) | 9 / 15 / 2 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 2 |
 
-<sub>Counted from the 27 questions reported at SoFi. 15 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 26 questions reported at SoFi. 14 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **27 of 27** questions at SoFi that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **26 of 26** questions at SoFi that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 11 | █████████ | [Algorithm](../formats/algorithm.md) (82%) | 3 / 8 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 10 | ████████ | [Algorithm](../formats/algorithm.md) (90%) | 3 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 12 | ██████████ | [AI Coding](../formats/ai-coding.md) (33%) | 3 / 7 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -46,7 +46,7 @@ Which stage each question came from, for the **27 of 27** questions at SoFi that
 
 ## What they ask about
 
-Of the **14 questions at SoFi that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at SoFi that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -75,7 +75,6 @@ Every recorded sighting at SoFi, by the month it was reported in — Jun 01, 202
 | [Nov 2025](../by-month/2025-11.md) | 2 | ██████████ |
 | [Oct 2025](../by-month/2025-10.md) | 2 | ██████████ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | █████ |
-| [Jul 2025](../by-month/2025-07.md) | 1 | █████ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | █████ |
 
 ## Start here
@@ -127,7 +126,6 @@ The 8 questions to open first if you are preparing for SoFi, ranked by **the mos
 | [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure) | Algorithm | Easy | Oct 31, 2025 |
 | [Star Rating Component](https://trueinterview.io/questions/star-rating-component) | Object Oriented Programming | Medium | Oct 06, 2025 |
 | [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions) | Algorithm | Medium | Sep 25, 2025 |
-| [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Object Oriented Programming | Medium | Jul 14, 2025 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
 | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Algorithm | Medium | — |
 | [Extend an Existing Codebase to Support Accessibility Requirements](https://trueinterview.io/questions/e09854da-00dd-4596-a22c-a1b2463a2a29) | AI Coding | Hard | — |

@@ -32,7 +32,7 @@ Which stage each question came from, for the **63 of 63** questions at Anthropic
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 14 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 4 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 27 | ███████ | [Algorithm](../formats/algorithm.md) (41%) | 0 / 18 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 39 | ██████████ | [AI Coding](../formats/ai-coding.md) (38%) | 5 / 23 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 39 | ██████████ | [AI Coding](../formats/ai-coding.md) (38%) | 5 / 22 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -82,9 +82,9 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
 | **2** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
-| **3** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Medium | — | Jun 15, 2026 |
-| **4** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | — | Jun 15, 2026 |
-| **5** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | — | Jun 15, 2026 |
+| **3** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | — | Jun 15, 2026 |
+| **4** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | — | Jun 15, 2026 |
+| **5** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Hard | — | Jun 15, 2026 |
 | **6** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | — | Jun 15, 2026 |
 | **7** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) 🆓 | Object Oriented Programming | Medium | — | Jun 10, 2026 |
 | **8** | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) 🆓 | Algorithm | Medium | — | Jun 04, 2026 |
@@ -119,7 +119,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | :-- | :-- | :-: | :-- |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
-| [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Medium | Jun 15, 2026 |
+| [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Hard | Jun 15, 2026 |
 | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | Jun 15, 2026 |
 | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | Jun 15, 2026 |
@@ -147,7 +147,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Onsite Design Doc Review](https://trueinterview.io/questions/onsite-design-doc-review) | System Design | Easy | Apr 28, 2026 |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Apr 28, 2026 |
 | [Mechanistic Interpretability Take-Home — Sample-Aspect Double Descent](https://trueinterview.io/questions/mech-interp-take-home) | AI Coding | Hard | Apr 19, 2026 |
-| [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Object Oriented Programming | Hard | Apr 17, 2026 |
+| [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Object Oriented Programming | Medium | Apr 17, 2026 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure) | System Design | Hard | Mar 07, 2026 |
 | [Bank System](https://trueinterview.io/questions/bank-system) | Object Oriented Programming | Medium | Mar 04, 2026 |

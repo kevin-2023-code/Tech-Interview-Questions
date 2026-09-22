@@ -2,18 +2,19 @@
 
 # Free reading, by topic
 
-**350 writeups**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
+**363 writeups**, grouped by what each one is about. They are free to read on the site. A guide carrying several topics is listed under each.
 
 [← By company](README.md) · [← Question bank](../README.md)
 
-> **204 of them carry no topic label** and are therefore absent from this page. They are not missing: every one is on [its company's section](README.md), which is the other way into the same set.
+> **209 of them carry no topic label** and are therefore absent from this page. They are not missing: every one is on [its company's section](README.md), which is the other way into the same set.
 
 ### `deep-dive`
 
-<sub>35 guides</sub>
+<sub>38 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | Apple |
 | [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | Snowflake |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/study/asm-phone-screen-deep-dive-bq) | Amazon |
 | [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | Capital One |
@@ -34,6 +35,7 @@
 | [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | Pinterest |
 | [Manager Behavioral and Project Deep Dive](https://trueinterview.io/study/manager-behavioral-and-project-deep-dive) | SoFi |
 | [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | Google |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
 | [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | Capital One |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/study/mle-project-deep-dive) | Roblox |
 | [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | Uber |
@@ -48,7 +50,43 @@
 | [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | Google |
 | [Science Application (Ambiguous Problem)](https://trueinterview.io/study/science-application-ambiguous-problem) | Amazon |
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | Uber |
+| [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | Databricks |
 | [Technical Deep Dive (slide-based)](https://trueinterview.io/study/technical-deep-dive) | OpenAI |
+
+### `verbal`
+
+<sub>28 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | Goldman Sachs |
+| [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | Snowflake |
+| [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | Capital One |
+| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | Capital One |
+| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | ByteDance |
+| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | ByteDance |
+| [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | Capital One |
+| [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | Capital One |
+| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | Goldman Sachs |
+| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/study/hash-collision-fundamentals) | Goldman Sachs |
+| [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/study/junior-trader-final-games) | Akuna Capital |
+| [ML Fundamentals Quick-Fire](https://trueinterview.io/study/ml-fundamentals-quick-fire) | Pinterest |
+| [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | DoorDash |
+| [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | Capital One |
+| [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | Capital One |
+| [On-Call Case Investigation](https://trueinterview.io/study/onsite-case-investigation) | DoorDash |
+| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/study/process-vs-thread-verbal) | xAI |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | ByteDance |
+| [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | Akuna Capital |
+| [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | Goldman Sachs |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | Goldman Sachs |
+| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | ByteDance |
+| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/study/resume-driven-language-database-fundamentals) | Pinduoduo |
+| [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | Databricks |
+| [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | Walmart Labs |
+| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | ByteDance |
+| [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/study/trader-fair-bet-probability-and-number-sequences) | Akuna Capital |
+| [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | Oracle |
 
 ### `ml-knowledge`
 
@@ -84,43 +122,9 @@
 | [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | Uber |
 | [Transformer / Attention Deep-Dive](https://trueinterview.io/study/transformer-attention-deep-dive) | Amazon |
 
-### `verbal`
-
-<sub>27 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | Goldman Sachs |
-| [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | Snowflake |
-| [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | Capital One |
-| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | Capital One |
-| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | ByteDance |
-| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | ByteDance |
-| [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | Capital One |
-| [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | Capital One |
-| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | Goldman Sachs |
-| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/study/hash-collision-fundamentals) | Goldman Sachs |
-| [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/study/junior-trader-final-games) | Akuna Capital |
-| [ML Fundamentals Quick-Fire](https://trueinterview.io/study/ml-fundamentals-quick-fire) | Pinterest |
-| [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | DoorDash |
-| [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | Capital One |
-| [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | Capital One |
-| [On-Call Case Investigation](https://trueinterview.io/study/onsite-case-investigation) | DoorDash |
-| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/study/process-vs-thread-verbal) | xAI |
-| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | ByteDance |
-| [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | Akuna Capital |
-| [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | Goldman Sachs |
-| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | Goldman Sachs |
-| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | ByteDance |
-| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/study/resume-driven-language-database-fundamentals) | Pinduoduo |
-| [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | Walmart Labs |
-| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | ByteDance |
-| [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/study/trader-fair-bet-probability-and-number-sequences) | Akuna Capital |
-| [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | Oracle |
-
 ### `leadership`
 
-<sub>23 guides</sub>
+<sub>25 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -129,9 +133,11 @@
 | [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
 | [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | LinkedIn |
 | [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | Microsoft |
+| [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/study/engineering-management-fundamentals) | OpenAI |
 | [Experience / Project Deep-Dive Round](https://trueinterview.io/study/experience-project-deep-dive) | Airbnb |
 | [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | Harvey |
 | [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | ByteDance |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | DoorDash |
 | [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/study/onsite-hm-behavioral) | Anthropic |
 | [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | Coinbase |
 | [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/study/hm-project-and-ai-philosophy) | Okta |
@@ -204,7 +210,7 @@
 
 ### `culture-fit`
 
-<sub>16 guides</sub>
+<sub>18 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -223,11 +229,37 @@
 | [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/study/hm-bq-why-openai) | OpenAI |
 | [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | Shopify |
 | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | Netflix |
+| [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | Databricks |
+| [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | Databricks |
+| [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | Walmart Labs |
+
+### `conflict`
+
+<sub>17 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
+| [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | LinkedIn |
+| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | Apple |
+| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | Microsoft |
+| [Cross-Functional & PM Behavioral](https://trueinterview.io/study/cross-functional-pm-bq) | Reddit |
+| [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | Harvey |
+| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | Figma |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | DoorDash |
+| [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | Pinterest |
+| [Manager Behavioral and Project Deep Dive](https://trueinterview.io/study/manager-behavioral-and-project-deep-dive) | SoFi |
+| [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/study/behavioral-policy-vs-efficiency-leadership) | Waymo |
+| [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | Capital One |
+| [Principles & Leadership Behavioral Rounds](https://trueinterview.io/study/principles-and-leadership-bq) | Vanta |
+| [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | Snowflake |
+| [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | Databricks |
+| [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | Meta |
 | [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | Walmart Labs |
 
 ### `star`
 
-<sub>16 guides</sub>
+<sub>17 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -239,6 +271,7 @@
 | [Competency and Resume Interview](https://trueinterview.io/study/competency-and-resume-interview) | IBM |
 | [Core Values Behavioral Round](https://trueinterview.io/study/core-values-bq-round) | Airbnb |
 | [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | ByteDance |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | DoorDash |
 | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/study/behavioral-hm-traffic-and-scope) | Roblox |
 | [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | Pinterest |
 | [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | Shopify |
@@ -250,7 +283,7 @@
 
 ### `bq`
 
-<sub>15 guides</sub>
+<sub>16 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -262,33 +295,12 @@
 | [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | Goldman Sachs |
 | [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | Goldman Sachs |
 | [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | ByteDance |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | DoorDash |
 | [HM Behavioral: Traffic Scale & Scope of Past Work](https://trueinterview.io/study/behavioral-hm-traffic-and-scope) | Roblox |
 | [Manager Behavioral and Project Deep Dive](https://trueinterview.io/study/manager-behavioral-and-project-deep-dive) | SoFi |
 | [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | ByteDance |
 | [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | Capital One |
 | [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | Rippling |
-| [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | Meta |
-| [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | Walmart Labs |
-
-### `conflict`
-
-<sub>15 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
-| [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | LinkedIn |
-| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | Apple |
-| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | Microsoft |
-| [Cross-Functional & PM Behavioral](https://trueinterview.io/study/cross-functional-pm-bq) | Reddit |
-| [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | Harvey |
-| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | Figma |
-| [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | Pinterest |
-| [Manager Behavioral and Project Deep Dive](https://trueinterview.io/study/manager-behavioral-and-project-deep-dive) | SoFi |
-| [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/study/behavioral-policy-vs-efficiency-leadership) | Waymo |
-| [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | Capital One |
-| [Principles & Leadership Behavioral Rounds](https://trueinterview.io/study/principles-and-leadership-bq) | Vanta |
-| [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | Snowflake |
 | [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | Meta |
 | [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | Walmart Labs |
 
@@ -316,7 +328,7 @@
 
 ### `why-company`
 
-<sub>13 guides</sub>
+<sub>15 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
@@ -333,6 +345,8 @@
 | [HR / Behavioral Phone Screen](https://trueinterview.io/study/hr-behavioral-screen) | Optiver |
 | [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | Shopify |
 | [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | Robinhood / OpenAI |
+| [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | Databricks |
+| [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | Databricks |
 
 ### `ambiguity`
 
@@ -371,6 +385,41 @@
 | [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/study/project-deep-dive-ml-fundamentals) | Waymo |
 | [QR Data Analysis Prediction Case](https://trueinterview.io/study/qr-data-analysis-prediction-case) | Two Sigma |
 
+### `presentation`
+
+<sub>11 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | Apple |
+| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | Capital One |
+| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | Figma |
+| [MLE Project / Paper Deep Dive](https://trueinterview.io/study/mle-project-deep-dive) | Roblox |
+| [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | Uber |
+| [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/study/paper-read-round-far) | Amazon |
+| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | Rippling |
+| [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/study/project-deep-dive-ml-fundamentals) | Waymo |
+| [QR Take-Home Data Project & Presentation](https://trueinterview.io/study/qr-take-home-data-project) | Optiver |
+| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | Google |
+| [Technical Deep Dive (slide-based)](https://trueinterview.io/study/technical-deep-dive) | OpenAI |
+
+### `fit`
+
+<sub>10 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | Citadel |
+| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | Apple |
+| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | ByteDance |
+| [Hiring Manager Screen](https://trueinterview.io/study/hiring-manager-screen) | Airbnb |
+| [Hiring-Manager Domain Round](https://trueinterview.io/study/hiring-manager-domain-round) | Reddit |
+| [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/study/infra-recruiter-experience-screen) | Snowflake |
+| [Most Challenging Project + Why xAI](https://trueinterview.io/study/most-challenging-project-why-xai) | xAI |
+| [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | ByteDance |
+| [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | Netflix |
+| [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | Databricks |
+
 ### `impact`
 
 <sub>10 guides</sub>
@@ -387,23 +436,6 @@
 | [Project Deep Dive](https://trueinterview.io/study/project-deep-dive-2) | Microsoft |
 | [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | Rippling |
 | [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | Walmart Labs |
-
-### `presentation`
-
-<sub>10 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | Capital One |
-| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | Figma |
-| [MLE Project / Paper Deep Dive](https://trueinterview.io/study/mle-project-deep-dive) | Roblox |
-| [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | Uber |
-| [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/study/paper-read-round-far) | Amazon |
-| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | Rippling |
-| [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/study/project-deep-dive-ml-fundamentals) | Waymo |
-| [QR Take-Home Data Project & Presentation](https://trueinterview.io/study/qr-take-home-data-project) | Optiver |
-| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | Google |
-| [Technical Deep Dive (slide-based)](https://trueinterview.io/study/technical-deep-dive) | OpenAI |
 
 ### `transformer`
 
@@ -431,27 +463,12 @@
 | [Atlassian Values and Management Rounds](https://trueinterview.io/study/atlassian-values-and-management-rounds) | Atlassian |
 | [Core Values Behavioral Round](https://trueinterview.io/study/core-values-bq-round) | Airbnb |
 | [Cross-Functional & PM Behavioral](https://trueinterview.io/study/cross-functional-pm-bq) | Reddit |
-| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic / DoorDash |
 | [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/study/culture-fit-motivation-and-learning-habits) | NVIDIA |
 | [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | Harvey |
 | [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | Goldman Sachs |
 | [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | Shopify |
 | [Principles & Leadership Behavioral Rounds](https://trueinterview.io/study/principles-and-leadership-bq) | Vanta |
-
-### `fit`
-
-<sub>8 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | Citadel |
-| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | Apple |
-| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | ByteDance |
-| [Hiring Manager Screen](https://trueinterview.io/study/hiring-manager-screen) | Airbnb |
-| [Hiring-Manager Domain Round](https://trueinterview.io/study/hiring-manager-domain-round) | Reddit |
-| [Most Challenging Project + Why xAI](https://trueinterview.io/study/most-challenging-project-why-xai) | xAI |
-| [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | ByteDance |
-| [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | Netflix |
 
 ### `operating-systems`
 
@@ -468,6 +485,20 @@
 | [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | ByteDance |
 | [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | Oracle |
 
+### `ai-collaboration`
+
+<sub>7 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | Intuit |
+| [AI-Oriented Behavioral](https://trueinterview.io/study/ai-oriented-behavioral) | Meta |
+| [Async Video Behavioral Screen](https://trueinterview.io/study/video-interview-behavioral) | Ramp |
+| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | Microsoft |
+| [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | DoorDash |
+| [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | Coinbase |
+| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/study/hm-project-and-ai-philosophy) | Okta |
+
 ### `networking`
 
 <sub>7 guides</sub>
@@ -481,19 +512,6 @@
 | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | ByteDance |
 | [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | ByteDance |
 | [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | Oracle |
-
-### `ai-collaboration`
-
-<sub>6 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | Intuit |
-| [AI-Oriented Behavioral](https://trueinterview.io/study/ai-oriented-behavioral) | Meta |
-| [Async Video Behavioral Screen](https://trueinterview.io/study/video-interview-behavioral) | Ramp |
-| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | Microsoft |
-| [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | Coinbase |
-| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/study/hm-project-and-ai-philosophy) | Okta |
 
 ### `collaboration`
 
@@ -521,6 +539,32 @@
 | [Quant Probability and Statistics Orals](https://trueinterview.io/study/quant-probability-and-statistics-orals) | JPMorgan |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/study/trading-betting-game) | Optiver |
 
+### `llm`
+
+<sub>6 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | Intuit |
+| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive) | Citadel |
+| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | Two Sigma |
+| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | Meta |
+| [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | Apple |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | ByteDance |
+
+### `mentorship`
+
+<sub>6 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Atlassian Values and Management Rounds](https://trueinterview.io/study/atlassian-values-and-management-rounds) | Atlassian |
+| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
+| [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/study/engineering-management-fundamentals) | OpenAI |
+| [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | Harvey |
+| [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/study/onsite-hm-behavioral) | Anthropic |
+| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | Rippling |
+
 ### `concurrency`
 
 <sub>5 guides</sub>
@@ -545,29 +589,40 @@
 | [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | Goldman Sachs |
 | [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | Oracle |
 
-### `llm`
+### `optimization`
 
 <sub>5 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | Apple |
+| [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/study/deep-learning-fundamentals) | NVIDIA |
+| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | Meta |
+| [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/study/ml-fundamentals-transformer-and-regularization) | Snapchat |
+| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/study/quadratic-form-finite-min) | Citadel |
+
+### `ownership`
+
+<sub>5 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
+| [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/study/engineering-management-fundamentals) | OpenAI |
+| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | Figma |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | ByteDance |
+| [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | Snowflake |
+
+### `ai-safety`
+
+<sub>4 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
 | [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | Intuit |
-| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive) | Citadel |
-| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | Two Sigma |
-| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | Meta |
-| [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | Apple |
-
-### `mentorship`
-
-<sub>5 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Atlassian Values and Management Rounds](https://trueinterview.io/study/atlassian-values-and-management-rounds) | Atlassian |
-| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
-| [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | Harvey |
-| [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/study/onsite-hm-behavioral) | Anthropic |
-| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | Rippling |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic / DoorDash |
+| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | ByteDance |
+| [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/study/recruiter-screen-why-anthropic) | Anthropic |
 
 ### `brainteaser`
 
@@ -587,9 +642,20 @@
 | Guide | Company |
 | :-- | :-- |
 | [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | Capital One |
-| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic / DoorDash |
 | [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | Capital One |
 | [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | Capital One |
+
+### `database`
+
+<sub>4 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | ByteDance |
+| [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | ByteDance |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
+| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/study/resume-driven-language-database-fundamentals) | Pinduoduo |
 
 ### `evaluation`
 
@@ -624,17 +690,6 @@
 | [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | Akuna Capital |
 | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/study/trader-fair-bet-probability-and-number-sequences) | Akuna Capital |
 
-### `optimization`
-
-<sub>4 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/study/deep-learning-fundamentals) | NVIDIA |
-| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | Meta |
-| [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/study/ml-fundamentals-transformer-and-regularization) | Snapchat |
-| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/study/quadratic-form-finite-min) | Citadel |
-
 ### `project-deep-dive`
 
 <sub>4 guides</sub>
@@ -667,16 +722,6 @@
 | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | Apple |
 | [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | DoorDash |
 
-### `ai-safety`
-
-<sub>3 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | Intuit |
-| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic |
-| [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/study/recruiter-screen-why-anthropic) | Anthropic |
-
 ### `attention`
 
 <sub>3 guides</sub>
@@ -696,16 +741,6 @@
 | [Likelihood / Event-Ordering Test](https://trueinterview.io/study/likelihood-ordering-test) | Optiver |
 | [QR Data Analysis Prediction Case](https://trueinterview.io/study/qr-data-analysis-prediction-case) | Two Sigma |
 | [QR Take-Home Data Project & Presentation](https://trueinterview.io/study/qr-take-home-data-project) | Optiver |
-
-### `database`
-
-<sub>3 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | ByteDance |
-| [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | ByteDance |
-| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/study/resume-driven-language-database-fundamentals) | Pinduoduo |
 
 ### `experiment-design`
 
@@ -767,15 +802,15 @@
 | [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/study/number-logic-sequence) | Optiver |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/study/trading-betting-game) | Optiver |
 
-### `ownership`
+### `rag`
 
 <sub>3 guides</sub>
 
 | Guide | Company |
 | :-- | :-- |
-| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | Oracle |
-| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | Figma |
-| [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | Snowflake |
+| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | Google |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
+| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | ByteDance |
 
 ### `sre`
 
@@ -806,6 +841,24 @@
 | [Hiring-Manager Domain Round](https://trueinterview.io/study/hiring-manager-domain-round) | Reddit |
 | [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | Apple |
 
+### `agentic-workflow`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | Two Sigma |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
+
+### `agents`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | ByteDance |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
+
 ### `ai-tools`
 
 <sub>2 guides</sub>
@@ -814,6 +867,24 @@
 | :-- | :-- |
 | [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | Snowflake |
 | [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/study/bq-genai-usage) | Amazon |
+
+### `array`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Candy (LC 135)](https://trueinterview.io/study/candy-lc-135) | Citadel |
+| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | Citadel |
+
+### `backend`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
+| [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | Walmart Labs |
 
 ### `classification`
 
@@ -839,7 +910,7 @@
 
 | Guide | Company |
 | :-- | :-- |
-| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic |
+| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | Anthropic / DoorDash |
 | [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | Netflix |
 
 ### `data-structure`
@@ -887,6 +958,15 @@
 | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/study/qd-eqr-onsite-coding-ladder) | Citadel |
 | [Intern OA Fixed Set](https://trueinterview.io/study/intern-oa-fixed-set) | Rippling |
 
+### `infra`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/study/hardware-adjacent-project-deep-dive) | NVIDIA |
+| [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/study/infra-recruiter-experience-screen) | Snowflake |
+
 ### `kernel`
 
 <sub>2 guides</sub>
@@ -913,6 +993,15 @@
 | :-- | :-- |
 | [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | Two Sigma |
 | [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/study/ml-research-orals) | Netflix |
+
+### `metrics`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | Apple |
+| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/study/hardware-adjacent-project-deep-dive) | NVIDIA |
 
 ### `new-round`
 
@@ -950,15 +1039,6 @@
 | [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | Capital One |
 | [MLE Project / Paper Deep Dive](https://trueinterview.io/study/mle-project-deep-dive) | Roblox |
 
-### `rag`
-
-<sub>2 guides</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | Google |
-| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | ByteDance |
-
 ### `ranking`
 
 <sub>2 guides</sub>
@@ -968,6 +1048,15 @@
 | [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | DoorDash |
 | [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/study/ml-modeling-round) | Shopify |
 
+### `retrieval`
+
+<sub>2 guides</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | Google |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | Apple |
+
 ### `sliding-window`
 
 <sub>2 guides</sub>
@@ -976,22 +1065,6 @@
 | :-- | :-- |
 | [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | Citadel |
 | [Intern OA Fixed Set](https://trueinterview.io/study/intern-oa-fixed-set) | Rippling |
-
-### `agentic-workflow`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | Two Sigma |
-
-### `agents`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | ByteDance |
 
 ### `ai-screening`
 
@@ -1024,22 +1097,6 @@
 | Guide | Company |
 | :-- | :-- |
 | [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/study/transformer-roofline-fp-precision) | Microsoft |
-
-### `array`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | Citadel |
-
-### `backend`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | Walmart Labs |
 
 ### `backtracking`
 
@@ -1185,6 +1242,14 @@
 | :-- | :-- |
 | [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | Salesforce |
 
+### `greedy`
+
+<sub>1 guide</sub>
+
+| Guide | Company |
+| :-- | :-- |
+| [Candy (LC 135)](https://trueinterview.io/study/candy-lc-135) | Citadel |
+
 ### `grid`
 
 <sub>1 guide</sub>
@@ -1208,14 +1273,6 @@
 | Guide | Company |
 | :-- | :-- |
 | [GPU and Inference Systems Fundamentals](https://trueinterview.io/study/gpu-and-inference-systems-fundamentals) | NVIDIA |
-
-### `infra`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/study/hardware-adjacent-project-deep-dive) | NVIDIA |
 
 ### `io`
 
@@ -1264,14 +1321,6 @@
 | Guide | Company |
 | :-- | :-- |
 | [GPU and Inference Systems Fundamentals](https://trueinterview.io/study/gpu-and-inference-systems-fundamentals) | NVIDIA |
-
-### `metrics`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/study/hardware-adjacent-project-deep-dive) | NVIDIA |
 
 ### `ml fundamentals`
 
@@ -1416,14 +1465,6 @@
 | Guide | Company |
 | :-- | :-- |
 | [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | Salesforce |
-
-### `retrieval`
-
-<sub>1 guide</sub>
-
-| Guide | Company |
-| :-- | :-- |
-| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | Google |
 
 ### `sampling`
 

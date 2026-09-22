@@ -18,7 +18,7 @@
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 15) |
-| Difficulty (easy / medium / hard) | 2 / 12 / 1 |
+| Difficulty (easy / medium / hard) | 3 / 11 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **15 of 15** questions at Intuit th
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 2 / 5 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 6 | █████████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████ | [AI Coding](../formats/ai-coding.md) (33%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ████ | [AI Coding](../formats/ai-coding.md) (33%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -125,4 +125,4 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
 | [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Object Oriented Programming | Medium | — |
 | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | SQL | Easy | — |
-| [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | AI Coding | Medium | — |
+| [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | AI Coding | Easy | — |

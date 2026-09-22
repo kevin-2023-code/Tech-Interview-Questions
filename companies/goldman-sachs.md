@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (86% of 21) |
 | Difficulty (easy / medium / hard) | 8 / 12 / 1 |
-| Free to practise | [4](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 10 |
 
 <sub>Counted from the 21 questions reported at Goldman Sachs. 17 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -31,8 +31,8 @@ Which stage each question came from, for the **21 of 21** questions at Goldman S
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 9 | ████████ | [Algorithm](../formats/algorithm.md) (78%) | 3 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ███ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 8 | ███████ | [Algorithm](../formats/algorithm.md) (75%) | 2 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ████ | [Algorithm](../formats/algorithm.md) (75%) | 2 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **21 of 21** questions at Goldman S
 
 ## What they ask about
 
-Of the **16 questions at Goldman Sachs that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Goldman Sachs that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 31% | ████████████ | Jul 06, 2026 |
-| `strings` | 4 | 25% | ██████████ | Dec 12, 2025 |
-| `arrays` | 3 | 19% | ███████ | Mar 11, 2026 |
-| `greedy` | 2 | 12% | █████ | Nov 25, 2025 |
-| `trees` | 2 | 12% | █████ | Jun 21, 2026 |
-| `backtracking` | 1 | 6% | ██ | Sep 08, 2025 |
-| `dynamic-programming` | 1 | 6% | ██ | — |
-| `graphs` | 1 | 6% | ██ | Jun 18, 2026 |
-| `sliding-window` | 1 | 6% | ██ | Nov 25, 2025 |
-| `stack` | 1 | 6% | ██ | Sep 22, 2025 |
+| `hashing` | 5 | 33% | ████████████ | Jul 06, 2026 |
+| `arrays` | 3 | 20% | ███████ | Mar 11, 2026 |
+| `strings` | 3 | 20% | ███████ | Dec 12, 2025 |
+| `greedy` | 2 | 13% | █████ | Nov 25, 2025 |
+| `trees` | 2 | 13% | █████ | Jun 21, 2026 |
+| `backtracking` | 1 | 7% | ██ | Sep 08, 2025 |
+| `dynamic-programming` | 1 | 7% | ██ | — |
+| `graphs` | 1 | 7% | ██ | Jun 18, 2026 |
+| `sliding-window` | 1 | 7% | ██ | Nov 25, 2025 |
+| `stack` | 1 | 7% | ██ | Sep 22, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -72,12 +72,11 @@ Every recorded sighting at Goldman Sachs, by the month it was reported in — Oc
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██████ |
 | [Jun 2026](../by-month/2026-06.md) | 3 | ██████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ██████ |
+| [Mar 2026](../by-month/2026-03.md) | 2 | ████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
 | [Sep 2025](../by-month/2025-09.md) | 4 | ████████████████████████ |
-| [Nov 2024](../by-month/2024-11.md) | 1 | ██████ |
 | [Oct 2024](../by-month/2024-10.md) | 1 | ██████ |
 
 ## Start here
@@ -92,8 +91,8 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | **4** | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Medium | — | Jun 18, 2026 |
 | **5** | [String Compression (HackerRank OA, LeetCode 443)](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | 1 | Apr 03, 2026 |
 | **6** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
-| **7** | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) 🆓 | Algorithm | Medium | 1 | Mar 11, 2026 |
-| **8** | [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Algorithm | Easy | — | Feb 05, 2026 |
+| **7** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) 🆓 | Algorithm | Easy | 6 | Mar 17, 2026 |
+| **8** | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) 🆓 | Algorithm | Medium | 1 | Mar 11, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -130,6 +129,7 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | Jun 18, 2026 |
 | [String Compression (HackerRank OA, LeetCode 443)](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Apr 03, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
+| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
 | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Algorithm | Medium | Mar 11, 2026 |
 | [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Algorithm | Easy | Feb 05, 2026 |
 | [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Algorithm | Easy | Dec 12, 2025 |
@@ -139,7 +139,6 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Ethernet Cable Square Count](https://trueinterview.io/questions/ethernet-cable-square-count) | Algorithm | Easy | Sep 22, 2025 |
 | [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | Algorithm | Medium | Sep 10, 2025 |
 | [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Algorithm | Medium | Sep 08, 2025 |
-| [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | Algorithm | Easy | Nov 21, 2024 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |

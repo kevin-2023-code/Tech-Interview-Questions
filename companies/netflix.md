@@ -2,7 +2,7 @@
 
 # Netflix interview process, OA & interview questions
 
-**64 questions** reported at Netflix · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/netflix), judged server-side on the algorithm, low-level-design and SQL formats.
+**70 questions** reported at Netflix · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/netflix), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **64** |
+| Questions tracked | **70** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (45% of 64) |
-| Difficulty (easy / medium / hard) | 13 / 41 / 10 |
+| Most common format | [Algorithm](../formats/algorithm.md) (49% of 70) |
+| Difficulty (easy / medium / hard) | 17 / 43 / 10 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 64 questions reported at Netflix. 40 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 70 questions reported at Netflix. 42 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **64 of 64** questions at Netflix that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **70 of 70** questions at Netflix that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 7 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 33 | ███████ | [Algorithm](../formats/algorithm.md) (64%) | 6 / 24 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 46 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (37%) | 6 / 31 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 10 | ██ | [Algorithm](../formats/algorithm.md) (70%) | 8 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 37 | ████████ | [Algorithm](../formats/algorithm.md) (65%) | 9 / 25 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 47 | ██████████ | [Algorithm](../formats/algorithm.md) (36%) | 8 / 30 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,26 +42,26 @@ Which stage each question came from, for the **64 of 64** questions at Netflix t
 
 ## What they ask about
 
-Of the **28 questions at Netflix that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **32 questions at Netflix that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 9 | 32% | ████████████ | May 26, 2026 |
-| `arrays` | 6 | 21% | ████████ | May 26, 2026 |
-| `strings` | 4 | 14% | █████ | Apr 24, 2026 |
-| `sorting` | 3 | 11% | ████ | May 01, 2026 |
-| `backtracking` | 2 | 7% | ███ | Apr 24, 2026 |
-| `binary-search` | 2 | 7% | ███ | May 21, 2026 |
-| `graphs` | 2 | 7% | ███ | Mar 20, 2026 |
-| `intervals` | 2 | 7% | ███ | Feb 04, 2026 |
-| `stack` | 2 | 7% | ███ | Apr 03, 2026 |
-| `topological-sort` | 2 | 7% | ███ | Jun 04, 2026 |
+| `hashing` | 11 | 34% | ████████████ | May 26, 2026 |
+| `arrays` | 7 | 22% | ████████ | May 26, 2026 |
+| `strings` | 4 | 12% | ████ | Apr 24, 2026 |
+| `intervals` | 3 | 9% | ███ | Feb 04, 2026 |
+| `sorting` | 3 | 9% | ███ | May 01, 2026 |
+| `backtracking` | 2 | 6% | ██ | Apr 24, 2026 |
+| `binary-search` | 2 | 6% | ██ | May 21, 2026 |
+| `graphs` | 2 | 6% | ██ | Mar 20, 2026 |
+| `sliding-window` | 2 | 6% | ██ | May 26, 2026 |
+| `stack` | 2 | 6% | ██ | Apr 03, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Netflix, by the month it was reported in — Jan 01, 2026 to Jun 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Netflix, by the month it was reported in — Dec 05, 2025 to Jun 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -71,6 +71,7 @@ Every recorded sighting at Netflix, by the month it was reported in — Jan 01, 
 | [Mar 2026](../by-month/2026-03.md) | 6 | ██████████ |
 | [Feb 2026](../by-month/2026-02.md) | 5 | ████████ |
 | [Jan 2026](../by-month/2026-01.md) | 15 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ███ |
 
 ## Start here
 
@@ -139,12 +140,12 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | System Design | Hard | Feb 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Design a Global Config Deployment System](https://trueinterview.io/questions/design-a-global-config-deployment-system) | System Design | Medium | Jan 29, 2026 |
-| [Movie History Friends](https://trueinterview.io/questions/a5e89ec7-7af5-47b7-a8e5-e7d453d2e070) | Algorithm | Medium | Jan 28, 2026 |
+| [Movie History Friends](https://trueinterview.io/questions/a5e89ec7-7af5-47b7-a8e5-e7d453d2e070) | Algorithm | Easy | Jan 28, 2026 |
 | [Music Playlist](https://trueinterview.io/questions/music-playlist) | Object Oriented Programming | Medium | Jan 26, 2026 |
 | [Timer Function](https://trueinterview.io/questions/timer-function) | Algorithm | Easy | Jan 25, 2026 |
 | [Design an Ads Audience Targeting System](https://trueinterview.io/questions/design-an-ads-audience-targeting-system) | System Design | Medium | Jan 24, 2026 |
 | [Design a Billing System for 300M Subscribers](https://trueinterview.io/questions/design-a-billing-system-for-300m-subscribers) | System Design | Hard | Jan 19, 2026 |
-| [Sort by User Preference](https://trueinterview.io/questions/sort-by-user-preference) | Object Oriented Programming | Medium | Jan 17, 2026 |
+| [Sort by User Preference](https://trueinterview.io/questions/sort-by-user-preference) | Object Oriented Programming | Easy | Jan 17, 2026 |
 | [Error Rate Monitor](https://trueinterview.io/questions/error-rate-monitor) | Algorithm | Easy | Jan 14, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Algorithm | Easy | Jan 13, 2026 |
 | [Design a WAL Log Enrichment Pipeline](https://trueinterview.io/questions/design-a-wal-log-enrichment-pipeline) | System Design | Hard | Jan 09, 2026 |
@@ -152,6 +153,12 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns) | Algorithm | Medium | Jan 02, 2026 |
 | [Number Pairs That Match Target](https://trueinterview.io/questions/number-pairs-that-match-target) | Algorithm | Easy | Jan 01, 2026 |
 | [Spam Email Detection](https://trueinterview.io/questions/spam-email-detection) | Object Oriented Programming | Medium | Jan 01, 2026 |
+| [Event Logger with Rate Limiting](https://trueinterview.io/questions/event-logger-with-rate-limiting) | Object Oriented Programming | Easy | Dec 05, 2025 |
+| [Maximum Interval Overlap Count](https://trueinterview.io/questions/maximum-interval-overlap-count) | Algorithm | Medium | Dec 05, 2025 |
+| [Longest Run of Identical Characters](https://trueinterview.io/questions/ee3f373d-6a1f-5751-b6f7-d7f4577b6670) | Algorithm | Easy | — |
+| [Fastest Broadcast Path to All Cities](https://trueinterview.io/questions/d737ace9-680b-5116-8b0c-c4db8074b66a) | Algorithm | Medium | — |
+| [Timed Cache / Expiring Key-Value Cache](https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f) | Algorithm | Medium | — |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Homepage Title Deduplication](https://trueinterview.io/questions/homepage-title-deduplication) | Algorithm | Easy | — |
 | [Count the Number of String Pairs With No Common Characters](https://trueinterview.io/questions/044e7295-5015-4975-b30c-5cdc060ccec8) | Algorithm | Medium | — |
 | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec) | Algorithm | Easy | — |

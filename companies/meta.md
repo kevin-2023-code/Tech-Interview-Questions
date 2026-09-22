@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**168 questions** reported at Meta · **16 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**180 questions** reported at Meta · **16 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **168** |
+| Questions tracked | **180** |
 | Most recent sighting | Aug 16, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (64% of 168) |
-| Difficulty (easy / medium / hard) | 26 / 105 / 37 |
-| Free to practise | [21](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (66% of 180) |
+| Difficulty (easy / medium / hard) | 28 / 115 / 37 |
+| Free to practise | [23](../free/README.md) |
 | Guides & writeups | 16 |
 
-<sub>Counted from the 168 questions reported at Meta. 84 of them carry a sighting date; the other 84 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 180 questions reported at Meta. 86 of them carry a sighting date; the other 94 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **168 of 168** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **180 of 180** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 20 | ██ | [Algorithm](../formats/algorithm.md) (55%) | 14 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 102 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 11 / 78 / 13 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 69 | ███████ | [System Design](../formats/system-design.md) (38%) | 4 / 39 / 26 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 23 | ██ | [Algorithm](../formats/algorithm.md) (61%) | 16 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 109 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 10 / 85 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 72 | ███████ | [Algorithm](../formats/algorithm.md) (36%) | 5 / 42 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -47,8 +47,8 @@ Which stage each question came from, for the **168 of 168** questions at Meta th
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Phone screen | Jul 22, 2026 |
+| [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 19, 2026 |
 | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | Online assessment | Jul 04, 2026 |
-| [Attention Implementation + Flash / Linear Attention Follow-ups](https://trueinterview.io/questions/attention-implementation-and-follow-ups) | Algorithm | Hard | Onsite / virtual onsite | Jun 30, 2026 |
 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Phone screen | Jun 29, 2026 |
 | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | AI Coding | Hard | Onsite / virtual onsite | Jun 28, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
@@ -57,20 +57,20 @@ Which stage each question came from, for the **168 of 168** questions at Meta th
 
 ## What they ask about
 
-Of the **85 questions at Meta that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **90 questions at Meta that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 14 | 16% | ████████████ | Apr 21, 2026 |
-| `trees` | 12 | 14% | ██████████ | Jun 28, 2026 |
-| `hashing` | 11 | 13% | █████████ | Apr 09, 2026 |
-| `strings` | 11 | 13% | █████████ | Jun 24, 2026 |
-| `arrays` | 7 | 8% | ██████ | Jun 30, 2026 |
-| `stack` | 7 | 8% | ██████ | Jun 24, 2026 |
-| `two-pointers` | 7 | 8% | ██████ | May 08, 2026 |
-| `backtracking` | 5 | 6% | ████ | Feb 26, 2026 |
-| `matrix` | 5 | 6% | ████ | Apr 21, 2026 |
-| `binary-search` | 4 | 5% | ███ | Apr 24, 2026 |
+| `graphs` | 17 | 19% | ████████████ | Apr 21, 2026 |
+| `hashing` | 13 | 14% | █████████ | Apr 09, 2026 |
+| `trees` | 12 | 13% | ████████ | Jun 28, 2026 |
+| `strings` | 11 | 12% | ████████ | Jun 24, 2026 |
+| `two-pointers` | 7 | 8% | █████ | May 08, 2026 |
+| `arrays` | 6 | 7% | ████ | Apr 24, 2026 |
+| `backtracking` | 6 | 7% | ████ | Feb 26, 2026 |
+| `stack` | 6 | 7% | ████ | Jun 24, 2026 |
+| `binary-search` | 5 | 6% | ████ | Apr 24, 2026 |
+| `heap` | 5 | 6% | ████ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -81,13 +81,13 @@ Every recorded sighting at Meta, by the month it was reported in — Sep 01, 202
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Aug 2026](../by-month/2026-08.md) | 1 | █ |
-| [Jul 2026](../by-month/2026-07.md) | 4 | ████ |
-| [Jun 2026](../by-month/2026-06.md) | 14 | ███████████████ |
-| [May 2026](../by-month/2026-05.md) | 15 | ████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 23 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 4 | ████ |
+| [Jul 2026](../by-month/2026-07.md) | 5 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 13 | █████████████ |
+| [May 2026](../by-month/2026-05.md) | 15 | ███████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 24 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 5 | █████ |
 | [Feb 2026](../by-month/2026-02.md) | 8 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 12 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 12 | ████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | █ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | █ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | █ |
@@ -102,8 +102,8 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | **2** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
 | **3** | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | — | Jul 22, 2026 |
 | **4** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | — | Jul 22, 2026 |
-| **5** | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | — | Jul 04, 2026 |
-| **6** | [Attention Implementation + Flash / Linear Attention Follow-ups](https://trueinterview.io/questions/attention-implementation-and-follow-ups) | Algorithm | Hard | — | Jun 30, 2026 |
+| **5** | [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | — | Jul 19, 2026 |
+| **6** | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | — | Jul 04, 2026 |
 | **7** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | 2 | Jun 29, 2026 |
 | **8** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | 4 | Jun 28, 2026 |
 
@@ -146,8 +146,8 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Jul 22, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Jul 22, 2026 |
+| [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | Jul 19, 2026 |
 | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | Jul 04, 2026 |
-| [Attention Implementation + Flash / Linear Attention Follow-ups](https://trueinterview.io/questions/attention-implementation-and-follow-ups) | Algorithm | Hard | Jun 30, 2026 |
 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Jun 29, 2026 |
 | [Trending Hashtags](https://trueinterview.io/questions/system-design-trending-hashtags) | System Design | Hard | Jun 28, 2026 |
 | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | AI Coding | Hard | Jun 28, 2026 |
@@ -181,6 +181,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Image Copyright Violation Detection](https://trueinterview.io/questions/mlsd-image-copyright-detection) | System Design | Hard | Apr 24, 2026 |
 | [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight) | Algorithm | Medium | Apr 24, 2026 |
 | [Minimum Add to Make Parentheses Valid II](https://trueinterview.io/questions/minimum-add-to-make-valid-parens) | Algorithm | Medium | Apr 23, 2026 |
+| [Continuous Subarray Sum](https://trueinterview.io/questions/continuous-subarray-sum) | Algorithm | Medium | Apr 23, 2026 |
 | [Design Ticket Booking System](https://trueinterview.io/questions/system-design-ticketmaster) | System Design | Hard | Apr 22, 2026 |
 | [Walls and Gates / Max Area of Island](https://trueinterview.io/questions/walls-and-gates-multi-source-bfs) | Algorithm | Medium | Apr 21, 2026 |
 | [LeetCode / Online Judge + Contest Leaderboard](https://trueinterview.io/questions/system-design-leetcode-online-judge) | System Design | Hard | Apr 21, 2026 |
@@ -200,6 +201,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
+| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
@@ -226,11 +228,14 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
 | [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | Algorithm | Easy | Sep 2025 |
+| [Determine Whether a Target-Sum Subarray Exists](https://trueinterview.io/questions/c2ff0a86-05a2-5b73-ae32-07ebfae4c4c1) | Algorithm | Medium | — |
+| [Binary Tree Paths With Target Sum](https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7) | Algorithm | Medium | — |
+| [Reconstruct Binary Tree from Preorder and Postorder](https://trueinterview.io/questions/reconstruct-binary-tree-from-preorder-and-postorder) | Algorithm | Hard | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
-| [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Object Oriented Programming | Medium | — |
 | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | SQL | Easy | — |
+| [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Hard | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
 | [Analyze Locations AI Algorithm](https://trueinterview.io/questions/b4a0a464-9517-4f9c-857f-51f0132159ca) | AI Coding | Hard | — |
 | [Implement a ReAct-style Agent Loop with Given APIs](https://trueinterview.io/questions/a81a953d-0af2-4e47-85bd-a1243047e6d9) | AI Coding | Hard | — |
@@ -238,15 +243,20 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4) | Algorithm | Easy | — |
 | [Timed Cache / Expiring Key-Value Cache](https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f) | Algorithm | Medium | — |
 | [Recommendation System Design](https://trueinterview.io/questions/7041135a-e932-4cd2-99d6-02ff8d199174) | System Design | Hard | — |
+| [Get Minimum Round Trip Cost](https://trueinterview.io/questions/fcc5bf9c-4c30-4e73-9e37-d5c8d3d76218) | Algorithm | Easy | — |
 | [Meeting Rooms II](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280) | Algorithm | Medium | — |
 | [Simplify Absolute Unix File Path with Current Directory](https://trueinterview.io/questions/db364690-0052-4d96-b03d-647b30e84110) | Algorithm | Medium | — |
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Mouse and Cheese](https://trueinterview.io/questions/a960bd9c-a967-4226-8ce4-63f20024cb31) | Algorithm | Medium | — |
-| [Pattern Matching](https://trueinterview.io/questions/9b2e6e7e-eb8e-448c-8334-2a5d483b9323) | Algorithm | Medium | — |
+| [Random City Name Output Based on Population](https://trueinterview.io/questions/5aaff290-a986-4847-85a6-09a67567c4ef) | Algorithm | Medium | — |
+| [Merge Three or N Sorted Lists Efficiently and Analyze Complexity](https://trueinterview.io/questions/4becbb35-63a3-4da1-8235-afd0a9bba30d) | Algorithm | Easy | — |
 | [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Algorithm | Medium | — |
 | [Sum of BST Nodes Within Given Range](https://trueinterview.io/questions/08d3c6cb-aa6e-4d12-9236-73bfdf07ff60) | Algorithm | Easy | — |
+| [Top K Frequent Elements in Integer Array Efficiently](https://trueinterview.io/questions/cd77d63e-ea70-4485-a616-90bf6c1fc5c0) | Algorithm | Medium | — |
 | [Escape Room (Shortest Escape Path in a Room Grid)](https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c) | Algorithm | Hard | — |
+| [Insert into a Circular Linked List](https://trueinterview.io/questions/1cc31086-7116-47af-9fc6-bc2cc84bc2c8) | Algorithm | Medium | — |
+| [Minimal Board Length for Holes](https://trueinterview.io/questions/0df3b897-7563-413a-9bea-06eeeb50a399) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Compare Two Linked Lists' Concatenated Strings](https://trueinterview.io/questions/f57623fa-df0e-49d8-8275-3787fab19121) | Algorithm | Medium | — |
 | [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5) | Object Oriented Programming | Medium | — |
@@ -254,23 +264,24 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Remove All Adjacent Duplicates in String Repeatedly](https://trueinterview.io/questions/d7f2f296-e2a6-4cea-b7f4-162049ce638b) | Algorithm | Medium | — |
 | [Longest Increasing Path in a Matrix](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74) | Algorithm | Hard | — |
 | [Web Crawler Design for Slow Network Connections](https://trueinterview.io/questions/d2a8a7b1-2ae9-4ead-b962-08fa6b079762) | System Design | Medium | — |
-| [Copy a Random Linked List](https://trueinterview.io/questions/d28d9f85-a636-4f5a-b551-7e80539bf691) | Algorithm | Hard | — |
-| [N-ary Tree Expansion](https://trueinterview.io/questions/cf5c9f68-477e-44ce-a09b-05c56c396082) | Algorithm | Easy | — |
+| [Expression Add Operators to Reach Target](https://trueinterview.io/questions/ce65b729-d003-4aba-82e4-ee55204dce4c) | Algorithm | Hard | — |
 | [Ads Impression SQL Query](https://trueinterview.io/questions/cd8e263f-9929-49d1-804b-210708292d39) | SQL | Easy | — |
+| [Find Shortest Path in Matrix](https://trueinterview.io/questions/cd73881c-9f33-4f7c-a4a9-74f9eed0f4c1) | Algorithm | Medium | — |
 | [Set Matrix Zeroes (Zero out rows and columns containing a 0)](https://trueinterview.io/questions/c9b3ec81-ac31-4c3b-aa30-3ea4b6e91be5) | Algorithm | Medium | — |
+| [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Algorithm | Hard | — |
 | [Mouse and Cheese (Max Reward with k Picks)](https://trueinterview.io/questions/bd5a3ee9-a46f-41a8-9216-146df23a8810) | Algorithm | Medium | — |
 | [Unique Characters](https://trueinterview.io/questions/b765dd59-a8f5-468c-a15e-e2b80ec674f6) | Algorithm | Easy | — |
 | [Second Largest Permutation From Given Multiset](https://trueinterview.io/questions/b013b902-f3a6-444e-a0a9-866fa7ac2f06) | Algorithm | Medium | — |
 | [Minimum Length of Subarray with Min-Max Difference](https://trueinterview.io/questions/a4398c05-cc42-4b2b-804e-6e65102c2ecb) | Algorithm | Hard | — |
 | [Python Data Processing: Merge two messy sources and compute a summary dictionary](https://trueinterview.io/questions/8dfc431c-6a6e-4241-8587-02b33cda60ff) | AI Coding | Medium | — |
-| [Rotate Array](https://trueinterview.io/questions/89d877dc-407d-4508-bc3b-1e1b3b0bc1f3) | Algorithm | Medium | — |
 | [Calculate Speeds of Animals Using Two Datasets](https://trueinterview.io/questions/87db45d6-08ee-4a2f-9c24-d72303779100) | Algorithm | Medium | — |
 | [3Sum Problem](https://trueinterview.io/questions/872afd2c-9574-4b57-8be4-7a867d8058c3) | Algorithm | Medium | — |
 | [Deep Copy a Graph](https://trueinterview.io/questions/80e7743c-f811-4b3b-ba6c-c9b5d059bcc2) | Algorithm | Medium | — |
 | [Robot Room Cleaner: Find Target](https://trueinterview.io/questions/7c0209a8-0314-4e7a-967c-5d751c4cf468) | Algorithm | Hard | — |
 | [Friend Request](https://trueinterview.io/questions/6a131d8f-2002-477c-be7f-ee4b4a01b54b) | Algorithm | Medium | — |
+| [Find Words That Are Substrings of Other Words](https://trueinterview.io/questions/63481706-9628-4f13-849d-428dc74a0977) | Algorithm | Medium | — |
 | [SQL Query for Data Processing](https://trueinterview.io/questions/604a5e3c-2bb5-495c-bc43-c97818be0c9a) | SQL | Easy | — |
-| [Calculate Minimum Distance with Drones](https://trueinterview.io/questions/535359f2-92b8-45ab-b3f9-29f110de885a) | Algorithm | Hard | — |
+| [Find Unique Elements](https://trueinterview.io/questions/5eca4c07-920f-49f5-a784-a6b71bfb6a85) | Algorithm | Easy | — |
 | [Top 3 Customers by Book Purchases in Specific Categories](https://trueinterview.io/questions/48ac9704-e9a2-4d9e-ae72-7e46d09b96ad) | SQL | Medium | — |
 | [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | — |
 | [SQL Floor Function Usage for Numeric Values](https://trueinterview.io/questions/4154d677-1a2c-4e36-8a65-a9568c1436db) | SQL | Easy | — |
@@ -279,12 +290,14 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Weighted Sum of Nested Integer Array by Depth_inverse](https://trueinterview.io/questions/3a9bae3a-c122-418b-92a8-366126b7e898) | Algorithm | Medium | — |
 | [Optimize Word Container / String Matching Queries (ParanoidEcho)](https://trueinterview.io/questions/32cfb5cb-1695-45bf-9da9-61408d95d237) | Algorithm | Medium | — |
 | [Maze Solver: Print a Maze With Empty Cells Marked](https://trueinterview.io/questions/271c9609-f5e2-49dc-ae3b-192caf02b0fc) | Algorithm | Easy | — |
-| [Evaluate Basic Expression Without Stack or Extra Space](https://trueinterview.io/questions/258a56b8-ee06-4b1b-98e9-a4c13ea3fb11) | Algorithm | Hard | — |
 | [Find Total Sales by Unique Customers](https://trueinterview.io/questions/237e2cdf-214c-4455-9486-bcc9c85df7a9) | SQL | Easy | — |
 | [Merge M Sorted Arrays and Output First K Elements](https://trueinterview.io/questions/1c0e9ce3-393d-4d67-b88e-b96758389615) | Algorithm | Medium | — |
+| [Check for Duplicate within Range](https://trueinterview.io/questions/171ba77d-6489-4fad-8a63-72730222cf83) | Algorithm | Medium | — |
 | [Bipedal Dinosaur Speed Calculation](https://trueinterview.io/questions/12c1f8ea-f98e-401a-ba26-39ba0ee3a59e) | Algorithm | Medium | — |
+| [Round-Trip Minimum Price](https://trueinterview.io/questions/06966bea-c7df-4954-a767-3dc378714b6d) | Algorithm | Hard | — |
 | [Write a Script to Monitor 'vmstat' Output](https://trueinterview.io/questions/0237fc06-24d7-4e05-97ce-e1b07257a2e8) | AI Coding | Medium | — |
 | [Fix an AI-generated query and address data quality issues](https://trueinterview.io/questions/01f555c7-1416-450a-9bff-c393859356bd) | AI Coding | Hard | — |
+| [Token Bucket Rate Limiter](https://trueinterview.io/questions/e7062e3a-a5ed-4e78-9bb3-93a71d1e4c34) | Object Oriented Programming | Medium | — |
 | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
 | [Dot Product of Two Sparse Vectors](https://trueinterview.io/questions/aa3b7b34-eb9e-40d4-9c23-9ab29c4827a4) | Algorithm | Medium | — |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://trueinterview.io/questions/366ee784-2ba4-440f-990c-01acf83d407e) | Algorithm | Medium | — |
@@ -292,17 +305,16 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [SQL Query for Connected Ad Tables](https://trueinterview.io/questions/a1591988-c338-4582-87e6-3c61cd131eba) | SQL | Medium | — |
 | [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2) | Algorithm | Medium | — |
 | [Longest Vacation With PTO (flip W to H)](https://trueinterview.io/questions/60a769ab-5a47-4fe2-ac54-071077547f77) | Algorithm | Medium | — |
-| [Longest Increasing Sequence in BST](https://trueinterview.io/questions/366ab104-e87e-4aa3-ac9b-5763f0517723) | Algorithm | Medium | — |
 | [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643) | Algorithm | Medium | — |
 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | Algorithm | Easy | — |
 | [Binary Tree: Print Left Boundary Bottom-Up and Right Boundary Top-Down](https://trueinterview.io/questions/0d8ad1b8-ec74-4ddf-9c25-37d113f4aad3) | Algorithm | Medium | — |
 | [Fix validation for friend recommendations](https://trueinterview.io/questions/021b6f7e-4100-443e-aa5d-09ddf9ae43ca) | AI Coding | Medium | — |
 | [House Robber (Large Inputs)](https://trueinterview.io/questions/251a1e5d-072f-491a-b8c2-95730c39f8e5) | Algorithm | Medium | — |
+| [Simulate Linux 'cd' Command](https://trueinterview.io/questions/9ab408d8-a019-4be8-a053-c29063bfb2c0) | Algorithm | Medium | — |
 | [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Object Oriented Programming | Easy | — |
 | [Maze Problem](https://trueinterview.io/questions/110ab1b0-fab7-4c67-a9b4-569ce7d74c2f) | Algorithm | Medium | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
-| [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |
-| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |
+| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Medium | — |
 | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Algorithm | Medium | — |
 | [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/f81c8862-7d95-4d4f-9537-73b6b1642297) | Algorithm | Medium | — |
 | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Algorithm | Medium | — |

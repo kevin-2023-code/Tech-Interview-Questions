@@ -18,7 +18,7 @@
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 25) |
-| Difficulty (easy / medium / hard) | 2 / 15 / 8 |
+| Difficulty (easy / medium / hard) | 2 / 16 / 7 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **25 of 25** questions at Expedia t
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 10 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 11 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 10 | ████████ | [System Design](../formats/system-design.md) (60%) | 1 / 5 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -50,16 +50,16 @@ Of the **12 questions at Expedia that carry a topic label** (48% of them — the
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 2 | 17% | ████████████ | Nov 18, 2025 |
-| `graphs` | 2 | 17% | ████████████ | — |
-| `greedy` | 2 | 17% | ████████████ | May 30, 2026 |
-| `math` | 2 | 17% | ████████████ | May 30, 2026 |
-| `strings` | 2 | 17% | ████████████ | — |
-| `arrays` | 1 | 8% | ██████ | May 30, 2026 |
-| `backtracking` | 1 | 8% | ██████ | — |
-| `bit-manipulation` | 1 | 8% | ██████ | — |
-| `hashing` | 1 | 8% | ██████ | — |
-| `linked-list` | 1 | 8% | ██████ | — |
+| `graphs` | 3 | 25% | ████████████ | — |
+| `dynamic-programming` | 2 | 17% | ████████ | Nov 18, 2025 |
+| `greedy` | 2 | 17% | ████████ | May 30, 2026 |
+| `strings` | 2 | 17% | ████████ | — |
+| `arrays` | 1 | 8% | ████ | May 30, 2026 |
+| `backtracking` | 1 | 8% | ████ | — |
+| `bit-manipulation` | 1 | 8% | ████ | — |
+| `hashing` | 1 | 8% | ████ | — |
+| `linked-list` | 1 | 8% | ████ | — |
+| `math` | 1 | 8% | ████ | May 30, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -125,6 +125,7 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | [Calculate Triangle Area from Three Coordinate Points](https://trueinterview.io/questions/f13e1f46-76a9-4caa-b697-ffdd9abcd68e) | Algorithm | Easy | — |
 | [Minimum Steps to Reorder Layers](https://trueinterview.io/questions/b99ee58c-743f-4caf-a4f4-751b8ca48ecc) | Algorithm | Hard | — |
 | [Minimum Additional Capabilities to Equalize Team Work Hours](https://trueinterview.io/questions/5c1401d7-3928-496a-b8ac-cd5bba5b5587) | Algorithm | Medium | — |
+| [Number of Provinces](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2) | Algorithm | Medium | — |
 | [Maximize Hole in Prison Gate](https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817) | Algorithm | Medium | — |
 | [Merge One Linked List Into Another Between Two Indices](https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69) | Algorithm | Medium | — |
 | [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d) | Algorithm | Hard | — |
@@ -133,6 +134,5 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | [Count Strongly Connected Components Using Kosaraju's Algorithm](https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6) | Algorithm | Medium | — |
 | [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9) | Algorithm | Hard | — |
 | [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0) | Algorithm | Medium | — |
-| [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) | Algorithm | Hard | — |
 | [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) | Algorithm | Medium | — |
 | [House Robber (Large Inputs)](https://trueinterview.io/questions/251a1e5d-072f-491a-b8c2-95730c39f8e5) | Algorithm | Medium | — |

@@ -15,14 +15,14 @@
 |  |  |
 | :-- | :-- |
 | Questions tracked | **23** |
-| Most recent sighting | Jun 26, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (48% of 23) |
-| Difficulty (easy / medium / hard) | 4 / 16 / 3 |
+| Most recent sighting | Jun 17, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (52% of 23) |
+| Difficulty (easy / medium / hard) | 4 / 17 / 2 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 2 |
 
-<sub>Counted from the 23 questions reported at Ramp. 18 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Ramp. 17 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -30,19 +30,15 @@ Which stage each question came from, for the **23 of 23** questions at Ramp that
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (44%) | 3 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 8 | ████████ | [Algorithm](../formats/algorithm.md) (88%) | 1 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (30%) | 1 / 8 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (44%) | 3 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 1 / 8 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (33%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 26, 2026 |
+**Nothing has been reported at Ramp since Jun 17, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
@@ -61,11 +57,11 @@ Of the **7 questions at Ramp that carry a topic label** (30% of them — the res
 
 ## When they asked it
 
-Every recorded sighting at Ramp, by the month it was reported in — Apr 01, 2025 to Jun 26, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Ramp, by the month it was reported in — Apr 01, 2025 to Jun 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 3 | ████████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
 | [May 2026](../by-month/2026-05.md) | 2 | ████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ████████████████████████ |
@@ -83,14 +79,14 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) 🆓 | Object Oriented Programming | Medium | 2 | Jun 26, 2026 |
-| **2** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **3** | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Algorithm | Medium | — | Jun 01, 2026 |
-| **4** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
-| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
-| **6** | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | AI Coding | Medium | — | Apr 2026 |
-| **7** | [Frontend Hidden URL and React Wordle](https://trueinterview.io/questions/frontend-challenge-dom-wordle) | AI Coding | Hard | — | Feb 26, 2026 |
-| **8** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
+| **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
+| **2** | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) 🆓 | Algorithm | Medium | — | Jun 01, 2026 |
+| **3** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
+| **4** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
+| **5** | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | AI Coding | Medium | — | Apr 2026 |
+| **6** | [Frontend Hidden URL and React Wordle](https://trueinterview.io/questions/frontend-challenge-dom-wordle) | AI Coding | Hard | — | Feb 26, 2026 |
+| **7** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
+| **8** | [Purchase Optimization](https://trueinterview.io/questions/purchase-optimization) | Algorithm | Easy | 2 | Feb 11, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -113,7 +109,6 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Jun 26, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Algorithm | Medium | Jun 01, 2026 |
 | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | May 06, 2026 |
@@ -125,7 +120,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Task Management System II](https://trueinterview.io/questions/oa-task-management-system-2) | Object Oriented Programming | Medium | Jan 17, 2026 |
 | [In-Memory Banking System (4 Levels)](https://trueinterview.io/questions/oa-banking-system) | Object Oriented Programming | Medium | Jan 17, 2026 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
-| [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions) | Algorithm | Hard | Nov 22, 2025 |
+| [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions) | Algorithm | Medium | Nov 22, 2025 |
 | [Rate Limiter by IP Address](https://trueinterview.io/questions/rate-limiter-by-ip-address) | Algorithm | Medium | Sep 29, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-storage-system) | Algorithm | Medium | Aug 2025 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
@@ -136,3 +131,4 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | AI Coding | Medium | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
+| [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb) | Algorithm | Medium | — |

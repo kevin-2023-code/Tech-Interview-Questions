@@ -2,13 +2,13 @@
 
 # Oscar Health interview process, OA & interview questions
 
-**3 questions** reported at Oscar Health · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oscar-health), judged server-side.
+**3 questions** reported at Oscar Health. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oscar-health), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧬 Health, biotech & medical devices · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-oscar-health)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-oscar-health)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 0 / 3 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 3 questions reported at Oscar Health. 0 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -60,19 +59,6 @@ The 3 questions to open first if you are preparing for Oscar Health. **This is n
 | **3** | [Morse Code Conversion](https://trueinterview.io/questions/f2fd49a4-36ff-4528-aade-cf3f781b1d59) 🆓 | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at Oscar Health — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Oscar Health Network Adequacy Interview Experience](https://trueinterview.io/interviews/4c210ac3-dab0-4936-8f8d-f5fae9553e3b) | Sep 16, 2026 |
-| Software | [Oscar Health Software Engineer Interview Experience](https://trueinterview.io/interviews/3c1d52d9-ea20-4451-8089-293fabde83b4) | Sep 16, 2026 |
-| Software | [Oscar Interview Experience](https://trueinterview.io/interviews/79dcb63d-4c6f-4318-aedc-cf8dd50a7d95) | Sep 16, 2026 |
-| Software | [Software Engineer Interview Experience: Morse Code Conversion and Decoding](https://trueinterview.io/interviews/e5589366-94fc-4a83-a7f4-b766af17582f) | Sep 16, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,588 in total). [Every report at Oscar Health and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

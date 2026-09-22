@@ -80,7 +80,7 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | **2** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | — | Jul 29, 2026 |
 | **3** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | — | Jul 29, 2026 |
 | **4** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) 🆓 | Algorithm | Hard | 1 | Mar 25, 2026 |
-| **5** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) 🆓 | Algorithm | Medium | 6 | — |
+| **5** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) 🆓 | Algorithm | Medium | 7 | — |
 | **6** | [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe) | Algorithm | Easy | — | — |
 | **7** | [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc) | Algorithm | Easy | — | — |
 | **8** | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Algorithm | Medium | — | — |

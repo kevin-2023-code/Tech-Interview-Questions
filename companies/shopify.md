@@ -2,7 +2,7 @@
 
 # Shopify interview process, OA & interview questions
 
-**14 questions** reported at Shopify · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Shopify · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **14** |
+| Questions tracked | **15** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 14) |
-| Difficulty (easy / medium / hard) | 4 / 9 / 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (73% of 15) |
+| Difficulty (easy / medium / hard) | 4 / 10 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 14 questions reported at Shopify. 10 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Shopify. 10 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **14 of 14** questions at Shopify that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Shopify that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 6 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 5 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ██████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,18 +42,18 @@ Which stage each question came from, for the **14 of 14** questions at Shopify t
 
 ## What they ask about
 
-Of the **7 questions at Shopify that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Shopify that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 29% | ████████████ | — |
-| `backtracking` | 1 | 14% | ██████ | Jan 05, 2026 |
-| `dynamic-programming` | 1 | 14% | ██████ | Aug 29, 2025 |
-| `hashing` | 1 | 14% | ██████ | Apr 09, 2026 |
-| `linked-list` | 1 | 14% | ██████ | Apr 09, 2026 |
-| `stack` | 1 | 14% | ██████ | Aug 29, 2025 |
-| `trees` | 1 | 14% | ██████ | Jun 15, 2026 |
-| `tries` | 1 | 14% | ██████ | Jun 15, 2026 |
+| `arrays` | 2 | 25% | ████████████ | — |
+| `backtracking` | 2 | 25% | ████████████ | Jan 05, 2026 |
+| `dynamic-programming` | 1 | 12% | ██████ | Aug 29, 2025 |
+| `hashing` | 1 | 12% | ██████ | Apr 09, 2026 |
+| `linked-list` | 1 | 12% | ██████ | Apr 09, 2026 |
+| `stack` | 1 | 12% | ██████ | Aug 29, 2025 |
+| `trees` | 1 | 12% | ██████ | Jun 15, 2026 |
+| `tries` | 1 | 12% | ██████ | Jun 15, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -121,3 +121,4 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | [Design an Extensible Text Editor with Multiple Renderers](https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15) | Algorithm | Medium | — |
 | [Simulate a Robot Following Commands on a Grid](https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d) | Algorithm | Easy | — |
 | [Terminal Robot Simulator with Multiple Robots](https://trueinterview.io/questions/5aa25c82-81de-5056-8e63-c7125c1306be) | Algorithm | Medium | — |
+| [Word Search (Grid DFS Backtracking)](https://trueinterview.io/questions/a6c576df-84c1-481e-be3c-2f205d8b7c81) | Algorithm | Medium | — |

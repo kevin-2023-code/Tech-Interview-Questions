@@ -2,7 +2,7 @@
 
 # Two Sigma interview process, OA & interview questions
 
-**22 questions** reported at Two Sigma · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Two Sigma · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **22** |
+| Questions tracked | **23** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (86% of 22) |
-| Difficulty (easy / medium / hard) | 1 / 17 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (87% of 23) |
+| Difficulty (easy / medium / hard) | 1 / 18 / 4 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 22 questions reported at Two Sigma. 15 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Two Sigma. 15 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **22 of 22** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | ████████ | [Algorithm](../formats/algorithm.md) (88%) | 1 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (80%) | 0 / 9 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | █████ | [Algorithm](../formats/algorithm.md) (80%) | 0 / 3 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 6 | ██████ | [Algorithm](../formats/algorithm.md) (83%) | 0 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,7 +46,7 @@ Which stage each question came from, for the **22 of 22** questions at Two Sigma
 
 ## What they ask about
 
-Of the **11 questions at Two Sigma that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Two Sigma that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -134,6 +134,7 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round) | Algorithm | Medium | Oct 09, 2025 |
 | [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) | Algorithm | Hard | Oct 09, 2025 |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Algorithm | Medium | — |
 | [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Algorithm | Medium | — |
 | [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Algorithm | Medium | — |

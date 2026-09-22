@@ -68,7 +68,7 @@ The 6 questions to open first if you are preparing for Luma AI, ranked by **the 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) 🆓 | Algorithm | Hard | 1 | Jan 05, 2026 |
-| **2** | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) 🆓 | Algorithm | Easy | — | — |
+| **2** | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) 🆓 | Algorithm | Easy | 1 | — |
 | **3** | [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410) | Algorithm | Easy | — | — |
 | **4** | [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4) | Algorithm | Easy | — | — |
 | **5** | [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571) | Algorithm | Medium | — | — |

@@ -2,34 +2,33 @@
 
 # Trends by month
 
-Counted over the **1,332 questions that carry a sighting date**. The other 983 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **1,389 questions that carry a sighting date**. The other 1,154 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
 | Month | Sightings | Companies | AI Coding | Algorithm | Object Oriented Programming | SQL | System Design |  |
 | :-- | --: | --: | --: | --: | --: | --: | --: | :-- |
 | [Feb 2126](../by-month/2126-02.md) | 1 | 1 | 0 | 1 | 0 | 0 | 0 | █ |
-| [Sep 2026](../by-month/2026-09.md) | 10 | 2 | 0 | 7 | 3 | 0 | 0 | █ |
-| [Aug 2026](../by-month/2026-08.md) | 39 | 11 | 0 | 21 | 5 | 6 | 7 | ███ |
-| [Jul 2026](../by-month/2026-07.md) | 72 | 33 | 2 | 31 | 6 | 25 | 8 | ██████ |
-| [Jun 2026](../by-month/2026-06.md) | 182 | 51 | 18 | 95 | 35 | 1 | 33 | ██████████████ |
-| [May 2026](../by-month/2026-05.md) | 203 | 51 | 18 | 101 | 35 | 21 | 28 | ████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 168 | 57 | 11 | 85 | 27 | 1 | 44 | █████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 127 | 47 | 6 | 79 | 15 | 4 | 23 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 126 | 52 | 6 | 74 | 20 | 0 | 26 | ██████████ |
-| [Jan 2026](../by-month/2026-01.md) | 147 | 49 | 4 | 92 | 33 | 0 | 18 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 67 | 42 | 2 | 43 | 12 | 1 | 9 | █████ |
-| [Nov 2025](../by-month/2025-11.md) | 76 | 39 | 3 | 48 | 16 | 0 | 9 | ██████ |
-| [Oct 2025](../by-month/2025-10.md) | 39 | 34 | 2 | 19 | 11 | 0 | 7 | ███ |
+| [Sep 2026](../by-month/2026-09.md) | 18 | 7 | 0 | 14 | 4 | 0 | 0 | █ |
+| [Aug 2026](../by-month/2026-08.md) | 80 | 21 | 0 | 47 | 11 | 6 | 16 | ██████ |
+| [Jul 2026](../by-month/2026-07.md) | 82 | 35 | 2 | 37 | 7 | 25 | 11 | ███████ |
+| [Jun 2026](../by-month/2026-06.md) | 179 | 51 | 18 | 91 | 36 | 1 | 33 | ██████████████ |
+| [May 2026](../by-month/2026-05.md) | 201 | 52 | 18 | 101 | 35 | 21 | 26 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 167 | 57 | 11 | 87 | 25 | 1 | 43 | █████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 128 | 49 | 6 | 81 | 15 | 4 | 22 | ██████████ |
+| [Feb 2026](../by-month/2026-02.md) | 124 | 52 | 6 | 72 | 20 | 0 | 26 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 147 | 49 | 4 | 91 | 33 | 0 | 19 | ████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 66 | 42 | 2 | 42 | 13 | 1 | 8 | █████ |
+| [Nov 2025](../by-month/2025-11.md) | 75 | 38 | 3 | 47 | 16 | 0 | 9 | ██████ |
+| [Oct 2025](../by-month/2025-10.md) | 39 | 33 | 2 | 19 | 11 | 0 | 7 | ███ |
 | [Sep 2025](../by-month/2025-09.md) | 29 | 17 | 0 | 21 | 7 | 0 | 1 | ██ |
-| [Aug 2025](../by-month/2025-08.md) | 15 | 11 | 2 | 10 | 3 | 0 | 0 | █ |
-| [Jul 2025](../by-month/2025-07.md) | 10 | 8 | 0 | 7 | 3 | 0 | 0 | █ |
-| [Jun 2025](../by-month/2025-06.md) | 4 | 5 | 1 | 2 | 0 | 0 | 1 | █ |
-| [May 2025](../by-month/2025-05.md) | 2 | 1 | 0 | 1 | 1 | 0 | 0 | █ |
+| [Aug 2025](../by-month/2025-08.md) | 14 | 11 | 2 | 9 | 3 | 0 | 0 | █ |
+| [Jul 2025](../by-month/2025-07.md) | 14 | 8 | 0 | 12 | 2 | 0 | 0 | █ |
+| [Jun 2025](../by-month/2025-06.md) | 6 | 8 | 1 | 3 | 0 | 0 | 2 | █ |
+| [May 2025](../by-month/2025-05.md) | 5 | 2 | 0 | 3 | 2 | 0 | 0 | █ |
 | [Apr 2025](../by-month/2025-04.md) | 9 | 4 | 0 | 9 | 0 | 0 | 0 | █ |
 | [Jan 2025](../by-month/2025-01.md) | 2 | 1 | 0 | 0 | 1 | 0 | 1 | █ |
 | [Dec 2024](../by-month/2024-12.md) | 1 | 1 | 0 | 1 | 0 | 0 | 0 | █ |
-| [Nov 2024](../by-month/2024-11.md) | 1 | 1 | 0 | 1 | 0 | 0 | 0 | █ |
 | [Oct 2024](../by-month/2024-10.md) | 1 | 3 | 0 | 1 | 0 | 0 | 0 | █ |
 | [May 2024](../by-month/2024-05.md) | 1 | 1 | 0 | 0 | 0 | 0 | 1 | █ |
 
@@ -42,18 +41,19 @@ The month a company's earliest recorded sighting falls in. A company appearing h
 | Month | Companies first reported |
 | :-- | :-- |
 | [Aug 2026](../by-month/2026-08.md) | Bobyard |
+| [May 2026](../by-month/2026-05.md) | Block |
 | [Apr 2026](../by-month/2026-04.md) | GEICO, Harvey, Squarepoint, Tradedesk |
 | [Mar 2026](../by-month/2026-03.md) | Gusto, Point72 |
 | [Feb 2026](../by-month/2026-02.md) | Applied Intuition, PayPal, Pinduoduo, Scale AI, Weride |
-| [Jan 2026](../by-month/2026-01.md) | Datadog, Luma AI, Netflix, Verkada, Whatnot |
-| [Dec 2025](../by-month/2025-12.md) | Anthropic, HubSpot, NVIDIA, Rippling, Salesforce, xAI |
+| [Jan 2026](../by-month/2026-01.md) | Datadog, Luma AI, Verkada, Whatnot |
+| [Dec 2025](../by-month/2025-12.md) | Anthropic, HubSpot, Netflix, NVIDIA, Rippling, Salesforce, xAI |
 | [Nov 2025](../by-month/2025-11.md) | Capital One, Expedia, Okta, Square |
-| [Oct 2025](../by-month/2025-10.md) | Affirm, Amplitude, Apple, Bloomberg, ByteDance, Confluent, Databricks, Google, Hudson River Trading, Lyft, Microsoft, Microsoft AI, Snapchat, Stripe, Two Sigma |
-| [Sep 2025](../by-month/2025-09.md) | Airbnb, Akuna Capital, Atlassian, IBM, Intuit, JPMorgan, Meta, Roblox, Uber, Waymo |
+| [Oct 2025](../by-month/2025-10.md) | Affirm, Amplitude, Apple, Bloomberg, Confluent, Google, Hudson River Trading, Lyft, Microsoft, Microsoft AI, Snapchat, Stripe, Two Sigma |
+| [Sep 2025](../by-month/2025-09.md) | Airbnb, Akuna Capital, Atlassian, IBM, Intuit, Meta, Roblox, Uber, Waymo |
 | [Aug 2025](../by-month/2025-08.md) | Amazon, DoorDash, LinkedIn, Optiver, Perplexity, Tesla |
 | [Jul 2025](../by-month/2025-07.md) | Cisco, Coinbase, Instacart, Reddit, Snowflake, Walmart Labs |
-| [Jun 2025](../by-month/2025-06.md) | OpenAI, Shopify, SoFi |
-| [May 2025](../by-month/2025-05.md) | Pinterest |
+| [Jun 2025](../by-month/2025-06.md) | Databricks, JPMorgan, OpenAI, Shopify, SoFi |
+| [May 2025](../by-month/2025-05.md) | ByteDance, Pinterest |
 | [Apr 2025](../by-month/2025-04.md) | Ebay, Ramp, Robinhood, Yelp |
 | [Jan 2025](../by-month/2025-01.md) | Oracle |
 | [Dec 2024](../by-month/2024-12.md) | Vanta |

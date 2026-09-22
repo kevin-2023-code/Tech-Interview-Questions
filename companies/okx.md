@@ -2,13 +2,13 @@
 
 # OKX interview process, OA & interview questions
 
-**5 questions** reported at OKX · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okx), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at OKX. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okx), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-okx)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-okx)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 1 / 4 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 5 questions reported at OKX. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -59,26 +58,13 @@ The 5 questions to open first if you are preparing for OKX, ranked by **the ones
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) 🆓 | Algorithm | Medium | 4 | — |
+| **1** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) 🆓 | Algorithm | Medium | 6 | — |
 | **2** | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) 🆓 | Algorithm | Medium | 2 | — |
 | **3** | [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Object Oriented Programming | Medium | 1 | — |
 | **4** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Algorithm | Easy | — | — |
 | **5** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at OKX — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Cross-Region Data Migration and PSP Reconciliation Interview Experience](https://trueinterview.io/interviews/0d734cfc-3a92-45d6-8195-2bff294785e7) | Sep 16, 2026 |
-| Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/b3ceafd4-f4bd-4ac1-8ff4-d5d16d8ea5e6) | Sep 16, 2026 |
-| Software | [Linked List Insertion and Deletion Coding Interview Experience](https://trueinterview.io/interviews/2d7f7b37-bead-4843-9a98-bef59a4a546e) | Sep 16, 2026 |
-| Software | [OKX Interview Experience](https://trueinterview.io/interviews/6add3c50-66a6-4e28-bffc-d9aa06de7e0f) | Sep 16, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,588 in total). [Every report at OKX and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

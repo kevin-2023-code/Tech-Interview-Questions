@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**61 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**60 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (24)](../companies/verkada.md) · [Rubrik (14)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
+[Verkada (23)](../companies/verkada.md) · [Rubrik (14)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,15 +18,15 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 46 | 75% | ██████████████ | 6 |
-| [System Design](../formats/system-design.md) | 8 | 13% | ██ | 2 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 7 | 11% | ██ | 1 |
+| [Algorithm](../formats/algorithm.md) | 46 | 77% | ██████████████ | 6 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 7 | 12% | ██ | 1 |
+| [System Design](../formats/system-design.md) | 7 | 12% | ██ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **6 / 41 / 14**, over the rows the catalog has graded. 9 of the 61 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **6 / 40 / 14**, over the rows the catalog has graded. 9 of the 60 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **32 questions in this cut that carry a topic label** (52% of it):
+Of the **32 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -90,7 +90,6 @@ Of the **32 questions in this cut that carry a topic label** (52% of it):
 | **Vanta** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Medium | Jul 24, 2025 |
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
 | **Verkada** | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Medium | — |
-| **Verkada** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
 | **Verkada** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
 | **Verkada / Amazon / ByteDance / Lyft / Microsoft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |

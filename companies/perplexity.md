@@ -18,7 +18,7 @@
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (32% of 22) |
-| Difficulty (easy / medium / hard) | 1 / 17 / 4 |
+| Difficulty (easy / medium / hard) | 1 / 18 / 3 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 6 |
 
@@ -30,7 +30,7 @@ Which stage each question came from, for the **22 of 22** questions at Perplexit
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ███ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 3 | ███ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 0 / 10 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 9 | ████████ | [System Design](../formats/system-design.md) (56%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -87,7 +87,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | **5** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | — | Apr 12, 2026 |
 | **6** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
 | **7** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | 1 | Feb 23, 2026 |
-| **8** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Hard | — | Jan 06, 2026 |
+| **8** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Medium | — | Jan 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -121,7 +121,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | Apr 12, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | Feb 23, 2026 |
-| [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Hard | Jan 06, 2026 |
+| [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Medium | Jan 06, 2026 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | AI Coding | Medium | Nov 22, 2025 |
 | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Algorithm | Medium | Oct 12, 2025 |

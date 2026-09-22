@@ -2,37 +2,36 @@
 
 # Rokt interview process, OA & interview questions
 
-**4 questions** reported at Rokt · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rokt), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at Rokt. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rokt), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-rokt)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-rokt)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **4** |
+| Questions tracked | **5** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 4) |
-| Difficulty (easy / medium / hard) | 1 / 3 / 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
+| Difficulty (easy / medium / hard) | 1 / 4 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
-| Interview reports on the board | 4 in this snapshot |
 
-<sub>Counted from the 4 questions reported at Rokt. 0 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 5 questions reported at Rokt. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **4 of 4** questions at Rokt that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **5 of 5** questions at Rokt that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 2 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -43,39 +42,28 @@ Which stage each question came from, for the **4 of 4** questions at Rokt that n
 
 ## What they ask about
 
-Of the **1 question at Rokt that carries a topic label** (25% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **2 questions at Rokt that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 1 | 100% | ████████████ | — |
+| `binary-search` | 1 | 50% | ████████████ | — |
+| `strings` | 1 | 50% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Start here
 
-The 4 questions to open first if you are preparing for Rokt, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 5 questions to open first if you are preparing for Rokt, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) 🆓 | Object Oriented Programming | Medium | 5 | — |
-| **2** | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Algorithm | Easy | 1 | — |
-| **3** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Object Oriented Programming | Medium | — | — |
-| **4** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) 🆓 | Algorithm | Medium | — | — |
+| **1** | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) 🆓 | Algorithm | Medium | 6 | — |
+| **2** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) 🆓 | Object Oriented Programming | Medium | 5 | — |
+| **3** | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Algorithm | Easy | 1 | — |
+| **4** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Object Oriented Programming | Medium | — | — |
+| **5** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Interview reports
-
-What candidates said happened in the room at Rokt — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Backend Infrastructure Interview Experience](https://trueinterview.io/interviews/9df78fa7-ab55-425b-85d2-6750b74da706) | Sep 16, 2026 |
-| Software | [Frontend Dashboard System Design and Coding Interview Experience](https://trueinterview.io/interviews/66396024-ee41-4755-803a-c2051ddc02a0) | Sep 16, 2026 |
-| Software | [Interview Experience (Recruiter Contact via LinkedIn)](https://trueinterview.io/interviews/a195e0c7-cb2c-473d-9fa7-1e9ef512b4cf) | Sep 16, 2026 |
-| Software | [Not mentioned / Not mentioned Interview Experience (New York, 2025)](https://trueinterview.io/interviews/a1ec221b-3574-41a5-941a-0b36c400db30) | Sep 16, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,588 in total). [Every report at Rokt and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -91,3 +79,4 @@ What candidates said happened in the room at Rokt — written up by the people w
 | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Object Oriented Programming | Medium | — |
 | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
+| [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |

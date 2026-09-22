@@ -2,7 +2,7 @@
 
 # NVIDIA interview process, OA & interview questions
 
-**26 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,64 +14,67 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
-| Most recent sighting | Jul 03, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 26) |
-| Difficulty (easy / medium / hard) | 6 / 12 / 8 |
+| Questions tracked | **29** |
+| Most recent sighting | Aug 21, 2026 |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
+| Difficulty (easy / medium / hard) | 6 / 15 / 8 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 26 questions reported at NVIDIA. 15 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 29 questions reported at NVIDIA. 17 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **29 of 29** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 3 / 8 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | ███████ | [Algorithm](../formats/algorithm.md) (36%) | 1 / 4 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 3 / 9 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 14 | █████████ | [Algorithm](../formats/algorithm.md) (43%) | 1 / 7 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 21, 2026 |
+| [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | Onsite / virtual onsite | Jul 03, 2026 |
 | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Hard | Onsite / virtual onsite | Jul 03, 2026 |
 | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | Onsite / virtual onsite | Jul 03, 2026 |
 | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | Phone screen | Jun 30, 2026 |
 
 ## What they ask about
 
-Of the **11 questions at NVIDIA that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at NVIDIA that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `heap` | 2 | 18% | ████████████ | Feb 05, 2026 |
-| `strings` | 2 | 18% | ████████████ | Apr 26, 2026 |
-| `arrays` | 1 | 9% | ██████ | Feb 04, 2026 |
-| `binary-search` | 1 | 9% | ██████ | — |
-| `graphs` | 1 | 9% | ██████ | — |
-| `greedy` | 1 | 9% | ██████ | — |
-| `hashing` | 1 | 9% | ██████ | Apr 15, 2026 |
-| `intervals` | 1 | 9% | ██████ | Feb 04, 2026 |
-| `matrix` | 1 | 9% | ██████ | Apr 15, 2026 |
-| `sliding-window` | 1 | 9% | ██████ | — |
+| `arrays` | 2 | 17% | ████████████ | Aug 21, 2026 |
+| `binary-search` | 2 | 17% | ████████████ | Aug 21, 2026 |
+| `heap` | 2 | 17% | ████████████ | Feb 05, 2026 |
+| `strings` | 2 | 17% | ████████████ | Apr 26, 2026 |
+| `graphs` | 1 | 8% | ██████ | — |
+| `greedy` | 1 | 8% | ██████ | — |
+| `hashing` | 1 | 8% | ██████ | Apr 15, 2026 |
+| `intervals` | 1 | 8% | ██████ | Feb 04, 2026 |
+| `matrix` | 1 | 8% | ██████ | Apr 15, 2026 |
+| `sliding-window` | 1 | 8% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at NVIDIA, by the month it was reported in — Dec 10, 2025 to Jul 03, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at NVIDIA, by the month it was reported in — Dec 10, 2025 to Aug 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 2 | ████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
+| [Jul 2026](../by-month/2026-07.md) | 3 | ████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | ████████ |
@@ -84,14 +87,14 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | — | Jul 03, 2026 |
-| **2** | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Hard | — | Jul 03, 2026 |
-| **3** | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | — | Jun 30, 2026 |
-| **4** | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | — | Apr 26, 2026 |
-| **5** | [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout) | Algorithm | Medium | — | Apr 15, 2026 |
-| **6** | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Object Oriented Programming | Medium | — | Apr 15, 2026 |
-| **7** | [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | System Design | Hard | — | Mar 25, 2026 |
-| **8** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
+| **1** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
+| **2** | [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | — | Jul 03, 2026 |
+| **3** | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | — | Jul 03, 2026 |
+| **4** | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Hard | — | Jul 03, 2026 |
+| **5** | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | — | Jun 30, 2026 |
+| **6** | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | — | Apr 26, 2026 |
+| **7** | [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout) | Algorithm | Medium | — | Apr 15, 2026 |
+| **8** | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Object Oriented Programming | Medium | — | Apr 15, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -119,6 +122,8 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 🆕 Aug 21, 2026 |
+| [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | Jul 03, 2026 |
 | [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | Jul 03, 2026 |
 | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Hard | Jul 03, 2026 |
 | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | Jun 30, 2026 |
@@ -135,6 +140,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Algorithm | Hard | Dec 10, 2025 |
 | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | AI Coding | Hard | — |
+| [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Algorithm | Medium | — |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/ef59b32b-948c-4f2a-a1ea-0672a8432eae) | Algorithm | Medium | — |
 | [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2) | Algorithm | Medium | — |
