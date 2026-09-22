@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **26** |
 | Most recent sighting | Jun 23, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [System Design](../formats/system-design.md) (46% of 26) |
 | Difficulty (easy / medium / hard) | 2 / 17 / 7 |
 | Free to practise | [5](../free/README.md) |
@@ -38,11 +38,7 @@ Which stage each question came from, for the **26 of 26** questions at Reddit th
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) | Algorithm | Medium | Phone screen | Jun 23, 2026 |
+**Nothing has been reported at Reddit since Jun 23, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

@@ -12,16 +12,14 @@
 | :-- | --: | --: | :-- | :-- |
 | [Amazon](../companies/amazon.md) | 46 | 232 | Sep 10, 2026 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 22 | 144 | Sep 10, 2026 | ████████ |
-| [Google](../companies/google.md) | 15 | 141 | Aug 13, 2026 | █████ |
+| [Google](../companies/google.md) | 12 | 141 | Aug 13, 2026 | ████ |
 | [Meta](../companies/meta.md) | 11 | 168 | Aug 16, 2026 | ████ |
 | [Figma](../companies/figma.md) | 8 | 18 | Aug 12, 2026 | ███ |
 | [Apple](../companies/apple.md) | 7 | 90 | Aug 13, 2026 | ██ |
 | [Snowflake](../companies/snowflake.md) | 5 | 88 | Aug 13, 2026 | ██ |
 | [Affirm](../companies/affirm.md) | 4 | 14 | Aug 12, 2026 | █ |
 | [Harvey](../companies/harvey.md) | 4 | 13 | Aug 09, 2026 | █ |
-| [JPMorgan](../companies/jpmorgan.md) | 4 | 15 | Jun 23, 2026 | █ |
 | [Microsoft](../companies/microsoft.md) | 4 | 98 | Jul 29, 2026 | █ |
-| [Uber](../companies/uber.md) | 4 | 141 | Jul 01, 2026 | █ |
 | [Bloomberg](../companies/bloomberg.md) | 3 | 55 | Jul 22, 2026 | █ |
 | [Lyft](../companies/lyft.md) | 3 | 28 | Jul 29, 2026 | █ |
 | [NVIDIA](../companies/nvidia.md) | 3 | 26 | Jul 03, 2026 | █ |
@@ -29,12 +27,14 @@
 | [Pinduoduo](../companies/pinduoduo.md) | 3 | 19 | Jul 30, 2026 | █ |
 | [Pinterest](../companies/pinterest.md) | 3 | 60 | Jul 23, 2026 | █ |
 | [Point72](../companies/point72.md) | 3 | 17 | Jul 29, 2026 | █ |
+| [Uber](../companies/uber.md) | 3 | 141 | Jul 01, 2026 | █ |
 | [Vanta](../companies/vanta.md) | 3 | 13 | Jul 16, 2026 | █ |
 | [Walmart Labs](../companies/walmart-labs.md) | 3 | 28 | Jul 07, 2026 | █ |
 | [Waymo](../companies/waymo.md) | 3 | 47 | Jul 09, 2026 | █ |
 | [Airbnb](../companies/airbnb.md) | 2 | 48 | Jul 22, 2026 | █ |
 | [Databricks](../companies/databricks.md) | 2 | 54 | Jun 29, 2026 | █ |
 | [DoorDash](../companies/doordash.md) | 2 | 65 | Jul 02, 2026 | █ |
+| [Intuit](../companies/intuit.md) | 2 | 15 | Jun 28, 2026 | █ |
 
 ## Every company
 
@@ -43,8 +43,8 @@
 | [Amazon](../companies/amazon.md) | 232 | 17 | 28 | 46 | Sep 10, 2026 | Algorithm | `hashing` |
 | [Meta](../companies/meta.md) | 168 | 16 | 21 | 11 | Aug 16, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 144 | 16 | 18 | 22 | Sep 10, 2026 | Algorithm | `arrays` |
-| [Google](../companies/google.md) | 141 | 10 | 21 | 15 | Aug 13, 2026 | Algorithm | `graphs` |
-| [Uber](../companies/uber.md) | 141 | 6 | 24 | 4 | Jul 01, 2026 | Algorithm | `graphs` |
+| [Google](../companies/google.md) | 141 | 10 | 21 | 12 | Aug 13, 2026 | Algorithm | `graphs` |
+| [Uber](../companies/uber.md) | 141 | 6 | 24 | 3 | Jul 01, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 98 | 11 | 19 | 4 | Jul 29, 2026 | Algorithm | `graphs` |
 | [Apple](../companies/apple.md) | 90 | 9 | 21 | 7 | Aug 13, 2026 | Algorithm | `hashing` |
 | [Snowflake](../companies/snowflake.md) | 88 | 3 | 12 | 5 | Aug 13, 2026 | Algorithm | `graphs` |
@@ -75,7 +75,7 @@
 | [Akuna Capital](../companies/akuna-capital.md) | 27 | 6 | 2 | 1 | Jul 29, 2026 | Algorithm | `arrays` |
 | [SoFi](../companies/sofi.md) | 27 | 2 | 3 | 1 | Jul 04, 2026 | Algorithm | `hashing` |
 | [NVIDIA](../companies/nvidia.md) | 26 | 7 | 5 | 3 | Jul 03, 2026 | Algorithm | `heap` |
-| [Reddit](../companies/reddit.md) | 26 | 7 | 5 | 1 | Jun 23, 2026 | System Design | `hashing` |
+| [Reddit](../companies/reddit.md) | 26 | 7 | 5 | 0 | Jun 23, 2026 | System Design | `hashing` |
 | [Rippling](../companies/rippling.md) | 26 | 4 | 5 | 2 | Jun 28, 2026 | Algorithm | `arrays` |
 | [Expedia](../companies/expedia.md) | 25 | 1 | 3 | 1 | Jun 28, 2026 | Algorithm | `dynamic-programming` |
 | [Instacart](../companies/instacart.md) | 24 | 1 | 3 | 1 | Jun 24, 2026 | Algorithm | `stack` |
@@ -100,7 +100,7 @@
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 16 | 1 | 2 | 0 | May 01, 2026 | Algorithm | `arrays` |
 | [Salesforce](../companies/salesforce.md) | 16 | 2 | 2 | 1 | Jul 26, 2026 | Algorithm | `hashing` |
 | [Intuit](../companies/intuit.md) | 15 | 3 | 2 | 2 | Jun 28, 2026 | Algorithm | `arrays` |
-| [JPMorgan](../companies/jpmorgan.md) | 15 | 3 | 2 | 4 | Jun 23, 2026 | Algorithm | `intervals` |
+| [JPMorgan](../companies/jpmorgan.md) | 15 | 3 | 2 | 0 | Jun 23, 2026 | Algorithm | `intervals` |
 | [Tradedesk](../companies/tradedesk.md) | 15 | 1 | 2 | 0 | Apr 01, 2026 | Algorithm | `arrays` |
 | [Upstart](../companies/upstart.md) | 15 | 1 | 2 | — | — | Algorithm | `strings` |
 | [Visa](../companies/visa.md) | 15 | 1 | 2 | — | — | Algorithm | `binary-search` |

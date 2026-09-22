@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **15** |
 | Most recent sighting | Jun 23, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (73% of 15) |
 | Difficulty (easy / medium / hard) | 4 / 9 / 2 |
 | Free to practise | [2](../free/README.md) |
@@ -38,14 +38,7 @@ Which stage each question came from, for the **15 of 15** questions at JPMorgan 
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) | Algorithm | Medium | Online assessment | Jun 23, 2026 |
-| [Prerequisite Cycle OA](https://trueinterview.io/questions/prerequisite-cycle-oa) | Algorithm | Medium | Online assessment | Jun 23, 2026 |
-| [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | System Design | Hard | Onsite / virtual onsite | Jun 23, 2026 |
-| [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Algorithm | Easy | Onsite / virtual onsite | Jun 23, 2026 |
+**Nothing has been reported at JPMorgan since Jun 23, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

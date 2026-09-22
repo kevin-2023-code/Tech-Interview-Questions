@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **141** |
 | Most recent sighting | Jul 01, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 141) |
 | Difficulty (easy / medium / hard) | 19 / 94 / 28 |
 | Free to practise | [24](../free/README.md) |
@@ -39,14 +39,13 @@ Which stage each question came from, for the **141 of 141** questions at Uber th
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Low-Level Design | Medium | Phone screen, Onsite / virtual onsite | Jul 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 24, 2026 |
-| [Compare Two Structs / Classes for Equality](https://trueinterview.io/questions/compare-two-structs-or-classes) | Low-Level Design | Medium | Onsite / virtual onsite | Jun 23, 2026 |
 
 ## What they ask about
 

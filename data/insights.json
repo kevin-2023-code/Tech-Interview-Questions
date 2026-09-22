@@ -49,7 +49,7 @@
       "free": 21,
       "guides": 10,
       "inLastYear": 84,
-      "inWindow": 15,
+      "inWindow": 12,
       "lastSighting": "2026-08-13",
       "name": "Google",
       "questions": 141,
@@ -62,7 +62,7 @@
       "free": 24,
       "guides": 6,
       "inLastYear": 99,
-      "inWindow": 4,
+      "inWindow": 3,
       "lastSighting": "2026-07-01",
       "name": "Uber",
       "questions": 141,
@@ -465,7 +465,7 @@
       "free": 5,
       "guides": 7,
       "inLastYear": 20,
-      "inWindow": 1,
+      "inWindow": 0,
       "lastSighting": "2026-06-23",
       "name": "Reddit",
       "questions": 26,
@@ -607,7 +607,7 @@
       "dated": 11,
       "free": 2,
       "guides": 3,
-      "inLastYear": 9,
+      "inLastYear": 8,
       "inWindow": 0,
       "lastSighting": "2026-05-30",
       "name": "IBM",
@@ -790,7 +790,7 @@
       "free": 2,
       "guides": 3,
       "inLastYear": 14,
-      "inWindow": 4,
+      "inWindow": 0,
       "lastSighting": "2026-06-23",
       "name": "JPMorgan",
       "questions": 15,
@@ -1306,7 +1306,7 @@
       "free": 106,
       "graded": 1446,
       "hard": 261,
-      "inWindow": 88,
+      "inWindow": 81,
       "label": "Algorithm",
       "medium": 931,
       "questions": 1446
@@ -1328,7 +1328,7 @@
       "free": 12,
       "graded": 251,
       "hard": 110,
-      "inWindow": 25,
+      "inWindow": 24,
       "label": "System Design",
       "medium": 127,
       "questions": 251
@@ -1339,7 +1339,7 @@
       "free": 41,
       "graded": 398,
       "hard": 44,
-      "inWindow": 19,
+      "inWindow": 18,
       "label": "Low-Level Design",
       "medium": 321,
       "questions": 398
@@ -1356,7 +1356,7 @@
       "questions": 126
     }
   ],
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "latestSighting": "2026-09-10",
   "months": [
     {
@@ -2016,7 +2016,7 @@
       "easy": 51,
       "graded": 189,
       "hard": 18,
-      "inWindow": 13,
+      "inWindow": 12,
       "medium": 120,
       "questions": 189,
       "topCompanies": [
@@ -2124,7 +2124,7 @@
       "easy": 38,
       "graded": 125,
       "hard": 15,
-      "inWindow": 6,
+      "inWindow": 5,
       "medium": 72,
       "questions": 125,
       "topCompanies": [
@@ -2304,7 +2304,7 @@
       "easy": 13,
       "graded": 61,
       "hard": 8,
-      "inWindow": 8,
+      "inWindow": 5,
       "medium": 40,
       "questions": 61,
       "topCompanies": [
@@ -2484,7 +2484,7 @@
       "easy": 7,
       "graded": 49,
       "hard": 6,
-      "inWindow": 4,
+      "inWindow": 3,
       "medium": 36,
       "questions": 49,
       "topCompanies": [
@@ -2520,7 +2520,7 @@
       "easy": 1,
       "graded": 43,
       "hard": 7,
-      "inWindow": 2,
+      "inWindow": 1,
       "medium": 35,
       "questions": 43,
       "topCompanies": [
@@ -2736,7 +2736,7 @@
       "easy": 0,
       "graded": 16,
       "hard": 1,
-      "inWindow": 4,
+      "inWindow": 3,
       "medium": 15,
       "questions": 16,
       "topCompanies": [
@@ -2776,8 +2776,8 @@
     "futureDated": 1,
     "gradedDifficulty": 2315,
     "guides": 350,
-    "inLastYear": 1269,
-    "inWindow": 167,
+    "inLastYear": 1268,
+    "inWindow": 158,
     "labelledTopic": 1054,
     "namingARound": 2315,
     "questions": 2315,

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **141** |
 | Most recent sighting | Aug 13, 2026 |
-| Reported in the last 90 days | 15 |
+| Reported in the last 90 days | 12 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 141) |
 | Difficulty (easy / medium / hard) | 17 / 96 / 28 |
 | Free to practise | [21](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **141 of 141** questions at Google 
 
 ## Asked here in the last 90 days
 
-**15 sightings** in this window. Newest first.
+**12 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -54,8 +54,6 @@ Which stage each question came from, for the **141 of 141** questions at Google 
 | [2D Points Connected Components by Radius](https://trueinterview.io/questions/points-connected-components-by-radius) | Algorithm | Medium | Phone screen | Jun 26, 2026 |
 | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Low-Level Design | Medium | Onsite / virtual onsite | Jun 26, 2026 |
 | [Website Activity Analytics: Unique Users + Session Time](https://trueinterview.io/questions/website-activity-analytics-unique-users-session-time) | Algorithm | Medium | Phone screen | Jun 26, 2026 |
-
-<sub>3 more in this window are in the table below.</sub>
 
 ## What they ask about
 

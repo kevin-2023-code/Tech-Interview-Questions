@@ -46,7 +46,7 @@ Of the **98 questions in this cut that carry a topic label** (63% of it):
 
 ## Asked here in the last 90 days
 
-**8 sightings** across this cut. Newest first.
+**4 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -54,10 +54,6 @@ Of the **98 questions in this cut that carry a topic label** (63% of it):
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Bloomberg | SQL | Jul 22, 2026 |
 | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Goldman Sachs | Algorithm | Jul 06, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Bloomberg … | Algorithm | Jun 28, 2026 |
-| [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) | JPMorgan | Algorithm | Jun 23, 2026 |
-| [Prerequisite Cycle OA](https://trueinterview.io/questions/prerequisite-cycle-oa) | JPMorgan | Algorithm | Jun 23, 2026 |
-| [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | JPMorgan | System Design | Jun 23, 2026 |
-| [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | JPMorgan | Algorithm | Jun 23, 2026 |
 
 ---
 

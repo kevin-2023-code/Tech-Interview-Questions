@@ -47,7 +47,7 @@ Of the **294 questions in this cut that carry a topic label** (50% of it):
 
 ## Asked here in the last 90 days
 
-**49 sightings** across this cut. Newest first.
+**45 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **294 questions in this cut that carry a topic label** (50% of it):
 | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Meta | Low-Level Design | Aug 16, 2026 |
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | Google | SQL | Aug 13, 2026 |
 
-<sub>37 more in this window are in the table below.</sub>
+<sub>33 more in this window are in the table below.</sub>
 
 ---
 

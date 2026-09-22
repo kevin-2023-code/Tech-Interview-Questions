@@ -57,8 +57,8 @@ The sector and size of an employer are facts about the company rather than about
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 17 | 46 | Sep 10, 2026 | 28 |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 168 | 16 | 11 | Aug 16, 2026 | 21 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 144 | 16 | 22 | Sep 10, 2026 | 18 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 141 | 10 | 15 | Aug 13, 2026 | 21 |
-| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 141 | 6 | 4 | Jul 01, 2026 | 24 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 141 | 10 | 12 | Aug 13, 2026 | 21 |
+| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 141 | 6 | 3 | Jul 01, 2026 | 24 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 98 | 11 | 4 | Jul 29, 2026 | 19 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 90 | 9 | 7 | Aug 13, 2026 | 21 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 88 | 3 | 5 | Aug 13, 2026 | 12 |
@@ -89,7 +89,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 27 | 6 | 1 | Jul 29, 2026 | 2 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 2 | 1 | Jul 04, 2026 | 3 |
 | [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 26 | 7 | 3 | Jul 03, 2026 | 5 |
-| [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 1 | Jun 23, 2026 | 5 |
+| [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 0 | Jun 23, 2026 | 5 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 26 | 4 | 2 | Jun 28, 2026 | 5 |
 | [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 1 | Jun 28, 2026 | 3 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 24 | 1 | 1 | Jun 24, 2026 | 3 |
@@ -114,7 +114,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 16 | 1 | 0 | May 01, 2026 | 2 |
 | [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 16 | 2 | 1 | Jul 26, 2026 | 2 |
 | [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 15 | 3 | 2 | Jun 28, 2026 | 2 |
-| [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 3 | 4 | Jun 23, 2026 | 2 |
+| [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 3 | 0 | Jun 23, 2026 | 2 |
 | [Tradedesk](tradedesk.md) | Enterprise & business software · 1,000–9,999 people | 15 | 1 | 0 | Apr 01, 2026 | 2 |
 | [Upstart](upstart.md) | Fintech, payments & crypto · 1,000–9,999 people | 15 | 1 | — | — | 2 |
 | [Visa](visa.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 1 | — | — | 2 |

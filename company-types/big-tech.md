@@ -47,7 +47,7 @@ Of the **524 questions in this cut that carry a topic label** (47% of it):
 
 ## Asked here in the last 90 days
 
-**111 sightings** across this cut. Newest first.
+**107 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **524 questions in this cut that carry a topic label** (47% of it):
 | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Amazon | Algorithm | Aug 30, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | ByteDance | System Design | Aug 30, 2026 |
 
-<sub>99 more in this window are in the table below.</sub>
+<sub>95 more in this window are in the table below.</sub>
 
 ---
 
