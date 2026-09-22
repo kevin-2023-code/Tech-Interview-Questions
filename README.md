@@ -36,7 +36,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 158 sightings at 44 companies — Algorithm 81 · SQL 31 · System Design 24 · Low-Level Design 18 · AI Coding 4.
+**Last 90 days:** 158 sightings at 44 companies — Algorithm 81 · SQL 31 · System Design 24 · AI Coding 4 · Object Oriented Programming 18.
 
 **Reported most:** [Amazon (46)](companies/amazon.md) · [ByteDance (22)](companies/bytedance.md) · [Google (12)](companies/google.md) · [Meta (11)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Apple (7)](companies/apple.md) · [Snowflake (5)](companies/snowflake.md) · [Affirm (4)](companies/affirm.md)
 
@@ -51,7 +51,7 @@ share naming the population it is a share of.
 <!-- gen:free:start -->
 **166 of the 2,315 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (106)](free/algorithm.md) · [System Design (12)](free/system-design.md) · [Low-Level Design (41)](free/low-level-design.md) · [AI Coding (7)](free/ai-coding.md)
+[Algorithm (106)](free/algorithm.md) · [System Design (12)](free/system-design.md) · [AI Coding (7)](free/ai-coding.md) · [Object Oriented Programming (41)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -132,7 +132,7 @@ Tech asks, what a two-hundred-person startup asks. Sector and size are facts abo
 ## 🧩 Browse by format
 
 <!-- gen:formats:start -->
-[Algorithm (1,446)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (251)](formats/system-design.md) · [Low-Level Design (398)](formats/low-level-design.md) · [AI Coding (126)](formats/ai-coding.md)
+[Algorithm (1,446)](formats/algorithm.md) · [SQL (94)](formats/sql.md) · [System Design (251)](formats/system-design.md) · [AI Coding (126)](formats/ai-coding.md) · [Object Oriented Programming (398)](formats/object-oriented-programming.md)
 <!-- gen:formats:end -->
 
 ## 📅 Browse by month reported
@@ -152,18 +152,18 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | Company | Question | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | **Amazon / ByteDance** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | 🔥 Sep 10, 2026 |
-| **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Low-Level Design | 🆕 Sep 06, 2026 |
+| **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | 🆕 Sep 06, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | 🆕 Sep 05, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | 🆕 Sep 04, 2026 |
-| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Low-Level Design | 🆕 Sep 02, 2026 |
+| **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | 🆕 Sep 02, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | 🆕 Sep 02, 2026 |
-| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Low-Level Design | 🆕 Sep 01, 2026 |
+| **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | 🆕 Sep 01, 2026 |
 | **Amazon** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | 🆕 Sep 01, 2026 |
 | **Amazon** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | 🆕 Sep 01, 2026 |
 | **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | 🆕 Sep 01, 2026 |
 | **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | 🆕 Aug 30, 2026 |
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Algorithm | 🆕 Aug 30, 2026 |
-| **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Low-Level Design | 🆕 Aug 27, 2026 |
+| **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Object Oriented Programming | 🆕 Aug 27, 2026 |
 | **ByteDance** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | 🆕 Aug 25, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Algorithm | 🆕 Aug 24, 2026 |
 | **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Algorithm | 🆕 Aug 22, 2026 |
@@ -174,7 +174,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **ByteDance** | [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) | Algorithm | 🆕 Aug 20, 2026 |
 | **ByteDance** | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | System Design | 🆕 Aug 17, 2026 |
 | **Amazon / ByteDance** | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | 🆕 Aug 17, 2026 |
-| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Low-Level Design | 🆕 Aug 16, 2026 |
+| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | 🆕 Aug 16, 2026 |
 | **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Algorithm | 🆕 Aug 16, 2026 |
 | **Amazon** | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | 🆕 Aug 14, 2026 |
 | **Amazon** | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | 🆕 Aug 14, 2026 |
@@ -188,15 +188,15 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Amazon** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | SQL | 🆕 Aug 13, 2026 |
 | **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | SQL | 🆕 Aug 13, 2026 |
 | **Affirm** | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | 🆕 Aug 12, 2026 |
-| **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Low-Level Design | 🆕 Aug 12, 2026 |
+| **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | 🆕 Aug 12, 2026 |
 | **Figma** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | 🆕 Aug 12, 2026 |
 | **Figma** | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | 🆕 Aug 12, 2026 |
 | **Figma** | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | 🆕 Aug 12, 2026 |
 | **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | 🆕 Aug 09, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | System Design | 🆕 Aug 08, 2026 |
 | **Affirm** | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Aug 07, 2026 |
-| **ByteDance** | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Low-Level Design | Aug 06, 2026 |
-| **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Low-Level Design | Aug 06, 2026 |
+| **ByteDance** | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Object Oriented Programming | Aug 06, 2026 |
+| **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Aug 06, 2026 |
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Aug 04, 2026 |
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Aug 04, 2026 |
 | **Affirm** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Aug 01, 2026 |
@@ -205,14 +205,14 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Jul 29, 2026 |
 | **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Jul 29, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Jul 29, 2026 |
-| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Jul 29, 2026 |
+| **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Jul 29, 2026 |
 | **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Jul 29, 2026 |
 | **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Jul 29, 2026 |
 | **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Jul 29, 2026 |
 | **Salesforce** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Jul 26, 2026 |
 | **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Jul 26, 2026 |
 | **Pinterest** | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | SQL | Jul 23, 2026 |
-| **Amazon** | [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model) | Low-Level Design | Jul 22, 2026 |
+| **Amazon** | [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model) | Object Oriented Programming | Jul 22, 2026 |
 | **Amazon** | [Word Segmentation with a Dictionary Helper](https://trueinterview.io/questions/word-segmentation-dictionary-helper) | Algorithm | Jul 22, 2026 |
 | **Amazon** | [Fulfillment-Center Inventory Transfer](https://trueinterview.io/questions/fulfillment-center-inventory-transfer) | Algorithm | Jul 22, 2026 |
 | **xAI** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Jul 22, 2026 |
@@ -241,7 +241,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Pinduoduo** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Jul 17, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Jul 16, 2026 |
-| **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Low-Level Design | Jul 15, 2026 |
+| **OpenAI** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Jul 15, 2026 |
 | **Amazon** | [Edit Distance (LC 72) with a Follow-Up Variant](https://trueinterview.io/questions/edit-distance-one-reverse) | Algorithm | Jul 14, 2026 |
 | **Amazon** | [Best Time to Buy & Sell Stock — Merged Variants](https://trueinterview.io/questions/buy-sell-stock-merged-variants) | Algorithm | Jul 10, 2026 |
 | **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Jul 10, 2026 |

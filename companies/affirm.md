@@ -44,7 +44,7 @@ Which stage each question came from, for the **14 of 14** questions at Affirm th
 | :-- | :-- | :-: | :-- | :-- |
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Medium | Phone screen | Aug 07, 2026 |
-| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Low-Level Design | Medium | Phone screen | Aug 06, 2026 |
+| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Medium | Phone screen | Aug 06, 2026 |
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 01, 2026 |
 
 ## What they ask about
@@ -82,12 +82,12 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | Hard | — | Aug 12, 2026 |
 | **2** | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Medium | — | Aug 07, 2026 |
-| **3** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Low-Level Design | Medium | — | Aug 06, 2026 |
+| **3** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Medium | — | Aug 06, 2026 |
 | **4** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | — | Aug 01, 2026 |
 | **5** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) 🆓 | Algorithm | Medium | 2 | Jun 10, 2026 |
 | **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 8 | Dec 10, 2025 |
 | **7** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) 🆓 | System Design | Hard | 4 | Oct 26, 2025 |
-| **8** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Low-Level Design | Medium | 1 | — |
+| **8** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Object Oriented Programming | Medium | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -103,15 +103,15 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | :-- | :-- | :-: | :-- |
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Algorithm | Hard | 🆕 Aug 12, 2026 |
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Algorithm | Medium | Aug 07, 2026 |
-| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Low-Level Design | Medium | Aug 06, 2026 |
+| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Medium | Aug 06, 2026 |
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | Aug 01, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
-| [Design Card Game](https://trueinterview.io/questions/design-card-game) | Low-Level Design | Medium | — |
+| [Design Card Game](https://trueinterview.io/questions/design-card-game) | Object Oriented Programming | Medium | — |
 | [Sum of Islands Max](https://trueinterview.io/questions/sum-of-islands-max) | Algorithm | Medium | — |
 | [Prefix to Postfix](https://trueinterview.io/questions/prefix-to-postfix) | Algorithm | Medium | — |
-| [Persistent Stack](https://trueinterview.io/questions/persistent-stack) | Low-Level Design | Medium | — |
+| [Persistent Stack](https://trueinterview.io/questions/persistent-stack) | Object Oriented Programming | Medium | — |
 | [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller) | Algorithm | Easy | — |
 | [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance) | Algorithm | Easy | — |
 | [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples) | Algorithm | Medium | — |

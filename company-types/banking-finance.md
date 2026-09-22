@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 119 | 77% | ██████████████ | 19 |
-| [Low-Level Design](../formats/low-level-design.md) | 19 | 12% | ██ | 3 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 19 | 12% | ██ | 3 |
 | [System Design](../formats/system-design.md) | 15 | 10% | ██ | 2 |
 | [SQL](../formats/sql.md) | 2 | 1% | █ | 0 |
 

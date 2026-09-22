@@ -288,7 +288,7 @@
       "name": "Coinbase",
       "questions": 45,
       "slug": "coinbase",
-      "topFormat": "Low-Level Design",
+      "topFormat": "Object Oriented Programming",
       "topTopic": "hashing"
     },
     {
@@ -1159,7 +1159,7 @@
       "name": "Sigmacomputing",
       "questions": 5,
       "slug": "sigmacomputing",
-      "topFormat": "Low-Level Design",
+      "topFormat": "Object Oriented Programming",
       "topTopic": "trees"
     },
     {
@@ -1276,7 +1276,7 @@
       "name": "Stubhub",
       "questions": 3,
       "slug": "stubhub",
-      "topFormat": "Low-Level Design",
+      "topFormat": "Object Oriented Programming",
       "topTopic": null
     },
     {
@@ -1334,17 +1334,6 @@
       "questions": 251
     },
     {
-      "easy": 33,
-      "format": "low-level-design",
-      "free": 41,
-      "graded": 398,
-      "hard": 44,
-      "inWindow": 18,
-      "label": "Low-Level Design",
-      "medium": 321,
-      "questions": 398
-    },
-    {
       "easy": 11,
       "format": "ai-coding",
       "free": 7,
@@ -1354,6 +1343,17 @@
       "label": "AI Coding",
       "medium": 68,
       "questions": 126
+    },
+    {
+      "easy": 33,
+      "format": "object-oriented-programming",
+      "free": 41,
+      "graded": 398,
+      "hard": 44,
+      "inWindow": 18,
+      "label": "Object Oriented Programming",
+      "medium": 321,
+      "questions": 398
     }
   ],
   "generated": "2026-09-22",
@@ -1373,7 +1373,7 @@
       "firstReportedCompanies": [],
       "formats": {
         "algorithm": 7,
-        "low-level-design": 3
+        "object-oriented-programming": 3
       },
       "month": "2026-09",
       "questions": 10
@@ -1385,7 +1385,7 @@
       ],
       "formats": {
         "algorithm": 21,
-        "low-level-design": 5,
+        "object-oriented-programming": 5,
         "sql": 6,
         "system-design": 7
       },
@@ -1398,7 +1398,7 @@
       "formats": {
         "ai-coding": 2,
         "algorithm": 31,
-        "low-level-design": 6,
+        "object-oriented-programming": 6,
         "sql": 25,
         "system-design": 8
       },
@@ -1411,7 +1411,7 @@
       "formats": {
         "ai-coding": 18,
         "algorithm": 95,
-        "low-level-design": 35,
+        "object-oriented-programming": 35,
         "sql": 1,
         "system-design": 33
       },
@@ -1424,7 +1424,7 @@
       "formats": {
         "ai-coding": 18,
         "algorithm": 101,
-        "low-level-design": 35,
+        "object-oriented-programming": 35,
         "sql": 21,
         "system-design": 28
       },
@@ -1442,7 +1442,7 @@
       "formats": {
         "ai-coding": 11,
         "algorithm": 85,
-        "low-level-design": 27,
+        "object-oriented-programming": 27,
         "sql": 1,
         "system-design": 44
       },
@@ -1458,7 +1458,7 @@
       "formats": {
         "ai-coding": 6,
         "algorithm": 79,
-        "low-level-design": 15,
+        "object-oriented-programming": 15,
         "sql": 4,
         "system-design": 23
       },
@@ -1477,7 +1477,7 @@
       "formats": {
         "ai-coding": 6,
         "algorithm": 74,
-        "low-level-design": 20,
+        "object-oriented-programming": 20,
         "system-design": 26
       },
       "month": "2026-02",
@@ -1495,7 +1495,7 @@
       "formats": {
         "ai-coding": 4,
         "algorithm": 92,
-        "low-level-design": 33,
+        "object-oriented-programming": 33,
         "system-design": 18
       },
       "month": "2026-01",
@@ -1514,7 +1514,7 @@
       "formats": {
         "ai-coding": 2,
         "algorithm": 43,
-        "low-level-design": 12,
+        "object-oriented-programming": 12,
         "sql": 1,
         "system-design": 9
       },
@@ -1532,7 +1532,7 @@
       "formats": {
         "ai-coding": 3,
         "algorithm": 48,
-        "low-level-design": 16,
+        "object-oriented-programming": 16,
         "system-design": 9
       },
       "month": "2025-11",
@@ -1560,7 +1560,7 @@
       "formats": {
         "ai-coding": 2,
         "algorithm": 19,
-        "low-level-design": 11,
+        "object-oriented-programming": 11,
         "system-design": 7
       },
       "month": "2025-10",
@@ -1582,7 +1582,7 @@
       ],
       "formats": {
         "algorithm": 21,
-        "low-level-design": 7,
+        "object-oriented-programming": 7,
         "system-design": 1
       },
       "month": "2025-09",
@@ -1601,7 +1601,7 @@
       "formats": {
         "ai-coding": 2,
         "algorithm": 10,
-        "low-level-design": 3
+        "object-oriented-programming": 3
       },
       "month": "2025-08",
       "questions": 15
@@ -1618,7 +1618,7 @@
       ],
       "formats": {
         "algorithm": 7,
-        "low-level-design": 3
+        "object-oriented-programming": 3
       },
       "month": "2025-07",
       "questions": 10
@@ -1645,7 +1645,7 @@
       ],
       "formats": {
         "algorithm": 1,
-        "low-level-design": 1
+        "object-oriented-programming": 1
       },
       "month": "2025-05",
       "questions": 2
@@ -1670,7 +1670,7 @@
         "Oracle"
       ],
       "formats": {
-        "low-level-design": 1,
+        "object-oriented-programming": 1,
         "system-design": 1
       },
       "month": "2025-01",
@@ -1780,7 +1780,7 @@
       "accessTier": "free",
       "companies": 11,
       "difficulty": "medium",
-      "format": "low-level-design",
+      "format": "object-oriented-programming",
       "slug": "f6b060d7-ad6e-5167-9988-9cb05356483f",
       "title": "Sliding-Window Rate Limiter III",
       "url": "https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f"
@@ -1816,7 +1816,7 @@
       "accessTier": "insider",
       "companies": 10,
       "difficulty": "medium",
-      "format": "low-level-design",
+      "format": "object-oriented-programming",
       "slug": "weighted-lru-cache-2",
       "title": "Weighted LRU Cache",
       "url": "https://trueinterview.io/questions/weighted-lru-cache-2"
@@ -1825,7 +1825,7 @@
       "accessTier": "free",
       "companies": 10,
       "difficulty": "easy",
-      "format": "low-level-design",
+      "format": "object-oriented-programming",
       "slug": "rate-limiter",
       "title": "Rate Limiter",
       "url": "https://trueinterview.io/questions/rate-limiter"
@@ -1834,7 +1834,7 @@
       "accessTier": "free",
       "companies": 10,
       "difficulty": "medium",
-      "format": "low-level-design",
+      "format": "object-oriented-programming",
       "slug": "durable-key-value-store-serialization",
       "title": "Durable Key-Value Store Serialization",
       "url": "https://trueinterview.io/questions/durable-key-value-store-serialization"
@@ -1897,7 +1897,7 @@
       "accessTier": "insider",
       "companies": 9,
       "difficulty": "medium",
-      "format": "low-level-design",
+      "format": "object-oriented-programming",
       "slug": "4d278295-f27d-4425-9bc3-2be3388a320c",
       "title": "Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation",
       "url": "https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c"

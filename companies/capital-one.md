@@ -32,7 +32,7 @@ Which stage each question came from, for the **41 of 41** questions at Capital O
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 24 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 7 / 17 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 14 | ██████ | [Low-Level Design](../formats/low-level-design.md) (43%) | 2 / 9 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 14 | ██████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 2 / 9 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -134,7 +134,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Algorithm | Medium | Apr 08, 2026 |
 | [Warehouse Round-Robin Allocation with Closures](https://trueinterview.io/questions/warehouse-round-robin-allocation) | Algorithm | Medium | Apr 08, 2026 |
 | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets) | Algorithm | Easy | Apr 08, 2026 |
-| [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Low-Level Design | Medium | Apr 08, 2026 |
+| [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Object Oriented Programming | Medium | Apr 08, 2026 |
 | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study) | System Design | Hard | Feb 13, 2026 |
 | [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency) | System Design | Easy | Feb 04, 2026 |
 | [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths) | Algorithm | Medium | Feb 04, 2026 |
@@ -142,7 +142,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Account Balance & Cross-Region Event Platform](https://trueinterview.io/questions/account-balance-cross-region-events) | System Design | Hard | Jan 24, 2026 |
 | [Vowel-Wrapped Substring Middle Reverse](https://trueinterview.io/questions/vowel-wrap-reverse-middle) | Algorithm | Medium | Jan 19, 2026 |
 | [Linear Regression from Scratch](https://trueinterview.io/questions/ml-coding-linear-regression) | Algorithm | Medium | Jan 19, 2026 |
-| [Virtual Credit Card Validator (Case Study)](https://trueinterview.io/questions/virtual-credit-card-validator) | Low-Level Design | Medium | Jan 19, 2026 |
+| [Virtual Credit Card Validator (Case Study)](https://trueinterview.io/questions/virtual-credit-card-validator) | Object Oriented Programming | Medium | Jan 19, 2026 |
 | [Sawtooth (Alternating Parity) Subarray Count](https://trueinterview.io/questions/sawtooth-subarray-count) | Algorithm | Medium | Jan 19, 2026 |
 | [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling) | Algorithm | Medium | Jan 19, 2026 |
 | [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Algorithm | Medium | Jan 19, 2026 |
@@ -155,8 +155,8 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342) | Algorithm | Easy | — |
 | [Ordered Fragment Pairs String-Counting Problem](https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c) | Algorithm | Medium | — |
 | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Algorithm | Medium | — |
-| [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Low-Level Design | Medium | — |
+| [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Object Oriented Programming | Medium | — |
 | [Implement Test Harness](https://trueinterview.io/questions/1ed1ee1c-e0e3-404e-ae31-959a0593f0b6) | Algorithm | Easy | — |
-| [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Low-Level Design | Medium | — |
-| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Low-Level Design | Easy | — |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
+| [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Object Oriented Programming | Medium | — |
+| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |

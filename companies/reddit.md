@@ -79,9 +79,9 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | **1** | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) 🆓 | Algorithm | Medium | — | Jun 23, 2026 |
 | **2** | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Algorithm | Medium | — | Jun 12, 2026 |
 | **3** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | — | Jun 12, 2026 |
-| **4** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Low-Level Design | Medium | — | Jun 12, 2026 |
+| **4** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
 | **5** | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | — | May 30, 2026 |
-| **6** | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Low-Level Design | Medium | — | May 2026 |
+| **6** | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | — | May 2026 |
 | **7** | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | 2 | Apr 17, 2026 |
 | **8** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
 
@@ -112,11 +112,11 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) | Algorithm | Medium | Jun 23, 2026 |
-| [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Low-Level Design | Medium | Jun 12, 2026 |
+| [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | Jun 12, 2026 |
 | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | Jun 12, 2026 |
 | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Algorithm | Medium | Jun 12, 2026 |
 | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | May 30, 2026 |
-| [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Low-Level Design | Medium | May 2026 |
+| [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | May 2026 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Apr 17, 2026 |
 | [Subreddit Live Chat System](https://trueinterview.io/questions/live-chat-system-sd) | System Design | Hard | Apr 12, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
@@ -129,11 +129,11 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Mar 2026 |
 | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Algorithm | Easy | Mar 2026 |
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
-| [Report Chain](https://trueinterview.io/questions/report-chain) | Low-Level Design | Medium | Feb 17, 2026 |
+| [Report Chain](https://trueinterview.io/questions/report-chain) | Object Oriented Programming | Medium | Feb 17, 2026 |
 | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | System Design | Hard | Feb 2026 |
 | [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Algorithm | Medium | Jul 21, 2025 |
 | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | System Design | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
-| [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444) | Low-Level Design | Medium | — |
+| [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444) | Object Oriented Programming | Medium | — |
 | [Tennis Scoring](https://trueinterview.io/questions/b30fcfc7-0dd6-4ac0-822e-39e316e02870) | Algorithm | Medium | — |

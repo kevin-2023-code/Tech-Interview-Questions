@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 38 | 49% | ██████████████ | 8 |
-| [Low-Level Design](../formats/low-level-design.md) | 21 | 27% | ████████ | 7 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 21 | 27% | ████████ | 7 |
 | [System Design](../formats/system-design.md) | 13 | 17% | █████ | 3 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 6% | ██ | 0 |
 
@@ -56,7 +56,7 @@ Of the **30 questions in this cut that carry a topic label** (39% of it):
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Vanta | System Design | Jul 10, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Harvey | System Design | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | Harvey | System Design | Jul 2026 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Harvey | Low-Level Design | Jul 2026 |
+| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Harvey | Object Oriented Programming | Jul 2026 |
 
 ---
 

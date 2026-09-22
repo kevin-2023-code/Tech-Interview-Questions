@@ -20,7 +20,7 @@
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 27 | 50% | ██████████████ | 4 |
 | [System Design](../formats/system-design.md) | 21 | 39% | ███████████ | 3 |
-| [Low-Level Design](../formats/low-level-design.md) | 5 | 9% | ███ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 9% | ███ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 2% | █ | 0 |
 
 <sub>Difficulty across the cut (easy / medium / hard): **10 / 33 / 11**, over the rows the catalog has graded. 9 of the 54 open without a paid plan.</sub>

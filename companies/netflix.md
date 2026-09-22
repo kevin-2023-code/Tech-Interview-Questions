@@ -32,7 +32,7 @@ Which stage each question came from, for the **64 of 64** questions at Netflix t
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 7 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 33 | ███████ | [Algorithm](../formats/algorithm.md) (64%) | 6 / 24 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 46 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (37%) | 6 / 31 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 46 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (37%) | 6 / 31 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -78,13 +78,13 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) 🆓 | Low-Level Design | Medium | 2 | Jun 15, 2026 |
+| **1** | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
 | **2** | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | 3 | Jun 04, 2026 |
 | **3** | [Contains Duplicate III](https://trueinterview.io/questions/contains-duplicate-iii) 🆓 | Algorithm | Medium | — | May 26, 2026 |
-| **4** | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) 🆓 | Low-Level Design | Medium | — | May 21, 2026 |
-| **5** | [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Low-Level Design | Medium | — | May 21, 2026 |
+| **4** | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) 🆓 | Object Oriented Programming | Medium | — | May 21, 2026 |
+| **5** | [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Object Oriented Programming | Medium | — | May 21, 2026 |
 | **6** | [Design an Ads Frequency Cap System](https://trueinterview.io/questions/design-an-ads-frequency-cap-system) | System Design | Hard | — | May 21, 2026 |
-| **7** | [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Low-Level Design | Hard | — | May 12, 2026 |
+| **7** | [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Object Oriented Programming | Hard | — | May 12, 2026 |
 | **8** | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | 4 | May 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -112,21 +112,21 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Low-Level Design | Medium | Jun 15, 2026 |
+| [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
 | [Contains Duplicate III](https://trueinterview.io/questions/contains-duplicate-iii) | Algorithm | Medium | May 26, 2026 |
-| [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Low-Level Design | Medium | May 21, 2026 |
+| [Versioned File System](https://trueinterview.io/questions/versioned-file-system) | Object Oriented Programming | Medium | May 21, 2026 |
 | [Design an Ads Frequency Cap System](https://trueinterview.io/questions/design-an-ads-frequency-cap-system) | System Design | Hard | May 21, 2026 |
-| [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | Low-Level Design | Medium | May 21, 2026 |
-| [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Low-Level Design | Hard | May 12, 2026 |
+| [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | Object Oriented Programming | Medium | May 21, 2026 |
+| [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Object Oriented Programming | Hard | May 12, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
 | [Design a File Backup System](https://trueinterview.io/questions/design-a-file-backup-system) | System Design | Medium | May 01, 2026 |
-| [Tagged Command Undo](https://trueinterview.io/questions/tagged-command-undo) | Low-Level Design | Medium | Apr 30, 2026 |
-| [Latency Tracker Percentile](https://trueinterview.io/questions/latency-tracker-percentile) | Low-Level Design | Medium | Apr 24, 2026 |
+| [Tagged Command Undo](https://trueinterview.io/questions/tagged-command-undo) | Object Oriented Programming | Medium | Apr 30, 2026 |
+| [Latency Tracker Percentile](https://trueinterview.io/questions/latency-tracker-percentile) | Object Oriented Programming | Medium | Apr 24, 2026 |
 | [Nested Map Path Query (JSON Parser)](https://trueinterview.io/questions/nested-map-path-query-json-parser) | Algorithm | Medium | Apr 24, 2026 |
 | [MLP Portal Full-Stack Design](https://trueinterview.io/questions/mlp-portal-fullstack-design) | System Design | Hard | Apr 03, 2026 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
-| [Multi-thread Atomic Counter](https://trueinterview.io/questions/multi-thread-atomic-counter) | Low-Level Design | Easy | Mar 31, 2026 |
+| [Multi-thread Atomic Counter](https://trueinterview.io/questions/multi-thread-atomic-counter) | Object Oriented Programming | Easy | Mar 31, 2026 |
 | [Homepage Billboard Rotation](https://trueinterview.io/questions/homepage-billboard-rotation) | Algorithm | Medium | Mar 29, 2026 |
 | [Data Engineering Movie Success Pipeline](https://trueinterview.io/questions/data-engineering-movie-success-pipeline) | SQL | Hard | Mar 25, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
@@ -134,45 +134,45 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Algorithm | Medium | Mar 03, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Netflix Sentiment Tracking](https://trueinterview.io/questions/netflix-sentiment-tracking) | System Design | Medium | Feb 02, 2026 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | System Design | Hard | Feb 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Design a Global Config Deployment System](https://trueinterview.io/questions/design-a-global-config-deployment-system) | System Design | Medium | Jan 29, 2026 |
 | [Movie History Friends](https://trueinterview.io/questions/a5e89ec7-7af5-47b7-a8e5-e7d453d2e070) | Algorithm | Medium | Jan 28, 2026 |
-| [Music Playlist](https://trueinterview.io/questions/music-playlist) | Low-Level Design | Medium | Jan 26, 2026 |
+| [Music Playlist](https://trueinterview.io/questions/music-playlist) | Object Oriented Programming | Medium | Jan 26, 2026 |
 | [Timer Function](https://trueinterview.io/questions/timer-function) | Algorithm | Easy | Jan 25, 2026 |
 | [Design an Ads Audience Targeting System](https://trueinterview.io/questions/design-an-ads-audience-targeting-system) | System Design | Medium | Jan 24, 2026 |
 | [Design a Billing System for 300M Subscribers](https://trueinterview.io/questions/design-a-billing-system-for-300m-subscribers) | System Design | Hard | Jan 19, 2026 |
-| [Sort by User Preference](https://trueinterview.io/questions/sort-by-user-preference) | Low-Level Design | Medium | Jan 17, 2026 |
+| [Sort by User Preference](https://trueinterview.io/questions/sort-by-user-preference) | Object Oriented Programming | Medium | Jan 17, 2026 |
 | [Error Rate Monitor](https://trueinterview.io/questions/error-rate-monitor) | Algorithm | Easy | Jan 14, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Algorithm | Easy | Jan 13, 2026 |
 | [Design a WAL Log Enrichment Pipeline](https://trueinterview.io/questions/design-a-wal-log-enrichment-pipeline) | System Design | Hard | Jan 09, 2026 |
 | [Reconstruct Itinerary](https://trueinterview.io/questions/reconstruct-itinerary) | Algorithm | Hard | Jan 09, 2026 |
 | [User Engagement Patterns](https://trueinterview.io/questions/user-engagement-patterns) | Algorithm | Medium | Jan 02, 2026 |
 | [Number Pairs That Match Target](https://trueinterview.io/questions/number-pairs-that-match-target) | Algorithm | Easy | Jan 01, 2026 |
-| [Spam Email Detection](https://trueinterview.io/questions/spam-email-detection) | Low-Level Design | Medium | Jan 01, 2026 |
+| [Spam Email Detection](https://trueinterview.io/questions/spam-email-detection) | Object Oriented Programming | Medium | Jan 01, 2026 |
 | [Homepage Title Deduplication](https://trueinterview.io/questions/homepage-title-deduplication) | Algorithm | Easy | — |
 | [Count the Number of String Pairs With No Common Characters](https://trueinterview.io/questions/044e7295-5015-4975-b30c-5cdc060ccec8) | Algorithm | Medium | — |
 | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec) | Algorithm | Easy | — |
-| [Command Executor with Execute and Undo](https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968) | Low-Level Design | Medium | — |
-| [Music Playlist Implementation](https://trueinterview.io/questions/07093608-c84a-4bc2-bee5-c906cb37cba6) | Low-Level Design | Medium | — |
+| [Command Executor with Execute and Undo](https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968) | Object Oriented Programming | Medium | — |
+| [Music Playlist Implementation](https://trueinterview.io/questions/07093608-c84a-4bc2-bee5-c906cb37cba6) | Object Oriented Programming | Medium | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Hard | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
-| [Countdown Latch](https://trueinterview.io/questions/countdown-latch) | Low-Level Design | Medium | — |
+| [Countdown Latch](https://trueinterview.io/questions/countdown-latch) | Object Oriented Programming | Medium | — |
 | [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Algorithm | Medium | — |
 | [DFS: Print Each Node's Level and Whether It Is Balanced](https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42) | Algorithm | Medium | — |
-| [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Low-Level Design | Medium | — |
+| [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Object Oriented Programming | Medium | — |
 | [Calculate Kullback-Leibler Divergence Between Two Distributions](https://trueinterview.io/questions/d511049a-0e9c-4ef8-8716-7ed85fb33120) | Algorithm | Easy | — |
 | [Inverted Index with Phrase Search](https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6) | Algorithm | Medium | — |
 | [Sort Dictionary Keys](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) | Algorithm | Easy | — |
-| [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Low-Level Design | Medium | — |
+| [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Object Oriented Programming | Medium | — |
 | [Bucket Users by Movie Completion Percentage from an Event Stream](https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf) | Algorithm | Medium | — |
 | [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Algorithm | Easy | — |
-| [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf) | Low-Level Design | Medium | — |
+| [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf) | Object Oriented Programming | Medium | — |
 | [SQL Query to Retrieve User IDs and Names from Users Table](https://trueinterview.io/questions/46cf5bbc-362f-41d2-87e4-5ec71acac4ad) | SQL | Easy | — |
 | [User Last Order Date and Order Count SQL Query](https://trueinterview.io/questions/271dd842-2fcc-4d29-834a-4db7987216dd) | SQL | Medium | — |
-| [Implement a Multithreaded Map](https://trueinterview.io/questions/5eae4920-e16f-4632-91b8-6f8ebdd6d4a1) | Low-Level Design | Medium | — |
+| [Implement a Multithreaded Map](https://trueinterview.io/questions/5eae4920-e16f-4632-91b8-6f8ebdd6d4a1) | Object Oriented Programming | Medium | — |
 | [Friends by Last-K Movie Overlap](https://trueinterview.io/questions/movie-history-friends-ii) | Algorithm | Medium | — |
-| [Auto-Expire Cache](https://trueinterview.io/questions/auto-expire-cache) | Low-Level Design | Medium | — |
+| [Auto-Expire Cache](https://trueinterview.io/questions/auto-expire-cache) | Object Oriented Programming | Medium | — |
 | [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | Algorithm | Easy | — |

@@ -121,8 +121,8 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 | [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count) | Algorithm | Medium | Nov 19, 2025 |
 | [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words) | Algorithm | Medium | Nov 19, 2025 |
 | [Weather Data Energy-Usage Ranking](https://trueinterview.io/questions/weather-data-energy-usage-ranking) | Algorithm | Medium | Oct 03, 2025 |
-| [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness) | Low-Level Design | Medium | Oct 02, 2025 |
+| [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness) | Object Oriented Programming | Medium | Oct 02, 2025 |
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
-| [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Low-Level Design | Medium | — |
+| [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Object Oriented Programming | Medium | — |
 | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | SQL | Easy | — |
 | [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | AI Coding | Medium | — |

@@ -2,7 +2,7 @@
 
 # Okta interview process, OA & interview questions
 
-**10 questions** reported at Okta · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side.
+**10 questions** reported at Okta · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -42,8 +42,8 @@ Which stage each question came from, for the **10 of 10** questions at Okta that
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Low-Level Design | Medium | Onsite / virtual onsite | Jun 24, 2026 |
-| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Low-Level Design | Medium | Onsite / virtual onsite | Jun 24, 2026 |
+| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 24, 2026 |
+| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 24, 2026 |
 | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Phone screen | Jun 24, 2026 |
 
 ## What they ask about
@@ -78,8 +78,8 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Low-Level Design | Medium | — | Jun 24, 2026 |
-| **2** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Low-Level Design | Medium | — | Jun 24, 2026 |
+| **1** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
+| **2** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
 | **3** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | — | Jun 24, 2026 |
 | **4** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | — | Jun 02, 2026 |
 | **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
@@ -108,8 +108,8 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Low-Level Design | Medium | Jun 24, 2026 |
-| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Low-Level Design | Medium | Jun 24, 2026 |
+| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | Jun 24, 2026 |
+| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | Jun 24, 2026 |
 | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Jun 24, 2026 |
 | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | Jun 02, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |

@@ -61,7 +61,7 @@
 | [Snapchat](../companies/snapchat.md) | 49 | 6 | 11 | 1 | Jul 22, 2026 | Algorithm | `graphs` |
 | [Airbnb](../companies/airbnb.md) | 48 | 6 | 4 | 2 | Jul 22, 2026 | Algorithm | `dynamic-programming` |
 | [Waymo](../companies/waymo.md) | 47 | 3 | 2 | 3 | Jul 09, 2026 | Algorithm | `graphs` |
-| [Coinbase](../companies/coinbase.md) | 45 | 5 | 9 | 0 | Jun 15, 2026 | Low-Level Design | `hashing` |
+| [Coinbase](../companies/coinbase.md) | 45 | 5 | 9 | 0 | Jun 15, 2026 | Object Oriented Programming | `hashing` |
 | [Capital One](../companies/capital-one.md) | 41 | 13 | 3 | 0 | Jun 05, 2026 | Algorithm | `arrays` |
 | [Oracle](../companies/oracle.md) | 41 | 3 | 3 | 1 | Aug 13, 2026 | Algorithm | `strings` |
 | [Atlassian](../companies/atlassian.md) | 39 | 4 | 9 | 0 | Apr 21, 2026 | Algorithm | `hashing` |
@@ -128,7 +128,7 @@
 | [Lead Bank](../companies/lead-bank.md) | 5 | 1 | 2 | — | — | Algorithm | `hashing` |
 | [OKX](../companies/okx.md) | 5 | 0 | 2 | — | — | Algorithm | `backtracking` |
 | [Palantir](../companies/palantir.md) | 5 | 1 | 2 | — | — | Algorithm | `graphs` |
-| [Sigmacomputing](../companies/sigmacomputing.md) | 5 | 1 | 2 | — | — | Low-Level Design | `trees` |
+| [Sigmacomputing](../companies/sigmacomputing.md) | 5 | 1 | 2 | — | — | Object Oriented Programming | `trees` |
 | [StackAdapt](../companies/stackadapt.md) | 5 | 0 | 2 | — | — | Algorithm | `graphs` |
 | [Voleon](../companies/voleon.md) | 5 | 0 | 2 | 0 | Oct 26, 2024 | Algorithm | `arrays` |
 | [Faire](../companies/faire.md) | 4 | 0 | 2 | — | — | Algorithm | `arrays` |
@@ -137,7 +137,7 @@
 | [Bobyard](../companies/bobyard.md) | 3 | 0 | 2 | 1 | Aug 13, 2026 | Algorithm | `trees` |
 | [Moveworks](../companies/moveworks.md) | 3 | 0 | 2 | — | — | Algorithm | `backtracking` |
 | [Oscar Health](../companies/oscar-health.md) | 3 | 0 | 2 | — | — | Algorithm | `backtracking` |
-| [Stubhub](../companies/stubhub.md) | 3 | 1 | 2 | — | — | Low-Level Design | — |
+| [Stubhub](../companies/stubhub.md) | 3 | 1 | 2 | — | — | Object Oriented Programming | — |
 | [Brex](../companies/brex.md) | 2 | 1 | 2 | — | — | Algorithm | — |
 
 <sub>A dash in the last-90-days column means none of that company's questions carry a sighting date at all, so the window could not be measured — different from a measured zero. *Guides* counts the Study-section writeups in [guides/](../guides/README.md); *Free* counts questions that open without a paid plan.</sub>

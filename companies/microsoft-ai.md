@@ -30,7 +30,7 @@ Which stage each question came from, for the **12 of 12** questions at Microsoft
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █ | [Low-Level Design](../formats/low-level-design.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 1 | █ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 5 | ██████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 9 | ██████████ | [System Design](../formats/system-design.md) (67%) | 2 / 4 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -104,8 +104,8 @@ The 8 questions to open first if you are preparing for Microsoft AI, ranked by *
 | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | Mar 03, 2026 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
-| [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2) | Low-Level Design | Medium | — |
+| [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2) | Object Oriented Programming | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Algorithm | Medium | — |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |

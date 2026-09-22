@@ -20,7 +20,7 @@
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 16 | 62% | ██████████████ | 4 |
 | [System Design](../formats/system-design.md) | 4 | 15% | ████ | 0 |
-| [Low-Level Design](../formats/low-level-design.md) | 3 | 12% | ███ | 1 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 12% | ███ | 1 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 8% | ██ | 0 |
 | [SQL](../formats/sql.md) | 1 | 4% | █ | 0 |
 

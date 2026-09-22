@@ -32,7 +32,7 @@ Which stage each question came from, for the **10 of 10** questions at HubSpot t
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 4 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 3 | █████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | █████ | [Low-Level Design](../formats/low-level-design.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -74,8 +74,8 @@ The 8 questions to open first if you are preparing for HubSpot, ranked by **the 
 | **4** | [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment) | Algorithm | Medium | — | Jan 19, 2026 |
 | **5** | [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree) | Algorithm | Medium | — | Jan 19, 2026 |
 | **6** | [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Algorithm | Hard | — | Jan 19, 2026 |
-| **7** | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) 🆓 | Low-Level Design | Medium | 3 | Dec 15, 2025 |
-| **8** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) 🆓 | Low-Level Design | Medium | 5 | — |
+| **7** | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) 🆓 | Object Oriented Programming | Medium | 3 | Dec 15, 2025 |
+| **8** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) 🆓 | Object Oriented Programming | Medium | 5 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -95,7 +95,7 @@ The 8 questions to open first if you are preparing for HubSpot, ranked by **the 
 | [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree) | Algorithm | Medium | Jan 19, 2026 |
 | [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment) | Algorithm | Medium | Jan 19, 2026 |
 | [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country) | Algorithm | Medium | Jan 19, 2026 |
-| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Low-Level Design | Medium | Dec 15, 2025 |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
-| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Low-Level Design | Medium | — |
+| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
+| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Object Oriented Programming | Medium | — |

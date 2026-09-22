@@ -2,7 +2,7 @@
 
 # Akuna Capital interview process, OA & interview questions
 
-**27 questions** reported at Akuna Capital · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side.
+**27 questions** reported at Akuna Capital · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -85,10 +85,10 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 2 | Jul 29, 2026 |
 | **2** | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | — | May 25, 2026 |
-| **3** | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Low-Level Design | Medium | — | May 25, 2026 |
+| **3** | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | — | May 25, 2026 |
 | **4** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Medium | — | May 25, 2026 |
 | **5** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | — | Jan 23, 2026 |
-| **6** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Low-Level Design | Medium | — | Jan 23, 2026 |
+| **6** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | — | Jan 23, 2026 |
 | **7** | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Algorithm | Medium | — | Jan 23, 2026 |
 | **8** | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) 🆓 | Algorithm | Medium | 1 | Dec 20, 2025 |
 
@@ -119,25 +119,25 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | :-- | :-- | :-: | :-- |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Medium | May 25, 2026 |
-| [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Low-Level Design | Medium | May 25, 2026 |
+| [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | May 25, 2026 |
 | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | May 25, 2026 |
 | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Algorithm | Medium | Jan 23, 2026 |
-| [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Low-Level Design | Medium | Jan 23, 2026 |
+| [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | Jan 23, 2026 |
 | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | Jan 23, 2026 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Algorithm | Medium | Dec 20, 2025 |
-| [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode) | Low-Level Design | Medium | Nov 11, 2025 |
+| [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode) | Object Oriented Programming | Medium | Nov 11, 2025 |
 | [Fun With Anagrams (Deduplicate Anagrams)](https://trueinterview.io/questions/fun-with-anagrams-dedup) | Algorithm | Easy | Nov 04, 2025 |
-| [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler) | Low-Level Design | Medium | Nov 04, 2025 |
-| [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | Low-Level Design | Medium | Nov 02, 2025 |
+| [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler) | Object Oriented Programming | Medium | Nov 04, 2025 |
+| [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | Object Oriented Programming | Medium | Nov 02, 2025 |
 | [Minimum Days to Release Updates](https://trueinterview.io/questions/minimum-days-to-release-updates) | Algorithm | Medium | Oct 29, 2025 |
 | [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps) | Algorithm | Medium | Oct 29, 2025 |
 | [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips) | Algorithm | Medium | Oct 29, 2025 |
 | [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order) | Algorithm | Medium | Oct 21, 2025 |
-| [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Low-Level Design | Medium | Oct 13, 2025 |
-| [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging) | Low-Level Design | Medium | Oct 05, 2025 |
+| [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Object Oriented Programming | Medium | Oct 13, 2025 |
+| [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging) | Object Oriented Programming | Medium | Oct 05, 2025 |
 | [Array Challenge: Left-Comparison Running Counter](https://trueinterview.io/questions/left-comparison-running-counter) | Algorithm | Medium | Sep 24, 2025 |
 | [Find Missing and Repeated Element](https://trueinterview.io/questions/find-missing-and-repeated-element) | Algorithm | Medium | Sep 23, 2025 |
-| [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) | Low-Level Design | Hard | Sep 22, 2025 |
+| [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) | Object Oriented Programming | Hard | Sep 22, 2025 |
 | [Round Price to Nearest Valid Tick](https://trueinterview.io/questions/round-price-to-nearest-tick) | Algorithm | Medium | Sep 22, 2025 |
 | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Algorithm | Medium | — |
 | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Algorithm | Easy | — |

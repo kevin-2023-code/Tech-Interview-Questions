@@ -2,7 +2,7 @@
 
 # Luma AI interview process, OA & interview questions
 
-**6 questions** reported at Luma AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/luma-ai), judged server-side.
+**6 questions** reported at Luma AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/luma-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **6 of 6** questions at Luma AI tha
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 2 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ███ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -72,7 +72,7 @@ The 6 questions to open first if you are preparing for Luma AI, ranked by **the 
 | **3** | [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410) | Algorithm | Easy | — | — |
 | **4** | [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4) | Algorithm | Easy | — | — |
 | **5** | [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571) | Algorithm | Medium | — | — |
-| **6** | [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Low-Level Design | Hard | — | — |
+| **6** | [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Object Oriented Programming | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -96,7 +96,7 @@ The 6 questions to open first if you are preparing for Luma AI, ranked by **the 
 | :-- | :-- | :-: | :-- |
 | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Algorithm | Hard | Jan 05, 2026 |
 | [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4) | Algorithm | Easy | — |
-| [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Low-Level Design | Hard | — |
+| [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Object Oriented Programming | Hard | — |
 | [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571) | Algorithm | Medium | — |
 | [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410) | Algorithm | Easy | — |
 | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | Algorithm | Easy | — |

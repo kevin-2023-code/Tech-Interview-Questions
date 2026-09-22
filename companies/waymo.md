@@ -139,29 +139,29 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Elevator Operation Logic](https://trueinterview.io/questions/sd-elevator-operation-logic) | System Design | Medium | Apr 24, 2026 |
 | [Largest Rectangle Area](https://trueinterview.io/questions/max-area-rectangle-coordinate-set) | Algorithm | Medium | Apr 24, 2026 |
 | [Simulation Log Collection and Result Aggregation](https://trueinterview.io/questions/sd-simulation-log-aggregation) | System Design | Medium | Apr 23, 2026 |
-| [Process Raw CSV for Downstream Consumers](https://trueinterview.io/questions/csv-parser-open-ended) | Low-Level Design | Medium | Apr 22, 2026 |
+| [Process Raw CSV for Downstream Consumers](https://trueinterview.io/questions/csv-parser-open-ended) | Object Oriented Programming | Medium | Apr 22, 2026 |
 | [Behavior Prediction from Sensor + Camera Data](https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors) | System Design | Hard | Apr 18, 2026 |
 | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | Apr 17, 2026 |
 | [Chess Piece Shortest Path on a Fixed Board](https://trueinterview.io/questions/chess-shortest-path-fixed-board) | Algorithm | Medium | Apr 08, 2026 |
-| [Battleship Board (React, Frontend Onsite)](https://trueinterview.io/questions/battleship-react-frontend) | Low-Level Design | Medium | Apr 03, 2026 |
+| [Battleship Board (React, Frontend Onsite)](https://trueinterview.io/questions/battleship-react-frontend) | Object Oriented Programming | Medium | Apr 03, 2026 |
 | [Streaming Interval Coverage on a Number Axis](https://trueinterview.io/questions/interval-pollution-coverage) | Algorithm | Hard | Apr 01, 2026 |
 | [Prefix Autocomplete via Trie](https://trueinterview.io/questions/trie-prefix-autocomplete) | Algorithm | Medium | Mar 27, 2026 |
 | [Car Maze with Incrementally Revealed Neighbors (DFS)](https://trueinterview.io/questions/car-maze-incremental-discovery-dfs) | Algorithm | Medium | Mar 25, 2026 |
 | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Algorithm | Medium | Mar 23, 2026 |
 | [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human) | System Design | Hard | Jan 29, 2026 |
-| [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Low-Level Design | Medium | Jan 29, 2026 |
+| [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Object Oriented Programming | Medium | Jan 29, 2026 |
 | [LED Digit Display Invariant Under 180° Rotation](https://trueinterview.io/questions/strobogrammatic-led-display) | Algorithm | Medium | Jan 23, 2026 |
 | [Evaluate a Self-Driving Model End-to-End](https://trueinterview.io/questions/sd-evaluate-self-driving-model) | System Design | Hard | Jan 23, 2026 |
 | [Run-Length Encoded String: Find by Index and Range Max](https://trueinterview.io/questions/run-length-encoding-find-by-index) | Algorithm | Medium | Jan 23, 2026 |
 | [Sort Target String by Custom Order](https://trueinterview.io/questions/custom-sort-string-by-order) | Algorithm | Medium | Jan 23, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
-| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider) | Algorithm | Medium | Nov 14, 2025 |
-| [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | Low-Level Design | Medium | Sep 29, 2025 |
+| [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | Object Oriented Programming | Medium | Sep 29, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | System Design | Hard | Sep 29, 2025 |
 | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Algorithm | Medium | — |
 | [Minimum travel path for a pen-plotter to draw given strokes](https://trueinterview.io/questions/3381639d-07f5-4b35-b058-b7310ebb194d) | Algorithm | Hard | — |
 | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Algorithm | Medium | — |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
 | [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Algorithm | Medium | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

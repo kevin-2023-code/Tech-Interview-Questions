@@ -72,13 +72,13 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **2** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Low-Level Design | Medium | 2 | May 24, 2026 |
+| **2** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | 2 | May 24, 2026 |
 | **3** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) 🆓 | System Design | Hard | 3 | May 08, 2026 |
 | **4** | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) 🆓 | System Design | Medium | 1 | Apr 06, 2026 |
 | **5** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | 3 | Apr 2026 |
 | **6** | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | 1 | Nov 11, 2025 |
 | **7** | [Black Cell Covering Block List](https://trueinterview.io/questions/black-cell-covering-block-list) | Algorithm | Easy | — | Nov 11, 2025 |
-| **8** | [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Low-Level Design | Easy | — | Nov 11, 2025 |
+| **8** | [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Object Oriented Programming | Easy | — | Nov 11, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -93,12 +93,12 @@ The 8 questions to open first if you are preparing for Square, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
-| [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Low-Level Design | Medium | May 24, 2026 |
+| [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | May 24, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | System Design | Medium | Apr 06, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
 | [Racing Points and Winner](https://trueinterview.io/questions/racing-points-and-winner) | Algorithm | Medium | Nov 11, 2025 |
-| [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Low-Level Design | Easy | Nov 11, 2025 |
+| [Product Price Query System](https://trueinterview.io/questions/product-price-query-system) | Object Oriented Programming | Easy | Nov 11, 2025 |
 | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
 | [Find Valid Sock Pairs](https://trueinterview.io/questions/find-valid-sock-pairs) | Algorithm | Medium | Nov 11, 2025 |
 | [Find Nearest Exit in Maze](https://trueinterview.io/questions/find-nearest-exit-in-maze) | Algorithm | Medium | Nov 11, 2025 |

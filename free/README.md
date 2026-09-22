@@ -10,8 +10,8 @@
 | :-- | --: | --: | --: | --: |
 | [Algorithm](algorithm.md) | 106 | 21 | 63 | 22 |
 | [System Design](system-design.md) | 12 | 3 | 6 | 3 |
-| [Low-Level Design](low-level-design.md) | 41 | 4 | 33 | 4 |
 | [AI Coding](ai-coding.md) | 7 | 1 | 5 | 1 |
+| [Object Oriented Programming](object-oriented-programming.md) | 41 | 4 | 33 | 4 |
 
 ## Start here
 

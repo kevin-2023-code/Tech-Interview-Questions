@@ -70,11 +70,11 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | **1** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) 🆓 | Algorithm | Hard | 1 | Jun 16, 2026 |
 | **2** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) 🆓 | Algorithm | Hard | — | Jun 14, 2026 |
 | **3** | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | — | May 01, 2026 |
-| **4** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Low-Level Design | Medium | — | May 01, 2026 |
+| **4** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | — | May 01, 2026 |
 | **5** | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | — | May 01, 2026 |
 | **6** | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Algorithm | Medium | — | Mar 29, 2026 |
 | **7** | [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | AI Coding | Medium | — | Mar 25, 2026 |
-| **8** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Low-Level Design | Medium | 1 | Feb 16, 2026 |
+| **8** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | 1 | Feb 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,11 +104,11 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
 | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Algorithm | Hard | Jun 14, 2026 |
 | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | AI Coding | Medium | May 01, 2026 |
-| [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Low-Level Design | Medium | May 01, 2026 |
+| [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Object Oriented Programming | Medium | May 01, 2026 |
 | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Algorithm | Medium | May 01, 2026 |
 | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Algorithm | Medium | Mar 29, 2026 |
 | [NumPy Top-p Sampling and Multi-Head Attention](https://trueinterview.io/questions/numpy-top-p-sampling-and-multi-head-attention) | AI Coding | Medium | Mar 25, 2026 |
-| [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Low-Level Design | Medium | Feb 16, 2026 |
+| [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | Feb 16, 2026 |
 | [Implement Adversarial Attack using Paper Method](https://trueinterview.io/questions/510f7345-ead1-4ad1-9da1-46c51d1ce8a4) | AI Coding | Hard | — |
 | [Party Times / Peak Concurrent Parties (Time Range Overlap Counting)](https://trueinterview.io/questions/8998a0af-970e-4c4b-be16-21fe90c5d1a0) | Algorithm | Medium | — |
 | [Task Scheduling to Minimize Overall Completion Deadline (with Dependencies and Heap Optimization)](https://trueinterview.io/questions/69a906b1-a3e0-43a1-a3c1-267fc6556d5c) | Algorithm | Hard | — |

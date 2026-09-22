@@ -6,7 +6,7 @@ Counted over the **1,332 questions that carry a sighting date**. The other 983 a
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
-| Month | Sightings | Companies | AI Coding | Algorithm | Low-Level Design | SQL | System Design |  |
+| Month | Sightings | Companies | AI Coding | Algorithm | Object Oriented Programming | SQL | System Design |  |
 | :-- | --: | --: | --: | --: | --: | --: | --: | :-- |
 | [Feb 2126](../by-month/2126-02.md) | 1 | 1 | 0 | 1 | 0 | 0 | 0 | █ |
 | [Sep 2026](../by-month/2026-09.md) | 10 | 2 | 0 | 7 | 3 | 0 | 0 | █ |

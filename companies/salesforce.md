@@ -89,7 +89,7 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | **4** | [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) 🆓 | Algorithm | Medium | 2 | Apr 01, 2026 |
 | **5** | [Maximum Requests in a Time Window](https://trueinterview.io/questions/maximum-requests-in-time-window) | Algorithm | Easy | — | Mar 19, 2026 |
 | **6** | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Algorithm | Medium | — | Mar 19, 2026 |
-| **7** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) 🆓 | Low-Level Design | Hard | 4 | Mar 17, 2026 |
+| **7** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) 🆓 | Object Oriented Programming | Hard | 4 | Mar 17, 2026 |
 | **8** | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | AI Coding | Medium | — | Mar 10, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -119,7 +119,7 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | Algorithm | Medium | Apr 01, 2026 |
 | [Maximum Requests in a Time Window](https://trueinterview.io/questions/maximum-requests-in-time-window) | Algorithm | Easy | Mar 19, 2026 |
 | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Algorithm | Medium | Mar 19, 2026 |
-| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Low-Level Design | Hard | Mar 17, 2026 |
+| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Hard | Mar 17, 2026 |
 | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | AI Coding | Medium | Mar 10, 2026 |
 | [Code Review OA — Python Files (Salesforce / Slack)](https://trueinterview.io/questions/code-review-oa) | AI Coding | Medium | Mar 05, 2026 |
 | [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system) | System Design | Medium | Feb 09, 2026 |

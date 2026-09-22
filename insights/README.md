@@ -19,8 +19,8 @@
 | [Algorithm](../formats/algorithm.md) | 81 | 51% | ████████████████ |
 | [SQL](../formats/sql.md) | 31 | 20% | ██████ |
 | [System Design](../formats/system-design.md) | 24 | 15% | █████ |
-| [Low-Level Design](../formats/low-level-design.md) | 18 | 11% | ████ |
 | [AI Coding](../formats/ai-coding.md) | 4 | 3% | █ |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 18 | 11% | ████ |
 
 ### Where
 
@@ -53,8 +53,8 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | [Algorithm](../formats/algorithm.md) | 1,446 | 62% | 81 | 254 | 931 | 261 | 1,446 | 106 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
 | [System Design](../formats/system-design.md) | 251 | 11% | 24 | 14 | 127 | 110 | 251 | 12 |
-| [Low-Level Design](../formats/low-level-design.md) | 398 | 17% | 18 | 33 | 321 | 44 | 398 | 41 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 5% | 4 | 11 | 68 | 47 | 126 | 7 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 398 | 17% | 18 | 33 | 321 | 44 | 398 | 41 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 
@@ -116,20 +116,20 @@ The closest thing this data has to an instruction. A question reported at one em
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **12** | System Design | Easy | Reddit, Airbnb, Amazon, DoorDash … |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | **12** | Algorithm | Medium | Ramp, Amazon, Bloomberg, Ebay … |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | **11** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **11** | Low-Level Design | Medium | Rippling, Amazon, Atlassian, LinkedIn … |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **11** | Object Oriented Programming | Medium | Rippling, Amazon, Atlassian, LinkedIn … |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | **10** | System Design | Hard | Airbnb, Amazon, Ebay, Expedia … |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | **10** | Algorithm | Medium | Apple, Amazon, ByteDance, DoorDash … |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | **10** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | **10** | Low-Level Design | Medium | xAI, Amazon, Bloomberg, ByteDance … |
-| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **10** | Low-Level Design | Easy | Stripe, Amazon, Atlassian, Google … |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **10** | Low-Level Design | Medium | OpenAI, Airbnb, Amazon, Confluent … |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | **10** | Object Oriented Programming | Medium | xAI, Amazon, Bloomberg, ByteDance … |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **10** | Object Oriented Programming | Easy | Stripe, Amazon, Atlassian, Google … |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **10** | Object Oriented Programming | Medium | OpenAI, Airbnb, Amazon, Confluent … |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | **9** | Algorithm | Medium | Microsoft, Amazon, Apple, ByteDance … |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | **9** | System Design | Medium | Snowflake, Amazon, Atlassian, Bloomberg … |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | **9** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | **9** | Algorithm | Medium | Netflix, ByteDance, Google, Instacart … |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | **9** | System Design | Hard | ByteDance, Affirm, Expedia, Google … |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | **9** | System Design | Easy | Amazon, Confluent, Ebay, Google … |
-| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | **9** | Low-Level Design | Medium | Anthropic, Amazon, Bloomberg, ByteDance … |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | **9** | Object Oriented Programming | Medium | Anthropic, Amazon, Bloomberg, ByteDance … |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | **9** | System Design | Hard | ByteDance, Airbnb, Databricks, Ebay … |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | **9** | System Design | Hard | Amazon, Datadog, DoorDash, Google … |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | **8** | Algorithm | Medium | Apple, Amazon, ByteDance, Google … |

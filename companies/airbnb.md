@@ -130,12 +130,12 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Build Smallest Number](https://trueinterview.io/questions/smallest-permutation-bound) | Algorithm | Hard | Jun 03, 2026 |
-| [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Low-Level Design | Medium | Jun 02, 2026 |
+| [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Object Oriented Programming | Medium | Jun 02, 2026 |
 | [Property Booking System](https://trueinterview.io/questions/property-combination-min-capacity) | Algorithm | Medium | May 25, 2026 |
-| [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Low-Level Design | Medium | May 24, 2026 |
+| [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | May 24, 2026 |
 | [Average Vacant Days](https://trueinterview.io/questions/average-vacant-days) | SQL | Easy | May 23, 2026 |
-| [Key Store With Sum-Dependency Cascades](https://trueinterview.io/questions/key-dependency-sum-store) | Low-Level Design | Hard | May 19, 2026 |
-| [Multi-Stream Round-Robin Iterator](https://trueinterview.io/questions/multi-stream-iterator) | Low-Level Design | Medium | May 19, 2026 |
+| [Key Store With Sum-Dependency Cascades](https://trueinterview.io/questions/key-dependency-sum-store) | Object Oriented Programming | Hard | May 19, 2026 |
+| [Multi-Stream Round-Robin Iterator](https://trueinterview.io/questions/multi-stream-iterator) | Object Oriented Programming | Medium | May 19, 2026 |
 | [Linked-List Intersection With Cycles](https://trueinterview.io/questions/linked-list-intersection-with-cycles) | Algorithm | Hard | May 19, 2026 |
 | [URL Query Parameter Parsing](https://trueinterview.io/questions/url-query-string-parser) | Algorithm | Medium | May 16, 2026 |
 | [Format Articles Within Width](https://trueinterview.io/questions/text-justification-table) | Algorithm | Hard | May 12, 2026 |
@@ -149,15 +149,15 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Highlight Phrases in Review](https://trueinterview.io/questions/review-token-replace) | Algorithm | Medium | Feb 28, 2026 |
 | [Terrain Rendering + Water Drop Simulation](https://trueinterview.io/questions/terrain-water-drop) | Algorithm | Hard | Feb 28, 2026 |
 | [Split Stay Booking](https://trueinterview.io/questions/split-stay-availability-combinations) | Algorithm | Medium | Feb 28, 2026 |
-| [Banking — Deposit / Withdraw / Transaction / Balance](https://trueinterview.io/questions/banking-transactions-class) | Low-Level Design | Medium | Feb 19, 2026 |
+| [Banking — Deposit / Withdraw / Transaction / Balance](https://trueinterview.io/questions/banking-transactions-class) | Object Oriented Programming | Medium | Feb 19, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Host Listings Page — Aggregation Optimization](https://trueinterview.io/questions/host-listings-page-optimization) | System Design | Medium | Jan 10, 2026 |
 | [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Jan 07, 2026 |
-| [Design Retriable Function](https://trueinterview.io/questions/implement-retryer) | Low-Level Design | Medium | Dec 23, 2025 |
+| [Design Retriable Function](https://trueinterview.io/questions/implement-retryer) | Object Oriented Programming | Medium | Dec 23, 2025 |
 | [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search) | System Design | Hard | Nov 30, 2025 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
-| [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Low-Level Design | Medium | Nov 07, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
+| [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Object Oriented Programming | Medium | Nov 07, 2025 |
 | [Text Box Formatter](https://trueinterview.io/questions/text-box-formatter) | Algorithm | Medium | Oct 07, 2025 |
 | [Payment Refund Allocation](https://trueinterview.io/questions/payment-refund-allocation) | Algorithm | Medium | Sep 17, 2025 |
 | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | — |

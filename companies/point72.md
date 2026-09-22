@@ -2,7 +2,7 @@
 
 # Point72 interview process, OA & interview questions
 
-**17 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side.
+**17 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **17 of 17** questions at Point72 t
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 4 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ██████ | [Low-Level Design](../formats/low-level-design.md) (75%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 4 | ██████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -109,12 +109,12 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Jul 29, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
-| [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Low-Level Design | Medium | — |
+| [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Object Oriented Programming | Medium | — |
 | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Algorithm | Medium | — |
-| [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Low-Level Design | Hard | — |
+| [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Object Oriented Programming | Hard | — |
 | [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | SQL | Hard | — |
 | [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | Algorithm | Medium | — |
-| [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Low-Level Design | Hard | — |
+| [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Object Oriented Programming | Hard | — |
 | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Algorithm | Medium | — |
 | [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) | Algorithm | Medium | — |
 | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Algorithm | Medium | — |

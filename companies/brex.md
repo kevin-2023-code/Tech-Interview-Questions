@@ -2,7 +2,7 @@
 
 # Brex interview process, OA & interview questions
 
-**2 questions** reported at Brex · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/brex), judged server-side.
+**2 questions** reported at Brex · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/brex), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **2 of 2** questions at Brex that n
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Onsite / virtual onsite** | 1 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 1 / 0 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 1 / 0 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,7 +50,7 @@ The 2 questions to open first if you are preparing for Brex. **This is not a ran
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) 🆓 | Algorithm | Easy | — | — |
-| **2** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) 🆓 | Low-Level Design | Easy | — | — |
+| **2** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) 🆓 | Object Oriented Programming | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -72,5 +72,5 @@ The 2 questions to open first if you are preparing for Brex. **This is not a ran
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Low-Level Design | Easy | — |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Object Oriented Programming | Easy | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Algorithm | Easy | — |

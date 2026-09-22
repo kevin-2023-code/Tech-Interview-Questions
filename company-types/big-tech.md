@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 719 | 65% | ██████████████ | 47 |
-| [Low-Level Design](../formats/low-level-design.md) | 164 | 15% | ███ | 15 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 164 | 15% | ███ | 15 |
 | [System Design](../formats/system-design.md) | 130 | 12% | ███ | 10 |
 | [SQL](../formats/sql.md) | 60 | 5% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 39 | 4% | █ | 2 |
@@ -52,12 +52,12 @@ Of the **524 questions in this cut that carry a topic label** (47% of it):
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Amazon, ByteDance | Algorithm | Sep 10, 2026 |
-| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Low-Level Design | Sep 06, 2026 |
+| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Object Oriented Programming | Sep 06, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Amazon | Algorithm | Sep 05, 2026 |
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | ByteDance | Algorithm | Sep 04, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Amazon | Algorithm | Sep 02, 2026 |
-| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | ByteDance | Low-Level Design | Sep 02, 2026 |
-| [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Low-Level Design | Sep 01, 2026 |
+| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | ByteDance | Object Oriented Programming | Sep 02, 2026 |
+| [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Object Oriented Programming | Sep 01, 2026 |
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Amazon | Algorithm | Sep 01, 2026 |
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Amazon | Algorithm | Sep 01, 2026 |
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Amazon | Algorithm | Sep 01, 2026 |

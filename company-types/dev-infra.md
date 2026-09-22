@@ -20,7 +20,7 @@
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 107 | 58% | ██████████████ | 14 |
 | [System Design](../formats/system-design.md) | 38 | 21% | █████ | 7 |
-| [Low-Level Design](../formats/low-level-design.md) | 34 | 18% | ████ | 7 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 34 | 18% | ████ | 7 |
 | [SQL](../formats/sql.md) | 5 | 3% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
@@ -54,7 +54,7 @@ Of the **72 questions in this cut that carry a topic label** (39% of it):
 | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Snowflake | SQL | Aug 13, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | Snowflake | SQL | Jul 22, 2026 |
 | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Databricks | Algorithm | Jun 29, 2026 |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Databricks … | Low-Level Design | Jun 26, 2026 |
+| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Databricks … | Object Oriented Programming | Jun 26, 2026 |
 | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | Snowflake | System Design | Jun 25, 2026 |
 | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Snowflake | Algorithm | Jun 24, 2026 |
 | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Snowflake | Algorithm | Jun 24, 2026 |

@@ -137,25 +137,25 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Stream Window Max Unique Users](https://trueinterview.io/questions/stream-window-max-unique-users) | Algorithm | Medium | Mar 23, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
-| [In-Memory Pub/Sub](https://trueinterview.io/questions/in-memory-pubsub) | Low-Level Design | Medium | Mar 18, 2026 |
+| [In-Memory Pub/Sub](https://trueinterview.io/questions/in-memory-pubsub) | Object Oriented Programming | Medium | Mar 18, 2026 |
 | [Word Ladder Reachability](https://trueinterview.io/questions/word-ladder-reachability) | Algorithm | Medium | Mar 12, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
-| [Custom List, Iterator & Map Function](https://trueinterview.io/questions/custom-list-iterator-and-map-function) | Low-Level Design | Medium | Feb 26, 2026 |
+| [Custom List, Iterator & Map Function](https://trueinterview.io/questions/custom-list-iterator-and-map-function) | Object Oriented Programming | Medium | Feb 26, 2026 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
 | [Metrics Collection, Alerting & Click Counters](https://trueinterview.io/questions/metrics-collection-alerting-and-click-counters) | System Design | Hard | Feb 24, 2026 |
 | [Escape Grid with Fire and Waiting Time](https://trueinterview.io/questions/escape-grid-with-fire-and-waiting-time) | Algorithm | Hard | Feb 24, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Service Dependency Shortest Latency Path](https://trueinterview.io/questions/service-dependency-shortest-latency-path) | Algorithm | Medium | Jan 30, 2026 |
-| [Search Suggestion Service](https://trueinterview.io/questions/search-suggestion-service) | Low-Level Design | Medium | Jan 30, 2026 |
+| [Search Suggestion Service](https://trueinterview.io/questions/search-suggestion-service) | Object Oriented Programming | Medium | Jan 30, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
-| [iOS Scrollable Grid & Swift Concurrency](https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency) | Low-Level Design | Medium | Jan 20, 2026 |
+| [iOS Scrollable Grid & Swift Concurrency](https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency) | Object Oriented Programming | Medium | Jan 20, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
-| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-4) | Algorithm | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
@@ -165,7 +165,7 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Combinations of Elements Using Recursive Mapping](https://trueinterview.io/questions/3fa8d5db-2936-4c91-82c5-57d91408cc7b) | Algorithm | Medium | — |
 | [4Sum (Find all unique quadruplets)](https://trueinterview.io/questions/07f8b449-7967-4e4b-9036-b337ac8e591f) | Algorithm | Medium | — |
 | [Merge N sorted lists into one sorted list](https://trueinterview.io/questions/05df5d18-4c49-4622-9296-d227c283f950) | Algorithm | Medium | — |
-| [O(1) Get and Add Data Structure](https://trueinterview.io/questions/004790d3-cd6c-4d92-9e71-b810ddad3a63) | Low-Level Design | Easy | — |
+| [O(1) Get and Add Data Structure](https://trueinterview.io/questions/004790d3-cd6c-4d92-9e71-b810ddad3a63) | Object Oriented Programming | Easy | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |

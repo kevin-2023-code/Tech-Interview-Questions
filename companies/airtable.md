@@ -2,7 +2,7 @@
 
 # Airtable interview process, OA & interview questions
 
-**5 questions** reported at Airtable. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airtable), judged server-side.
+**5 questions** reported at Airtable. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airtable), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **5 of 5** questions at Airtable th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ███████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -56,11 +56,11 @@ The 5 questions to open first if you are preparing for Airtable. **This is not a
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) 🆓 | Low-Level Design | Medium | — | — |
+| **1** | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) 🆓 | Object Oriented Programming | Medium | — | — |
 | **2** | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) 🆓 | Algorithm | Medium | — | — |
 | **3** | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Algorithm | Medium | — | — |
 | **4** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Algorithm | Medium | — | — |
-| **5** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Low-Level Design | Hard | — | — |
+| **5** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -75,7 +75,7 @@ The 5 questions to open first if you are preparing for Airtable. **This is not a
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Algorithm | Medium | — |
-| [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Low-Level Design | Hard | — |
+| [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Hard | — |
 | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Algorithm | Medium | — |
 | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | Algorithm | Medium | — |
-| [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | Low-Level Design | Medium | — |
+| [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | Object Oriented Programming | Medium | — |

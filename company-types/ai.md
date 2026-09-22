@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 82 | 35% | ██████████████ | 15 |
-| [Low-Level Design](../formats/low-level-design.md) | 59 | 25% | ██████████ | 10 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 59 | 25% | ██████████ | 10 |
 | [AI Coding](../formats/ai-coding.md) | 46 | 20% | ████████ | 2 |
 | [System Design](../formats/system-design.md) | 45 | 19% | ████████ | 5 |
 | [SQL](../formats/sql.md) | 3 | 1% | █ | 0 |
@@ -55,10 +55,10 @@ Of the **65 questions in this cut that carry a topic label** (28% of it):
 | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Microsoft AI … | Algorithm | Jul 29, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Microsoft AI … | Algorithm | Jul 29, 2026 |
 | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | xAI | SQL | Jul 22, 2026 |
-| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | OpenAI | Low-Level Design | Jul 15, 2026 |
+| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | OpenAI | Object Oriented Programming | Jul 15, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Harvey | System Design | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | Harvey | System Design | Jul 2026 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Harvey | Low-Level Design | Jul 2026 |
+| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Harvey | Object Oriented Programming | Jul 2026 |
 
 ---
 

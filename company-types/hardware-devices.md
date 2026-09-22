@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 78 | 70% | ██████████████ | 17 |
-| [Low-Level Design](../formats/low-level-design.md) | 15 | 14% | ███ | 3 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 15 | 14% | ███ | 3 |
 | [System Design](../formats/system-design.md) | 12 | 11% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 3% | █ | 1 |
 | [SQL](../formats/sql.md) | 3 | 3% | █ | 0 |
@@ -55,7 +55,7 @@ Of the **58 questions in this cut that carry a topic label** (52% of it):
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Apple … | Algorithm | Jul 29, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Apple | SQL | Jul 26, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Apple … | Algorithm | Jun 28, 2026 |
-| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Apple | Low-Level Design | Jun 28, 2026 |
+| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Apple | Object Oriented Programming | Jun 28, 2026 |
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | Apple | System Design | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Apple | Algorithm | Jun 24, 2026 |
 

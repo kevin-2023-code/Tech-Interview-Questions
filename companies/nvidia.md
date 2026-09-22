@@ -89,7 +89,7 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | **3** | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | — | Jun 30, 2026 |
 | **4** | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | — | Apr 26, 2026 |
 | **5** | [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout) | Algorithm | Medium | — | Apr 15, 2026 |
-| **6** | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Low-Level Design | Medium | — | Apr 15, 2026 |
+| **6** | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Object Oriented Programming | Medium | — | Apr 15, 2026 |
 | **7** | [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | System Design | Hard | — | Mar 25, 2026 |
 | **8** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
 
@@ -123,12 +123,12 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Hard | Jul 03, 2026 |
 | [HPC Host Control Plane and Job Coordination](https://trueinterview.io/questions/hpc-host-control-plane-and-job-coordination) | System Design | Hard | Jun 30, 2026 |
 | [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding) | Algorithm | Easy | Apr 26, 2026 |
-| [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Low-Level Design | Medium | Apr 15, 2026 |
+| [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Object Oriented Programming | Medium | Apr 15, 2026 |
 | [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout) | Algorithm | Medium | Apr 15, 2026 |
 | [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | System Design | Hard | Mar 25, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [C++ Project Debugging with AI Tools](https://trueinterview.io/questions/cpp-debugging-with-ai-tools) | AI Coding | Hard | Feb 12, 2026 |
-| [Computation / Dependency Graph Validation and Pruning](https://trueinterview.io/questions/graph-validation-and-pruning) | Low-Level Design | Medium | Feb 12, 2026 |
+| [Computation / Dependency Graph Validation and Pruning](https://trueinterview.io/questions/graph-validation-and-pruning) | Object Oriented Programming | Medium | Feb 12, 2026 |
 | [FP32 Tensor to Int8 Quantization](https://trueinterview.io/questions/fp32-to-int8-quantization) | Algorithm | Medium | Feb 12, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding) | Algorithm | Hard | Feb 05, 2026 |
@@ -144,4 +144,4 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [SQL Aggregation Across Country/State/City/Zip Tables](https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a) | SQL | Medium | — |
 | [Python Data Processing Task (Parse, Aggregate, and Validate)](https://trueinterview.io/questions/3a714999-40ed-4da6-b12f-d0addf376068) | Algorithm | Easy | — |
 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | Algorithm | Easy | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

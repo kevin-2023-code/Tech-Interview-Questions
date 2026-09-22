@@ -44,9 +44,9 @@ Which stage each question came from, for the **144 of 144** questions at ByteDan
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | Onsite / virtual onsite | Sep 10, 2026 |
-| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Low-Level Design | Medium | Phone screen, Onsite / virtual onsite | Sep 06, 2026 |
+| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Sep 06, 2026 |
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | Phone screen | Sep 04, 2026 |
-| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Low-Level Design | Medium | Phone screen | Sep 02, 2026 |
+| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | Medium | Phone screen | Sep 02, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | Hard | Onsite / virtual onsite | Aug 30, 2026 |
 | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | Medium | Phone screen | Aug 25, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 21, 2026 |
@@ -54,7 +54,7 @@ Which stage each question came from, for the **144 of 144** questions at ByteDan
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | Onsite / virtual onsite | Aug 17, 2026 |
 | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | System Design | Hard | Onsite / virtual onsite | Aug 17, 2026 |
 | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | Phone screen | Aug 13, 2026 |
-| [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Low-Level Design | Medium | Phone screen | Aug 06, 2026 |
+| [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Object Oriented Programming | Medium | Phone screen | Aug 06, 2026 |
 
 <sub>10 more in this window are in the table below.</sub>
 
@@ -103,9 +103,9 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | 1 | Sep 10, 2026 |
-| **2** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Low-Level Design | Medium | — | Sep 06, 2026 |
+| **2** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | — | Sep 06, 2026 |
 | **3** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | — | Sep 04, 2026 |
-| **4** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Low-Level Design | Medium | — | Sep 02, 2026 |
+| **4** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | Medium | — | Sep 02, 2026 |
 | **5** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | Hard | — | Aug 30, 2026 |
 | **6** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | Medium | — | Aug 25, 2026 |
 | **7** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | — | Aug 21, 2026 |
@@ -158,9 +158,9 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | 🔥 Sep 10, 2026 |
-| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Low-Level Design | Medium | 🆕 Sep 06, 2026 |
+| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | Medium | 🆕 Sep 06, 2026 |
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Algorithm | Medium | 🆕 Sep 04, 2026 |
-| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Low-Level Design | Medium | 🆕 Sep 02, 2026 |
+| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Object Oriented Programming | Medium | 🆕 Sep 02, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | Hard | 🆕 Aug 30, 2026 |
 | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | Medium | 🆕 Aug 25, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 🆕 Aug 21, 2026 |
@@ -168,7 +168,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | System Design | Hard | 🆕 Aug 17, 2026 |
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | 🆕 Aug 17, 2026 |
 | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | 🆕 Aug 13, 2026 |
-| [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Low-Level Design | Medium | Aug 06, 2026 |
+| [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Object Oriented Programming | Medium | Aug 06, 2026 |
 | [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) | Algorithm | Hard | Jul 29, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Signup Activation Rate](https://trueinterview.io/questions/signup-activation-rate) | SQL | Medium | Jul 22, 2026 |
@@ -185,14 +185,14 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Number of Islands and Grid BFS Variants](https://trueinterview.io/questions/number-of-islands-family) | Algorithm | Hard | Jun 16, 2026 |
 | [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum) | Algorithm | Medium | Jun 16, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
-| [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Low-Level Design | Medium | Jun 15, 2026 |
+| [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts) | System Design | Medium | Jun 11, 2026 |
-| [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Low-Level Design | Hard | Jun 11, 2026 |
+| [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Hard | Jun 11, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Algorithm | Medium | Jun 06, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | May 27, 2026 |
-| [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Low-Level Design | Easy | May 27, 2026 |
+| [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | May 27, 2026 |
 | [Realtime Auction Bidding System](https://trueinterview.io/questions/realtime-auction-bidding-system) | System Design | Medium | May 20, 2026 |
 | [Hand-Code Self-Attention and Cross-Entropy](https://trueinterview.io/questions/self-attention-cross-entropy-pseudocode) | Algorithm | Hard | May 01, 2026 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Apr 17, 2026 |
@@ -220,7 +220,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Algorithm | Medium | Feb 04, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
 | [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
 | [Valid Parentheses with Wildcard '*' and DFS All Strings](https://trueinterview.io/questions/valid-parentheses-with-wildcard) | Algorithm | Medium | Jan 30, 2026 |
@@ -229,13 +229,13 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Algorithm | Medium | Jan 29, 2026 |
 | [Dynamic K in Retrieval Stage](https://trueinterview.io/questions/dynamic-k-retrieval-ml-system-design) | System Design | Hard | Jan 28, 2026 |
 | [Binary Tree Maximum Path Sum (with path reconstruction)](https://trueinterview.io/questions/binary-tree-max-path-sum) | Algorithm | Hard | Jan 26, 2026 |
-| [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Low-Level Design | Medium | Jan 22, 2026 |
+| [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Object Oriented Programming | Medium | Jan 22, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Algorithm | Medium | Jan 20, 2026 |
 | [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch) | Algorithm | Medium | Jan 04, 2026 |
 | [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch) | Algorithm | Easy | Jan 04, 2026 |
 | [Local maximum on a 1-D stream](https://trueinterview.io/questions/codesignal-ml-rs-oa-local-maximum-on-a-1-d-stream) | Algorithm | Medium | Jan 04, 2026 |
 | [CodeSignal ML / Research Scientist OA (10-Problem Battery)](https://trueinterview.io/questions/codesignal-ml-rs-oa) | Algorithm | Hard | Jan 04, 2026 |
-| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Low-Level Design | Medium | Dec 27, 2025 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Algorithm | Medium | Dec 16, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Contiguous Subarray with Largest Min + Max](https://trueinterview.io/questions/largest-min-max-subarray) | Algorithm | Easy | Nov 26, 2025 |
@@ -250,7 +250,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Algorithm | Easy | — |
 | [Longest Circular Sequence of Ones](https://trueinterview.io/questions/longest-circular-sequence-of-ones-2) | Algorithm | Hard | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
 | [Minimum Jumps to Reach Home](https://trueinterview.io/questions/cf9a9de0-1885-53cf-a041-0c7ad83b8b83) | Algorithm | Hard | — |
 | [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) | Algorithm | Medium | — |
 | [Merge Intervals with Possibly Reversed Endpoints](https://trueinterview.io/questions/9218dd59-dbfc-59f9-847d-104ab3017c6f) | Algorithm | Medium | — |
@@ -260,7 +260,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Algorithm | Medium | — |
 | [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Algorithm | Medium | — |
 | [Reverse Linked List in Groups of K Including the Last Partial Group](https://trueinterview.io/questions/350eb5bb-42fe-5d74-a546-13518c969355) | Algorithm | Medium | — |
-| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Algorithm | Medium | — |
@@ -268,7 +268,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Reverse a Linked List](https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c) | Algorithm | Easy | — |
 | [Count Subarrays With Alternating Parity (Odd/Even) Including Negatives](https://trueinterview.io/questions/8babc81e-6a75-4bc6-b67e-d7f11327c8e8) | Algorithm | Medium | — |
 | [Number of Distinct Islands](https://trueinterview.io/questions/4efa382e-08ab-43e2-8ad5-306b5e2fbc86) | Algorithm | Medium | — |
-| [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Low-Level Design | Medium | — |
+| [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Object Oriented Programming | Medium | — |
 | [Word Ladder (Shortest Transformation Path)](https://trueinterview.io/questions/e6525160-e0ed-4df8-896c-9477534d9e3e) | Algorithm | Hard | — |
 | [Write a Shell Script](https://trueinterview.io/questions/e4cf0983-ff34-459a-94c1-19fd845d217f) | Algorithm | Medium | — |
 | [Walking with Boost Stations (Greedy Simulation)](https://trueinterview.io/questions/df181ca4-fa5a-4022-975e-2742e47d87d5) | Algorithm | Medium | — |
@@ -285,7 +285,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Algorithm | Medium | — |
 | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Algorithm | Medium | — |
 | [Construct Binary Tree from Preorder and Inorder Traversal](https://trueinterview.io/questions/366ee784-2ba4-440f-990c-01acf83d407e) | Algorithm | Medium | — |
-| [BST Node Search and Delete](https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b) | Low-Level Design | Easy | — |
+| [BST Node Search and Delete](https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b) | Object Oriented Programming | Easy | — |
 | [Find Local Maximums in Temperature Data](https://trueinterview.io/questions/2efaddee-93c4-473f-8897-4e45b68612dc) | Algorithm | Medium | — |
 | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Algorithm | Medium | — |
 | [Add Strings (character array variant)](https://trueinterview.io/questions/113280be-2279-4a9e-9c3d-796f93652b7d) | Algorithm | Medium | — |

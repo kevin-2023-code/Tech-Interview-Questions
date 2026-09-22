@@ -94,7 +94,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | **4** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 3 | Jun 16, 2026 |
 | **5** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | 3 | Jun 16, 2026 |
 | **6** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 2 | Jun 16, 2026 |
-| **7** | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Low-Level Design | Medium | — | Jun 16, 2026 |
+| **7** | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Object Oriented Programming | Medium | — | Jun 16, 2026 |
 | **8** | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | — | Jun 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -125,7 +125,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
 | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | Jun 16, 2026 |
 | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
-| [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Low-Level Design | Medium | Jun 16, 2026 |
+| [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Object Oriented Programming | Medium | Jun 16, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Algorithm | Medium | Jun 04, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
@@ -144,22 +144,22 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Feb 16, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
-| [Top-K Frequent Tickers (Stock Leaderboard)](https://trueinterview.io/questions/top-k-frequent-stock-tickers) | Low-Level Design | Hard | Jan 26, 2026 |
+| [Top-K Frequent Tickers (Stock Leaderboard)](https://trueinterview.io/questions/top-k-frequent-stock-tickers) | Object Oriented Programming | Hard | Jan 26, 2026 |
 | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Algorithm | Hard | Jan 22, 2026 |
 | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Algorithm | Hard | Jan 22, 2026 |
 | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Algorithm | Medium | Jan 21, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Algorithm | Easy | Jan 13, 2026 |
 | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Algorithm | Medium | Jan 01, 2026 |
-| [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Low-Level Design | Medium | Dec 22, 2025 |
-| [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Low-Level Design | Hard | Nov 27, 2025 |
-| [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Low-Level Design | Medium | Nov 22, 2025 |
+| [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Object Oriented Programming | Medium | Dec 22, 2025 |
+| [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Object Oriented Programming | Hard | Nov 27, 2025 |
+| [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Object Oriented Programming | Medium | Nov 22, 2025 |
 | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Nov 22, 2025 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
-| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
@@ -172,5 +172,5 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Anagram Question](https://trueinterview.io/questions/34828e80-d9ef-43e4-856f-8b5bf8c29609) | Algorithm | Easy | — |
 | [Validate Stack Sequences](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) | Algorithm | Medium | — |
 | [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Algorithm | Easy | — |
-| [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Low-Level Design | Easy | — |
+| [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Object Oriented Programming | Easy | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

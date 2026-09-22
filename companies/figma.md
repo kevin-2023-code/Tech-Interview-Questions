@@ -43,13 +43,13 @@ Which stage each question came from, for the **18 of 18** questions at Figma tha
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Low-Level Design | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
+| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
 | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Easy | Onsite / virtual onsite | Aug 12, 2026 |
 | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | Onsite / virtual onsite | Aug 04, 2026 |
 | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jul 09, 2026 |
-| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Low-Level Design | Medium | Phone screen, Onsite / virtual onsite | Jul 06, 2026 |
+| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 06, 2026 |
 
 ## What they ask about
 
@@ -87,12 +87,12 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Easy | — | Aug 12, 2026 |
 | **2** | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | — | Aug 12, 2026 |
-| **3** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Low-Level Design | Medium | — | Aug 12, 2026 |
+| **3** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | — | Aug 12, 2026 |
 | **4** | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | — | Aug 12, 2026 |
 | **5** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | — | Aug 04, 2026 |
 | **6** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | — | Aug 04, 2026 |
 | **7** | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | — | Jul 09, 2026 |
-| **8** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) 🆓 | Low-Level Design | Medium | — | Jul 06, 2026 |
+| **8** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) 🆓 | Object Oriented Programming | Medium | — | Jul 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,15 +116,15 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Low-Level Design | Medium | 🆕 Aug 12, 2026 |
+| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | 🆕 Aug 12, 2026 |
 | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Easy | 🆕 Aug 12, 2026 |
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | 🆕 Aug 12, 2026 |
 | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | 🆕 Aug 12, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | Aug 04, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Aug 04, 2026 |
 | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Jul 09, 2026 |
-| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Low-Level Design | Medium | Jul 06, 2026 |
-| [File System Permissions](https://trueinterview.io/questions/file-system-permissions) | Low-Level Design | Medium | May 14, 2026 |
+| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Object Oriented Programming | Medium | Jul 06, 2026 |
+| [File System Permissions](https://trueinterview.io/questions/file-system-permissions) | Object Oriented Programming | Medium | May 14, 2026 |
 | [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation) | System Design | Medium | Apr 13, 2026 |
 | [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed) | System Design | Medium | Apr 13, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |

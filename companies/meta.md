@@ -43,7 +43,7 @@ Which stage each question came from, for the **168 of 168** questions at Meta th
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Low-Level Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Phone screen | Jul 22, 2026 |
@@ -98,7 +98,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Low-Level Design | Medium | — | Aug 16, 2026 |
+| **1** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | — | Aug 16, 2026 |
 | **2** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
 | **3** | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | — | Jul 22, 2026 |
 | **4** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | — | Jul 22, 2026 |
@@ -142,7 +142,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Low-Level Design | Medium | 🆕 Aug 16, 2026 |
+| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | 🆕 Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Jul 22, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Jul 22, 2026 |
@@ -163,7 +163,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Card Game (Three Cards Summing to 15)](https://trueinterview.io/questions/ai-coding-card-game-sum-fifteen) | AI Coding | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | AI Coding | Medium | May 30, 2026 |
 | [Ads Ranking](https://trueinterview.io/questions/mlsd-ads-ranking) | System Design | Hard | May 30, 2026 |
-| [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system) | Low-Level Design | Hard | May 26, 2026 |
+| [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system) | Object Oriented Programming | Hard | May 26, 2026 |
 | [Recent Unrelated Posts](https://trueinterview.io/questions/recent-unrelated-posts) | SQL | Easy | May 23, 2026 |
 | [Average Reactions per Post](https://trueinterview.io/questions/average-reactions-per-post) | SQL | Medium | May 23, 2026 |
 | [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis) | SQL | Hard | May 23, 2026 |
@@ -189,7 +189,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Apr 17, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
 | [Notification Ranking (Multi-source)](https://trueinterview.io/questions/mlsd-notification-ranking) | System Design | Hard | Apr 15, 2026 |
-| [Friend Recommendation II](https://trueinterview.io/questions/ai-coding-friend-recommendation) | Low-Level Design | Medium | Apr 14, 2026 |
+| [Friend Recommendation II](https://trueinterview.io/questions/ai-coding-friend-recommendation) | Object Oriented Programming | Medium | Apr 14, 2026 |
 | [Compiler Optimization](https://trueinterview.io/questions/f55a5bd8-785a-44d0-9ab6-11d996f3ca36) | Algorithm | Medium | Apr 13, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Exclusive Time of Functions](https://trueinterview.io/questions/exclusive-time-of-functions) | Algorithm | Medium | Apr 05, 2026 |
@@ -228,7 +228,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | Algorithm | Easy | Sep 2025 |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
-| [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Low-Level Design | Medium | — |
+| [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Object Oriented Programming | Medium | — |
 | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | SQL | Easy | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
@@ -249,7 +249,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Escape Room (Shortest Escape Path in a Room Grid)](https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c) | Algorithm | Hard | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Compare Two Linked Lists' Concatenated Strings](https://trueinterview.io/questions/f57623fa-df0e-49d8-8275-3787fab19121) | Algorithm | Medium | — |
-| [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5) | Low-Level Design | Medium | — |
+| [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5) | Object Oriented Programming | Medium | — |
 | [Arithmetic Expression Evaluator (Limited Operators)](https://trueinterview.io/questions/ddaa35f9-b880-41bb-bcd4-e6f0bac02b2c) | Algorithm | Easy | — |
 | [Remove All Adjacent Duplicates in String Repeatedly](https://trueinterview.io/questions/d7f2f296-e2a6-4cea-b7f4-162049ce638b) | Algorithm | Medium | — |
 | [Longest Increasing Path in a Matrix](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74) | Algorithm | Hard | — |
@@ -298,7 +298,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Binary Tree: Print Left Boundary Bottom-Up and Right Boundary Top-Down](https://trueinterview.io/questions/0d8ad1b8-ec74-4ddf-9c25-37d113f4aad3) | Algorithm | Medium | — |
 | [Fix validation for friend recommendations](https://trueinterview.io/questions/021b6f7e-4100-443e-aa5d-09ddf9ae43ca) | AI Coding | Medium | — |
 | [House Robber (Large Inputs)](https://trueinterview.io/questions/251a1e5d-072f-491a-b8c2-95730c39f8e5) | Algorithm | Medium | — |
-| [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Low-Level Design | Easy | — |
+| [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Object Oriented Programming | Easy | — |
 | [Maze Problem](https://trueinterview.io/questions/110ab1b0-fab7-4c67-a9b4-569ce7d74c2f) | Algorithm | Medium | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |

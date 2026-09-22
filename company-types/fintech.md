@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 135 | 54% | ██████████████ | 19 |
-| [Low-Level Design](../formats/low-level-design.md) | 54 | 22% | ██████ | 11 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 54 | 22% | ██████ | 11 |
 | [AI Coding](../formats/ai-coding.md) | 31 | 12% | ███ | 4 |
 | [System Design](../formats/system-design.md) | 25 | 10% | ███ | 5 |
 | [SQL](../formats/sql.md) | 3 | 1% | █ | 0 |
@@ -53,11 +53,11 @@ Of the **102 questions in this cut that carry a topic label** (41% of it):
 | :-- | :-- | :-- | :-- |
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Affirm | Algorithm | Aug 12, 2026 |
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Affirm | Algorithm | Aug 07, 2026 |
-| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Affirm | Low-Level Design | Aug 06, 2026 |
+| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Affirm | Object Oriented Programming | Aug 06, 2026 |
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Affirm | Algorithm | Aug 01, 2026 |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | Stripe | SQL | Jul 22, 2026 |
 | [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | SoFi | Algorithm | Jul 04, 2026 |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Ramp … | Low-Level Design | Jun 26, 2026 |
+| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Ramp … | Object Oriented Programming | Jun 26, 2026 |
 | [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Stripe | Algorithm | Jun 24, 2026 |
 
 ---

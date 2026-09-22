@@ -31,7 +31,7 @@ Which stage each question came from, for the **13 of 13** questions at Harvey th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 7 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 4 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (50%) | 0 / 4 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 8 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 4 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -44,7 +44,7 @@ Which stage each question came from, for the **13 of 13** questions at Harvey th
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Hard | Onsite / virtual onsite | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Onsite / virtual onsite | Jul 2026 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Low-Level Design | Hard | Phone screen, Onsite / virtual onsite | Jul 2026 |
+| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Jul 2026 |
 
 ## What they ask about
 
@@ -83,11 +83,11 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | **1** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) 🆓 | Algorithm | Hard | — | Aug 09, 2026 |
 | **2** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Hard | — | Jul 07, 2026 |
 | **3** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | — | Jul 2026 |
-| **4** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Low-Level Design | Hard | — | Jul 2026 |
-| **5** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Low-Level Design | Medium | 2 | Jun 15, 2026 |
+| **4** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | — | Jul 2026 |
+| **5** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
 | **6** | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | AI Coding | Medium | — | Jun 11, 2026 |
-| **7** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Low-Level Design | Medium | — | Apr 30, 2026 |
-| **8** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Low-Level Design | Medium | — | Apr 2026 |
+| **7** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Object Oriented Programming | Medium | — | Apr 30, 2026 |
+| **8** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Object Oriented Programming | Medium | — | Apr 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -113,12 +113,12 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | 🆕 Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Hard | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Jul 2026 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Low-Level Design | Hard | Jul 2026 |
-| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Low-Level Design | Medium | Jun 15, 2026 |
+| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Jul 2026 |
+| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | AI Coding | Medium | Jun 11, 2026 |
-| [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Low-Level Design | Medium | Apr 30, 2026 |
-| [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Low-Level Design | Medium | Apr 2026 |
-| [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Low-Level Design | Medium | — |
+| [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Object Oriented Programming | Medium | Apr 30, 2026 |
+| [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Object Oriented Programming | Medium | Apr 2026 |
+| [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Object Oriented Programming | Medium | — |
 | [Citation Problem](https://trueinterview.io/questions/e56966f5-529a-4c66-880f-7b903adcf76e) | Algorithm | Medium | — |
 | [Word Level Match and Tagging](https://trueinterview.io/questions/4b7527c3-d017-4a91-9e56-2d213ea0d1ce) | Algorithm | Hard | — |
 | [Evaluate Symbols in an Expression Map (with Cycle Detection)](https://trueinterview.io/questions/3c2763fa-9744-4ef7-a5a0-4484ad92d5d2) | Algorithm | Medium | — |

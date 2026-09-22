@@ -2,7 +2,7 @@
 
 # Tradedesk interview process, OA & interview questions
 
-**15 questions** reported at Tradedesk · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tradedesk), judged server-side.
+**15 questions** reported at Tradedesk · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tradedesk), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **15 of 15** questions at Tradedesk
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 8 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -78,7 +78,7 @@ The 8 questions to open first if you are preparing for Tradedesk, ranked by **th
 | **5** | [Narrative Words](https://trueinterview.io/questions/9ad96e3a-7f96-4ddb-bcbb-724f098ce6e9) | Algorithm | Easy | — | — |
 | **6** | [Interpolate Y-Value for Given X-Value](https://trueinterview.io/questions/f7ad40a0-87f6-4b4b-9903-e2558f1f276c) | Algorithm | Easy | — | — |
 | **7** | [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62) | Algorithm | Medium | — | — |
-| **8** | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) 🆓 | Low-Level Design | Medium | — | — |
+| **8** | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) 🆓 | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -106,12 +106,12 @@ The 8 questions to open first if you are preparing for Tradedesk, ranked by **th
 | [Narrative Words](https://trueinterview.io/questions/9ad96e3a-7f96-4ddb-bcbb-724f098ce6e9) | Algorithm | Easy | — |
 | [Tally the Number of Friend Groups with K Sets of Matching Traits](https://trueinterview.io/questions/8b27c148-68bf-4093-bc80-85a303a79911) | Algorithm | Medium | — |
 | [Light Sources &#92;U0001fa75](https://trueinterview.io/questions/67afecc0-9b92-43c1-8517-9380cb208dcb) | Algorithm | Medium | — |
-| [Implement an Internal Database](https://trueinterview.io/questions/5099436a-db96-4384-87b7-6ea29659eed4) | Low-Level Design | Hard | — |
+| [Implement an Internal Database](https://trueinterview.io/questions/5099436a-db96-4384-87b7-6ea29659eed4) | Object Oriented Programming | Hard | — |
 | [Last to Be Checked](https://trueinterview.io/questions/2069bf07-0c49-475c-8ef8-9e11c443b509) | Algorithm | Easy | — |
 | [Buddies Greater than Target](https://trueinterview.io/questions/055e2b8e-9813-42ea-be04-71e25dff05a4) | Algorithm | Easy | — |
-| [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | Low-Level Design | Medium | — |
+| [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | Object Oriented Programming | Medium | — |
 | [Earn the Most](https://trueinterview.io/questions/de01d1f2-f8dc-44ab-a3ac-256f97bf946b) | Algorithm | Hard | — |
 | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |
-| [Versioned Recipe Management System](https://trueinterview.io/questions/7cc2781a-4716-537b-86f0-af8491a58f8b) | Low-Level Design | Medium | — |
+| [Versioned Recipe Management System](https://trueinterview.io/questions/7cc2781a-4716-537b-86f0-af8491a58f8b) | Object Oriented Programming | Medium | — |
 | [Fastest Benchmark Completion in Activity](https://trueinterview.io/questions/3c61ef86-b26e-4cc4-88cf-3258acb9f8c8) | Algorithm | Medium | — |
 | [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62) | Algorithm | Medium | — |

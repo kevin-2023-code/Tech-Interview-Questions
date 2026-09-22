@@ -125,19 +125,19 @@ The 8 questions to open first if you are preparing for SoFi, ranked by **the mos
 | [Kanban Board Task Actions](https://trueinterview.io/questions/kanban-board-task-actions) | AI Coding | Medium | Nov 14, 2025 |
 | [GIF Info Pagination by Tag](https://trueinterview.io/questions/gif-info-pagination-by-tag) | Algorithm | Easy | Nov 12, 2025 |
 | [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure) | Algorithm | Easy | Oct 31, 2025 |
-| [Star Rating Component](https://trueinterview.io/questions/star-rating-component) | Low-Level Design | Medium | Oct 06, 2025 |
+| [Star Rating Component](https://trueinterview.io/questions/star-rating-component) | Object Oriented Programming | Medium | Oct 06, 2025 |
 | [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions) | Algorithm | Medium | Sep 25, 2025 |
-| [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Low-Level Design | Medium | Jul 14, 2025 |
+| [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Object Oriented Programming | Medium | Jul 14, 2025 |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
 | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Algorithm | Medium | — |
 | [Extend an Existing Codebase to Support Accessibility Requirements](https://trueinterview.io/questions/e09854da-00dd-4596-a22c-a1b2463a2a29) | AI Coding | Hard | — |
 | [Second Most Frequent Tag from Flattened Triples](https://trueinterview.io/questions/e89bef94-d185-481f-94fe-b1ad86364481) | Algorithm | Easy | — |
 | [K-th Unique Maximum from Two Sorted Arrays](https://trueinterview.io/questions/d26a94ba-3da5-4ebb-9dfd-ab1939adba62) | Algorithm | Medium | — |
 | [Interactive Story Endings Reachability (Choices/Options)](https://trueinterview.io/questions/5a23f516-7bed-46d3-8874-942cca7863b5) | Algorithm | Medium | — |
-| [Design a Multi-threaded Task Executor with Extensible Task Types (Semaphore-based)](https://trueinterview.io/questions/4e7be800-1e64-44b9-ada0-f2cb1c43c816) | Low-Level Design | Medium | — |
+| [Design a Multi-threaded Task Executor with Extensible Task Types (Semaphore-based)](https://trueinterview.io/questions/4e7be800-1e64-44b9-ada0-f2cb1c43c816) | Object Oriented Programming | Medium | — |
 | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Algorithm | Easy | — |
 | [Maximum Occurring Character](https://trueinterview.io/questions/d73e4ed1-1ee4-479c-955e-249baf81ac1d) | Algorithm | Easy | — |
-| [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Low-Level Design | Easy | — |
+| [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Object Oriented Programming | Easy | — |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Lazy-loaded List with Paginated Fetch (10 items per page)](https://trueinterview.io/questions/46d6b649-f860-4586-8310-80c7f23f264d) | AI Coding | Medium | — |
-| [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Low-Level Design | Medium | — |
+| [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |

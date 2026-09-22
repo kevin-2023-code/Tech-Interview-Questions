@@ -30,7 +30,7 @@ Which stage each question came from, for the **63 of 63** questions at Anthropic
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 14 | ████ | [Low-Level Design](../formats/low-level-design.md) (57%) | 4 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 14 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 4 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 27 | ███████ | [Algorithm](../formats/algorithm.md) (41%) | 0 / 18 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 39 | ██████████ | [AI Coding](../formats/ai-coding.md) (38%) | 5 / 23 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
@@ -83,10 +83,10 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | **1** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
 | **2** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
 | **3** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Medium | — | Jun 15, 2026 |
-| **4** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Low-Level Design | Medium | — | Jun 15, 2026 |
+| **4** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | — | Jun 15, 2026 |
 | **5** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | — | Jun 15, 2026 |
 | **6** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | — | Jun 15, 2026 |
-| **7** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) 🆓 | Low-Level Design | Medium | — | Jun 10, 2026 |
+| **7** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) 🆓 | Object Oriented Programming | Medium | — | Jun 10, 2026 |
 | **8** | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) 🆓 | Algorithm | Medium | — | Jun 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -120,10 +120,10 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
 | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Medium | Jun 15, 2026 |
-| [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Low-Level Design | Medium | Jun 15, 2026 |
+| [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | Jun 15, 2026 |
 | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | Jun 15, 2026 |
-| [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Low-Level Design | Medium | Jun 10, 2026 |
+| [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) | Algorithm | Medium | Jun 04, 2026 |
 | [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design) | System Design | Hard | Jun 04, 2026 |
 | [In-Memory Cache: Bug-Fix + Durability](https://trueinterview.io/questions/coding-q2-lru-cache-durability) | AI Coding | Hard | Jun 04, 2026 |
@@ -134,42 +134,42 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Algorithm | Medium | Jun 2026 |
 | [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor) | AI Coding | Medium | May 30, 2026 |
 | [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) | Algorithm | Medium | May 28, 2026 |
-| [File Systems](https://trueinterview.io/questions/oa-file-systems) | Low-Level Design | Medium | May 28, 2026 |
+| [File Systems](https://trueinterview.io/questions/oa-file-systems) | Object Oriented Programming | Medium | May 28, 2026 |
 | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Algorithm | Medium | May 28, 2026 |
-| [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management) | Low-Level Design | Hard | May 27, 2026 |
+| [Task Manager (TTL + Snapshot)](https://trueinterview.io/questions/oa-task-management) | Object Oriented Programming | Hard | May 27, 2026 |
 | [DNS Resolver (Fellows CodeSignal, Round 1)](https://trueinterview.io/questions/oa-fellows-dns-resolver) | AI Coding | Hard | May 27, 2026 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | May 26, 2026 |
 | [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39) | AI Coding | Medium | May 14, 2026 |
-| [Worker / Employee Grant Management](https://trueinterview.io/questions/oa-worker-management) | Low-Level Design | Medium | May 10, 2026 |
+| [Worker / Employee Grant Management](https://trueinterview.io/questions/oa-worker-management) | Object Oriented Programming | Medium | May 10, 2026 |
 | [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median) | Algorithm | Hard | May 03, 2026 |
 | [Web Crawler](https://trueinterview.io/questions/web-crawler) | AI Coding | Medium | May 03, 2026 |
 | [Task Management System](https://trueinterview.io/questions/task-management-system-online-assessment) | Algorithm | Hard | May 2026 |
 | [Onsite Design Doc Review](https://trueinterview.io/questions/onsite-design-doc-review) | System Design | Easy | Apr 28, 2026 |
-| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Low-Level Design | Medium | Apr 28, 2026 |
+| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Apr 28, 2026 |
 | [Mechanistic Interpretability Take-Home — Sample-Aspect Double Descent](https://trueinterview.io/questions/mech-interp-take-home) | AI Coding | Hard | Apr 19, 2026 |
-| [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Low-Level Design | Hard | Apr 17, 2026 |
+| [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Object Oriented Programming | Hard | Apr 17, 2026 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure) | System Design | Hard | Mar 07, 2026 |
-| [Bank System](https://trueinterview.io/questions/bank-system) | Low-Level Design | Medium | Mar 04, 2026 |
+| [Bank System](https://trueinterview.io/questions/bank-system) | Object Oriented Programming | Medium | Mar 04, 2026 |
 | [RL Fundamentals — GRPO Debug](https://trueinterview.io/questions/rl-fundamentals-grpo-debug) | AI Coding | Hard | Mar 02, 2026 |
 | [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Hard | Feb 18, 2026 |
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Jan 22, 2026 |
-| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Low-Level Design | Medium | Dec 15, 2025 |
+| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
 | [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling) | Algorithm | Medium | Dec 11, 2025 |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
-| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Low-Level Design | Medium | — |
-| [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Low-Level Design | Medium | — |
-| [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Low-Level Design | Medium | — |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
+| [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Object Oriented Programming | Medium | — |
+| [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Object Oriented Programming | Medium | — |
 | [Numpy Debugging Task](https://trueinterview.io/questions/cf0e36da-02f9-46a9-be16-dd6fac7d456c) | AI Coding | Medium | — |
 | [Process Cat Images](https://trueinterview.io/questions/a91f29c5-e919-47ed-b1fd-aa5470b62735) | Algorithm | Easy | — |
 | [Image Transformation using Python Libraries](https://trueinterview.io/questions/d5535584-0980-47fb-862d-6f9f7569791d) | AI Coding | Medium | — |
-| [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f) | Low-Level Design | Medium | — |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
+| [In-Memory Database with Backup and Restore](https://trueinterview.io/questions/1091f5c2-4b7c-4b13-9db8-7caada56c79f) | Object Oriented Programming | Medium | — |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [File Profiler](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) | Algorithm | Easy | — |
 | [Python Data Analysis on a Provided Dataset (Capacity Management Context)](https://trueinterview.io/questions/d03ad0c8-580a-4af4-8619-328ea8011719) | AI Coding | Hard | — |
 | [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) | Algorithm | Medium | — |
-| [Implement a Function 'get_when' in an In-Memory Database](https://trueinterview.io/questions/b6750541-51ba-4dfa-93b2-568a0c81515b) | Low-Level Design | Easy | — |
+| [Implement a Function 'get_when' in an In-Memory Database](https://trueinterview.io/questions/b6750541-51ba-4dfa-93b2-568a0c81515b) | Object Oriented Programming | Easy | — |
 | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | SQL | Medium | — |
 | [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) | Algorithm | Medium | — |
 | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | AI Coding | Hard | — |
@@ -177,6 +177,6 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | System Design | Hard | — |
 | [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a) | Algorithm | Medium | — |
 | [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a) | Algorithm | Easy | — |
-| [Python Class and Data Structures](https://trueinterview.io/questions/1c35c2c1-9209-49c2-8ad6-aca71db1ffdb) | Low-Level Design | Easy | — |
+| [Python Class and Data Structures](https://trueinterview.io/questions/1c35c2c1-9209-49c2-8ad6-aca71db1ffdb) | Object Oriented Programming | Easy | — |
 | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | AI Coding | Medium | — |
 | [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | AI Coding | Medium | — |

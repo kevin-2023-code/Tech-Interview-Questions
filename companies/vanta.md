@@ -87,7 +87,7 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 | **4** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | — | Jun 10, 2026 |
 | **5** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | — | Mar 17, 2026 |
 | **6** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | — | Jul 31, 2025 |
-| **7** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Low-Level Design | Medium | — | Jul 24, 2025 |
+| **7** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Object Oriented Programming | Medium | — | Jul 24, 2025 |
 | **8** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Algorithm | Medium | — | Dec 04, 2024 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -117,7 +117,7 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | Jun 10, 2026 |
 | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | Mar 17, 2026 |
 | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | Jul 31, 2025 |
-| [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Low-Level Design | Medium | Jul 24, 2025 |
+| [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Object Oriented Programming | Medium | Jul 24, 2025 |
 | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Algorithm | Medium | Dec 04, 2024 |
 | [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Algorithm | Medium | — |
 | [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Algorithm | Easy | — |

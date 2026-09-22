@@ -20,7 +20,7 @@
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 379 | 64% | ██████████████ | 32 |
 | [System Design](../formats/system-design.md) | 87 | 15% | ███ | 8 |
-| [Low-Level Design](../formats/low-level-design.md) | 76 | 13% | ███ | 11 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 76 | 13% | ███ | 11 |
 | [SQL](../formats/sql.md) | 33 | 6% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 18 | 3% | █ | 2 |
 
@@ -52,16 +52,16 @@ Of the **294 questions in this cut that carry a topic label** (50% of it):
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | ByteDance … | Algorithm | Sep 10, 2026 |
-| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Low-Level Design | Sep 06, 2026 |
+| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Object Oriented Programming | Sep 06, 2026 |
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | ByteDance | Algorithm | Sep 04, 2026 |
-| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | ByteDance | Low-Level Design | Sep 02, 2026 |
+| [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | ByteDance | Object Oriented Programming | Sep 02, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | ByteDance | System Design | Aug 30, 2026 |
 | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | ByteDance | System Design | Aug 25, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | ByteDance | Algorithm | Aug 21, 2026 |
 | [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) | ByteDance | Algorithm | Aug 20, 2026 |
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | ByteDance … | Algorithm | Aug 17, 2026 |
 | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | ByteDance | System Design | Aug 17, 2026 |
-| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Meta | Low-Level Design | Aug 16, 2026 |
+| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Meta | Object Oriented Programming | Aug 16, 2026 |
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | Google | SQL | Aug 13, 2026 |
 
 <sub>33 more in this window are in the table below.</sub>

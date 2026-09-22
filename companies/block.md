@@ -2,7 +2,7 @@
 
 # Block interview process, OA & interview questions
 
-**5 questions** reported at Block. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/block), judged server-side.
+**5 questions** reported at Block. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/block), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **5 of 5** questions at Block that 
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | █████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -61,7 +61,7 @@ The 5 questions to open first if you are preparing for Block, ranked by **the on
 | **2** | [Minesweeper Board Generation](https://trueinterview.io/questions/a0eccf02-13b4-4c9b-a2ac-69c127f7cc18) | Algorithm | Easy | — | — |
 | **3** | [Optimal Crop Selection for Maximum Profit](https://trueinterview.io/questions/50177e10-60ce-48f3-8baa-05cae30ae9e2) 🆓 | Algorithm | Medium | — | — |
 | **4** | [Tournament Progression Chart with JavaScript Simulation and UI](https://trueinterview.io/questions/5d30d8fe-838b-4c5a-9e01-a47461a797fc) | Algorithm | Medium | — | — |
-| **5** | [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Low-Level Design | Medium | — | — |
+| **5** | [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -76,7 +76,7 @@ The 5 questions to open first if you are preparing for Block, ranked by **the on
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Minesweeper Board Generation](https://trueinterview.io/questions/a0eccf02-13b4-4c9b-a2ac-69c127f7cc18) | Algorithm | Easy | — |
-| [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Low-Level Design | Medium | — |
+| [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Object Oriented Programming | Medium | — |
 | [Tournament Progression Chart with JavaScript Simulation and UI](https://trueinterview.io/questions/5d30d8fe-838b-4c5a-9e01-a47461a797fc) | Algorithm | Medium | — |
 | [Optimal Crop Selection for Maximum Profit](https://trueinterview.io/questions/50177e10-60ce-48f3-8baa-05cae30ae9e2) | Algorithm | Medium | — |
 | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | Algorithm | Easy | — |

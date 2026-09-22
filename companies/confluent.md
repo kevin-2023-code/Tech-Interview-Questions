@@ -32,7 +32,7 @@ Which stage each question came from, for the **17 of 17** questions at Confluent
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 6 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (67%) | 2 / 6 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 9 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 2 / 6 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -69,12 +69,12 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
-| **2** | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) 🆓 | Low-Level Design | Medium | 9 | Nov 08, 2025 |
+| **2** | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) 🆓 | Object Oriented Programming | Medium | 9 | Nov 08, 2025 |
 | **3** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 8 | Oct 15, 2025 |
 | **4** | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | 1 | — |
-| **5** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Low-Level Design | Medium | 1 | — |
-| **6** | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Low-Level Design | Easy | — | — |
-| **7** | [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Low-Level Design | Easy | — | — |
+| **5** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | 1 | — |
+| **6** | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Object Oriented Programming | Easy | — | — |
+| **7** | [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Object Oriented Programming | Easy | — | — |
 | **8** | [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) | Algorithm | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -98,19 +98,19 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
-| [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Low-Level Design | Medium | — |
-| [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Low-Level Design | Hard | — |
+| [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | — |
+| [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Object Oriented Programming | Hard | — |
 | [Monsters Battle](https://trueinterview.io/questions/monsters-battle) | Algorithm | Medium | — |
-| [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Low-Level Design | Medium | — |
+| [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Object Oriented Programming | Medium | — |
 | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | — |
 | [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) | Algorithm | Easy | — |
-| [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Low-Level Design | Easy | — |
+| [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Object Oriented Programming | Easy | — |
 | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Algorithm | Easy | — |
 | [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Algorithm | Easy | — |
-| [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Low-Level Design | Hard | — |
+| [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Object Oriented Programming | Hard | — |
 | [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Algorithm | Hard | — |
-| [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Low-Level Design | Easy | — |
+| [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Object Oriented Programming | Easy | — |
 | [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062) | Algorithm | Medium | — |
 | [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417) | Algorithm | Medium | — |

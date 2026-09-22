@@ -2,7 +2,7 @@
 
 # Gusto interview process, OA & interview questions
 
-**4 questions** reported at Gusto. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/gusto), judged server-side.
+**4 questions** reported at Gusto. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/gusto), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **4 of 4** questions at Gusto that 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 1 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -58,9 +58,9 @@ The 4 questions to open first if you are preparing for Gusto, ranked by **the mo
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) 🆓 | Algorithm | Medium | 3 | Mar 20, 2026 |
-| **2** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Low-Level Design | Easy | — | — |
+| **2** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Object Oriented Programming | Easy | — | — |
 | **3** | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) 🆓 | Algorithm | Medium | — | — |
-| **4** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Low-Level Design | Medium | — | — |
+| **4** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -75,6 +75,6 @@ The 4 questions to open first if you are preparing for Gusto, ranked by **the mo
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
-| [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Low-Level Design | Easy | — |
-| [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Low-Level Design | Medium | — |
+| [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Object Oriented Programming | Easy | — |
+| [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Object Oriented Programming | Medium | — |
 | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | Algorithm | Medium | — |

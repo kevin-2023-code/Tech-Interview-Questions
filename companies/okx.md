@@ -2,7 +2,7 @@
 
 # OKX interview process, OA & interview questions
 
-**5 questions** reported at OKX · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okx), judged server-side.
+**5 questions** reported at OKX · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okx), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -33,7 +33,7 @@ Which stage each question came from, for the **5 of 5** questions at OKX that na
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ███ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -61,7 +61,7 @@ The 5 questions to open first if you are preparing for OKX, ranked by **the ones
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) 🆓 | Algorithm | Medium | 4 | — |
 | **2** | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) 🆓 | Algorithm | Medium | 2 | — |
-| **3** | [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Low-Level Design | Medium | 1 | — |
+| **3** | [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Object Oriented Programming | Medium | 1 | — |
 | **4** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Algorithm | Easy | — | — |
 | **5** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Algorithm | Medium | — | — |
 
@@ -92,6 +92,6 @@ What candidates said happened in the room at OKX — written up by the people wh
 | :-- | :-- | :-: | :-- |
 | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Algorithm | Easy | — |
 | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Algorithm | Medium | — |
-| [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Low-Level Design | Medium | — |
+| [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Object Oriented Programming | Medium | — |
 | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
 | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Algorithm | Medium | — |

@@ -125,7 +125,7 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | AI Coding | Medium | Jun 03, 2026 |
 | [Integration: Review Assignment via Git Diff + CSV Owners (JGit)](https://trueinterview.io/questions/1eb955cf-71e3-400e-aad7-3b9520cb1388) | AI Coding | Medium | May 23, 2026 |
 | [SnakeYAML Debug (Java)](https://trueinterview.io/questions/snakeyaml-debug) | AI Coding | Medium | May 23, 2026 |
-| [Hotel Booking Reminder](https://trueinterview.io/questions/subscription-email-scheduler) | Low-Level Design | Medium | May 22, 2026 |
+| [Hotel Booking Reminder](https://trueinterview.io/questions/subscription-email-scheduler) | Object Oriented Programming | Medium | May 22, 2026 |
 | [Request Routing System](https://trueinterview.io/questions/request-routing-system) | Algorithm | Medium | May 13, 2026 |
 | [Colander Validation Debug (BugSquash)](https://trueinterview.io/questions/colander-validation-debug) | AI Coding | Medium | May 12, 2026 |
 | [Account Balance Processor](https://trueinterview.io/questions/account-balance-manager) | Algorithm | Medium | May 12, 2026 |
@@ -138,22 +138,22 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 | [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join) | Algorithm | Medium | Apr 09, 2026 |
 | [String Path Compression](https://trueinterview.io/questions/string-path-compression) | Algorithm | Medium | Apr 03, 2026 |
 | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | System Design | Medium | Mar 31, 2026 |
-| [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru) | Low-Level Design | Medium | Mar 27, 2026 |
+| [Account Scheduler with LRU](https://trueinterview.io/questions/account-scheduler-lru) | Object Oriented Programming | Medium | Mar 27, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Cloud Service Usage Cost](https://trueinterview.io/questions/cloud-service-usage-cost) | Algorithm | Medium | Feb 09, 2026 |
 | [Business CSV Data Validator](https://trueinterview.io/questions/dataset-validation-csv) | Algorithm | Medium | Feb 03, 2026 |
 | [Jupyter / WebSocket Load Balancer](https://trueinterview.io/questions/jupyter-load-balancer-oa) | Algorithm | Medium | Feb 02, 2026 |
-| [RBAC Role Resolver](https://trueinterview.io/questions/rbac-role-resolver) | Low-Level Design | Medium | Jan 27, 2026 |
+| [RBAC Role Resolver](https://trueinterview.io/questions/rbac-role-resolver) | Object Oriented Programming | Medium | Jan 27, 2026 |
 | [Merchant Fraud Score](https://trueinterview.io/questions/merchant-fraud-score-oa) | Algorithm | Medium | Jan 17, 2026 |
 | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system) | System Design | Medium | Dec 22, 2025 |
 | [Shipping Cost Calculator](https://trueinterview.io/questions/shipping-cost-calculator) | Algorithm | Medium | Dec 19, 2025 |
 | [Moshi JSON Library](https://trueinterview.io/questions/debug-moshi-json-library) | AI Coding | Medium | Dec 14, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
-| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Linked User Records by Similarity](https://trueinterview.io/questions/record-linkage-similarity) | Algorithm | Hard | Dec 04, 2025 |
 | [Currency Exchange Rate Converter](https://trueinterview.io/questions/currency-exchange-rate-converter) | Algorithm | Medium | Nov 21, 2025 |
 | [Metric Counter Library](https://trueinterview.io/questions/metric-counter-library) | System Design | Medium | Nov 11, 2025 |
-| [Feature Flag SDK](https://trueinterview.io/questions/feature-flag-sdk) | Low-Level Design | Medium | Oct 26, 2025 |
+| [Feature Flag SDK](https://trueinterview.io/questions/feature-flag-sdk) | Object Oriented Programming | Medium | Oct 26, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
 | [Http Request Language Preference](https://trueinterview.io/questions/http-request-language-preference) | Algorithm | Medium | Oct 22, 2025 |
 | [Business Account Data Verification](https://trueinterview.io/questions/business-account-data-verification) | Algorithm | Medium | Oct 20, 2025 |
@@ -161,14 +161,14 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 | [Tabular Data Neural Network](https://trueinterview.io/questions/tabular-data-neural-network) | AI Coding | Hard | Oct 07, 2025 |
 | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | System Design | Medium | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
-| [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9) | Low-Level Design | Medium | — |
+| [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9) | Object Oriented Programming | Medium | — |
 | [Bitmap Character Lookup: Print, Compress/Decompress, and Manipulate](https://trueinterview.io/questions/581723d6-46ce-415b-a363-39e8c0a37a19) | Algorithm | Medium | — |
 | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Algorithm | Medium | — |
-| [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Low-Level Design | Medium | — |
+| [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Object Oriented Programming | Medium | — |
 | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | SQL | Hard | — |
 | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | AI Coding | Hard | — |
 | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Algorithm | Easy | — |
-| [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Low-Level Design | Medium | — |
+| [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Object Oriented Programming | Medium | — |
 | [Create a UI Component for Passport Validation](https://trueinterview.io/questions/6906bc8c-d026-4897-935f-ad4842034fa0) | AI Coding | Medium | — |
 | [Email (Multi-part)](https://trueinterview.io/questions/48dbfe85-e973-4205-950a-2a075b7d0307) | Algorithm | Medium | — |
 | [CSV Parsing Drops Quotes](https://trueinterview.io/questions/3edbdc05-8e28-41b5-b174-305e4e4e96bc) | AI Coding | Medium | — |

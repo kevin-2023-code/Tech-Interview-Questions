@@ -2,7 +2,7 @@
 
 # IBM interview process, OA & interview questions
 
-**19 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side.
+**19 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -84,7 +84,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | **5** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Algorithm | Medium | — | Feb 22, 2026 |
 | **6** | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Algorithm | Medium | — | Nov 07, 2025 |
 | **7** | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Algorithm | Medium | 1 | Nov 03, 2025 |
-| **8** | [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Low-Level Design | Easy | — | Oct 07, 2025 |
+| **8** | [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Object Oriented Programming | Easy | — | Oct 07, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -115,7 +115,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Algorithm | Medium | Feb 22, 2026 |
 | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Algorithm | Medium | Nov 07, 2025 |
 | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Algorithm | Medium | Nov 03, 2025 |
-| [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Low-Level Design | Easy | Oct 07, 2025 |
+| [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Object Oriented Programming | Easy | Oct 07, 2025 |
 | [Minimum Link Reallocation to Connect Repositories](https://trueinterview.io/questions/minimum-link-reallocation) | Algorithm | Medium | Sep 21, 2025 |
 | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Algorithm | Medium | Sep 09, 2025 |
 | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Algorithm | Medium | Sep 09, 2025 |

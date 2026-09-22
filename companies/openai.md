@@ -42,7 +42,7 @@ Which stage each question came from, for the **87 of 87** questions at OpenAI th
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Low-Level Design | Medium | Phone screen, Onsite / virtual onsite | Jul 15, 2026 |
+| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 15, 2026 |
 
 ## What they ask about
 
@@ -87,12 +87,12 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Low-Level Design | Medium | — | Jul 15, 2026 |
-| **2** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Low-Level Design | Medium | — | Jun 20, 2026 |
+| **1** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | — | Jul 15, 2026 |
+| **2** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | — | Jun 20, 2026 |
 | **3** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
 | **4** | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | — | Jun 19, 2026 |
 | **5** | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | System Design | Hard | — | Jun 19, 2026 |
-| **6** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Low-Level Design | Medium | — | Jun 12, 2026 |
+| **6** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
 | **7** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Jun 11, 2026 |
 | **8** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | 1 | Jun 11, 2026 |
 
@@ -126,23 +126,23 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Low-Level Design | Medium | Jul 15, 2026 |
-| [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Low-Level Design | Medium | Jun 20, 2026 |
+| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Jul 15, 2026 |
+| [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | Jun 20, 2026 |
 | [Design Cluster Message Aggregation](https://trueinterview.io/questions/96f72212-b262-4014-b7fc-6ae2411f9008) | Algorithm | Hard | Jun 19, 2026 |
 | [Payment / Coffee-Shop Ordering (read the prompt!)](https://trueinterview.io/questions/payment-coffee-shop) | System Design | Hard | Jun 19, 2026 |
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
-| [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Low-Level Design | Medium | Jun 12, 2026 |
+| [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Object Oriented Programming | Medium | Jun 12, 2026 |
 | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Jun 11, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
-| [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Low-Level Design | Hard | Jun 11, 2026 |
+| [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Hard | Jun 11, 2026 |
 | [Debug a GPT-Style Transformer with KV-Cache Generation](https://trueinterview.io/questions/transformer-bug-hunt) | AI Coding | Hard | Jun 09, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
-| [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Low-Level Design | Medium | Jun 2026 |
+| [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Object Oriented Programming | Medium | Jun 2026 |
 | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Algorithm | Medium | May 31, 2026 |
 | [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Algorithm | Hard | May 31, 2026 |
 | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Algorithm | Hard | May 31, 2026 |
 | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | System Design | Hard | May 26, 2026 |
-| [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Low-Level Design | Medium | May 26, 2026 |
+| [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Hard | May 26, 2026 |
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
 | [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Algorithm | Medium | May 20, 2026 |
@@ -151,7 +151,7 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug) | AI Coding | Hard | Apr 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
-| [ModalLock and FairModalLock](https://trueinterview.io/questions/modallock-and-fairmodallock) | Low-Level Design | Hard | Mar 30, 2026 |
+| [ModalLock and FairModalLock](https://trueinterview.io/questions/modallock-and-fairmodallock) | Object Oriented Programming | Hard | Mar 30, 2026 |
 | [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design) | System Design | Hard | Mar 22, 2026 |
 | [Code Reading — 400-line PyTorch Refactor](https://trueinterview.io/questions/code-reading-pytorch-refactor) | AI Coding | Hard | Mar 09, 2026 |
 | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Algorithm | Hard | Mar 09, 2026 |
@@ -165,9 +165,9 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system) | System Design | Medium | Dec 22, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check) | Algorithm | Medium | Nov 17, 2025 |
-| [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring) | Low-Level Design | Medium | Nov 13, 2025 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
-| [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Low-Level Design | Medium | Nov 07, 2025 |
+| [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring) | Object Oriented Programming | Medium | Nov 13, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
+| [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Object Oriented Programming | Medium | Nov 07, 2025 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | AI Coding | Hard | Oct 19, 2025 |
 | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | System Design | Medium | Oct 18, 2025 |
@@ -176,13 +176,13 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
 | [ML Coding with NP and NN Layers](https://trueinterview.io/questions/59c77c9a-49d0-4955-be64-91473bb8ab7f) | Algorithm | Easy | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
-| [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Low-Level Design | Medium | — |
+| [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2) | Object Oriented Programming | Medium | — |
 | [Infectious Disease Simulation (Multi-part)](https://trueinterview.io/questions/06f15ce5-2ae4-473c-baa8-1edfdb0936f8) | Algorithm | Medium | — |
-| [Implement a Minimal SQL-Like Query Engine Over an In-Memory Database](https://trueinterview.io/questions/2b9e4599-47c1-4076-8f8f-b04086ee8a88) | Low-Level Design | Medium | — |
+| [Implement a Minimal SQL-Like Query Engine Over an In-Memory Database](https://trueinterview.io/questions/2b9e4599-47c1-4076-8f8f-b04086ee8a88) | Object Oriented Programming | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Chatbot Channel: Multi-bot Message Router](https://trueinterview.io/questions/ddd9458c-76ca-4204-a65c-df13f65c5a0e) | Algorithm | Hard | — |
 | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
-| [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Low-Level Design | Hard | — |
+| [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Object Oriented Programming | Hard | — |
 | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | AI Coding | Hard | — |
 | [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | AI Coding | Hard | — |
 | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | AI Coding | Medium | — |
@@ -194,22 +194,22 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | AI Coding | Medium | — |
 | [GPU Credit Calculator](https://trueinterview.io/questions/d01fe6d8-e86a-4cf8-b36d-900107f35f74) | Algorithm | Easy | — |
 | [Restore Valid IPv4 Addresses](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) | Algorithm | Medium | — |
-| [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Low-Level Design | Medium | — |
+| [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Object Oriented Programming | Medium | — |
 | [Implement and Debug a Minimal Neural Network Training Loop (PyTorch)](https://trueinterview.io/questions/a7d621c9-52af-490b-b0e0-df43a030996d) | AI Coding | Medium | — |
 | [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a) | AI Coding | Medium | — |
 | [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) | Algorithm | Medium | — |
 | [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9) | AI Coding | Hard | — |
 | [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Algorithm | Hard | — |
 | [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | AI Coding | Hard | — |
-| [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Low-Level Design | Medium | — |
+| [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Object Oriented Programming | Medium | — |
 | [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Algorithm | Medium | — |
-| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Low-Level Design | Medium | — |
+| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Object Oriented Programming | Medium | — |
 | [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | AI Coding | Hard | — |
 | [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | System Design | Easy | — |
 | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | SQL | Medium | — |
 | [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | AI Coding | Hard | — |
 | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Algorithm | Medium | — |
 | [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | AI Coding | Hard | — |
-| [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Low-Level Design | Medium | — |
-| [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Low-Level Design | Medium | — |
-| [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Low-Level Design | Medium | — |
+| [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Object Oriented Programming | Medium | — |
+| [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Object Oriented Programming | Medium | — |
+| [Implement an In-Memory Key-Value Store with Write-Ahead Logging for Crash Recovery](https://trueinterview.io/questions/746c7b5c-9f31-46ca-8bcf-0e0d69e5b090) | Object Oriented Programming | Medium | — |

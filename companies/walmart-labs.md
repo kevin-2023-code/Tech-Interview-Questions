@@ -92,7 +92,7 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | **4** | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum) | Algorithm | Easy | — | May 07, 2026 |
 | **5** | [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices) | Algorithm | Medium | — | Apr 24, 2026 |
 | **6** | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Algorithm | Medium | — | Apr 24, 2026 |
-| **7** | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Low-Level Design | Medium | — | Apr 06, 2026 |
+| **7** | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Object Oriented Programming | Medium | — | Apr 06, 2026 |
 | **8** | [Remove m Elements to Minimize Unique Count](https://trueinterview.io/questions/remove-m-minimize-unique-elements) | Algorithm | Medium | — | Mar 26, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -123,7 +123,7 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum) | Algorithm | Easy | May 07, 2026 |
 | [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices) | Algorithm | Medium | Apr 24, 2026 |
 | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Algorithm | Medium | Apr 24, 2026 |
-| [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Low-Level Design | Medium | Apr 06, 2026 |
+| [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Object Oriented Programming | Medium | Apr 06, 2026 |
 | [Remove m Elements to Minimize Unique Count](https://trueinterview.io/questions/remove-m-minimize-unique-elements) | Algorithm | Medium | Mar 26, 2026 |
 | [Design Ticketmaster — Event Booking & Seat Reservation](https://trueinterview.io/questions/design-ticketmaster-event-booking) | System Design | Hard | Mar 03, 2026 |
 | [Two Sum with Smallest-Indices Tiebreak (+ 3 Sum Follow-up)](https://trueinterview.io/questions/two-sum-smallest-indices) | Algorithm | Medium | Mar 03, 2026 |
@@ -141,7 +141,7 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | [3Sum (No Duplicate Triplets Assumed)](https://trueinterview.io/questions/8fc7c24f-4bbb-435d-9d6a-c35a8c021037) | Algorithm | Medium | — |
 | [Find the First Corrupted Character](https://trueinterview.io/questions/8593ff20-396d-44a7-9fb2-21c5eee2d0e1) | Algorithm | Easy | — |
 | [Find the First Unique Character in a String](https://trueinterview.io/questions/652a0840-f4a1-450d-8a8c-82f0f8500f93) | Algorithm | Easy | — |
-| [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Low-Level Design | Medium | — |
+| [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Object Oriented Programming | Medium | — |
 | [Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217) | SQL | Hard | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

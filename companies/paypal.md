@@ -32,7 +32,7 @@ Which stage each question came from, for the **17 of 17** questions at PayPal th
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -106,15 +106,15 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
 | [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0) | Algorithm | Medium | — |
-| [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Low-Level Design | Medium | — |
+| [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Object Oriented Programming | Medium | — |
 | [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Algorithm | Hard | — |
-| [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | Low-Level Design | Medium | — |
+| [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | Object Oriented Programming | Medium | — |
 | [Minimum Time to Schedule Processes on Degrading Processors](https://trueinterview.io/questions/599e3936-06f4-4c46-b61d-f155e3b6895f) | Algorithm | Medium | — |
 | [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530) | Algorithm | Medium | — |
 | [Count User Logins (Singapore)](https://trueinterview.io/questions/1ab60462-b812-470d-9ebc-0efde6eed6cf) | Algorithm | Medium | — |
 | [Find Reachable Good Endings in Choose Your Own Adventure Book](https://trueinterview.io/questions/15808a55-af32-4748-a811-48bd2ef1f829) | Algorithm | Medium | — |
 | [Items Purchase (For Java Backend Engineer)](https://trueinterview.io/questions/3c62d850-e8cd-4ef4-98c8-5402ad26e12e) | Algorithm | Medium | — |
-| [Banking System Operations](https://trueinterview.io/questions/aab753cb-ef8c-4f67-a2b4-d6c811f9c12e) | Low-Level Design | Hard | — |
+| [Banking System Operations](https://trueinterview.io/questions/aab753cb-ef8c-4f67-a2b4-d6c811f9c12e) | Object Oriented Programming | Hard | — |
 | [Binary Search Tree Pruning](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605) | Algorithm | Medium | — |
 | [Minimum Steps to Move Balls to Respective Holes](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb) | Algorithm | Hard | — |
 | [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) | Algorithm | Medium | — |

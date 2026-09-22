@@ -2,7 +2,7 @@
 
 # Chicago Trading interview process, OA & interview questions
 
-**5 questions** reported at Chicago Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/chicago-trading), judged server-side.
+**5 questions** reported at Chicago Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/chicago-trading), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **5 of 5** questions at Chicago Tra
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ██ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,7 +59,7 @@ The 5 questions to open first if you are preparing for Chicago Trading. **This i
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) 🆓 | Algorithm | Medium | — | — |
-| **2** | [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Low-Level Design | Medium | — | — |
+| **2** | [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Object Oriented Programming | Medium | — | — |
 | **3** | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) 🆓 | Algorithm | Hard | — | — |
 | **4** | [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665) | Algorithm | Hard | — | — |
 | **5** | [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e) | Algorithm | Hard | — | — |
@@ -84,7 +84,7 @@ The 5 questions to open first if you are preparing for Chicago Trading. **This i
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Low-Level Design | Medium | — |
+| [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Object Oriented Programming | Medium | — |
 | [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e) | Algorithm | Hard | — |
 | [Implement a Simplified C++ Vector](https://trueinterview.io/questions/949cdc20-2c65-5d5c-be42-64c71e7ef665) | Algorithm | Hard | — |
 | [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) | Algorithm | Medium | — |

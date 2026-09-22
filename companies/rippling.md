@@ -32,7 +32,7 @@ Which stage each question came from, for the **26 of 26** questions at Rippling 
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [SQL](../formats/sql.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 0 / 14 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 16 | █████████ | [Low-Level Design](../formats/low-level-design.md) (50%) | 0 / 11 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 16 | █████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 11 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -82,12 +82,12 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | 3 | Jun 28, 2026 |
 | **2** | [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | System Design | Hard | — | Jun 28, 2026 |
-| **3** | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) 🆓 | Low-Level Design | Medium | — | Jun 18, 2026 |
-| **4** | [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Low-Level Design | Medium | — | Jun 18, 2026 |
+| **3** | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) 🆓 | Object Oriented Programming | Medium | — | Jun 18, 2026 |
+| **4** | [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Object Oriented Programming | Medium | — | Jun 18, 2026 |
 | **5** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
 | **6** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | 3 | Jun 16, 2026 |
-| **7** | [Logger System](https://trueinterview.io/questions/logger-system-ood) 🆓 | Low-Level Design | Medium | — | Jun 09, 2026 |
-| **8** | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Low-Level Design | Medium | — | May 29, 2026 |
+| **7** | [Logger System](https://trueinterview.io/questions/logger-system-ood) 🆓 | Object Oriented Programming | Medium | — | Jun 09, 2026 |
+| **8** | [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Object Oriented Programming | Medium | — | May 29, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -114,25 +114,25 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 | :-- | :-- | :-: | :-- |
 | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | Jun 28, 2026 |
 | [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | System Design | Hard | Jun 28, 2026 |
-| [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Low-Level Design | Medium | Jun 18, 2026 |
-| [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | Low-Level Design | Medium | Jun 18, 2026 |
+| [Expense System](https://trueinterview.io/questions/expense-rules-engine) | Object Oriented Programming | Medium | Jun 18, 2026 |
+| [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | Object Oriented Programming | Medium | Jun 18, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
-| [Logger System](https://trueinterview.io/questions/logger-system-ood) | Low-Level Design | Medium | Jun 09, 2026 |
-| [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Low-Level Design | Medium | May 29, 2026 |
-| [Design Article System](https://trueinterview.io/questions/web-api-for-article-voting-system) | Low-Level Design | Medium | May 25, 2026 |
+| [Logger System](https://trueinterview.io/questions/logger-system-ood) | Object Oriented Programming | Medium | Jun 09, 2026 |
+| [Camel Cards (Simplified Poker)](https://trueinterview.io/questions/camel-cards-simplified-poker) | Object Oriented Programming | Medium | May 29, 2026 |
+| [Design Article System](https://trueinterview.io/questions/web-api-for-article-voting-system) | Object Oriented Programming | Medium | May 25, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Music Player](https://trueinterview.io/questions/music-player) | Low-Level Design | Medium | Dec 08, 2025 |
+| [Music Player](https://trueinterview.io/questions/music-player) | Object Oriented Programming | Medium | Dec 08, 2025 |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Delivery Cost Problem](https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d) | Algorithm | Medium | — |
 | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Algorithm | Medium | — |
 | [Maximize Amount After Two Days of Conversions](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions) | Algorithm | Medium | — |
-| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Low-Level Design | Medium | — |
+| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Object Oriented Programming | Medium | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Hard | — |
-| [Driver Payroll: sum salaries of driving records up to a timestamp](https://trueinterview.io/questions/fc5a915a-d060-407d-a337-cbd179a6230d) | Low-Level Design | Medium | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Driver Payroll: sum salaries of driving records up to a timestamp](https://trueinterview.io/questions/fc5a915a-d060-407d-a337-cbd179a6230d) | Object Oriented Programming | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Delivery Problem](https://trueinterview.io/questions/9723bf30-4088-44d6-819e-b5dbee4d6c4b) | Algorithm | Hard | — |
 | [Max Simultaneous Driver In Past 24 Hours](https://trueinterview.io/questions/92e84cab-d048-472b-bbcc-48a6170c506b) | Algorithm | Medium | — |
 | [Longest Consecutive Sequence (variation)](https://trueinterview.io/questions/5828fb45-7c92-4a82-89c8-6cb11f8b12e2) | Algorithm | Medium | — |

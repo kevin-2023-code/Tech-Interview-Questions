@@ -2,7 +2,7 @@
 
 # Squarepoint interview process, OA & interview questions
 
-**18 questions** reported at Squarepoint · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/squarepoint), judged server-side.
+**18 questions** reported at Squarepoint · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/squarepoint), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **18 of 18** questions at Squarepoi
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █████████ | [Algorithm](../formats/algorithm.md) (83%) | 4 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 5 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | ███████ | [Low-Level Design](../formats/low-level-design.md) (80%) | 0 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 5 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (80%) | 0 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -74,7 +74,7 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | **2** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 3 | Apr 02, 2026 |
 | **3** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
 | **4** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) 🆓 | Algorithm | Easy | 6 | — |
-| **5** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Low-Level Design | Medium | 3 | — |
+| **5** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | 3 | — |
 | **6** | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | 1 | — |
 | **7** | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Algorithm | Easy | — | — |
 | **8** | [Filter Numbers Greater Than the Average](https://trueinterview.io/questions/cd12a6b3-ba3b-5639-be01-4b54adbee445) | Algorithm | Easy | — | — |
@@ -102,7 +102,7 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | SQL | Hard | May 23, 2026 |
 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Apr 02, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
-| [OOP Concepts in Python: Classes, Inheritance, and Polymorphism](https://trueinterview.io/questions/b334f7cb-9c94-4ce6-b861-9164f44eb748) | Low-Level Design | Medium | — |
+| [OOP Concepts in Python: Classes, Inheritance, and Polymorphism](https://trueinterview.io/questions/b334f7cb-9c94-4ce6-b861-9164f44eb748) | Object Oriented Programming | Medium | — |
 | [Filter Numbers Greater Than the Average](https://trueinterview.io/questions/cd12a6b3-ba3b-5639-be01-4b54adbee445) | Algorithm | Easy | — |
 | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | — |
 | [Max Element at Position k with Adjacent Differences 1 and Sum m](https://trueinterview.io/questions/9dff9807-6525-4d06-a397-7a9128038bf6) | Algorithm | Medium | — |
@@ -111,9 +111,9 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Algorithm | Hard | — |
 | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Algorithm | Medium | — |
 | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Algorithm | Medium | — |
-| [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Low-Level Design | Hard | — |
-| [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | Low-Level Design | Medium | — |
+| [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Object Oriented Programming | Hard | — |
+| [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | Object Oriented Programming | Medium | — |
 | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Algorithm | Easy | — |
 | [Sentence Variations with Anagram](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) | Algorithm | Medium | — |
-| [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Low-Level Design | Medium | — |
+| [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |

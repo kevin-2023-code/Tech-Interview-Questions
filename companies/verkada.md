@@ -78,7 +78,7 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 | **2** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Algorithm | Medium | — | Jun 05, 2026 |
 | **3** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
 | **4** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
-| **5** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Low-Level Design | Medium | 1 | Feb 16, 2026 |
+| **5** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | 1 | Feb 16, 2026 |
 | **6** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | 2 | Feb 08, 2026 |
 | **7** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
 | **8** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
@@ -107,15 +107,15 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Algorithm | Medium | Jun 05, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | Feb 17, 2026 |
-| [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Low-Level Design | Medium | Feb 16, 2026 |
+| [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | Feb 16, 2026 |
 | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | Feb 08, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Low-Level Design | Medium | — |
+| [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Object Oriented Programming | Medium | — |
 | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | System Design | Medium | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
-| [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Low-Level Design | Medium | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |
+| [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Object Oriented Programming | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Algorithm | Medium | — |
 | [Find IPv4 Addresses in Nested Files](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37) | Algorithm | Medium | — |
 | [Matrix Transpose with Workers](https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b) | Algorithm | Easy | — |

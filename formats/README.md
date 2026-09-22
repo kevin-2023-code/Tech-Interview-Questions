@@ -11,5 +11,5 @@ Each question is asked in exactly one format, so these counts sum to the whole b
 | [Algorithm](algorithm.md) | 1,446 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
 | [SQL](sql.md) | 94 | [sql](https://trueinterview.io/problems?type=sql) |
 | [System Design](system-design.md) | 251 | [system-design](https://trueinterview.io/problems?type=system-design) |
-| [Low-Level Design](low-level-design.md) | 398 | [low-level-design](https://trueinterview.io/problems?type=low-level-design) |
 | [AI Coding](ai-coding.md) | 126 | [ai-coding](https://trueinterview.io/problems?type=ai-coding) |
+| [Object Oriented Programming](object-oriented-programming.md) | 398 | [object-oriented-programming](https://trueinterview.io/problems?type=object-oriented-programming) |

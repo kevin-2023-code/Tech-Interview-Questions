@@ -122,7 +122,7 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
 | [Text Layout Into Rows](https://trueinterview.io/questions/text-layout-into-rows) | Algorithm | Medium | Apr 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
-| [Friends Money Transfer Request Processor](https://trueinterview.io/questions/friends-money-transfer-request-processor) | Low-Level Design | Medium | Mar 30, 2026 |
+| [Friends Money Transfer Request Processor](https://trueinterview.io/questions/friends-money-transfer-request-processor) | Object Oriented Programming | Medium | Mar 30, 2026 |
 | [Analytics Engineer: SQL + Python Sessionization](https://trueinterview.io/questions/analytics-engineer-sql-python) | SQL | Hard | Mar 06, 2026 |
 | [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | Algorithm | Medium | Mar 2026 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
@@ -139,5 +139,5 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | System Design | Medium | — |
 | [Distribute Strings into K Lines with Greedy Placement](https://trueinterview.io/questions/84ccf656-2a40-4ff8-8080-a648e545eb50) | Algorithm | Easy | — |
-| [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212) | Low-Level Design | Easy | — |
+| [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212) | Object Oriented Programming | Easy | — |
 | [Count Trigger Events in Directed Acyclic Graph](https://trueinterview.io/questions/1c708aa4-2fbb-4cc4-ae73-3c423e4e9490) | Algorithm | Medium | — |

@@ -50,7 +50,7 @@ The most recently reported question carrying each label — newest sighting firs
 
 **`graphs`** — 149 questions
 
-- [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) · Low-Level Design · Hard
+- [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) · Object Oriented Programming · Hard
 - [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) · Algorithm · Medium
 - [Fulfillment-Center Inventory Transfer](https://trueinterview.io/questions/fulfillment-center-inventory-transfer) · Algorithm · Medium
 
@@ -124,7 +124,7 @@ The most recently reported question carrying each label — newest sighting firs
 
 - [Maximum Concurrent Processes from Intervals](https://trueinterview.io/questions/max-concurrent-processes-sweep-line) · Algorithm · Medium
 - [Interval Consolidation OA](https://trueinterview.io/questions/interval-consolidation-oa) · Algorithm · Medium
-- [Worker / Employee Grant Management](https://trueinterview.io/questions/oa-worker-management) · Low-Level Design · Medium
+- [Worker / Employee Grant Management](https://trueinterview.io/questions/oa-worker-management) · Object Oriented Programming · Medium
 
 **`binary-search`** — 42 questions
 
@@ -146,7 +146,7 @@ The most recently reported question carrying each label — newest sighting firs
 
 **`tries`** — 17 questions
 
-- [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) · Low-Level Design · Medium
+- [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) · Object Oriented Programming · Medium
 - [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) · Algorithm · Medium
 - [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) · Algorithm · Medium
 

@@ -92,7 +92,7 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | **2** | [Same Week Purchases](https://trueinterview.io/questions/same-week-purchases) | SQL | Medium | — | Jul 22, 2026 |
 | **3** | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | SQL | Hard | — | Jul 22, 2026 |
 | **4** | [Stack Items into the Shortest Column (Min-Heap Load Balancing)](https://trueinterview.io/questions/shortest-column-stacking-heap) | Algorithm | Medium | — | Jun 16, 2026 |
-| **5** | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Low-Level Design | Medium | — | Jun 10, 2026 |
+| **5** | [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Object Oriented Programming | Medium | — | Jun 10, 2026 |
 | **6** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Algorithm | Hard | 1 | Jun 08, 2026 |
 | **7** | [Put Boxes Into the Warehouse (LC 1564)](https://trueinterview.io/questions/put-boxes-into-warehouse) | Algorithm | Medium | — | Jun 05, 2026 |
 | **8** | [Implement round() From String + Round-to-Precision](https://trueinterview.io/questions/round-and-precision-string) | Algorithm | Medium | — | May 27, 2026 |
@@ -126,16 +126,16 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | SQL | Hard | Jul 22, 2026 |
 | [Same Week Purchases](https://trueinterview.io/questions/same-week-purchases) | SQL | Medium | Jul 22, 2026 |
 | [Stack Items into the Shortest Column (Min-Heap Load Balancing)](https://trueinterview.io/questions/shortest-column-stacking-heap) | Algorithm | Medium | Jun 16, 2026 |
-| [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Low-Level Design | Medium | Jun 10, 2026 |
+| [Splitwise / Settle Group Balances](https://trueinterview.io/questions/splitwise-settle-balances) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Algorithm | Hard | Jun 08, 2026 |
 | [Put Boxes Into the Warehouse (LC 1564)](https://trueinterview.io/questions/put-boxes-into-warehouse) | Algorithm | Medium | Jun 05, 2026 |
 | [Implement round() From String + Round-to-Precision](https://trueinterview.io/questions/round-and-precision-string) | Algorithm | Medium | May 27, 2026 |
-| [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Low-Level Design | Medium | May 26, 2026 |
+| [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Fresh Content Reach](https://trueinterview.io/questions/fresh-content-reach) | SQL | Medium | May 23, 2026 |
 | [CTR By Pin-Format and Date](https://trueinterview.io/questions/ctr-by-pin-format-and-date) | SQL | Medium | May 23, 2026 |
 | [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking) | System Design | Hard | Apr 29, 2026 |
-| [Grant / Revoke / Check Access on Hierarchy](https://trueinterview.io/questions/grant-revoke-access-tree) | Low-Level Design | Medium | Apr 21, 2026 |
-| [Escape Room](https://trueinterview.io/questions/escape-room-player-tracking) | Low-Level Design | Medium | Apr 19, 2026 |
+| [Grant / Revoke / Check Access on Hierarchy](https://trueinterview.io/questions/grant-revoke-access-tree) | Object Oriented Programming | Medium | Apr 21, 2026 |
+| [Escape Room](https://trueinterview.io/questions/escape-room-player-tracking) | Object Oriented Programming | Medium | Apr 19, 2026 |
 | [Expression Add Operators — Left-to-Right Variant (LC 282)](https://trueinterview.io/questions/expression-add-operators-simplified) | Algorithm | Medium | Apr 18, 2026 |
 | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Algorithm | Medium | Apr 18, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
@@ -155,15 +155,15 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Jan 07, 2026 |
 | [Top-K Ads from Log + Sliding-Window Ingest](https://trueinterview.io/questions/top-k-ads-from-log-sliding-window) | Algorithm | Medium | Dec 10, 2025 |
 | [Leaderboard / Category Ranking](https://trueinterview.io/questions/system-design-leaderboard) | System Design | Medium | Dec 09, 2025 |
-| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Newline-Split Stream Reader](https://trueinterview.io/questions/newline-stream-line-reader) | Algorithm | Medium | Nov 28, 2025 |
 | [Call Elevator](https://trueinterview.io/questions/call-elevator) | Algorithm | Medium | Nov 18, 2025 |
 | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Algorithm | Medium | Nov 18, 2025 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Low-Level Design | Medium | Nov 08, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Subarray Score ≤ K (Sliding-Window)](https://trueinterview.io/questions/subarray-score-at-most-k) | Algorithm | Medium | Nov 07, 2025 |
 | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Algorithm | Medium | May 30, 2025 |
-| [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Low-Level Design | Medium | May 30, 2025 |
-| [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Low-Level Design | Medium | — |
+| [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Object Oriented Programming | Medium | May 30, 2025 |
+| [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | — |
 | [Design Soft 404 Detection](https://trueinterview.io/questions/design-soft-404-detection) | System Design | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
@@ -181,4 +181,4 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Scooter Hopping on a Number Line (Greedy Simulation)](https://trueinterview.io/questions/4061bf21-5f91-4205-b332-593d043db6af) | Algorithm | Medium | — |
 | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | — |
 | [Set Equality Verification](https://trueinterview.io/questions/0def6fa8-60e7-41ea-bf60-ab321aa731ea) | Algorithm | Easy | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

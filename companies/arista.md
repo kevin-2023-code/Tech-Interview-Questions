@@ -2,7 +2,7 @@
 
 # Arista interview process, OA & interview questions
 
-**5 questions** reported at Arista · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/arista), judged server-side.
+**5 questions** reported at Arista · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/arista), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **5 of 5** questions at Arista that
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | █████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -62,7 +62,7 @@ The 5 questions to open first if you are preparing for Arista. **This is not a r
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | — | — |
 | **2** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Algorithm | Easy | — | — |
-| **3** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) 🆓 | Low-Level Design | Medium | — | — |
+| **3** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) 🆓 | Object Oriented Programming | Medium | — | — |
 | **4** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Algorithm | Medium | — | — |
 | **5** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Algorithm | Medium | — | — |
 
@@ -86,7 +86,7 @@ The 5 questions to open first if you are preparing for Arista. **This is not a r
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Low-Level Design | Medium | — |
+| [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Object Oriented Programming | Medium | — |
 | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Algorithm | Medium | — |
 | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Algorithm | Easy | — |
 | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Algorithm | Medium | — |

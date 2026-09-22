@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | **1** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | — | Jun 03, 2026 |
 | **2** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | — | May 27, 2026 |
 | **3** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) 🆓 | System Design | Hard | 4 | May 03, 2026 |
-| **4** | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Low-Level Design | Medium | — | Apr 30, 2026 |
+| **4** | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Object Oriented Programming | Medium | — | Apr 30, 2026 |
 | **5** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | SQL | Hard | — | Apr 27, 2026 |
 | **6** | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | 2 | Apr 17, 2026 |
 | **7** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | System Design | Hard | — | Mar 11, 2026 |
@@ -119,7 +119,7 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | Jun 03, 2026 |
 | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | May 27, 2026 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | May 03, 2026 |
-| [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Low-Level Design | Medium | Apr 30, 2026 |
+| [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Object Oriented Programming | Medium | Apr 30, 2026 |
 | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | SQL | Hard | Apr 27, 2026 |
 | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | Apr 17, 2026 |
 | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | System Design | Hard | Mar 11, 2026 |
@@ -128,7 +128,7 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Algorithm | Medium | Feb 03, 2026 |
 | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | AI Coding | Hard | Jan 15, 2026 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
-| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Low-Level Design | Hard | Nov 28, 2025 |
+| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |
 | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward) | AI Coding | Hard | Nov 22, 2025 |
 | [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid) | Algorithm | Medium | Oct 31, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
@@ -136,9 +136,9 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | AI Coding | Medium | Aug 23, 2025 |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | — |
 | [C++ Debugging: Doubly Linked List](https://trueinterview.io/questions/7f05aa82-8ea2-4d37-a3bb-3fd8ff97c6c8) | AI Coding | Medium | — |
-| [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533) | Low-Level Design | Easy | — |
+| [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533) | Object Oriented Programming | Easy | — |
 | [Decode Ways](https://trueinterview.io/questions/37632eca-7568-544f-bd3c-98fcd234717d) | Algorithm | Medium | — |
-| [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Low-Level Design | Medium | — |
+| [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Object Oriented Programming | Medium | — |
 | [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b) | SQL | Medium | — |
 | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | SQL | Medium | — |
 | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | SQL | Hard | — |

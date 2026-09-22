@@ -80,9 +80,9 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Low-Level Design | Medium | 2 | Jun 15, 2026 |
+| **1** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
 | **2** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | 1 | Jun 08, 2026 |
-| **3** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) 🆓 | Low-Level Design | Medium | — | May 26, 2026 |
+| **3** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) 🆓 | Object Oriented Programming | Medium | — | May 26, 2026 |
 | **4** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
 | **5** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | — | Apr 12, 2026 |
 | **6** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
@@ -114,20 +114,20 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Low-Level Design | Medium | Jun 15, 2026 |
+| [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
-| [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Low-Level Design | Medium | May 26, 2026 |
+| [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
 | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | Apr 12, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | Feb 23, 2026 |
 | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Hard | Jan 06, 2026 |
-| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Low-Level Design | Medium | Dec 27, 2025 |
+| [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | AI Coding | Medium | Nov 22, 2025 |
 | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Algorithm | Medium | Oct 12, 2025 |
-| [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Low-Level Design | Medium | Oct 09, 2025 |
+| [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Object Oriented Programming | Medium | Oct 09, 2025 |
 | [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path) | Algorithm | Medium | Oct 03, 2025 |
-| [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Low-Level Design | Medium | Aug 09, 2025 |
+| [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Object Oriented Programming | Medium | Aug 09, 2025 |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
 | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | AI Coding | Medium | — |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | — |
@@ -135,4 +135,4 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Algorithm | Medium | — |
 | [Log Processing (Parsing & Aggregation)](https://trueinterview.io/questions/f8c1cd11-0ad2-4dbd-8b4e-f3421a9beb8f) | Algorithm | Medium | — |
 | [Depth-First Search Problem](https://trueinterview.io/questions/a4351e3a-2c7d-477f-ad68-5b08de250719) | Algorithm | Medium | — |
-| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Low-Level Design | Medium | — |
+| [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Object Oriented Programming | Medium | — |

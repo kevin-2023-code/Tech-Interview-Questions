@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 8 | 89% | ██████████████ | 4 |
-| [Low-Level Design](../formats/low-level-design.md) | 1 | 11% | ██ | 0 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 1 | 11% | ██ | 0 |
 
 <sub>Difficulty across the cut (easy / medium / hard): **4 / 3 / 2**, over the rows the catalog has graded. 4 of the 9 open without a paid plan.</sub>
 

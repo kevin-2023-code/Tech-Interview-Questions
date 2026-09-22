@@ -2,7 +2,7 @@
 
 # Palantir interview process, OA & interview questions
 
-**5 questions** reported at Palantir · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/palantir), judged server-side.
+**5 questions** reported at Palantir · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/palantir), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **5 of 5** questions at Palantir th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ███████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -57,8 +57,8 @@ The 5 questions to open first if you are preparing for Palantir, ranked by **the
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) 🆓 | Algorithm | Medium | 1 | — |
 | **2** | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) 🆓 | Algorithm | Medium | — | — |
-| **3** | [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Low-Level Design | Medium | — | — |
-| **4** | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Low-Level Design | Medium | — | — |
+| **3** | [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Object Oriented Programming | Medium | — | — |
+| **4** | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Object Oriented Programming | Medium | — | — |
 | **5** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -81,8 +81,8 @@ The 5 questions to open first if you are preparing for Palantir, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Low-Level Design | Medium | — |
-| [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Low-Level Design | Medium | — |
+| [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Object Oriented Programming | Medium | — |
+| [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Object Oriented Programming | Medium | — |
 | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | — |
 | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Algorithm | Medium | — |
 | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) | Algorithm | Medium | — |

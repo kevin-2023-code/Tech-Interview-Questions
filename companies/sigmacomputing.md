@@ -2,7 +2,7 @@
 
 # Sigmacomputing interview process, OA & interview questions
 
-**5 questions** reported at Sigmacomputing · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sigmacomputing), judged server-side.
+**5 questions** reported at Sigmacomputing · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/sigmacomputing), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -17,7 +17,7 @@
 | Questions tracked | **5** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Low-Level Design](../formats/low-level-design.md) (80% of 5) |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (80% of 5) |
 | Difficulty (easy / medium / hard) | 0 / 5 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
@@ -31,7 +31,7 @@ Which stage each question came from, for the **5 of 5** questions at Sigmacomput
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 4 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -55,11 +55,11 @@ The 5 questions to open first if you are preparing for Sigmacomputing. **This is
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) 🆓 | Low-Level Design | Medium | — | — |
+| **1** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) 🆓 | Object Oriented Programming | Medium | — | — |
 | **2** | [Evaluate a Boolean Formula AST](https://trueinterview.io/questions/c0c189b4-d329-52b6-9daa-81165544bff7) 🆓 | Algorithm | Medium | — | — |
-| **3** | [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d) | Low-Level Design | Medium | — | — |
-| **4** | [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f) | Low-Level Design | Medium | — | — |
-| **5** | [Implement a Task Manager That Executes Tasks in Run Order](https://trueinterview.io/questions/d21635a1-8233-50a5-87b5-df068ad61cc9) | Low-Level Design | Medium | — | — |
+| **3** | [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d) | Object Oriented Programming | Medium | — | — |
+| **4** | [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f) | Object Oriented Programming | Medium | — | — |
+| **5** | [Implement a Task Manager That Executes Tasks in Run Order](https://trueinterview.io/questions/d21635a1-8233-50a5-87b5-df068ad61cc9) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -81,8 +81,8 @@ The 5 questions to open first if you are preparing for Sigmacomputing. **This is
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Implement a Task Manager That Executes Tasks in Run Order](https://trueinterview.io/questions/d21635a1-8233-50a5-87b5-df068ad61cc9) | Low-Level Design | Medium | — |
-| [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f) | Low-Level Design | Medium | — |
-| [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d) | Low-Level Design | Medium | — |
-| [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Low-Level Design | Medium | — |
+| [Implement a Task Manager That Executes Tasks in Run Order](https://trueinterview.io/questions/d21635a1-8233-50a5-87b5-df068ad61cc9) | Object Oriented Programming | Medium | — |
+| [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f) | Object Oriented Programming | Medium | — |
+| [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d) | Object Oriented Programming | Medium | — |
+| [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Object Oriented Programming | Medium | — |
 | [Evaluate a Boolean Formula AST](https://trueinterview.io/questions/c0c189b4-d329-52b6-9daa-81165544bff7) | Algorithm | Medium | — |

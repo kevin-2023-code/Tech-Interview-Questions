@@ -30,7 +30,7 @@ Which stage each question came from, for the **24 of 24** questions at Instacart
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | ███ | [Low-Level Design](../formats/low-level-design.md) (60%) | 1 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 5 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (60%) | 1 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 8 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (47%) | 0 / 10 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
@@ -88,8 +88,8 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | **2** | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | AI Coding | Hard | — | Jun 22, 2026 |
 | **3** | [Decode Password](https://trueinterview.io/questions/onsite-decode-password) | Algorithm | Medium | — | May 28, 2026 |
 | **4** | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Algorithm | Easy | — | May 27, 2026 |
-| **5** | [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | Low-Level Design | Medium | — | Apr 23, 2026 |
-| **6** | [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Low-Level Design | Hard | — | Apr 23, 2026 |
+| **5** | [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | Object Oriented Programming | Medium | — | Apr 23, 2026 |
+| **6** | [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Object Oriented Programming | Hard | — | Apr 23, 2026 |
 | **7** | [Design Online Product Catalog](https://trueinterview.io/questions/system-design-product-catalog) | System Design | Hard | — | Apr 23, 2026 |
 | **8** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | 4 | Apr 09, 2026 |
 
@@ -118,22 +118,22 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Decode Password](https://trueinterview.io/questions/onsite-decode-password) | Algorithm | Medium | May 28, 2026 |
 | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Algorithm | Easy | May 27, 2026 |
 | [Design Online Product Catalog](https://trueinterview.io/questions/system-design-product-catalog) | System Design | Hard | Apr 23, 2026 |
-| [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | Low-Level Design | Medium | Apr 23, 2026 |
-| [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Low-Level Design | Hard | Apr 23, 2026 |
+| [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | Object Oriented Programming | Medium | Apr 23, 2026 |
+| [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Object Oriented Programming | Hard | Apr 23, 2026 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |
 | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Algorithm | Medium | Apr 04, 2026 |
 | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Algorithm | Hard | Apr 04, 2026 |
 | [Design Instacart Inventory System](https://trueinterview.io/questions/system-design-inventory-management) | System Design | Hard | Mar 02, 2026 |
-| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Low-Level Design | Medium | Feb 03, 2026 |
+| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Object Oriented Programming | Medium | Feb 03, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
-| [Worker Attendance & Payroll](https://trueinterview.io/questions/oa-worker-attendance-payroll) | Low-Level Design | Medium | Jan 26, 2026 |
+| [Worker Attendance & Payroll](https://trueinterview.io/questions/oa-worker-attendance-payroll) | Object Oriented Programming | Medium | Jan 26, 2026 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Pivot Table Profit Analyzer](https://trueinterview.io/questions/pivot-table-profit-analyzer) | Algorithm | Medium | Jul 30, 2025 |
 | [Fix Incorrect Metrics Caused by Applying Filters After Aggregation](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e) | AI Coding | Medium | — |
 | [Idempotent Library Notifications for Due Loans and FIFO Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39) | Algorithm | Medium | — |
 | [Fix Backend Filtering for Book Search Results](https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22) | Algorithm | Easy | — |
-| [Implement Search and Filter UI for a Library Management Table](https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81) | Low-Level Design | Medium | — |
+| [Implement Search and Filter UI for a Library Management Table](https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81) | Object Oriented Programming | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Find Minimal Shoppers](https://trueinterview.io/questions/bf1e0319-2d75-436c-99b9-4ff2b4c85911) | Algorithm | Medium | — |
 | [Count Subarrays With Alternating Parity (Odd/Even) Including Negatives](https://trueinterview.io/questions/8babc81e-6a75-4bc6-b67e-d7f11327c8e8) | Algorithm | Medium | — |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |

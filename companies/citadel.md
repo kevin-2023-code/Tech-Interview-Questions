@@ -2,7 +2,7 @@
 
 # Citadel interview process, OA & interview questions
 
-**32 questions** reported at Citadel · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side.
+**32 questions** reported at Citadel · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -83,8 +83,8 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Algorithm | Hard | — | Jun 13, 2026 |
 | **2** | [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) 🆓 | Algorithm | Medium | 1 | Jun 04, 2026 |
-| **3** | [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Low-Level Design | Hard | — | May 21, 2026 |
-| **4** | [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Low-Level Design | Medium | — | May 07, 2026 |
+| **3** | [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Object Oriented Programming | Hard | — | May 21, 2026 |
+| **4** | [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Object Oriented Programming | Medium | — | May 07, 2026 |
 | **5** | [Implement `tac` — Reverse-Order File Reader](https://trueinterview.io/questions/reverse-file-tac-implementation) | Algorithm | Medium | — | May 07, 2026 |
 | **6** | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Algorithm | Medium | 2 | Apr 02, 2026 |
 | **7** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | 4 | Apr 01, 2026 |
@@ -122,25 +122,25 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | :-- | :-- | :-: | :-- |
 | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Algorithm | Hard | Jun 13, 2026 |
 | [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) | Algorithm | Medium | Jun 04, 2026 |
-| [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Low-Level Design | Hard | May 21, 2026 |
+| [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Object Oriented Programming | Hard | May 21, 2026 |
 | [Implement `tac` — Reverse-Order File Reader](https://trueinterview.io/questions/reverse-file-tac-implementation) | Algorithm | Medium | May 07, 2026 |
-| [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Low-Level Design | Medium | May 07, 2026 |
+| [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Object Oriented Programming | Medium | May 07, 2026 |
 | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Algorithm | Medium | Apr 02, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Game of Life — In-Place and Infinite Board](https://trueinterview.io/questions/game-of-life-in-place-infinite) | Algorithm | Hard | Mar 21, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
-| [Single-Producer Multi-Consumer Ring Buffer](https://trueinterview.io/questions/single-producer-multi-consumer-ring-buffer) | Low-Level Design | Medium | Mar 08, 2026 |
+| [Single-Producer Multi-Consumer Ring Buffer](https://trueinterview.io/questions/single-producer-multi-consumer-ring-buffer) | Object Oriented Programming | Medium | Mar 08, 2026 |
 | [Time-Keyed Key-Value Store (set / get-before-timestamp)](https://trueinterview.io/questions/time-keyed-kv-store) | Algorithm | Medium | Feb 18, 2026 |
 | [Refactor Obfuscated C++ Code (Hidden Best-Time-To-Buy-Sell)](https://trueinterview.io/questions/obfuscated-code-refactor) | Algorithm | Medium | Feb 06, 2026 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
-| [Multi-Exchange BBO / NBBO Class](https://trueinterview.io/questions/multi-exchange-nbbo-class) | Low-Level Design | Medium | Jan 29, 2026 |
-| [Application-to-Exchange Routing OOD with Sliding-Window Alerts](https://trueinterview.io/questions/application-exchange-routing-alerting) | Low-Level Design | Medium | Jan 28, 2026 |
-| [Weighted Random Sampling with Insert / Delete](https://trueinterview.io/questions/weighted-sampling-with-updates) | Low-Level Design | Hard | Jan 28, 2026 |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
+| [Multi-Exchange BBO / NBBO Class](https://trueinterview.io/questions/multi-exchange-nbbo-class) | Object Oriented Programming | Medium | Jan 29, 2026 |
+| [Application-to-Exchange Routing OOD with Sliding-Window Alerts](https://trueinterview.io/questions/application-exchange-routing-alerting) | Object Oriented Programming | Medium | Jan 28, 2026 |
+| [Weighted Random Sampling with Insert / Delete](https://trueinterview.io/questions/weighted-sampling-with-updates) | Object Oriented Programming | Hard | Jan 28, 2026 |
 | [Task Scheduler with Priority + Lazy Deletion](https://trueinterview.io/questions/task-scheduler-priority-lazy-delete) | Algorithm | Medium | Jan 28, 2026 |
 | [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state) | Algorithm | Medium | Jan 28, 2026 |
-| [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict) | Low-Level Design | Medium | Jan 25, 2026 |
-| [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Low-Level Design | Medium | Jan 22, 2026 |
-| [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler) | Low-Level Design | Medium | Jan 15, 2026 |
+| [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict) | Object Oriented Programming | Medium | Jan 25, 2026 |
+| [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Object Oriented Programming | Medium | Jan 22, 2026 |
+| [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler) | Object Oriented Programming | Medium | Jan 15, 2026 |
 | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Algorithm | Hard | Jan 05, 2026 |
 | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Algorithm | Medium | Dec 22, 2025 |
 | [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team) | Algorithm | Medium | Dec 22, 2025 |
@@ -151,4 +151,4 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
 | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
-| [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Low-Level Design | Medium | — |
+| [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |

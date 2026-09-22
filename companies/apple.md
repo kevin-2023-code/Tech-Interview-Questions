@@ -46,7 +46,7 @@ Which stage each question came from, for the **90 of 90** questions at Apple tha
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Medium | Onsite / virtual onsite | Jul 26, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
-| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Low-Level Design | Medium | Phone screen | Jun 28, 2026 |
+| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Object Oriented Programming | Medium | Phone screen | Jun 28, 2026 |
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | System Design | Hard | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Algorithm | Medium | Phone screen | Jun 24, 2026 |
 
@@ -97,7 +97,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | **2** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
 | **3** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Medium | — | Jul 26, 2026 |
 | **4** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | 4 | Jun 28, 2026 |
-| **5** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Low-Level Design | Medium | — | Jun 28, 2026 |
+| **5** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Object Oriented Programming | Medium | — | Jun 28, 2026 |
 | **6** | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | System Design | Hard | — | Jun 28, 2026 |
 | **7** | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Algorithm | Medium | — | Jun 24, 2026 |
 | **8** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) 🆓 | Algorithm | Hard | 1 | Jun 16, 2026 |
@@ -134,7 +134,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Medium | Jul 26, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
-| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Low-Level Design | Medium | Jun 28, 2026 |
+| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Object Oriented Programming | Medium | Jun 28, 2026 |
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | System Design | Hard | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Algorithm | Medium | Jun 24, 2026 |
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
@@ -142,9 +142,9 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | May 27, 2026 |
 | [Happy Number II](https://trueinterview.io/questions/happy-number-2) | Algorithm | Medium | May 27, 2026 |
-| [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Low-Level Design | Easy | May 27, 2026 |
-| [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Low-Level Design | Easy | May 20, 2026 |
-| [Kubernetes Service Filter & Dependency Chain](https://trueinterview.io/questions/kubernetes-service-filter-and-dependency-chain) | Low-Level Design | Medium | May 14, 2026 |
+| [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | May 27, 2026 |
+| [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Object Oriented Programming | Easy | May 20, 2026 |
+| [Kubernetes Service Filter & Dependency Chain](https://trueinterview.io/questions/kubernetes-service-filter-and-dependency-chain) | Object Oriented Programming | Medium | May 14, 2026 |
 | [Bag-of-Words Similarity Search from Scratch](https://trueinterview.io/questions/bag-of-words-similarity-search-from-scratch) | Algorithm | Medium | May 05, 2026 |
 | [Substring Pattern Matches](https://trueinterview.io/questions/substring-pattern-matches) | Algorithm | Easy | May 03, 2026 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | May 03, 2026 |
@@ -167,16 +167,16 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Algorithm | Medium | Mar 25, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer) | Algorithm | Medium | Mar 17, 2026 |
-| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Low-Level Design | Hard | Mar 17, 2026 |
+| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Hard | Mar 17, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
 | [Bold Words in String](https://trueinterview.io/questions/bold-words-in-string) | Algorithm | Medium | Mar 03, 2026 |
-| [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Low-Level Design | Medium | Mar 02, 2026 |
+| [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Object Oriented Programming | Medium | Mar 02, 2026 |
 | [Intersection of Two Linked Lists](https://trueinterview.io/questions/intersection-of-two-linked-lists) | Algorithm | Medium | Mar 02, 2026 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Mar 2026 |
 | [Write a Debounce Function](https://trueinterview.io/questions/write-a-debounce-function) | Algorithm | Medium | Feb 27, 2026 |
-| [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards) | Low-Level Design | Medium | Feb 26, 2026 |
+| [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards) | Object Oriented Programming | Medium | Feb 26, 2026 |
 | [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch) | AI Coding | Hard | Feb 25, 2026 |
 | [Redundant Connection](https://trueinterview.io/questions/redundant-connection) | Algorithm | Medium | Feb 22, 2026 |
 | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Algorithm | Medium | Feb 21, 2026 |
@@ -190,26 +190,26 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Zero Out Duplicates and Sort](https://trueinterview.io/questions/zero-out-duplicates-and-sort) | Algorithm | Medium | Feb 03, 2026 |
 | [Design a Chat Application](https://trueinterview.io/questions/design-a-chat-application) | System Design | Medium | Feb 03, 2026 |
 | [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Algorithm | Medium | Jan 29, 2026 |
-| [Binary Search Tree Iterator](https://trueinterview.io/questions/binary-search-tree-iterator) | Low-Level Design | Medium | Jan 29, 2026 |
+| [Binary Search Tree Iterator](https://trueinterview.io/questions/binary-search-tree-iterator) | Object Oriented Programming | Medium | Jan 29, 2026 |
 | [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) | Algorithm | Hard | Jan 28, 2026 |
 | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Algorithm | Medium | Jan 22, 2026 |
 | [Reconstruct Itinerary](https://trueinterview.io/questions/reconstruct-itinerary) | Algorithm | Hard | Jan 09, 2026 |
-| [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api) | Low-Level Design | Medium | Jan 06, 2026 |
-| [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache) | Low-Level Design | Medium | Jan 02, 2026 |
-| [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Low-Level Design | Medium | Dec 22, 2025 |
+| [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api) | Object Oriented Programming | Medium | Jan 06, 2026 |
+| [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache) | Object Oriented Programming | Medium | Jan 02, 2026 |
+| [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Object Oriented Programming | Medium | Dec 22, 2025 |
 | [Out of Boundary Paths](https://trueinterview.io/questions/out-of-boundary-paths) | Algorithm | Medium | Dec 21, 2025 |
 | [Numbers with No Neighbors](https://trueinterview.io/questions/numbers-with-no-neighbors) | Algorithm | Easy | Dec 21, 2025 |
 | [Apple News Search Without ML](https://trueinterview.io/questions/apple-news-search-without-ml) | System Design | Medium | Dec 18, 2025 |
 | [Online Token Processing, Embeddings, and Classification](https://trueinterview.io/questions/online-token-processing-embeddings-and-classification) | Algorithm | Hard | Dec 11, 2025 |
 | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree) | Algorithm | Easy | Dec 10, 2025 |
-| [Design (key, value) Storage with Snapshots](https://trueinterview.io/questions/design-key-value-storage-with-snapshots) | Low-Level Design | Medium | Dec 09, 2025 |
+| [Design (key, value) Storage with Snapshots](https://trueinterview.io/questions/design-key-value-storage-with-snapshots) | Object Oriented Programming | Medium | Dec 09, 2025 |
 | [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter) | Algorithm | Medium | Dec 02, 2025 |
 | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system) | System Design | Medium | Nov 30, 2025 |
 | [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua) | System Design | Medium | Nov 21, 2025 |
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Algorithm | Easy | Nov 20, 2025 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2) | SQL | Easy | — |
-| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Low-Level Design | Hard | — |
+| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Hard | — |
 | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Algorithm | Hard | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Hard | — |

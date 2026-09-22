@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 178 | 58% | ██████████████ | 32 |
-| [Low-Level Design](../formats/low-level-design.md) | 73 | 24% | ██████ | 16 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 73 | 24% | ██████ | 16 |
 | [System Design](../formats/system-design.md) | 41 | 13% | ███ | 5 |
 | [AI Coding](../formats/ai-coding.md) | 8 | 3% | █ | 1 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
@@ -54,7 +54,7 @@ Of the **139 questions in this cut that carry a topic label** (45% of it):
 | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Bobyard … | Algorithm | Aug 13, 2026 |
 | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Oracle | SQL | Aug 13, 2026 |
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Figma | Low-Level Design | Aug 12, 2026 |
+| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Figma | Object Oriented Programming | Aug 12, 2026 |
 | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | Figma | System Design | Aug 12, 2026 |
 | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Figma | Algorithm | Aug 12, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Figma | Algorithm | Aug 04, 2026 |

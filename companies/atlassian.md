@@ -32,7 +32,7 @@ Which stage each question came from, for the **39 of 39** questions at Atlassian
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 16 | ██████ | [Algorithm](../formats/algorithm.md) (62%) | 2 / 13 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 25 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (40%) | 4 / 17 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 25 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (40%) | 4 / 17 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -80,7 +80,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Low-Level Design | Medium | — | Apr 21, 2026 |
+| **1** | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | — | Apr 21, 2026 |
 | **2** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | — | Apr 21, 2026 |
 | **3** | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) 🆓 | System Design | Medium | 2 | Apr 02, 2026 |
 | **4** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) 🆓 | Algorithm | Medium | 4 | Apr 01, 2026 |
@@ -112,7 +112,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Low-Level Design | Medium | Apr 21, 2026 |
+| [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | Apr 21, 2026 |
 | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | Apr 21, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Apr 02, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
@@ -124,17 +124,17 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Expanding Tennis Club Court Assignment](https://trueinterview.io/questions/expanding-tennis-club-court-assignment) | Algorithm | Medium | Feb 23, 2026 |
 | [Design Tagging System](https://trueinterview.io/questions/tagging-system-rest-api) | System Design | Medium | Feb 22, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
-| [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Low-Level Design | Medium | Feb 15, 2026 |
+| [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Object Oriented Programming | Medium | Feb 15, 2026 |
 | [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher) | Algorithm | Medium | Jan 30, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Algorithm | Medium | Jan 20, 2026 |
 | [Snowy Mountain Path with Melting](https://trueinterview.io/questions/snowy-mountain-path-with-melting) | Algorithm | Hard | Dec 16, 2025 |
-| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Low-Level Design | Easy | Dec 06, 2025 |
-| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Low-Level Design | Hard | Nov 28, 2025 |
+| [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
+| [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |
 | [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow) | System Design | Easy | Nov 19, 2025 |
 | [Robot Parts Assembly](https://trueinterview.io/questions/robot-parts-assembly) | Algorithm | Easy | Nov 06, 2025 |
-| [Snake Game](https://trueinterview.io/questions/snake-game) | Low-Level Design | Medium | Oct 02, 2025 |
-| [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating) | Low-Level Design | Medium | Oct 02, 2025 |
-| [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Low-Level Design | Medium | Sep 12, 2025 |
+| [Snake Game](https://trueinterview.io/questions/snake-game) | Object Oriented Programming | Medium | Oct 02, 2025 |
+| [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating) | Object Oriented Programming | Medium | Oct 02, 2025 |
+| [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Object Oriented Programming | Medium | Sep 12, 2025 |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
@@ -147,7 +147,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [LeetCode Problem 636](https://trueinterview.io/questions/e232949d-8555-44bc-9410-40b2b8c91190) | Algorithm | Medium | — |
 | [Is one string a subsequence of another?](https://trueinterview.io/questions/bc22cdd6-a42e-4871-9342-b3016bba9933) | Algorithm | Easy | — |
 | [Spiral Matrix](https://trueinterview.io/questions/b8a195b2-1f56-4c41-875d-c3cf1e3bc286) | Algorithm | Medium | — |
-| [OOD Release Notification Service](https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1) | Low-Level Design | Easy | — |
-| [O(1) Data Structure Using Double Linked List](https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338) | Low-Level Design | Medium | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [OOD Release Notification Service](https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1) | Object Oriented Programming | Easy | — |
+| [O(1) Data Structure Using Double Linked List](https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338) | Object Oriented Programming | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |

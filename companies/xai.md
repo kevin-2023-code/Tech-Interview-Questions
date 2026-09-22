@@ -32,7 +32,7 @@ Which stage each question came from, for the **31 of 31** questions at xAI that 
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [AI Coding](../formats/ai-coding.md) (50%) | 0 / 0 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 14 | ███████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 11 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 19 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (37%) | 3 / 13 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 19 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (37%) | 3 / 13 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 3 | ██ | [AI Coding](../formats/ai-coding.md) (33%) | 0 / 1 / 2 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -86,9 +86,9 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | **3** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
 | **4** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | AI Coding | Medium | — | Apr 04, 2026 |
 | **5** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) 🆓 | AI Coding | Hard | — | Apr 04, 2026 |
-| **6** | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Low-Level Design | Medium | — | Apr 02, 2026 |
+| **6** | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Object Oriented Programming | Medium | — | Apr 02, 2026 |
 | **7** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) 🆓 | Algorithm | Medium | 4 | Apr 01, 2026 |
-| **8** | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Low-Level Design | Hard | — | Apr 01, 2026 |
+| **8** | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Object Oriented Programming | Hard | — | Apr 01, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -120,29 +120,29 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | AI Coding | Medium | Apr 04, 2026 |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | AI Coding | Hard | Apr 04, 2026 |
-| [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Low-Level Design | Medium | Apr 02, 2026 |
-| [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Low-Level Design | Hard | Apr 01, 2026 |
+| [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Object Oriented Programming | Medium | Apr 02, 2026 |
+| [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Object Oriented Programming | Hard | Apr 01, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Nested Structure Flatten and Unflatten](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) | Algorithm | Medium | Feb 26, 2026 |
-| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Low-Level Design | Medium | Feb 01, 2026 |
+| [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Agentic Workflow for 1-Hour Movie Generation](https://trueinterview.io/questions/agentic-one-hour-movie-generation) | System Design | Medium | Jan 29, 2026 |
 | [Rate Limiter — Inbound + Outbound](https://trueinterview.io/questions/rate-limiter-design) | System Design | Medium | Jan 28, 2026 |
 | [Twitter Insight Platform](https://trueinterview.io/questions/twitter-insight-platform-take-home) | AI Coding | Hard | Jan 28, 2026 |
-| [Checkers Game](https://trueinterview.io/questions/checkers-backend-design) | Low-Level Design | Medium | Jan 26, 2026 |
+| [Checkers Game](https://trueinterview.io/questions/checkers-backend-design) | Object Oriented Programming | Medium | Jan 26, 2026 |
 | [Twitter Spaces Active Time](https://trueinterview.io/questions/twitter-spaces-active-time) | Algorithm | Medium | Jan 26, 2026 |
 | [Multithreaded Array Sort](https://trueinterview.io/questions/parallel-integer-sort) | Algorithm | Medium | Jan 15, 2026 |
 | [Maximum Number of Distinct Elements After Operations](https://trueinterview.io/questions/maximum-number-of-distinct-elements-after-operations) | Algorithm | Medium | Jan 15, 2026 |
 | [K-th Element on a Streaming Time Window](https://trueinterview.io/questions/kth-element-streaming-window) | Algorithm | Hard | Jan 14, 2026 |
-| [Dynamic Batch Inference](https://trueinterview.io/questions/dynamic-batch-inference) | Low-Level Design | Medium | Dec 14, 2025 |
+| [Dynamic Batch Inference](https://trueinterview.io/questions/dynamic-batch-inference) | Object Oriented Programming | Medium | Dec 14, 2025 |
 | [Find Bad GPU Nodes](https://trueinterview.io/questions/group-test-gpu-nodes) | Algorithm | Hard | Dec 14, 2025 |
 | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Algorithm | Medium | — |
-| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Low-Level Design | Hard | — |
+| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Object Oriented Programming | Hard | — |
 | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Algorithm | Medium | — |
 | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | — |
-| [Radix Cache](https://trueinterview.io/questions/radix-cache) | Low-Level Design | Hard | — |
-| [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache) | Low-Level Design | Medium | — |
-| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Low-Level Design | Medium | — |
+| [Radix Cache](https://trueinterview.io/questions/radix-cache) | Object Oriented Programming | Hard | — |
+| [Durable KV Cache](https://trueinterview.io/questions/durable-kv-cache) | Object Oriented Programming | Medium | — |
+| [In-Memory Key-Value Store with Transactions](https://trueinterview.io/questions/in-memory-key-value-store-with-transactions) | Object Oriented Programming | Medium | — |
 | [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Algorithm | Medium | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Low-Level Design | Medium | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | System Design | Medium | — |
 | [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | System Design | Easy | — |

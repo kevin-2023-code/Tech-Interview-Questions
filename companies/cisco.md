@@ -2,7 +2,7 @@
 
 # Cisco interview process, OA & interview questions
 
-**18 questions** reported at Cisco · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cisco), judged server-side.
+**18 questions** reported at Cisco · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cisco), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -113,7 +113,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | Algorithm | Easy | Jul 17, 2025 |
 | [Find Largest Sum Contiguous Subarray](https://trueinterview.io/questions/f29c0c29-2a76-42d9-9ece-3eeaa42c017b) | Algorithm | Easy | — |
 | [Count Numbers with Sum of Digits](https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f) | Algorithm | Easy | — |
-| [Chessboard Piece Placement with Opposite Color Constraints](https://trueinterview.io/questions/d4eb414f-978e-4cea-acc3-df07a404c79f) | Low-Level Design | Medium | — |
+| [Chessboard Piece Placement with Opposite Color Constraints](https://trueinterview.io/questions/d4eb414f-978e-4cea-acc3-df07a404c79f) | Object Oriented Programming | Medium | — |
 | [Find Out Prime or Composite](https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184) | Algorithm | Easy | — |
 | [Process Queries to Find Critical Nodes](https://trueinterview.io/questions/3be3ddff-6db5-49c0-916c-299316bc4912) | Algorithm | Hard | — |
 | [Minimum Steps to Achieve Target State](https://trueinterview.io/questions/06061640-c929-4879-9ba9-f3b90aac35e1) | Algorithm | Medium | — |

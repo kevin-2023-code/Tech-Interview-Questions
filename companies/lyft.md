@@ -43,7 +43,7 @@ Which stage each question came from, for the **28 of 28** questions at Lyft that
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Onsite / virtual onsite | Jul 29, 2026 |
-| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Medium | Phone screen, Onsite / virtual onsite | Jul 29, 2026 |
+| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 29, 2026 |
 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Phone screen | Jun 29, 2026 |
 
 ## What they ask about
@@ -84,7 +84,7 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Medium | — | Jul 29, 2026 |
+| **1** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | — | Jul 29, 2026 |
 | **2** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | — | Jul 29, 2026 |
 | **3** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | 2 | Jun 29, 2026 |
 | **4** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
@@ -115,7 +115,7 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Low-Level Design | Medium | Jul 29, 2026 |
+| [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Jul 29, 2026 |
 | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Jul 29, 2026 |
 | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Jun 29, 2026 |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
@@ -128,18 +128,18 @@ The 8 questions to open first if you are preparing for Lyft, ranked by **the mos
 | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis) | Algorithm | Medium | Mar 21, 2026 |
 | [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means) | Algorithm | Medium | Feb 13, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
-| [Query Pagination](https://trueinterview.io/questions/query-pagination) | Low-Level Design | Medium | Feb 04, 2026 |
+| [Query Pagination](https://trueinterview.io/questions/query-pagination) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Algorithm | Medium | Nov 17, 2025 |
-| [Frontend Autocomplete Component](https://trueinterview.io/questions/frontend-autocomplete-component) | Low-Level Design | Medium | Nov 17, 2025 |
+| [Frontend Autocomplete Component](https://trueinterview.io/questions/frontend-autocomplete-component) | Object Oriented Programming | Medium | Nov 17, 2025 |
 | [Minesweeper Game Logic](https://trueinterview.io/questions/minesweeper-game-logic) | Algorithm | Medium | Oct 16, 2025 |
-| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Low-Level Design | Medium | — |
+| [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Object Oriented Programming | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [MultiStream Reader](https://trueinterview.io/questions/multistream-reader) | Algorithm | Hard | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
 | [Implement Stratified K-Fold Cross Validation](https://trueinterview.io/questions/603347d9-9ef4-4b27-be30-a00814f1b728) | Algorithm | Hard | — |
 | [Merge Intervals with Possibly Reversed Endpoints](https://trueinterview.io/questions/9218dd59-dbfc-59f9-847d-104ab3017c6f) | Algorithm | Medium | — |
-| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Low-Level Design | Hard | — |
+| [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Object Oriented Programming | Hard | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |

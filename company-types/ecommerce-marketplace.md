@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 384 | 66% | ██████████████ | 32 |
-| [Low-Level Design](../formats/low-level-design.md) | 86 | 15% | ███ | 13 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 86 | 15% | ███ | 13 |
 | [System Design](../formats/system-design.md) | 69 | 12% | ███ | 8 |
 | [SQL](../formats/sql.md) | 26 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 16 | 3% | █ | 1 |
@@ -54,12 +54,12 @@ Of the **255 questions in this cut that carry a topic label** (44% of it):
 | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Amazon … | Algorithm | Sep 10, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Amazon | Algorithm | Sep 05, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Amazon | Algorithm | Sep 02, 2026 |
-| [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Low-Level Design | Sep 01, 2026 |
+| [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Object Oriented Programming | Sep 01, 2026 |
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Amazon | Algorithm | Sep 01, 2026 |
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Amazon | Algorithm | Sep 01, 2026 |
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Amazon | Algorithm | Sep 01, 2026 |
 | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Amazon | Algorithm | Aug 30, 2026 |
-| [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Amazon | Low-Level Design | Aug 27, 2026 |
+| [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Amazon | Object Oriented Programming | Aug 27, 2026 |
 | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Amazon | Algorithm | Aug 24, 2026 |
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Amazon | Algorithm | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Amazon | Algorithm | Aug 22, 2026 |

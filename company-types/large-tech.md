@@ -19,7 +19,7 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 466 | 54% | ██████████████ | 44 |
-| [Low-Level Design](../formats/low-level-design.md) | 170 | 20% | █████ | 27 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 170 | 20% | █████ | 27 |
 | [System Design](../formats/system-design.md) | 128 | 15% | ████ | 10 |
 | [AI Coding](../formats/ai-coding.md) | 77 | 9% | ██ | 6 |
 | [SQL](../formats/sql.md) | 19 | 2% | █ | 0 |
@@ -53,12 +53,12 @@ Of the **335 questions in this cut that carry a topic label** (39% of it):
 | :-- | :-- | :-- | :-- |
 | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Snowflake | SQL | Aug 13, 2026 |
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Figma | Low-Level Design | Aug 12, 2026 |
+| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Figma | Object Oriented Programming | Aug 12, 2026 |
 | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Affirm | Algorithm | Aug 12, 2026 |
 | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | Figma | System Design | Aug 12, 2026 |
 | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Figma | Algorithm | Aug 12, 2026 |
 | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Affirm | Algorithm | Aug 07, 2026 |
-| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Affirm | Low-Level Design | Aug 06, 2026 |
+| [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Affirm | Object Oriented Programming | Aug 06, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Figma | Algorithm | Aug 04, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Figma | System Design | Aug 04, 2026 |
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Affirm | Algorithm | Aug 01, 2026 |

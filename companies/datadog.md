@@ -108,12 +108,12 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 | [Minimum Path Sum](https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7) | Algorithm | Medium | — |
 | [Query Log Matching](https://trueinterview.io/questions/83d7ff94-bab7-47e3-a4b4-e177692a608e) | Algorithm | Medium | — |
 | [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518) | Algorithm | Medium | — |
-| [Design a Buffered File Writer](https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e) | Low-Level Design | Medium | — |
+| [Design a Buffered File Writer](https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e) | Object Oriented Programming | Medium | — |
 | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc) | Algorithm | Medium | — |
 | [Implement Grouped Query Attention Forward Pass](https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7) | Algorithm | Medium | — |
 | [Latency Bucket Counter](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e) | Algorithm | Easy | — |
 | [Log Ingestion and Query](https://trueinterview.io/questions/c10482fd-12d2-4f57-8a05-f821a2f2d1c0) | Algorithm | Medium | — |
-| [Implement a Snowflake Query Client (Start Query & Get Query Status)](https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053) | Low-Level Design | Medium | — |
-| [Buffer Write Implementation](https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed) | Low-Level Design | Easy | — |
+| [Implement a Snowflake Query Client (Start Query & Get Query Status)](https://trueinterview.io/questions/5d165ed0-ab4a-48df-b9cb-92947b744053) | Object Oriented Programming | Medium | — |
+| [Buffer Write Implementation](https://trueinterview.io/questions/16e264d7-ba41-4958-96cb-06b6d50400ed) | Object Oriented Programming | Easy | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | — |

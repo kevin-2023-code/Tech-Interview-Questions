@@ -77,7 +77,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **2** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Low-Level Design | Medium | — | Jun 12, 2026 |
+| **2** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
 | **3** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | — | Jun 12, 2026 |
 | **4** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | — | Jun 12, 2026 |
 | **5** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | 1 | Jun 11, 2026 |
@@ -108,7 +108,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | Jun 12, 2026 |
 | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | Jun 12, 2026 |
-| [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Low-Level Design | Medium | Jun 12, 2026 |
+| [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | Jun 12, 2026 |
 | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Jun 11, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
 | [Valid Number](https://trueinterview.io/questions/lc-valid-number) | Algorithm | Medium | May 16, 2026 |
@@ -120,7 +120,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | [Top-K Co-Occurring Products in Sessions (Recommendation by Frequency)](https://trueinterview.io/questions/e4a92e49-cff6-43ee-9862-1c0391db7357) | Algorithm | Medium | — |
 | [Build a Simplified Image–Text Retrieval Training and Evaluation Pipeline](https://trueinterview.io/questions/be7ec2df-18b0-4e87-bfaf-33dccc991ab2) | Algorithm | Hard | — |
 | [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1) | Algorithm | Medium | — |
-| [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e) | Low-Level Design | Easy | — |
+| [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e) | Object Oriented Programming | Easy | — |
 | [Validate US Phone Numbers with Regular Expression](https://trueinterview.io/questions/1714f199-0812-421e-8e1a-edb4b9379eb8) | Algorithm | Easy | — |
 | [Count Difference in Uppercase and Lowercase Letters](https://trueinterview.io/questions/012dd142-0e9b-4871-95f8-a216182794b4) | Algorithm | Easy | — |
 | [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b) | Algorithm | Medium | — |
@@ -134,4 +134,4 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Algorithm | Easy | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
-| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Low-Level Design | Medium | — |
+| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Object Oriented Programming | Medium | — |

@@ -2,7 +2,7 @@
 
 # Lead Bank interview process, OA & interview questions
 
-**5 questions** reported at Lead Bank · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lead-bank), judged server-side.
+**5 questions** reported at Lead Bank · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lead-bank), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **5 of 5** questions at Lead Bank t
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | █████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -61,7 +61,7 @@ The 5 questions to open first if you are preparing for Lead Bank. **This is not 
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) 🆓 | Algorithm | Easy | — | — |
 | **2** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Algorithm | Easy | — | — |
-| **3** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Low-Level Design | Medium | — | — |
+| **3** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Object Oriented Programming | Medium | — | — |
 | **4** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Algorithm | Medium | — | — |
 | **5** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) 🆓 | Algorithm | Hard | — | — |
 
@@ -85,7 +85,7 @@ The 5 questions to open first if you are preparing for Lead Bank. **This is not 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Low-Level Design | Medium | — |
+| [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Object Oriented Programming | Medium | — |
 | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Algorithm | Medium | — |
 | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Algorithm | Easy | — |
 | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) | Algorithm | Hard | — |

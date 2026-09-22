@@ -119,7 +119,7 @@ The 8 questions to open first if you are preparing for JPMorgan, ranked by **the
 | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Algorithm | Medium | Mar 14, 2026 |
 | [Property Rental Search System](https://trueinterview.io/questions/property-rental-search-system) | System Design | Medium | Feb 08, 2026 |
 | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Algorithm | Medium | Jan 15, 2026 |
-| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Low-Level Design | Easy | Jan 15, 2026 |
+| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Object Oriented Programming | Easy | Jan 15, 2026 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Algorithm | Medium | Dec 20, 2025 |
 | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips) | Algorithm | Medium | Nov 19, 2025 |
 | [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater) | Algorithm | Easy | Sep 05, 2025 |

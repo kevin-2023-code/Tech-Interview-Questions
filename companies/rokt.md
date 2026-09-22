@@ -2,7 +2,7 @@
 
 # Rokt interview process, OA & interview questions
 
-**4 questions** reported at Rokt · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rokt), judged server-side.
+**4 questions** reported at Rokt · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rokt), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -33,7 +33,7 @@ Which stage each question came from, for the **4 of 4** questions at Rokt that n
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -57,9 +57,9 @@ The 4 questions to open first if you are preparing for Rokt, ranked by **the one
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) 🆓 | Low-Level Design | Medium | 5 | — |
+| **1** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) 🆓 | Object Oriented Programming | Medium | 5 | — |
 | **2** | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Algorithm | Easy | 1 | — |
-| **3** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Low-Level Design | Medium | — | — |
+| **3** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Object Oriented Programming | Medium | — | — |
 | **4** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) 🆓 | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -88,6 +88,6 @@ What candidates said happened in the room at Rokt — written up by the people w
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Algorithm | Easy | — |
-| [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Low-Level Design | Medium | — |
+| [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Object Oriented Programming | Medium | — |
 | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Low-Level Design | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |

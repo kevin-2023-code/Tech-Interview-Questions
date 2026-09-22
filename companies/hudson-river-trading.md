@@ -2,7 +2,7 @@
 
 # Hudson River Trading interview process, OA & interview questions
 
-**16 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side.
+**16 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -32,7 +32,7 @@ Which stage each question came from, for the **16 of 16** questions at Hudson Ri
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ██████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 8 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████ | [Low-Level Design](../formats/low-level-design.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -99,7 +99,7 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | :-- | :-- | :-: | :-- |
 | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Algorithm | Medium | May 01, 2026 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
-| [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | Low-Level Design | Medium | — |
+| [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | Object Oriented Programming | Medium | — |
 | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | — |
 | [Black and White Chess Problem](https://trueinterview.io/questions/e829f3ce-e920-412d-b31a-72a804d9272e) | Algorithm | Medium | — |
 | [Fancy Number](https://trueinterview.io/questions/e4e49d37-3d74-4d00-b000-445874bf217a) | Algorithm | Medium | — |
@@ -110,6 +110,6 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Algorithm | Easy | — |
 | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | — |
 | [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397) | Algorithm | Medium | — |
-| [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Low-Level Design | Medium | — |
+| [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Object Oriented Programming | Medium | — |
 | [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | Algorithm | Hard | — |
 | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |

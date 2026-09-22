@@ -42,7 +42,7 @@ Which stage each question came from, for the **23 of 23** questions at Ramp that
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Low-Level Design | Medium | Onsite / virtual onsite | Jun 26, 2026 |
+| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 26, 2026 |
 
 ## What they ask about
 
@@ -83,7 +83,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) 🆓 | Low-Level Design | Medium | 2 | Jun 26, 2026 |
+| **1** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) 🆓 | Object Oriented Programming | Medium | 2 | Jun 26, 2026 |
 | **2** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
 | **3** | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Algorithm | Medium | — | Jun 01, 2026 |
 | **4** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
@@ -113,7 +113,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Low-Level Design | Medium | Jun 26, 2026 |
+| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Jun 26, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Algorithm | Medium | Jun 01, 2026 |
 | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | May 06, 2026 |
@@ -122,9 +122,9 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Frontend Hidden URL and React Wordle](https://trueinterview.io/questions/frontend-challenge-dom-wordle) | AI Coding | Hard | Feb 26, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Purchase Optimization](https://trueinterview.io/questions/purchase-optimization) | Algorithm | Easy | Feb 11, 2026 |
-| [Task Management System II](https://trueinterview.io/questions/oa-task-management-system-2) | Low-Level Design | Medium | Jan 17, 2026 |
-| [In-Memory Banking System (4 Levels)](https://trueinterview.io/questions/oa-banking-system) | Low-Level Design | Medium | Jan 17, 2026 |
-| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Low-Level Design | Medium | Dec 15, 2025 |
+| [Task Management System II](https://trueinterview.io/questions/oa-task-management-system-2) | Object Oriented Programming | Medium | Jan 17, 2026 |
+| [In-Memory Banking System (4 Levels)](https://trueinterview.io/questions/oa-banking-system) | Object Oriented Programming | Medium | Jan 17, 2026 |
+| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
 | [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions) | Algorithm | Hard | Nov 22, 2025 |
 | [Rate Limiter by IP Address](https://trueinterview.io/questions/rate-limiter-by-ip-address) | Algorithm | Medium | Sep 29, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-storage-system) | Algorithm | Medium | Aug 2025 |
@@ -132,7 +132,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
 | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Algorithm | Easy | Apr 2025 |
 | [Maximum Profit from Unordered Stock Price Records](https://trueinterview.io/questions/522363cd-bdb8-5f9b-bfd8-86d74fb6f057) | Algorithm | Medium | — |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | AI Coding | Medium | — |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

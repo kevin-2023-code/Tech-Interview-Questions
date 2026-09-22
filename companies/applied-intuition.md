@@ -32,7 +32,7 @@ Which stage each question came from, for the **17 of 17** questions at Applied I
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 7 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ██ | [Low-Level Design](../formats/low-level-design.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -74,11 +74,11 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) 🆓 | Low-Level Design | Medium | 2 | Apr 28, 2026 |
-| **2** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) 🆓 | Low-Level Design | Medium | 1 | Feb 26, 2026 |
+| **1** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) 🆓 | Object Oriented Programming | Medium | 2 | Apr 28, 2026 |
+| **2** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) 🆓 | Object Oriented Programming | Medium | 1 | Feb 26, 2026 |
 | **3** | [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Algorithm | Easy | — | — |
 | **4** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | — | — |
-| **5** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Low-Level Design | Easy | — | — |
+| **5** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Object Oriented Programming | Easy | — | — |
 | **6** | [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Algorithm | Medium | — | — |
 | **7** | [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76) | Algorithm | Medium | — | — |
 | **8** | [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) | Algorithm | Medium | — | — |
@@ -103,12 +103,12 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Low-Level Design | Medium | Apr 28, 2026 |
-| [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Low-Level Design | Medium | Feb 26, 2026 |
+| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Apr 28, 2026 |
+| [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Object Oriented Programming | Medium | Feb 26, 2026 |
 | [Arithmetic Expression Evaluator II](https://trueinterview.io/questions/78d6d121-b1eb-489a-ad84-0e90cce7d0fc) | Algorithm | Hard | — |
 | [Topological Sort with Nested Elements](https://trueinterview.io/questions/75bb27c8-8c45-415d-bd44-edfb0d52af96) | Algorithm | Medium | — |
 | [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Algorithm | Medium | — |
-| [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Low-Level Design | Easy | — |
+| [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Object Oriented Programming | Easy | — |
 | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Algorithm | Easy | — |
 | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Algorithm | Hard | — |
 | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | System Design | Medium | — |

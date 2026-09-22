@@ -89,10 +89,10 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | **1** | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | — | Jul 02, 2026 |
 | **2** | [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | System Design | Hard | — | Jul 02, 2026 |
 | **3** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
-| **4** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Low-Level Design | Medium | — | Jun 11, 2026 |
-| **5** | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Low-Level Design | Medium | — | Jun 11, 2026 |
+| **4** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | — | Jun 11, 2026 |
+| **5** | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Object Oriented Programming | Medium | — | Jun 11, 2026 |
 | **6** | [Design Food Review System](https://trueinterview.io/questions/system-design-food-review-system) | System Design | Medium | — | Jun 11, 2026 |
-| **7** | [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Low-Level Design | Medium | — | Jun 10, 2026 |
+| **7** | [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Object Oriented Programming | Medium | — | Jun 10, 2026 |
 | **8** | [Percent of Late Orders](https://trueinterview.io/questions/percent-of-late-orders) | SQL | Easy | — | May 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -122,33 +122,33 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | Jul 02, 2026 |
 | [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | System Design | Hard | Jul 02, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
-| [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Low-Level Design | Medium | Jun 11, 2026 |
+| [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Design Food Review System](https://trueinterview.io/questions/system-design-food-review-system) | System Design | Medium | Jun 11, 2026 |
-| [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Low-Level Design | Medium | Jun 11, 2026 |
-| [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Low-Level Design | Medium | Jun 10, 2026 |
+| [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Object Oriented Programming | Medium | Jun 11, 2026 |
+| [Code Craft: Validate Cart](https://trueinterview.io/questions/code-craft-validate-cart) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Percent of Late Orders](https://trueinterview.io/questions/percent-of-late-orders) | SQL | Easy | May 23, 2026 |
 | [Orders with Offer Increase](https://trueinterview.io/questions/orders-with-offer-increase) | SQL | Medium | May 23, 2026 |
 | [Order-Level Request Statistics](https://trueinterview.io/questions/order-level-request-statistics) | SQL | Medium | May 23, 2026 |
 | [Monthly Top Eligible Customer](https://trueinterview.io/questions/monthly-top-eligible-customer) | SQL | Medium | May 23, 2026 |
 | [Monthly Sales Growth](https://trueinterview.io/questions/monthly-sales-growth) | SQL | Medium | May 23, 2026 |
 | [Bottom Quartile Reach](https://trueinterview.io/questions/bottom-quartile-reach) | SQL | Medium | May 23, 2026 |
-| [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Low-Level Design | Easy | May 20, 2026 |
+| [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Object Oriented Programming | Easy | May 20, 2026 |
 | [Monthly Percentage of High-Frequency Customers](https://trueinterview.io/questions/monthly-percentage-of-high-frequency-customers) | SQL | Medium | May 19, 2026 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
 | [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment) | Algorithm | Medium | May 11, 2026 |
-| [Code Craft: Bootstrap Aggregated API](https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api) | Low-Level Design | Medium | May 01, 2026 |
+| [Code Craft: Bootstrap Aggregated API](https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api) | Object Oriented Programming | Medium | May 01, 2026 |
 | [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid) | Algorithm | Medium | Apr 29, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
 | [Design A Harmful Content Detection System](https://trueinterview.io/questions/harmful-content-detection-system) | System Design | Hard | Apr 13, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
-| [Code Craft: Hierarchical Path Key-Value Store](https://trueinterview.io/questions/code-craft-path-key-value-store) | Low-Level Design | Medium | Apr 11, 2026 |
+| [Code Craft: Hierarchical Path Key-Value Store](https://trueinterview.io/questions/code-craft-path-key-value-store) | Object Oriented Programming | Medium | Apr 11, 2026 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |
 | [Realtime Monitoring System](https://trueinterview.io/questions/system-design-realtime-monitoring) | System Design | Hard | Apr 06, 2026 |
 | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | System Design | Medium | Apr 02, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Code Craft: Restaurant Delivery Heatmap](https://trueinterview.io/questions/code-craft-restaurant-heatmap) | Algorithm | Medium | Mar 23, 2026 |
 | [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen) | SQL | Medium | Mar 20, 2026 |
-| [Build UI from Mockup with API](https://trueinterview.io/questions/frontend-vo-build-ui) | Low-Level Design | Medium | Mar 20, 2026 |
+| [Build UI from Mockup with API](https://trueinterview.io/questions/frontend-vo-build-ui) | Object Oriented Programming | Medium | Mar 20, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | SQL | Hard | Mar 16, 2026 |
 | [Code Craft: Similar Restaurant Names (K-Swap Anagram)](https://trueinterview.io/questions/code-craft-similar-restaurant-names) | Algorithm | Easy | Mar 13, 2026 |
@@ -159,9 +159,9 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Code Craft: Common Restaurant Pickup Order (LCS Variant)](https://trueinterview.io/questions/code-craft-common-restaurant-list) | Algorithm | Medium | Dec 11, 2025 |
 | [Find All 5-Minute Intervals](https://trueinterview.io/questions/code-craft-day-time-interval-codes) | Algorithm | Medium | Dec 08, 2025 |
-| [Code Craft: Cart with Promotions](https://trueinterview.io/questions/code-craft-cart-promotions-ood) | Low-Level Design | Medium | Dec 07, 2025 |
+| [Code Craft: Cart with Promotions](https://trueinterview.io/questions/code-craft-cart-promotions-ood) | Object Oriented Programming | Medium | Dec 07, 2025 |
 | [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart) | Algorithm | Medium | Aug 23, 2025 |
-| [Design Path Key Value Store](https://trueinterview.io/questions/design-path-key-value-store) | Low-Level Design | Medium | — |
+| [Design Path Key Value Store](https://trueinterview.io/questions/design-path-key-value-store) | Object Oriented Programming | Medium | — |
 | [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | System Design | Medium | — |
 | [Find Eligible Order Sequence](https://trueinterview.io/questions/find-eligible-order-sequence) | Algorithm | Medium | — |
 | [Construct Restaurant Daily Menu](https://trueinterview.io/questions/construct-restaurant-daily-menu) | Algorithm | Medium | — |
@@ -173,11 +173,11 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Algorithm | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Calculate Total Payment for Dasher](https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec) | Algorithm | Medium | — |
-| [Dasher Picker](https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88) | Low-Level Design | Medium | — |
+| [Dasher Picker](https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88) | Object Oriented Programming | Medium | — |
 | [Max Sum Sliding Window and Return Start Days (1-based)](https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39) | Algorithm | Easy | — |
 | [Dasher Pay Classic Problem](https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187) | Algorithm | Medium | — |
 | [Generate Date String Every 5 Minutes](https://trueinterview.io/questions/c1d19781-02fc-46d8-a28c-3e5a7969e244) | Algorithm | Easy | — |
-| [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833) | Low-Level Design | Medium | — |
+| [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833) | Object Oriented Programming | Medium | — |
 | [Minimum Number of Couriers Needed (Meeting Rooms II Variant)](https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d) | Algorithm | Medium | — |
 | [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | SQL | Medium | — |
 | [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | SQL | Easy | — |

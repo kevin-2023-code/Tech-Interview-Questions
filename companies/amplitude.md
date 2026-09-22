@@ -2,7 +2,7 @@
 
 # Amplitude interview process, OA & interview questions
 
-**6 questions** reported at Amplitude · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amplitude), judged server-side.
+**6 questions** reported at Amplitude · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amplitude), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **6 of 6** questions at Amplitude t
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | █████ | [Low-Level Design](../formats/low-level-design.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -67,8 +67,8 @@ The 6 questions to open first if you are preparing for Amplitude, ranked by **th
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Snake Game](https://trueinterview.io/questions/snake-game) 🆓 | Low-Level Design | Medium | 1 | Oct 02, 2025 |
-| **2** | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) 🆓 | Low-Level Design | Medium | — | — |
+| **1** | [Snake Game](https://trueinterview.io/questions/snake-game) 🆓 | Object Oriented Programming | Medium | 1 | Oct 02, 2025 |
+| **2** | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) 🆓 | Object Oriented Programming | Medium | — | — |
 | **3** | [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | Algorithm | Medium | — | — |
 | **4** | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | — | — |
 | **5** | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | — | — |
@@ -94,8 +94,8 @@ The 6 questions to open first if you are preparing for Amplitude, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Snake Game](https://trueinterview.io/questions/snake-game) | Low-Level Design | Medium | Oct 02, 2025 |
-| [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Low-Level Design | Medium | — |
+| [Snake Game](https://trueinterview.io/questions/snake-game) | Object Oriented Programming | Medium | Oct 02, 2025 |
+| [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Object Oriented Programming | Medium | — |
 | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Algorithm | Medium | — |
 | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Algorithm | Medium | — |
 | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Algorithm | Medium | — |

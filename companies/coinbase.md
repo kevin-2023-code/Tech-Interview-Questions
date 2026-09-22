@@ -17,7 +17,7 @@
 | Questions tracked | **45** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Low-Level Design](../formats/low-level-design.md) (51% of 45) |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (51% of 45) |
 | Difficulty (easy / medium / hard) | 8 / 31 / 6 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 5 |
@@ -30,9 +30,9 @@ Which stage each question came from, for the **45 of 45** questions at Coinbase 
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 12 | ████ | [Low-Level Design](../formats/low-level-design.md) (58%) | 4 / 8 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 12 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (58%) | 4 / 8 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 31 | ██████████ | [Low-Level Design](../formats/low-level-design.md) (55%) | 5 / 22 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 31 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (55%) | 5 / 22 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -78,13 +78,13 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Low-Level Design | Hard | — | Jun 15, 2026 |
+| **1** | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | — | Jun 15, 2026 |
 | **2** | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | AI Coding | Easy | — | May 19, 2026 |
 | **3** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) 🆓 | System Design | Hard | 3 | May 08, 2026 |
-| **4** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Low-Level Design | Medium | — | May 08, 2026 |
+| **4** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | — | May 08, 2026 |
 | **5** | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | — | May 06, 2026 |
 | **6** | [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation) | Algorithm | Medium | — | May 06, 2026 |
-| **7** | [Worker Salary OA](https://trueinterview.io/questions/worker-salary-oa) | Low-Level Design | Medium | — | May 06, 2026 |
+| **7** | [Worker Salary OA](https://trueinterview.io/questions/worker-salary-oa) | Object Oriented Programming | Medium | — | May 06, 2026 |
 | **8** | [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain) | AI Coding | Medium | — | May 05, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -111,48 +111,48 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Low-Level Design | Hard | Jun 15, 2026 |
+| [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | Jun 15, 2026 |
 | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | AI Coding | Easy | May 19, 2026 |
-| [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Low-Level Design | Medium | May 08, 2026 |
+| [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | May 08, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
-| [Worker Salary OA](https://trueinterview.io/questions/worker-salary-oa) | Low-Level Design | Medium | May 06, 2026 |
+| [Worker Salary OA](https://trueinterview.io/questions/worker-salary-oa) | Object Oriented Programming | Medium | May 06, 2026 |
 | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | May 06, 2026 |
 | [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation) | Algorithm | Medium | May 06, 2026 |
 | [Mining Block](https://trueinterview.io/questions/mining-block) | Algorithm | Medium | May 05, 2026 |
 | [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain) | AI Coding | Medium | May 05, 2026 |
-| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Low-Level Design | Medium | Apr 28, 2026 |
-| [Food Delivery System (Multi-Level Coding)](https://trueinterview.io/questions/food-delivery-system-2) | Low-Level Design | Medium | Apr 20, 2026 |
+| [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Apr 28, 2026 |
+| [Food Delivery System (Multi-Level Coding)](https://trueinterview.io/questions/food-delivery-system-2) | Object Oriented Programming | Medium | Apr 20, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
 | [Render Blog Posts (Multi-Stage CodeSignal)](https://trueinterview.io/questions/fe-render-blog-posts-oa) | AI Coding | Medium | Mar 09, 2026 |
-| [Bank System](https://trueinterview.io/questions/bank-system) | Low-Level Design | Medium | Mar 04, 2026 |
+| [Bank System](https://trueinterview.io/questions/bank-system) | Object Oriented Programming | Medium | Mar 04, 2026 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
 | [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component) | AI Coding | Medium | Feb 23, 2026 |
 | [Design Credit Card Application System](https://trueinterview.io/questions/design-a-credit-approval-risk-engine) | System Design | Medium | Feb 15, 2026 |
-| [Interleave Iterator](https://trueinterview.io/questions/interleave-iterator) | Low-Level Design | Medium | Feb 13, 2026 |
+| [Interleave Iterator](https://trueinterview.io/questions/interleave-iterator) | Object Oriented Programming | Medium | Feb 13, 2026 |
 | [MLE CodeSignal OA (MCQ + NN + Classical-ML Coding)](https://trueinterview.io/questions/mle-codesignal-oa) | Algorithm | Medium | Feb 08, 2026 |
-| [Query Pagination](https://trueinterview.io/questions/query-pagination) | Low-Level Design | Medium | Feb 04, 2026 |
-| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Low-Level Design | Medium | Feb 03, 2026 |
+| [Query Pagination](https://trueinterview.io/questions/query-pagination) | Object Oriented Programming | Medium | Feb 04, 2026 |
+| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Object Oriented Programming | Medium | Feb 03, 2026 |
 | [Thread Logs Processing](https://trueinterview.io/questions/thread-logs-processing) | Algorithm | Easy | Jan 29, 2026 |
 | [Jupyter Pair Programming on Messy Classification Data](https://trueinterview.io/questions/mle-jupyter-classification) | AI Coding | Medium | Dec 19, 2025 |
-| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Low-Level Design | Medium | Dec 15, 2025 |
+| [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
 | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | System Design | Medium | Dec 01, 2025 |
-| [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Low-Level Design | Medium | Jul 22, 2025 |
-| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Low-Level Design | Easy | — |
+| [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Object Oriented Programming | Medium | Jul 22, 2025 |
+| [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Account Balance Transfer](https://trueinterview.io/questions/account-balance-transfer) | Algorithm | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Mine block coding question](https://trueinterview.io/questions/31a8c266-4a94-4e0d-b803-472764321103) | Algorithm | Hard | — |
-| [Banking System Transactions](https://trueinterview.io/questions/506496e9-f379-4951-8df1-27cb4984eb02) | Low-Level Design | Medium | — |
-| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Low-Level Design | Easy | — |
-| [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Low-Level Design | Easy | — |
-| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Low-Level Design | Medium | — |
+| [Banking System Transactions](https://trueinterview.io/questions/506496e9-f379-4951-8df1-27cb4984eb02) | Object Oriented Programming | Medium | — |
+| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
+| [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Object Oriented Programming | Easy | — |
+| [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [Maximize Transaction Fees in Block](https://trueinterview.io/questions/7839fcf7-ef9d-4183-8b53-4bb3fa1e7172) | Algorithm | Medium | — |
 | [Execution Task with Promise Chains](https://trueinterview.io/questions/7296b5d5-6b1c-4ff1-ae43-012cb3886ad1) | Algorithm | Easy | — |
 | [Find Shortest Path for All Items](https://trueinterview.io/questions/6b165ecf-6592-4940-ab4d-0bb42c54a0e5) | Algorithm | Hard | — |
-| [In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock](https://trueinterview.io/questions/64e826a3-6585-4f8a-a6a0-6b3fcb775999) | Low-Level Design | Medium | — |
-| [Banking System Coding Exercise (Multi-Currency + History Replay Follow-ups)](https://trueinterview.io/questions/51bffc13-90aa-496d-9013-285e9c344ec4) | Low-Level Design | Hard | — |
-| [Database Design and Implementation](https://trueinterview.io/questions/21808437-d0e2-42be-8536-5cb42b058133) | Low-Level Design | Medium | — |
-| [In-Memory DB: Track per-key operation counts and return Top N keys](https://trueinterview.io/questions/18f2af09-b069-4916-95ad-59284a68cccf) | Low-Level Design | Medium | — |
-| [Generate Random NFT](https://trueinterview.io/questions/c371c4af-f5cd-4071-967e-e37e7b38cdb3) | Low-Level Design | Medium | — |
+| [In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock](https://trueinterview.io/questions/64e826a3-6585-4f8a-a6a0-6b3fcb775999) | Object Oriented Programming | Medium | — |
+| [Banking System Coding Exercise (Multi-Currency + History Replay Follow-ups)](https://trueinterview.io/questions/51bffc13-90aa-496d-9013-285e9c344ec4) | Object Oriented Programming | Hard | — |
+| [Database Design and Implementation](https://trueinterview.io/questions/21808437-d0e2-42be-8536-5cb42b058133) | Object Oriented Programming | Medium | — |
+| [In-Memory DB: Track per-key operation counts and return Top N keys](https://trueinterview.io/questions/18f2af09-b069-4916-95ad-59284a68cccf) | Object Oriented Programming | Medium | — |
+| [Generate Random NFT](https://trueinterview.io/questions/c371c4af-f5cd-4071-967e-e37e7b38cdb3) | Object Oriented Programming | Medium | — |
 | [Longest Consecutive Character in String](https://trueinterview.io/questions/ae5833c1-2569-4d9e-ae07-7087514da7f6) | Algorithm | Easy | — |
-| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Low-Level Design | Medium | — |
-| [Log File Parser](https://trueinterview.io/questions/log-file-parser) | Low-Level Design | Easy | — |
+| [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Object Oriented Programming | Medium | — |
+| [Log File Parser](https://trueinterview.io/questions/log-file-parser) | Object Oriented Programming | Easy | — |
