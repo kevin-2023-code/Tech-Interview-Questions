@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **25** |
 | Most recent sighting | Jun 24, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 25) |
 | Difficulty (easy / medium / hard) | 3 / 15 / 7 |
 | Free to practise | [3](../free/README.md) |
@@ -39,11 +39,7 @@ Which stage each question came from, for the **25 of 25** questions at Instacart
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 24, 2026 |
+**Nothing has been reported at Instacart since Jun 24, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **169** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 7 |
+| Reported in the last 90 days | 6 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 169) |
 | Difficulty (easy / medium / hard) | 23 / 113 / 33 |
 | Free to practise | [24](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **169 of 169** questions at Uber th
 
 ## Asked here in the last 90 days
 
-**7 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -48,7 +48,6 @@ Which stage each question came from, for the **169 of 169** questions at Uber th
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Onsite / virtual onsite | Aug 10, 2026 |
 | [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
-| [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 24, 2026 |
 
 ## What they ask about
 

@@ -70,7 +70,7 @@ Of the **82 questions in this cut that carry a topic label** (47% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🔥 Sep 08, 2026 |
+| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🆕 Sep 08, 2026 |
 | **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Medium | 🆕 Aug 15, 2026 |
 | **Citadel** | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | Hard | Aug 05, 2026 |
 | **Citadel** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Easy | Aug 05, 2026 |

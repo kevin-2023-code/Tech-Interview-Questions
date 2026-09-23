@@ -47,7 +47,7 @@ Of the **107 questions in this cut that carry a topic label** (42% of it):
 
 ## Asked here in the last 90 days
 
-**10 sightings** across this cut. Newest first.
+**9 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -60,7 +60,6 @@ Of the **107 questions in this cut that carry a topic label** (42% of it):
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Affirm | Algorithm | Aug 01, 2026 |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | Stripe | SQL | Jul 22, 2026 |
 | [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | SoFi | Algorithm | Jul 04, 2026 |
-| [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Stripe | Algorithm | Jun 24, 2026 |
 
 ---
 

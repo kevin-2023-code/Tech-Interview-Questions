@@ -47,7 +47,7 @@ Of the **387 questions in this cut that carry a topic label** (42% of it):
 
 ## Asked here in the last 90 days
 
-**52 sightings** across this cut. Newest first.
+**45 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **387 questions in this cut that carry a topic label** (42% of it):
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Roblox | Algorithm | Aug 12, 2026 |
 
-<sub>40 more in this window are in the table below.</sub>
+<sub>33 more in this window are in the table below.</sub>
 
 ---
 
@@ -92,7 +92,7 @@ Of the **387 questions in this cut that carry a topic label** (42% of it):
 | **Figma** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | Medium | 🆕 Aug 12, 2026 |
 | **Figma** | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Medium | 🆕 Aug 12, 2026 |
 | **Figma** | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Medium | 🆕 Aug 12, 2026 |
-| **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | Medium | 🆕 Aug 08, 2026 |
+| **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | Medium | Aug 08, 2026 |
 | **Affirm** | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Medium | Aug 07, 2026 |
 | **Affirm** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Medium | Aug 06, 2026 |
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Medium | Aug 04, 2026 |

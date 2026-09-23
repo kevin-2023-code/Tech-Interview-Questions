@@ -8,10 +8,10 @@ What the bank is *about*, counted over the **1,174 questions that carry a topic 
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 208 | 18% | 22 | 57 | 131 | 20 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
-| `arrays` | 169 | 14% | 23 | 44 | 109 | 16 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
-| `graphs` | 169 | 14% | 14 | 12 | 116 | 41 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Meta](../companies/meta.md) |
-| `strings` | 143 | 12% | 10 | 45 | 82 | 16 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Meta](../companies/meta.md) |
+| `hashing` | 208 | 18% | 21 | 57 | 131 | 20 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
+| `arrays` | 169 | 14% | 22 | 44 | 109 | 16 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
+| `graphs` | 169 | 14% | 13 | 12 | 116 | 41 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Meta](../companies/meta.md) |
+| `strings` | 143 | 12% | 8 | 45 | 82 | 16 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Meta](../companies/meta.md) |
 | `greedy` | 103 | 9% | 9 | 9 | 76 | 18 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `dynamic-programming` | 86 | 7% | 9 | 7 | 46 | 33 | [Google](../companies/google.md), [ByteDance](../companies/bytedance.md), [Snowflake](../companies/snowflake.md) |
 | `backtracking` | 74 | 6% | 5 | 6 | 42 | 26 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Snowflake](../companies/snowflake.md) |
@@ -21,7 +21,7 @@ What the bank is *about*, counted over the **1,174 questions that carry a topic 
 | `sliding-window` | 60 | 5% | 4 | 9 | 42 | 9 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `two-pointers` | 56 | 5% | 3 | 15 | 39 | 2 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
 | `matrix` | 55 | 5% | 4 | 8 | 41 | 6 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
-| `stack` | 53 | 5% | 8 | 6 | 37 | 10 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md) |
+| `stack` | 53 | 5% | 5 | 6 | 37 | 10 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md) |
 | `binary-search` | 50 | 4% | 2 | 9 | 28 | 13 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `intervals` | 50 | 4% | 4 | 1 | 39 | 10 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `math` | 42 | 4% | 6 | 7 | 28 | 7 | [Amazon](../companies/amazon.md), [Applied Intuition](../companies/applied-intuition.md), [ByteDance](../companies/bytedance.md) |

@@ -56,15 +56,15 @@ The sector and size of an employer are facts about the company rather than about
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 237 | 17 | 47 | Sep 10, 2026 | 30 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 10 | 23 | Sep 10, 2026 | 21 |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 180 | 16 | 11 | Aug 16, 2026 | 23 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 179 | 16 | 24 | Sep 10, 2026 | 21 |
-| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 169 | 6 | 7 | Aug 16, 2026 | 24 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 180 | 16 | 10 | Aug 16, 2026 | 23 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 179 | 16 | 22 | Sep 10, 2026 | 21 |
+| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 169 | 6 | 6 | Aug 16, 2026 | 24 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 116 | 11 | 11 | Sep 09, 2026 | 19 |
-| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 114 | 12 | 14 | Aug 26, 2026 | 22 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 112 | 4 | 7 | Aug 15, 2026 | 12 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 114 | 12 | 13 | Aug 26, 2026 | 22 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 112 | 4 | 5 | Aug 15, 2026 | 12 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 101 | 14 | 5 | Aug 22, 2026 | 11 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 77 | 6 | 5 | Aug 26, 2026 | 5 |
-| [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 73 | 2 | 5 | Sep 11, 2026 | 5 |
+| [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 73 | 2 | 4 | Sep 11, 2026 | 5 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 70 | 6 | 0 | Jun 15, 2026 | 11 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 69 | 7 | 6 | Aug 16, 2026 | 4 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 64 | 6 | 3 | Jul 30, 2026 | 11 |
@@ -92,7 +92,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 0 | Jun 23, 2026 | 5 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 26 | 2 | 1 | Jul 04, 2026 | 3 |
 | [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 1 | Jun 28, 2026 | 3 |
-| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 25 | 1 | 1 | Jun 24, 2026 | 3 |
+| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 25 | 1 | 0 | Jun 24, 2026 | 3 |
 | [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 23 | 2 | 0 | Jun 17, 2026 | 6 |
 | [Two Sigma](two-sigma.md) | Quant trading & hedge funds · 1,000–9,999 people | 23 | 6 | 1 | Jul 29, 2026 | 3 |
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 23 | 1 | 0 | Jun 17, 2026 | 3 |
@@ -128,7 +128,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Scale AI](scale-ai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 12 | 6 | 0 | Jun 16, 2026 | 2 |
 | [Square](square.md) | Fintech, payments & crypto | 12 | — | 0 | Jun 17, 2026 | 2 |
 | [HubSpot](hubspot.md) | Enterprise & business software · 1,000–9,999 people | 10 | — | 0 | Feb 01, 2026 | 4 |
-| [Okta](okta.md) | Cybersecurity · 1,000–9,999 people | 10 | 2 | 3 | Jun 24, 2026 | 2 |
+| [Okta](okta.md) | Cybersecurity · 1,000–9,999 people | 10 | 2 | 0 | Jun 24, 2026 | 2 |
 | [Whatnot](whatnot.md) | E-commerce & marketplaces · 200–999 people | 7 | — | 0 | Jun 12, 2026 | 2 |
 | [Amplitude](amplitude.md) | Enterprise & business software · 200–999 people | 6 | 1 | 0 | Oct 02, 2025 | 2 |
 | [GEICO](geico.md) | Banks, insurers & asset managers · 10,000+ people | 6 | 1 | 0 | Apr 02, 2026 | 2 |

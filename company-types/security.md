@@ -45,16 +45,13 @@ Of the **32 questions in this cut that carry a topic label** (53% of it):
 
 ## Asked here in the last 90 days
 
-**6 sightings** across this cut. Newest first.
+**3 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Vanta | System Design | Jul 10, 2026 |
-| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Okta | Object Oriented Programming | Jun 24, 2026 |
-| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Okta | Object Oriented Programming | Jun 24, 2026 |
-| [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Okta | Algorithm | Jun 24, 2026 |
 
 ---
 

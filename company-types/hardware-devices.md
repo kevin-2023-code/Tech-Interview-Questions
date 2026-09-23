@@ -47,7 +47,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 
 ## Asked here in the last 90 days
 
-**14 sightings** across this cut. Newest first.
+**13 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Apple … | Algorithm | Jun 28, 2026 |
 | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Apple | Object Oriented Programming | Jun 28, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>1 more in this window are in the table below.</sub>
 
 ---
 
@@ -78,7 +78,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Apple** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | Medium | 🆕 Aug 16, 2026 |
 | **Apple** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Medium | 🆕 Aug 16, 2026 |
 | **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Medium | 🆕 Aug 13, 2026 |
-| **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | 🆕 Aug 08, 2026 |
+| **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | Aug 08, 2026 |
 | **Apple** | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Hard | Aug 05, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Apple** | [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Medium | Jul 28, 2026 |

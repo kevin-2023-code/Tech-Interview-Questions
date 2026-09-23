@@ -10,7 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🔥 Sep 08, 2026 |
+| **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🆕 Sep 08, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🆕 Sep 06, 2026 |
 | **ByteDance** | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |

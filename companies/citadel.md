@@ -133,7 +133,7 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | 🔥 Sep 08, 2026 |
+| [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | Medium | 🆕 Sep 08, 2026 |
 | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | 🆕 Aug 15, 2026 |
 | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | Aug 05, 2026 |
 | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | Aug 05, 2026 |

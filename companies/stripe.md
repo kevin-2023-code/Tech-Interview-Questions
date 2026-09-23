@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **73** |
 | Most recent sighting | Sep 11, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (53% of 73) |
 | Difficulty (easy / medium / hard) | 9 / 52 / 12 |
 | Free to practise | [5](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **73 of 73** questions at Stripe th
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,7 +47,6 @@ Which stage each question came from, for the **73 of 73** questions at Stripe th
 | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | Phone screen | Sep 11, 2026 |
 | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Algorithm | Hard | Online assessment | Aug 24, 2026 |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | SQL | Medium | Onsite / virtual onsite | Jul 22, 2026 |
-| [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Algorithm | Medium | Online assessment | Jun 24, 2026 |
 
 ## What they ask about
 

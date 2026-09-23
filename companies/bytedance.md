@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **179** |
 | Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 24 |
+| Reported in the last 90 days | 22 |
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 179) |
 | Difficulty (easy / medium / hard) | 22 / 119 / 38 |
 | Free to practise | [21](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **179 of 179** questions at ByteDan
 
 ## Asked here in the last 90 days
 
-**24 sightings** in this window. Newest first.
+**22 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **179 of 179** questions at ByteDan
 | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | System Design | Hard | Onsite / virtual onsite | Aug 17, 2026 |
 | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Algorithm | Hard | Onsite / virtual onsite | Aug 17, 2026 |
 
-<sub>12 more in this window are in the table below.</sub>
+<sub>10 more in this window are in the table below.</sub>
 
 ## What they ask about
 

@@ -47,7 +47,7 @@ Of the **595 questions in this cut that carry a topic label** (47% of it):
 
 ## Asked here in the last 90 days
 
-**144 sightings** across this cut. Newest first.
+**141 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **595 questions in this cut that carry a topic label** (47% of it):
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Object Oriented Programming | Sep 01, 2026 |
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Amazon | Algorithm | Sep 01, 2026 |
 
-<sub>132 more in this window are in the table below.</sub>
+<sub>129 more in this window are in the table below.</sub>
 
 ---
 
@@ -141,8 +141,8 @@ Of the **595 questions in this cut that carry a topic label** (47% of it):
 | **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Hard | 🆕 Aug 11, 2026 |
 | **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Hard | 🆕 Aug 11, 2026 |
 | **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | 🆕 Aug 10, 2026 |
-| **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | 🆕 Aug 08, 2026 |
-| **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | 🆕 Aug 08, 2026 |
+| **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | Aug 08, 2026 |
+| **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | Aug 08, 2026 |
 | **ByteDance** | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Medium | Aug 06, 2026 |
 | **Apple** | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Hard | Aug 05, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Medium | Jul 30, 2026 |

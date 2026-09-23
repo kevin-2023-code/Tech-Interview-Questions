@@ -47,7 +47,7 @@ Of the **338 questions in this cut that carry a topic label** (48% of it):
 
 ## Asked here in the last 90 days
 
-**60 sightings** across this cut. Newest first.
+**58 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **338 questions in this cut that carry a topic label** (48% of it):
 | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | ByteDance | System Design | Aug 25, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | ByteDance … | Algorithm | Aug 21, 2026 |
 
-<sub>48 more in this window are in the table below.</sub>
+<sub>46 more in this window are in the table below.</sub>
 
 ---
 

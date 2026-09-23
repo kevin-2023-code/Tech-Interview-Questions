@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **10** |
 | Most recent sighting | Jun 24, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 10) |
 | Difficulty (easy / medium / hard) | 3 / 7 / 0 |
 | Free to practise | [2](../free/README.md) |
@@ -38,13 +38,7 @@ Which stage each question came from, for the **10 of 10** questions at Okta that
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 24, 2026 |
-| [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 24, 2026 |
-| [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Phone screen | Jun 24, 2026 |
+**Nothing has been reported at Okta since Jun 24, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

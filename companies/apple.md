@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **114** |
 | Most recent sighting | Aug 26, 2026 |
-| Reported in the last 90 days | 14 |
+| Reported in the last 90 days | 13 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 114) |
 | Difficulty (easy / medium / hard) | 21 / 73 / 20 |
 | Free to practise | [22](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **114 of 114** questions at Apple t
 
 ## Asked here in the last 90 days
 
-**14 sightings** in this window. Newest first.
+**13 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **114 of 114** questions at Apple t
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Object Oriented Programming | Medium | Phone screen | Jun 28, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -144,7 +144,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | System Design | Medium | 🆕 Aug 16, 2026 |
 | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Medium | 🆕 Aug 13, 2026 |
-| [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | Hard | 🆕 Aug 08, 2026 |
+| [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | Hard | Aug 08, 2026 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Hard | Aug 05, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Algorithm | Medium | Jul 28, 2026 |

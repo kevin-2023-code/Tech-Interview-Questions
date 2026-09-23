@@ -47,7 +47,7 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**72 sightings** across this cut. Newest first.
+**71 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Amazon | Algorithm | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Amazon | Algorithm | Aug 22, 2026 |
 
-<sub>60 more in this window are in the table below.</sub>
+<sub>59 more in this window are in the table below.</sub>
 
 ---
 
@@ -107,7 +107,7 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | Medium | 🆕 Aug 13, 2026 |
 | **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Medium | 🆕 Aug 11, 2026 |
 | **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | 🆕 Aug 10, 2026 |
-| **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | 🆕 Aug 08, 2026 |
+| **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | Aug 08, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Medium | Jul 30, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Medium | Jul 29, 2026 |

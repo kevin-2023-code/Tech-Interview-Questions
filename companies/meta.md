@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **180** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 11 |
+| Reported in the last 90 days | 10 |
 | Most common format | [Algorithm](../formats/algorithm.md) (66% of 180) |
 | Difficulty (easy / medium / hard) | 28 / 115 / 37 |
 | Free to practise | [23](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **180 of 180** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**11 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -53,7 +53,6 @@ Which stage each question came from, for the **180 of 180** questions at Meta th
 | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | AI Coding | Hard | Onsite / virtual onsite | Jun 28, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 | [Trending Hashtags](https://trueinterview.io/questions/system-design-trending-hashtags) | System Design | Hard | Onsite / virtual onsite | Jun 28, 2026 |
-| [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 24, 2026 |
 
 ## What they ask about
 
