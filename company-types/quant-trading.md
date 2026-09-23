@@ -24,18 +24,18 @@
 | [System Design](../formats/system-design.md) | 2 | 1% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **25 / 118 / 30**, over the rows the catalog has graded. 19 of the 173 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **25 / 119 / 29**, over the rows the catalog has graded. 19 of the 173 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **82 questions in this cut that carry a topic label** (47% of it):
+Of the **81 questions in this cut that carry a topic label** (47% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 15 | 18% | ████████████ |
-| `graphs` | 11 | 13% | █████████ |
-| `greedy` | 10 | 12% | ████████ |
+| `arrays` | 15 | 19% | ████████████ |
+| `graphs` | 11 | 14% | █████████ |
 | `dynamic-programming` | 9 | 11% | ███████ |
+| `greedy` | 9 | 11% | ███████ |
 | `hashing` | 9 | 11% | ███████ |
 | `heap` | 9 | 11% | ███████ |
 | `sorting` | 9 | 11% | ███████ |
@@ -196,7 +196,7 @@ Of the **82 questions in this cut that carry a topic label** (47% of it):
 | **Hudson River Trading** | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | Medium | — |
 | **Squarepoint** | [Compute EMA Indicators and Detect Crossovers in Pandas](https://trueinterview.io/questions/eec3b2bb-0fda-44b2-bc31-5efa0e915e2d) | Medium | — |
 | **Squarepoint** | [Most Frequent Character with Lexicographical Tie-Breaking](https://trueinterview.io/questions/d51e32aa-3b44-5206-a122-5dc924dc34c9) | Easy | — |
-| **Squarepoint** | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Hard | — |
+| **Squarepoint** | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Medium | — |
 | **Squarepoint** | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Medium | — |
 | **Squarepoint** | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Medium | — |
 | **Squarepoint** | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Hard | — |

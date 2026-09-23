@@ -51,14 +51,14 @@ Which stage each question came from, for the **112 of 112** questions at Snowfla
 
 ## What they ask about
 
-Of the **68 questions at Snowflake that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **67 questions at Snowflake that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 14 | 21% | ████████████ | Jun 17, 2026 |
 | `dynamic-programming` | 9 | 13% | ████████ | Jun 07, 2026 |
-| `backtracking` | 8 | 12% | ███████ | Jun 17, 2026 |
 | `arrays` | 7 | 10% | ██████ | Jun 24, 2026 |
+| `backtracking` | 7 | 10% | ██████ | Jun 17, 2026 |
 | `hashing` | 7 | 10% | ██████ | May 30, 2026 |
 | `strings` | 7 | 10% | ██████ | Jun 17, 2026 |
 | `trees` | 7 | 10% | ██████ | Apr 15, 2026 |

@@ -109,7 +109,7 @@
 | **Squarepoint / Google** | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Medium | — |
 | **PayPal** | [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0) | Medium | — |
 | **PayPal** | [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Medium | — |
-| **PayPal** | [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Hard | — |
+| **PayPal** | [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Medium | — |
 | **PayPal** | [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | Medium | — |
 | **PayPal** | [Minimum Time to Schedule Processes on Degrading Processors](https://trueinterview.io/questions/599e3936-06f4-4c46-b61d-f155e3b6895f) | Medium | — |
 | **PayPal** | [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530) | Medium | — |

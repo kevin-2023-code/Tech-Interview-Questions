@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 23 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 190) |
-| Difficulty (easy / medium / hard) | 21 / 123 / 46 |
+| Difficulty (easy / medium / hard) | 21 / 124 / 45 |
 | Free to practise | [21](../free/README.md) |
 | Guides & writeups | 10 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **190 of 190** questions at Google 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 18 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 10 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 106 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 4 / 76 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 106 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 4 / 77 / 25 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 89 | ████████ | [Algorithm](../formats/algorithm.md) (56%) | 7 / 53 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -239,7 +239,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Reconstruct the BFS Path Before Reaching a Target](https://trueinterview.io/questions/ceeafc15-ce16-50a3-8890-26d9bd82c3ca) | Algorithm | Medium | — |
 | [Check Whether a Template Occurs in Leaf Text of a Binary Tree](https://trueinterview.io/questions/ccbcfb4f-2b34-53ef-a8da-4bedfb2889e5) | Algorithm | Hard | — |
 | [Permutations II](https://trueinterview.io/questions/b6747ed0-abbd-562b-9c62-8203b7c69d06) | Algorithm | Medium | — |
-| [Count Paths Matching Every Prefix in a Labeled Tree](https://trueinterview.io/questions/666e48b6-38b1-5803-9fbc-c5e3e5601f7b) | Algorithm | Hard | — |
+| [Count Paths Matching Every Prefix in a Labeled Tree](https://trueinterview.io/questions/666e48b6-38b1-5803-9fbc-c5e3e5601f7b) | Algorithm | Medium | — |
 | [Split a Log Line by Spaces Outside Quoted Fields](https://trueinterview.io/questions/63ad51fb-e5a7-516d-a385-28c429f52b59) | Algorithm | Medium | — |
 | [Maximum Area Rectangle From Given Points](https://trueinterview.io/questions/587db02b-9437-5e6d-8a2a-cb2d0fbe4eeb) | Algorithm | Medium | — |
 | [Deliver to All Grid Locations and Return Home](https://trueinterview.io/questions/4f2dcbed-a308-5c7e-abc6-151ec6fe8790) | Algorithm | Hard | — |

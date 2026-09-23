@@ -666,7 +666,7 @@
       "questions": 18,
       "slug": "squarepoint",
       "topFormat": "Algorithm",
-      "topTopic": "greedy"
+      "topTopic": "math"
     },
     {
       "dated": 3,
@@ -692,7 +692,7 @@
       "questions": 17,
       "slug": "paypal",
       "topFormat": "Algorithm",
-      "topTopic": "dynamic-programming"
+      "topTopic": "graphs"
     },
     {
       "dated": 4,
@@ -1017,7 +1017,7 @@
       "questions": 6,
       "slug": "geico",
       "topFormat": "Algorithm",
-      "topTopic": "dynamic-programming"
+      "topTopic": "arrays"
     },
     {
       "dated": 1,
@@ -1043,7 +1043,7 @@
       "questions": 6,
       "slug": "mongodb",
       "topFormat": "Algorithm",
-      "topTopic": "bit-manipulation"
+      "topTopic": "hashing"
     },
     {
       "dated": 0,
@@ -1295,8 +1295,8 @@
   ],
   "difficulty": {
     "easy": 369,
-    "hard": 526,
-    "medium": 1648
+    "hard": 522,
+    "medium": 1652
   },
   "earliestSighting": "2024-05-28",
   "formats": [
@@ -1305,10 +1305,10 @@
       "format": "algorithm",
       "free": 107,
       "graded": 1644,
-      "hard": 305,
+      "hard": 301,
       "inWindow": 113,
       "label": "Algorithm",
-      "medium": 1052,
+      "medium": 1056,
       "questions": 1644
     },
     {
@@ -2042,42 +2042,6 @@
       "topic": "hashing"
     },
     {
-      "easy": 44,
-      "graded": 169,
-      "hard": 16,
-      "inWindow": 22,
-      "medium": 109,
-      "questions": 169,
-      "topCompanies": [
-        {
-          "name": "Amazon",
-          "questions": 17,
-          "slug": "amazon"
-        },
-        {
-          "name": "ByteDance",
-          "questions": 15,
-          "slug": "bytedance"
-        },
-        {
-          "name": "Uber",
-          "questions": 15,
-          "slug": "uber"
-        },
-        {
-          "name": "Apple",
-          "questions": 13,
-          "slug": "apple"
-        },
-        {
-          "name": "Google",
-          "questions": 12,
-          "slug": "google"
-        }
-      ],
-      "topic": "arrays"
-    },
-    {
       "easy": 12,
       "graded": 169,
       "hard": 41,
@@ -2112,6 +2076,42 @@
         }
       ],
       "topic": "graphs"
+    },
+    {
+      "easy": 44,
+      "graded": 168,
+      "hard": 16,
+      "inWindow": 22,
+      "medium": 108,
+      "questions": 168,
+      "topCompanies": [
+        {
+          "name": "Amazon",
+          "questions": 17,
+          "slug": "amazon"
+        },
+        {
+          "name": "Uber",
+          "questions": 15,
+          "slug": "uber"
+        },
+        {
+          "name": "ByteDance",
+          "questions": 14,
+          "slug": "bytedance"
+        },
+        {
+          "name": "Apple",
+          "questions": 13,
+          "slug": "apple"
+        },
+        {
+          "name": "Google",
+          "questions": 12,
+          "slug": "google"
+        }
+      ],
+      "topic": "arrays"
     },
     {
       "easy": 45,
@@ -2151,11 +2151,11 @@
     },
     {
       "easy": 9,
-      "graded": 103,
-      "hard": 18,
+      "graded": 102,
+      "hard": 17,
       "inWindow": 9,
       "medium": 76,
-      "questions": 103,
+      "questions": 102,
       "topCompanies": [
         {
           "name": "Google",
@@ -2187,11 +2187,11 @@
     },
     {
       "easy": 7,
-      "graded": 86,
-      "hard": 33,
+      "graded": 83,
+      "hard": 31,
       "inWindow": 9,
-      "medium": 46,
-      "questions": 86,
+      "medium": 45,
+      "questions": 83,
       "topCompanies": [
         {
           "name": "Google",
@@ -2223,11 +2223,11 @@
     },
     {
       "easy": 6,
-      "graded": 74,
+      "graded": 73,
       "hard": 26,
       "inWindow": 5,
-      "medium": 42,
-      "questions": 74,
+      "medium": 41,
+      "questions": 73,
       "topCompanies": [
         {
           "name": "Google",
@@ -2240,11 +2240,6 @@
           "slug": "amazon"
         },
         {
-          "name": "Snowflake",
-          "questions": 8,
-          "slug": "snowflake"
-        },
-        {
           "name": "Uber",
           "questions": 8,
           "slug": "uber"
@@ -2253,6 +2248,11 @@
           "name": "Bloomberg",
           "questions": 7,
           "slug": "bloomberg"
+        },
+        {
+          "name": "ByteDance",
+          "questions": 7,
+          "slug": "bytedance"
         }
       ],
       "topic": "backtracking"
@@ -2655,11 +2655,11 @@
     },
     {
       "easy": 5,
-      "graded": 20,
-      "hard": 6,
+      "graded": 19,
+      "hard": 5,
       "inWindow": 1,
       "medium": 9,
-      "questions": 20,
+      "questions": 19,
       "topCompanies": [
         {
           "name": "Apple",
@@ -2771,7 +2771,7 @@
     "guides": 363,
     "inLastYear": 1314,
     "inWindow": 207,
-    "labelledTopic": 1174,
+    "labelledTopic": 1168,
     "namingARound": 2543,
     "questions": 2543,
     "undated": 1154

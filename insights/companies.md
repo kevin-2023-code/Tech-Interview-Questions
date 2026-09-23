@@ -90,9 +90,9 @@
 | [Pinduoduo](../companies/pinduoduo.md) | 19 | 3 | 4 | 3 | Jul 30, 2026 | Algorithm | `arrays` |
 | [Cisco](../companies/cisco.md) | 18 | 1 | 2 | 0 | Jun 16, 2026 | Algorithm | `dynamic-programming` |
 | [Figma](../companies/figma.md) | 18 | 3 | 2 | 8 | Aug 12, 2026 | System Design | `arrays` |
-| [Squarepoint](../companies/squarepoint.md) | 18 | 1 | 3 | 0 | May 23, 2026 | Algorithm | `greedy` |
+| [Squarepoint](../companies/squarepoint.md) | 18 | 1 | 3 | 0 | May 23, 2026 | Algorithm | `math` |
 | [Confluent](../companies/confluent.md) | 17 | 1 | 2 | 0 | Jan 14, 2026 | Algorithm | `arrays` |
-| [PayPal](../companies/paypal.md) | 17 | 1 | 3 | 0 | Apr 09, 2026 | Algorithm | `dynamic-programming` |
+| [PayPal](../companies/paypal.md) | 17 | 1 | 3 | 0 | Apr 09, 2026 | Algorithm | `graphs` |
 | [Point72](../companies/point72.md) | 17 | 1 | 2 | 3 | Jul 29, 2026 | Algorithm | `arrays` |
 | [Applied Intuition](../companies/applied-intuition.md) | 16 | 1 | 2 | 0 | Apr 28, 2026 | Algorithm | `graphs` |
 | [Hudson River Trading](../companies/hudson-river-trading.md) | 16 | 1 | 2 | 0 | May 01, 2026 | Algorithm | `arrays` |
@@ -117,9 +117,9 @@
 | [Okta](../companies/okta.md) | 10 | 2 | 2 | 0 | Jun 24, 2026 | Algorithm | `arrays` |
 | [Whatnot](../companies/whatnot.md) | 7 | 0 | 2 | 0 | Jun 12, 2026 | System Design | `hashing` |
 | [Amplitude](../companies/amplitude.md) | 6 | 1 | 2 | 0 | Oct 02, 2025 | Algorithm | `graphs` |
-| [GEICO](../companies/geico.md) | 6 | 1 | 2 | 0 | Apr 02, 2026 | Algorithm | `dynamic-programming` |
+| [GEICO](../companies/geico.md) | 6 | 1 | 2 | 0 | Apr 02, 2026 | Algorithm | `arrays` |
 | [Luma AI](../companies/luma-ai.md) | 6 | 1 | 2 | 0 | Jan 05, 2026 | Algorithm | `math` |
-| [MongoDB](../companies/mongodb.md) | 6 | 1 | 2 | — | — | Algorithm | `bit-manipulation` |
+| [MongoDB](../companies/mongodb.md) | 6 | 1 | 2 | — | — | Algorithm | `hashing` |
 | [Airtable](../companies/airtable.md) | 5 | 0 | 2 | — | — | Algorithm | `dynamic-programming` |
 | [Arista](../companies/arista.md) | 5 | 1 | 2 | — | — | Algorithm | `dynamic-programming` |
 | [Block](../companies/block.md) | 5 | 0 | 2 | 0 | May 01, 2026 | Algorithm | `dynamic-programming` |

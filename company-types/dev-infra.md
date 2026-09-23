@@ -24,21 +24,21 @@
 | [SQL](../formats/sql.md) | 5 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **31 / 142 / 46**, over the rows the catalog has graded. 29 of the 219 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **31 / 143 / 45**, over the rows the catalog has graded. 29 of the 219 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **96 questions in this cut that carry a topic label** (44% of it):
+Of the **94 questions in this cut that carry a topic label** (43% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `graphs` | 17 | 18% | ████████████ |
 | `hashing` | 15 | 16% | ███████████ |
-| `dynamic-programming` | 13 | 14% | █████████ |
-| `trees` | 12 | 12% | ████████ |
-| `arrays` | 11 | 11% | ████████ |
-| `backtracking` | 9 | 9% | ██████ |
-| `strings` | 9 | 9% | ██████ |
+| `dynamic-programming` | 12 | 13% | ████████ |
+| `trees` | 12 | 13% | ████████ |
+| `arrays` | 11 | 12% | ████████ |
+| `strings` | 9 | 10% | ██████ |
+| `backtracking` | 8 | 9% | ██████ |
 | `sliding-window` | 7 | 7% | █████ |
 | `greedy` | 6 | 6% | ████ |
 | `heap` | 5 | 5% | ████ |
@@ -227,7 +227,7 @@ Of the **96 questions in this cut that carry a topic label** (44% of it):
 | **MongoDB** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Medium | — |
 | **MongoDB** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Easy | — |
 | **MongoDB** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Medium | — |
-| **MongoDB** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Hard | — |
+| **MongoDB** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Medium | — |
 | **Snowflake / ByteDance / Meta / Uber / Whatnot** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | Medium | — |
 | **Snowflake / Citadel / Two Sigma / Uber** | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Medium | — |
 | **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |

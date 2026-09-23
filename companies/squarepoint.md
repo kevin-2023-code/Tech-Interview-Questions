@@ -18,7 +18,7 @@
 | Most recent sighting | May 23, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 18) |
-| Difficulty (easy / medium / hard) | 4 / 10 / 4 |
+| Difficulty (easy / medium / hard) | 4 / 11 / 3 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **18 of 18** questions at Squarepoi
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █████████ | [Algorithm](../formats/algorithm.md) (83%) | 4 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 5 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 5 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (80%) | 0 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,16 +42,16 @@ Which stage each question came from, for the **18 of 18** questions at Squarepoi
 
 ## What they ask about
 
-Of the **6 questions at Squarepoint that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Squarepoint that carry a topic label** (28% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 2 | 33% | ████████████ | — |
-| `math` | 2 | 33% | ████████████ | — |
-| `binary-search` | 1 | 17% | ██████ | — |
-| `dynamic-programming` | 1 | 17% | ██████ | — |
-| `hashing` | 1 | 17% | ██████ | — |
-| `strings` | 1 | 17% | ██████ | — |
+| `math` | 2 | 40% | ████████████ | — |
+| `binary-search` | 1 | 20% | ██████ | — |
+| `dynamic-programming` | 1 | 20% | ██████ | — |
+| `greedy` | 1 | 20% | ██████ | — |
+| `hashing` | 1 | 20% | ██████ | — |
+| `strings` | 1 | 20% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -108,7 +108,7 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | [Max Element at Position k with Adjacent Differences 1 and Sum m](https://trueinterview.io/questions/9dff9807-6525-4d06-a397-7a9128038bf6) | Algorithm | Medium | — |
 | [Compute EMA Indicators and Detect Crossovers in Pandas](https://trueinterview.io/questions/eec3b2bb-0fda-44b2-bc31-5efa0e915e2d) | Algorithm | Medium | — |
 | [Most Frequent Character with Lexicographical Tie-Breaking](https://trueinterview.io/questions/d51e32aa-3b44-5206-a122-5dc924dc34c9) | Algorithm | Easy | — |
-| [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Algorithm | Hard | — |
+| [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Algorithm | Medium | — |
 | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Algorithm | Medium | — |
 | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Algorithm | Medium | — |
 | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Object Oriented Programming | Hard | — |

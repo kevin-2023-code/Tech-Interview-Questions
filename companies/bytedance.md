@@ -59,12 +59,12 @@ Which stage each question came from, for the **179 of 179** questions at ByteDan
 
 ## What they ask about
 
-Of the **98 questions at ByteDance that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **97 questions at ByteDance that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 16 | 16% | ████████████ | Jun 17, 2026 |
-| `arrays` | 15 | 15% | ███████████ | Aug 21, 2026 |
+| `arrays` | 14 | 14% | ██████████ | Aug 21, 2026 |
 | `strings` | 12 | 12% | █████████ | Aug 17, 2026 |
 | `sliding-window` | 11 | 11% | ████████ | Jun 29, 2026 |
 | `dynamic-programming` | 9 | 9% | ███████ | Aug 17, 2026 |

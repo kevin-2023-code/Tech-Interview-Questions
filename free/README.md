@@ -8,7 +8,7 @@
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 107 | 22 | 63 | 22 |
+| [Algorithm](algorithm.md) | 107 | 22 | 64 | 21 |
 | [System Design](system-design.md) | 12 | 3 | 6 | 3 |
 | [AI Coding](ai-coding.md) | 7 | 1 | 5 | 1 |
 | [Object Oriented Programming](object-oriented-programming.md) | 40 | 2 | 34 | 4 |

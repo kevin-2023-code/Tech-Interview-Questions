@@ -80,6 +80,7 @@
 | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | **Two Sigma** | Medium | May 10, 2026 |
 | [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | **Robinhood** | Medium | Mar 2026 |
 | [Min Remove to Make Valid Parentheses](https://trueinterview.io/questions/min-remove-to-make-valid-parens) | **Meta** | Medium | Apr 01, 2026 |
+| [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | **MongoDB** | Medium | — |
 | [Mining Block](https://trueinterview.io/questions/mining-block) | **Coinbase** | Medium | May 05, 2026 |
 | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) | **Reddit** | Medium | Jun 23, 2026 |
 | [Morse Code Conversion](https://trueinterview.io/questions/f2fd49a4-36ff-4528-aade-cf3f781b1d59) | **Oscar Health** | Medium | — |
@@ -108,7 +109,6 @@
 | [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | **Dropbox** | Hard | — |
 | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | **MongoDB** | Hard | — |
 | [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) | **StackAdapt** | Hard | — |
-| [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | **MongoDB** | Hard | — |
 | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) | **Roblox** | Hard | Jun 10, 2026 |
 | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) | **Faire** | Hard | — |
 | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | **Chicago Trading** | Hard | — |

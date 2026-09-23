@@ -50,7 +50,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,644 | 65% | 113 | 287 | 1,052 | 305 | 1,644 | 107 |
+| [Algorithm](../formats/algorithm.md) | 1,644 | 65% | 113 | 287 | 1,056 | 301 | 1,644 | 107 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
 | [System Design](../formats/system-design.md) | 261 | 10% | 35 | 13 | 135 | 113 | 261 | 12 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 5% | 4 | 12 | 67 | 47 | 126 | 7 |
@@ -65,8 +65,8 @@ Of the **2,543 questions the catalog has graded** (100% of the bank):
 | Difficulty | Questions | Share of graded |  |
 | :-- | --: | --: | :-- |
 | Easy | 369 | 15% | ████ |
-| Medium | 1,648 | 65% | ████████████████ |
-| Hard | 526 | 21% | █████ |
+| Medium | 1,652 | 65% | ████████████████ |
+| Hard | 522 | 21% | █████ |
 
 <sub>The other 0 carry no grade. That is not *easy* — it is ungraded, and the two are only the same number if you let them be.</sub>
 
@@ -85,17 +85,17 @@ Of the **2,543 questions that name a round** (100% of the bank):
 
 ## Topics
 
-Of the **1,174 questions that carry a topic label** (46% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **1,168 questions that carry a topic label** (46% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
 | `hashing` | 208 | 18% | 21 | ████████████████ |
-| `arrays` | 169 | 14% | 22 | █████████████ |
 | `graphs` | 169 | 14% | 13 | █████████████ |
+| `arrays` | 168 | 14% | 22 | █████████████ |
 | `strings` | 143 | 12% | 8 | ███████████ |
-| `greedy` | 103 | 9% | 9 | ████████ |
-| `dynamic-programming` | 86 | 7% | 9 | ███████ |
-| `backtracking` | 74 | 6% | 5 | ██████ |
+| `greedy` | 102 | 9% | 9 | ████████ |
+| `dynamic-programming` | 83 | 7% | 9 | ██████ |
+| `backtracking` | 73 | 6% | 5 | ██████ |
 | `sorting` | 73 | 6% | 8 | ██████ |
 | `trees` | 69 | 6% | 5 | █████ |
 | `heap` | 60 | 5% | 5 | █████ |

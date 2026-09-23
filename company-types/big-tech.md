@@ -24,20 +24,20 @@
 | [SQL](../formats/sql.md) | 60 | 5% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 39 | 3% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **188 / 817 / 257**, over the rows the catalog has graded. 76 of the 1,262 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **188 / 819 / 255**, over the rows the catalog has graded. 76 of the 1,262 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **595 questions in this cut that carry a topic label** (47% of it):
+Of the **593 questions in this cut that carry a topic label** (47% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 96 | 16% | ████████████ |
-| `arrays` | 88 | 15% | ███████████ |
+| `arrays` | 87 | 15% | ███████████ |
 | `graphs` | 87 | 15% | ███████████ |
 | `strings` | 75 | 13% | █████████ |
 | `greedy` | 49 | 8% | ██████ |
-| `dynamic-programming` | 42 | 7% | █████ |
+| `dynamic-programming` | 41 | 7% | █████ |
 | `backtracking` | 39 | 7% | █████ |
 | `sliding-window` | 38 | 6% | █████ |
 | `two-pointers` | 36 | 6% | ████ |

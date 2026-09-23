@@ -27,20 +27,20 @@
 
 ## What they ask about
 
-Of the **93 questions in this cut that carry a topic label** (62% of it):
+Of the **92 questions in this cut that carry a topic label** (61% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 18 | 19% | ████████████ |
-| `hashing` | 18 | 19% | ████████████ |
+| `arrays` | 18 | 20% | ████████████ |
+| `hashing` | 18 | 20% | ████████████ |
 | `strings` | 15 | 16% | ██████████ |
 | `graphs` | 9 | 10% | ██████ |
 | `backtracking` | 8 | 9% | █████ |
 | `greedy` | 8 | 9% | █████ |
 | `sorting` | 8 | 9% | █████ |
 | `matrix` | 7 | 8% | █████ |
-| `dynamic-programming` | 6 | 6% | ████ |
-| `stack` | 6 | 6% | ████ |
+| `stack` | 6 | 7% | ████ |
+| `dynamic-programming` | 5 | 5% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
