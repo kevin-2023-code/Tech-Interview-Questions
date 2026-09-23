@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**418 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**411 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,6 @@
 | **Figma** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Medium | Jul 06, 2026 |
 | **Harvey** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Hard | Jul 2026 |
 | **Amazon** | [Pizza / Restaurant System](https://trueinterview.io/questions/pizza-restaurant-ood) | Medium | Jul 01, 2026 |
-| **Uber** | [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Medium | Jul 2026 |
 | **Apple** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Medium | Jun 28, 2026 |
 | **Databricks / Google** | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Medium | Jun 26, 2026 |
 | **Okta** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Medium | Jun 24, 2026 |
@@ -120,7 +119,6 @@
 | **Oracle** | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Medium | Apr 14, 2026 |
 | **Meta** | [Friend Recommendation II](https://trueinterview.io/questions/ai-coding-friend-recommendation) | Medium | Apr 14, 2026 |
 | **Databricks / Amazon** | [Design Lazy Array](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) | Medium | Apr 13, 2026 |
-| **DoorDash** | [Code Craft: Hierarchical Path Key-Value Store](https://trueinterview.io/questions/code-craft-path-key-value-store) | Medium | Apr 11, 2026 |
 | **Capital One** | [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Medium | Apr 08, 2026 |
 | **Two Sigma** | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Medium | Apr 07, 2026 |
 | **Walmart Labs** | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Medium | Apr 06, 2026 |
@@ -179,7 +177,6 @@
 | **Citadel** | [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict) | Medium | Jan 25, 2026 |
 | **Akuna Capital** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Medium | Jan 23, 2026 |
 | **LinkedIn** | [Design Cache with Eviction](https://trueinterview.io/questions/design-cache-with-eviction) | Medium | Jan 22, 2026 |
-| **LinkedIn** | [Cache with Rank-Based Eviction Policy](https://trueinterview.io/questions/coding-cache-rank-eviction) | Medium | Jan 22, 2026 |
 | **Citadel** | [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Medium | Jan 22, 2026 |
 | **Snowflake / ByteDance** | [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Medium | Jan 22, 2026 |
 | **Google** | [Run-Length Vector Storage + Dot Product](https://trueinterview.io/questions/compressed-vector-dot-product) | Medium | Jan 21, 2026 |
@@ -260,5 +257,8 @@
 | **Uber** | [Implement a YAML Parser](https://trueinterview.io/questions/1c342f27-ba5a-50b5-9cab-a2ef98aaba12) | Medium | — |
 | **ByteDance** | [In-Memory Key-Value Store with Snapshot and Restore](https://trueinterview.io/questions/5534e3f3-24b4-58f4-8835-8f1258d5cd67) | Medium | — |
 | **Amazon** | [Implement a Priority Queue from Scratch](https://trueinterview.io/questions/96ab949c-d905-528b-9d0c-da46018b1df0) | Medium | — |
+| **Amazon** | [Fix Django Post Creation API](https://trueinterview.io/questions/71e6edc3-c57b-529a-8419-d1445f2419fd) | Medium | — |
+| **Amazon** | [Design a Per-Message Rate Limiter](https://trueinterview.io/questions/57e1bd09-af24-537a-8584-1bf325fbe5c0) | Medium | — |
+| **StackAdapt** | [SongShuffler with Cooldown to Prevent Recent Repeats](https://trueinterview.io/questions/f2ece2d0-63e8-4cff-8b0b-adcbdb3fd61a) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](object-oriented-programming-2.md)</sub>

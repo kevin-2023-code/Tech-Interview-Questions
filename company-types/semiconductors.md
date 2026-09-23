@@ -2,7 +2,7 @@
 
 # 🔬 Semiconductors & chips — interview & OA questions
 
-**29 questions** reported across the **1 Semiconductors & chips employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**28 questions** reported across the **1 Semiconductors & chips employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[NVIDIA (29)](../companies/nvidia.md)
+[NVIDIA (28)](../companies/nvidia.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 18 | 62% | ██████████████ | 4 |
-| [System Design](../formats/system-design.md) | 5 | 17% | ████ | 0 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 10% | ██ | 1 |
+| [Algorithm](../formats/algorithm.md) | 17 | 61% | ██████████████ | 4 |
+| [System Design](../formats/system-design.md) | 5 | 18% | ████ | 0 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 11% | ██ | 1 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 7% | ██ | 0 |
-| [SQL](../formats/sql.md) | 1 | 3% | █ | 0 |
+| [SQL](../formats/sql.md) | 1 | 4% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **6 / 15 / 8**, over the rows the catalog has graded. 5 of the 29 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **6 / 14 / 8**, over the rows the catalog has graded. 5 of the 28 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **12 questions in this cut that carry a topic label** (41% of it):
+Of the **11 questions in this cut that carry a topic label** (39% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 2 | 17% | ████████████ |
-| `binary-search` | 2 | 17% | ████████████ |
-| `heap` | 2 | 17% | ████████████ |
-| `strings` | 2 | 17% | ████████████ |
-| `graphs` | 1 | 8% | ██████ |
-| `greedy` | 1 | 8% | ██████ |
-| `hashing` | 1 | 8% | ██████ |
-| `intervals` | 1 | 8% | ██████ |
-| `matrix` | 1 | 8% | ██████ |
-| `sliding-window` | 1 | 8% | ██████ |
+| `arrays` | 2 | 18% | ████████████ |
+| `heap` | 2 | 18% | ████████████ |
+| `strings` | 2 | 18% | ████████████ |
+| `binary-search` | 1 | 9% | ██████ |
+| `graphs` | 1 | 9% | ██████ |
+| `greedy` | 1 | 9% | ██████ |
+| `hashing` | 1 | 9% | ██████ |
+| `intervals` | 1 | 9% | ██████ |
+| `matrix` | 1 | 9% | ██████ |
+| `sliding-window` | 1 | 9% | ██████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -85,7 +85,6 @@ Of the **12 questions in this cut that carry a topic label** (41% of it):
 | **NVIDIA** | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | Hard | — |
 | **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
 | **Oracle / Ebay / NVIDIA** | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Medium | — |
-| **NVIDIA / ByteDance / Ebay** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/ef59b32b-948c-4f2a-a1ea-0672a8432eae) | Medium | — |
 | **NVIDIA** | [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2) | Medium | — |
 | **NVIDIA** | [Tree Planting on a Grid (no adjacent trees)](https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a) | Hard | — |
 | **NVIDIA** | [Compress and Decompress String (Excel-like Encoding)](https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f) | Medium | — |

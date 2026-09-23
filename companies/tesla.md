@@ -2,7 +2,7 @@
 
 # Tesla interview process, OA & interview questions
 
-**27 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
+**26 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **27** |
+| Questions tracked | **26** |
 | Most recent sighting | Jun 03, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (48% of 27) |
-| Difficulty (easy / medium / hard) | 2 / 16 / 9 |
-| Free to practise | [3](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (46% of 26) |
+| Difficulty (easy / medium / hard) | 2 / 15 / 9 |
+| Free to practise | [2](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 27 questions reported at Tesla. 17 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 26 questions reported at Tesla. 17 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **27 of 27** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **26 of 26** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | ██ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 1 / 10 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | █████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 5 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 7 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 1 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -43,7 +43,7 @@ Which stage each question came from, for the **27 of 27** questions at Tesla tha
 
 ## What they ask about
 
-Of the **9 questions at Tesla that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Tesla that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -142,4 +142,3 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | SQL | Medium | — |
 | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | SQL | Hard | — |
 | [Burning a Binary Tree (Time to Burn Entire Tree)](https://trueinterview.io/questions/19d7abba-9f7c-4acd-ab07-797730cfba83) | Algorithm | Medium | — |
-| [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |

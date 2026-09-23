@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**110 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**108 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (48)](../companies/waymo.md) · [Tesla (27)](../companies/tesla.md) · [Weride (21)](../companies/weride.md) · [Applied Intuition (16)](../companies/applied-intuition.md)
+[Waymo (48)](../companies/waymo.md) · [Tesla (26)](../companies/tesla.md) · [Weride (20)](../companies/weride.md) · [Applied Intuition (16)](../companies/applied-intuition.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,24 +18,24 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 73 | 66% | ██████████████ | 5 |
+| [Algorithm](../formats/algorithm.md) | 71 | 66% | ██████████████ | 4 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 14 | 13% | ███ | 4 |
 | [System Design](../formats/system-design.md) | 10 | 9% | ██ | 1 |
 | [SQL](../formats/sql.md) | 8 | 7% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 5% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **12 / 66 / 32**, over the rows the catalog has graded. 10 of the 110 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **11 / 65 / 32**, over the rows the catalog has graded. 9 of the 108 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **58 questions in this cut that carry a topic label** (53% of it):
+Of the **57 questions in this cut that carry a topic label** (53% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 13 | 22% | ████████████ |
-| `hashing` | 7 | 12% | ██████ |
-| `greedy` | 6 | 10% | ██████ |
-| `math` | 6 | 10% | ██████ |
+| `graphs` | 13 | 23% | ████████████ |
+| `greedy` | 6 | 11% | ██████ |
+| `hashing` | 6 | 11% | ██████ |
+| `math` | 6 | 11% | ██████ |
 | `strings` | 5 | 9% | █████ |
 | `binary-search` | 4 | 7% | ████ |
 | `dynamic-programming` | 4 | 7% | ████ |
@@ -158,7 +158,6 @@ Of the **58 questions in this cut that carry a topic label** (53% of it):
 | **Waymo / Uber** | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Medium | — |
 | **Tesla** | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533) | Easy | — |
 | **Tesla** | [Decode Ways](https://trueinterview.io/questions/37632eca-7568-544f-bd3c-98fcd234717d) | Medium | — |
-| **Meta / Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Weride** | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Easy | — |
 | **Waymo** | [Minimum travel path for a pen-plotter to draw given strokes](https://trueinterview.io/questions/3381639d-07f5-4b35-b058-b7310ebb194d) | Hard | — |
 | **Two Sigma / Waymo** | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Medium | — |
 | **Tesla / Google** | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Medium | — |
@@ -169,7 +168,6 @@ Of the **58 questions in this cut that carry a topic label** (53% of it):
 | **Pinterest / Weride** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Easy | — |
 | **Microsoft / GEICO / Weride** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
 | **Goldman Sachs / Weride** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
-| **Citadel / Hudson River Trading / Meta / Tesla** | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Medium | — |
 | **Capital One / Weride** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
 | **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
 | **Airbnb / Waymo** | [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Medium | — |

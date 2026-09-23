@@ -2,7 +2,7 @@
 
 # NVIDIA interview process, OA & interview questions
 
-**29 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **29** |
+| Questions tracked | **28** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
-| Difficulty (easy / medium / hard) | 6 / 15 / 8 |
+| Most common format | [Algorithm](../formats/algorithm.md) (61% of 28) |
+| Difficulty (easy / medium / hard) | 6 / 14 / 8 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 29 questions reported at NVIDIA. 17 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 28 questions reported at NVIDIA. 17 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **29 of 29** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **28 of 28** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 3 / 9 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 3 / 8 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 14 | █████████ | [Algorithm](../formats/algorithm.md) (43%) | 1 / 7 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -50,20 +50,20 @@ Which stage each question came from, for the **29 of 29** questions at NVIDIA th
 
 ## What they ask about
 
-Of the **12 questions at NVIDIA that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at NVIDIA that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 17% | ████████████ | Aug 21, 2026 |
-| `binary-search` | 2 | 17% | ████████████ | Aug 21, 2026 |
-| `heap` | 2 | 17% | ████████████ | Feb 05, 2026 |
-| `strings` | 2 | 17% | ████████████ | Apr 26, 2026 |
-| `graphs` | 1 | 8% | ██████ | — |
-| `greedy` | 1 | 8% | ██████ | — |
-| `hashing` | 1 | 8% | ██████ | Apr 15, 2026 |
-| `intervals` | 1 | 8% | ██████ | Feb 04, 2026 |
-| `matrix` | 1 | 8% | ██████ | Apr 15, 2026 |
-| `sliding-window` | 1 | 8% | ██████ | — |
+| `arrays` | 2 | 18% | ████████████ | Aug 21, 2026 |
+| `heap` | 2 | 18% | ████████████ | Feb 05, 2026 |
+| `strings` | 2 | 18% | ████████████ | Apr 26, 2026 |
+| `binary-search` | 1 | 9% | ██████ | Aug 21, 2026 |
+| `graphs` | 1 | 9% | ██████ | — |
+| `greedy` | 1 | 9% | ██████ | — |
+| `hashing` | 1 | 9% | ██████ | Apr 15, 2026 |
+| `intervals` | 1 | 9% | ██████ | Feb 04, 2026 |
+| `matrix` | 1 | 9% | ██████ | Apr 15, 2026 |
+| `sliding-window` | 1 | 9% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -142,7 +142,6 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [C++ Debugging and Output Prediction (Pointers, Inheritance, Multithreading)](https://trueinterview.io/questions/c9faf9f0-abee-46fa-8223-55faa41d234f) | AI Coding | Hard | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Algorithm | Medium | — |
-| [Search in Rotated Sorted Array](https://trueinterview.io/questions/ef59b32b-948c-4f2a-a1ea-0672a8432eae) | Algorithm | Medium | — |
 | [Minimum Sum After K Operations](https://trueinterview.io/questions/c6277696-f3ab-4021-ae83-03c4135e2bf2) | Algorithm | Medium | — |
 | [Tree Planting on a Grid (no adjacent trees)](https://trueinterview.io/questions/bd352d63-afa7-4443-b0fa-3b3dfcb9948a) | Algorithm | Hard | — |
 | [Compress and Decompress String (Excel-like Encoding)](https://trueinterview.io/questions/855bd20f-2c9a-4217-822e-2130419c0b5f) | Algorithm | Medium | — |

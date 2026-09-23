@@ -2,7 +2,7 @@
 
 # Apple interview process, OA & interview questions
 
-**114 questions** reported at Apple · **12 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
+**113 questions** reported at Apple · **12 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **114** |
+| Questions tracked | **113** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 13 |
-| Most common format | [Algorithm](../formats/algorithm.md) (70% of 114) |
-| Difficulty (easy / medium / hard) | 21 / 73 / 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 113) |
+| Difficulty (easy / medium / hard) | 21 / 72 / 20 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 12 |
 
-<sub>Counted from the 114 questions reported at Apple. 86 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 113 questions reported at Apple. 85 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **114 of 114** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **113 of 113** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (67%) | 3 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 93 | ██████████ | [Algorithm](../formats/algorithm.md) (76%) | 16 / 60 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (76%) | 16 / 59 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 35 | ████ | [Algorithm](../formats/algorithm.md) (37%) | 4 / 20 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -88,7 +88,7 @@ Every recorded sighting at Apple, by the month it was reported in — Oct 29, 20
 | [May 2026](../by-month/2026-05.md) | 9 | ██████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 15 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 12 | ███████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 14 | ██████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 13 | █████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 7 | ███████████ |
 | [Dec 2025](../by-month/2025-12.md) | 8 | █████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | █████ |
@@ -196,7 +196,6 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Write a Debounce Function](https://trueinterview.io/questions/write-a-debounce-function) | Algorithm | Medium | Feb 27, 2026 |
 | [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards) | Object Oriented Programming | Medium | Feb 26, 2026 |
 | [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch) | AI Coding | Hard | Feb 25, 2026 |
-| [Redundant Connection](https://trueinterview.io/questions/redundant-connection) | Algorithm | Medium | Feb 22, 2026 |
 | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Algorithm | Medium | Feb 21, 2026 |
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Feb 16, 2026 |
 | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Algorithm | Easy | Feb 11, 2026 |

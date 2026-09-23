@@ -2,7 +2,7 @@
 
 # Pinduoduo interview process, OA & interview questions
 
-**19 questions** reported at Pinduoduo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo), judged server-side on the algorithm, low-level-design and SQL formats.
+**18 questions** reported at Pinduoduo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,54 +14,53 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
+| Questions tracked | **18** |
 | Most recent sighting | Jul 30, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (95% of 19) |
-| Difficulty (easy / medium / hard) | 4 / 10 / 5 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (94% of 18) |
+| Difficulty (easy / medium / hard) | 4 / 9 / 5 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 19 questions reported at Pinduoduo. 10 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 18 questions reported at Pinduoduo. 9 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at Pinduoduo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **18 of 18** questions at Pinduoduo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (93%) | 2 / 8 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 3 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | Phone screen | Jul 30, 2026 |
 | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | Onsite / virtual onsite | Jul 17, 2026 |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Algorithm | Medium | Onsite / virtual onsite | Jul 17, 2026 |
 
 ## What they ask about
 
-Of the **12 questions at Pinduoduo that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Pinduoduo that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 17% | ████████████ | Jul 17, 2026 |
-| `hashing` | 2 | 17% | ████████████ | Jun 08, 2026 |
-| `matrix` | 2 | 17% | ████████████ | — |
-| `sliding-window` | 2 | 17% | ████████████ | Jul 17, 2026 |
-| `stack` | 2 | 17% | ████████████ | Mar 24, 2026 |
-| `strings` | 2 | 17% | ████████████ | Jul 17, 2026 |
-| `backtracking` | 1 | 8% | ██████ | — |
-| `binary-search` | 1 | 8% | ██████ | — |
-| `dynamic-programming` | 1 | 8% | ██████ | Jul 17, 2026 |
-| `heap` | 1 | 8% | ██████ | Jun 08, 2026 |
+| `arrays` | 2 | 18% | ████████████ | Jul 17, 2026 |
+| `hashing` | 2 | 18% | ████████████ | Jun 08, 2026 |
+| `matrix` | 2 | 18% | ████████████ | — |
+| `stack` | 2 | 18% | ████████████ | Mar 24, 2026 |
+| `backtracking` | 1 | 9% | ██████ | — |
+| `binary-search` | 1 | 9% | ██████ | — |
+| `dynamic-programming` | 1 | 9% | ██████ | Jul 17, 2026 |
+| `heap` | 1 | 9% | ██████ | Jun 08, 2026 |
+| `linked-list` | 1 | 9% | ██████ | Apr 09, 2026 |
+| `sliding-window` | 1 | 9% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -71,7 +70,7 @@ Every recorded sighting at Pinduoduo, by the month it was reported in — Feb 07
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ████████████████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ████████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████████████████████ |
@@ -84,13 +83,13 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | — | Jul 30, 2026 |
-| **2** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Algorithm | Medium | — | Jul 17, 2026 |
-| **3** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | — | Jul 17, 2026 |
-| **4** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 3 | Jun 16, 2026 |
-| **5** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | 7 | Jun 08, 2026 |
-| **6** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 7 | Apr 09, 2026 |
-| **7** | [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush) | Algorithm | Medium | — | Mar 27, 2026 |
-| **8** | [Next Greater Element I](https://trueinterview.io/questions/next-greater-element-i) | Algorithm | Easy | — | Mar 24, 2026 |
+| **2** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | — | Jul 17, 2026 |
+| **3** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 3 | Jun 16, 2026 |
+| **4** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | 7 | Jun 08, 2026 |
+| **5** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 7 | Apr 09, 2026 |
+| **6** | [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush) | Algorithm | Medium | — | Mar 27, 2026 |
+| **7** | [Next Greater Element I](https://trueinterview.io/questions/next-greater-element-i) | Algorithm | Easy | — | Mar 24, 2026 |
+| **8** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -115,7 +114,6 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Algorithm | Medium | Jul 30, 2026 |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Algorithm | Medium | Jul 17, 2026 |
 | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | Jul 17, 2026 |
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |

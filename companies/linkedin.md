@@ -2,7 +2,7 @@
 
 # LinkedIn interview process, OA & interview questions
 
-**57 questions** reported at LinkedIn · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
+**55 questions** reported at LinkedIn · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **57** |
+| Questions tracked | **55** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (46% of 57) |
-| Difficulty (easy / medium / hard) | 6 / 38 / 13 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 55) |
+| Difficulty (easy / medium / hard) | 6 / 36 / 13 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 57 questions reported at LinkedIn. 35 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 55 questions reported at LinkedIn. 34 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **57 of 57** questions at LinkedIn that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **55 of 55** questions at LinkedIn that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 25 | ███████ | [Algorithm](../formats/algorithm.md) (64%) | 2 / 17 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (34%) | 3 / 26 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 24 | ██████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 16 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 37 | ██████████ | [Algorithm](../formats/algorithm.md) (35%) | 3 / 25 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -47,20 +47,20 @@ Which stage each question came from, for the **57 of 57** questions at LinkedIn 
 
 ## What they ask about
 
-Of the **22 questions at LinkedIn that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **21 questions at LinkedIn that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `backtracking` | 3 | 14% | ████████████ | — |
 | `graphs` | 3 | 14% | ████████████ | Apr 09, 2026 |
-| `heap` | 3 | 14% | ████████████ | Jul 29, 2026 |
 | `intervals` | 3 | 14% | ████████████ | Apr 17, 2026 |
-| `hashing` | 2 | 9% | ████████ | Jun 08, 2026 |
-| `stack` | 2 | 9% | ████████ | Nov 20, 2025 |
-| `trees` | 2 | 9% | ████████ | — |
-| `two-pointers` | 2 | 9% | ████████ | Mar 02, 2026 |
+| `heap` | 2 | 10% | ████████ | Jul 29, 2026 |
+| `stack` | 2 | 10% | ████████ | Nov 20, 2025 |
+| `trees` | 2 | 10% | ████████ | — |
+| `two-pointers` | 2 | 10% | ████████ | Mar 02, 2026 |
 | `arrays` | 1 | 5% | ████ | Nov 12, 2025 |
 | `dynamic-programming` | 1 | 5% | ████ | — |
+| `greedy` | 1 | 5% | ████ | Apr 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -76,7 +76,7 @@ Every recorded sighting at LinkedIn, by the month it was reported in — Aug 31,
 | [Apr 2026](../by-month/2026-04.md) | 4 | ██████████ |
 | [Mar 2026](../by-month/2026-03.md) | 10 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 5 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | █████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 4 | ██████████ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | ██ |
@@ -145,7 +145,6 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Alert Monitor — Rolling Window + Severity Distribution + Spike Detection](https://trueinterview.io/questions/coding-alert-monitor) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Design Cache with Eviction](https://trueinterview.io/questions/design-cache-with-eviction) | Object Oriented Programming | Medium | Jan 22, 2026 |
-| [Cache with Rank-Based Eviction Policy](https://trueinterview.io/questions/coding-cache-rank-eviction) | Object Oriented Programming | Medium | Jan 22, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
 | [Single-Machine Key-Value Store with Filesystem Spill](https://trueinterview.io/questions/sd-single-machine-kv-store) | System Design | Medium | Dec 24, 2025 |
 | [Service Dependency Impact Propagation](https://trueinterview.io/questions/coding-service-dependency-impact) | Algorithm | Hard | Dec 22, 2025 |
@@ -173,7 +172,6 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e) | Algorithm | Hard | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84) | Algorithm | Easy | — |
-| [Rankable Object Cache Implementation](https://trueinterview.io/questions/145e29f1-f83c-4a08-ae4e-546b98e07477) | Object Oriented Programming | Medium | — |
 | [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Object Oriented Programming | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Algorithm | Easy | — |

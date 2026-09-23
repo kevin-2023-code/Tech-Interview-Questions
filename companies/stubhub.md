@@ -2,7 +2,7 @@
 
 # Stubhub interview process, OA & interview questions
 
-**3 questions** reported at Stubhub · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stubhub), judged server-side on the algorithm, low-level-design and SQL formats.
+**2 questions** reported at Stubhub · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stubhub), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
+| Questions tracked | **2** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (100% of 3) |
-| Difficulty (easy / medium / hard) | 0 / 2 / 1 |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (100% of 2) |
+| Difficulty (easy / medium / hard) | 0 / 1 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 3 questions reported at Stubhub. 0 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 2 questions reported at Stubhub. 0 of them carry a sighting date; the other 2 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at Stubhub that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **2 of 2** questions at Stubhub that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Onsite / virtual onsite** | 3 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -40,17 +40,16 @@ Which stage each question came from, for the **3 of 3** questions at Stubhub tha
 
 ## What they ask about
 
-**None of the 3 questions reported at Stubhub carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+**None of the 2 questions reported at Stubhub carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
 
 ## Start here
 
-The 3 questions to open first if you are preparing for Stubhub. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 3 questions on file, easiest first. 🆓 opens without a paid plan.
+The 2 questions to open first if you are preparing for Stubhub. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 2 questions on file, easiest first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) 🆓 | Object Oriented Programming | Medium | — | — |
-| **2** | [Strategy-Based Event Recommendation Engine](https://trueinterview.io/questions/97013397-3a31-50c4-8f2b-85e6455c3277) | Object Oriented Programming | Medium | — | — |
-| **3** | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) 🆓 | Object Oriented Programming | Hard | — | — |
+| **2** | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) 🆓 | Object Oriented Programming | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -73,5 +72,4 @@ The 3 questions to open first if you are preparing for Stubhub. **This is not a 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | Object Oriented Programming | Medium | — |
-| [Strategy-Based Event Recommendation Engine](https://trueinterview.io/questions/97013397-3a31-50c4-8f2b-85e6455c3277) | Object Oriented Programming | Medium | — |
 | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | Object Oriented Programming | Hard | — |

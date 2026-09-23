@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,644 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,624 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,24 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Akuna Capital** | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Medium | — |
-| **Akuna Capital** | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Easy | — |
-| **Akuna Capital** | [Earliest Completion Date](https://trueinterview.io/questions/8aac20d0-1504-4d77-a135-6d802ad17cc3) | Easy | — |
-| **Akuna Capital** | [Min Mod and Max](https://trueinterview.io/questions/300141c0-9e82-4bc4-8055-d73e3ca2fae2) | Easy | — |
-| **Airbnb** | [Find Split Stays for Airbnb Listings](https://trueinterview.io/questions/e03cb6a7-a689-4b72-ba5e-bc25eceb157b) | Medium | — |
-| **Airbnb** | [Water Pouring Problem](https://trueinterview.io/questions/b70c9cb6-02b6-445e-bc21-2135d02ea01b) | Medium | — |
-| **Airbnb / Amazon / ByteDance / OpenAI** | [Dependency Resolution / Build Order](https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e) | Medium | — |
-| **Airbnb / Waymo** | [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Medium | — |
-| **Airbnb** | [Lodging / Booking Problem (Airbnb-style)](https://trueinterview.io/questions/129e7f92-adec-40f3-b20c-105a2cc74c67) | Medium | — |
-| **Google** | [Shortest Directed Cycle Through a Node](https://trueinterview.io/questions/shortest-cycle-through-node) | Medium | — |
-| **Google** | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Medium | — |
-| **Snapchat / ByteDance / Google / Meta / Pinduoduo / Rokt / Walmart Labs** | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Medium | — |
-| **Scale AI** | [Implement Top-p (Nucleus) Sampling in NumPy](https://trueinterview.io/questions/26db71f3-0ec8-4274-af98-d5bd29bdcf73) | Medium | — |
-| **Netflix** | [Homepage Title Deduplication](https://trueinterview.io/questions/homepage-title-deduplication) | Easy | — |
-| **Meta** | [Find a Local Minimum (Valley) in an Array](https://trueinterview.io/questions/837563a0-09af-4bc7-b2d8-0b69a2aee8e2) | Medium | — |
-| **Meta** | [Longest Vacation With PTO (flip W to H)](https://trueinterview.io/questions/60a769ab-5a47-4fe2-ac54-071077547f77) | Medium | — |
-| **Meta** | [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643) | Medium | — |
-| **Meta / NVIDIA / Upstart** | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | Easy | — |
 | **Meta** | [Binary Tree: Print Left Boundary Bottom-Up and Right Boundary Top-Down](https://trueinterview.io/questions/0d8ad1b8-ec74-4ddf-9c25-37d113f4aad3) | Medium | — |
 | **LinkedIn** | [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84) | Easy | — |
 | **Google** | [Maximum Coins Eaten](https://trueinterview.io/questions/6eca8cb0-2bbe-4bed-8e49-48257111c9b7) | Easy | — |
@@ -48,7 +30,6 @@
 | **Google** | [Signal Propagation in Graph](https://trueinterview.io/questions/11b83d9a-5ded-4bb0-8889-b1692adf9464) | Medium | — |
 | **Google** | [Longest Non Decreasing Subarray Part 2](https://trueinterview.io/questions/0cd23ef7-9668-4a6a-82e2-63eedeeceead) | Medium | — |
 | **ByteDance / Amazon** | [Plus One](https://trueinterview.io/questions/65c03f5a-0fe9-4f02-8d66-d34a3b8193fd) | Easy | — |
-| **Amazon** | [Hash Table Lookup with Simple Follow-ups](https://trueinterview.io/questions/1ec3d488-2ee5-489b-9ef9-544a6659dfd5) | Easy | — |
 | **Meta** | [Maze Problem](https://trueinterview.io/questions/110ab1b0-fab7-4c67-a9b4-569ce7d74c2f) | Medium | — |
 | **Google** | [Group Array](https://trueinterview.io/questions/19b3ac67-7f53-4497-9f89-93551984b216) | Easy | — |
 | **Snowflake / Amazon / Meta / Snapchat** | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Medium | — |
@@ -130,7 +111,6 @@
 | **Netflix** | [Bucket Users by Movie Completion Percentage from an Event Stream](https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf) | Medium | — |
 | **Netflix / LinkedIn** | [Tree Depth Calculation](https://trueinterview.io/questions/6044a0d6-8535-4971-ad1b-427f1d701c3c) | Easy | — |
 | **Databricks** | [Revenue Calculation](https://trueinterview.io/questions/defc1881-3c2c-49ae-934b-39263ce423cf) | Medium | — |
-| **Databricks** | [Bottom-K Customers by Revenue (with Nested Revenue Follow-up)](https://trueinterview.io/questions/ac49da6b-4bab-473b-9087-c81aa1bd7986) | Medium | — |
 | **Databricks** | [Reconstruct a Binary Tree from Inorder Traversal (Follow-up)](https://trueinterview.io/questions/763b1a0b-3c17-478c-9efb-43a4e22d4e3d) | Medium | — |
 | **Databricks** | [Grid pathfinding with time & cost optimality (BFS / shortest path variant)](https://trueinterview.io/questions/5ef47226-c611-4570-99aa-51ed22a3d12b) | Medium | — |
 | **Databricks** | [Check Whether a Binary Tree Is a Fibonacci Tree in O(h) Time](https://trueinterview.io/questions/44ee2fb4-e34e-431f-ad8d-61388d5ef87d) | Medium | — |

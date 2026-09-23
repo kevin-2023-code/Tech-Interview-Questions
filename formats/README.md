@@ -8,8 +8,8 @@ Each question is asked in exactly one format, so these counts sum to the whole b
 
 | Format | Questions | On TrueInterview |
 | :-- | --: | :-- |
-| [Algorithm](algorithm.md) | 1,644 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
+| [Algorithm](algorithm.md) | 1,624 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
 | [SQL](sql.md) | 94 | [sql](https://trueinterview.io/problems?type=sql) |
-| [System Design](system-design.md) | 261 | [system-design](https://trueinterview.io/problems?type=system-design) |
+| [System Design](system-design.md) | 254 | [system-design](https://trueinterview.io/problems?type=system-design) |
 | [AI Coding](ai-coding.md) | 126 | [ai-coding](https://trueinterview.io/problems?type=ai-coding) |
-| [Object Oriented Programming](object-oriented-programming.md) | 418 | [object-oriented-programming](https://trueinterview.io/problems?type=object-oriented-programming) |
+| [Object Oriented Programming](object-oriented-programming.md) | 411 | [object-oriented-programming](https://trueinterview.io/problems?type=object-oriented-programming) |

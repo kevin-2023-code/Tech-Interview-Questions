@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,644 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,624 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,16 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Chicago Trading** | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | Hard | — |
-| **Arista** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Medium | — |
-| **Arista** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Easy | — |
-| **Arista** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Medium | — |
-| **Arista** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Easy | — |
-| **Amplitude** | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Medium | — |
-| **Amplitude** | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Medium | — |
-| **Amplitude** | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Medium | — |
-| **Amplitude** | [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | Medium | — |
-| **MongoDB** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Hard | — |
 | **MongoDB** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Hard | — |
 | **Pinduoduo** | [Transaction Settlement](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e) | Hard | — |
 | **Pinduoduo** | [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44) | Hard | — |
@@ -260,5 +250,15 @@
 | **Meta** | [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4) | Easy | — |
 | **Meta / Netflix** | [Timed Cache / Expiring Key-Value Cache](https://trueinterview.io/questions/0259cb6a-dad1-597f-9f83-2b825ffde92f) | Medium | — |
 | **Instacart** | [Fix Backend Filtering for Book Search Results](https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22) | Easy | — |
+| **Google** | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Medium | — |
+| **Google** | [Count Nested Key Pairs and Return Most Frequent Inner Key](https://trueinterview.io/questions/00e2c5ae-3af2-5102-9b0f-51fefca7e047) | Medium | — |
+| **DoorDash** | [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374) | Medium | — |
+| **Citadel** | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Medium | — |
+| **ByteDance** | [Minimum Jumps to Reach Home](https://trueinterview.io/questions/cf9a9de0-1885-53cf-a041-0c7ad83b8b83) | Hard | — |
+| **ByteDance / Expedia** | [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) | Medium | — |
+| **ByteDance** | [Reverse the Order of k-Groups in a Linked List](https://trueinterview.io/questions/696ce95e-fd57-5869-a38c-d7a4db538696) | Medium | — |
+| **ByteDance** | [Maximum Candies Allocated to K Children](https://trueinterview.io/questions/399fbb4a-5f57-5d2c-bf6b-ead8141c2dd9) | Medium | — |
+| **ByteDance** | [Count of Interesting Subarrays](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a) | Medium | — |
+| **Amazon** | [Concatenated Words with All Decompositions](https://trueinterview.io/questions/fdff4b6e-a87e-5bc8-8f58-d0ce31113f48) | Hard | — |
 
 <sub>[← Page 4](algorithm-4.md) · Page 5 of 7 · [Page 6 →](algorithm-6.md)</sub>

@@ -2,7 +2,7 @@
 
 # Airbnb interview process, OA & interview questions
 
-**51 questions** reported at Airbnb · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
+**50 questions** reported at Airbnb · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **51** |
+| Questions tracked | **50** |
 | Most recent sighting | Jul 22, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 51) |
-| Difficulty (easy / medium / hard) | 2 / 30 / 19 |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 50) |
+| Difficulty (easy / medium / hard) | 2 / 30 / 18 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 51 questions reported at Airbnb. 39 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 50 questions reported at Airbnb. 38 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **51 of 51** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **50 of 50** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Phone screen** | 28 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 20 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (50%) | 2 / 15 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 31 | ██████████ | [System Design](../formats/system-design.md) (48%) | 2 / 15 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -70,7 +70,7 @@ Every recorded sighting at Airbnb, by the month it was reported in — Sep 17, 2
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
-| [Jun 2026](../by-month/2026-06.md) | 9 | ████████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 8 | █████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 9 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████ |
@@ -90,11 +90,11 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | **1** | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | SQL | Medium | — | Jul 22, 2026 |
 | **2** | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Algorithm | Hard | — | Jun 26, 2026 |
 | **3** | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | AI Coding | Hard | — | Jun 22, 2026 |
-| **4** | [Group Chat / Messaging System Design](https://trueinterview.io/questions/group-chat-messaging-system-design) | System Design | Hard | — | Jun 22, 2026 |
-| **5** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **6** | [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Algorithm | Medium | — | Jun 17, 2026 |
-| **7** | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | System Design | Hard | — | Jun 17, 2026 |
-| **8** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Jun 11, 2026 |
+| **4** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
+| **5** | [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Algorithm | Medium | — | Jun 17, 2026 |
+| **6** | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | System Design | Hard | — | Jun 17, 2026 |
+| **7** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Jun 11, 2026 |
+| **8** | [Build Smallest Number](https://trueinterview.io/questions/smallest-permutation-bound) | Algorithm | Hard | — | Jun 03, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -124,7 +124,6 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | SQL | Medium | Jul 22, 2026 |
 | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Algorithm | Hard | Jun 26, 2026 |
 | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | AI Coding | Hard | Jun 22, 2026 |
-| [Group Chat / Messaging System Design](https://trueinterview.io/questions/group-chat-messaging-system-design) | System Design | Hard | Jun 22, 2026 |
 | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Algorithm | Medium | Jun 17, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |

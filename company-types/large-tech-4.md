@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**932 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**924 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,14 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Pinterest** | [Account Balancing](https://trueinterview.io/questions/31a24eea-aee5-45ea-b3eb-9d8f920f226a) | Medium | — |
-| **SoFi** | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Easy | — |
-| **xAI / Lyft** | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Hard | — |
-| **SoFi** | [Maximum Occurring Character](https://trueinterview.io/questions/d73e4ed1-1ee4-479c-955e-249baf81ac1d) | Easy | — |
-| **SoFi** | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Easy | — |
-| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
-| **Snapchat** | [Ad Click Tracking and Real-Time Trending Ads System](https://trueinterview.io/questions/f982b537-d539-4f01-ac3a-d1aa732553a0) | Medium | — |
-| **Snapchat** | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f) | Medium | — |
 | **Snapchat / Amazon / ByteDance / Meta / Microsoft** | [Top K Frequent Elements in Integer Array Efficiently](https://trueinterview.io/questions/cd77d63e-ea70-4485-a616-90bf6c1fc5c0) | Medium | — |
 | **Snapchat / Uber** | [K Closest Points to Origin (N log K)](https://trueinterview.io/questions/99a55d10-3af0-49e2-91c4-d24bbfec7bb5) | Medium | — |
 | **Snapchat** | [Can a target string be formed using double-sided letter cards (each card used at most once)?](https://trueinterview.io/questions/5ed24cce-5556-420b-922b-69afe32a617d) | Medium | — |

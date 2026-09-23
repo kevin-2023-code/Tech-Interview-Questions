@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**107 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**108 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -41,7 +41,6 @@
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | **Snapchat / ByteDance / Google / Meta / Pinduoduo / Rokt / Walmart Labs** | Medium | — |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | **xAI / Atlassian / Expedia / LinkedIn / Snowflake** | Medium | Apr 01, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | **Apple / Amazon / DoorDash / Optiver** | Medium | Apr 14, 2026 |
-| [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | **Citadel / Hudson River Trading / Meta / Tesla** | Medium | — |
 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | **Apple / Amazon / GEICO / Squarepoint** | Medium | Apr 02, 2026 |
 | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | **Apple / Amazon / Cisco / Uber** | Medium | May 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | **Roblox / Okta / Ramp / Snapchat** | Medium | May 2026 |
@@ -67,9 +66,11 @@
 | [Contains Duplicate III](https://trueinterview.io/questions/contains-duplicate-iii) | **Netflix** | Medium | May 26, 2026 |
 | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | **Okta** | Medium | Nov 05, 2025 |
 | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | **Airtable** | Medium | — |
+| [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | **Amplitude** | Medium | — |
 | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | **Intuit** | Medium | Dec 25, 2025 |
 | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) | **Palantir** | Medium | — |
 | [Evaluate a Boolean Formula AST](https://trueinterview.io/questions/c0c189b4-d329-52b6-9daa-81165544bff7) | **Sigmacomputing** | Medium | — |
+| [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | **Hudson River Trading** | Medium | — |
 | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | **Gusto** | Medium | — |
 | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | **Bobyard** | Medium | — |
 | [Find Clients Outside Provider Coverage](https://trueinterview.io/questions/77313b88-1a9b-5047-b402-fced2dc1919c) | **Oscar Health** | Medium | — |

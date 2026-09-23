@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**326 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**323 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Microsoft (116)](../companies/microsoft.md) · [Atlassian (42)](../companies/atlassian.md) · [Oracle (39)](../companies/oracle.md) · [Rippling (27)](../companies/rippling.md) · [Figma (18)](../companies/figma.md) · [Salesforce (16)](../companies/salesforce.md) · [Intuit (15)](../companies/intuit.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Dropbox (13)](../companies/dropbox.md) · [HubSpot (10)](../companies/hubspot.md) · [Amplitude (6)](../companies/amplitude.md) · [Airtable (5)](../companies/airtable.md) · [Palantir (5)](../companies/palantir.md) · [Rokt (5)](../companies/rokt.md) · [StackAdapt (5)](../companies/stackadapt.md) · [Gusto (4)](../companies/gusto.md) · [Bobyard (3)](../companies/bobyard.md)
+[Microsoft (116)](../companies/microsoft.md) · [Atlassian (41)](../companies/atlassian.md) · [Oracle (39)](../companies/oracle.md) · [Rippling (27)](../companies/rippling.md) · [Figma (18)](../companies/figma.md) · [Salesforce (16)](../companies/salesforce.md) · [Intuit (15)](../companies/intuit.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Dropbox (13)](../companies/dropbox.md) · [HubSpot (10)](../companies/hubspot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Palantir (5)](../companies/palantir.md) · [StackAdapt (5)](../companies/stackadapt.md) · [Gusto (4)](../companies/gusto.md) · [Rokt (4)](../companies/rokt.md) · [Bobyard (3)](../companies/bobyard.md)
 
 <sub>17 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 194 | 60% | ██████████████ | 32 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 76 | 23% | █████ | 16 |
+| [Algorithm](../formats/algorithm.md) | 192 | 59% | ██████████████ | 33 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 75 | 23% | █████ | 15 |
 | [System Design](../formats/system-design.md) | 41 | 13% | ███ | 5 |
 | [AI Coding](../formats/ai-coding.md) | 8 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **50 / 218 / 58**, over the rows the catalog has graded. 54 of the 326 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **49 / 216 / 58**, over the rows the catalog has graded. 54 of the 323 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **147 questions in this cut that carry a topic label** (45% of it):
+Of the **147 questions in this cut that carry a topic label** (46% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -197,7 +197,6 @@ Of the **147 questions in this cut that carry a topic label** (45% of it):
 | **Microsoft** | [Idempotency API with Idempotency-Key Header](https://trueinterview.io/questions/idempotency-api-with-key) | Medium | Jan 26, 2026 |
 | **Microsoft** | [15-Puzzle Minimum Moves (BFS)](https://trueinterview.io/questions/15-puzzle-bfs) | Hard | Jan 26, 2026 |
 | **Oracle** | [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | Hard | Jan 22, 2026 |
-| **Snowflake / Amazon / Atlassian / ByteDance / Meta** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Medium | Jan 20, 2026 |
 | **Microsoft** | [Palindrome Number + Next-Greater Palindrome](https://trueinterview.io/questions/25b44e72-b83e-4f2d-b206-4b58550ea722) | Medium | Jan 20, 2026 |
 | **Salesforce** | [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring) | Medium | Jan 20, 2026 |
 | **HubSpot / Oracle** | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Medium | Jan 19, 2026 |
@@ -258,7 +257,6 @@ Of the **147 questions in this cut that carry a topic label** (45% of it):
 | **StackAdapt** | [Restaurant Recipe and Inventory Management](https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272) | Medium | — |
 | **StackAdapt** | [Priority-Based Rate-Limited Web Crawler Design](https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22) | Medium | — |
 | **StackAdapt** | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21) | Hard | — |
-| **Rokt / ByteDance** | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Easy | — |
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |
 | **Gusto** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Easy | — |
 | **Gusto** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Medium | — |
@@ -275,7 +273,6 @@ Of the **147 questions in this cut that carry a topic label** (45% of it):
 | **Microsoft** | [Invert Binary Tree](https://trueinterview.io/questions/190e82fa-f7f8-43a7-88a5-c06003cd621c) | Easy | — |
 | **Palantir** | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Medium | — |
 | **Palantir** | [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Medium | — |
-| **Amplitude** | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Medium | — |
 | **Amplitude** | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Medium | — |
 | **Amplitude** | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Medium | — |
 | **Amplitude** | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Medium | — |
@@ -326,5 +323,8 @@ Of the **147 questions in this cut that carry a topic label** (45% of it):
 | **Dropbox** | [Simulate a File System with Access Control](https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca) | Medium | — |
 | **Dropbox** | [Worker Registration Payroll Calculation](https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0) | Medium | — |
 | **Dropbox** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Easy | — |
+| **Dropbox** | [File Crawler](https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5) | Medium | — |
+| **Dropbox** | [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | Hard | — |
+| **Atlassian** | [File Directory Tree UI with Expand/Collapse Functionality](https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae) | Easy | — |
 
 <sub>Page 1 of 2 · [Page 2 →](enterprise-saas-2.md)</sub>

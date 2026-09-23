@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**622 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**604 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (237)](../companies/amazon.md) · [Uber (169)](../companies/uber.md) · [DoorDash (69)](../companies/doordash.md) · [Airbnb (51)](../companies/airbnb.md) · [Ebay (32)](../companies/ebay.md) · [Lyft (29)](../companies/lyft.md) · [Walmart Labs (27)](../companies/walmart-labs.md) · [Expedia (25)](../companies/expedia.md) · [Instacart (25)](../companies/instacart.md) · [Pinduoduo (19)](../companies/pinduoduo.md) · [Shopify (15)](../companies/shopify.md) · [Whatnot (7)](../companies/whatnot.md) · [Faire (4)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
+[Amazon (228)](../companies/amazon.md) · [Uber (168)](../companies/uber.md) · [DoorDash (66)](../companies/doordash.md) · [Airbnb (50)](../companies/airbnb.md) · [Ebay (30)](../companies/ebay.md) · [Lyft (28)](../companies/lyft.md) · [Walmart Labs (26)](../companies/walmart-labs.md) · [Expedia (25)](../companies/expedia.md) · [Instacart (24)](../companies/instacart.md) · [Pinduoduo (18)](../companies/pinduoduo.md) · [Shopify (15)](../companies/shopify.md) · [Whatnot (7)](../companies/whatnot.md) · [Faire (4)](../companies/faire.md) · [Stubhub (2)](../companies/stubhub.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,40 +18,39 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 422 | 68% | ██████████████ | 35 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 90 | 14% | ███ | 13 |
-| [System Design](../formats/system-design.md) | 68 | 11% | ██ | 8 |
+| [Algorithm](../formats/algorithm.md) | 410 | 68% | ██████████████ | 35 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 87 | 14% | ███ | 13 |
+| [System Design](../formats/system-design.md) | 65 | 11% | ██ | 8 |
 | [SQL](../formats/sql.md) | 26 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 16 | 3% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **85 / 412 / 125**, over the rows the catalog has graded. 57 of the 622 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **81 / 401 / 122**, over the rows the catalog has graded. 57 of the 604 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **281 questions in this cut that carry a topic label** (45% of it):
+Of the **272 questions in this cut that carry a topic label** (45% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 49 | 17% | ████████████ |
-| `hashing` | 42 | 15% | ██████████ |
+| `arrays` | 49 | 18% | ████████████ |
 | `graphs` | 39 | 14% | ██████████ |
-| `strings` | 35 | 12% | █████████ |
+| `hashing` | 39 | 14% | ██████████ |
+| `strings` | 34 | 12% | ████████ |
 | `greedy` | 22 | 8% | █████ |
 | `backtracking` | 19 | 7% | █████ |
 | `dynamic-programming` | 19 | 7% | █████ |
 | `stack` | 19 | 7% | █████ |
-| `sorting` | 18 | 6% | ████ |
-| `trees` | 18 | 6% | ████ |
+| `sorting` | 18 | 7% | ████ |
+| `trees` | 17 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**71 sightings** across this cut. Newest first.
+**67 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Amazon … | Algorithm | Sep 10, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Amazon | Algorithm | Sep 05, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Amazon | Algorithm | Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Amazon | Object Oriented Programming | Sep 01, 2026 |
@@ -63,8 +62,9 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Amazon | Algorithm | Aug 24, 2026 |
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Amazon | Algorithm | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Amazon | Algorithm | Aug 22, 2026 |
+| [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Amazon | Algorithm | Aug 21, 2026 |
 
-<sub>59 more in this window are in the table below.</sub>
+<sub>55 more in this window are in the table below.</sub>
 
 ---
 
@@ -76,7 +76,6 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon / ByteDance** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Medium | 🔥 Sep 10, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Medium | 🆕 Sep 02, 2026 |
 | **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
@@ -122,7 +121,6 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Best-Selling Product](https://trueinterview.io/questions/best-selling-product) | Medium | Jul 22, 2026 |
 | **Airbnb** | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | Medium | Jul 22, 2026 |
 | **Amazon** | [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention) | Medium | Jul 20, 2026 |
-| **Pinduoduo** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Medium | Jul 17, 2026 |
 | **Pinduoduo** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Hard | Jul 17, 2026 |
 | **Amazon** | [Edit Distance (LC 72) with a Follow-Up Variant](https://trueinterview.io/questions/edit-distance-one-reverse) | Hard | Jul 14, 2026 |
 | **Amazon** | [Best Time to Buy & Sell Stock — Merged Variants](https://trueinterview.io/questions/buy-sell-stock-merged-variants) | Hard | Jul 10, 2026 |
@@ -130,14 +128,12 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Walmart Labs** | [Merge Strings Alternately](https://trueinterview.io/questions/merge-strings-alternately) | Easy | Jul 07, 2026 |
 | **Walmart Labs** | [AI-Assisted Full-Stack OA (Spring Boot + React)](https://trueinterview.io/questions/ai-assisted-fullstack-oa) | Hard | Jul 07, 2026 |
 | **DoorDash** | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | Hard | Jul 02, 2026 |
-| **DoorDash** | [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | Hard | Jul 02, 2026 |
 | **Amazon** | [Basic Calculator with Postfix Notation](https://trueinterview.io/questions/postfix-basic-calculator) | Medium | Jul 02, 2026 |
 | **Amazon** | [Core Dump System Design](https://trueinterview.io/questions/core-dump-system-design) | Hard | Jul 02, 2026 |
 | **Amazon** | [Closest Version Date](https://trueinterview.io/questions/closest-version-date) | Medium | Jul 02, 2026 |
 | **Amazon** | [Maximum Concurrent Processes from Intervals](https://trueinterview.io/questions/max-concurrent-processes-sweep-line) | Medium | Jul 02, 2026 |
 | **Amazon** | [Service Shutdown / Topological Sort](https://trueinterview.io/questions/service-shutdown-topological-sort) | Medium | Jul 01, 2026 |
 | **Amazon** | [Pizza / Restaurant System](https://trueinterview.io/questions/pizza-restaurant-ood) | Medium | Jul 01, 2026 |
-| **Uber** | [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Medium | Jul 2026 |
 | **Amazon** | [AI Assistant Repo Bug-Fix](https://trueinterview.io/questions/ai-assistant-repo-bug-fix) | Medium | Jun 30, 2026 |
 | **Amazon** | [Drone Delivery on a Hub Ring — Minimum Travel](https://trueinterview.io/questions/drone-hub-ring-min-travel) | Medium | Jun 30, 2026 |
 | **Lyft / ByteDance / Meta** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Medium | Jun 29, 2026 |
@@ -151,7 +147,6 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Uber** | [Compare Two Structs / Classes for Equality](https://trueinterview.io/questions/compare-two-structs-or-classes) | Medium | Jun 23, 2026 |
 | **Airbnb** | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | Hard | Jun 22, 2026 |
 | **Instacart** | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | Hard | Jun 22, 2026 |
-| **Airbnb** | [Group Chat / Messaging System Design](https://trueinterview.io/questions/group-chat-messaging-system-design) | Hard | Jun 22, 2026 |
 | **Uber / Anthropic / Google / Lyft / Meta / Snapchat** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | Medium | Jun 21, 2026 |
 | **Airbnb** | [Design Customer Support Ticketing System](https://trueinterview.io/questions/ticket-routing-system-design) | Hard | Jun 17, 2026 |
 | **Airbnb** | [Chain Booking — Max Cascading Reservations](https://trueinterview.io/questions/chain-booking-cascade) | Medium | Jun 17, 2026 |
@@ -200,7 +195,6 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Uber** | [Last-Click Attribution Tracker](https://trueinterview.io/questions/last-click-attribution) | Medium | May 29, 2026 |
 | **Uber** | [Maximum Number of Points from Grid Queries](https://trueinterview.io/questions/maximum-number-of-points-from-grid-queries) | Hard | May 29, 2026 |
 | **Uber** | [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter) | Medium | May 29, 2026 |
-| **Instacart** | [Decode Password](https://trueinterview.io/questions/onsite-decode-password) | Medium | May 28, 2026 |
 | **Amazon** | [Message Latency from Send/Receive CSV Logs](https://trueinterview.io/questions/200a942c-d5f7-43e5-badc-68f1a185a4bc) | Easy | May 27, 2026 |
 | **Instacart** | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Easy | May 27, 2026 |
 | **Amazon / Anthropic / xAI** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | Medium | May 26, 2026 |
@@ -277,13 +271,11 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Databricks / Amazon** | [Design Lazy Array](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) | Medium | Apr 13, 2026 |
 | **Amazon** | [Merge Values into Blocks](https://trueinterview.io/questions/min-ops-to-make-array-contiguous) | Hard | Apr 12, 2026 |
 | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
-| **DoorDash** | [Code Craft: Hierarchical Path Key-Value Store](https://trueinterview.io/questions/code-craft-path-key-value-store) | Medium | Apr 11, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
 | **Pinterest / DoorDash / Expedia / Instacart / Reddit** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | Hard | Apr 09, 2026 |
 | **Apple / Amazon / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **DoorDash** | [Code Craft: Basic Calculator (No Parentheses)](https://trueinterview.io/questions/code-craft-basic-calculator-no-parens) | Medium | Apr 06, 2026 |
 | **Walmart Labs** | [Live Refactor: Function → Production Service](https://trueinterview.io/questions/function-to-service-refactor) | Medium | Apr 06, 2026 |
-| **DoorDash** | [Realtime Monitoring System](https://trueinterview.io/questions/system-design-realtime-monitoring) | Hard | Apr 06, 2026 |
 | **Uber / Meta** | [Exclusive Time of Functions](https://trueinterview.io/questions/exclusive-time-of-functions) | Medium | Apr 05, 2026 |
 | **Instacart** | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Medium | Apr 04, 2026 |
 | **Instacart** | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Hard | Apr 04, 2026 |
@@ -326,5 +318,13 @@ Of the **281 questions in this cut that carry a topic label** (45% of it):
 | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
 | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / Weride** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **DoorDash** | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | Hard | Mar 16, 2026 |
+| **Uber** | [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system) | Hard | Mar 16, 2026 |
+| **Uber** | [Letter Combinations of a Phone Number](https://trueinterview.io/questions/letter-combinations-of-a-phone-number) | Easy | Mar 15, 2026 |
+| **DoorDash** | [Code Craft: Similar Restaurant Names (K-Swap Anagram)](https://trueinterview.io/questions/code-craft-similar-restaurant-names) | Easy | Mar 13, 2026 |
+| **Uber / Amazon** | [Shortest Word Distance](https://trueinterview.io/questions/shortest-word-distance) | Easy | Mar 13, 2026 |
+| **Uber** | [ML System Design (Recommendation / Feed Ranking / ETA)](https://trueinterview.io/questions/mle-onsite-ml-system-design) | Medium | Mar 09, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
+| **Uber** | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Hard | Mar 08, 2026 |
+| **Uber** | [Uber Eats Search](https://trueinterview.io/questions/uber-eats-search) | Hard | Mar 06, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](ecommerce-marketplace-2.md)</sub>

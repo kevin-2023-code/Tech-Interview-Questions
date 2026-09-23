@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**173 questions** reported across the **9 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**171 questions** reported across the **9 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (54)](../companies/citadel.md) · [Akuna Capital (26)](../companies/akuna-capital.md) · [Two Sigma (23)](../companies/two-sigma.md) · [Optiver (19)](../companies/optiver.md) · [Squarepoint (18)](../companies/squarepoint.md) · [Point72 (17)](../companies/point72.md) · [Hudson River Trading (16)](../companies/hudson-river-trading.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Voleon (5)](../companies/voleon.md)
+[Citadel (53)](../companies/citadel.md) · [Akuna Capital (26)](../companies/akuna-capital.md) · [Two Sigma (23)](../companies/two-sigma.md) · [Optiver (18)](../companies/optiver.md) · [Squarepoint (18)](../companies/squarepoint.md) · [Point72 (17)](../companies/point72.md) · [Hudson River Trading (15)](../companies/hudson-river-trading.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Voleon (5)](../companies/voleon.md)
 
 <sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 128 | 74% | ██████████████ | 18 |
+| [Algorithm](../formats/algorithm.md) | 126 | 74% | ██████████████ | 18 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 39 | 23% | ████ | 1 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 | [System Design](../formats/system-design.md) | 2 | 1% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **25 / 119 / 29**, over the rows the catalog has graded. 19 of the 173 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **25 / 117 / 29**, over the rows the catalog has graded. 19 of the 171 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **81 questions in this cut that carry a topic label** (47% of it):
+Of the **80 questions in this cut that carry a topic label** (47% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -231,10 +231,8 @@ Of the **81 questions in this cut that carry a topic label** (47% of it):
 | **Two Sigma** | [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7) | Medium | — |
 | **Two Sigma** | [Calculate y/x using Patch](https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796) | Easy | — |
 | **Optiver** | [Optimize Cargo Transport Algorithm](https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc) | Hard | — |
-| **Optiver** | [Trading Sequence Counting](https://trueinterview.io/questions/0634993a-4228-496a-bd0a-a0fe61e46e49) | Medium | — |
 | **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
 | **Citadel / Amazon** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Easy | — |
-| **Citadel / Hudson River Trading / Meta / Tesla** | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Medium | — |
 | **Akuna Capital** | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Medium | — |
 | **Akuna Capital** | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Easy | — |
 | **Akuna Capital** | [Earliest Completion Date](https://trueinterview.io/questions/8aac20d0-1504-4d77-a135-6d802ad17cc3) | Easy | — |

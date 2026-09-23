@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**932 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**924 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,10 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Pinterest** | [Design Inventory Management System](https://trueinterview.io/questions/system-design-catalog-update-bulk-single) | Medium | Apr 09, 2026 |
-| **Pinterest / DoorDash / Expedia / Instacart / Reddit** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | Hard | Apr 09, 2026 |
-| **Stripe** | [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join) | Medium | Apr 09, 2026 |
-| **Apple / Amazon / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **Roblox** | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system) | Medium | Apr 08, 2026 |
 | **Roblox** | [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet) | Medium | Apr 07, 2026 |
 | **Instacart** | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Medium | Apr 04, 2026 |
@@ -94,7 +90,6 @@
 | **Snowflake / Applied Intuition** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **xAI** | [Nested Structure Flatten and Unflatten](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) | Medium | Feb 26, 2026 |
 | **Snowflake** | [Min Coins to Pay with Change Allowed](https://trueinterview.io/questions/min-coins-with-change) | Medium | Feb 25, 2026 |
-| **Snapchat** | [Metrics Collection, Alerting & Click Counters](https://trueinterview.io/questions/metrics-collection-alerting-and-click-counters) | Hard | Feb 24, 2026 |
 | **Snapchat** | [Escape Grid with Fire and Waiting Time](https://trueinterview.io/questions/escape-grid-with-fire-and-waiting-time) | Hard | Feb 24, 2026 |
 | **Snowflake** | [Service Failure Forensics](https://trueinterview.io/questions/service-failure-forensics) | Medium | Feb 24, 2026 |
 | **Coinbase** | [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component) | Medium | Feb 23, 2026 |
@@ -152,7 +147,6 @@
 | **Snowflake / ByteDance** | [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Medium | Jan 22, 2026 |
 | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | [Design Instagram](https://trueinterview.io/questions/design-instagram) | Medium | Jan 22, 2026 |
 | **OpenAI / Airbnb / LinkedIn** | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | Medium | Jan 22, 2026 |
-| **Snowflake / Amazon / Atlassian / ByteDance / Meta** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Medium | Jan 20, 2026 |
 | **Snapchat** | [iOS Scrollable Grid & Swift Concurrency](https://trueinterview.io/questions/ios-scrollable-grid-and-swift-concurrency) | Medium | Jan 20, 2026 |
 | **HubSpot / Oracle** | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Medium | Jan 19, 2026 |
 | **HubSpot** | [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Hard | Jan 19, 2026 |
@@ -260,5 +254,11 @@
 | **Shopify** | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Easy | Aug 29, 2025 |
 | **Shopify** | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Easy | Aug 29, 2025 |
 | **Shopify** | [Dynamic programming, ~45 min, any language](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) | Medium | Aug 29, 2025 |
+| **Shopify** | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) | Medium | Aug 29, 2025 |
+| **Robinhood** | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | Medium | Aug 2025 |
+| **Ramp** | [Cloud Storage System](https://trueinterview.io/questions/cloud-storage-system) | Medium | Aug 2025 |
+| **Instacart** | [Pivot Table Profit Analyzer](https://trueinterview.io/questions/pivot-table-profit-analyzer) | Medium | Jul 30, 2025 |
+| **Coinbase** | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Medium | Jul 22, 2025 |
+| **Reddit** | [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Medium | Jul 21, 2025 |
 
 <sub>[← Page 1](large-tech.md) · Page 2 of 4 · [Page 3 →](large-tech-3.md)</sub>

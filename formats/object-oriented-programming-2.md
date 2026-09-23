@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**418 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**411 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon** | [Fix Django Post Creation API](https://trueinterview.io/questions/71e6edc3-c57b-529a-8419-d1445f2419fd) | Medium | — |
-| **Amazon** | [Design a Per-Message Rate Limiter](https://trueinterview.io/questions/57e1bd09-af24-537a-8584-1bf325fbe5c0) | Medium | — |
-| **StackAdapt** | [SongShuffler with Cooldown to Prevent Recent Repeats](https://trueinterview.io/questions/f2ece2d0-63e8-4cff-8b0b-adcbdb3fd61a) | Medium | — |
 | **StackAdapt** | [Restaurant Recipe and Inventory Management](https://trueinterview.io/questions/ccad3380-939d-5dd7-80f7-ec94b71f9272) | Medium | — |
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |
 | **Gusto** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Easy | — |
@@ -31,7 +28,6 @@
 | **Circle** | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Medium | — |
 | **Arista** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Medium | — |
 | **Sigmacomputing** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Medium | — |
-| **Amplitude** | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Medium | — |
 | **Lyft** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
 | **Confluent / Pinterest** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Medium | — |
 | **Affirm / Amazon** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Medium | — |
@@ -41,7 +37,6 @@
 | **Harvey** | [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Medium | — |
 | **DoorDash** | [Design Path Key Value Store](https://trueinterview.io/questions/design-path-key-value-store) | Medium | — |
 | **Chicago Trading** | [Implement a C++ Unique Pointer](https://trueinterview.io/questions/b74e9701-d773-540a-88a9-b2f12d1697c4) | Medium | — |
-| **Stubhub** | [Strategy-Based Event Recommendation Engine](https://trueinterview.io/questions/97013397-3a31-50c4-8f2b-85e6455c3277) | Medium | — |
 | **Luma AI** | [Versioned Nested Key-Value Store](https://trueinterview.io/questions/b1eaf482-a075-5cd9-bce8-5a2af50f6c80) | Hard | — |
 | **Circle** | [Task Management System: Add and List Current Tasks](https://trueinterview.io/questions/f59f7803-1b1c-45b7-94bf-8af1205b5abc) | Easy | — |
 | **Circle** | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | Hard | — |
@@ -125,7 +120,6 @@
 | **Amazon / Goldman Sachs** | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Medium | — |
 | **Amazon** | [Object-Oriented Design Challenge](https://trueinterview.io/questions/2ab19b79-732c-4006-b7e6-336b43fd7d28) | Medium | — |
 | **Amazon** | [Simplified Autocomplete System](https://trueinterview.io/questions/10bfe093-3d82-4bd5-a250-c65af800e04c) | Medium | — |
-| **LinkedIn** | [Rankable Object Cache Implementation](https://trueinterview.io/questions/145e29f1-f83c-4a08-ae4e-546b98e07477) | Medium | — |
 | **Google / Citadel / SoFi / Squarepoint** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Medium | — |
 | **Capital One** | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Medium | — |
 | **Meta / Google / LinkedIn** | [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Easy | — |
@@ -160,7 +154,6 @@
 | **Netflix** | [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Medium | — |
 | **Netflix** | [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Medium | — |
 | **Netflix** | [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf) | Medium | — |
-| **Databricks** | [Design Key Value Class with Average Operations](https://trueinterview.io/questions/abcd2c0b-6316-42ed-8a99-20aa16716961) | Medium | — |
 | **Databricks** | [Lazy Array (Delayed Evaluation Array)](https://trueinterview.io/questions/240da66e-fee4-4897-a81e-75c7dad94bff) | Easy | — |
 | **Coinbase** | [In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock](https://trueinterview.io/questions/64e826a3-6585-4f8a-a6a0-6b3fcb775999) | Medium | — |
 | **Coinbase** | [Banking System Coding Exercise (Multi-Currency + History Replay Follow-ups)](https://trueinterview.io/questions/51bffc13-90aa-496d-9013-285e9c344ec4) | Hard | — |

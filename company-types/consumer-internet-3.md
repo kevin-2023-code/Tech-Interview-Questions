@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**697 questions** reported across the **9 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**682 questions** reported across the **9 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,18 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Microsoft / ByteDance** | [Reverse a Linked List](https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c) | Easy | — |
-| **Microsoft / Meta** | [Insert into a Circular Linked List](https://trueinterview.io/questions/1cc31086-7116-47af-9fc6-bc2cc84bc2c8) | Medium | — |
-| **Microsoft / Meta** | [Minimal Board Length for Holes](https://trueinterview.io/questions/0df3b897-7563-413a-9bea-06eeeb50a399) | Medium | — |
-| **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
-| **Meta** | [Compare Two Linked Lists' Concatenated Strings](https://trueinterview.io/questions/f57623fa-df0e-49d8-8275-3787fab19121) | Medium | — |
-| **Meta** | [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5) | Medium | — |
-| **Meta** | [Arithmetic Expression Evaluator (Limited Operators)](https://trueinterview.io/questions/ddaa35f9-b880-41bb-bcd4-e6f0bac02b2c) | Easy | — |
-| **Meta** | [Remove All Adjacent Duplicates in String Repeatedly](https://trueinterview.io/questions/d7f2f296-e2a6-4cea-b7f4-162049ce638b) | Medium | — |
-| **Meta** | [Longest Increasing Path in a Matrix](https://trueinterview.io/questions/d7419c16-e25d-4a6e-b9ec-d72c4bbf1d74) | Hard | — |
-| **Meta** | [Web Crawler Design for Slow Network Connections](https://trueinterview.io/questions/d2a8a7b1-2ae9-4ead-b962-08fa6b079762) | Medium | — |
-| **Meta / Pinterest** | [Expression Add Operators to Reach Target](https://trueinterview.io/questions/ce65b729-d003-4aba-82e4-ee55204dce4c) | Hard | — |
-| **Meta** | [Ads Impression SQL Query](https://trueinterview.io/questions/cd8e263f-9929-49d1-804b-210708292d39) | Easy | — |
 | **Meta** | [Find Shortest Path in Matrix](https://trueinterview.io/questions/cd73881c-9f33-4f7c-a4a9-74f9eed0f4c1) | Medium | — |
 | **Meta** | [Set Matrix Zeroes (Zero out rows and columns containing a 0)](https://trueinterview.io/questions/c9b3ec81-ac31-4c3b-aa30-3ea4b6e91be5) | Medium | — |
 | **Meta / Apple** | [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Hard | — |
@@ -96,7 +84,6 @@
 | **Google** | [Range Updates Using Difference Array (Template Problem)](https://trueinterview.io/questions/19526ad7-c78c-462e-a59d-80239253617a) | Easy | — |
 | **Google / Microsoft** | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Medium | — |
 | **Google** | [Shortest Distance to Taxi in a Grid](https://trueinterview.io/questions/05552f4a-424e-469b-ba5a-40c766f4d84a) | Medium | — |
-| **Citadel / Hudson River Trading / Meta / Tesla** | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Medium | — |
 | **ByteDance / Google** | [Determine Players with Unique Ranks from Match Results (Reachability Counts in a Directed Graph)](https://trueinterview.io/questions/f6331f0f-11ef-453f-a5fa-06bb97821266) | Hard | — |
 | **ByteDance** | [Minimum Time to Reach Bottom-Right in a Grid](https://trueinterview.io/questions/eefc1bf4-36bc-4559-9991-c8e115ff4795) | Hard | — |
 | **ByteDance / OKX** | [Implement a Doubly Linked List](https://trueinterview.io/questions/ec553f21-8a20-4d30-b769-7e2dc8e7aad5) | Medium | — |
@@ -119,7 +106,6 @@
 | **ByteDance** | [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Easy | — |
 | **ByteDance / Pinduoduo** | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Medium | — |
 | **ByteDance** | [Convert Between Integer and Roman (Two-Way)](https://trueinterview.io/questions/37ebf2fa-456e-422b-9a8a-e19c3815f353) | Medium | — |
-| **ByteDance / Meta** | [Construct Binary Tree from Preorder and Inorder Traversal](https://trueinterview.io/questions/366ee784-2ba4-440f-990c-01acf83d407e) | Medium | — |
 | **ByteDance** | [BST Node Search and Delete](https://trueinterview.io/questions/31cfc7de-9b80-4134-aa0c-dca151fdaf0b) | Easy | — |
 | **ByteDance** | [Find Local Maximums in Temperature Data](https://trueinterview.io/questions/2efaddee-93c4-473f-8897-4e45b68612dc) | Medium | — |
 | **ByteDance / Microsoft / Visa** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Medium | — |
@@ -156,7 +142,6 @@
 | **Google** | [Jump Game with Profit](https://trueinterview.io/questions/jump-game-with-profit) | Medium | — |
 | **Google** | [Count Same-Color Squares in Matrix](https://trueinterview.io/questions/count-same-color-squares) | Medium | — |
 | **Meta** | [Simulate Linux 'cd' Command](https://trueinterview.io/questions/9ab408d8-a019-4be8-a053-c29063bfb2c0) | Medium | — |
-| **LinkedIn** | [Rankable Object Cache Implementation](https://trueinterview.io/questions/145e29f1-f83c-4a08-ae4e-546b98e07477) | Medium | — |
 | **Google / Citadel / SoFi / Squarepoint** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Medium | — |
 | **Google** | [Maximum Related Numbers](https://trueinterview.io/questions/19b56bf2-394c-4931-aabe-3c28383eb7a3) | Easy | — |
 | **Google** | [Signal Propagation in Graph](https://trueinterview.io/questions/11b83d9a-5ded-4bb0-8889-b1692adf9464) | Medium | — |

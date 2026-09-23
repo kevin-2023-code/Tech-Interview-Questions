@@ -2,7 +2,7 @@
 
 # 🏤 Mid-sized tech (200–999) — interview & OA questions
 
-**78 questions** reported across the **9 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**76 questions** reported across the **9 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Amplitude (6)](../companies/amplitude.md) · [Airtable (5)](../companies/airtable.md) · [Rokt (5)](../companies/rokt.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Moveworks (3)](../companies/moveworks.md)
+[Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md)
 
 <sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,16 +18,16 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 39 | 50% | ██████████████ | 8 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 21 | 27% | ████████ | 7 |
+| [Algorithm](../formats/algorithm.md) | 38 | 50% | ██████████████ | 9 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 20 | 26% | ███████ | 6 |
 | [System Design](../formats/system-design.md) | 13 | 17% | █████ | 3 |
-| [AI Coding](../formats/ai-coding.md) | 5 | 6% | ██ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 5 | 7% | ██ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **5 / 63 / 10**, over the rows the catalog has graded. 18 of the 78 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **4 / 62 / 10**, over the rows the catalog has graded. 18 of the 76 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **31 questions in this cut that carry a topic label** (40% of it):
+Of the **31 questions in this cut that carry a topic label** (41% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -100,7 +100,6 @@ Of the **31 questions in this cut that carry a topic label** (40% of it):
 | **Vanta** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Hard | Jul 31, 2025 |
 | **Vanta** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Medium | Jul 24, 2025 |
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
-| **Rokt / ByteDance** | [Binary Search (basic)](https://trueinterview.io/questions/9c83558d-abd8-4fb7-abe5-3b7e6c3094fc) | Easy | — |
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |
 | **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
 | **Airtable** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Medium | — |
@@ -115,7 +114,6 @@ Of the **31 questions in this cut that carry a topic label** (40% of it):
 | **Sigmacomputing** | [Create a Pivot Table](https://trueinterview.io/questions/caff0d1d-3ad9-47e0-91e8-90c5a734119f) | Medium | — |
 | **Sigmacomputing** | [Implement a SigmaTable layer that builds computed columns and summaries on top of a data warehouse table without storing customer data](https://trueinterview.io/questions/c1c46947-457b-4138-afd0-d9ca9e90151d) | Medium | — |
 | **Sigmacomputing** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Medium | — |
-| **Amplitude** | [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | Medium | — |
 | **Harvey** | [Design a Versioned Key-Value Vault with Consistency Check (Filesystem-like)](https://trueinterview.io/questions/9e799065-9c68-4838-b4ed-81b16e6f0fdb) | Medium | — |
 | **Sigmacomputing** | [Evaluate a Boolean Formula AST](https://trueinterview.io/questions/c0c189b4-d329-52b6-9daa-81165544bff7) | Medium | — |
 | **Amplitude** | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Medium | — |

@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**250 questions** reported across the **9 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**249 questions** reported across the **9 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (101)](../companies/openai.md) · [Anthropic (63)](../companies/anthropic.md) · [xAI (31)](../companies/xai.md) · [Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Scale AI (12)](../companies/scale-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (3)](../companies/moveworks.md)
+[OpenAI (100)](../companies/openai.md) · [Anthropic (63)](../companies/anthropic.md) · [xAI (31)](../companies/xai.md) · [Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Scale AI (12)](../companies/scale-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (3)](../companies/moveworks.md)
 
 <sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -20,11 +20,11 @@
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 94 | 38% | ██████████████ | 15 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 60 | 24% | █████████ | 10 |
-| [System Design](../formats/system-design.md) | 47 | 19% | ███████ | 5 |
 | [AI Coding](../formats/ai-coding.md) | 46 | 18% | ███████ | 2 |
+| [System Design](../formats/system-design.md) | 46 | 18% | ███████ | 5 |
 | [SQL](../formats/sql.md) | 3 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **22 / 149 / 79**, over the rows the catalog has graded. 32 of the 250 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **22 / 148 / 79**, over the rows the catalog has graded. 32 of the 249 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -132,7 +132,6 @@ Of the **73 questions in this cut that carry a topic label** (29% of it):
 | **OpenAI** | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Medium | May 15, 2026 |
 | **Anthropic** | [Weighted Data Batcher with Checkpointing](https://trueinterview.io/questions/afa9e386-7de2-4dd2-8747-3810328a9c39) | Medium | May 14, 2026 |
 | **Anthropic** | [Worker / Employee Grant Management](https://trueinterview.io/questions/oa-worker-management) | Medium | May 10, 2026 |
-| **OpenAI** | [Slack](https://trueinterview.io/questions/design-slack) | Medium | May 05, 2026 |
 | **Anthropic** | [Distributed Mode and Median](https://trueinterview.io/questions/distributed-mode-and-median) | Hard | May 03, 2026 |
 | **Anthropic** | [Web Crawler](https://trueinterview.io/questions/web-crawler) | Medium | May 03, 2026 |
 | **Scale AI** | [Existing Codebase Debugging Round](https://trueinterview.io/questions/existing-codebase-debugging-round) | Medium | May 01, 2026 |

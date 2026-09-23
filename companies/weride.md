@@ -2,7 +2,7 @@
 
 # Weride interview process, OA & interview questions
 
-**21 questions** reported at Weride · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/weride), judged server-side.
+**20 questions** reported at Weride · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/weride), judged server-side.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
+| Questions tracked | **20** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 21) |
-| Difficulty (easy / medium / hard) | 7 / 10 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (100% of 20) |
+| Difficulty (easy / medium / hard) | 6 / 10 / 4 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 21 questions reported at Weride. 3 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 20 questions reported at Weride. 3 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at Weride that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **20 of 20** questions at Weride that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 10 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **21 of 21** questions at Weride th
 
 ## What they ask about
 
-Of the **16 questions at Weride that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Weride that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 19% | ████████████ | — |
-| `math` | 3 | 19% | ████████████ | — |
-| `hashing` | 2 | 12% | ████████ | — |
-| `stack` | 2 | 12% | ████████ | Feb 07, 2026 |
-| `strings` | 2 | 12% | ████████ | Feb 07, 2026 |
-| `backtracking` | 1 | 6% | ████ | — |
-| `dynamic-programming` | 1 | 6% | ████ | — |
-| `greedy` | 1 | 6% | ████ | — |
-| `heap` | 1 | 6% | ████ | Jul 29, 2026 |
-| `sliding-window` | 1 | 6% | ████ | — |
+| `graphs` | 3 | 20% | ████████████ | — |
+| `math` | 3 | 20% | ████████████ | — |
+| `stack` | 2 | 13% | ████████ | Feb 07, 2026 |
+| `strings` | 2 | 13% | ████████ | Feb 07, 2026 |
+| `backtracking` | 1 | 7% | ████ | — |
+| `dynamic-programming` | 1 | 7% | ████ | — |
+| `greedy` | 1 | 7% | ████ | — |
+| `hashing` | 1 | 7% | ████ | — |
+| `heap` | 1 | 7% | ████ | Jul 29, 2026 |
+| `sliding-window` | 1 | 7% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -82,11 +82,11 @@ The 8 questions to open first if you are preparing for Weride, ranked by **the m
 | **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
 | **2** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) 🆓 | Algorithm | Easy | 6 | Mar 17, 2026 |
 | **3** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 10 | Feb 07, 2026 |
-| **4** | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | 6 | — |
-| **5** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
-| **6** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
-| **7** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |
-| **8** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | 1 | — |
+| **4** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
+| **5** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
+| **6** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |
+| **7** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | 1 | — |
+| **8** | [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | Algorithm | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -124,7 +124,6 @@ The 8 questions to open first if you are preparing for Weride, ranked by **the m
 | [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010) | Algorithm | Medium | — |
 | [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c) | Algorithm | Medium | — |
 | [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e) | Algorithm | Medium | — |
-| [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | — |
 | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Algorithm | Easy | — |
 | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | — |

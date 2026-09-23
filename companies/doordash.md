@@ -2,7 +2,7 @@
 
 # DoorDash interview process, OA & interview questions
 
-**69 questions** reported at DoorDash · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
+**66 questions** reported at DoorDash · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **69** |
+| Questions tracked | **66** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (45% of 69) |
-| Difficulty (easy / medium / hard) | 7 / 51 / 11 |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 66) |
+| Difficulty (easy / medium / hard) | 7 / 50 / 9 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 69 questions reported at DoorDash. 47 of them carry a sighting date; the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 66 questions reported at DoorDash. 44 of them carry a sighting date; the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **69 of 69** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **66 of 66** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 43 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 3 / 37 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 29 | ███████ | [System Design](../formats/system-design.md) (48%) | 1 / 19 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 42 | ██████████ | [Algorithm](../formats/algorithm.md) (60%) | 3 / 36 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 27 | ██████ | [System Design](../formats/system-design.md) (44%) | 1 / 19 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,18 +47,17 @@ Which stage each question came from, for the **69 of 69** questions at DoorDash 
 | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | Onsite / virtual onsite | Jul 02, 2026 |
-| [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | System Design | Hard | Onsite / virtual onsite | Jul 02, 2026 |
 
 ## What they ask about
 
-Of the **25 questions at DoorDash that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at DoorDash that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 20% | ████████████ | Aug 16, 2026 |
-| `strings` | 5 | 20% | ████████████ | Aug 16, 2026 |
-| `trees` | 5 | 20% | ████████████ | Apr 11, 2026 |
-| `graphs` | 4 | 16% | ██████████ | Apr 29, 2026 |
+| `hashing` | 5 | 21% | ████████████ | Aug 16, 2026 |
+| `strings` | 5 | 21% | ████████████ | Aug 16, 2026 |
+| `graphs` | 4 | 17% | ██████████ | Apr 29, 2026 |
+| `trees` | 4 | 17% | ██████████ | Feb 04, 2026 |
 | `dynamic-programming` | 2 | 8% | █████ | Feb 07, 2026 |
 | `intervals` | 2 | 8% | █████ | — |
 | `matrix` | 2 | 8% | █████ | Apr 29, 2026 |
@@ -75,10 +74,10 @@ Every recorded sighting at DoorDash, by the month it was reported in — Aug 23,
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Aug 2026](../by-month/2026-08.md) | 4 | █████████ |
-| [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
+| [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
 | [Jun 2026](../by-month/2026-06.md) | 5 | ███████████ |
 | [May 2026](../by-month/2026-05.md) | 11 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 9 | ████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 7 | ███████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 7 | ███████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | ████ |
 | [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
@@ -96,9 +95,9 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | **3** | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Medium | — | Aug 16, 2026 |
 | **4** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | — | Aug 16, 2026 |
 | **5** | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | — | Jul 02, 2026 |
-| **6** | [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | System Design | Hard | — | Jul 02, 2026 |
-| **7** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
-| **8** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | — | Jun 11, 2026 |
+| **6** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
+| **7** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | — | Jun 11, 2026 |
+| **8** | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Object Oriented Programming | Medium | — | Jun 11, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -131,7 +130,6 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | Jul 02, 2026 |
-| [Restaurant / Store Recommendation](https://trueinterview.io/questions/mle-system-design-restaurant-recommendation) | System Design | Hard | Jul 02, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Design Food Review System](https://trueinterview.io/questions/system-design-food-review-system) | System Design | Medium | Jun 11, 2026 |
@@ -152,10 +150,8 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
 | [Design A Harmful Content Detection System](https://trueinterview.io/questions/harmful-content-detection-system) | System Design | Hard | Apr 13, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
-| [Code Craft: Hierarchical Path Key-Value Store](https://trueinterview.io/questions/code-craft-path-key-value-store) | Object Oriented Programming | Medium | Apr 11, 2026 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |
 | [Code Craft: Basic Calculator (No Parentheses)](https://trueinterview.io/questions/code-craft-basic-calculator-no-parens) | Algorithm | Medium | Apr 06, 2026 |
-| [Realtime Monitoring System](https://trueinterview.io/questions/system-design-realtime-monitoring) | System Design | Hard | Apr 06, 2026 |
 | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | System Design | Medium | Apr 02, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Code Craft: Restaurant Delivery Heatmap](https://trueinterview.io/questions/code-craft-restaurant-heatmap) | Algorithm | Medium | Mar 23, 2026 |

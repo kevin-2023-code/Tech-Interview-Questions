@@ -2,7 +2,7 @@
 
 # 🏦 Banks, insurers & asset managers — interview & OA questions
 
-**151 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**148 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Bloomberg (56)](../companies/bloomberg.md) · [Capital One (37)](../companies/capital-one.md) · [Goldman Sachs (21)](../companies/goldman-sachs.md) · [JPMorgan (15)](../companies/jpmorgan.md) · [Visa (15)](../companies/visa.md) · [GEICO (6)](../companies/geico.md) · [Lead Bank (5)](../companies/lead-bank.md)
+[Bloomberg (54)](../companies/bloomberg.md) · [Capital One (36)](../companies/capital-one.md) · [Goldman Sachs (20)](../companies/goldman-sachs.md) · [JPMorgan (15)](../companies/jpmorgan.md) · [Visa (15)](../companies/visa.md) · [GEICO (6)](../companies/geico.md) · [Lead Bank (5)](../companies/lead-bank.md)
 
 <sub>7 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,29 +18,29 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 115 | 76% | ██████████████ | 19 |
+| [Algorithm](../formats/algorithm.md) | 112 | 76% | ██████████████ | 19 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 18 | 12% | ██ | 3 |
 | [System Design](../formats/system-design.md) | 16 | 11% | ██ | 2 |
 | [SQL](../formats/sql.md) | 2 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **37 / 91 / 23**, over the rows the catalog has graded. 24 of the 151 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **34 / 91 / 23**, over the rows the catalog has graded. 24 of the 148 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **92 questions in this cut that carry a topic label** (61% of it):
+Of the **89 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 18 | 20% | ████████████ |
-| `hashing` | 18 | 20% | ████████████ |
-| `strings` | 15 | 16% | ██████████ |
+| `arrays` | 17 | 19% | ████████████ |
+| `hashing` | 17 | 19% | ████████████ |
+| `strings` | 15 | 17% | ███████████ |
 | `graphs` | 9 | 10% | ██████ |
-| `backtracking` | 8 | 9% | █████ |
-| `greedy` | 8 | 9% | █████ |
-| `sorting` | 8 | 9% | █████ |
+| `backtracking` | 8 | 9% | ██████ |
+| `greedy` | 8 | 9% | ██████ |
+| `sorting` | 8 | 9% | ██████ |
 | `matrix` | 7 | 8% | █████ |
 | `stack` | 6 | 7% | ████ |
-| `dynamic-programming` | 5 | 5% | ███ |
+| `dynamic-programming` | 5 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -92,7 +92,6 @@ Of the **92 questions in this cut that carry a topic label** (61% of it):
 | **Capital One** | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Easy | Apr 25, 2026 |
 | **Capital One** | [Beautify Houses to Strict Monotone](https://trueinterview.io/questions/beautify-houses-monotone) | Medium | Apr 25, 2026 |
 | **JPMorgan** | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | Medium | Apr 22, 2026 |
-| **Capital One** | [Odd Zero-Digit Count](https://trueinterview.io/questions/odd-zero-digit-count) | Easy | Apr 16, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
 | **Capital One** | [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Medium | Apr 08, 2026 |
 | **Capital One** | [Warehouse Round-Robin Allocation with Closures](https://trueinterview.io/questions/warehouse-round-robin-allocation) | Medium | Apr 08, 2026 |
@@ -144,7 +143,6 @@ Of the **92 questions in this cut that carry a topic label** (61% of it):
 | **JPMorgan** | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Medium | Jan 15, 2026 |
 | **JPMorgan** | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Easy | Jan 15, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
-| **Netflix / Amazon / Bloomberg / Meta** | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Easy | Jan 13, 2026 |
 | **Capital One** | [Color Match-Three Grid](https://trueinterview.io/questions/color-match-three-grid) | Medium | Jan 09, 2026 |
 | **Bloomberg** | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Medium | Jan 01, 2026 |
 | **Apple / Bloomberg** | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Medium | Dec 22, 2025 |
@@ -188,7 +186,6 @@ Of the **92 questions in this cut that carry a topic label** (61% of it):
 | **Visa** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Medium | — |
 | **Visa** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Medium | — |
 | **Anthropic / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
-| **Meta / Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Weride** | [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Easy | — |
 | **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
 | **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
 | **Microsoft / GEICO / Weride** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |

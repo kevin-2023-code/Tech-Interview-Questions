@@ -2,7 +2,7 @@
 
 # Hudson River Trading interview process, OA & interview questions
 
-**16 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **16** |
+| Questions tracked | **15** |
 | Most recent sighting | May 01, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (88% of 16) |
-| Difficulty (easy / medium / hard) | 4 / 11 / 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (87% of 15) |
+| Difficulty (easy / medium / hard) | 4 / 10 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 16 questions reported at Hudson River Trading. 2 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Hudson River Trading. 2 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **16 of 16** questions at Hudson River Trading that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Hudson River Trading that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ██████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 8 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 0 / 3 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 2 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **16 of 16** questions at Hudson Ri
 
 ## What they ask about
 
-Of the **5 questions at Hudson River Trading that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Hudson River Trading that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,12 +70,12 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Algorithm | Medium | — | May 01, 2026 |
 | **2** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | 4 | Oct 16, 2025 |
-| **3** | [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) 🆓 | Algorithm | Medium | 3 | — |
-| **4** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | 1 | — |
-| **5** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | — | — |
-| **6** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | — | — |
-| **7** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Algorithm | Easy | — | — |
-| **8** | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | Algorithm | Medium | — | — |
+| **3** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | 1 | — |
+| **4** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | — | — |
+| **5** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | — | — |
+| **6** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Algorithm | Easy | — | — |
+| **7** | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) 🆓 | Algorithm | Medium | — | — |
+| **8** | [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | Object Oriented Programming | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -112,4 +112,3 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397) | Algorithm | Medium | — |
 | [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Object Oriented Programming | Medium | — |
 | [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | Algorithm | Hard | — |
-| [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |

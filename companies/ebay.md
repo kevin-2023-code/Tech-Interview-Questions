@@ -2,7 +2,7 @@
 
 # Ebay interview process, OA & interview questions
 
-**32 questions** reported at Ebay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Ebay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **32** |
+| Questions tracked | **30** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (69% of 32) |
-| Difficulty (easy / medium / hard) | 8 / 18 / 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (67% of 30) |
+| Difficulty (easy / medium / hard) | 7 / 17 / 6 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 32 questions reported at Ebay. 13 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 30 questions reported at Ebay. 13 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **32 of 32** questions at Ebay that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **30 of 30** questions at Ebay that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (78%) | 5 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 1 / 12 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 8 | █████ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 1 / 11 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 11 | ███████ | [System Design](../formats/system-design.md) (55%) | 2 / 6 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -46,19 +46,19 @@ Which stage each question came from, for the **32 of 32** questions at Ebay that
 
 ## What they ask about
 
-Of the **17 questions at Ebay that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Ebay that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 6 | 35% | ████████████ | Aug 21, 2026 |
-| `hashing` | 4 | 24% | ████████ | — |
-| `strings` | 4 | 24% | ████████ | Jun 12, 2026 |
-| `binary-search` | 2 | 12% | ████ | Aug 21, 2026 |
-| `graphs` | 2 | 12% | ████ | — |
-| `heap` | 1 | 6% | ██ | — |
-| `intervals` | 1 | 6% | ██ | — |
-| `sliding-window` | 1 | 6% | ██ | — |
-| `topological-sort` | 1 | 6% | ██ | Jun 04, 2026 |
+| `arrays` | 6 | 40% | ████████████ | Aug 21, 2026 |
+| `strings` | 4 | 27% | ████████ | Jun 12, 2026 |
+| `hashing` | 3 | 20% | ██████ | — |
+| `graphs` | 2 | 13% | ████ | — |
+| `binary-search` | 1 | 7% | ██ | Aug 21, 2026 |
+| `heap` | 1 | 7% | ██ | — |
+| `intervals` | 1 | 7% | ██ | — |
+| `sliding-window` | 1 | 7% | ██ | — |
+| `topological-sort` | 1 | 7% | ██ | Jun 04, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -136,9 +136,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | [Balloon Explosion](https://trueinterview.io/questions/bec1bae5-6bc3-4a83-8430-077c684da76c) | Algorithm | Hard | — |
 | [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b) | Algorithm | Medium | — |
 | [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4) | Algorithm | Medium | — |
-| [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Algorithm | Medium | — |
-| [Search in Rotated Sorted Array](https://trueinterview.io/questions/ef59b32b-948c-4f2a-a1ea-0672a8432eae) | Algorithm | Medium | — |
 | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Algorithm | Easy | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

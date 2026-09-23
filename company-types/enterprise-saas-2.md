@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**326 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**323 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Dropbox** | [File Crawler](https://trueinterview.io/questions/868c0ea1-62d7-4555-aeb2-7d9033aebbe5) | Medium | — |
-| **Dropbox** | [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | Hard | — |
-| **Atlassian** | [File Directory Tree UI with Expand/Collapse Functionality](https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae) | Easy | — |
 | **Oracle** | [Missing Number](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) | Easy | — |
 | **Microsoft** | [Shortest Path in a Grid with at Most K Cells per Move](https://trueinterview.io/questions/0acfe24d-4391-53e8-bebd-f31d970fbe3a) | Hard | — |
 | **ByteDance / Amazon / Microsoft** | [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Medium | — |

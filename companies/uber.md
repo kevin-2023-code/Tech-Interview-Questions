@@ -2,7 +2,7 @@
 
 # Uber interview process, OA & interview questions
 
-**169 questions** reported at Uber · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
+**168 questions** reported at Uber · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **169** |
+| Questions tracked | **168** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (75% of 169) |
-| Difficulty (easy / medium / hard) | 23 / 113 / 33 |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 168) |
+| Difficulty (easy / medium / hard) | 23 / 112 / 33 |
 | Free to practise | [24](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 169 questions reported at Uber. 105 of them carry a sighting date; the other 64 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 168 questions reported at Uber. 104 of them carry a sighting date; the other 64 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **169 of 169** questions at Uber that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **168 of 168** questions at Uber that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 25 | ███ | [Algorithm](../formats/algorithm.md) (96%) | 9 / 12 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 95 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 8 / 68 / 19 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 74 | ████████ | [Algorithm](../formats/algorithm.md) (47%) | 7 / 50 / 17 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 94 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 8 / 67 / 19 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 73 | ████████ | [Algorithm](../formats/algorithm.md) (48%) | 7 / 49 / 17 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -46,7 +46,6 @@ Which stage each question came from, for the **169 of 169** questions at Uber th
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | Phone screen | Aug 11, 2026 |
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Onsite / virtual onsite | Aug 10, 2026 |
-| [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 
 ## What they ask about
@@ -75,7 +74,6 @@ Every recorded sighting at Uber, by the month it was reported in — Sep 01, 202
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Aug 2026](../by-month/2026-08.md) | 4 | █████ |
-| [Jul 2026](../by-month/2026-07.md) | 1 | █ |
 | [Jun 2026](../by-month/2026-06.md) | 21 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 18 | █████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 10 | ███████████ |
@@ -97,10 +95,10 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 | **2** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | — | Aug 16, 2026 |
 | **3** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | — | Aug 11, 2026 |
 | **4** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | — | Aug 10, 2026 |
-| **5** | [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Object Oriented Programming | Medium | — | Jul 2026 |
-| **6** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | 4 | Jun 28, 2026 |
-| **7** | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | 3 | Jun 24, 2026 |
-| **8** | [Compare Two Structs / Classes for Equality](https://trueinterview.io/questions/compare-two-structs-or-classes) | Object Oriented Programming | Medium | — | Jun 23, 2026 |
+| **5** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | 4 | Jun 28, 2026 |
+| **6** | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | 3 | Jun 24, 2026 |
+| **7** | [Compare Two Structs / Classes for Equality](https://trueinterview.io/questions/compare-two-structs-or-classes) | Object Oriented Programming | Medium | — | Jun 23, 2026 |
+| **8** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -131,7 +129,6 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | 🆕 Aug 11, 2026 |
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | 🆕 Aug 10, 2026 |
-| [First Unique Number](https://trueinterview.io/questions/first-unique-number) | Object Oriented Programming | Medium | Jul 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Jun 24, 2026 |
 | [Compare Two Structs / Classes for Equality](https://trueinterview.io/questions/compare-two-structs-or-classes) | Object Oriented Programming | Medium | Jun 23, 2026 |

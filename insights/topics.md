@@ -2,28 +2,28 @@
 
 # Topics
 
-What the bank is *about*, counted over the **1,168 questions that carry a topic label** — 46% of 2,543. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
+What the bank is *about*, counted over the **1,155 questions that carry a topic label** — 46% of 2,509. The unlabelled rest are not a topic called *other*; they are rows nobody has labelled yet, and they are excluded from every share on this page rather than quietly bulking one out.
 
 [← Insights](README.md) · [← Question bank](../README.md)
 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
-| `hashing` | 208 | 18% | 21 | 57 | 131 | 20 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
-| `graphs` | 169 | 14% | 13 | 12 | 116 | 41 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Meta](../companies/meta.md) |
-| `arrays` | 168 | 14% | 22 | 44 | 108 | 16 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
-| `strings` | 143 | 12% | 8 | 45 | 82 | 16 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Meta](../companies/meta.md) |
+| `hashing` | 204 | 18% | 21 | 54 | 130 | 20 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Meta](../companies/meta.md) |
+| `graphs` | 169 | 15% | 13 | 12 | 116 | 41 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Meta](../companies/meta.md) |
+| `arrays` | 167 | 14% | 22 | 43 | 108 | 16 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
+| `strings` | 142 | 12% | 7 | 45 | 81 | 16 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Meta](../companies/meta.md) |
 | `greedy` | 102 | 9% | 9 | 9 | 76 | 17 | [Google](../companies/google.md), [Uber](../companies/uber.md), [Amazon](../companies/amazon.md) |
 | `dynamic-programming` | 83 | 7% | 9 | 7 | 45 | 31 | [Google](../companies/google.md), [ByteDance](../companies/bytedance.md), [Snowflake](../companies/snowflake.md) |
-| `backtracking` | 73 | 6% | 5 | 6 | 41 | 26 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `sorting` | 73 | 6% | 8 | 14 | 46 | 13 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [Apple](../companies/apple.md) |
-| `trees` | 69 | 6% | 5 | 11 | 45 | 13 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `heap` | 60 | 5% | 5 | 1 | 44 | 15 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md) |
-| `sliding-window` | 60 | 5% | 4 | 9 | 42 | 9 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
+| `backtracking` | 72 | 6% | 5 | 6 | 40 | 26 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
+| `trees` | 67 | 6% | 5 | 11 | 43 | 13 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `heap` | 59 | 5% | 5 | 1 | 43 | 15 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md) |
+| `sliding-window` | 58 | 5% | 3 | 9 | 40 | 9 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `two-pointers` | 56 | 5% | 3 | 15 | 39 | 2 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
 | `matrix` | 55 | 5% | 4 | 8 | 41 | 6 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
 | `stack` | 53 | 5% | 5 | 6 | 37 | 10 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md) |
-| `binary-search` | 50 | 4% | 2 | 9 | 28 | 13 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `intervals` | 50 | 4% | 4 | 1 | 39 | 10 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `binary-search` | 49 | 4% | 2 | 9 | 27 | 13 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
+| `intervals` | 48 | 4% | 4 | 0 | 38 | 10 | [Google](../companies/google.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
 | `math` | 42 | 4% | 6 | 7 | 28 | 7 | [Amazon](../companies/amazon.md), [Applied Intuition](../companies/applied-intuition.md), [ByteDance](../companies/bytedance.md) |
 | `linked-list` | 28 | 2% | 4 | 3 | 22 | 3 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
 | `bit-manipulation` | 19 | 2% | 1 | 5 | 9 | 5 | [Apple](../companies/apple.md), [Google](../companies/google.md), [Rubrik](../companies/rubrik.md) |
@@ -36,7 +36,7 @@ What the bank is *about*, counted over the **1,168 questions that carry a topic 
 
 The most recently reported question carrying each label — newest sighting first, so this is what somebody was actually asked, not what sorts first alphabetically.
 
-**`hashing`** — 208 questions
+**`hashing`** — 204 questions
 
 - [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) · Algorithm · Medium
 - [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) · Algorithm · Easy
@@ -48,13 +48,13 @@ The most recently reported question carrying each label — newest sighting firs
 - [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) · Algorithm · Hard
 - [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) · Algorithm · Medium
 
-**`arrays`** — 168 questions
+**`arrays`** — 167 questions
 
 - [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) · Algorithm · Medium
 - [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) · Algorithm · Medium
 - [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) · Algorithm · Hard
 
-**`strings`** — 143 questions
+**`strings`** — 142 questions
 
 - [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) · Algorithm · Hard
 - [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) · Algorithm · Medium
@@ -72,35 +72,35 @@ The most recently reported question carrying each label — newest sighting firs
 - [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) · Algorithm · Hard
 - [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) · Algorithm · Hard
 
-**`backtracking`** — 73 questions
-
-- [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) · Algorithm · Medium
-- [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) · Algorithm · Hard
-- [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) · Algorithm · Hard
-
 **`sorting`** — 73 questions
 
 - [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) · Algorithm · Medium
 - [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) · Algorithm · Medium
 - [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) · Algorithm · Medium
 
-**`trees`** — 69 questions
+**`backtracking`** — 72 questions
+
+- [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) · Algorithm · Medium
+- [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) · Algorithm · Hard
+- [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) · Algorithm · Hard
+
+**`trees`** — 67 questions
 
 - [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) · Algorithm · Medium
 - [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) · Algorithm · Hard
 - [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) · Algorithm · Medium
 
-**`heap`** — 60 questions
+**`heap`** — 59 questions
 
 - [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) · Algorithm · Medium
 - [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) · Algorithm · Medium
 - [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) · Algorithm · Medium
 
-**`sliding-window`** — 60 questions
+**`sliding-window`** — 58 questions
 
 - [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) · Algorithm · Medium
-- [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) · Algorithm · Medium
 - [Minimum Talent-Complete Team from Every Start](https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start) · Algorithm · Medium
+- [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) · Algorithm · Medium
 
 **`two-pointers`** — 56 questions
 
@@ -120,13 +120,13 @@ The most recently reported question carrying each label — newest sighting firs
 - [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) · Algorithm · Medium
 - [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) · Algorithm · Medium
 
-**`binary-search`** — 50 questions
+**`binary-search`** — 49 questions
 
 - [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) · Algorithm · Medium
 - [Elements Appearing More Than n/3 in a Sorted Array](https://trueinterview.io/questions/sorted-array-elements-more-than-one-third) · Algorithm · Medium
 - [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) · Algorithm · Hard
 
-**`intervals`** — 50 questions
+**`intervals`** — 48 questions
 
 - [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) · Algorithm · Medium
 - [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) · Algorithm · Hard

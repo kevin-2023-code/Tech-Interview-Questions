@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,644 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,624 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Snowflake** | [Wiki Page Shortest-Click Path](https://trueinterview.io/questions/wiki-page-shortest-path) | Hard | May 11, 2026 |
-| **Two Sigma** | [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Medium | May 10, 2026 |
-| **Two Sigma** | [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Medium | May 10, 2026 |
 | **Two Sigma** | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | Medium | May 10, 2026 |
 | **Roblox** | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Medium | May 09, 2026 |
 | **Robinhood** | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Medium | May 09, 2026 |
@@ -90,7 +87,6 @@
 | **Meta** | [Pow(x, n)](https://trueinterview.io/questions/pow-x-n) | Medium | Apr 17, 2026 |
 | **Snapchat / Tesla / Waymo** | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Medium | Apr 17, 2026 |
 | **Stripe** | [AI Token Billing Calculation](https://trueinterview.io/questions/chat-billing-calculation) | Medium | Apr 17, 2026 |
-| **Capital One** | [Odd Zero-Digit Count](https://trueinterview.io/questions/odd-zero-digit-count) | Easy | Apr 16, 2026 |
 | **Microsoft** | [Sliding-Window Stream Session Bucketing](https://trueinterview.io/questions/sliding-window-stream-bucketing) | Easy | Apr 16, 2026 |
 | **Amazon** | [Min Errors in 0/1/! Subsequence DP](https://trueinterview.io/questions/errors-in-zero-one-bang-subsequence-dp) | Hard | Apr 16, 2026 |
 | **Snowflake** | [Limit Tree Height by Deletions](https://trueinterview.io/questions/limit-tree-height-by-deletions) | Hard | Apr 15, 2026 |
@@ -239,7 +235,6 @@
 | **IBM** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Medium | Feb 22, 2026 |
 | **IBM** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Medium | Feb 22, 2026 |
 | **Bloomberg** | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Hard | Feb 22, 2026 |
-| **Apple** | [Redundant Connection](https://trueinterview.io/questions/redundant-connection) | Medium | Feb 22, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
 | **Snowflake / Microsoft** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
 | **Snowflake / Google** | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Medium | Feb 19, 2026 |
@@ -260,5 +255,10 @@
 | **Amazon** | [Smallest Time-Diff Pair Per User (Orders × Ads)](https://trueinterview.io/questions/smallest-time-diff-orders-ads) | Medium | Feb 12, 2026 |
 | **Uber** | [N-ary Tree Level Order Traversal](https://trueinterview.io/questions/n-ary-tree-level-order-traversal) | Medium | Feb 12, 2026 |
 | **Uber / Microsoft / Ramp** | [Purchase Optimization](https://trueinterview.io/questions/purchase-optimization) | Easy | Feb 11, 2026 |
+| **Apple** | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Easy | Feb 11, 2026 |
+| **Amazon** | [Abusive Books in Reading Event Stream](https://trueinterview.io/questions/audible-abusive-books-stream) | Medium | Feb 10, 2026 |
+| **Stripe** | [Cloud Service Usage Cost](https://trueinterview.io/questions/cloud-service-usage-cost) | Medium | Feb 09, 2026 |
+| **Apple** | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Medium | Feb 09, 2026 |
+| **Snowflake** | [Top K Hash Tags](https://trueinterview.io/questions/top-k-hash-tags) | Medium | Feb 09, 2026 |
 
 <sub>[← Page 1](algorithm.md) · Page 2 of 7 · [Page 3 →](algorithm-3.md)</sub>

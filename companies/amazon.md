@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**237 questions** reported at Amazon · **17 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**228 questions** reported at Amazon · **17 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,34 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **237** |
-| Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 47 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 237) |
-| Difficulty (easy / medium / hard) | 40 / 160 / 37 |
+| Questions tracked | **228** |
+| Most recent sighting | Sep 05, 2026 |
+| Reported in the last 90 days | 46 |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 228) |
+| Difficulty (easy / medium / hard) | 36 / 155 / 37 |
 | Free to practise | [30](../free/README.md) |
 | Guides & writeups | 17 |
 
-<sub>Counted from the 237 questions reported at Amazon. 136 of them carry a sighting date; the other 101 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 228 questions reported at Amazon. 133 of them carry a sighting date; the other 95 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **237 of 237** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **228 of 228** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 40 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 17 / 17 / 6 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 121 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 15 / 88 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 102 | ████████ | [Algorithm](../formats/algorithm.md) (47%) | 11 / 76 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 37 | ███ | [Algorithm](../formats/algorithm.md) (86%) | 14 / 17 / 6 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 116 | ██████████ | [Algorithm](../formats/algorithm.md) (85%) | 14 / 84 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 99 | █████████ | [Algorithm](../formats/algorithm.md) (45%) | 10 / 74 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**47 sightings** in this window. Newest first.
+**46 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | Onsite / virtual onsite | Sep 10, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | Phone screen | Sep 05, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | Online assessment | Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 01, 2026 |
@@ -54,22 +53,23 @@ Which stage each question came from, for the **237 of 237** questions at Amazon 
 | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Algorithm | Medium | Phone screen | Aug 24, 2026 |
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Algorithm | Medium | Phone screen | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | Medium | Onsite / virtual onsite | Aug 22, 2026 |
+| [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | Hard | Onsite / virtual onsite | Aug 21, 2026 |
 
-<sub>35 more in this window are in the table below.</sub>
+<sub>34 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **118 questions at Amazon that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **112 questions at Amazon that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 21 | 18% | ████████████ | Sep 05, 2026 |
-| `arrays` | 17 | 14% | ██████████ | Aug 24, 2026 |
-| `graphs` | 15 | 13% | █████████ | Aug 27, 2026 |
-| `strings` | 11 | 9% | ██████ | Jul 22, 2026 |
-| `backtracking` | 9 | 8% | █████ | Aug 24, 2026 |
-| `trees` | 9 | 8% | █████ | Aug 17, 2026 |
-| `two-pointers` | 9 | 8% | █████ | Apr 28, 2026 |
+| `hashing` | 18 | 16% | ████████████ | Sep 05, 2026 |
+| `arrays` | 17 | 15% | ███████████ | Aug 24, 2026 |
+| `graphs` | 15 | 13% | ██████████ | Aug 27, 2026 |
+| `strings` | 11 | 10% | ███████ | Jul 22, 2026 |
+| `backtracking` | 9 | 8% | ██████ | Aug 24, 2026 |
+| `trees` | 9 | 8% | ██████ | Aug 17, 2026 |
+| `two-pointers` | 9 | 8% | ██████ | Apr 28, 2026 |
 | `dynamic-programming` | 8 | 7% | █████ | Jul 14, 2026 |
 | `greedy` | 8 | 7% | █████ | Aug 24, 2026 |
 | `sorting` | 8 | 7% | █████ | Aug 24, 2026 |
@@ -78,11 +78,11 @@ Of the **118 questions at Amazon that carry a topic label** (50% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2025 to Sep 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2025 to Sep 05, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 7 | █████████ |
+| [Sep 2026](../by-month/2026-09.md) | 6 | ████████ |
 | [Aug 2026](../by-month/2026-08.md) | 16 | █████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 18 | ████████████████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 17 | ███████████████████████ |
@@ -90,7 +90,7 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 | [Apr 2026](../by-month/2026-04.md) | 18 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 14 | ███████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 14 | ███████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 7 | █████████ |
+| [Jan 2026](../by-month/2026-01.md) | 5 | ███████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | █ |
@@ -98,18 +98,18 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Amazon, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Amazon, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | 1 | Sep 10, 2026 |
-| **2** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | — | Sep 05, 2026 |
-| **3** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | — | Sep 02, 2026 |
-| **4** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | — | Sep 01, 2026 |
-| **5** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | — | Sep 01, 2026 |
-| **6** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | Hard | — | Sep 01, 2026 |
-| **7** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | — | Sep 01, 2026 |
-| **8** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Algorithm | Medium | — | Aug 30, 2026 |
+| **1** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | — | Sep 05, 2026 |
+| **2** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | — | Sep 02, 2026 |
+| **3** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | — | Sep 01, 2026 |
+| **4** | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | — | Sep 01, 2026 |
+| **5** | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Algorithm | Hard | — | Sep 01, 2026 |
+| **6** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | — | Sep 01, 2026 |
+| **7** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Algorithm | Medium | — | Aug 30, 2026 |
+| **8** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Object Oriented Programming | Hard | — | Aug 27, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -147,7 +147,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Algorithm | Medium | 🔥 Sep 10, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | 🆕 Sep 05, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | 🆕 Sep 01, 2026 |
@@ -270,9 +269,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [VM Inventory Rental — Heap Simulation](https://trueinterview.io/questions/vm-inventory-rental-heap) | Algorithm | Medium | Jan 31, 2026 |
 | [Prefix Frequency Partition](https://trueinterview.io/questions/equal-block-prefix-via-prefix-hash) | Algorithm | Medium | Jan 31, 2026 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Algorithm | Medium | Jan 20, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms) | Algorithm | Easy | Jan 13, 2026 |
 | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
 | [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Algorithm | Easy | Dec 12, 2025 |
@@ -284,7 +281,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Oldest One-Time Visitor](https://trueinterview.io/questions/oldest-one-time-visitor) | Object Oriented Programming | Medium | Aug 23, 2025 |
 | [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01) | Algorithm | Hard | — |
-| [Meeting Rooms II](https://trueinterview.io/questions/5dd5dbaf-3ecb-5ee3-938e-64260a5f044b) | Algorithm | Medium | — |
 | [Stock Trading Profit Calculator](https://trueinterview.io/questions/f3286655-0c6e-59e7-a316-0de0f93a91e0) | Algorithm | Medium | — |
 | [Sliding-Window Ad Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a) | Algorithm | Medium | — |
 | [Add Non-Overlapping Intervals and Query Point Coverage](https://trueinterview.io/questions/cd18c960-2e58-5dfb-8bb7-7557de4179d7) | Algorithm | Medium | — |
@@ -324,25 +320,21 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Memory Size Calculation for DDN Model Structure](https://trueinterview.io/questions/38d0f1cd-7a43-453d-a61a-07bfe73aeffd) | AI Coding | Easy | — |
 | [Machine Learning Coding: Reproduce a New Paper Experiment](https://trueinterview.io/questions/36bbfdc3-e117-4a78-bcb0-1e89dae78b5d) | AI Coding | Hard | — |
 | [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Algorithm | Medium | — |
-| [Merge Intervals with Possibly Reversed Endpoints](https://trueinterview.io/questions/9218dd59-dbfc-59f9-847d-104ab3017c6f) | Algorithm | Medium | — |
 | [Concatenated Words with All Decompositions](https://trueinterview.io/questions/fdff4b6e-a87e-5bc8-8f58-d0ce31113f48) | Algorithm | Hard | — |
 | [Minimize the Maximum Distance to a 1 After Flipping One 0](https://trueinterview.io/questions/87ea5950-a7ad-5eaa-a122-6665f8801e66) | Algorithm | Hard | — |
 | [Maximum Sum of Fixed-Length Subarray in a Sparse Interval Array](https://trueinterview.io/questions/8011d1ba-a46f-5960-8407-a19423943d4c) | Algorithm | Hard | — |
 | [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Algorithm | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
-| [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Word Search with Multi-Word Follow-up](https://trueinterview.io/questions/885fe007-aa27-5ae8-a5a4-adfb66816483) | Algorithm | Hard | — |
 | [Minimum Replacements to Make Two Strings Anagrams](https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf) | Algorithm | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Find the First Corrupted Character](https://trueinterview.io/questions/8593ff20-396d-44a7-9fb2-21c5eee2d0e1) | Algorithm | Easy | — |
-| [Find the First Unique Character in a String](https://trueinterview.io/questions/652a0840-f4a1-450d-8a8c-82f0f8500f93) | Algorithm | Easy | — |
 | [Top K Frequent Elements in Integer Array Efficiently](https://trueinterview.io/questions/cd77d63e-ea70-4485-a616-90bf6c1fc5c0) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Weighted Sum of Nested Integer Array by Depth_inverse](https://trueinterview.io/questions/3a9bae3a-c122-418b-92a8-366126b7e898) | Algorithm | Medium | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
 | [Design an index to find sentences by word; support deletion and updates](https://trueinterview.io/questions/f7fffbca-6c71-40fc-b20a-76ec9e879320) | Algorithm | Medium | — |
-| [From logs, find the most frequent event sequence](https://trueinterview.io/questions/e68b58bb-efff-4677-a839-ea7fde0f5e71) | Algorithm | Medium | — |
 | [Longest Subarray with Target Sum](https://trueinterview.io/questions/d531db52-2fa4-461d-b372-0f1f8e05a22b) | Algorithm | Medium | — |
 | [Fruit Into Baskets (Sliding Window variant)](https://trueinterview.io/questions/c8705afa-0332-452b-a87c-bb5f5792ebd3) | Algorithm | Medium | — |
 | [Lexicographically Smallest Special String](https://trueinterview.io/questions/bf51f64c-89d2-40f8-912d-c98c57f26ad7) | Algorithm | Hard | — |
@@ -375,7 +367,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Simplified Autocomplete System](https://trueinterview.io/questions/10bfe093-3d82-4bd5-a250-c65af800e04c) | Object Oriented Programming | Medium | — |
 | [Multi-source BFS](https://trueinterview.io/questions/0289f26c-9a9e-4d2c-922c-6a418d200df2) | Algorithm | Medium | — |
 | [Plus One](https://trueinterview.io/questions/65c03f5a-0fe9-4f02-8d66-d34a3b8193fd) | Algorithm | Easy | — |
-| [Hash Table Lookup with Simple Follow-ups](https://trueinterview.io/questions/1ec3d488-2ee5-489b-9ef9-544a6659dfd5) | Algorithm | Easy | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |
 | [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/f81c8862-7d95-4d4f-9537-73b6b1642297) | Algorithm | Medium | — |

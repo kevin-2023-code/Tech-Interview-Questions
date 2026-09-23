@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**42 questions** reported at Atlassian · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**41 questions** reported at Atlassian · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **42** |
+| Questions tracked | **41** |
 | Most recent sighting | Apr 21, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (43% of 42) |
-| Difficulty (easy / medium / hard) | 11 / 27 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 41) |
+| Difficulty (easy / medium / hard) | 11 / 26 / 4 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 42 questions reported at Atlassian. 23 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 41 questions reported at Atlassian. 22 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **42 of 42** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **41 of 41** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 17 | ██████ | [Algorithm](../formats/algorithm.md) (59%) | 2 / 13 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 27 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (41%) | 4 / 19 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 16 | ██████ | [Algorithm](../formats/algorithm.md) (56%) | 2 / 12 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 26 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (42%) | 4 / 18 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **42 of 42** questions at Atlassian
 
 ## What they ask about
 
-Of the **18 questions at Atlassian that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Atlassian that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -68,7 +68,7 @@ Every recorded sighting at Atlassian, by the month it was reported in — Sep 12
 | [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 3 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 2 | ████████ |
@@ -126,7 +126,6 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Object Oriented Programming | Medium | Feb 15, 2026 |
 | [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher) | Algorithm | Medium | Jan 30, 2026 |
-| [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Algorithm | Medium | Jan 20, 2026 |
 | [Product Feed and Shopping Recommendation System](https://trueinterview.io/questions/product-feed-and-shopping-recommendation-system) | System Design | Hard | Jan 05, 2026 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |

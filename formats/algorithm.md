@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**1,644 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,624 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -13,7 +13,6 @@
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Medium | 🔥 Sep 11, 2026 |
 | **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Medium | 🔥 Sep 11, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🔥 Sep 10, 2026 |
-| **Amazon / ByteDance** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-without-repeating-characters-2) | Medium | 🔥 Sep 10, 2026 |
 | **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🔥 Sep 09, 2026 |
 | **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🔥 Sep 09, 2026 |
 | **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🔥 Sep 09, 2026 |
@@ -86,7 +85,6 @@
 | **Amazon** | [Word Segmentation with a Dictionary Helper](https://trueinterview.io/questions/word-segmentation-dictionary-helper) | Medium | Jul 22, 2026 |
 | **Amazon** | [Fulfillment-Center Inventory Transfer](https://trueinterview.io/questions/fulfillment-center-inventory-transfer) | Medium | Jul 22, 2026 |
 | **Amazon** | [Handwrite Sigmoid, Softmax, and Attention](https://trueinterview.io/questions/handwrite-sigmoid-softmax-attention) | Medium | Jul 20, 2026 |
-| **Pinduoduo** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/longest-substring-one-allowed-repeat) | Medium | Jul 17, 2026 |
 | **Pinduoduo** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Hard | Jul 17, 2026 |
 | **OpenAI** | [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Hard | Jul 16, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
@@ -216,7 +214,6 @@
 | **Uber** | [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter) | Medium | May 29, 2026 |
 | **Anthropic** | [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) | Medium | May 28, 2026 |
 | **Microsoft** | [In-Memory SQL Engine II](https://trueinterview.io/questions/in-memory-sql-engine) | Hard | May 28, 2026 |
-| **Instacart** | [Decode Password](https://trueinterview.io/questions/onsite-decode-password) | Medium | May 28, 2026 |
 | **Anthropic / Google** | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Medium | May 28, 2026 |
 | **Amazon** | [Message Latency from Send/Receive CSV Logs](https://trueinterview.io/questions/200a942c-d5f7-43e5-badc-68f1a185a4bc) | Easy | May 27, 2026 |
 | **Instacart** | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Easy | May 27, 2026 |
@@ -260,5 +257,8 @@
 | **Uber** | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Medium | May 12, 2026 |
 | **Stripe** | [Account Balance Processor](https://trueinterview.io/questions/account-balance-manager) | Medium | May 12, 2026 |
 | **DoorDash** | [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment) | Medium | May 11, 2026 |
+| **Snowflake** | [Wiki Page Shortest-Click Path](https://trueinterview.io/questions/wiki-page-shortest-path) | Hard | May 11, 2026 |
+| **Two Sigma** | [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Medium | May 10, 2026 |
+| **Two Sigma** | [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Medium | May 10, 2026 |
 
 <sub>Page 1 of 7 · [Page 2 →](algorithm-2.md)</sub>

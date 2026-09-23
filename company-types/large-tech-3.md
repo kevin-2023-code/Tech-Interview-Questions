@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**932 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**924 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,12 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Shopify** | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) | Medium | Aug 29, 2025 |
-| **Robinhood** | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | Medium | Aug 2025 |
-| **Ramp** | [Cloud Storage System](https://trueinterview.io/questions/cloud-storage-system) | Medium | Aug 2025 |
-| **Instacart** | [Pivot Table Profit Analyzer](https://trueinterview.io/questions/pivot-table-profit-analyzer) | Medium | Jul 30, 2025 |
-| **Coinbase** | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Medium | Jul 22, 2025 |
-| **Reddit** | [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Medium | Jul 21, 2025 |
 | **Snowflake / Walmart Labs** | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Medium | Jul 20, 2025 |
 | **Snowflake** | [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | Hard | Jul 20, 2025 |
 | **Snowflake** | [Unequal Elements](https://trueinterview.io/questions/unequal-elements) | Medium | Jul 20, 2025 |
@@ -98,7 +92,6 @@
 | **Confluent / Pinterest** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Medium | — |
 | **Affirm / Amazon** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Medium | — |
 | **Verkada** | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Medium | — |
-| **Stubhub** | [Strategy-Based Event Recommendation Engine](https://trueinterview.io/questions/97013397-3a31-50c4-8f2b-85e6455c3277) | Medium | — |
 | **Arista** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Medium | — |
 | **Arista** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Easy | — |
 | **Arista** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Medium | — |
@@ -245,7 +238,6 @@
 | **Airbnb** | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Medium | — |
 | **Pinterest / LinkedIn** | [Split Array Largest Sum](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) | Hard | — |
 | **Instacart** | [Fix Backend Filtering for Book Search Results](https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22) | Easy | — |
-| **ByteDance / Amazon / Lyft** | [Merge Intervals with Possibly Reversed Endpoints](https://trueinterview.io/questions/9218dd59-dbfc-59f9-847d-104ab3017c6f) | Medium | — |
 | **Airbnb** | [URL Parser with Percent Unquote](https://trueinterview.io/questions/b8f2f270-a472-5c0c-927b-883b8fa80722) | Medium | — |
 | **Instacart** | [Implement Search and Filter UI for a Library Management Table](https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81) | Medium | — |
 | **Coinbase** | [Mine block coding question](https://trueinterview.io/questions/31a8c266-4a94-4e0d-b803-472764321103) | Hard | — |
@@ -260,5 +252,13 @@
 | **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
 | **SoFi** | [Interactive Story Endings Reachability (Choices/Options)](https://trueinterview.io/questions/5a23f516-7bed-46d3-8874-942cca7863b5) | Medium | — |
 | **SoFi** | [Design a Multi-threaded Task Executor with Extensible Task Types (Semaphore-based)](https://trueinterview.io/questions/4e7be800-1e64-44b9-ada0-f2cb1c43c816) | Medium | — |
+| **Pinterest** | [Account Balancing](https://trueinterview.io/questions/31a24eea-aee5-45ea-b3eb-9d8f920f226a) | Medium | — |
+| **SoFi** | [Basic Text Justification (without full padding to fixed width)](https://trueinterview.io/questions/0187a685-9680-4dbf-8f34-9e316f33b78b) | Easy | — |
+| **xAI / Lyft** | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Hard | — |
+| **SoFi** | [Maximum Occurring Character](https://trueinterview.io/questions/d73e4ed1-1ee4-479c-955e-249baf81ac1d) | Easy | — |
+| **SoFi** | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Easy | — |
+| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
+| **Snapchat** | [Ad Click Tracking and Real-Time Trending Ads System](https://trueinterview.io/questions/f982b537-d539-4f01-ac3a-d1aa732553a0) | Medium | — |
+| **Snapchat** | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f) | Medium | — |
 
 <sub>[← Page 2](large-tech-2.md) · Page 3 of 4 · [Page 4 →](large-tech-4.md)</sub>

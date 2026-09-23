@@ -2,7 +2,7 @@
 
 # 🖥️ Hardware, devices & networking — interview & OA questions
 
-**135 questions** reported across the **3 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**134 questions** reported across the **3 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Apple (114)](../companies/apple.md) · [Cisco (18)](../companies/cisco.md) · [Arista (5)](../companies/arista.md)
+[Apple (113)](../companies/apple.md) · [Cisco (18)](../companies/cisco.md) · [Arista (5)](../companies/arista.md)
 
 <sub>3 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 99 | 73% | ██████████████ | 18 |
+| [Algorithm](../formats/algorithm.md) | 98 | 73% | ██████████████ | 18 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 12% | ██ | 3 |
 | [System Design](../formats/system-design.md) | 14 | 10% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **30 / 82 / 23**, over the rows the catalog has graded. 24 of the 135 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **30 / 81 / 23**, over the rows the catalog has graded. 24 of the 134 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -131,7 +131,6 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Apple** | [Write a Debounce Function](https://trueinterview.io/questions/write-a-debounce-function) | Medium | Feb 27, 2026 |
 | **Apple** | [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards) | Medium | Feb 26, 2026 |
 | **Apple** | [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch) | Hard | Feb 25, 2026 |
-| **Apple** | [Redundant Connection](https://trueinterview.io/questions/redundant-connection) | Medium | Feb 22, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
 | **Apple / Bloomberg / Google** | [Decode String](https://trueinterview.io/questions/decode-string) | Medium | Feb 16, 2026 |
 | **Apple** | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Easy | Feb 11, 2026 |

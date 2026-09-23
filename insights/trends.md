@@ -2,22 +2,22 @@
 
 # Trends by month
 
-Counted over the **1,389 questions that carry a sighting date**. The other 1,154 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
+Counted over the **1,372 questions that carry a sighting date**. The other 1,137 are absent from every row here for the reason the month pages exclude them: a month is a claim about when something was asked, and an undated row cannot stand behind it.
 
 [← Insights](README.md) · [← Every month](../by-month/README.md)
 
 | Month | Sightings | Companies | AI Coding | Algorithm | Object Oriented Programming | SQL | System Design |  |
 | :-- | --: | --: | --: | --: | --: | --: | --: | :-- |
 | [Feb 2126](../by-month/2126-02.md) | 1 | 1 | 0 | 1 | 0 | 0 | 0 | █ |
-| [Sep 2026](../by-month/2026-09.md) | 18 | 7 | 0 | 14 | 4 | 0 | 0 | █ |
+| [Sep 2026](../by-month/2026-09.md) | 17 | 7 | 0 | 13 | 4 | 0 | 0 | █ |
 | [Aug 2026](../by-month/2026-08.md) | 80 | 21 | 0 | 47 | 11 | 6 | 16 | ██████ |
-| [Jul 2026](../by-month/2026-07.md) | 82 | 35 | 2 | 37 | 7 | 25 | 11 | ███████ |
-| [Jun 2026](../by-month/2026-06.md) | 179 | 51 | 18 | 91 | 36 | 1 | 33 | ██████████████ |
-| [May 2026](../by-month/2026-05.md) | 201 | 52 | 18 | 101 | 35 | 21 | 26 | ████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 167 | 57 | 11 | 87 | 25 | 1 | 43 | █████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 79 | 34 | 2 | 36 | 6 | 25 | 10 | ██████ |
+| [Jun 2026](../by-month/2026-06.md) | 178 | 51 | 18 | 91 | 36 | 1 | 32 | ██████████████ |
+| [May 2026](../by-month/2026-05.md) | 198 | 52 | 18 | 100 | 35 | 21 | 24 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 163 | 57 | 11 | 86 | 24 | 1 | 41 | █████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 128 | 49 | 6 | 81 | 15 | 4 | 22 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 124 | 52 | 6 | 72 | 20 | 0 | 26 | ██████████ |
-| [Jan 2026](../by-month/2026-01.md) | 147 | 49 | 4 | 91 | 33 | 0 | 19 | ████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 122 | 52 | 6 | 71 | 20 | 0 | 25 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 144 | 49 | 4 | 89 | 32 | 0 | 19 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 66 | 42 | 2 | 42 | 13 | 1 | 8 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 75 | 38 | 3 | 47 | 16 | 0 | 9 | ██████ |
 | [Oct 2025](../by-month/2025-10.md) | 39 | 33 | 2 | 19 | 11 | 0 | 7 | ███ |

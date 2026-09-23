@@ -2,7 +2,7 @@
 
 # Walmart Labs interview process, OA & interview questions
 
-**27 questions** reported at Walmart Labs · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
+**26 questions** reported at Walmart Labs · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **27** |
+| Questions tracked | **26** |
 | Most recent sighting | Jul 07, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 27) |
-| Difficulty (easy / medium / hard) | 7 / 16 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (65% of 26) |
+| Difficulty (easy / medium / hard) | 6 / 16 / 4 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 27 questions reported at Walmart Labs. 18 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 26 questions reported at Walmart Labs. 18 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **27 of 27** questions at Walmart Labs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **26 of 26** questions at Walmart Labs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 7 | ██████ | [Algorithm](../formats/algorithm.md) (71%) | 3 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 6 | █████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 3 / 9 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 9 | ████████ | [System Design](../formats/system-design.md) (44%) | 1 / 6 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -48,18 +48,18 @@ Which stage each question came from, for the **27 of 27** questions at Walmart L
 
 ## What they ask about
 
-Of the **15 questions at Walmart Labs that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Walmart Labs that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 5 | 33% | ████████████ | May 07, 2026 |
-| `binary-search` | 2 | 13% | █████ | — |
-| `greedy` | 2 | 13% | █████ | May 07, 2026 |
-| `hashing` | 2 | 13% | █████ | Mar 03, 2026 |
-| `intervals` | 2 | 13% | █████ | Apr 24, 2026 |
-| `sorting` | 2 | 13% | █████ | Apr 24, 2026 |
-| `two-pointers` | 2 | 13% | █████ | Jul 07, 2026 |
+| `arrays` | 5 | 36% | ████████████ | May 07, 2026 |
+| `binary-search` | 2 | 14% | █████ | — |
+| `greedy` | 2 | 14% | █████ | May 07, 2026 |
+| `intervals` | 2 | 14% | █████ | Apr 24, 2026 |
+| `sorting` | 2 | 14% | █████ | Apr 24, 2026 |
+| `two-pointers` | 2 | 14% | █████ | Jul 07, 2026 |
 | `backtracking` | 1 | 7% | ██ | Jul 20, 2025 |
+| `hashing` | 1 | 7% | ██ | Mar 03, 2026 |
 | `sliding-window` | 1 | 7% | ██ | Jul 07, 2026 |
 | `stack` | 1 | 7% | ██ | Feb 07, 2026 |
 
@@ -139,7 +139,6 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | [Check Output Correctness in Code](https://trueinterview.io/questions/d65899f8-0f93-47d6-9fd4-ca6ae30663bc) | AI Coding | Easy | — |
 | [3Sum (No Duplicate Triplets Assumed)](https://trueinterview.io/questions/8fc7c24f-4bbb-435d-9d6a-c35a8c021037) | Algorithm | Medium | — |
 | [Find the First Corrupted Character](https://trueinterview.io/questions/8593ff20-396d-44a7-9fb2-21c5eee2d0e1) | Algorithm | Easy | — |
-| [Find the First Unique Character in a String](https://trueinterview.io/questions/652a0840-f4a1-450d-8a8c-82f0f8500f93) | Algorithm | Easy | — |
 | [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Object Oriented Programming | Medium | — |
 | [Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217) | SQL | Hard | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |

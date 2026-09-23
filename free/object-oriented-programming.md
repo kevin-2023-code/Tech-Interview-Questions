@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**40 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**39 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -31,7 +31,6 @@
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | **Tradedesk** | Medium | — |
 | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | **Figma** | Medium | Jul 06, 2026 |
-| [Design Snake Game with OOD APIs](https://trueinterview.io/questions/707f0717-dd58-55df-89f6-2c6272b0526e) | **Amplitude** | Medium | — |
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | **Airtable** | Medium | — |
 | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | **Netflix** | Medium | May 21, 2026 |
 | [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | **Akuna Capital** | Medium | Nov 02, 2025 |

@@ -2,7 +2,7 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**21 questions** reported at Goldman Sachs · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
+**20 questions** reported at Goldman Sachs · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
+| Questions tracked | **20** |
 | Most recent sighting | Jul 06, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (86% of 21) |
-| Difficulty (easy / medium / hard) | 8 / 12 / 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (85% of 20) |
+| Difficulty (easy / medium / hard) | 7 / 12 / 1 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 10 |
 
-<sub>Counted from the 21 questions reported at Goldman Sachs. 17 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 20 questions reported at Goldman Sachs. 17 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at Goldman Sachs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **20 of 20** questions at Goldman Sachs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 8 | ███████ | [Algorithm](../formats/algorithm.md) (75%) | 2 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 8 | ████████ | [Algorithm](../formats/algorithm.md) (75%) | 2 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 4 | ████ | [Algorithm](../formats/algorithm.md) (75%) | 2 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -46,20 +46,20 @@ Which stage each question came from, for the **21 of 21** questions at Goldman S
 
 ## What they ask about
 
-Of the **15 questions at Goldman Sachs that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Goldman Sachs that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 33% | ████████████ | Jul 06, 2026 |
-| `arrays` | 3 | 20% | ███████ | Mar 11, 2026 |
-| `strings` | 3 | 20% | ███████ | Dec 12, 2025 |
-| `greedy` | 2 | 13% | █████ | Nov 25, 2025 |
-| `trees` | 2 | 13% | █████ | Jun 21, 2026 |
-| `backtracking` | 1 | 7% | ██ | Sep 08, 2025 |
-| `dynamic-programming` | 1 | 7% | ██ | — |
-| `graphs` | 1 | 7% | ██ | Jun 18, 2026 |
-| `sliding-window` | 1 | 7% | ██ | Nov 25, 2025 |
-| `stack` | 1 | 7% | ██ | Sep 22, 2025 |
+| `hashing` | 4 | 29% | ████████████ | Jul 06, 2026 |
+| `arrays` | 3 | 21% | █████████ | Mar 11, 2026 |
+| `strings` | 3 | 21% | █████████ | Dec 12, 2025 |
+| `greedy` | 2 | 14% | ██████ | Nov 25, 2025 |
+| `trees` | 2 | 14% | ██████ | Jun 21, 2026 |
+| `backtracking` | 1 | 7% | ███ | Sep 08, 2025 |
+| `dynamic-programming` | 1 | 7% | ███ | — |
+| `graphs` | 1 | 7% | ███ | Jun 18, 2026 |
+| `sliding-window` | 1 | 7% | ███ | Nov 25, 2025 |
+| `stack` | 1 | 7% | ███ | Sep 22, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -140,7 +140,6 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | [Equalize Letter Frequencies With Add / Remove](https://trueinterview.io/questions/equalize-letter-frequencies) | Algorithm | Medium | Sep 10, 2025 |
 | [Encyclopedia Removal Grid](https://trueinterview.io/questions/encyclopedia-removal-grid) | Algorithm | Medium | Sep 08, 2025 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
-| [Two Sum](https://trueinterview.io/questions/da982071-7b82-4225-9209-ac533bfd4e22) | Algorithm | Easy | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | — |
 | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Object Oriented Programming | Medium | — |

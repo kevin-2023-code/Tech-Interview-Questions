@@ -2,7 +2,7 @@
 
 # ☁️ Developer tools, cloud & data infrastructure — interview & OA questions
 
-**219 questions** reported across the **6 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**215 questions** reported across the **6 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Snowflake (112)](../companies/snowflake.md) · [Databricks (64)](../companies/databricks.md) · [Datadog (20)](../companies/datadog.md) · [Confluent (17)](../companies/confluent.md) · [MongoDB (6)](../companies/mongodb.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md)
+[Snowflake (111)](../companies/snowflake.md) · [Databricks (61)](../companies/databricks.md) · [Datadog (20)](../companies/datadog.md) · [Confluent (17)](../companies/confluent.md) · [MongoDB (6)](../companies/mongodb.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md)
 
 <sub>6 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 136 | 62% | ██████████████ | 15 |
-| [System Design](../formats/system-design.md) | 39 | 18% | ████ | 7 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 37 | 17% | ████ | 6 |
+| [Algorithm](../formats/algorithm.md) | 134 | 62% | ██████████████ | 15 |
+| [System Design](../formats/system-design.md) | 38 | 18% | ████ | 7 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 36 | 17% | ████ | 6 |
 | [SQL](../formats/sql.md) | 5 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **31 / 143 / 45**, over the rows the catalog has graded. 29 of the 219 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **31 / 139 / 45**, over the rows the catalog has graded. 29 of the 215 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **94 questions in this cut that carry a topic label** (43% of it):
+Of the **94 questions in this cut that carry a topic label** (44% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -101,7 +101,6 @@ Of the **94 questions in this cut that carry a topic label** (43% of it):
 | **Airbnb / Snowflake / Square** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Medium | May 24, 2026 |
 | **Snowflake** | [SnowCal](https://trueinterview.io/questions/snowcal) | Medium | May 22, 2026 |
 | **Databricks** | [String Pattern Partition by Source Indices](https://trueinterview.io/questions/string-pattern-partition) | Medium | May 22, 2026 |
-| **Databricks** | [Problem Statement](https://trueinterview.io/questions/problem-statement) | Medium | May 22, 2026 |
 | **Databricks / OpenAI** | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | Hard | May 22, 2026 |
 | **Snowflake** | [DAG Allow / Disallow Propagation](https://trueinterview.io/questions/dag-allow-disallow-letters) | Medium | May 20, 2026 |
 | **Databricks** | [Distributed File System](https://trueinterview.io/questions/distributed-file-system) | Medium | May 15, 2026 |
@@ -155,7 +154,6 @@ Of the **94 questions in this cut that carry a topic label** (43% of it):
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Jan 22, 2026 |
 | **Snowflake / ByteDance** | [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Medium | Jan 22, 2026 |
 | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | [Design Instagram](https://trueinterview.io/questions/design-instagram) | Medium | Jan 22, 2026 |
-| **Snowflake / Amazon / Atlassian / ByteDance / Meta** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals-5) | Medium | Jan 20, 2026 |
 | **Snowflake** | [Throne Inheritance](https://trueinterview.io/questions/throne-inheritance) | Medium | Jan 18, 2026 |
 | **Snowflake** | [Recipe Sequence Matcher](https://trueinterview.io/questions/recipe-sequence-matcher) | Medium | Jan 17, 2026 |
 | **Snowflake** | [Maximum Profit Query Selection](https://trueinterview.io/questions/single-query-max-revenue) | Easy | Jan 17, 2026 |
@@ -278,8 +276,6 @@ Of the **94 questions in this cut that carry a topic label** (43% of it):
 | **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |
 | **Databricks** | [SQL for Data Analysis](https://trueinterview.io/questions/fbafc874-d6f5-487f-988f-47f0b70c83c1) | Medium | — |
 | **Databricks** | [Revenue Calculation](https://trueinterview.io/questions/defc1881-3c2c-49ae-934b-39263ce423cf) | Medium | — |
-| **Databricks** | [Bottom-K Customers by Revenue (with Nested Revenue Follow-up)](https://trueinterview.io/questions/ac49da6b-4bab-473b-9087-c81aa1bd7986) | Medium | — |
-| **Databricks** | [Design Key Value Class with Average Operations](https://trueinterview.io/questions/abcd2c0b-6316-42ed-8a99-20aa16716961) | Medium | — |
 | **Databricks** | [Top-5 Most Similar Rows Using MSE Across Multiple Features](https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50) | Hard | — |
 | **Databricks** | [Reconstruct a Binary Tree from Inorder Traversal (Follow-up)](https://trueinterview.io/questions/763b1a0b-3c17-478c-9efb-43a4e22d4e3d) | Medium | — |
 | **Databricks** | [Grid pathfinding with time & cost optimality (BFS / shortest path variant)](https://trueinterview.io/questions/5ef47226-c611-4570-99aa-51ed22a3d12b) | Medium | — |

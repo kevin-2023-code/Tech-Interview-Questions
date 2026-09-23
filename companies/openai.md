@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**101 questions** reported at OpenAI · **14 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**100 questions** reported at OpenAI · **14 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **101** |
+| Questions tracked | **100** |
 | Most recent sighting | Aug 22, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (39% of 101) |
-| Difficulty (easy / medium / hard) | 7 / 53 / 41 |
+| Most common format | [Algorithm](../formats/algorithm.md) (39% of 100) |
+| Difficulty (easy / medium / hard) | 7 / 52 / 41 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 14 |
 
-<sub>Counted from the 101 questions reported at OpenAI. 53 of them carry a sighting date; the other 48 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 100 questions reported at OpenAI. 52 of them carry a sighting date; the other 48 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **101 of 101** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **100 of 100** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 48 | ███████ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 29 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 65 | ██████████ | [System Design](../formats/system-design.md) (34%) | 4 / 32 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 47 | ███████ | [Algorithm](../formats/algorithm.md) (68%) | 1 / 28 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 64 | ██████████ | [System Design](../formats/system-design.md) (33%) | 4 / 31 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -76,7 +76,7 @@ Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2
 | [Aug 2026](../by-month/2026-08.md) | 3 | ███████ |
 | [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 11 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 10 | ██████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 9 | ████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | █████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 4 | █████████ |
@@ -159,7 +159,6 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
 | [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Algorithm | Medium | May 20, 2026 |
 | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Algorithm | Medium | May 15, 2026 |
-| [Slack](https://trueinterview.io/questions/design-slack) | System Design | Medium | May 05, 2026 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug) | AI Coding | Hard | Apr 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |

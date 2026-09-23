@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**261 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**254 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,13 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon / Datadog / DoorDash / Google / LinkedIn / Rippling / Roblox / Snapchat / Stripe** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | Hard | — |
-| **Robinhood** | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | Medium | — |
-| **xAI** | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | Easy | — |
-| **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
-| **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |
-| **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Hard | — |
-| **Netflix / Apple / Snowflake** | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | Medium | — |
 | **OpenAI** | [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | Easy | — |
 | **Anthropic** | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | Hard | — |
 | **xAI** | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | Medium | — |

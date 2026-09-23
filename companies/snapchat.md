@@ -2,7 +2,7 @@
 
 # Snapchat interview process, OA & interview questions
 
-**53 questions** reported at Snapchat · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
+**52 questions** reported at Snapchat · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **53** |
+| Questions tracked | **52** |
 | Most recent sighting | Jul 22, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 53) |
-| Difficulty (easy / medium / hard) | 7 / 39 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 52) |
+| Difficulty (easy / medium / hard) | 7 / 39 / 6 |
 | Free to practise | [12](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 53 questions reported at Snapchat. 38 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 52 questions reported at Snapchat. 37 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **53 of 53** questions at Snapchat that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **52 of 52** questions at Snapchat that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 29 | █████████ | [Algorithm](../formats/algorithm.md) (66%) | 2 / 25 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (53%) | 4 / 21 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 31 | ██████████ | [System Design](../formats/system-design.md) (52%) | 4 / 21 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -74,7 +74,7 @@ Every recorded sighting at Snapchat, by the month it was reported in — Oct 15,
 | [May 2026](../by-month/2026-05.md) | 2 | █████ |
 | [Apr 2026](../by-month/2026-04.md) | 5 | ████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 10 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 7 | █████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
@@ -142,7 +142,6 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Custom List, Iterator & Map Function](https://trueinterview.io/questions/custom-list-iterator-and-map-function) | Object Oriented Programming | Medium | Feb 26, 2026 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
-| [Metrics Collection, Alerting & Click Counters](https://trueinterview.io/questions/metrics-collection-alerting-and-click-counters) | System Design | Hard | Feb 24, 2026 |
 | [Escape Grid with Fire and Waiting Time](https://trueinterview.io/questions/escape-grid-with-fire-and-waiting-time) | Algorithm | Hard | Feb 24, 2026 |
 | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | Feb 22, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |

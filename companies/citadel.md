@@ -2,7 +2,7 @@
 
 # Citadel interview process, OA & interview questions
 
-**54 questions** reported at Citadel · **12 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
+**53 questions** reported at Citadel · **12 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **54** |
+| Questions tracked | **53** |
 | Most recent sighting | Sep 08, 2026 |
 | Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 54) |
-| Difficulty (easy / medium / hard) | 8 / 38 / 8 |
-| Free to practise | [5](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (72% of 53) |
+| Difficulty (easy / medium / hard) | 8 / 37 / 8 |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 12 |
 
-<sub>Counted from the 54 questions reported at Citadel. 33 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 53 questions reported at Citadel. 33 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **54 of 54** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **53 of 53** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 11 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 6 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 34 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 3 / 24 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 13 | ████ | [Algorithm](../formats/algorithm.md) (46%) | 0 / 12 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 12 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 11 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -51,7 +51,7 @@ Which stage each question came from, for the **54 of 54** questions at Citadel t
 
 ## What they ask about
 
-Of the **28 questions at Citadel that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **28 questions at Citadel that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -184,6 +184,5 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Algorithm | Medium | — |
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
-| [Minimum Root-to-Leaf Path Sum](https://trueinterview.io/questions/37580bc6-41c7-4e4d-b2b8-c1f0d7bedc04) | Algorithm | Medium | — |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |
 | [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb) | Algorithm | Medium | — |
