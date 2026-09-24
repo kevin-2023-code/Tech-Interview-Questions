@@ -5,11 +5,16 @@ This module is the ONLY thing in the repository that talks to the network, and
 it reads exactly one thing: the public, documented, read-only API at
 ``/api/v1`` (spec: https://trueinterview.io/openapi.json). That API publishes
 metadata and never bodies — a title, a company, a format, a difficulty, a
-sighting month, a URL — so this repository is a pointer into the site, not a
-copy of it. Nothing here fetches a question statement, a solution, or a test
-case, and nothing may be added that does: the moment this directory holds the
-content instead of the address, it stops being an index and starts being a
-mirror of a product that people pay for.
+sighting month, a URL.
+
+The one exception is the FREE tier, which this repository republishes on
+purpose: the statements and hints of free practice questions and the Study
+articles, read from ``/api/cron/content-export`` behind the
+``CONTENT_EXPORT_SECRET`` Actions secret (see ``CONTENT-DESIGN.md``). The site
+decides what is free and never sends a solution, a test case or a paid row;
+:func:`load_catalog` checks every body against the metadata again anyway. With
+the secret unset the export is simply not read, and the repository renders the
+metadata-only pages it always did.
 
 Two properties the rest of the pipeline relies on:
 
@@ -27,6 +32,7 @@ Two properties the rest of the pipeline relies on:
 from __future__ import annotations
 
 import json
+import os
 import time
 import urllib.error
 import urllib.request
@@ -159,6 +165,31 @@ class Experience:
     url: str
     posted_at: str | None
     posted_date: date | None
+
+
+@dataclass(frozen=True)
+class QuestionBody:
+    """A free question's statement and hints, as the site's export hands them over."""
+
+    slug: str
+    type: str
+    content_md: str
+    hints: tuple[str, ...]
+
+
+@dataclass(frozen=True)
+class Content:
+    """The free tier's bodies, keyed by catalog slug.
+
+    ``dropped`` counts bodies the export sent that the metadata did not vouch
+    for — a slug the question list does not carry, or one it does not mark
+    free. They are never rendered; the count is printed so a disagreement
+    between the two endpoints is seen rather than silently resolved.
+    """
+
+    questions: dict[str, QuestionBody]
+    articles: dict[str, str]
+    dropped: int = 0
 
 
 def _str_list(value: Any) -> tuple[str, ...]:
@@ -440,6 +471,31 @@ def fetch_experiences(base_url: str, *, timeout: int = 30) -> tuple[list[dict[st
     return [item for item in rows if isinstance(item, dict)], total
 
 
+def fetch_content(base_url: str, secret: str, *, timeout: int = 60) -> dict[str, Any]:
+    """The free tier's bodies from the site's export.
+
+    Not the public API, and not its ``{ok, data}`` envelope: a plain JSON
+    object ``{generatedAt, questions, articles}``. Every failure raises — the
+    renderer prunes question pages that stop appearing, so an unreadable export
+    must stop the sync rather than read as "nothing is free any more".
+    """
+    url = f"{base_url.rstrip('/')}/api/cron/content-export"
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json", "Authorization": f"Bearer {secret}"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            payload = json.load(response)
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as error:
+        raise CatalogError(f"could not read {url}: {error}") from error
+    if not isinstance(payload, dict) or not isinstance(payload.get("questions"), list) or not isinstance(
+        payload.get("articles"), list
+    ):
+        raise CatalogError(f"{url} did not answer with a content export")
+    return payload
+
+
 def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dict[str, Any]:
     """The whole snapshot this repository is rendered from."""
     base = base_url.rstrip("/")
@@ -453,6 +509,9 @@ def fetch_catalog(base_url: str = DEFAULT_BASE_URL, *, timeout: int = 30) -> dic
         "experiences": experiences,
         "experiencesTotal": experiences_total,
         "companyLabels": fetch_company_labels(base, timeout=timeout),
+        # Absent (None) is "not configured", which renders the metadata-only
+        # pages; it is never read as "nothing is free".
+        "content": fetch_content(base, secret) if (secret := os.environ.get("CONTENT_EXPORT_SECRET")) else None,
     }
 
 
@@ -473,6 +532,10 @@ class Catalog:
     #: that it is a slice; `None` means the size is unknown, not zero.
     experiences_total: int | None
     labels: dict[str, str]
+    #: The free tier's bodies, or ``None`` when the export was not read. ``None``
+    #: renders the metadata-only pages; an empty :class:`Content` is a real
+    #: answer ("nothing is free") and is treated as one.
+    content: Content | None = None
 
 
 def load_catalog(payload: Any) -> Catalog:
@@ -526,7 +589,9 @@ def load_catalog(payload: Any) -> Catalog:
     # Absent means complete: a hand-written fixture should not have to opt in to
     # the normal case, and only a live read that fell short sets it False.
     guides_complete = payload.get("guidesComplete")
+    content = content_from_payload(payload.get("content"), questions, guides)
     return Catalog(
+        content=content,
         questions=questions,
         guides=guides,
         guides_complete=guides_complete is not False,
@@ -534,6 +599,50 @@ def load_catalog(payload: Any) -> Catalog:
         experiences_total=experiences_total if isinstance(experiences_total, int) else None,
         labels={str(k): str(v) for k, v in labels.items() if isinstance(v, str)},
     )
+
+
+def content_from_payload(raw: Any, questions: list[Question], guides: list[Guide]) -> Content | None:
+    """Validate the export against the metadata it will be rendered beside.
+
+    The second fence. The site already exports only free rows; a body is kept
+    here only if the public question list ALSO says that slug is free, or the
+    public article list carries it. Anything else is dropped and counted — a
+    disagreement between two endpoints is resolved toward publishing less.
+    """
+    if raw is None:
+        return None
+    if not isinstance(raw, dict):
+        raise CatalogError("content export must be a JSON object")
+    raw_questions, raw_articles = raw.get("questions"), raw.get("articles")
+    if not isinstance(raw_questions, list) or not isinstance(raw_articles, list):
+        raise CatalogError("content export has no questions/articles arrays")
+    free = {q.slug: q for q in questions if q.access_tier == "free"}
+    guide_slugs = {g.slug for g in guides}
+    bodies: dict[str, QuestionBody] = {}
+    articles: dict[str, str] = {}
+    dropped = 0
+    for item in raw_questions:
+        if not isinstance(item, dict):
+            raise CatalogError("content export has a malformed question")
+        slug, text = item.get("slug"), item.get("contentMd")
+        if not isinstance(slug, str) or not isinstance(text, str) or not text.strip():
+            raise CatalogError(f"content export question {slug!r} has no body")
+        meta = free.get(slug)
+        if meta is None or item.get("type") != meta.type:
+            dropped += 1
+            continue
+        bodies[slug] = QuestionBody(slug=slug, type=meta.type, content_md=text.strip(), hints=_str_list(item.get("hints")))
+    for item in raw_articles:
+        if not isinstance(item, dict):
+            raise CatalogError("content export has a malformed article")
+        slug, text = item.get("slug"), item.get("contentMd")
+        if not isinstance(slug, str) or not isinstance(text, str) or not text.strip():
+            raise CatalogError(f"content export article {slug!r} has no body")
+        if slug not in guide_slugs:
+            dropped += 1
+            continue
+        articles[slug] = text.strip()
+    return Content(questions=bodies, articles=articles, dropped=dropped)
 
 
 def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
@@ -544,6 +653,17 @@ def snapshot(catalog: "Catalog", source: str) -> dict[str, Any]:
         "companyLabels": labels,
         "guidesComplete": catalog.guides_complete,
         "experiencesTotal": catalog.experiences_total,
+        "content": None
+        if catalog.content is None
+        else {
+            "questions": [
+                {"slug": b.slug, "type": b.type, "contentMd": b.content_md, "hints": list(b.hints)}
+                for b in sorted(catalog.content.questions.values(), key=lambda b: b.slug)
+            ],
+            "articles": [
+                {"slug": slug, "contentMd": text} for slug, text in sorted(catalog.content.articles.items())
+            ],
+        },
         "experiences": [
             {
                 "id": e.id,

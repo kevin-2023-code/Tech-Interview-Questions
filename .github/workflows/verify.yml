@@ -40,7 +40,7 @@ jobs:
         run: |
           cp -r . "$RUNNER_TEMP/render-check"
           cd "$RUNNER_TEMP/render-check"
-          rm -rf companies company-types formats by-month guides insights free experiences data
+          rm -rf companies company-types formats by-month guides insights free experiences data questions
           python3 scripts/sync.py \
             --catalog-file scripts/fixtures/catalog-sample.json \
             --today 2026-09-11

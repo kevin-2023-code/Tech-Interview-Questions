@@ -24,9 +24,14 @@
 
 ---
 
-Every title here opens the real problem on [TrueInterview](https://trueinterview.io) — a
-runnable workspace, not a screenshot, and a server-judged verdict on the algorithm,
-low-level-design and SQL formats. Synced from the live catalog every hour.
+**Every company has a home page** — how it interviews, its interview-process guides in
+full, and its free questions with the whole statement and hints — under
+[`companies/`](companies/README.md). The free questions live under
+[`questions/`](questions/README.md), one folder each. Everything else opens the real problem on
+[TrueInterview](https://trueinterview.io): a runnable workspace, not a screenshot, and a
+server-judged verdict on the algorithm, object-oriented-programming and SQL formats.
+Synced from the live catalog every hour, and free to share under
+[CC BY 4.0](LICENSE-CONTENT.md).
 
 ## 📊 What companies are actually asking
 
@@ -267,16 +272,17 @@ is on a company page, a format page, and (if it carries a sighting date) a month
 | [`data/companies.csv`](data/companies.csv) | every company and its question count |
 | [`data/guides.csv`](data/guides.csv) | every Study-section writeup, with its company and topics |
 | [`data/insights.json`](data/insights.json) | every number on the [insights pages](insights/README.md), as data |
+| [`data/paths.json`](data/paths.json) | the folder each published question and guide was given — stable, so links never move |
 | [Live API](https://trueinterview.io/developers/api) | what this repo is generated from |
 
 ## ⚙️ How it stays current
 
-Everything under `companies/`, `formats/`, `by-month/`, `guides/`, `insights/`, `free/`,
-`experiences/` and `data/` is generated hourly by [`scripts/sync.py`](scripts/sync.py) from TrueInterview's public, documented,
-read-only catalog API. That API publishes **metadata only** — a title, a company, a format,
-a difficulty, a sighting month, a URL. No problem statements, no solutions, no test cases,
-and neither does this repository: what you get here is the index, and the questions
-themselves live on the site.
+Everything under `companies/`, `questions/`, `formats/`, `by-month/`, `guides/`, `insights/`,
+`free/`, `experiences/` and `data/` is generated hourly by [`scripts/sync.py`](scripts/sync.py)
+from TrueInterview's public, documented, read-only catalog API — which publishes metadata
+only — plus one export of the **free tier's** bodies: the statements and hints of free
+questions, and the interview guides. Solutions, test cases and paid questions are never
+exported, so they are never here; they live on the site.
 
 ```bash
 python3 scripts/sync.py          # refresh from the live catalog
@@ -296,9 +302,11 @@ never a screenshot or a copied problem statement.**
 
 ## 📄 Licence
 
-The tracker — these scripts and the index they generate — is MIT ([LICENSE](LICENSE)). The
-questions and guides it points at belong to TrueInterview and are published on the site
-under its own terms.
+**The text** — question statements, hints, company pages and interview guides — is
+licensed [CC BY 4.0](LICENSE-CONTENT.md): repost, translate or adapt it anywhere,
+commercially or not, crediting TrueInterview with a link back. **The scripts** are MIT
+([LICENSE](LICENSE)). Reference solutions, test cases and paid questions are not published
+here and are not covered by either.
 
 ---
 

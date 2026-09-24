@@ -278,11 +278,12 @@ trueinterview.io/api/v1/interview-experiences ──┤
 pure functions of `(records, date)`, which is what lets the test suite render the entire
 repository from a fixture and compare bytes, with no network and no clock.
 
-**Metadata, never bodies.** The API this reads publishes titles, companies, formats,
-difficulties, sighting months and URLs — and deliberately no problem statements, no
-solutions and no test cases. This repository carries exactly what that API carries. The
-distinction is the whole reason an index like this can be public: it is a pointer into the
-site, not a copy of it.
+**Metadata, and the free tier's bodies — nothing more.** The API this reads publishes
+titles, companies, formats, difficulties, sighting months and URLs, and deliberately no
+problem statements, solutions or test cases. Since Sep 2026 one more source is read: the
+free tier's statements, hints and interview guides, from a separate secret-guarded export,
+rendered as company homes and question pages. Solutions, test cases and paid questions
+are still never here. How that works and why: [`CONTENT-DESIGN.md`](CONTENT-DESIGN.md).
 
 ### Properties worth keeping when you change something
 
