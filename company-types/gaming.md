@@ -63,7 +63,7 @@ Of the **26 questions in this cut that carry a topic label** (42% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🔥 Sep 09, 2026 |
+| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🆕 Sep 09, 2026 |
 | **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Medium | 🆕 Aug 17, 2026 |
 | **Roblox** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Medium | 🆕 Aug 12, 2026 |
 | **Roblox** | [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Hard | Jun 29, 2026 |

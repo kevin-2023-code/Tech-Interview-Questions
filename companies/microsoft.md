@@ -137,7 +137,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | Medium | 🔥 Sep 09, 2026 |
+| [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | Medium | 🆕 Sep 09, 2026 |
 | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Object Oriented Programming | Hard | 🆕 Aug 20, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | Medium | 🆕 Aug 16, 2026 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **111** |
 | Most recent sighting | Aug 15, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 111) |
 | Difficulty (easy / medium / hard) | 15 / 73 / 23 |
 | Free to practise | [12](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **111 of 111** questions at Snowfla
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,7 +47,6 @@ Which stage each question came from, for the **111 of 111** questions at Snowfla
 | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | Onsite / virtual onsite | Aug 13, 2026 |
 | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | Onsite / virtual onsite | Aug 01, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | Phone screen | Jul 22, 2026 |
-| [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | System Design | Medium | Onsite / virtual onsite | Jun 25, 2026 |
 
 ## What they ask about
 

@@ -47,7 +47,7 @@ Of the **384 questions in this cut that carry a topic label** (42% of it):
 
 ## Asked here in the last 90 days
 
-**45 sightings** across this cut. Newest first.
+**44 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **384 questions in this cut that carry a topic label** (42% of it):
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Roblox | Algorithm | Aug 12, 2026 |
 
-<sub>33 more in this window are in the table below.</sub>
+<sub>32 more in this window are in the table below.</sub>
 
 ---
 
@@ -78,7 +78,7 @@ Of the **384 questions in this cut that carry a topic label** (42% of it):
 | :-- | :-- | :-: | :-- |
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Medium | 🔥 Sep 11, 2026 |
 | **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Medium | 🔥 Sep 11, 2026 |
-| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🔥 Sep 09, 2026 |
+| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🆕 Sep 09, 2026 |
 | **Pinterest** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Hard | 🆕 Aug 26, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | 🆕 Aug 24, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | 🆕 Aug 22, 2026 |

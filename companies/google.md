@@ -140,7 +140,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | 🔥 Sep 10, 2026 |
-| [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🔥 Sep 09, 2026 |
+| [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🆕 Sep 09, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Hard | 🆕 Aug 29, 2026 |
 | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | 🆕 Aug 20, 2026 |

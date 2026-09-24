@@ -57,11 +57,11 @@ The sector and size of an employer are facts about the company rather than about
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 228 | 17 | 46 | Sep 05, 2026 | 30 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 10 | 23 | Sep 10, 2026 | 21 |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 175 | 16 | 10 | Aug 16, 2026 | 22 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 170 | 16 | 21 | Sep 06, 2026 | 21 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 170 | 16 | 20 | Sep 06, 2026 | 21 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 168 | 6 | 5 | Aug 16, 2026 | 24 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 116 | 11 | 11 | Sep 09, 2026 | 19 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 113 | 12 | 13 | Aug 26, 2026 | 22 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 111 | 4 | 5 | Aug 15, 2026 | 12 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 111 | 4 | 4 | Aug 15, 2026 | 12 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 100 | 14 | 5 | Aug 22, 2026 | 11 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 77 | 6 | 5 | Aug 26, 2026 | 5 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 73 | 2 | 4 | Sep 11, 2026 | 5 |

@@ -76,7 +76,7 @@ Of the **147 questions in this cut that carry a topic label** (46% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🔥 Sep 09, 2026 |
+| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
 | **Microsoft** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Hard | 🆕 Aug 20, 2026 |
 | **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Medium | 🆕 Aug 16, 2026 |
 | **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Medium | 🆕 Aug 16, 2026 |

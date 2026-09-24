@@ -103,7 +103,7 @@
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | **Apple / Scale AI** | Hard | Jun 16, 2026 |
 | [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | **Hudson River Trading** | Hard | — |
 | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | **Rubrik** | Hard | — |
-| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | **Harvey** | Hard | 🆕 Aug 09, 2026 |
+| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | **Harvey** | Hard | Aug 09, 2026 |
 | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | **Voleon** | Hard | — |
 | [Fractional Inventory](https://trueinterview.io/questions/fractional-share-inventory-trading) | **Robinhood** | Hard | Apr 23, 2026 |
 | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) | **Faire** | Hard | — |

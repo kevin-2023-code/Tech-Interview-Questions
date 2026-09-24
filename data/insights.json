@@ -49,7 +49,7 @@
       "free": 21,
       "guides": 16,
       "inLastYear": 86,
-      "inWindow": 21,
+      "inWindow": 20,
       "lastSighting": "2026-09-06",
       "name": "ByteDance",
       "questions": 170,
@@ -101,7 +101,7 @@
       "free": 12,
       "guides": 4,
       "inLastYear": 73,
-      "inWindow": 5,
+      "inWindow": 4,
       "lastSighting": "2026-08-15",
       "name": "Snowflake",
       "questions": 111,
@@ -425,7 +425,7 @@
       "dated": 22,
       "free": 2,
       "guides": 6,
-      "inLastYear": 20,
+      "inLastYear": 19,
       "inWindow": 1,
       "lastSighting": "2026-07-29",
       "name": "Akuna Capital",
@@ -1306,7 +1306,7 @@
       "free": 108,
       "graded": 1624,
       "hard": 301,
-      "inWindow": 111,
+      "inWindow": 110,
       "label": "Algorithm",
       "medium": 1042,
       "questions": 1624
@@ -1328,7 +1328,7 @@
       "free": 12,
       "graded": 254,
       "hard": 108,
-      "inWindow": 34,
+      "inWindow": 33,
       "label": "System Design",
       "medium": 133,
       "questions": 254
@@ -1356,7 +1356,7 @@
       "questions": 411
     }
   ],
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "latestSighting": "2026-09-11",
   "months": [
     {
@@ -2405,7 +2405,7 @@
       "easy": 15,
       "graded": 56,
       "hard": 2,
-      "inWindow": 3,
+      "inWindow": 2,
       "medium": 39,
       "questions": 56,
       "topCompanies": [
@@ -2621,7 +2621,7 @@
       "easy": 3,
       "graded": 28,
       "hard": 3,
-      "inWindow": 4,
+      "inWindow": 3,
       "medium": 22,
       "questions": 28,
       "topCompanies": [
@@ -2769,8 +2769,8 @@
     "futureDated": 1,
     "gradedDifficulty": 2509,
     "guides": 363,
-    "inLastYear": 1297,
-    "inWindow": 203,
+    "inLastYear": 1296,
+    "inWindow": 201,
     "labelledTopic": 1155,
     "namingARound": 2509,
     "questions": 2509,

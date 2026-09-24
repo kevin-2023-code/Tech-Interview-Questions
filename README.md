@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,509 questions** · **363 writeups** · **99 companies** · **166 free to practise** · **203 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,509 questions** · **363 writeups** · **99 companies** · **166 free to practise** · **201 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -36,9 +36,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 203 sightings at 43 companies — Algorithm 111 · SQL 31 · System Design 34 · AI Coding 4 · Object Oriented Programming 23.
+**Last 90 days:** 201 sightings at 43 companies — Algorithm 110 · SQL 31 · System Design 33 · AI Coding 4 · Object Oriented Programming 23.
 
-**Reported most:** [Amazon (46)](companies/amazon.md) · [Google (23)](companies/google.md) · [ByteDance (21)](companies/bytedance.md) · [Apple (13)](companies/apple.md) · [Microsoft (11)](companies/microsoft.md) · [Meta (10)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Citadel (6)](companies/citadel.md)
+**Reported most:** [Amazon (46)](companies/amazon.md) · [Google (23)](companies/google.md) · [ByteDance (20)](companies/bytedance.md) · [Apple (13)](companies/apple.md) · [Microsoft (11)](companies/microsoft.md) · [Meta (10)](companies/meta.md) · [Figma (8)](companies/figma.md) · [Citadel (6)](companies/citadel.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (13)
 
@@ -154,9 +154,9 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | 🔥 Sep 11, 2026 |
 | **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | 🔥 Sep 11, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | 🔥 Sep 10, 2026 |
-| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | 🔥 Sep 09, 2026 |
-| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | 🔥 Sep 09, 2026 |
-| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | 🔥 Sep 09, 2026 |
+| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | 🆕 Sep 09, 2026 |
+| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | 🆕 Sep 09, 2026 |
+| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | 🆕 Sep 09, 2026 |
 | **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Object Oriented Programming | 🆕 Sep 08, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Object Oriented Programming | 🆕 Sep 06, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | 🆕 Sep 05, 2026 |
@@ -233,7 +233,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | 🆕 Aug 11, 2026 |
 | **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Algorithm | 🆕 Aug 11, 2026 |
 | **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | 🆕 Aug 10, 2026 |
-| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | 🆕 Aug 09, 2026 |
+| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Aug 09, 2026 |
 | **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Aug 08, 2026 |
 | **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | Aug 08, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | System Design | Aug 08, 2026 |

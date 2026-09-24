@@ -110,7 +110,7 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | 🆕 Aug 09, 2026 |
+| [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Jul 2026 |
 | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Jul 2026 |

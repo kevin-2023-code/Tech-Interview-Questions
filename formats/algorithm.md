@@ -13,9 +13,9 @@
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Medium | 🔥 Sep 11, 2026 |
 | **Stripe** | [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Medium | 🔥 Sep 11, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🔥 Sep 10, 2026 |
-| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🔥 Sep 09, 2026 |
-| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🔥 Sep 09, 2026 |
-| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🔥 Sep 09, 2026 |
+| **Roblox** | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Medium | 🆕 Sep 09, 2026 |
+| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
+| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | 🆕 Sep 04, 2026 |
 | **Amazon** | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Medium | 🆕 Sep 02, 2026 |
@@ -64,7 +64,7 @@
 | **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Hard | 🆕 Aug 11, 2026 |
 | **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Hard | 🆕 Aug 11, 2026 |
 | **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | 🆕 Aug 10, 2026 |
-| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | 🆕 Aug 09, 2026 |
+| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | Aug 09, 2026 |
 | **Affirm** | [Aggregate Recent Transactions](https://trueinterview.io/questions/aggregate-recent-transactions) | Medium | Aug 07, 2026 |
 | **Citadel** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Easy | Aug 05, 2026 |
 | **Apple** | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Hard | Aug 05, 2026 |

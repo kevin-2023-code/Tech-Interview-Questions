@@ -74,7 +74,7 @@ Of the **73 questions in this cut that carry a topic label** (29% of it):
 | :-- | :-- | :-: | :-- |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | 🆕 Aug 22, 2026 |
 | **OpenAI** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Hard | 🆕 Aug 13, 2026 |
-| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | 🆕 Aug 09, 2026 |
+| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | Aug 09, 2026 |
 | **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | Medium | Aug 08, 2026 |
 | **OpenAI** | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Medium | Jul 31, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |

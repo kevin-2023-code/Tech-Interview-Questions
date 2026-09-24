@@ -19,13 +19,13 @@ What the bank is *about*, counted over the **1,155 questions that carry a topic 
 | `trees` | 67 | 6% | 5 | 11 | 43 | 13 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `heap` | 59 | 5% | 5 | 1 | 43 | 15 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md) |
 | `sliding-window` | 58 | 5% | 3 | 9 | 40 | 9 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
-| `two-pointers` | 56 | 5% | 3 | 15 | 39 | 2 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
+| `two-pointers` | 56 | 5% | 2 | 15 | 39 | 2 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
 | `matrix` | 55 | 5% | 4 | 8 | 41 | 6 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
 | `stack` | 53 | 5% | 5 | 6 | 37 | 10 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md) |
 | `binary-search` | 49 | 4% | 2 | 9 | 27 | 13 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `intervals` | 48 | 4% | 4 | 0 | 38 | 10 | [Google](../companies/google.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
 | `math` | 42 | 4% | 6 | 7 | 28 | 7 | [Amazon](../companies/amazon.md), [Applied Intuition](../companies/applied-intuition.md), [ByteDance](../companies/bytedance.md) |
-| `linked-list` | 28 | 2% | 4 | 3 | 22 | 3 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
+| `linked-list` | 28 | 2% | 3 | 3 | 22 | 3 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Microsoft](../companies/microsoft.md) |
 | `bit-manipulation` | 19 | 2% | 1 | 5 | 9 | 5 | [Apple](../companies/apple.md), [Google](../companies/google.md), [Rubrik](../companies/rubrik.md) |
 | `topological-sort` | 19 | 2% | 4 | 0 | 17 | 2 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Uber](../companies/uber.md) |
 | `tries` | 19 | 2% | 0 | 3 | 13 | 3 | [Amazon](../companies/amazon.md), [Snowflake](../companies/snowflake.md), [Perplexity](../companies/perplexity.md) |

@@ -66,7 +66,7 @@ Of the **31 questions in this cut that carry a topic label** (41% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | 🆕 Aug 09, 2026 |
+| **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | Aug 09, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
 | **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Hard | Jul 10, 2026 |

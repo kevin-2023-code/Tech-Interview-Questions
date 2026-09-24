@@ -47,7 +47,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 
 ## Asked here in the last 90 days
 
-**137 sightings** across this cut. Newest first.
+**136 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Amazon | Algorithm | Sep 01, 2026 |
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Amazon | Algorithm | Sep 01, 2026 |
 
-<sub>125 more in this window are in the table below.</sub>
+<sub>124 more in this window are in the table below.</sub>
 
 ---
 
@@ -77,8 +77,8 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🔥 Sep 10, 2026 |
-| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🔥 Sep 09, 2026 |
-| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🔥 Sep 09, 2026 |
+| **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
+| **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🆕 Sep 06, 2026 |
 | **Amazon** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Easy | 🆕 Sep 05, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | 🆕 Sep 04, 2026 |

@@ -47,7 +47,7 @@ Of the **94 questions in this cut that carry a topic label** (44% of it):
 
 ## Asked here in the last 90 days
 
-**8 sightings** across this cut. Newest first.
+**7 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -58,7 +58,6 @@ Of the **94 questions in this cut that carry a topic label** (44% of it):
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | Snowflake | SQL | Jul 22, 2026 |
 | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Databricks | Algorithm | Jun 29, 2026 |
 | [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Databricks … | Object Oriented Programming | Jun 26, 2026 |
-| [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | Snowflake | System Design | Jun 25, 2026 |
 
 ---
 
