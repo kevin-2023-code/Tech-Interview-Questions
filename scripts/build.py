@@ -8,12 +8,14 @@ the whole repository from a fixture and compare bytes.
 
 from __future__ import annotations
 
+import json
 from datetime import date
 from typing import Sequence
 
 import report
 from catalog import Catalog, Experience, Guide, Question, parse_catalog_date
 from company_page import company_preamble, company_type_preamble
+from content import render_content
 from segments import SECTORS, SECTOR_BY_ID, SIZE_LABELS, segment_of
 from insights import compute as compute_insights
 from labels import FORMAT_ORDER, JUDGED_FORMATS, company_key, company_label, format_label
@@ -247,7 +249,7 @@ def _companies_index(stats_view, api_labels: dict[str, str], cut_ids: frozenset[
             by_sector.setdefault(sector, []).append(row)
 
     def link(row) -> str:
-        return f"[{escape_cell(row.name)} ({row.questions:,})]({row.key}.md)"
+        return f"[{escape_cell(row.name)} ({row.questions:,})]({row.key}/README.md)"
 
     body = [
         GENERATED_NOTICE,
@@ -363,7 +365,14 @@ def _type_cell(name: str, api_labels: dict[str, str]) -> str:
     return " · ".join(parts)
 
 
-def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
+def build(
+    catalog: Catalog,
+    readme_template: str,
+    today: date,
+    paths: dict[str, str] | None = None,
+) -> RenderResult:
+    """Every generated file. ``paths`` is the committed ``data/paths.json``: the
+    folder each published question and guide was given, which must not move."""
     questions, guides, api_labels = catalog.questions, catalog.guides, catalog.labels
     ordered = sort_questions(questions, today)
     guides_by_company = group_guides_by_company(guides, api_labels)
@@ -439,7 +448,8 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
                         else ", judged server-side on the algorithm, low-level-design and SQL formats."
                     )
                 ),
-                back="[← All companies](README.md) · [← Question bank](../README.md)",
+                back=f"[📖 How {escape_cell(name)} interviews & the free questions]({key}/README.md) · "
+                "[← All companies](README.md) · [← Question bank](../README.md)",
                 questions=rows,
                 cols=columns_for("company", api_labels, today),
                 today=today,
@@ -459,6 +469,22 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
         )
 
     files["companies/README.md"] = _companies_index(stats_view, api_labels, cut_ids)
+
+    # ── the content layer ────────────────────────────────────────────────────
+    # A home per company, and the free tier in full — see `content.py`. The
+    # path registry is an output as well as an input: a question published for
+    # the first time is given its folder here, and keeps it from then on.
+    content_files, registry, content_stats = render_content(
+        questions=ordered,
+        guides=guides,
+        by_company=by_company,
+        content=catalog.content,
+        registry=dict(paths or {}),
+        api_labels=api_labels,
+        today=today,
+    )
+    files.update(content_files)
+    files["data/paths.json"] = json.dumps(registry, indent=1, sort_keys=True, ensure_ascii=False) + "\n"
 
     # ── company-type pages ───────────────────────────────────────────────────
     # "What do quant firms ask" was not a question this repository could answer:
@@ -825,6 +851,8 @@ def build(catalog: Catalog, readme_template: str, today: date) -> RenderResult:
     future_dated = [q.slug for q in ordered if q.reported_date and q.reported_date > today]
 
     stats = {
+        **{f"content_{k}": v for k, v in content_stats.items()},
+        "content_configured": catalog.content is not None,
         "future_dated": future_dated,
         "questions": len(ordered),
         "guides": len(guides),

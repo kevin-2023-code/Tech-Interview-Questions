@@ -54,7 +54,16 @@ GENERATED_DIRS = (
     "free",
     "experiences",
     "data",
+    "questions",
 )
+
+PATHS_FILE = ROOT / "data" / "paths.json"
+
+#: A content sync that would remove more than this share of the published
+#: question pages stops instead. A question leaving the free tier is normal; a
+#: fifth of them at once is an export that went wrong, and a removed page is a
+#: broken link everywhere it was shared.
+MAX_CONTENT_SHRINK = 0.2
 
 
 def parse_args() -> argparse.Namespace:
@@ -129,7 +138,10 @@ def main() -> int:
             payload = fetch_catalog(args.base_url)
         catalog = load_catalog(payload)
         template = README_TEMPLATE.read_text(encoding="utf-8")
-        result = build(catalog, template, today)
+        paths = json.loads(PATHS_FILE.read_text(encoding="utf-8")) if PATHS_FILE.exists() else {}
+        if not isinstance(paths, dict):
+            raise ValueError("data/paths.json must be a JSON object")
+        result = build(catalog, template, today, paths)
     except (CatalogError, OSError, ValueError, json.JSONDecodeError) as error:
         print(f"sync failed: {error}", file=sys.stderr)
         return 2
@@ -147,7 +159,33 @@ def main() -> int:
         return 2
 
     rendered = set(result.files)
-    stale = sorted(generated_paths() - rendered)
+    existing = generated_paths()
+    stale = sorted(existing - rendered)
+
+    # The content layer's own guard. With no export configured the question
+    # pages are simply not rendered — which, over a repository that HAS them,
+    # would delete every one. That is a removed secret or a misconfigured run,
+    # never a decision, so it stops here and says what to do.
+    def question_pages(paths: set[str]) -> set[str]:
+        # `questions/<format>/<name>/README.md`, never the index, which every run renders.
+        return {p for p in paths if p.startswith("questions/") and p.count("/") == 3}
+
+    published = question_pages(existing)
+    kept = question_pages(rendered)
+    if published and not result.stats["content_configured"]:
+        print(
+            f"sync failed: {len(published)} question pages are published but CONTENT_EXPORT_SECRET is not set, "
+            "so this run would delete them. Set the secret, or delete questions/ by hand if that is the intent.",
+            file=sys.stderr,
+        )
+        return 2
+    if published and len(published - kept) > MAX_CONTENT_SHRINK * len(published):
+        print(
+            f"sync failed: this run would remove {len(published - kept)} of {len(published)} question pages "
+            f"(more than {MAX_CONTENT_SHRINK:.0%}). Check the free-content export before letting it through.",
+            file=sys.stderr,
+        )
+        return 2
     changed = sorted(
         path
         for path, content in result.files.items()
@@ -163,7 +201,12 @@ def main() -> int:
         f"{stats['months']} months · {stats['undated']:,} undated · "
         f"{stats['free']:,} free · {stats['window']:,} in the last {stats['window_days']}d · "
         f"{stats['experiences']:,} reports · "
-        f"{stats['files']} files · README {stats['readme_bytes']:,} B · "
+        + (
+            f"{stats['content_question_pages']:,} question pages · {stats['content_guide_pages']:,} guide pages · "
+            if stats["content_configured"]
+            else "content export not configured · "
+        )
+        + f"{stats['files']} files · README {stats['readme_bytes']:,} B · "
         f"largest page {largest_bytes:,} B ({largest_path})"
     )
 
@@ -172,6 +215,13 @@ def main() -> int:
             f"warning: only {stats['guides']} guides were reachable — /api/v1/articles on this "
             "deployment returns one page and takes no offset. The guides index says so on the "
             "page; deploy the paged listArticles to get the rest.",
+            file=sys.stderr,
+        )
+
+    if stats["content_dropped"]:
+        print(
+            f"warning: {stats['content_dropped']} body/bodies from the free-content export were not rendered — "
+            "the public metadata does not list them as free (question) or published (article).",
             file=sys.stderr,
         )
 

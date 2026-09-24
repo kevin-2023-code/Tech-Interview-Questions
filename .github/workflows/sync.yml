@@ -36,6 +36,13 @@ jobs:
         # The summary line is kept for the commit body: the bot commits hourly,
         # and a log of identical one-line messages tells a reader nothing about
         # which hour the bank actually moved in.
+        #
+        # CONTENT_EXPORT_SECRET lets the sync read the free tier's bodies from
+        # /api/cron/content-export (see CONTENT-DESIGN.md). Unset, the repository
+        # renders its metadata-only pages exactly as before — and refuses to run
+        # at all once question pages are published, rather than deleting them.
+        env:
+          CONTENT_EXPORT_SECRET: ${{ secrets.CONTENT_EXPORT_SECRET }}
         run: python3 scripts/sync.py | tee "$RUNNER_TEMP/sync.log"
 
       - name: Confirm the result is self-consistent
@@ -43,6 +50,8 @@ jobs:
         # second pass that still finds work means the render is not a pure
         # function of the snapshot, which would make the hourly job commit noise
         # for ever. --catalog-file so this costs no second read of the API.
+        env:
+          CONTENT_EXPORT_SECRET: ${{ secrets.CONTENT_EXPORT_SECRET }}
         run: |
           python3 scripts/sync.py --snapshot-out /tmp/snapshot.json --quiet
           python3 scripts/sync.py --catalog-file /tmp/snapshot.json --check

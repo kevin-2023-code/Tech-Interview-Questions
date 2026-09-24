@@ -464,7 +464,7 @@ def company_nav(companies: Sequence[tuple[str, str, int]]) -> str:
 
     def link(entry: tuple[str, str, int]) -> str:
         key, name, count = entry
-        return f"[{escape_cell(name)} ({count})](companies/{key}.md)"
+        return f"[{escape_cell(name)} ({count})](companies/{key}/README.md)"
 
     shown = companies[:README_TOP_COMPANIES]
     line = " · ".join(link(entry) for entry in shown)

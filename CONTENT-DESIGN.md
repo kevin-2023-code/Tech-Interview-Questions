@@ -1,7 +1,10 @@
 # From index to content: the free half of TrueInterview, on GitHub
 
-Status: **proposal** — nothing in this document is built yet. Four decisions in §8 need
-the maintainer before any body text is published.
+Status: **accepted and implemented** (`scripts/content.py`, and on the site
+`problems/services/free-content-export.ts` + `/api/cron/content-export`). The four
+decisions are recorded in §8. Bodies start appearing on the first sync after the
+`CONTENT_EXPORT_SECRET` Actions secret is set; until then every page renders exactly as
+below, with links to the site where a body would be.
 
 `DESIGN.md` describes the repository as it is today: an hourly **index** over the question
 bank — tables of titles, counts and dates, every row a link into trueinterview.io. It is
@@ -25,7 +28,7 @@ Measured on `Schuture/OpenAI-Interview-Notes@main`.
 | :-- | :-- | :-- |
 | One folder per problem, `README.md` inside | GitHub renders a folder's README when you open it, so the URL *is* the page and the folder can grow (translations, code) without a new URL. | Same, for questions and for companies. |
 | A metadata table at the top of every page, between `<!-- meta:begin -->` markers | Scannable, and machine-editable without parsing prose. | Same markers, same position. |
-| `## Problem` → `## Reference solution` (collapsed) | The reader decides whether to look. | Same order; solution and each hint in `<details>`. |
+| `## Problem` → `## Reference solution` (collapsed) | The reader decides whether to look. | Problem, then each hint in `<details>`; the solution is a link to the site (§8.2). |
 | Behavioral rounds are pages too | "What happens in the recruiter screen" is content, not a footnote. | Our 363 Study-section guides become those pages. |
 | An honest disclaimer at the top of the README | Unofficial, reconstructed, not the exact question; open an issue to take something down. | Same, adapted. |
 | Text licensed separately from code | CC BY-NC for prose makes a commercial mirror explicitly not permitted. | Proposed; see §8. |
@@ -45,7 +48,7 @@ Counted on production, 2026-09-24, non-archived rows only.
 | Free questions — system design | 12 | 8 | |
 | Free questions — AI coding | 7 | 6 | Project zips stay on the site; the statement is published. |
 | **Free questions, total** | **166** | **99** | Through `companies[]`, *every* company has at least one. Median **2** per company, p90 12, max 30. |
-| Reference solutions for those | 166 | | Each free question has a `solution_discussion_id` → "Reference solution" (~3 MB total). |
+| Reference solutions for those | 166 | | Each free question has one on the site. **Not published here** (§8.2). |
 | Hints for those | 147 | | `questions.hints`. |
 | Study guides (`type = blog`) | 363 | 83 | All `access_tier = free`. Median 3 per company. |
 | … of which company **interview-process** guides | 163 | 81 | `<company>-interview-process` plus per-role (`…-software-engineer-interview-process`). 18 companies have none. |
@@ -67,15 +70,13 @@ companies/
   google/
     README.md                               company home  (§4.1)
     interview-process.md                    the loop, from google-interview-process  (§4.2)
-    interview-process/
-      software-engineer.md                  per-role process guides, when they exist
-      machine-learning-engineer.md
+    interview-process-software-engineer.md  per-role process guides, when they exist
+    interview-process-machine-learning-engineer.md
     guides/
-      behavioral-round-googliness.md        every other Study guide filed under Google
+      bq-round-google-style.md              every other Study guide filed under Google
       google-hiring-assessment-gha.md
-    questions.md                            every question reported here: free → local page,
-                                            paid → site link  (§4.4)
-  google.md                                 one-line stub → google/  (old URL; §7)
+  google.md                                 the counted statistics page, unchanged, with a link
+                                            to google/ at the top (old URL; §4.4, §7)
 questions/
   algorithm/<slug>/README.md                one page per FREE question  (§4.3)
   object-oriented-programming/<slug>/README.md
@@ -106,20 +107,17 @@ only happens when the catalog row stops being free or disappears.
 
 Top to bottom, in the order a candidate needs it:
 
-1. **Title + one line**: `# Google interview process & questions`, then the counts line
-   that exists today.
-2. **Metadata table** (`meta:begin/end`): company type, headcount band, questions tracked,
-   free to read here, most recent sighting, guides.
-3. **The loop** — the first ~2 sections of `interview-process.md` inlined (the process
-   diagram and stage list), then *Read the full process →*. No process guide → today's
-   counted "The loop, as reported" table in its place.
-4. **Free questions you can read here** — table: title (→ local page), format, difficulty,
-   round, last reported, *Practise* (→ site). Ordered the way `free/` orders them.
-5. **Guides** — per-role process guides, then every other guide, one line each with its
-   tags.
-6. **What's been asked lately** — today's 90-day block and "Start here", with paid rows
-   marked 🔒 and linking to the site.
-7. **Every question** → `questions.md`.
+1. **Title + one line**: `# Google interview process & questions`.
+2. **At a glance**: questions reported, free to read here, process guides, other guides,
+   most recent sighting.
+3. **How Google interviews** — the opening of `interview-process.md` up to its second
+   section (the process diagram and how the rounds run), then *Read the full process →*,
+   then the per-role guides. No process guide → a pointer at the counted "The loop, as
+   reported" table on the statistics page.
+4. **Free questions** — table: title (→ local page), format, difficulty, round, last
+   reported, *Solve* (→ site). Newest sighting first.
+5. **Guides** — every other guide, with its tags.
+6. **Everything else** → the statistics page (`../google.md`) and the site.
 
 Every block is either a published body or a count, exactly the split `DESIGN.md` §3b
 draws. The page never asserts anything about the employer that is not in a guide the site
@@ -145,7 +143,7 @@ Mirrors the reference page exactly:
 | Algorithm | Easy | Stripe · Amazon · Atlassian · Google · +6 | Phone screen, Onsite | hashing, sliding-window | 30 min | Dec 2025 |
 <!-- meta:end -->
 
-> ▶ **[Run it on TrueInterview](https://trueinterview.io/questions/rate-limiter)** — editor,
+> ▶ **[Solve it on TrueInterview](https://trueinterview.io/questions/rate-limiter)** — editor,
 > sample and hidden tests, and a judged verdict. Free, no card.
 
 ## Problem
@@ -154,23 +152,22 @@ Mirrors the reference page exactly:
 ## Hints
 <details><summary>Hint 1</summary> … </details>
 
-## Reference solution
-<details><summary>Show the solution</summary>
-…solution discussion…
-</details>
+## Solution
+The reference solution is on the question page, beside an editor … (a link, never the text)
 
 ## Asked at
 Stripe (Dec 2025) · Amazon · …   ← each links to companies/<slug>/
 ```
 
-The *Run it* link is the one call to action and sits above the statement: a reader who
+The *Solve it* link is the one call to action and sits above the statement: a reader who
 wants to practise should never scroll past the answer to find the editor.
 
-### 4.4 Company question list — `companies/<slug>/questions.md`
+### 4.4 Company statistics — `companies/<slug>.md`
 
-Today's `companies/<slug>.md` catalog table, unchanged in content, paginated by the same
-192 KB budget. The only difference is the title cell: a free question links to its local
-page with *Practise* beside it; a paid one links to the site with 🔒.
+Today's page, unchanged: the counted preamble and the full catalog table, paginated by
+the same 192 KB budget. It gains one link at the top, to the company home. Keeping it at
+its old path (rather than moving it into the folder) means every link the job-list
+repositories and search results already hold still lands on a real page.
 
 ## 5. Where the bodies come from, and what never leaves
 
@@ -187,14 +184,20 @@ through. So the bodies do **not** come from `/api/v1`. Three options were consid
 | The sync reads Supabase directly with a service-role key | Rejected. A service-role key in a public repository's Actions secrets, and the *what is free* filter written in Python here, far from the code that decides it. |
 | **A secret-guarded export route on the site** | **Proposed.** |
 
-`GET /api/export/free-content` on trueinterview, guarded by its own
+`GET /api/cron/content-export` on trueinterview (under `/api/cron/` because that is where the
+site keeps its secret-guarded machine doors; nothing schedules it), guarded by its own
 `CONTENT_EXPORT_SECRET` (never `CRON_SECRET`, for the reason `CONFORMANCE_SECRET` gives:
 a key that can be handed to a CI job must not also open cron routes). It returns:
 
-- free questions: catalog metadata + `content_md` + `hints` + the reference-solution
-  discussion + `target_minutes`;
-- Study guides: metadata + `content_md` + tags;
-- a `generatedAt`, and counts so a short read is detectable.
+- free questions: `slug`, `type`, `contentMd`, `hints` — keyed by slug, because the
+  metadata already arrives from `/api/v1`;
+- Study articles: `slug`, `contentMd`;
+- a `generatedAt`.
+
+The read never selects the solution, the tests, the stubs, the schema or the project, so
+no later edit to the mapping can ship one. The repository then checks every body against
+the public metadata again (`catalog.content_from_payload`): a body whose slug `/api/v1`
+does not list as free is dropped and counted.
 
 **The filter lives in one server-side function**, and it is the whole safety argument:
 `access_tier = 'free'` **as the entitlement code reads it** (not a second interpretation
@@ -208,10 +211,10 @@ a paid question permanently.
 | Never exported | Why |
 | :-- | :-- |
 | `test_cases`, hidden datasets, `sql_schema` expectations | The judge's protection is the number of hidden cases (see CLAUDE.md). Examples already inside `content_md` are the only tests published. |
-| `code_stubs`, AI-coding project zips | Useful only in the workspace; the *Run it* link is where they belong. |
+| `code_stubs`, AI-coding project zips | Useful only in the workspace; the *Solve it* link is where they belong. |
 | Any pro / insider body | By construction of the filter. The export never selects them. |
 | Interview experiences (面经) | Metered per reader in SQL (`claim_interview_read`). A GitHub copy would be the network-tab bypass `docs/paywall-exposure.md` exists to close. Titles + links only, as today. |
-| Community discussions other than the reference solution | User-generated, with their own authors and moderation state. |
+| Reference solutions and community discussions | User-generated, with their own authors and moderation state. |
 
 **Link rewriting.** 162 guides contain site-relative links (`](/questions/…)`). The
 renderer rewrites each one: to the local page if the target is published here, otherwise
@@ -223,7 +226,7 @@ Storage and render on GitHub unchanged. A link the rewriter cannot classify fail
 
 ```
 trueinterview.io/api/v1/*            ──► catalog.py   (unchanged: metadata)
-trueinterview.io/api/export/free-content
+trueinterview.io/api/cron/content-export
                                       ──► content.py   fetch bodies, validate, rewrite links
                                       ──► pages.py     company home / process / guide / question
                                       ──► build.py     assemble every file (pure)
@@ -234,9 +237,10 @@ Every property in `DESIGN.md` §4 holds unchanged, and three are worth restating
 bodies raise the stakes:
 
 - **A failed or short export writes nothing.** An hourly job that rendered zero free
-  questions would delete 166 pages from a public repository. The export returns its own
-  counts; if it returns fewer than 80% of the previous run's rows, the run fails and a
-  human looks.
+  questions would delete 166 pages from a public repository. A failed read raises; a run
+  that would remove more than 20% of the published question pages stops
+  (`MAX_CONTENT_SHRINK`); and a run with no secret over a repository that already has
+  question pages stops rather than deleting them.
 - **Pruning is scoped** to `questions/` and the generated parts of `companies/<slug>/`.
   A question that becomes paid is removed on the next sync — it stays in git history,
   which is why the filter in §5.1 has to be right the first time.
@@ -259,37 +263,37 @@ look scraped.
 ## 7. Compatibility
 
 - `companies/<slug>.md` is linked from the two job-list repositories and from search
-  results. It becomes a three-line stub pointing at `companies/<slug>/`, and stays one
-  (GitHub has no redirects; a stub costs nothing).
+  results. It stays where it is, as the statistics page, with the company home one link
+  away. The company index and the README's company list now point at the home.
 - `free/`, `formats/`, `by-month/`, `insights/` keep their paths. Their free rows now link
   to the local page.
-- `data/questions.jsonl` gains a `path` field for free rows. No body goes into `data/` —
-  the export files are metadata, the pages are the content.
+- `data/paths.json` is the path registry. No body goes into `data/` — the export files
+  are metadata, the pages are the content.
 
-## 8. Decisions needed before anything is published
+## 8. Decisions (settled 2026-09-24)
 
-1. **Publishing bodies at all.** `trueinterview/docs/anti-scraping.md` says the catalog is
-   licensed content and mirroring it is not permitted, and `docs/public-api.md` builds on
-   that. This proposal mirrors the free tier on purpose. If accepted, both documents need a
-   sentence stating the exception and its boundary (free tier, through one export route),
-   or the next person to read them will treat this repository as the leak.
-2. **Reference solutions.** Publishing them is most of the reference repo's value, and
-   they are free on the site. Recommended: yes, collapsed.
-3. **License.** Recommended: text under CC BY-NC 4.0 (a commercial mirror is then
-   explicitly not permitted), the scripts under MIT, as the reference does.
-4. **Search duplication.** A GitHub page with the full statement can outrank the site's
-   own page for the question title. Mitigations that keep the content: the *Run it* link
-   above the statement, `github.com` treated as a referral channel in
-   `/admin/sources`, and watching the site's impressions for free-question URLs for a
-   month after launch. The alternative — publishing statements but not solutions — keeps
-   more reason to click through, at the cost of the reference repo's main feature.
+1. **Publish the free tier's bodies: yes**, to make the free part of the product
+   findable and shareable. The site's `docs/anti-scraping.md` and `docs/public-api.md`
+   now state the exception and its boundary (the free tier, through one export route);
+   `/api/v1` still carries no bodies.
+2. **Reference solutions: not published.** The page links to the solution on the site,
+   beside the editor. It is the reason to click through, and it keeps the answer one step
+   away from someone who has not tried the problem yet.
+3. **License: CC BY 4.0** for the text ([`LICENSE-CONTENT.md`](LICENSE-CONTENT.md)),
+   MIT for the scripts. Chosen for reach: anyone may repost it anywhere, including
+   commercially, and every repost has to credit TrueInterview with a link. The cost,
+   accepted knowingly, is that a competitor may republish the free questions too — with
+   attribution.
+4. **Search duplication: accepted.** The *Solve it* link sits above every statement, and
+   the solution stays on the site. Worth watching the site's impressions for free-question
+   URLs for a month after launch.
 
 ## 9. Rollout
 
-| Step | Repo | Scope |
+| Step | Where | State |
 | :-- | :-- | :-- |
-| 1 | trueinterview | Export route + service + tests (filter asserted against the entitlement code; a pro/insider fixture must never appear); `CONTENT_EXPORT_SECRET`; the doc exceptions from §8.1. Needs sign-off: reads `access_tier`. |
-| 2 | here | `content.py`, `pages.py`, path registry, link rewriter; fixture tests that render a company end to end with no network. |
-| 3 | here | Pilot: render **OpenAI, Google, Amazon** only (a feature list in `sync.py`), review by hand, check GitHub rendering on a phone. |
-| 4 | here | All 99 companies; README rewritten as the landing page in §3. |
-| 5 | both | Optional: `README.zh.md` per page, as the reference does, if the Chinese-speaking audience asks for it. |
+| 1 | trueinterview: `free-content-export.ts`, `/api/cron/content-export`, tests, doc exceptions | in a PR to `develop` |
+| 2 | here: `scripts/content.py`, the path registry, link rewriting, the sync guards, tests | this PR |
+| 3 | Deploy step 1, set `CONTENT_EXPORT_SECRET` in Vercel **and** as this repository's Actions secret (same value, `openssl rand -hex 32`) | manual |
+| 4 | Run the sync workflow by hand once, read a few company homes on a phone | manual |
+| 5 | Optional: a `README.zh.md` per page, as the reference does, if the Chinese-speaking audience asks for it | later |
