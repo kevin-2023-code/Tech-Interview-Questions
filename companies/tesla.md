@@ -4,7 +4,7 @@
 
 **26 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Tesla interviews & the free questions](tesla/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🚗 [Autonomy, automotive & mobility](../company-types/autonomy-mobility.md) · 10,000+ people
 

@@ -4,7 +4,7 @@
 
 **13 questions** reported at Dropbox · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/dropbox), judged server-side on the algorithm, low-level-design and SQL formats.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Dropbox interviews & the free questions](dropbox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 1,000–9,999 people
 

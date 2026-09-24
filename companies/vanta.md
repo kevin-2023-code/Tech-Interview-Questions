@@ -4,7 +4,7 @@
 
 **13 questions** reported at Vanta · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/vanta), judged server-side on the algorithm, low-level-design and SQL formats.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Vanta interviews & the free questions](vanta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔒 [Cybersecurity](../company-types/security.md) · 200–999 people
 

@@ -4,7 +4,7 @@
 
 **10 questions** reported at Okta · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Okta interviews & the free questions](okta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔒 [Cybersecurity](../company-types/security.md) · 1,000–9,999 people
 

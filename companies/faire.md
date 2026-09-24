@@ -4,7 +4,7 @@
 
 **4 questions** reported at Faire. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/faire), judged server-side.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Faire interviews & the free questions](faire/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)
 

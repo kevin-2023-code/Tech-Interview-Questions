@@ -4,7 +4,7 @@
 
 **3 questions** reported at Bobyard. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bobyard), judged server-side.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Bobyard interviews & the free questions](bobyard/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · Under 200 people
 

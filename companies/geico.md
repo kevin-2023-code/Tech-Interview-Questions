@@ -4,7 +4,7 @@
 
 **6 questions** reported at GEICO · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/geico), judged server-side.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How GEICO interviews & the free questions](geico/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md) · 10,000+ people
 

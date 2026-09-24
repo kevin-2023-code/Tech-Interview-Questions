@@ -4,7 +4,7 @@
 
 **14 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Rubrik interviews & the free questions](rubrik/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔒 [Cybersecurity](../company-types/security.md) · 1,000–9,999 people
 

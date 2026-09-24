@@ -4,7 +4,7 @@
 
 **15 questions** reported at Upstart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/upstart), judged server-side.
 
-[← All companies](README.md) · [← Question bank](../README.md)
+[📖 How Upstart interviews & the free questions](upstart/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
