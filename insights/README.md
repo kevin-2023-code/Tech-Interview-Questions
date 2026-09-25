@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**2,509 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 11, 2026. Windows below are measured against **Sep 24, 2026**, and everything on this page is recomputed hourly.
+**2,509 tracked questions** across **99 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 11, 2026. Windows below are measured against **Sep 25, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,25 +10,25 @@
 
 ## The last 90 days
 
-**201 sightings** recorded between Jun 26, 2026 → Sep 24, 2026 — 15% of the 1,372 questions in the bank that carry a sighting date at all.
+**195 sightings** recorded between Jun 27, 2026 → Sep 25, 2026 — 14% of the 1,372 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 110 | 55% | ████████████████ |
-| [SQL](../formats/sql.md) | 31 | 15% | █████ |
-| [System Design](../formats/system-design.md) | 33 | 16% | █████ |
+| [Algorithm](../formats/algorithm.md) | 105 | 54% | ████████████████ |
+| [SQL](../formats/sql.md) | 31 | 16% | █████ |
+| [System Design](../formats/system-design.md) | 33 | 17% | █████ |
 | [AI Coding](../formats/ai-coding.md) | 4 | 2% | █ |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 23 | 11% | ███ |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 22 | 11% | ███ |
 
 ### Where
 
 | Company | Sightings |  |
 | :-- | --: | :-- |
 | [Amazon](../companies/amazon.md) | 46 | ████████████████ |
-| [Google](../companies/google.md) | 23 | ████████ |
-| [ByteDance](../companies/bytedance.md) | 20 | ███████ |
+| [ByteDance](../companies/bytedance.md) | 19 | ███████ |
+| [Google](../companies/google.md) | 19 | ███████ |
 | [Apple](../companies/apple.md) | 13 | █████ |
 | [Microsoft](../companies/microsoft.md) | 11 | ████ |
 | [Meta](../companies/meta.md) | 10 | ███ |
@@ -42,7 +42,7 @@
 | [Affirm](../companies/affirm.md) | 4 | █ |
 | [Harvey](../companies/harvey.md) | 4 | █ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 201 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 195 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -50,11 +50,11 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,624 | 65% | 110 | 281 | 1,042 | 301 | 1,624 | 108 |
+| [Algorithm](../formats/algorithm.md) | 1,624 | 65% | 105 | 281 | 1,042 | 301 | 1,624 | 108 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 57 | 17 | 94 | 0 |
 | [System Design](../formats/system-design.md) | 254 | 10% | 33 | 13 | 133 | 108 | 254 | 12 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 5% | 4 | 12 | 67 | 47 | 126 | 7 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 411 | 16% | 23 | 37 | 330 | 44 | 411 | 39 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 411 | 16% | 22 | 37 | 330 | 44 | 411 | 39 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 
@@ -89,8 +89,8 @@ Of the **1,155 questions that carry a topic label** (46% of the bank — the res
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 204 | 18% | 21 | ████████████████ |
-| `graphs` | 169 | 15% | 13 | █████████████ |
+| `hashing` | 204 | 18% | 19 | ████████████████ |
+| `graphs` | 169 | 15% | 12 | █████████████ |
 | `arrays` | 167 | 14% | 22 | █████████████ |
 | `strings` | 142 | 12% | 7 | ███████████ |
 | `greedy` | 102 | 9% | 9 | ████████ |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **61** |
 | Most recent sighting | Jul 30, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 61) |
 | Difficulty (easy / medium / hard) | 5 / 41 / 15 |
 | Free to practise | [11](../free/README.md) |
@@ -38,13 +38,12 @@ Which stage each question came from, for the **61 of 61** questions at Databrick
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jul 30, 2026 |
 | [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 29, 2026 |
-| [Tic-Tac-Toe II](https://trueinterview.io/questions/tic-tac-toe-game-m-x-n-board-with-configurable-win-condition) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 26, 2026 |
 
 ## What they ask about
 

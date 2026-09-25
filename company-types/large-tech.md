@@ -47,7 +47,7 @@ Of the **384 questions in this cut that carry a topic label** (42% of it):
 
 ## Asked here in the last 90 days
 
-**44 sightings** across this cut. Newest first.
+**43 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **384 questions in this cut that carry a topic label** (42% of it):
 | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Figma | System Design | Aug 12, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Roblox | Algorithm | Aug 12, 2026 |
 
-<sub>32 more in this window are in the table below.</sub>
+<sub>31 more in this window are in the table below.</sub>
 
 ---
 

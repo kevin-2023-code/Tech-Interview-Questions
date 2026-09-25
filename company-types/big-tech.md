@@ -47,7 +47,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 
 ## Asked here in the last 90 days
 
-**136 sightings** across this cut. Newest first.
+**131 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Amazon | Algorithm | Sep 01, 2026 |
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Amazon | Algorithm | Sep 01, 2026 |
 
-<sub>124 more in this window are in the table below.</sub>
+<sub>119 more in this window are in the table below.</sub>
 
 ---
 
@@ -76,7 +76,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🔥 Sep 10, 2026 |
+| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🆕 Sep 10, 2026 |
 | **Microsoft** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Medium | 🆕 Sep 09, 2026 |
 | **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🆕 Sep 06, 2026 |
@@ -139,7 +139,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 | **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Medium | 🆕 Aug 11, 2026 |
 | **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Hard | 🆕 Aug 11, 2026 |
 | **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Hard | 🆕 Aug 11, 2026 |
-| **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | 🆕 Aug 10, 2026 |
+| **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | Aug 10, 2026 |
 | **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | Aug 08, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | Aug 08, 2026 |
 | **ByteDance** | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Medium | Aug 06, 2026 |

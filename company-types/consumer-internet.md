@@ -47,7 +47,7 @@ Of the **331 questions in this cut that carry a topic label** (49% of it):
 
 ## Asked here in the last 90 days
 
-**56 sightings** across this cut. Newest first.
+**51 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **331 questions in this cut that carry a topic label** (49% of it):
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | ByteDance … | Algorithm | Aug 21, 2026 |
 | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Google | Object Oriented Programming | Aug 20, 2026 |
 
-<sub>44 more in this window are in the table below.</sub>
+<sub>39 more in this window are in the table below.</sub>
 
 ---
 
@@ -76,7 +76,7 @@ Of the **331 questions in this cut that carry a topic label** (49% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🔥 Sep 10, 2026 |
+| **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🆕 Sep 10, 2026 |
 | **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
 | **ByteDance** | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | Medium | 🆕 Sep 06, 2026 |
 | **ByteDance** | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | Medium | 🆕 Sep 04, 2026 |

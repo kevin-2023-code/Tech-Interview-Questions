@@ -55,9 +55,9 @@ The sector and size of an employer are facts about the company rather than about
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 228 | 17 | 46 | Sep 05, 2026 | 30 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 10 | 23 | Sep 10, 2026 | 21 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 10 | 19 | Sep 10, 2026 | 21 |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 175 | 16 | 10 | Aug 16, 2026 | 22 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 170 | 16 | 20 | Sep 06, 2026 | 21 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 170 | 16 | 19 | Sep 06, 2026 | 21 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 168 | 6 | 5 | Aug 16, 2026 | 24 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 116 | 11 | 11 | Sep 09, 2026 | 19 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 113 | 12 | 13 | Aug 26, 2026 | 22 |
@@ -69,12 +69,12 @@ The sector and size of an employer are facts about the company rather than about
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 66 | 7 | 5 | Aug 16, 2026 | 4 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 63 | 9 | 0 | Jun 21, 2026 | 7 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 62 | 7 | 4 | Sep 09, 2026 | 10 |
-| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 61 | 6 | 3 | Jul 30, 2026 | 11 |
+| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 61 | 6 | 2 | Jul 30, 2026 | 11 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 55 | 5 | 2 | Jul 29, 2026 | 6 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 54 | 3 | 3 | Jul 22, 2026 | 12 |
 | [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 53 | 12 | 6 | Sep 08, 2026 | 4 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 52 | 6 | 1 | Jul 22, 2026 | 12 |
-| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 50 | 6 | 2 | Jul 22, 2026 | 4 |
+| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 50 | 6 | 1 | Jul 22, 2026 | 4 |
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 48 | 3 | 3 | Jul 09, 2026 | 2 |
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 42 | 5 | 0 | Jun 15, 2026 | 8 |
 | [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 41 | 4 | 0 | Apr 21, 2026 | 9 |

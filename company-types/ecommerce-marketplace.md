@@ -47,7 +47,7 @@ Of the **272 questions in this cut that carry a topic label** (45% of it):
 
 ## Asked here in the last 90 days
 
-**67 sightings** across this cut. Newest first.
+**66 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **272 questions in this cut that carry a topic label** (45% of it):
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Amazon | Algorithm | Aug 22, 2026 |
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Amazon | Algorithm | Aug 21, 2026 |
 
-<sub>55 more in this window are in the table below.</sub>
+<sub>54 more in this window are in the table below.</sub>
 
 ---
 
@@ -105,7 +105,7 @@ Of the **272 questions in this cut that carry a topic label** (45% of it):
 | **Amazon** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | Easy | 🆕 Aug 13, 2026 |
 | **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | Medium | 🆕 Aug 13, 2026 |
 | **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Medium | 🆕 Aug 11, 2026 |
-| **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | 🆕 Aug 10, 2026 |
+| **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | Aug 10, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | Aug 08, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Medium | Jul 30, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |

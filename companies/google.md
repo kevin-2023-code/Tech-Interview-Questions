@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **190** |
 | Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 23 |
+| Reported in the last 90 days | 19 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 190) |
 | Difficulty (easy / medium / hard) | 21 / 124 / 45 |
 | Free to practise | [21](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **190 of 190** questions at Google 
 
 ## Asked here in the last 90 days
 
-**23 sightings** in this window. Newest first.
+**19 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **190 of 190** questions at Google 
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Phone screen | Aug 11, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
-<sub>11 more in this window are in the table below.</sub>
+<sub>7 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | 🔥 Sep 10, 2026 |
+| [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🆕 Sep 09, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Hard | 🆕 Aug 29, 2026 |
