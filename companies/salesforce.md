@@ -2,13 +2,13 @@
 
 # Salesforce interview process, OA & interview questions
 
-**51 questions** reported at Salesforce · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**51 questions** reported at Salesforce · **5 writeups** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-salesforce)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-salesforce)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 6 / 30 / 15 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 5 |
+| Interview reports on the board | 19 in this snapshot |
 
 <sub>Counted from the 51 questions reported at Salesforce. 34 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -118,6 +119,34 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/study/project-deep-dive-ai-engineer) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent |
 | [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
 | [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
+
+## Interview reports
+
+What candidates said happened in the room at Salesforce — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Salesforce Algorithmic and System Design Interview Experience](https://trueinterview.io/interviews/d5c6aa57-b301-4753-a2b2-c3db737b880e) | Sep 26, 2026 |
+| Software | [Salesforce Backend Engineer Interview Experience](https://trueinterview.io/interviews/8400216f-7d3d-4c40-acd0-672fb39e707e) | Sep 26, 2026 |
+| Software | [Salesforce Behavioral Interview Experience](https://trueinterview.io/interviews/ef35f336-3d75-46d9-b6b3-e72750d099ce) | Sep 26, 2026 |
+| Software | [Salesforce Coding and System Design Interview Experience](https://trueinterview.io/interviews/a8602d98-73f5-49d6-8254-b47b7fdf1baf) | Sep 26, 2026 |
+| Software | [Salesforce Coding Interview: Flight Path Reconstruction, Celebrity Problem, Word Ladder](https://trueinterview.io/interviews/eb7c613d-df56-4b32-a494-fe4cf601e84b) | Sep 26, 2026 |
+| Software | [Salesforce Cross Cloud Interview Experience](https://trueinterview.io/interviews/34ece5e1-24e5-40f5-b77e-8911c8b802d5) | Sep 26, 2026 |
+| Software | [Salesforce Enterprise B2B SaaS Software Engineer Interview Experience](https://trueinterview.io/interviews/df88f2e4-9a58-4f20-91ca-c637e0631516) | Sep 26, 2026 |
+| Software | [Salesforce Fullstack Developer Online Assessment Interview Experience](https://trueinterview.io/interviews/fd46e745-0415-4c91-b96b-0125e6c25514) | Sep 26, 2026 |
+| Software | [Salesforce Interview Experience](https://trueinterview.io/interviews/0e752a07-7203-4ebb-8254-d2d336c96c91) | Sep 26, 2026 |
+| Software | [Salesforce Interview Experience](https://trueinterview.io/interviews/15c1ad8c-3a8d-4df8-8ebc-5857a18e379b) | Sep 26, 2026 |
+| Software | [Salesforce Interview Experience](https://trueinterview.io/interviews/17b924af-9582-46f3-8d32-91c61999ada7) | Sep 26, 2026 |
+| Data & AI | [Salesforce Machine Learning Engineer Interview Experience](https://trueinterview.io/interviews/28b25858-8e19-455b-aa3a-07045858d90a) | Sep 26, 2026 |
+| Software | [Salesforce Minimum Adjacent Substitutions & Almost-Sorted Array Deletions Interview Experience](https://trueinterview.io/interviews/8067213a-0d08-4f65-ab61-2680126a5015) | Sep 26, 2026 |
+| Software | [Salesforce Sales Role Interview Experience](https://trueinterview.io/interviews/f3ddf383-6ea9-4175-8adb-41231b042eb9) | Sep 26, 2026 |
+| Software | [Salesforce Software Engineer Interview Experience](https://trueinterview.io/interviews/ce2cb050-86c8-496d-b8f7-2f5dcc6d5629) | Sep 26, 2026 |
+| Software | [Salesforce Software Engineer Interview Experience (OA, System Design, Behavioral)](https://trueinterview.io/interviews/71ec075b-d200-4beb-b522-9567f2f0b827) | Sep 26, 2026 |
+| Software | [Salesforce String Compression and Almost Sorted Array Coding Interview Experience](https://trueinterview.io/interviews/0cc6d343-41ab-409c-82fc-7bf51b416f66) | Sep 26, 2026 |
+| Software | [Salesforce TikTok General Backend SDE Interview Experience (San Francisco)](https://trueinterview.io/interviews/b16b83ff-7eb3-4d36-b420-326370168da7) | Sep 26, 2026 |
+| Software | [Salesforce Unexpected Graph Problem Interview Experience](https://trueinterview.io/interviews/4994fe7d-9bcf-4b17-b90f-368e866e65ee) | Sep 26, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,860 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

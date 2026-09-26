@@ -2,13 +2,13 @@
 
 # Snowflake interview process, OA & interview questions
 
-**112 questions** reported at Snowflake · **4 writeups** · **28 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
+**112 questions** reported at Snowflake · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snowflake interviews & the free questions](snowflake/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > ☁️ [Developer tools, cloud & data infrastructure](../company-types/dev-infra.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-snowflake)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-snowflake)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 17 / 72 / 23 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 4 |
-| Interview reports on the board | 28 in this snapshot |
 
 <sub>Counted from the 112 questions reported at Snowflake. 77 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -112,43 +111,6 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/study/infra-recruiter-experience-screen) | fit, infra |
 | [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | conflict, ownership |
 | [Snowflake Interview Process & Questions](https://trueinterview.io/study/snowflake-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Snowflake — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Snowflake Coding Interview Experience with LeetCode 2096](https://trueinterview.io/interviews/b1b0a0c2-74d8-46fd-ba9d-fa2f187e778c) | Sep 22, 2026 |
-| Software | [Snowflake Course Schedule Variant and Random Pointer Linked List Coding Interview Experience](https://trueinterview.io/interviews/7b8dcb02-4dd1-4179-989a-678d0a53d73f) | Sep 22, 2026 |
-| Software | [Snowflake Design In-Memory File System and SQL Notebook Interview Experience](https://trueinterview.io/interviews/b720d9cb-fece-45d7-97e5-4389a690a698) | Sep 22, 2026 |
-| Software | [Snowflake Front-End TypeScript and React Coding Interview Experience](https://trueinterview.io/interviews/7ef526c8-1f07-44b5-b8a5-23b479d9beb0) | Sep 22, 2026 |
-| Software | [Snowflake Frontend Kanban Board and Google Calendar System Design Interview Experience](https://trueinterview.io/interviews/d7662d8b-bef4-4dad-a9dc-b5b934f11631) | Sep 22, 2026 |
-| Software | [Snowflake GPU Deployment Bin-Packing Interview Experience](https://trueinterview.io/interviews/3f628393-3cf6-4a82-b472-1ab38f049dfb) | Sep 22, 2026 |
-| Software | [Snowflake Graph 3-Coloring Coding Interview Experience](https://trueinterview.io/interviews/8e8a47f3-003b-439a-84ab-baf72d8ff906) | Sep 22, 2026 |
-| Software | [Snowflake Grid Marble Removal and Top‑K Book Sales Interview Experience](https://trueinterview.io/interviews/fb09ab68-62f9-47a7-96c3-892739fb72c5) | Sep 22, 2026 |
-| Software | [Snowflake IC1 Interview Experience](https://trueinterview.io/interviews/b7d43230-9512-414a-9829-79f6bd31d3cf) | Sep 22, 2026 |
-| Software | [Snowflake Infra Interview Experience](https://trueinterview.io/interviews/afc03e4f-221d-401b-99a9-b90a6a96d996) | Sep 22, 2026 |
-| Software | [Snowflake Interview Experience](https://trueinterview.io/interviews/1a879863-b52e-4e82-bc4b-9dba1fbfa6d4) | Sep 22, 2026 |
-| Software | [Snowflake Job Scheduler and Rate Limiter Interview Experience](https://trueinterview.io/interviews/d92290cf-6c2f-45b2-b74d-0ed383277773) | Sep 22, 2026 |
-| Software | [Snowflake LeetCode 212 Word Search II Coding Interview Experience](https://trueinterview.io/interviews/035e130b-e082-4e0d-be2a-57fa39ab3339) | Sep 22, 2026 |
-| Software | [Snowflake Meta Engineering Interview Experience](https://trueinterview.io/interviews/b561feef-96ac-4493-b695-443cc0b53d14) | Sep 22, 2026 |
-| Software | [Snowflake Mid-Level Software Engineer Interview Experience](https://trueinterview.io/interviews/cff80148-e180-4199-814a-c13983c18359) | Sep 22, 2026 |
-| Software | [Snowflake Minimum Value Weight, Vowels Substring, and Unequal Elements Coding Assessment Interview Experience](https://trueinterview.io/interviews/5d87ac6d-2e1c-49a4-ac2e-d504c5f1e45a) | Sep 22, 2026 |
-| Software | [Snowflake Perfect Binary Tree and Custom BST Interview Experience (2025)](https://trueinterview.io/interviews/740de2bc-9ad8-4a8a-a08b-6190d40714a2) | Sep 22, 2026 |
-| Software | [Snowflake Rate Limiter and Multi-ary Tree Coding Interview Experience](https://trueinterview.io/interviews/d0b58d78-b1b1-4845-a438-4e4459356ff5) | Sep 22, 2026 |
-| Software | [Snowflake Role-Based Permission System Design Interview Experience](https://trueinterview.io/interviews/1d805d61-b165-4f4f-9ec4-d2c90f17893d) | Sep 22, 2026 |
-| Software | [Snowflake Single Element in Paired Sequence Coding Interview Experience](https://trueinterview.io/interviews/7b5c6fb6-db8c-469b-adca-1f3ee157693e) | Sep 22, 2026 |
-| Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/65619885-09fa-4ff3-b200-9a0b0b076cc8) | Sep 22, 2026 |
-| Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/ba07862b-eaf1-4cec-afcd-2012b39a1874) | Sep 22, 2026 |
-| Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/e11c495c-b10d-4da4-b382-bf1511006d7a) | Sep 22, 2026 |
-| Software | [Snowflake Software Engineer, Mid-Level IC2 Interview Experience](https://trueinterview.io/interviews/ae3ae721-4141-4d8b-896c-6f3715e682a3) | Sep 22, 2026 |
-| Software | [Snowflake Stream Processing with Sliding Window Coding Interview Experience](https://trueinterview.io/interviews/3887e7ac-7d99-4f48-97bf-1c9dd362b947) | Sep 22, 2026 |
-| Software | [Snowflake String Validity Check and A/B Testing Platform Design Interview Experience](https://trueinterview.io/interviews/2ae2c1d8-33f1-4628-9c90-9ea2d8eb24c5) | Sep 22, 2026 |
-| Software | [Snowflake TikTok Senior Software Engineer Interview Experience](https://trueinterview.io/interviews/193f8d62-b95d-4643-8db0-52b8b2e52d12) | Sep 22, 2026 |
-| Software | [Snowflake Tree Node Removal and Height Computation Coding Interview](https://trueinterview.io/interviews/cfdaa1e1-e7af-4854-804c-a821948f4d0c) | Sep 22, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,808 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

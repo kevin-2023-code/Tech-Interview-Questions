@@ -95,16 +95,16 @@ happened.
 <!-- gen:experiences:start -->
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |
-| **Roblox** | Software | [Roblox Frontend Engineer Tic-Tac-Toe Coding Challenge Interview Experience](https://trueinterview.io/interviews/b1bdae53-2500-41c2-bbdb-03f124c3609b) | Sep 22, 2026 |
-| **Roblox** | Software | [Roblox Interview Experience](https://trueinterview.io/interviews/06970eb7-81e9-4368-8386-de7cb605aecc) | Sep 22, 2026 |
-| **Roblox** | Software | [Roblox Interview Experience](https://trueinterview.io/interviews/0eb3917a-00fd-440e-9ca2-fbe083afcd95) | Sep 22, 2026 |
-| **Roblox** | Software | [Roblox Interview Experience](https://trueinterview.io/interviews/1c103853-257d-43a4-a033-26dc631a49a1) | Sep 22, 2026 |
-| **Roblox** | Data & AI | [Roblox Interview Experience (Senior Level)](https://trueinterview.io/interviews/8d305629-f33d-42dd-a3bb-213d0b6f0b44) | Sep 22, 2026 |
-| **Roblox** | Software | [Roblox New Grad Online Assessment with Mini-Games and Group Anagrams Coding Interview Experience](https://trueinterview.io/interviews/e6a44d63-354d-4675-8959-0cb103a70e30) | Sep 22, 2026 |
-| **Roblox** | Software | [Roblox Software Engineer (New Grad/Intern) Interview Experience](https://trueinterview.io/interviews/74dfd7c8-234e-4afc-a7f5-e3101916cc44) | Sep 22, 2026 |
-| **Snowflake** | Software | [Snowflake Coding Interview Experience with LeetCode 2096](https://trueinterview.io/interviews/b1b0a0c2-74d8-46fd-ba9d-fa2f187e778c) | Sep 22, 2026 |
+| **Bloomberg** | Software | [Bloomberg Coding Interview with Merge Intervals and Shortest Path in Grid Problems](https://trueinterview.io/interviews/5465d0df-8bc7-4580-a20d-cfc6d4471a48) | Sep 26, 2026 |
+| **Bloomberg** | Software | [Bloomberg Electoral Vote Allocation Algorithm Interview Experience](https://trueinterview.io/interviews/70573ede-a612-406a-bf19-b6e75599be6d) | Sep 26, 2026 |
+| **Bloomberg** | Software | [Bloomberg Interview Experience](https://trueinterview.io/interviews/306c3154-d0a6-44f2-aa66-0eba75d49f14) | Sep 26, 2026 |
+| **Bloomberg** | Software | [Bloomberg Interview Experience](https://trueinterview.io/interviews/b3f7bdc6-1a2d-4a98-91a5-37a74d8a705b) | Sep 26, 2026 |
+| **Bloomberg** | Software | [Bloomberg Interview Experience](https://trueinterview.io/interviews/c7709cf5-04ab-494e-bf74-d63a83248bd1) | Sep 26, 2026 |
+| **Bloomberg** | Software | [Bloomberg LRU Cache Refactoring Interview Experience](https://trueinterview.io/interviews/ceed63e2-879d-4a40-a23f-77a43d0f9288) | Sep 26, 2026 |
+| **Bloomberg** | Data & AI | [Bloomberg Machine Learning Role Interview Experience](https://trueinterview.io/interviews/303dedb3-c35a-4244-b6b4-d6b6106dca20) | Sep 26, 2026 |
+| **Bloomberg** | Software | [Bloomberg Meta Software Engineer Interview Experience](https://trueinterview.io/interviews/22024400-159b-46c3-9ec9-9a1884348104) | Sep 26, 2026 |
 
-[**2,808 reports on the board →**](experiences/README.md)
+[**2,860 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type

@@ -2,13 +2,13 @@
 
 # Stripe interview process, OA & interview questions
 
-**75 questions** reported at Stripe · **3 writeups** · **15 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
+**75 questions** reported at Stripe · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Stripe interviews & the free questions](stripe/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-stripe)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-stripe)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 11 / 51 / 13 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 3 |
-| Interview reports on the board | 15 in this snapshot |
 
 <sub>Counted from the 75 questions reported at Stripe. 48 of them carry a sighting date; the other 27 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -113,30 +112,6 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 | [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral-2) | deep-dive, why-company |
 | [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/study/show-senior-engineering-leadership-through-a-past-project) | — |
 | [Stripe Interview Process & Questions](https://trueinterview.io/study/stripe-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Stripe — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Stripe Access Control Rule Evaluation and System Design Interview Experience](https://trueinterview.io/interviews/b569c553-9621-4848-9afe-bc1c43fcd2fe) | Sep 22, 2026 |
-| Software | [Stripe CSV Task/Subtask Parser & Proximity Request Routing Interview Experience](https://trueinterview.io/interviews/68eeac31-a1a0-44f0-a44d-5adcb8ad5230) | Sep 22, 2026 |
-| Software | [Stripe Data Center Registration and Proximity Routing Online Assessment Interview Experience](https://trueinterview.io/interviews/7451856f-1dde-4912-8145-ce7355fe0cb5) | Sep 22, 2026 |
-| Software | [Stripe Deployment Time Window Scheduler Online Assessment Experience Interview Experience](https://trueinterview.io/interviews/5ec82c6e-c4bb-416c-84b8-39083b304b66) | Sep 22, 2026 |
-| Software | [Stripe Four-Part Assessment Interview Experience](https://trueinterview.io/interviews/aeb24939-e840-4ac8-8bc7-c3f8eb5f6a75) | Sep 22, 2026 |
-| Software | [Stripe Fraud Detection and Ledger System Design Interview Experience](https://trueinterview.io/interviews/cd7cc20a-5d6e-4d96-952d-a8d8952dc4c9) | Sep 22, 2026 |
-| Software | [Stripe Frontend Development Engineer (FDE) Interview Experience](https://trueinterview.io/interviews/a5a50ebb-f315-49e9-afa4-d5865dbbfb7a) | Sep 22, 2026 |
-| Software | [Stripe Interview Experience](https://trueinterview.io/interviews/ff335448-f637-4aaa-82c6-8fbe4d7c199d) | Sep 22, 2026 |
-| Software | [Stripe KYC Data Validation Coding Interview Experience](https://trueinterview.io/interviews/3987be9b-63ff-4086-867f-f937a5a96933) | Sep 22, 2026 |
-| Software | [Stripe Online Assessment Interview Experience](https://trueinterview.io/interviews/1d7f2991-ab9a-4d9e-ad15-0ecfc718663f) | Sep 22, 2026 |
-| Software | [Stripe Online Coding Assessment: CSV Data Processing Interview Experience](https://trueinterview.io/interviews/3e2b6e2a-9b2d-4b77-b398-a29a0482488d) | Sep 22, 2026 |
-| Software | [Stripe Software Engineer Intern Interview Experience](https://trueinterview.io/interviews/2094d012-445e-487e-8848-a0235f3a1cfe) | Sep 22, 2026 |
-| Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/690f558d-b815-4046-9fbc-c05e2a2e31e2) | Sep 22, 2026 |
-| Software | [Stripe Software Engineer Interview Experience](https://trueinterview.io/interviews/80c0f6fd-c68c-4aa9-a10e-3b840335d11c) | Sep 22, 2026 |
-| Software | [Stripe Staff-Level AI Coding and Ledger System Design Interview Experience](https://trueinterview.io/interviews/d8fbd314-96f8-4bfa-93fa-88123ae54103) | Sep 22, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,808 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

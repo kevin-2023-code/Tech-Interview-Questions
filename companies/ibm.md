@@ -2,13 +2,13 @@
 
 # IBM interview process, OA & interview questions
 
-**25 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
+**25 questions** reported at IBM · **3 writeups** · **7 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How IBM interviews & the free questions](ibm/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧾 [IT services & consulting](../company-types/it-consulting.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-ibm)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-ibm)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 4 / 20 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
+| Interview reports on the board | 7 in this snapshot |
 
 <sub>Counted from the 25 questions reported at IBM. 14 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -105,6 +106,22 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | [Competency and Resume Interview](https://trueinterview.io/study/competency-and-resume-interview) | bq, deep-dive, star, why-company |
 | [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/study/devsecops-kubernetes-cicd-screen) | cs-fundamentals, docker, networking, sre, troubleshooting |
 | [IBM Interview Process & Questions](https://trueinterview.io/study/ibm-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at IBM — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [IBM Coding Interview Experience: VM Rental Revenue and Minimum Replacements](https://trueinterview.io/interviews/01de2fbc-f506-4e76-8196-14751aee1366) | Sep 26, 2026 |
+| Software | [IBM Coding Interview: VM Stock Revenue & Minimum Replacements](https://trueinterview.io/interviews/80b6bf49-65d3-4fab-8031-3e5d14a66e5a) | Sep 26, 2026 |
+| Software | [IBM HackerRank Online Assessment Interview Experience](https://trueinterview.io/interviews/e1339dbc-03b7-4b40-86a2-542deb4d867c) | Sep 26, 2026 |
+| Software | [IBM Pairwise XOR and Modulo Sum Problems Interview Experience](https://trueinterview.io/interviews/9e3712c6-15f8-4cbc-882d-def302a93125) | Sep 26, 2026 |
+| Software | [IBM Software Engineer Interview Experience](https://trueinterview.io/interviews/019691a9-c5ef-407f-90ed-97202f5bb6a7) | Sep 26, 2026 |
+| Software | [IBM Software Engineer Interview Experience](https://trueinterview.io/interviews/2aba3159-041a-49e2-83f5-8e878babd7a1) | Sep 26, 2026 |
+| Software | [IBM VM Sales Revenue and Minimum Nondecreasing Increment Online Assessment Interview Experience](https://trueinterview.io/interviews/6d2aaa80-39d2-432a-b4c7-0f8b28ac9a38) | Sep 26, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,860 in total). [Every report at IBM and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

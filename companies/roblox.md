@@ -2,13 +2,13 @@
 
 # Roblox interview process, OA & interview questions
 
-**61 questions** reported at Roblox · **6 writeups** · **7 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
+**61 questions** reported at Roblox · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Roblox interviews & the free questions](roblox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🎮 [Gaming & interactive](../company-types/gaming.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-roblox)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-roblox)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 11 / 39 / 11 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 6 |
-| Interview reports on the board | 7 in this snapshot |
 
 <sub>Counted from the 61 questions reported at Roblox. 49 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -114,22 +113,6 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Roblox Interview Process & Questions](https://trueinterview.io/study/roblox-interview-process) | — |
 | [Roblox Machine Learning Engineer Interview Process](https://trueinterview.io/study/roblox-machine-learning-engineer-interview-process) | — |
 | [Roblox Software Engineer Interview Process](https://trueinterview.io/study/roblox-software-engineer-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Roblox — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Roblox Frontend Engineer Tic-Tac-Toe Coding Challenge Interview Experience](https://trueinterview.io/interviews/b1bdae53-2500-41c2-bbdb-03f124c3609b) | Sep 22, 2026 |
-| Software | [Roblox Interview Experience](https://trueinterview.io/interviews/06970eb7-81e9-4368-8386-de7cb605aecc) | Sep 22, 2026 |
-| Software | [Roblox Interview Experience](https://trueinterview.io/interviews/0eb3917a-00fd-440e-9ca2-fbe083afcd95) | Sep 22, 2026 |
-| Software | [Roblox Interview Experience](https://trueinterview.io/interviews/1c103853-257d-43a4-a033-26dc631a49a1) | Sep 22, 2026 |
-| Data & AI | [Roblox Interview Experience (Senior Level)](https://trueinterview.io/interviews/8d305629-f33d-42dd-a3bb-213d0b6f0b44) | Sep 22, 2026 |
-| Software | [Roblox New Grad Online Assessment with Mini-Games and Group Anagrams Coding Interview Experience](https://trueinterview.io/interviews/e6a44d63-354d-4675-8959-0cb103a70e30) | Sep 22, 2026 |
-| Software | [Roblox Software Engineer (New Grad/Intern) Interview Experience](https://trueinterview.io/interviews/74dfd7c8-234e-4afc-a7f5-e3101916cc44) | Sep 22, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,808 in total). [Every report at Roblox and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
