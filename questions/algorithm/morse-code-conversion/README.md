@@ -12,9 +12,6 @@
 
 ## Problem
 
-Morse Code Encoder and Decoder
-Medium · Topics · Company Tags · Hints
-
 You are given a standard mapping from each lowercase English letter to its Morse code representation (a string of dots `'.'` and dashes `'-'`). Your task is to implement two operations:
 
 1. **Encoding** – Given a word consisting of lowercase letters, return its Morse code form. The form is obtained by replacing every letter with its corresponding code and concatenating all codes together without any separators.

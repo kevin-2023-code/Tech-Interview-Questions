@@ -8,10 +8,10 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [116](../microsoft.md) |
-| Free to read here | 19 |
+| Questions reported | [115](../microsoft.md) |
+| Free to read here | 18 |
 | Interview-process guides | 5 |
-| Other guides | 6 |
+| Other guides | 5 |
 | Most recent sighting | Sep 09, 2026 |
 
 ## How Microsoft interviews
@@ -38,14 +38,13 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 
 ## Free Microsoft questions
 
-19 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Final Prices With a Special Discount in a Shop](../../questions/algorithm/final-prices-with-a-special-discount-in-a-shop/README.md) | Algorithm | Easy | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) |
-| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
@@ -67,15 +66,14 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 | Guide | Tags |
 | :-- | :-- |
 | [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md) | ai-collaboration, conflict, culture-fit, leadership, star |
-| [Enhancing Research Skills and Team Collaboration in Publishing](https://trueinterview.io/study/7950592e-16e7-4050-8bf7-c4c96b96c546) | — |
 | [Object-Oriented Design Round](guides/object-oriented-design-round.md) | object-design, ood, oop-design |
 | [Project Deep Dive](guides/project-deep-dive-2.md) | deep-dive, impact, leadership |
-| [Random Process Walkthrough](https://trueinterview.io/study/85c68b1b-e2d0-46c9-952e-54b510d2586f) | — |
+| [Resolve Technical Disagreement and Work Across Different Styles](guides/resolve-technical-disagreement-and-work-across-different-styles.md) | — |
 | [Transformer Roofline + FP32→FP16 Drill](guides/transformer-roofline-fp-precision.md) | arithmetic-intensity, gpu, kernel, numerical-stability, transformer |
 
 ## Everything else
 
-- [All 116 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 115 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Microsoft question on TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 ---

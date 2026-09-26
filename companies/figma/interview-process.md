@@ -65,7 +65,6 @@ The phone screen's signature problems are object design with escalating requirem
 
 Behavioral rounds return to conflict resolution, constructive feedback, difficult colleagues, mentorship, growth mindset, roadmap planning, and expanding scope — interviewers want several distinct stories, and a conflict between two reasonable perspectives lands better than one where somebody was plainly wrong. Some screens are instead a broad technical discussion drilling one opening prompt outward into networking, distributed systems, and security.
 
-- [Deep Dive — What Happens When You Access a URL](guides/deep-dive-url-request-lifecycle.md)
 
 ## How to Prepare
 

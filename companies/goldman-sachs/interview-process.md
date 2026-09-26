@@ -55,10 +55,7 @@ Implementation rounds ask you to build a small, coherent abstraction — a conta
 The behavioral bank centers on integrity, accountability, and judgment under pressure — client-policy conflicts, confidential-data mishaps, teammates who miss deadlines — plus communication tests and quantitative reasoning prompts that blur into the technical evaluation. Structure answers around your specific actions and escalation decisions.
 
 - [Hirevue Behavioral Bank (6 Questions)](guides/hirevue-behavioral-six-questions.md)
-- [Explain Recursion to a Non-CS Audience](guides/explain-recursion-no-cs-audience.md)
 - [Quant OA Math / Probability Multiple Choice Bank](guides/quant-oa-math-probability-bank.md)
-- [Hash Collision: Causes, Resolution, Complexity](guides/hash-collision-fundamentals.md)
-- [Effect of Doubling Data on Regression Coefficients and Statistics](https://trueinterview.io/questions/30195c71-57af-4259-a3ab-5aa9886b4746)
 
 ## How to Prepare
 

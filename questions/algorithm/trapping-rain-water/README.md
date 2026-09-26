@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs · Meta · +2 | Phone screen | — | Apr 2026 |
+| Algorithm | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs · Meta · +2 | Phone screen | arrays, two-pointers, stack, dynamic-programming | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/trapping-rain-water)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -48,21 +48,21 @@ Output: `9`
 <details>
 <summary>Hint 1</summary>
 
-Water trapped at each position depends on the minimum of the maximum heights to its left and right, minus its own height.
+Water trapped at a position depends on the minimum of the highest bar to its left and the highest bar to its right, minus its own height.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use two pointers moving inward, maintaining left and right max heights, to compute trapped water in a single pass.
+Use two pointers moving inward from both ends, tracking the current max left and max right, to compute water in O(n) time and O(1) space.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The complexity target is O(n) time and O(1) space, watch for the case where the array is strictly increasing or decreasing.
+The trickiest edge case is a strictly increasing or decreasing profile, which traps no water.
 
 </details>
 

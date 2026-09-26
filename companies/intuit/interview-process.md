@@ -28,7 +28,6 @@ The end-to-end process typically runs three to six weeks from application to dec
 
 Behavioral rounds at Intuit are values-driven and example-based: interviewers pick one story and drill into context, your specific action, the trade-off you accepted, and the observable result. The Craft Demonstration also generates behavioral follow-ups — disagreement with reviewers, quality compromises under deadline, lessons learned — so prepare your project stories to serve both purposes. Use these prompts to rehearse explaining engineering judgment out loud.
 
-- [Unit Testing in Industry Code](https://trueinterview.io/questions/e2a629a6-f54c-4584-96a3-b6dfaf1e43a4)
 
 ## How to Prepare
 

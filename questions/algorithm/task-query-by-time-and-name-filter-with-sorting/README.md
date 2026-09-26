@@ -12,9 +12,6 @@
 
 ## Problem
 
-Active Task Filter
-Easy · Topics · Company Tags · Hints
-
 You manage a collection of tasks. Each task has a unique integer ID, a name (string), a start time, and an end time. A task is considered **active** at a moment `t` if `startTime <= t < endTime` (start inclusive, end exclusive).
 
 You receive a sequence of operations, each represented as a string. The two kinds of operations are:

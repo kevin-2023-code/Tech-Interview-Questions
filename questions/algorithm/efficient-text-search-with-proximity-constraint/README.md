@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Palantir | Phone screen | — | — |
+| Algorithm | Medium | Palantir | Phone screen | strings, hashing | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -66,6 +66,29 @@ Output: true
 ```
 
 The distance between `brown` and `dog` is 6, and equality with `k` is permitted.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Preprocess the text to record the word positions (indices) for every word that appears.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+For a query, use a two-pointer or sliding window approach to check if there exists a set of positions where the query words appear in order with gaps no larger than k.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+Aim for O(text length + query length) per query after preprocessing, and watch out for duplicate query words.
+
+</details>
 
 ## Solution
 

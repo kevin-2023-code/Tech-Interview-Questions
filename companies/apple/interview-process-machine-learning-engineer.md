@@ -84,7 +84,7 @@ The third pattern is a decision with no relationship to the interview experience
 
 ## Data Source
 
-Based on 16 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 20 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

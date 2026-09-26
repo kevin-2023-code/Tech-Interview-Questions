@@ -42,7 +42,6 @@ Optiver's coding problems wear finance costumes but grade classic skills: dynami
 - [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges)
 - [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting)
 - [OptiCargo — Cargo-to-Flight Scheduling](https://trueinterview.io/questions/opticargo-flight-scheduling)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 
 ## Low-Level Design Questions
 

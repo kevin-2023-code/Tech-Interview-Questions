@@ -34,14 +34,12 @@ For Research Scientist candidates at Meta, the first gate is often a 45-minute c
 You are graded on how you reason when you are unsure. Separate your contribution from the team's, justify decisions against alternatives, name what failed, and give results as numbers. In the open problem, concede the weaknesses of your favorite idea before the manager points them out. Defending a single proposal under pressure makes you look brittle. Listing failure modes without being asked makes you look like a researcher.
 
 - [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288)
-- [Detecting and Handling Fake Friend Requests via Machine Learning](https://trueinterview.io/questions/5739fc5a-6b17-4f4d-8261-443168884c2a)
 
 ### ML Theory
 
 The round expects derivations, not descriptions. Signal comes from explaining when to pick an optimizer and why, deriving EM, and working out attention's quadratic cost and the memory savings of fused kernels. Candidates who can only summarize a method at a high level are exposed quickly. The rejected candidate whose loop covered theory and attention advised knowing vanilla attention cold and being able to contrast the efficient variants.
 
 - [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](guides/ml-foundations-optimizers-scaling-law-clustering.md)
-- [Attention Implementation + Flash / Linear Attention Follow-ups](https://trueinterview.io/questions/attention-implementation-and-follow-ups)
 - [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb)
 
 ### ML System Design

@@ -41,16 +41,17 @@ Which stage each question came from, for the **12 of 12** questions at Square th
 
 ## What they ask about
 
-Of the **6 questions at Square that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at Square that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 50% | ████████████ | Nov 11, 2025 |
-| `matrix` | 2 | 33% | ████████ | Nov 11, 2025 |
-| `sorting` | 2 | 33% | ████████ | Nov 11, 2025 |
-| `arrays` | 1 | 17% | ████ | Nov 11, 2025 |
-| `graphs` | 1 | 17% | ████ | Nov 11, 2025 |
-| `strings` | 1 | 17% | ████ | Nov 11, 2025 |
+| `hashing` | 3 | 43% | ████████████ | Nov 11, 2025 |
+| `matrix` | 2 | 29% | ████████ | Nov 11, 2025 |
+| `sorting` | 2 | 29% | ████████ | Nov 11, 2025 |
+| `arrays` | 1 | 14% | ████ | Nov 11, 2025 |
+| `graphs` | 1 | 14% | ████ | Nov 11, 2025 |
+| `strings` | 1 | 14% | ████ | Nov 11, 2025 |
+| `trees` | 1 | 14% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

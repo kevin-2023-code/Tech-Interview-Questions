@@ -41,7 +41,6 @@ Rippling coding rounds favor realistic data manipulation with escalating require
 - [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823)
 - [Maximize Amount After Two Days of Conversions](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions)
 - [Intern OA Fixed Set](guides/intern-oa-fixed-set.md)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 
 ## System Design Questions
 

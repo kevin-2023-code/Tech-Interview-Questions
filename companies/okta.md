@@ -42,16 +42,17 @@ Which stage each question came from, for the **10 of 10** questions at Okta that
 
 ## What they ask about
 
-Of the **6 questions at Okta that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at Okta that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 33% | ████████████ | Jun 02, 2026 |
-| `strings` | 2 | 33% | ████████████ | Jun 24, 2026 |
-| `dynamic-programming` | 1 | 17% | ██████ | — |
-| `graphs` | 1 | 17% | ██████ | Nov 05, 2025 |
-| `hashing` | 1 | 17% | ██████ | Jun 02, 2026 |
-| `stack` | 1 | 17% | ██████ | Jun 24, 2026 |
+| `arrays` | 2 | 29% | ████████████ | Jun 02, 2026 |
+| `strings` | 2 | 29% | ████████████ | Jun 24, 2026 |
+| `dynamic-programming` | 1 | 14% | ██████ | — |
+| `graphs` | 1 | 14% | ██████ | Nov 05, 2025 |
+| `hashing` | 1 | 14% | ██████ | Jun 02, 2026 |
+| `sliding-window` | 1 | 14% | ██████ | May 01, 2026 |
+| `stack` | 1 | 14% | ██████ | Jun 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

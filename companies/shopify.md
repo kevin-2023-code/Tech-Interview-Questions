@@ -42,18 +42,19 @@ Which stage each question came from, for the **15 of 15** questions at Shopify t
 
 ## What they ask about
 
-Of the **8 questions at Shopify that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Shopify that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 25% | ████████████ | — |
-| `backtracking` | 2 | 25% | ████████████ | Jan 05, 2026 |
-| `dynamic-programming` | 1 | 12% | ██████ | Aug 29, 2025 |
-| `hashing` | 1 | 12% | ██████ | Apr 09, 2026 |
-| `linked-list` | 1 | 12% | ██████ | Apr 09, 2026 |
-| `stack` | 1 | 12% | ██████ | Aug 29, 2025 |
-| `trees` | 1 | 12% | ██████ | Jun 15, 2026 |
-| `tries` | 1 | 12% | ██████ | Jun 15, 2026 |
+| `strings` | 4 | 33% | ████████████ | May 12, 2026 |
+| `arrays` | 3 | 25% | █████████ | Aug 29, 2025 |
+| `backtracking` | 3 | 25% | █████████ | May 12, 2026 |
+| `dynamic-programming` | 2 | 17% | ██████ | Aug 29, 2025 |
+| `hashing` | 2 | 17% | ██████ | Apr 09, 2026 |
+| `linked-list` | 1 | 8% | ███ | Apr 09, 2026 |
+| `stack` | 1 | 8% | ███ | Aug 29, 2025 |
+| `trees` | 1 | 8% | ███ | Jun 15, 2026 |
+| `tries` | 1 | 8% | ███ | Jun 15, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -79,7 +80,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | **1** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
 | **2** | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | — | May 12, 2026 |
 | **3** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | — | May 10, 2026 |
-| **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 7 | Apr 09, 2026 |
+| **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 8 | Apr 09, 2026 |
 | **5** | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | 2 | Jan 05, 2026 |
 | **6** | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | — | Aug 29, 2025 |
 | **7** | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | — | Aug 29, 2025 |

@@ -18,7 +18,7 @@
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 2) |
-| Difficulty (easy / medium / hard) | 1 / 1 / 0 |
+| Difficulty (easy / medium / hard) | 2 / 0 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **2 of 2** questions at Brex that n
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Onsite / virtual onsite** | 1 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 1 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 1 / 0 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,13 @@ Which stage each question came from, for the **2 of 2** questions at Brex that n
 
 ## What they ask about
 
-**None of the 2 questions reported at Brex carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+Of the **1 question at Brex that carries a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+
+| Topic | Questions | Share of labelled |  | Last seen |
+| :-- | --: | --: | :-- | :-- |
+| `arrays` | 1 | 100% | ████████████ | — |
+
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Start here
 
@@ -50,7 +56,7 @@ The 2 questions to open first if you are preparing for Brex. **This is not a ran
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) 🆓 | Algorithm | Easy | — | — |
-| **2** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) 🆓 | Object Oriented Programming | Medium | — | — |
+| **2** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) 🆓 | Object Oriented Programming | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -72,5 +78,5 @@ The 2 questions to open first if you are preparing for Brex. **This is not a ran
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Object Oriented Programming | Medium | — |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Object Oriented Programming | Easy | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Algorithm | Easy | — |

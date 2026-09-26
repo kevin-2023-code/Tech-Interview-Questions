@@ -12,9 +12,6 @@
 
 ## Problem
 
-Maximum Number of Adjacent-Difference Bounded Strings
-Medium · Topics · Company Tags · Hints
-
 You are given two integers `n` and `k`. Your task is to compute the maximum number of strings of length `n` that can be formed under the following rules:
 
 - Every character must be a lowercase English letter (`'a'` through `'z'`).

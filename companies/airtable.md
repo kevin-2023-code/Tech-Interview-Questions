@@ -41,12 +41,14 @@ Which stage each question came from, for the **5 of 5** questions at Airtable th
 
 ## What they ask about
 
-Of the **1 question at Airtable that carries a topic label** (20% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Airtable that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 1 | 100% | ████████████ | — |
-| `trees` | 1 | 100% | ████████████ | — |
+| `arrays` | 1 | 33% | ████████████ | — |
+| `dynamic-programming` | 1 | 33% | ████████████ | — |
+| `topological-sort` | 1 | 33% | ████████████ | — |
+| `trees` | 1 | 33% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

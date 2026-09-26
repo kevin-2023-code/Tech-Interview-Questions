@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Uber · Microsoft | Online assessment | — | Feb 2026 |
+| Algorithm | Easy | Uber · Microsoft | Online assessment | arrays, hashing, greedy | Feb 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/oa-permutation-prefix-balanced)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -64,21 +64,21 @@ Output: 1 1 1 1 1
 <details>
 <summary>Hint 1</summary>
 
-Think about tracking the positions of the first k numbers as you increase k from 1 to n.
+Think about what condition must hold for a subarray of length k to contain exactly the numbers 1..k — how does the position of the maximum value in that subarray relate to k?
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use two variables to keep the minimum and maximum indices among the numbers 1..k, if max - min + 1 == k, then the set is contiguous.
+Track the running maximum and minimum positions of the first k numbers as you iterate k from 1 to n, and check if those positions define a subarray of exactly length k.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Achieve O(n) time and O(1) extra space by updating min and max as you iterate.
+The O(n) solution uses the fact that for k to be balanced, the span of positions of numbers 1..k must equal k — watch for the case where numbers are not contiguous in value but still form a contiguous block in the permutation.
 
 </details>
 

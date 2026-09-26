@@ -46,20 +46,20 @@ Which stage each question came from, for the **23 of 23** questions at Two Sigma
 
 ## What they ask about
 
-Of the **11 questions at Two Sigma that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Two Sigma that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 27% | ████████████ | — |
-| `heap` | 2 | 18% | ████████ | Jul 29, 2026 |
-| `trees` | 2 | 18% | ████████ | Dec 15, 2025 |
-| `arrays` | 1 | 9% | ████ | Feb 04, 2026 |
-| `backtracking` | 1 | 9% | ████ | Oct 09, 2025 |
-| `binary-search` | 1 | 9% | ████ | — |
-| `dynamic-programming` | 1 | 9% | ████ | Nov 18, 2025 |
-| `greedy` | 1 | 9% | ████ | — |
-| `intervals` | 1 | 9% | ████ | Feb 04, 2026 |
-| `sorting` | 1 | 9% | ████ | Feb 04, 2026 |
+| `graphs` | 4 | 24% | ████████████ | Mar 25, 2026 |
+| `greedy` | 3 | 18% | █████████ | Mar 25, 2026 |
+| `trees` | 3 | 18% | █████████ | Mar 25, 2026 |
+| `arrays` | 2 | 12% | ██████ | Mar 25, 2026 |
+| `binary-search` | 2 | 12% | ██████ | May 10, 2026 |
+| `heap` | 2 | 12% | ██████ | Jul 29, 2026 |
+| `math` | 2 | 12% | ██████ | May 10, 2026 |
+| `sorting` | 2 | 12% | ██████ | Mar 25, 2026 |
+| `strings` | 2 | 12% | ██████ | Feb 18, 2026 |
+| `backtracking` | 1 | 6% | ███ | Oct 09, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

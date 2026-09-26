@@ -5,16 +5,12 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Two Sigma · Point72 | Online assessment | — | Mar 2026 |
+| Algorithm | Hard | Two Sigma · Point72 | Online assessment | stack, greedy, sorting | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/swe-oa-ipo-share-allocation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
-
-IPO Auction
-
-Medium · Topics · Company Tags · Hints
 
 You are running an IPO auction to distribute a fixed number of shares among interested investors. In an IPO auction, the final price is not preset; instead, potential buyers submit bids stating how many shares they want and the price they are willing to pay. Shares are then allocated starting from the highest bidders until all shares have been assigned.
 
@@ -79,21 +75,21 @@ Output: []
 <details>
 <summary>Hint 1</summary>
 
-Think of the problem as a priority queue where bids are processed in descending price order, and within the same price, you need to handle tie-breaking by timestamp.
+Think of the allocation as a greedy process where you sort bids by price descending, then allocate shares round by round, but the twist is that within the same price level you need to handle ties fairly.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a max-heap keyed by price, and for each price tier, maintain a min-heap (or sorted collection) of bids ordered by timestamp to allocate shares fairly.
+Use a priority queue (max-heap) to always pick the highest bidder, and when multiple bids have the same price, consider the timestamp to break ties.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Key nuance: when a price tier cannot fully satisfy all bids, the allocation must be pro-rata among bidders with the same price, and leftover shares from a tier are lost (not carried to lower tiers).
+Watch out for the edge case where the total requested shares exceed the available shares, you may need to allocate partially to the last winning bidder.
 
 </details>
 

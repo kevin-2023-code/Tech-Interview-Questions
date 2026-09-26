@@ -5,15 +5,12 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | MongoDB | Phone screen | — | — |
+| Algorithm | Hard | MongoDB | Phone screen | dynamic-programming, bit-manipulation | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
-
-Minimum XOR Sum
-Hard · Topics · Company Tags · Hints
 
 Given two integer arrays `nums1` and `nums2` of equal length `n`, you may reorder the elements of `nums2` arbitrarily. After applying your chosen permutation to `nums2`, the XOR sum is defined as
 
@@ -68,21 +65,21 @@ The function signature provided to the judge is `min_xor_sum(nums1, nums2)`, and
 <details>
 <summary>Hint 1</summary>
 
-Think of this as a pairing problem on a complete bipartite graph where the edge weight between nums1[i] and nums2[j] is their XOR value.
+This is an assignment problem where matching elements from nums1 to nums2 minimizes the sum of XORs.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Realize that XOR sum minimization for two arrays of equal size over all perfect matchings is equivalent to the assignment problem, solvable by DP with bitmask over the smaller array’s index set.
+Think of it as a minimum weight matching in a bipartite graph, which can be solved with the Hungarian algorithm or DP with bitmask on small n.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Target O(n * 2^n) time with n small (typically ≤ 14), dynamic programming state dp[mask] represents min XOR sum having paired the first |mask| elements of nums1 with elements of nums2 indicated by mask.
+The problem size n≤14 makes O(n * 2^n) dynamic programming feasible, but a naive factorial search will time out.
 
 </details>
 

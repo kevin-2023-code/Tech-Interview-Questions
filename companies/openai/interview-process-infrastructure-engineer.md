@@ -77,7 +77,7 @@ Third, worker failure treated as an afterthought. Nearly every design prompt on 
 
 ## Data Source
 
-Based on 80 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

@@ -19,29 +19,29 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 98 | 73% | ██████████████ | 18 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 12% | ██ | 3 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 12% | ██ | 2 |
 | [System Design](../formats/system-design.md) | 14 | 10% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **30 / 81 / 23**, over the rows the catalog has graded. 24 of the 134 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **33 / 79 / 22**, over the rows the catalog has graded. 23 of the 134 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **75 questions in this cut that carry a topic label** (56% of it):
+Of the **101 questions in this cut that carry a topic label** (75% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 16 | 21% | ████████████ |
-| `arrays` | 13 | 17% | ██████████ |
-| `graphs` | 11 | 15% | ████████ |
-| `strings` | 11 | 15% | ████████ |
-| `matrix` | 8 | 11% | ██████ |
-| `two-pointers` | 8 | 11% | ██████ |
-| `linked-list` | 7 | 9% | █████ |
-| `heap` | 6 | 8% | ████ |
-| `dynamic-programming` | 5 | 7% | ████ |
-| `sorting` | 5 | 7% | ████ |
+| `arrays` | 20 | 20% | ████████████ |
+| `hashing` | 20 | 20% | ████████████ |
+| `graphs` | 16 | 16% | ██████████ |
+| `strings` | 14 | 14% | ████████ |
+| `matrix` | 13 | 13% | ████████ |
+| `two-pointers` | 11 | 11% | ███████ |
+| `dynamic-programming` | 8 | 8% | █████ |
+| `linked-list` | 8 | 8% | █████ |
+| `heap` | 7 | 7% | ████ |
+| `greedy` | 6 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -109,7 +109,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Hard | Apr 18, 2026 |
 | **Pinterest / Apple** | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Medium | Apr 18, 2026 |
 | **Apple / Amazon / DoorDash / Optiver** | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Medium | Apr 14, 2026 |
-| **Apple / Amazon / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **Apple** | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | Medium | Apr 08, 2026 |
 | **Apple** | [Container With Most Water II](https://trueinterview.io/questions/container-with-most-water) | Medium | Apr 08, 2026 |
 | **Apple / Amazon / GEICO / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
@@ -122,7 +122,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Apple** | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer) | Medium | Mar 17, 2026 |
 | **Apple / Google / LinkedIn / Microsoft / Salesforce** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Hard | Mar 17, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / Netflix / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **Uber / Apple / Bloomberg / ByteDance / Meta / Microsoft** | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Hard | Mar 04, 2026 |
 | **Apple** | [Bold Words in String](https://trueinterview.io/questions/bold-words-in-string) | Medium | Mar 03, 2026 |
 | **Apple / Uber** | [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Medium | Mar 02, 2026 |
@@ -135,7 +135,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Apple / Bloomberg / Google** | [Decode String](https://trueinterview.io/questions/decode-string) | Medium | Feb 16, 2026 |
 | **Apple** | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Easy | Feb 11, 2026 |
 | **Apple** | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Medium | Feb 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Apple** | [Find Median (Oracle Variant)](https://trueinterview.io/questions/find-median-oracle-variant) | Medium | Feb 06, 2026 |
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
@@ -148,7 +148,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Netflix / Apple** | [Reconstruct Itinerary](https://trueinterview.io/questions/reconstruct-itinerary) | Hard | Jan 09, 2026 |
 | **Apple** | [Airplane Seat Reservation API](https://trueinterview.io/questions/airplane-seat-reservation-api) | Medium | Jan 06, 2026 |
 | **Apple** | [Design TTL Cache](https://trueinterview.io/questions/design-ttl-cache) | Medium | Jan 02, 2026 |
-| **Apple / Bloomberg** | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Medium | Dec 22, 2025 |
+| **Apple / Bloomberg / Uber** | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Medium | Dec 22, 2025 |
 | **Apple** | [Out of Boundary Paths](https://trueinterview.io/questions/out-of-boundary-paths) | Medium | Dec 21, 2025 |
 | **Apple** | [Numbers with No Neighbors](https://trueinterview.io/questions/numbers-with-no-neighbors) | Easy | Dec 21, 2025 |
 | **Apple** | [Apple News Search Without ML](https://trueinterview.io/questions/apple-news-search-without-ml) | Medium | Dec 18, 2025 |
@@ -169,13 +169,13 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Cisco** | [Word Search in Rows and Columns](https://trueinterview.io/questions/word-search-rows-columns) | Medium | Jul 17, 2025 |
 | **Cisco** | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | Easy | Jul 17, 2025 |
 | **Apple** | [Merge Two Strings by Maximum Edge Overlap](https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc) | Easy | — |
-| **Apple** | [Constrain an Increasing Array With Minimum Adjacent Difference](https://trueinterview.io/questions/d5642f20-01c2-549f-833c-8e654d14cbd6) | Medium | — |
+| **Apple** | [Constrain an Increasing Array With Minimum Adjacent Difference](https://trueinterview.io/questions/d5642f20-01c2-549f-833c-8e654d14cbd6) | Easy | — |
 | **Apple** | [Constrain Every Five Consecutive Array Elements to Be Unique](https://trueinterview.io/questions/c9bd91f8-10cc-5032-9141-ac058ba5d7ca) | Medium | — |
 | **Apple** | [Count Set Bits in a 32-Bit Integer](https://trueinterview.io/questions/b163aaa9-31a0-5c0a-b2a4-ad91ae115390) | Medium | — |
 | **Apple** | [Validate and Aggregate HTTP Access Logs](https://trueinterview.io/questions/a0c61319-db55-58db-871b-be9dff51aee8) | Medium | — |
 | **Apple** | [All Subsets with a Given Sum](https://trueinterview.io/questions/9a58ba10-18c3-5f29-ae61-70e1882a22f5) | Medium | — |
-| **Apple** | [Write a One-Hot SystemVerilog Constraint Without $onehot](https://trueinterview.io/questions/7772306e-c2e1-50b0-b143-ea071affcf0b) | Medium | — |
-| **Apple** | [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057) | Medium | — |
+| **Apple** | [Write a One-Hot SystemVerilog Constraint Without $onehot](https://trueinterview.io/questions/7772306e-c2e1-50b0-b143-ea071affcf0b) | Easy | — |
+| **Apple** | [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057) | Easy | — |
 | **Apple** | [Determine Whether an Undirected Graph Is Bipartite](https://trueinterview.io/questions/3e8d0c6c-7081-55ae-b3ee-3e5c8621d1b9) | Medium | — |
 | **Apple** | [Classify the Difference Between Two Calendar Dates](https://trueinterview.io/questions/1fd937c6-7de8-57d7-9b2d-c96a07d39ab2) | Medium | — |
 | **Apple** | [Design Task Manager](https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e) | Medium | — |
@@ -200,7 +200,7 @@ Of the **75 questions in this cut that carry a topic label** (56% of it):
 | **Uber / Apple / Google** | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Hard | — |
 | **Apple / Meta** | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Medium | — |
 | **Apple** | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Hard | — |
-| **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Hard | — |
+| **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Medium | — |
 | **Netflix / Apple / Snowflake** | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | Medium | — |
 | **Uber / Amazon / Apple / Databricks / Meta / OKX / Roblox** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Medium | — |
 | **Apple** | [Apply a 2D Box Blur Filter](https://trueinterview.io/questions/f377cc09-d8a0-47f3-9797-5ff6d3a0d580) | Medium | — |

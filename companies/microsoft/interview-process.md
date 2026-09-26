@@ -62,7 +62,7 @@ Design rounds appear below senior level and lean toward booking and consistency 
 Microsoft's signature round is building a small, realistic component and then defending it as constraints pile on: snapshot reads, frequency ties, sliding windows, idempotency keys, thread safety. Working code outweighs diagrams.
 
 - [KV Store with Snapshot Versions](https://trueinterview.io/questions/kv-store-with-snapshot)
-- [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md)
+- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
 - [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2)
 - [Idempotency API with Idempotency-Key Header](https://trueinterview.io/questions/idempotency-api-with-key)
 

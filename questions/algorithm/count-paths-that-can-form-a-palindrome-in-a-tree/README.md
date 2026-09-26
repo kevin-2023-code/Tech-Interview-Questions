@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Uber · Google | Online assessment, Onsite / virtual onsite | — | Mar 2026 |
+| Algorithm | Hard | Uber · Google | Online assessment, Onsite / virtual onsite | strings, hashing, trees, graphs, bit-manipulation | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -64,21 +64,21 @@ Explanation: `(0,1)` and `(1,2)` qualify. The path from `0` to `2` contains `b` 
 <details>
 <summary>Hint 1</summary>
 
-A path can form a palindrome if at most one character has an odd frequency, use bitmasking to track parity.
+Think about what property of a multiset of letters allows a palindrome: at most one character may appear an odd number of times.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use DFS from the root, maintaining a bitmask of edge labels along the current path, store masks in a hash map to count pairs.
+Use a bitmask where each bit represents the parity of a lowercase letter’s frequency along the path from the root to a node, and note that a path from u to v can form a palindrome if the XOR of their root masks has at most one bit set.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The key is to count pairs of nodes where the XOR of their path masks has at most one set bit, watch for the root's contribution.
+For O(n) time, count matching masks by doing a single DFS and using a frequency map, but store the map globally or pass it carefully to avoid recounting paths that go through the current node twice.
 
 </details>
 

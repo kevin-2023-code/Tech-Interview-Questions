@@ -87,7 +87,7 @@ One or two rounds, unusually concrete on platform teams. Interviewers want end-t
 
 ## Data Source
 
-Based on 41 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 46 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

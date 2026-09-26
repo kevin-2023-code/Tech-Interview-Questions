@@ -52,7 +52,6 @@ The dropdown round is component API design under scrutiny, and where accessibili
 One onsite hour with an unusual bar: hard-tier problems arrive with constraints relaxed enough that brute force passes, so the round tests whether you can decompose out loud and state complexity correctly. Signal comes from clarifying inputs, naming the naive approach and its cost, then discussing what an optimization would buy. Silent typing is how candidates lose it — there is no partial credit for an optimal solution nobody could follow.
 
 - [Flatten Nested Array](https://trueinterview.io/questions/flatten-nested-array)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 - [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs)
 - [Optimize the Space of Code in Coding Screen](https://trueinterview.io/questions/92dadf5d-6db1-424c-b110-2cd7b367704d)
 
@@ -84,7 +83,7 @@ The third is assuming the phone screen will be coding. It is a design conversati
 
 ## Data Source
 
-Based on 38 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 51 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

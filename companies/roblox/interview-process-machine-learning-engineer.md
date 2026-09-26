@@ -74,7 +74,7 @@ The third is under-rehearsing the behavioral round. A 45-minute sprint through m
 
 ## Data Source
 
-Based on 4 candidate-reported interview experiences, primarily from 2026 Q2 through 2026 Q2.
+Based on 5 candidate-reported interview experiences, primarily from 2026 Q2 through 2026 Q2.
 
 ## FAQ
 

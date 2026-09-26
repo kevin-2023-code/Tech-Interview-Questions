@@ -63,7 +63,6 @@ A distinctive Snapchat habit is the hour spent building one small system from sc
 
 Because behavioral probing rides inside technical rounds, you rarely get a clean runway to deliver a prepared story; practice compressing context-decision-impact into two minutes, and be ready for skeptical follow-ups on whether your approach was actually needed.
 
-- [First Discovery and Resolution of Critical Project Bug](https://trueinterview.io/questions/cbb98e2c-2461-49dd-933a-1741e0c81985)
 
 ## How to Prepare
 

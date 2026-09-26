@@ -39,7 +39,6 @@ NVIDIA coding rounds favor short, practical problems — log aggregation, thresh
 
 - [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters/README.md)
 - [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 - [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding)
 - [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding)
 

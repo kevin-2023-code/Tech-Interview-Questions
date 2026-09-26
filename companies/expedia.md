@@ -46,20 +46,20 @@ Which stage each question came from, for the **25 of 25** questions at Expedia t
 
 ## What they ask about
 
-Of the **12 questions at Expedia that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Expedia that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 25% | ████████████ | — |
-| `dynamic-programming` | 2 | 17% | ████████ | Nov 18, 2025 |
-| `greedy` | 2 | 17% | ████████ | May 30, 2026 |
-| `strings` | 2 | 17% | ████████ | — |
-| `arrays` | 1 | 8% | ████ | May 30, 2026 |
-| `backtracking` | 1 | 8% | ████ | — |
-| `bit-manipulation` | 1 | 8% | ████ | — |
-| `hashing` | 1 | 8% | ████ | — |
-| `linked-list` | 1 | 8% | ████ | — |
-| `math` | 1 | 8% | ████ | May 30, 2026 |
+| `greedy` | 4 | 21% | ████████████ | May 30, 2026 |
+| `dynamic-programming` | 3 | 16% | █████████ | Nov 18, 2025 |
+| `graphs` | 3 | 16% | █████████ | — |
+| `arrays` | 2 | 11% | ██████ | May 30, 2026 |
+| `backtracking` | 2 | 11% | ██████ | — |
+| `math` | 2 | 11% | ██████ | May 30, 2026 |
+| `strings` | 2 | 11% | ██████ | — |
+| `bit-manipulation` | 1 | 5% | ███ | — |
+| `hashing` | 1 | 5% | ███ | — |
+| `linked-list` | 1 | 5% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

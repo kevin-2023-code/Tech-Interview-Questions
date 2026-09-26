@@ -2,7 +2,7 @@
 
 # Citadel interview process, OA & interview questions
 
-**53 questions** reported at Citadel · **12 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
+**54 questions** reported at Citadel · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Citadel interviews & the free questions](citadel/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **53** |
+| Questions tracked | **54** |
 | Most recent sighting | Sep 08, 2026 |
 | Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 53) |
-| Difficulty (easy / medium / hard) | 8 / 37 / 8 |
+| Most common format | [Algorithm](../formats/algorithm.md) (72% of 54) |
+| Difficulty (easy / medium / hard) | 8 / 36 / 10 |
 | Free to practise | [4](../free/README.md) |
-| Guides & writeups | 12 |
+| Guides & writeups | 5 |
 
-<sub>Counted from the 53 questions reported at Citadel. 33 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 54 questions reported at Citadel. 33 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **53 of 53** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **54 of 54** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 11 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 6 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 34 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 3 / 24 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 12 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 11 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 35 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 3 / 24 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 12 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,25 +46,25 @@ Which stage each question came from, for the **53 of 53** questions at Citadel t
 | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | Phone screen | Aug 15, 2026 |
 | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | Phone screen | Aug 05, 2026 |
 | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | Phone screen | Aug 05, 2026 |
-| [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Medium | Phone screen | Jul 27, 2026 |
-| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Medium | Onsite / virtual onsite | Jul 08, 2026 |
+| [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Hard | Phone screen | Jul 27, 2026 |
+| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | Onsite / virtual onsite | Jul 08, 2026 |
 
 ## What they ask about
 
-Of the **28 questions at Citadel that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **38 questions at Citadel that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 4 | 14% | ████████████ | Aug 05, 2026 |
-| `binary-search` | 4 | 14% | ████████████ | Jun 04, 2026 |
-| `heap` | 4 | 14% | ████████████ | Apr 01, 2026 |
-| `sorting` | 4 | 14% | ████████████ | Jan 05, 2026 |
-| `graphs` | 3 | 11% | █████████ | Aug 15, 2026 |
-| `greedy` | 3 | 11% | █████████ | Mar 09, 2026 |
-| `hashing` | 3 | 11% | █████████ | Aug 05, 2026 |
-| `math` | 2 | 7% | ██████ | Jan 05, 2026 |
-| `strings` | 2 | 7% | ██████ | Oct 26, 2024 |
-| `trees` | 2 | 7% | ██████ | Jun 13, 2026 |
+| `arrays` | 5 | 13% | ████████████ | Aug 05, 2026 |
+| `greedy` | 5 | 13% | ████████████ | Mar 09, 2026 |
+| `hashing` | 5 | 13% | ████████████ | Aug 05, 2026 |
+| `binary-search` | 4 | 11% | ██████████ | Jun 04, 2026 |
+| `heap` | 4 | 11% | ██████████ | Apr 01, 2026 |
+| `math` | 4 | 11% | ██████████ | Jan 05, 2026 |
+| `sorting` | 4 | 11% | ██████████ | Jan 05, 2026 |
+| `graphs` | 3 | 8% | ███████ | Aug 15, 2026 |
+| `strings` | 3 | 8% | ███████ | Oct 26, 2024 |
+| `bit-manipulation` | 2 | 5% | █████ | Mar 21, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -97,8 +97,8 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | **2** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | — | Aug 15, 2026 |
 | **3** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | — | Aug 05, 2026 |
 | **4** | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | — | Aug 05, 2026 |
-| **5** | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Medium | — | Jul 27, 2026 |
-| **6** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Medium | — | Jul 08, 2026 |
+| **5** | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Hard | — | Jul 27, 2026 |
+| **6** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | — | Jul 08, 2026 |
 | **7** | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Algorithm | Hard | — | Jun 13, 2026 |
 | **8** | [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) 🆓 | Algorithm | Medium | 1 | Jun 04, 2026 |
 
@@ -106,22 +106,15 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 
 ## Guides & writeups
 
-**12 writeups** filed under Citadel in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under Citadel in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | culture-fit, deep-dive, fit, why-company |
 | [Candy (LC 135)](https://trueinterview.io/study/candy-lc-135) | array, greedy |
-| [Case study — LLM inference stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — |
 | [Citadel Interview Process & Questions](https://trueinterview.io/study/citadel-interview-process) | — |
 | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/study/qd-eqr-onsite-coding-ladder) | data-structure, dp, hashmap, heap |
-| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive) | deep-dive, llm, math-reasoning, ml-knowledge, probability |
-| [Expected Keystrokes to Form Specific Words by Random Typing](https://trueinterview.io/study/8dcd51f0-320d-4878-b523-41942b60ec1b) | — |
-| [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/study/gqs-quant-phone-brainteasers) | linear-algebra, math-reasoning, probability, sampling |
-| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | array, binary-search, bst, data-structure, sliding-window |
 | [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/study/citadel-hft-onsite-fundamentals) | complexity-analysis, cs-fundamentals, io, operating-systems, sorting |
-| [Trading OA — 15-Question Probability Quickfire](https://trueinterview.io/study/trading-probability-quickfire) | math-reasoning, probability |
-| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/study/quadratic-form-finite-min) | linear-algebra, math-reasoning, optimization |
 
 ---
 
@@ -137,8 +130,8 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Algorithm | Medium | 🆕 Aug 15, 2026 |
 | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | Aug 05, 2026 |
 | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | Aug 05, 2026 |
-| [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Medium | Jul 27, 2026 |
-| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Medium | Jul 08, 2026 |
+| [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Hard | Jul 27, 2026 |
+| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | Jul 08, 2026 |
 | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Algorithm | Hard | Jun 13, 2026 |
 | [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) | Algorithm | Medium | Jun 04, 2026 |
 | [Thread-Safe Key Call Counter](https://trueinterview.io/questions/thread-safe-key-call-counter) | Object Oriented Programming | Hard | May 21, 2026 |
@@ -185,4 +178,5 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Algorithm | Medium | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |
+| [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03) | Algorithm | Medium | — |
 | [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb) | Algorithm | Medium | — |

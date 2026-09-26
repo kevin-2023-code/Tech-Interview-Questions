@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Gusto | Phone screen | — | — |
+| Algorithm | Medium | Gusto | Phone screen | greedy | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -100,6 +100,29 @@ Charlie 55
 ```
 
 Explanation: Alice is capped at 40, leaving 110 units to divide equally between Bob and Charlie.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Think of the problem as first giving each employee their limit if possible, then distributing the remainder evenly.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Sort employees by limit, then iteratively raise the common level until the next limit is hit or money runs out.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+The tricky part is handling the case where some employees have limits lower than the common level, they get their limit first.
+
+</details>
 
 ## Solution
 

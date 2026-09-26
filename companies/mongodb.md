@@ -18,7 +18,7 @@
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 6) |
-| Difficulty (easy / medium / hard) | 1 / 3 / 2 |
+| Difficulty (easy / medium / hard) | 1 / 2 / 3 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **6 of 6** questions at MongoDB tha
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,13 +41,17 @@ Which stage each question came from, for the **6 of 6** questions at MongoDB tha
 
 ## What they ask about
 
-Of the **2 questions at MongoDB that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **6 questions at MongoDB that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 1 | 50% | ████████████ | — |
-| `sorting` | 1 | 50% | ████████████ | — |
-| `trees` | 1 | 50% | ████████████ | — |
+| `trees` | 3 | 50% | ████████████ | — |
+| `bit-manipulation` | 1 | 17% | ████ | — |
+| `dynamic-programming` | 1 | 17% | ████ | — |
+| `graphs` | 1 | 17% | ████ | — |
+| `hashing` | 1 | 17% | ████ | — |
+| `sorting` | 1 | 17% | ████ | — |
+| `strings` | 1 | 17% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -58,9 +62,9 @@ The 6 questions to open first if you are preparing for MongoDB. **This is not a 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — | — |
-| **2** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) 🆓 | Algorithm | Medium | — | — |
-| **3** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — | — |
-| **4** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — | — |
+| **2** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — | — |
+| **3** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — | — |
+| **4** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) 🆓 | Algorithm | Hard | — | — |
 | **5** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) 🆓 | Algorithm | Hard | — | — |
 | **6** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Algorithm | Hard | — | — |
 
@@ -89,4 +93,4 @@ The 6 questions to open first if you are preparing for MongoDB. **This is not a 
 | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Algorithm | Medium | — |
 | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Algorithm | Easy | — |
 | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Algorithm | Medium | — |
-| [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Algorithm | Medium | — |
+| [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Algorithm | Hard | — |

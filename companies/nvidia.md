@@ -50,20 +50,20 @@ Which stage each question came from, for the **28 of 28** questions at NVIDIA th
 
 ## What they ask about
 
-Of the **11 questions at NVIDIA that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at NVIDIA that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 18% | ████████████ | Aug 21, 2026 |
-| `heap` | 2 | 18% | ████████████ | Feb 05, 2026 |
-| `strings` | 2 | 18% | ████████████ | Apr 26, 2026 |
-| `binary-search` | 1 | 9% | ██████ | Aug 21, 2026 |
-| `graphs` | 1 | 9% | ██████ | — |
-| `greedy` | 1 | 9% | ██████ | — |
-| `hashing` | 1 | 9% | ██████ | Apr 15, 2026 |
-| `intervals` | 1 | 9% | ██████ | Feb 04, 2026 |
-| `matrix` | 1 | 9% | ██████ | Apr 15, 2026 |
-| `sliding-window` | 1 | 9% | ██████ | — |
+| `hashing` | 4 | 22% | ████████████ | Apr 15, 2026 |
+| `arrays` | 3 | 17% | █████████ | Aug 21, 2026 |
+| `strings` | 3 | 17% | █████████ | Apr 26, 2026 |
+| `heap` | 2 | 11% | ██████ | Feb 05, 2026 |
+| `math` | 2 | 11% | ██████ | Feb 12, 2026 |
+| `sliding-window` | 2 | 11% | ██████ | Mar 06, 2026 |
+| `sorting` | 2 | 11% | ██████ | Feb 04, 2026 |
+| `two-pointers` | 2 | 11% | ██████ | — |
+| `binary-search` | 1 | 6% | ███ | Aug 21, 2026 |
+| `dynamic-programming` | 1 | 6% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

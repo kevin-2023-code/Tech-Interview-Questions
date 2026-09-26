@@ -42,18 +42,20 @@ Which stage each question came from, for the **15 of 15** questions at Tradedesk
 
 ## What they ask about
 
-Of the **8 questions at Tradedesk that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Tradedesk that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 3 | 38% | ████████████ | — |
-| `sliding-window` | 2 | 25% | ████████ | — |
-| `two-pointers` | 2 | 25% | ████████ | — |
-| `binary-search` | 1 | 12% | ████ | — |
-| `greedy` | 1 | 12% | ████ | — |
-| `hashing` | 1 | 12% | ████ | — |
-| `intervals` | 1 | 12% | ████ | — |
-| `math` | 1 | 12% | ████ | — |
+| `arrays` | 4 | 40% | ████████████ | Apr 01, 2026 |
+| `two-pointers` | 3 | 30% | █████████ | Apr 01, 2026 |
+| `sliding-window` | 2 | 20% | ██████ | — |
+| `binary-search` | 1 | 10% | ███ | — |
+| `dynamic-programming` | 1 | 10% | ███ | Apr 01, 2026 |
+| `greedy` | 1 | 10% | ███ | — |
+| `hashing` | 1 | 10% | ███ | — |
+| `intervals` | 1 | 10% | ███ | — |
+| `math` | 1 | 10% | ███ | — |
+| `stack` | 1 | 10% | ███ | Apr 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

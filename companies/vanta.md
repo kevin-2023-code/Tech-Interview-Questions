@@ -48,18 +48,19 @@ Which stage each question came from, for the **13 of 13** questions at Vanta tha
 
 ## What they ask about
 
-Of the **9 questions at Vanta that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Vanta that carry a topic label** (85% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 44% | ████████████ | Jul 16, 2026 |
-| `hashing` | 3 | 33% | █████████ | Jul 16, 2026 |
-| `backtracking` | 2 | 22% | ██████ | Mar 17, 2026 |
-| `math` | 2 | 22% | ██████ | Jul 10, 2026 |
-| `topological-sort` | 2 | 22% | ██████ | Jul 16, 2026 |
-| `trees` | 2 | 22% | ██████ | Mar 17, 2026 |
-| `arrays` | 1 | 11% | ███ | — |
-| `strings` | 1 | 11% | ███ | Dec 04, 2024 |
+| `graphs` | 4 | 36% | ████████████ | Jul 16, 2026 |
+| `hashing` | 4 | 36% | ████████████ | Jul 16, 2026 |
+| `topological-sort` | 3 | 27% | █████████ | Jul 16, 2026 |
+| `backtracking` | 2 | 18% | ██████ | Mar 17, 2026 |
+| `math` | 2 | 18% | ██████ | Jul 10, 2026 |
+| `trees` | 2 | 18% | ██████ | Mar 17, 2026 |
+| `arrays` | 1 | 9% | ███ | — |
+| `intervals` | 1 | 9% | ███ | Jul 31, 2025 |
+| `strings` | 1 | 9% | ███ | Dec 04, 2024 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Oscar Health | Phone screen | — | — |
+| Algorithm | Medium | Oscar Health | Phone screen | hashing, math | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/77313b88-1a9b-5047-b402-fced2dc1919c)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -93,6 +93,29 @@ Output:
 ```text
 203
 ```
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+A client is fully covered if for every required specialty, there exists at least one provider within maxDistance that offers that specialty.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Preprocess providers by specialty and location, then for each client, check each required specialty by finding the nearest provider of that specialty and comparing the distance.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+The Euclidean distance formula is sqrt((x1-x2)^2 + (y1-y2)^2), use squared distances to avoid floating-point issues when comparing against maxDistance squared.
+
+</details>
 
 ## Solution
 

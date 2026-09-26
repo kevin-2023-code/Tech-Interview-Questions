@@ -40,11 +40,14 @@ Which stage each question came from, for the **3 of 3** questions at Oscar Healt
 
 ## What they ask about
 
-Of the **1 question at Oscar Health that carries a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Oscar Health that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `backtracking` | 1 | 100% | ████████████ | — |
+| `backtracking` | 2 | 67% | ████████████ | — |
+| `dynamic-programming` | 1 | 33% | ██████ | — |
+| `hashing` | 1 | 33% | ██████ | — |
+| `math` | 1 | 33% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

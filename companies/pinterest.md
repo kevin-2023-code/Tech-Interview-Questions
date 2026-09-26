@@ -2,7 +2,7 @@
 
 # Pinterest interview process, OA & interview questions
 
-**77 questions** reported at Pinterest · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**75 questions** reported at Pinterest · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **77** |
+| Questions tracked | **75** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 77) |
-| Difficulty (easy / medium / hard) | 8 / 53 / 16 |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 75) |
+| Difficulty (easy / medium / hard) | 7 / 51 / 17 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 77 questions reported at Pinterest. 48 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 75 questions reported at Pinterest. 46 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **77 of 77** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **75 of 75** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 48 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 1 / 36 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 37 | ████████ | [Algorithm](../formats/algorithm.md) (41%) | 4 / 24 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 47 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 1 / 35 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 36 | ████████ | [Algorithm](../formats/algorithm.md) (39%) | 3 / 23 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,20 +50,20 @@ Which stage each question came from, for the **77 of 77** questions at Pinterest
 
 ## What they ask about
 
-Of the **38 questions at Pinterest that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **49 questions at Pinterest that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 7 | 18% | ████████████ | Jun 16, 2026 |
-| `hashing` | 7 | 18% | ████████████ | Aug 26, 2026 |
-| `arrays` | 5 | 13% | █████████ | Aug 26, 2026 |
-| `backtracking` | 5 | 13% | █████████ | Apr 18, 2026 |
-| `graphs` | 5 | 13% | █████████ | Aug 26, 2026 |
-| `binary-search` | 4 | 11% | ███████ | Feb 26, 2026 |
-| `dynamic-programming` | 4 | 11% | ███████ | Jan 07, 2026 |
-| `heap` | 3 | 8% | █████ | Jun 16, 2026 |
-| `intervals` | 3 | 8% | █████ | Jan 07, 2026 |
-| `strings` | 3 | 8% | █████ | May 27, 2026 |
+| `hashing` | 10 | 20% | ████████████ | Aug 26, 2026 |
+| `backtracking` | 7 | 14% | ████████ | Apr 18, 2026 |
+| `graphs` | 7 | 14% | ████████ | Aug 26, 2026 |
+| `greedy` | 7 | 14% | ████████ | Jun 16, 2026 |
+| `arrays` | 6 | 12% | ███████ | Aug 26, 2026 |
+| `strings` | 6 | 12% | ███████ | May 27, 2026 |
+| `binary-search` | 5 | 10% | ██████ | Mar 28, 2026 |
+| `dynamic-programming` | 4 | 8% | █████ | Jan 07, 2026 |
+| `trees` | 4 | 8% | █████ | Aug 26, 2026 |
+| `heap` | 3 | 6% | ████ | Jun 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -74,17 +74,17 @@ Every recorded sighting at Pinterest, by the month it was reported in — May 30
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Aug 2026](../by-month/2026-08.md) | 2 | █████ |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ████████ |
-| [Jun 2026](../by-month/2026-06.md) | 4 | ███████████ |
-| [May 2026](../by-month/2026-05.md) | 4 | ███████████ |
-| [Apr 2026](../by-month/2026-04.md) | 9 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
-| [Jan 2026](../by-month/2026-01.md) | 4 | ███████████ |
-| [Dec 2025](../by-month/2025-12.md) | 3 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 5 | █████████████ |
-| [Jun 2025](../by-month/2025-06.md) | 1 | ███ |
-| [May 2025](../by-month/2025-05.md) | 5 | █████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 3 | ███████ |
+| [Jun 2026](../by-month/2026-06.md) | 4 | ██████████ |
+| [May 2026](../by-month/2026-05.md) | 4 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 10 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | ██████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ██ |
+| [Jan 2026](../by-month/2026-01.md) | 4 | ██████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | ███████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ████████████ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
+| [May 2025](../by-month/2025-05.md) | 3 | ███████ |
 
 ## Start here
 
@@ -139,6 +139,7 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Fresh Content Reach](https://trueinterview.io/questions/fresh-content-reach) | SQL | Medium | May 23, 2026 |
 | [CTR By Pin-Format and Date](https://trueinterview.io/questions/ctr-by-pin-format-and-date) | SQL | Medium | May 23, 2026 |
+| [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking) | System Design | Hard | Apr 29, 2026 |
 | [Grant / Revoke / Check Access on Hierarchy](https://trueinterview.io/questions/grant-revoke-access-tree) | Object Oriented Programming | Medium | Apr 21, 2026 |
 | [Escape Room](https://trueinterview.io/questions/escape-room-player-tracking) | Object Oriented Programming | Medium | Apr 19, 2026 |
 | [Expression Add Operators — Left-to-Right Variant (LC 282)](https://trueinterview.io/questions/expression-add-operators-simplified) | Algorithm | Medium | Apr 18, 2026 |
@@ -154,7 +155,6 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Lighthouse Light Propagation](https://trueinterview.io/questions/lighthouse-2d-matrix) | Algorithm | Medium | Mar 28, 2026 |
 | [Binary Search Log Entries by Date String](https://trueinterview.io/questions/binary-search-log-by-date) | Algorithm | Medium | Mar 28, 2026 |
 | [Pin Board Connectivity](https://trueinterview.io/questions/graph-distance-mle-screen) | Algorithm | Medium | Mar 15, 2026 |
-| [Weighted Sampling from Score Distribution](https://trueinterview.io/questions/weighted-sampling-from-scores) | Algorithm | Medium | Feb 26, 2026 |
 | [Personalized Chatbot Recommending Pins](https://trueinterview.io/questions/system-design-personalized-chat-recommend) | System Design | Hard | Feb 11, 2026 |
 | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Object Oriented Programming | Medium | Jan 16, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
@@ -169,8 +169,6 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Subarray Score ≤ K (Sliding-Window)](https://trueinterview.io/questions/subarray-score-at-most-k) | Algorithm | Medium | Nov 07, 2025 |
 | [Spam Caller Counter](https://trueinterview.io/questions/spam-caller-counter) | Algorithm | Medium | Jun 18, 2025 |
-| [Design Access System](https://trueinterview.io/questions/design-access-system) | Object Oriented Programming | Medium | May 30, 2025 |
-| [Shortest Path in Unweighted Graph](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) | Algorithm | Easy | May 30, 2025 |
 | [Nested Set Equality](https://trueinterview.io/questions/nested-set-equality) | Algorithm | Medium | May 30, 2025 |
 | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Algorithm | Medium | May 30, 2025 |
 | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Object Oriented Programming | Medium | May 30, 2025 |

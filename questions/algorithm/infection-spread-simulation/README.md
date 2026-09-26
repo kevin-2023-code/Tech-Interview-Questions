@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | OpenAI · Anthropic | Phone screen | — | Jun 2026 |
+| Algorithm | Medium | OpenAI · Anthropic | Phone screen | graphs | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/infection-spread-simulation)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -341,21 +341,21 @@ The supplied statement ends while continuing the Level 4 daily-update specificat
 <details>
 <summary>Hint 1</summary>
 
-Model the grid as a state machine where each cell transitions based on its neighbors' states each time step.
+Model the grid as a 2D array and simulate the infection spread in discrete time steps, where each step updates cells based on the number of infected neighbors.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a queue or BFS to propagate infection level by level, tracking time steps.
+Use a queue (BFS) to process newly infected cells efficiently, and track the state of each cell (healthy or infected) to avoid redundant checks.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Handle edge cases like already-infected cells and boundaries, consider using a copy of the grid for simultaneous updates.
+Watch out for the boundary conditions: cells on the edges have fewer neighbors, and the infection threshold N may vary, also consider that the simulation may need to run until no more changes occur.
 
 </details>
 

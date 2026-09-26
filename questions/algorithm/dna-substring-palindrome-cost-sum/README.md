@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Intuit | Online assessment | — | Dec 2025 |
+| Algorithm | Medium | Intuit | Online assessment | strings, dynamic-programming, math | Dec 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -70,21 +70,21 @@ An empty string contains no substrings with mismatched mirrored pairs.
 <details>
 <summary>Hint 1</summary>
 
-For each substring, the cost is the number of mismatched pairs when comparing characters from the ends inward.
+Instead of checking every substring independently, think about how many substrings a given pair of characters acts as a mirrored pair for.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Instead of checking every substring naively, think about how to compute the sum efficiently using dynamic programming or by counting contributions of each pair of positions.
+Use a two-pointer or center-expansion approach to count, for each possible center, how many unequal pairs occur across all substrings sharing that center.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Consider using a prefix or suffix approach to avoid O(n^3) time, the key is to aggregate costs across all substrings.
+Aim for O(n^2) time by expanding around centers and accumulating mismatches, or optimize further by precomputing mismatch contributions per pair of positions.
 
 </details>
 

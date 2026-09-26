@@ -78,7 +78,7 @@ Third, data reasoning is a graded competency, not a warm-up. Noisy labels, annot
 
 ## Data Source
 
-Based on 28 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 42 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

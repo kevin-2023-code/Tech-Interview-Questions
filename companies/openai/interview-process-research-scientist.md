@@ -85,7 +85,7 @@ Third, the presentation is a matching decision as much as a technical one. The r
 
 ## Data Source
 
-Based on 28 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 42 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

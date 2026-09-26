@@ -63,7 +63,6 @@ Object-oriented exercises test whether you can turn financial rules into clean, 
 Behavioral rounds map to competencies and dig past the first STAR answer: what you personally did, what changed, and what you would do differently. Prepare stories about conflict, ambiguity, feedback, and delivering through blockers, each with a measurable result.
 
 - [Power Day Behavioral](guides/power-day-behavioral.md)
-- [DS Role-Play: Explain Model Regression to PM](guides/ds-role-play-pm-explanation.md)
 - [Model Risk: VaR & Monte Carlo Orals](guides/model-risk-quant-orals.md)
 
 ## How to Prepare

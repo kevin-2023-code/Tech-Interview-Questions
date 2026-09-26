@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Databricks | Phone screen, Onsite / virtual onsite | — | Apr 2026 |
+| Algorithm | Medium | Databricks | Phone screen, Onsite / virtual onsite | trees, backtracking, math | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -73,21 +73,21 @@ Output: UUULR
 <details>
 <summary>Hint 1</summary>
 
-Think about the recursive structure of the Fibonacci tree: each node's children are subtrees of smaller orders, so you can locate nodes by their preorder index without building the tree.
+The Fibonacci tree is defined recursively: Fn(n) has left subtree Fn(n-2) and right subtree Fn(n-1), understand how node values are assigned.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use the Fibonacci numbers to determine which subtree a node belongs to, then recursively find the path by moving up from each node to its parent.
+To find the path between two nodes, first locate each node by recursively descending the tree based on the order, then find their lowest common ancestor.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The time complexity should be O(k) or O(log n) where n is the number of nodes, and watch for the base cases when the tree order is 0 or 1.
+The path from one node to another consists of the path up to the LCA (with 'U' steps) and then down to the target (with 'L'/'R' steps).
 
 </details>
 

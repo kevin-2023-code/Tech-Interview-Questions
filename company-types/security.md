@@ -26,20 +26,20 @@
 
 ## What they ask about
 
-Of the **32 questions in this cut that carry a topic label** (53% of it):
+Of the **45 questions in this cut that carry a topic label** (75% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 8 | 25% | ████████████ |
-| `arrays` | 5 | 16% | ████████ |
-| `hashing` | 5 | 16% | ████████ |
-| `strings` | 4 | 12% | ██████ |
-| `dynamic-programming` | 3 | 9% | ████ |
-| `math` | 3 | 9% | ████ |
-| `trees` | 3 | 9% | ████ |
-| `backtracking` | 2 | 6% | ███ |
-| `binary-search` | 2 | 6% | ███ |
-| `bit-manipulation` | 2 | 6% | ███ |
+| `graphs` | 9 | 20% | ████████████ |
+| `hashing` | 9 | 20% | ████████████ |
+| `arrays` | 7 | 16% | █████████ |
+| `strings` | 7 | 16% | █████████ |
+| `dynamic-programming` | 4 | 9% | █████ |
+| `math` | 4 | 9% | █████ |
+| `binary-search` | 3 | 7% | ████ |
+| `topological-sort` | 3 | 7% | ████ |
+| `trees` | 3 | 7% | ████ |
+| `backtracking` | 2 | 4% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -88,7 +88,7 @@ Of the **32 questions in this cut that carry a topic label** (53% of it):
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
 | **Verkada** | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Medium | — |
 | **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
-| **Verkada** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
+| **Verkada / Salesforce** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
 | **Verkada / Amazon / ByteDance / Lyft / Microsoft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
 | **Vanta** | [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Medium | — |
 | **Vanta** | [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Easy | — |

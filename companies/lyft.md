@@ -48,18 +48,20 @@ Which stage each question came from, for the **28 of 28** questions at Lyft that
 
 ## What they ask about
 
-Of the **5 questions at Lyft that carry a topic label** (18% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Lyft that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 20% | ████████████ | Feb 04, 2026 |
-| `dynamic-programming` | 1 | 20% | ████████████ | — |
-| `graphs` | 1 | 20% | ████████████ | May 12, 2026 |
-| `intervals` | 1 | 20% | ████████████ | Feb 04, 2026 |
-| `matrix` | 1 | 20% | ████████████ | May 12, 2026 |
-| `sliding-window` | 1 | 20% | ████████████ | Jun 29, 2026 |
-| `sorting` | 1 | 20% | ████████████ | Feb 04, 2026 |
-| `stack` | 1 | 20% | ████████████ | — |
+| `graphs` | 2 | 22% | ████████████ | May 12, 2026 |
+| `matrix` | 2 | 22% | ████████████ | May 12, 2026 |
+| `arrays` | 1 | 11% | ██████ | Feb 04, 2026 |
+| `dynamic-programming` | 1 | 11% | ██████ | — |
+| `greedy` | 1 | 11% | ██████ | Jul 29, 2026 |
+| `hashing` | 1 | 11% | ██████ | Mar 21, 2026 |
+| `heap` | 1 | 11% | ██████ | Jul 29, 2026 |
+| `intervals` | 1 | 11% | ██████ | Feb 04, 2026 |
+| `sliding-window` | 1 | 11% | ██████ | Jun 29, 2026 |
+| `sorting` | 1 | 11% | ██████ | Feb 04, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

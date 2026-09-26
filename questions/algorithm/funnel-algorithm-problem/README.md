@@ -12,9 +12,6 @@
 
 ## Problem
 
-Funnel Division
-Medium · Topics · Company Tags · Hints
-
 You are given a list of positive integers arranged in strictly increasing order. Your task is to partition this list into several groups called "funnels." Within each funnel, the elements must be in strictly decreasing order when multiplied together in a multiplicative sequence. Moreover, every funnel must contain the exact same number of elements.
 
 A multiplicative sequence means that each subsequent integer in the funnel is the product of the previous integer and some fixed factor, and this factor is consistent within the funnel. The smallest value in one funnel must equal the product of the largest value in the next funnel multiplied by that same factor.

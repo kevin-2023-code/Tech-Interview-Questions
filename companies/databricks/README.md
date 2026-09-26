@@ -8,11 +8,11 @@ How Databricks interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [61](../databricks.md) |
+| Questions reported | [63](../databricks.md) |
 | Free to read here | 11 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
-| Most recent sighting | Jul 30, 2026 |
+| Most recent sighting | Sep 06, 2026 |
 
 ## How Databricks interviews
 
@@ -64,7 +64,7 @@ The design round scales with seniority: mid-level candidates may design a concre
 
 ## Everything else
 
-- [All 61 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 63 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Databricks question on TrueInterview](https://trueinterview.io/problems/company/databricks).
 
 ---

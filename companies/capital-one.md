@@ -2,7 +2,7 @@
 
 # Capital One interview process, OA & interview questions
 
-**36 questions** reported at Capital One · **13 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
+**42 questions** reported at Capital One · **12 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Capital One interviews & the free questions](capital-one/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,61 +14,70 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **36** |
-| Most recent sighting | Jun 05, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 36) |
-| Difficulty (easy / medium / hard) | 6 / 27 / 3 |
+| Questions tracked | **42** |
+| Most recent sighting | Aug 28, 2026 |
+| Reported in the last 90 days | 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (79% of 42) |
+| Difficulty (easy / medium / hard) | 7 / 31 / 4 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 13 |
+| Guides & writeups | 12 |
 
-<sub>Counted from the 36 questions reported at Capital One. 29 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 42 questions reported at Capital One. 31 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **36 of 36** questions at Capital One that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **42 of 42** questions at Capital One that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 21 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 16 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 12 | ██████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (42%) | 1 / 8 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 22 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 6 / 16 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 12 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (42%) | 1 / 8 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Capital One since Jun 05, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**3 sightings** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Algorithm | Medium | Take-home | Aug 28, 2026 |
+| [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | Online assessment | Jul 19, 2026 |
+| [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | Online assessment | Jul 19, 2026 |
 
 ## What they ask about
 
-Of the **20 questions at Capital One that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **29 questions at Capital One that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 6 | 30% | ████████████ | Jun 05, 2026 |
-| `matrix` | 6 | 30% | ████████████ | Jun 05, 2026 |
-| `hashing` | 3 | 15% | ██████ | Jun 05, 2026 |
-| `strings` | 3 | 15% | ██████ | May 31, 2026 |
-| `greedy` | 2 | 10% | ████ | Apr 25, 2026 |
-| `sorting` | 2 | 10% | ████ | Jun 05, 2026 |
-| `dynamic-programming` | 1 | 5% | ██ | Jan 19, 2026 |
-| `intervals` | 1 | 5% | ██ | Nov 03, 2025 |
-| `sliding-window` | 1 | 5% | ██ | Jan 19, 2026 |
-| `two-pointers` | 1 | 5% | ██ | — |
+| `arrays` | 9 | 31% | ████████████ | Jun 05, 2026 |
+| `matrix` | 7 | 24% | █████████ | Jun 05, 2026 |
+| `strings` | 4 | 14% | █████ | Jul 19, 2026 |
+| `greedy` | 3 | 10% | ████ | Apr 25, 2026 |
+| `hashing` | 3 | 10% | ████ | Jun 05, 2026 |
+| `sorting` | 3 | 10% | ████ | Jun 05, 2026 |
+| `binary-search` | 2 | 7% | ███ | Jan 18, 2026 |
+| `math` | 2 | 7% | ███ | Aug 28, 2026 |
+| `two-pointers` | 2 | 7% | ███ | Jul 19, 2026 |
+| `dynamic-programming` | 1 | 3% | █ | Jan 19, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Capital One, by the month it was reported in — Nov 03, 2025 to Jun 05, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Capital One, by the month it was reported in — Nov 03, 2025 to Aug 28, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████ |
-| [May 2026](../by-month/2026-05.md) | 4 | ████████ |
-| [Apr 2026](../by-month/2026-04.md) | 8 | ████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ██████ |
+| [Apr 2026](../by-month/2026-04.md) | 7 | ██████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ██████ |
 | [Jan 2026](../by-month/2026-01.md) | 12 | ████████████████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 
@@ -78,20 +87,20 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries) | Algorithm | Medium | — | Jun 05, 2026 |
-| **2** | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Algorithm | Medium | — | Jun 05, 2026 |
-| **3** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Algorithm | Medium | 2 | May 31, 2026 |
-| **4** | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Algorithm | Easy | — | May 31, 2026 |
-| **5** | [Longest Same-Character Run](https://trueinterview.io/questions/longest-same-character-run) | Algorithm | Easy | — | May 31, 2026 |
-| **6** | [Wheat Harvest Optimisation Case](https://trueinterview.io/questions/wheat-harvest-case) | System Design | Medium | — | May 13, 2026 |
-| **7** | [Tetris-Style Figure Placement](https://trueinterview.io/questions/tetris-figure-placement) | Algorithm | Medium | — | Apr 29, 2026 |
-| **8** | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Algorithm | Easy | — | Apr 25, 2026 |
+| **1** | [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Algorithm | Medium | — | Aug 28, 2026 |
+| **2** | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | — | Jul 19, 2026 |
+| **3** | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | — | Jul 19, 2026 |
+| **4** | [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries) | Algorithm | Medium | — | Jun 05, 2026 |
+| **5** | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Algorithm | Medium | — | Jun 05, 2026 |
+| **6** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Algorithm | Medium | 2 | May 31, 2026 |
+| **7** | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Algorithm | Easy | — | May 31, 2026 |
+| **8** | [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Algorithm | Medium | — | May 31, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**13 writeups** filed under Capital One in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**12 writeups** filed under Capital One in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -104,7 +113,6 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Capital One Software Engineer Interview Process](https://trueinterview.io/study/capitalone-software-engineer-interview-process) | — |
 | [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/study/f63e89db-acce-46ac-9ee8-4b85820078e0) | — |
 | [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | critical-thinking, math-reasoning, open-ended, verbal |
-| [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | ab-testing, critical-thinking, ml-knowledge, open-ended, verbal |
 | [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | cs-fundamentals, deep-dive, ml-knowledge, verbal |
 | [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | cs-fundamentals, math-reasoning, open-ended, probability, verbal |
 | [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | ambiguity, bq, conflict, leadership, star |
@@ -119,22 +127,24 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Algorithm | Medium | 🆕 Aug 28, 2026 |
+| [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | Jul 19, 2026 |
+| [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | Jul 19, 2026 |
 | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Algorithm | Medium | Jun 05, 2026 |
 | [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries) | Algorithm | Medium | Jun 05, 2026 |
-| [Longest Same-Character Run](https://trueinterview.io/questions/longest-same-character-run) | Algorithm | Easy | May 31, 2026 |
 | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Algorithm | Medium | May 31, 2026 |
+| [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Algorithm | Medium | May 31, 2026 |
 | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Algorithm | Easy | May 31, 2026 |
-| [Wheat Harvest Optimisation Case](https://trueinterview.io/questions/wheat-harvest-case) | System Design | Medium | May 13, 2026 |
 | [Tetris-Style Figure Placement](https://trueinterview.io/questions/tetris-figure-placement) | Algorithm | Medium | Apr 29, 2026 |
 | [Repeated Leading-Nonzero Subtraction](https://trueinterview.io/questions/repeated-subtraction-zeroing) | Algorithm | Medium | Apr 25, 2026 |
 | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Algorithm | Easy | Apr 25, 2026 |
 | [Beautify Houses to Strict Monotone](https://trueinterview.io/questions/beautify-houses-monotone) | Algorithm | Medium | Apr 25, 2026 |
-| [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Algorithm | Medium | Apr 08, 2026 |
 | [Warehouse Round-Robin Allocation with Closures](https://trueinterview.io/questions/warehouse-round-robin-allocation) | Algorithm | Medium | Apr 08, 2026 |
 | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets) | Algorithm | Easy | Apr 08, 2026 |
 | [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Object Oriented Programming | Medium | Apr 08, 2026 |
 | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study) | System Design | Hard | Feb 13, 2026 |
 | [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency) | System Design | Easy | Feb 04, 2026 |
+| [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths) | Algorithm | Medium | Feb 04, 2026 |
 | [AP Replacement Rounds](https://trueinterview.io/questions/ap-replacement-rounds) | Algorithm | Medium | Jan 27, 2026 |
 | [Account Balance & Cross-Region Event Platform](https://trueinterview.io/questions/account-balance-cross-region-events) | System Design | Hard | Jan 24, 2026 |
 | [Vowel-Wrapped Substring Middle Reverse](https://trueinterview.io/questions/vowel-wrap-reverse-middle) | Algorithm | Medium | Jan 19, 2026 |
@@ -148,7 +158,11 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Online Banking Application](https://trueinterview.io/questions/online-banking-application) | System Design | Hard | Jan 17, 2026 |
 | [Color Match-Three Grid](https://trueinterview.io/questions/color-match-three-grid) | Algorithm | Medium | Jan 09, 2026 |
 | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Algorithm | Medium | Nov 03, 2025 |
+| [Count Pairs Matchable by One Digit Swap](https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc) | Algorithm | Hard | — |
+| [Find the First Dictionary Word Matchable as a Reusable-Character Subsequence](https://trueinterview.io/questions/283a18eb-b75e-5b60-9dd6-f18b79b6033b) | Algorithm | Medium | — |
+| [Find an Exact Submatrix Pattern](https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d) | Algorithm | Medium | — |
 | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | — |
+| [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | — |
 | [Ordered Fragment Pairs String-Counting Problem](https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c) | Algorithm | Medium | — |
 | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Algorithm | Medium | — |
 | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Object Oriented Programming | Medium | — |

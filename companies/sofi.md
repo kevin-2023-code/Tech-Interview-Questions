@@ -46,19 +46,20 @@ Which stage each question came from, for the **26 of 26** questions at SoFi that
 
 ## What they ask about
 
-Of the **14 questions at SoFi that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at SoFi that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 29% | ████████████ | Oct 31, 2025 |
-| `graphs` | 3 | 21% | █████████ | Jul 04, 2026 |
-| `backtracking` | 2 | 14% | ██████ | Jan 14, 2026 |
-| `greedy` | 2 | 14% | ██████ | Jan 13, 2026 |
-| `strings` | 2 | 14% | ██████ | Jan 30, 2026 |
-| `dynamic-programming` | 1 | 7% | ███ | Jan 14, 2026 |
-| `matrix` | 1 | 7% | ███ | Jun 01, 2025 |
-| `stack` | 1 | 7% | ███ | Jan 30, 2026 |
-| `two-pointers` | 1 | 7% | ███ | — |
+| `hashing` | 6 | 33% | ████████████ | Mar 06, 2026 |
+| `graphs` | 3 | 17% | ██████ | Jul 04, 2026 |
+| `greedy` | 3 | 17% | ██████ | Jan 13, 2026 |
+| `backtracking` | 2 | 11% | ████ | Jan 14, 2026 |
+| `strings` | 2 | 11% | ████ | Jan 30, 2026 |
+| `arrays` | 1 | 6% | ██ | Nov 12, 2025 |
+| `bit-manipulation` | 1 | 6% | ██ | Jan 13, 2026 |
+| `dynamic-programming` | 1 | 6% | ██ | Jan 14, 2026 |
+| `math` | 1 | 6% | ██ | Jan 13, 2026 |
+| `matrix` | 1 | 6% | ██ | Jun 01, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

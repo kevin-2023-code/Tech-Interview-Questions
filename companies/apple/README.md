@@ -9,7 +9,7 @@ How Apple interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [113](../apple.md) |
-| Free to read here | 22 |
+| Free to read here | 21 |
 | Interview-process guides | 4 |
 | Other guides | 8 |
 | Most recent sighting | Aug 26, 2026 |
@@ -38,7 +38,7 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 
 ## Free Apple questions
 
-22 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -50,7 +50,6 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
-| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Intersection of Two Linked Lists](../../questions/algorithm/intersection-of-two-linked-lists/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/intersection-of-two-linked-lists) |

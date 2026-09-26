@@ -74,7 +74,7 @@ The third is the flatness of the bar. Because the pool is small and hints are fr
 
 ## Data Source
 
-Based on 102 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 101 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

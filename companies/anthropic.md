@@ -2,7 +2,7 @@
 
 # Anthropic interview process, OA & interview questions
 
-**63 questions** reported at Anthropic · **9 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
+**63 questions** reported at Anthropic · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Anthropic interviews & the free questions](anthropic/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [AI Coding](../formats/ai-coding.md) (29% of 63) |
 | Difficulty (easy / medium / hard) | 8 / 37 / 18 |
 | Free to practise | [7](../free/README.md) |
-| Guides & writeups | 9 |
+| Guides & writeups | 11 |
 
 <sub>Counted from the 63 questions reported at Anthropic. 39 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -43,20 +43,20 @@ Which stage each question came from, for the **63 of 63** questions at Anthropic
 
 ## What they ask about
 
-Of the **17 questions at Anthropic that carry a topic label** (27% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **21 questions at Anthropic that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 7 | 41% | ████████████ | Jun 10, 2026 |
-| `strings` | 3 | 18% | █████ | Jun 04, 2026 |
-| `graphs` | 2 | 12% | ███ | Jan 22, 2026 |
-| `arrays` | 1 | 6% | ██ | — |
-| `backtracking` | 1 | 6% | ██ | Jun 10, 2026 |
-| `greedy` | 1 | 6% | ██ | May 28, 2026 |
-| `heap` | 1 | 6% | ██ | Mar 04, 2026 |
-| `intervals` | 1 | 6% | ██ | May 10, 2026 |
-| `matrix` | 1 | 6% | ██ | Feb 18, 2026 |
-| `sorting` | 1 | 6% | ██ | May 03, 2026 |
+| `hashing` | 8 | 38% | ████████████ | Jun 10, 2026 |
+| `strings` | 5 | 24% | ████████ | Jun 04, 2026 |
+| `graphs` | 3 | 14% | ████ | Jun 19, 2026 |
+| `greedy` | 2 | 10% | ███ | May 28, 2026 |
+| `stack` | 2 | 10% | ███ | Jun 04, 2026 |
+| `tries` | 2 | 10% | ███ | May 28, 2026 |
+| `arrays` | 1 | 5% | ██ | — |
+| `backtracking` | 1 | 5% | ██ | Jun 10, 2026 |
+| `heap` | 1 | 5% | ██ | Mar 04, 2026 |
+| `intervals` | 1 | 5% | ██ | May 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -93,7 +93,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 
 ## Guides & writeups
 
-**9 writeups** filed under Anthropic in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**11 writeups** filed under Anthropic in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -104,7 +104,9 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Anthropic Research Scientist Interview Process](https://trueinterview.io/study/anthropic-research-scientist-interview-process) | — |
 | [Anthropic Software Engineer Interview Process](https://trueinterview.io/study/anthropic-software-engineer-interview-process) | — |
 | [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | ai-safety, critical-thinking, culture, values |
+| [Explain How You Resolved a Professional Conflict](https://trueinterview.io/study/explain-how-you-resolved-a-professional-conflict) | — |
 | [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/study/onsite-hm-behavioral) | collaboration, impact, leadership, mentorship |
+| [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/study/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk) | — |
 | [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/study/recruiter-screen-why-anthropic) | ai-safety |
 
 ---

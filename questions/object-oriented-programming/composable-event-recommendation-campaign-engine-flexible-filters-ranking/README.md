@@ -12,9 +12,6 @@
 
 ## Problem
 
-Composable Event Recommendation Campaign Engine
-Hard · Topics · Company Tags · Hints
-
 Design a flexible event recommendation framework that powers various marketing campaigns through the composition of reusable components. Avoid hardcoding individual campaigns with scattered conditional logic. Instead, build extensible abstractions such as filters, rankers, scorers, and a pipeline or strategy that orchestrates them.
 
 ### Provided Models & Services

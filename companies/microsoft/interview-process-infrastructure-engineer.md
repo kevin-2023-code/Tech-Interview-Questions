@@ -55,7 +55,6 @@ Two to three rounds of mini-systems rather than list puzzles: parsers, stream pr
 One to two rounds. Candidates who stated scale, consistency needs, and the failure model before drawing anything reported the smoothest sessions. Interviewers drive at the unhappy path: broker crash, duplicate payment, worker death mid-job, a replacement node rejoining. Knowing the internals of one real distributed log well enough to rebuild it was the explicit advice from a rejected candidate.
 
 - [Job Scheduler / ETL Pipeline System Design](https://trueinterview.io/questions/job-scheduler-etl-pipeline)
-- [Rate Limiter and Scaling](https://trueinterview.io/questions/38e79c9a-4c70-46a0-b781-d63b089c8571)
 - [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4)
 
 ### Behavioral and Leadership

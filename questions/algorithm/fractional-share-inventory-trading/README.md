@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Robinhood | Phone screen, Onsite / virtual onsite | — | Apr 2026 |
+| Algorithm | Hard | Robinhood | Phone screen, Onsite / virtual onsite | hashing | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/fractional-share-inventory-trading)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -85,21 +85,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Model the in-house inventory as a map from ticker to a fractional quantity, and process orders in sequence.
+Think of processing orders as merging two sorted lists while applying transactions that adjust quantities, possibly fractional.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For each order, decide whether to fill from inventory or route to exchange based on available quantity and order size.
+Use a dictionary to track current holdings per symbol, then rebuild a sorted list at the end.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for rounding issues with fractional shares—use a precise decimal representation to avoid floating-point errors.
+Watch for precision when handling fractional shares, consider using a decimal type or integer representation of cents.
 
 </details>
 

@@ -33,7 +33,6 @@ Frontend Engineer candidates here lose the loop in the product design round for 
 One build-style round plus, in some loops, one classic round. The build is scored on whether the interface stays responsive while data arrives incrementally: component structure, where transient stream state lives, cancellation, and clean handling of a partial or duplicated response. Candidates who reach for a state library before establishing the render path lose time. In loops that append a traditional round, the problems are ordinary patterns with complexity analysis, and speed matters more than cleverness — coding performance weighs heavily in leveling even when project and behavioral signals are strong.
 
 - [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 - [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md)
 
 ### System Design
@@ -77,7 +76,7 @@ Third, positive round feedback is not advancement. Strong project and behavioral
 
 ## Data Source
 
-Based on 80 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 104 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

@@ -80,7 +80,7 @@ One or two rounds, memo-grounded and scored as engineering signal. The reported 
 
 ## Data Source
 
-Based on 41 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 46 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

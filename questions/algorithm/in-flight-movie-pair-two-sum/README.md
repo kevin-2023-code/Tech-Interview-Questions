@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs · Meta · +1 | Onsite / virtual onsite | — | Mar 2026 |
+| Algorithm | Easy | Amazon · Bloomberg · ByteDance · Ebay · Goldman Sachs · Meta · +1 | Onsite / virtual onsite | arrays, hashing | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/in-flight-movie-pair-two-sum)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -66,21 +66,21 @@ target = 90
 <details>
 <summary>Hint 1</summary>
 
-Use a hash map to store each runtime and its index as you iterate through the list once.
+The problem reduces to finding two numbers that sum to a target, which is a classic two-sum problem, think about using a hash map to store seen values for O(n) time.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For each runtime, check if (target - runtime) exists in the map, if so, return the pair of indices.
+Clarify whether you need to return indices or the actual values, and handle edge cases like an empty list or no match by returning a sentinel (e.g., null or -1).
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-When multiple valid pairs exist, return the one with the smallest first index (or the earliest encountered).
+If multiple pairs exist, the first valid pair is typically the one encountered earliest, ensure your algorithm stops as soon as it finds a match.
 
 </details>
 

@@ -79,7 +79,7 @@ Third, design rounds are lost to narrowness. The prompts are intentionally vague
 
 ## Data Source
 
-Based on 28 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 42 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

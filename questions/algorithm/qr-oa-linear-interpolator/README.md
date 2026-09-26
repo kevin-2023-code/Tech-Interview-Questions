@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Two Sigma | Online assessment | — | May 2026 |
+| Algorithm | Medium | Two Sigma | Online assessment | binary-search, math | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/qr-oa-linear-interpolator)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -92,21 +92,21 @@ Output:
 <details>
 <summary>Hint 1</summary>
 
-For each query x, you need to find the two consecutive knot points that bracket x, use binary search on the x-coordinates of the points.
+When multiple points share the same x, only the maximum y at that x represents the function, when between points, you need the largest y at left x and smallest y at right x.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Once the segment is found, compute the interpolated y using linear interpolation formula: y = y0 + (y1 - y0) * (x - x0) / (x1 - x0).
+First, preprocess the points to create a map from x to the maximum y for that x, then sort the unique x-values, for queries, use binary search to find the relevant interval.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-If queries are sorted, you can use a two-pointer technique to achieve O(n + q) time instead of O(q log n).
+For a query beyond the data range, you may need to return the y of the nearest endpoint or use extrapolation, the problem statement may specify that case as returning that endpoint's value.
 
 </details>
 

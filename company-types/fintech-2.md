@@ -2,7 +2,7 @@
 
 # 💳 Fintech, payments & crypto — interview & OA questions
 
-**256 questions** reported across the **13 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**259 questions** reported across the **13 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,9 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Coinbase** | [Database Design and Implementation](https://trueinterview.io/questions/21808437-d0e2-42be-8536-5cb42b058133) | Medium | — |
+| **Coinbase** | [In-Memory DB: Track per-key operation counts and return Top N keys](https://trueinterview.io/questions/18f2af09-b069-4916-95ad-59284a68cccf) | Medium | — |
+| **Apple / Amazon / Atlassian / ByteDance / Cisco / PayPal / Squarepoint** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Easy | — |
 | **Stripe** | [Repo Debugging: Fix Failing Tests in a Failsafe Project](https://trueinterview.io/questions/46333f06-4228-4ad2-9088-75edef798537) | Medium | — |
 | **Coinbase** | [Generate Random NFT](https://trueinterview.io/questions/c371c4af-f5cd-4071-967e-e37e7b38cdb3) | Medium | — |
 | **Coinbase** | [Longest Consecutive Character in String](https://trueinterview.io/questions/ae5833c1-2569-4d9e-ae07-7087514da7f6) | Easy | — |

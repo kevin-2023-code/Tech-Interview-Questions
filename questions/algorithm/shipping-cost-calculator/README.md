@@ -309,8 +309,6 @@ compute_shipping_cost(order_de, shipping_cost) == 8700
 * **Logging:** Record pricing-calculation details to help diagnose issues.
 * **Documentation:** Provide docstrings that describe the pricing behavior.
 
->>>
-
 ## Hints
 
 <details>

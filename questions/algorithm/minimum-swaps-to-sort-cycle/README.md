@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Akuna Capital · JPMorgan | Online assessment | — | Dec 2025 |
+| Algorithm | Medium | Akuna Capital · JPMorgan | Online assessment | arrays, graphs, greedy, sorting | Dec 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -41,21 +41,21 @@ The minimum is 2 swaps.
 <details>
 <summary>Hint 1</summary>
 
-Think of the array as a permutation and decompose it into cycles of elements that need to be rearranged.
+Consider the array as a permutation mapping current positions to sorted positions, and decompose it into cycles.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For a cycle of length L, the minimum swaps needed is L-1, because each swap can place at least one element correctly.
+For a cycle of length k, the minimum swaps needed is k-1 (since swapping any two elements reduces cycle count).
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Sum over all cycles: total swaps = sum (cycle_length - 1) = n - number_of_cycles.
+With duplicates, treat identical values as distinct by their original indices to form a permutation, then apply the same cycle decomposition logic.
 
 </details>
 

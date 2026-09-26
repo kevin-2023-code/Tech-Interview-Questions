@@ -6,9 +6,6 @@
 
 ---
 
-Tree Level Order from Parent-Child Pairs
-Medium · Tree, Breadth-First Search, Hash Table · Company Tags · Hints
-
 You are given a list of directed edges that uniquely defines a tree. Each edge is represented as a two-element array `[parent, child]`, meaning there is a connection from node `parent` to node `child`. All edges together form a valid tree with exactly one root (a node that is never a child). Every node has a unique integer value.
 
 Your task is to reconstruct the tree from the edge list and then perform a level‑order traversal (also known as breadth‑first search). Return an array containing the node values in the order they are visited during the traversal.

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Brex | Online assessment | — | — |
+| Algorithm | Easy | Brex | Online assessment | arrays | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -76,6 +76,29 @@ Input:
 print('OK')
 Output:
 ```
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+For the affordability check, think of comparing each gem count in the price to the corresponding gem count in the player's stash, if any price count exceeds the stash count, it's unaffordable.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+For purchase_card, if the price is affordable, subtract each gem count elementwise from the stash, return the updated stash.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+For compute_discount, watch for a bulk discount rule: the discount might be per‑card or a flat reduction based on card_count, the exact formula is given in the problem description.
+
+</details>
 
 ## Solution
 

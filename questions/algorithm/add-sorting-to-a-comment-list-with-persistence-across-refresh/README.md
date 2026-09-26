@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Bobyard | Online assessment | — | — |
+| Algorithm | Easy | Bobyard | Online assessment | sorting | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -39,6 +39,29 @@ Output: order=[id:1,id:2]
 ```
 
 The first comment comes before the second because its timestamp, 1000, is earlier than 2000 and the requested direction is ascending.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Think about separating the state of the sort (field and direction) from the rendering logic, so the sort can be applied on initial load and changed later.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Use a URL query parameter (like `?sort=timestamp&order=asc`) or `localStorage` to persist the user's choice, and read it on page load to set the initial sort state.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+Watch out for the edge case where the stored sort field no longer exists in the data, fall back to a default sort (e.g., by `timestamp` descending).
+
+</details>
 
 ## Solution
 

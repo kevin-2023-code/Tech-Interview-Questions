@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | MongoDB | Phone screen | — | — |
+| Algorithm | Hard | MongoDB | Phone screen | graphs, trees | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -72,6 +72,29 @@ https://a.com/x
 https://a.com/y
 https://a.com/z
 ```
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Use a thread pool with a fixed number of workers (maxWorkers) and a shared concurrent queue to manage URLs to crawl.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Maintain a thread-safe visited set and a counter for the number of distinct URLs scheduled, stop adding new URLs once the counter reaches maxPages.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+Only enqueue URLs whose hostname matches the start URL's hostname, and ensure that each URL is visited at most once by checking the set before adding.
+
+</details>
 
 ## Solution
 

@@ -8,7 +8,7 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [26](../akuna-capital.md) |
+| Questions reported | [28](../akuna-capital.md) |
 | Free to read here | 2 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
@@ -51,7 +51,7 @@ Technical phone rounds start almost immediately after introductions, and several
 
 ## Everything else
 
-- [All 26 questions reported at Akuna Capital](../akuna-capital.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 28 questions reported at Akuna Capital](../akuna-capital.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Akuna Capital question on TrueInterview](https://trueinterview.io/problems/company/akuna-capital).
 
 ---

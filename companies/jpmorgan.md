@@ -2,7 +2,7 @@
 
 # JPMorgan interview process, OA & interview questions
 
-**15 questions** reported at JPMorgan · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan), judged server-side on the algorithm, low-level-design and SQL formats.
+**14 questions** reported at JPMorgan · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How JPMorgan interviews & the free questions](jpmorgan/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **15** |
+| Questions tracked | **14** |
 | Most recent sighting | Jun 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 15) |
-| Difficulty (easy / medium / hard) | 4 / 8 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 14) |
+| Difficulty (easy / medium / hard) | 3 / 9 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 15 questions reported at JPMorgan. 15 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 14 questions reported at JPMorgan. 14 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **15 of 15** questions at JPMorgan that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **14 of 14** questions at JPMorgan that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 8 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 8 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 2 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | █████████ | [System Design](../formats/system-design.md) (57%) | 2 / 3 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 6 | ████████ | [System Design](../formats/system-design.md) (50%) | 2 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,23 +42,26 @@ Which stage each question came from, for the **15 of 15** questions at JPMorgan 
 
 ## What they ask about
 
-Of the **7 questions at JPMorgan that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at JPMorgan that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `intervals` | 2 | 29% | ████████████ | Jun 23, 2026 |
-| `sorting` | 2 | 29% | ████████████ | Jun 23, 2026 |
-| `strings` | 2 | 29% | ████████████ | Mar 14, 2026 |
-| `arrays` | 1 | 14% | ██████ | Sep 05, 2025 |
-| `greedy` | 1 | 14% | ██████ | Mar 31, 2026 |
-| `hashing` | 1 | 14% | ██████ | Mar 18, 2026 |
-| `topological-sort` | 1 | 14% | ██████ | Jun 23, 2026 |
+| `arrays` | 3 | 30% | ████████████ | Jun 23, 2026 |
+| `intervals` | 3 | 30% | ████████████ | Jun 23, 2026 |
+| `sorting` | 3 | 30% | ████████████ | Jun 23, 2026 |
+| `greedy` | 2 | 20% | ████████ | Mar 31, 2026 |
+| `strings` | 2 | 20% | ████████ | Mar 14, 2026 |
+| `dynamic-programming` | 1 | 10% | ████ | Jan 15, 2026 |
+| `graphs` | 1 | 10% | ████ | Dec 20, 2025 |
+| `hashing` | 1 | 10% | ████ | Mar 18, 2026 |
+| `math` | 1 | 10% | ████ | Jan 15, 2026 |
+| `topological-sort` | 1 | 10% | ████ | Jun 23, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at JPMorgan, by the month it was reported in — Jun 21, 2025 to Jun 23, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at JPMorgan, by the month it was reported in — Nov 19, 2025 to Jun 23, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -68,8 +71,7 @@ Every recorded sighting at JPMorgan, by the month it was reported in — Jun 21,
 | [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ██████ |
-| [Jun 2025](../by-month/2025-06.md) | 1 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
 
 ## Start here
 
@@ -121,5 +123,4 @@ The 8 questions to open first if you are preparing for JPMorgan, ranked by **the
 | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Algorithm | Medium | Jan 15, 2026 |
 | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Object Oriented Programming | Easy | Jan 15, 2026 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Algorithm | Medium | Dec 20, 2025 |
-| [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater) | Algorithm | Easy | Sep 05, 2025 |
-| [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | System Design | Hard | Jun 21, 2025 |
+| [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips) | Algorithm | Medium | Nov 19, 2025 |

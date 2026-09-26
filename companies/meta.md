@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**175 questions** reported at Meta · **16 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**176 questions** reported at Meta · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **175** |
+| Questions tracked | **176** |
 | Most recent sighting | Aug 16, 2026 |
 | Reported in the last 90 days | 10 |
-| Most common format | [Algorithm](../formats/algorithm.md) (65% of 175) |
-| Difficulty (easy / medium / hard) | 26 / 112 / 37 |
+| Most common format | [Algorithm](../formats/algorithm.md) (65% of 176) |
+| Difficulty (easy / medium / hard) | 27 / 111 / 38 |
 | Free to practise | [22](../free/README.md) |
-| Guides & writeups | 16 |
+| Guides & writeups | 11 |
 
-<sub>Counted from the 175 questions reported at Meta. 84 of them carry a sighting date; the other 91 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 176 questions reported at Meta. 84 of them carry a sighting date; the other 92 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **175 of 175** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **176 of 176** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 22 | ██ | [Algorithm](../formats/algorithm.md) (59%) | 15 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 23 | ██ | [Algorithm](../formats/algorithm.md) (61%) | 16 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 106 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 9 / 83 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 69 | ███████ | [System Design](../formats/system-design.md) (38%) | 4 / 40 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
-| **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
+| **Onsite / virtual onsite** | 69 | ███████ | [System Design](../formats/system-design.md) (38%) | 4 / 39 / 26 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -56,20 +56,20 @@ Which stage each question came from, for the **175 of 175** questions at Meta th
 
 ## What they ask about
 
-Of the **87 questions at Meta that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **115 questions at Meta that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 17 | 20% | ████████████ | Apr 21, 2026 |
-| `hashing` | 12 | 14% | ████████ | Apr 09, 2026 |
-| `strings` | 11 | 13% | ████████ | Jun 24, 2026 |
-| `trees` | 11 | 13% | ████████ | Jun 28, 2026 |
-| `two-pointers` | 7 | 8% | █████ | May 08, 2026 |
-| `arrays` | 6 | 7% | ████ | Apr 24, 2026 |
-| `backtracking` | 6 | 7% | ████ | Feb 26, 2026 |
-| `stack` | 6 | 7% | ████ | Jun 24, 2026 |
-| `binary-search` | 5 | 6% | ████ | Apr 24, 2026 |
-| `heap` | 5 | 6% | ████ | Jul 29, 2026 |
+| `graphs` | 21 | 18% | ████████████ | Jun 28, 2026 |
+| `hashing` | 17 | 15% | ██████████ | Jun 28, 2026 |
+| `strings` | 15 | 13% | █████████ | Jun 24, 2026 |
+| `trees` | 15 | 13% | █████████ | Jun 28, 2026 |
+| `arrays` | 12 | 10% | ███████ | Apr 24, 2026 |
+| `two-pointers` | 11 | 10% | ██████ | May 08, 2026 |
+| `backtracking` | 9 | 8% | █████ | May 02, 2026 |
+| `stack` | 9 | 8% | █████ | Jun 24, 2026 |
+| `matrix` | 7 | 6% | ████ | Apr 21, 2026 |
+| `sorting` | 7 | 6% | ████ | May 06, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -110,15 +110,11 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 ## Guides & writeups
 
-**16 writeups** filed under Meta in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**11 writeups** filed under Meta in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [AI-Oriented Behavioral](https://trueinterview.io/study/ai-oriented-behavioral) | ai-collaboration, bq, star |
-| [Comparative Metrics Analysis for Facebook Dating Advantages](https://trueinterview.io/study/d52244dd-4a5c-4f29-9ded-8417ebddeb4f) | — |
-| [Detecting and Handling Fake Friend Requests via Machine Learning](https://trueinterview.io/study/5739fc5a-6b17-4f4d-8261-443168884c2a) | — |
-| [Dry Run Array Problems](https://trueinterview.io/study/26fce5a4-6e36-4018-a807-81296258e4e4) | — |
-| [Instagram User Classification: Features, Challenges, and Evaluation Methods](https://trueinterview.io/study/051a0bb7-e10e-4bf1-b9ad-1e0124a393a1) | — |
 | [Meta Data Scientist Interview Process](https://trueinterview.io/study/meta-data-scientist-interview-process) | — |
 | [Meta Infrastructure Engineer Interview Process](https://trueinterview.io/study/meta-infrastructure-engineer-interview-process) | — |
 | [Meta Interview Process & Questions](https://trueinterview.io/study/meta-interview-process) | — |
@@ -128,7 +124,6 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | clustering, llm, ml-knowledge, optimization |
 | [Mouse and Cheese / Maze Rewards](https://trueinterview.io/study/mouse-and-cheese-maze-rewards) | backtracking, dfs, dp, grid |
 | [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/study/03c246e8-c1a4-47b1-b1bd-5c212e569288) | — |
-| [SQL CASE Statement Result When No Conditions Match Without ELSE](https://trueinterview.io/study/e37f51bf-1f79-4770-a9dd-fe4aa859cc1e) | — |
 | [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | ambiguity, bq, conflict, leadership, star |
 
 ---
@@ -210,7 +205,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | Feb 08, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
-| [AI Project Round (Take-Home-Style, NEW)](https://trueinterview.io/questions/ai-project-take-home-style-round) | AI Coding | Medium | Feb 03, 2026 |
+| [AI Project Round (Take-Home-Style, NEW)](https://trueinterview.io/questions/ai-project-take-home-style-round) | AI Coding | Hard | Feb 03, 2026 |
 | [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Algorithm | Medium | Jan 29, 2026 |
@@ -269,6 +264,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Unique Characters](https://trueinterview.io/questions/b765dd59-a8f5-468c-a15e-e2b80ec674f6) | Algorithm | Easy | — |
 | [Second Largest Permutation From Given Multiset](https://trueinterview.io/questions/b013b902-f3a6-444e-a0a9-866fa7ac2f06) | Algorithm | Medium | — |
 | [Minimum Length of Subarray with Min-Max Difference](https://trueinterview.io/questions/a4398c05-cc42-4b2b-804e-6e65102c2ecb) | Algorithm | Hard | — |
+| [Majority Element](https://trueinterview.io/questions/8ef6f482-db59-407f-adc7-1118a22fdae0) | Algorithm | Easy | — |
 | [Python Data Processing: Merge two messy sources and compute a summary dictionary](https://trueinterview.io/questions/8dfc431c-6a6e-4241-8587-02b33cda60ff) | AI Coding | Medium | — |
 | [Calculate Speeds of Animals Using Two Datasets](https://trueinterview.io/questions/87db45d6-08ee-4a2f-9c24-d72303779100) | Algorithm | Medium | — |
 | [3Sum Problem](https://trueinterview.io/questions/872afd2c-9574-4b57-8be4-7a867d8058c3) | Algorithm | Medium | — |

@@ -42,8 +42,6 @@ SQL is the main language, and debugging counts as much as writing. You need to r
 
 This covers product sense and experimentation. Interviewers want metrics tied to a product goal, a counter-metric that guards against gaming, and an experiment you could actually run. Candidates lose signal by listing metrics without saying which decision each one would change. They also lose it by treating an offline gain as proof when live behavior can differ. The framing and modeling skills from the screen carry over here: a fact table at the wrong grain usually means the business question was never pinned down.
 
-- [Comparative Metrics Analysis for Facebook Dating Advantages](https://trueinterview.io/questions/d52244dd-4a5c-4f29-9ded-8417ebddeb4f)
-- [Instagram User Classification: Features, Challenges, and Evaluation Methods](https://trueinterview.io/questions/051a0bb7-e10e-4bf1-b9ad-1e0124a393a1)
 - [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis)
 - [Group Video Call Data Analysis Queries](https://trueinterview.io/questions/3f8ab151-1633-4675-a957-6dfb74b18779)
 

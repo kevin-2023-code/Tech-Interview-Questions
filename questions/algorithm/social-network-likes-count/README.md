@@ -12,9 +12,6 @@
 
 ## Problem
 
-Social Network Likes Lookup
-Easy · Topics · Company Tags · Hints
-
 A social media platform keeps records of mutual likes between pairs of users. Each record contains two user identifiers and two integer values: the number of likes from the first user to the second, and the number of likes from the second to the first. For instance, the record `(Alice, Bob, 7, 3)` means that Alice liked Bob 7 times and Bob liked Alice 3 times.
 
 Your task is to design an appropriate data structure to hold a set of these records, and then implement a lookup function `getLikes(userA, userB)` that returns the number of likes `userA` directed toward `userB`. You may assume that every queried pair `(userA, userB)` will be present among the stored records.

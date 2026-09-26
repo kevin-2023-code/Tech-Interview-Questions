@@ -5,15 +5,12 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Google · Affirm · Uber | Onsite / virtual onsite | — | Jun 2026 |
+| Algorithm | Medium | Google · Affirm · Uber | Onsite / virtual onsite | stack, backtracking | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/nested-function-expression-evaluator)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
-
-Basic Calculator with Nested Functions
-Easy · Topics · Company Tags · Hints
 
 Implement the function `evaluate(expression)` that computes the integer result of a string expression. The expression uses two named operations: `"add"` adds together all of its arguments, while `"sub"` subtracts the second argument from the first. The operations may be nested arbitrarily.
 
@@ -53,21 +50,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Consider parsing the expression recursively, where each function call is evaluated by first evaluating its arguments.
+Think of the expression as a tree where each function call is a node with arguments as children.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a stack to handle nested calls and operator precedence, or implement a recursive descent parser.
+You can parse recursively: look for 'add(' or 'sub(', then parse arguments separated by commas until ')'.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch out for division by zero and integer vs. floating-point results in the follow-up.
+Handle negative numbers by checking for a leading minus sign before the digit sequence.
 
 </details>
 

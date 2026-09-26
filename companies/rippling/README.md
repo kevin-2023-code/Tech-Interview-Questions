@@ -8,11 +8,11 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [27](../rippling.md) |
+| Questions reported | [28](../rippling.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
-| Other guides | 3 |
-| Most recent sighting | Jun 28, 2026 |
+| Other guides | 5 |
+| Most recent sighting | Sep 11, 2026 |
 
 ## How Rippling interviews
 
@@ -48,13 +48,15 @@ The technical screen is usually 45-60 minutes of live coding on a multi-part pra
 
 | Guide | Tags |
 | :-- | :-- |
+| [Explain Your Current and Previous Engineering Roles](guides/explain-your-current-and-previous-engineering-roles.md) | — |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](guides/explain-your-reason-for-changing-roles-and-your-interest-in-the-team.md) | — |
 | [Intern OA Fixed Set](guides/intern-oa-fixed-set.md) | api-integration, dfs, hashmap, heap, sliding-window |
 | [Project Deep Dive / HM BQ](guides/project-deep-dive-and-bq.md) | bq, deep-dive, impact, mentorship, presentation, star |
 | [Time Complexity Analysis](https://trueinterview.io/study/3ff04932-615f-483c-a528-757dfbfc638a) | — |
 
 ## Everything else
 
-- [All 27 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 28 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rippling question on TrueInterview](https://trueinterview.io/problems/company/rippling).
 
 ---

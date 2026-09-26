@@ -8,10 +8,10 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [228](../amazon.md) |
-| Free to read here | 30 |
+| Questions reported | [232](../amazon.md) |
+| Free to read here | 29 |
 | Interview-process guides | 5 |
-| Other guides | 12 |
+| Other guides | 15 |
 | Most recent sighting | Sep 05, 2026 |
 
 ## How Amazon interviews
@@ -34,7 +34,7 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 
 ## Free Amazon questions
 
-30 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+29 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -53,7 +53,6 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
-| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
@@ -73,22 +72,25 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 
 | Guide | Tags |
 | :-- | :-- |
-| [Algorithm and AI Coding Tasks](https://trueinterview.io/study/4d161574-3e90-458a-9f0c-883915ea2c6c) | — |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](guides/asm-phone-screen-deep-dive-bq.md) | deep-dive |
+| [Explain a Project That Could Not Meet a Tight Deadline](guides/explain-a-project-that-could-not-meet-a-tight-deadline.md) | — |
 | [GenAI Usage (How / Failure / Tradeoff)](guides/bq-genai-usage.md) | ai-tools |
+| [Influence a Colleague Who Prefers a Different Approach](guides/influence-a-colleague-who-prefers-a-different-approach.md) | — |
 | [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md) | deep-dive |
+| [Learn What You Need to Solve an Unfamiliar Problem](guides/learn-what-you-need-to-solve-an-unfamiliar-problem.md) | — |
 | [LoRA and PEFT Variants](guides/lora-and-peft-variants.md) | ml-knowledge, transformer |
 | [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](guides/as-ml-breadth-orals.md) | math-reasoning, ml-knowledge, probability |
 | [Modified OA with AI assisted debugging](https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5) | — |
 | [Paper Read Round (FAR / Premium Loops)](guides/paper-read-round-far.md) | deep-dive, ml-knowledge, presentation |
 | [RLHF: PPO vs GRPO vs GSPO](guides/rlhf-ppo-grpo-gspo.md) | math-reasoning, ml-knowledge |
 | [Science Application (Ambiguous Problem)](guides/science-application-ambiguous-problem.md) | deep-dive, ml-knowledge |
+| [Solve a Problem Outside Your Assigned Responsibilities](guides/solve-a-problem-outside-your-assigned-responsibilities.md) | — |
 | [Transformer / Attention Deep-Dive](guides/transformer-attention-deep-dive.md) | ml-knowledge, pytorch, transformer |
 | [Work Simulation & Work Style Assessment](guides/work-style-simulation-assessment.md) | work-style |
 
 ## Everything else
 
-- [All 228 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 232 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Amazon question on TrueInterview](https://trueinterview.io/problems/company/amazon).
 
 ---

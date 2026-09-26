@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Amazon · ByteDance · Gusto | Onsite / virtual onsite | — | Mar 2026 |
+| Algorithm | Medium | Uber · Amazon · ByteDance · Gusto | Onsite / virtual onsite | hashing, binary-search | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/time-based-key-value-store-2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -41,6 +41,29 @@ Constraints:
 * For each key, timestamps in `set` calls are strictly increasing.
 
 Company Notes: This problem is known as LeetCode 981 and was reported in an onsite software engineering round in March 2026.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+For each key, you need to store a list of (timestamp, value) pairs sorted by timestamp to support binary search.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+When setting a new value, you can assume timestamps are strictly increasing for the same key, so you can simply append to the list.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+For get, use binary search to find the largest timestamp <= the given timestamp, if none exists, return an empty string.
+
+</details>
 
 ## Solution
 

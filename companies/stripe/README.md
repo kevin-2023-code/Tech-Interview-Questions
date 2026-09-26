@@ -8,10 +8,10 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [73](../stripe.md) |
+| Questions reported | [75](../stripe.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 2 |
 | Most recent sighting | Sep 11, 2026 |
 
 ## How Stripe interviews
@@ -49,10 +49,11 @@ Stripe's loop rewards a different kind of preparation than most big-tech process
 | Guide | Tags |
 | :-- | :-- |
 | [Hiring Manager Behavioral](guides/hiring-manager-behavioral-2.md) | deep-dive, why-company |
+| [Show Senior Engineering Leadership Through a Past Project](guides/show-senior-engineering-leadership-through-a-past-project.md) | — |
 
 ## Everything else
 
-- [All 73 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 75 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Stripe question on TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 ---

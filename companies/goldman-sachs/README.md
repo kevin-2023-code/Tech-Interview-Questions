@@ -11,7 +11,7 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 | Questions reported | [20](../goldman-sachs.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
-| Other guides | 9 |
+| Other guides | 3 |
 | Most recent sighting | Jul 06, 2026 |
 
 ## How Goldman Sachs interviews
@@ -48,15 +48,9 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 
 | Guide | Tags |
 | :-- | :-- |
-| [25 Horses, 5 Lanes Puzzle](guides/horse-race-25.md) | math-reasoning, verbal |
-| [Effect of Doubling Data on Regression Coefficients and Statistics](https://trueinterview.io/study/30195c71-57af-4259-a3ab-5aa9886b4746) | — |
-| [Explain Recursion to a Non-CS Audience](guides/explain-recursion-no-cs-audience.md) | bq, cs-fundamentals, verbal |
-| [Hash Collision: Causes, Resolution, Complexity](guides/hash-collision-fundamentals.md) | complexity-analysis, cs-fundamentals, hashmap, verbal |
 | [Hirevue Behavioral Bank (6 Questions)](guides/hirevue-behavioral-six-questions.md) | bq, culture-fit, values |
-| [Minimum Number of Socks](https://trueinterview.io/study/a2b173f5-b900-44d0-bf9f-f2a83d249e64) | — |
 | [Quant OA Math / Probability Multiple Choice Bank](guides/quant-oa-math-probability-bank.md) | math-reasoning, probability, verbal |
 | [Quant Strat Superday Probability + Fixed Income Drill](guides/quant-strat-superday-probability-fixed-income.md) | domain-knowledge, math-reasoning, probability, verbal |
-| [Sample Size for Sharpe Ratio Significance Testing](https://trueinterview.io/study/b1ebb833-1431-4992-9f21-a90c9d413d8d) | — |
 
 ## Everything else
 

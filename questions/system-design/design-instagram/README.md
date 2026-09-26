@@ -12,9 +12,6 @@
 
 ## Problem
 
-Instagram
-Medium · Topics · Company Tags · Hints
-
 Instagram is a photo-sharing social platform where users publish images, follow other accounts, and browse a home feed composed of recent photos from the accounts they follow. On the surface it appears as a straightforward photo grid, but underneath the system must ingest and deliver images while constructing feeds from the same follow graph and durable post store.
 
 ## Requirements

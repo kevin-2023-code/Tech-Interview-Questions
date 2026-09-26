@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**39 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**38 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 | :-- | :-- | :-: | :-- |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
 | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | **JPMorgan** | Easy | Jan 15, 2026 |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | Medium | — |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Medium | Nov 08, 2025 |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | Medium | — |
@@ -39,11 +40,9 @@
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | **Sigmacomputing** | Medium | — |
 | [Logger System](https://trueinterview.io/questions/logger-system-ood) | **Rippling** | Medium | Jun 09, 2026 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | **Atlassian** | Medium | Feb 15, 2026 |
-| [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Medium | — |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | **Reddit** | Medium | Feb 17, 2026 |
 | [Tagged Command Undo](https://trueinterview.io/questions/tagged-command-undo) | **Netflix** | Medium | Apr 30, 2026 |
 | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | **Perplexity** | Medium | May 26, 2026 |
-| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | **Apple / Google / LinkedIn / Microsoft / Salesforce** | Hard | Mar 17, 2026 |
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | **OpenAI / ByteDance** | Hard | Jun 11, 2026 |
 | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | **Circle** | Hard | — |
 | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | **Stubhub** | Hard | — |

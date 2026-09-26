@@ -79,7 +79,7 @@ The third filter is team fit and the evaluation environment. Some network roles 
 
 ## Data Source
 
-Based on 91 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 90 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

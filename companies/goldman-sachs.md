@@ -2,7 +2,7 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**20 questions** reported at Goldman Sachs · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
+**20 questions** reported at Goldman Sachs · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Goldman Sachs interviews & the free questions](goldman-sachs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (85% of 20) |
 | Difficulty (easy / medium / hard) | 7 / 12 / 1 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 10 |
+| Guides & writeups | 4 |
 
 <sub>Counted from the 20 questions reported at Goldman Sachs. 17 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **20 of 20** questions at Goldman S
 
 ## What they ask about
 
-Of the **14 questions at Goldman Sachs that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Goldman Sachs that carry a topic label** (85% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 29% | ████████████ | Jul 06, 2026 |
-| `arrays` | 3 | 21% | █████████ | Mar 11, 2026 |
-| `strings` | 3 | 21% | █████████ | Dec 12, 2025 |
-| `greedy` | 2 | 14% | ██████ | Nov 25, 2025 |
-| `trees` | 2 | 14% | ██████ | Jun 21, 2026 |
-| `backtracking` | 1 | 7% | ███ | Sep 08, 2025 |
-| `dynamic-programming` | 1 | 7% | ███ | — |
-| `graphs` | 1 | 7% | ███ | Jun 18, 2026 |
-| `sliding-window` | 1 | 7% | ███ | Nov 25, 2025 |
-| `stack` | 1 | 7% | ███ | Sep 22, 2025 |
+| `arrays` | 5 | 29% | ████████████ | Apr 01, 2026 |
+| `hashing` | 5 | 29% | ████████████ | Jul 06, 2026 |
+| `strings` | 4 | 24% | ██████████ | Feb 05, 2026 |
+| `dynamic-programming` | 2 | 12% | █████ | Apr 01, 2026 |
+| `greedy` | 2 | 12% | █████ | Nov 25, 2025 |
+| `stack` | 2 | 12% | █████ | Apr 01, 2026 |
+| `trees` | 2 | 12% | █████ | Jun 21, 2026 |
+| `two-pointers` | 2 | 12% | █████ | Apr 03, 2026 |
+| `backtracking` | 1 | 6% | ██ | Sep 08, 2025 |
+| `graphs` | 1 | 6% | ██ | Jun 18, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -98,20 +98,14 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 
 ## Guides & writeups
 
-**10 writeups** filed under Goldman Sachs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under Goldman Sachs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | math-reasoning, verbal |
-| [Effect of Doubling Data on Regression Coefficients and Statistics](https://trueinterview.io/study/30195c71-57af-4259-a3ab-5aa9886b4746) | — |
-| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | bq, cs-fundamentals, verbal |
 | [Goldman Sachs Interview Process & Questions](https://trueinterview.io/study/goldmansachs-interview-process) | — |
-| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/study/hash-collision-fundamentals) | complexity-analysis, cs-fundamentals, hashmap, verbal |
 | [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | bq, culture-fit, values |
-| [Minimum Number of Socks](https://trueinterview.io/study/a2b173f5-b900-44d0-bf9f-f2a83d249e64) | — |
 | [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | math-reasoning, probability, verbal |
 | [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | domain-knowledge, math-reasoning, probability, verbal |
-| [Sample Size for Sharpe Ratio Significance Testing](https://trueinterview.io/study/b1ebb833-1431-4992-9f21-a90c9d413d8d) | — |
 
 ---
 

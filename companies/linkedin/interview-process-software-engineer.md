@@ -47,7 +47,7 @@ Three to five graded sessions, all medium-difficulty fundamentals — trees, gra
 At least one round per loop is a data-structure build rather than an algorithm, pushed past the textbook version: eviction driven by rank with recency as the tiebreak, an LRU that must be thread-safe, a `popMax` known to be rare so the common path should stay simple. Clean interfaces, encapsulation, and complexity per operation matter as much as the core trick — one rejection after a MaxStack round was attributed to weak object-oriented structure, not a wrong algorithm.
 
 - [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c)
-- [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md)
+- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
 - [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap)
 
 ### System Design
@@ -83,7 +83,7 @@ The third is adaptability when the problem changes. Interviewers add a constrain
 
 ## Data Source
 
-Based on 26 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 25 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

@@ -8,10 +8,10 @@ How Meta interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [175](../meta.md) |
+| Questions reported | [176](../meta.md) |
 | Free to read here | 22 |
 | Interview-process guides | 6 |
-| Other guides | 10 |
+| Other guides | 5 |
 | Most recent sighting | Aug 16, 2026 |
 
 ## How Meta interviews
@@ -70,19 +70,14 @@ This guide goes past the outline on the Meta company page. It covers how the scr
 | Guide | Tags |
 | :-- | :-- |
 | [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md) | ai-collaboration, bq, star |
-| [Comparative Metrics Analysis for Facebook Dating Advantages](https://trueinterview.io/study/d52244dd-4a5c-4f29-9ded-8417ebddeb4f) | — |
-| [Detecting and Handling Fake Friend Requests via Machine Learning](https://trueinterview.io/study/5739fc5a-6b17-4f4d-8261-443168884c2a) | — |
-| [Dry Run Array Problems](guides/dry-run-array-problems.md) | — |
-| [Instagram User Classification: Features, Challenges, and Evaluation Methods](https://trueinterview.io/study/051a0bb7-e10e-4bf1-b9ad-1e0124a393a1) | — |
 | [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](guides/ml-foundations-optimizers-scaling-law-clustering.md) | clustering, llm, ml-knowledge, optimization |
 | [Mouse and Cheese / Maze Rewards](guides/mouse-and-cheese-maze-rewards.md) | backtracking, dfs, dp, grid |
 | [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/study/03c246e8-c1a4-47b1-b1bd-5c212e569288) | — |
-| [SQL CASE Statement Result When No Conditions Match Without ELSE](https://trueinterview.io/study/e37f51bf-1f79-4770-a9dd-fe4aa859cc1e) | — |
 | [Traditional Behavioral](guides/traditional-behavioral-meta.md) | ambiguity, bq, conflict, leadership, star |
 
 ## Everything else
 
-- [All 175 questions reported at Meta](../meta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 176 questions reported at Meta](../meta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Meta question on TrueInterview](https://trueinterview.io/problems/company/meta).
 
 ---

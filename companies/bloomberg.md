@@ -2,7 +2,7 @@
 
 # Bloomberg interview process, OA & interview questions
 
-**54 questions** reported at Bloomberg · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
+**69 questions** reported at Bloomberg · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Bloomberg interviews & the free questions](bloomberg/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,54 +14,56 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **54** |
+| Questions tracked | **69** |
 | Most recent sighting | Jul 22, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 54) |
-| Difficulty (easy / medium / hard) | 11 / 29 / 14 |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 69) |
+| Difficulty (easy / medium / hard) | 11 / 42 / 16 |
 | Free to practise | [12](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 2 |
 
-<sub>Counted from the 54 questions reported at Bloomberg. 40 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 69 questions reported at Bloomberg. 45 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **54 of 54** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **69 of 69** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 5 / 21 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 28 | ████████ | [Algorithm](../formats/algorithm.md) (61%) | 4 / 14 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 45 | ██████████ | [Algorithm](../formats/algorithm.md) (84%) | 5 / 31 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 33 | ███████ | [Algorithm](../formats/algorithm.md) (52%) | 4 / 17 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Phone screen | Jul 22, 2026 |
-| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Hard | Phone screen | Jul 22, 2026 |
+| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Phone screen | Jul 22, 2026 |
+| [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | System Design | Medium | Onsite / virtual onsite | Jul 07, 2026 |
+| [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | System Design | Hard | Onsite / virtual onsite | Jul 07, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 
 ## What they ask about
 
-Of the **31 questions at Bloomberg that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **49 questions at Bloomberg that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `backtracking` | 7 | 23% | ████████████ | Feb 22, 2026 |
-| `strings` | 7 | 23% | ████████████ | Jun 16, 2026 |
-| `graphs` | 6 | 19% | ██████████ | Apr 09, 2026 |
-| `arrays` | 5 | 16% | █████████ | Jun 16, 2026 |
-| `hashing` | 4 | 13% | ███████ | Feb 25, 2026 |
-| `stack` | 4 | 13% | ███████ | Feb 07, 2026 |
-| `sorting` | 3 | 10% | █████ | May 01, 2026 |
-| `trees` | 3 | 10% | █████ | Jun 28, 2026 |
-| `binary-search` | 2 | 6% | ███ | Jun 16, 2026 |
-| `greedy` | 2 | 6% | ███ | Mar 09, 2026 |
+| `graphs` | 10 | 20% | ████████████ | Jun 28, 2026 |
+| `hashing` | 10 | 20% | ████████████ | Jun 28, 2026 |
+| `strings` | 10 | 20% | ████████████ | Jun 16, 2026 |
+| `arrays` | 8 | 16% | ██████████ | Jun 16, 2026 |
+| `backtracking` | 8 | 16% | ██████████ | Feb 22, 2026 |
+| `stack` | 7 | 14% | ████████ | Apr 01, 2026 |
+| `greedy` | 5 | 10% | ██████ | Jun 04, 2026 |
+| `sorting` | 5 | 10% | ██████ | Jun 04, 2026 |
+| `dynamic-programming` | 3 | 6% | ████ | Apr 01, 2026 |
+| `linked-list` | 3 | 6% | ████ | Apr 09, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -71,15 +73,15 @@ Every recorded sighting at Bloomberg, by the month it was reported in — Oct 16
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 2 | ██████ |
-| [Jun 2026](../by-month/2026-06.md) | 7 | █████████████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 4 | ███████████ |
+| [Jun 2026](../by-month/2026-06.md) | 7 | ███████████████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ███ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ██████ |
-| [Mar 2026](../by-month/2026-03.md) | 7 | █████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 8 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ████████ |
+| [Mar 2026](../by-month/2026-03.md) | 7 | ███████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 8 | █████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 9 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ███ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 4 | ███████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
 
 ## Start here
@@ -89,25 +91,24 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | — | Jul 22, 2026 |
-| **2** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Hard | — | Jul 22, 2026 |
-| **3** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | 4 | Jun 28, 2026 |
-| **4** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 3 | Jun 16, 2026 |
-| **5** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | 3 | Jun 16, 2026 |
-| **6** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 2 | Jun 16, 2026 |
-| **7** | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Object Oriented Programming | Medium | — | Jun 16, 2026 |
-| **8** | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | — | Jun 16, 2026 |
+| **2** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | — | Jul 22, 2026 |
+| **3** | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | System Design | Medium | — | Jul 07, 2026 |
+| **4** | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | System Design | Hard | — | Jul 07, 2026 |
+| **5** | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | 4 | Jun 28, 2026 |
+| **6** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 3 | Jun 16, 2026 |
+| **7** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | 3 | Jun 16, 2026 |
+| **8** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 2 | Jun 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**3 writeups** filed under Bloomberg in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**2 writeups** filed under Bloomberg in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Behavioral Question Pool](https://trueinterview.io/study/behavioral-question-pool) | deep-dive, star, why-company |
 | [Bloomberg Interview Process & Questions](https://trueinterview.io/study/bloomberg-interview-process) | — |
-| [Optimizing Hard Problem Solution](https://trueinterview.io/study/31a0647b-e8d4-45cc-8d21-fe514a3525ef) | — |
 
 ---
 
@@ -119,8 +120,10 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Hard | Jul 22, 2026 |
+| [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Jul 22, 2026 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Jul 22, 2026 |
+| [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | System Design | Hard | Jul 07, 2026 |
+| [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | System Design | Medium | Jul 07, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
 | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | System Design | Hard | Jun 16, 2026 |
@@ -130,6 +133,7 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Algorithm | Medium | Jun 04, 2026 |
 | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Algorithm | Easy | May 2026 |
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | Mar 23, 2026 |
@@ -152,6 +156,8 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Algorithm | Hard | Jan 22, 2026 |
 | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Algorithm | Medium | Jan 21, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
+| [Wordle Character Compare](https://trueinterview.io/questions/wordle-character-compare) | Algorithm | Medium | Jan 04, 2026 |
+| [Todo List OOP Design](https://trueinterview.io/questions/todo-list-oop) | Object Oriented Programming | Medium | Jan 04, 2026 |
 | [Word Search in 2D Grid](https://trueinterview.io/questions/word-search-grid) | Algorithm | Medium | Jan 01, 2026 |
 | [Insert Delete GetRandom O(1)](https://trueinterview.io/questions/insert-delete-getrandom-o-1) | Object Oriented Programming | Medium | Dec 22, 2025 |
 | [Trade Processor with Subscribe / Unsubscribe](https://trueinterview.io/questions/trade-processor-subscribe-unsubscribe) | Object Oriented Programming | Hard | Nov 27, 2025 |
@@ -159,17 +165,27 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Algorithm | Medium | Nov 22, 2025 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
+| [Fair Electoral Vote Apportionment](https://trueinterview.io/questions/a83349b5-43bf-5345-a1f5-2c96ef191b94) | Algorithm | Medium | — |
+| [Detect Fraudulent Transactions](https://trueinterview.io/questions/84306b63-f79d-5a02-9d25-921f49151cc0) | Algorithm | Medium | — |
+| [Auto Corrector](https://trueinterview.io/questions/69c9a54f-f489-540b-8bcd-cc4db5de4d74) | Algorithm | Hard | — |
+| [Stock Price Tracker (Online Stock Span)](https://trueinterview.io/questions/3a741f76-d92f-5234-8363-4fce4a55e475) | Algorithm | Medium | — |
+| [Refactor an LRU Cache into a Pluggable Eviction-Policy Cache](https://trueinterview.io/questions/312640e3-e5d3-5e4b-b47f-0a997bf3471d) | Object Oriented Programming | Hard | — |
+| [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Algorithm | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Algorithm | Medium | — |
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
+| [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Algorithm | Medium | — |
 | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | — |
 | [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Algorithm | Medium | — |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
 | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Algorithm | Medium | — |
 | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Algorithm | Easy | — |
+| [Add Two Numbers (Forward Order Linked Lists)](https://trueinterview.io/questions/97753443-80e2-4be1-a500-502b91e021a0) | Object Oriented Programming | Medium | — |
+| [Find All Paths from Source to Target in DAG](https://trueinterview.io/questions/80710ab3-5ddf-4c43-b77e-82a3a85909e5) | Algorithm | Medium | — |
 | [Van Eck-like Sequence: N-th Term](https://trueinterview.io/questions/583c19ba-9611-43b2-a516-a8c35f3c1621) | Algorithm | Medium | — |
 | [Anagram Question](https://trueinterview.io/questions/34828e80-d9ef-43e4-856f-8b5bf8c29609) | Algorithm | Easy | — |
 | [Validate Stack Sequences](https://trueinterview.io/questions/29838791-2db8-4fd2-85df-b2c198bf9376) | Algorithm | Medium | — |
 | [Bucket Values Into Boundary Ranges](https://trueinterview.io/questions/1d02d34f-d87d-4e50-a0ca-2428899bdd99) | Algorithm | Easy | — |
 | [Design an Ordered Stream](https://trueinterview.io/questions/03ad9796-e965-4a19-8245-bf84d20faefc) | Object Oriented Programming | Easy | — |
+| [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

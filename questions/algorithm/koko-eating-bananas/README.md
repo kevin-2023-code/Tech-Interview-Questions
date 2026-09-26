@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · DoorDash · Optiver | Phone screen | — | Apr 2026 |
+| Algorithm | Medium | Apple · Amazon · DoorDash · Optiver | Phone screen | arrays, binary-search | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/koko-eating-bananas)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -68,21 +68,21 @@ For `k = 23`, the total is `ceil(30/23)+ceil(11/23)+ceil(23/23)+ceil(4/23)+ceil(
 <details>
 <summary>Hint 1</summary>
 
-Think of this as a binary search problem where you need to find the minimum eating rate k that allows finishing all bananas within h hours.
+The problem asks for the minimum integer k such that Koko can eat all bananas within h hours, which suggests a binary search over possible k values.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-The key insight is that for a given k, you can compute the total hours needed by summing ceil(pile[i] / k) for all piles.
+For a given k, you can compute the total hours needed by summing the ceiling of each pile divided by k, and check if it's ≤ h.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The complexity target is O(n log m) where m is the max pile size, and the edge case is when h is exactly equal to the number of piles.
+The search range is from 1 to the maximum pile size, and the time complexity is O(n log m) where m is the max pile size.
 
 </details>
 

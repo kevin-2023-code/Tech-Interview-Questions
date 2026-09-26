@@ -46,7 +46,6 @@ Amazon coding draws on a small set of patterns (graphs and topological order, he
 
 Design prompts are applied rather than canonical: expiring inventory, core-dump collection, file-sharing permissions, an e-book reader syncing across devices, a notification service that absorbs traffic spikes. Justify storage choices with several concrete reasons and connect each decision back to the customer.
 
-- [Perishable-Goods Tracking & Location System](https://trueinterview.io/questions/perishable-goods-tracking-system)
 - [Core Dump System Design](https://trueinterview.io/questions/core-dump-system-design)
 - [Design Amazon Locker](https://trueinterview.io/questions/design-amazon-locker)
 - [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b)
@@ -57,7 +56,7 @@ Object-oriented design is its own Amazon round, often with native collections ba
 
 - [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search)
 - [Pub-Sub Messaging System](https://trueinterview.io/questions/pub-sub-system-ood)
-- [Design a Pizza Price Calculator](https://trueinterview.io/questions/design-a-pizza-price-calculator)
+- [Pizza Slices Calculator Program](https://trueinterview.io/questions/43b6b9d3-5c99-4c4e-bfbd-0005865fd5e3)
 - [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation)
 
 ## AI-Assisted Coding Questions

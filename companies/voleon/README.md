@@ -8,11 +8,11 @@ How Voleon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../voleon.md) |
+| Questions reported | [7](../voleon.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
-| Other guides | 0 |
-| Most recent sighting | Oct 26, 2024 |
+| Other guides | 3 |
+| Most recent sighting | Sep 14, 2026 |
 
 ## How Voleon interviews
 
@@ -27,9 +27,17 @@ No written process guide yet. [The loop, as reported](../voleon.md#the-loop-as-r
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
 | [Flipping Balls with Moving Marked Positions](../../questions/algorithm/flipping-balls-with-moving-marked-positions/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) |
 
+## Guides
+
+| Guide | Tags |
+| :-- | :-- |
+| [Bound R-Squared for Individual and Combined OLS Regressions](guides/bound-r-squared-for-individual-and-combined-ols-regressions.md) | — |
+| [Reason About Train and Test Loss Under Regularization and More Data](guides/reason-about-train-and-test-loss-under-regularization-and-more-data.md) | — |
+| [Row and Column Sums: Square Matrices and Nilpotence](guides/row-and-column-sums-square-matrices-and-nilpotence.md) | — |
+
 ## Everything else
 
-- [All 5 questions reported at Voleon](../voleon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at Voleon](../voleon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Voleon question on TrueInterview](https://trueinterview.io/problems/company/voleon).
 
 ---

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · Bloomberg · ByteDance · Datadog · Meta · +4 | Phone screen | — | Mar 2026 |
+| Algorithm | Easy | Apple · Amazon · Bloomberg · ByteDance · Datadog · Meta · +5 | Phone screen | strings, hashing, sliding-window | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/longest-substring-without-repeating-characters)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -44,21 +44,21 @@ Output: `1`
 <details>
 <summary>Hint 1</summary>
 
-Think of a sliding window that expands and contracts to maintain a set of unique characters—the window's right pointer moves forward, and the left pointer jumps to after the last occurrence of a repeated character.
+This is the classic sliding window problem where you maintain a window of characters with no repeats, expanding the right end and shrinking the left when a duplicate appears.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hash map to store the most recent index of each character, so you can quickly update the left boundary when a duplicate is found.
+Use a hash map or set to track the last occurrence index of each character, so you can quickly move the left pointer past the duplicate.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The time complexity is O(n) with O(min(n, alphabet size)) space, and the trickiest edge case is when the string is empty or contains only one character.
+The constraints are small (length ≤ 1000), so even an O(n^2) solution might pass, but aim for O(n) with the sliding window.
 
 </details>
 
@@ -68,7 +68,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Datadog](../../../companies/datadog/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Snapchat](../../../companies/snapchat/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Datadog](../../../companies/datadog/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Netflix](../../../companies/netflix/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Snapchat](../../../companies/snapchat/README.md)
 
 ---
 

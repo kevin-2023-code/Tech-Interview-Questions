@@ -11,7 +11,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 | Questions reported | [63](../anthropic.md) |
 | Free to read here | 7 |
 | Interview-process guides | 6 |
-| Other guides | 3 |
+| Other guides | 5 |
 | Most recent sighting | Jun 21, 2026 |
 
 ## How Anthropic interviews
@@ -53,7 +53,9 @@ This guide goes deeper than the short outline on the Anthropic company page: wha
 | Guide | Tags |
 | :-- | :-- |
 | [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md) | ai-safety, critical-thinking, culture, values |
+| [Explain How You Resolved a Professional Conflict](guides/explain-how-you-resolved-a-professional-conflict.md) | — |
 | [Hiring Manager Round — Behavioral & Collaboration](guides/onsite-hm-behavioral.md) | collaboration, impact, leadership, mentorship |
+| [Reason About Delaying an AI Breakthrough Under Uncertain Risk](guides/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk.md) | — |
 | [Recruiter Screen — Why Anthropic Deep-Dive](guides/recruiter-screen-why-anthropic.md) | ai-safety |
 
 ## Everything else

@@ -45,11 +45,13 @@ Which stage each question came from, for the **3 of 3** questions at Bobyard tha
 
 ## What they ask about
 
-Of the **1 question at Bobyard that carries a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Bobyard that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `trees` | 1 | 100% | ████████████ | — |
+| `trees` | 2 | 67% | ████████████ | Aug 13, 2026 |
+| `hashing` | 1 | 33% | ██████ | Aug 13, 2026 |
+| `sorting` | 1 | 33% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -12,9 +12,6 @@
 
 ## Problem
 
-Circular Light Flip
-Medium · Topics · Company Tags · Hints
-
 Consider `n` lights placed around a circle, labeled `0` through `n-1`. Each light is either **off** (`0`) or **on** (`1`). Initially all lights are off.
 
 Some positions are equipped with toggles. You are given the list `initial` of the starting indices of these toggles.  

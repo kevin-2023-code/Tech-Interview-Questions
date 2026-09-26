@@ -35,7 +35,6 @@ Infrastructure candidates arrive braced for the distributed-systems round and ar
 One to two live coding hours at the hard end of medium, with the second part carrying the grade. Networking and bit-level fluency is assumed rather than taught: subnet arithmetic without slowly counting bits, and masking, tries or prefix elimination without hints. Signal is lost by finishing part one late and by treating the escalation as an afterthought — one candidate solved the CIDR base case cleanly, offered sorting by prefix length for the elimination follow-up, and was rejected despite completing every stated task.
 
 - [Firewall CIDR Rules](https://trueinterview.io/questions/firewall-cidr-rules)
-- [CIDR](../../questions/algorithm/ip-cidr-range-query/README.md)
 - [Integer Stream Encoder/Decoder](https://trueinterview.io/questions/integer-stream-encoder-decoder)
 - [SQL Query Plan Optimizer](https://trueinterview.io/questions/sql-query-plan-optimizer)
 
@@ -85,7 +84,7 @@ Third: the packet after the interviews. References are collected before the deci
 
 ## Data Source
 
-Based on 49 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 68 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

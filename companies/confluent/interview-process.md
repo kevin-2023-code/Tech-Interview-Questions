@@ -53,7 +53,6 @@ Low-level design at Confluent arrives as a small class that must stay correct un
 - [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b)
 - [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52)
 - [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e)
-- [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a)
 
 ## How to Prepare
 

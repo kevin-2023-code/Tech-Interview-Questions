@@ -8,10 +8,10 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [170](../bytedance.md) |
-| Free to read here | 21 |
+| Questions reported | [166](../bytedance.md) |
+| Free to read here | 20 |
 | Interview-process guides | 5 |
-| Other guides | 11 |
+| Other guides | 9 |
 | Most recent sighting | Sep 06, 2026 |
 
 ## How ByteDance interviews
@@ -38,7 +38,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Free ByteDance questions
 
-21 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -53,7 +53,6 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
-| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
@@ -70,11 +69,9 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | :-- | :-- |
 | [AI Agent Intern Technical Questions](guides/ai-agent-intern-oral-fundamentals.md) | agents, evaluation, networking, operating-systems, troubleshooting |
 | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](guides/backend-fundamentals-oral-cluster.md) | concurrency, database, distributed-systems, verbal |
-| [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/study/d29e18c6-5bb1-4eb6-844c-87669be7d92f) | — |
 | [Data Engineering Experience Screen](guides/data-engineering-experience-screen.md) | database |
 | [Dropout, Overfitting, Normalization, Loss Functions](guides/ml-knowledge-oral-cluster.md) | attention, ml-knowledge, transformer, verbal |
 | [Hiring Manager / Final Behavioral Round](guides/hm-behavioral-final-round.md) | bq, deep-dive, fit, leadership, star |
-| [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/study/7407f837-dc41-46fe-8a55-3168b8b48b85) | — |
 | [Motivation, Ambiguity, and Collaboration Screen](guides/motivation-ambiguity-collaboration-screen.md) | ambiguity, bq, fit |
 | [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md) | deep-dive, verbal, ai-safety, llm, ownership |
 | [RAG / Agent / Kafka Oral Drill](guides/rag-agent-kafka-oral-drill.md) | concurrency, kafka, llm-agent, networking, rag, redis, tool-use, verbal |
@@ -82,7 +79,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Everything else
 
-- [All 170 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 166 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every ByteDance question on TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 ---

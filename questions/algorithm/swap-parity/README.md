@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Palantir · SoFi | Phone screen | — | — |
+| Algorithm | Medium | Palantir · SoFi | Phone screen | greedy | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -37,6 +37,29 @@ Implement the function `getLargestNumber` in the editor.
 Input: num = "7596801"
 Output: "9758601"
 ```
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Since swaps are only allowed between adjacent digits of the same parity, odd and even digits cannot cross each other.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Treat the odd digits and even digits as two independent sequences that can be sorted individually.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+Sort the odd digits in descending order and the even digits in descending order, then merge them back into the original positions of odd/even digits.
+
+</details>
 
 ## Solution
 

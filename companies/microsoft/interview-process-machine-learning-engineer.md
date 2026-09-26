@@ -39,7 +39,6 @@ Machine Learning Engineer candidates at Microsoft are rejected on implementation
 One screen or a thread through several rounds. Breadth matters more than depth: classical ML, evaluation metrics, ensembles, attention, and fine-tuning methods in one conversation. Signal comes from tying each concept to a decision you made. The applied scientist candidate who received an offer called the difficulty moderate but warned that coverage depends heavily on the interviewer's background.
 
 - [Transformer Roofline + FP32/FP16 Drill](guides/transformer-roofline-fp-precision.md)
-- [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch)
 
 ### Coding and Algorithm
 
@@ -48,7 +47,6 @@ Two to three sessions, most of them ML-flavored implementations rather than list
 - [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans)
 - [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding)
 - [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 
 ### Domain Deep Dive
 

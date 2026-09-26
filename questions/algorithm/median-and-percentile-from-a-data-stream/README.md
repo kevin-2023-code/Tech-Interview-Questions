@@ -12,9 +12,6 @@
 
 ## Problem
 
-Median and Percentile in a Data Stream
-Hard · Topics · Company Tags · Hints
-
 Design a data structure that continuously receives integers and can report the median of all numbers that have been added so far, on demand.
 
 For an odd number of collected values, the median is the middle element when sorted. For an even count, the median is the arithmetic mean of the two middle elements (i.e., their sum divided by two).

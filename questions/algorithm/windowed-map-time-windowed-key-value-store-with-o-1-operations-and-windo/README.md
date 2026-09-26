@@ -12,9 +12,6 @@
 
 ## Problem
 
-Windowed Key-Value Store
-Medium · Topics · Company Tags · Hints
-
 Design a time-windowed key-value store that retains only the entries updated within a specified duration `W` from the current moment. Updates can occur at arbitrary times, and the system must automatically discard entries that fall outside the window. Expired entries should be invisible to read operations and must be removed from memory to prevent unbounded growth.
 
 You must implement the following three methods. The interviewer expects **worst‑case O(1)** time for each operation.

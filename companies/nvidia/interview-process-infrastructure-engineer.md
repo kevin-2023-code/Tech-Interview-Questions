@@ -39,7 +39,6 @@ One problem per round, 15 to 20 minutes in the reported onsites, and consistentl
 - [Systems Utility Coding: Temperature Spike, Logs, Brackets](https://trueinterview.io/questions/systems-utility-coding)
 - [String Encoding / Decoding Variants](https://trueinterview.io/questions/string-encoding-decoding)
 - [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 
 ### System Design
 

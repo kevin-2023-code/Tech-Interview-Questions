@@ -11,7 +11,7 @@ How Figma interviews, and the questions candidates reported there. Free question
 | Questions reported | [18](../figma.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 1 |
 | Most recent sighting | Aug 12, 2026 |
 
 ## How Figma interviews
@@ -45,7 +45,6 @@ Figma's question pool is unusually narrow — one document-and-layers exercise a
 
 | Guide | Tags |
 | :-- | :-- |
-| [Deep Dive — What Happens When You Access a URL](guides/deep-dive-url-request-lifecycle.md) | cs-fundamentals, http, networking, open-ended |
 | [Hiring Manager Behavioral](guides/hiring-manager-behavioral.md) | conflict, deep-dive, ownership, presentation, project-retro, why-company |
 
 ## Everything else

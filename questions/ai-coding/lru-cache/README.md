@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Medium | Apple · Amazon · ByteDance · Meta · Microsoft · PayPal · +2 | Phone screen | hashing, linked-list | Apr 2026 |
+| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · Meta · Microsoft · +3 | Phone screen | hashing, linked-list | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lru-cache)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
@@ -85,7 +85,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [PayPal](../../../companies/paypal/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Shopify](../../../companies/shopify/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [PayPal](../../../companies/paypal/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Shopify](../../../companies/shopify/README.md)
 
 ---
 

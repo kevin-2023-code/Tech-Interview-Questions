@@ -39,8 +39,7 @@ Coding stays in mainstream families (linked lists, grids, trees, intervals, calc
 - [Reverse Nodes in K-Group (incomplete tail variant)](https://trueinterview.io/questions/reverse-nodes-in-k-group)
 - [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii)
 - [Number of Islands and Grid BFS Variants](https://trueinterview.io/questions/number-of-islands-family)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
-- [Word Search II](../../questions/algorithm/word-search-ii/README.md)
+- [Word Search II](https://trueinterview.io/questions/word-search-ii)
 - [Zigzag (Alternating-Parity) Subarrays](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-zigzag-alternating-parity-subarrays)
 
 ## System Design Questions
@@ -64,7 +63,6 @@ Structure design lives inside coding rounds: caches with TTL or LFU extensions, 
 
 Some teams now let you code with your own AI tool while sharing your screen. The grade depends on working code and complete tests, and one candidate who left the tests unfinished was rejected the same day.
 
-- [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store)
 - [LRU Cache](../../questions/ai-coding/lru-cache/README.md)
 - [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset)
 

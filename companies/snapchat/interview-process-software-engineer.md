@@ -69,7 +69,6 @@ Applies when the team is mobile, and grades working code and platform judgment t
 
 Never a full hour, always present — 5 to 15 minutes bolted to each technical round, so the compressed version of your story gets used far more than the long one. Interviewers press for a concrete incident and its outcome rather than a philosophy of teamwork; recurring themes are disagreement handling, cross-functional collaboration and trade-offs under deadline.
 
-- [First Discovery and Resolution of Critical Project Bug](https://trueinterview.io/questions/cbb98e2c-2461-49dd-933a-1741e0c81985)
 
 ## What They Don't Test
 

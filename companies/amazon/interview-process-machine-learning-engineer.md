@@ -59,7 +59,6 @@ One or two segments, easy to medium, often in the first round. Reported problems
 
 - [Course Schedule](../../questions/algorithm/course-schedule/README.md)
 - [Sliding-Window Ad Click Counter](https://trueinterview.io/questions/ea41a698-48dd-51f0-92ce-3f9a925b628a)
-- [Hash Table Lookup with Simple Follow-ups](https://trueinterview.io/questions/1ec3d488-2ee5-489b-9ef9-544a6659dfd5)
 
 ### Project Deep Dive
 

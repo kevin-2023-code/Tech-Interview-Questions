@@ -9,9 +9,9 @@ How Google interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [190](../google.md) |
-| Free to read here | 21 |
+| Free to read here | 20 |
 | Interview-process guides | 3 |
-| Other guides | 7 |
+| Other guides | 5 |
 | Most recent sighting | Sep 10, 2026 |
 
 ## How Google interviews
@@ -38,7 +38,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 
 ## Free Google questions
 
-21 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -50,7 +50,6 @@ This is the in-depth companion to the Google company page. It covers how each st
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Count Paths That Can Form a Palindrome in a Tree](../../questions/algorithm/count-paths-that-can-form-a-palindrome-in-a-tree/README.md) | Algorithm | Hard | Online assessment, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
-| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
@@ -71,8 +70,6 @@ This is the in-depth companion to the Google company page. It covers how each st
 | [Behavioral Round (Googliness Themes)](guides/bq-round-google-style.md) | culture-fit |
 | [CPU Architecture and Simulator Design Deep Dive](guides/cpu-architecture-simulator-deep-dive.md) | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
 | [Google Hiring Assessment (GHA / Work Styles)](guides/google-hiring-assessment-gha.md) | culture-fit |
-| [Heap Problem](https://trueinterview.io/study/f1466cd0-7903-4d56-af58-59263940b493) | — |
-| [Importance of Personality Traits in Workplace Success](https://trueinterview.io/study/1ef211c1-b8ca-4b34-b1c1-2cfdaea06646) | — |
 | [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](guides/ml-fundamentals-deep-dive.md) | deep-dive, ml-knowledge, rag, retrieval, transformer |
 | [Research Paper Presentation and Defense (DeepMind RS)](guides/deepmind-rs-paper-presentation-defense.md) | critique, deep-dive, presentation, vlm |
 

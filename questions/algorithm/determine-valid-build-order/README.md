@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Airtable | Phone screen | — | — |
+| Algorithm | Medium | Airtable | Phone screen | topological-sort | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -36,6 +36,29 @@ Both outputs are valid because file `0` precedes files `1` and `2`, and file `3`
 ## Note
 - `1 <= n <= 10^4`
 - The dependency relationships are guaranteed to contain no cycles.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+This is a classic topological ordering problem, think of dependencies as edges in a directed graph.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Use Kahn's algorithm (indegree counting with a queue) or DFS with post-order to produce a valid order.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+If the graph contains a cycle (processes depend on each other), return an empty array—detect this via visited states or counting processed nodes.
+
+</details>
 
 ## Solution
 

@@ -42,14 +42,20 @@ Which stage each question came from, for the **15 of 15** questions at Hudson Ri
 
 ## What they ask about
 
-Of the **5 questions at Hudson River Trading that carry a topic label** (33% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Hudson River Trading that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 40% | ████████████ | — |
-| `binary-search` | 1 | 20% | ██████ | May 01, 2026 |
-| `graphs` | 1 | 20% | ██████ | — |
-| `hashing` | 1 | 20% | ██████ | — |
+| `arrays` | 2 | 20% | ████████████ | — |
+| `backtracking` | 1 | 10% | ██████ | Oct 16, 2025 |
+| `binary-search` | 1 | 10% | ██████ | May 01, 2026 |
+| `bit-manipulation` | 1 | 10% | ██████ | — |
+| `graphs` | 1 | 10% | ██████ | — |
+| `hashing` | 1 | 10% | ██████ | — |
+| `math` | 1 | 10% | ██████ | — |
+| `sorting` | 1 | 10% | ██████ | — |
+| `stack` | 1 | 10% | ██████ | — |
+| `strings` | 1 | 10% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

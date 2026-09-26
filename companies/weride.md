@@ -46,20 +46,20 @@ Which stage each question came from, for the **20 of 20** questions at Weride th
 
 ## What they ask about
 
-Of the **15 questions at Weride that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **20 questions at Weride that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 20% | ████████████ | — |
-| `math` | 3 | 20% | ████████████ | — |
-| `stack` | 2 | 13% | ████████ | Feb 07, 2026 |
-| `strings` | 2 | 13% | ████████ | Feb 07, 2026 |
-| `backtracking` | 1 | 7% | ████ | — |
-| `dynamic-programming` | 1 | 7% | ████ | — |
-| `greedy` | 1 | 7% | ████ | — |
-| `hashing` | 1 | 7% | ████ | — |
-| `heap` | 1 | 7% | ████ | Jul 29, 2026 |
-| `sliding-window` | 1 | 7% | ████ | — |
+| `math` | 4 | 20% | ████████████ | — |
+| `graphs` | 3 | 15% | █████████ | — |
+| `dynamic-programming` | 2 | 10% | ██████ | — |
+| `hashing` | 2 | 10% | ██████ | Mar 17, 2026 |
+| `stack` | 2 | 10% | ██████ | Feb 07, 2026 |
+| `strings` | 2 | 10% | ██████ | Feb 07, 2026 |
+| `arrays` | 1 | 5% | ███ | Mar 17, 2026 |
+| `backtracking` | 1 | 5% | ███ | — |
+| `greedy` | 1 | 5% | ███ | — |
+| `heap` | 1 | 5% | ███ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -81,7 +81,7 @@ The 8 questions to open first if you are preparing for Weride, ranked by **the m
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
 | **2** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) 🆓 | Algorithm | Easy | 6 | Mar 17, 2026 |
-| **3** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 10 | Feb 07, 2026 |
+| **3** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 11 | Feb 07, 2026 |
 | **4** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
 | **5** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
 | **6** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |

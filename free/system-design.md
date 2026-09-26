@@ -2,7 +2,7 @@
 
 # Free System Design questions
 
-**12 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**20 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -11,12 +11,20 @@
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | Easy | Apr 12, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | Easy | Mar 24, 2026 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | Easy | Oct 29, 2025 |
+| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🔥 Sep 15, 2026 |
+| [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | **Cursor** | Easy | Apr 07, 2026 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Easy | 🔥 Sep 17, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | Medium | Jan 14, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | Medium | Feb 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | Medium | Jan 22, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | Medium | Jun 11, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | **Reddit / Atlassian / Meta** | Medium | Apr 02, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | **Databricks / Square** | Medium | Apr 06, 2026 |
+| [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | **Cohere** | Medium | 🔥 Sep 15, 2026 |
+| [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | **AMD** | Medium | 🔥 Sep 14, 2026 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | **Stripe / Affirm / Robinhood / Roblox / Uber** | Hard | Oct 26, 2025 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | **Databricks / Apple / Google / Oracle / Tesla** | Hard | May 03, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | **Robinhood / Coinbase / Databricks / Square** | Hard | Apr 2026 |
+| [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor** | Hard | Apr 07, 2026 |
+| [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |
+| [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |

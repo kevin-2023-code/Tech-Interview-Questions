@@ -12,7 +12,7 @@ How Applied Intuition interviews, and the questions candidates reported there. F
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Apr 28, 2026 |
+| Most recent sighting | Jun 17, 2026 |
 
 ## How Applied Intuition interviews
 

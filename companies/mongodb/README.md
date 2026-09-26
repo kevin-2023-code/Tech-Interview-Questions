@@ -43,7 +43,7 @@ Grading in this round is visibly multi-part. Candidates were asked to trace thei
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Implement a Bounded Concurrent Web Crawler](../../questions/algorithm/implement-a-bounded-concurrent-web-crawler/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) |
-| [Minimum XOR Sum of Two Arrays](../../questions/algorithm/minimum-xor-sum-of-two-arrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) |
+| [Minimum XOR Sum of Two Arrays](../../questions/algorithm/minimum-xor-sum-of-two-arrays/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) |
 
 ## Everything else
 

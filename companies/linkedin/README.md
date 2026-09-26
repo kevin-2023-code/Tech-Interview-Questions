@@ -9,7 +9,7 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [55](../linkedin.md) |
-| Free to read here | 6 |
+| Free to read here | 5 |
 | Interview-process guides | 4 |
 | Other guides | 1 |
 | Most recent sighting | Jul 29, 2026 |
@@ -38,13 +38,12 @@ The design round is data-intensive but often deliberately scoped down rather tha
 
 ## Free LinkedIn questions
 
-6 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
-| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
 | [Intersection of Two Linked Lists](../../questions/algorithm/intersection-of-two-linked-lists/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/intersection-of-two-linked-lists) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |

@@ -37,14 +37,11 @@ Every frontend round reported so far included coding, usually one or two medium 
 - [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree)
 - [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k)
 - [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 
 ### Domain Deep Dive
 
 The frontend-specific signal comes from short oral questions and snippet reading, not from a separate build exercise. Reported topics: CSS layout, event-loop ordering of promises versus timers, closure execution order, and React hook semantics and bugs in a small component. The questions sound elementary, but answers are graded on precision. Saying "microtasks first" without explaining why a promise callback runs before a zero-delay timer counts as a gap. Explaining centring or lazy loading in general terms without the trade-offs reads as someone who uses a framework rather than the platform underneath it.
 
-- [Implementing Lazy Loading: Steps, Optimizations, and Performance Issues](https://trueinterview.io/questions/7407f837-dc41-46fe-8a55-3168b8b48b85)
-- [Centering a Div in a Web Page: Two Methods Explained](https://trueinterview.io/questions/d29e18c6-5bb1-4eb6-844c-87669be7d92f)
 
 ### Low-Level Design
 
@@ -77,7 +74,7 @@ The third filter comes after you have done well. Frontend candidates report hear
 
 ## Data Source
 
-Based on 91 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 90 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

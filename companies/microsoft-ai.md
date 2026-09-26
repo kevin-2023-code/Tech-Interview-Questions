@@ -47,14 +47,16 @@ Which stage each question came from, for the **13 of 13** questions at Microsoft
 
 ## What they ask about
 
-Of the **3 questions at Microsoft AI that carry a topic label** (23% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Microsoft AI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 33% | ████████████ | — |
-| `graphs` | 1 | 33% | ████████████ | — |
-| `hashing` | 1 | 33% | ████████████ | — |
-| `heap` | 1 | 33% | ████████████ | Jul 29, 2026 |
+| `heap` | 2 | 40% | ████████████ | Jul 29, 2026 |
+| `arrays` | 1 | 20% | ██████ | — |
+| `graphs` | 1 | 20% | ██████ | — |
+| `hashing` | 1 | 20% | ██████ | — |
+| `strings` | 1 | 20% | ██████ | Mar 03, 2026 |
+| `tries` | 1 | 20% | ██████ | Mar 03, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

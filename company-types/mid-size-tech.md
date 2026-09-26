@@ -2,7 +2,7 @@
 
 # 🏤 Mid-sized tech (200–999) — interview & OA questions
 
-**76 questions** reported across the **9 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**81 questions** reported across the **10 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,46 +10,50 @@
 
 ## The companies in this cut
 
-[Perplexity (22)](../companies/perplexity.md) · [Harvey (13)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md)
+[Perplexity (23)](../companies/perplexity.md) · [Harvey (15)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md) · [Cohere (2)](../companies/cohere.md)
 
-<sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
+<sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
 ## What this cut asks
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 38 | 50% | ██████████████ | 9 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 20 | 26% | ███████ | 6 |
-| [System Design](../formats/system-design.md) | 13 | 17% | █████ | 3 |
-| [AI Coding](../formats/ai-coding.md) | 5 | 7% | ██ | 0 |
+| [Algorithm](../formats/algorithm.md) | 41 | 51% | ██████████████ | 10 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 20 | 25% | ███████ | 6 |
+| [System Design](../formats/system-design.md) | 15 | 19% | █████ | 4 |
+| [AI Coding](../formats/ai-coding.md) | 5 | 6% | ██ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **4 / 62 / 10**, over the rows the catalog has graded. 18 of the 76 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **4 / 65 / 12**, over the rows the catalog has graded. 20 of the 81 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **31 questions in this cut that carry a topic label** (41% of it):
+Of the **44 questions in this cut that carry a topic label** (54% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 7 | 23% | ████████████ |
-| `trees` | 7 | 23% | ████████████ |
-| `graphs` | 6 | 19% | ██████████ |
-| `strings` | 5 | 16% | █████████ |
-| `tries` | 4 | 13% | ███████ |
-| `backtracking` | 3 | 10% | █████ |
-| `math` | 3 | 10% | █████ |
-| `sorting` | 3 | 10% | █████ |
-| `arrays` | 2 | 6% | ███ |
-| `binary-search` | 2 | 6% | ███ |
+| `hashing` | 13 | 30% | ████████████ |
+| `strings` | 8 | 18% | ███████ |
+| `graphs` | 7 | 16% | ██████ |
+| `trees` | 7 | 16% | ██████ |
+| `intervals` | 4 | 9% | ████ |
+| `topological-sort` | 4 | 9% | ████ |
+| `tries` | 4 | 9% | ████ |
+| `arrays` | 3 | 7% | ███ |
+| `backtracking` | 3 | 7% | ███ |
+| `math` | 3 | 7% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**7 sightings** across this cut. Newest first.
+**11 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Cohere | System Design | Sep 15, 2026 |
+| [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Cohere | Algorithm | Sep 15, 2026 |
+| [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Harvey | Algorithm | Sep 01, 2026 |
+| [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Harvey | System Design | Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Harvey | Algorithm | Aug 09, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
@@ -66,6 +70,10 @@ Of the **31 questions in this cut that carry a topic label** (41% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🔥 Sep 15, 2026 |
+| **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🔥 Sep 15, 2026 |
+| **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Hard | 🆕 Sep 01, 2026 |
+| **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |
 | **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | Aug 09, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
@@ -100,6 +108,7 @@ Of the **31 questions in this cut that carry a topic label** (41% of it):
 | **Vanta** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Hard | Jul 31, 2025 |
 | **Vanta** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Medium | Jul 24, 2025 |
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
+| **Perplexity** | [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809) | Hard | — |
 | **Rokt** | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | Medium | — |
 | **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
 | **Airtable** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Medium | — |

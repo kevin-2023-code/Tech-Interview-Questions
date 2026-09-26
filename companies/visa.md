@@ -42,15 +42,15 @@ Which stage each question came from, for the **15 of 15** questions at Visa that
 
 ## What they ask about
 
-Of the **12 questions at Visa that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Visa that carry a topic label** (87% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `binary-search` | 2 | 17% | ████████████ | — |
-| `dynamic-programming` | 2 | 17% | ████████████ | — |
-| `two-pointers` | 2 | 17% | ████████████ | — |
+| `binary-search` | 2 | 15% | ████████████ | — |
+| `dynamic-programming` | 2 | 15% | ████████████ | — |
+| `graphs` | 2 | 15% | ████████████ | — |
+| `two-pointers` | 2 | 15% | ████████████ | — |
 | `bit-manipulation` | 1 | 8% | ██████ | — |
-| `graphs` | 1 | 8% | ██████ | — |
 | `greedy` | 1 | 8% | ██████ | — |
 | `hashing` | 1 | 8% | ██████ | — |
 | `sliding-window` | 1 | 8% | ██████ | — |

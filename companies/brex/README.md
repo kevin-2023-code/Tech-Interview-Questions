@@ -24,7 +24,7 @@ No written process guide yet. [The loop, as reported](../brex.md#the-loop-as-rep
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [React UI: Multi-select Color Dropdown and Selected Properties Table](../../questions/object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) |
+| [React UI: Multi-select Color Dropdown and Selected Properties Table](../../questions/object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) |
 | [Card Game Gem Affordability and Discount Calculation Functions](../../questions/algorithm/card-game-gem-affordability-and-discount-calculation-functions/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) |
 
 ## Guides

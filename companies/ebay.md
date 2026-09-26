@@ -46,19 +46,20 @@ Which stage each question came from, for the **30 of 30** questions at Ebay that
 
 ## What they ask about
 
-Of the **15 questions at Ebay that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Ebay that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 6 | 40% | ████████████ | Aug 21, 2026 |
-| `strings` | 4 | 27% | ████████ | Jun 12, 2026 |
-| `hashing` | 3 | 20% | ██████ | — |
-| `graphs` | 2 | 13% | ████ | — |
-| `binary-search` | 1 | 7% | ██ | Aug 21, 2026 |
-| `heap` | 1 | 7% | ██ | — |
-| `intervals` | 1 | 7% | ██ | — |
-| `sliding-window` | 1 | 7% | ██ | — |
-| `topological-sort` | 1 | 7% | ██ | Jun 04, 2026 |
+| `arrays` | 8 | 42% | ████████████ | Aug 21, 2026 |
+| `strings` | 6 | 32% | █████████ | Jun 12, 2026 |
+| `hashing` | 4 | 21% | ██████ | Mar 17, 2026 |
+| `graphs` | 2 | 11% | ███ | — |
+| `binary-search` | 1 | 5% | ██ | Aug 21, 2026 |
+| `dynamic-programming` | 1 | 5% | ██ | — |
+| `heap` | 1 | 5% | ██ | — |
+| `intervals` | 1 | 5% | ██ | — |
+| `math` | 1 | 5% | ██ | — |
+| `sliding-window` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

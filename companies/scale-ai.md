@@ -2,7 +2,7 @@
 
 # Scale AI interview process, OA & interview questions
 
-**12 questions** reported at Scale AI · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
+**12 questions** reported at Scale AI · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Scale AI interviews & the free questions](scale-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (58% of 12) |
 | Difficulty (easy / medium / hard) | 0 / 8 / 4 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 4 |
 
 <sub>Counted from the 12 questions reported at Scale AI. 8 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -41,12 +41,16 @@ Which stage each question came from, for the **12 of 12** questions at Scale AI 
 
 ## What they ask about
 
-Of the **2 questions at Scale AI that carry a topic label** (17% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Scale AI that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `heap` | 1 | 50% | ████████████ | Jun 14, 2026 |
-| `matrix` | 1 | 50% | ████████████ | May 01, 2026 |
+| `heap` | 1 | 20% | ████████████ | Jun 14, 2026 |
+| `intervals` | 1 | 20% | ████████████ | Mar 29, 2026 |
+| `math` | 1 | 20% | ████████████ | Jun 16, 2026 |
+| `matrix` | 1 | 20% | ████████████ | May 01, 2026 |
+| `sorting` | 1 | 20% | ████████████ | Mar 29, 2026 |
+| `topological-sort` | 1 | 20% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -80,13 +84,11 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 
 ## Guides & writeups
 
-**6 writeups** filed under Scale AI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under Scale AI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Credo Behavioral and Customer Engagement](https://trueinterview.io/study/credo-behavioral-and-customer-engagement) | — |
-| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/study/147c9781-846f-407b-a3e9-cb2f61ae898d) | — |
-| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/study/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | — |
 | [LLM Post-Training Theory Conversation](https://trueinterview.io/study/llm-post-training-theory-conversation) | domain-knowledge, ml-knowledge, transformer |
 | [Project Deep Dive and Paper Presentation](https://trueinterview.io/study/project-deep-dive-and-paper-presentation) | domain-knowledge, ml-knowledge |
 | [Scale AI Interview Process & Questions](https://trueinterview.io/study/scale-ai-interview-process) | — |

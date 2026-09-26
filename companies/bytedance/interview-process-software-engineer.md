@@ -39,7 +39,7 @@ Every loop has at least one coding hour, and most rounds include coding. Difficu
 - [Reverse Nodes in K-Group (incomplete tail variant)](https://trueinterview.io/questions/reverse-nodes-in-k-group)
 - [Remove Duplicate Letters for Lexicographically Smallest Result](https://trueinterview.io/questions/remove-duplicate-letters-lexicographically-smallest)
 - [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii)
-- [Word Search II](../../questions/algorithm/word-search-ii/README.md)
+- [Word Search II](https://trueinterview.io/questions/word-search-ii)
 
 ### Low-Level Design
 
@@ -88,7 +88,7 @@ The third filter is time lost in rounds that feel easy. Solid candidates were re
 
 ## Data Source
 
-Based on 91 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 90 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

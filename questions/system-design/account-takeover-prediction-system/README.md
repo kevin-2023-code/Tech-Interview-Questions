@@ -12,9 +12,6 @@
 
 ## Problem
 
-Account Takeover Detection System for a Payment API Platform
-Hard · Topics · Company Tags · Hints
-
 A payment API platform manages accounts that store sensitive secrets — API keys, saved payment methods, and bank transfer permissions. When an attacker compromises an account through credential theft, phishing, or a SIM swap, they can drain funds, reroute payouts, or exfiltrate customer data before detection. The challenge is to catch the takeover at the instant the attacker attempts a hazardous action, without disrupting legitimate users who travel, switch devices, or alter their workflows.
 
 I would first clarify the principal detection entry point. For a payments API company, the highest-return entry point is not login — it is the moment a sensitive operation is attempted: changing a payment method, initiating a high‑value transfer, rotating an API key. Attackers who obtain credentials via phishing or SIM swap may sign in cleanly and act hours later; scoring only at login misses them.

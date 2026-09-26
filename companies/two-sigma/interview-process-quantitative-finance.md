@@ -77,7 +77,7 @@ The third is assuming the technical rounds decide it. Rejections arrive after th
 
 ## Data Source
 
-Based on 19 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 18 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

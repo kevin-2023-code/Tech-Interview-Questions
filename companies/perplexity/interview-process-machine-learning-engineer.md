@@ -32,7 +32,6 @@ The most common way a Machine Learning Engineer candidate is eliminated here is 
 
 Theory is tested for derivation depth, not vocabulary. The recruiter-stage transformer question went past "it encodes token order" into the sinusoidal formulation and the reason for using different frequency bands, and the onsite attention chain asked for the online softmax update equations rather than the name of the trick. The failure mode is consistent and specific: candidates who can describe a mechanism cannot always produce it, and the second follow-up is where that gap opens. The chained structure of the onsite compounds it — a shaky account of the trivial MapReduce base case undermines every later step, because each step is justified in terms of the one before. Written assessments in this organization apply the same standard to adjacent theory, asking for byte-level tokenization behavior reproduced exactly and a corpus token count estimated to a stated confidence interval from a capped sample.
 
-- [Map-Reduce and Blockwise Attention](guides/map-reduce-and-blockwise-attention.md)
 - [Optimize Byte Tokenization and Estimate Token Count](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3)
 
 ### Coding and Algorithm

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Coinbase | Onsite / virtual onsite | — | May 2026 |
+| Algorithm | Medium | Coinbase | Onsite / virtual onsite | trees, graphs, greedy, sorting | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/mining-block)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -160,21 +160,21 @@ If `tx3` and `tx4` are initially assessed separately, both paths pay for `tx1` a
 <details>
 <summary>Hint 1</summary>
 
-This is a classic knapsack problem where each transaction has a size and a fee, and you want to maximize total fee under a capacity constraint.
+This is a classic knapsack problem: each transaction has a size (weight) and fee (value), and you want to maximize fee within capacity.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use dynamic programming with a 1D array for capacity, iterating over transactions and updating from high to low capacity to avoid reuse.
+Since sizes and capacity may be large, consider using a greedy approach based on fee density (fee/size) if you can take fractions, but here it's 0/1 knapsack so use dynamic programming or approximation.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The optimal solution is O(n * capacity) time and O(capacity) space, be careful with large capacities—consider if a greedy approach could work for your specific constraints.
+For Part 2 with dependencies (a transaction can only be included if its parent is included), model it as a tree and use DP on the tree with knapsack merging per node.
 
 </details>
 

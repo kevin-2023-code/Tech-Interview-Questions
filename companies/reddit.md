@@ -2,7 +2,7 @@
 
 # Reddit interview process, OA & interview questions
 
-**25 questions** reported at Reddit · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
+**26 questions** reported at Reddit · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Reddit interviews & the free questions](reddit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **25** |
+| Questions tracked | **26** |
 | Most recent sighting | Jun 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (44% of 25) |
-| Difficulty (easy / medium / hard) | 2 / 16 / 7 |
-| Free to practise | [5](../free/README.md) |
+| Most common format | [System Design](../formats/system-design.md) (42% of 26) |
+| Difficulty (easy / medium / hard) | 2 / 17 / 7 |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 25 questions reported at Reddit. 20 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 26 questions reported at Reddit. 21 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **25 of 25** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **26 of 26** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 18 | ██████████ | [System Design](../formats/system-design.md) (61%) | 1 / 12 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 13 | ███████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 11 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 19 | ██████████ | [System Design](../formats/system-design.md) (58%) | 1 / 13 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,18 +42,20 @@ Which stage each question came from, for the **25 of 25** questions at Reddit th
 
 ## What they ask about
 
-Of the **7 questions at Reddit that carry a topic label** (28% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Reddit that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 43% | ████████████ | Jun 23, 2026 |
-| `graphs` | 2 | 29% | ████████ | Feb 19, 2026 |
-| `strings` | 2 | 29% | ████████ | Jun 23, 2026 |
-| `backtracking` | 1 | 14% | ████ | Feb 19, 2026 |
-| `linked-list` | 1 | 14% | ████ | Mar 01, 2026 |
-| `sorting` | 1 | 14% | ████ | Jun 23, 2026 |
-| `trees` | 1 | 14% | ████ | Feb 17, 2026 |
-| `tries` | 1 | 14% | ████ | Feb 19, 2026 |
+| `strings` | 4 | 36% | ████████████ | Jun 23, 2026 |
+| `arrays` | 3 | 27% | █████████ | Jun 12, 2026 |
+| `graphs` | 3 | 27% | █████████ | May 12, 2026 |
+| `hashing` | 3 | 27% | █████████ | Jun 23, 2026 |
+| `backtracking` | 1 | 9% | ███ | Feb 19, 2026 |
+| `heap` | 1 | 9% | ███ | Jun 12, 2026 |
+| `linked-list` | 1 | 9% | ███ | Mar 01, 2026 |
+| `sliding-window` | 1 | 9% | ███ | Jun 12, 2026 |
+| `sorting` | 1 | 9% | ███ | Jun 23, 2026 |
+| `trees` | 1 | 9% | ███ | Feb 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -64,7 +66,7 @@ Every recorded sighting at Reddit, by the month it was reported in — Jul 21, 2
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ████████████████ |
-| [May 2026](../by-month/2026-05.md) | 2 | ████████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ████████████ |
@@ -81,9 +83,9 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | **3** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | — | Jun 12, 2026 |
 | **4** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
 | **5** | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | — | May 30, 2026 |
-| **6** | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | — | May 2026 |
-| **7** | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | 2 | Apr 17, 2026 |
-| **8** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
+| **6** | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | 1 | May 12, 2026 |
+| **7** | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | — | May 2026 |
+| **8** | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | 2 | Apr 17, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,6 +118,7 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | Jun 12, 2026 |
 | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Algorithm | Medium | Jun 12, 2026 |
 | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | May 30, 2026 |
+| [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | May 12, 2026 |
 | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | May 2026 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Apr 17, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |

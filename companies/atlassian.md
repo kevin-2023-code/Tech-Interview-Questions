@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**41 questions** reported at Atlassian · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**43 questions** reported at Atlassian · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Atlassian interviews & the free questions](atlassian/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **41** |
+| Questions tracked | **43** |
 | Most recent sighting | Apr 21, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (41% of 41) |
-| Difficulty (easy / medium / hard) | 11 / 26 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (42% of 43) |
+| Difficulty (easy / medium / hard) | 11 / 27 / 5 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 41 questions reported at Atlassian. 22 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 43 questions reported at Atlassian. 24 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **41 of 41** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **43 of 43** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 16 | ██████ | [Algorithm](../formats/algorithm.md) (56%) | 2 / 12 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 26 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (42%) | 4 / 18 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 29 | ██████████ | [System Design](../formats/system-design.md) (41%) | 5 / 19 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,20 +42,20 @@ Which stage each question came from, for the **41 of 41** questions at Atlassian
 
 ## What they ask about
 
-Of the **18 questions at Atlassian that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **20 questions at Atlassian that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 28% | ████████████ | Apr 21, 2026 |
-| `graphs` | 2 | 11% | █████ | Apr 21, 2026 |
-| `greedy` | 2 | 11% | █████ | Apr 01, 2026 |
-| `heap` | 2 | 11% | █████ | Feb 23, 2026 |
-| `sliding-window` | 2 | 11% | █████ | — |
-| `sorting` | 2 | 11% | █████ | — |
-| `arrays` | 1 | 6% | ██ | — |
-| `backtracking` | 1 | 6% | ██ | Feb 26, 2026 |
-| `dynamic-programming` | 1 | 6% | ██ | — |
-| `intervals` | 1 | 6% | ██ | Feb 23, 2026 |
+| `hashing` | 5 | 25% | ████████████ | Apr 21, 2026 |
+| `graphs` | 3 | 15% | ███████ | Apr 21, 2026 |
+| `greedy` | 3 | 15% | ███████ | Apr 01, 2026 |
+| `heap` | 2 | 10% | █████ | Feb 23, 2026 |
+| `sliding-window` | 2 | 10% | █████ | — |
+| `sorting` | 2 | 10% | █████ | — |
+| `two-pointers` | 2 | 10% | █████ | — |
+| `backtracking` | 1 | 5% | ██ | Feb 26, 2026 |
+| `dynamic-programming` | 1 | 5% | ██ | — |
+| `intervals` | 1 | 5% | ██ | Feb 23, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -69,9 +69,9 @@ Every recorded sighting at Atlassian, by the month it was reported in — Sep 12
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ████████ |
+| [Oct 2025](../by-month/2025-10.md) | 3 | ████████████ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | ████ |
 
 ## Start here
@@ -87,7 +87,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | **5** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | 13 | Mar 30, 2026 |
 | **6** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
 | **7** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 8 | Mar 23, 2026 |
-| **8** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Medium | 7 | Feb 26, 2026 |
+| **8** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Medium | 8 | Feb 26, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -127,17 +127,20 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | Object Oriented Programming | Medium | Feb 15, 2026 |
 | [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher) | Algorithm | Medium | Jan 30, 2026 |
 | [Product Feed and Shopping Recommendation System](https://trueinterview.io/questions/product-feed-and-shopping-recommendation-system) | System Design | Hard | Jan 05, 2026 |
+| [Snowy Mountain Path with Melting](https://trueinterview.io/questions/snowy-mountain-path-with-melting) | Algorithm | Hard | Dec 16, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |
 | [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow) | System Design | Easy | Nov 19, 2025 |
 | [Robot Parts Assembly](https://trueinterview.io/questions/robot-parts-assembly) | Algorithm | Easy | Nov 06, 2025 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | Object Oriented Programming | Medium | Oct 02, 2025 |
+| [Hopscotch](https://trueinterview.io/questions/hopscotch) | Algorithm | Medium | Oct 02, 2025 |
 | [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating) | Object Oriented Programming | Medium | Oct 02, 2025 |
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Object Oriented Programming | Medium | Sep 12, 2025 |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
+| [Design A Color Picker Service](https://trueinterview.io/questions/design-a-color-picker-service) | System Design | Easy | — |
 | [File Directory Tree UI with Expand/Collapse Functionality](https://trueinterview.io/questions/0e93c101-4680-4bdd-9fc6-779898a9e6ae) | AI Coding | Easy | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Trending (Moving) Average on Integer Stream](https://trueinterview.io/questions/80ba1fe6-a6cd-4143-b4d5-c0b0744e4dea) | Algorithm | Medium | — |
@@ -150,6 +153,5 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Agent Vote API Design](https://trueinterview.io/questions/acb7f800-86e4-4960-8ef2-15336c0c5562) | Object Oriented Programming | Medium | — |
 | [OOD Release Notification Service](https://trueinterview.io/questions/739ed936-8be9-4ea6-a5a3-58c71cfa16f1) | Object Oriented Programming | Easy | — |
 | [O(1) Data Structure Using Double Linked List](https://trueinterview.io/questions/03803768-eb29-4336-bf49-784383ae7338) | Object Oriented Programming | Medium | — |
-| [Find Maximum Stock Price](https://trueinterview.io/questions/25f42cec-e6c5-4261-87f3-f1c6d6c9efbb) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |

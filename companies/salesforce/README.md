@@ -8,11 +8,11 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [16](../salesforce.md) |
+| Questions reported | [51](../salesforce.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
-| Most recent sighting | Jul 26, 2026 |
+| Other guides | 4 |
+| Most recent sighting | Aug 24, 2026 |
 
 ## How Salesforce interviews
 
@@ -41,17 +41,20 @@ Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1)
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
-| [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md) | Object Oriented Programming | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/lfu-cache) |
+| [Minimum Knight Moves](../../questions/algorithm/minimum-knight-moves/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/minimum-knight-moves) |
 
 ## Guides
 
 | Guide | Tags |
 | :-- | :-- |
+| [AI / ML Fundamentals Oral Round (AI Engineer)](guides/ai-ml-fundamentals-oral.md) | attention, cs-fundamentals, evaluation, inference, llm, ml-knowledge, rag, transformer |
+| [Hiring Manager + Behavioral Rounds](guides/hm-and-bq-rounds.md) | bq, conflict, leadership, mentorship, ownership, star, why-company |
+| [Project Architecture Deep Dive (AI Engineer / Backend)](guides/project-deep-dive-ai-engineer.md) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent, messaging, ml-knowledge, presentation, race-condition, transactions |
 | [TypeScript Refactor OA (HackerRank — fullstack)](guides/typescript-refactor-oa.md) | code-reading, frontend, fullstack, oop-design, refactoring, typescript |
 
 ## Everything else
 
-- [All 16 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 51 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Salesforce question on TrueInterview](https://trueinterview.io/problems/company/salesforce).
 
 ---

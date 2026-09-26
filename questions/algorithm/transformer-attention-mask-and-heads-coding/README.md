@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Apple · Scale AI | Phone screen, Onsite / virtual onsite | — | Jun 2026 |
+| Algorithm | Hard | Apple · Scale AI | Phone screen, Onsite / virtual onsite | math | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -126,21 +126,21 @@ Each position can use itself and earlier positions only, and the mask broadcasts
 <details>
 <summary>Hint 1</summary>
 
-Self-attention takes a sequence of token embeddings and returns a context-aware representation for each token, computed as a weighted sum of all token values based on pairwise similarity.
+Think of self-attention as each token computing a weighted sum of all tokens, where the weights come from a compatibility score between queries and keys.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Multi-head attention splits the input into multiple lower-dimensional subspaces, applies independent attention in each, then concatenates and projects back to the original dimension.
+For multi-head, split the hidden dimension into equal chunks per head, run independent attention, then concatenate and project back.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The attention mask is typically an additive bias applied to the attention scores before softmax, with very negative values for positions that should be ignored (e.g., padding or future tokens).
+The mask is added to the attention logits before softmax, watch for the correct shape (batch, heads, seq, seq) and remember to scale by sqrt(d_k) to avoid vanishing gradients.
 
 </details>
 

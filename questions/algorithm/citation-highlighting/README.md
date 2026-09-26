@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Harvey | Phone screen, Onsite / virtual onsite | — | Aug 2026 |
+| Algorithm | Hard | Harvey | Phone screen, Onsite / virtual onsite | strings, hashing, intervals | Aug 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/citation-highlighting)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -136,21 +136,21 @@ Source `2` comes first in both citation arrays because its global frequency is h
 <details>
 <summary>Hint 1</summary>
 
-Think of this as a string matching problem where you need to find all occurrences of given snippets in the document, then merge overlapping or touching matches into single highlighted regions.
+First, find all exact matches of the source phrases in the text, recording their start and end indices.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a technique like the Aho-Corasick algorithm for efficient multi-pattern matching, or simply iterate through the document and check for each snippet at each position if the number of snippets is small.
+Merge any overlapping or adjacent intervals to form the highlighted spans.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The tricky part is handling overlapping matches: when two matches overlap or are adjacent, they should be combined into one continuous highlighted block, so you need to sort and merge intervals after finding all matches.
+For the second stage, count how many times each source phrase appears, then attach the appropriate citation counts to the merged spans.
 
 </details>
 

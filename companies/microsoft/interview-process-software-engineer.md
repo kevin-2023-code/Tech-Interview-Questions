@@ -49,9 +49,7 @@ Two to four problems across the loop, mostly medium with hard follow-ups, graded
 
 Usually one round, sometimes folded into a coding round. Interviewers want a small class with a clear invariant, then ask for thread safety, eviction ties, or live updates. Candidates who clarified the rules first, such as the rate-limit window and threshold, kept the discussion productive; one candidate lost ground when an interviewer wanted a more specific restructuring of the org-chart counts than caching.
 
-- [Low Level Logger Design](https://trueinterview.io/questions/2ac0a0ec-b27f-45f3-85bd-1f1476d9ed47)
-- [Org Chart Report Count (Tree Aggregation)](https://trueinterview.io/questions/org-chart-report-count)
-- [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md)
+- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
 
 ### System Design
 

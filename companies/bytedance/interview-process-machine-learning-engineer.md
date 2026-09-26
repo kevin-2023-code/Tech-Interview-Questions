@@ -81,7 +81,7 @@ The third filter is the organization itself. Rounds scheduled and then cancelled
 
 ## Data Source
 
-Based on 18 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 19 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

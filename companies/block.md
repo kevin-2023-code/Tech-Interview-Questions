@@ -42,12 +42,13 @@ Which stage each question came from, for the **5 of 5** questions at Block that 
 
 ## What they ask about
 
-Of the **2 questions at Block that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Block that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 1 | 50% | ████████████ | — |
-| `matrix` | 1 | 50% | ████████████ | — |
+| `arrays` | 1 | 33% | ████████████ | May 01, 2026 |
+| `dynamic-programming` | 1 | 33% | ████████████ | — |
+| `matrix` | 1 | 33% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Brex | Onsite / virtual onsite | — | — |
+| Object Oriented Programming | Easy | Brex | Onsite / virtual onsite | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

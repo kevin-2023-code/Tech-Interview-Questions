@@ -12,9 +12,6 @@
 
 ## Problem
 
-Design a News Feed System
-Hard · System Design · Social Media, Feed Generation · Company Tags · Hints
-
 A social platform's news feed is the primary stream of content that users see upon opening the app — a personalized timeline of posts from accounts they follow. The core engineering challenge lies in quickly assembling this feed for hundreds of millions of users while keeping it fresh and accurate.
 
 The design tension centers on the trade-off between write amplification and read cost. Pre‑computing feeds makes reads extremely fast, but a single post from a user with millions of followers can trigger an enormous write fan‑out that stalls the entire pipeline.

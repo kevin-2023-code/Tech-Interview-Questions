@@ -11,7 +11,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 | Questions reported | [100](../openai.md) |
 | Free to read here | 11 |
 | Interview-process guides | 7 |
-| Other guides | 6 |
+| Other guides | 4 |
 | Most recent sighting | Aug 22, 2026 |
 
 ## How OpenAI interviews
@@ -56,8 +56,6 @@ The virtual onsite typically runs three to five rounds: another practical coding
 
 | Guide | Tags |
 | :-- | :-- |
-| [Challenges and Strategies in Transitioning Non-Profit to For-Profit](https://trueinterview.io/study/89149d57-b4d1-4cb6-a153-b1118845ea1d) | — |
-| [Diagnosing and Fixing Transformer Model Training Performance Drop](guides/diagnosing-and-fixing-transformer-model-training-performance-drop.md) | — |
 | [Engineering Management Fundamentals & Team Operations](guides/engineering-management-fundamentals.md) | leadership, mentorship, ownership |
 | [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md) | culture-fit, why-company |
 | [LLM Inference Timeout and Restart Strategy](guides/llm-inference-timeout-and-restart-strategy.md) | math, new, algorithm-design, math-reasoning, ml-knowledge, probability |

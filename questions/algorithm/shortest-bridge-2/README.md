@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Apple · Tesla | Phone screen | — | Feb 2026 |
+| Algorithm | Medium | Uber · Apple · Tesla | Phone screen | graphs, matrix | Feb 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/shortest-bridge-2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -48,21 +48,21 @@ This was reported as LeetCode 934 during a software engineer phone screen.
 <details>
 <summary>Hint 1</summary>
 
-Identify the two islands by flood-fill, then treat the problem as finding the minimum distance between the two sets of land cells.
+This is a classic problem of connecting two islands by flipping the fewest water cells to land.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use BFS from one island's cells to find the nearest cell of the other island, counting water cells crossed.
+First, find one island using DFS or BFS, then perform a BFS from all its cells outward until you reach the other island.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The answer is the minimum BFS distance minus one, since flipping water cells connects the islands.
+The answer is the number of steps (water cells) traversed during the BFS, which gives the minimum number of flips needed.
 
 </details>
 

@@ -12,9 +12,6 @@
 
 ## Problem
 
-Find Duplicate Files
-Medium · Hash Table, File System, String · Company Tags · Hints
-
 This problem is based on LeetCode 609 (Find Duplicate File in System). If you haven’t solved that one yet, it’s recommended to do so first.
 
 In a simulated file system rooted at `"/"`, your task is to identify all groups of files that share exactly the same binary content.

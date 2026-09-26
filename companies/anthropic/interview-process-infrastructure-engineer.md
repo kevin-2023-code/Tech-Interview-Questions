@@ -75,7 +75,7 @@ The third is the values round, which here has an extra edge: infrastructure work
 
 ## Data Source
 
-Based on 102 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 101 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Roblox · Okta · Ramp · Snapchat | Phone screen, Onsite / virtual onsite | — | May 2026 |
+| Algorithm | Medium | Roblox · Okta · Ramp · Snapchat | Phone screen, Onsite / virtual onsite | sliding-window | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/sliding-window-rate-limiter)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -225,21 +225,21 @@ assert per_entity_rate_limiter(
 <details>
 <summary>Hint 1</summary>
 
-The core is to maintain a sliding window of timestamps, the key is to decide whether to evict old timestamps or use a counter with a timestamp of the window start.
+Maintain separate sliding windows for each unique key (e.g., user+experience) using a dictionary of deques.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a deque of timestamps for a true sliding window, or a fixed-size array with a start time and count for a simplified version.
+For each request, clean the corresponding deque by removing timestamps older than the window, then check if adding the new request would exceed the limit.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Aim for O(1) amortized per request, watch for the case where requests arrive in rapid succession and the window slides frequently.
+Aim for O(1) amortized time per request by only cleaning the deque for the specific key and using a monotonic timestamp order.
 
 </details>
 

@@ -12,9 +12,6 @@
 
 ## Problem
 
-Banking System with Deferred Payments and Account Consolidation
-Hard · Topics · Company Tags · Hints
-
 Design a `Bank` class that simulates a financial system supporting account creation, cash deposits, transfers, a leaderboard of top spenders, scheduling and canceling deferred payments, merging accounts, and balance inquiries. **Before executing any operation that receives a timestamp, all pending deferred payments whose execution time is less than or equal to that timestamp must be processed.**
 
 ### Core Concepts

@@ -8,11 +8,11 @@ How IBM interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [16](../ibm.md) |
+| Questions reported | [25](../ibm.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
-| Most recent sighting | May 30, 2026 |
+| Most recent sighting | Sep 14, 2026 |
 
 ## How IBM interviews
 
@@ -48,7 +48,7 @@ IBM's engineering loop is shorter and less algorithm-heavy than most big-tech pr
 
 ## Everything else
 
-- [All 16 questions reported at IBM](../ibm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 25 questions reported at IBM](../ibm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every IBM question on TrueInterview](https://trueinterview.io/problems/company/ibm).
 
 ---

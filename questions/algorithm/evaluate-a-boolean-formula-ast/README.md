@@ -12,9 +12,6 @@
 
 ## Problem
 
-Evaluate Boolean Expression Tree
-Medium · Topics · Company Tags · Hints
-
 You are given the root of a simplified Abstract Syntax Tree (AST) that encodes a boolean formula. Your task is to write an evaluator that traverses the tree and returns the resulting boolean value.
 
 The tree nodes are represented as JSON objects and can be one of the following kinds:

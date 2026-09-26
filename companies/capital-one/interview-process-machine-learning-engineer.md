@@ -38,7 +38,6 @@ The decisive round for a Capital One Machine Learning Engineer is not about mach
 
 One screen and part of the deep dive, both breadth-first rather than deep. The questions are fundamentals asked crisply — bias-variance, hyperparameter versus parameter, missing-value strategies, overfitting detection — and the interviewer is checking whether your definitions survive one follow-up, not whether you can derive anything. Tree ensembles come up far more than deep learning. Signal is lost by giving a memorized definition and then failing to say when the tradeoff actually bit you on a project.
 
-- [DS Role-Play: Explain Model Regression to PM](guides/ds-role-play-pm-explanation.md)
 - [Model Risk: VaR & Monte Carlo Orals](guides/model-risk-quant-orals.md)
 
 ### ML System Design
@@ -87,7 +86,7 @@ The third is thin production experience. The deployment-and-monitoring half of t
 
 ## Data Source
 
-Based on 7 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

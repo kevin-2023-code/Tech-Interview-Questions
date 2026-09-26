@@ -56,8 +56,6 @@ Behavioral time at Citadel is mostly a technical audit of your resume plus bread
 
 - [Behavioral / Resume Drilling Across the Loop](guides/citadel-bq-resume-loop.md)
 - [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](guides/citadel-hft-onsite-fundamentals.md)
-- [Trading OA — 15-Question Probability Quickfire (30 Minutes)](guides/trading-probability-quickfire.md)
-- [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](guides/gqs-quant-phone-brainteasers.md)
 
 ## How to Prepare
 

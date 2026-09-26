@@ -12,9 +12,6 @@
 
 ## Problem
 
-Maximum Concurrent Demand and Peak Intervals
-Medium · Line Sweep, Sorting, Intervals · Company Tags · Hints
-
 You are given a set of tasks, each defined by a start time, an end time, and a resource demand (a positive integer). All tasks consume the resource continuously from their start time (inclusive) to their end time (exclusive). At any moment, the total resource usage is the sum of the demands of all tasks that are active at that moment.
 
 Your task is to solve the following two parts:

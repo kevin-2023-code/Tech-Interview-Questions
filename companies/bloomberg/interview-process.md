@@ -66,7 +66,6 @@ The design-through-code round draws heavily from this family: containers with st
 Behavioral evaluation is distributed across the whole loop rather than confined to one round: warm-up questions before coding, a recruiter screen that can be entirely behavioral, and an EM round probing ownership and delegation. STAR-structured stories about initiative, conflict, and negative feedback map directly to what candidates were asked.
 
 - [Behavioral Question Pool](guides/behavioral-question-pool.md)
-- [Optimizing Hard Problem Solution](https://trueinterview.io/questions/31a0647b-e8d4-45cc-8d21-fe514a3525ef)
 
 ## How to Prepare
 

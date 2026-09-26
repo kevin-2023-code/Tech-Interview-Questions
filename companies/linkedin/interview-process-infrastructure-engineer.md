@@ -89,7 +89,7 @@ The third is process attrition rather than performance. Slow scheduling, reshuff
 
 ## Data Source
 
-Based on 26 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 25 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

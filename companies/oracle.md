@@ -22,7 +22,7 @@
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 39 questions reported at Oracle. 29 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 39 questions reported at Oracle. 30 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **39 of 39** questions at Oracle th
 
 ## What they ask about
 
-Of the **20 questions at Oracle that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at Oracle that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 6 | 30% | ████████████ | Feb 07, 2026 |
-| `graphs` | 3 | 15% | ██████ | Apr 14, 2026 |
-| `hashing` | 3 | 15% | ██████ | Apr 14, 2026 |
-| `heap` | 3 | 15% | ██████ | Nov 20, 2025 |
-| `arrays` | 2 | 10% | ████ | Jan 06, 2026 |
-| `greedy` | 2 | 10% | ████ | Apr 14, 2026 |
-| `linked-list` | 2 | 10% | ████ | Apr 14, 2026 |
-| `sliding-window` | 2 | 10% | ████ | Nov 21, 2025 |
-| `stack` | 2 | 10% | ████ | Feb 07, 2026 |
-| `backtracking` | 1 | 5% | ██ | Nov 17, 2025 |
+| `strings` | 6 | 25% | ████████████ | Feb 07, 2026 |
+| `arrays` | 4 | 17% | ████████ | Apr 14, 2026 |
+| `graphs` | 4 | 17% | ████████ | Apr 14, 2026 |
+| `greedy` | 3 | 12% | ██████ | Apr 14, 2026 |
+| `hashing` | 3 | 12% | ██████ | Apr 14, 2026 |
+| `heap` | 3 | 12% | ██████ | Nov 20, 2025 |
+| `math` | 3 | 12% | ██████ | Apr 14, 2026 |
+| `backtracking` | 2 | 8% | ████ | Nov 17, 2025 |
+| `linked-list` | 2 | 8% | ████ | Apr 14, 2026 |
+| `sliding-window` | 2 | 8% | ████ | Nov 21, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -79,6 +79,7 @@ Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2
 | [Oct 2025](../by-month/2025-10.md) | 1 | ████ |
 | [Sep 2025](../by-month/2025-09.md) | 3 | ████████████ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | ████ |
+| [Apr 2025](../by-month/2025-04.md) | 1 | ████ |
 | [Jan 2025](../by-month/2025-01.md) | 2 | ████████ |
 
 ## Start here
@@ -145,13 +146,13 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | Object Oriented Programming | Easy | Sep 15, 2025 |
 | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | Object Oriented Programming | Medium | Sep 15, 2025 |
 | [Minimum Sum After K Halvings (Max-Heap)](https://trueinterview.io/questions/min-sum-after-k-halvings) | Algorithm | Medium | Aug 06, 2025 |
+| [Maximum Completable Tasks with Prerequisites (Topological)](https://trueinterview.io/questions/course-prerequisites-task-count) | Algorithm | Medium | Apr 02, 2025 |
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Object Oriented Programming | Medium | Jan 15, 2025 |
 | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | System Design | Hard | Jan 15, 2025 |
 | [Binary Tree Paths With Target Sum](https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7) | Algorithm | Medium | — |
 | [Missing Number](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) | Algorithm | Easy | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Algorithm | Medium | — |
-| [Insert Intervals with Set](https://trueinterview.io/questions/c7b0a764-6082-4594-b239-e18448718a1c) | Algorithm | Medium | — |
 | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Object Oriented Programming | Medium | — |
 | [Find File with Phone Number](https://trueinterview.io/questions/7d164823-0460-4877-8bc5-3f16b36edcbd) | Algorithm | Easy | — |
 | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Algorithm | Medium | — |

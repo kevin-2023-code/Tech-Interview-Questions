@@ -49,17 +49,18 @@ Which stage each question came from, for the **14 of 14** questions at Affirm th
 
 ## What they ask about
 
-Of the **8 questions at Affirm that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Affirm that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 62% | ████████████ | Aug 12, 2026 |
-| `arrays` | 1 | 12% | ██ | — |
-| `graphs` | 1 | 12% | ██ | — |
-| `greedy` | 1 | 12% | ██ | — |
-| `matrix` | 1 | 12% | ██ | — |
-| `stack` | 1 | 12% | ██ | — |
-| `trees` | 1 | 12% | ██ | — |
+| `hashing` | 5 | 56% | ████████████ | Aug 12, 2026 |
+| `stack` | 2 | 22% | █████ | Jun 10, 2026 |
+| `arrays` | 1 | 11% | ██ | — |
+| `backtracking` | 1 | 11% | ██ | Jun 10, 2026 |
+| `graphs` | 1 | 11% | ██ | — |
+| `greedy` | 1 | 11% | ██ | — |
+| `matrix` | 1 | 11% | ██ | — |
+| `trees` | 1 | 11% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

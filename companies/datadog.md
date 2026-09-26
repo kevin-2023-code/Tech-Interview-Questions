@@ -42,13 +42,17 @@ Which stage each question came from, for the **20 of 20** questions at Datadog t
 
 ## What they ask about
 
-Of the **4 questions at Datadog that carry a topic label** (20% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Datadog that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 2 | 50% | ████████████ | — |
-| `dynamic-programming` | 1 | 25% | ██████ | Feb 17, 2026 |
-| `math` | 1 | 25% | ██████ | — |
+| `hashing` | 4 | 40% | ████████████ | Mar 06, 2026 |
+| `dynamic-programming` | 2 | 20% | ██████ | Feb 17, 2026 |
+| `math` | 2 | 20% | ██████ | Feb 17, 2026 |
+| `arrays` | 1 | 10% | ███ | — |
+| `sliding-window` | 1 | 10% | ███ | Mar 06, 2026 |
+| `strings` | 1 | 10% | ███ | Mar 06, 2026 |
+| `trees` | 1 | 10% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -69,7 +73,7 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 8 | Mar 23, 2026 |
-| **2** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 9 | Mar 06, 2026 |
+| **2** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 10 | Mar 06, 2026 |
 | **3** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
 | **4** | [Linear Interpolation of Missing Points](https://trueinterview.io/questions/linear-interpolation-of-missing-points) | Algorithm | Medium | — | Feb 17, 2026 |
 | **5** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |

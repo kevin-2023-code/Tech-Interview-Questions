@@ -2,7 +2,7 @@
 
 # Instacart interview process, OA & interview questions
 
-**24 questions** reported at Instacart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/instacart), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Instacart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/instacart), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Instacart interviews & the free questions](instacart/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **24** |
+| Questions tracked | **23** |
 | Most recent sighting | Jun 24, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 24) |
-| Difficulty (easy / medium / hard) | 3 / 14 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 23) |
+| Difficulty (easy / medium / hard) | 3 / 13 / 7 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 24 questions reported at Instacart. 15 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Instacart. 15 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **24 of 24** questions at Instacart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at Instacart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 2 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 6 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 4 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 9 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
@@ -43,19 +43,20 @@ Which stage each question came from, for the **24 of 24** questions at Instacart
 
 ## What they ask about
 
-Of the **11 questions at Instacart that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Instacart that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 27% | ████████████ | Feb 03, 2026 |
-| `stack` | 3 | 27% | ████████████ | Jun 24, 2026 |
-| `strings` | 3 | 27% | ████████████ | Jun 24, 2026 |
-| `arrays` | 2 | 18% | ████████ | Apr 04, 2026 |
-| `backtracking` | 1 | 9% | ████ | Nov 17, 2025 |
-| `graphs` | 1 | 9% | ████ | Apr 04, 2026 |
-| `heap` | 1 | 9% | ████ | Feb 03, 2026 |
-| `sliding-window` | 1 | 9% | ████ | — |
-| `sorting` | 1 | 9% | ████ | May 27, 2026 |
+| `hashing` | 3 | 25% | ████████████ | Feb 03, 2026 |
+| `stack` | 3 | 25% | ████████████ | Jun 24, 2026 |
+| `strings` | 3 | 25% | ████████████ | Jun 24, 2026 |
+| `arrays` | 2 | 17% | ████████ | Apr 04, 2026 |
+| `heap` | 2 | 17% | ████████ | Feb 03, 2026 |
+| `backtracking` | 1 | 8% | ████ | Nov 17, 2025 |
+| `binary-search` | 1 | 8% | ████ | — |
+| `graphs` | 1 | 8% | ████ | Apr 04, 2026 |
+| `greedy` | 1 | 8% | ████ | — |
+| `sorting` | 1 | 8% | ████ | May 27, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -131,5 +132,4 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Decode Password from File](https://trueinterview.io/questions/f8add70b-e695-4d00-b0db-7a7b6aa7646c) | Algorithm | Easy | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Find Minimal Shoppers](https://trueinterview.io/questions/bf1e0319-2d75-436c-99b9-4ff2b4c85911) | Algorithm | Medium | — |
-| [Count Subarrays With Alternating Parity (Odd/Even) Including Negatives](https://trueinterview.io/questions/8babc81e-6a75-4bc6-b67e-d7f11327c8e8) | Algorithm | Medium | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |

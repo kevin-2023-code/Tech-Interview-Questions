@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Moveworks | Phone screen | — | — |
+| Algorithm | Medium | Moveworks | Phone screen | greedy | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -45,6 +45,29 @@ n = 3
 ```
 
 This means that two split operations are sufficient to sort the array in ascending order.
+
+## Hints
+
+<details>
+<summary>Hint 1</summary>
+
+Think greedily from left to right: to make the array non-decreasing, you may need to split a large element into smaller pieces that fit between neighbors.
+
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+Each split increases the total number of elements, so the goal is to minimize splits while ensuring the sequence is sorted.
+
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+The key insight is to split an element into as many parts as needed so that each part is at least the previous element and at most the next element, using integer division.
+
+</details>
 
 ## Solution
 

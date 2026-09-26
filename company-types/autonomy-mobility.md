@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**108 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**107 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (48)](../companies/waymo.md) · [Tesla (26)](../companies/tesla.md) · [Weride (20)](../companies/weride.md) · [Applied Intuition (16)](../companies/applied-intuition.md)
+[Waymo (47)](../companies/waymo.md) · [Tesla (26)](../companies/tesla.md) · [Weride (20)](../companies/weride.md) · [Applied Intuition (16)](../companies/applied-intuition.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 71 | 66% | ██████████████ | 4 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 14 | 13% | ███ | 4 |
-| [System Design](../formats/system-design.md) | 10 | 9% | ██ | 1 |
+| [Algorithm](../formats/algorithm.md) | 70 | 65% | ██████████████ | 4 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 13 | 12% | ███ | 4 |
+| [System Design](../formats/system-design.md) | 11 | 10% | ██ | 1 |
 | [SQL](../formats/sql.md) | 8 | 7% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 5% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **11 / 65 / 32**, over the rows the catalog has graded. 9 of the 108 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **10 / 64 / 33**, over the rows the catalog has graded. 9 of the 107 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **57 questions in this cut that carry a topic label** (53% of it):
+Of the **68 questions in this cut that carry a topic label** (64% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 13 | 23% | ████████████ |
-| `greedy` | 6 | 11% | ██████ |
-| `hashing` | 6 | 11% | ██████ |
-| `math` | 6 | 11% | ██████ |
-| `strings` | 5 | 9% | █████ |
-| `binary-search` | 4 | 7% | ████ |
-| `dynamic-programming` | 4 | 7% | ████ |
-| `matrix` | 4 | 7% | ████ |
-| `stack` | 4 | 7% | ████ |
-| `backtracking` | 3 | 5% | ███ |
+| `graphs` | 16 | 24% | ████████████ |
+| `hashing` | 7 | 10% | █████ |
+| `math` | 7 | 10% | █████ |
+| `strings` | 7 | 10% | █████ |
+| `dynamic-programming` | 6 | 9% | ████ |
+| `greedy` | 6 | 9% | ████ |
+| `matrix` | 6 | 9% | ████ |
+| `backtracking` | 5 | 7% | ████ |
+| `arrays` | 4 | 6% | ███ |
+| `binary-search` | 4 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -68,6 +68,8 @@ Of the **57 questions in this cut that carry a topic label** (53% of it):
 | **Waymo** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Hard | Jul 09, 2026 |
 | **Waymo** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Hard | Jul 06, 2026 |
 | **Waymo** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Medium | Jul 02, 2026 |
+| **Applied Intuition** | [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types) | Medium | Jun 17, 2026 |
+| **Applied Intuition** | [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui) | Hard | Jun 17, 2026 |
 | **Waymo** | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Medium | Jun 13, 2026 |
 | **Waymo** | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Medium | Jun 04, 2026 |
 | **Tesla** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Medium | Jun 03, 2026 |
@@ -90,10 +92,10 @@ Of the **57 questions in this cut that carry a topic label** (53% of it):
 | **Coinbase / Anthropic / Applied Intuition** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Medium | Apr 28, 2026 |
 | **Waymo** | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Hard | Apr 27, 2026 |
 | **Tesla** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | Hard | Apr 27, 2026 |
-| **Waymo** | [Elevator Operation Logic](https://trueinterview.io/questions/sd-elevator-operation-logic) | Medium | Apr 24, 2026 |
 | **Waymo** | [Largest Rectangle Area](https://trueinterview.io/questions/max-area-rectangle-coordinate-set) | Medium | Apr 24, 2026 |
 | **Waymo** | [Simulation Log Collection and Result Aggregation](https://trueinterview.io/questions/sd-simulation-log-aggregation) | Medium | Apr 23, 2026 |
 | **Waymo** | [Process Raw CSV for Downstream Consumers](https://trueinterview.io/questions/csv-parser-open-ended) | Medium | Apr 22, 2026 |
+| **Waymo** | [Choose Passenger Drop-off Location](https://trueinterview.io/questions/sd-passenger-dropoff-location-ml) | Hard | Apr 18, 2026 |
 | **Waymo** | [Behavior Prediction from Sensor + Camera Data](https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors) | Hard | Apr 18, 2026 |
 | **Snapchat / Tesla / Waymo** | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Medium | Apr 17, 2026 |
 | **Waymo** | [Chess Piece Shortest Path on a Fixed Board](https://trueinterview.io/questions/chess-shortest-path-fixed-board) | Medium | Apr 08, 2026 |
@@ -106,7 +108,7 @@ Of the **57 questions in this cut that carry a topic label** (53% of it):
 | **Tesla** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | Hard | Mar 11, 2026 |
 | **Snowflake / Applied Intuition** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Tesla** | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Medium | Feb 03, 2026 |
 | **Waymo** | [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human) | Hard | Jan 29, 2026 |
 | **Waymo** | [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Medium | Jan 29, 2026 |
@@ -122,7 +124,6 @@ Of the **57 questions in this cut that carry a topic label** (53% of it):
 | **Waymo** | [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider) | Medium | Nov 14, 2025 |
 | **Tesla** | [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid) | Medium | Oct 31, 2025 |
 | **Bloomberg / Citadel / Hudson River Trading / Meta / Tesla** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Easy | Oct 16, 2025 |
-| **Waymo** | [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | Medium | Sep 29, 2025 |
 | **Waymo** | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | Hard | Sep 29, 2025 |
 | **Tesla** | [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome) | Hard | Sep 24, 2025 |
 | **Tesla** | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | Medium | Aug 23, 2025 |
@@ -144,8 +145,6 @@ Of the **57 questions in this cut that carry a topic label** (53% of it):
 | **Weride** | [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c) | Medium | — |
 | **Weride** | [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e) | Medium | — |
 | **Applied Intuition** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Easy | — |
-| **Applied Intuition** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Easy | — |
-| **Applied Intuition** | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Hard | — |
 | **Applied Intuition** | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | Medium | — |
 | **Applied Intuition** | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Medium | — |
 | **Applied Intuition** | [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Hard | — |

@@ -56,7 +56,7 @@ Design prompts mirror LinkedIn's own domains — metrics, scheduling, search, an
 Cache construction is the recurring low-level exercise across LinkedIn loops: LRU and LFU variants, rank-based eviction with recency tie-breaks, and follow-ups on thread safety, stale metadata, and how the design shifts when one operation is rare. Treat these as object-oriented design problems, not just algorithm puzzles — encapsulation and clean interfaces have decided outcomes.
 
 - [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap)
-- [LFU Cache](../../questions/object-oriented-programming/lfu-cache/README.md)
+- [LFU Cache](https://trueinterview.io/questions/lfu-cache)
 
 ## Behavioral Questions
 

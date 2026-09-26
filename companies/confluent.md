@@ -42,13 +42,19 @@ Which stage each question came from, for the **17 of 17** questions at Confluent
 
 ## What they ask about
 
-Of the **4 questions at Confluent that carry a topic label** (24% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Confluent that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 50% | ████████████ | — |
-| `backtracking` | 1 | 25% | ██████ | — |
-| `hashing` | 1 | 25% | ██████ | — |
+| `arrays` | 3 | 33% | ████████████ | — |
+| `dynamic-programming` | 2 | 22% | ████████ | — |
+| `hashing` | 2 | 22% | ████████ | — |
+| `backtracking` | 1 | 11% | ████ | — |
+| `bit-manipulation` | 1 | 11% | ████ | — |
+| `sliding-window` | 1 | 11% | ████ | — |
+| `stack` | 1 | 11% | ████ | — |
+| `strings` | 1 | 11% | ████ | — |
+| `trees` | 1 | 11% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

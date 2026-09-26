@@ -18,8 +18,8 @@
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 13 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 113) |
-| Difficulty (easy / medium / hard) | 21 / 72 / 20 |
-| Free to practise | [22](../free/README.md) |
+| Difficulty (easy / medium / hard) | 24 / 70 / 19 |
+| Free to practise | [21](../free/README.md) |
 | Guides & writeups | 12 |
 
 <sub>Counted from the 113 questions reported at Apple. 85 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -30,9 +30,9 @@ Which stage each question came from, for the **113 of 113** questions at Apple t
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (67%) | 3 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (76%) | 16 / 59 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 35 | ████ | [Algorithm](../formats/algorithm.md) (37%) | 4 / 20 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 9 | █ | [Algorithm](../formats/algorithm.md) (78%) | 6 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 89 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 16 / 56 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 35 | ████ | [Algorithm](../formats/algorithm.md) (37%) | 4 / 21 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,20 +59,20 @@ Which stage each question came from, for the **113 of 113** questions at Apple t
 
 ## What they ask about
 
-Of the **66 questions at Apple that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **84 questions at Apple that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 16 | 24% | ████████████ | Aug 26, 2026 |
-| `arrays` | 13 | 20% | ██████████ | Aug 05, 2026 |
-| `graphs` | 11 | 17% | ████████ | Jul 27, 2026 |
-| `strings` | 9 | 14% | ███████ | May 05, 2026 |
-| `heap` | 6 | 9% | ████ | Aug 05, 2026 |
-| `linked-list` | 6 | 9% | ████ | Aug 16, 2026 |
-| `matrix` | 6 | 9% | ████ | Aug 26, 2026 |
-| `two-pointers` | 6 | 9% | ████ | Apr 28, 2026 |
-| `sorting` | 5 | 8% | ████ | Aug 05, 2026 |
-| `greedy` | 4 | 6% | ███ | Apr 08, 2026 |
+| `hashing` | 19 | 23% | ████████████ | Aug 26, 2026 |
+| `arrays` | 18 | 21% | ███████████ | Aug 05, 2026 |
+| `graphs` | 15 | 18% | █████████ | Jul 27, 2026 |
+| `matrix` | 10 | 12% | ██████ | Aug 26, 2026 |
+| `strings` | 10 | 12% | ██████ | May 05, 2026 |
+| `two-pointers` | 9 | 11% | ██████ | Apr 28, 2026 |
+| `heap` | 7 | 8% | ████ | Aug 05, 2026 |
+| `linked-list` | 7 | 8% | ████ | Aug 16, 2026 |
+| `binary-search` | 5 | 6% | ███ | Apr 25, 2026 |
+| `dynamic-programming` | 5 | 6% | ███ | Apr 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -226,13 +226,13 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Algorithm | Easy | Nov 20, 2025 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Merge Two Strings by Maximum Edge Overlap](https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc) | Algorithm | Easy | — |
-| [Constrain an Increasing Array With Minimum Adjacent Difference](https://trueinterview.io/questions/d5642f20-01c2-549f-833c-8e654d14cbd6) | Algorithm | Medium | — |
+| [Constrain an Increasing Array With Minimum Adjacent Difference](https://trueinterview.io/questions/d5642f20-01c2-549f-833c-8e654d14cbd6) | Algorithm | Easy | — |
 | [Constrain Every Five Consecutive Array Elements to Be Unique](https://trueinterview.io/questions/c9bd91f8-10cc-5032-9141-ac058ba5d7ca) | Algorithm | Medium | — |
 | [Count Set Bits in a 32-Bit Integer](https://trueinterview.io/questions/b163aaa9-31a0-5c0a-b2a4-ad91ae115390) | Algorithm | Medium | — |
 | [Validate and Aggregate HTTP Access Logs](https://trueinterview.io/questions/a0c61319-db55-58db-871b-be9dff51aee8) | Algorithm | Medium | — |
 | [All Subsets with a Given Sum](https://trueinterview.io/questions/9a58ba10-18c3-5f29-ae61-70e1882a22f5) | Algorithm | Medium | — |
-| [Write a One-Hot SystemVerilog Constraint Without $onehot](https://trueinterview.io/questions/7772306e-c2e1-50b0-b143-ea071affcf0b) | Algorithm | Medium | — |
-| [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057) | Algorithm | Medium | — |
+| [Write a One-Hot SystemVerilog Constraint Without $onehot](https://trueinterview.io/questions/7772306e-c2e1-50b0-b143-ea071affcf0b) | Algorithm | Easy | — |
+| [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057) | Algorithm | Easy | — |
 | [Determine Whether an Undirected Graph Is Bipartite](https://trueinterview.io/questions/3e8d0c6c-7081-55ae-b3ee-3e5c8621d1b9) | Algorithm | Medium | — |
 | [Classify the Difference Between Two Calendar Dates](https://trueinterview.io/questions/1fd937c6-7de8-57d7-9b2d-c96a07d39ab2) | Algorithm | Medium | — |
 | [Design Task Manager](https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e) | Object Oriented Programming | Medium | — |
@@ -245,7 +245,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Hard | — |
 | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Medium | — |
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Algorithm | Hard | — |
-| [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Hard | — |
+| [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Medium | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
 | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
 | [Apply a 2D Box Blur Filter](https://trueinterview.io/questions/f377cc09-d8a0-47f3-9797-5ff6d3a0d580) | Algorithm | Medium | — |

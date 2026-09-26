@@ -8,10 +8,10 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [62](../roblox.md) |
+| Questions reported | [61](../roblox.md) |
 | Free to read here | 10 |
 | Interview-process guides | 4 |
-| Other guides | 3 |
+| Other guides | 2 |
 | Most recent sighting | Sep 09, 2026 |
 
 ## How Roblox interviews
@@ -57,13 +57,12 @@ The company page sketches the shape of the Roblox loop; this guide covers what h
 
 | Guide | Tags |
 | :-- | :-- |
-| [Describing Project Interests and Personal Strengths with Examples](https://trueinterview.io/study/b08b050f-8517-4dc1-88c3-505e3b0a63c6) | — |
 | [HM Behavioral: Traffic Scale & Scope of Past Work](guides/behavioral-hm-traffic-and-scope.md) | ambiguity, bq, culture-fit, leadership, scaling, star |
 | [MLE Project / Paper Deep Dive](guides/mle-project-deep-dive.md) | deep-dive, ml-knowledge, paper-read, presentation |
 
 ## Everything else
 
-- [All 62 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 61 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Roblox question on TrueInterview](https://trueinterview.io/problems/company/roblox).
 
 ---

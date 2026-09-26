@@ -78,7 +78,7 @@ Third: treating a known family as solved. The same prompts rotate, each with a t
 
 ## Data Source
 
-Based on 49 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 68 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

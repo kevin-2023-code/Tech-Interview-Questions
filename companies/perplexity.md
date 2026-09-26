@@ -2,7 +2,7 @@
 
 # Perplexity interview process, OA & interview questions
 
-**22 questions** reported at Perplexity · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Perplexity · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Perplexity interviews & the free questions](perplexity/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **22** |
+| Questions tracked | **23** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (32% of 22) |
-| Difficulty (easy / medium / hard) | 1 / 18 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (35% of 23) |
+| Difficulty (easy / medium / hard) | 1 / 18 / 4 |
 | Free to practise | [3](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 5 |
 
-<sub>Counted from the 22 questions reported at Perplexity. 14 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Perplexity. 14 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **22 of 22** questions at Perplexity that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at Perplexity that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ███ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 0 / 10 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 3 | ██ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 9 | ████████ | [System Design](../formats/system-design.md) (56%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,18 +42,20 @@ Which stage each question came from, for the **22 of 22** questions at Perplexit
 
 ## What they ask about
 
-Of the **7 questions at Perplexity that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Perplexity that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `tries` | 3 | 43% | ████████████ | Jun 15, 2026 |
-| `trees` | 2 | 29% | ████████ | Jun 15, 2026 |
-| `binary-search` | 1 | 14% | ████ | Feb 23, 2026 |
-| `hashing` | 1 | 14% | ████ | — |
-| `heap` | 1 | 14% | ████ | Aug 09, 2025 |
-| `intervals` | 1 | 14% | ████ | Aug 09, 2025 |
-| `sorting` | 1 | 14% | ████ | — |
-| `strings` | 1 | 14% | ████ | Oct 12, 2025 |
+| `hashing` | 3 | 27% | ████████████ | Jun 08, 2026 |
+| `tries` | 3 | 27% | ████████████ | Jun 15, 2026 |
+| `heap` | 2 | 18% | ████████ | Jun 08, 2026 |
+| `trees` | 2 | 18% | ████████ | Jun 15, 2026 |
+| `binary-search` | 1 | 9% | ████ | Feb 23, 2026 |
+| `dynamic-programming` | 1 | 9% | ████ | — |
+| `graphs` | 1 | 9% | ████ | Oct 03, 2025 |
+| `intervals` | 1 | 9% | ████ | Aug 09, 2025 |
+| `matrix` | 1 | 9% | ████ | Oct 03, 2025 |
+| `sorting` | 1 | 9% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -93,12 +95,11 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 ## Guides & writeups
 
-**6 writeups** filed under Perplexity in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under Perplexity in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
-| [Map-Reduce and Blockwise Attention](https://trueinterview.io/study/map-reduce-and-blockwise-attention) | attention, map-reduce, numerical-stability, parallelism |
 | [Perplexity Interview Process & Questions](https://trueinterview.io/study/perplexity-interview-process) | — |
 | [Perplexity Machine Learning Engineer Interview Process](https://trueinterview.io/study/perplexity-machine-learning-engineer-interview-process) | — |
 | [Perplexity Software Engineer Interview Process](https://trueinterview.io/study/perplexity-software-engineer-interview-process) | — |
@@ -128,6 +129,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Embedding Model Server](https://trueinterview.io/questions/embedding-model-server) | Object Oriented Programming | Medium | Oct 09, 2025 |
 | [Rental Car Surge Area Navigation](https://trueinterview.io/questions/premium-zone-escape-path) | Algorithm | Medium | Oct 03, 2025 |
 | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Object Oriented Programming | Medium | Aug 09, 2025 |
+| [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809) | Algorithm | Hard | — |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
 | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | AI Coding | Medium | — |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | — |

@@ -76,7 +76,7 @@ The third is time allocation inside the assessment. It fails people mechanically
 
 ## Data Source
 
-Based on 3 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q1.
+Based on 4 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q1.
 
 ## FAQ
 

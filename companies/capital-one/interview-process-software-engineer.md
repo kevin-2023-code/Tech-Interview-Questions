@@ -83,7 +83,7 @@ Third: scope mismatch. Candidates who describe individual contributions on small
 
 ## Data Source
 
-Based on 17 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 24 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

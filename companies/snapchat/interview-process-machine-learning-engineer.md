@@ -60,7 +60,6 @@ At least one full round plus the coding half of the screen, at the same bar othe
 
 Present in nearly every reported loop, sometimes twice and rarely under that name — the screen spends 20 minutes on it, the fundamentals round returns to it, the behavioral round dissects it. Interviewers ask what baseline the model beat, how training-serving skew was diagnosed, what monitoring existed, how fast iteration was, and why that metric was the right one. The failure mode is narrating a project as a success story: the pointed, repeated question is whether a model was needed at all, and a candidate who cannot price the non-ML alternative loses the round.
 
-- [First Discovery and Resolution of Critical Project Bug](https://trueinterview.io/questions/cbb98e2c-2461-49dd-933a-1741e0c81985)
 
 ## What They Don't Test
 

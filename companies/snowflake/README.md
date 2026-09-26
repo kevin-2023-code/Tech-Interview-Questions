@@ -8,8 +8,8 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [111](../snowflake.md) |
-| Free to read here | 12 |
+| Questions reported | [112](../snowflake.md) |
+| Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 3 |
 | Most recent sighting | Aug 15, 2026 |
@@ -34,7 +34,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Free Snowflake questions
 
-12 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+11 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -43,7 +43,6 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
-| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
@@ -61,7 +60,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Everything else
 
-- [All 111 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 112 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

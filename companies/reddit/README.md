@@ -8,8 +8,8 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [25](../reddit.md) |
-| Free to read here | 5 |
+| Questions reported | [26](../reddit.md) |
+| Free to read here | 4 |
 | Interview-process guides | 3 |
 | Other guides | 4 |
 | Most recent sighting | Jun 23, 2026 |
@@ -38,14 +38,13 @@ Timelines vary widely. One candidate went from phone screen through four onsite 
 
 ## Free Reddit questions
 
-5 questions reported at Reddit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Reddit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Moderator List Hierarchy](../../questions/algorithm/moderator-list-hierarchy/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/moderator-list-hierarchy) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) |
-| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Report Chain](../../questions/object-oriented-programming/report-chain/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/report-chain) |
 
 ## Guides
@@ -59,7 +58,7 @@ Timelines vary widely. One candidate went from phone screen through four onsite 
 
 ## Everything else
 
-- [All 25 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 26 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Reddit question on TrueInterview](https://trueinterview.io/problems/company/reddit).
 
 ---

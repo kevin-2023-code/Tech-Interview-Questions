@@ -59,7 +59,6 @@ Object-level design shows up mostly in the assessment: a class whose requirement
 
 - [Banking System (Progressive OOD)](https://trueinterview.io/questions/codesignal-oa-banking-system)
 - [In-Memory Database with Record CRUD and Lock/Unlock](https://trueinterview.io/questions/f341df17-eb5b-4daf-9399-fe1f5ab67be5)
-- [Design In-Memory SQL](https://trueinterview.io/questions/design-in-memory-sql-2)
 
 ## AI-Assisted Coding Questions
 

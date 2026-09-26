@@ -47,7 +47,6 @@ Two flavors, and candidates prepare the wrong one. The standard algorithm proble
 
 - [ML Coding: 2-D Convolution, Decaying Attention, Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop)
 - [2-D Matrix Transpose with Memory-Layout Discussion](https://trueinterview.io/questions/matrix-transpose-memory-layout)
-- [Merge Intervals](../../questions/algorithm/merge-intervals/README.md)
 - [Longest Substring Without Repeating Characters](../../questions/algorithm/longest-substring-without-repeating-characters/README.md)
 
 ### Domain Deep Dive

@@ -18,7 +18,7 @@
 | Most recent sighting | Apr 09, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 17) |
-| Difficulty (easy / medium / hard) | 2 / 13 / 2 |
+| Difficulty (easy / medium / hard) | 2 / 12 / 3 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -31,7 +31,7 @@ Which stage each question came from, for the **17 of 17** questions at PayPal th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 11 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 0 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 3 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,20 +42,20 @@ Which stage each question came from, for the **17 of 17** questions at PayPal th
 
 ## What they ask about
 
-Of the **12 questions at PayPal that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at PayPal that carry a topic label** (82% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 25% | ████████████ | Feb 26, 2026 |
-| `backtracking` | 2 | 17% | ████████ | Feb 26, 2026 |
-| `dynamic-programming` | 2 | 17% | ████████ | — |
-| `greedy` | 2 | 17% | ████████ | — |
-| `hashing` | 2 | 17% | ████████ | Apr 09, 2026 |
-| `binary-search` | 1 | 8% | ████ | — |
-| `heap` | 1 | 8% | ████ | — |
-| `linked-list` | 1 | 8% | ████ | Apr 09, 2026 |
-| `math` | 1 | 8% | ████ | — |
-| `sorting` | 1 | 8% | ████ | — |
+| `graphs` | 3 | 21% | ████████████ | Feb 26, 2026 |
+| `greedy` | 3 | 21% | ████████████ | — |
+| `backtracking` | 2 | 14% | ████████ | Feb 26, 2026 |
+| `dynamic-programming` | 2 | 14% | ████████ | — |
+| `hashing` | 2 | 14% | ████████ | Apr 09, 2026 |
+| `heap` | 2 | 14% | ████████ | — |
+| `trees` | 2 | 14% | ████████ | Feb 26, 2026 |
+| `binary-search` | 1 | 7% | ████ | — |
+| `linked-list` | 1 | 7% | ████ | Apr 09, 2026 |
+| `math` | 1 | 7% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -74,8 +74,8 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 7 | Apr 09, 2026 |
-| **2** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Medium | 7 | Feb 26, 2026 |
+| **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 8 | Apr 09, 2026 |
+| **2** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Medium | 8 | Feb 26, 2026 |
 | **3** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) 🆓 | Algorithm | Easy | 6 | — |
 | **4** | [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) | Algorithm | Easy | — | — |
 | **5** | [Find Reachable Good Endings in Choose Your Own Adventure Book](https://trueinterview.io/questions/15808a55-af32-4748-a811-48bd2ef1f829) | Algorithm | Medium | — | — |
@@ -107,7 +107,7 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
 | [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0) | Algorithm | Medium | — |
 | [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Object Oriented Programming | Medium | — |
-| [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Algorithm | Medium | — |
+| [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Algorithm | Hard | — |
 | [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | Object Oriented Programming | Medium | — |
 | [Minimum Time to Schedule Processes on Degrading Processors](https://trueinterview.io/questions/599e3936-06f4-4c46-b61d-f155e3b6895f) | Algorithm | Medium | — |
 | [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530) | Algorithm | Medium | — |

@@ -8,7 +8,7 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [77](../pinterest.md) |
+| Questions reported | [75](../pinterest.md) |
 | Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
@@ -58,7 +58,7 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 
 ## Everything else
 
-- [All 77 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 75 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Pinterest question on TrueInterview](https://trueinterview.io/problems/company/pinterest).
 
 ---

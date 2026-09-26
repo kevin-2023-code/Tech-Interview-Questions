@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Ramp | Phone screen, Onsite / virtual onsite | — | Jun 2026 |
+| Algorithm | Medium | Ramp | Phone screen, Onsite / virtual onsite | arrays, strings, binary-search, sorting | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -88,21 +88,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Reframe the problem as finding the airport where the user spends the most time, not just the most frequent departure or arrival.
+Model each flight as a time interval during which the traveler is in transit, their location is the departure airport before departure and the arrival airport after arrival.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a map to accumulate net time spent at each airport by processing each flight's departure and arrival timestamps, then pick the airport with the maximum total duration.
+For each user, build a sorted list of events (departure and arrival times with associated airports) and then for a query time, find the most recent event that has already occurred.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for edge cases like flights that cross midnight or timezone differences, ensure timestamps are handled consistently, and consider ties by choosing the airport with the earliest first visit.
+Watch out for the edge case where the query time falls exactly at a departure or arrival moment—decide whether the traveler is still at the departure airport or already at the arrival airport.
 
 </details>
 

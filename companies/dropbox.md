@@ -42,13 +42,15 @@ Which stage each question came from, for the **13 of 13** questions at Dropbox t
 
 ## What they ask about
 
-Of the **3 questions at Dropbox that carry a topic label** (23% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **5 questions at Dropbox that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 33% | ████████████ | — |
-| `greedy` | 1 | 33% | ████████████ | — |
-| `sorting` | 1 | 33% | ████████████ | — |
+| `arrays` | 1 | 20% | ████████████ | — |
+| `dynamic-programming` | 1 | 20% | ████████████ | — |
+| `greedy` | 1 | 20% | ████████████ | — |
+| `hashing` | 1 | 20% | ████████████ | — |
+| `sorting` | 1 | 20% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

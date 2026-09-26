@@ -47,18 +47,19 @@ Which stage each question came from, for the **31 of 31** questions at xAI that 
 
 ## What they ask about
 
-Of the **10 questions at xAI that carry a topic label** (32% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at xAI that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 5 | 50% | ████████████ | Apr 01, 2026 |
-| `heap` | 2 | 20% | █████ | Jan 26, 2026 |
-| `arrays` | 1 | 10% | ██ | Jan 15, 2026 |
-| `backtracking` | 1 | 10% | ██ | Feb 26, 2026 |
-| `hashing` | 1 | 10% | ██ | Jan 26, 2026 |
-| `sorting` | 1 | 10% | ██ | — |
-| `trees` | 1 | 10% | ██ | Feb 26, 2026 |
-| `tries` | 1 | 10% | ██ | — |
+| `greedy` | 6 | 46% | ████████████ | Apr 01, 2026 |
+| `hashing` | 2 | 15% | ████ | Jan 26, 2026 |
+| `heap` | 2 | 15% | ████ | Jan 26, 2026 |
+| `sorting` | 2 | 15% | ████ | Jan 15, 2026 |
+| `arrays` | 1 | 8% | ██ | Jan 15, 2026 |
+| `backtracking` | 1 | 8% | ██ | Feb 26, 2026 |
+| `binary-search` | 1 | 8% | ██ | Dec 14, 2025 |
+| `trees` | 1 | 8% | ██ | Feb 26, 2026 |
+| `tries` | 1 | 8% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -82,7 +83,7 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | SQL | Hard | — | Jul 22, 2026 |
-| **2** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | 2 | May 26, 2026 |
+| **2** | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | 3 | May 26, 2026 |
 | **3** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
 | **4** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | AI Coding | Medium | — | Apr 04, 2026 |
 | **5** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) 🆓 | AI Coding | Hard | — | Apr 04, 2026 |

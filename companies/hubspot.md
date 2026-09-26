@@ -42,13 +42,13 @@ Which stage each question came from, for the **10 of 10** questions at HubSpot t
 
 ## What they ask about
 
-Of the **5 questions at HubSpot that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **6 questions at HubSpot that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 80% | ████████████ | Jan 19, 2026 |
-| `backtracking` | 1 | 20% | ███ | Jan 19, 2026 |
-| `intervals` | 1 | 20% | ███ | Jan 19, 2026 |
+| `hashing` | 5 | 83% | ████████████ | Jan 19, 2026 |
+| `backtracking` | 1 | 17% | ██ | Jan 19, 2026 |
+| `intervals` | 1 | 17% | ██ | Jan 19, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

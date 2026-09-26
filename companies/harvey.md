@@ -2,7 +2,7 @@
 
 # Harvey interview process, OA & interview questions
 
-**13 questions** reported at Harvey · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Harvey · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Harvey interviews & the free questions](harvey/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,33 +14,35 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **13** |
-| Most recent sighting | Aug 09, 2026 |
-| Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (38% of 13) |
-| Difficulty (easy / medium / hard) | 0 / 9 / 4 |
+| Questions tracked | **15** |
+| Most recent sighting | Sep 01, 2026 |
+| Reported in the last 90 days | 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (40% of 15) |
+| Difficulty (easy / medium / hard) | 0 / 10 / 5 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 2 |
 
-<sub>Counted from the 13 questions reported at Harvey. 8 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Harvey. 10 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **13 of 13** questions at Harvey that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Harvey that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 7 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 4 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 5 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 7 | ███████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 4 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 10 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (40%) | 0 / 6 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | Onsite / virtual onsite | Sep 01, 2026 |
+| [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Hard | Onsite / virtual onsite | Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Onsite / virtual onsite | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Onsite / virtual onsite | Jul 2026 |
@@ -48,27 +50,29 @@ Which stage each question came from, for the **13 of 13** questions at Harvey th
 
 ## What they ask about
 
-Of the **4 questions at Harvey that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at Harvey that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 25% | ████████████ | — |
-| `graphs` | 1 | 25% | ████████████ | — |
-| `intervals` | 1 | 25% | ████████████ | — |
-| `math` | 1 | 25% | ████████████ | — |
-| `sorting` | 1 | 25% | ████████████ | — |
-| `strings` | 1 | 25% | ████████████ | — |
-| `trees` | 1 | 25% | ████████████ | Jun 15, 2026 |
-| `tries` | 1 | 25% | ████████████ | Jun 15, 2026 |
+| `hashing` | 3 | 43% | ████████████ | Sep 01, 2026 |
+| `strings` | 3 | 43% | ████████████ | Aug 09, 2026 |
+| `intervals` | 2 | 29% | ████████ | Aug 09, 2026 |
+| `arrays` | 1 | 14% | ████ | — |
+| `graphs` | 1 | 14% | ████ | — |
+| `math` | 1 | 14% | ████ | — |
+| `sorting` | 1 | 14% | ████ | — |
+| `trees` | 1 | 14% | ████ | Jun 15, 2026 |
+| `tries` | 1 | 14% | ████ | Jun 15, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Harvey, by the month it was reported in — Apr 01, 2026 to Aug 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Harvey, by the month it was reported in — Apr 01, 2026 to Sep 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ████████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ████████ |
 | [Jul 2026](../by-month/2026-07.md) | 3 | ████████████████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
@@ -80,14 +84,14 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) 🆓 | Algorithm | Hard | — | Aug 09, 2026 |
-| **2** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | — | Jul 07, 2026 |
-| **3** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | — | Jul 2026 |
-| **4** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | — | Jul 2026 |
-| **5** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
-| **6** | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | AI Coding | Medium | — | Jun 11, 2026 |
-| **7** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Object Oriented Programming | Medium | — | Apr 30, 2026 |
-| **8** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Object Oriented Programming | Medium | — | Apr 2026 |
+| **1** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | — | Sep 01, 2026 |
+| **2** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Hard | — | Sep 01, 2026 |
+| **3** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) 🆓 | Algorithm | Hard | — | Aug 09, 2026 |
+| **4** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | — | Jul 07, 2026 |
+| **5** | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | — | Jul 2026 |
+| **6** | [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | — | Jul 2026 |
+| **7** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
+| **8** | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | AI Coding | Medium | — | Jun 11, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -110,6 +114,8 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Hard | 🆕 Sep 01, 2026 |
+| [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | 🆕 Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Jul 2026 |

@@ -8,10 +8,10 @@ How Perplexity interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [22](../perplexity.md) |
+| Questions reported | [23](../perplexity.md) |
 | Free to read here | 3 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 2 |
 | Most recent sighting | Jun 15, 2026 |
 
 ## How Perplexity interviews
@@ -49,12 +49,11 @@ This guide goes deeper than the process outline on the company page: what each P
 | Guide | Tags |
 | :-- | :-- |
 | [Behavioral and Project Deep-Dive](guides/behavioral-and-project-deep-dive.md) | collaboration, project-deep-dive, why-company |
-| [Map-Reduce and Blockwise Attention](guides/map-reduce-and-blockwise-attention.md) | attention, map-reduce, numerical-stability, parallelism |
 | [Understand Code Functionality](https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7) | — |
 
 ## Everything else
 
-- [All 22 questions reported at Perplexity](../perplexity.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 23 questions reported at Perplexity](../perplexity.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Perplexity question on TrueInterview](https://trueinterview.io/problems/company/perplexity).
 
 ---

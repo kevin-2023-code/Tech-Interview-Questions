@@ -41,7 +41,15 @@ Which stage each question came from, for the **4 of 4** questions at Gusto that 
 
 ## What they ask about
 
-**None of the 4 questions reported at Gusto carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+Of the **2 questions at Gusto that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+
+| Topic | Questions | Share of labelled |  | Last seen |
+| :-- | --: | --: | :-- | :-- |
+| `binary-search` | 1 | 50% | ████████████ | Mar 20, 2026 |
+| `greedy` | 1 | 50% | ████████████ | — |
+| `hashing` | 1 | 50% | ████████████ | Mar 20, 2026 |
+
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 

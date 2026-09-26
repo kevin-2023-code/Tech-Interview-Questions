@@ -12,9 +12,6 @@
 
 ## Problem
 
-A Thread‑Safe Bounded Producer‑Consumer Store  
-Medium · Topics · Company Tags · Hints  
-
 Design a simplified, thread‑safe producer‑consumer system that consists of a fixed‑size buffer, a producer, and a consumer.  
 
 ### Buffer (`Storage`)  

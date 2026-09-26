@@ -8,7 +8,7 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [41](../atlassian.md) |
+| Questions reported | [43](../atlassian.md) |
 | Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 1 |
@@ -56,7 +56,7 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 
 ## Everything else
 
-- [All 41 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 43 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Atlassian question on TrueInterview](https://trueinterview.io/problems/company/atlassian).
 
 ---

@@ -56,8 +56,6 @@ At least one design-and-code round per loop, and often a phone screen as well. P
 
 One round for mid-level candidates, and two or more plus design inside the Bar Raiser round at L6. The reported bar is a clear customer framing and explicit assumptions before any schema, several concrete reasons for each storage choice, and failure handling you bring up yourself. Prompts are rarely the canonical list, and candidates who prepared only the popular set reported topics they had never seen.
 
-- [Perishable-Goods Tracking & Location System](https://trueinterview.io/questions/perishable-goods-tracking-system)
-- [Ride-Hailing System Design (Uber)](https://trueinterview.io/questions/ride-hailing-system-design)
 - [Core Dump System Design](https://trueinterview.io/questions/core-dump-system-design)
 
 ### Behavioral and Leadership

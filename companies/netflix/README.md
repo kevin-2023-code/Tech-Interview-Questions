@@ -8,8 +8,8 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [69](../netflix.md) |
-| Free to read here | 11 |
+| Questions reported | [71](../netflix.md) |
+| Free to read here | 12 |
 | Interview-process guides | 4 |
 | Other guides | 2 |
 | Most recent sighting | Jun 15, 2026 |
@@ -38,7 +38,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 
 ## Free Netflix questions
 
-11 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -48,6 +48,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 | [Tagged Command Undo](../../questions/object-oriented-programming/tagged-command-undo/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/tagged-command-undo) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
+| [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [String to Integer (atoi)](../../questions/algorithm/string-to-integer-atoi/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/string-to-integer-atoi) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
@@ -63,7 +64,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 
 ## Everything else
 
-- [All 69 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 71 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Netflix question on TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 ---

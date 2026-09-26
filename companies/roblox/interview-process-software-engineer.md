@@ -83,7 +83,7 @@ The third is process attrition unrelated to performance. A committee decides aft
 
 ## Data Source
 
-Based on 38 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 51 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

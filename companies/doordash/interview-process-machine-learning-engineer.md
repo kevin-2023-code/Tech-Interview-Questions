@@ -82,7 +82,7 @@ The third pattern is silence. Multi-week gaps after the onsite are common, feedb
 
 ## Data Source
 
-Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 11 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

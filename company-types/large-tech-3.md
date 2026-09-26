@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**924 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**923 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Coinbase** | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Medium | Jul 22, 2025 |
+| **Reddit** | [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Medium | Jul 21, 2025 |
 | **Snowflake / Walmart Labs** | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Medium | Jul 20, 2025 |
 | **Snowflake** | [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | Hard | Jul 20, 2025 |
 | **Snowflake** | [Unequal Elements](https://trueinterview.io/questions/unequal-elements) | Medium | Jul 20, 2025 |
@@ -19,8 +21,6 @@
 | **Robinhood** | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | Medium | Jun 2025 |
 | **Ramp / Databricks / SoFi** | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | Easy | Jun 2025 |
 | **Ramp / OpenAI** | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Medium | Jun 2025 |
-| **Pinterest** | [Design Access System](https://trueinterview.io/questions/design-access-system) | Medium | May 30, 2025 |
-| **Pinterest / ByteDance** | [Shortest Path in Unweighted Graph](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) | Easy | May 30, 2025 |
 | **Pinterest / ByteDance** | [Nested Set Equality](https://trueinterview.io/questions/nested-set-equality) | Medium | May 30, 2025 |
 | **Pinterest** | [Find Restaurant Intervals](https://trueinterview.io/questions/find-restaurant-intervals) | Medium | May 30, 2025 |
 | **Pinterest** | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Medium | May 30, 2025 |
@@ -34,14 +34,15 @@
 | **Robinhood** | [Find Middle Course](https://trueinterview.io/questions/find-middle-course) | Medium | Apr 10, 2025 |
 | **Ramp / Ebay** | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Easy | Apr 2025 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
+| **Salesforce / Akuna Capital / Palantir** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Medium | — |
 | **Stripe** | [Verify Business Records by Required Fields](https://trueinterview.io/questions/f8231511-f6ac-545f-b959-3920ee7eac6c) | Easy | — |
 | **Stripe** | [Verify Business Name Overlap with Nickname](https://trueinterview.io/questions/ebf98d3b-d473-5ce3-858d-a80947f240ce) | Medium | — |
 | **Stripe** | [Validate a Length-Limited Field and Forbidden Description Terms](https://trueinterview.io/questions/9baeb5c4-0679-5fda-aa74-bad3d7a9a5e4) | Easy | — |
 | **Stripe** | [Fix an Async Race Condition in a React Data Fetching Component](https://trueinterview.io/questions/977b9f31-47ef-50c5-a2c4-3ab5337f9e78) | Medium | — |
 | **Stripe** | [Data Center Registration and Health Management](https://trueinterview.io/questions/76f1e6e8-026a-5193-a5b0-643bba04e47e) | Medium | — |
-| **Stripe** | [Find the Latest Bank Account Balance](https://trueinterview.io/questions/74133864-60db-59b8-b4f9-663c0ff1ad00) | Medium | — |
-| **Stripe** | [Reconcile Monthly Balances Between Two CSV Files](https://trueinterview.io/questions/0cb1e3fc-02d4-53bc-9272-a8286f17e013) | Medium | — |
-| **Snowflake** | [Wiki Hopper: Crawl All Reachable Pages](https://trueinterview.io/questions/fb29adba-08ba-5631-8405-02b39be6f187) | Medium | — |
+| **Stripe** | [Find the Latest Bank Account Balance](https://trueinterview.io/questions/74133864-60db-59b8-b4f9-663c0ff1ad00) | Easy | — |
+| **Stripe** | [Reconcile Monthly Balances Between Two CSV Files](https://trueinterview.io/questions/0cb1e3fc-02d4-53bc-9272-a8286f17e013) | Easy | — |
+| **Snowflake** | [Wiki Hopper: Crawl All Reachable Pages](https://trueinterview.io/questions/fb29adba-08ba-5631-8405-02b39be6f187) | Easy | — |
 | **Snowflake** | [Find Unique Number in Consecutive Pairs](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) | Medium | — |
 | **Snowflake** | [Minimize Marbles in Grid](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) | Hard | — |
 | **Snowflake** | [Implement Trie with Non-Standard Alphabet](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) | Medium | — |
@@ -50,10 +51,11 @@
 | **Snowflake** | [Determine if a Binary Tree is Perfect](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) | Medium | — |
 | **Snowflake** | [Target Course Completion Plan](https://trueinterview.io/questions/62ce3ab3-e18e-5908-9a1b-df60f07d256d) | Medium | — |
 | **Snowflake** | [Bounded Event Stream Unique-Key Queries](https://trueinterview.io/questions/538d12a1-cb8b-5e5c-8a83-6766bfef0c5c) | Hard | — |
+| **Snowflake** | [In-Memory Time-Series Database for Thermostat Temperatures](https://trueinterview.io/questions/4e041f20-ba2b-4e5b-abae-b18855f5eba1) | Medium | — |
 | **Snowflake** | [Determine Employees to Promote](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) | Easy | — |
+| **Snowflake** | [Role-Based Access Control with Inheritance and Deny Rules](https://trueinterview.io/questions/406c257a-cd8f-4c52-ba90-ea79a05da226) | Medium | — |
 | **Snowflake** | [Simple TypeScript Program](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) | Easy | — |
 | **Snowflake** | [Check Validity of Input String](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) | Easy | — |
-| **Snowflake** | [Event Recorder](https://trueinterview.io/questions/201ebfbd-f02f-43ac-8f3f-a589ef6aa00a) | Medium | — |
 | **Snowflake** | [Deployments Node Calculation](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) | Medium | — |
 | **Roblox** | [Lasers and Robot](https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b) | Medium | — |
 | **Roblox** | [Configurable Tic-Tac-Toe Board](https://trueinterview.io/questions/027d9159-df55-5351-b2d2-b3f7e1bbac99) | Medium | — |
@@ -67,21 +69,23 @@
 | **Pinterest** | [Delete a Subtree by Marking Nodes as Removed](https://trueinterview.io/questions/240aacef-d2d1-533b-b082-004b1d4015a8) | Medium | — |
 | **OpenAI** | [Guess a Secret Number with One-Call Delayed Feedback](https://trueinterview.io/questions/e41553c0-20ac-51a0-bc69-17309dce31b6) | Medium | — |
 | **OpenAI** | [Find the Incorrect Data Labeler](https://trueinterview.io/questions/d2fcfdcf-7015-535c-aecb-8729bdd9edcf) | Medium | — |
+| **OpenAI** | [Spreadsheet Implementation with Cycle Detection and Caching](https://trueinterview.io/questions/b0fb2e35-02e8-45a9-bcfe-f1ad3e4778fd) | Medium | — |
+| **OpenAI** | [Multiprocessing Debugging for Neural Network Propagation](https://trueinterview.io/questions/a91050eb-ce04-4669-81b0-4219d72e6661) | Hard | — |
 | **OpenAI** | [Versioned User Follow Graph with Snapshots](https://trueinterview.io/questions/a2405f87-543a-54c9-8884-3b476be29ece) | Hard | — |
 | **OpenAI** | [Snapshot Set](https://trueinterview.io/questions/8ed246bb-89da-5107-83a0-194469269a2a) | Hard | — |
-| **OpenAI** | [In-Memory Key-Value Database CRUD Implementation](https://trueinterview.io/questions/4c7b892d-2d33-4bb2-8855-2dc6a30fa1d1) | Easy | — |
 | **OpenAI** | [Dependency-Aware Multi-Agent Request Scheduler](https://trueinterview.io/questions/472b106a-5204-5e12-acf4-8a1fca2a099f) | Hard | — |
 | **OpenAI** | [GPU Credit System with Validity Windows](https://trueinterview.io/questions/1811d9e3-291b-5957-a868-af0368f92233) | Hard | — |
 | **Pinterest** | [Coin Change (LC 322)](https://trueinterview.io/questions/coin-change) | Medium | — |
 | **Snowflake** | [Maximum Order Volume](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) | Hard | — |
 | **Snowflake** | [Rate Limiter](https://trueinterview.io/questions/5ac1e372-948a-4af9-b467-5e495795ba16) | Easy | — |
 | **Snowflake** | [Vowel Substring](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) | Easy | — |
+| **Snowflake** | [Efficient Deployments](https://trueinterview.io/questions/035db926-100a-4614-b9ec-cd4389cd6a88) | Hard | — |
 | **Snowflake** | [Minimum Value Weight](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) | Medium | — |
 | **OKX** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Easy | — |
 | **OKX** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Medium | — |
 | **Gusto** | [Efficient Key-Value Store with Insert, Retrieve, Delete Operations](https://trueinterview.io/questions/a3e93e72-8cf9-43ac-87cf-e2ca17cce899) | Easy | — |
 | **Gusto** | [Log File API Statistics](https://trueinterview.io/questions/85c2d72c-1778-57ee-a65a-d35ae87f8b22) | Medium | — |
-| **Brex** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Medium | — |
+| **Brex** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Easy | — |
 | **Gusto** | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | Medium | — |
 | **Brex** | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Easy | — |
 | **Stubhub** | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | Medium | — |
@@ -100,11 +104,11 @@
 | **MongoDB** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Hard | — |
 | **MongoDB** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Hard | — |
 | **MongoDB** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Medium | — |
-| **Palantir** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Hard | — |
+| **Palantir / Salesforce** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Hard | — |
 | **Palantir / SoFi** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Medium | — |
 | **MongoDB** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Easy | — |
 | **MongoDB** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Medium | — |
-| **MongoDB** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Medium | — |
+| **MongoDB** | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | Hard | — |
 | **Palantir** | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) | Medium | — |
 | **Ramp** | [Maximum Profit from Unordered Stock Price Records](https://trueinterview.io/questions/522363cd-bdb8-5f9b-bfd8-86d74fb6f057) | Medium | — |
 | **SoFi** | [Extend an Existing Codebase to Support Accessibility Requirements](https://trueinterview.io/questions/e09854da-00dd-4596-a22c-a1b2463a2a29) | Hard | — |
@@ -112,7 +116,6 @@
 | **Yelp / xAI** | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Medium | — |
 | **Snowflake / ByteDance / Meta / Uber / Whatnot** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | Medium | — |
 | **Snowflake / Citadel / Two Sigma / Uber** | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Medium | — |
-| **Snapchat** | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-4) | Medium | — |
 | **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
 | **Reddit / Stripe** | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | Medium | — |
 | **Pinterest** | [Design Soft 404 Detection](https://trueinterview.io/questions/design-soft-404-detection) | Medium | — |
@@ -133,7 +136,7 @@
 | **Affirm** | [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller) | Easy | — |
 | **Affirm** | [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance) | Easy | — |
 | **Affirm** | [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples) | Medium | — |
-| **Verkada** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
+| **Verkada / Salesforce** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
 | **Verkada / Amazon / ByteDance / Lyft / Microsoft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
 | **Upstart** | [addDrama](https://trueinterview.io/questions/e4325a5b-96a7-440c-8712-bfe087708f59) | Easy | — |
 | **Upstart** | [Parse a Comma-Separated String with Quoted Fields](https://trueinterview.io/questions/1f5e8959-fd67-587b-bdd9-b271a10016ac) | Medium | — |
@@ -257,8 +260,5 @@
 | **xAI / Lyft** | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Hard | — |
 | **SoFi** | [Maximum Occurring Character](https://trueinterview.io/questions/d73e4ed1-1ee4-479c-955e-249baf81ac1d) | Easy | — |
 | **SoFi** | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Easy | — |
-| **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
-| **Snapchat** | [Ad Click Tracking and Real-Time Trending Ads System](https://trueinterview.io/questions/f982b537-d539-4f01-ac3a-d1aa732553a0) | Medium | — |
-| **Snapchat** | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f) | Medium | — |
 
 <sub>[← Page 2](large-tech-2.md) · Page 3 of 4 · [Page 4 →](large-tech-4.md)</sub>

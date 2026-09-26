@@ -8,7 +8,7 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [15](../jpmorgan.md) |
+| Questions reported | [14](../jpmorgan.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
@@ -56,7 +56,7 @@ The final loop is usually three to four back-to-back sessions of 45 minutes each
 
 ## Everything else
 
-- [All 15 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 14 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every JPMorgan question on TrueInterview](https://trueinterview.io/problems/company/jpmorgan).
 
 ---

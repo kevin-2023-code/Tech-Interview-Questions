@@ -8,10 +8,10 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [15](../intuit.md) |
+| Questions reported | [14](../intuit.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 1 |
 | Most recent sighting | Jun 28, 2026 |
 
 ## How Intuit interviews
@@ -48,11 +48,10 @@ The end-to-end process typically runs three to six weeks from application to dec
 | Guide | Tags |
 | :-- | :-- |
 | [AI Application Conversation](guides/ai-application-conversation.md) | ai-collaboration, ai-safety, llm, open-ended, prompt-engineering |
-| [Unit Testing in Industry Code](https://trueinterview.io/study/e2a629a6-f54c-4584-96a3-b6dfaf1e43a4) | — |
 
 ## Everything else
 
-- [All 15 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 14 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Intuit question on TrueInterview](https://trueinterview.io/problems/company/intuit).
 
 ---

@@ -8,10 +8,10 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [54](../bloomberg.md) |
+| Questions reported | [69](../bloomberg.md) |
 | Free to read here | 12 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 1 |
 | Most recent sighting | Jul 22, 2026 |
 
 ## How Bloomberg interviews
@@ -39,13 +39,13 @@ This guide is the deep dive behind the short outline on Bloomberg's company page
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [String to Integer (atoi)](../../questions/algorithm/string-to-integer-atoi/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/string-to-integer-atoi) |
-| [Word Search II](../../questions/algorithm/word-search-ii/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/word-search-ii) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
@@ -56,11 +56,10 @@ This guide is the deep dive behind the short outline on Bloomberg's company page
 | Guide | Tags |
 | :-- | :-- |
 | [Behavioral Question Pool](guides/behavioral-question-pool.md) | deep-dive, star, why-company |
-| [Optimizing Hard Problem Solution](https://trueinterview.io/study/31a0647b-e8d4-45cc-8d21-fe514a3525ef) | — |
 
 ## Everything else
 
-- [All 54 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 69 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Bloomberg question on TrueInterview](https://trueinterview.io/problems/company/bloomberg).
 
 ---

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 55) |
 | Difficulty (easy / medium / hard) | 6 / 36 / 13 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 55 questions reported at LinkedIn. 34 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -47,20 +47,20 @@ Which stage each question came from, for the **55 of 55** questions at LinkedIn 
 
 ## What they ask about
 
-Of the **21 questions at LinkedIn that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **29 questions at LinkedIn that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `backtracking` | 3 | 14% | ████████████ | — |
-| `graphs` | 3 | 14% | ████████████ | Apr 09, 2026 |
-| `intervals` | 3 | 14% | ████████████ | Apr 17, 2026 |
-| `heap` | 2 | 10% | ████████ | Jul 29, 2026 |
-| `stack` | 2 | 10% | ████████ | Nov 20, 2025 |
-| `trees` | 2 | 10% | ████████ | — |
-| `two-pointers` | 2 | 10% | ████████ | Mar 02, 2026 |
-| `arrays` | 1 | 5% | ████ | Nov 12, 2025 |
-| `dynamic-programming` | 1 | 5% | ████ | — |
-| `greedy` | 1 | 5% | ████ | Apr 01, 2026 |
+| `backtracking` | 5 | 17% | ████████████ | Mar 02, 2026 |
+| `graphs` | 4 | 14% | ██████████ | Apr 09, 2026 |
+| `trees` | 4 | 14% | ██████████ | — |
+| `intervals` | 3 | 10% | ███████ | Apr 17, 2026 |
+| `arrays` | 2 | 7% | █████ | Mar 25, 2026 |
+| `binary-search` | 2 | 7% | █████ | Mar 25, 2026 |
+| `hashing` | 2 | 7% | █████ | Jun 08, 2026 |
+| `heap` | 2 | 7% | █████ | Jul 29, 2026 |
+| `math` | 2 | 7% | █████ | Mar 25, 2026 |
+| `stack` | 2 | 7% | █████ | Nov 20, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

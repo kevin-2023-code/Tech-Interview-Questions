@@ -12,9 +12,6 @@
 
 ## Problem
 
-Filter Nested Comments
-Medium · Topics · Company Tags · Hints
-
 You are given a forest of nested comment nodes. Each node has a string field `content` and a list of child nodes `children`. The root-level nodes are provided in an array `roots`, and the relative ordering of siblings within any child list represents the display order of the comments.
 
 You also have a predicate function `predicate(node)` that returns `true` if the node should be kept based on some condition (for example, `content` contains a certain keyword, or a metadata field equals a particular value).

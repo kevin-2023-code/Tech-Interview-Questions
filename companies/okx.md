@@ -42,13 +42,14 @@ Which stage each question came from, for the **5 of 5** questions at OKX that na
 
 ## What they ask about
 
-Of the **3 questions at OKX that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at OKX that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `backtracking` | 1 | 33% | ████████████ | — |
-| `hashing` | 1 | 33% | ████████████ | — |
-| `stack` | 1 | 33% | ████████████ | — |
+| `backtracking` | 1 | 25% | ████████████ | — |
+| `hashing` | 1 | 25% | ████████████ | — |
+| `stack` | 1 | 25% | ████████████ | — |
+| `two-pointers` | 1 | 25% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

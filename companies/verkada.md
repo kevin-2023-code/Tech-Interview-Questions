@@ -42,19 +42,20 @@ Which stage each question came from, for the **23 of 23** questions at Verkada t
 
 ## What they ask about
 
-Of the **8 questions at Verkada that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Verkada that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 25% | ████████████ | Jun 05, 2026 |
-| `dynamic-programming` | 1 | 12% | ██████ | Feb 17, 2026 |
-| `graphs` | 1 | 12% | ██████ | — |
-| `heap` | 1 | 12% | ██████ | — |
-| `intervals` | 1 | 12% | ██████ | — |
-| `linked-list` | 1 | 12% | ██████ | — |
-| `math` | 1 | 12% | ██████ | — |
-| `sliding-window` | 1 | 12% | ██████ | — |
-| `two-pointers` | 1 | 12% | ██████ | Feb 08, 2026 |
+| `arrays` | 3 | 21% | ████████████ | Jun 05, 2026 |
+| `hashing` | 3 | 21% | ████████████ | — |
+| `graphs` | 2 | 14% | ████████ | — |
+| `strings` | 2 | 14% | ████████ | — |
+| `binary-search` | 1 | 7% | ████ | — |
+| `dynamic-programming` | 1 | 7% | ████ | Feb 17, 2026 |
+| `heap` | 1 | 7% | ████ | — |
+| `intervals` | 1 | 7% | ████ | — |
+| `linked-list` | 1 | 7% | ████ | — |
+| `math` | 1 | 7% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -30,7 +30,7 @@
 | **LinkedIn** | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | Medium | Jul 22, 2026 |
 | **Google** | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | Medium | Jul 22, 2026 |
 | **Google** | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | Medium | Jul 22, 2026 |
-| **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Hard | Jul 22, 2026 |
+| **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Medium | Jul 22, 2026 |
 | **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Medium | Jul 22, 2026 |
 | **Amazon** | [User Shopping Sprees](https://trueinterview.io/questions/user-shopping-sprees) | Medium | Jul 22, 2026 |
 | **Amazon** | [Server Utilization Time](https://trueinterview.io/questions/server-utilization-time) | Medium | Jul 22, 2026 |

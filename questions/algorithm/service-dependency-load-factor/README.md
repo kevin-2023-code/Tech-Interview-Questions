@@ -5,15 +5,12 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Robinhood | Phone screen, Onsite / virtual onsite | — | Mar 2026 |
+| Algorithm | Medium | Robinhood | Phone screen, Onsite / virtual onsite | stack, graphs, topological-sort | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/service-dependency-load-factor)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
-
-Compute Load Factors
-Medium · Topics · Company Tags · Hints
 
 In a microservice architecture, you have a set of services where each service can depend on several others. The dependency relationships form a directed acyclic graph. One service is designated as the entry point: it receives requests from users and forwards them to its dependencies, which in turn call their own dependencies, and so forth.
 
@@ -68,21 +65,21 @@ Constraints:
 <details>
 <summary>Hint 1</summary>
 
-Think of the problem as computing the total number of requests each service receives, given a DAG of dependencies and a starting request count.
+The load factor of a service is the total number of times it is invoked when the entry point receives one unit of request, assuming all upstream services call their dependencies concurrently.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use topological sorting or memoized DFS to propagate load from entrypoints to downstream services, summing contributions from multiple paths.
+Use topological order to propagate load factors: for each service, its load factor is the sum of the load factors of all services that directly call it.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Target O(V+E) time, the edge case is when a service has no dependencies (leaf node) or when there are multiple entrypoints.
+Since the graph is a DAG, you can compute load factors by processing nodes in order from the entry point outward, summing contributions from each incoming edge.
 
 </details>
 

@@ -37,7 +37,6 @@ The round that ends most Research Scientist candidacies here is the one candidat
 The highest-weighted competency on this track, spread over the panel presentation and the opening of the mixed technical round. What earns signal: owning the problem framing, naming the alternatives you rejected and why, being precise about what your evaluation did and did not prove, and being comfortable saying where the work is weak. What loses it: a narrative that stays at the level of an abstract, or an answer that attributes key decisions to collaborators. Rehearse the version of your talk where every slide can absorb four follow-up questions.
 
 - [AR Panel Talk Project Deep-Dive](guides/ar-panel-talk-deep-dive.md)
-- [DS Role-Play: Explain Model Regression to PM](guides/ds-role-play-pm-explanation.md)
 
 ### ML Theory
 
@@ -84,7 +83,7 @@ The third is the business framing gap. The case hour and the applied slant of th
 
 ## Data Source
 
-Based on 7 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

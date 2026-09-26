@@ -12,9 +12,6 @@
 
 ## Problem
 
-Game Leaderboard  
-Medium · System Design · Company Tags · Hints  
-
 A game leaderboard is a ranked list that shows players their standing compared to others. Most competitive online games provide at least two perspectives: a global ranking of the top performers and a friends-only ranking so players can compare scores with their social circle. The displayed list is short, but the underlying system must sustain rankings efficiently at massive scale while avoiding expensive per-request computation for the friend view.
 
 ## Requirements  

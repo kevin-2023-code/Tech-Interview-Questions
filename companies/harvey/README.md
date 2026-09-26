@@ -8,11 +8,11 @@ How Harvey interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [13](../harvey.md) |
+| Questions reported | [15](../harvey.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
-| Most recent sighting | Aug 09, 2026 |
+| Most recent sighting | Sep 01, 2026 |
 
 ## How Harvey interviews
 
@@ -47,7 +47,7 @@ Harvey's loop is unusual in how narrow it is: a small set of problem families �
 
 ## Everything else
 
-- [All 13 questions reported at Harvey](../harvey.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 15 questions reported at Harvey](../harvey.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Harvey question on TrueInterview](https://trueinterview.io/problems/company/harvey).
 
 ---

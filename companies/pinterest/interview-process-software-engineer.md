@@ -77,7 +77,7 @@ The third is level calibration, which is set before you interview and does not a
 
 ## Data Source
 
-Based on 22 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 44 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

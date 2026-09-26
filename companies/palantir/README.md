@@ -8,7 +8,7 @@ How Palantir interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../palantir.md) |
+| Questions reported | [6](../palantir.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -41,7 +41,7 @@ Palantir runs one of the most publicly discussed engineering loops in the indust
 
 ## Everything else
 
-- [All 5 questions reported at Palantir](../palantir.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Palantir](../palantir.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Palantir question on TrueInterview](https://trueinterview.io/problems/company/palantir).
 
 ---

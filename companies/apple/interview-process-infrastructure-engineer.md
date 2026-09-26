@@ -84,7 +84,7 @@ The third pattern is structural volatility that reads as rejection: a position r
 
 ## Data Source
 
-Based on 21 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 36 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

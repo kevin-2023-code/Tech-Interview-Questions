@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Uber · Block | Onsite / virtual onsite | — | May 2026 |
+| Algorithm | Easy | Uber · Block | Onsite / virtual onsite | arrays | May 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/generate-2d-minesweeper-grid)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -75,21 +75,21 @@ Explanation: Three mines occupy distinct cells; the remaining cells are empty. T
 <details>
 <summary>Hint 1</summary>
 
-Think of generating all cell coordinates and shuffling them, then picking the first n for mines.
+Think of selecting n distinct random cells using Fisher-Yates shuffle on a flattened list of all cells.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Alternatively, use a set to track placed mines and randomly select cells until n are placed.
+Alternatively, use a set to track chosen positions and keep picking random cells until n are selected.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Edge case: n may be 0 (return all zeros) or equal to rows*cols (all mines).
+Ensure the algorithm runs in O(rows*cols) or O(n) time, and handle the case where n equals the total number of cells.
 
 </details>
 

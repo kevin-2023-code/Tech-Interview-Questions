@@ -2,7 +2,7 @@
 
 # Ramp interview process, OA & interview questions
 
-**23 questions** reported at Ramp · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
+**24 questions** reported at Ramp · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Ramp interviews & the free questions](ramp/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
+| Questions tracked | **24** |
 | Most recent sighting | Jun 17, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (52% of 23) |
-| Difficulty (easy / medium / hard) | 4 / 17 / 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (54% of 24) |
+| Difficulty (easy / medium / hard) | 4 / 18 / 2 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 2 |
 
-<sub>Counted from the 23 questions reported at Ramp. 17 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 24 questions reported at Ramp. 17 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at Ramp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **24 of 24** questions at Ramp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (44%) | 3 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 1 / 8 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████████ | [Algorithm](../formats/algorithm.md) (33%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (44%) | 3 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 1 / 9 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (33%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,16 +42,20 @@ Which stage each question came from, for the **23 of 23** questions at Ramp that
 
 ## What they ask about
 
-Of the **7 questions at Ramp that carry a topic label** (30% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Ramp that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 43% | ████████████ | Dec 15, 2025 |
-| `greedy` | 1 | 14% | ████ | — |
-| `intervals` | 1 | 14% | ████ | — |
-| `matrix` | 1 | 14% | ████ | Jun 01, 2025 |
-| `sliding-window` | 1 | 14% | ████ | Sep 29, 2025 |
-| `trees` | 1 | 14% | ████ | Aug 01, 2025 |
+| `hashing` | 4 | 27% | ████████████ | Dec 15, 2025 |
+| `strings` | 3 | 20% | █████████ | Jun 01, 2026 |
+| `arrays` | 2 | 13% | ██████ | Jun 01, 2026 |
+| `binary-search` | 2 | 13% | ██████ | Jun 01, 2026 |
+| `graphs` | 2 | 13% | ██████ | May 06, 2026 |
+| `greedy` | 2 | 13% | ██████ | — |
+| `sliding-window` | 2 | 13% | ██████ | May 01, 2026 |
+| `intervals` | 1 | 7% | ███ | — |
+| `matrix` | 1 | 7% | ███ | Jun 01, 2025 |
+| `sorting` | 1 | 7% | ███ | Jun 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -130,5 +134,6 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | AI Coding | Medium | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
+| [Minimum Changes to Make a K-Periodic Palindromic Password](https://trueinterview.io/questions/bc2b4789-0bab-59f3-a051-d98e93c72e03) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
 | [Maximum Earnings After Converting Days Off to Workdays](https://trueinterview.io/questions/67d28f6c-fb3d-5276-a3a9-869f98c53efb) | Algorithm | Medium | — |

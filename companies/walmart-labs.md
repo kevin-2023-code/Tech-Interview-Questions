@@ -48,20 +48,20 @@ Which stage each question came from, for the **26 of 26** questions at Walmart L
 
 ## What they ask about
 
-Of the **14 questions at Walmart Labs that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Walmart Labs that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 5 | 36% | ████████████ | May 07, 2026 |
-| `binary-search` | 2 | 14% | █████ | — |
-| `greedy` | 2 | 14% | █████ | May 07, 2026 |
-| `intervals` | 2 | 14% | █████ | Apr 24, 2026 |
-| `sorting` | 2 | 14% | █████ | Apr 24, 2026 |
-| `two-pointers` | 2 | 14% | █████ | Jul 07, 2026 |
-| `backtracking` | 1 | 7% | ██ | Jul 20, 2025 |
-| `hashing` | 1 | 7% | ██ | Mar 03, 2026 |
-| `sliding-window` | 1 | 7% | ██ | Jul 07, 2026 |
-| `stack` | 1 | 7% | ██ | Feb 07, 2026 |
+| `arrays` | 6 | 35% | ████████████ | May 07, 2026 |
+| `two-pointers` | 4 | 24% | ████████ | Jul 07, 2026 |
+| `binary-search` | 2 | 12% | ████ | — |
+| `greedy` | 2 | 12% | ████ | May 07, 2026 |
+| `intervals` | 2 | 12% | ████ | Apr 24, 2026 |
+| `sorting` | 2 | 12% | ████ | Apr 24, 2026 |
+| `stack` | 2 | 12% | ████ | Feb 24, 2026 |
+| `strings` | 2 | 12% | ████ | Apr 24, 2026 |
+| `backtracking` | 1 | 6% | ██ | Jul 20, 2025 |
+| `hashing` | 1 | 6% | ██ | Mar 03, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -54,7 +54,6 @@ Two very different tests. The timed assessment is conventional algorithm work â€
 
 Breadth over depth, and biased toward tabular practice: tree ensembles, missing-value strategies, overfitting detection and mitigation, and how you would know a deployed model has degraded. The bar is a crisp definition that survives one follow-up and one example from your own work. Where the role play appears, the same knowledge is retested through communication â€” you must convert a metric movement into a business consequence and a plan.
 
-- [DS Role-Play: Explain Model Regression to PM](guides/ds-role-play-pm-explanation.md)
 - [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study)
 
 ### Behavioral and Leadership
@@ -82,7 +81,7 @@ The third is live SQL. The technical hour asks for window functions and multiple
 
 ## Data Source
 
-Based on 7 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

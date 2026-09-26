@@ -71,7 +71,7 @@ The third is the values round, which on a research track carries extra weight be
 
 ## Data Source
 
-Based on 17 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 18 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

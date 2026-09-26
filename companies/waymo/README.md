@@ -8,7 +8,7 @@ How Waymo interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [48](../waymo.md) |
+| Questions reported | [47](../waymo.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
@@ -48,7 +48,7 @@ Waymo holds candidates to a Google-grade coding bar while testing how they reaso
 
 ## Everything else
 
-- [All 48 questions reported at Waymo](../waymo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 47 questions reported at Waymo](../waymo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Waymo question on TrueInterview](https://trueinterview.io/problems/company/waymo).
 
 ---

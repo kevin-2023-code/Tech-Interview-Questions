@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Microsoft · GEICO · Weride | Online assessment | — | — |
+| Algorithm | Easy | Microsoft · GEICO · Weride | Online assessment | math | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -53,21 +53,21 @@ The first output row is obtained by multiplying each row of `A` by the columns o
 <details>
 <summary>Hint 1</summary>
 
-Recall the definition of matrix multiplication: each element C[i][j] is the dot product of row i of A and column j of B.
+Think of the triple nested loop: for each row of A and each column of B, compute the dot product.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use three nested loops: iterate over rows of A, columns of B, and the common dimension n.
+The order of loops matters for cache efficiency, consider iterating i, k, j to exploit spatial locality.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The complexity is O(m*n*p), ensure you handle the input format correctly by reading dimensions first.
+Complexity is O(m*n*p), handle dimension mismatch by checking that the number of columns in A equals the number of rows in B.
 
 </details>
 

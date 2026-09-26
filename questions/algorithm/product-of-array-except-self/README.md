@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · GEICO · Squarepoint | Phone screen | — | Apr 2026 |
+| Algorithm | Medium | Apple · Amazon · GEICO · Squarepoint | Phone screen | arrays | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/product-of-array-except-self)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -51,21 +51,21 @@ The zero causes the products for every position except its own to be zero, while
 <details>
 <summary>Hint 1</summary>
 
-Think about how to compute the product of all elements to the left and right of each index without using division.
+Think about how you can compute the product of all elements to the left of each index and all elements to the right separately, then combine them.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use two passes: one from left to right to compute prefix products, and one from right to left to compute suffix products, then combine them.
+Use two passes: one forward to build a prefix product array and one backward to build a suffix product, or combine both products on the fly.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The follow-up asks for O(1) extra space (excluding the output array), so you can store the prefix product in the output array and then update it with the suffix product in a second pass.
+The follow-up asks for O(n) time and O(1) extra space (excluding the output array), which you can achieve by storing the left product in the output array and updating it with a running right product during a second pass.
 
 </details>
 
