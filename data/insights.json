@@ -10,7 +10,7 @@
       "free": 30,
       "guides": 17,
       "inLastYear": 132,
-      "inWindow": 46,
+      "inWindow": 44,
       "lastSighting": "2026-09-05",
       "name": "Amazon",
       "questions": 228,
@@ -438,7 +438,7 @@
       "dated": 14,
       "free": 3,
       "guides": 2,
-      "inLastYear": 13,
+      "inLastYear": 12,
       "inWindow": 1,
       "lastSighting": "2026-07-04",
       "name": "SoFi",
@@ -1306,7 +1306,7 @@
       "free": 108,
       "graded": 1624,
       "hard": 301,
-      "inWindow": 105,
+      "inWindow": 103,
       "label": "Algorithm",
       "medium": 1042,
       "questions": 1624
@@ -1356,7 +1356,7 @@
       "questions": 411
     }
   ],
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "latestSighting": "2026-09-11",
   "months": [
     {
@@ -2297,7 +2297,7 @@
       "easy": 11,
       "graded": 67,
       "hard": 13,
-      "inWindow": 5,
+      "inWindow": 4,
       "medium": 43,
       "questions": 67,
       "topCompanies": [
@@ -2769,8 +2769,8 @@
     "futureDated": 1,
     "gradedDifficulty": 2509,
     "guides": 363,
-    "inLastYear": 1294,
-    "inWindow": 195,
+    "inLastYear": 1293,
+    "inWindow": 193,
     "labelledTopic": 1155,
     "namingARound": 2509,
     "questions": 2509,

@@ -47,7 +47,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 
 ## Asked here in the last 90 days
 
-**131 sightings** across this cut. Newest first.
+**129 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 | [Maximum Frequency Stack](https://trueinterview.io/questions/maximum-frequency-stack) | Amazon | Algorithm | Sep 01, 2026 |
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Amazon | Algorithm | Sep 01, 2026 |
 
-<sub>119 more in this window are in the table below.</sub>
+<sub>117 more in this window are in the table below.</sub>
 
 ---
 
@@ -136,9 +136,9 @@ Of the **582 questions in this cut that carry a topic label** (47% of it):
 | **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Medium | 🆕 Aug 13, 2026 |
 | **Amazon** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | Easy | 🆕 Aug 13, 2026 |
 | **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | Medium | 🆕 Aug 13, 2026 |
-| **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Medium | 🆕 Aug 11, 2026 |
-| **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Hard | 🆕 Aug 11, 2026 |
-| **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Hard | 🆕 Aug 11, 2026 |
+| **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Medium | Aug 11, 2026 |
+| **Google** | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Hard | Aug 11, 2026 |
+| **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Hard | Aug 11, 2026 |
 | **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | Aug 10, 2026 |
 | **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | Aug 08, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | Aug 08, 2026 |

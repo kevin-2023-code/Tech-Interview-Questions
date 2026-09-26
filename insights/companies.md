@@ -10,12 +10,12 @@
 
 | Company | Last 90d | Questions | Last sighting |  |
 | :-- | --: | --: | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 46 | 228 | Sep 05, 2026 | ████████████████ |
+| [Amazon](../companies/amazon.md) | 44 | 228 | Sep 05, 2026 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 19 | 170 | Sep 06, 2026 | ███████ |
 | [Google](../companies/google.md) | 19 | 190 | Sep 10, 2026 | ███████ |
 | [Apple](../companies/apple.md) | 13 | 113 | Aug 26, 2026 | █████ |
 | [Microsoft](../companies/microsoft.md) | 11 | 116 | Sep 09, 2026 | ████ |
-| [Meta](../companies/meta.md) | 10 | 175 | Aug 16, 2026 | ███ |
+| [Meta](../companies/meta.md) | 10 | 175 | Aug 16, 2026 | ████ |
 | [Figma](../companies/figma.md) | 8 | 18 | Aug 12, 2026 | ███ |
 | [Citadel](../companies/citadel.md) | 6 | 53 | Sep 08, 2026 | ██ |
 | [DoorDash](../companies/doordash.md) | 5 | 66 | Aug 16, 2026 | ██ |
@@ -40,7 +40,7 @@
 
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 228 | 17 | 30 | 46 | Sep 05, 2026 | Algorithm | `hashing` |
+| [Amazon](../companies/amazon.md) | 228 | 17 | 30 | 44 | Sep 05, 2026 | Algorithm | `hashing` |
 | [Google](../companies/google.md) | 190 | 10 | 21 | 19 | Sep 10, 2026 | Algorithm | `graphs` |
 | [Meta](../companies/meta.md) | 175 | 16 | 22 | 10 | Aug 16, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 170 | 16 | 21 | 19 | Sep 06, 2026 | Algorithm | `graphs` |

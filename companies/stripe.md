@@ -145,8 +145,8 @@ What candidates said happened in the room at Stripe — written up by the people
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | 🔥 Sep 11, 2026 |
-| [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | 🔥 Sep 11, 2026 |
+| [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | Medium | 🆕 Sep 11, 2026 |
+| [Hierarchical CSV Task / Subtask Formatter](https://trueinterview.io/questions/hierarchical-csv-task-formatter) | Algorithm | Medium | 🆕 Sep 11, 2026 |
 | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Algorithm | Hard | 🆕 Aug 24, 2026 |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | SQL | Medium | Jul 22, 2026 |
 | [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Algorithm | Medium | Jun 24, 2026 |

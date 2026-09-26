@@ -127,7 +127,7 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 | :-- | :-- | :-: | :-- |
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | 🆕 Aug 16, 2026 |
 | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | 🆕 Aug 11, 2026 |
+| [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | Aug 11, 2026 |
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Aug 10, 2026 |
 | [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Jun 28, 2026 |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Jun 24, 2026 |

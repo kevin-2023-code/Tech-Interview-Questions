@@ -16,7 +16,7 @@ What the bank is *about*, counted over the **1,155 questions that carry a topic 
 | `dynamic-programming` | 83 | 7% | 9 | 7 | 45 | 31 | [Google](../companies/google.md), [ByteDance](../companies/bytedance.md), [Snowflake](../companies/snowflake.md) |
 | `sorting` | 73 | 6% | 8 | 14 | 46 | 13 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [Apple](../companies/apple.md) |
 | `backtracking` | 72 | 6% | 5 | 6 | 40 | 26 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
-| `trees` | 67 | 6% | 5 | 11 | 43 | 13 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
+| `trees` | 67 | 6% | 4 | 11 | 43 | 13 | [Meta](../companies/meta.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `heap` | 59 | 5% | 5 | 1 | 43 | 15 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md) |
 | `sliding-window` | 58 | 5% | 3 | 9 | 40 | 9 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `two-pointers` | 56 | 5% | 2 | 15 | 39 | 2 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |

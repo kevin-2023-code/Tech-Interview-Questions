@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **228** |
 | Most recent sighting | Sep 05, 2026 |
-| Reported in the last 90 days | 46 |
+| Reported in the last 90 days | 44 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 228) |
 | Difficulty (easy / medium / hard) | 36 / 155 / 37 |
 | Free to practise | [30](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **228 of 228** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**46 sightings** in this window. Newest first.
+**44 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **228 of 228** questions at Amazon 
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | Medium | Onsite / virtual onsite | Aug 22, 2026 |
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | Hard | Onsite / virtual onsite | Aug 21, 2026 |
 
-<sub>34 more in this window are in the table below.</sub>
+<sub>32 more in this window are in the table below.</sub>
 
 ## What they ask about
 

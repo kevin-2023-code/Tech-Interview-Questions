@@ -149,7 +149,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | 🆕 Aug 13, 2026 |
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | 🆕 Aug 13, 2026 |
-| [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | 🆕 Aug 11, 2026 |
+| [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Aug 11, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | SQL | Medium | Jul 22, 2026 |
 | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | SQL | Medium | Jul 22, 2026 |

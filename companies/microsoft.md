@@ -143,7 +143,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Algorithm | Medium | 🆕 Aug 15, 2026 |
-| [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Algorithm | Hard | 🆕 Aug 11, 2026 |
+| [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Algorithm | Hard | Aug 11, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Jul 29, 2026 |
 | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | SQL | Medium | Jul 22, 2026 |
