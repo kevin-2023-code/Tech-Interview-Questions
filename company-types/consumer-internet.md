@@ -47,7 +47,7 @@ Of the **474 questions in this cut that carry a topic label** (70% of it):
 
 ## Asked here in the last 90 days
 
-**51 sightings** across this cut. Newest first.
+**47 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **474 questions in this cut that carry a topic label** (70% of it):
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | ByteDance … | Algorithm | Aug 21, 2026 |
 | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Google | Object Oriented Programming | Aug 20, 2026 |
 
-<sub>39 more in this window are in the table below.</sub>
+<sub>35 more in this window are in the table below.</sub>
 
 ---
 

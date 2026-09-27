@@ -117,10 +117,10 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | 🆕 Aug 12, 2026 |
-| [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Medium | 🆕 Aug 12, 2026 |
-| [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | 🆕 Aug 12, 2026 |
-| [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | 🆕 Aug 12, 2026 |
+| [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | Aug 12, 2026 |
+| [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Medium | Aug 12, 2026 |
+| [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | System Design | Medium | Aug 12, 2026 |
+| [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | Aug 12, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | Aug 04, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Aug 04, 2026 |
 | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Jul 09, 2026 |

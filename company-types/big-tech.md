@@ -47,7 +47,7 @@ Of the **878 questions in this cut that carry a topic label** (69% of it):
 
 ## Asked here in the last 90 days
 
-**144 sightings** across this cut. Newest first.
+**135 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **878 questions in this cut that carry a topic label** (69% of it):
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Amazon | Algorithm | Sep 05, 2026 |
 | [Restore IP Addresses](https://trueinterview.io/questions/restore-ip-addresses) | ByteDance | Algorithm | Sep 04, 2026 |
 
-<sub>132 more in this window are in the table below.</sub>
+<sub>123 more in this window are in the table below.</sub>
 
 ---
 

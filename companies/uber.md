@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **168** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 168) |
 | Difficulty (easy / medium / hard) | 24 / 111 / 33 |
 | Free to practise | [24](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **168 of 168** questions at Uber th
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -46,7 +46,6 @@ Which stage each question came from, for the **168 of 168** questions at Uber th
 | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Object Oriented Programming | Medium | Phone screen | Aug 11, 2026 |
 | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Algorithm | Medium | Onsite / virtual onsite | Aug 10, 2026 |
-| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 
 ## What they ask about
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **69** |
 | Most recent sighting | Jul 22, 2026 |
-| Reported in the last 90 days | 5 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 69) |
 | Difficulty (easy / medium / hard) | 11 / 42 / 16 |
 | Free to practise | [12](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **69 of 69** questions at Bloomberg
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,7 +47,6 @@ Which stage each question came from, for the **69 of 69** questions at Bloomberg
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | System Design | Medium | Onsite / virtual onsite | Jul 07, 2026 |
 | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | System Design | Hard | Onsite / virtual onsite | Jul 07, 2026 |
-| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 
 ## What they ask about
 

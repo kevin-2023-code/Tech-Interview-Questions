@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **28** |
 | Most recent sighting | Sep 11, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (36% of 28) |
 | Difficulty (easy / medium / hard) | 1 / 20 / 7 |
 | Free to practise | [5](../free/README.md) |
@@ -38,13 +38,11 @@ Which stage each question came from, for the **28 of 28** questions at Rippling 
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | Hard | Phone screen | Sep 11, 2026 |
-| [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
-| [User Behavior / Metrics Monitoring Aggregator](https://trueinterview.io/questions/user-behavior-monitoring-aggregator) | System Design | Hard | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
 
 ## What they ask about
 

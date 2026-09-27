@@ -47,7 +47,7 @@ Of the **101 questions in this cut that carry a topic label** (75% of it):
 
 ## Asked here in the last 90 days
 
-**13 sightings** across this cut. Newest first.
+**10 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -61,10 +61,6 @@ Of the **101 questions in this cut that carry a topic label** (75% of it):
 | [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Apple | Algorithm | Jul 28, 2026 |
 | [Alias Group Mapping](https://trueinterview.io/questions/alias-group-mapping) | Apple | Algorithm | Jul 27, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Apple | SQL | Jul 26, 2026 |
-| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Apple … | Algorithm | Jun 28, 2026 |
-| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Apple | Object Oriented Programming | Jun 28, 2026 |
-
-<sub>1 more in this window are in the table below.</sub>
 
 ---
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **25** |
 | Most recent sighting | Jun 28, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 25) |
 | Difficulty (easy / medium / hard) | 2 / 16 / 7 |
 | Free to practise | [3](../free/README.md) |
@@ -38,11 +38,7 @@ Which stage each question came from, for the **25 of 25** questions at Expedia t
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
+**Nothing has been reported at Expedia since Jun 28, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

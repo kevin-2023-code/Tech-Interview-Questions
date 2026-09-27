@@ -58,20 +58,20 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 20 | 43 | Sep 05, 2026 | 29 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 8 | 19 | Sep 10, 2026 | 20 |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 176 | 11 | 10 | Aug 16, 2026 | 22 |
-| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 168 | 6 | 5 | Aug 16, 2026 | 24 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 166 | 14 | 19 | Sep 06, 2026 | 20 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 20 | 41 | Sep 05, 2026 | 29 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 8 | 18 | Sep 10, 2026 | 20 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 176 | 11 | 7 | Aug 16, 2026 | 22 |
+| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 168 | 6 | 4 | Aug 16, 2026 | 24 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 166 | 14 | 17 | Sep 06, 2026 | 20 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 115 | 10 | 11 | Sep 09, 2026 | 18 |
-| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 113 | 12 | 13 | Aug 26, 2026 | 21 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 113 | 12 | 10 | Aug 26, 2026 | 21 |
 | [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 112 | 4 | 4 | Aug 15, 2026 | 11 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 100 | 12 | 5 | Aug 22, 2026 | 11 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 75 | 6 | 5 | Aug 26, 2026 | 5 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 75 | 3 | 5 | Sep 11, 2026 | 5 |
 | [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 71 | 7 | 8 | Sep 16, 2026 | 4 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 71 | 6 | 0 | Jun 15, 2026 | 12 |
-| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 69 | 2 | 5 | Jul 22, 2026 | 12 |
+| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 69 | 2 | 4 | Jul 22, 2026 | 12 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 63 | 11 | 0 | Jun 21, 2026 | 7 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 63 | 6 | 4 | Sep 06, 2026 | 11 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 61 | 6 | 4 | Sep 09, 2026 | 10 |
@@ -91,12 +91,12 @@ The sector and size of an employer are facts about the company rather than about
 | [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 28 | 6 | 1 | Jul 29, 2026 | 2 |
 | [Lyft](lyft.md) | E-commerce & marketplaces · 1,000–9,999 people | 28 | 3 | 3 | Jul 29, 2026 | 7 |
 | [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 28 | 7 | 5 | Aug 21, 2026 | 5 |
-| [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 28 | 6 | 3 | Sep 11, 2026 | 5 |
+| [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 28 | 6 | 1 | Sep 11, 2026 | 5 |
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 0 | Jun 23, 2026 | 4 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 26 | 2 | 1 | Jul 04, 2026 | 3 |
 | [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 26 | 5 | 0 | Jun 03, 2026 | 2 |
 | [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 26 | 3 | 3 | Jul 07, 2026 | 3 |
-| [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 1 | Jun 28, 2026 | 3 |
+| [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 0 | Jun 28, 2026 | 3 |
 | [IBM](ibm.md) | IT services & consulting · 10,000+ people | 25 | 3 | 2 | Sep 14, 2026 | 2 |
 | [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 24 | 2 | 0 | Jun 17, 2026 | 6 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 23 | 1 | 0 | Jun 24, 2026 | 3 |
@@ -123,7 +123,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Upstart](upstart.md) | Fintech, payments & crypto · 1,000–9,999 people | 15 | 1 | — | — | 2 |
 | [Visa](visa.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 1 | — | — | 2 |
 | [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 14 | — | 4 | Aug 12, 2026 | 2 |
-| [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 14 | 2 | 2 | Jun 28, 2026 | 2 |
+| [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 14 | 2 | 0 | Jun 28, 2026 | 2 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 14 | 3 | 0 | Jun 23, 2026 | 2 |
 | [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 14 | 1 | — | — | 2 |
 | [Dropbox](dropbox.md) | Enterprise & business software · 1,000–9,999 people | 13 | 1 | — | — | 2 |

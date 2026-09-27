@@ -47,7 +47,7 @@ Of the **125 questions in this cut that carry a topic label** (74% of it):
 
 ## Asked here in the last 90 days
 
-**9 sightings** across this cut. Newest first.
+**8 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -59,7 +59,6 @@ Of the **125 questions in this cut that carry a topic label** (74% of it):
 | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | Bloomberg | System Design | Jul 07, 2026 |
 | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | Bloomberg | System Design | Jul 07, 2026 |
 | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Goldman Sachs | Algorithm | Jul 06, 2026 |
-| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Bloomberg … | Algorithm | Jun 28, 2026 |
 
 ---
 

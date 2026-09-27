@@ -47,7 +47,7 @@ Of the **411 questions in this cut that carry a topic label** (67% of it):
 
 ## Asked here in the last 90 days
 
-**66 sightings** across this cut. Newest first.
+**63 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **411 questions in this cut that carry a topic label** (67% of it):
 | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Amazon | Object Oriented Programming | Aug 27, 2026 |
 | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Amazon | Algorithm | Aug 24, 2026 |
 
-<sub>54 more in this window are in the table below.</sub>
+<sub>51 more in this window are in the table below.</sub>
 
 ---
 

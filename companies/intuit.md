@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **14** |
 | Most recent sighting | Jun 28, 2026 |
-| Reported in the last 90 days | 2 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (57% of 14) |
 | Difficulty (easy / medium / hard) | 3 / 10 / 1 |
 | Free to practise | [2](../free/README.md) |
@@ -38,12 +38,7 @@ Which stage each question came from, for the **14 of 14** questions at Intuit th
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up) | Algorithm | Medium | Phone screen | Jun 28, 2026 |
-| [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system) | System Design | Hard | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
+**Nothing has been reported at Intuit since Jun 28, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **113** |
 | Most recent sighting | Aug 26, 2026 |
-| Reported in the last 90 days | 13 |
+| Reported in the last 90 days | 10 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 113) |
 | Difficulty (easy / medium / hard) | 24 / 70 / 19 |
 | Free to practise | [21](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **113 of 113** questions at Apple t
 
 ## Asked here in the last 90 days
 
-**13 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -52,10 +52,6 @@ Which stage each question came from, for the **113 of 113** questions at Apple t
 | [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Algorithm | Medium | Phone screen | Jul 28, 2026 |
 | [Alias Group Mapping](https://trueinterview.io/questions/alias-group-mapping) | Algorithm | Medium | Phone screen | Jul 27, 2026 |
 | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | SQL | Medium | Onsite / virtual onsite | Jul 26, 2026 |
-| [Binary Tree Vertical Order Traversal](https://trueinterview.io/questions/binary-tree-vertical-order-traversal) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 28, 2026 |
-| [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Object Oriented Programming | Medium | Phone screen | Jun 28, 2026 |
-
-<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 

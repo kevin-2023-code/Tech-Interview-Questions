@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,590 questions** · **375 writeups** · **109 companies** · **178 free to practise** · **232 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,590 questions** · **375 writeups** · **109 companies** · **178 free to practise** · **222 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -41,9 +41,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 232 sightings at 54 companies — Algorithm 126 · SQL 31 · System Design 48 · AI Coding 4 · Object Oriented Programming 23.
+**Last 90 days:** 222 sightings at 52 companies — Algorithm 123 · SQL 31 · System Design 43 · AI Coding 3 · Object Oriented Programming 22.
 
-**Reported most:** [Amazon (43)](companies/amazon.md) · [ByteDance (19)](companies/bytedance.md) · [Google (19)](companies/google.md) · [Apple (13)](companies/apple.md) · [Microsoft (11)](companies/microsoft.md) · [Salesforce (11)](companies/salesforce.md) · [Meta (10)](companies/meta.md) · [DoorDash (8)](companies/doordash.md)
+**Reported most:** [Amazon (41)](companies/amazon.md) · [Google (18)](companies/google.md) · [ByteDance (17)](companies/bytedance.md) · [Microsoft (11)](companies/microsoft.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [DoorDash (8)](companies/doordash.md) · [Figma (8)](companies/figma.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (13)
 
