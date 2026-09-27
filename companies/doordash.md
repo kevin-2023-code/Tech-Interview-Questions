@@ -2,36 +2,37 @@
 
 # DoorDash interview process, OA & interview questions
 
-**71 questions** reported at DoorDash · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
+**70 questions** reported at DoorDash · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How DoorDash interviews & the free questions](doordash/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-doordash)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-doordash)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **71** |
+| Questions tracked | **70** |
 | Most recent sighting | Sep 16, 2026 |
 | Reported in the last 90 days | 8 |
-| Most common format | [Algorithm](../formats/algorithm.md) (45% of 71) |
-| Difficulty (easy / medium / hard) | 8 / 52 / 11 |
+| Most common format | [Algorithm](../formats/algorithm.md) (44% of 70) |
+| Difficulty (easy / medium / hard) | 8 / 51 / 11 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 7 |
+| Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 71 questions reported at DoorDash. 47 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 70 questions reported at DoorDash. 47 of them carry a sighting date; the other 23 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **71 of 71** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **70 of 70** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 44 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 3 / 37 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 43 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 3 / 36 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 30 | ███████ | [System Design](../formats/system-design.md) (50%) | 2 / 20 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -53,16 +54,16 @@ Which stage each question came from, for the **71 of 71** questions at DoorDash 
 
 ## What they ask about
 
-Of the **32 questions at DoorDash that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **31 questions at DoorDash that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 6 | 19% | ████████████ | Aug 16, 2026 |
 | `strings` | 6 | 19% | ████████████ | Aug 16, 2026 |
-| `trees` | 6 | 19% | ████████████ | Feb 04, 2026 |
-| `arrays` | 4 | 12% | ████████ | Aug 16, 2026 |
-| `graphs` | 4 | 12% | ████████ | Apr 29, 2026 |
-| `binary-search` | 3 | 9% | ██████ | Aug 16, 2026 |
+| `trees` | 5 | 16% | ██████████ | Feb 04, 2026 |
+| `arrays` | 4 | 13% | ████████ | Aug 16, 2026 |
+| `graphs` | 4 | 13% | ████████ | Apr 29, 2026 |
+| `binary-search` | 3 | 10% | ██████ | Aug 16, 2026 |
 | `dynamic-programming` | 2 | 6% | ████ | Feb 07, 2026 |
 | `greedy` | 2 | 6% | ████ | Aug 16, 2026 |
 | `intervals` | 2 | 6% | ████ | — |
@@ -118,6 +119,16 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | ai-collaboration, bq, conflict, leadership, star |
 | [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | ab-testing, experiment-design, ml-knowledge, ranking, verbal |
 | [On-Call Case Investigation](https://trueinterview.io/study/onsite-case-investigation) | open-ended, operating-systems, sre, troubleshooting, verbal |
+
+## Interview reports
+
+What candidates said happened in the room at DoorDash — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [DoorDash Bootstrap API Coding Interview Experience](https://trueinterview.io/interviews/963f6ed1-c533-4d81-bb32-51bde96f1a1e) | Sep 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at DoorDash and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -192,11 +203,10 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Calculate Total Payment for Dasher](https://trueinterview.io/questions/e6ef089b-490d-47b3-8a92-8cf96b06acec) | Algorithm | Medium | — |
 | [Dasher Picker](https://trueinterview.io/questions/ce094618-c109-4226-9302-f624c2243e88) | Object Oriented Programming | Medium | — |
 | [Max Sum Sliding Window and Return Start Days (1-based)](https://trueinterview.io/questions/cb56b885-74d2-47ca-aefe-725df4a97b39) | Algorithm | Easy | — |
-| [Dasher Pay Classic Problem](https://trueinterview.io/questions/cb1af2e3-d261-4cd6-9b7c-fb10f0ee8187) | Algorithm | Medium | — |
 | [Design a Ring Buffer for Consistent Hashing](https://trueinterview.io/questions/b2660ec8-502d-45f2-ad27-401c94329833) | Object Oriented Programming | Medium | — |
 | [Minimum Number of Couriers Needed (Meeting Rooms II Variant)](https://trueinterview.io/questions/9b6179b4-2319-4efe-9129-adc78a2d421d) | Algorithm | Medium | — |
 | [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | SQL | Medium | — |
 | [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | SQL | Easy | — |
-| [Maximum Sum between Two Leaf Nodes in Binary Tree](https://trueinterview.io/questions/4109f70e-581d-41db-8c2d-11301c97ae8a) | Algorithm | Hard | — |
 | [Calculate Dasher Pay](https://trueinterview.io/questions/14422fe4-b9b1-4311-9900-313a365e8e70) | Algorithm | Easy | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
+| [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |

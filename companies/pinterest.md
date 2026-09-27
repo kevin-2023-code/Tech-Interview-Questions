@@ -2,13 +2,13 @@
 
 # Pinterest interview process, OA & interview questions
 
-**75 questions** reported at Pinterest · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**75 questions** reported at Pinterest · **6 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-pinterest)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-pinterest)
 
 ## At a glance
 
@@ -21,6 +21,7 @@
 | Difficulty (easy / medium / hard) | 7 / 51 / 17 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 6 |
+| Interview reports on the board | 2 in this snapshot |
 
 <sub>Counted from the 75 questions reported at Pinterest. 46 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -115,6 +116,17 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 | [Pinterest Interview Process & Questions](https://trueinterview.io/study/pinterest-interview-process) | — |
 | [Pinterest Machine Learning Engineer Interview Process](https://trueinterview.io/study/pinterest-machine-learning-engineer-interview-process) | — |
 | [Pinterest Software Engineer Interview Process](https://trueinterview.io/study/pinterest-software-engineer-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Pinterest — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Pinterest SDE2 Interview Experience](https://trueinterview.io/interviews/519ecb26-48c1-4198-a490-a8c6b6cfdf77) | Sep 27, 2026 |
+| Software | [Pinterest Senior Software Engineer Interview Experience: Region Tree Access Control System Design](https://trueinterview.io/interviews/b1c34d1b-e5ae-4d52-95ed-c2810a070236) | Sep 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

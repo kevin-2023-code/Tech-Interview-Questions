@@ -2,37 +2,38 @@
 
 # Snowflake interview process, OA & interview questions
 
-**112 questions** reported at Snowflake · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
+**110 questions** reported at Snowflake · **5 writeups** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snowflake interviews & the free questions](snowflake/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > ☁️ [Developer tools, cloud & data infrastructure](../company-types/dev-infra.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-snowflake)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-snowflake)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **112** |
+| Questions tracked | **110** |
 | Most recent sighting | Aug 15, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (74% of 112) |
-| Difficulty (easy / medium / hard) | 17 / 72 / 23 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 110) |
+| Difficulty (easy / medium / hard) | 16 / 75 / 19 |
 | Free to practise | [11](../free/README.md) |
-| Guides & writeups | 4 |
+| Guides & writeups | 5 |
+| Interview reports on the board | 4 in this snapshot |
 
-<sub>Counted from the 112 questions reported at Snowflake. 77 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 110 questions reported at Snowflake. 77 of them carry a sighting date; the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **112 of 112** questions at Snowflake that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **110 of 110** questions at Snowflake that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 78 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 6 / 55 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 52 | ███████ | [Algorithm](../formats/algorithm.md) (54%) | 4 / 36 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 8 / 5 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 77 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 6 / 57 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 51 | ███████ | [Algorithm](../formats/algorithm.md) (55%) | 4 / 36 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -49,14 +50,14 @@ Which stage each question came from, for the **112 of 112** questions at Snowfla
 
 ## What they ask about
 
-Of the **84 questions at Snowflake that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **83 questions at Snowflake that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 20 | 24% | ████████████ | Jun 17, 2026 |
 | `backtracking` | 12 | 14% | ███████ | Jun 17, 2026 |
 | `arrays` | 11 | 13% | ███████ | Aug 15, 2026 |
-| `dynamic-programming` | 11 | 13% | ███████ | Jun 07, 2026 |
+| `dynamic-programming` | 10 | 12% | ██████ | Jun 07, 2026 |
 | `trees` | 10 | 12% | ██████ | Jun 24, 2026 |
 | `strings` | 9 | 11% | █████ | Jun 17, 2026 |
 | `greedy` | 8 | 10% | █████ | Jun 17, 2026 |
@@ -103,14 +104,28 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 
 ## Guides & writeups
 
-**4 writeups** filed under Snowflake in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under Snowflake in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | ai-screening, ai-tools, deep-dive, new-round, verbal |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/study/explain-a-technical-project-from-milestone-to-production) | — |
 | [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/study/infra-recruiter-experience-screen) | fit, infra |
 | [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | conflict, ownership |
 | [Snowflake Interview Process & Questions](https://trueinterview.io/study/snowflake-interview-process) | — |
+
+## Interview reports
+
+What candidates said happened in the room at Snowflake — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Snowflake Dynamic Programming OA and Coding Onsite Interview Experience](https://trueinterview.io/interviews/4fa317f2-802f-489a-9f79-51caeb3f7042) | Sep 27, 2026 |
+| Software | [Snowflake Interview Experience](https://trueinterview.io/interviews/2f6df099-034d-44a9-88b6-b2b6bfb0d61a) | Sep 27, 2026 |
+| Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/093ea1be-0a23-4b05-8c78-d15b7c09e2f9) | Sep 27, 2026 |
+| Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/4b999f4f-c271-41a9-972c-0401de88773b) | Sep 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -190,13 +205,13 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Preorder Traversal Without Invalid Nodes](https://trueinterview.io/questions/preorder-traversal-without-invalid-nodes) | Algorithm | Easy | Dec 09, 2025 |
 | [Check if an Original String Exists Given Two Encoded Strings](https://trueinterview.io/questions/check-if-an-original-string-exists-given-two-encoded-strings) | Algorithm | Hard | Dec 09, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
-| [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Hard | Dec 02, 2025 |
+| [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Medium | Dec 02, 2025 |
 | [Dropped Requests (Rate Limiter)](https://trueinterview.io/questions/dropped-requests-rate-limiter) | Algorithm | Medium | Nov 29, 2025 |
-| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Hard | Nov 23, 2025 |
+| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Medium | Nov 23, 2025 |
 | [S3-Style Storage with Dedup](https://trueinterview.io/questions/s3-dedup-storage-design) | System Design | Medium | Nov 23, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Algorithm | Medium | Jul 20, 2025 |
-| [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | Algorithm | Hard | Jul 20, 2025 |
+| [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | Algorithm | Medium | Jul 20, 2025 |
 | [Unequal Elements](https://trueinterview.io/questions/unequal-elements) | Algorithm | Medium | Jul 20, 2025 |
 | [Three-Color Map Coloring](https://trueinterview.io/questions/three-color-map-coloring) | Algorithm | Hard | Jul 20, 2025 |
 | [Wiki Hopper: Crawl All Reachable Pages](https://trueinterview.io/questions/fb29adba-08ba-5631-8405-02b39be6f187) | Algorithm | Easy | — |
@@ -208,7 +223,6 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Determine if a Binary Tree is Perfect](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) | Algorithm | Medium | — |
 | [Target Course Completion Plan](https://trueinterview.io/questions/62ce3ab3-e18e-5908-9a1b-df60f07d256d) | Algorithm | Medium | — |
 | [Bounded Event Stream Unique-Key Queries](https://trueinterview.io/questions/538d12a1-cb8b-5e5c-8a83-6766bfef0c5c) | Algorithm | Hard | — |
-| [In-Memory Time-Series Database for Thermostat Temperatures](https://trueinterview.io/questions/4e041f20-ba2b-4e5b-abae-b18855f5eba1) | Object Oriented Programming | Medium | — |
 | [Determine Employees to Promote](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) | Algorithm | Easy | — |
 | [Role-Based Access Control with Inheritance and Deny Rules](https://trueinterview.io/questions/406c257a-cd8f-4c52-ba90-ea79a05da226) | Algorithm | Medium | — |
 | [Simple TypeScript Program](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) | Algorithm | Easy | — |
@@ -217,7 +231,6 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Maximum Order Volume](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) | Algorithm | Hard | — |
 | [Rate Limiter](https://trueinterview.io/questions/5ac1e372-948a-4af9-b467-5e495795ba16) | Algorithm | Easy | — |
 | [Vowel Substring](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) | Algorithm | Easy | — |
-| [Efficient Deployments](https://trueinterview.io/questions/035db926-100a-4614-b9ec-cd4389cd6a88) | Algorithm | Hard | — |
 | [Minimum Value Weight](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) | Algorithm | Medium | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
@@ -225,7 +238,7 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Sort Colors in a RecordCollection In-Place](https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb) | Algorithm | Medium | — |
 | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4) | Algorithm | Medium | — |
-| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Easy | — |
+| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Medium | — |
 | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Algorithm | Hard | — |
 | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Algorithm | Hard | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |

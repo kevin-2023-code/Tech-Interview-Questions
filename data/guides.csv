@@ -5,7 +5,6 @@ slug,title,companies,topics,url,added_at
 3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7,Understand Code Functionality,Perplexity,,https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7,2026-07-13T02:40:48.345855+00:00
 3ff04932-615f-483c-a528-757dfbfc638a,Time Complexity Analysis,Rippling,,https://trueinterview.io/study/3ff04932-615f-483c-a528-757dfbfc638a,2026-07-18T21:25:06.951163+00:00
 4dde5e0c-9e01-477b-b775-5919892177b9,DispatchQueue Code Analysis in Swift,Snapchat,,https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9,2026-07-18T21:24:36.397174+00:00
-662ddd89-02d8-4f10-bdaf-4778877ab42a,Build a Tree and Perform BFS Traversal,Apple,,https://trueinterview.io/study/662ddd89-02d8-4f10-bdaf-4778877ab42a,2026-07-13T02:40:46.038847+00:00
 72fc1b26-d7bc-4260-a442-36f08b50385c,Credit Card Service with Points Earning and Redemption System,Brex,,https://trueinterview.io/study/72fc1b26-d7bc-4260-a442-36f08b50385c,2026-09-10T21:50:53.739032+00:00
 accessories-qa-benchmark-and-regression-deep-dive,Accessories QA Benchmark and Regression Deep Dive,Apple,deep-dive; metrics; optimization; presentation,https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive,2026-09-22T10:10:50.899181+00:00
 ai-agent-intern-oral-fundamentals,AI Agent Intern Technical Questions,ByteDance,agents; evaluation; networking; operating-systems; troubleshooting,https://trueinterview.io/study/ai-agent-intern-oral-fundamentals,2026-09-16T20:29:36.727428+00:00
@@ -57,6 +56,7 @@ behavioral-leadership-initiative,"Leadership, Initiative, Project End-to-End",Pi
 behavioral-policy-vs-efficiency-leadership,Policy vs Efficiency Trade-offs & Leadership,Waymo,ambiguity; conflict; deep-dive; leadership,https://trueinterview.io/study/behavioral-policy-vs-efficiency-leadership,2026-07-18T21:25:05.338314+00:00
 behavioral-prioritization-and-stakeholder-fit,Behavioral Prioritization and Stakeholder Fit,Apple,ambiguity; bq; collaboration; conflict; fit; impact; star,https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit,2026-07-13T02:41:01.719632+00:00
 behavioral-project-conflict-and-dei,"Project, Conflict, Failure, and DEI",Lyft,,https://trueinterview.io/study/behavioral-project-conflict-and-dei,2026-08-21T13:58:53.143278+00:00
+behavioral-project-deep-dive,Project Deep-Dive (Four-Axis Rubric),LinkedIn,deep-dive; impact; leadership; presentation; project-retro,https://trueinterview.io/study/behavioral-project-deep-dive,2026-09-27T05:09:08.396094+00:00
 behavioral-question-pool,Behavioral Question Pool,Bloomberg,deep-dive; star; why-company,https://trueinterview.io/study/behavioral-question-pool,2026-07-18T21:25:02.689409+00:00
 behavioral-round,Behavioral Round (Growth Mindset / Customer Obsession),Microsoft,ai-collaboration; conflict; culture-fit; leadership; star,https://trueinterview.io/study/behavioral-round,2026-07-18T21:25:03.803999+00:00
 bloomberg-interview-process,Bloomberg Interview Process & Questions,Bloomberg,,https://trueinterview.io/study/bloomberg-interview-process,2026-07-24T14:41:44.432528+00:00
@@ -83,6 +83,7 @@ cisco-interview-process,Cisco Interview Process & Questions,Cisco,,https://truei
 citadel-bq-resume-loop,Behavioral / Resume Drilling Across the Loop,Citadel,culture-fit; deep-dive; fit; why-company,https://trueinterview.io/study/citadel-bq-resume-loop,2026-07-18T21:25:03.254642+00:00
 citadel-hft-onsite-fundamentals,HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design,Citadel,complexity-analysis; cs-fundamentals; io; operating-systems; sorting,https://trueinterview.io/study/citadel-hft-onsite-fundamentals,2026-07-18T21:25:03.254642+00:00
 citadel-interview-process,Citadel Interview Process & Questions,Citadel,,https://trueinterview.io/study/citadel-interview-process,2026-07-24T14:41:44.432528+00:00
+cloud-domain-knowledge-round,Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s),Salesforce,cloud; cs-fundamentals; domain-knowledge; infra; verbal,https://trueinterview.io/study/cloud-domain-knowledge-round,2026-09-26T16:31:55.239146+00:00
 coding-knowledge-test,Programming & Computer-System Knowledge Quiz,Optiver,cs-fundamentals; networking; operating-systems,https://trueinterview.io/study/coding-knowledge-test,2026-07-18T21:25:04.346976+00:00
 coinbase-frontend-engineer-interview-process,Coinbase Frontend Engineer Interview Process,Coinbase,,https://trueinterview.io/study/coinbase-frontend-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 coinbase-interview-process,Coinbase Interview Process & Questions,Coinbase,,https://trueinterview.io/study/coinbase-interview-process,2026-07-24T14:41:44.432528+00:00
@@ -111,8 +112,10 @@ databricks-infrastructure-engineer-interview-process,Databricks Infrastructure E
 databricks-interview-process,Databricks Interview Process & Questions,Databricks,,https://trueinterview.io/study/databricks-interview-process,2026-07-24T14:41:44.432528+00:00
 databricks-software-engineer-interview-process,Databricks Software Engineer Interview Process,Databricks,,https://trueinterview.io/study/databricks-software-engineer-interview-process,2026-07-24T14:41:44.432528+00:00
 datadog-interview-process,Datadog Interview Process & Questions,Datadog,,https://trueinterview.io/study/datadog-interview-process,2026-08-22T03:02:59.028389+00:00
+deep-dive-url-request-lifecycle,Deep Dive — What Happens When You Access a URL,Figma,cs-fundamentals; http; networking; open-ended,https://trueinterview.io/study/deep-dive-url-request-lifecycle,2026-08-21T13:58:53.143278+00:00
 deep-learning-fundamentals,"Deep Learning Fundamentals: Optimization, Drift, Calibration",NVIDIA,calibration; distribution; ml-knowledge; optimization,https://trueinterview.io/study/deep-learning-fundamentals,2026-07-18T21:25:04.346976+00:00
 deepmind-rs-paper-presentation-defense,Research Paper Presentation and Defense (DeepMind RS),Google,critique; deep-dive; presentation; vlm,https://trueinterview.io/study/deepmind-rs-paper-presentation-defense,2026-09-16T20:29:38.036078+00:00
+describe-a-deep-debugging-investigation,Describe a Deep Debugging Investigation,Amazon,,https://trueinterview.io/study/describe-a-deep-debugging-investigation,2026-09-26T16:31:55.239146+00:00
 devsecops-kubernetes-cicd-screen,DevSecOps Kubernetes / CI-CD Technical Screen,IBM,cs-fundamentals; docker; networking; sre; troubleshooting,https://trueinterview.io/study/devsecops-kubernetes-cicd-screen,2026-07-18T21:25:03.803999+00:00
 diagnose-cpu-performance-problems-on-a-linux-server,Diagnose CPU Performance Problems on a Linux Server,Together AI,,https://trueinterview.io/study/diagnose-cpu-performance-problems-on-a-linux-server,2026-09-26T16:31:55.948598+00:00
 diagnose-slow-network-throughput-including-containers,Diagnose Slow Network Throughput Including Containers,Together AI,,https://trueinterview.io/study/diagnose-slow-network-throughput-including-containers,2026-09-26T16:31:55.948598+00:00
@@ -123,8 +126,8 @@ doordash-software-engineer-interview-process,DoorDash Software Engineer Intervie
 dropbox-interview-process,Dropbox Interview Process & Questions,Dropbox,,https://trueinterview.io/study/dropbox-interview-process,2026-08-22T03:02:59.028389+00:00
 ds-business-analyst-case-study,DS Business Analyst Case (P&L Decomposition),Capital One,critical-thinking; math-reasoning; open-ended; verbal,https://trueinterview.io/study/ds-business-analyst-case-study,2026-07-18T21:25:03.254642+00:00
 ds-commuter-coupon-probability,Commuter Coupon Conditional Probability,Lyft,math-reasoning; probability,https://trueinterview.io/study/ds-commuter-coupon-probability,2026-08-21T13:58:53.143278+00:00
+ds-role-play-pm-explanation,DS Role-Play: Explain Model Regression to PM,Capital One,ab-testing; critical-thinking; ml-knowledge; open-ended; verbal,https://trueinterview.io/study/ds-role-play-pm-explanation,2026-07-18T21:25:03.254642+00:00
 ebay-interview-process,eBay Interview Process & Questions,Ebay,,https://trueinterview.io/study/ebay-interview-process,2026-08-22T03:02:59.028389+00:00
-ebf5d768-7f3c-40dc-927c-477fe70eae77,Crafting a Compelling Job Transition and Motivation Response,Apple,,https://trueinterview.io/study/ebf5d768-7f3c-40dc-927c-477fe70eae77,2026-09-22T10:10:50.899181+00:00
 engineering-management-fundamentals,Engineering Management Fundamentals & Team Operations,OpenAI,leadership; mentorship; ownership,https://trueinterview.io/study/engineering-management-fundamentals,2026-09-22T10:10:50.899181+00:00
 evaluate-post-purchase-recommendation-emails,Evaluate Post-Purchase Recommendation Emails,Wayfair,,https://trueinterview.io/study/evaluate-post-purchase-recommendation-emails,2026-09-26T16:31:55.948598+00:00
 expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring,Expected Dart Score for a Bivariate Normal Throw with Ring Scoring,Drw,,https://trueinterview.io/study/expected-dart-score-for-a-bivariate-normal-throw-with-ring-scoring,2026-09-26T16:31:55.948598+00:00
@@ -133,6 +136,7 @@ expedia-interview-process,Expedia Group Interview Process & Questions,Expedia,,h
 experience-project-deep-dive,Experience / Project Deep-Dive Round,Airbnb,deep-dive; impact; leadership; technical-deep-dive,https://trueinterview.io/study/experience-project-deep-dive,2026-07-18T21:25:01.975685+00:00
 explain-a-project-and-its-hardest-engineering-challenge,Explain a Project and Its Hardest Engineering Challenge,Millennium,,https://trueinterview.io/study/explain-a-project-and-its-hardest-engineering-challenge,2026-09-26T16:31:55.948598+00:00
 explain-a-project-that-could-not-meet-a-tight-deadline,Explain a Project That Could Not Meet a Tight Deadline,Amazon,,https://trueinterview.io/study/explain-a-project-that-could-not-meet-a-tight-deadline,2026-09-26T16:31:55.948598+00:00
+explain-a-technical-project-from-milestone-to-production,Explain a Technical Project from Milestone to Production,Snowflake,,https://trueinterview.io/study/explain-a-technical-project-from-milestone-to-production,2026-09-26T16:31:55.948598+00:00
 explain-adam-adamw-and-decoupled-weight-decay,"Explain Adam, AdamW, and Decoupled Weight Decay",Mistral AI,,https://trueinterview.io/study/explain-adam-adamw-and-decoupled-weight-decay,2026-09-26T16:31:55.948598+00:00
 explain-cache-conflicts-and-related-memory-access-problems,Explain Cache Conflicts and Related Memory-Access Problems,AMD,,https://trueinterview.io/study/explain-cache-conflicts-and-related-memory-access-problems,2026-09-26T16:31:55.948598+00:00
 explain-gpu-register-spills-and-their-performance-cost,Explain GPU Register Spills and Their Performance Cost,AMD,,https://trueinterview.io/study/explain-gpu-register-spills-and-their-performance-cost,2026-09-26T16:31:55.948598+00:00
@@ -142,6 +146,7 @@ explain-mixture-of-experts-and-expert-parallelism,Explain Mixture of Experts and
 explain-skills-and-progressive-disclosure-in-an-agent,Explain Skills and Progressive Disclosure in an Agent,AMD,,https://trueinterview.io/study/explain-skills-and-progressive-disclosure-in-an-agent,2026-09-26T16:31:55.948598+00:00
 explain-the-forward-and-reverse-processes-of-diffusion-models,Explain the Forward and Reverse Processes of Diffusion Models,Mistral AI,,https://trueinterview.io/study/explain-the-forward-and-reverse-processes-of-diffusion-models,2026-09-26T16:31:55.948598+00:00
 explain-the-react-agent-loop,Explain the ReAct Agent Loop,AMD,,https://trueinterview.io/study/explain-the-react-agent-loop,2026-09-26T16:31:55.948598+00:00
+explain-the-scope-and-impact-of-your-most-important-project,Explain the Scope and Impact of Your Most Important Project,Rippling,,https://trueinterview.io/study/explain-the-scope-and-impact-of-your-most-important-project,2026-09-26T16:31:55.948598+00:00
 explain-your-current-and-previous-engineering-roles,Explain Your Current and Previous Engineering Roles,Rippling,,https://trueinterview.io/study/explain-your-current-and-previous-engineering-roles,2026-09-26T16:31:55.948598+00:00
 explain-your-reason-for-changing-roles-and-your-interest-in-the-team,Explain Your Reason for Changing Roles and Your Interest in the Team,Rippling,,https://trueinterview.io/study/explain-your-reason-for-changing-roles-and-your-interest-in-the-team,2026-09-26T16:31:55.948598+00:00
 exponent-review-2026,Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?,General,,https://trueinterview.io/study/exponent-review-2026,2026-09-19T09:53:33.125916+00:00
@@ -176,7 +181,6 @@ how-a-cplusplus-mutex-protects-shared-state,How a C++ Mutex Protects Shared Stat
 hr-behavioral-screen,HR / Behavioral Phone Screen,Optiver,why-company,https://trueinterview.io/study/hr-behavioral-screen,2026-07-18T21:25:04.346976+00:00
 hudson-river-trading-interview-process,Hudson River Trading Interview Process & Questions,Hudson River Trading,,https://trueinterview.io/study/hudson-river-trading-interview-process,2026-08-22T03:02:59.028389+00:00
 ibm-interview-process,IBM Interview Process & Questions,IBM,,https://trueinterview.io/study/ibm-interview-process,2026-07-24T14:41:44.432528+00:00
-influence-a-colleague-who-prefers-a-different-approach,Influence a Colleague Who Prefers a Different Approach,Amazon,,https://trueinterview.io/study/influence-a-colleague-who-prefers-a-different-approach,2026-09-26T16:31:55.239146+00:00
 infra-recruiter-experience-screen,Infra Recruiter Screen: Experience and Tooling,Snowflake,fit; infra,https://trueinterview.io/study/infra-recruiter-experience-screen,2026-09-22T10:10:50.899181+00:00
 instacart-interview-process,Instacart Interview Process & Questions,Instacart,,https://trueinterview.io/study/instacart-interview-process,2026-07-24T14:41:46.159705+00:00
 intern-oa-fixed-set,Intern OA Fixed Set,Rippling,api-integration; dfs; hashmap; heap; sliding-window,https://trueinterview.io/study/intern-oa-fixed-set,2026-07-13T02:40:46.038847+00:00
@@ -187,7 +191,6 @@ jpmorgan-interview-process,JPMorgan Chase Interview Process & Questions,JPMorgan
 junior-trader-final-games,Junior Trader Final: Investment & Market-Making Games,Akuna Capital,brainteaser; expected-value; fermi-estimation; market-making; verbal,https://trueinterview.io/study/junior-trader-final-games,2026-07-18T21:25:01.975685+00:00
 keep-gpus-fed-with-an-efficient-data-preparation-pipeline,Keep GPUs Fed with an Efficient Data-Preparation Pipeline,Mistral AI,,https://trueinterview.io/study/keep-gpus-fed-with-an-efficient-data-preparation-pipeline,2026-09-26T16:31:56.527208+00:00
 lead-bank-interview-process,Lead Bank Interview Process & Questions,Lead Bank,,https://trueinterview.io/study/lead-bank-interview-process,2026-09-04T14:45:48.380701+00:00
-learn-what-you-need-to-solve-an-unfamiliar-problem,Learn What You Need to Solve an Unfamiliar Problem,Amazon,,https://trueinterview.io/study/learn-what-you-need-to-solve-an-unfamiliar-problem,2026-09-26T16:31:56.527208+00:00
 leetcode-review-2026,LeetCode Premium Review 2026: Is $159 a Year Worth It?,General,,https://trueinterview.io/study/leetcode-review-2026,2026-09-19T11:12:16.896463+00:00
 life-story-values-interview,Life Story / Values Interview,Shopify,culture-fit; star; values; why-company,https://trueinterview.io/study/life-story-values-interview,2026-08-21T13:58:53.143278+00:00
 likelihood-ordering-test,Likelihood / Event-Ordering Test,Optiver,data-analysis; new-round; probability,https://trueinterview.io/study/likelihood-ordering-test,2026-07-18T21:25:04.346976+00:00
@@ -200,6 +203,7 @@ llm-post-training-theory-conversation,LLM Post-Training Theory Conversation,Scal
 lora-and-peft-variants,LoRA and PEFT Variants,Amazon,ml-knowledge; transformer,https://trueinterview.io/study/lora-and-peft-variants,2026-07-18T21:25:02.689409+00:00
 luma-ai-interview-process,Luma AI Interview Process & Questions,Luma AI,,https://trueinterview.io/study/luma-ai-interview-process,2026-09-04T14:45:48.380701+00:00
 lyft-interview-process,Lyft Interview Process & Questions,Lyft,,https://trueinterview.io/study/lyft-interview-process,2026-08-22T03:02:59.028389+00:00
+make-an-important-decision-before-every-option-can-be-explored,Make an Important Decision Before Every Option Can Be Explored,Amazon,,https://trueinterview.io/study/make-an-important-decision-before-every-option-can-be-explored,2026-09-26T16:31:56.527208+00:00
 manager-behavioral-and-project-deep-dive,Manager Behavioral and Project Deep Dive,SoFi,bq; conflict; deep-dive; impact; leadership,https://trueinterview.io/study/manager-behavioral-and-project-deep-dive,2026-07-18T21:25:04.80775+00:00
 market-making-interval-game,Market-Making Interval Estimation Game,Optiver,expected-value; fermi-estimation; market-making,https://trueinterview.io/study/market-making-interval-game,2026-07-18T21:25:04.346976+00:00
 meta-data-scientist-interview-process,Meta Data Scientist Interview Process,Meta,,https://trueinterview.io/study/meta-data-scientist-interview-process,2026-07-31T04:36:40.593833+00:00

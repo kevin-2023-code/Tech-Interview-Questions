@@ -8,8 +8,8 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [42](../coinbase.md) |
-| Free to read here | 8 |
+| Questions reported | [44](../coinbase.md) |
+| Free to read here | 9 |
 | Interview-process guides | 4 |
 | Other guides | 1 |
 | Most recent sighting | Jun 15, 2026 |
@@ -36,7 +36,7 @@ Live rounds start with a 60-minute screen that fits either two medium problems o
 
 ## Free Coinbase questions
 
-8 questions reported at Coinbase open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Coinbase open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -46,6 +46,7 @@ Live rounds start with a 60-minute screen that fits either two medium problems o
 | [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/query-pagination) |
 | [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Medium | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/task-management-system) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
+| [Banking System Design](../../questions/object-oriented-programming/banking-system-design/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |
 
@@ -57,7 +58,7 @@ Live rounds start with a 60-minute screen that fits either two medium problems o
 
 ## Everything else
 
-- [All 42 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 44 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Coinbase question on TrueInterview](https://trueinterview.io/problems/company/coinbase).
 
 ---

@@ -9,12 +9,13 @@
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
+| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | **Coinbase / Capital One** | Easy | — |
 | [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | **JPMorgan** | Easy | Jan 15, 2026 |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | Medium | — |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Medium | Nov 08, 2025 |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | Medium | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | **Verkada / Amazon / ByteDance / Lyft / Microsoft / Rokt** | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | **Verkada / Amazon / ByteDance / LinkedIn / Lyft / Rokt** | Medium | — |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | **Coinbase / Anthropic / HubSpot / Ramp** | Medium | Dec 15, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | **Coinbase / Ebay / HubSpot** | Medium | — |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | **Coinbase / Anthropic / Applied Intuition** | Medium | Apr 28, 2026 |
@@ -27,7 +28,6 @@
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | **Coinbase / Lyft** | Medium | Feb 04, 2026 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | **Atlassian / Amplitude** | Medium | Oct 02, 2025 |
 | [Task Management System III](https://trueinterview.io/questions/task-management-system) | **Coinbase / Instacart** | Medium | Feb 03, 2026 |
-| [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | **Capital One** | Medium | — |
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | **Rippling** | Medium | Jun 18, 2026 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | **Tradedesk** | Medium | — |

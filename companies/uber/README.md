@@ -8,7 +8,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [168](../uber.md) |
+| Questions reported | [170](../uber.md) |
 | Free to read here | 24 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
@@ -91,7 +91,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Everything else
 
-- [All 168 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 170 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Uber question on TrueInterview](https://trueinterview.io/problems/company/uber).
 
 ---

@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**176 questions** reported across the **9 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**178 questions** reported across the **9 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (54)](../companies/citadel.md) · [Akuna Capital (28)](../companies/akuna-capital.md) · [Two Sigma (23)](../companies/two-sigma.md) · [Optiver (18)](../companies/optiver.md) · [Squarepoint (18)](../companies/squarepoint.md) · [Point72 (17)](../companies/point72.md) · [Hudson River Trading (15)](../companies/hudson-river-trading.md) · [Voleon (7)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
+[Citadel (56)](../companies/citadel.md) · [Akuna Capital (28)](../companies/akuna-capital.md) · [Two Sigma (23)](../companies/two-sigma.md) · [Optiver (18)](../companies/optiver.md) · [Squarepoint (18)](../companies/squarepoint.md) · [Point72 (17)](../companies/point72.md) · [Hudson River Trading (15)](../companies/hudson-river-trading.md) · [Voleon (7)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md)
 
 <sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,39 +18,41 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 131 | 74% | ██████████████ | 18 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 39 | 22% | ████ | 1 |
+| [Algorithm](../formats/algorithm.md) | 132 | 74% | ██████████████ | 18 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 40 | 22% | ████ | 1 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 | [System Design](../formats/system-design.md) | 2 | 1% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **25 / 118 / 33**, over the rows the catalog has graded. 19 of the 176 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **25 / 119 / 34**, over the rows the catalog has graded. 19 of the 178 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **121 questions in this cut that carry a topic label** (69% of it):
+Of the **122 questions in this cut that carry a topic label** (69% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `arrays` | 23 | 19% | ████████████ |
 | `hashing` | 17 | 14% | █████████ |
 | `greedy` | 16 | 13% | ████████ |
-| `graphs` | 14 | 12% | ███████ |
-| `sorting` | 14 | 12% | ███████ |
+| `graphs` | 14 | 11% | ███████ |
+| `sorting` | 14 | 11% | ███████ |
 | `math` | 13 | 11% | ███████ |
 | `dynamic-programming` | 12 | 10% | ██████ |
 | `binary-search` | 10 | 8% | █████ |
-| `heap` | 9 | 7% | █████ |
+| `heap` | 10 | 8% | █████ |
 | `strings` | 9 | 7% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**13 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Citadel | Object Oriented Programming | Sep 18, 2026 |
+| [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Citadel | Algorithm | Sep 18, 2026 |
 | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Voleon | Algorithm | Sep 14, 2026 |
 | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Citadel | Object Oriented Programming | Sep 08, 2026 |
 | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Citadel | Algorithm | Aug 15, 2026 |
@@ -61,7 +63,8 @@ Of the **121 questions in this cut that carry a topic label** (69% of it):
 | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Point72 | Algorithm | Jul 29, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Two Sigma … | Algorithm | Jul 29, 2026 |
 | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Citadel | Algorithm | Jul 27, 2026 |
-| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Citadel | System Design | Jul 08, 2026 |
+
+<sub>1 more in this window are in the table below.</sub>
 
 ---
 
@@ -71,6 +74,8 @@ Of the **121 questions in this cut that carry a topic label** (69% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Citadel** | [Design a Top-Ten Trade Query with Exact Amounts](https://trueinterview.io/questions/design-a-top-ten-trade-query-with-exact-amounts) | Medium | 🔥 Sep 18, 2026 |
+| **Citadel** | [Define a Reliable Trade-Reconciliation Library Contract](https://trueinterview.io/questions/define-a-reliable-trade-reconciliation-library-contract) | Hard | 🔥 Sep 18, 2026 |
 | **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Hard | 🔥 Sep 14, 2026 |
 | **Citadel** | [Deduplicating File System](https://trueinterview.io/questions/deduplicating-file-system) | Medium | 🆕 Sep 08, 2026 |
 | **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Medium | 🆕 Aug 15, 2026 |

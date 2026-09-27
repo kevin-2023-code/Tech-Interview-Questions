@@ -8,7 +8,7 @@ How Google interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [190](../google.md) |
+| Questions reported | [192](../google.md) |
 | Free to read here | 20 |
 | Interview-process guides | 3 |
 | Other guides | 5 |
@@ -75,7 +75,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 
 ## Everything else
 
-- [All 190 questions reported at Google](../google.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 192 questions reported at Google](../google.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Google question on TrueInterview](https://trueinterview.io/problems/company/google).
 
 ---

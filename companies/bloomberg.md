@@ -2,36 +2,35 @@
 
 # Bloomberg interview process, OA & interview questions
 
-**69 questions** reported at Bloomberg · **2 writeups** · **15 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
+**70 questions** reported at Bloomberg · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Bloomberg interviews & the free questions](bloomberg/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-bloomberg)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-bloomberg)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **69** |
+| Questions tracked | **70** |
 | Most recent sighting | Jul 22, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (70% of 69) |
-| Difficulty (easy / medium / hard) | 11 / 42 / 16 |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 70) |
+| Difficulty (easy / medium / hard) | 12 / 42 / 16 |
 | Free to practise | [12](../free/README.md) |
 | Guides & writeups | 2 |
-| Interview reports on the board | 15 in this snapshot |
 
-<sub>Counted from the 69 questions reported at Bloomberg. 45 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 70 questions reported at Bloomberg. 45 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **69 of 69** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **70 of 70** questions at Bloomberg that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 45 | ██████████ | [Algorithm](../formats/algorithm.md) (84%) | 5 / 31 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 33 | ███████ | [Algorithm](../formats/algorithm.md) (52%) | 4 / 17 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -50,7 +49,7 @@ Which stage each question came from, for the **69 of 69** questions at Bloomberg
 
 ## What they ask about
 
-Of the **49 questions at Bloomberg that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **50 questions at Bloomberg that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -59,7 +58,7 @@ Of the **49 questions at Bloomberg that carry a topic label** (71% of them — t
 | `strings` | 10 | 20% | ████████████ | Jun 16, 2026 |
 | `arrays` | 8 | 16% | ██████████ | Jun 16, 2026 |
 | `backtracking` | 8 | 16% | ██████████ | Feb 22, 2026 |
-| `stack` | 7 | 14% | ████████ | Apr 01, 2026 |
+| `stack` | 8 | 16% | ██████████ | Apr 01, 2026 |
 | `greedy` | 5 | 10% | ██████ | Jun 04, 2026 |
 | `sorting` | 5 | 10% | ██████ | Jun 04, 2026 |
 | `dynamic-programming` | 3 | 6% | ████ | Apr 01, 2026 |
@@ -109,30 +108,6 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 | :-- | :-- |
 | [Behavioral Question Pool](https://trueinterview.io/study/behavioral-question-pool) | deep-dive, star, why-company |
 | [Bloomberg Interview Process & Questions](https://trueinterview.io/study/bloomberg-interview-process) | — |
-
-## Interview reports
-
-What candidates said happened in the room at Bloomberg — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Bloomberg Coding Interview with Merge Intervals and Shortest Path in Grid Problems](https://trueinterview.io/interviews/5465d0df-8bc7-4580-a20d-cfc6d4471a48) | Sep 26, 2026 |
-| Software | [Bloomberg Electoral Vote Allocation Algorithm Interview Experience](https://trueinterview.io/interviews/70573ede-a612-406a-bf19-b6e75599be6d) | Sep 26, 2026 |
-| Software | [Bloomberg Interview Experience](https://trueinterview.io/interviews/306c3154-d0a6-44f2-aa66-0eba75d49f14) | Sep 26, 2026 |
-| Software | [Bloomberg Interview Experience](https://trueinterview.io/interviews/b3f7bdc6-1a2d-4a98-91a5-37a74d8a705b) | Sep 26, 2026 |
-| Software | [Bloomberg Interview Experience](https://trueinterview.io/interviews/c7709cf5-04ab-494e-bf74-d63a83248bd1) | Sep 26, 2026 |
-| Software | [Bloomberg LRU Cache Refactoring Interview Experience](https://trueinterview.io/interviews/ceed63e2-879d-4a40-a23f-77a43d0f9288) | Sep 26, 2026 |
-| Data & AI | [Bloomberg Machine Learning Role Interview Experience](https://trueinterview.io/interviews/303dedb3-c35a-4244-b6b4-d6b6106dca20) | Sep 26, 2026 |
-| Software | [Bloomberg Meta Software Engineer Interview Experience](https://trueinterview.io/interviews/22024400-159b-46c3-9ec9-9a1884348104) | Sep 26, 2026 |
-| Software | [Bloomberg Senior Role Interview Experience](https://trueinterview.io/interviews/5337ffc0-20da-4150-80ae-18e55e55b6a4) | Sep 26, 2026 |
-| Software | [Bloomberg Software Engineer (New Grad) Interview Experience](https://trueinterview.io/interviews/692b4068-736a-4653-8e8a-d0b9805fb1de) | Sep 26, 2026 |
-| Software | [Bloomberg Software Engineer Interview Experience](https://trueinterview.io/interviews/b9544c7a-8068-41ba-ac9a-f31bad62361c) | Sep 26, 2026 |
-| Software | [Bloomberg Software Engineer Interview Experience](https://trueinterview.io/interviews/ca73c654-5ecf-4aa6-a31a-be47d8f805ee) | Sep 26, 2026 |
-| Software | [Bloomberg Software Engineer System Design Interview Experience: Holiday Service & VWAP](https://trueinterview.io/interviews/913d7525-6fbd-4e58-98d9-4e3f8be1a8a4) | Sep 26, 2026 |
-| Software | [Bloomberg Software Engineering Interview Experience](https://trueinterview.io/interviews/a5db1023-7302-451c-a886-888934b061c2) | Sep 26, 2026 |
-| Software | [Coding Interview Experience: Trapping Rain Water, Bloomberg Question, and Surrounded Regions](https://trueinterview.io/interviews/01fa0829-b8e1-4707-94ab-51471622a506) | Sep 26, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,860 in total). [Every report at Bloomberg and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -202,6 +177,7 @@ What candidates said happened in the room at Bloomberg — written up by the peo
 | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Algorithm | Hard | — |
 | [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Algorithm | Medium | — |
 | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Algorithm | Medium | — |
+| [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Algorithm | Easy | — |
 | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Algorithm | Medium | — |
 | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Algorithm | Easy | — |
 | [Add Two Numbers (Forward Order Linked Lists)](https://trueinterview.io/questions/97753443-80e2-4be1-a500-502b91e021a0) | Object Oriented Programming | Medium | — |

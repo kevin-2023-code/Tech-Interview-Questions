@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 | **2** | [Count Longest Increasing Subsequences](https://trueinterview.io/questions/count-longest-increasing-subsequences) | Algorithm | Hard | — | Jul 17, 2026 |
 | **3** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 3 | Jun 16, 2026 |
 | **4** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | 7 | Jun 08, 2026 |
-| **5** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 8 | Apr 09, 2026 |
+| **5** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Apr 09, 2026 |
 | **6** | [Playing Cards: Straight Flush / Missing Card](https://trueinterview.io/questions/playing-card-straight-flush) | Algorithm | Medium | — | Mar 27, 2026 |
 | **7** | [Next Greater Element I](https://trueinterview.io/questions/next-greater-element-i) | Algorithm | Easy | — | Mar 24, 2026 |
 | **8** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) 🆓 | Algorithm | Easy | 10 | Mar 06, 2026 |

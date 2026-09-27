@@ -80,7 +80,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | **1** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
 | **2** | [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game) | Algorithm | Medium | — | May 12, 2026 |
 | **3** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | — | May 10, 2026 |
-| **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 8 | Apr 09, 2026 |
+| **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Apr 09, 2026 |
 | **5** | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | 2 | Jan 05, 2026 |
 | **6** | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | — | Aug 29, 2025 |
 | **7** | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | — | Aug 29, 2025 |

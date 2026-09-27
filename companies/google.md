@@ -2,43 +2,44 @@
 
 # Google interview process, OA & interview questions
 
-**190 questions** reported at Google · **8 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**192 questions** reported at Google · **8 writeups** · **6 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-google)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-google)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **190** |
+| Questions tracked | **192** |
 | Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 18 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 190) |
-| Difficulty (easy / medium / hard) | 21 / 124 / 45 |
+| Reported in the last 90 days | 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (76% of 192) |
+| Difficulty (easy / medium / hard) | 20 / 126 / 46 |
 | Free to practise | [20](../free/README.md) |
 | Guides & writeups | 8 |
+| Interview reports on the board | 6 in this snapshot |
 
-<sub>Counted from the 190 questions reported at Google. 96 of them carry a sighting date; the other 94 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 192 questions reported at Google. 98 of them carry a sighting date; the other 94 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **190 of 190** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **192 of 192** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 18 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 10 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 4 / 77 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 88 | ████████ | [Algorithm](../formats/algorithm.md) (56%) | 7 / 54 / 27 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 16 | █ | [Algorithm](../formats/algorithm.md) (94%) | 8 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 5 / 77 / 25 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 92 | █████████ | [Algorithm](../formats/algorithm.md) (55%) | 7 / 57 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**18 sightings** in this window. Newest first.
+**20 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,23 +56,23 @@ Which stage each question came from, for the **190 of 190** questions at Google 
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Phone screen | Aug 11, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
-<sub>6 more in this window are in the table below.</sub>
+<sub>8 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **148 questions at Google that carry a topic label** (78% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **148 questions at Google that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 33 | 22% | ████████████ | Jun 26, 2026 |
-| `arrays` | 22 | 15% | ████████ | Aug 16, 2026 |
-| `hashing` | 18 | 12% | ███████ | Sep 02, 2026 |
-| `strings` | 18 | 12% | ███████ | Sep 02, 2026 |
+| `graphs` | 34 | 23% | ████████████ | Jul 19, 2026 |
+| `arrays` | 21 | 14% | ███████ | Aug 16, 2026 |
+| `hashing` | 18 | 12% | ██████ | Sep 02, 2026 |
+| `strings` | 18 | 12% | ██████ | Sep 02, 2026 |
 | `greedy` | 17 | 11% | ██████ | Aug 11, 2026 |
 | `trees` | 15 | 10% | █████ | Sep 09, 2026 |
 | `backtracking` | 14 | 9% | █████ | Aug 16, 2026 |
 | `dynamic-programming` | 14 | 9% | █████ | Sep 09, 2026 |
-| `heap` | 10 | 7% | ████ | Jul 02, 2026 |
+| `heap` | 11 | 7% | ████ | Jul 23, 2026 |
 | `intervals` | 10 | 7% | ████ | Jun 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -84,7 +85,7 @@ Every recorded sighting at Google, by the month it was reported in — Oct 15, 2
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 3 | █████ |
 | [Aug 2026](../by-month/2026-08.md) | 8 | █████████████ |
-| [Jul 2026](../by-month/2026-07.md) | 7 | ███████████ |
+| [Jul 2026](../by-month/2026-07.md) | 9 | ██████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 15 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 13 | █████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 7 | ███████████ |
@@ -127,6 +128,21 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
 | [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | critique, deep-dive, presentation, vlm |
 
+## Interview reports
+
+What candidates said happened in the room at Google — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [Google 2D Clustering Phone Interview Experience](https://trueinterview.io/interviews/9780173b-a2c5-4616-87a2-52fa2c12d5fb) | Sep 27, 2026 |
+| Software | [Google Decode String Coding and Behavioral Interview Experience](https://trueinterview.io/interviews/ebc5997e-5723-4959-b402-6bf2ed0e487a) | Sep 27, 2026 |
+| Software | [Google Deduplicating and Sorting Batch and Streaming Logs Interview Experience](https://trueinterview.io/interviews/a5081634-e782-409c-83c3-d1f7c8dd54cf) | Sep 27, 2026 |
+| Software | [Google Software Engineer II, Early Career Interview Experience](https://trueinterview.io/interviews/766f34dc-647d-4725-90c8-dc515a36e995) | Sep 27, 2026 |
+| Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/85061c2b-c365-445a-a59d-b90abfba3d78) | Sep 27, 2026 |
+| Software | [Google Software Engineer L4 Interview Experience (Mountain View)](https://trueinterview.io/interviews/d31723af-0630-49cd-9d88-990b5c8ac5d4) | Sep 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Google and everywhere else →](https://trueinterview.io/interviews)</sub>
+
 ---
 
 **Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [Google on TrueInterview](https://trueinterview.io/problems/company/google).
@@ -149,8 +165,10 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | 🆕 Aug 13, 2026 |
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Aug 11, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
+| [Batch and Streaming Log Deduplication](https://trueinterview.io/questions/batch-streaming-log-deduplication) | Algorithm | Hard | Jul 23, 2026 |
 | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | SQL | Medium | Jul 22, 2026 |
 | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | SQL | Medium | Jul 22, 2026 |
+| [Minimum Direction Violations in a Directed Graph](https://trueinterview.io/questions/minimum-direction-violations-directed-graph) | Algorithm | Hard | Jul 19, 2026 |
 | [Count Word Decompositions into Chemical Element Symbols](https://trueinterview.io/questions/periodic-table-word-decomposition) | Algorithm | Medium | Jul 14, 2026 |
 | [L6 System Design (Staff Loop)](https://trueinterview.io/questions/l6-system-design-staff-loop) | System Design | Hard | Jul 06, 2026 |
 | [Top-K Frequent in Large Logs](https://trueinterview.io/questions/top-k-frequent-from-logs) | Algorithm | Medium | Jul 02, 2026 |
@@ -167,7 +185,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [First Bad Version with Parallel Search Follow-up](https://trueinterview.io/questions/first-bad-version-parallel-search) | Algorithm | Medium | Jun 15, 2026 |
 | [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
-| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Huffman Tree Construction](https://trueinterview.io/questions/huffman-tree-construction) | Algorithm | Medium | Jun 01, 2026 |
 | [Matrix Flower Placement with House Adjacency](https://trueinterview.io/questions/matrix-flower-placement-with-house-adjacency) | Algorithm | Hard | May 31, 2026 |
@@ -195,7 +213,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
 | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Algorithm | Medium | Mar 21, 2026 |
-| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | Mar 21, 2026 |
+| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Easy | Mar 21, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Hard | Mar 17, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
@@ -253,6 +271,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Streaming Latest-Per-Message Log Processor](https://trueinterview.io/questions/6d6b2135-4b5a-5d62-9d36-a219378d3488) | Algorithm | Medium | — |
 | [Count Rectangle Coverage on a Grid](https://trueinterview.io/questions/0ae28282-c544-5bec-9868-a6ca3aaff2d9) | Algorithm | Medium | — |
 | [Remove at Most One Blocker to Minimize Signal Completion Time](https://trueinterview.io/questions/05834c64-3f82-5628-8732-14c6759ded40) | Algorithm | Hard | — |
+| [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
 | [Build Binary Tree From Character Counts](https://trueinterview.io/questions/build-binary-tree-from-character-counts-2) | Algorithm | Medium | — |
 | [Highway Checkpoint](https://trueinterview.io/questions/highway-checkpoint) | Algorithm | Easy | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
@@ -273,6 +292,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Move Chess Pieces to Match Target (R moves right, L moves left)](https://trueinterview.io/questions/ff974fe6-335b-4b51-9f41-21444a6d0ee9) | Algorithm | Medium | — |
 | [Split Data into Minimum Chunks with Max Chunk Size](https://trueinterview.io/questions/fc7b2dd9-fee5-40a3-94b2-66a433d95628) | Algorithm | Medium | — |
 | [Merge Intervals with Names](https://trueinterview.io/questions/f65573da-74b9-4f0e-b1b7-b107519953e2) | Algorithm | Medium | — |
+| [Design Bookshelf Class](https://trueinterview.io/questions/f5a2b1e1-d029-4c8b-8917-96b16beaf8f4) | Object Oriented Programming | Medium | — |
 | [Dijkstra's Algorithm Implementation](https://trueinterview.io/questions/efc13ca9-aeaa-4b56-991a-b7299fe558d2) | Algorithm | Medium | — |
 | [Safe Travel Ranges](https://trueinterview.io/questions/edf263d8-b3ed-4f7e-a78c-1686163531db) | Algorithm | Medium | — |
 | [Count Total Number (or Total Area) of Square Submatrices](https://trueinterview.io/questions/ed1d0cbf-3496-440a-b2f6-aad685d2d707) | Algorithm | Medium | — |
@@ -287,7 +307,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Unique Paths in a 2D Matrix with Moves](https://trueinterview.io/questions/9bc06af6-5391-48cc-9eb3-8364423d3a52) | Algorithm | Medium | — |
 | [Text Justification](https://trueinterview.io/questions/9213c4e8-b5fd-4c9b-924d-7108600f1f73) | Algorithm | Hard | — |
 | [Windowed Average excluding Largest K](https://trueinterview.io/questions/7a3b6266-bc7c-4893-80a9-02a992ba2cc3) | Algorithm | Hard | — |
-| [Get Components in Forest](https://trueinterview.io/questions/6af3f553-05af-4e57-94f6-236b874fe9bd) | Algorithm | Medium | — |
+| [Validate Tree Given Parent Array](https://trueinterview.io/questions/783f51be-4588-4e1e-ad45-e296bf8082d7) | Algorithm | Medium | — |
 | [Activate Features with Dependency Prerequisites (Simulation)](https://trueinterview.io/questions/660e4415-cd22-4d8d-9d65-6287f4804ea8) | Algorithm | Medium | — |
 | [Number of Distinct Islands](https://trueinterview.io/questions/4efa382e-08ab-43e2-8ad5-306b5e2fbc86) | Algorithm | Medium | — |
 | [Detonate Bombs with Chain Reactions (Graph reachability)](https://trueinterview.io/questions/4e270197-d462-4ba2-8769-4553ba1d3b16) | Algorithm | Medium | — |
@@ -298,8 +318,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Remove Exactly One Element to Make a Pivot Index Exist](https://trueinterview.io/questions/3d3cc0d8-d70c-444f-9e70-308f9930fbcc) | Algorithm | Medium | — |
 | [Chunking with an Unsplittable Header](https://trueinterview.io/questions/2f337555-8465-4711-9231-ee00cf57b26c) | Algorithm | Easy | — |
 | [Minimum Racks to Pack Machines with Two Resource Constraints](https://trueinterview.io/questions/27362191-59d6-46ac-be9d-e26334e84049) | Algorithm | Hard | — |
-| [Find First Greater or Equal Element](https://trueinterview.io/questions/215ab576-ac0c-498c-b4b3-e14e50b24539) | Algorithm | Easy | — |
-| [Add Two Large Numbers](https://trueinterview.io/questions/1bc69c15-6e94-4e74-be27-0d984931d15b) | Algorithm | Easy | — |
 | [Determine Whether Two Horses Are Related (Pedigree Graph)](https://trueinterview.io/questions/1a2257f5-ce54-4f27-a801-90df812e0da4) | Algorithm | Medium | — |
 | [Range Updates Using Difference Array (Template Problem)](https://trueinterview.io/questions/19526ad7-c78c-462e-a59d-80239253617a) | Algorithm | Easy | — |
 | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Algorithm | Medium | — |
@@ -323,7 +341,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Longest Non Decreasing Subarray Part 2](https://trueinterview.io/questions/0cd23ef7-9668-4a6a-82e2-63eedeeceead) | Algorithm | Medium | — |
 | [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Object Oriented Programming | Easy | — |
 | [Group Array](https://trueinterview.io/questions/19b3ac67-7f53-4497-9f89-93551984b216) | Algorithm | Easy | — |
-| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Hard | — |
+| [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Medium | — |
 | [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c) | Algorithm | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
 | [Contains Duplicate II](https://trueinterview.io/questions/contains-duplicate-ii) | Algorithm | Easy | — |

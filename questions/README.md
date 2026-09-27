@@ -128,11 +128,11 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
+| [Banking System Design](object-oriented-programming/banking-system-design/README.md) | Easy | Coinbase · Capital One |
 | [C++ Virtual / Destructor / Pointer Review](object-oriented-programming/cpp-virtual-destructor-pointer-review/README.md) | Easy | JPMorgan |
 | [Rate Limiter](object-oriented-programming/rate-limiter/README.md) | Easy | Stripe · Amazon · Atlassian · Google · Microsoft |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](object-oriented-programming/react-ui-multi-select-color-dropdown-and-selected-properties-table/README.md) | Easy | Brex |
 | [Banking System with Payments and Account Merging](object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Medium | Ramp · Anthropic · Capital One · Coinbase · HubSpot |
-| [Banking System with Transaction Activity](object-oriented-programming/banking-system-with-transaction-activity/README.md) | Medium | Capital One |
 | [Binary Search Tree Iterator](object-oriented-programming/binary-search-tree-iterator/README.md) | Medium | Apple · Microsoft |
 | [Cloud Storage System](object-oriented-programming/cloud-file-system/README.md) | Medium | Coinbase · Ebay · HubSpot |
 | [Delivery Cost Calculate](object-oriented-programming/delivery-billing-system/README.md) | Medium | Rippling |
@@ -152,7 +152,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [In-Memory Database with SQL Operations](object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Medium | OpenAI · Airbnb |
 | [In-Memory Unix File System](object-oriented-programming/in-memory-unix-file-system/README.md) | Medium | Perplexity · Harvey · Shopify |
 | [Logger System](object-oriented-programming/logger-system-ood/README.md) | Medium | Rippling |
-| [LRU Cache III](object-oriented-programming/lru-cache-iii/README.md) | Medium | Verkada · Amazon · ByteDance · Lyft · Microsoft |
+| [LRU Cache III](object-oriented-programming/lru-cache-iii/README.md) | Medium | Verkada · Amazon · ByteDance · LinkedIn · Lyft |
 | [Org Tree Lowest Common Department](object-oriented-programming/org-tree-lowest-common-department/README.md) | Medium | Atlassian |
 | [Parallel Courses III](object-oriented-programming/parallel-courses-iii/README.md) | Medium | Snowflake · ByteDance · Netflix |
 | [Query Pagination](object-oriented-programming/query-pagination/README.md) | Medium | Coinbase · Lyft |
@@ -197,7 +197,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
 | [Tic Tac Toe](ai-coding/tic-tac-toe/README.md) | Easy | Ramp · Databricks · SoFi |
-| [LRU Cache](ai-coding/lru-cache/README.md) | Medium | Apple · Amazon · Bloomberg · ByteDance · Meta |
+| [LRU Cache](ai-coding/lru-cache/README.md) | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn |
 | [Mako Template Engine](ai-coding/debug-mako-template-engine/README.md) | Medium | Stripe |
 | [Maze Solver](ai-coding/ai-coding-maze-solver/README.md) | Medium | Meta |
 | [Payment Invoice Reconciliation](ai-coding/payment-invoice-reconciliation/README.md) | Medium | Stripe |

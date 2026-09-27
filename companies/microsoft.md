@@ -2,7 +2,7 @@
 
 # Microsoft interview process, OA & interview questions
 
-**115 questions** reported at Microsoft · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
+**114 questions** reported at Microsoft · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Microsoft interviews & the free questions](microsoft/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **115** |
+| Questions tracked | **114** |
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 115) |
-| Difficulty (easy / medium / hard) | 16 / 70 / 29 |
-| Free to practise | [18](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (73% of 114) |
+| Difficulty (easy / medium / hard) | 16 / 70 / 28 |
+| Free to practise | [17](../free/README.md) |
 | Guides & writeups | 10 |
 
-<sub>Counted from the 115 questions reported at Microsoft. 62 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 114 questions reported at Microsoft. 61 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **115 of 115** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **114 of 114** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 16 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 7 / 6 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 17 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 7 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 54 | █████████ | [Algorithm](../formats/algorithm.md) (78%) | 6 / 34 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 59 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 5 / 39 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 57 | ██████████ | [Algorithm](../formats/algorithm.md) (61%) | 5 / 38 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -56,15 +56,15 @@ Which stage each question came from, for the **115 of 115** questions at Microso
 
 ## What they ask about
 
-Of the **82 questions at Microsoft that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **82 questions at Microsoft that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 17 | 21% | ████████████ | Aug 16, 2026 |
 | `strings` | 15 | 18% | ███████████ | Aug 16, 2026 |
+| `hashing` | 11 | 13% | ████████ | Jun 08, 2026 |
 | `arrays` | 10 | 12% | ███████ | Sep 09, 2026 |
-| `hashing` | 10 | 12% | ███████ | Jun 08, 2026 |
-| `trees` | 10 | 12% | ███████ | Aug 16, 2026 |
+| `trees` | 9 | 11% | ██████ | Aug 16, 2026 |
 | `greedy` | 8 | 10% | ██████ | Apr 19, 2026 |
 | `dynamic-programming` | 6 | 7% | ████ | Sep 09, 2026 |
 | `heap` | 6 | 7% | ████ | Jul 29, 2026 |
@@ -89,7 +89,7 @@ Every recorded sighting at Microsoft, by the month it was reported in — Oct 15
 | [Feb 2026](../by-month/2026-02.md) | 14 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 9 | ███████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ██ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ███ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
 
 ## Start here
@@ -100,7 +100,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Delete and Earn (LC 740)](https://trueinterview.io/questions/delete-and-earn) | Algorithm | Medium | — | Sep 09, 2026 |
 | **2** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Object Oriented Programming | Hard | — | Aug 20, 2026 |
-| **3** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | — | Aug 16, 2026 |
+| **3** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | 1 | Aug 16, 2026 |
 | **4** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | Medium | — | Aug 16, 2026 |
 | **5** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | — | Aug 16, 2026 |
 | **6** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Algorithm | Medium | — | Aug 15, 2026 |
@@ -195,7 +195,6 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Object Oriented Programming | Medium | Jan 16, 2026 |
 | [My Calendar I](https://trueinterview.io/questions/my-calendar-i) | Algorithm | Medium | Jan 09, 2026 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
-| [Validate Lat/Long With Minimum Expensive API Calls](https://trueinterview.io/questions/geocode-api-call-minimization) | Object Oriented Programming | Medium | Nov 21, 2025 |
 | [Sort 0..32000 with Bit-Vector Storage](https://trueinterview.io/questions/bit-vector-sort-0-to-32000) | Algorithm | Easy | Nov 21, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Subtract Two Numbers Represented by Forward-Order Linked Lists](https://trueinterview.io/questions/ff0e0f3b-5fa8-542c-9f99-2afc8d2457fa) | Algorithm | Hard | — |
@@ -213,10 +212,9 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Valid Time Combinations](https://trueinterview.io/questions/valid-time-combinations) | Algorithm | Medium | — |
 | [Suffix Maximum Count](https://trueinterview.io/questions/suffix-maximum-count-2) | Algorithm | Medium | — |
 | [Longest Common Subsequence-Substring](https://trueinterview.io/questions/longest-common-subsequence-substring-2) | Algorithm | Hard | — |
-| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
+| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
 | [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Algorithm | Medium | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
-| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
 | [Shortest Path in a Grid with at Most K Cells per Move](https://trueinterview.io/questions/0acfe24d-4391-53e8-bebd-f31d970fbe3a) | Algorithm | Hard | — |
 | [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Algorithm | Medium | — |
 | [CUDA Vibe Coding: Implement or Optimize a CUDA Kernel](https://trueinterview.io/questions/8eb54136-fc2f-4f32-b89d-b97c5fbf9e38) | Algorithm | Hard | — |
@@ -237,9 +235,9 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Algorithm | Easy | — |
 | [Path With Maximum Minimum Value](https://trueinterview.io/questions/866086d0-9514-4858-a0a7-e7350f4ccd0d) | Algorithm | Hard | — |
 | [Find Shortest Path in Cyclic Graph](https://trueinterview.io/questions/73071813-b198-4495-aaa6-2e6ae5f847da) | Algorithm | Medium | — |
-| [Kth Smallest Element in a Binary Search Tree (write full main, with follow-ups)](https://trueinterview.io/questions/65a8813c-9014-4ae9-af67-cfef594d9d98) | Algorithm | Hard | — |
 | [Rotate String (variant with two string arrays)](https://trueinterview.io/questions/5a8c9bdf-ba15-4e3f-bed8-09c457108d6e) | Algorithm | Medium | — |
 | [Longest Palindromic Subsequence](https://trueinterview.io/questions/476e68bd-f245-4818-88e5-fc21d78ebda5) | Algorithm | Hard | — |
+| [Max Points on a Line](https://trueinterview.io/questions/42a95a21-be60-46fa-b782-1995f17fe56d) | Algorithm | Hard | — |
 | [Insert into a Circular Linked List](https://trueinterview.io/questions/1cc31086-7116-47af-9fc6-bc2cc84bc2c8) | Algorithm | Medium | — |
 | [Minimal Board Length for Holes](https://trueinterview.io/questions/0df3b897-7563-413a-9bea-06eeeb50a399) | Algorithm | Medium | — |
 | [Remove All Comments from Source String (C++)](https://trueinterview.io/questions/0490c246-1ba7-4cf9-bcf9-634c22f273cc) | Algorithm | Medium | — |
@@ -248,6 +246,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Binary Tree Level Order Stream Iterator](https://trueinterview.io/questions/4c47d0ad-08ca-4db4-8d2a-25f2172d775b) | Object Oriented Programming | Medium | — |
 | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Algorithm | Medium | — |
 | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Algorithm | Medium | — |
+| [Maximize Edge Sum in Graph](https://trueinterview.io/questions/1d26ae33-53bb-4d9b-b5a4-201ff25783b4) | Algorithm | Medium | — |
 | [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

@@ -8,10 +8,10 @@ How Apple interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [113](../apple.md) |
+| Questions reported | [114](../apple.md) |
 | Free to read here | 21 |
 | Interview-process guides | 4 |
-| Other guides | 8 |
+| Other guides | 6 |
 | Most recent sighting | Aug 26, 2026 |
 
 ## How Apple interviews
@@ -70,8 +70,6 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 | :-- | :-- |
 | [Accessories QA Benchmark and Regression Deep Dive](guides/accessories-qa-benchmark-and-regression-deep-dive.md) | deep-dive, metrics, optimization, presentation |
 | [Behavioral Prioritization and Stakeholder Fit](guides/behavioral-prioritization-and-stakeholder-fit.md) | ambiguity, bq, collaboration, conflict, fit, impact, star |
-| [Build a Tree and Perform BFS Traversal](guides/build-a-tree-and-perform-bfs-traversal.md) | — |
-| [Crafting a Compelling Job Transition and Motivation Response](https://trueinterview.io/study/ebf5d768-7f3c-40dc-927c-477fe70eae77) | — |
 | [ML Fundamentals & Model Debugging Drill](guides/ml-fundamentals-and-model-debugging.md) | ab-testing, ads, debugging, evaluation, llm, ml-knowledge, transformer |
 | [ML Systems Codebase Deep Dive](guides/ml-systems-codebase-deep-dive.md) | agentic-workflow, agents, backend, database, deep-dive, rag, retrieval |
 | [OS Fundamentals & Concurrency Drill](guides/os-fundamentals-and-concurrency.md) | concurrency, operating-systems, race-condition, threading |
@@ -79,7 +77,7 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 
 ## Everything else
 
-- [All 113 questions reported at Apple](../apple.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 114 questions reported at Apple](../apple.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Apple question on TrueInterview](https://trueinterview.io/problems/company/apple).
 
 ---

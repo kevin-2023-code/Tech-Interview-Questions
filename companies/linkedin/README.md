@@ -8,11 +8,11 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [55](../linkedin.md) |
-| Free to read here | 5 |
+| Questions reported | [79](../linkedin.md) |
+| Free to read here | 7 |
 | Interview-process guides | 4 |
-| Other guides | 1 |
-| Most recent sighting | Jul 29, 2026 |
+| Other guides | 2 |
+| Most recent sighting | Sep 06, 2026 |
 
 ## How LinkedIn interviews
 
@@ -38,14 +38,16 @@ The design round is data-intensive but often deliberately scoped down rather tha
 
 ## Free LinkedIn questions
 
-5 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at LinkedIn open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Intersection of Two Linked Lists](../../questions/algorithm/intersection-of-two-linked-lists/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/intersection-of-two-linked-lists) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Guides
@@ -53,10 +55,11 @@ The design round is data-intensive but often deliberately scoped down rather tha
 | Guide | Tags |
 | :-- | :-- |
 | [Behavioral / BQ Question Pack](guides/behavioral-bq-pack.md) | ambiguity, conflict, impact, leadership, star |
+| [Project Deep-Dive (Four-Axis Rubric)](guides/behavioral-project-deep-dive.md) | deep-dive, impact, leadership, presentation, project-retro |
 
 ## Everything else
 
-- [All 55 questions reported at LinkedIn](../linkedin.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 79 questions reported at LinkedIn](../linkedin.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every LinkedIn question on TrueInterview](https://trueinterview.io/problems/company/linkedin).
 
 ---

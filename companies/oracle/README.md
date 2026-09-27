@@ -8,7 +8,7 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [39](../oracle.md) |
+| Questions reported | [41](../oracle.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
@@ -51,7 +51,7 @@ Oracle's interview loop changes shape more from team to team than almost any com
 
 ## Everything else
 
-- [All 39 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 41 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

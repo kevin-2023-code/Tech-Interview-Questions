@@ -10,37 +10,37 @@
 
 The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **104 of 109** of the companies here. An employer it does not cover is under *Not classified* below and in the table like everybody else — guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
 
-🏛️ **[Big Tech](../company-types/big-tech.md)** (24) — [Amazon (232)](amazon/README.md) · [Google (190)](google/README.md) · [Meta (176)](meta/README.md) · [Uber (168)](uber/README.md) · [ByteDance (166)](bytedance/README.md) · [Microsoft (115)](microsoft/README.md) · [Apple (113)](apple/README.md) · [DoorDash (71)](doordash/README.md) · [Netflix (71)](netflix/README.md) · [LinkedIn (55)](linkedin/README.md) · [Salesforce (51)](salesforce/README.md) · [Atlassian (43)](atlassian/README.md) · [Oracle (39)](oracle/README.md) · [Ebay (30)](ebay/README.md) · [NVIDIA (28)](nvidia/README.md) · [Walmart Labs (26)](walmart-labs/README.md) · [Expedia (25)](expedia/README.md) · [Pinduoduo (19)](pinduoduo/README.md) · [Cisco (18)](cisco/README.md) · [PayPal (17)](paypal/README.md) · [Intuit (14)](intuit/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Block (5)](block/README.md) · [AMD (3)](amd/README.md)
+🏛️ **[Big Tech](../company-types/big-tech.md)** (24) — [Amazon (236)](amazon/README.md) · [Google (192)](google/README.md) · [Meta (183)](meta/README.md) · [Uber (170)](uber/README.md) · [ByteDance (165)](bytedance/README.md) · [Apple (114)](apple/README.md) · [Microsoft (114)](microsoft/README.md) · [LinkedIn (79)](linkedin/README.md) · [Netflix (71)](netflix/README.md) · [DoorDash (70)](doordash/README.md) · [Salesforce (52)](salesforce/README.md) · [Atlassian (43)](atlassian/README.md) · [Oracle (41)](oracle/README.md) · [Ebay (30)](ebay/README.md) · [NVIDIA (28)](nvidia/README.md) · [Walmart Labs (26)](walmart-labs/README.md) · [Expedia (25)](expedia/README.md) · [Pinduoduo (19)](pinduoduo/README.md) · [Cisco (18)](cisco/README.md) · [PayPal (17)](paypal/README.md) · [Intuit (14)](intuit/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Block (5)](block/README.md) · [AMD (3)](amd/README.md)
 
 <sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ people. Every company in it also appears under its own sector below.</sub>
 
-🏗️ **[Large tech (1,000–9,999)](../company-types/large-tech.md)** (38) — [Snowflake (112)](snowflake/README.md) · [OpenAI (100)](openai/README.md) · [Pinterest (75)](pinterest/README.md) · [Stripe (75)](stripe/README.md) · [Anthropic (63)](anthropic/README.md) · [Roblox (61)](roblox/README.md) · [Snapchat (51)](snapchat/README.md) · [Airbnb (48)](airbnb/README.md) · [Coinbase (42)](coinbase/README.md) · [Robinhood (31)](robinhood/README.md) · [xAI (31)](xai/README.md) · [Lyft (28)](lyft/README.md) · [Rippling (28)](rippling/README.md) · [Reddit (26)](reddit/README.md) · [SoFi (26)](sofi/README.md) · [Ramp (24)](ramp/README.md) · [Instacart (23)](instacart/README.md) · [Verkada (23)](verkada/README.md) · [Datadog (20)](datadog/README.md) · [Figma (18)](figma/README.md) · [Confluent (17)](confluent/README.md) · [Yelp (16)](yelp/README.md) · [Shopify (15)](shopify/README.md) · [Tradedesk (15)](tradedesk/README.md) · [Upstart (15)](upstart/README.md) · [Affirm (14)](affirm/README.md) · [Rubrik (14)](rubrik/README.md) · [Dropbox (13)](dropbox/README.md) · [Scale AI (12)](scale-ai/README.md) · [HubSpot (10)](hubspot/README.md) · [Okta (10)](okta/README.md) · [MongoDB (6)](mongodb/README.md) · [Palantir (6)](palantir/README.md) · [Arista (5)](arista/README.md) · [OKX (5)](okx/README.md) · [Gusto (4)](gusto/README.md) · [Brex (2)](brex/README.md) · [Stubhub (2)](stubhub/README.md)
+🏗️ **[Large tech (1,000–9,999)](../company-types/large-tech.md)** (38) — [Snowflake (110)](snowflake/README.md) · [OpenAI (101)](openai/README.md) · [Stripe (76)](stripe/README.md) · [Pinterest (75)](pinterest/README.md) · [Anthropic (69)](anthropic/README.md) · [Roblox (61)](roblox/README.md) · [Snapchat (51)](snapchat/README.md) · [Airbnb (49)](airbnb/README.md) · [Coinbase (44)](coinbase/README.md) · [Robinhood (31)](robinhood/README.md) · [xAI (31)](xai/README.md) · [Rippling (29)](rippling/README.md) · [Lyft (28)](lyft/README.md) · [Reddit (26)](reddit/README.md) · [SoFi (26)](sofi/README.md) · [Instacart (25)](instacart/README.md) · [Ramp (24)](ramp/README.md) · [Verkada (23)](verkada/README.md) · [Datadog (20)](datadog/README.md) · [Figma (18)](figma/README.md) · [Confluent (17)](confluent/README.md) · [Yelp (17)](yelp/README.md) · [Shopify (15)](shopify/README.md) · [Tradedesk (15)](tradedesk/README.md) · [Upstart (15)](upstart/README.md) · [Affirm (14)](affirm/README.md) · [Rubrik (14)](rubrik/README.md) · [Dropbox (13)](dropbox/README.md) · [Scale AI (12)](scale-ai/README.md) · [HubSpot (10)](hubspot/README.md) · [Okta (10)](okta/README.md) · [MongoDB (6)](mongodb/README.md) · [Palantir (6)](palantir/README.md) · [Arista (5)](arista/README.md) · [OKX (5)](okx/README.md) · [Gusto (4)](gusto/README.md) · [Brex (2)](brex/README.md) · [Stubhub (2)](stubhub/README.md)
 
 🏤 **[Mid-sized tech (200–999)](../company-types/mid-size-tech.md)** (10) — [Perplexity (23)](perplexity/README.md) · [Harvey (15)](harvey/README.md) · [Vanta (13)](vanta/README.md) · [Whatnot (7)](whatnot/README.md) · [Airtable (5)](airtable/README.md) · [Amplitude (5)](amplitude/README.md) · [Sigmacomputing (5)](sigmacomputing/README.md) · [Rokt (4)](rokt/README.md) · [Moveworks (3)](moveworks/README.md) · [Cohere (2)](cohere/README.md)
 
 🌱 **[Startups (under 200)](../company-types/startups.md)** (3) — [Luma AI (6)](luma-ai/README.md) · [Bobyard (3)](bobyard/README.md) · [Render (1)](render/README.md)
 
-🧠 **[AI labs & AI infrastructure](../company-types/ai.md)** (12) — [OpenAI (100)](openai/README.md) · [Anthropic (63)](anthropic/README.md) · [xAI (31)](xai/README.md) · [Perplexity (23)](perplexity/README.md) · [Harvey (15)](harvey/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Scale AI (12)](scale-ai/README.md) · [Luma AI (6)](luma-ai/README.md) · [Moveworks (3)](moveworks/README.md) · [Cohere (2)](cohere/README.md) · [Cursor (2)](cursor/README.md) · [Together AI (1)](together-ai/README.md)
+🧠 **[AI labs & AI infrastructure](../company-types/ai.md)** (12) — [OpenAI (101)](openai/README.md) · [Anthropic (69)](anthropic/README.md) · [xAI (31)](xai/README.md) · [Perplexity (23)](perplexity/README.md) · [Harvey (15)](harvey/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Scale AI (12)](scale-ai/README.md) · [Luma AI (6)](luma-ai/README.md) · [Moveworks (3)](moveworks/README.md) · [Cohere (2)](cohere/README.md) · [Cursor (2)](cursor/README.md) · [Together AI (1)](together-ai/README.md)
 
-📱 **[Consumer internet & media](../company-types/consumer-internet.md)** (9) — [Google (190)](google/README.md) · [Meta (176)](meta/README.md) · [ByteDance (166)](bytedance/README.md) · [Pinterest (75)](pinterest/README.md) · [Netflix (71)](netflix/README.md) · [LinkedIn (55)](linkedin/README.md) · [Snapchat (51)](snapchat/README.md) · [Reddit (26)](reddit/README.md) · [Yelp (16)](yelp/README.md)
+📱 **[Consumer internet & media](../company-types/consumer-internet.md)** (9) — [Google (192)](google/README.md) · [Meta (183)](meta/README.md) · [ByteDance (165)](bytedance/README.md) · [LinkedIn (79)](linkedin/README.md) · [Pinterest (75)](pinterest/README.md) · [Netflix (71)](netflix/README.md) · [Snapchat (51)](snapchat/README.md) · [Reddit (26)](reddit/README.md) · [Yelp (17)](yelp/README.md)
 
-🛒 **[E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)** (14) — [Amazon (232)](amazon/README.md) · [Uber (168)](uber/README.md) · [DoorDash (71)](doordash/README.md) · [Airbnb (48)](airbnb/README.md) · [Ebay (30)](ebay/README.md) · [Lyft (28)](lyft/README.md) · [Walmart Labs (26)](walmart-labs/README.md) · [Expedia (25)](expedia/README.md) · [Instacart (23)](instacart/README.md) · [Pinduoduo (19)](pinduoduo/README.md) · [Shopify (15)](shopify/README.md) · [Whatnot (7)](whatnot/README.md) · [Faire (4)](faire/README.md) · [Stubhub (2)](stubhub/README.md)
+🛒 **[E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)** (14) — [Amazon (236)](amazon/README.md) · [Uber (170)](uber/README.md) · [DoorDash (70)](doordash/README.md) · [Airbnb (49)](airbnb/README.md) · [Ebay (30)](ebay/README.md) · [Lyft (28)](lyft/README.md) · [Walmart Labs (26)](walmart-labs/README.md) · [Expedia (25)](expedia/README.md) · [Instacart (25)](instacart/README.md) · [Pinduoduo (19)](pinduoduo/README.md) · [Shopify (15)](shopify/README.md) · [Whatnot (7)](whatnot/README.md) · [Faire (4)](faire/README.md) · [Stubhub (2)](stubhub/README.md)
 
-☁️ **[Developer tools, cloud & data infrastructure](../company-types/dev-infra.md)** (7) — [Snowflake (112)](snowflake/README.md) · [Databricks (63)](databricks/README.md) · [Datadog (20)](datadog/README.md) · [Confluent (17)](confluent/README.md) · [MongoDB (6)](mongodb/README.md) · [Sigmacomputing (5)](sigmacomputing/README.md) · [Render (1)](render/README.md)
+☁️ **[Developer tools, cloud & data infrastructure](../company-types/dev-infra.md)** (7) — [Snowflake (110)](snowflake/README.md) · [Databricks (66)](databricks/README.md) · [Datadog (20)](datadog/README.md) · [Confluent (17)](confluent/README.md) · [MongoDB (6)](mongodb/README.md) · [Sigmacomputing (5)](sigmacomputing/README.md) · [Render (1)](render/README.md)
 
-🏢 **[Enterprise & business software](../company-types/enterprise-saas.md)** (17) — [Microsoft (115)](microsoft/README.md) · [Salesforce (51)](salesforce/README.md) · [Atlassian (43)](atlassian/README.md) · [Oracle (39)](oracle/README.md) · [Rippling (28)](rippling/README.md) · [Figma (18)](figma/README.md) · [Tradedesk (15)](tradedesk/README.md) · [Intuit (14)](intuit/README.md) · [Dropbox (13)](dropbox/README.md) · [HubSpot (10)](hubspot/README.md) · [Palantir (6)](palantir/README.md) · [Airtable (5)](airtable/README.md) · [Amplitude (5)](amplitude/README.md) · [StackAdapt (5)](stackadapt/README.md) · [Gusto (4)](gusto/README.md) · [Rokt (4)](rokt/README.md) · [Bobyard (3)](bobyard/README.md)
+🏢 **[Enterprise & business software](../company-types/enterprise-saas.md)** (17) — [Microsoft (114)](microsoft/README.md) · [Salesforce (52)](salesforce/README.md) · [Atlassian (43)](atlassian/README.md) · [Oracle (41)](oracle/README.md) · [Rippling (29)](rippling/README.md) · [Figma (18)](figma/README.md) · [Tradedesk (15)](tradedesk/README.md) · [Intuit (14)](intuit/README.md) · [Dropbox (13)](dropbox/README.md) · [HubSpot (10)](hubspot/README.md) · [Palantir (6)](palantir/README.md) · [Airtable (5)](airtable/README.md) · [Amplitude (5)](amplitude/README.md) · [StackAdapt (5)](stackadapt/README.md) · [Gusto (4)](gusto/README.md) · [Rokt (4)](rokt/README.md) · [Bobyard (3)](bobyard/README.md)
 
 🔒 **[Cybersecurity](../company-types/security.md)** (4) — [Verkada (23)](verkada/README.md) · [Rubrik (14)](rubrik/README.md) · [Vanta (13)](vanta/README.md) · [Okta (10)](okta/README.md)
 
-💳 **[Fintech, payments & crypto](../company-types/fintech.md)** (13) — [Stripe (75)](stripe/README.md) · [Coinbase (42)](coinbase/README.md) · [Robinhood (31)](robinhood/README.md) · [SoFi (26)](sofi/README.md) · [Ramp (24)](ramp/README.md) · [PayPal (17)](paypal/README.md) · [Upstart (15)](upstart/README.md) · [Affirm (14)](affirm/README.md) · [Square (12)](square/README.md) · [Block (5)](block/README.md) · [Circle (5)](circle/README.md) · [OKX (5)](okx/README.md) · [Brex (2)](brex/README.md)
+💳 **[Fintech, payments & crypto](../company-types/fintech.md)** (13) — [Stripe (76)](stripe/README.md) · [Coinbase (44)](coinbase/README.md) · [Robinhood (31)](robinhood/README.md) · [SoFi (26)](sofi/README.md) · [Ramp (24)](ramp/README.md) · [PayPal (17)](paypal/README.md) · [Upstart (15)](upstart/README.md) · [Affirm (14)](affirm/README.md) · [Square (12)](square/README.md) · [Block (5)](block/README.md) · [Circle (5)](circle/README.md) · [OKX (5)](okx/README.md) · [Brex (2)](brex/README.md)
 
-📈 **[Quant trading & hedge funds](../company-types/quant-trading.md)** (9) — [Citadel (54)](citadel/README.md) · [Akuna Capital (28)](akuna-capital/README.md) · [Two Sigma (23)](two-sigma/README.md) · [Optiver (18)](optiver/README.md) · [Squarepoint (18)](squarepoint/README.md) · [Point72 (17)](point72/README.md) · [Hudson River Trading (15)](hudson-river-trading/README.md) · [Voleon (7)](voleon/README.md) · [Chicago Trading (5)](chicago-trading/README.md)
+📈 **[Quant trading & hedge funds](../company-types/quant-trading.md)** (9) — [Citadel (56)](citadel/README.md) · [Akuna Capital (28)](akuna-capital/README.md) · [Two Sigma (23)](two-sigma/README.md) · [Optiver (18)](optiver/README.md) · [Squarepoint (18)](squarepoint/README.md) · [Point72 (17)](point72/README.md) · [Hudson River Trading (15)](hudson-river-trading/README.md) · [Voleon (7)](voleon/README.md) · [Chicago Trading (5)](chicago-trading/README.md)
 
-🏦 **[Banks, insurers & asset managers](../company-types/banking-finance.md)** (7) — [Bloomberg (69)](bloomberg/README.md) · [Capital One (42)](capital-one/README.md) · [Goldman Sachs (20)](goldman-sachs/README.md) · [Visa (15)](visa/README.md) · [JPMorgan (14)](jpmorgan/README.md) · [GEICO (6)](geico/README.md) · [Lead Bank (5)](lead-bank/README.md)
+🏦 **[Banks, insurers & asset managers](../company-types/banking-finance.md)** (7) — [Bloomberg (70)](bloomberg/README.md) · [Capital One (48)](capital-one/README.md) · [Goldman Sachs (20)](goldman-sachs/README.md) · [Visa (15)](visa/README.md) · [JPMorgan (14)](jpmorgan/README.md) · [GEICO (6)](geico/README.md) · [Lead Bank (5)](lead-bank/README.md)
 
 🔬 **[Semiconductors & chips](../company-types/semiconductors.md)** (2) — [NVIDIA (28)](nvidia/README.md) · [AMD (3)](amd/README.md)
 
-🖥️ **[Hardware, devices & networking](../company-types/hardware-devices.md)** (3) — [Apple (113)](apple/README.md) · [Cisco (18)](cisco/README.md) · [Arista (5)](arista/README.md)
+🖥️ **[Hardware, devices & networking](../company-types/hardware-devices.md)** (3) — [Apple (114)](apple/README.md) · [Cisco (18)](cisco/README.md) · [Arista (5)](arista/README.md)
 
 🚗 **[Autonomy, automotive & mobility](../company-types/autonomy-mobility.md)** (4) — [Waymo (47)](waymo/README.md) · [Tesla (26)](tesla/README.md) · [Weride (20)](weride/README.md) · [Applied Intuition (16)](applied-intuition/README.md)
 
@@ -48,7 +48,7 @@ The sector and size of an employer are facts about the company rather than about
 
 🧬 **Health, biotech & medical devices** (1) — [Oscar Health (3)](oscar-health/README.md)
 
-🧾 **[IT services & consulting](../company-types/it-consulting.md)** (1) — [IBM (25)](ibm/README.md)
+🧾 **[IT services & consulting](../company-types/it-consulting.md)** (1) — [IBM (23)](ibm/README.md)
 
 ❔ **Not classified** (5) — [Wayfair (3)](wayfair/README.md) · [Unknown (2)](unknown/README.md) · [Houzz (1)](houzz/README.md) · [Nclusion (1)](nclusion/README.md) · [Ziphq (1)](ziphq/README.md)
 
@@ -58,48 +58,48 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 232 | 20 | 41 | Sep 05, 2026 | 29 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 190 | 8 | 18 | Sep 10, 2026 | 20 |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 176 | 11 | 7 | Aug 16, 2026 | 22 |
-| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 168 | 6 | 4 | Aug 16, 2026 | 24 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 166 | 14 | 17 | Sep 06, 2026 | 20 |
-| [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 115 | 10 | 11 | Sep 09, 2026 | 18 |
-| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 113 | 12 | 10 | Aug 26, 2026 | 21 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 112 | 4 | 4 | Aug 15, 2026 | 11 |
-| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 100 | 12 | 5 | Aug 22, 2026 | 11 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 236 | 20 | 43 | Sep 14, 2026 | 29 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 192 | 8 | 20 | Sep 10, 2026 | 20 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 183 | 11 | 9 | Aug 16, 2026 | 22 |
+| [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 170 | 6 | 4 | Aug 16, 2026 | 24 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 165 | 14 | 17 | Sep 06, 2026 | 20 |
+| [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 114 | 10 | 10 | Aug 26, 2026 | 21 |
+| [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 114 | 10 | 11 | Sep 09, 2026 | 17 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 110 | 5 | 4 | Aug 15, 2026 | 11 |
+| [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 101 | 12 | 6 | Aug 22, 2026 | 11 |
+| [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 79 | 6 | 11 | Sep 06, 2026 | 7 |
+| [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 76 | 3 | 6 | Sep 11, 2026 | 5 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 75 | 6 | 5 | Aug 26, 2026 | 5 |
-| [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 75 | 3 | 5 | Sep 11, 2026 | 5 |
-| [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 71 | 7 | 8 | Sep 16, 2026 | 4 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 71 | 6 | 0 | Jun 15, 2026 | 12 |
-| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 69 | 2 | 4 | Jul 22, 2026 | 12 |
-| [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 63 | 11 | 0 | Jun 21, 2026 | 7 |
-| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 63 | 6 | 4 | Sep 06, 2026 | 11 |
+| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 70 | 2 | 4 | Jul 22, 2026 | 12 |
+| [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 70 | 7 | 8 | Sep 16, 2026 | 4 |
+| [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 69 | 11 | 0 | Jun 21, 2026 | 7 |
+| [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 66 | 6 | 6 | Sep 15, 2026 | 11 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 61 | 6 | 4 | Sep 09, 2026 | 10 |
-| [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 55 | 5 | 2 | Jul 29, 2026 | 5 |
-| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 54 | 5 | 6 | Sep 08, 2026 | 4 |
-| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 51 | 5 | 11 | Aug 24, 2026 | 2 |
+| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 56 | 5 | 8 | Sep 18, 2026 | 4 |
+| [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 52 | 6 | 11 | Aug 24, 2026 | 2 |
 | [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 51 | 7 | 1 | Jul 22, 2026 | 12 |
-| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 48 | 6 | 1 | Jul 22, 2026 | 4 |
+| [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 49 | 6 | 2 | Sep 04, 2026 | 4 |
+| [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 48 | 13 | 4 | Sep 07, 2026 | 2 |
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 47 | 3 | 3 | Jul 09, 2026 | 2 |
+| [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 44 | 5 | 0 | Jun 15, 2026 | 9 |
 | [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 43 | 4 | 0 | Apr 21, 2026 | 9 |
-| [Capital One](capital-one.md) | Banks, insurers & asset managers · 10,000+ people | 42 | 12 | 3 | Aug 28, 2026 | 2 |
-| [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 42 | 5 | 0 | Jun 15, 2026 | 8 |
-| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 39 | 3 | 1 | Aug 13, 2026 | 3 |
+| [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 41 | 3 | 1 | Aug 13, 2026 | 3 |
 | [Robinhood](robinhood.md) | Fintech, payments & crypto · 1,000–9,999 people | 31 | 6 | 0 | May 09, 2026 | 6 |
 | [xAI](xai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 31 | 6 | 1 | Jul 22, 2026 | 5 |
 | [Ebay](ebay.md) | E-commerce & marketplaces · 10,000+ people | 30 | 1 | 1 | Aug 21, 2026 | 5 |
+| [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 29 | 7 | 2 | Sep 13, 2026 | 5 |
 | [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 28 | 6 | 1 | Jul 29, 2026 | 2 |
 | [Lyft](lyft.md) | E-commerce & marketplaces · 1,000–9,999 people | 28 | 3 | 3 | Jul 29, 2026 | 7 |
 | [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 28 | 7 | 5 | Aug 21, 2026 | 5 |
-| [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 28 | 6 | 1 | Sep 11, 2026 | 5 |
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 0 | Jun 23, 2026 | 4 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 26 | 2 | 1 | Jul 04, 2026 | 3 |
 | [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 26 | 5 | 0 | Jun 03, 2026 | 2 |
 | [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 26 | 3 | 3 | Jul 07, 2026 | 3 |
 | [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 0 | Jun 28, 2026 | 3 |
-| [IBM](ibm.md) | IT services & consulting · 10,000+ people | 25 | 3 | 2 | Sep 14, 2026 | 2 |
+| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 25 | 1 | 1 | Sep 18, 2026 | 3 |
 | [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 24 | 2 | 0 | Jun 17, 2026 | 6 |
-| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 23 | 1 | 0 | Jun 24, 2026 | 3 |
+| [IBM](ibm.md) | IT services & consulting · 10,000+ people | 23 | 3 | 2 | Sep 14, 2026 | 2 |
 | [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 23 | 5 | 0 | Jun 15, 2026 | 3 |
 | [Two Sigma](two-sigma.md) | Quant trading & hedge funds · 1,000–9,999 people | 23 | 6 | 1 | Jul 29, 2026 | 3 |
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 23 | 1 | 0 | Jun 17, 2026 | 3 |
@@ -108,14 +108,14 @@ The sector and size of an employer are facts about the company rather than about
 | [Weride](weride.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 20 | 1 | 1 | Jul 29, 2026 | 3 |
 | [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 19 | 3 | 2 | Jul 30, 2026 | 4 |
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 18 | 1 | 0 | Jun 16, 2026 | 2 |
-| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 18 | 2 | 8 | Aug 12, 2026 | 2 |
+| [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 18 | 3 | 8 | Aug 12, 2026 | 2 |
 | [Optiver](optiver.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 13 | 0 | Jun 15, 2026 | 2 |
 | [Squarepoint](squarepoint.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 1 | 0 | May 23, 2026 | 3 |
 | [Confluent](confluent.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 17 | 1 | 0 | Jan 14, 2026 | 2 |
 | [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 3 |
 | [Point72](point72.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 3 | Jul 29, 2026 | 2 |
+| [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 17 | — | 0 | Apr 12, 2026 | 2 |
 | [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 16 | 1 | 0 | Jun 17, 2026 | 2 |
-| [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 16 | — | 0 | Apr 12, 2026 | 2 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 15 | 2 | 6 | Sep 01, 2026 | 2 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 15 | 1 | 0 | May 01, 2026 | 2 |
 | [Shopify](shopify.md) | E-commerce & marketplaces · 1,000–9,999 people | 15 | 3 | 0 | Jun 15, 2026 | 2 |

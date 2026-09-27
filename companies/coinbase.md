@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**42 questions** reported at Coinbase · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**44 questions** reported at Coinbase · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **42** |
+| Questions tracked | **44** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (48% of 42) |
-| Difficulty (easy / medium / hard) | 7 / 28 / 7 |
-| Free to practise | [8](../free/README.md) |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (50% of 44) |
+| Difficulty (easy / medium / hard) | 8 / 29 / 7 |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 42 questions reported at Coinbase. 25 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 44 questions reported at Coinbase. 25 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **42 of 42** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **44 of 44** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 12 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (58%) | 4 / 8 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 28 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 4 / 19 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 30 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 5 / 20 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **42 of 42** questions at Coinbase 
 
 ## What they ask about
 
-Of the **15 questions at Coinbase that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Coinbase that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -141,6 +141,8 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Mine block coding question](https://trueinterview.io/questions/31a8c266-4a94-4e0d-b803-472764321103) | Algorithm | Hard | — |
+| [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Object Oriented Programming | Medium | — |
+| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
 | [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Object Oriented Programming | Easy | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [Currency Exchange](https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971) | Algorithm | Hard | — |

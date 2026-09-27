@@ -2,7 +2,7 @@
 
 # Salesforce interview process, OA & interview questions
 
-**51 questions** reported at Salesforce · **5 writeups** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**52 questions** reported at Salesforce · **6 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **51** |
+| Questions tracked | **52** |
 | Most recent sighting | Aug 24, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 51) |
-| Difficulty (easy / medium / hard) | 6 / 30 / 15 |
+| Most common format | [Algorithm](../formats/algorithm.md) (77% of 52) |
+| Difficulty (easy / medium / hard) | 6 / 30 / 16 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 5 |
-| Interview reports on the board | 19 in this snapshot |
+| Guides & writeups | 6 |
+| Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 51 questions reported at Salesforce. 34 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 52 questions reported at Salesforce. 34 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **51 of 51** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **52 of 52** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 14 | ██████ | [Algorithm](../formats/algorithm.md) (93%) | 5 / 8 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 22 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 1 / 16 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 23 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 1 / 16 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 20 | █████████ | [Algorithm](../formats/algorithm.md) (55%) | 0 / 11 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
@@ -58,20 +58,20 @@ Which stage each question came from, for the **51 of 51** questions at Salesforc
 
 ## What they ask about
 
-Of the **40 questions at Salesforce that carry a topic label** (78% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **41 questions at Salesforce that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `dynamic-programming` | 8 | 20% | ████████████ | Jul 25, 2026 |
 | `strings` | 8 | 20% | ████████████ | Aug 24, 2026 |
 | `greedy` | 6 | 15% | █████████ | Apr 01, 2026 |
+| `arrays` | 5 | 12% | ████████ | Jun 22, 2026 |
 | `graphs` | 5 | 12% | ████████ | Aug 24, 2026 |
 | `two-pointers` | 5 | 12% | ████████ | Aug 16, 2026 |
-| `arrays` | 4 | 10% | ██████ | Jun 22, 2026 |
 | `hashing` | 4 | 10% | ██████ | Mar 19, 2026 |
 | `sliding-window` | 4 | 10% | ██████ | Mar 19, 2026 |
 | `trees` | 4 | 10% | ██████ | Aug 16, 2026 |
-| `matrix` | 3 | 8% | ████ | Jul 17, 2026 |
+| `backtracking` | 3 | 7% | ████ | Aug 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -110,11 +110,12 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 
 ## Guides & writeups
 
-**5 writeups** filed under Salesforce in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**6 writeups** filed under Salesforce in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/study/ai-ml-fundamentals-oral) | attention, cs-fundamentals, evaluation, inference, llm |
+| [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/study/cloud-domain-knowledge-round) | cloud, cs-fundamentals, domain-knowledge, infra, verbal |
 | [Hiring Manager + Behavioral Rounds](https://trueinterview.io/study/hm-and-bq-rounds) | bq, conflict, leadership, mentorship, ownership |
 | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/study/project-deep-dive-ai-engineer) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent |
 | [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
@@ -126,27 +127,9 @@ What candidates said happened in the room at Salesforce — written up by the pe
 
 | Role | Report | Posted |
 | :-- | :-- | :-- |
-| Software | [Salesforce Algorithmic and System Design Interview Experience](https://trueinterview.io/interviews/d5c6aa57-b301-4753-a2b2-c3db737b880e) | Sep 26, 2026 |
-| Software | [Salesforce Backend Engineer Interview Experience](https://trueinterview.io/interviews/8400216f-7d3d-4c40-acd0-672fb39e707e) | Sep 26, 2026 |
-| Software | [Salesforce Behavioral Interview Experience](https://trueinterview.io/interviews/ef35f336-3d75-46d9-b6b3-e72750d099ce) | Sep 26, 2026 |
-| Software | [Salesforce Coding and System Design Interview Experience](https://trueinterview.io/interviews/a8602d98-73f5-49d6-8254-b47b7fdf1baf) | Sep 26, 2026 |
-| Software | [Salesforce Coding Interview: Flight Path Reconstruction, Celebrity Problem, Word Ladder](https://trueinterview.io/interviews/eb7c613d-df56-4b32-a494-fe4cf601e84b) | Sep 26, 2026 |
-| Software | [Salesforce Cross Cloud Interview Experience](https://trueinterview.io/interviews/34ece5e1-24e5-40f5-b77e-8911c8b802d5) | Sep 26, 2026 |
-| Software | [Salesforce Enterprise B2B SaaS Software Engineer Interview Experience](https://trueinterview.io/interviews/df88f2e4-9a58-4f20-91ca-c637e0631516) | Sep 26, 2026 |
-| Software | [Salesforce Fullstack Developer Online Assessment Interview Experience](https://trueinterview.io/interviews/fd46e745-0415-4c91-b96b-0125e6c25514) | Sep 26, 2026 |
-| Software | [Salesforce Interview Experience](https://trueinterview.io/interviews/0e752a07-7203-4ebb-8254-d2d336c96c91) | Sep 26, 2026 |
-| Software | [Salesforce Interview Experience](https://trueinterview.io/interviews/15c1ad8c-3a8d-4df8-8ebc-5857a18e379b) | Sep 26, 2026 |
-| Software | [Salesforce Interview Experience](https://trueinterview.io/interviews/17b924af-9582-46f3-8d32-91c61999ada7) | Sep 26, 2026 |
-| Data & AI | [Salesforce Machine Learning Engineer Interview Experience](https://trueinterview.io/interviews/28b25858-8e19-455b-aa3a-07045858d90a) | Sep 26, 2026 |
-| Software | [Salesforce Minimum Adjacent Substitutions & Almost-Sorted Array Deletions Interview Experience](https://trueinterview.io/interviews/8067213a-0d08-4f65-ab61-2680126a5015) | Sep 26, 2026 |
-| Software | [Salesforce Sales Role Interview Experience](https://trueinterview.io/interviews/f3ddf383-6ea9-4175-8adb-41231b042eb9) | Sep 26, 2026 |
-| Software | [Salesforce Software Engineer Interview Experience](https://trueinterview.io/interviews/ce2cb050-86c8-496d-b8f7-2f5dcc6d5629) | Sep 26, 2026 |
-| Software | [Salesforce Software Engineer Interview Experience (OA, System Design, Behavioral)](https://trueinterview.io/interviews/71ec075b-d200-4beb-b522-9567f2f0b827) | Sep 26, 2026 |
-| Software | [Salesforce String Compression and Almost Sorted Array Coding Interview Experience](https://trueinterview.io/interviews/0cc6d343-41ab-409c-82fc-7bf51b416f66) | Sep 26, 2026 |
-| Software | [Salesforce TikTok General Backend SDE Interview Experience (San Francisco)](https://trueinterview.io/interviews/b16b83ff-7eb3-4d36-b420-326370168da7) | Sep 26, 2026 |
-| Software | [Salesforce Unexpected Graph Problem Interview Experience](https://trueinterview.io/interviews/4994fe7d-9bcf-4b17-b90f-368e866e65ee) | Sep 26, 2026 |
+| Software | [Salesforce Software Engineer (GCP Team) Interview Experience (San Francisco)](https://trueinterview.io/interviews/044cf02a-8ec0-4c03-af09-3847e3713990) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,860 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -198,6 +181,7 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | [Binary String 01 to 10 swap](https://trueinterview.io/questions/b997e44e-31ce-42c6-aee6-e8489a0fa721) | Algorithm | Medium | — |
 | [Print All Parent Keys in a Nested Map](https://trueinterview.io/questions/a7ce2cbb-cf93-5959-9403-38c7e5839ab8) | Algorithm | Medium | — |
 | [Diameter of an Acyclic Undirected Graph](https://trueinterview.io/questions/a43fc01e-fd8b-5a89-b87c-d2b5aa8f84ca) | Algorithm | Medium | — |
+| [Split Array into K Parts with Minimum Sum of Maxima](https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00) | Algorithm | Hard | — |
 | [Path Sum in a Binary Tree](https://trueinterview.io/questions/47b63952-31a7-5519-a5d6-16d0eecff233) | Algorithm | Easy | — |
 | [Determine Whether a Date Falls on a Weekend](https://trueinterview.io/questions/4445f526-42ef-5256-bc53-b6614133cfc3) | Algorithm | Easy | — |
 | [Top K Points](https://trueinterview.io/questions/259d81a6-4969-4ebb-9aaa-7c6466a0845f) | Algorithm | Easy | — |

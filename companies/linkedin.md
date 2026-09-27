@@ -2,81 +2,93 @@
 
 # LinkedIn interview process, OA & interview questions
 
-**55 questions** reported at LinkedIn · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
+**79 questions** reported at LinkedIn · **6 writeups** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How LinkedIn interviews & the free questions](linkedin/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-linkedin)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-linkedin)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **55** |
-| Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 55) |
-| Difficulty (easy / medium / hard) | 6 / 36 / 13 |
-| Free to practise | [5](../free/README.md) |
-| Guides & writeups | 5 |
+| Questions tracked | **79** |
+| Most recent sighting | Sep 06, 2026 |
+| Reported in the last 90 days | 11 |
+| Most common format | [Algorithm](../formats/algorithm.md) (53% of 79) |
+| Difficulty (easy / medium / hard) | 7 / 54 / 18 |
+| Free to practise | [7](../free/README.md) |
+| Guides & writeups | 6 |
+| Interview reports on the board | 19 in this snapshot |
 
-<sub>Counted from the 55 questions reported at LinkedIn. 34 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 79 questions reported at LinkedIn. 46 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **55 of 55** questions at LinkedIn that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **79 of 79** questions at LinkedIn that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 24 | ██████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 16 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 37 | ██████████ | [Algorithm](../formats/algorithm.md) (35%) | 3 / 25 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 37 | ████████ | [Algorithm](../formats/algorithm.md) (70%) | 2 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 48 | ██████████ | [Algorithm](../formats/algorithm.md) (38%) | 3 / 34 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**11 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Object Oriented Programming | Hard | Phone screen | Sep 06, 2026 |
+| [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Algorithm | Medium | Phone screen | Sep 04, 2026 |
+| [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Algorithm | Medium | Onsite / virtual onsite | Aug 27, 2026 |
+| [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Algorithm | Hard | Phone screen | Aug 24, 2026 |
+| [Robot Navigation in an Unknown Grid](https://trueinterview.io/questions/coding-robot-navigation-unknown-grid) | Algorithm | Hard | Onsite / virtual onsite | Aug 18, 2026 |
+| [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+| [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+| [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
+| [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
 ## What they ask about
 
-Of the **29 questions at LinkedIn that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **45 questions at LinkedIn that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `backtracking` | 5 | 17% | ████████████ | Mar 02, 2026 |
-| `graphs` | 4 | 14% | ██████████ | Apr 09, 2026 |
-| `trees` | 4 | 14% | ██████████ | — |
-| `intervals` | 3 | 10% | ███████ | Apr 17, 2026 |
-| `arrays` | 2 | 7% | █████ | Mar 25, 2026 |
-| `binary-search` | 2 | 7% | █████ | Mar 25, 2026 |
-| `hashing` | 2 | 7% | █████ | Jun 08, 2026 |
-| `heap` | 2 | 7% | █████ | Jul 29, 2026 |
-| `math` | 2 | 7% | █████ | Mar 25, 2026 |
-| `stack` | 2 | 7% | █████ | Nov 20, 2025 |
+| `graphs` | 9 | 20% | ████████████ | Aug 27, 2026 |
+| `backtracking` | 8 | 18% | ███████████ | Sep 04, 2026 |
+| `hashing` | 8 | 18% | ███████████ | Aug 27, 2026 |
+| `trees` | 7 | 16% | █████████ | Aug 27, 2026 |
+| `binary-search` | 4 | 9% | █████ | Aug 16, 2026 |
+| `linked-list` | 4 | 9% | █████ | Apr 09, 2026 |
+| `two-pointers` | 4 | 9% | █████ | Mar 02, 2026 |
+| `arrays` | 3 | 7% | ████ | Aug 16, 2026 |
+| `intervals` | 3 | 7% | ████ | Apr 17, 2026 |
+| `math` | 3 | 7% | ████ | Aug 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at LinkedIn, by the month it was reported in — Aug 31, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at LinkedIn, by the month it was reported in — Aug 31, 2025 to Sep 06, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 2 | █████ |
+| [Aug 2026](../by-month/2026-08.md) | 7 | █████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 2 | █████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ██ |
 | [May 2026](../by-month/2026-05.md) | 2 | █████ |
-| [Apr 2026](../by-month/2026-04.md) | 4 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ██████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 10 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 5 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ███████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 4 | ██████████ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | ██ |
@@ -87,20 +99,20 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
-| **2** | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | SQL | Medium | — | Jul 22, 2026 |
-| **3** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | 7 | Jun 08, 2026 |
-| **4** | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | 2 | May 27, 2026 |
-| **5** | [Data Science Skills](https://trueinterview.io/questions/data-science-skills) | SQL | Easy | — | May 23, 2026 |
-| **6** | [Distributed Job Scheduler / Calendar Service](https://trueinterview.io/questions/sd-job-scheduler) | System Design | Medium | — | Apr 17, 2026 |
-| **7** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
-| **8** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) 🆓 | Algorithm | Medium | 7 | Apr 09, 2026 |
+| **1** | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Object Oriented Programming | Hard | — | Sep 06, 2026 |
+| **2** | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Algorithm | Medium | — | Sep 04, 2026 |
+| **3** | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Algorithm | Medium | — | Aug 27, 2026 |
+| **4** | [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Algorithm | Hard | — | Aug 24, 2026 |
+| **5** | [Robot Navigation in an Unknown Grid](https://trueinterview.io/questions/coding-robot-navigation-unknown-grid) | Algorithm | Hard | — | Aug 18, 2026 |
+| **6** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | 1 | Aug 16, 2026 |
+| **7** | [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Algorithm | Medium | — | Aug 16, 2026 |
+| **8** | [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Algorithm | Medium | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**5 writeups** filed under LinkedIn in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**6 writeups** filed under LinkedIn in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -109,6 +121,35 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [LinkedIn Interview Process & Questions](https://trueinterview.io/study/linkedin-interview-process) | — |
 | [LinkedIn Machine Learning Engineer Interview Process](https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process) | — |
 | [LinkedIn Software Engineer Interview Process](https://trueinterview.io/study/linkedin-software-engineer-interview-process) | — |
+| [Project Deep-Dive (Four-Axis Rubric)](https://trueinterview.io/study/behavioral-project-deep-dive) | deep-dive, impact, leadership, presentation, project-retro |
+
+## Interview reports
+
+What candidates said happened in the room at LinkedIn — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Software | [LinkedIn Amazon Software Development Engineer Interview Experience](https://trueinterview.io/interviews/ccea2c5b-541f-47c3-a798-a8120021feeb) | Sep 27, 2026 |
+| Software | [LinkedIn Can Place Flowers Variant and Nested List Weight Sum II Interview Experience](https://trueinterview.io/interviews/d8bb7f55-9bf8-4cd0-a178-943212260262) | Sep 27, 2026 |
+| Software | [LinkedIn Coding Interview Experience: Numeric Validation and Tournament Tree Problem](https://trueinterview.io/interviews/4c607797-f996-408c-ba98-6b0396146075) | Sep 27, 2026 |
+| Software | [LinkedIn Coding Interview with LeetCode 179 & 244](https://trueinterview.io/interviews/fdfe4769-a604-4150-bd4a-05ca0b389935) | Sep 27, 2026 |
+| Software | [LinkedIn DoorDash Interview Experience](https://trueinterview.io/interviews/d5667bda-cf25-402b-84e5-da73cfc9b7ed) | Sep 27, 2026 |
+| Software | [LinkedIn Feature Design, Interval Tree Scheduling, Hidden Grid Shortest Path, and NoSQL Key-Value Store Scaling Interview Experience](https://trueinterview.io/interviews/39fc14f0-77ce-4c99-9bc2-36efc2c9c7bf) | Sep 27, 2026 |
+| Software | [LinkedIn Infrastructure Track Interview Experience](https://trueinterview.io/interviews/25a2c152-5e28-4ea4-b30b-81b9d0a8974a) | Sep 27, 2026 |
+| Software | [LinkedIn Interview Experience](https://trueinterview.io/interviews/638cd560-a47c-4684-9d96-7db11e6a1f5c) | Sep 27, 2026 |
+| Software | [LinkedIn Interview Experience](https://trueinterview.io/interviews/b6530512-730c-43ae-88b5-7e9a8a9a99db) | Sep 27, 2026 |
+| Software | [LinkedIn Interview Experience with System Design, Coding, and Project Deep Dive](https://trueinterview.io/interviews/92136487-c8a7-4cd6-8e58-17a5bfa77cd8) | Sep 27, 2026 |
+| Software | [LinkedIn Interview Scheduling Experience](https://trueinterview.io/interviews/071c3514-fac6-46b7-a504-cb5412e14d8c) | Sep 27, 2026 |
+| Data & AI | [LinkedIn Logistic Regression Debugging and Ads Bidding System Design Interview Experience](https://trueinterview.io/interviews/ade39180-4109-42a9-82f6-823bfb7d29c0) | Sep 27, 2026 |
+| Software | [LinkedIn Max Stack, Job Scheduler, and Malicious IP Blocking Interview Experience](https://trueinterview.io/interviews/b598abe2-63bf-4de0-b593-ec35748a0c2e) | Sep 27, 2026 |
+| Software | [LinkedIn Multiple Roles Interview Experience](https://trueinterview.io/interviews/8c7d147c-48c7-4b95-ad45-65f0aab9308a) | Sep 27, 2026 |
+| Data & AI | [LinkedIn Recommender System Training Pipeline Interview Experience](https://trueinterview.io/interviews/22c2cc65-fdd0-4683-a334-d3db1dfd4fd7) | Sep 27, 2026 |
+| Software | [LinkedIn Software Engineer Interview Experience](https://trueinterview.io/interviews/fafffd7d-0148-4e0c-b7e7-49088380fe6b) | Sep 27, 2026 |
+| Software | [LinkedIn Staff Software Engineer Interview Experience](https://trueinterview.io/interviews/55459b32-c957-40d9-ad40-49afec7d2dae) | Sep 27, 2026 |
+| Software | [LinkedIn Staff Software Engineer Interview Experience (Seattle)](https://trueinterview.io/interviews/961fa8e6-6a2b-43d4-96ee-e231231ed07b) | Sep 27, 2026 |
+| Software | [Uniform Random Number Generator and LinkedIn NewsFeed Design Interview Experience](https://trueinterview.io/interviews/e086940c-7e86-495d-bb00-14af9f1d5bfd) | Sep 27, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -120,14 +161,25 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | Object Oriented Programming | Hard | 🆕 Sep 06, 2026 |
+| [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | Algorithm | Medium | 🆕 Sep 04, 2026 |
+| [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Algorithm | Medium | 🆕 Aug 27, 2026 |
+| [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Algorithm | Hard | 🆕 Aug 24, 2026 |
+| [Robot Navigation in an Unknown Grid](https://trueinterview.io/questions/coding-robot-navigation-unknown-grid) | Algorithm | Hard | 🆕 Aug 18, 2026 |
+| [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | System Design | Medium | 🆕 Aug 16, 2026 |
+| [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | SQL | Medium | Jul 22, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | May 27, 2026 |
 | [Data Science Skills](https://trueinterview.io/questions/data-science-skills) | SQL | Easy | May 23, 2026 |
+| [Pow(x, n)](https://trueinterview.io/questions/pow-x-n) | Algorithm | Medium | Apr 17, 2026 |
 | [Distributed Job Scheduler / Calendar Service](https://trueinterview.io/questions/sd-job-scheduler) | System Design | Medium | Apr 17, 2026 |
 | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | Apr 16, 2026 |
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Weighted Sampling from Unnormalized Probabilities](https://trueinterview.io/questions/coding-weighted-sampling-die) | Algorithm | Medium | Mar 25, 2026 |
@@ -144,6 +196,7 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Meeting Scheduler — Earliest Available Slot](https://trueinterview.io/questions/coding-meeting-scheduler-earliest-slot) | Object Oriented Programming | Medium | Feb 12, 2026 |
 | [Alert Monitor — Rolling Window + Severity Distribution + Spike Detection](https://trueinterview.io/questions/coding-alert-monitor) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
+| [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Object Oriented Programming | Hard | Jan 22, 2026 |
 | [Design Cache with Eviction](https://trueinterview.io/questions/design-cache-with-eviction) | Object Oriented Programming | Medium | Jan 22, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
 | [Single-Machine Key-Value Store with Filesystem Spill](https://trueinterview.io/questions/sd-single-machine-kv-store) | System Design | Medium | Dec 24, 2025 |
@@ -154,17 +207,29 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Incremental Task Scheduler](https://trueinterview.io/questions/incremental-task-scheduler) | Algorithm | Medium | Aug 31, 2025 |
 | [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Algorithm | Hard | Feb 23, 2126 |
-| [Longest Circular Sequence of Ones](https://trueinterview.io/questions/longest-circular-sequence-of-ones-2) | Algorithm | Hard | — |
-| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Hard | — |
+| [Minimum Length Substring](https://trueinterview.io/questions/c7a9cd29-a095-51b6-892b-70df2898ff3f) | Algorithm | Medium | — |
+| [Validate a Decimal Number String](https://trueinterview.io/questions/c4ab51bc-0703-5e40-aca8-21c8d8a63a0a) | Algorithm | Easy | — |
+| [Minimum-Cost Path in a Hidden Weighted Grid](https://trueinterview.io/questions/a531995e-256c-5c2c-b17b-84c3f438d282) | Algorithm | Medium | — |
+| [Can Place Flowers with O(1) Queries](https://trueinterview.io/questions/97c74ee5-2415-54b8-bad7-063ac0cce501) | Algorithm | Medium | — |
+| [LRU Cache with Counters](https://trueinterview.io/questions/78341155-cbbe-5ad1-a69b-4397d1288bef) | Object Oriented Programming | Medium | — |
+| [Nearest Supply Point in a Map](https://trueinterview.io/questions/2d464101-c921-5548-8f3e-508ad1f9c109) | Algorithm | Medium | — |
+| [Find the Second Minimum in a Tournament Tree](https://trueinterview.io/questions/03cf85cf-d059-5960-9a3b-07b92478b554) | Algorithm | Medium | — |
+| [Shortest Word Distance II](https://trueinterview.io/questions/a87d7c6b-06c5-5d2c-9924-55712f12b1e0) | Object Oriented Programming | Medium | — |
+| [Largest Number (LC 179)](https://trueinterview.io/questions/coding-largest-number) | Algorithm | Medium | — |
+| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
+| [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
+| [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Algorithm | Medium | — |
 | [Split Array Largest Sum](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) | Algorithm | Hard | — |
-| [Find the Celebrity with Minimum API Calls](https://trueinterview.io/questions/590462c8-36cd-5a7f-86ee-bb03d9cd3526) | Object Oriented Programming | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Meeting Rooms II](https://trueinterview.io/questions/ddc8534d-46e9-4b02-abec-60d33c956280) | Algorithm | Medium | — |
+| [Find Users with Valid Login Sessions](https://trueinterview.io/questions/a780c95b-69ec-4029-b04a-55101695e5d1) | Algorithm | Medium | — |
+| [Max Points on a Line](https://trueinterview.io/questions/42a95a21-be60-46fa-b782-1995f17fe56d) | Algorithm | Hard | — |
 | [Robot Room Cleaner: Find Target](https://trueinterview.io/questions/7c0209a8-0314-4e7a-967c-5d751c4cf468) | Algorithm | Hard | — |
 | [Token Bucket Rate Limiter](https://trueinterview.io/questions/e7062e3a-a5ed-4e78-9bb3-93a71d1e4c34) | Object Oriented Programming | Medium | — |
-| [Find the Substring](https://trueinterview.io/questions/c3c45cd3-e588-432e-9554-f617ea392df6) | Algorithm | Medium | — |
 | [Binary Tree Traversal using Iterative and Recursive Methods](https://trueinterview.io/questions/af752656-c437-4650-9101-e1f7472265a5) | Algorithm | Medium | — |
+| [Real-Time Scalable Spam Email Detection System Design](https://trueinterview.io/questions/6b5e2814-d680-40a4-8a95-e002c830c543) | System Design | Hard | — |
 | [CPU Execution Time Calculation](https://trueinterview.io/questions/5a23961c-f9e2-4dcb-8484-3040652f49c1) | Algorithm | Medium | — |
+| [Insert/Delete/GetRandom in O(1) with TTL per item (follow-up)](https://trueinterview.io/questions/26f6e8b3-62a6-4359-8ae4-3943de03e7e6) | Object Oriented Programming | Hard | — |
 | [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Algorithm | Medium | — |
 | [Degree of Connection Between LinkedIn Users](https://trueinterview.io/questions/1455a901-868c-4006-973c-c5bbc2c3206d) | Algorithm | Medium | — |
 | [Implement a Custom Iterator](https://trueinterview.io/questions/00663347-51f2-475a-a0ac-1dc56de070d8) | Object Oriented Programming | Easy | — |

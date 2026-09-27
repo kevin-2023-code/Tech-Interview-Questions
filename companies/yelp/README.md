@@ -8,7 +8,7 @@ How Yelp interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [16](../yelp.md) |
+| Questions reported | [17](../yelp.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../yelp.md#the-loop-as-rep
 
 ## Everything else
 
-- [All 16 questions reported at Yelp](../yelp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 17 questions reported at Yelp](../yelp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Yelp question on TrueInterview](https://trueinterview.io/problems/company/yelp).
 
 ---

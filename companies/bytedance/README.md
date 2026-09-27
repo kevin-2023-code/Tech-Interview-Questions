@@ -8,7 +8,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [166](../bytedance.md) |
+| Questions reported | [165](../bytedance.md) |
 | Free to read here | 20 |
 | Interview-process guides | 5 |
 | Other guides | 9 |
@@ -79,7 +79,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Everything else
 
-- [All 166 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 165 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every ByteDance question on TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 ---

@@ -2,7 +2,7 @@
 
 # 🧾 IT services & consulting — interview & OA questions
 
-**25 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**23 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[IBM (25)](../companies/ibm.md)
+[IBM (23)](../companies/ibm.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,27 +18,27 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 23 | 92% | ██████████████ | 2 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 2 | 8% | █ | 0 |
+| [Algorithm](../formats/algorithm.md) | 21 | 91% | ██████████████ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 2 | 9% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **4 / 20 / 1**, over the rows the catalog has graded. 2 of the 25 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **5 / 17 / 1**, over the rows the catalog has graded. 2 of the 23 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **23 questions in this cut that carry a topic label** (92% of it):
+Of the **21 questions in this cut that carry a topic label** (91% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `greedy` | 6 | 26% | ████████████ |
-| `strings` | 5 | 22% | ██████████ |
-| `math` | 4 | 17% | ████████ |
-| `hashing` | 3 | 13% | ██████ |
-| `intervals` | 3 | 13% | ██████ |
-| `sliding-window` | 3 | 13% | ██████ |
-| `arrays` | 2 | 9% | ████ |
-| `dynamic-programming` | 2 | 9% | ████ |
-| `graphs` | 2 | 9% | ████ |
-| `sorting` | 2 | 9% | ████ |
+| `greedy` | 5 | 24% | ████████████ |
+| `strings` | 5 | 24% | ████████████ |
+| `hashing` | 3 | 14% | ███████ |
+| `intervals` | 3 | 14% | ███████ |
+| `math` | 3 | 14% | ███████ |
+| `arrays` | 2 | 10% | █████ |
+| `dynamic-programming` | 2 | 10% | █████ |
+| `graphs` | 2 | 10% | █████ |
+| `sliding-window` | 2 | 10% | █████ |
+| `sorting` | 2 | 10% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -80,7 +80,5 @@ Of the **23 questions in this cut that carry a topic label** (92% of it):
 | **IBM** | [Reverse Last Two Characters with a Space](https://trueinterview.io/questions/aed17c65-c5b3-4e56-a00d-9edbfd9f0f59) | Easy | — |
 | **IBM** | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Medium | — |
 | **IBM** | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Medium | — |
-| **IBM** | [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Medium | — |
-| **IBM** | [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Medium | — |
-| **IBM** | [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Medium | — |
+| **Meta / IBM / Oracle** | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Easy | — |
 | **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

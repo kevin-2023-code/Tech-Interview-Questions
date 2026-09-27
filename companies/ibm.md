@@ -2,37 +2,36 @@
 
 # IBM interview process, OA & interview questions
 
-**25 questions** reported at IBM · **3 writeups** · **7 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How IBM interviews & the free questions](ibm/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧾 [IT services & consulting](../company-types/it-consulting.md) · 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-ibm)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-ibm)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **25** |
+| Questions tracked | **23** |
 | Most recent sighting | Sep 14, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (92% of 25) |
-| Difficulty (easy / medium / hard) | 4 / 20 / 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (91% of 23) |
+| Difficulty (easy / medium / hard) | 5 / 17 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
-| Interview reports on the board | 7 in this snapshot |
 
-<sub>Counted from the 25 questions reported at IBM. 14 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at IBM. 14 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **25 of 25** questions at IBM that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at IBM that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (93%) | 4 / 11 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 8 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (94%) | 5 / 11 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 6 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 1 | █ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -48,20 +47,20 @@ Which stage each question came from, for the **25 of 25** questions at IBM that 
 
 ## What they ask about
 
-Of the **23 questions at IBM that carry a topic label** (92% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **21 questions at IBM that carry a topic label** (91% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 6 | 26% | ████████████ | Sep 14, 2026 |
-| `strings` | 5 | 22% | ██████████ | Aug 27, 2026 |
-| `math` | 4 | 17% | ████████ | May 30, 2026 |
-| `hashing` | 3 | 13% | ██████ | Feb 22, 2026 |
-| `intervals` | 3 | 13% | ██████ | Feb 26, 2026 |
-| `sliding-window` | 3 | 13% | ██████ | Feb 22, 2026 |
-| `arrays` | 2 | 9% | ████ | Apr 25, 2026 |
-| `dynamic-programming` | 2 | 9% | ████ | Sep 09, 2025 |
-| `graphs` | 2 | 9% | ████ | Sep 21, 2025 |
-| `sorting` | 2 | 9% | ████ | Feb 26, 2026 |
+| `greedy` | 5 | 24% | ████████████ | Sep 14, 2026 |
+| `strings` | 5 | 24% | ████████████ | Aug 27, 2026 |
+| `hashing` | 3 | 14% | ███████ | Feb 22, 2026 |
+| `intervals` | 3 | 14% | ███████ | Feb 26, 2026 |
+| `math` | 3 | 14% | ███████ | May 30, 2026 |
+| `arrays` | 2 | 10% | █████ | Apr 25, 2026 |
+| `dynamic-programming` | 2 | 10% | █████ | Sep 09, 2025 |
+| `graphs` | 2 | 10% | █████ | Sep 21, 2025 |
+| `sliding-window` | 2 | 10% | █████ | Feb 22, 2026 |
+| `sorting` | 2 | 10% | █████ | Feb 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -107,22 +106,6 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/study/devsecops-kubernetes-cicd-screen) | cs-fundamentals, docker, networking, sre, troubleshooting |
 | [IBM Interview Process & Questions](https://trueinterview.io/study/ibm-interview-process) | — |
 
-## Interview reports
-
-What candidates said happened in the room at IBM — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [IBM Coding Interview Experience: VM Rental Revenue and Minimum Replacements](https://trueinterview.io/interviews/01de2fbc-f506-4e76-8196-14751aee1366) | Sep 26, 2026 |
-| Software | [IBM Coding Interview: VM Stock Revenue & Minimum Replacements](https://trueinterview.io/interviews/80b6bf49-65d3-4fab-8031-3e5d14a66e5a) | Sep 26, 2026 |
-| Software | [IBM HackerRank Online Assessment Interview Experience](https://trueinterview.io/interviews/e1339dbc-03b7-4b40-86a2-542deb4d867c) | Sep 26, 2026 |
-| Software | [IBM Pairwise XOR and Modulo Sum Problems Interview Experience](https://trueinterview.io/interviews/9e3712c6-15f8-4cbc-882d-def302a93125) | Sep 26, 2026 |
-| Software | [IBM Software Engineer Interview Experience](https://trueinterview.io/interviews/019691a9-c5ef-407f-90ed-97202f5bb6a7) | Sep 26, 2026 |
-| Software | [IBM Software Engineer Interview Experience](https://trueinterview.io/interviews/2aba3159-041a-49e2-83f5-8e878babd7a1) | Sep 26, 2026 |
-| Software | [IBM VM Sales Revenue and Minimum Nondecreasing Increment Online Assessment Interview Experience](https://trueinterview.io/interviews/6d2aaa80-39d2-432a-b4c7-0f8b28ac9a38) | Sep 26, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,860 in total). [Every report at IBM and everywhere else →](https://trueinterview.io/interviews)</sub>
-
 ---
 
 **Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [IBM on TrueInterview](https://trueinterview.io/problems/company/ibm).
@@ -154,7 +137,5 @@ What candidates said happened in the room at IBM — written up by the people wh
 | [Reverse Last Two Characters with a Space](https://trueinterview.io/questions/aed17c65-c5b3-4e56-a00d-9edbfd9f0f59) | Algorithm | Easy | — |
 | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Algorithm | Medium | — |
 | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Algorithm | Medium | — |
-| [Minimum Flips](https://trueinterview.io/questions/6dd99c3e-8c26-412b-a3ee-02a024f20841) | Algorithm | Medium | — |
-| [Count Teams](https://trueinterview.io/questions/3c84b0e0-9224-439b-8066-a118ccb3d19e) | Algorithm | Medium | — |
-| [Find Length of Longest Bitonic Subarray](https://trueinterview.io/questions/30fa43be-e354-4f0c-83a2-96e051642b90) | Algorithm | Medium | — |
+| [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Easy | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |

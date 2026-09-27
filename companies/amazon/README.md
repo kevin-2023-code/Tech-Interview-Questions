@@ -8,11 +8,11 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [232](../amazon.md) |
+| Questions reported | [236](../amazon.md) |
 | Free to read here | 29 |
 | Interview-process guides | 5 |
 | Other guides | 15 |
-| Most recent sighting | Sep 05, 2026 |
+| Most recent sighting | Sep 14, 2026 |
 
 ## How Amazon interviews
 
@@ -73,12 +73,12 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 | Guide | Tags |
 | :-- | :-- |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](guides/asm-phone-screen-deep-dive-bq.md) | deep-dive |
+| [Describe a Deep Debugging Investigation](guides/describe-a-deep-debugging-investigation.md) | — |
 | [Explain a Project That Could Not Meet a Tight Deadline](guides/explain-a-project-that-could-not-meet-a-tight-deadline.md) | — |
 | [GenAI Usage (How / Failure / Tradeoff)](guides/bq-genai-usage.md) | ai-tools |
-| [Influence a Colleague Who Prefers a Different Approach](guides/influence-a-colleague-who-prefers-a-different-approach.md) | — |
 | [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md) | deep-dive |
-| [Learn What You Need to Solve an Unfamiliar Problem](guides/learn-what-you-need-to-solve-an-unfamiliar-problem.md) | — |
 | [LoRA and PEFT Variants](guides/lora-and-peft-variants.md) | ml-knowledge, transformer |
+| [Make an Important Decision Before Every Option Can Be Explored](guides/make-an-important-decision-before-every-option-can-be-explored.md) | — |
 | [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](guides/as-ml-breadth-orals.md) | math-reasoning, ml-knowledge, probability |
 | [Modified OA with AI assisted debugging](https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5) | — |
 | [Paper Read Round (FAR / Premium Loops)](guides/paper-read-round-far.md) | deep-dive, ml-knowledge, presentation |
@@ -90,7 +90,7 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 
 ## Everything else
 
-- [All 232 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 236 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Amazon question on TrueInterview](https://trueinterview.io/problems/company/amazon).
 
 ---

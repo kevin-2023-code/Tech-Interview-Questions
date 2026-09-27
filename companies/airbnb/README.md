@@ -8,11 +8,11 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [48](../airbnb.md) |
+| Questions reported | [49](../airbnb.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
-| Most recent sighting | Jul 22, 2026 |
+| Most recent sighting | Sep 04, 2026 |
 
 ## How Airbnb interviews
 
@@ -61,7 +61,7 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 
 ## Everything else
 
-- [All 48 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 49 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airbnb question on TrueInterview](https://trueinterview.io/problems/company/airbnb).
 
 ---

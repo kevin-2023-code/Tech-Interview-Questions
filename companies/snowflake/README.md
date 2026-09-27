@@ -8,10 +8,10 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [112](../snowflake.md) |
+| Questions reported | [110](../snowflake.md) |
 | Free to read here | 11 |
 | Interview-process guides | 1 |
-| Other guides | 3 |
+| Other guides | 4 |
 | Most recent sighting | Aug 15, 2026 |
 
 ## How Snowflake interviews
@@ -55,12 +55,13 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | Guide | Tags |
 | :-- | :-- |
 | [AI-Conducted Screening Interview](guides/ai-conducted-screening.md) | ai-screening, ai-tools, deep-dive, new-round, verbal |
+| [Explain a Technical Project from Milestone to Production](guides/explain-a-technical-project-from-milestone-to-production.md) | — |
 | [Infra Recruiter Screen: Experience and Tooling](guides/infra-recruiter-experience-screen.md) | fit, infra |
 | [Proud Project / Conflict / Failure](guides/onsite-behavioral-proud-conflict-failure.md) | conflict, ownership |
 
 ## Everything else
 
-- [All 112 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 110 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

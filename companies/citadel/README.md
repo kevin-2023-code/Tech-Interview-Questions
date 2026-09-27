@@ -8,11 +8,11 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [54](../citadel.md) |
+| Questions reported | [56](../citadel.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 4 |
-| Most recent sighting | Sep 08, 2026 |
+| Most recent sighting | Sep 18, 2026 |
 
 ## How Citadel interviews
 
@@ -56,7 +56,7 @@ The loop typically runs four to five rounds beyond the recruiter call, and the f
 
 ## Everything else
 
-- [All 54 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 56 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Citadel question on TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 ---

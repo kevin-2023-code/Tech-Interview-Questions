@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**375 writeups** across **93 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**379 writeups** across **93 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,18 +10,18 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
+| [Project Deep-Dive (Four-Axis Rubric)](https://trueinterview.io/study/behavioral-project-deep-dive) | **LinkedIn** | deep-dive, impact, leadership, presentation, project-retro |
 | [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/study/ai-ml-fundamentals-oral) | **Salesforce** | attention, cs-fundamentals, evaluation, inference, llm |
 | [Bound R-Squared for Individual and Combined OLS Regressions](https://trueinterview.io/study/bound-r-squared-for-individual-and-combined-ols-regressions) | **Voleon** | — |
 | [C++ Atomics, Memory Ordering, and Safe Publication](https://trueinterview.io/study/cplusplus-atomics-memory-ordering-and-safe-publication) | **Millennium** | — |
 | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/study/choose-labels-and-losses-for-multiple-engagement-outcomes) | **Snapchat** | — |
 | [Choose LoRA for Fine-Tuning and Explain Its Limitations](https://trueinterview.io/study/choose-lora-for-fine-tuning-and-explain-its-limitations) | **Siemens** | — |
+| [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/study/cloud-domain-knowledge-round) | **Salesforce** | cloud, cs-fundamentals, domain-knowledge, infra, verbal |
 | [Compare Arrays and Linked Lists for Indexed Operations](https://trueinterview.io/study/compare-arrays-and-linked-lists-for-indexed-operations) | **Indeed** | — |
 | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/study/compare-batch-normalization-and-layer-normalization) | **Snapchat** | — |
 | [Compare GRPO and PPO and Explain Sparse Versus Dense Rewards](https://trueinterview.io/study/compare-grpo-and-ppo-and-explain-sparse-versus-dense-rewards) | **Siemens** | — |
 | [Compare Reward-Model RLHF and Direct Preference Optimization](https://trueinterview.io/study/compare-reward-model-rlhf-and-direct-preference-optimization) | **Mistral AI** | — |
 | [Compare RMSNorm and LayerNorm in Transformer Blocks](https://trueinterview.io/study/compare-rmsnorm-and-layernorm-in-transformer-blocks) | **Mistral AI** | — |
-| [Compare Tensor Parallelism and Pipeline Parallelism](https://trueinterview.io/study/compare-tensor-parallelism-and-pipeline-parallelism) | **Mistral AI** | — |
-| [Connect a Project Deep Dive to Engineering Career Decisions](https://trueinterview.io/study/connect-a-project-deep-dive-to-engineering-career-decisions) | **Cursor** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -39,12 +39,12 @@
 | [Amazon Research Scientist Interview Process](https://trueinterview.io/study/amazon-research-scientist-interview-process) | — |
 | [Amazon Software Engineer Interview Process](https://trueinterview.io/study/amazon-software-engineer-interview-process) | — |
 | [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/study/asm-phone-screen-deep-dive-bq) | deep-dive |
+| [Describe a Deep Debugging Investigation](https://trueinterview.io/study/describe-a-deep-debugging-investigation) | — |
 | [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/study/explain-a-project-that-could-not-meet-a-tight-deadline) | — |
 | [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/study/bq-genai-usage) | ai-tools |
-| [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/study/influence-a-colleague-who-prefers-a-different-approach) | — |
 | [Leadership Principles Standard Set](https://trueinterview.io/study/bq-leadership-principles-standard-set) | deep-dive |
-| [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/study/learn-what-you-need-to-solve-an-unfamiliar-problem) | — |
 | [LoRA and PEFT Variants](https://trueinterview.io/study/lora-and-peft-variants) | ml-knowledge, transformer |
+| [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/study/make-an-important-decision-before-every-option-can-be-explored) | — |
 | [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/study/as-ml-breadth-orals) | math-reasoning, ml-knowledge, probability |
 | [Modified OA with AI assisted debugging](https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5) | — |
 | [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/study/paper-read-round-far) | deep-dive, ml-knowledge, presentation |
@@ -75,6 +75,26 @@
 | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
 | [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
 
+### Capital One
+
+<sub>13 guides · [questions at Capital One](../companies/capital-one.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | critical-thinking, open-ended, verbal |
+| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | deep-dive, open-ended, paper-read, presentation, verbal |
+| [Capital One Data Scientist Interview Process](https://trueinterview.io/study/capitalone-data-scientist-interview-process) | — |
+| [Capital One Interview Process & Questions](https://trueinterview.io/study/capitalone-interview-process) | — |
+| [Capital One Machine Learning Engineer Interview Process](https://trueinterview.io/study/capitalone-machine-learning-engineer-interview-process) | — |
+| [Capital One Research Scientist Interview Process](https://trueinterview.io/study/capitalone-research-scientist-interview-process) | — |
+| [Capital One Software Engineer Interview Process](https://trueinterview.io/study/capitalone-software-engineer-interview-process) | — |
+| [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/study/f63e89db-acce-46ac-9ee8-4b85820078e0) | — |
+| [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | critical-thinking, math-reasoning, open-ended, verbal |
+| [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | ab-testing, critical-thinking, ml-knowledge, open-ended, verbal |
+| [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | cs-fundamentals, deep-dive, ml-knowledge, verbal |
+| [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | cs-fundamentals, math-reasoning, open-ended, probability, verbal |
+| [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | ambiguity, bq, conflict, leadership, star |
+
 ### Optiver
 
 <sub>13 guides · [questions at Optiver](../companies/optiver.md)</sub>
@@ -94,44 +114,6 @@
 | [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/study/qr-technical-brainteasers) | brainteaser, fermi-estimation, math-reasoning, probability |
 | [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/study/trading-betting-game) | expected-value, market-making, mental-math, probability, trading |
 | [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/study/zap-n-reaction-games) | brainteaser, reaction-speed |
-
-### Apple
-
-<sub>12 guides · [questions at Apple](../companies/apple.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | deep-dive, metrics, optimization, presentation |
-| [Apple Infrastructure Engineer Interview Process](https://trueinterview.io/study/apple-infrastructure-engineer-interview-process) | — |
-| [Apple Interview Process & Questions](https://trueinterview.io/study/apple-interview-process) | — |
-| [Apple Machine Learning Engineer Interview Process](https://trueinterview.io/study/apple-machine-learning-engineer-interview-process) | — |
-| [Apple Software Engineer Interview Process](https://trueinterview.io/study/apple-software-engineer-interview-process) | — |
-| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | ambiguity, bq, collaboration, conflict, fit |
-| [Build a Tree and Perform BFS Traversal](https://trueinterview.io/study/662ddd89-02d8-4f10-bdaf-4778877ab42a) | — |
-| [Crafting a Compelling Job Transition and Motivation Response](https://trueinterview.io/study/ebf5d768-7f3c-40dc-927c-477fe70eae77) | — |
-| [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | ab-testing, ads, debugging, evaluation, llm |
-| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | agentic-workflow, agents, backend, database, deep-dive |
-| [OS Fundamentals & Concurrency Drill](https://trueinterview.io/study/os-fundamentals-and-concurrency) | concurrency, operating-systems, race-condition, threading |
-| [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/study/systemverilog-dv-constraint-and-architecture-loop) | concurrency, cs-fundamentals, probability, testing |
-
-### Capital One
-
-<sub>12 guides · [questions at Capital One](../companies/capital-one.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | critical-thinking, open-ended, verbal |
-| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | deep-dive, open-ended, paper-read, presentation, verbal |
-| [Capital One Data Scientist Interview Process](https://trueinterview.io/study/capitalone-data-scientist-interview-process) | — |
-| [Capital One Interview Process & Questions](https://trueinterview.io/study/capitalone-interview-process) | — |
-| [Capital One Machine Learning Engineer Interview Process](https://trueinterview.io/study/capitalone-machine-learning-engineer-interview-process) | — |
-| [Capital One Research Scientist Interview Process](https://trueinterview.io/study/capitalone-research-scientist-interview-process) | — |
-| [Capital One Software Engineer Interview Process](https://trueinterview.io/study/capitalone-software-engineer-interview-process) | — |
-| [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/study/f63e89db-acce-46ac-9ee8-4b85820078e0) | — |
-| [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | critical-thinking, math-reasoning, open-ended, verbal |
-| [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | cs-fundamentals, deep-dive, ml-knowledge, verbal |
-| [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | cs-fundamentals, math-reasoning, open-ended, probability, verbal |
-| [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | ambiguity, bq, conflict, leadership, star |
 
 ### OpenAI
 
@@ -187,6 +169,23 @@
 | [Mouse and Cheese / Maze Rewards](https://trueinterview.io/study/mouse-and-cheese-maze-rewards) | backtracking, dfs, dp, grid |
 | [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/study/03c246e8-c1a4-47b1-b1bd-5c212e569288) | — |
 | [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | ambiguity, bq, conflict, leadership, star |
+
+### Apple
+
+<sub>10 guides · [questions at Apple](../companies/apple.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | deep-dive, metrics, optimization, presentation |
+| [Apple Infrastructure Engineer Interview Process](https://trueinterview.io/study/apple-infrastructure-engineer-interview-process) | — |
+| [Apple Interview Process & Questions](https://trueinterview.io/study/apple-interview-process) | — |
+| [Apple Machine Learning Engineer Interview Process](https://trueinterview.io/study/apple-machine-learning-engineer-interview-process) | — |
+| [Apple Software Engineer Interview Process](https://trueinterview.io/study/apple-software-engineer-interview-process) | — |
+| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | ambiguity, bq, collaboration, conflict, fit |
+| [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | ab-testing, ads, debugging, evaluation, llm |
+| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | agentic-workflow, agents, backend, database, deep-dive |
+| [OS Fundamentals & Concurrency Drill](https://trueinterview.io/study/os-fundamentals-and-concurrency) | concurrency, operating-systems, race-condition, threading |
+| [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/study/systemverilog-dv-constraint-and-architecture-loop) | concurrency, cs-fundamentals, probability, testing |
 
 ### Microsoft
 
@@ -305,6 +304,20 @@
 | [Reddit Machine Learning Engineer Interview Process](https://trueinterview.io/study/reddit-machine-learning-engineer-interview-process) | — |
 | [Reddit Software Engineer Interview Process](https://trueinterview.io/study/reddit-software-engineer-interview-process) | — |
 
+### Rippling
+
+<sub>7 guides · [questions at Rippling](../companies/rippling.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/study/explain-the-scope-and-impact-of-your-most-important-project) | — |
+| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/study/explain-your-current-and-previous-engineering-roles) | — |
+| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/study/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | — |
+| [Intern OA Fixed Set](https://trueinterview.io/study/intern-oa-fixed-set) | api-integration, dfs, hashmap, heap, sliding-window |
+| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | bq, deep-dive, impact, mentorship, presentation |
+| [Rippling Interview Process & Questions](https://trueinterview.io/study/rippling-interview-process) | — |
+| [Time Complexity Analysis](https://trueinterview.io/study/3ff04932-615f-483c-a528-757dfbfc638a) | — |
+
 ### Snapchat
 
 <sub>7 guides · [questions at Snapchat](../companies/snapchat.md)</sub>
@@ -358,6 +371,19 @@
 | [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | culture-fit, fit, verbal, why-company |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | conflict, culture-fit, deep-dive, why-company |
 
+### LinkedIn
+
+<sub>6 guides · [questions at LinkedIn](../companies/linkedin.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | ambiguity, conflict, impact, leadership, star |
+| [LinkedIn Infrastructure Engineer Interview Process](https://trueinterview.io/study/linkedin-infrastructure-engineer-interview-process) | — |
+| [LinkedIn Interview Process & Questions](https://trueinterview.io/study/linkedin-interview-process) | — |
+| [LinkedIn Machine Learning Engineer Interview Process](https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process) | — |
+| [LinkedIn Software Engineer Interview Process](https://trueinterview.io/study/linkedin-software-engineer-interview-process) | — |
+| [Project Deep-Dive (Four-Axis Rubric)](https://trueinterview.io/study/behavioral-project-deep-dive) | deep-dive, impact, leadership, presentation, project-retro |
+
 ### Netflix
 
 <sub>6 guides · [questions at Netflix](../companies/netflix.md)</sub>
@@ -384,19 +410,6 @@
 | [Pinterest Machine Learning Engineer Interview Process](https://trueinterview.io/study/pinterest-machine-learning-engineer-interview-process) | — |
 | [Pinterest Software Engineer Interview Process](https://trueinterview.io/study/pinterest-software-engineer-interview-process) | — |
 
-### Rippling
-
-<sub>6 guides · [questions at Rippling](../companies/rippling.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/study/explain-your-current-and-previous-engineering-roles) | — |
-| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/study/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | — |
-| [Intern OA Fixed Set](https://trueinterview.io/study/intern-oa-fixed-set) | api-integration, dfs, hashmap, heap, sliding-window |
-| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | bq, deep-dive, impact, mentorship, presentation |
-| [Rippling Interview Process & Questions](https://trueinterview.io/study/rippling-interview-process) | — |
-| [Time Complexity Analysis](https://trueinterview.io/study/3ff04932-615f-483c-a528-757dfbfc638a) | — |
-
 ### Robinhood
 
 <sub>6 guides · [questions at Robinhood](../companies/robinhood.md)</sub>
@@ -422,6 +435,19 @@
 | [Roblox Interview Process & Questions](https://trueinterview.io/study/roblox-interview-process) | — |
 | [Roblox Machine Learning Engineer Interview Process](https://trueinterview.io/study/roblox-machine-learning-engineer-interview-process) | — |
 | [Roblox Software Engineer Interview Process](https://trueinterview.io/study/roblox-software-engineer-interview-process) | — |
+
+### Salesforce
+
+<sub>6 guides · [questions at Salesforce](../companies/salesforce.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/study/ai-ml-fundamentals-oral) | attention, cs-fundamentals, evaluation, inference, llm |
+| [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/study/cloud-domain-knowledge-round) | cloud, cs-fundamentals, domain-knowledge, infra, verbal |
+| [Hiring Manager + Behavioral Rounds](https://trueinterview.io/study/hm-and-bq-rounds) | bq, conflict, leadership, mentorship, ownership |
+| [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/study/project-deep-dive-ai-engineer) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent |
+| [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
+| [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
 
 ### Two Sigma
 
@@ -486,18 +512,6 @@
 | [Coinbase Software Engineer Interview Process](https://trueinterview.io/study/coinbase-software-engineer-interview-process) | — |
 | [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | ai-collaboration, culture-fit, deep-dive, leadership |
 
-### LinkedIn
-
-<sub>5 guides · [questions at LinkedIn](../companies/linkedin.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | ambiguity, conflict, impact, leadership, star |
-| [LinkedIn Infrastructure Engineer Interview Process](https://trueinterview.io/study/linkedin-infrastructure-engineer-interview-process) | — |
-| [LinkedIn Interview Process & Questions](https://trueinterview.io/study/linkedin-interview-process) | — |
-| [LinkedIn Machine Learning Engineer Interview Process](https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process) | — |
-| [LinkedIn Software Engineer Interview Process](https://trueinterview.io/study/linkedin-software-engineer-interview-process) | — |
-
 ### Perplexity
 
 <sub>5 guides · [questions at Perplexity](../companies/perplexity.md)</sub>
@@ -510,17 +524,17 @@
 | [Perplexity Software Engineer Interview Process](https://trueinterview.io/study/perplexity-software-engineer-interview-process) | — |
 | [Understand Code Functionality](https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7) | — |
 
-### Salesforce
+### Snowflake
 
-<sub>5 guides · [questions at Salesforce](../companies/salesforce.md)</sub>
+<sub>5 guides · [questions at Snowflake](../companies/snowflake.md)</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
-| [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/study/ai-ml-fundamentals-oral) | attention, cs-fundamentals, evaluation, inference, llm |
-| [Hiring Manager + Behavioral Rounds](https://trueinterview.io/study/hm-and-bq-rounds) | bq, conflict, leadership, mentorship, ownership |
-| [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/study/project-deep-dive-ai-engineer) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent |
-| [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
-| [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
+| [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | ai-screening, ai-tools, deep-dive, new-round, verbal |
+| [Explain a Technical Project from Milestone to Production](https://trueinterview.io/study/explain-a-technical-project-from-milestone-to-production) | — |
+| [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/study/infra-recruiter-experience-screen) | fit, infra |
+| [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | conflict, ownership |
+| [Snowflake Interview Process & Questions](https://trueinterview.io/study/snowflake-interview-process) | — |
 
 ### Tesla
 
@@ -578,17 +592,6 @@
 | [Project Deep Dive and Paper Presentation](https://trueinterview.io/study/project-deep-dive-and-paper-presentation) | domain-knowledge, ml-knowledge |
 | [Scale AI Interview Process & Questions](https://trueinterview.io/study/scale-ai-interview-process) | — |
 
-### Snowflake
-
-<sub>4 guides · [questions at Snowflake](../companies/snowflake.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [AI-Conducted Screening Interview](https://trueinterview.io/study/ai-conducted-screening) | ai-screening, ai-tools, deep-dive, new-round, verbal |
-| [Infra Recruiter Screen: Experience and Tooling](https://trueinterview.io/study/infra-recruiter-experience-screen) | fit, infra |
-| [Proud Project / Conflict / Failure](https://trueinterview.io/study/onsite-behavioral-proud-conflict-failure) | conflict, ownership |
-| [Snowflake Interview Process & Questions](https://trueinterview.io/study/snowflake-interview-process) | — |
-
 ### Together AI
 
 <sub>4 guides · [questions at Together AI](../companies/together-ai.md)</sub>
@@ -599,6 +602,16 @@
 | [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/study/diagnose-slow-network-throughput-including-containers) | — |
 | [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/study/diagnose-storage-i-o-performance-and-identify-the-workload) | — |
 | [Investigate a Server Saturated by Logging](https://trueinterview.io/study/investigate-a-server-saturated-by-logging) | — |
+
+### Figma
+
+<sub>3 guides · [questions at Figma](../companies/figma.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/study/deep-dive-url-request-lifecycle) | cs-fundamentals, http, networking, open-ended |
+| [Figma Interview Process & Questions](https://trueinterview.io/study/figma-interview-process) | — |
+| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | conflict, deep-dive, ownership, presentation, project-retro |
 
 ### IBM
 
@@ -718,15 +731,6 @@
 | :-- | :-- |
 | [Behavioral Question Pool](https://trueinterview.io/study/behavioral-question-pool) | deep-dive, star, why-company |
 | [Bloomberg Interview Process & Questions](https://trueinterview.io/study/bloomberg-interview-process) | — |
-
-### Figma
-
-<sub>2 guides · [questions at Figma](../companies/figma.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Figma Interview Process & Questions](https://trueinterview.io/study/figma-interview-process) | — |
-| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | conflict, deep-dive, ownership, presentation, project-retro |
 
 ### Harvey
 
