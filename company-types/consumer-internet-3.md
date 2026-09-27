@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**708 questions** reported across the **9 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**716 questions** reported across the **9 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,10 +10,15 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Pinterest** | [Bubble Explosion on a Grid (One Round + Gravity)](https://trueinterview.io/questions/c071219b-045a-4aaf-a968-4a395c259ca8) | Medium | — |
+| **Pinterest** | [Check If All Numbers in a Window Are Monotonic](https://trueinterview.io/questions/b713b44f-bc25-4935-8f17-c24342c90f89) | Medium | — |
+| **Pinterest** | [Implement custom round function](https://trueinterview.io/questions/b1edadf2-a0a2-430e-9c61-abc05944b832) | Medium | — |
+| **Pinterest** | [Naive Bayes Implementation](https://trueinterview.io/questions/4b6cf68f-e144-4f3e-8514-fd425859b792) | Medium | — |
+| **Pinterest / Meta** | [Escape Room (Shortest Escape Path in a Room Grid)](https://trueinterview.io/questions/4837fbb0-c247-450e-9607-1c9a42be781c) | Hard | — |
 | **Pinterest** | [Escape Room Lock Chain](https://trueinterview.io/questions/4152a497-1ffa-4994-87ba-e36af7a8e914) | Medium | — |
 | **Pinterest** | [Scooter Hopping on a Number Line (Greedy Simulation)](https://trueinterview.io/questions/4061bf21-5f91-4205-b332-593d043db6af) | Medium | — |
 | **Pinterest** | [Count Objects in Pin](https://trueinterview.io/questions/2ef8e521-5ac6-4711-9d84-6b98703ad305) | Easy | — |
-| **Pinterest / Weride** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Easy | — |
+| **Pinterest / WeRide** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Easy | — |
 | **Pinterest** | [Set Equality Verification](https://trueinterview.io/questions/0def6fa8-60e7-41ea-bf60-ab321aa731ea) | Easy | — |
 | **Oracle / LinkedIn** | [Find Users with Valid Login Sessions](https://trueinterview.io/questions/a780c95b-69ec-4029-b04a-55101695e5d1) | Medium | — |
 | **Oracle / ByteDance** | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Medium | — |
@@ -118,6 +123,7 @@
 | **ByteDance / Atlassian** | [Implement Moving Average from Data Stream](https://trueinterview.io/questions/94192aa7-a909-49a7-80b7-24c84876985d) | Easy | — |
 | **ByteDance** | [Can Cut All Given Squares From a Rectangle Grid](https://trueinterview.io/questions/8df7409a-9106-435c-8157-bf0c94e6467e) | Hard | — |
 | **ByteDance** | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Medium | — |
+| **ByteDance / LinkedIn / NVIDIA / WeRide** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Medium | — |
 | **ByteDance** | [Semantic Similarity (Text Embedding + Cosine Similarity)](https://trueinterview.io/questions/76f49396-a3e1-499d-bcf8-e66cdb8ed785) | Easy | — |
 | **ByteDance** | [Array Partition](https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6) | Easy | — |
 | **ByteDance** | [Equalize Server Latency](https://trueinterview.io/questions/67d10813-b767-4d2d-8492-e2e32d196a80) | Hard | — |
@@ -125,7 +131,8 @@
 | **ByteDance** | [Find Highest Salary In Each Department](https://trueinterview.io/questions/5348b956-13e3-4f3a-a381-f80594e38002) | Medium | — |
 | **ByteDance** | [LRU Cache with TTL](https://trueinterview.io/questions/5177f4aa-d20c-4ded-b262-94815c6e6a0c) | Medium | — |
 | **ByteDance / Bloomberg** | [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Medium | — |
-| **ByteDance** | [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Medium | — |
+| **ByteDance** | [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Easy | — |
+| **ByteDance / Rubrik** | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Easy | — |
 | **ByteDance / Pinduoduo** | [Spiral Matrix Fill](https://trueinterview.io/questions/3b33f241-83ae-4754-af33-8eac2267c5b2) | Medium | — |
 | **ByteDance / Pinduoduo** | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Medium | — |
 | **ByteDance** | [Convert Between Integer and Roman (Two-Way)](https://trueinterview.io/questions/37ebf2fa-456e-422b-9a8a-e19c3815f353) | Medium | — |
@@ -141,6 +148,7 @@
 | **Amazon / Datadog / DoorDash / Google / LinkedIn / Rippling / Roblox / Snapchat / Stripe** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | Hard | — |
 | **Amazon / Google** | [Binary Tree Level Average (Level-order traversal)](https://trueinterview.io/questions/317e2feb-db97-48b9-9a58-0959ba8569f5) | Medium | — |
 | **Airbnb / Amazon / ByteDance / OpenAI** | [Dependency Resolution / Build Order](https://trueinterview.io/questions/693d5641-09b6-4ead-a4ef-2805c7b4153e) | Medium | — |
+| **LinkedIn** | [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Hard | — |
 | **Google** | [Shortest Directed Cycle Through a Node](https://trueinterview.io/questions/shortest-cycle-through-node) | Medium | — |
 | **Google** | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Medium | — |
 | **Snapchat / ByteDance / Google / Meta / Pinduoduo / Rokt / Walmart Labs** | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Medium | — |
@@ -181,7 +189,7 @@
 | **Uber / Apple / Google** | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Medium | — |
 | **Netflix** | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec) | Easy | — |
 | **Netflix** | [Command Executor with Execute and Undo](https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968) | Medium | — |
-| **Apple / Meta** | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Easy | — |
+| **Apple / Meta** | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Medium | — |
 | **Rippling / Meta** | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Medium | — |
 | **Netflix** | [Music Playlist Implementation](https://trueinterview.io/questions/07093608-c84a-4bc2-bee5-c906cb37cba6) | Medium | — |
 | **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Medium | — |

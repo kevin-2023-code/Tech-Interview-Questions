@@ -8,7 +8,7 @@ How Datadog interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [20](../datadog.md) |
+| Questions reported | [25](../datadog.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -41,11 +41,11 @@ Other reported screens: implement a buffered file writer, then design its test c
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
-| [Design Mint.com](../../questions/system-design/mint-com/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/mint-com) |
+| [Remove Read-Only Files](../../questions/algorithm/remove-read-only-files/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e13f7d75-2d46-4e01-9948-20fdcf5feaf7) |
 
 ## Everything else
 
-- [All 20 questions reported at Datadog](../datadog.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 25 questions reported at Datadog](../datadog.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Datadog question on TrueInterview](https://trueinterview.io/problems/company/datadog).
 
 ---

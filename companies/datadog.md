@@ -2,7 +2,7 @@
 
 # Datadog interview process, OA & interview questions
 
-**20 questions** reported at Datadog · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/datadog), judged server-side on the algorithm, low-level-design and SQL formats.
+**25 questions** reported at Datadog · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/datadog), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Datadog interviews & the free questions](datadog/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **20** |
+| Questions tracked | **25** |
 | Most recent sighting | Mar 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (55% of 20) |
-| Difficulty (easy / medium / hard) | 4 / 14 / 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (64% of 25) |
+| Difficulty (easy / medium / hard) | 6 / 16 / 3 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 20 questions reported at Datadog. 6 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 25 questions reported at Datadog. 6 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **20 of 20** questions at Datadog that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **25 of 25** questions at Datadog that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ████ | [Algorithm](../formats/algorithm.md) (83%) | 1 / 5 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 14 | ██████████ | [System Design](../formats/system-design.md) (43%) | 2 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (89%) | 1 / 7 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (40%) | 3 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,17 +42,18 @@ Which stage each question came from, for the **20 of 20** questions at Datadog t
 
 ## What they ask about
 
-Of the **10 questions at Datadog that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Datadog that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 40% | ████████████ | Mar 06, 2026 |
-| `dynamic-programming` | 2 | 20% | ██████ | Feb 17, 2026 |
-| `math` | 2 | 20% | ██████ | Feb 17, 2026 |
-| `arrays` | 1 | 10% | ███ | — |
-| `sliding-window` | 1 | 10% | ███ | Mar 06, 2026 |
-| `strings` | 1 | 10% | ███ | Mar 06, 2026 |
-| `trees` | 1 | 10% | ███ | — |
+| `hashing` | 5 | 36% | ████████████ | Mar 06, 2026 |
+| `dynamic-programming` | 2 | 14% | █████ | Feb 17, 2026 |
+| `math` | 2 | 14% | █████ | Feb 17, 2026 |
+| `strings` | 2 | 14% | █████ | Mar 06, 2026 |
+| `trees` | 2 | 14% | █████ | — |
+| `arrays` | 1 | 7% | ██ | — |
+| `graphs` | 1 | 7% | ██ | — |
+| `sliding-window` | 1 | 7% | ██ | Mar 06, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -79,7 +80,7 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 | **5** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
 | **6** | [Design Instagram](https://trueinterview.io/questions/design-instagram) 🆓 | System Design | Medium | 6 | Jan 22, 2026 |
 | **7** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | 8 | — |
-| **8** | [Design Mint.com](https://trueinterview.io/questions/mint-com) 🆓 | System Design | Medium | 1 | — |
+| **8** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -108,9 +109,14 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Design A Facial Image Matching System](https://trueinterview.io/questions/design-a-facial-image-matching-system) | System Design | Hard | — |
+| [Detect Duplicate Words in Paragraph Ignoring Case](https://trueinterview.io/questions/f66f9244-8126-4fce-a31f-23c5a3974b69) | Algorithm | Easy | — |
+| [Remove Read-Only Files](https://trueinterview.io/questions/e13f7d75-2d46-4e01-9948-20fdcf5feaf7) | Algorithm | Medium | — |
 | [Geography Related Log Query](https://trueinterview.io/questions/4e25dade-77dd-4886-a217-9542455cab48) | Algorithm | Easy | — |
+| [Maximum Points Collection in Maze Graph Game](https://trueinterview.io/questions/43f90ec3-73b8-4941-a623-cdff5c5a4882) | Algorithm | Hard | — |
 | [Minimum Path Sum](https://trueinterview.io/questions/2f51777e-365c-5674-ab6a-8941f98594b7) | Algorithm | Medium | — |
+| [Find Repeated Words in Text Using Regular Expressions](https://trueinterview.io/questions/0f0b2ee7-c88c-46e8-b6af-1e88cf27aa6f) | Algorithm | Medium | — |
 | [Query Log Matching](https://trueinterview.io/questions/83d7ff94-bab7-47e3-a4b4-e177692a608e) | Algorithm | Medium | — |
+| [File System Directory Size Sum](https://trueinterview.io/questions/1a1f123e-d4ee-4722-a9c2-1aeefecbc649) | Algorithm | Easy | — |
 | [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518) | Algorithm | Medium | — |
 | [Design a Buffered File Writer](https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e) | Object Oriented Programming | Medium | — |
 | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc) | Algorithm | Medium | — |

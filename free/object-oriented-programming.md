@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**43 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**49 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 | :-- | :-- | :-: | :-- |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
 | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | **Coinbase / Capital One** | Easy | — |
-| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | **JPMorgan** | Easy | Jan 15, 2026 |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | Medium | — |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Medium | Nov 08, 2025 |
@@ -29,6 +28,7 @@
 | [Snake Game](https://trueinterview.io/questions/snake-game) | **Atlassian / Amplitude** | Medium | Oct 02, 2025 |
 | [Task Management System III](https://trueinterview.io/questions/task-management-system) | **Coinbase / Instacart** | Medium | Feb 03, 2026 |
 | [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | **PayPal** | Medium | — |
+| [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | **Oracle** | Medium | Jan 15, 2025 |
 | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | **Perplexity** | Medium | Aug 09, 2025 |
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | **Rippling** | Medium | Jun 18, 2026 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |
@@ -37,17 +37,23 @@
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | **Airtable** | Medium | — |
 | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | **Netflix** | Medium | May 21, 2026 |
 | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | **Squarepoint** | Medium | — |
-| [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | **Akuna Capital** | Medium | Nov 02, 2025 |
+| [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | **Tesla** | Medium | Jul 04, 2025 |
+| [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | **Goldman Sachs** | Medium | Jun 09, 2025 |
 | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | **Anthropic** | Medium | Jun 10, 2026 |
 | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | **Vanta** | Medium | Jul 24, 2025 |
 | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | **Arista** | Medium | — |
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | **Sigmacomputing** | Medium | — |
+| [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | **SoFi** | Medium | Jul 14, 2025 |
+| [Kubernetes Controller for Pod Balance](https://trueinterview.io/questions/kubernetes-controller-pod-balance) | **IBM** | Medium | Aug 25, 2025 |
 | [Logger System](https://trueinterview.io/questions/logger-system-ood) | **Rippling** | Medium | Jun 09, 2026 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | **Atlassian** | Medium | Feb 15, 2026 |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | **Reddit** | Medium | Feb 17, 2026 |
+| [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | **Optiver** | Medium | Aug 05, 2025 |
 | [Tagged Command Undo](https://trueinterview.io/questions/tagged-command-undo) | **Netflix** | Medium | Apr 30, 2026 |
 | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | **Perplexity** | Medium | May 26, 2026 |
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | **OpenAI / ByteDance** | Hard | Jun 11, 2026 |
 | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | **Circle** | Hard | — |
+| [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | **Tesla** | Hard | Jul 24, 2025 |
 | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | **Stubhub** | Hard | — |
 | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | **Squarepoint** | Hard | — |
+| [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | **Tesla** | Hard | Aug 19, 2025 |

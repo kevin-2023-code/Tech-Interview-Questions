@@ -90,7 +90,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Ebay](../../../companies/ebay/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Meta](../../../companies/meta/README.md) · [Weride](../../../companies/weride/README.md)
+[Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Ebay](../../../companies/ebay/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Meta](../../../companies/meta/README.md) · [WeRide](../../../companies/weride/README.md)
 
 ---
 

@@ -9,7 +9,7 @@ How Palantir interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [6](../palantir.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -32,10 +32,11 @@ Palantir runs one of the most publicly discussed engineering loops in the indust
 
 ## Free Palantir questions
 
-2 questions reported at Palantir open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Palantir open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
 | [Swap Parity](../../questions/algorithm/swap-parity/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) |
 | [Efficient Text Search with Proximity Constraint](../../questions/algorithm/efficient-text-search-with-proximity-constraint/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) |
 

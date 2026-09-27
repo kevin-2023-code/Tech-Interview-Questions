@@ -8,8 +8,8 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [14](../jpmorgan.md) |
-| Free to read here | 2 |
+| Questions reported | [18](../jpmorgan.md) |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
 | Most recent sighting | Jun 23, 2026 |
@@ -40,12 +40,15 @@ The final loop is usually three to four back-to-back sessions of 45 minutes each
 
 ## Free JPMorgan questions
 
-2 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [C++ Virtual / Destructor / Pointer Review](../../questions/object-oriented-programming/cpp-virtual-destructor-pointer-review/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) |
 | [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) |
+| [Delete-One-Character Positions](../../questions/algorithm/delete-one-character-positions/README.md) | Algorithm | Easy | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/delete-one-character-positions) |
+| [Circular Active Computers Window](../../questions/algorithm/circular-active-computers-window/README.md) | Algorithm | Medium | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/circular-active-computers-window) |
+| [Alphanumeric Vowel / Consonant Count](../../questions/algorithm/alphanumeric-vowel-consonant-count/README.md) | Algorithm | Easy | Online assessment | Jun 2025 | [Solve](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) |
+| [Million-User Flash Sale System](../../questions/system-design/million-user-flash-sale-system/README.md) | System Design | Hard | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/million-user-flash-sale-system) |
 
 ## Guides
 
@@ -56,7 +59,7 @@ The final loop is usually three to four back-to-back sessions of 45 minutes each
 
 ## Everything else
 
-- [All 14 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 18 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every JPMorgan question on TrueInterview](https://trueinterview.io/problems/company/jpmorgan).
 
 ---

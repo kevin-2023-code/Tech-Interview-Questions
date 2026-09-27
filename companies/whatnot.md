@@ -2,7 +2,7 @@
 
 # Whatnot interview process, OA & interview questions
 
-**7 questions** reported at Whatnot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
+**8 questions** reported at Whatnot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Whatnot interviews & the free questions](whatnot/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **7** |
+| Questions tracked | **8** |
 | Most recent sighting | Jun 12, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (57% of 7) |
-| Difficulty (easy / medium / hard) | 1 / 6 / 0 |
-| Free to practise | [2](../free/README.md) |
+| Most common format | [System Design](../formats/system-design.md) (62% of 8) |
+| Difficulty (easy / medium / hard) | 1 / 6 / 1 |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 7 questions reported at Whatnot. 4 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 8 questions reported at Whatnot. 4 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **7 of 7** questions at Whatnot that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **8 of 8** questions at Whatnot that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 4 | ████████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | ██████████ | [System Design](../formats/system-design.md) (80%) | 1 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 4 | ███████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 6 | ██████████ | [System Design](../formats/system-design.md) (83%) | 1 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **7 of 7** questions at Whatnot tha
 
 ## What they ask about
 
-Of the **3 questions at Whatnot that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **3 questions at Whatnot that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -65,7 +65,7 @@ Every recorded sighting at Whatnot, by the month it was reported in — Jan 14, 
 
 ## Start here
 
-The 7 questions to open first if you are preparing for Whatnot, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Whatnot, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -74,8 +74,9 @@ The 7 questions to open first if you are preparing for Whatnot, ranked by **the 
 | **3** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
 | **4** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
 | **5** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | 4 | — |
-| **6** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | 1 | — |
-| **7** | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | 1 | — |
+| **6** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | 3 | — |
+| **7** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | 1 | — |
+| **8** | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) 🆓 | Algorithm | Medium | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -96,3 +97,4 @@ The 7 questions to open first if you are preparing for Whatnot, ranked by **the 
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
+| [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | — |

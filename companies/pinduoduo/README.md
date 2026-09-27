@@ -9,7 +9,7 @@ How Pinduoduo interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [19](../pinduoduo.md) |
-| Free to read here | 4 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
 | Most recent sighting | Jul 30, 2026 |
@@ -36,13 +36,14 @@ Two logistics details matter. The coding environment in one report was a locked-
 
 ## Free Pinduoduo questions
 
-4 questions reported at Pinduoduo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Pinduoduo open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 
 ## Guides

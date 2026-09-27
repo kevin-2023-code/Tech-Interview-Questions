@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (44% of 70) |
 | Difficulty (easy / medium / hard) | 8 / 51 / 11 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 
@@ -128,7 +128,7 @@ What candidates said happened in the room at DoorDash — written up by the peop
 | :-- | :-- | :-- |
 | Software | [DoorDash Bootstrap API Coding Interview Experience](https://trueinterview.io/interviews/963f6ed1-c533-4d81-bb32-51bde96f1a1e) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at DoorDash and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at DoorDash and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

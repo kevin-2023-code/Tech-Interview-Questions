@@ -18,7 +18,7 @@
 | Most recent sighting | Aug 15, 2026 |
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 110) |
-| Difficulty (easy / medium / hard) | 16 / 75 / 19 |
+| Difficulty (easy / medium / hard) | 17 / 72 / 21 |
 | Free to practise | [14](../free/README.md) |
 | Guides & writeups | 5 |
 | Interview reports on the board | 4 in this snapshot |
@@ -31,9 +31,9 @@ Which stage each question came from, for the **110 of 110** questions at Snowfla
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 8 / 5 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 77 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 6 / 57 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 51 | ███████ | [Algorithm](../formats/algorithm.md) (55%) | 4 / 36 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 77 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 6 / 55 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 51 | ███████ | [Algorithm](../formats/algorithm.md) (55%) | 4 / 35 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -125,7 +125,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/093ea1be-0a23-4b05-8c78-d15b7c09e2f9) | Sep 27, 2026 |
 | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/4b999f4f-c271-41a9-972c-0401de88773b) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -205,9 +205,9 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Preorder Traversal Without Invalid Nodes](https://trueinterview.io/questions/preorder-traversal-without-invalid-nodes) | Algorithm | Easy | Dec 09, 2025 |
 | [Check if an Original String Exists Given Two Encoded Strings](https://trueinterview.io/questions/check-if-an-original-string-exists-given-two-encoded-strings) | Algorithm | Hard | Dec 09, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
-| [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Medium | Dec 02, 2025 |
+| [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Hard | Dec 02, 2025 |
 | [Dropped Requests (Rate Limiter)](https://trueinterview.io/questions/dropped-requests-rate-limiter) | Algorithm | Medium | Nov 29, 2025 |
-| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Medium | Nov 23, 2025 |
+| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Hard | Nov 23, 2025 |
 | [S3-Style Storage with Dedup](https://trueinterview.io/questions/s3-dedup-storage-design) | System Design | Medium | Nov 23, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Algorithm | Medium | Jul 20, 2025 |
@@ -238,7 +238,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Sort Colors in a RecordCollection In-Place](https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb) | Algorithm | Medium | — |
 | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4) | Algorithm | Medium | — |
-| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Medium | — |
+| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Easy | — |
 | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Algorithm | Hard | — |
 | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Algorithm | Hard | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |

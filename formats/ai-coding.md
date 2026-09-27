@@ -14,7 +14,7 @@
 | **Meta / ByteDance** | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | Hard | Jun 28, 2026 |
 | **Airbnb** | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | Hard | Jun 22, 2026 |
 | **Instacart** | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | Hard | Jun 22, 2026 |
-| **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Medium | Jun 15, 2026 |
+| **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Hard | Jun 15, 2026 |
 | **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Hard | Jun 15, 2026 |
 | **Harvey** | [Implement a Simple RAG in a Notebook](https://trueinterview.io/questions/implement-a-simple-rag-in-a-notebook) | Medium | Jun 11, 2026 |
 | **Stripe** | [Requests Library Debug (BugSquash)](https://trueinterview.io/questions/requests-library-debug) | Hard | Jun 10, 2026 |

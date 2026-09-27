@@ -19,7 +19,7 @@
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 5) |
 | Difficulty (easy / medium / hard) | 2 / 2 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 5 questions reported at Lead Bank. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -60,7 +60,7 @@ The 5 questions to open first if you are preparing for Lead Bank. **This is not 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) 🆓 | Algorithm | Easy | — | — |
-| **2** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Algorithm | Easy | — | — |
+| **2** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) 🆓 | Algorithm | Easy | — | — |
 | **3** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Object Oriented Programming | Medium | — | — |
 | **4** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Algorithm | Medium | — | — |
 | **5** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) 🆓 | Algorithm | Hard | — | — |

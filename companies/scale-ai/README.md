@@ -8,10 +8,10 @@ How Scale AI interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [12](../scale-ai.md) |
+| Questions reported | [15](../scale-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 3 |
+| Other guides | 5 |
 | Most recent sighting | Jun 16, 2026 |
 
 ## How Scale AI interviews
@@ -46,12 +46,14 @@ The final loop is a virtual onsite of typically three to five rounds of roughly 
 | Guide | Tags |
 | :-- | :-- |
 | [Credo Behavioral and Customer Engagement](guides/credo-behavioral-and-customer-engagement.md) | — |
+| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/study/147c9781-846f-407b-a3e9-cb2f61ae898d) | — |
+| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/study/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | — |
 | [LLM Post-Training Theory Conversation](guides/llm-post-training-theory-conversation.md) | domain-knowledge, ml-knowledge, transformer |
 | [Project Deep Dive and Paper Presentation](guides/project-deep-dive-and-paper-presentation.md) | domain-knowledge, ml-knowledge |
 
 ## Everything else
 
-- [All 12 questions reported at Scale AI](../scale-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 15 questions reported at Scale AI](../scale-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Scale AI question on TrueInterview](https://trueinterview.io/problems/company/scale-ai).
 
 ---

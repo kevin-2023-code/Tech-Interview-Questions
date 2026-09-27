@@ -2,7 +2,7 @@
 
 # 🖥️ Hardware, devices & networking — interview & OA questions
 
-**135 questions** reported across the **3 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**141 questions** reported across the **3 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Apple (114)](../companies/apple.md) · [Cisco (18)](../companies/cisco.md) · [Arista (5)](../companies/arista.md)
+[Apple (115)](../companies/apple.md) · [Cisco (23)](../companies/cisco.md) · [Arista (5)](../companies/arista.md)
 
 <sub>3 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 99 | 73% | ██████████████ | 22 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 12% | ██ | 2 |
+| [Algorithm](../formats/algorithm.md) | 105 | 74% | ██████████████ | 26 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 11% | ██ | 2 |
 | [System Design](../formats/system-design.md) | 14 | 10% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **35 / 81 / 19**, over the rows the catalog has graded. 27 of the 135 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **38 / 82 / 21**, over the rows the catalog has graded. 31 of the 141 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **102 questions in this cut that carry a topic label** (76% of it):
+Of the **108 questions in this cut that carry a topic label** (77% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 20 | 20% | ████████████ |
-| `hashing` | 20 | 20% | ████████████ |
-| `graphs` | 16 | 16% | ██████████ |
-| `strings` | 14 | 14% | ████████ |
-| `matrix` | 13 | 13% | ████████ |
-| `two-pointers` | 11 | 11% | ███████ |
-| `dynamic-programming` | 8 | 8% | █████ |
-| `linked-list` | 8 | 8% | █████ |
-| `heap` | 7 | 7% | ████ |
-| `backtracking` | 6 | 6% | ████ |
+| `arrays` | 22 | 20% | ████████████ |
+| `hashing` | 21 | 19% | ███████████ |
+| `graphs` | 16 | 15% | █████████ |
+| `matrix` | 15 | 14% | ████████ |
+| `strings` | 14 | 13% | ████████ |
+| `two-pointers` | 11 | 10% | ██████ |
+| `linked-list` | 9 | 8% | █████ |
+| `dynamic-programming` | 8 | 7% | ████ |
+| `heap` | 7 | 6% | ████ |
+| `backtracking` | 6 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -76,7 +76,7 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Medium | 🆕 Aug 13, 2026 |
 | **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | Aug 08, 2026 |
 | **Apple** | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Hard | Aug 05, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Apple** | [Insert Interval (LC 57)](https://trueinterview.io/questions/insert-interval) | Medium | Jul 28, 2026 |
 | **Apple** | [Alias Group Mapping](https://trueinterview.io/questions/alias-group-mapping) | Medium | Jul 27, 2026 |
 | **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Medium | Jul 26, 2026 |
@@ -86,7 +86,7 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Hard | Jun 24, 2026 |
 | **Bloomberg / ByteDance / Cisco** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
 | **Apple / Scale AI** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Hard | Jun 16, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Medium | Jun 08, 2026 |
 | **Apple / ByteDance** | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Medium | May 27, 2026 |
 | **Apple** | [Happy Number II](https://trueinterview.io/questions/happy-number-2) | Medium | May 27, 2026 |
@@ -102,7 +102,7 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Medium | Apr 24, 2026 |
 | **Apple / Amazon / Snowflake** | [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Easy | Apr 20, 2026 |
 | **Apple** | [Flood Fill](https://trueinterview.io/questions/flood-fill) | Easy | Apr 20, 2026 |
-| **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Medium | Apr 18, 2026 |
+| **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Hard | Apr 18, 2026 |
 | **Pinterest / Apple** | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Medium | Apr 18, 2026 |
 | **Apple / Amazon / DoorDash / Optiver** | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Medium | Apr 14, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
@@ -131,7 +131,7 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Apple / Bloomberg / Google** | [Decode String](https://trueinterview.io/questions/decode-string) | Medium | Feb 16, 2026 |
 | **Apple** | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Easy | Feb 11, 2026 |
 | **Apple** | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Medium | Feb 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Apple** | [Find Median (Oracle Variant)](https://trueinterview.io/questions/find-median-oracle-variant) | Medium | Feb 06, 2026 |
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
@@ -157,10 +157,13 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Easy | Nov 20, 2025 |
 | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
 | **Intuit / Cisco** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Easy | Sep 29, 2025 |
+| **Cisco** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Easy | Sep 06, 2025 |
 | **Cisco** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Medium | Sep 06, 2025 |
 | **Cisco** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Easy | Sep 04, 2025 |
 | **Cisco** | [Minimum Swaps for Even / Odd Partition](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) | Easy | Sep 04, 2025 |
 | **Cisco** | [Nested Pattern String Expansion](https://trueinterview.io/questions/nested-pattern-string-expansion) | Hard | Aug 26, 2025 |
+| **Cisco** | [Compress Consecutive Ranges](https://trueinterview.io/questions/compress-consecutive-ranges) | Easy | Aug 26, 2025 |
+| **Cisco** | [Matrix Zig-Zag Traversal](https://trueinterview.io/questions/matrix-zig-zag-traversal) | Medium | Aug 25, 2025 |
 | **Cisco** | [Maximum Non-Adjacent Chocolates](https://trueinterview.io/questions/3c880993-3030-4a5c-8474-3e74e89d32f3) | Medium | Jul 17, 2025 |
 | **Cisco** | [Word Search in Rows and Columns](https://trueinterview.io/questions/word-search-rows-columns) | Medium | Jul 17, 2025 |
 | **Cisco** | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | Easy | Jul 17, 2025 |
@@ -191,11 +194,13 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Meta / Apple** | [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Hard | — |
 | **Cisco** | [Chessboard Piece Placement with Opposite Color Constraints](https://trueinterview.io/questions/d4eb414f-978e-4cea-acc3-df07a404c79f) | Medium | — |
 | **Cisco** | [Find Out Prime or Composite](https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184) | Easy | — |
+| **Cisco** | [Find Last Cell](https://trueinterview.io/questions/7edbbd51-ddcd-4562-b9af-114fdaabb8c3) | Medium | — |
+| **Cisco** | [Identify the Non-Twin Person](https://trueinterview.io/questions/61ccd7ec-3ff5-4114-8e18-d910c7dc001e) | Easy | — |
 | **Cisco** | [Process Queries to Find Critical Nodes](https://trueinterview.io/questions/3be3ddff-6db5-49c0-916c-299316bc4912) | Hard | — |
 | **Cisco** | [Minimum Steps to Achieve Target State](https://trueinterview.io/questions/06061640-c929-4879-9ba9-f3b90aac35e1) | Medium | — |
 | **Cisco** | [Find Minimum Cost to Shift Machines](https://trueinterview.io/questions/71de7e3c-61cc-4603-a234-49b9aef8e4ad) | Hard | — |
 | **Uber / Apple / Google** | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Medium | — |
-| **Apple / Meta** | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Easy | — |
+| **Apple / Meta** | [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Medium | — |
 | **Apple** | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Hard | — |
 | **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Medium | — |
 | **Netflix / Apple / Snowflake** | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | Medium | — |
@@ -204,4 +209,5 @@ Of the **102 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Python Debugging — Fix a Loop Condition Bug](https://trueinterview.io/questions/e9adef64-7ceb-4294-bae4-8d77a203ee81) | Easy | — |
 | **Apple** | [Reverse String Using Stream](https://trueinterview.io/questions/cd0c8b7a-32b1-466f-8b99-1eea4d72719b) | Easy | — |
 | **Apple / Amazon / Atlassian / ByteDance / Cisco / PayPal / Squarepoint** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Easy | — |
+| **Apple** | [First Unique Element IV](https://trueinterview.io/questions/933927db-2acf-4529-88cf-b16cfd184b00) | Easy | — |
 | **Apple** | [Nearest Neighbor Image Retrieval by Embedding](https://trueinterview.io/questions/4280c85d-a4c0-469a-b45e-2a0910a2edfd) | Medium | — |

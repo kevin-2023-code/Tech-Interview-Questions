@@ -8,8 +8,8 @@ How Google interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [192](../google.md) |
-| Free to read here | 20 |
+| Questions reported | [197](../google.md) |
+| Free to read here | 22 |
 | Interview-process guides | 3 |
 | Other guides | 5 |
 | Most recent sighting | Sep 10, 2026 |
@@ -38,7 +38,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 
 ## Free Google questions
 
-20 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -59,6 +59,8 @@ This is the in-depth companion to the Google company page. It covers how each st
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
+| [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
@@ -75,7 +77,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 
 ## Everything else
 
-- [All 192 questions reported at Google](../google.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 197 questions reported at Google](../google.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Google question on TrueInterview](https://trueinterview.io/problems/company/google).
 
 ---

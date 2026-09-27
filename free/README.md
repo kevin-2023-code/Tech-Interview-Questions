@@ -2,16 +2,16 @@
 
 # Free questions
 
-**232 of the 2,637 tracked questions open without a paid plan** (9%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**293 of the 2,746 tracked questions open without a paid plan** (11%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 158 | 33 | 97 | 28 |
-| [System Design](system-design.md) | 22 | 6 | 10 | 6 |
-| [AI Coding](ai-coding.md) | 9 | 1 | 7 | 1 |
-| [Object Oriented Programming](object-oriented-programming.md) | 43 | 4 | 35 | 4 |
+| [Algorithm](algorithm.md) | 209 | 51 | 123 | 35 |
+| [System Design](system-design.md) | 25 | 6 | 10 | 9 |
+| [AI Coding](ai-coding.md) | 10 | 1 | 8 | 1 |
+| [Object Oriented Programming](object-oriented-programming.md) | 49 | 3 | 40 | 6 |
 
 ## Start here
 
@@ -20,16 +20,16 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | Easy | Apr 12, 2026 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | Easy | Feb 07, 2026 |
+| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / WeRide** | Easy | Feb 07, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / Netflix / NVIDIA / Pinduoduo / Snapchat** | Easy | Mar 06, 2026 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | Easy | Mar 09, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | Easy | Mar 24, 2026 |
-| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / Weride** | Easy | Mar 17, 2026 |
+| [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | Easy | Mar 17, 2026 |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | **Apple / Amazon / Atlassian / ByteDance / Cisco / PayPal / Squarepoint** | Easy | — |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | Easy | Oct 29, 2025 |
 | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | **Microsoft / Ebay / Visa** | Easy | — |
-| [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | **Microsoft / GEICO / Weride** | Easy | — |
+| [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | **Microsoft / GEICO / WeRide** | Easy | — |
 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | **Meta / NVIDIA / Upstart** | Easy | — |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / Databricks / SoFi** | Easy | Jun 2025 |
 | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | **Coinbase / Capital One** | Easy | — |
@@ -39,25 +39,25 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | **Uber / Microsoft** | Easy | Apr 01, 2026 |
 | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | **Uber / Block** | Easy | May 2026 |
 | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | **Luma AI / Amazon** | Easy | — |
-| [Add Signed Arrays](https://trueinterview.io/questions/add-signed-arrays) | **ByteDance** | Easy | Jul 25, 2025 |
+| [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | **ByteDance / Rubrik** | Easy | — |
+| [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | **Akuna Capital / Google** | Easy | Aug 26, 2025 |
 | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | **Bobyard** | Easy | — |
+| [Alphanumeric Vowel / Consonant Count](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) | **JPMorgan** | Easy | Jun 30, 2025 |
+| [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | **Applied Intuition** | Easy | — |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | **Shopify** | Easy | Aug 29, 2025 |
-| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | **JPMorgan** | Easy | Jan 15, 2026 |
+| [Calculate and Sort Customer Ratings](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) | **Atlassian** | Easy | — |
 | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | **Brex** | Easy | — |
+| [Chairs / Restaurant Order Simulation](https://trueinterview.io/questions/chairs-restaurant-simulation) | **Goldman Sachs** | Easy | Oct 26, 2024 |
+| [Compress Consecutive Ranges](https://trueinterview.io/questions/compress-consecutive-ranges) | **Cisco** | Easy | Aug 26, 2025 |
 | [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label) | **Houzz** | Easy | 🔥 Sep 18, 2026 |
+| [Count Unique Pairs With Difference K](https://trueinterview.io/questions/unique-pairs-difference-k) | **Goldman Sachs** | Easy | Oct 26, 2024 |
 | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree) | **Apple** | Easy | Dec 10, 2025 |
+| [Delete-One-Character Positions](https://trueinterview.io/questions/delete-one-character-positions) | **JPMorgan** | Easy | Jul 29, 2025 |
 | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🔥 Sep 15, 2026 |
+| [File Profiler](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) | **Anthropic** | Easy | — |
 | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | **Yelp** | Easy | Apr 20, 2025 |
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | **Apple** | Easy | Nov 20, 2025 |
-| [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | **Weride** | Easy | — |
-| [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) | **PayPal** | Easy | — |
-| [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | **Cursor** | Easy | Apr 07, 2026 |
-| [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | **Hudson River Trading** | Easy | — |
-| [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | **Vanta** | Easy | — |
-| [Interleave Three Equal-Length Strings](https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7) | **Upstart** | Easy | — |
-| [IP CIDR Range Query](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) | **Databricks** | Easy | — |
-| [Jaccard Business Similarity](https://trueinterview.io/questions/jaccard-business-similarity) | **Yelp** | Easy | Apr 20, 2025 |
-| [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | **Cisco** | Easy | Jul 17, 2025 |
-| [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | **Arista** | Easy | — |
+| [Find Out Prime or Composite](https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184) | **Cisco** | Easy | — |
+| [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | **WeRide** | Easy | — |
 
 <sub>The rest are on the per-format pages above. A dash in *Reported* means no sighting date was recorded, which is not the same as old.</sub>

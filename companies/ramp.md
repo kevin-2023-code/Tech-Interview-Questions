@@ -2,7 +2,7 @@
 
 # Ramp interview process, OA & interview questions
 
-**24 questions** reported at Ramp · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
+**25 questions** reported at Ramp · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Ramp interviews & the free questions](ramp/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **24** |
+| Questions tracked | **25** |
 | Most recent sighting | Jun 17, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (54% of 24) |
-| Difficulty (easy / medium / hard) | 4 / 18 / 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (56% of 25) |
+| Difficulty (easy / medium / hard) | 4 / 19 / 2 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 2 |
 
-<sub>Counted from the 24 questions reported at Ramp. 17 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 25 questions reported at Ramp. 18 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **24 of 24** questions at Ramp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **25 of 25** questions at Ramp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (44%) | 3 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 1 / 9 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (33%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -42,20 +42,20 @@ Which stage each question came from, for the **24 of 24** questions at Ramp that
 
 ## What they ask about
 
-Of the **15 questions at Ramp that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Ramp that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 27% | ████████████ | Dec 15, 2025 |
-| `strings` | 3 | 20% | █████████ | Jun 01, 2026 |
-| `arrays` | 2 | 13% | ██████ | Jun 01, 2026 |
-| `binary-search` | 2 | 13% | ██████ | Jun 01, 2026 |
-| `graphs` | 2 | 13% | ██████ | May 06, 2026 |
-| `greedy` | 2 | 13% | ██████ | — |
-| `sliding-window` | 2 | 13% | ██████ | May 01, 2026 |
-| `intervals` | 1 | 7% | ███ | — |
-| `matrix` | 1 | 7% | ███ | Jun 01, 2025 |
-| `sorting` | 1 | 7% | ███ | Jun 01, 2026 |
+| `hashing` | 4 | 25% | ████████████ | Dec 15, 2025 |
+| `strings` | 4 | 25% | ████████████ | Jun 01, 2026 |
+| `arrays` | 2 | 12% | ██████ | Jun 01, 2026 |
+| `binary-search` | 2 | 12% | ██████ | Jun 01, 2026 |
+| `graphs` | 2 | 12% | ██████ | May 06, 2026 |
+| `greedy` | 2 | 12% | ██████ | — |
+| `sliding-window` | 2 | 12% | ██████ | May 01, 2026 |
+| `intervals` | 1 | 6% | ███ | — |
+| `matrix` | 1 | 6% | ███ | Jun 01, 2025 |
+| `sorting` | 1 | 6% | ███ | Jun 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -66,7 +66,7 @@ Every recorded sighting at Ramp, by the month it was reported in — Apr 01, 202
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
-| [May 2026](../by-month/2026-05.md) | 2 | ████████████████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████████████ |
@@ -85,12 +85,12 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
 | **2** | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) 🆓 | Algorithm | Medium | — | Jun 01, 2026 |
-| **3** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
-| **4** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
-| **5** | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | AI Coding | Medium | — | Apr 2026 |
-| **6** | [Frontend Hidden URL and React Wordle](https://trueinterview.io/questions/frontend-challenge-dom-wordle) | AI Coding | Hard | — | Feb 26, 2026 |
-| **7** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
-| **8** | [Purchase Optimization](https://trueinterview.io/questions/purchase-optimization) | Algorithm | Easy | 2 | Feb 11, 2026 |
+| **3** | [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions) | Algorithm | Medium | — | May 21, 2026 |
+| **4** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
+| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
+| **6** | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | AI Coding | Medium | — | Apr 2026 |
+| **7** | [Frontend Hidden URL and React Wordle](https://trueinterview.io/questions/frontend-challenge-dom-wordle) | AI Coding | Hard | — | Feb 26, 2026 |
+| **8** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -115,6 +115,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | :-- | :-- | :-: | :-- |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [User Flight Location Tracker](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) | Algorithm | Medium | Jun 01, 2026 |
+| [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions) | Algorithm | Medium | May 21, 2026 |
 | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | May 06, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | AI Coding | Medium | Apr 2026 |

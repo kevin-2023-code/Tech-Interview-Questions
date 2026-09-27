@@ -39,7 +39,7 @@ HRT's coding pool leans on implementation fidelity: build-it-yourself primitives
 - [Implement a Coroutine Step by Step](../../questions/algorithm/implement-a-coroutine-step-by-step/README.md)
 - [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72)
 - [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228)
-- [Exploratory Data Analysis & Modeling for Heart Disease Prediction](../../questions/algorithm/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md)
+- [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e)
 
 ## Low-Level Design Questions
 

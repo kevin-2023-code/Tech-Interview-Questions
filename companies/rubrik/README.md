@@ -8,7 +8,7 @@ How Rubrik interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [14](../rubrik.md) |
+| Questions reported | [20](../rubrik.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -48,13 +48,13 @@ The loop typically closes with a hiring-manager conversation: a deep walk throug
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Bitonic Partitioning](../../questions/algorithm/bitonic-partitioning/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) |
-| [Word Compression](../../questions/algorithm/word-compression/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) |
+| [Mike and Gems](../../questions/algorithm/mike-and-gems/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) |
 | [Simulate Stack](../../questions/algorithm/simulate-stack/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) |
+| [Remove Duplicates from Sorted Linked List](../../questions/algorithm/remove-duplicates-from-sorted-linked-list/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) |
 
 ## Everything else
 
-- [All 14 questions reported at Rubrik](../rubrik.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 20 questions reported at Rubrik](../rubrik.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rubrik question on TrueInterview](https://trueinterview.io/problems/company/rubrik).
 
 ---

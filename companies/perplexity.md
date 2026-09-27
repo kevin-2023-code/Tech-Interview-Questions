@@ -2,7 +2,7 @@
 
 # Perplexity interview process, OA & interview questions
 
-**23 questions** reported at Perplexity · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Perplexity · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Perplexity interviews & the free questions](perplexity/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -19,8 +19,8 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 23) |
 | Difficulty (easy / medium / hard) | 1 / 18 / 4 |
-| Free to practise | [5](../free/README.md) |
-| Guides & writeups | 5 |
+| Free to practise | [4](../free/README.md) |
+| Guides & writeups | 6 |
 
 <sub>Counted from the 23 questions reported at Perplexity. 14 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -95,11 +95,12 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 ## Guides & writeups
 
-**5 writeups** filed under Perplexity in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**6 writeups** filed under Perplexity in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
+| [Map-Reduce and Blockwise Attention](https://trueinterview.io/study/map-reduce-and-blockwise-attention) | attention, map-reduce, numerical-stability, parallelism |
 | [Perplexity Interview Process & Questions](https://trueinterview.io/study/perplexity-interview-process) | — |
 | [Perplexity Machine Learning Engineer Interview Process](https://trueinterview.io/study/perplexity-machine-learning-engineer-interview-process) | — |
 | [Perplexity Software Engineer Interview Process](https://trueinterview.io/study/perplexity-software-engineer-interview-process) | — |

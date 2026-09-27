@@ -8,7 +8,7 @@ How Databricks interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [66](../databricks.md) |
+| Questions reported | [67](../databricks.md) |
 | Free to read here | 11 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
@@ -64,7 +64,7 @@ The design round scales with seniority: mid-level candidates may design a concre
 
 ## Everything else
 
-- [All 66 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 67 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Databricks question on TrueInterview](https://trueinterview.io/problems/company/databricks).
 
 ---

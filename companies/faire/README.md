@@ -9,7 +9,7 @@ How Faire interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [4](../faire.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -20,10 +20,11 @@ No written process guide yet. [The loop, as reported](../faire.md#the-loop-as-re
 
 ## Free Faire questions
 
-2 questions reported at Faire open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Faire open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Sliding Window Problem](../../questions/algorithm/sliding-window-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782) |
 | [Peak Capacity Overlapping Events (Line Sweep)](../../questions/algorithm/peak-capacity-overlapping-events-line-sweep/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) |
 | [Funnel Algorithm Problem](../../questions/algorithm/funnel-algorithm-problem/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) |
 

@@ -2,7 +2,7 @@
 
 # WeRide Interview Process & Questions
 
-[← Weride](README.md) · [Every Weride question](../weride.md) · [Read it on TrueInterview](https://trueinterview.io/study/weride-interview-process)
+[← WeRide](README.md) · [Every WeRide question](../weride.md) · [Read it on TrueInterview](https://trueinterview.io/study/weride-interview-process)
 
 ---
 

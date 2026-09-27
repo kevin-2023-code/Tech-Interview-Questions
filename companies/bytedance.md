@@ -2,7 +2,7 @@
 
 # ByteDance interview process, OA & interview questions
 
-**165 questions** reported at ByteDance · **14 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
+**168 questions** reported at ByteDance · **14 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How ByteDance interviews & the free questions](bytedance/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **165** |
+| Questions tracked | **168** |
 | Most recent sighting | Sep 06, 2026 |
 | Reported in the last 90 days | 17 |
-| Most common format | [Algorithm](../formats/algorithm.md) (78% of 165) |
-| Difficulty (easy / medium / hard) | 19 / 110 / 36 |
-| Free to practise | [23](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (78% of 168) |
+| Difficulty (easy / medium / hard) | 21 / 111 / 36 |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 14 |
 | Interview reports on the board | 2 in this snapshot |
 
-<sub>Counted from the 165 questions reported at ByteDance. 86 of them carry a sighting date; the other 79 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 168 questions reported at ByteDance. 86 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **165 of 165** questions at ByteDance that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **168 of 168** questions at ByteDance that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 20 | ██ | [Algorithm](../formats/algorithm.md) (85%) | 11 / 6 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 113 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 6 / 84 / 23 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 60 | █████ | [Algorithm](../formats/algorithm.md) (57%) | 3 / 38 / 19 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 21 | ██ | [Algorithm](../formats/algorithm.md) (86%) | 13 / 5 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 114 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 6 / 85 / 23 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 61 | █████ | [Algorithm](../formats/algorithm.md) (56%) | 3 / 39 / 19 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -60,7 +60,7 @@ Which stage each question came from, for the **165 of 165** questions at ByteDan
 
 ## What they ask about
 
-Of the **131 questions at ByteDance that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **133 questions at ByteDance that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -144,7 +144,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | Software | [ByteDance Course Schedule Coding Interview Experience](https://trueinterview.io/interviews/4c70e4a0-d98a-4455-9659-a4f930cc664b) | Sep 27, 2026 |
 | Software | [ByteDance {Company} {Role} Interview Experience](https://trueinterview.io/interviews/91c6912f-e43b-4d71-9346-0764d6fb854c) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at ByteDance and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at ByteDance and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -258,6 +258,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Intersection of Two Interval Lists](https://trueinterview.io/questions/intersection-of-two-interval-lists) | Algorithm | Medium | — |
 | [Non-Overlapping Intervals (LeetCode 435)](https://trueinterview.io/questions/non-overlapping-intervals) | Algorithm | Medium | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
 | [Minimum Jumps to Reach Home](https://trueinterview.io/questions/cf9a9de0-1885-53cf-a041-0c7ad83b8b83) | Algorithm | Hard | — |
 | [Count Number of Nice Subarrays](https://trueinterview.io/questions/a2ecfa7e-ef24-5db2-8419-f83e2672aa19) | Algorithm | Medium | — |
@@ -288,6 +289,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Implement Moving Average from Data Stream](https://trueinterview.io/questions/94192aa7-a909-49a7-80b7-24c84876985d) | Algorithm | Easy | — |
 | [Can Cut All Given Squares From a Rectangle Grid](https://trueinterview.io/questions/8df7409a-9106-435c-8157-bf0c94e6467e) | Algorithm | Hard | — |
 | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Algorithm | Medium | — |
+| [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Algorithm | Medium | — |
 | [Semantic Similarity (Text Embedding + Cosine Similarity)](https://trueinterview.io/questions/76f49396-a3e1-499d-bcf8-e66cdb8ed785) | Algorithm | Easy | — |
 | [Array Partition](https://trueinterview.io/questions/68134649-a71c-42b7-8c16-1c8baedd96e6) | Algorithm | Easy | — |
 | [Equalize Server Latency](https://trueinterview.io/questions/67d10813-b767-4d2d-8492-e2e32d196a80) | Algorithm | Hard | — |
@@ -295,7 +297,8 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Find Highest Salary In Each Department](https://trueinterview.io/questions/5348b956-13e3-4f3a-a381-f80594e38002) | SQL | Medium | — |
 | [LRU Cache with TTL](https://trueinterview.io/questions/5177f4aa-d20c-4ded-b262-94815c6e6a0c) | Object Oriented Programming | Medium | — |
 | [Interval Problem Requiring Sorting by Start (or End)](https://trueinterview.io/questions/5164c36d-171e-41d6-8bf0-1f573c012781) | Algorithm | Medium | — |
-| [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Algorithm | Medium | — |
+| [Find if a Path Exists in an Undirected Graph](https://trueinterview.io/questions/3055f224-8478-5454-bcab-cd1cd1a720ea) | Algorithm | Easy | — |
+| [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Algorithm | Easy | — |
 | [Spiral Matrix Fill](https://trueinterview.io/questions/3b33f241-83ae-4754-af33-8eac2267c5b2) | Algorithm | Medium | — |
 | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Algorithm | Medium | — |
 | [Convert Between Integer and Roman (Two-Way)](https://trueinterview.io/questions/37ebf2fa-456e-422b-9a8a-e19c3815f353) | Algorithm | Medium | — |

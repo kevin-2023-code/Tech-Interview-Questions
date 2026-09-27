@@ -8,8 +8,8 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [170](../uber.md) |
-| Free to read here | 24 |
+| Questions reported | [172](../uber.md) |
+| Free to read here | 25 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
 | Most recent sighting | Aug 16, 2026 |
@@ -52,7 +52,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Free Uber questions
 
-24 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -77,6 +77,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
+| [Round-Trip Mission Schedule](../../questions/algorithm/oa-codesignal-multi-mission-routing/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) |
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
@@ -91,7 +92,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Everything else
 
-- [All 170 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 172 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Uber question on TrueInterview](https://trueinterview.io/problems/company/uber).
 
 ---

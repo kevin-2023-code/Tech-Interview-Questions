@@ -8,7 +8,7 @@ How Ebay interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [30](../ebay.md) |
+| Questions reported | [35](../ebay.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -53,7 +53,7 @@ But the screen is not always an algorithm round. Reported variants include an ob
 
 ## Everything else
 
-- [All 30 questions reported at Ebay](../ebay.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 35 questions reported at Ebay](../ebay.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Ebay question on TrueInterview](https://trueinterview.io/problems/company/ebay).
 
 ---

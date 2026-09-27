@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**236 questions** reported at Amazon · **20 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**238 questions** reported at Amazon · **20 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **236** |
+| Questions tracked | **238** |
 | Most recent sighting | Sep 14, 2026 |
 | Reported in the last 90 days | 43 |
-| Most common format | [Algorithm](../formats/algorithm.md) (69% of 236) |
-| Difficulty (easy / medium / hard) | 38 / 157 / 41 |
+| Most common format | [Algorithm](../formats/algorithm.md) (68% of 238) |
+| Difficulty (easy / medium / hard) | 38 / 159 / 41 |
 | Free to practise | [29](../free/README.md) |
 | Guides & writeups | 20 |
 
-<sub>Counted from the 236 questions reported at Amazon. 143 of them carry a sighting date; the other 93 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 238 questions reported at Amazon. 143 of them carry a sighting date; the other 95 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **236 of 236** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **238 of 238** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 39 | ███ | [Algorithm](../formats/algorithm.md) (87%) | 14 / 17 / 8 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 115 | ██████████ | [Algorithm](../formats/algorithm.md) (84%) | 14 / 82 / 19 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 107 | █████████ | [Algorithm](../formats/algorithm.md) (46%) | 12 / 79 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 109 | █████████ | [Algorithm](../formats/algorithm.md) (45%) | 12 / 81 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -320,7 +320,9 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
 | [Design Amazon Kindle](https://trueinterview.io/questions/design-amazon-kindle) | Object Oriented Programming | Easy | — |
 | [Design Amazon Locker](https://trueinterview.io/questions/design-amazon-locker) | System Design | Medium | — |
+| [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | System Design | Medium | — |
 | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design a Library Management System](https://trueinterview.io/questions/design-a-library-management-system) | Object Oriented Programming | Medium | — |
 | [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search) | Object Oriented Programming | Hard | — |

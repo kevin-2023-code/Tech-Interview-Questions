@@ -2,7 +2,7 @@
 
 # Databricks interview process, OA & interview questions
 
-**66 questions** reported at Databricks · **6 writeups** · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
+**67 questions** reported at Databricks · **6 writeups** · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Databricks interviews & the free questions](databricks/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **66** |
+| Questions tracked | **67** |
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (42% of 66) |
-| Difficulty (easy / medium / hard) | 5 / 43 / 18 |
+| Most common format | [Algorithm](../formats/algorithm.md) (42% of 67) |
+| Difficulty (easy / medium / hard) | 5 / 43 / 19 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 3 in this snapshot |
 
-<sub>Counted from the 66 questions reported at Databricks. 46 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 67 questions reported at Databricks. 46 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **66 of 66** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **67 of 67** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 29 | ██████ | [Algorithm](../formats/algorithm.md) (66%) | 2 / 23 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 46 | ██████████ | [System Design](../formats/system-design.md) (48%) | 3 / 28 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 47 | ██████████ | [System Design](../formats/system-design.md) (49%) | 3 / 28 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -52,7 +52,7 @@ Which stage each question came from, for the **66 of 66** questions at Databrick
 
 ## What they ask about
 
-Of the **31 questions at Databricks that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **31 questions at Databricks that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -128,7 +128,7 @@ What candidates said happened in the room at Databricks — written up by the pe
 | Software | [Databricks Customer Revenue System Design Interview Experience](https://trueinterview.io/interviews/e50e7ebe-9a3e-4e35-a99a-c22c799f4036) | Sep 27, 2026 |
 | Software | [Databricks Interview Experience](https://trueinterview.io/interviews/48bb901e-22c6-4240-9bc1-bd5be853deb4) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Databricks and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Databricks and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -193,6 +193,7 @@ What candidates said happened in the room at Databricks — written up by the pe
 | [Count Cyclic Rotation Pairs](https://trueinterview.io/questions/672dd86c-1610-5d71-be33-4c29e4d1387e) | Algorithm | Medium | — |
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
+| [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |

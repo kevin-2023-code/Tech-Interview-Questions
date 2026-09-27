@@ -8,10 +8,10 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [20](../goldman-sachs.md) |
-| Free to read here | 5 |
+| Questions reported | [35](../goldman-sachs.md) |
+| Free to read here | 20 |
 | Interview-process guides | 1 |
-| Other guides | 3 |
+| Other guides | 6 |
 | Most recent sighting | Jul 06, 2026 |
 
 ## How Goldman Sachs interviews
@@ -34,27 +34,45 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 
 ## Free Goldman Sachs questions
 
-5 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+20 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
+| [Decode Ways / Alphanumeric Combination](../../questions/algorithm/decode-ways/README.md) | Algorithm | Medium | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/decode-ways) |
+| [Extend Queue: Min-Size & Min-Sum Selector](../../questions/object-oriented-programming/queue-extension-min-size-min-sum/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/queue-extension-min-size-min-sum) |
+| [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists-3) |
+| [Longest Substring of All Same Letter](../../questions/algorithm/longest-same-letter-substring/README.md) | Algorithm | Easy | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/longest-same-letter-substring) |
+| [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
+| [Maximum-Sum Path in a Matrix (No Revisits)](../../questions/algorithm/matrix-max-sum-path-no-repeat/README.md) | Algorithm | Hard | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) |
+| [Second-Smallest Unique Element](../../questions/algorithm/second-smallest-unique-element/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Nov 2024 | [Solve](https://trueinterview.io/questions/second-smallest-unique-element) |
+| [Count Unique Pairs With Difference K](../../questions/algorithm/unique-pairs-difference-k/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/unique-pairs-difference-k) |
+| [Plus-Multiply Even / Odd Parity](../../questions/algorithm/plus-multiply-even-odd-parity/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/plus-multiply-even-odd-parity) |
+| [Valid Triangle + Point Inclusion](../../questions/algorithm/valid-triangle-point-inclusion/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/valid-triangle-point-inclusion) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
+| [Min × Max Product After Push / Pop](../../questions/algorithm/min-max-product-stream/README.md) | Algorithm | Hard | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/min-max-product-stream) |
+| [Compliance Alert / Trailing-Average Sliding Window](../../questions/algorithm/compliance-alert-sliding-window/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/compliance-alert-sliding-window) |
+| [Chairs / Restaurant Order Simulation](../../questions/algorithm/chairs-restaurant-simulation/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/chairs-restaurant-simulation) |
+| [Anagram Queries on Word List](../../questions/algorithm/anagram-queries/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/anagram-queries) |
+| [Longest Subarray With Sum ≤ K](../../questions/algorithm/longest-subarray-sum-at-most-k/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/longest-subarray-sum-at-most-k) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 
 ## Guides
 
 | Guide | Tags |
 | :-- | :-- |
+| [25 Horses, 5 Lanes Puzzle](guides/horse-race-25.md) | math-reasoning, verbal |
+| [Explain Recursion to a Non-CS Audience](guides/explain-recursion-no-cs-audience.md) | bq, cs-fundamentals, verbal |
+| [Hash Collision: Causes, Resolution, Complexity](guides/hash-collision-fundamentals.md) | complexity-analysis, cs-fundamentals, hashmap, verbal |
 | [Hirevue Behavioral Bank (6 Questions)](guides/hirevue-behavioral-six-questions.md) | bq, culture-fit, values |
 | [Quant OA Math / Probability Multiple Choice Bank](guides/quant-oa-math-probability-bank.md) | math-reasoning, probability, verbal |
 | [Quant Strat Superday Probability + Fixed Income Drill](guides/quant-strat-superday-probability-fixed-income.md) | domain-knowledge, math-reasoning, probability, verbal |
 
 ## Everything else
 
-- [All 20 questions reported at Goldman Sachs](../goldman-sachs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 35 questions reported at Goldman Sachs](../goldman-sachs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Goldman Sachs question on TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
 
 ---

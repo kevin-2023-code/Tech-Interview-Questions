@@ -6,7 +6,7 @@ What candidates say happened in the room — written up by the people who sat th
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md)
 
-> **These are the 50 newest of 2,935 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
+> **These are the 50 newest of 2,968 reports on the board.** The catalog API hands over one capped page and takes no offset, so this page cannot carry the rest; they are all at [the board](https://trueinterview.io/interviews).
 
 | Company | Role | Report | Posted |
 | :-- | :-- | :-- | :-- |

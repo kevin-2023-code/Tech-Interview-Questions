@@ -39,7 +39,7 @@ Every coded question in our Lead Bank set is a small stateful service: ingest so
 
 - [Social Network Likes Count](../../questions/algorithm/social-network-likes-count/README.md)
 - [Social Likes: Best Friends and Friend Recommendations](../../questions/algorithm/social-likes-best-friends-and-friend-recommendations/README.md)
-- [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5)
+- [Social Network Recommendation](../../questions/algorithm/social-network-recommendation/README.md)
 - [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af)
 
 ## How to Prepare

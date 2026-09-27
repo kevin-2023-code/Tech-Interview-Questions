@@ -48,7 +48,7 @@ Optiver's coding problems wear finance costumes but grade classic skills: dynami
 Low-level design is the heart of the engineering OA and phone screens: small systems with many interacting rules, judged on state modeling, ordering guarantees, and performance instincts. Expect follow-ups that reach cache lines, lock contention, and what changes under concurrent access.
 
 - [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system)
-- [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation)
+- [Satellite Message Propagation](../../questions/object-oriented-programming/satellite-message-propagation/README.md)
 - [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation)
 - [Squirrel Nut Storage Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
 - [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design)

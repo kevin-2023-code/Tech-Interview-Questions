@@ -2,7 +2,7 @@
 
 # Free AI Coding questions
 
-**9 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**10 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -16,4 +16,5 @@
 | [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | **Robinhood** | Medium | Aug 2025 |
 | [Payment Invoice Reconciliation](https://trueinterview.io/questions/payment-invoice-reconciliation) | **Stripe** | Medium | May 12, 2026 |
 | [Web Crawler](https://trueinterview.io/questions/web-crawler) | **Anthropic** | Medium | May 03, 2026 |
+| [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | **Anthropic** | Medium | — |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | **xAI** | Hard | Apr 04, 2026 |

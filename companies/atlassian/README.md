@@ -8,8 +8,8 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [43](../atlassian.md) |
-| Free to read here | 9 |
+| Questions reported | [45](../atlassian.md) |
+| Free to read here | 13 |
 | Interview-process guides | 3 |
 | Other guides | 1 |
 | Most recent sighting | Apr 21, 2026 |
@@ -34,7 +34,7 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 
 ## Free Atlassian questions
 
-9 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at Atlassian open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -45,6 +45,10 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 | [Org Tree Lowest Common Department](../../questions/object-oriented-programming/org-tree-lowest-common-department/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Snake Game](../../questions/object-oriented-programming/snake-game/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/snake-game) |
+| [Minimize Shopping Department Visits](../../questions/algorithm/shopping-category-trip-difference/README.md) | Algorithm | Easy | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/shopping-category-trip-difference) |
+| [Campground Carpool](../../questions/algorithm/karat-carpool-linear-routes/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/karat-carpool-linear-routes) |
+| [Count Singler Role Co-occurrences](../../questions/algorithm/count-singler-role-co-occurrences-2/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) |
+| [Calculate and Sort Customer Ratings](../../questions/algorithm/calculate-and-sort-customer-ratings/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
@@ -56,7 +60,7 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 
 ## Everything else
 
-- [All 43 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 45 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Atlassian question on TrueInterview](https://trueinterview.io/problems/company/atlassian).
 
 ---

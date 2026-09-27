@@ -37,7 +37,7 @@ Prompts are recognisable problems with a bolted-on requirement that breaks the m
 
 - [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84)
 - [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47)
-- [Sort Colors and Sizes](https://trueinterview.io/questions/23ca2a64-66e5-4330-97ce-05fdcb3672cc)
+- [Sort Colors and Sizes](../../questions/algorithm/sort-colors-and-sizes/README.md)
 - [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6)
 - [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation)
 - [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714)

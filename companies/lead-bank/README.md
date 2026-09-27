@@ -9,7 +9,7 @@ How Lead Bank interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [5](../lead-bank.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -36,10 +36,11 @@ The design round recurred in both on-site accounts as a hotel reservation system
 
 ## Free Lead Bank questions
 
-2 questions reported at Lead Bank open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Lead Bank open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Social Network Recommendation](../../questions/algorithm/social-network-recommendation/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) |
 | [Social Likes: Best Friends and Friend Recommendations](../../questions/algorithm/social-likes-best-friends-and-friend-recommendations/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) |
 | [Social Network Likes Count](../../questions/algorithm/social-network-likes-count/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) |
 

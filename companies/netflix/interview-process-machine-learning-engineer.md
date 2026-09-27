@@ -49,7 +49,7 @@ Live coding is modest in algorithmic difficulty and specific in shape: increment
 
 - [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf)
 - [Bucket Users by Movie Completion Percentage from an Event Stream](https://trueinterview.io/questions/60956877-012c-4640-b2a1-e6dad3baacbf)
-- [Sort Dictionary Keys](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee)
+- [Sort Dictionary Keys](../../questions/algorithm/sort-dictionary-keys/README.md)
 - [Homepage Billboard Rotation](https://trueinterview.io/questions/homepage-billboard-rotation)
 
 ### Domain Deep Dive

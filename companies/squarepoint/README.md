@@ -8,7 +8,7 @@ How Squarepoint interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [18](../squarepoint.md) |
+| Questions reported | [23](../squarepoint.md) |
 | Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -46,7 +46,7 @@ Squarepoint Capital runs a compact loop with an unusually high bar per round: a 
 
 ## Everything else
 
-- [All 18 questions reported at Squarepoint](../squarepoint.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 23 questions reported at Squarepoint](../squarepoint.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Squarepoint question on TrueInterview](https://trueinterview.io/problems/company/squarepoint).
 
 ---

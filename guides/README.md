@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**379 writeups** across **93 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**385 writeups** across **93 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -262,6 +262,20 @@
 | [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | ab-testing, experiment-design, ml-knowledge, ranking, verbal |
 | [On-Call Case Investigation](https://trueinterview.io/study/onsite-case-investigation) | open-ended, operating-systems, sre, troubleshooting, verbal |
 
+### Goldman Sachs
+
+<sub>7 guides · [questions at Goldman Sachs](../companies/goldman-sachs.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | math-reasoning, verbal |
+| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | bq, cs-fundamentals, verbal |
+| [Goldman Sachs Interview Process & Questions](https://trueinterview.io/study/goldmansachs-interview-process) | — |
+| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/study/hash-collision-fundamentals) | complexity-analysis, cs-fundamentals, hashmap, verbal |
+| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | bq, culture-fit, values |
+| [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | math-reasoning, probability, verbal |
+| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | domain-knowledge, math-reasoning, probability, verbal |
+
 ### Mistral AI
 
 <sub>7 guides · no questions reported at this employer yet</sub>
@@ -397,6 +411,19 @@
 | [Netflix Machine Learning Engineer Interview Process](https://trueinterview.io/study/netflix-machine-learning-engineer-interview-process) | — |
 | [Netflix Software Engineer Interview Process](https://trueinterview.io/study/netflix-software-engineer-interview-process) | — |
 
+### Perplexity
+
+<sub>6 guides · [questions at Perplexity](../companies/perplexity.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
+| [Map-Reduce and Blockwise Attention](https://trueinterview.io/study/map-reduce-and-blockwise-attention) | attention, map-reduce, numerical-stability, parallelism |
+| [Perplexity Interview Process & Questions](https://trueinterview.io/study/perplexity-interview-process) | — |
+| [Perplexity Machine Learning Engineer Interview Process](https://trueinterview.io/study/perplexity-machine-learning-engineer-interview-process) | — |
+| [Perplexity Software Engineer Interview Process](https://trueinterview.io/study/perplexity-software-engineer-interview-process) | — |
+| [Understand Code Functionality](https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7) | — |
+
 ### Pinterest
 
 <sub>6 guides · [questions at Pinterest](../companies/pinterest.md)</sub>
@@ -448,6 +475,19 @@
 | [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/study/project-deep-dive-ai-engineer) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent |
 | [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
 | [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
+
+### Scale AI
+
+<sub>6 guides · [questions at Scale AI](../companies/scale-ai.md)</sub>
+
+| Writeup | Topics |
+| :-- | :-- |
+| [Credo Behavioral and Customer Engagement](https://trueinterview.io/study/credo-behavioral-and-customer-engagement) | — |
+| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/study/147c9781-846f-407b-a3e9-cb2f61ae898d) | — |
+| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/study/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | — |
+| [LLM Post-Training Theory Conversation](https://trueinterview.io/study/llm-post-training-theory-conversation) | domain-knowledge, ml-knowledge, transformer |
+| [Project Deep Dive and Paper Presentation](https://trueinterview.io/study/project-deep-dive-and-paper-presentation) | domain-knowledge, ml-knowledge |
+| [Scale AI Interview Process & Questions](https://trueinterview.io/study/scale-ai-interview-process) | — |
 
 ### Two Sigma
 
@@ -512,18 +552,6 @@
 | [Coinbase Software Engineer Interview Process](https://trueinterview.io/study/coinbase-software-engineer-interview-process) | — |
 | [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | ai-collaboration, culture-fit, deep-dive, leadership |
 
-### Perplexity
-
-<sub>5 guides · [questions at Perplexity](../companies/perplexity.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Behavioral and Project Deep-Dive](https://trueinterview.io/study/behavioral-and-project-deep-dive) | collaboration, project-deep-dive, why-company |
-| [Perplexity Interview Process & Questions](https://trueinterview.io/study/perplexity-interview-process) | — |
-| [Perplexity Machine Learning Engineer Interview Process](https://trueinterview.io/study/perplexity-machine-learning-engineer-interview-process) | — |
-| [Perplexity Software Engineer Interview Process](https://trueinterview.io/study/perplexity-software-engineer-interview-process) | — |
-| [Understand Code Functionality](https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7) | — |
-
 ### Snowflake
 
 <sub>5 guides · [questions at Snowflake](../companies/snowflake.md)</sub>
@@ -569,28 +597,6 @@
 | [Expected Tosses Until HHT Given HHT Appears Before HTH](https://trueinterview.io/study/expected-tosses-until-hht-given-hht-appears-before-hth) | — |
 | [Posterior Probability of a Two-Headed Coin After Three Heads](https://trueinterview.io/study/posterior-probability-of-a-two-headed-coin-after-three-heads) | — |
 | [Probability the Two Strongest Teams Meet in a 16-Team Knockout Final](https://trueinterview.io/study/probability-the-two-strongest-teams-meet-in-a-16-team-knockout-final) | — |
-
-### Goldman Sachs
-
-<sub>4 guides · [questions at Goldman Sachs](../companies/goldman-sachs.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Goldman Sachs Interview Process & Questions](https://trueinterview.io/study/goldmansachs-interview-process) | — |
-| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | bq, culture-fit, values |
-| [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | math-reasoning, probability, verbal |
-| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | domain-knowledge, math-reasoning, probability, verbal |
-
-### Scale AI
-
-<sub>4 guides · [questions at Scale AI](../companies/scale-ai.md)</sub>
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Credo Behavioral and Customer Engagement](https://trueinterview.io/study/credo-behavioral-and-customer-engagement) | — |
-| [LLM Post-Training Theory Conversation](https://trueinterview.io/study/llm-post-training-theory-conversation) | domain-knowledge, ml-knowledge, transformer |
-| [Project Deep Dive and Paper Presentation](https://trueinterview.io/study/project-deep-dive-and-paper-presentation) | domain-knowledge, ml-knowledge |
-| [Scale AI Interview Process & Questions](https://trueinterview.io/study/scale-ai-interview-process) | — |
 
 ### Together AI
 
@@ -1051,9 +1057,9 @@
 | :-- | :-- |
 | [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/study/evaluate-post-purchase-recommendation-emails) | — |
 
-### Weride
+### WeRide
 
-<sub>1 guide · [questions at Weride](../companies/weride.md)</sub>
+<sub>1 guide · [questions at WeRide](../companies/weride.md)</sub>
 
 | Writeup | Topics |
 | :-- | :-- |

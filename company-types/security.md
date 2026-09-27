@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**60 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**70 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (23)](../companies/verkada.md) · [Rubrik (14)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
+[Verkada (27)](../companies/verkada.md) · [Rubrik (20)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,28 +18,28 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 46 | 77% | ██████████████ | 9 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 7 | 12% | ██ | 2 |
-| [System Design](../formats/system-design.md) | 7 | 12% | ██ | 2 |
+| [Algorithm](../formats/algorithm.md) | 52 | 74% | ██████████████ | 9 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 14% | ███ | 2 |
+| [System Design](../formats/system-design.md) | 8 | 11% | ██ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **6 / 40 / 14**, over the rows the catalog has graded. 13 of the 60 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **8 / 44 / 18**, over the rows the catalog has graded. 13 of the 70 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **45 questions in this cut that carry a topic label** (75% of it):
+Of the **48 questions in this cut that carry a topic label** (69% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 9 | 20% | ████████████ |
-| `hashing` | 9 | 20% | ████████████ |
-| `arrays` | 7 | 16% | █████████ |
-| `strings` | 7 | 16% | █████████ |
-| `dynamic-programming` | 4 | 9% | █████ |
-| `math` | 4 | 9% | █████ |
-| `binary-search` | 3 | 7% | ████ |
-| `topological-sort` | 3 | 7% | ████ |
-| `trees` | 3 | 7% | ████ |
-| `backtracking` | 2 | 4% | ███ |
+| `graphs` | 9 | 19% | ████████████ |
+| `hashing` | 9 | 19% | ████████████ |
+| `arrays` | 7 | 15% | █████████ |
+| `strings` | 7 | 15% | █████████ |
+| `dynamic-programming` | 4 | 8% | █████ |
+| `math` | 4 | 8% | █████ |
+| `backtracking` | 3 | 6% | ████ |
+| `binary-search` | 3 | 6% | ████ |
+| `topological-sort` | 3 | 6% | ████ |
+| `trees` | 3 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -69,6 +69,8 @@ Of the **45 questions in this cut that carry a topic label** (75% of it):
 | **Okta** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Medium | Jun 24, 2026 |
 | **Airbnb / Amazon / Ebay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
 | **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Medium | Jun 10, 2026 |
+| **Verkada** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Medium | Jun 05, 2026 |
+| **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
 | **Verkada** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Medium | Jun 05, 2026 |
 | **Okta** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Medium | Jun 02, 2026 |
 | **Roblox / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
@@ -87,6 +89,7 @@ Of the **45 questions in this cut that carry a topic label** (75% of it):
 | **Vanta** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Medium | Jul 24, 2025 |
 | **Vanta** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Medium | Dec 04, 2024 |
 | **Verkada** | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Medium | — |
+| **Verkada / Amazon** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
 | **Verkada / Salesforce** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
 | **Verkada / Amazon / ByteDance / LinkedIn / Lyft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
@@ -94,22 +97,27 @@ Of the **45 questions in this cut that carry a topic label** (75% of it):
 | **Vanta** | [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Easy | — |
 | **Vanta** | [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf) | Medium | — |
 | **Vanta** | [Find All Dependencies](https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558) | Medium | — |
+| **Rubrik** | [Chain Merge](https://trueinterview.io/questions/f2173855-1f89-4b97-8dde-48f9a949a483) | Hard | — |
 | **Rubrik** | [Salvage Humankind](https://trueinterview.io/questions/f0fcecb3-32b1-4092-9944-6f125e02f16b) | Hard | — |
 | **Rubrik** | [Get Minimum Operations](https://trueinterview.io/questions/cb43fa07-ddf7-494b-9e87-878972064c9d) | Hard | — |
 | **Rubrik** | [Doing Smart Work](https://trueinterview.io/questions/c289bb51-4892-4291-99e5-08832daa7801) | Medium | — |
 | **Rubrik** | [Save the Universe](https://trueinterview.io/questions/c11dffe8-95de-4aa1-8590-3df80831bcba) | Hard | — |
+| **Rubrik** | [Energy Crisis](https://trueinterview.io/questions/bd64beb0-36d0-4d3b-9dfe-063ea75dcdf4) | Hard | — |
 | **Rubrik** | [Key Sum Management](https://trueinterview.io/questions/bb400936-26d5-47af-adf3-bfc0445aa432) | Hard | — |
 | **Rubrik** | [Maximize Happiness](https://trueinterview.io/questions/9a5a6369-36c2-41ca-923b-276bf08c2011) | Hard | — |
 | **Rubrik** | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Hard | — |
 | **Rubrik** | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Hard | — |
+| **Rubrik** | [Starlight](https://trueinterview.io/questions/73a6ae6a-88c0-45d6-9d5b-63411038dfd8) | Hard | — |
 | **Rubrik** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Hard | — |
 | **Rubrik** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Hard | — |
 | **Rubrik** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Medium | — |
+| **Rubrik** | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | Hard | — |
 | **Okta** | [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Easy | — |
 | **Verkada / Amazon** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Medium | — |
 | **Vanta** | [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Easy | — |
 | **Verkada** | [Find IPv4 Addresses in Nested Files](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37) | Medium | — |
 | **Verkada** | [Matrix Transpose with Workers](https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b) | Easy | — |
+| **Verkada** | [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | Medium | — |
 | **Verkada** | [Jumping by Height](https://trueinterview.io/questions/b0999093-eb28-5f5e-a89c-b103e821d914) | Hard | — |
 | **Verkada** | [Merge Alert Intervals Across Multiple Cameras](https://trueinterview.io/questions/a4f0ae26-f3ea-4975-9c68-99712a354b65) | Medium | — |
 | **Verkada** | [Real-time status counting system design](https://trueinterview.io/questions/86e2e2dd-5c95-496d-ba7e-2e052ef2f37f) | Medium | — |
@@ -118,6 +126,8 @@ Of the **45 questions in this cut that carry a topic label** (75% of it):
 | **Verkada** | [Add Two Large Integers Stored in Linked Lists (4 digits per node)](https://trueinterview.io/questions/68fd7f68-6e89-4955-b27b-d02bcde92cae) | Medium | — |
 | **Verkada** | [Find Overlapping Time Intervals Across Multiple Cameras](https://trueinterview.io/questions/3dc3ae54-1022-4a39-8aa6-c14d6f4cc6ba) | Medium | — |
 | **Rubrik** | [Validate BFS Order on a Tree Built from Two Parent Vectors](https://trueinterview.io/questions/f23be60c-a2d3-405e-8606-bfd7b48410ba) | Hard | — |
+| **Rubrik** | [String Shift](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905) | Easy | — |
 | **Rubrik** | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) | Medium | — |
 | **Rubrik** | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Medium | — |
 | **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
+| **ByteDance / Rubrik** | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Easy | — |

@@ -2,7 +2,7 @@
 
 # LinkedIn interview process, OA & interview questions
 
-**79 questions** reported at LinkedIn · **6 writeups** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
+**82 questions** reported at LinkedIn · **6 writeups** · **19 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How LinkedIn interviews & the free questions](linkedin/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **79** |
+| Questions tracked | **82** |
 | Most recent sighting | Sep 06, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (53% of 79) |
-| Difficulty (easy / medium / hard) | 7 / 54 / 18 |
+| Most common format | [Algorithm](../formats/algorithm.md) (52% of 82) |
+| Difficulty (easy / medium / hard) | 7 / 56 / 19 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 19 in this snapshot |
 
-<sub>Counted from the 79 questions reported at LinkedIn. 46 of them carry a sighting date (1 of those is dated after today, so it is in no window); the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 82 questions reported at LinkedIn. 45 of them carry a sighting date; the other 37 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **79 of 79** questions at LinkedIn that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **82 of 82** questions at LinkedIn that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 37 | ████████ | [Algorithm](../formats/algorithm.md) (70%) | 2 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 48 | ██████████ | [Algorithm](../formats/algorithm.md) (38%) | 3 / 34 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 38 | ████████ | [Algorithm](../formats/algorithm.md) (71%) | 2 / 26 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 50 | ██████████ | [Algorithm](../formats/algorithm.md) (36%) | 3 / 35 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -57,15 +57,15 @@ Which stage each question came from, for the **79 of 79** questions at LinkedIn 
 
 ## What they ask about
 
-Of the **45 questions at LinkedIn that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **46 questions at LinkedIn that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 9 | 20% | ████████████ | Aug 27, 2026 |
-| `backtracking` | 8 | 18% | ███████████ | Sep 04, 2026 |
-| `hashing` | 8 | 18% | ███████████ | Aug 27, 2026 |
-| `trees` | 7 | 16% | █████████ | Aug 27, 2026 |
-| `binary-search` | 4 | 9% | █████ | Aug 16, 2026 |
+| `backtracking` | 8 | 17% | ███████████ | Sep 04, 2026 |
+| `hashing` | 8 | 17% | ███████████ | Aug 27, 2026 |
+| `trees` | 7 | 15% | █████████ | Aug 27, 2026 |
+| `binary-search` | 5 | 11% | ███████ | Aug 16, 2026 |
 | `linked-list` | 4 | 9% | █████ | Apr 09, 2026 |
 | `two-pointers` | 4 | 9% | █████ | Mar 02, 2026 |
 | `arrays` | 3 | 7% | ████ | Aug 16, 2026 |
@@ -149,7 +149,7 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | Software | [LinkedIn Staff Software Engineer Interview Experience (Seattle)](https://trueinterview.io/interviews/961fa8e6-6a2b-43d4-96ee-e231231ed07b) | Sep 27, 2026 |
 | Software | [Uniform Random Number Generator and LinkedIn NewsFeed Design Interview Experience](https://trueinterview.io/interviews/e086940c-7e86-495d-bb00-14af9f1d5bfd) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -206,7 +206,6 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | [Ranked-Choice Voting (Instant Runoff)](https://trueinterview.io/questions/coding-ranked-choice-voting) | Algorithm | Medium | Nov 12, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Incremental Task Scheduler](https://trueinterview.io/questions/incremental-task-scheduler) | Algorithm | Medium | Aug 31, 2025 |
-| [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Algorithm | Hard | Feb 23, 2126 |
 | [Minimum Length Substring](https://trueinterview.io/questions/c7a9cd29-a095-51b6-892b-70df2898ff3f) | Algorithm | Medium | — |
 | [Validate a Decimal Number String](https://trueinterview.io/questions/c4ab51bc-0703-5e40-aca8-21c8d8a63a0a) | Algorithm | Easy | — |
 | [Minimum-Cost Path in a Hidden Weighted Grid](https://trueinterview.io/questions/a531995e-256c-5c2c-b17b-84c3f438d282) | Algorithm | Medium | — |
@@ -217,6 +216,8 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | [Shortest Word Distance II](https://trueinterview.io/questions/a87d7c6b-06c5-5d2c-9924-55712f12b1e0) | Object Oriented Programming | Medium | — |
 | [Largest Number (LC 179)](https://trueinterview.io/questions/coding-largest-number) | Algorithm | Medium | — |
 | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
+| [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Object Oriented Programming | Medium | — |
 | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Algorithm | Medium | — |
 | [Split Array Largest Sum](https://trueinterview.io/questions/2d2441fb-6a56-5833-be90-a59c24a06d1f) | Algorithm | Hard | — |
@@ -233,9 +234,11 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Algorithm | Medium | — |
 | [Degree of Connection Between LinkedIn Users](https://trueinterview.io/questions/1455a901-868c-4006-973c-c5bbc2c3206d) | Algorithm | Medium | — |
 | [Implement a Custom Iterator](https://trueinterview.io/questions/00663347-51f2-475a-a0ac-1dc56de070d8) | Object Oriented Programming | Easy | — |
+| [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Algorithm | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e) | Algorithm | Hard | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
+| [Biased Coin to Uniform Range](https://trueinterview.io/questions/coding-biased-coin-uniform) | Algorithm | Hard | — |
 | [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84) | Algorithm | Easy | — |
 | [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Object Oriented Programming | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

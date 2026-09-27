@@ -8,7 +8,7 @@ How NVIDIA interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [28](../nvidia.md) |
+| Questions reported | [29](../nvidia.md) |
 | Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 4 |
@@ -59,7 +59,7 @@ NVIDIA does not run one standardized loop: the team you interview with decides t
 
 ## Everything else
 
-- [All 28 questions reported at NVIDIA](../nvidia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 29 questions reported at NVIDIA](../nvidia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every NVIDIA question on TrueInterview](https://trueinterview.io/problems/company/nvidia).
 
 ---

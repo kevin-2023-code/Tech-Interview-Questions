@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**618 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**637 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,10 +10,16 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Amazon** | [Recursive Schema Validation](https://trueinterview.io/questions/schema-validation-recursive) | Medium | Mar 21, 2026 |
+| **Amazon / Google** | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Medium | Mar 21, 2026 |
+| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | Mar 21, 2026 |
+| **Uber / Amazon / ByteDance / Gusto** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Medium | Mar 20, 2026 |
+| **DoorDash** | [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen) | Medium | Mar 20, 2026 |
+| **Airbnb** | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Medium | Mar 20, 2026 |
 | **DoorDash** | [Build UI from Mockup with API](https://trueinterview.io/questions/frontend-vo-build-ui) | Medium | Mar 20, 2026 |
 | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
 | **Amazon** | [Line Intersection Points](https://trueinterview.io/questions/line-intersection-points) | Medium | Mar 17, 2026 |
-| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / Weride** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
+| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **DoorDash** | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | Hard | Mar 16, 2026 |
 | **Uber** | [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system) | Hard | Mar 16, 2026 |
 | **Uber** | [Letter Combinations of a Phone Number](https://trueinterview.io/questions/letter-combinations-of-a-phone-number) | Easy | Mar 15, 2026 |
@@ -53,7 +59,7 @@
 | **Amazon** | [Abusive Books in Reading Event Stream](https://trueinterview.io/questions/audible-abusive-books-stream) | Medium | Feb 10, 2026 |
 | **Amazon / Meta / Verkada** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Medium | Feb 08, 2026 |
 | **DoorDash** | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle) | Medium | Feb 07, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
 | **Coinbase / Lyft** | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Medium | Feb 04, 2026 |
@@ -127,6 +133,7 @@
 | **DoorDash** | [Find Closest Dashmart](https://trueinterview.io/questions/find-closest-dashmart) | Medium | Aug 23, 2025 |
 | **Instacart** | [Pivot Table Profit Analyzer](https://trueinterview.io/questions/pivot-table-profit-analyzer) | Medium | Jul 30, 2025 |
 | **Snowflake / Walmart Labs** | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Medium | Jul 20, 2025 |
+| **Uber** | [Round-Trip Mission Schedule](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) | Medium | Jul 10, 2025 |
 | **Shopify** | [Cows and Bulls (Guess the Number)](https://trueinterview.io/questions/cows-and-bulls) | Medium | Jun 19, 2025 |
 | **Ramp / Ebay** | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Easy | Apr 2025 |
 | **DoorDash** | [Filter Open Restaurants Within a City Range](https://trueinterview.io/questions/0370baec-233b-5318-a1c6-59fe6fff1704) | Medium | — |
@@ -196,17 +203,22 @@
 | **Yelp / Uber** | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | Medium | — |
 | **Whatnot / Atlassian** | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Medium | — |
 | **Whatnot / Atlassian** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Medium | — |
+| **Verkada / Amazon** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Uber** | [CPU Usage Analysis](https://trueinterview.io/questions/cpu-usage-analysis) | Medium | — |
 | **Snowflake / ByteDance / Meta / Uber / Whatnot** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | Medium | — |
 | **Snowflake / Citadel / Two Sigma / Uber** | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Medium | — |
 | **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
 | **Microsoft / Expedia** | [Longest Common Subsequence-Substring](https://trueinterview.io/questions/longest-common-subsequence-substring-2) | Hard | — |
 | **Lyft** | [MultiStream Reader](https://trueinterview.io/questions/multistream-reader) | Hard | — |
+| **Lyft** | [Asteroid Collision - Different Speed](https://trueinterview.io/questions/asteroid-collision-different-speed) | Medium | — |
+| **Lyft** | [Alien Base Attack](https://trueinterview.io/questions/alien-base-attack) | Medium | — |
 | **Hudson River Trading / Amazon** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Medium | — |
 | **Figma / Ebay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
 | **DoorDash** | [Find Eligible Order Sequence](https://trueinterview.io/questions/find-eligible-order-sequence) | Medium | — |
 | **DoorDash** | [Construct Restaurant Daily Menu](https://trueinterview.io/questions/construct-restaurant-daily-menu) | Medium | — |
 | **DoorDash** | [Calculate Dasher Salary](https://trueinterview.io/questions/calculate-dasher-salary) | Medium | — |
+| **Confluent / Amazon / ByteDance / Google / Instacart / LinkedIn / Meta** | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | Medium | — |
+| **Confluent / Databricks / LinkedIn / Whatnot** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | Hard | — |
 | **Atlassian / Amazon / Coinbase / Databricks / Google** | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | Medium | — |
 | **Amazon** | [Design a Library Management System](https://trueinterview.io/questions/design-a-library-management-system) | Medium | — |
 | **Amazon** | [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search) | Hard | — |
@@ -219,10 +231,16 @@
 | **Shopify** | [Design a 2D Robot with Turning and Movement + CLI](https://trueinterview.io/questions/a917e16a-22aa-4528-9a7f-f579c8782e91) | Easy | — |
 | **Shopify** | [Design an Extensible Text Editor with Multiple Renderers](https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15) | Medium | — |
 | **Shopify** | [Simulate a Robot Following Commands on a Grid](https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d) | Easy | — |
+| **Lyft** | [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) | Medium | — |
 | **Lyft / Anthropic / Google / Meta / Snapchat / Uber** | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | Medium | — |
 | **Lyft** | [Implement Stratified K-Fold Cross Validation](https://trueinterview.io/questions/603347d9-9ef4-4b27-be30-a00814f1b728) | Hard | — |
+| **Lyft** | [Find All Shortest Paths in Word Ladder](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3) | Hard | — |
 | **Expedia** | [Calculate Triangle Area from Three Coordinate Points](https://trueinterview.io/questions/f13e1f46-76a9-4caa-b697-ffdd9abcd68e) | Easy | — |
+| **Expedia** | [Minimum Machines for Task Scheduling](https://trueinterview.io/questions/e02c3223-11d4-4282-b5b6-f97380da0e36) | Medium | — |
 | **Expedia** | [Minimum Steps to Reorder Layers](https://trueinterview.io/questions/b99ee58c-743f-4caf-a4f4-751b8ca48ecc) | Hard | — |
+| **Expedia / IBM** | [Get Maximum Efficiency](https://trueinterview.io/questions/b2ff328c-50ce-40b3-b37a-3301dc7c3f58) | Hard | — |
+| **Expedia** | [Rank Songs by Popularity](https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49) | Medium | — |
+| **Expedia** | [Count Groups with Maximum Language Relationships](https://trueinterview.io/questions/60045377-fc3f-4505-9688-a3134b5faa33) | Hard | — |
 | **Expedia** | [Minimum Additional Capabilities to Equalize Team Work Hours](https://trueinterview.io/questions/5c1401d7-3928-496a-b8ac-cd5bba5b5587) | Medium | — |
 | **Ebay** | [Top-K Co-Occurring Products in Sessions (Recommendation by Frequency)](https://trueinterview.io/questions/e4a92e49-cff6-43ee-9862-1c0391db7357) | Medium | — |
 | **Ebay** | [Build a Simplified Image–Text Retrieval Training and Evaluation Pipeline](https://trueinterview.io/questions/be7ec2df-18b0-4e87-bfaf-33dccc991ab2) | Hard | — |
@@ -242,23 +260,5 @@
 | **Expedia** | [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f) | Medium | — |
 | **Expedia** | [Count Strongly Connected Components Using Kosaraju's Algorithm](https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6) | Medium | — |
 | **Expedia** | [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9) | Hard | — |
-| **Expedia** | [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0) | Medium | — |
-| **Ebay** | [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b) | Medium | — |
-| **Ebay** | [Find Pattern Matching Words](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09) | Hard | — |
-| **Ebay** | [Balloon Explosion](https://trueinterview.io/questions/bec1bae5-6bc3-4a83-8430-077c684da76c) | Hard | — |
-| **Ebay** | [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b) | Medium | — |
-| **Ebay** | [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4) | Medium | — |
-| **Instacart** | [Fix Incorrect Metrics Caused by Applying Filters After Aggregation](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e) | Medium | — |
-| **Amazon** | [Online Review Content Moderation](https://trueinterview.io/questions/3788662e-d4fb-58b3-944f-0d17e11dcc48) | Medium | — |
-| **Amazon** | [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5) | Medium | — |
-| **Amazon** | [Memory Size Calculation for DDN Model Structure](https://trueinterview.io/questions/38d0f1cd-7a43-453d-a61a-07bfe73aeffd) | Easy | — |
-| **Amazon** | [Machine Learning Coding: Reproduce a New Paper Experiment](https://trueinterview.io/questions/36bbfdc3-e117-4a78-bcb0-1e89dae78b5d) | Hard | — |
-| **Instacart** | [Design and Implement Idempotent Library Notifications for Due Dates and Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39) | Medium | — |
-| **Airbnb** | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Medium | — |
-| **Meta / Amazon** | [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Medium | — |
-| **DoorDash** | [Dasher Pay](https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f) | Hard | — |
-| **Waymo / Uber** | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Medium | — |
-| **Instacart** | [Fix Backend Filtering for Book Search Results](https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22) | Easy | — |
-| **DoorDash** | [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374) | Medium | — |
 
 <sub>[← Page 1](ecommerce-marketplace.md) · Page 2 of 3 · [Page 3 →](ecommerce-marketplace-3.md)</sub>

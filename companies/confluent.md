@@ -2,7 +2,7 @@
 
 # Confluent interview process, OA & interview questions
 
-**17 questions** reported at Confluent · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/confluent), judged server-side on the algorithm, low-level-design and SQL formats.
+**22 questions** reported at Confluent · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/confluent), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Confluent interviews & the free questions](confluent/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **17** |
+| Questions tracked | **22** |
 | Most recent sighting | Jan 14, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (47% of 17) |
-| Difficulty (easy / medium / hard) | 6 / 8 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 22) |
+| Difficulty (easy / medium / hard) | 6 / 12 / 4 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 17 questions reported at Confluent. 3 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 22 questions reported at Confluent. 3 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **17 of 17** questions at Confluent that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **22 of 22** questions at Confluent that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ███████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 3 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 2 / 6 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 3 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | █████ | [Algorithm](../formats/algorithm.md) (57%) | 1 / 4 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 14 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 2 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,19 +42,20 @@ Which stage each question came from, for the **17 of 17** questions at Confluent
 
 ## What they ask about
 
-Of the **9 questions at Confluent that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **10 questions at Confluent that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 3 | 33% | ████████████ | — |
-| `dynamic-programming` | 2 | 22% | ████████ | — |
-| `hashing` | 2 | 22% | ████████ | — |
-| `backtracking` | 1 | 11% | ████ | — |
-| `bit-manipulation` | 1 | 11% | ████ | — |
-| `sliding-window` | 1 | 11% | ████ | — |
-| `stack` | 1 | 11% | ████ | — |
-| `strings` | 1 | 11% | ████ | — |
-| `trees` | 1 | 11% | ████ | — |
+| `arrays` | 3 | 30% | ████████████ | — |
+| `dynamic-programming` | 2 | 20% | ████████ | — |
+| `hashing` | 2 | 20% | ████████ | — |
+| `strings` | 2 | 20% | ████████ | — |
+| `backtracking` | 1 | 10% | ████ | — |
+| `bit-manipulation` | 1 | 10% | ████ | — |
+| `sliding-window` | 1 | 10% | ████ | — |
+| `stack` | 1 | 10% | ████ | — |
+| `trees` | 1 | 10% | ████ | — |
+| `two-pointers` | 1 | 10% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -77,11 +78,11 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 | **1** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
 | **2** | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) 🆓 | Object Oriented Programming | Medium | 9 | Nov 08, 2025 |
 | **3** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 8 | Oct 15, 2025 |
-| **4** | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | 1 | — |
-| **5** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | 1 | — |
-| **6** | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Object Oriented Programming | Easy | — | — |
-| **7** | [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Object Oriented Programming | Easy | — | — |
-| **8** | [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) | Algorithm | Easy | — | — |
+| **4** | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | 6 | — |
+| **5** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | 3 | — |
+| **6** | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | 1 | — |
+| **7** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | 1 | — |
+| **8** | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Object Oriented Programming | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -106,13 +107,18 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
+| [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1) | Object Oriented Programming | Medium | — |
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
+| [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | — |
 | [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Object Oriented Programming | Hard | — |
+| [Wildcard Matching](https://trueinterview.io/questions/wildcard-matching) | Algorithm | Medium | — |
 | [Monsters Battle](https://trueinterview.io/questions/monsters-battle) | Algorithm | Medium | — |
 | [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Object Oriented Programming | Medium | — |
 | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | — |
 | [Minimum Value to Get Positive Step by Step Sum](https://trueinterview.io/questions/3e9983d2-b98e-4f1e-b80a-0d32d1317fbd) | Algorithm | Easy | — |
 | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Object Oriented Programming | Easy | — |
+| [O(1) Key-Value Store with Average and Max Retrieval](https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2) | Object Oriented Programming | Medium | — |
 | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Algorithm | Easy | — |
 | [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Algorithm | Easy | — |
 | [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Object Oriented Programming | Hard | — |

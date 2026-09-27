@@ -16,7 +16,7 @@
 
 A notification system alerts users when an event elsewhere in the product may deserve their attention. For example, a social application might notify a user that "someone you follow published a new post." Although the user sees only a compact push banner, the underlying system must handle fanout, manage traffic bursts, and recognize that asynchronous push providers are external side effects rather than the authoritative record.
 
-<img src="https://assets.a third-party practice site/post/69cfaa8f4f38b199f9e49615/3d31cf46-6df6-4517-bcdc-7a7896ce2a4f_20260403.png" alt="" width="450" preview/>
+<img src="https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/sources/5d7ea23430384348adc0.png" alt="" width="450" preview/>
 
 ## 2. Requirements
 

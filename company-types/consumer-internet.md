@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**708 questions** reported across the **9 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**716 questions** reported across the **9 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Google (192)](../companies/google.md) · [Meta (183)](../companies/meta.md) · [ByteDance (165)](../companies/bytedance.md) · [LinkedIn (79)](../companies/linkedin.md) · [Pinterest (75)](../companies/pinterest.md) · [Netflix (71)](../companies/netflix.md) · [Snapchat (51)](../companies/snapchat.md) · [Reddit (26)](../companies/reddit.md) · [Yelp (17)](../companies/yelp.md)
+[Google (197)](../companies/google.md) · [Meta (185)](../companies/meta.md) · [ByteDance (168)](../companies/bytedance.md) · [LinkedIn (82)](../companies/linkedin.md) · [Pinterest (75)](../companies/pinterest.md) · [Netflix (71)](../companies/netflix.md) · [Snapchat (51)](../companies/snapchat.md) · [Reddit (26)](../companies/reddit.md) · [Yelp (17)](../companies/yelp.md)
 
 <sub>9 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 480 | 68% | ██████████████ | 44 |
-| [System Design](../formats/system-design.md) | 90 | 13% | ███ | 8 |
+| [Algorithm](../formats/algorithm.md) | 486 | 68% | ██████████████ | 46 |
+| [System Design](../formats/system-design.md) | 92 | 13% | ███ | 8 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 88 | 12% | ███ | 9 |
 | [SQL](../formats/sql.md) | 33 | 5% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 17 | 2% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **88 / 473 / 147**, over the rows the catalog has graded. 63 of the 708 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **90 / 476 / 150**, over the rows the catalog has graded. 65 of the 716 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **493 questions in this cut that carry a topic label** (70% of it):
+Of the **498 questions in this cut that carry a topic label** (70% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `graphs` | 91 | 18% | ████████████ |
-| `hashing` | 76 | 15% | ██████████ |
-| `arrays` | 68 | 14% | █████████ |
-| `strings` | 63 | 13% | ████████ |
+| `hashing` | 77 | 15% | ██████████ |
+| `arrays` | 70 | 14% | █████████ |
+| `strings` | 64 | 13% | ████████ |
 | `backtracking` | 45 | 9% | ██████ |
-| `trees` | 43 | 9% | ██████ |
-| `greedy` | 40 | 8% | █████ |
+| `trees` | 44 | 9% | ██████ |
+| `greedy` | 41 | 8% | █████ |
 | `dynamic-programming` | 34 | 7% | ████ |
 | `sliding-window` | 34 | 7% | ████ |
-| `binary-search` | 30 | 6% | ████ |
+| `binary-search` | 31 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -114,7 +114,7 @@ Of the **493 questions in this cut that carry a topic label** (70% of it):
 | **Pinterest** | [Experiment Bucket Allocation / Rebalancing](https://trueinterview.io/questions/experiment-bucket-allocation-rebalancing) | Medium | Aug 03, 2026 |
 | **ByteDance** | [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) | Hard | Jul 29, 2026 |
 | **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Easy | Jul 29, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Google** | [Batch and Streaming Log Deduplication](https://trueinterview.io/questions/batch-streaming-log-deduplication) | Hard | Jul 23, 2026 |
 | **Pinterest** | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | Easy | Jul 23, 2026 |
 | **ByteDance** | [Signup Activation Rate](https://trueinterview.io/questions/signup-activation-rate) | Medium | Jul 22, 2026 |
@@ -178,7 +178,7 @@ Of the **493 questions in this cut that carry a topic label** (70% of it):
 | **Meta** | [Shared Substring in String List](https://trueinterview.io/questions/ai-coding-substring-from-list) | Medium | Jun 09, 2026 |
 | **Meta** | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | Hard | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Medium | Jun 08, 2026 |
 | **ByteDance / Amazon** | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Medium | Jun 06, 2026 |
 | **Pinterest** | [Put Boxes Into the Warehouse (LC 1564)](https://trueinterview.io/questions/put-boxes-into-warehouse) | Medium | Jun 05, 2026 |
@@ -302,14 +302,14 @@ Of the **493 questions in this cut that carry a topic label** (70% of it):
 | **Uber / Google** | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Hard | Mar 22, 2026 |
 | **LinkedIn** | [AI-Powered Personalized Recruiter Message Generation](https://trueinterview.io/questions/sd-personalized-inmail-ai) | Medium | Mar 21, 2026 |
 | **Amazon / Google** | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Medium | Mar 21, 2026 |
-| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Easy | Mar 21, 2026 |
+| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | Mar 21, 2026 |
 | **Uber / Amazon / ByteDance / Gusto** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Medium | Mar 20, 2026 |
 | **LinkedIn** | [Metrics & Monitoring Platform](https://trueinterview.io/questions/sd-metrics-monitoring-platform) | Hard | Mar 20, 2026 |
 | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
 | **Snapchat** | [In-Memory Pub/Sub](https://trueinterview.io/questions/in-memory-pubsub) | Medium | Mar 18, 2026 |
 | **LinkedIn** | [Design Linkedin Learning Recommendation System](https://trueinterview.io/questions/sd-job-recommendation-ranking) | Medium | Mar 18, 2026 |
 | **ByteDance** | [Zigzag (Alternating-Parity) Subarrays](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-zigzag-alternating-parity-subarrays) | Medium | Mar 17, 2026 |
-| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / Weride** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
+| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **ByteDance** | [CodeSignal SWE OA (Spring 2026 Bank)](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026) | Hard | Mar 17, 2026 |
 | **Apple / Google / LinkedIn / Microsoft / Salesforce** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Hard | Mar 17, 2026 |
 | **Pinterest** | [Pin Board Connectivity](https://trueinterview.io/questions/graph-distance-mle-screen) | Medium | Mar 15, 2026 |
@@ -323,7 +323,7 @@ Of the **493 questions in this cut that carry a topic label** (70% of it):
 | **LinkedIn** | [Phone Number Word Matching](https://trueinterview.io/questions/coding-phone-letter-combinations) | Medium | Mar 02, 2026 |
 | **LinkedIn** | [Max Stack](https://trueinterview.io/questions/coding-max-stack) | Hard | Mar 02, 2026 |
 | **Apple / LinkedIn** | [Intersection of Two Linked Lists](https://trueinterview.io/questions/intersection-of-two-linked-lists) | Medium | Mar 02, 2026 |
-| **Reddit** | [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Medium | Mar 2026 |
+| **Reddit** | [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Hard | Mar 2026 |
 | **Reddit / Apple** | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Medium | Mar 2026 |
 | **Reddit** | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Easy | Mar 2026 |
 

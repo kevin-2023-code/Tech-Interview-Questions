@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Microsoft · GEICO · Weride | Online assessment | math | — |
+| Algorithm | Easy | Microsoft · GEICO · WeRide | Online assessment | math | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -77,7 +77,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Microsoft](../../../companies/microsoft/README.md) · [GEICO](../../../companies/geico/README.md) · [Weride](../../../companies/weride/README.md)
+[Microsoft](../../../companies/microsoft/README.md) · [GEICO](../../../companies/geico/README.md) · [WeRide](../../../companies/weride/README.md)
 
 ---
 

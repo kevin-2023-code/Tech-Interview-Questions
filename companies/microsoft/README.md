@@ -8,8 +8,8 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [114](../microsoft.md) |
-| Free to read here | 17 |
+| Questions reported | [115](../microsoft.md) |
+| Free to read here | 18 |
 | Interview-process guides | 5 |
 | Other guides | 5 |
 | Most recent sighting | Sep 09, 2026 |
@@ -38,7 +38,7 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 
 ## Free Microsoft questions
 
-17 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+18 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -53,6 +53,7 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Binary Search Tree Iterator](../../questions/object-oriented-programming/binary-search-tree-iterator/README.md) | Object Oriented Programming | Medium | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/binary-search-tree-iterator) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
+| [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
 | [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
@@ -72,7 +73,7 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 
 ## Everything else
 
-- [All 114 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 115 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Microsoft question on TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 ---

@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**361 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**373 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,14 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Whatnot / Atlassian** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Medium | — |
+| **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
+| **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
+| **Microsoft** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-4) | Easy | — |
+| **Microsoft** | [Valid Time Combinations](https://trueinterview.io/questions/valid-time-combinations) | Medium | — |
+| **Microsoft / Microsoft AI** | [Suffix Maximum Count](https://trueinterview.io/questions/suffix-maximum-count-2) | Medium | — |
+| **Microsoft / Expedia** | [Longest Common Subsequence-Substring](https://trueinterview.io/questions/longest-common-subsequence-substring-2) | Hard | — |
+| **Microsoft / LinkedIn / Meta** | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Medium | — |
 | **Microsoft AI / Microsoft** | [Segment Sequence Reconstruction](https://trueinterview.io/questions/segment-sequence-reconstruction-2) | Medium | — |
 | **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
 | **Figma / Ebay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
@@ -23,6 +31,7 @@
 | **Tradedesk** | [Narrative Words](https://trueinterview.io/questions/9ad96e3a-7f96-4ddb-bcbb-724f098ce6e9) | Easy | — |
 | **Tradedesk** | [Tally the Number of Friend Groups with K Sets of Matching Traits](https://trueinterview.io/questions/8b27c148-68bf-4093-bc80-85a303a79911) | Medium | — |
 | **Tradedesk** | [Light Sources &#92;U0001fa75](https://trueinterview.io/questions/67afecc0-9b92-43c1-8517-9380cb208dcb) | Medium | — |
+| **Tradedesk** | [Flights](https://trueinterview.io/questions/64f3d712-00ab-40df-badd-22e7510d3cd6) | Medium | — |
 | **Tradedesk** | [Implement an Internal Database](https://trueinterview.io/questions/5099436a-db96-4384-87b7-6ea29659eed4) | Hard | — |
 | **Tradedesk** | [Last to Be Checked](https://trueinterview.io/questions/2069bf07-0c49-475c-8ef8-9e11c443b509) | Easy | — |
 | **Tradedesk** | [Buddies Greater than Target](https://trueinterview.io/questions/055e2b8e-9813-42ea-be04-71e25dff05a4) | Easy | — |
@@ -73,7 +82,7 @@
 | **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
 | **Microsoft** | [Woo Restaurant Design](https://trueinterview.io/questions/9b4cb899-5355-4016-b218-5bb90a044898) | Medium | — |
 | **Microsoft** | [Catalog Performance Review](https://trueinterview.io/questions/90794d67-2f02-4fea-8b1a-2c0d024a0416) | Easy | — |
-| **Microsoft / GEICO / Weride** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
+| **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
 | **Microsoft** | [Path With Maximum Minimum Value](https://trueinterview.io/questions/866086d0-9514-4858-a0a7-e7350f4ccd0d) | Hard | — |
 | **Microsoft** | [Find Shortest Path in Cyclic Graph](https://trueinterview.io/questions/73071813-b198-4495-aaa6-2e6ae5f847da) | Medium | — |
 | **Microsoft** | [Rotate String (variant with two string arrays)](https://trueinterview.io/questions/5a8c9bdf-ba15-4e3f-bed8-09c457108d6e) | Medium | — |
@@ -85,7 +94,10 @@
 | **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
 | **LinkedIn / Microsoft** | [Merge N-ary Tree](https://trueinterview.io/questions/26526039-c716-45e9-9bc1-c041c03ce168) | Medium | — |
 | **Intuit** | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | Easy | — |
+| **Intuit** | [Find the Safest Path in a Grid](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab) | Hard | — |
 | **Intuit** | [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | Easy | — |
+| **Intuit** | [Matrix Transpose and Multiplication Speed Benchmark](https://trueinterview.io/questions/0cc929c7-175c-4c2b-8748-4777d598bc16) | Medium | — |
+| **Intuit** | [Smart Gardener (Intuit India)](https://trueinterview.io/questions/094b806b-d68d-413f-a536-249524c89249) | Hard | — |
 | **Google / ByteDance / Microsoft** | [Binary Tree Level Order Stream Iterator](https://trueinterview.io/questions/4c47d0ad-08ca-4db4-8d2a-25f2172d775b) | Medium | — |
 | **Google / Microsoft** | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Medium | — |
 | **ByteDance / Atlassian** | [Implement Moving Average from Data Stream](https://trueinterview.io/questions/94192aa7-a909-49a7-80b7-24c84876985d) | Easy | — |

@@ -127,7 +127,7 @@ What candidates said happened in the room at Citadel — written up by the peopl
 | :-- | :-- | :-- |
 | Software | [Citadel Software Engineer Intern Interview Experience](https://trueinterview.io/interviews/1762a5af-e124-4550-9b5c-fb99c09b9cb6) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Citadel and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Citadel and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

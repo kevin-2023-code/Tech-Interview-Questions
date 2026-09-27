@@ -49,7 +49,7 @@ Algorithms appear, but the flavor is data plumbing rather than contest material:
 Design carries real weight — one onsite spent two of its three sessions on it — and the prompts lean on the product itself. Candidates were asked to design a personalized discovery feed recommender (content sources, freshness, personalization signals, scale) and a trending-queries system for the home page with personalization to be layered on later (real-time aggregation, ranking, gradually folding in user context). A separate loop used a personal-finance backend, and the staff screen used abuse and fraud defense. Interviewers push on retrieval and ranking behavior, latency budgets, what degrades first under load, and how a change ships safely — not on reciting consensus protocols.
 
 - [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover)
-- [Mint.com](../../questions/system-design/mint-com/README.md)
+- [Mint.com](https://trueinterview.io/questions/mint-com)
 
 ### Domain Deep Dive
 

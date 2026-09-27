@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**192 questions** reported at Google · **8 writeups** · **6 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**197 questions** reported at Google · **8 writeups** · **6 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **192** |
+| Questions tracked | **197** |
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 20 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 192) |
-| Difficulty (easy / medium / hard) | 20 / 126 / 46 |
-| Free to practise | [20](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (76% of 197) |
+| Difficulty (easy / medium / hard) | 20 / 130 / 47 |
+| Free to practise | [22](../free/README.md) |
 | Guides & writeups | 8 |
 | Interview reports on the board | 6 in this snapshot |
 
-<sub>Counted from the 192 questions reported at Google. 98 of them carry a sighting date; the other 94 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 197 questions reported at Google. 100 of them carry a sighting date; the other 97 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **192 of 192** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **197 of 197** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 16 | █ | [Algorithm](../formats/algorithm.md) (94%) | 8 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 5 / 77 / 25 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 92 | █████████ | [Algorithm](../formats/algorithm.md) (55%) | 7 / 57 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 17 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 9 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 108 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 4 / 78 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 95 | █████████ | [Algorithm](../formats/algorithm.md) (56%) | 7 / 59 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -60,16 +60,16 @@ Which stage each question came from, for the **192 of 192** questions at Google 
 
 ## What they ask about
 
-Of the **148 questions at Google that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **151 questions at Google that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 34 | 23% | ████████████ | Jul 19, 2026 |
-| `arrays` | 21 | 14% | ███████ | Aug 16, 2026 |
-| `hashing` | 18 | 12% | ██████ | Sep 02, 2026 |
-| `strings` | 18 | 12% | ██████ | Sep 02, 2026 |
-| `greedy` | 17 | 11% | ██████ | Aug 11, 2026 |
-| `trees` | 15 | 10% | █████ | Sep 09, 2026 |
+| `arrays` | 23 | 15% | ████████ | Aug 16, 2026 |
+| `hashing` | 19 | 13% | ███████ | Sep 02, 2026 |
+| `strings` | 19 | 13% | ███████ | Sep 02, 2026 |
+| `greedy` | 18 | 12% | ██████ | Aug 11, 2026 |
+| `trees` | 16 | 11% | ██████ | Sep 09, 2026 |
 | `backtracking` | 14 | 9% | █████ | Aug 16, 2026 |
 | `dynamic-programming` | 14 | 9% | █████ | Sep 09, 2026 |
 | `heap` | 11 | 7% | ████ | Jul 23, 2026 |
@@ -79,7 +79,7 @@ Of the **148 questions at Google that carry a topic label** (77% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Google, by the month it was reported in — Oct 15, 2025 to Sep 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Google, by the month it was reported in — Jun 10, 2025 to Sep 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -95,6 +95,8 @@ Every recorded sighting at Google, by the month it was reported in — Oct 15, 2
 | [Dec 2025](../by-month/2025-12.md) | 6 | ██████████ |
 | [Nov 2025](../by-month/2025-11.md) | 5 | ████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
+| [Aug 2025](../by-month/2025-08.md) | 1 | ██ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
 
 ## Start here
 
@@ -141,7 +143,7 @@ What candidates said happened in the room at Google — written up by the people
 | Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/85061c2b-c365-445a-a59d-b90abfba3d78) | Sep 27, 2026 |
 | Software | [Google Software Engineer L4 Interview Experience (Mountain View)](https://trueinterview.io/interviews/d31723af-0630-49cd-9d88-990b5c8ac5d4) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Google and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Google and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -185,7 +187,7 @@ What candidates said happened in the room at Google — written up by the people
 | [First Bad Version with Parallel Search Follow-up](https://trueinterview.io/questions/first-bad-version-parallel-search) | Algorithm | Medium | Jun 15, 2026 |
 | [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
-| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Huffman Tree Construction](https://trueinterview.io/questions/huffman-tree-construction) | Algorithm | Medium | Jun 01, 2026 |
 | [Matrix Flower Placement with House Adjacency](https://trueinterview.io/questions/matrix-flower-placement-with-house-adjacency) | Algorithm | Hard | May 31, 2026 |
@@ -213,7 +215,7 @@ What candidates said happened in the room at Google — written up by the people
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
 | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Algorithm | Medium | Mar 21, 2026 |
-| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Easy | Mar 21, 2026 |
+| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | Mar 21, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Hard | Mar 17, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
@@ -251,6 +253,8 @@ What candidates said happened in the room at Google — written up by the people
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
+| [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | Algorithm | Easy | Aug 26, 2025 |
+| [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Algorithm | Medium | Jun 10, 2025 |
 | [Maximum Assignment Between Problems and Programmers](https://trueinterview.io/questions/da013e43-63d8-5840-93c8-df123b1c76f9) | Algorithm | Hard | — |
 | [Reconstruct the BFS Path Before Reaching a Target](https://trueinterview.io/questions/ceeafc15-ce16-50a3-8890-26d9bd82c3ca) | Algorithm | Medium | — |
 | [Check Whether a Template Occurs in Leaf Text of a Binary Tree](https://trueinterview.io/questions/ccbcfb4f-2b34-53ef-a8da-4bedfb2889e5) | Algorithm | Hard | — |
@@ -273,9 +277,12 @@ What candidates said happened in the room at Google — written up by the people
 | [Remove at Most One Blocker to Minimize Signal Completion Time](https://trueinterview.io/questions/05834c64-3f82-5628-8732-14c6759ded40) | Algorithm | Hard | — |
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
 | [Build Binary Tree From Character Counts](https://trueinterview.io/questions/build-binary-tree-from-character-counts-2) | Algorithm | Medium | — |
+| [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2) | Algorithm | Medium | — |
+| [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Algorithm | Medium | — |
 | [Highway Checkpoint](https://trueinterview.io/questions/highway-checkpoint) | Algorithm | Easy | — |
 | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Algorithm | Medium | — |
 | [Count Intervals Covering Point](https://trueinterview.io/questions/count-intervals-covering-point-2) | Algorithm | Medium | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Hard | — |
 | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | — |

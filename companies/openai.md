@@ -132,7 +132,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | :-- | :-- | :-- |
 | Software | [OpenAI Chess.com System Design Interview Experience](https://trueinterview.io/interviews/f8f5171e-ab67-4ea2-83e8-852449b6a893) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at OpenAI and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

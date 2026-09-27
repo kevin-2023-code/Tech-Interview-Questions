@@ -8,7 +8,7 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [79](../linkedin.md) |
+| Questions reported | [82](../linkedin.md) |
 | Free to read here | 7 |
 | Interview-process guides | 4 |
 | Other guides | 2 |
@@ -59,7 +59,7 @@ The design round is data-intensive but often deliberately scoped down rather tha
 
 ## Everything else
 
-- [All 79 questions reported at LinkedIn](../linkedin.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 82 questions reported at LinkedIn](../linkedin.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every LinkedIn question on TrueInterview](https://trueinterview.io/problems/company/linkedin).
 
 ---

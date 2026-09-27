@@ -2,7 +2,7 @@
 
 # NVIDIA interview process, OA & interview questions
 
-**28 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How NVIDIA interviews & the free questions](nvidia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **28** |
+| Questions tracked | **29** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 28) |
-| Difficulty (easy / medium / hard) | 6 / 14 / 8 |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
+| Difficulty (easy / medium / hard) | 6 / 15 / 8 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 28 questions reported at NVIDIA. 17 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 29 questions reported at NVIDIA. 17 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **28 of 28** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **29 of 29** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 3 / 8 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 3 / 9 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 14 | █████████ | [Algorithm](../formats/algorithm.md) (43%) | 1 / 7 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -50,20 +50,20 @@ Which stage each question came from, for the **28 of 28** questions at NVIDIA th
 
 ## What they ask about
 
-Of the **18 questions at NVIDIA that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at NVIDIA that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 22% | ████████████ | Apr 15, 2026 |
-| `arrays` | 3 | 17% | █████████ | Aug 21, 2026 |
-| `strings` | 3 | 17% | █████████ | Apr 26, 2026 |
+| `hashing` | 4 | 21% | ████████████ | Apr 15, 2026 |
+| `arrays` | 3 | 16% | █████████ | Aug 21, 2026 |
+| `strings` | 3 | 16% | █████████ | Apr 26, 2026 |
+| `binary-search` | 2 | 11% | ██████ | Aug 21, 2026 |
 | `heap` | 2 | 11% | ██████ | Feb 05, 2026 |
 | `math` | 2 | 11% | ██████ | Feb 12, 2026 |
 | `sliding-window` | 2 | 11% | ██████ | Mar 06, 2026 |
 | `sorting` | 2 | 11% | ██████ | Feb 04, 2026 |
 | `two-pointers` | 2 | 11% | ██████ | — |
-| `binary-search` | 1 | 6% | ███ | Aug 21, 2026 |
-| `dynamic-programming` | 1 | 6% | ███ | — |
+| `dynamic-programming` | 1 | 5% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -148,5 +148,6 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Log Parser for Top N Items](https://trueinterview.io/questions/7c107386-3c24-4acd-9385-b7d274fca67b) | Algorithm | Easy | — |
 | [SQL Aggregation Across Country/State/City/Zip Tables](https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a) | SQL | Medium | — |
 | [Python Data Processing Task (Parse, Aggregate, and Validate)](https://trueinterview.io/questions/3a714999-40ed-4da6-b12f-d0addf376068) | Algorithm | Easy | — |
+| [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Algorithm | Medium | — |
 | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

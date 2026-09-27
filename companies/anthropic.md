@@ -18,8 +18,8 @@
 | Most recent sighting | Jun 21, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (29% of 69) |
-| Difficulty (easy / medium / hard) | 9 / 40 / 20 |
-| Free to practise | [7](../free/README.md) |
+| Difficulty (easy / medium / hard) | 9 / 39 / 21 |
+| Free to practise | [10](../free/README.md) |
 | Guides & writeups | 11 |
 | Interview reports on the board | 3 in this snapshot |
 
@@ -32,8 +32,8 @@ Which stage each question came from, for the **69 of 69** questions at Anthropic
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 15 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 5 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 30 | ███████ | [Algorithm](../formats/algorithm.md) (47%) | 0 / 21 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 41 | ██████████ | [AI Coding](../formats/ai-coding.md) (37%) | 5 / 23 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 30 | ███████ | [Algorithm](../formats/algorithm.md) (47%) | 0 / 20 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 41 | ██████████ | [AI Coding](../formats/ai-coding.md) (37%) | 5 / 22 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -83,9 +83,9 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
 | **2** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
-| **3** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Medium | — | Jun 15, 2026 |
-| **4** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | — | Jun 15, 2026 |
-| **5** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | — | Jun 15, 2026 |
+| **3** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | — | Jun 15, 2026 |
+| **4** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | — | Jun 15, 2026 |
+| **5** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Hard | — | Jun 15, 2026 |
 | **6** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | — | Jun 15, 2026 |
 | **7** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) 🆓 | Object Oriented Programming | Medium | — | Jun 10, 2026 |
 | **8** | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) 🆓 | Algorithm | Medium | — | Jun 04, 2026 |
@@ -120,7 +120,7 @@ What candidates said happened in the room at Anthropic — written up by the peo
 | Software | [Anthropic Infrastructure Position Interview Experience](https://trueinterview.io/interviews/53ca2174-7f18-4579-9237-8fd268093c7b) | Sep 27, 2026 |
 | Data & AI | [Anthropic OpenAI / Recursive / GDM / Meta Interview Experience](https://trueinterview.io/interviews/6b6b7d11-5798-444e-a034-05ff797076d0) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Anthropic and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Anthropic and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -134,7 +134,7 @@ What candidates said happened in the room at Anthropic — written up by the peo
 | :-- | :-- | :-: | :-- |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |
-| [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Medium | Jun 15, 2026 |
+| [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | AI Coding | Hard | Jun 15, 2026 |
 | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | Jun 15, 2026 |
 | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | Jun 15, 2026 |

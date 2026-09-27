@@ -2,7 +2,7 @@
 
 # Point72 interview process, OA & interview questions
 
-**17 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
+**21 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Point72 interviews & the free questions](point72/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,53 +14,57 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **17** |
+| Questions tracked | **21** |
 | Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 17) |
-| Difficulty (easy / medium / hard) | 4 / 9 / 4 |
+| Reported in the last 90 days | 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (81% of 21) |
+| Difficulty (easy / medium / hard) | 5 / 9 / 7 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 17 questions reported at Point72. 4 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 21 questions reported at Point72. 8 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **17 of 17** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **21 of 21** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 4 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ██████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (91%) | 5 / 1 / 5 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ██████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
+| [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | Online assessment | Jul 29, 2026 |
+| [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Algorithm | Hard | Online assessment | Jul 29, 2026 |
+| [League Earnings](https://trueinterview.io/questions/league-earnings) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
+| [Optimal Stock Price Subsequence](https://trueinterview.io/questions/optimal-stock-price-subsequence) | Algorithm | Hard | Online assessment | Jul 29, 2026 |
 | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | Online assessment, Onsite / virtual onsite | Jul 29, 2026 |
 
 ## What they ask about
 
-Of the **11 questions at Point72 that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Point72 that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `sorting` | 4 | 36% | ████████████ | Jul 29, 2026 |
-| `greedy` | 3 | 27% | █████████ | Mar 25, 2026 |
-| `arrays` | 2 | 18% | ██████ | Jul 29, 2026 |
-| `dynamic-programming` | 2 | 18% | ██████ | — |
-| `math` | 2 | 18% | ██████ | — |
-| `binary-search` | 1 | 9% | ███ | — |
-| `hashing` | 1 | 9% | ███ | Jul 29, 2026 |
-| `stack` | 1 | 9% | ███ | Mar 25, 2026 |
-| `strings` | 1 | 9% | ███ | — |
+| `dynamic-programming` | 4 | 29% | ████████████ | Jul 29, 2026 |
+| `greedy` | 4 | 29% | ████████████ | Jul 29, 2026 |
+| `sorting` | 4 | 29% | ████████████ | Jul 29, 2026 |
+| `arrays` | 2 | 14% | ██████ | Jul 29, 2026 |
+| `math` | 2 | 14% | ██████ | — |
+| `binary-search` | 1 | 7% | ███ | — |
+| `hashing` | 1 | 7% | ███ | Jul 29, 2026 |
+| `stack` | 1 | 7% | ███ | Mar 25, 2026 |
+| `strings` | 1 | 7% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -70,8 +74,8 @@ Every recorded sighting at Point72, by the month it was reported in — Mar 25, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ████████ |
+| [Jul 2026](../by-month/2026-07.md) | 7 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
 
 ## Start here
 
@@ -81,12 +85,12 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 2 | Jul 29, 2026 |
 | **2** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | — | Jul 29, 2026 |
-| **3** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | — | Jul 29, 2026 |
-| **4** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) 🆓 | Algorithm | Hard | 1 | Mar 25, 2026 |
-| **5** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) 🆓 | Algorithm | Medium | 7 | — |
-| **6** | [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe) | Algorithm | Easy | — | — |
-| **7** | [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc) | Algorithm | Easy | — | — |
-| **8** | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Algorithm | Medium | — | — |
+| **3** | [League Earnings](https://trueinterview.io/questions/league-earnings) | Algorithm | Easy | — | Jul 29, 2026 |
+| **4** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | — | Jul 29, 2026 |
+| **5** | [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | — | Jul 29, 2026 |
+| **6** | [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Algorithm | Hard | — | Jul 29, 2026 |
+| **7** | [Optimal Stock Price Subsequence](https://trueinterview.io/questions/optimal-stock-price-subsequence) | Algorithm | Hard | — | Jul 29, 2026 |
+| **8** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) 🆓 | Algorithm | Hard | 1 | Mar 25, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -109,6 +113,10 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Algorithm | Medium | Jul 29, 2026 |
+| [Optimal Stock Price Subsequence](https://trueinterview.io/questions/optimal-stock-price-subsequence) | Algorithm | Hard | Jul 29, 2026 |
+| [League Earnings](https://trueinterview.io/questions/league-earnings) | Algorithm | Easy | Jul 29, 2026 |
+| [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Algorithm | Hard | Jul 29, 2026 |
+| [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | Jul 29, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Jul 29, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |

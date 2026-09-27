@@ -8,7 +8,7 @@ How Verkada interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [23](../verkada.md) |
+| Questions reported | [27](../verkada.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -44,7 +44,7 @@ Two constraints recur inside these rounds and catch people off guard. Interviewe
 
 ## Everything else
 
-- [All 23 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 27 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Verkada question on TrueInterview](https://trueinterview.io/problems/company/verkada).
 
 ---

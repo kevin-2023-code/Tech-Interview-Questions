@@ -2,7 +2,7 @@
 
 # Oracle interview process, OA & interview questions
 
-**41 questions** reported at Oracle · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
+**45 questions** reported at Oracle · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Oracle interviews & the free questions](oracle/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **41** |
+| Questions tracked | **45** |
 | Most recent sighting | Aug 13, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 41) |
-| Difficulty (easy / medium / hard) | 7 / 28 / 6 |
-| Free to practise | [3](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 45) |
+| Difficulty (easy / medium / hard) | 7 / 32 / 6 |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 41 questions reported at Oracle. 30 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 45 questions reported at Oracle. 34 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **41 of 41** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **45 of 45** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 23 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 3 / 16 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 16 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 1 / 12 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 26 | ██████████ | [Algorithm](../formats/algorithm.md) (73%) | 3 / 19 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 17 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (47%) | 1 / 13 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **41 of 41** questions at Oracle th
 
 ## What they ask about
 
-Of the **24 questions at Oracle that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **27 questions at Oracle that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 4 | 17% | ████████████ | Apr 14, 2026 |
-| `math` | 4 | 17% | ████████████ | Apr 14, 2026 |
-| `strings` | 4 | 17% | ████████████ | Feb 07, 2026 |
-| `backtracking` | 3 | 12% | █████████ | Nov 17, 2025 |
-| `graphs` | 3 | 12% | █████████ | Apr 14, 2026 |
-| `greedy` | 3 | 12% | █████████ | Apr 14, 2026 |
-| `hashing` | 3 | 12% | █████████ | Apr 14, 2026 |
-| `stack` | 3 | 12% | █████████ | Feb 07, 2026 |
-| `heap` | 2 | 8% | ██████ | Nov 20, 2025 |
-| `linked-list` | 2 | 8% | ██████ | Apr 14, 2026 |
+| `strings` | 5 | 19% | ████████████ | Feb 07, 2026 |
+| `arrays` | 4 | 15% | ██████████ | Apr 14, 2026 |
+| `graphs` | 4 | 15% | ██████████ | Apr 14, 2026 |
+| `math` | 4 | 15% | ██████████ | Apr 14, 2026 |
+| `backtracking` | 3 | 11% | ███████ | Nov 17, 2025 |
+| `greedy` | 3 | 11% | ███████ | Apr 14, 2026 |
+| `hashing` | 3 | 11% | ███████ | Apr 14, 2026 |
+| `stack` | 3 | 11% | ███████ | Feb 07, 2026 |
+| `heap` | 2 | 7% | █████ | Nov 20, 2025 |
+| `linked-list` | 2 | 7% | █████ | Apr 14, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -78,6 +78,10 @@ Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2
 | [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ████ |
 | [Sep 2025](../by-month/2025-09.md) | 3 | ████████████ |
+| [Aug 2025](../by-month/2025-08.md) | 1 | ████ |
+| [Jul 2025](../by-month/2025-07.md) | 1 | ████ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | ████ |
+| [Apr 2025](../by-month/2025-04.md) | 1 | ████ |
 | [Jan 2025](../by-month/2025-01.md) | 2 | ████████ |
 
 ## Start here
@@ -145,6 +149,10 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [File Management System](https://trueinterview.io/questions/ood-file-management-system) | Object Oriented Programming | Medium | Sep 16, 2025 |
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | Object Oriented Programming | Easy | Sep 15, 2025 |
 | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | Object Oriented Programming | Medium | Sep 15, 2025 |
+| [Log Parser with Multi-Line Follow-up](https://trueinterview.io/questions/log-parser-multiline) | Algorithm | Medium | Aug 06, 2025 |
+| [Binary Search — Rightmost Index of Duplicate](https://trueinterview.io/questions/binary-search-rightmost-duplicate) | Algorithm | Medium | Jul 07, 2025 |
+| [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Algorithm | Medium | Jun 10, 2025 |
+| [Maximum Completable Tasks with Prerequisites (Topological)](https://trueinterview.io/questions/course-prerequisites-task-count) | Algorithm | Medium | Apr 02, 2025 |
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Object Oriented Programming | Medium | Jan 15, 2025 |
 | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | System Design | Hard | Jan 15, 2025 |
 | [Generate all permutations of a list](https://trueinterview.io/questions/55b47ffb-5c4d-4c32-b3fc-350263687e62) | Algorithm | Easy | — |

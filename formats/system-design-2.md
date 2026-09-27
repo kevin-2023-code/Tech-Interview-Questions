@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**283 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**290 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,17 +10,24 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Databricks / Amazon / Google** | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | Hard | — |
+| **Amazon** | [Design Amazon Locker](https://trueinterview.io/questions/design-amazon-locker) | Medium | — |
+| **Yelp / Uber** | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | Medium | — |
+| **Verkada / Amazon** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Snowflake / ByteDance / Meta / Uber / Whatnot** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | Medium | — |
 | **Reddit / Stripe** | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | Medium | — |
 | **Pinterest** | [Design Soft 404 Detection](https://trueinterview.io/questions/design-soft-404-detection) | Medium | — |
 | **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
 | **Figma / Ebay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
 | **Datadog** | [Design A Facial Image Matching System](https://trueinterview.io/questions/design-a-facial-image-matching-system) | Hard | — |
+| **Confluent / Amazon / ByteDance / Google / Instacart / LinkedIn / Meta** | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | Medium | — |
+| **Confluent / Databricks / LinkedIn / Whatnot** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | Hard | — |
 | **Atlassian / Amazon / Coinbase / Databricks / Google** | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | Medium | — |
 | **Atlassian** | [Design A Color Picker Service](https://trueinterview.io/questions/design-a-color-picker-service) | Easy | — |
 | **Airbnb** | [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection) | Hard | — |
 | **Visa** | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | Medium | — |
 | **Visa** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | Medium | — |
+| **Lyft** | [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) | Medium | — |
 | **Lyft / Anthropic / Google / Meta / Snapchat / Uber** | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | Medium | — |
 | **Dropbox** | [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9) | Medium | — |
 | **Verkada** | [Real-time status counting system design](https://trueinterview.io/questions/86e2e2dd-5c95-496d-ba7e-2e052ef2f37f) | Medium | — |

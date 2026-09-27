@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**43 questions** reported at Atlassian · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**45 questions** reported at Atlassian · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Atlassian interviews & the free questions](atlassian/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **43** |
+| Questions tracked | **45** |
 | Most recent sighting | Apr 21, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (42% of 43) |
-| Difficulty (easy / medium / hard) | 11 / 27 / 5 |
-| Free to practise | [9](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (44% of 45) |
+| Difficulty (easy / medium / hard) | 12 / 28 / 5 |
+| Free to practise | [13](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 43 questions reported at Atlassian. 24 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 45 questions reported at Atlassian. 26 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **43 of 43** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **45 of 45** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 16 | ██████ | [Algorithm](../formats/algorithm.md) (56%) | 2 / 12 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 18 | ██████ | [Algorithm](../formats/algorithm.md) (61%) | 3 / 13 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 29 | ██████████ | [System Design](../formats/system-design.md) (41%) | 5 / 19 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,7 +42,7 @@ Which stage each question came from, for the **43 of 43** questions at Atlassian
 
 ## What they ask about
 
-Of the **20 questions at Atlassian that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **20 questions at Atlassian that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -61,7 +61,7 @@ Of the **20 questions at Atlassian that carry a topic label** (47% of them — t
 
 ## When they asked it
 
-Every recorded sighting at Atlassian, by the month it was reported in — Sep 12, 2025 to Apr 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Atlassian, by the month it was reported in — Jul 03, 2025 to Apr 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -73,6 +73,7 @@ Every recorded sighting at Atlassian, by the month it was reported in — Sep 12
 | [Nov 2025](../by-month/2025-11.md) | 3 | ████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 3 | ████████████ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | ████ |
+| [Jul 2025](../by-month/2025-07.md) | 2 | ████████ |
 
 ## Start here
 
@@ -136,6 +137,8 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Hopscotch](https://trueinterview.io/questions/hopscotch) | Algorithm | Medium | Oct 02, 2025 |
 | [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating) | Object Oriented Programming | Medium | Oct 02, 2025 |
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Object Oriented Programming | Medium | Sep 12, 2025 |
+| [Minimize Shopping Department Visits](https://trueinterview.io/questions/shopping-category-trip-difference) | Algorithm | Easy | Jul 03, 2025 |
+| [Campground Carpool](https://trueinterview.io/questions/karat-carpool-linear-routes) | Algorithm | Medium | Jul 03, 2025 |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |

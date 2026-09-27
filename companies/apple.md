@@ -2,7 +2,7 @@
 
 # Apple interview process, OA & interview questions
 
-**114 questions** reported at Apple · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
+**115 questions** reported at Apple · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Apple interviews & the free questions](apple/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **114** |
+| Questions tracked | **115** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 10 |
-| Most common format | [Algorithm](../formats/algorithm.md) (70% of 114) |
-| Difficulty (easy / medium / hard) | 26 / 72 / 16 |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 115) |
+| Difficulty (easy / medium / hard) | 26 / 71 / 18 |
 | Free to practise | [21](../free/README.md) |
 | Guides & writeups | 10 |
 
-<sub>Counted from the 114 questions reported at Apple. 85 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 115 questions reported at Apple. 85 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **114 of 114** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **115 of 115** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 10 | █ | [Algorithm](../formats/algorithm.md) (80%) | 7 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 89 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 17 / 57 / 15 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 35 | ████ | [Algorithm](../formats/algorithm.md) (37%) | 4 / 24 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 11 | █ | [Algorithm](../formats/algorithm.md) (82%) | 8 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 89 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 16 / 56 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 35 | ████ | [Algorithm](../formats/algorithm.md) (37%) | 4 / 22 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -55,16 +55,16 @@ Which stage each question came from, for the **114 of 114** questions at Apple t
 
 ## What they ask about
 
-Of the **85 questions at Apple that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **86 questions at Apple that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 19 | 22% | ████████████ | Aug 26, 2026 |
+| `hashing` | 20 | 23% | ████████████ | Aug 26, 2026 |
 | `arrays` | 18 | 21% | ███████████ | Aug 05, 2026 |
-| `graphs` | 15 | 18% | █████████ | Jul 27, 2026 |
+| `graphs` | 15 | 17% | █████████ | Jul 27, 2026 |
 | `matrix` | 10 | 12% | ██████ | Aug 26, 2026 |
 | `strings` | 10 | 12% | ██████ | May 05, 2026 |
-| `two-pointers` | 9 | 11% | ██████ | Apr 28, 2026 |
+| `two-pointers` | 9 | 10% | █████ | Apr 28, 2026 |
 | `heap` | 7 | 8% | ████ | Aug 05, 2026 |
 | `linked-list` | 7 | 8% | ████ | Aug 16, 2026 |
 | `backtracking` | 5 | 6% | ███ | Apr 20, 2026 |
@@ -149,7 +149,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | System Design | Hard | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Algorithm | Hard | Jun 24, 2026 |
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
-| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | May 27, 2026 |
 | [Happy Number II](https://trueinterview.io/questions/happy-number-2) | Algorithm | Medium | May 27, 2026 |
@@ -165,7 +165,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Algorithm | Medium | Apr 24, 2026 |
 | [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Algorithm | Easy | Apr 20, 2026 |
 | [Flood Fill](https://trueinterview.io/questions/flood-fill) | Algorithm | Easy | Apr 20, 2026 |
-| [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | System Design | Medium | Apr 18, 2026 |
+| [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | System Design | Hard | Apr 18, 2026 |
 | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Algorithm | Medium | Apr 18, 2026 |
 | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Algorithm | Medium | Apr 14, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
@@ -238,7 +238,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Algorithm | Hard | — |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Medium | — |
-| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |
+| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Medium | — |
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Algorithm | Hard | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Medium | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
@@ -247,4 +247,5 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Python Debugging — Fix a Loop Condition Bug](https://trueinterview.io/questions/e9adef64-7ceb-4294-bae4-8d77a203ee81) | AI Coding | Easy | — |
 | [Reverse String Using Stream](https://trueinterview.io/questions/cd0c8b7a-32b1-466f-8b99-1eea4d72719b) | Algorithm | Easy | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |
+| [First Unique Element IV](https://trueinterview.io/questions/933927db-2acf-4529-88cf-b16cfd184b00) | Algorithm | Easy | — |
 | [Nearest Neighbor Image Retrieval by Embedding](https://trueinterview.io/questions/4280c85d-a4c0-469a-b45e-2a0910a2edfd) | Algorithm | Medium | — |

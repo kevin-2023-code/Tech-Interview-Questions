@@ -2,7 +2,7 @@
 
 # Microsoft interview process, OA & interview questions
 
-**114 questions** reported at Microsoft · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
+**115 questions** reported at Microsoft · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Microsoft interviews & the free questions](microsoft/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **114** |
+| Questions tracked | **115** |
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (73% of 114) |
-| Difficulty (easy / medium / hard) | 16 / 70 / 28 |
-| Free to practise | [17](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (73% of 115) |
+| Difficulty (easy / medium / hard) | 16 / 71 / 28 |
+| Free to practise | [18](../free/README.md) |
 | Guides & writeups | 10 |
 
-<sub>Counted from the 114 questions reported at Microsoft. 61 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 115 questions reported at Microsoft. 62 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **114 of 114** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **115 of 115** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 7 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 54 | █████████ | [Algorithm](../formats/algorithm.md) (78%) | 6 / 34 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 55 | ██████████ | [Algorithm](../formats/algorithm.md) (78%) | 6 / 35 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 57 | ██████████ | [Algorithm](../formats/algorithm.md) (61%) | 5 / 38 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -56,7 +56,7 @@ Which stage each question came from, for the **114 of 114** questions at Microso
 
 ## What they ask about
 
-Of the **82 questions at Microsoft that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **82 questions at Microsoft that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -75,7 +75,7 @@ Of the **82 questions at Microsoft that carry a topic label** (72% of them — t
 
 ## When they asked it
 
-Every recorded sighting at Microsoft, by the month it was reported in — Oct 15, 2025 to Sep 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Microsoft, by the month it was reported in — Nov 15, 2024 to Sep 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -91,6 +91,7 @@ Every recorded sighting at Microsoft, by the month it was reported in — Oct 15
 | [Dec 2025](../by-month/2025-12.md) | 1 | ██ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
+| [Nov 2024](../by-month/2024-11.md) | 1 | ██ |
 
 ## Start here
 
@@ -197,6 +198,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Sort 0..32000 with Bit-Vector Storage](https://trueinterview.io/questions/bit-vector-sort-0-to-32000) | Algorithm | Easy | Nov 21, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
+| [Spiral Matrix Traversal](https://trueinterview.io/questions/spiral-matrix-output) | Algorithm | Medium | Nov 15, 2024 |
 | [Subtract Two Numbers Represented by Forward-Order Linked Lists](https://trueinterview.io/questions/ff0e0f3b-5fa8-542c-9f99-2afc8d2457fa) | Algorithm | Hard | — |
 | [Most Visited Position on a Sprint Track](https://trueinterview.io/questions/f8fe9b56-4721-55a3-84eb-743d6bed0777) | Algorithm | Medium | — |
 | [Maximum Strength of Each Neuron in a Tree Network](https://trueinterview.io/questions/9d18d811-132f-5f8b-abca-0a58be27d911) | Algorithm | Hard | — |

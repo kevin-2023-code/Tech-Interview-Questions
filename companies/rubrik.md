@@ -2,7 +2,7 @@
 
 # Rubrik interview process, OA & interview questions
 
-**14 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
+**20 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
 
 [📖 How Rubrik interviews & the free questions](rubrik/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **14** |
+| Questions tracked | **20** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 14) |
-| Difficulty (easy / medium / hard) | 0 / 4 / 10 |
+| Most common format | [Algorithm](../formats/algorithm.md) (100% of 20) |
+| Difficulty (easy / medium / hard) | 2 / 4 / 14 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 14 questions reported at Rubrik. 0 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 20 questions reported at Rubrik. 0 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **14 of 14** questions at Rubrik that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **20 of 20** questions at Rubrik that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -40,37 +41,37 @@ Which stage each question came from, for the **14 of 14** questions at Rubrik th
 
 ## What they ask about
 
-Of the **13 questions at Rubrik that carry a topic label** (93% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Rubrik that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `binary-search` | 2 | 15% | ████████████ | — |
-| `bit-manipulation` | 2 | 15% | ████████████ | — |
-| `dynamic-programming` | 2 | 15% | ████████████ | — |
-| `graphs` | 2 | 15% | ████████████ | — |
-| `strings` | 2 | 15% | ████████████ | — |
-| `arrays` | 1 | 8% | ██████ | — |
-| `greedy` | 1 | 8% | ██████ | — |
-| `hashing` | 1 | 8% | ██████ | — |
-| `math` | 1 | 8% | ██████ | — |
-| `sorting` | 1 | 8% | ██████ | — |
+| `binary-search` | 2 | 12% | ████████████ | — |
+| `bit-manipulation` | 2 | 12% | ████████████ | — |
+| `dynamic-programming` | 2 | 12% | ████████████ | — |
+| `graphs` | 2 | 12% | ████████████ | — |
+| `greedy` | 2 | 12% | ████████████ | — |
+| `sorting` | 2 | 12% | ████████████ | — |
+| `strings` | 2 | 12% | ████████████ | — |
+| `two-pointers` | 2 | 12% | ████████████ | — |
+| `arrays` | 1 | 6% | ██████ | — |
+| `backtracking` | 1 | 6% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Rubrik. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 8 questions on file, easiest first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Rubrik, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) 🆓 | Algorithm | Medium | — | — |
-| **2** | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Algorithm | Medium | — | — |
-| **3** | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) 🆓 | Algorithm | Medium | — | — |
-| **4** | [Doing Smart Work](https://trueinterview.io/questions/c289bb51-4892-4291-99e5-08832daa7801) | Algorithm | Medium | — | — |
-| **5** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) 🆓 | Algorithm | Hard | — | — |
-| **6** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Algorithm | Hard | — | — |
-| **7** | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Algorithm | Hard | — | — |
-| **8** | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Algorithm | Hard | — | — |
+| **1** | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) 🆓 | Algorithm | Easy | 1 | — |
+| **2** | [String Shift](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905) | Algorithm | Easy | — | — |
+| **3** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Algorithm | Medium | — | — |
+| **4** | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Algorithm | Medium | — | — |
+| **5** | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) 🆓 | Algorithm | Medium | — | — |
+| **6** | [Doing Smart Work](https://trueinterview.io/questions/c289bb51-4892-4291-99e5-08832daa7801) | Algorithm | Medium | — | — |
+| **7** | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) 🆓 | Algorithm | Hard | — | — |
+| **8** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -92,17 +93,23 @@ The 8 questions to open first if you are preparing for Rubrik. **This is not a r
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Chain Merge](https://trueinterview.io/questions/f2173855-1f89-4b97-8dde-48f9a949a483) | Algorithm | Hard | — |
 | [Salvage Humankind](https://trueinterview.io/questions/f0fcecb3-32b1-4092-9944-6f125e02f16b) | Algorithm | Hard | — |
 | [Get Minimum Operations](https://trueinterview.io/questions/cb43fa07-ddf7-494b-9e87-878972064c9d) | Algorithm | Hard | — |
 | [Doing Smart Work](https://trueinterview.io/questions/c289bb51-4892-4291-99e5-08832daa7801) | Algorithm | Medium | — |
 | [Save the Universe](https://trueinterview.io/questions/c11dffe8-95de-4aa1-8590-3df80831bcba) | Algorithm | Hard | — |
+| [Energy Crisis](https://trueinterview.io/questions/bd64beb0-36d0-4d3b-9dfe-063ea75dcdf4) | Algorithm | Hard | — |
 | [Key Sum Management](https://trueinterview.io/questions/bb400936-26d5-47af-adf3-bfc0445aa432) | Algorithm | Hard | — |
 | [Maximize Happiness](https://trueinterview.io/questions/9a5a6369-36c2-41ca-923b-276bf08c2011) | Algorithm | Hard | — |
 | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Algorithm | Hard | — |
 | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Algorithm | Hard | — |
+| [Starlight](https://trueinterview.io/questions/73a6ae6a-88c0-45d6-9d5b-63411038dfd8) | Algorithm | Hard | — |
 | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Algorithm | Hard | — |
 | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Algorithm | Hard | — |
 | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Algorithm | Medium | — |
+| [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | Algorithm | Hard | — |
 | [Validate BFS Order on a Tree Built from Two Parent Vectors](https://trueinterview.io/questions/f23be60c-a2d3-405e-8606-bfd7b48410ba) | Algorithm | Hard | — |
+| [String Shift](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905) | Algorithm | Easy | — |
 | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) | Algorithm | Medium | — |
 | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Algorithm | Medium | — |
+| [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Algorithm | Easy | — |

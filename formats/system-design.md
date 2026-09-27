@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**283 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**290 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -15,6 +15,7 @@
 | **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🔥 Sep 15, 2026 |
 | **Nclusion** | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | Easy | 🔥 Sep 15, 2026 |
 | **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Medium | 🔥 Sep 15, 2026 |
+| **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🔥 Sep 15, 2026 |
 | **AMD** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | Hard | 🔥 Sep 14, 2026 |
 | **AMD** | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | Medium | 🔥 Sep 14, 2026 |
 | **Wayfair** | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | Hard | 🆕 Sep 10, 2026 |
@@ -23,6 +24,7 @@
 | **DoorDash** | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | Medium | 🆕 Sep 10, 2026 |
 | **Databricks** | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | Medium | 🆕 Sep 06, 2026 |
 | **Airbnb** | [Rank Home Search Results Without a Text Query](https://trueinterview.io/questions/rank-home-search-results-without-a-text-query) | Hard | 🆕 Sep 04, 2026 |
+| **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Medium | 🆕 Sep 01, 2026 |
 | **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Hard | 🆕 Sep 01, 2026 |
 | **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | Hard | 🆕 Aug 30, 2026 |
 | **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Hard | 🆕 Aug 29, 2026 |
@@ -129,7 +131,7 @@
 | **Meta** | [LeetCode / Online Judge + Contest Leaderboard](https://trueinterview.io/questions/system-design-leetcode-online-judge) | Hard | Apr 21, 2026 |
 | **Atlassian** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | Hard | Apr 21, 2026 |
 | **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
-| **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Medium | Apr 18, 2026 |
+| **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Hard | Apr 18, 2026 |
 | **Waymo** | [Choose Passenger Drop-off Location](https://trueinterview.io/questions/sd-passenger-dropoff-location-ml) | Hard | Apr 18, 2026 |
 | **Waymo** | [Behavior Prediction from Sensor + Camera Data](https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors) | Hard | Apr 18, 2026 |
 | **Roblox** | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | Hard | Apr 18, 2026 |
@@ -252,13 +254,11 @@
 | **Databricks** | [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) | Medium | Oct 09, 2025 |
 | **OpenAI** | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | Medium | Oct 07, 2025 |
 | **Waymo** | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | Hard | Sep 29, 2025 |
+| **JPMorgan** | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | Hard | Jun 21, 2025 |
 | **Robinhood** | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | Medium | Jun 2025 |
 | **Oracle** | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | Hard | Jan 15, 2025 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
 | **StackAdapt** | [Priority-Based Rate-Limited Web Crawler Design](https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22) | Medium | — |
 | **DoorDash** | [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | Medium | — |
-| **Databricks / Amazon / Google** | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | Hard | — |
-| **Amazon** | [Design Amazon Locker](https://trueinterview.io/questions/design-amazon-locker) | Medium | — |
-| **Yelp / Uber** | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](system-design-2.md)</sub>

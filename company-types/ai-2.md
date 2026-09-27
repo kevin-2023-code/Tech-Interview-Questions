@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**263 questions** reported across the **12 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**268 questions** reported across the **12 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,11 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Anthropic** | [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) | Medium | — |
+| **Anthropic** | [Implement a Function 'get_when' in an In-Memory Database](https://trueinterview.io/questions/b6750541-51ba-4dfa-93b2-568a0c81515b) | Easy | — |
+| **Anthropic** | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | Medium | — |
+| **Anthropic** | [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) | Medium | — |
+| **Anthropic** | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | Hard | — |
 | **Anthropic** | [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | Easy | — |
 | **Anthropic** | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | Hard | — |
 | **Anthropic** | [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a) | Medium | — |

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 6) |
 | Difficulty (easy / medium / hard) | 0 / 5 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 6 questions reported at Palantir. 0 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -58,7 +58,7 @@ The 6 questions to open first if you are preparing for Palantir, ranked by **the
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | 2 | — |
+| **1** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) 🆓 | Algorithm | Medium | 2 | — |
 | **2** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) 🆓 | Algorithm | Medium | 1 | — |
 | **3** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | 1 | — |
 | **4** | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) 🆓 | Algorithm | Medium | — | — |

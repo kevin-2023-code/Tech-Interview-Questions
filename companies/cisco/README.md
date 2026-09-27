@@ -8,8 +8,8 @@ How Cisco interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [18](../cisco.md) |
-| Free to read here | 6 |
+| Questions reported | [23](../cisco.md) |
+| Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 16, 2026 |
@@ -34,20 +34,24 @@ End to end, the Cisco pipeline typically runs four to eight weeks, though schedu
 
 ## Free Cisco questions
 
-6 questions reported at Cisco open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at Cisco open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Rotate a Matrix by 90 Degrees In Place](../../questions/algorithm/rotate-a-matrix-by-90-degrees-in-place/README.md) | Algorithm | Medium | Online assessment, Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) |
 | [Nested Pattern String Expansion](../../questions/algorithm/nested-pattern-string-expansion/README.md) | Algorithm | Hard | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/nested-pattern-string-expansion) |
+| [Compress Consecutive Ranges](../../questions/algorithm/compress-consecutive-ranges/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/compress-consecutive-ranges) |
+| [Matrix Zig-Zag Traversal](../../questions/algorithm/matrix-zig-zag-traversal/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/matrix-zig-zag-traversal) |
 | [Maximum Non-Adjacent Chocolates](../../questions/algorithm/maximum-non-adjacent-chocolates/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/3c880993-3030-4a5c-8474-3e74e89d32f3) |
 | [Word Search in Rows and Columns](../../questions/algorithm/word-search-rows-columns/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/word-search-rows-columns) |
 | [Maximum Drop Points in One Line](../../questions/algorithm/maximum-drop-points-in-one-line/README.md) | Algorithm | Easy | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/maximum-drop-points-in-one-line) |
+| [Find Out Prime or Composite](../../questions/algorithm/find-out-prime-or-composite/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bb654baa-42a6-45a5-9b96-fa99e3789184) |
+| [Find Last Cell](../../questions/algorithm/find-last-cell/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7edbbd51-ddcd-4562-b9af-114fdaabb8c3) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else
 
-- [All 18 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 23 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cisco question on TrueInterview](https://trueinterview.io/problems/company/cisco).
 
 ---

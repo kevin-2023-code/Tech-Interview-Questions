@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**618 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**637 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (236)](../companies/amazon.md) · [Uber (170)](../companies/uber.md) · [DoorDash (70)](../companies/doordash.md) · [Airbnb (49)](../companies/airbnb.md) · [Ebay (30)](../companies/ebay.md) · [Lyft (28)](../companies/lyft.md) · [Walmart Labs (26)](../companies/walmart-labs.md) · [Expedia (25)](../companies/expedia.md) · [Instacart (25)](../companies/instacart.md) · [Pinduoduo (19)](../companies/pinduoduo.md) · [Shopify (15)](../companies/shopify.md) · [Whatnot (7)](../companies/whatnot.md) · [Faire (4)](../companies/faire.md) · [Stubhub (2)](../companies/stubhub.md)
+[Amazon (238)](../companies/amazon.md) · [Uber (172)](../companies/uber.md) · [DoorDash (70)](../companies/doordash.md) · [Airbnb (49)](../companies/airbnb.md) · [Ebay (35)](../companies/ebay.md) · [Lyft (32)](../companies/lyft.md) · [Expedia (30)](../companies/expedia.md) · [Instacart (26)](../companies/instacart.md) · [Walmart Labs (26)](../companies/walmart-labs.md) · [Pinduoduo (19)](../companies/pinduoduo.md) · [Shopify (15)](../companies/shopify.md) · [Whatnot (8)](../companies/whatnot.md) · [Faire (4)](../companies/faire.md) · [Stubhub (2)](../companies/stubhub.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 414 | 67% | ██████████████ | 43 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 90 | 15% | ███ | 13 |
-| [System Design](../formats/system-design.md) | 72 | 12% | ██ | 8 |
+| [Algorithm](../formats/algorithm.md) | 428 | 67% | ██████████████ | 49 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 91 | 14% | ███ | 13 |
+| [System Design](../formats/system-design.md) | 76 | 12% | ██ | 9 |
 | [SQL](../formats/sql.md) | 26 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 16 | 3% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **86 / 407 / 125**, over the rows the catalog has graded. 65 of the 618 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **86 / 418 / 133**, over the rows the catalog has graded. 72 of the 637 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **410 questions in this cut that carry a topic label** (66% of it):
+Of the **421 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 77 | 19% | ████████████ |
-| `hashing` | 66 | 16% | ██████████ |
-| `graphs` | 64 | 16% | ██████████ |
-| `strings` | 58 | 14% | █████████ |
+| `arrays` | 81 | 19% | ████████████ |
+| `hashing` | 68 | 16% | ██████████ |
+| `graphs` | 65 | 15% | ██████████ |
+| `strings` | 60 | 14% | █████████ |
 | `greedy` | 40 | 10% | ██████ |
-| `dynamic-programming` | 39 | 10% | ██████ |
-| `sorting` | 30 | 7% | █████ |
-| `trees` | 27 | 7% | ████ |
-| `backtracking` | 26 | 6% | ████ |
-| `matrix` | 26 | 6% | ████ |
+| `dynamic-programming` | 39 | 9% | ██████ |
+| `sorting` | 32 | 8% | █████ |
+| `backtracking` | 28 | 7% | ████ |
+| `matrix` | 27 | 6% | ████ |
+| `trees` | 27 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -114,7 +114,7 @@ Of the **410 questions in this cut that carry a topic label** (66% of it):
 | **Uber** | [Minesweeper (LC 529)](https://trueinterview.io/questions/onsite-coding-minesweeper-lc-529) | Medium | Aug 10, 2026 |
 | **Amazon** | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | Medium | Aug 08, 2026 |
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Medium | Jul 30, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Lyft** | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Medium | Jul 29, 2026 |
 | **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Hard | Jul 29, 2026 |
 | **Amazon** | [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model) | Medium | Jul 22, 2026 |
@@ -173,7 +173,12 @@ Of the **410 questions in this cut that carry a topic label** (66% of it):
 | **Uber** | [First Customer Who Visited Only Once](https://trueinterview.io/questions/phone-screen-first-unique-visitor) | Medium | Jun 15, 2026 |
 | **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
 | **Whatnot** | [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) | Medium | Jun 12, 2026 |
+| **Ebay** | [Obstacle Placement and Block Check](https://trueinterview.io/questions/obstacle-placement-and-block-check) | Hard | Jun 12, 2026 |
+| **Ebay** | [Max Matrix Border Distinct Sum](https://trueinterview.io/questions/max-matrix-border-distinct-sum) | Medium | Jun 12, 2026 |
+| **Ebay** | [Match Cyclic Shift to Descending Sequence](https://trueinterview.io/questions/match-cyclic-shift-to-descending-sequence) | Easy | Jun 12, 2026 |
+| **Ebay** | [Group Chat Mention Counter](https://trueinterview.io/questions/group-chat-mention-counter) | Medium | Jun 12, 2026 |
 | **Ebay** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Medium | Jun 12, 2026 |
+| **Ebay** | [Find Matching Skeletons](https://trueinterview.io/questions/find-matching-skeletons) | Medium | Jun 12, 2026 |
 | **Ebay** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Medium | Jun 12, 2026 |
 | **Ebay** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Medium | Jun 12, 2026 |
 | **DoorDash** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Medium | Jun 11, 2026 |
@@ -186,7 +191,7 @@ Of the **410 questions in this cut that carry a topic label** (66% of it):
 | **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 | **Amazon** | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Hard | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Medium | Jun 08, 2026 |
 | **ByteDance / Amazon** | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Medium | Jun 06, 2026 |
 | **Uber** | [Random Bingo Card Generator](https://trueinterview.io/questions/bingo-card-generator) | Medium | Jun 06, 2026 |
@@ -199,7 +204,7 @@ Of the **410 questions in this cut that carry a topic label** (66% of it):
 | **Airbnb** | [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Medium | Jun 02, 2026 |
 | **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **Amazon** | [Playlist / Guide Voting System](https://trueinterview.io/questions/playlist-guide-voting-ood) | Medium | May 31, 2026 |
-| **Uber** | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Medium | May 31, 2026 |
+| **Uber** | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Hard | May 31, 2026 |
 | **Expedia** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Medium | May 30, 2026 |
 | **Expedia / IBM** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Medium | May 30, 2026 |
 | **Uber** | [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Medium | May 29, 2026 |
@@ -251,6 +256,7 @@ Of the **410 questions in this cut that carry a topic label** (66% of it):
 | **Uber** | [AI-Assisted Coding / Debug Round (HackerRank IDE + AI)](https://trueinterview.io/questions/vo-ai-assisted-debug-round) | Hard | May 08, 2026 |
 | **Walmart Labs** | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum) | Easy | May 07, 2026 |
 | **Airbnb** | [Listing Lifetime Value — Estimation](https://trueinterview.io/questions/listing-lifetime-value-ml-design) | Medium | May 03, 2026 |
+| **Uber** | [Maximize Portfolio Floor Value](https://trueinterview.io/questions/maximize-portfolio-floor-value) | Medium | May 01, 2026 |
 | **Uber / Amazon / Bloomberg / Meta / Netflix** | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Easy | May 2026 |
 | **DoorDash** | [Code Craft: Bootstrap Aggregated API](https://trueinterview.io/questions/code-craft-bootstrap-aggregated-api) | Medium | May 01, 2026 |
 | **Uber / Block** | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | Easy | May 2026 |
@@ -320,11 +326,5 @@ Of the **410 questions in this cut that carry a topic label** (66% of it):
 | **Uber / Google** | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Hard | Mar 22, 2026 |
 | **Lyft** | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis) | Medium | Mar 21, 2026 |
 | **Amazon** | [Distributed Training Data Pipeline (FAR)](https://trueinterview.io/questions/distributed-training-data-pipeline) | Hard | Mar 21, 2026 |
-| **Amazon** | [Recursive Schema Validation](https://trueinterview.io/questions/schema-validation-recursive) | Medium | Mar 21, 2026 |
-| **Amazon / Google** | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Medium | Mar 21, 2026 |
-| **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Easy | Mar 21, 2026 |
-| **Uber / Amazon / ByteDance / Gusto** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Medium | Mar 20, 2026 |
-| **DoorDash** | [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen) | Medium | Mar 20, 2026 |
-| **Airbnb** | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Medium | Mar 20, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](ecommerce-marketplace-2.md)</sub>

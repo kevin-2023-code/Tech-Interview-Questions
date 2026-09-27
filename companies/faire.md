@@ -19,7 +19,7 @@
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 4) |
 | Difficulty (easy / medium / hard) | 1 / 1 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 4 questions reported at Faire. 0 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -59,7 +59,7 @@ The 4 questions to open first if you are preparing for Faire. **This is not a ra
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Sliding Window Problem](https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782) | Algorithm | Easy | — | — |
+| **1** | [Sliding Window Problem](https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782) 🆓 | Algorithm | Easy | — | — |
 | **2** | [Print Pascal's Triangle (Symmetric Formatting)](https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3) | Algorithm | Medium | — | — |
 | **3** | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) 🆓 | Algorithm | Hard | — | — |
 | **4** | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) 🆓 | Algorithm | Hard | — | — |

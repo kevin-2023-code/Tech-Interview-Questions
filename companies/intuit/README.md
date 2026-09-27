@@ -8,7 +8,7 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [14](../intuit.md) |
+| Questions reported | [18](../intuit.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
@@ -51,7 +51,7 @@ The end-to-end process typically runs three to six weeks from application to dec
 
 ## Everything else
 
-- [All 14 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 18 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Intuit question on TrueInterview](https://trueinterview.io/problems/company/intuit).
 
 ---

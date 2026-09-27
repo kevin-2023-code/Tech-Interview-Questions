@@ -2,7 +2,7 @@
 
 # 💳 Fintech, payments & crypto — interview & OA questions
 
-**262 questions** reported across the **13 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**264 questions** reported across the **13 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Coinbase** | [Maximize Transaction Fees in Block](https://trueinterview.io/questions/7839fcf7-ef9d-4183-8b53-4bb3fa1e7172) | Medium | — |
+| **Coinbase** | [Execution Task with Promise Chains](https://trueinterview.io/questions/7296b5d5-6b1c-4ff1-ae43-012cb3886ad1) | Easy | — |
 | **Coinbase** | [Find Shortest Path for All Items](https://trueinterview.io/questions/6b165ecf-6592-4940-ab4d-0bb42c54a0e5) | Hard | — |
 | **Coinbase** | [In-Memory DB with per-key user lock: setByUser/deleteByUser/lock/unlock](https://trueinterview.io/questions/64e826a3-6585-4f8a-a6a0-6b3fcb775999) | Medium | — |
 | **Coinbase** | [Banking System Coding Exercise (Multi-Currency + History Replay Follow-ups)](https://trueinterview.io/questions/51bffc13-90aa-496d-9013-285e9c344ec4) | Hard | — |

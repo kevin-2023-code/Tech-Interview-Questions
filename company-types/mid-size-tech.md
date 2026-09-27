@@ -2,7 +2,7 @@
 
 # 🏤 Mid-sized tech (200–999) — interview & OA questions
 
-**81 questions** reported across the **10 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**84 questions** reported across the **10 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Perplexity (23)](../companies/perplexity.md) · [Harvey (15)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (7)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md) · [Cohere (2)](../companies/cohere.md)
+[Perplexity (23)](../companies/perplexity.md) · [Harvey (17)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (8)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md) · [Cohere (2)](../companies/cohere.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,26 +18,26 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 41 | 51% | ██████████████ | 12 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 20 | 25% | ███████ | 8 |
-| [System Design](../formats/system-design.md) | 15 | 19% | █████ | 5 |
+| [Algorithm](../formats/algorithm.md) | 41 | 49% | ██████████████ | 13 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 20 | 24% | ███████ | 8 |
+| [System Design](../formats/system-design.md) | 18 | 21% | ██████ | 4 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 6% | ██ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **4 / 65 / 12**, over the rows the catalog has graded. 25 of the 81 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **4 / 67 / 13**, over the rows the catalog has graded. 25 of the 84 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **44 questions in this cut that carry a topic label** (54% of it):
+Of the **45 questions in this cut that carry a topic label** (54% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 13 | 30% | ████████████ |
+| `hashing` | 14 | 31% | ████████████ |
 | `strings` | 8 | 18% | ███████ |
 | `graphs` | 7 | 16% | ██████ |
 | `trees` | 7 | 16% | ██████ |
-| `intervals` | 4 | 9% | ████ |
-| `topological-sort` | 4 | 9% | ████ |
-| `tries` | 4 | 9% | ████ |
+| `intervals` | 4 | 9% | ███ |
+| `topological-sort` | 4 | 9% | ███ |
+| `tries` | 4 | 9% | ███ |
 | `arrays` | 3 | 7% | ███ |
 | `backtracking` | 3 | 7% | ███ |
 | `math` | 3 | 7% | ███ |
@@ -46,21 +46,24 @@ Of the **44 questions in this cut that carry a topic label** (54% of it):
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**13 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Harvey | System Design | Sep 15, 2026 |
 | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Cohere | System Design | Sep 15, 2026 |
 | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Cohere | Algorithm | Sep 15, 2026 |
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Harvey | Algorithm | Sep 01, 2026 |
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Harvey | System Design | Sep 01, 2026 |
+| [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Harvey | System Design | Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Harvey | Algorithm | Aug 09, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Vanta | System Design | Jul 10, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Harvey | System Design | Jul 07, 2026 |
 | [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | Harvey | System Design | Jul 2026 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Harvey | Object Oriented Programming | Jul 2026 |
+
+<sub>1 more in this window are in the table below.</sub>
 
 ---
 
@@ -72,6 +75,8 @@ Of the **44 questions in this cut that carry a topic label** (54% of it):
 | :-- | :-- | :-: | :-- |
 | **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🔥 Sep 15, 2026 |
 | **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🔥 Sep 15, 2026 |
+| **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🔥 Sep 15, 2026 |
+| **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Medium | 🆕 Sep 01, 2026 |
 | **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Hard | 🆕 Sep 01, 2026 |
 | **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |
 | **Harvey** | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Hard | Aug 09, 2026 |
@@ -133,6 +138,7 @@ Of the **44 questions in this cut that carry a topic label** (54% of it):
 | **Whatnot / Atlassian** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Medium | — |
 | **Snowflake / ByteDance / Meta / Uber / Whatnot** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | Medium | — |
 | **Figma / Ebay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
+| **Confluent / Databricks / LinkedIn / Whatnot** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | Hard | — |
 | **Verkada / Amazon / ByteDance / LinkedIn / Lyft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
 | **Vanta** | [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Medium | — |
 | **Vanta** | [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Easy | — |

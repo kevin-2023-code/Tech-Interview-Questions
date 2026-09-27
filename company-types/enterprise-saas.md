@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**361 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**373 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Microsoft (114)](../companies/microsoft.md) · [Salesforce (52)](../companies/salesforce.md) · [Atlassian (43)](../companies/atlassian.md) · [Oracle (41)](../companies/oracle.md) · [Rippling (29)](../companies/rippling.md) · [Figma (18)](../companies/figma.md) · [Tradedesk (15)](../companies/tradedesk.md) · [Intuit (14)](../companies/intuit.md) · [Dropbox (13)](../companies/dropbox.md) · [HubSpot (10)](../companies/hubspot.md) · [Palantir (6)](../companies/palantir.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [StackAdapt (5)](../companies/stackadapt.md) · [Gusto (4)](../companies/gusto.md) · [Rokt (4)](../companies/rokt.md) · [Bobyard (3)](../companies/bobyard.md)
+[Microsoft (115)](../companies/microsoft.md) · [Salesforce (52)](../companies/salesforce.md) · [Atlassian (45)](../companies/atlassian.md) · [Oracle (45)](../companies/oracle.md) · [Rippling (29)](../companies/rippling.md) · [Figma (18)](../companies/figma.md) · [Intuit (18)](../companies/intuit.md) · [Tradedesk (16)](../companies/tradedesk.md) · [Dropbox (13)](../companies/dropbox.md) · [HubSpot (10)](../companies/hubspot.md) · [Palantir (6)](../companies/palantir.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [StackAdapt (5)](../companies/stackadapt.md) · [Gusto (4)](../companies/gusto.md) · [Rokt (4)](../companies/rokt.md) · [Bobyard (3)](../companies/bobyard.md)
 
 <sub>17 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,25 +18,25 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 224 | 62% | ██████████████ | 34 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 74 | 20% | █████ | 14 |
-| [System Design](../formats/system-design.md) | 48 | 13% | ███ | 5 |
+| [Algorithm](../formats/algorithm.md) | 236 | 63% | ██████████████ | 44 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 74 | 20% | ████ | 15 |
+| [System Design](../formats/system-design.md) | 48 | 13% | ███ | 6 |
 | [AI Coding](../formats/ai-coding.md) | 8 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **52 / 236 / 73**, over the rows the catalog has graded. 54 of the 361 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **53 / 245 / 75**, over the rows the catalog has graded. 66 of the 373 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **231 questions in this cut that carry a topic label** (64% of it):
+Of the **239 questions in this cut that carry a topic label** (64% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 37 | 16% | ████████████ |
-| `strings` | 35 | 15% | ███████████ |
-| `graphs` | 33 | 14% | ███████████ |
-| `arrays` | 28 | 12% | █████████ |
-| `greedy` | 25 | 11% | ████████ |
+| `hashing` | 37 | 15% | ████████████ |
+| `strings` | 37 | 15% | ████████████ |
+| `graphs` | 34 | 14% | ███████████ |
+| `arrays` | 29 | 12% | █████████ |
+| `greedy` | 27 | 11% | █████████ |
 | `dynamic-programming` | 21 | 9% | ███████ |
 | `trees` | 19 | 8% | ██████ |
 | `two-pointers` | 16 | 7% | █████ |
@@ -99,7 +99,7 @@ Of the **231 questions in this cut that carry a topic label** (64% of it):
 | **Microsoft** | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Hard | Aug 11, 2026 |
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Medium | Aug 04, 2026 |
 | **Figma** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Hard | Aug 04, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Hard | Jul 29, 2026 |
 | **Salesforce** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | Easy | Jul 26, 2026 |
 | **Salesforce** | [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Hard | Jul 25, 2026 |
@@ -190,7 +190,7 @@ Of the **231 questions in this cut that carry a topic label** (64% of it):
 | **Microsoft / Lyft** | [Hand-Written K-Means](https://trueinterview.io/questions/handwritten-k-means) | Medium | Feb 13, 2026 |
 | **Uber / Microsoft / Ramp** | [Purchase Optimization](https://trueinterview.io/questions/purchase-optimization) | Easy | Feb 11, 2026 |
 | **Salesforce** | [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system) | Medium | Feb 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Oracle** | [Simplified Redis-Like KV / List Store](https://trueinterview.io/questions/simplified-redis-kv-store) | Medium | Feb 04, 2026 |
 | **Oracle** | [Hospital Appointment Booking API](https://trueinterview.io/questions/hospital-appointment-booking-api) | Medium | Feb 04, 2026 |
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
@@ -247,6 +247,7 @@ Of the **231 questions in this cut that carry a topic label** (64% of it):
 | **Oracle** | [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists) | Medium | Nov 20, 2025 |
 | **Oracle** | [Course Scheduler — Print Path (Simplified)](https://trueinterview.io/questions/course-scheduler-simplified) | Easy | Nov 19, 2025 |
 | **Intuit** | [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count) | Medium | Nov 19, 2025 |
+| **Intuit** | [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words) | Medium | Nov 19, 2025 |
 | **Atlassian** | [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow) | Easy | Nov 19, 2025 |
 | **Oracle / Bloomberg / Google / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
 | **Atlassian** | [Robot Parts Assembly](https://trueinterview.io/questions/robot-parts-assembly) | Easy | Nov 06, 2025 |
@@ -262,8 +263,15 @@ Of the **231 questions in this cut that carry a topic label** (64% of it):
 | **Oracle** | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | Easy | Sep 15, 2025 |
 | **Oracle** | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | Medium | Sep 15, 2025 |
 | **Atlassian** | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Medium | Sep 12, 2025 |
+| **Oracle** | [Log Parser with Multi-Line Follow-up](https://trueinterview.io/questions/log-parser-multiline) | Medium | Aug 06, 2025 |
+| **Oracle** | [Binary Search — Rightmost Index of Duplicate](https://trueinterview.io/questions/binary-search-rightmost-duplicate) | Medium | Jul 07, 2025 |
+| **Atlassian** | [Minimize Shopping Department Visits](https://trueinterview.io/questions/shopping-category-trip-difference) | Easy | Jul 03, 2025 |
+| **Atlassian** | [Campground Carpool](https://trueinterview.io/questions/karat-carpool-linear-routes) | Medium | Jul 03, 2025 |
+| **Oracle / Google / Meta** | [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Medium | Jun 10, 2025 |
+| **Oracle** | [Maximum Completable Tasks with Prerequisites (Topological)](https://trueinterview.io/questions/course-prerequisites-task-count) | Medium | Apr 02, 2025 |
 | **Oracle** | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Medium | Jan 15, 2025 |
 | **Oracle** | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | Hard | Jan 15, 2025 |
+| **Goldman Sachs / Microsoft** | [Spiral Matrix Traversal](https://trueinterview.io/questions/spiral-matrix-output) | Medium | Nov 15, 2024 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
 | **Oracle / Apple** | [Generate all permutations of a list](https://trueinterview.io/questions/55b47ffb-5c4d-4c32-b3fc-350263687e62) | Easy | — |
 | **Salesforce** | [Implement Merge Sort and Explain Its Recursion Tree](https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4) | Medium | — |
@@ -318,13 +326,5 @@ Of the **231 questions in this cut that carry a topic label** (64% of it):
 | **Palantir / SoFi** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Medium | — |
 | **Palantir** | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) | Medium | — |
 | **Whatnot / Atlassian** | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Medium | — |
-| **Whatnot / Atlassian** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Medium | — |
-| **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
-| **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
-| **Microsoft** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-4) | Easy | — |
-| **Microsoft** | [Valid Time Combinations](https://trueinterview.io/questions/valid-time-combinations) | Medium | — |
-| **Microsoft / Microsoft AI** | [Suffix Maximum Count](https://trueinterview.io/questions/suffix-maximum-count-2) | Medium | — |
-| **Microsoft / Expedia** | [Longest Common Subsequence-Substring](https://trueinterview.io/questions/longest-common-subsequence-substring-2) | Hard | — |
-| **Microsoft / LinkedIn / Meta** | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](enterprise-saas-2.md)</sub>

@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**183 questions** reported at Meta · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**185 questions** reported at Meta · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **183** |
+| Questions tracked | **185** |
 | Most recent sighting | Aug 16, 2026 |
 | Reported in the last 90 days | 9 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 183) |
-| Difficulty (easy / medium / hard) | 29 / 115 / 39 |
-| Free to practise | [22](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (66% of 185) |
+| Difficulty (easy / medium / hard) | 28 / 118 / 39 |
+| Free to practise | [23](../free/README.md) |
 | Guides & writeups | 11 |
 
-<sub>Counted from the 183 questions reported at Meta. 86 of them carry a sighting date; the other 97 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 185 questions reported at Meta. 87 of them carry a sighting date; the other 98 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **183 of 183** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **185 of 185** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 24 | ██ | [Algorithm](../formats/algorithm.md) (62%) | 17 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 111 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 10 / 85 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 70 | ██████ | [System Design](../formats/system-design.md) (36%) | 4 / 41 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 111 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 9 / 86 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 72 | ██████ | [System Design](../formats/system-design.md) (36%) | 4 / 43 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -55,7 +55,7 @@ Which stage each question came from, for the **183 of 183** questions at Meta th
 
 ## What they ask about
 
-Of the **119 questions at Meta that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **119 questions at Meta that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -74,7 +74,7 @@ Of the **119 questions at Meta that carry a topic label** (65% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Meta, by the month it was reported in — Sep 01, 2025 to Aug 16, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Meta, by the month it was reported in — Jun 10, 2025 to Aug 16, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -89,6 +89,7 @@ Every recorded sighting at Meta, by the month it was reported in — Sep 01, 202
 | [Nov 2025](../by-month/2025-11.md) | 1 | █ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | █ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | █ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | █ |
 
 ## Start here
 
@@ -221,6 +222,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Pig Latin Sentence Converter](https://trueinterview.io/questions/pig-latin-sentence-converter) | Algorithm | Medium | Nov 11, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
 | [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | Algorithm | Easy | Sep 2025 |
+| [Simplify Expression](https://trueinterview.io/questions/simplify-parentheses-expression) | Algorithm | Medium | Jun 10, 2025 |
 | [Determine Whether a Target-Sum Subarray Exists](https://trueinterview.io/questions/c2ff0a86-05a2-5b73-ae32-07ebfae4c4c1) | Algorithm | Medium | — |
 | [Binary Tree Paths With Target Sum](https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7) | Algorithm | Medium | — |
 | [Reconstruct Binary Tree from Preorder and Postorder](https://trueinterview.io/questions/reconstruct-binary-tree-from-preorder-and-postorder) | Algorithm | Hard | — |
@@ -228,6 +230,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | SQL | Easy | — |
+| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Hard | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
 | [Analyze Locations AI Algorithm](https://trueinterview.io/questions/b4a0a464-9517-4f9c-857f-51f0132159ca) | AI Coding | Hard | — |
@@ -310,7 +313,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Maze Problem](https://trueinterview.io/questions/110ab1b0-fab7-4c67-a9b4-569ce7d74c2f) | Algorithm | Medium | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Algorithm | Hard | — |
-| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |
+| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Medium | — |
 | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Algorithm | Medium | — |
 | [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/f81c8862-7d95-4d4f-9537-73b6b1642297) | Algorithm | Medium | — |
 | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Algorithm | Medium | — |

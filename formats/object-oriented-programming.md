@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**423 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**436 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -68,6 +68,8 @@
 | **Anthropic** | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Medium | Jun 10, 2026 |
 | **Rippling** | [Logger System](https://trueinterview.io/questions/logger-system-ood) | Medium | Jun 09, 2026 |
 | **Uber** | [Random Bingo Card Generator](https://trueinterview.io/questions/bingo-card-generator) | Medium | Jun 06, 2026 |
+| **Verkada** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Medium | Jun 05, 2026 |
+| **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
 | **Databricks** | [Customer Revenue System](https://trueinterview.io/questions/revenue-tracking-system-with-referrals) | Medium | Jun 05, 2026 |
 | **Airbnb** | [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Medium | Jun 02, 2026 |
 | **Databricks** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Medium | Jun 2026 |
@@ -247,18 +249,16 @@
 | **Oracle** | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | Medium | Sep 15, 2025 |
 | **Atlassian** | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Medium | Sep 12, 2025 |
 | **Optiver** | [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation) | Medium | Sep 09, 2025 |
+| **IBM** | [Kubernetes Controller for Pod Balance](https://trueinterview.io/questions/kubernetes-controller-pod-balance) | Medium | Aug 25, 2025 |
 | **Amazon** | [Oldest One-Time Visitor](https://trueinterview.io/questions/oldest-one-time-visitor) | Medium | Aug 23, 2025 |
+| **Tesla** | [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | Hard | Aug 19, 2025 |
 | **Perplexity** | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Medium | Aug 09, 2025 |
 | **Optiver** | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | Medium | Aug 05, 2025 |
 | **Vanta** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Medium | Jul 24, 2025 |
+| **Tesla** | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Hard | Jul 24, 2025 |
 | **Coinbase** | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Medium | Jul 22, 2025 |
-| **Pinterest** | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Medium | May 30, 2025 |
-| **Oracle** | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Medium | Jan 15, 2025 |
-| **LinkedIn** | [LRU Cache with Counters](https://trueinterview.io/questions/78341155-cbbe-5ad1-a69b-4397d1288bef) | Medium | — |
-| **Anthropic** | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Hard | — |
-| **LinkedIn** | [Shortest Word Distance II](https://trueinterview.io/questions/a87d7c6b-06c5-5d2c-9924-55712f12b1e0) | Medium | — |
-| **IBM** | [Design Authentication Manager](https://trueinterview.io/questions/fffd1adb-8564-54b2-a493-eb65a9b78c1a) | Medium | — |
-| **Bloomberg** | [Refactor an LRU Cache into a Pluggable Eviction-Policy Cache](https://trueinterview.io/questions/312640e3-e5d3-5e4b-b47f-0a997bf3471d) | Hard | — |
-| **OpenAI** | [Spreadsheet Implementation with Cycle Detection and Caching](https://trueinterview.io/questions/b0fb2e35-02e8-45a9-bcfe-f1ad3e4778fd) | Medium | — |
+| **SoFi** | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | Medium | Jul 14, 2025 |
+| **Tesla** | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | Medium | Jul 04, 2025 |
+| **Goldman Sachs** | [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | Medium | Jun 09, 2025 |
 
 <sub>Page 1 of 2 · [Page 2 →](object-oriented-programming-2.md)</sub>

@@ -12,7 +12,7 @@
 
 ## Problem
 
-1. Designing a Top‑K Best‑selling Items Feature for Restaurants
+1. 🍽️ Designing a Top‑K Best‑selling Items Feature for Restaurants
 
 An online restaurant marketplace often highlights each store’s best‑selling dishes, helping customers decide faster and helping merchants gauge what sells well. On the surface it looks like a compact “Popular items” shelf, but three questions drive the entire design: how do we define “popular”, how current must the answer be, and how do we serve it inexpensively across thousands of restaurant pages?
 

@@ -9,7 +9,7 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [71](../netflix.md) |
-| Free to read here | 12 |
+| Free to read here | 13 |
 | Interview-process guides | 4 |
 | Other guides | 2 |
 | Most recent sighting | Jun 15, 2026 |
@@ -38,7 +38,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 
 ## Free Netflix questions
 
-12 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at Netflix open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -53,6 +53,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
+| [Sort Dictionary Keys](../../questions/algorithm/sort-dictionary-keys/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
 
 ## Guides

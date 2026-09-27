@@ -9,7 +9,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [69](../anthropic.md) |
-| Free to read here | 7 |
+| Free to read here | 10 |
 | Interview-process guides | 6 |
 | Other guides | 5 |
 | Most recent sighting | Jun 21, 2026 |
@@ -36,7 +36,7 @@ This guide goes deeper than the short outline on the Anthropic company page: wha
 
 ## Free Anthropic questions
 
-7 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -47,6 +47,9 @@ This guide goes deeper than the short outline on the Anthropic company page: wha
 | [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md) | Object Oriented Programming | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/in-memory-database) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
+| [File Profiler](../../questions/algorithm/file-profiler/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) |
+| [Efficiency of Distributed Systems](../../questions/system-design/efficiency-of-distributed-systems/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) |
+| [Web Crawler with Asyncio](../../questions/ai-coding/web-crawler-with-asyncio/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) |
 
 ## Guides
 

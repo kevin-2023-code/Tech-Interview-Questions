@@ -126,7 +126,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | Software | [Stripe OA Interview Experience](https://trueinterview.io/interviews/81361fdd-0cb7-47a2-82cf-2dfe921530c8) | Sep 27, 2026 |
 | Software | [Stripe Request Routing Coding Interview Experience](https://trueinterview.io/interviews/d0fbea13-bf1a-4e52-a1d8-fab28a138dfe) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,935 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Stripe and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Weride | Phone screen | backtracking | — |
+| Algorithm | Medium | WeRide | Phone screen | backtracking | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -64,7 +64,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Weride](../../../companies/weride/README.md)
+[WeRide](../../../companies/weride/README.md)
 
 ---
 

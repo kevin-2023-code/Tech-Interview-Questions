@@ -2,7 +2,7 @@
 
 # Squarepoint interview process, OA & interview questions
 
-**18 questions** reported at Squarepoint · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/squarepoint), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Squarepoint · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/squarepoint), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Squarepoint interviews & the free questions](squarepoint/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **18** |
+| Questions tracked | **23** |
 | Most recent sighting | May 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 18) |
-| Difficulty (easy / medium / hard) | 4 / 10 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (78% of 23) |
+| Difficulty (easy / medium / hard) | 6 / 12 / 5 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 18 questions reported at Squarepoint. 3 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Squarepoint. 4 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **18 of 18** questions at Squarepoint that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at Squarepoint that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 6 | █████████ | [Algorithm](../formats/algorithm.md) (83%) | 4 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 5 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (80%) | 0 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 6 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 8 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 5 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (80%) | 0 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,20 +42,20 @@ Which stage each question came from, for the **18 of 18** questions at Squarepoi
 
 ## What they ask about
 
-Of the **11 questions at Squarepoint that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Squarepoint that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 27% | ████████████ | — |
-| `arrays` | 2 | 18% | ████████ | Apr 02, 2026 |
-| `binary-search` | 2 | 18% | ████████ | — |
-| `dynamic-programming` | 2 | 18% | ████████ | Apr 01, 2026 |
-| `math` | 2 | 18% | ████████ | — |
-| `stack` | 2 | 18% | ████████ | Apr 01, 2026 |
-| `greedy` | 1 | 9% | ████ | — |
-| `sorting` | 1 | 9% | ████ | — |
-| `strings` | 1 | 9% | ████ | — |
-| `two-pointers` | 1 | 9% | ████ | Apr 01, 2026 |
+| `binary-search` | 3 | 21% | ████████████ | Apr 11, 2026 |
+| `dynamic-programming` | 3 | 21% | ████████████ | Apr 01, 2026 |
+| `hashing` | 3 | 21% | ████████████ | — |
+| `arrays` | 2 | 14% | ████████ | Apr 02, 2026 |
+| `math` | 2 | 14% | ████████ | — |
+| `sorting` | 2 | 14% | ████████ | — |
+| `stack` | 2 | 14% | ████████ | Apr 01, 2026 |
+| `two-pointers` | 2 | 14% | ████████ | Apr 01, 2026 |
+| `greedy` | 1 | 7% | ████ | — |
+| `sliding-window` | 1 | 7% | ████ | Apr 11, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -65,8 +65,8 @@ Every recorded sighting at Squarepoint, by the month it was reported in — Apr 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [May 2026](../by-month/2026-05.md) | 1 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 1 | ████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
 
 ## Start here
 
@@ -75,13 +75,13 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | SQL | Hard | — | May 23, 2026 |
-| **2** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 3 | Apr 02, 2026 |
-| **3** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
-| **4** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) 🆓 | Algorithm | Easy | 6 | — |
-| **5** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | 3 | — |
-| **6** | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | 1 | — |
-| **7** | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Algorithm | Easy | — | — |
-| **8** | [Filter Numbers Greater Than the Average](https://trueinterview.io/questions/cd12a6b3-ba3b-5639-be01-4b54adbee445) | Algorithm | Easy | — | — |
+| **2** | [Minimum Idleness After K Flips](https://trueinterview.io/questions/minimum-idleness-after-k-flips) | Algorithm | Hard | — | Apr 11, 2026 |
+| **3** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 3 | Apr 02, 2026 |
+| **4** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
+| **5** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) 🆓 | Algorithm | Easy | 6 | — |
+| **6** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | 3 | — |
+| **7** | [ATM Queue](https://trueinterview.io/questions/b45eec89-6a1c-477b-b359-11cae3cf9e5f) | Algorithm | Medium | 1 | — |
+| **8** | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Algorithm | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,6 +104,7 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | SQL | Hard | May 23, 2026 |
+| [Minimum Idleness After K Flips](https://trueinterview.io/questions/minimum-idleness-after-k-flips) | Algorithm | Hard | Apr 11, 2026 |
 | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Algorithm | Medium | Apr 02, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [OOP Concepts in Python: Classes, Inheritance, and Polymorphism](https://trueinterview.io/questions/b334f7cb-9c94-4ce6-b861-9164f44eb748) | Object Oriented Programming | Medium | — |
@@ -115,9 +116,13 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Algorithm | Hard | — |
 | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Algorithm | Medium | — |
 | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Algorithm | Medium | — |
+| [Merge Two Sorted Vectors](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) | Algorithm | Easy | — |
+| [Grasshopper Problem](https://trueinterview.io/questions/6963da19-4f4b-4340-8237-43ced6656932) | Algorithm | Easy | — |
+| [Minimum Number of Umbrellas](https://trueinterview.io/questions/3b3782d9-dd83-4be7-a787-f7c182f4ab30) | Algorithm | Medium | — |
 | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Object Oriented Programming | Hard | — |
 | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | Object Oriented Programming | Medium | — |
 | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Algorithm | Easy | — |
 | [Sentence Variations with Anagram](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) | Algorithm | Medium | — |
+| [Generate Unique Usernames](https://trueinterview.io/questions/1ac76be5-90d6-4f8f-b5af-24baa7b56ea9) | Algorithm | Medium | — |
 | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | — |
 | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) | Algorithm | Easy | — |

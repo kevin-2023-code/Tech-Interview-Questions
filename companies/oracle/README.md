@@ -8,8 +8,8 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [41](../oracle.md) |
-| Free to read here | 3 |
+| Questions reported | [45](../oracle.md) |
+| Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
 | Most recent sighting | Aug 13, 2026 |
@@ -34,12 +34,18 @@ Oracle's interview loop changes shape more from team to team than almost any com
 
 ## Free Oracle questions
 
-3 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [Log Parser with Multi-Line Follow-up](../../questions/algorithm/log-parser-multiline/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/log-parser-multiline) |
+| [Binary Search — Rightmost Index of Duplicate](../../questions/algorithm/binary-search-rightmost-duplicate/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/binary-search-rightmost-duplicate) |
+| [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
+| [Maximum Completable Tasks with Prerequisites (Topological)](../../questions/algorithm/course-prerequisites-task-count/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/course-prerequisites-task-count) |
+| [Body-Temperature Measurement Classes](../../questions/object-oriented-programming/ood-patient-temperature-classes/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/ood-patient-temperature-classes) |
+| [Event Ingestion + Top-K Aggregation](../../questions/system-design/system-design-event-ingestion-topk/README.md) | System Design | Hard | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/system-design-event-ingestion-topk) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Guides
@@ -51,7 +57,7 @@ Oracle's interview loop changes shape more from team to team than almost any com
 
 ## Everything else
 
-- [All 41 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 45 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

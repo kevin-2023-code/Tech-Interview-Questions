@@ -2,11 +2,11 @@
 
 # Algorithm interview & OA questions
 
-**1,711 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**1,800 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
-<sub>Page 1 of 7 · [Page 2 →](algorithm-2.md)</sub>
+<sub>Page 1 of 8 · [Page 2 →](algorithm-2.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
@@ -104,8 +104,12 @@
 | **Pinduoduo** | [Spiral Matrix Generation](https://trueinterview.io/questions/spiral-matrix-generation) | Medium | Jul 30, 2026 |
 | **ByteDance** | [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) | Hard | Jul 29, 2026 |
 | **Point72** | [Price Percentile Cutoff](https://trueinterview.io/questions/price-percentile-cutoff) | Medium | Jul 29, 2026 |
+| **Point72** | [Optimal Stock Price Subsequence](https://trueinterview.io/questions/optimal-stock-price-subsequence) | Hard | Jul 29, 2026 |
+| **Point72** | [League Earnings](https://trueinterview.io/questions/league-earnings) | Easy | Jul 29, 2026 |
+| **Point72** | [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Hard | Jul 29, 2026 |
+| **Point72** | [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Hard | Jul 29, 2026 |
 | **Point72 / Akuna Capital / Google** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Easy | Jul 29, 2026 |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Easy | Jul 29, 2026 |
 | **Lyft** | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Hard | Jul 29, 2026 |
 | **Microsoft AI / Microsoft** | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Hard | Jul 29, 2026 |
@@ -205,7 +209,12 @@
 | **Scale AI** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Hard | Jun 14, 2026 |
 | **Citadel** | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Hard | Jun 13, 2026 |
 | **Whatnot** | [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) | Medium | Jun 12, 2026 |
+| **Ebay** | [Obstacle Placement and Block Check](https://trueinterview.io/questions/obstacle-placement-and-block-check) | Hard | Jun 12, 2026 |
+| **Ebay** | [Max Matrix Border Distinct Sum](https://trueinterview.io/questions/max-matrix-border-distinct-sum) | Medium | Jun 12, 2026 |
+| **Ebay** | [Match Cyclic Shift to Descending Sequence](https://trueinterview.io/questions/match-cyclic-shift-to-descending-sequence) | Easy | Jun 12, 2026 |
+| **Ebay** | [Group Chat Mention Counter](https://trueinterview.io/questions/group-chat-mention-counter) | Medium | Jun 12, 2026 |
 | **Ebay** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Medium | Jun 12, 2026 |
+| **Ebay** | [Find Matching Skeletons](https://trueinterview.io/questions/find-matching-skeletons) | Medium | Jun 12, 2026 |
 | **Ebay** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Medium | Jun 12, 2026 |
 | **Reddit** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Medium | Jun 12, 2026 |
 | **Reddit** | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Medium | Jun 12, 2026 |
@@ -217,7 +226,7 @@
 | **Roblox** | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) | Hard | Jun 10, 2026 |
 | **Amazon** | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Hard | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Medium | Jun 08, 2026 |
 | **OpenAI / Perplexity** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Hard | Jun 08, 2026 |
 | **Snowflake** | [Max Credits with K Classes (Interval-Style)](https://trueinterview.io/questions/course-credit-max-k-classes) | Medium | Jun 07, 2026 |
@@ -247,18 +256,9 @@
 | **Google** | [Matrix Flower Placement with House Adjacency](https://trueinterview.io/questions/matrix-flower-placement-with-house-adjacency) | Hard | May 31, 2026 |
 | **Google** | [Compute File System Total Size](https://trueinterview.io/questions/file-system-total-size) | Medium | May 31, 2026 |
 | **Capital One** | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Easy | May 31, 2026 |
-| **Uber** | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Medium | May 31, 2026 |
+| **Uber** | [Minimum Root Edges Reversal](https://trueinterview.io/questions/b9de58ad-c058-4d46-b5b4-f04ed4f4af2a) | Hard | May 31, 2026 |
 | **OpenAI** | [Online Softmax Entropy](https://trueinterview.io/questions/online-softmax-entropy) | Medium | May 31, 2026 |
 | **OpenAI** | [Data Labeling Task Scheduler](https://trueinterview.io/questions/data-labeling-task-scheduler) | Hard | May 31, 2026 |
 | **OpenAI** | [Prefix Matrix Products and Backpropagation](https://trueinterview.io/questions/prefix-matrix-products-and-backpropagation) | Hard | May 31, 2026 |
-| **Expedia** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Medium | May 30, 2026 |
-| **Expedia / IBM** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Medium | May 30, 2026 |
-| **Snowflake** | [Time Range Event Counter](https://trueinterview.io/questions/time-range-event-counter) | Medium | May 30, 2026 |
-| **Uber** | [Find Robots Position](https://trueinterview.io/questions/phone-screen-robot-position-by-blocker-distance) | Medium | May 29, 2026 |
-| **Uber** | [Maximum Number of Points from Grid Queries](https://trueinterview.io/questions/maximum-number-of-points-from-grid-queries) | Hard | May 29, 2026 |
-| **Uber** | [Fill Dashes with Nearest Letter](https://trueinterview.io/questions/matrix-fill-nearest-letter) | Medium | May 29, 2026 |
-| **Anthropic** | [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) | Medium | May 28, 2026 |
-| **Microsoft** | [In-Memory SQL Engine II](https://trueinterview.io/questions/in-memory-sql-engine) | Hard | May 28, 2026 |
-| **Anthropic / Google** | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Medium | May 28, 2026 |
 
-<sub>Page 1 of 7 · [Page 2 →](algorithm-2.md)</sub>
+<sub>Page 1 of 8 · [Page 2 →](algorithm-2.md)</sub>

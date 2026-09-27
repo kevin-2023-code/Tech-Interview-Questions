@@ -2,7 +2,7 @@
 
 # Ebay interview process, OA & interview questions
 
-**30 questions** reported at Ebay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at Ebay · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ebay), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Ebay interviews & the free questions](ebay/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **30** |
+| Questions tracked | **35** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 30) |
-| Difficulty (easy / medium / hard) | 7 / 17 / 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 35) |
+| Difficulty (easy / medium / hard) | 8 / 20 / 7 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 30 questions reported at Ebay. 13 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 35 questions reported at Ebay. 18 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **30 of 30** questions at Ebay that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **35 of 35** questions at Ebay that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 8 | █████ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 13 | █████████ | [Algorithm](../formats/algorithm.md) (85%) | 5 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 1 / 11 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 11 | ███████ | [System Design](../formats/system-design.md) (55%) | 2 / 6 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **30 of 30** questions at Ebay that
 
 ## What they ask about
 
-Of the **19 questions at Ebay that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at Ebay that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 8 | 42% | ████████████ | Aug 21, 2026 |
-| `strings` | 6 | 32% | █████████ | Jun 12, 2026 |
-| `hashing` | 4 | 21% | ██████ | Mar 17, 2026 |
-| `graphs` | 2 | 11% | ███ | — |
-| `binary-search` | 1 | 5% | ██ | Aug 21, 2026 |
-| `dynamic-programming` | 1 | 5% | ██ | — |
-| `heap` | 1 | 5% | ██ | — |
-| `intervals` | 1 | 5% | ██ | — |
-| `math` | 1 | 5% | ██ | — |
-| `sliding-window` | 1 | 5% | ██ | — |
+| `arrays` | 10 | 42% | ████████████ | Aug 21, 2026 |
+| `strings` | 8 | 33% | ██████████ | Jun 12, 2026 |
+| `hashing` | 6 | 25% | ███████ | Jun 12, 2026 |
+| `binary-search` | 2 | 8% | ██ | Aug 21, 2026 |
+| `graphs` | 2 | 8% | ██ | — |
+| `dynamic-programming` | 1 | 4% | █ | — |
+| `heap` | 1 | 4% | █ | — |
+| `intervals` | 1 | 4% | █ | — |
+| `math` | 1 | 4% | █ | — |
+| `matrix` | 1 | 4% | █ | Jun 12, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -69,13 +69,13 @@ Every recorded sighting at Ebay, by the month it was reported in — Apr 01, 202
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
-| [Jun 2026](../by-month/2026-06.md) | 6 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 2 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████ |
-| [Apr 2025](../by-month/2025-04.md) | 1 | ████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
+| [Jun 2026](../by-month/2026-06.md) | 11 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ██ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ██ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
+| [Apr 2025](../by-month/2025-04.md) | 1 | ██ |
 
 ## Start here
 
@@ -85,12 +85,12 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 2 | Aug 21, 2026 |
 | **2** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **3** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
-| **4** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | — | Jun 12, 2026 |
-| **5** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | — | Jun 12, 2026 |
-| **6** | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | 1 | Jun 11, 2026 |
-| **7** | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | 3 | Jun 04, 2026 |
-| **8** | [Valid Number](https://trueinterview.io/questions/lc-valid-number) | Algorithm | Medium | 1 | May 16, 2026 |
+| **3** | [Match Cyclic Shift to Descending Sequence](https://trueinterview.io/questions/match-cyclic-shift-to-descending-sequence) | Algorithm | Easy | — | Jun 12, 2026 |
+| **4** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
+| **5** | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | — | Jun 12, 2026 |
+| **6** | [Find Matching Skeletons](https://trueinterview.io/questions/find-matching-skeletons) | Algorithm | Medium | — | Jun 12, 2026 |
+| **7** | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | — | Jun 12, 2026 |
+| **8** | [Group Chat Mention Counter](https://trueinterview.io/questions/group-chat-mention-counter) | Algorithm | Medium | — | Jun 12, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -114,7 +114,12 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | :-- | :-- | :-: | :-- |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 🆕 Aug 21, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
+| [Obstacle Placement and Block Check](https://trueinterview.io/questions/obstacle-placement-and-block-check) | Algorithm | Hard | Jun 12, 2026 |
+| [Max Matrix Border Distinct Sum](https://trueinterview.io/questions/max-matrix-border-distinct-sum) | Algorithm | Medium | Jun 12, 2026 |
+| [Match Cyclic Shift to Descending Sequence](https://trueinterview.io/questions/match-cyclic-shift-to-descending-sequence) | Algorithm | Easy | Jun 12, 2026 |
+| [Group Chat Mention Counter](https://trueinterview.io/questions/group-chat-mention-counter) | Algorithm | Medium | Jun 12, 2026 |
 | [Fit Saved Rectangles in a Box](https://trueinterview.io/questions/fit-saved-rectangles-in-a-box) | Algorithm | Medium | Jun 12, 2026 |
+| [Find Matching Skeletons](https://trueinterview.io/questions/find-matching-skeletons) | Algorithm | Medium | Jun 12, 2026 |
 | [Count and Flip Binary Operations](https://trueinterview.io/questions/count-and-flip-binary-operations) | Algorithm | Medium | Jun 12, 2026 |
 | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Object Oriented Programming | Medium | Jun 12, 2026 |
 | [Design CICD System](https://trueinterview.io/questions/multi-tenant-ci-cd-workflow) | System Design | Medium | Jun 11, 2026 |

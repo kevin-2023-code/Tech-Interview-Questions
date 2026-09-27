@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**423 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**436 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,14 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Pinterest** | [Violation Log Analyzer](https://trueinterview.io/questions/violation-log-analyzer) | Medium | May 30, 2025 |
+| **Oracle** | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Medium | Jan 15, 2025 |
+| **LinkedIn** | [LRU Cache with Counters](https://trueinterview.io/questions/78341155-cbbe-5ad1-a69b-4397d1288bef) | Medium | — |
+| **Anthropic** | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Hard | — |
+| **LinkedIn** | [Shortest Word Distance II](https://trueinterview.io/questions/a87d7c6b-06c5-5d2c-9924-55712f12b1e0) | Medium | — |
+| **IBM** | [Design Authentication Manager](https://trueinterview.io/questions/fffd1adb-8564-54b2-a493-eb65a9b78c1a) | Medium | — |
+| **Bloomberg** | [Refactor an LRU Cache into a Pluggable Eviction-Policy Cache](https://trueinterview.io/questions/312640e3-e5d3-5e4b-b47f-0a997bf3471d) | Hard | — |
+| **OpenAI** | [Spreadsheet Implementation with Cycle Detection and Caching](https://trueinterview.io/questions/b0fb2e35-02e8-45a9-bcfe-f1ad3e4778fd) | Medium | — |
 | **Databricks** | [KV Store with Sliding-Window Average Latency](https://trueinterview.io/questions/908ac171-29c9-53ff-b6ad-26faa94d0b1c) | Hard | — |
 | **Citadel** | [Implement a C++ Task Scheduler with Parameterized Tasks](https://trueinterview.io/questions/d893a368-33e5-51ad-a5d0-517ad8e801dd) | Medium | — |
 | **Apple** | [Design Task Manager](https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e) | Medium | — |
@@ -39,6 +47,7 @@
 | **Arista** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Medium | — |
 | **Sigmacomputing** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Medium | — |
 | **Lyft** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
+| **Confluent** | [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1) | Medium | — |
 | **Confluent / Pinterest** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Medium | — |
 | **Affirm / Amazon** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Medium | — |
 | **Verkada** | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Medium | — |
@@ -54,6 +63,7 @@
 | **Stubhub** | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | Hard | — |
 | **Microsoft / Microsoft AI** | [Typed Task Lock](https://trueinterview.io/questions/typed-task-lock-2) | Medium | — |
 | **Amazon** | [Design Amazon Kindle](https://trueinterview.io/questions/design-amazon-kindle) | Easy | — |
+| **Lyft** | [Alien Base Attack](https://trueinterview.io/questions/alien-base-attack) | Medium | — |
 | **Confluent** | [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Hard | — |
 | **Coinbase / Anthropic / HubSpot / Microsoft AI / Ramp** | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Easy | — |
 | **Amazon** | [Design a Library Management System](https://trueinterview.io/questions/design-a-library-management-system) | Medium | — |
@@ -75,6 +85,7 @@
 | **Confluent** | [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Medium | — |
 | **Confluent** | [Message Logger](https://trueinterview.io/questions/30531964-1441-416b-8417-b0bcd364f28e) | Easy | — |
 | **Tradedesk** | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | Medium | — |
+| **Verkada** | [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | Medium | — |
 | **Tradedesk** | [Versioned Recipe Management System](https://trueinterview.io/questions/7cc2781a-4716-537b-86f0-af8491a58f8b) | Medium | — |
 | **Squarepoint** | [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | Hard | — |
 | **Squarepoint** | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | Medium | — |
@@ -84,6 +95,7 @@
 | **Hudson River Trading** | [Template wrapper supporting std::map/unordered_map with int/string key/value and overloaded operations](https://trueinterview.io/questions/2a69b316-d0b1-47bf-b1a4-ad9f1d8ebe3f) | Medium | — |
 | **Dropbox** | [Simulate a File System with Access Control](https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca) | Medium | — |
 | **Datadog** | [Design a Buffered File Writer](https://trueinterview.io/questions/ccd44a38-a924-48e6-b5c0-af34aa48b27e) | Medium | — |
+| **Confluent** | [O(1) Key-Value Store with Average and Max Retrieval](https://trueinterview.io/questions/f6664ca5-9a30-4110-a9b2-5d15940d61f2) | Medium | — |
 | **Confluent** | [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Hard | — |
 | **Confluent** | [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Easy | — |
 | **Applied Intuition** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Easy | — |
@@ -102,6 +114,7 @@
 | **Tesla / Google** | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Medium | — |
 | **SoFi** | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Easy | — |
 | **Snapchat** | [O(1) Get and Add Data Structure](https://trueinterview.io/questions/004790d3-cd6c-4d92-9e71-b810ddad3a63) | Easy | — |
+| **Scale AI** | [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/44f4defb-82d9-46e7-a008-0c8e2f044a17) | Medium | — |
 | **Oracle** | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Medium | — |
 | **Microsoft** | [LLM Training Dataset Quality Check for Excel Copilot Tasks](https://trueinterview.io/questions/cca976aa-f821-4b1f-ba1a-44dafd0b7d8d) | Hard | — |
 | **Microsoft** | [Implement a SQL-like WHERE filter for in-memory rows](https://trueinterview.io/questions/cc96cc09-9d90-4ebf-b07c-d22d9a30aaf9) | Medium | — |

@@ -8,8 +8,8 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [28](../lyft.md) |
-| Free to read here | 7 |
+| Questions reported | [32](../lyft.md) |
+| Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
 | Most recent sighting | Jul 29, 2026 |
@@ -34,7 +34,7 @@ Lyft's loop rewards a different reflex than a pure algorithm gauntlet: the round
 
 ## Free Lyft questions
 
-7 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Lyft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -44,6 +44,8 @@ Lyft's loop rewards a different reflex than a pure algorithm gauntlet: the round
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
+| [Web Crawler with Communication Constraint](../../questions/system-design/web-crawler-with-communication-constraint/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) |
+| [Find All Shortest Paths in Word Ladder](../../questions/algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 
 ## Guides
@@ -55,7 +57,7 @@ Lyft's loop rewards a different reflex than a pure algorithm gauntlet: the round
 
 ## Everything else
 
-- [All 28 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 32 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Lyft question on TrueInterview](https://trueinterview.io/problems/company/lyft).
 
 ---

@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**107 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**118 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (47)](../companies/waymo.md) · [Tesla (26)](../companies/tesla.md) · [Weride (20)](../companies/weride.md) · [Applied Intuition (16)](../companies/applied-intuition.md)
+[Waymo (47)](../companies/waymo.md) · [Tesla (33)](../companies/tesla.md) · [WeRide (21)](../companies/weride.md) · [Applied Intuition (19)](../companies/applied-intuition.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 70 | 65% | ██████████████ | 10 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 13 | 12% | ███ | 4 |
-| [System Design](../formats/system-design.md) | 11 | 10% | ██ | 1 |
-| [SQL](../formats/sql.md) | 8 | 7% | ██ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 5 | 5% | █ | 1 |
+| [Algorithm](../formats/algorithm.md) | 78 | 66% | ██████████████ | 16 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 14% | ███ | 7 |
+| [System Design](../formats/system-design.md) | 11 | 9% | ██ | 1 |
+| [SQL](../formats/sql.md) | 8 | 7% | █ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 5 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **10 / 64 / 33**, over the rows the catalog has graded. 16 of the 107 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **12 / 69 / 37**, over the rows the catalog has graded. 25 of the 118 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **68 questions in this cut that carry a topic label** (64% of it):
+Of the **74 questions in this cut that carry a topic label** (63% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 16 | 24% | ████████████ |
-| `hashing` | 7 | 10% | █████ |
-| `math` | 7 | 10% | █████ |
-| `strings` | 7 | 10% | █████ |
-| `dynamic-programming` | 6 | 9% | ████ |
-| `greedy` | 6 | 9% | ████ |
-| `matrix` | 6 | 9% | ████ |
+| `graphs` | 17 | 23% | ████████████ |
+| `hashing` | 8 | 11% | ██████ |
+| `strings` | 8 | 11% | ██████ |
+| `math` | 7 | 9% | █████ |
+| `dynamic-programming` | 6 | 8% | ████ |
+| `greedy` | 6 | 8% | ████ |
+| `matrix` | 6 | 8% | ████ |
+| `arrays` | 5 | 7% | ████ |
 | `backtracking` | 5 | 7% | ████ |
-| `arrays` | 4 | 6% | ███ |
-| `binary-search` | 4 | 6% | ███ |
+| `binary-search` | 5 | 7% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -51,7 +51,7 @@ Of the **68 questions in this cut that carry a topic label** (64% of it):
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Weride … | Algorithm | Jul 29, 2026 |
+| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | WeRide … | Algorithm | Jul 29, 2026 |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Waymo | Algorithm | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Waymo | Algorithm | Jul 06, 2026 |
 | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Waymo | Algorithm | Jul 02, 2026 |
@@ -64,7 +64,7 @@ Of the **68 questions in this cut that carry a topic label** (64% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / Weride** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
+| **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Waymo** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Hard | Jul 09, 2026 |
 | **Waymo** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Hard | Jul 06, 2026 |
 | **Waymo** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Medium | Jul 02, 2026 |
@@ -104,11 +104,11 @@ Of the **68 questions in this cut that carry a topic label** (64% of it):
 | **Waymo** | [Prefix Autocomplete via Trie](https://trueinterview.io/questions/trie-prefix-autocomplete) | Medium | Mar 27, 2026 |
 | **Waymo** | [Car Maze with Incrementally Revealed Neighbors (DFS)](https://trueinterview.io/questions/car-maze-incremental-discovery-dfs) | Medium | Mar 25, 2026 |
 | **Waymo** | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Medium | Mar 23, 2026 |
-| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / Weride** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
+| **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **Tesla** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | Hard | Mar 11, 2026 |
 | **Snowflake / Applied Intuition** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / Weride** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Unknown / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Tesla** | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Medium | Feb 03, 2026 |
 | **Waymo** | [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human) | Hard | Jan 29, 2026 |
 | **Waymo** | [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Medium | Jan 29, 2026 |
@@ -127,25 +127,35 @@ Of the **68 questions in this cut that carry a topic label** (64% of it):
 | **Waymo** | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | Hard | Sep 29, 2025 |
 | **Tesla** | [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome) | Hard | Sep 24, 2025 |
 | **Tesla** | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | Medium | Aug 23, 2025 |
+| **Tesla** | [Word Ladder Variants with Trie Optimization](https://trueinterview.io/questions/word-ladder-variants) | Hard | Aug 21, 2025 |
+| **Tesla** | [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | Hard | Aug 19, 2025 |
+| **Tesla** | [Route Nearest Checkpoint](https://trueinterview.io/questions/trajectory-waypoint-distance-queries) | Medium | Aug 11, 2025 |
+| **Tesla** | [Dojo Pythonic Coding Pair: Permutation Check and Pow](https://trueinterview.io/questions/dojo-permutation-and-pow) | Medium | Jul 25, 2025 |
+| **Tesla** | [Rank Vehicles by Contribution](https://trueinterview.io/questions/ota-p2p-vehicle-seeding-rank) | Medium | Jul 24, 2025 |
+| **Tesla** | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Hard | Jul 24, 2025 |
+| **Tesla** | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | Medium | Jul 04, 2025 |
 | **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
-| **Weride** | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Hard | — |
-| **Weride** | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Hard | — |
-| **Weride** | [Implement a Calculator with Brackets](https://trueinterview.io/questions/9fc868b8-b683-4792-9f30-37e943638d43) | Medium | — |
-| **Weride** | [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Medium | — |
-| **Weride** | [Long Break](https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347) | Hard | — |
-| **Weride** | [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37) | Hard | — |
-| **Weride** | [Graph Coloring Problem](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66) | Medium | — |
+| **WeRide** | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Hard | — |
+| **WeRide** | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Hard | — |
+| **WeRide** | [Implement a Calculator with Brackets](https://trueinterview.io/questions/9fc868b8-b683-4792-9f30-37e943638d43) | Medium | — |
+| **WeRide** | [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Medium | — |
+| **WeRide** | [Long Break](https://trueinterview.io/questions/908737d5-1e10-4ed9-b0f6-e6c280b24347) | Hard | — |
+| **WeRide** | [Minimize Cost to Make Blocks Unique](https://trueinterview.io/questions/7ed29a4b-6ee0-4a1b-84ff-7e2531aeac37) | Hard | — |
+| **WeRide** | [Graph Coloring Problem](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66) | Medium | — |
 | **Applied Intuition** | [Arithmetic Expression Evaluator II](https://trueinterview.io/questions/78d6d121-b1eb-489a-ad84-0e90cce7d0fc) | Hard | — |
 | **Applied Intuition** | [Topological Sort with Nested Elements](https://trueinterview.io/questions/75bb27c8-8c45-415d-bd44-edfb0d52af96) | Medium | — |
 | **Applied Intuition** | [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Medium | — |
-| **Weride** | [Minimum Total Cost for Image Filters](https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1) | Medium | — |
-| **Weride** | [Shortest Path to Collect All Coins](https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb) | Medium | — |
-| **Weride** | [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | Easy | — |
-| **Weride** | [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010) | Medium | — |
-| **Weride** | [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c) | Medium | — |
-| **Weride** | [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e) | Medium | — |
+| **WeRide** | [Minimum Total Cost for Image Filters](https://trueinterview.io/questions/77f1b3c9-7371-4741-89d1-60814bdbdbe1) | Medium | — |
+| **WeRide** | [Shortest Path to Collect All Coins](https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb) | Medium | — |
+| **WeRide** | [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | Easy | — |
+| **WeRide** | [Fibonacci Matrix Exponentiation](https://trueinterview.io/questions/86a07725-b6ab-462e-a70e-4b7543e61010) | Medium | — |
+| **WeRide** | [Trie Implementation / Trie-based String Operations](https://trueinterview.io/questions/7711b2f0-4e66-4c48-91d7-33a7794c209c) | Medium | — |
+| **WeRide** | [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e) | Medium | — |
 | **Applied Intuition** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Easy | — |
+| **Applied Intuition** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Easy | — |
+| **Applied Intuition** | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Hard | — |
 | **Applied Intuition** | [Scale Game of Life for Large Matrix](https://trueinterview.io/questions/8947a7cc-9bff-4eca-b2c4-28d56aaff182) | Medium | — |
+| **Applied Intuition** | [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Easy | — |
 | **Applied Intuition** | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Medium | — |
 | **Applied Intuition** | [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Hard | — |
 | **Applied Intuition** | [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1) | Hard | — |
@@ -164,10 +174,11 @@ Of the **68 questions in this cut that carry a topic label** (64% of it):
 | **Tesla** | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | Medium | — |
 | **Tesla** | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | Hard | — |
 | **Tesla** | [Burning a Binary Tree (Time to Burn Entire Tree)](https://trueinterview.io/questions/19d7abba-9f7c-4acd-ab07-797730cfba83) | Medium | — |
-| **Pinterest / Weride** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Easy | — |
-| **Microsoft / GEICO / Weride** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
-| **Goldman Sachs / Weride** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
-| **Capital One / Weride** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
+| **Pinterest / WeRide** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Easy | — |
+| **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
+| **Goldman Sachs / WeRide** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
+| **Capital One / WeRide** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
+| **ByteDance / LinkedIn / NVIDIA / WeRide** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Medium | — |
 | **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
 | **Airbnb / Waymo** | [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Medium | — |
 | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |

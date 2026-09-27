@@ -44,7 +44,7 @@ A dedicated performance or hardware round appears in infrastructure-leaning loop
 
 - [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
 - [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling)
-- [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337)
+- [Efficiency of Distributed Systems](../../questions/system-design/efficiency-of-distributed-systems/README.md)
 
 ### Low-Level Design
 The assessment stage tests whether you can build a correct stateful component and extend it without breaking the earlier contract: a cache surviving restart through an append-only log replayed in the right order, a file system that gets versioning added mid-problem. Crash consistency and idempotent replay are worth raising unprompted.

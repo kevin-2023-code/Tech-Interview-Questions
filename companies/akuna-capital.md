@@ -2,7 +2,7 @@
 
 # Akuna Capital interview process, OA & interview questions
 
-**28 questions** reported at Akuna Capital · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Akuna Capital · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Akuna Capital interviews & the free questions](akuna-capital/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **28** |
+| Questions tracked | **30** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (68% of 28) |
-| Difficulty (easy / medium / hard) | 6 / 21 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 30) |
+| Difficulty (easy / medium / hard) | 7 / 22 / 1 |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 28 questions reported at Akuna Capital. 22 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 30 questions reported at Akuna Capital. 23 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **28 of 28** questions at Akuna Capital that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **30 of 30** questions at Akuna Capital that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (68%) | 5 / 13 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ███ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 6 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 6 / 13 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -46,26 +46,26 @@ Which stage each question came from, for the **28 of 28** questions at Akuna Cap
 
 ## What they ask about
 
-Of the **21 questions at Akuna Capital that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Akuna Capital that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 7 | 33% | ████████████ | Jul 29, 2026 |
-| `greedy` | 5 | 24% | █████████ | Dec 20, 2025 |
-| `graphs` | 4 | 19% | ███████ | May 25, 2026 |
-| `hashing` | 4 | 19% | ███████ | May 25, 2026 |
-| `sorting` | 4 | 19% | ███████ | Jul 29, 2026 |
-| `heap` | 2 | 10% | ███ | Nov 11, 2025 |
-| `sliding-window` | 2 | 10% | ███ | Jan 23, 2026 |
-| `stack` | 2 | 10% | ███ | Jan 23, 2026 |
+| `arrays` | 8 | 36% | ████████████ | Jul 29, 2026 |
+| `greedy` | 6 | 27% | █████████ | Dec 20, 2025 |
+| `graphs` | 4 | 18% | ██████ | May 25, 2026 |
+| `hashing` | 4 | 18% | ██████ | May 25, 2026 |
+| `sorting` | 4 | 18% | ██████ | Jul 29, 2026 |
+| `heap` | 2 | 9% | ███ | Nov 11, 2025 |
+| `sliding-window` | 2 | 9% | ███ | Jan 23, 2026 |
+| `stack` | 2 | 9% | ███ | Jan 23, 2026 |
+| `strings` | 2 | 9% | ███ | Nov 04, 2025 |
 | `backtracking` | 1 | 5% | ██ | Oct 29, 2025 |
-| `bit-manipulation` | 1 | 5% | ██ | Jan 23, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Akuna Capital, by the month it was reported in — Sep 22, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Akuna Capital, by the month it was reported in — Aug 26, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -76,6 +76,7 @@ Every recorded sighting at Akuna Capital, by the month it was reported in — Se
 | [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 6 | ████████████████████████ |
 | [Sep 2025](../by-month/2025-09.md) | 4 | ████████████████ |
+| [Aug 2025](../by-month/2025-08.md) | 1 | ████ |
 
 ## Start here
 
@@ -139,9 +140,11 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 | [Find Missing and Repeated Element](https://trueinterview.io/questions/find-missing-and-repeated-element) | Algorithm | Medium | Sep 23, 2025 |
 | [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) | Object Oriented Programming | Hard | Sep 22, 2025 |
 | [Round Price to Nearest Valid Tick](https://trueinterview.io/questions/round-price-to-nearest-tick) | Algorithm | Medium | Sep 22, 2025 |
+| [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | Algorithm | Easy | Aug 26, 2025 |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | — |
 | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Algorithm | Medium | — |
 | [An Evening of Movies](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) | Algorithm | Medium | — |
 | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Algorithm | Easy | — |
 | [Earliest Completion Date](https://trueinterview.io/questions/8aac20d0-1504-4d77-a135-6d802ad17cc3) | Algorithm | Easy | — |
+| [K Smallest Substring](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) | Algorithm | Medium | — |
 | [Min Mod and Max](https://trueinterview.io/questions/300141c0-9e82-4bc4-8055-d73e3ca2fae2) | Algorithm | Easy | — |
