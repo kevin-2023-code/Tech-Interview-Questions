@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 17) |
 | Difficulty (easy / medium / hard) | 2 / 12 / 3 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 17 questions reported at PayPal. 2 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -77,11 +77,11 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | **1** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Apr 09, 2026 |
 | **2** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Medium | 8 | Feb 26, 2026 |
 | **3** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) 🆓 | Algorithm | Easy | 6 | — |
-| **4** | [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) | Algorithm | Easy | — | — |
+| **4** | [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) 🆓 | Algorithm | Easy | — | — |
 | **5** | [Find Reachable Good Endings in Choose Your Own Adventure Book](https://trueinterview.io/questions/15808a55-af32-4748-a811-48bd2ef1f829) | Algorithm | Medium | — | — |
 | **6** | [Count User Logins (Singapore)](https://trueinterview.io/questions/1ab60462-b812-470d-9ebc-0efde6eed6cf) | Algorithm | Medium | — | — |
 | **7** | [Word Search in 2D Grid with Diagonal Moves](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530) | Algorithm | Medium | — | — |
-| **8** | [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) | Algorithm | Medium | — | — |
+| **8** | [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) 🆓 | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

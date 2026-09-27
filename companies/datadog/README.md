@@ -9,7 +9,7 @@ How Datadog interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [20](../datadog.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Mar 23, 2026 |
@@ -34,13 +34,14 @@ Other reported screens: implement a buffered file writer, then design its test c
 
 ## Free Datadog questions
 
-3 questions reported at Datadog open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Datadog open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
+| [Design Mint.com](../../questions/system-design/mint-com/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/mint-com) |
 
 ## Everything else
 

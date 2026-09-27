@@ -47,7 +47,7 @@ Perplexity coding prompts look like slices of the product's infrastructure — t
 Design rounds center on search-adjacent product infrastructure: feeds, ranking, freshness, trending aggregation, and abuse prevention. Make the request path concrete — retrieval, ranking, caching, observability — and tie every scale claim to a latency or reliability consequence, because interviewers push past the block diagram quickly.
 
 - [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover)
-- [Mint.com](https://trueinterview.io/questions/mint-com)
+- [Mint.com](../../questions/system-design/mint-com/README.md)
 
 ## Low-Level Design Questions
 

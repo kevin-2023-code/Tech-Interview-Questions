@@ -46,9 +46,9 @@ The Shopify coding questions in the bank are concrete and stateful: robots follo
 
 - [Terminal Robot Simulator with Multiple Robots](https://trueinterview.io/questions/5aa25c82-81de-5056-8e63-c7125c1306be)
 - [Simulate a Robot Following Commands on a Grid](https://trueinterview.io/questions/800f318f-3aba-4c06-9eef-ee7b1da55f6d)
-- [Cows and Bulls (Guess the Number)](https://trueinterview.io/questions/cows-and-bulls)
+- [Cows and Bulls (Guess the Number)](../../questions/algorithm/cows-and-bulls/README.md)
 - [Word Guessing Game (Wordle-style)](https://trueinterview.io/questions/word-guessing-game)
-- [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa)
+- [SWE / SDE Intern Coding OA (DP + C++/Ruby)](../../questions/algorithm/swe-intern-coding-oa/README.md)
 
 ## System Design Questions
 

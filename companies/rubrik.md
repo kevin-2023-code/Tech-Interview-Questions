@@ -19,7 +19,7 @@
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 14) |
 | Difficulty (easy / medium / hard) | 0 / 4 / 10 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 14 questions reported at Rubrik. 0 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -65,7 +65,7 @@ The 8 questions to open first if you are preparing for Rubrik. **This is not a r
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) 🆓 | Algorithm | Medium | — | — |
 | **2** | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Algorithm | Medium | — | — |
-| **3** | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) | Algorithm | Medium | — | — |
+| **3** | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) 🆓 | Algorithm | Medium | — | — |
 | **4** | [Doing Smart Work](https://trueinterview.io/questions/c289bb51-4892-4291-99e5-08832daa7801) | Algorithm | Medium | — | — |
 | **5** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) 🆓 | Algorithm | Hard | — | — |
 | **6** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Algorithm | Hard | — | — |

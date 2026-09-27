@@ -9,7 +9,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [110](../snowflake.md) |
-| Free to read here | 11 |
+| Free to read here | 14 |
 | Interview-process guides | 1 |
 | Other guides | 4 |
 | Most recent sighting | Aug 15, 2026 |
@@ -34,7 +34,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Free Snowflake questions
 
-11 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -48,6 +48,9 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
+| [Unequal Elements](../../questions/algorithm/unequal-elements/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/unequal-elements) |
+| [Three-Color Map Coloring](../../questions/algorithm/three-color-map-coloring/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/three-color-map-coloring) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Guides

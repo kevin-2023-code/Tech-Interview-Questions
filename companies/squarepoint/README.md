@@ -9,7 +9,7 @@ How Squarepoint interviews, and the questions candidates reported there. Free qu
 |  |  |
 | :-- | :-- |
 | Questions reported | [18](../squarepoint.md) |
-| Free to read here | 3 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | May 23, 2026 |
@@ -32,12 +32,16 @@ Squarepoint Capital runs a compact loop with an unusually high bar per round: a 
 
 ## Free Squarepoint questions
 
-3 questions reported at Squarepoint open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Squarepoint open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
+| [Line by Line Document Generator](../../questions/algorithm/line-by-line-document-generator/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) |
+| [Implement a Custom Vector Using Metaprogramming](../../questions/object-oriented-programming/implement-a-custom-vector-using-metaprogramming/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) |
+| [Deterministic Function Wrapper with Caching](../../questions/object-oriented-programming/deterministic-function-wrapper-with-caching/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) |
+| [Sentence Variations with Anagram](../../questions/algorithm/sentence-variations-with-anagram/README.md) | Algorithm | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else

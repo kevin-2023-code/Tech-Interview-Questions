@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 18) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 4 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 18 questions reported at Squarepoint. 3 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

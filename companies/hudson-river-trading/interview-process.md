@@ -36,7 +36,7 @@ HRT's coding pool leans on implementation fidelity: build-it-yourself primitives
 - [1D Players and Watcher With Direction Changes](../../questions/algorithm/1d-players-and-watcher-with-direction-changes/README.md)
 - [Implement itoa() for 32-bit signed integer](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397)
 - [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc)
-- [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48)
+- [Implement a Coroutine Step by Step](../../questions/algorithm/implement-a-coroutine-step-by-step/README.md)
 - [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72)
 - [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228)
 - [Exploratory Data Analysis & Modeling for Heart Disease Prediction](../../questions/algorithm/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md)

@@ -48,7 +48,7 @@ Some candidates finish with an onsite or a final video round that looks like the
 
 WeRide coding rounds draw from a compact set of families: graph traversal and coloring, linked-list manipulation, stack-based validation, selection and heap problems, tries, and a recurring taste for fast exponentiation and matrix methods. Most prompts are familiar, so the differentiator is a clean implementation plus a precise complexity argument under follow-up pressure.
 
-- [Graph Coloring Problem](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66)
+- [Graph Coloring Problem](../../questions/algorithm/graph-coloring-problem/README.md)
 - [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455)
 - [Shortest Path to Collect All Coins](https://trueinterview.io/questions/ebc36290-8e59-49ee-aba8-88d6ce49f1cb)
 - [Fast Exponentiation](https://trueinterview.io/questions/426281b5-c8ea-4c25-ab4a-3a5ba2ef4a5e)

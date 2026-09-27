@@ -9,7 +9,7 @@ How Yelp interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [17](../yelp.md) |
-| Free to read here | 2 |
+| Free to read here | 9 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Apr 12, 2026 |
@@ -20,12 +20,19 @@ No written process guide yet. [The loop, as reported](../yelp.md#the-loop-as-rep
 
 ## Free Yelp questions
 
-2 questions reported at Yelp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Yelp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
+| [Count Alert Triggers](../../questions/algorithm/count-alert-triggers/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/count-alert-triggers) |
+| [Top Love Message Receivers](../../questions/algorithm/top-love-message-receivers/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/top-love-message-receivers) |
+| [Random User Pairing](../../questions/algorithm/random-user-pairing/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/random-user-pairing) |
+| [Prefix Search I](../../questions/algorithm/prefix-search-i/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/prefix-search-i) |
+| [Merge Common Substring](../../questions/algorithm/merge-common-substring/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/merge-common-substring) |
+| [Jaccard Business Similarity](../../questions/algorithm/jaccard-business-similarity/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/jaccard-business-similarity) |
+| [Find Destination Node](../../questions/algorithm/find-destination-node/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Apr 2025 | [Solve](https://trueinterview.io/questions/find-destination-node) |
 
 ## Everything else
 

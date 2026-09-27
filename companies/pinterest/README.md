@@ -9,7 +9,7 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [75](../pinterest.md) |
-| Free to read here | 5 |
+| Free to read here | 7 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
 | Most recent sighting | Aug 26, 2026 |
@@ -38,7 +38,7 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 
 ## Free Pinterest questions
 
-5 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -46,6 +46,8 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Spam Caller Counter](../../questions/algorithm/spam-caller-counter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/spam-caller-counter) |
+| [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Guides

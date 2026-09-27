@@ -49,7 +49,7 @@ This is the highest-variance competency and the one that ends interviews. Questi
 Every team grafts its physical problem onto the interview. Reinforcement learning and planning rounds ask about modeling the intent of other agents in simulation, then about reward design and its pathologies — what an agent learns to exploit when the reward lags a changing constraint, and when a learned reward beats a hand-written one. Controls rounds go through Model Predictive Control and then ask for braking logic that translates a physical control problem into clean code. Sensing rounds want the noise model behind the sensor, not just the network on top of it. Candidates who treat these as ML questions with a car-shaped skin underperform; the interviewers want the physical failure mode named.
 
 - [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward)
-- [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation)
+- [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md)
 - [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid)
 
 ### Project Deep Dive

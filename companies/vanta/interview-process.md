@@ -58,8 +58,8 @@ Vanta's coding rounds favor problems shaped like the product's own data: depende
 - [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf)
 - [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation)
 - [Implement Unix uniq](../../questions/algorithm/implement-unix-uniq/README.md)
-- [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match)
-- [Test Run Status Monitor (Failing to Passing Windows)](https://trueinterview.io/questions/test-status-monitor)
+- [Word Pattern / Meta-Pattern Match (Backtracking)](../../questions/algorithm/word-pattern-meta-match/README.md)
+- [Test Run Status Monitor (Failing to Passing Windows)](../../questions/algorithm/test-status-monitor/README.md)
 
 ## System Design Questions
 

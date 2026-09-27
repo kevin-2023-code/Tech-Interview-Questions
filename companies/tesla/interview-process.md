@@ -58,7 +58,7 @@ Class-design problems are a Tesla staple at the phone-screen stage: caches with 
 
 These rounds test implementation from first principles: debugging an existing algorithm, coordinating exclusive access to shared resources, or building a numerical operation without a framework. Expect probing on shape arithmetic, synchronization correctness, and the tests you would write to prove your code works.
 
-- [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation)
+- [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md)
 - [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner)
 - [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward)
 

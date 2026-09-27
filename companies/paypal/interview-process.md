@@ -56,10 +56,10 @@ Level is decided at the loop, not before, and can move down during it. Outcomes 
 PayPal coding rounds favor standard medium-difficulty data-structure problems with a practical frame: trees, graph search, grids, intervals, and small simulations. Practice finishing two or three such problems in an hour rather than one hard one, and say your complexity unprompted.
 
 - [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md)
-- [Binary Search Tree Pruning](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605)
-- [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0)
-- [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f)
-- [Minimum Steps to Move Balls to Respective Holes](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb)
+- [Binary Search Tree Pruning](../../questions/algorithm/binary-search-tree-pruning/README.md)
+- [Number of Unique Binary Trees](../../questions/algorithm/number-of-unique-binary-trees/README.md)
+- [Graph Traversal using BFS/DFS](../../questions/algorithm/graph-traversal-using-bfs-dfs/README.md)
+- [Minimum Steps to Move Balls to Respective Holes](../../questions/algorithm/minimum-steps-to-move-balls-to-respective-holes/README.md)
 - [Search Word in 2D Array](https://trueinterview.io/questions/2368bd69-e229-442c-ba36-d37839e9d530)
 
 ## Low-Level Design Questions
@@ -67,7 +67,7 @@ PayPal coding rounds favor standard medium-difficulty data-structure problems wi
 Low-level design at PayPal is an implementation conversation about money movement and data handling: a small class with a handful of operations, tests written as you go, and a follow-up that adds time or ordering. Reach for the right container for the follow-up (a heap for arbitrary future timestamps) and say why.
 
 - [Banking System Operations](https://trueinterview.io/questions/aab753cb-ef8c-4f67-a2b4-d6c811f9c12e)
-- [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039)
+- [API Call and Data Processing](../../questions/object-oriented-programming/api-call-and-data-processing/README.md)
 - [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca)
 
 ## How to Prepare

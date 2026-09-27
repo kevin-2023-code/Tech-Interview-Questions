@@ -62,17 +62,17 @@ The sector and size of an employer are facts about the company rather than about
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 192 | 8 | 20 | Sep 10, 2026 | 20 |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 183 | 11 | 9 | Aug 16, 2026 | 22 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 170 | 6 | 4 | Aug 16, 2026 | 24 |
-| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 165 | 14 | 17 | Sep 06, 2026 | 20 |
+| [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 165 | 14 | 17 | Sep 06, 2026 | 23 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 114 | 10 | 10 | Aug 26, 2026 | 21 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 114 | 10 | 11 | Sep 09, 2026 | 17 |
-| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 110 | 5 | 4 | Aug 15, 2026 | 11 |
+| [Snowflake](snowflake.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 110 | 5 | 4 | Aug 15, 2026 | 14 |
 | [OpenAI](openai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 101 | 12 | 6 | Aug 22, 2026 | 11 |
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 79 | 6 | 11 | Sep 06, 2026 | 7 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 76 | 3 | 6 | Sep 11, 2026 | 5 |
-| [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 75 | 6 | 5 | Aug 26, 2026 | 5 |
+| [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 75 | 6 | 5 | Aug 26, 2026 | 7 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 71 | 6 | 0 | Jun 15, 2026 | 12 |
 | [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 70 | 2 | 4 | Jul 22, 2026 | 12 |
-| [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 70 | 7 | 8 | Sep 16, 2026 | 4 |
+| [DoorDash](doordash.md) | E-commerce & marketplaces · 10,000+ people | 70 | 7 | 8 | Sep 16, 2026 | 5 |
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 69 | 11 | 0 | Jun 21, 2026 | 7 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 66 | 6 | 6 | Sep 15, 2026 | 11 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 61 | 6 | 4 | Sep 09, 2026 | 10 |
@@ -85,50 +85,50 @@ The sector and size of an employer are facts about the company rather than about
 | [Coinbase](coinbase.md) | Fintech, payments & crypto · 1,000–9,999 people | 44 | 5 | 0 | Jun 15, 2026 | 9 |
 | [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 43 | 4 | 0 | Apr 21, 2026 | 9 |
 | [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 41 | 3 | 1 | Aug 13, 2026 | 3 |
-| [Robinhood](robinhood.md) | Fintech, payments & crypto · 1,000–9,999 people | 31 | 6 | 0 | May 09, 2026 | 6 |
+| [Robinhood](robinhood.md) | Fintech, payments & crypto · 1,000–9,999 people | 31 | 6 | 0 | May 09, 2026 | 9 |
 | [xAI](xai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 31 | 6 | 1 | Jul 22, 2026 | 5 |
-| [Ebay](ebay.md) | E-commerce & marketplaces · 10,000+ people | 30 | 1 | 1 | Aug 21, 2026 | 5 |
+| [Ebay](ebay.md) | E-commerce & marketplaces · 10,000+ people | 30 | 1 | 1 | Aug 21, 2026 | 6 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 29 | 7 | 2 | Sep 13, 2026 | 5 |
 | [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 28 | 6 | 1 | Jul 29, 2026 | 2 |
 | [Lyft](lyft.md) | E-commerce & marketplaces · 1,000–9,999 people | 28 | 3 | 3 | Jul 29, 2026 | 7 |
 | [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 28 | 7 | 5 | Aug 21, 2026 | 5 |
-| [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 0 | Jun 23, 2026 | 4 |
+| [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 26 | 7 | 0 | Jun 23, 2026 | 5 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 26 | 2 | 1 | Jul 04, 2026 | 3 |
-| [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 26 | 5 | 0 | Jun 03, 2026 | 2 |
+| [Tesla](tesla.md) | Autonomy, automotive & mobility · 10,000+ people | 26 | 5 | 0 | Jun 03, 2026 | 3 |
 | [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 26 | 3 | 3 | Jul 07, 2026 | 3 |
 | [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 25 | 1 | 0 | Jun 28, 2026 | 3 |
-| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 25 | 1 | 1 | Sep 18, 2026 | 3 |
-| [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 24 | 2 | 0 | Jun 17, 2026 | 6 |
+| [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 25 | 1 | 1 | Sep 18, 2026 | 4 |
+| [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 24 | 2 | 0 | Jun 17, 2026 | 8 |
 | [IBM](ibm.md) | IT services & consulting · 10,000+ people | 23 | 3 | 2 | Sep 14, 2026 | 2 |
-| [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 23 | 5 | 0 | Jun 15, 2026 | 3 |
+| [Perplexity](perplexity.md) | AI labs & AI infrastructure · 200–999 people | 23 | 5 | 0 | Jun 15, 2026 | 5 |
 | [Two Sigma](two-sigma.md) | Quant trading & hedge funds · 1,000–9,999 people | 23 | 6 | 1 | Jul 29, 2026 | 3 |
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 23 | 1 | 0 | Jun 17, 2026 | 3 |
-| [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 20 | 1 | 0 | Mar 23, 2026 | 3 |
+| [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 20 | 1 | 0 | Mar 23, 2026 | 4 |
 | [Goldman Sachs](goldman-sachs.md) | Banks, insurers & asset managers · 10,000+ people | 20 | 4 | 1 | Jul 06, 2026 | 5 |
-| [Weride](weride.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 20 | 1 | 1 | Jul 29, 2026 | 3 |
+| [Weride](weride.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 20 | 1 | 1 | Jul 29, 2026 | 6 |
 | [Pinduoduo](pinduoduo.md) | E-commerce & marketplaces · 10,000+ people | 19 | 3 | 2 | Jul 30, 2026 | 4 |
-| [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 18 | 1 | 0 | Jun 16, 2026 | 2 |
+| [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 18 | 1 | 0 | Jun 16, 2026 | 6 |
 | [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 18 | 3 | 8 | Aug 12, 2026 | 2 |
 | [Optiver](optiver.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 13 | 0 | Jun 15, 2026 | 2 |
-| [Squarepoint](squarepoint.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 1 | 0 | May 23, 2026 | 3 |
+| [Squarepoint](squarepoint.md) | Quant trading & hedge funds · 1,000–9,999 people | 18 | 1 | 0 | May 23, 2026 | 7 |
 | [Confluent](confluent.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 17 | 1 | 0 | Jan 14, 2026 | 2 |
-| [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 3 |
+| [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 8 |
 | [Point72](point72.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 3 | Jul 29, 2026 | 2 |
-| [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 17 | — | 0 | Apr 12, 2026 | 2 |
-| [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 16 | 1 | 0 | Jun 17, 2026 | 2 |
+| [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 17 | — | 0 | Apr 12, 2026 | 9 |
+| [Applied Intuition](applied-intuition.md) | Autonomy, automotive & mobility | 16 | 1 | 0 | Jun 17, 2026 | 5 |
 | [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 15 | 2 | 6 | Sep 01, 2026 | 2 |
-| [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 15 | 1 | 0 | May 01, 2026 | 2 |
-| [Shopify](shopify.md) | E-commerce & marketplaces · 1,000–9,999 people | 15 | 3 | 0 | Jun 15, 2026 | 2 |
+| [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 15 | 1 | 0 | May 01, 2026 | 3 |
+| [Shopify](shopify.md) | E-commerce & marketplaces · 1,000–9,999 people | 15 | 3 | 0 | Jun 15, 2026 | 7 |
 | [Tradedesk](tradedesk.md) | Enterprise & business software · 1,000–9,999 people | 15 | 1 | 0 | Apr 01, 2026 | 2 |
 | [Upstart](upstart.md) | Fintech, payments & crypto · 1,000–9,999 people | 15 | 1 | — | — | 2 |
 | [Visa](visa.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 1 | — | — | 2 |
 | [Affirm](affirm.md) | Fintech, payments & crypto · 1,000–9,999 people | 14 | — | 4 | Aug 12, 2026 | 2 |
 | [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 14 | 2 | 0 | Jun 28, 2026 | 2 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 14 | 3 | 0 | Jun 23, 2026 | 2 |
-| [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 14 | 1 | — | — | 2 |
+| [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 14 | 1 | — | — | 3 |
 | [Dropbox](dropbox.md) | Enterprise & business software · 1,000–9,999 people | 13 | 1 | — | — | 2 |
 | [Microsoft AI](microsoft-ai.md) | AI labs & AI infrastructure · 10,000+ people | 13 | — | 2 | Jul 29, 2026 | 2 |
-| [Vanta](vanta.md) | Cybersecurity · 200–999 people | 13 | 2 | 3 | Jul 16, 2026 | 2 |
+| [Vanta](vanta.md) | Cybersecurity · 200–999 people | 13 | 2 | 3 | Jul 16, 2026 | 5 |
 | [Scale AI](scale-ai.md) | AI labs & AI infrastructure · 1,000–9,999 people | 12 | 4 | 0 | Jun 16, 2026 | 2 |
 | [Square](square.md) | Fintech, payments & crypto | 12 | — | 0 | Jun 17, 2026 | 2 |
 | [HubSpot](hubspot.md) | Enterprise & business software · 1,000–9,999 people | 10 | — | 0 | Feb 01, 2026 | 4 |

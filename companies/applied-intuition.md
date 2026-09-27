@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 16) |
 | Difficulty (easy / medium / hard) | 1 / 10 / 5 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 16 questions reported at Applied Intuition. 4 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -82,7 +82,7 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 | **5** | [Message Parser](https://trueinterview.io/questions/e50a4680-a10a-486b-8a7a-5058a6225a0e) | Object Oriented Programming | Easy | — | — |
 | **6** | [Validate JSON against Protobuf](https://trueinterview.io/questions/05f64d73-a5a3-45b8-9df3-8e995581973b) | Algorithm | Medium | — | — |
 | **7** | [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76) | Algorithm | Medium | — | — |
-| **8** | [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) | Algorithm | Medium | — | — |
+| **8** | [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) 🆓 | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

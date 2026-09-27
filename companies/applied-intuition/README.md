@@ -9,7 +9,7 @@ How Applied Intuition interviews, and the questions candidates reported there. F
 |  |  |
 | :-- | :-- |
 | Questions reported | [16](../applied-intuition.md) |
-| Free to read here | 2 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 17, 2026 |
@@ -34,12 +34,15 @@ Applied Intuition builds its interview almost entirely out of its own product su
 
 ## Free Applied Intuition questions
 
-2 questions reported at Applied Intuition open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Applied Intuition open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md) | Object Oriented Programming | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/in-memory-database) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
+| [Find all points in a 2D plane](../../questions/algorithm/find-all-points-in-a-2d-plane/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) |
+| [Route Curve Simplification Function](../../questions/algorithm/route-curve-simplification-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) |
+| [Finding Optimal Camp Location](../../questions/algorithm/finding-optimal-camp-location/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/9cea9ab2-6484-4533-b59d-0020053aee3d) |
 
 ## Everything else
 

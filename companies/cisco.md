@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (94% of 18) |
 | Difficulty (easy / medium / hard) | 8 / 7 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 18 questions reported at Cisco. 10 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -83,8 +83,8 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | **4** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | — | Sep 06, 2025 |
 | **5** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Algorithm | Easy | — | Sep 04, 2025 |
 | **6** | [Minimum Swaps for Even / Odd Partition](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) | Algorithm | Easy | — | Sep 04, 2025 |
-| **7** | [Nested Pattern String Expansion](https://trueinterview.io/questions/nested-pattern-string-expansion) | Algorithm | Hard | — | Aug 26, 2025 |
-| **8** | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | Algorithm | Easy | — | Jul 17, 2025 |
+| **7** | [Nested Pattern String Expansion](https://trueinterview.io/questions/nested-pattern-string-expansion) 🆓 | Algorithm | Hard | — | Aug 26, 2025 |
+| **8** | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) 🆓 | Algorithm | Easy | — | Jul 17, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

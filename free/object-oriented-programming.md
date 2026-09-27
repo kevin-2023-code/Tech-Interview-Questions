@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**38 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**43 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -28,14 +28,18 @@
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | **Coinbase / Lyft** | Medium | Feb 04, 2026 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | **Atlassian / Amplitude** | Medium | Oct 02, 2025 |
 | [Task Management System III](https://trueinterview.io/questions/task-management-system) | **Coinbase / Instacart** | Medium | Feb 03, 2026 |
+| [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | **PayPal** | Medium | — |
+| [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | **Perplexity** | Medium | Aug 09, 2025 |
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | **Rippling** | Medium | Jun 18, 2026 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | **Tradedesk** | Medium | — |
 | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | **Figma** | Medium | Jul 06, 2026 |
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | **Airtable** | Medium | — |
 | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | **Netflix** | Medium | May 21, 2026 |
+| [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | **Squarepoint** | Medium | — |
 | [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | **Akuna Capital** | Medium | Nov 02, 2025 |
 | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | **Anthropic** | Medium | Jun 10, 2026 |
+| [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | **Vanta** | Medium | Jul 24, 2025 |
 | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | **Arista** | Medium | — |
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | **Sigmacomputing** | Medium | — |
 | [Logger System](https://trueinterview.io/questions/logger-system-ood) | **Rippling** | Medium | Jun 09, 2026 |
@@ -46,3 +50,4 @@
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | **OpenAI / ByteDance** | Hard | Jun 11, 2026 |
 | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | **Circle** | Hard | — |
 | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | **Stubhub** | Hard | — |
+| [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | **Squarepoint** | Hard | — |

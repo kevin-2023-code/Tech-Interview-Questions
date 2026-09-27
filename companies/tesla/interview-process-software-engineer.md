@@ -36,7 +36,7 @@ Every reported screen contained live coding, and difficulty clusters at medium w
 
 - [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal)
 - [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md)
-- [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation)
+- [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md)
 
 ### Low-Level Design
 

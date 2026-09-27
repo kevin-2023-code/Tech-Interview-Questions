@@ -9,7 +9,7 @@ How Hudson River Trading interviews, and the questions candidates reported there
 |  |  |
 | :-- | :-- |
 | Questions reported | [15](../hudson-river-trading.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | May 01, 2026 |
@@ -30,11 +30,12 @@ Hudson River Trading interviews the language, not just the algorithm: candidates
 
 ## Free Hudson River Trading questions
 
-2 questions reported at Hudson River Trading open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Hudson River Trading open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](../../questions/algorithm/exploratory-data-analysis-and-modeling-for-heart-disease-prediction/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) |
+| [Implement a Coroutine Step by Step](../../questions/algorithm/implement-a-coroutine-step-by-step/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) |
 | [1D Players and Watcher With Direction Changes](../../questions/algorithm/1d-players-and-watcher-with-direction-changes/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) |
 
 ## Everything else

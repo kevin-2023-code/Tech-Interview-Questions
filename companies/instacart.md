@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 25) |
 | Difficulty (easy / medium / hard) | 3 / 15 / 7 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 25 questions reported at Instacart. 16 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

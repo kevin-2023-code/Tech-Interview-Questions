@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (44% of 70) |
 | Difficulty (easy / medium / hard) | 8 / 51 / 11 |
-| Free to practise | [4](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 

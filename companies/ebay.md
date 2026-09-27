@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 30) |
 | Difficulty (easy / medium / hard) | 7 / 17 / 6 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 30 questions reported at Ebay. 13 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

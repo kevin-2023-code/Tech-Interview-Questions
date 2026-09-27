@@ -1,7 +1,7 @@
 {
   "accessTiers": {
-    "free": 178,
-    "insider": 2383,
+    "free": 232,
+    "insider": 2329,
     "pro": 76
   },
   "companies": [
@@ -59,7 +59,7 @@
     },
     {
       "dated": 86,
-      "free": 20,
+      "free": 23,
       "guides": 14,
       "inLastYear": 83,
       "inWindow": 17,
@@ -98,7 +98,7 @@
     },
     {
       "dated": 77,
-      "free": 11,
+      "free": 14,
       "guides": 5,
       "inLastYear": 73,
       "inWindow": 4,
@@ -150,7 +150,7 @@
     },
     {
       "dated": 46,
-      "free": 5,
+      "free": 7,
       "guides": 6,
       "inLastYear": 42,
       "inWindow": 5,
@@ -189,7 +189,7 @@
     },
     {
       "dated": 47,
-      "free": 4,
+      "free": 5,
       "guides": 7,
       "inLastYear": 46,
       "inWindow": 8,
@@ -358,7 +358,7 @@
     },
     {
       "dated": 25,
-      "free": 6,
+      "free": 9,
       "guides": 6,
       "inLastYear": 22,
       "inWindow": 0,
@@ -384,7 +384,7 @@
     },
     {
       "dated": 13,
-      "free": 5,
+      "free": 6,
       "guides": 1,
       "inLastYear": 12,
       "inWindow": 1,
@@ -449,7 +449,7 @@
     },
     {
       "dated": 21,
-      "free": 4,
+      "free": 5,
       "guides": 7,
       "inLastYear": 20,
       "inWindow": 0,
@@ -475,7 +475,7 @@
     },
     {
       "dated": 17,
-      "free": 2,
+      "free": 3,
       "guides": 5,
       "inLastYear": 15,
       "inWindow": 0,
@@ -514,7 +514,7 @@
     },
     {
       "dated": 16,
-      "free": 3,
+      "free": 4,
       "guides": 1,
       "inLastYear": 15,
       "inWindow": 1,
@@ -527,7 +527,7 @@
     },
     {
       "dated": 17,
-      "free": 6,
+      "free": 8,
       "guides": 2,
       "inLastYear": 13,
       "inWindow": 0,
@@ -553,7 +553,7 @@
     },
     {
       "dated": 14,
-      "free": 3,
+      "free": 5,
       "guides": 5,
       "inLastYear": 13,
       "inWindow": 0,
@@ -592,7 +592,7 @@
     },
     {
       "dated": 6,
-      "free": 3,
+      "free": 4,
       "guides": 1,
       "inLastYear": 6,
       "inWindow": 0,
@@ -618,7 +618,7 @@
     },
     {
       "dated": 3,
-      "free": 3,
+      "free": 6,
       "guides": 1,
       "inLastYear": 3,
       "inWindow": 1,
@@ -644,7 +644,7 @@
     },
     {
       "dated": 10,
-      "free": 2,
+      "free": 6,
       "guides": 1,
       "inLastYear": 3,
       "inWindow": 0,
@@ -683,7 +683,7 @@
     },
     {
       "dated": 3,
-      "free": 3,
+      "free": 7,
       "guides": 1,
       "inLastYear": 3,
       "inWindow": 0,
@@ -709,7 +709,7 @@
     },
     {
       "dated": 2,
-      "free": 3,
+      "free": 8,
       "guides": 1,
       "inLastYear": 2,
       "inWindow": 0,
@@ -735,7 +735,7 @@
     },
     {
       "dated": 13,
-      "free": 2,
+      "free": 9,
       "guides": 0,
       "inLastYear": 6,
       "inWindow": 0,
@@ -748,7 +748,7 @@
     },
     {
       "dated": 4,
-      "free": 2,
+      "free": 5,
       "guides": 1,
       "inLastYear": 4,
       "inWindow": 0,
@@ -774,7 +774,7 @@
     },
     {
       "dated": 2,
-      "free": 2,
+      "free": 3,
       "guides": 1,
       "inLastYear": 2,
       "inWindow": 0,
@@ -787,7 +787,7 @@
     },
     {
       "dated": 10,
-      "free": 2,
+      "free": 7,
       "guides": 3,
       "inLastYear": 5,
       "inWindow": 0,
@@ -878,7 +878,7 @@
     },
     {
       "dated": 0,
-      "free": 2,
+      "free": 3,
       "guides": 1,
       "inLastYear": null,
       "inWindow": null,
@@ -917,7 +917,7 @@
     },
     {
       "dated": 8,
-      "free": 2,
+      "free": 5,
       "guides": 2,
       "inLastYear": 5,
       "inWindow": 3,
@@ -1433,7 +1433,7 @@
     {
       "easy": 297,
       "format": "algorithm",
-      "free": 113,
+      "free": 158,
       "graded": 1711,
       "hard": 330,
       "inWindow": 139,
@@ -1455,7 +1455,7 @@
     {
       "easy": 17,
       "format": "system-design",
-      "free": 20,
+      "free": 22,
       "graded": 283,
       "hard": 123,
       "inWindow": 46,
@@ -1466,7 +1466,7 @@
     {
       "easy": 12,
       "format": "ai-coding",
-      "free": 7,
+      "free": 9,
       "graded": 126,
       "hard": 45,
       "inWindow": 3,
@@ -1477,7 +1477,7 @@
     {
       "easy": 40,
       "format": "object-oriented-programming",
-      "free": 38,
+      "free": 43,
       "graded": 423,
       "hard": 49,
       "inWindow": 27,
@@ -2907,7 +2907,7 @@
   "totals": {
     "companies": 109,
     "dated": 1451,
-    "free": 178,
+    "free": 232,
     "futureDated": 1,
     "gradedDifficulty": 2637,
     "guides": 379,

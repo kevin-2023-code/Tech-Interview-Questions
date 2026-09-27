@@ -36,7 +36,7 @@ Squarepoint Capital runs a compact loop with an unusually high bar per round: a 
 Squarepoint's coding pool splits into two halves: assessment problems that are long on rules and short on cleverness, where output format and constraint compliance decide the result, and screen problems drawn from a small set of classic array and dynamic-programming patterns that you are expected to code cleanly and then explain. Practice restating every stated constraint out loud before writing, then close with complexity and edge cases.
 
 - Company Usernames
-- [How many Sentences?](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9)
+- [How many Sentences?](../../questions/algorithm/sentence-variations-with-anagram/README.md)
 - [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680)
 - [Top 3 frequent words (case-insensitive, tie by lexicographic order)](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d)
 - Product of Array Except Self
@@ -45,9 +45,9 @@ Squarepoint's coding pool splits into two halves: assessment problems that are l
 
 Design prompts here stay at the level of a single component and are judged as real code, not as boxes on a whiteboard. Expect to build something small, then defend it as the interviewer adds genericity, a size bound, and inputs your first design cannot handle. For C++ sessions the examination extends to ownership, allocation counts, and what the template machinery does at compile time.
 
-- [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc)
+- [Deterministic Function Wrapper with Caching](../../questions/object-oriented-programming/deterministic-function-wrapper-with-caching/README.md)
 - LRU Cache Implementation
-- [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf)
+- [Implement a Custom Vector Using Metaprogramming](../../questions/object-oriented-programming/implement-a-custom-vector-using-metaprogramming/README.md)
 
 ## How to Prepare
 

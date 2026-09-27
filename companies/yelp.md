@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (53% of 17) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 17 questions reported at Yelp. 13 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -79,8 +79,8 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 | **4** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
 | **5** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 8 | Dec 10, 2025 |
 | **6** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 8 | Oct 15, 2025 |
-| **7** | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) | Algorithm | Medium | — | Apr 21, 2025 |
-| **8** | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | Algorithm | Easy | — | Apr 20, 2025 |
+| **7** | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) 🆓 | Algorithm | Medium | — | Apr 21, 2025 |
+| **8** | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) 🆓 | Algorithm | Easy | — | Apr 20, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

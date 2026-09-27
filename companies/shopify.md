@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (73% of 15) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 1 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 15 questions reported at Shopify. 10 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -82,9 +82,9 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | **3** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | System Design | Hard | — | May 10, 2026 |
 | **4** | [LRU Cache](https://trueinterview.io/questions/lru-cache) 🆓 | AI Coding | Medium | 9 | Apr 09, 2026 |
 | **5** | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | 2 | Jan 05, 2026 |
-| **6** | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | — | Aug 29, 2025 |
-| **7** | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | — | Aug 29, 2025 |
-| **8** | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) | Algorithm | Medium | — | Aug 29, 2025 |
+| **6** | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) 🆓 | Algorithm | Easy | — | Aug 29, 2025 |
+| **7** | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) 🆓 | Algorithm | Easy | — | Aug 29, 2025 |
+| **8** | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) 🆓 | Algorithm | Medium | — | Aug 29, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

@@ -9,7 +9,7 @@ How Vanta interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [13](../vanta.md) |
-| Free to read here | 2 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
 | Most recent sighting | Jul 16, 2026 |
@@ -41,11 +41,14 @@ The screen runs about 45 to 60 minutes in a shared editor, and it is almost alwa
 
 ## Free Vanta questions
 
-2 questions reported at Vanta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Vanta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Implement `uniq` — Unique Lines in a File](../../questions/algorithm/unique-lines-command/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/unique-lines-command) |
+| [Test Run Status Monitor (Failing → Passing Windows)](../../questions/algorithm/test-status-monitor/README.md) | Algorithm | Hard | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/test-status-monitor) |
+| [Frontend Practical Coding — Work Against a Provided API](../../questions/object-oriented-programming/frontend-api-practical/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/frontend-api-practical) |
+| [Word Pattern / Meta-Pattern Match (Backtracking)](../../questions/algorithm/word-pattern-meta-match/README.md) | Algorithm | Medium | Phone screen | Dec 2024 | [Solve](https://trueinterview.io/questions/word-pattern-meta-match) |
 | [Implement Unix uniq](../../questions/algorithm/implement-unix-uniq/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) |
 
 ## Guides

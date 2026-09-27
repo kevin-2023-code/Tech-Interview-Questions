@@ -50,11 +50,11 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,711 | 65% | 139 | 297 | 1,084 | 330 | 1,711 | 113 |
+| [Algorithm](../formats/algorithm.md) | 1,711 | 65% | 139 | 297 | 1,084 | 330 | 1,711 | 158 |
 | [SQL](../formats/sql.md) | 94 | 4% | 31 | 20 | 58 | 16 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 283 | 11% | 46 | 17 | 143 | 123 | 283 | 20 |
-| [AI Coding](../formats/ai-coding.md) | 126 | 5% | 3 | 12 | 69 | 45 | 126 | 7 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 423 | 16% | 27 | 40 | 334 | 49 | 423 | 38 |
+| [System Design](../formats/system-design.md) | 283 | 11% | 46 | 17 | 143 | 123 | 283 | 22 |
+| [AI Coding](../formats/ai-coding.md) | 126 | 5% | 3 | 12 | 69 | 45 | 126 | 9 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 423 | 16% | 27 | 40 | 334 | 49 | 423 | 43 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 
@@ -145,11 +145,11 @@ The closest thing this data has to an instruction. A question reported at one em
 
 | Plan needed | Questions | Share of bank |
 | :-- | --: | --: |
-| Free | 178 | 7% |
+| Free | 232 | 9% |
 | Pro | 76 | 3% |
-| Insider | 2,383 | 90% |
+| Insider | 2,329 | 88% |
 
-<sub>Straight from the catalog's own `accessTier`, never asserted here. The **178 free ones are listed in full** — [start there](../free/README.md).</sub>
+<sub>Straight from the catalog's own `accessTier`, never asserted here. The **232 free ones are listed in full** — [start there](../free/README.md).</sub>
 
 ## Month by month
 

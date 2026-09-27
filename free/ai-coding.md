@@ -2,7 +2,7 @@
 
 # Free AI Coding questions
 
-**7 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**9 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,8 +10,10 @@
 | :-- | :-- | :-: | :-- |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / Databricks / SoFi** | Easy | Jun 2025 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | Medium | Apr 09, 2026 |
+| [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | **Tesla** | Medium | Aug 23, 2025 |
 | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | **Stripe** | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | **Meta** | Medium | May 30, 2026 |
+| [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | **Robinhood** | Medium | Aug 2025 |
 | [Payment Invoice Reconciliation](https://trueinterview.io/questions/payment-invoice-reconciliation) | **Stripe** | Medium | May 12, 2026 |
 | [Web Crawler](https://trueinterview.io/questions/web-crawler) | **Anthropic** | Medium | May 03, 2026 |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | **xAI** | Hard | Apr 04, 2026 |

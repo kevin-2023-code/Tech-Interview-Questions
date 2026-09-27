@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (77% of 13) |
 | Difficulty (easy / medium / hard) | 2 / 9 / 2 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 2 |
 
 <sub>Counted from the 13 questions reported at Vanta. 8 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -87,9 +87,9 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 | **3** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Hard | — | Jul 10, 2026 |
 | **4** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | — | Jun 10, 2026 |
 | **5** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | — | Mar 17, 2026 |
-| **6** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | — | Jul 31, 2025 |
-| **7** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Object Oriented Programming | Medium | — | Jul 24, 2025 |
-| **8** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) | Algorithm | Medium | — | Dec 04, 2024 |
+| **6** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) 🆓 | Algorithm | Hard | — | Jul 31, 2025 |
+| **7** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) 🆓 | Object Oriented Programming | Medium | — | Jul 24, 2025 |
+| **8** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) 🆓 | Algorithm | Medium | — | Dec 04, 2024 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

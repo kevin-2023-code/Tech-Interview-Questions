@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 20) |
 | Difficulty (easy / medium / hard) | 6 / 10 / 4 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 20 questions reported at Weride. 3 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -86,7 +86,7 @@ The 8 questions to open first if you are preparing for Weride, ranked by **the m
 | **5** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
 | **6** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |
 | **7** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | 1 | — |
-| **8** | [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) | Algorithm | Easy | — | — |
+| **8** | [Graph Traversal Problem](https://trueinterview.io/questions/985e3fa6-0f8a-4866-9262-dc37acc7ebf3) 🆓 | Algorithm | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

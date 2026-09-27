@@ -9,7 +9,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [165](../bytedance.md) |
-| Free to read here | 20 |
+| Free to read here | 23 |
 | Interview-process guides | 5 |
 | Other guides | 9 |
 | Most recent sighting | Sep 06, 2026 |
@@ -38,7 +38,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Free ByteDance questions
 
-20 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+23 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -56,6 +56,9 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
+| [Delete k Elements to Balance](../../questions/algorithm/delete-k-elements-to-balance/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/delete-k-elements-to-balance) |
+| [Add Signed Arrays](../../questions/algorithm/add-signed-arrays/README.md) | Algorithm | Easy | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/add-signed-arrays) |
+| [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |

@@ -9,7 +9,7 @@ How Perplexity interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [23](../perplexity.md) |
-| Free to read here | 3 |
+| Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 2 |
 | Most recent sighting | Jun 15, 2026 |
@@ -36,13 +36,15 @@ This guide goes deeper than the process outline on the company page: what each P
 
 ## Free Perplexity questions
 
-3 questions reported at Perplexity open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Perplexity open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
 | [ToDo List with Task Dependencies](../../questions/object-oriented-programming/todo-list-with-task-dependencies-ood/README.md) | Object Oriented Programming | Medium | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
+| [Credit Tracker with Expiring Credits](../../questions/object-oriented-programming/credit-tracker-with-expiring-credits/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) |
+| [Design Mint.com](../../questions/system-design/mint-com/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/mint-com) |
 
 ## Guides
 

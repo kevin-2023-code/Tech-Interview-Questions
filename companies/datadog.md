@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 20) |
 | Difficulty (easy / medium / hard) | 4 / 14 / 2 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 20 questions reported at Datadog. 6 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -79,7 +79,7 @@ The 8 questions to open first if you are preparing for Datadog, ranked by **the 
 | **5** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
 | **6** | [Design Instagram](https://trueinterview.io/questions/design-instagram) 🆓 | System Design | Medium | 6 | Jan 22, 2026 |
 | **7** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | 8 | — |
-| **8** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | 1 | — |
+| **8** | [Design Mint.com](https://trueinterview.io/questions/mint-com) 🆓 | System Design | Medium | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

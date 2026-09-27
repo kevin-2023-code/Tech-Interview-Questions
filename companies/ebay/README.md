@@ -9,7 +9,7 @@ How Ebay interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [30](../ebay.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 21, 2026 |
@@ -40,12 +40,13 @@ But the screen is not always an algorithm round. Reported variants include an ob
 
 ## Free Ebay questions
 
-5 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
+| [Convert Snake Case to Camel Case](../../questions/algorithm/convert-snake-case-names-to-lowercamelcase/README.md) | Algorithm | Easy | Online assessment | Apr 2025 | [Solve](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |

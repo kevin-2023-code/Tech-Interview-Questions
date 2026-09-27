@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,637 questions** · **379 writeups** · **109 companies** · **178 free to practise** · **246 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,637 questions** · **379 writeups** · **109 companies** · **232 free to practise** · **246 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -54,9 +54,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**178 of the 2,637 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**232 of the 2,637 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (113)](free/algorithm.md) · [System Design (20)](free/system-design.md) · [AI Coding (7)](free/ai-coding.md) · [Object Oriented Programming (38)](free/object-oriented-programming.md)
+[Algorithm (158)](free/algorithm.md) · [System Design (22)](free/system-design.md) · [AI Coding (9)](free/ai-coding.md) · [Object Oriented Programming (43)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->

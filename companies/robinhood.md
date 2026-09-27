@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (42% of 31) |
 | Difficulty (easy / medium / hard) | 3 / 21 / 7 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 6 |
 
 <sub>Counted from the 31 questions reported at Robinhood. 25 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

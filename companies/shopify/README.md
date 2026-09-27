@@ -9,7 +9,7 @@ How Shopify interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [15](../shopify.md) |
-| Free to read here | 2 |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
 | Most recent sighting | Jun 15, 2026 |
@@ -38,12 +38,17 @@ The stages below follow Shopify's public description of its process; the order a
 
 ## Free Shopify questions
 
-2 questions reported at Shopify open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Shopify open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Ruby only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-ruby-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) |
+| [C++ only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-c-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) |
+| [Dynamic programming, ~45 min, any language](../../questions/algorithm/swe-intern-coding-oa-dynamic-programming-45-min-any-language/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) |
+| [SWE / SDE Intern Coding OA (DP + C++/Ruby)](../../questions/algorithm/swe-intern-coding-oa/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa) |
+| [Cows and Bulls (Guess the Number)](../../questions/algorithm/cows-and-bulls/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/cows-and-bulls) |
 
 ## Guides
 

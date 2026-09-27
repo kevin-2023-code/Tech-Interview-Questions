@@ -9,7 +9,7 @@ How PayPal interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [17](../paypal.md) |
-| Free to read here | 3 |
+| Free to read here | 8 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Apr 09, 2026 |
@@ -45,12 +45,17 @@ Screens run directly by PayPal engineers look different. A 45-minute direct scre
 
 ## Free PayPal questions
 
-3 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at PayPal open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
+| [API Call and Data Processing](../../questions/object-oriented-programming/api-call-and-data-processing/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) |
+| [Binary Search Tree Pruning](../../questions/algorithm/binary-search-tree-pruning/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605) |
+| [Minimum Steps to Move Balls to Respective Holes](../../questions/algorithm/minimum-steps-to-move-balls-to-respective-holes/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb) |
+| [Number of Unique Binary Trees](../../questions/algorithm/number-of-unique-binary-trees/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) |
+| [Graph Traversal using BFS/DFS](../../questions/algorithm/graph-traversal-using-bfs-dfs/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else

@@ -39,7 +39,7 @@ Cisco coding practice should emphasize clean implementation of common patterns u
 
 - [Find Elements Largest in Row Smallest in Column](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84)
 - [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update)
-- [Nested Pattern String Expansion](https://trueinterview.io/questions/nested-pattern-string-expansion)
+- [Nested Pattern String Expansion](../../questions/algorithm/nested-pattern-string-expansion/README.md)
 
 ## How to Prepare
 

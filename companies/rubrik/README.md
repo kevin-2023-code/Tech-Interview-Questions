@@ -9,7 +9,7 @@ How Rubrik interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [14](../rubrik.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -44,12 +44,13 @@ The loop typically closes with a hiring-manager conversation: a deep walk throug
 
 ## Free Rubrik questions
 
-2 questions reported at Rubrik open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Rubrik open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Bitonic Partitioning](../../questions/algorithm/bitonic-partitioning/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) |
 | [Word Compression](../../questions/algorithm/word-compression/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) |
+| [Simulate Stack](../../questions/algorithm/simulate-stack/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) |
 
 ## Everything else
 
