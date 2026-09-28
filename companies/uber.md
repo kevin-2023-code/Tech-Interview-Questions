@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 172) |
 | Difficulty (easy / medium / hard) | 24 / 115 / 33 |
-| Free to practise | [25](../free/README.md) |
+| Free to practise | [36](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 2 in this snapshot |
 
@@ -125,7 +125,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | Software | [Uber Senior Software Engineer Interview Experience](https://trueinterview.io/interviews/b0cbabe9-08e0-4f09-aff4-1a9e1c3313e1) | Sep 27, 2026 |
 | Software | [Uber Word Search II Variant and Project Deep Dive Interview Experience (2025)](https://trueinterview.io/interviews/37b6ec25-fbfe-42d4-b5a7-c81151899d3b) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Uber and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

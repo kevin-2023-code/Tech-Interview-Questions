@@ -137,7 +137,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Algorithm | Medium | 🆕 Aug 26, 2026 |
 | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | System Design | Medium | 🆕 Aug 16, 2026 |
 | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Medium | 🆕 Aug 13, 2026 |
+| [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | SQL | Medium | Aug 13, 2026 |
 | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | System Design | Hard | Aug 08, 2026 |
 | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Algorithm | Hard | Aug 05, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |

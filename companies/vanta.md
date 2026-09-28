@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (77% of 13) |
 | Difficulty (easy / medium / hard) | 2 / 9 / 2 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 2 |
 
 <sub>Counted from the 13 questions reported at Vanta. 8 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

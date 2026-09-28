@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 27) |
 | Difficulty (easy / medium / hard) | 1 / 24 / 2 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 27 questions reported at Verkada. 10 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

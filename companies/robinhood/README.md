@@ -9,7 +9,7 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [31](../robinhood.md) |
-| Free to read here | 9 |
+| Free to read here | 8 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
 | Most recent sighting | May 09, 2026 |
@@ -38,7 +38,7 @@ System design draws from a small, stable bank that varies by track. The job sche
 
 ## Free Robinhood questions
 
-9 questions reported at Robinhood open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+8 questions reported at Robinhood open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -50,7 +50,6 @@ System design draws from a small, stable bank that varies by track. The job sche
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Mobile Table View Timer App](../../questions/ai-coding/mobile-table-view-timer-app/README.md) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/mobile-table-view-timer-app) |
 | [Financial News Recommendation Feed](../../questions/system-design/financial-news-recommendation-feed/README.md) | System Design | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/financial-news-recommendation-feed) |
-| [Find Middle Course](../../questions/algorithm/find-middle-course/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/find-middle-course) |
 
 ## Guides
 

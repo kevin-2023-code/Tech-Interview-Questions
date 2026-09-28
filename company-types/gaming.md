@@ -46,14 +46,13 @@ Of the **36 questions in this cut that carry a topic label** (59% of it):
 
 ## Asked here in the last 90 days
 
-**4 sightings** across this cut. Newest first.
+**3 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Roblox | Algorithm | Sep 09, 2026 |
 | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Roblox | Algorithm | Aug 17, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Roblox | Algorithm | Aug 12, 2026 |
-| [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Roblox | Algorithm | Jun 29, 2026 |
 
 ---
 

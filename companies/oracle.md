@@ -121,7 +121,7 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | 🆕 Aug 13, 2026 |
+| [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | Aug 13, 2026 |
 | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | May 03, 2026 |
 | [Minimum Swaps to Group Evens First](https://trueinterview.io/questions/sort-array-by-parity-min-swaps) | Algorithm | Medium | Apr 14, 2026 |

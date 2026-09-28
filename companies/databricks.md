@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **67** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 6 |
+| Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (42% of 67) |
 | Difficulty (easy / medium / hard) | 5 / 43 / 19 |
 | Free to practise | [11](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **67 of 67** questions at Databrick
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**5 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -48,7 +48,6 @@ Which stage each question came from, for the **67 of 67** questions at Databrick
 | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Algorithm | Hard | Onsite / virtual onsite | Sep 06, 2026 |
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Hard | Onsite / virtual onsite | Sep 06, 2026 |
 | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jul 30, 2026 |
-| [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 29, 2026 |
 
 ## What they ask about
 
@@ -128,7 +127,7 @@ What candidates said happened in the room at Databricks — written up by the pe
 | Software | [Databricks Customer Revenue System Design Interview Experience](https://trueinterview.io/interviews/e50e7ebe-9a3e-4e35-a99a-c22c799f4036) | Sep 27, 2026 |
 | Software | [Databricks Interview Experience](https://trueinterview.io/interviews/48bb901e-22c6-4240-9bc1-bd5be853deb4) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Databricks and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Databricks and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

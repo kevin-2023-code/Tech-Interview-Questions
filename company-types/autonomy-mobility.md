@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 78 | 66% | ██████████████ | 16 |
+| [Algorithm](../formats/algorithm.md) | 78 | 66% | ██████████████ | 17 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 14% | ███ | 7 |
 | [System Design](../formats/system-design.md) | 11 | 9% | ██ | 1 |
 | [SQL](../formats/sql.md) | 8 | 7% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **12 / 69 / 37**, over the rows the catalog has graded. 25 of the 118 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **12 / 69 / 37**, over the rows the catalog has graded. 26 of the 118 open without a paid plan.</sub>
 
 ## What they ask about
 

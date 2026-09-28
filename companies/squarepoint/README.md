@@ -9,7 +9,7 @@ How Squarepoint interviews, and the questions candidates reported there. Free qu
 |  |  |
 | :-- | :-- |
 | Questions reported | [23](../squarepoint.md) |
-| Free to read here | 7 |
+| Free to read here | 11 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | May 23, 2026 |
@@ -32,16 +32,20 @@ Squarepoint Capital runs a compact loop with an unusually high bar per round: a 
 
 ## Free Squarepoint questions
 
-7 questions reported at Squarepoint open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+11 questions reported at Squarepoint open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [Line by Line Document Generator](../../questions/algorithm/line-by-line-document-generator/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) |
+| [Merge Two Sorted Vectors](../../questions/algorithm/merge-two-sorted-vectors/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) |
+| [Grasshopper Problem](../../questions/algorithm/grasshopper-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/6963da19-4f4b-4340-8237-43ced6656932) |
+| [Minimum Number of Umbrellas](../../questions/algorithm/minimum-number-of-umbrellas/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3b3782d9-dd83-4be7-a787-f7c182f4ab30) |
 | [Implement a Custom Vector Using Metaprogramming](../../questions/object-oriented-programming/implement-a-custom-vector-using-metaprogramming/README.md) | Object Oriented Programming | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) |
 | [Deterministic Function Wrapper with Caching](../../questions/object-oriented-programming/deterministic-function-wrapper-with-caching/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) |
 | [Sentence Variations with Anagram](../../questions/algorithm/sentence-variations-with-anagram/README.md) | Algorithm | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) |
+| [Generate Unique Usernames](../../questions/algorithm/generate-unique-usernames/README.md) | Algorithm | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/1ac76be5-90d6-4f8f-b5af-24baa7b56ea9) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
 
 ## Everything else

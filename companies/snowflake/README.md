@@ -9,7 +9,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [110](../snowflake.md) |
-| Free to read here | 14 |
+| Free to read here | 27 |
 | Interview-process guides | 1 |
 | Other guides | 4 |
 | Most recent sighting | Aug 15, 2026 |
@@ -34,7 +34,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Free Snowflake questions
 
-14 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+27 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -50,7 +50,20 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
 | [Unequal Elements](../../questions/algorithm/unequal-elements/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/unequal-elements) |
-| [Three-Color Map Coloring](../../questions/algorithm/three-color-map-coloring/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/three-color-map-coloring) |
+| [Find Unique Number in Consecutive Pairs](../../questions/algorithm/find-unique-number-in-consecutive-pairs/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) |
+| [Minimize Marbles in Grid](../../questions/algorithm/minimize-marbles-in-grid/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) |
+| [Implement Trie with Non-Standard Alphabet](../../questions/algorithm/implement-trie-with-non-standard-alphabet/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) |
+| [Connect Four Game Evaluation](../../questions/algorithm/connect-four-game-evaluation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/996df6f4-26e7-4a59-953f-eeec0b118171) |
+| [Calculate Fibonacci Number](../../questions/algorithm/calculate-fibonacci-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) |
+| [Determine if a Binary Tree is Perfect](../../questions/algorithm/determine-if-a-binary-tree-is-perfect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) |
+| [Determine Employees to Promote](../../questions/algorithm/determine-employees-to-promote/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) |
+| [Role-Based Access Control with Inheritance and Deny Rules](../../questions/algorithm/role-based-access-control-with-inheritance-and-deny-rules/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/406c257a-cd8f-4c52-ba90-ea79a05da226) |
+| [Simple TypeScript Program](../../questions/algorithm/simple-typescript-program/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) |
+| [Check Validity of Input String](../../questions/algorithm/check-validity-of-input-string/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) |
+| [Deployments Node Calculation](../../questions/algorithm/deployments-node-calculation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) |
+| [Maximum Order Volume](../../questions/algorithm/maximum-order-volume/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) |
+| [Vowel Substring](../../questions/algorithm/vowel-substring/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) |
+| [Minimum Value Weight](../../questions/algorithm/minimum-value-weight/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Guides

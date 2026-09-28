@@ -170,8 +170,8 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | Medium | 🆕 Aug 14, 2026 |
 | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Algorithm | Medium | 🆕 Aug 14, 2026 |
 | [Group Anagrams (LC 49)](https://trueinterview.io/questions/group-anagrams-lc-49) | Algorithm | Medium | 🆕 Aug 14, 2026 |
-| [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | SQL | Easy | 🆕 Aug 13, 2026 |
-| [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | SQL | Medium | 🆕 Aug 13, 2026 |
+| [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | SQL | Easy | Aug 13, 2026 |
+| [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | SQL | Medium | Aug 13, 2026 |
 | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | System Design | Medium | Aug 08, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Employee Total-Cost Object Model](https://trueinterview.io/questions/employee-total-cost-object-model) | Object Oriented Programming | Medium | Jul 22, 2026 |

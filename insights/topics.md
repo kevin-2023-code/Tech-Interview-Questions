@@ -10,23 +10,23 @@ What the bank is *about*, counted over the **1,777 questions that carry a topic 
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
 | `hashing` | 312 | 18% | 33 | 78 | 193 | 41 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
 | `arrays` | 267 | 15% | 29 | 69 | 170 | 28 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [Google](../companies/google.md) |
-| `graphs` | 264 | 15% | 25 | 15 | 179 | 70 | [Google](../companies/google.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
+| `graphs` | 264 | 15% | 23 | 15 | 179 | 70 | [Google](../companies/google.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
 | `strings` | 246 | 14% | 19 | 63 | 145 | 38 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
-| `greedy` | 174 | 10% | 16 | 15 | 116 | 43 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
+| `greedy` | 174 | 10% | 14 | 15 | 116 | 43 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `dynamic-programming` | 143 | 8% | 15 | 8 | 78 | 57 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `trees` | 123 | 7% | 14 | 15 | 78 | 30 | [Google](../companies/google.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
 | `sorting` | 122 | 7% | 14 | 27 | 72 | 23 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [Uber](../companies/uber.md) |
 | `backtracking` | 119 | 7% | 15 | 9 | 72 | 38 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Snowflake](../companies/snowflake.md) |
 | `math` | 105 | 6% | 14 | 19 | 59 | 27 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Citadel](../companies/citadel.md) |
-| `heap` | 96 | 5% | 13 | 3 | 59 | 34 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
-| `matrix` | 95 | 5% | 11 | 10 | 72 | 13 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
+| `heap` | 96 | 5% | 12 | 3 | 59 | 34 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
+| `matrix` | 95 | 5% | 10 | 10 | 72 | 13 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
 | `binary-search` | 88 | 5% | 6 | 9 | 56 | 23 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
 | `two-pointers` | 88 | 5% | 5 | 24 | 61 | 3 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [Apple](../companies/apple.md) |
 | `stack` | 84 | 5% | 8 | 10 | 54 | 20 | [ByteDance](../companies/bytedance.md), [Meta](../companies/meta.md), [Amazon](../companies/amazon.md) |
-| `sliding-window` | 81 | 5% | 5 | 12 | 59 | 10 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
+| `sliding-window` | 81 | 5% | 4 | 12 | 59 | 10 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `intervals` | 67 | 4% | 6 | 1 | 51 | 15 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `linked-list` | 38 | 2% | 3 | 5 | 29 | 4 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md) |
-| `topological-sort` | 32 | 2% | 5 | 0 | 28 | 4 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Snowflake](../companies/snowflake.md) |
+| `topological-sort` | 32 | 2% | 4 | 0 | 28 | 4 | [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md), [Snowflake](../companies/snowflake.md) |
 | `bit-manipulation` | 30 | 2% | 1 | 7 | 15 | 8 | [Google](../companies/google.md), [Apple](../companies/apple.md), [Airbnb](../companies/airbnb.md) |
 | `tries` | 30 | 2% | 0 | 3 | 21 | 6 | [Amazon](../companies/amazon.md), [Snowflake](../companies/snowflake.md), [Google](../companies/google.md) |
 

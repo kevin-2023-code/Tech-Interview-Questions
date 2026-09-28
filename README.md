@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,746 questions** · **385 writeups** · **109 companies** · **293 free to practise** · **252 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,746 questions** · **385 writeups** · **109 companies** · **325 free to practise** · **248 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -41,9 +41,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 252 sightings at 53 companies — Algorithm 143 · SQL 31 · System Design 48 · AI Coding 3 · Object Oriented Programming 27.
+**Last 90 days:** 248 sightings at 53 companies — Algorithm 140 · SQL 31 · System Design 47 · AI Coding 3 · Object Oriented Programming 27.
 
-**Reported most:** [Amazon (43)](companies/amazon.md) · [Google (20)](companies/google.md) · [ByteDance (17)](companies/bytedance.md) · [LinkedIn (11)](companies/linkedin.md) · [Microsoft (11)](companies/microsoft.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Meta (9)](companies/meta.md)
+**Reported most:** [Amazon (43)](companies/amazon.md) · [Google (20)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (11)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Microsoft (10)](companies/microsoft.md) · [Citadel (8)](companies/citadel.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (13)
 
@@ -54,9 +54,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**293 of the 2,746 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**325 of the 2,746 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (209)](free/algorithm.md) · [System Design (25)](free/system-design.md) · [AI Coding (10)](free/ai-coding.md) · [Object Oriented Programming (49)](free/object-oriented-programming.md)
+[Algorithm (239)](free/algorithm.md) · [System Design (25)](free/system-design.md) · [AI Coding (10)](free/ai-coding.md) · [Object Oriented Programming (51)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -104,7 +104,7 @@ happened.
 | **Databricks** | Software | [Databricks Customer Revenue System Design Interview Experience](https://trueinterview.io/interviews/02775fb7-ef25-40de-bff0-ff92058820e7) | Sep 27, 2026 |
 | **Databricks** | Software | [Databricks Customer Revenue System Design Interview Experience](https://trueinterview.io/interviews/e50e7ebe-9a3e-4e35-a99a-c22c799f4036) | Sep 27, 2026 |
 
-[**2,968 reports on the board →**](experiences/README.md)
+[**2,964 reports on the board →**](experiences/README.md)
 <!-- gen:experiences:end -->
 
 ## 🏷️ Browse by company type
@@ -175,7 +175,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **AMD** | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | System Design | 🔥 Sep 14, 2026 |
 | **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Algorithm | 🔥 Sep 14, 2026 |
 | **IBM** | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Algorithm | 🔥 Sep 14, 2026 |
-| **Rippling** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | 🔥 Sep 13, 2026 |
+| **Rippling** | [Bill Deliveries with Historical Rates and Deferred Rounding](https://trueinterview.io/questions/bill-deliveries-with-historical-rates-and-deferred-rounding) | Algorithm | 🆕 Sep 13, 2026 |
 | **Rippling** | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Object Oriented Programming | 🆕 Sep 11, 2026 |
 | **Stripe** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | Object Oriented Programming | 🆕 Sep 11, 2026 |
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Algorithm | 🆕 Sep 11, 2026 |

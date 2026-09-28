@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **61** |
 | Most recent sighting | Sep 09, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (56% of 61) |
 | Difficulty (easy / medium / hard) | 11 / 39 / 11 |
 | Free to practise | [10](../free/README.md) |
@@ -38,14 +38,13 @@ Which stage each question came from, for the **61 of 61** questions at Roblox th
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [File Chunk Range Tracking](https://trueinterview.io/questions/file-chunks-consecutive-byte-ranges) | Algorithm | Medium | Online assessment | Sep 09, 2026 |
 | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Algorithm | Easy | Phone screen | Aug 17, 2026 |
 | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Algorithm | Medium | Online assessment | Aug 12, 2026 |
-| [Dependency Ordering With Topological Sort](https://trueinterview.io/questions/topological-sort-with-ordering) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jun 29, 2026 |
 
 ## What they ask about
 

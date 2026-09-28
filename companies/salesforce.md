@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (77% of 52) |
 | Difficulty (easy / medium / hard) | 6 / 30 / 16 |
-| Free to practise | [3](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 1 in this snapshot |
 
@@ -129,7 +129,7 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | :-- | :-- | :-- |
 | Software | [Salesforce Software Engineer (GCP Team) Interview Experience (San Francisco)](https://trueinterview.io/interviews/044cf02a-8ec0-4c03-af09-3847e3713990) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Salesforce and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

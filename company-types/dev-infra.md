@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 142 | 62% | ██████████████ | 18 |
+| [Algorithm](../formats/algorithm.md) | 142 | 62% | ██████████████ | 31 |
 | [System Design](../formats/system-design.md) | 44 | 19% | ████ | 8 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 37 | 16% | ████ | 6 |
 | [SQL](../formats/sql.md) | 5 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **36 / 145 / 49**, over the rows the catalog has graded. 33 of the 230 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **36 / 145 / 49**, over the rows the catalog has graded. 46 of the 230 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -47,7 +47,7 @@ Of the **144 questions in this cut that carry a topic label** (63% of it):
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**10 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -61,7 +61,6 @@ Of the **144 questions in this cut that carry a topic label** (63% of it):
 | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Snowflake | Object Oriented Programming | Aug 01, 2026 |
 | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | Databricks | System Design | Jul 30, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | Snowflake | SQL | Jul 22, 2026 |
-| [Find Optimal Commute](https://trueinterview.io/questions/find-optimal-commute) | Databricks | Algorithm | Jun 29, 2026 |
 
 ---
 
@@ -77,7 +76,7 @@ Of the **144 questions in this cut that carry a topic label** (63% of it):
 | **Databricks** | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Hard | 🆕 Sep 06, 2026 |
 | **Databricks** | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | Medium | 🆕 Sep 06, 2026 |
 | **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | 🆕 Aug 15, 2026 |
-| **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Medium | 🆕 Aug 13, 2026 |
+| **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Medium | Aug 13, 2026 |
 | **Snowflake** | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Medium | Aug 01, 2026 |
 | **Databricks** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | Medium | Jul 30, 2026 |
 | **Snowflake** | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | Medium | Jul 22, 2026 |

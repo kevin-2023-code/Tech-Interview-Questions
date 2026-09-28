@@ -112,7 +112,7 @@ What candidates said happened in the room at Netflix — written up by the peopl
 | :-- | :-- | :-- |
 | Software | [Netflix String Arrays and Movie Deduplication Interview Experience](https://trueinterview.io/interviews/5d86dc85-2b88-4b1e-a8eb-0305663b9ec3) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Netflix and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Netflix and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

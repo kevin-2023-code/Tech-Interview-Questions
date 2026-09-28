@@ -9,7 +9,7 @@ How Verkada interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [27](../verkada.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 17, 2026 |
@@ -34,13 +34,14 @@ Two constraints recur inside these rounds and catch people off guard. Interviewe
 
 ## Free Verkada questions
 
-3 questions reported at Verkada open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Verkada open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
+| [Implement APIs in a Flask Application](../../questions/object-oriented-programming/implement-apis-in-a-flask-application/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) |
 
 ## Everything else
 

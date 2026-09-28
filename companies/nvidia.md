@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
 | Difficulty (easy / medium / hard) | 6 / 15 / 8 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 7 |
 
 <sub>Counted from the 29 questions reported at NVIDIA. 17 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

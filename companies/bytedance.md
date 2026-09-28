@@ -16,10 +16,10 @@
 | :-- | :-- |
 | Questions tracked | **168** |
 | Most recent sighting | Sep 06, 2026 |
-| Reported in the last 90 days | 17 |
+| Reported in the last 90 days | 16 |
 | Most common format | [Algorithm](../formats/algorithm.md) (78% of 168) |
 | Difficulty (easy / medium / hard) | 21 / 111 / 36 |
-| Free to practise | [22](../free/README.md) |
+| Free to practise | [23](../free/README.md) |
 | Guides & writeups | 14 |
 | Interview reports on the board | 2 in this snapshot |
 
@@ -39,7 +39,7 @@ Which stage each question came from, for the **168 of 168** questions at ByteDan
 
 ## Asked here in the last 90 days
 
-**17 sightings** in this window. Newest first.
+**16 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **168 of 168** questions at ByteDan
 | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Algorithm | Hard | Onsite / virtual onsite | Aug 17, 2026 |
 | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | Phone screen | Aug 13, 2026 |
 
-<sub>5 more in this window are in the table below.</sub>
+<sub>4 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -144,7 +144,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | Software | [ByteDance Course Schedule Coding Interview Experience](https://trueinterview.io/interviews/4c70e4a0-d98a-4455-9659-a4f930cc664b) | Sep 27, 2026 |
 | Software | [ByteDance {Company} {Role} Interview Experience](https://trueinterview.io/interviews/91c6912f-e43b-4d71-9346-0764d6fb854c) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at ByteDance and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at ByteDance and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -167,7 +167,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | 🆕 Aug 17, 2026 |
 | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Algorithm | Hard | 🆕 Aug 17, 2026 |
 | [Pythagorean Triple in an Integer Array](https://trueinterview.io/questions/pythagorean-triple-integer-array) | Algorithm | Medium | 🆕 Aug 17, 2026 |
-| [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | 🆕 Aug 13, 2026 |
+| [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | Aug 13, 2026 |
 | [AI-Assisted Order Validator](https://trueinterview.io/questions/ai-assisted-order-validator) | Object Oriented Programming | Medium | Aug 06, 2026 |
 | [Bounded Number Construction from Allowed Digits](https://trueinterview.io/questions/bounded-number-from-allowed-digits) | Algorithm | Hard | Jul 29, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |

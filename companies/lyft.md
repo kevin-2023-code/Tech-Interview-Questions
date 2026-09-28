@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **32** |
 | Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (44% of 32) |
 | Difficulty (easy / medium / hard) | 1 / 26 / 5 |
 | Free to practise | [9](../free/README.md) |
@@ -38,13 +38,12 @@ Which stage each question came from, for the **32 of 32** questions at Lyft that
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Job Scheduler](https://trueinterview.io/questions/job-scheduler-minimum-workers) | Algorithm | Hard | Onsite / virtual onsite | Jul 29, 2026 |
 | [Design Pagination API](https://trueinterview.io/questions/pagination-api-wrapper) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 29, 2026 |
-| [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Algorithm | Medium | Phone screen | Jun 29, 2026 |
 
 ## What they ask about
 

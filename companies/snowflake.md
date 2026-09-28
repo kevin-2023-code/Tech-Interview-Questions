@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 110) |
 | Difficulty (easy / medium / hard) | 17 / 72 / 21 |
-| Free to practise | [14](../free/README.md) |
+| Free to practise | [27](../free/README.md) |
 | Guides & writeups | 5 |
 | Interview reports on the board | 4 in this snapshot |
 
@@ -125,7 +125,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/093ea1be-0a23-4b05-8c78-d15b7c09e2f9) | Sep 27, 2026 |
 | Software | [Snowflake Software Engineer Interview Experience](https://trueinterview.io/interviews/4b999f4f-c271-41a9-972c-0401de88773b) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Snowflake and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -138,7 +138,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | 🆕 Aug 15, 2026 |
-| [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | 🆕 Aug 13, 2026 |
+| [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | Aug 13, 2026 |
 | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | Aug 01, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | Jul 22, 2026 |
 | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | System Design | Medium | Jun 25, 2026 |

@@ -128,7 +128,7 @@ What candidates said happened in the room at DoorDash — written up by the peop
 | :-- | :-- | :-- |
 | Software | [DoorDash Bootstrap API Coding Interview Experience](https://trueinterview.io/interviews/963f6ed1-c533-4d81-bb32-51bde96f1a1e) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at DoorDash and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at DoorDash and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **115** |
 | Most recent sighting | Sep 09, 2026 |
-| Reported in the last 90 days | 11 |
+| Reported in the last 90 days | 10 |
 | Most common format | [Algorithm](../formats/algorithm.md) (73% of 115) |
 | Difficulty (easy / medium / hard) | 16 / 71 / 28 |
 | Free to practise | [18](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **115 of 115** questions at Microso
 
 ## Asked here in the last 90 days
 
-**11 sightings** in this window. Newest first.
+**10 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -52,7 +52,6 @@ Which stage each question came from, for the **115 of 115** questions at Microso
 | [Beam Search Decoding](https://trueinterview.io/questions/beam-search-decoding) | Algorithm | Hard | Phone screen | Jul 29, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
 | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | SQL | Medium | Phone screen | Jul 22, 2026 |
-| [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 29, 2026 |
 
 ## What they ask about
 

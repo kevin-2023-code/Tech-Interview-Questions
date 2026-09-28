@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 5 |
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 75) |
 | Difficulty (easy / medium / hard) | 7 / 51 / 17 |
-| Free to practise | [7](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 2 in this snapshot |
 
@@ -126,7 +126,7 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | Software | [Pinterest SDE2 Interview Experience](https://trueinterview.io/interviews/519ecb26-48c1-4198-a490-a8c6b6cfdf77) | Sep 27, 2026 |
 | Software | [Pinterest Senior Software Engineer Interview Experience: Region Tree Access Control System Design](https://trueinterview.io/interviews/b1c34d1b-e5ae-4d52-95ed-c2810a070236) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

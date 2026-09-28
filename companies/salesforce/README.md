@@ -9,7 +9,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 |  |  |
 | :-- | :-- |
 | Questions reported | [52](../salesforce.md) |
-| Free to read here | 3 |
+| Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 5 |
 | Most recent sighting | Aug 24, 2026 |
@@ -36,12 +36,13 @@ Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1)
 
 ## Free Salesforce questions
 
-3 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+4 questions reported at Salesforce open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
 | [Minimum Knight Moves](../../questions/algorithm/minimum-knight-moves/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/minimum-knight-moves) |
+| [Min Elements to Remove to Make Almost Sorted Array](../../questions/algorithm/min-elements-to-remove-to-make-almost-sorted-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
 
 ## Guides

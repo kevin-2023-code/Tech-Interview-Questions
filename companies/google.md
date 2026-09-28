@@ -143,7 +143,7 @@ What candidates said happened in the room at Google — written up by the people
 | Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/85061c2b-c365-445a-a59d-b90abfba3d78) | Sep 27, 2026 |
 | Software | [Google Software Engineer L4 Interview Experience (Mountain View)](https://trueinterview.io/interviews/d31723af-0630-49cd-9d88-990b5c8ac5d4) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at Google and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Google and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -163,8 +163,8 @@ What candidates said happened in the room at Google — written up by the people
 | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | Hard | 🆕 Aug 16, 2026 |
 | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | Medium | 🆕 Aug 16, 2026 |
 | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | 🆕 Aug 13, 2026 |
-| [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | 🆕 Aug 13, 2026 |
+| [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | Aug 13, 2026 |
+| [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | Aug 13, 2026 |
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Aug 11, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Batch and Streaming Log Deduplication](https://trueinterview.io/questions/batch-streaming-log-deduplication) | Algorithm | Hard | Jul 23, 2026 |

@@ -9,7 +9,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [172](../uber.md) |
-| Free to read here | 25 |
+| Free to read here | 36 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
 | Most recent sighting | Aug 16, 2026 |
@@ -52,7 +52,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Free Uber questions
 
-25 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+36 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -78,6 +78,17 @@ In coding rounds, candidates typically solve the core problem in under half the 
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Round-Trip Mission Schedule](../../questions/algorithm/oa-codesignal-multi-mission-routing/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) |
+| [Find Number of Joins in an Array](../../questions/algorithm/find-number-of-joins-in-an-array/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/fc4d092e-f8cd-4378-89a3-23839a79b360) |
+| [Alien Dictionary Evaluation](../../questions/algorithm/alien-dictionary-evaluation/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec) |
+| [Find Target with Rotation](../../questions/algorithm/find-target-with-rotation/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b61576ab-0661-458e-ae7d-f1a3ed8e4d3d) |
+| [Paint Line and Count Adjacent Same Colors](../../questions/algorithm/paint-line-and-count-adjacent-same-colors/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/688b80fe-8f40-45dc-8c98-61c2aaac7ea9) |
+| [Track Customer Website Visits](../../questions/algorithm/track-customer-website-visits/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) |
+| [Find Index of Max Rate to Price Ratio](../../questions/algorithm/find-index-of-max-rate-to-price-ratio/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/2d92d9fc-3676-44e1-a4f8-db5e99c47868) |
+| [Find Combinations After Flip](../../questions/algorithm/find-combinations-after-flip/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1da69ce4-74fb-48ef-9eb8-ebca7578ec21) |
+| [Maximize Score Sum](../../questions/algorithm/maximize-score-sum/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1aaab4e0-9f68-4ab4-b6f5-430ea315a3b6) |
+| [Meeting Rooms Allocation with Delay](../../questions/algorithm/meeting-rooms-allocation-with-delay/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) |
+| [Rotate Matrix with Gravity Effect](../../questions/algorithm/rotate-matrix-with-gravity-effect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) |
+| [Flip and Compare in Arrays](../../questions/algorithm/flip-and-compare-in-arrays/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) |
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |

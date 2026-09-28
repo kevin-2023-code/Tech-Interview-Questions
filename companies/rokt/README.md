@@ -9,7 +9,7 @@ How Rokt interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [4](../rokt.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | — |
@@ -20,10 +20,11 @@ No written process guide yet. [The loop, as reported](../rokt.md#the-loop-as-rep
 
 ## Free Rokt questions
 
-2 questions reported at Rokt open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Rokt open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Implement a Text Editor](../../questions/object-oriented-programming/implement-a-text-editor/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 

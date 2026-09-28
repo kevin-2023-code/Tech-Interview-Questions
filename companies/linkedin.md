@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 82) |
 | Difficulty (easy / medium / hard) | 7 / 56 / 19 |
-| Free to practise | [7](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 19 in this snapshot |
 
@@ -149,7 +149,7 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | Software | [LinkedIn Staff Software Engineer Interview Experience (Seattle)](https://trueinterview.io/interviews/961fa8e6-6a2b-43d4-96ee-e231231ed07b) | Sep 27, 2026 |
 | Software | [Uniform Random Number Generator and LinkedIn NewsFeed Design Interview Experience](https://trueinterview.io/interviews/e086940c-7e86-495d-bb00-14af9f1d5bfd) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,968 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at LinkedIn and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
