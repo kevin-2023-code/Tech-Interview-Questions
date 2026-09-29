@@ -10,7 +10,7 @@
       "free": 29,
       "guides": 20,
       "inLastYear": 142,
-      "inWindow": 43,
+      "inWindow": 41,
       "lastSighting": "2026-09-14",
       "name": "Amazon",
       "questions": 238,
@@ -36,7 +36,7 @@
       "free": 23,
       "guides": 11,
       "inLastYear": 85,
-      "inWindow": 8,
+      "inWindow": 7,
       "lastSighting": "2026-08-16",
       "name": "Meta",
       "questions": 185,
@@ -478,7 +478,7 @@
       "free": 6,
       "guides": 7,
       "inLastYear": 17,
-      "inWindow": 5,
+      "inWindow": 4,
       "lastSighting": "2026-08-21",
       "name": "NVIDIA",
       "questions": 29,
@@ -1436,7 +1436,7 @@
       "free": 239,
       "graded": 1800,
       "hard": 357,
-      "inWindow": 140,
+      "inWindow": 138,
       "label": "Algorithm",
       "medium": 1123,
       "questions": 1800
@@ -1458,7 +1458,7 @@
       "free": 25,
       "graded": 290,
       "hard": 126,
-      "inWindow": 47,
+      "inWindow": 46,
       "label": "System Design",
       "medium": 147,
       "questions": 290
@@ -1469,7 +1469,7 @@
       "free": 10,
       "graded": 126,
       "hard": 46,
-      "inWindow": 3,
+      "inWindow": 2,
       "label": "AI Coding",
       "medium": 68,
       "questions": 126
@@ -1486,7 +1486,7 @@
       "questions": 436
     }
   ],
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "latestSighting": "2026-09-18",
   "months": [
     {
@@ -2189,7 +2189,7 @@
       "easy": 69,
       "graded": 267,
       "hard": 28,
-      "inWindow": 29,
+      "inWindow": 27,
       "medium": 170,
       "questions": 267,
       "topCompanies": [
@@ -2914,7 +2914,7 @@
     "gradedDifficulty": 2746,
     "guides": 385,
     "inLastYear": 1395,
-    "inWindow": 248,
+    "inWindow": 244,
     "labelledTopic": 1777,
     "namingARound": 2746,
     "questions": 2746,

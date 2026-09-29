@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **185** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (66% of 185) |
 | Difficulty (easy / medium / hard) | 28 / 118 / 39 |
 | Free to practise | [23](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **185 of 185** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -50,7 +50,6 @@ Which stage each question came from, for the **185 of 185** questions at Meta th
 | [Tally Service](https://trueinterview.io/questions/tally-service-concurrent-windowed-counter) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 20, 2026 |
 | [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 19, 2026 |
 | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | Online assessment | Jul 04, 2026 |
-| [Attention Implementation + Flash / Linear Attention Follow-ups](https://trueinterview.io/questions/attention-implementation-and-follow-ups) | Algorithm | Hard | Onsite / virtual onsite | Jun 30, 2026 |
 
 ## What they ask about
 

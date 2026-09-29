@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **238** |
 | Most recent sighting | Sep 14, 2026 |
-| Reported in the last 90 days | 43 |
+| Reported in the last 90 days | 41 |
 | Most common format | [Algorithm](../formats/algorithm.md) (68% of 238) |
 | Difficulty (easy / medium / hard) | 38 / 159 / 41 |
 | Free to practise | [29](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **238 of 238** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**43 sightings** in this window. Newest first.
+**41 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **238 of 238** questions at Amazon 
 | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Algorithm | Medium | Phone screen | Aug 22, 2026 |
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | Medium | Onsite / virtual onsite | Aug 22, 2026 |
 
-<sub>31 more in this window are in the table below.</sub>
+<sub>29 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -150,7 +150,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | Medium | 🔥 Sep 14, 2026 |
+| [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | 🆕 Sep 05, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Object Oriented Programming | Medium | 🆕 Sep 01, 2026 |
@@ -166,10 +166,10 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | Hard | 🆕 Aug 21, 2026 |
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | 🆕 Aug 17, 2026 |
 | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | Medium | 🆕 Aug 14, 2026 |
-| [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | Medium | 🆕 Aug 14, 2026 |
-| [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Algorithm | Medium | 🆕 Aug 14, 2026 |
-| [Group Anagrams (LC 49)](https://trueinterview.io/questions/group-anagrams-lc-49) | Algorithm | Medium | 🆕 Aug 14, 2026 |
+| [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | Medium | Aug 14, 2026 |
+| [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | Medium | Aug 14, 2026 |
+| [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Algorithm | Medium | Aug 14, 2026 |
+| [Group Anagrams (LC 49)](https://trueinterview.io/questions/group-anagrams-lc-49) | Algorithm | Medium | Aug 14, 2026 |
 | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | SQL | Easy | Aug 13, 2026 |
 | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | SQL | Medium | Aug 13, 2026 |
 | [MLP Compute-vs-Memory Bound Analysis](https://trueinterview.io/questions/mlp-compute-memory-bound-analysis) | System Design | Medium | Aug 08, 2026 |

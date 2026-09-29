@@ -9,7 +9,7 @@ What the bank is *about*, counted over the **1,777 questions that carry a topic 
 | Topic | Questions | Share | Last 90d | Easy | Medium | Hard | Asked most at |
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
 | `hashing` | 312 | 18% | 33 | 78 | 193 | 41 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
-| `arrays` | 267 | 15% | 29 | 69 | 170 | 28 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [Google](../companies/google.md) |
+| `arrays` | 267 | 15% | 27 | 69 | 170 | 28 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [Google](../companies/google.md) |
 | `graphs` | 264 | 15% | 23 | 15 | 179 | 70 | [Google](../companies/google.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
 | `strings` | 246 | 14% | 19 | 63 | 145 | 38 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `greedy` | 174 | 10% | 14 | 15 | 116 | 43 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |

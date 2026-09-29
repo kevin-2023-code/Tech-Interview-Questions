@@ -58,9 +58,9 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 238 | 20 | 43 | Sep 14, 2026 | 29 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 238 | 20 | 41 | Sep 14, 2026 | 29 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 197 | 8 | 20 | Sep 10, 2026 | 22 |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 185 | 11 | 8 | Aug 16, 2026 | 23 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 185 | 11 | 7 | Aug 16, 2026 | 23 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 172 | 6 | 4 | Aug 16, 2026 | 36 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 168 | 14 | 16 | Sep 06, 2026 | 23 |
 | [Apple](apple.md) | Hardware, devices & networking · 10,000+ people | 115 | 10 | 10 | Aug 26, 2026 | 21 |
@@ -94,7 +94,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 30 | 6 | 1 | Jul 29, 2026 | 5 |
 | [Expedia](expedia.md) | E-commerce & marketplaces · 10,000+ people | 30 | 1 | 0 | Jun 28, 2026 | 5 |
 | [IBM](ibm.md) | IT services & consulting · 10,000+ people | 29 | 3 | 2 | Sep 14, 2026 | 7 |
-| [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 29 | 7 | 5 | Aug 21, 2026 | 6 |
+| [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 29 | 7 | 4 | Aug 21, 2026 | 6 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 29 | 7 | 2 | Sep 13, 2026 | 5 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 2 | 1 | Jul 04, 2026 | 4 |
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 27 | 1 | 0 | Jun 17, 2026 | 4 |

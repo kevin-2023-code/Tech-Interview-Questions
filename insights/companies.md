@@ -10,8 +10,8 @@
 
 | Company | Last 90d | Questions | Last sighting |  |
 | :-- | --: | --: | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 43 | 238 | Sep 14, 2026 | ████████████████ |
-| [Google](../companies/google.md) | 20 | 197 | Sep 10, 2026 | ███████ |
+| [Amazon](../companies/amazon.md) | 41 | 238 | Sep 14, 2026 | ████████████████ |
+| [Google](../companies/google.md) | 20 | 197 | Sep 10, 2026 | ████████ |
 | [ByteDance](../companies/bytedance.md) | 16 | 168 | Sep 06, 2026 | ██████ |
 | [LinkedIn](../companies/linkedin.md) | 11 | 82 | Sep 06, 2026 | ████ |
 | [Salesforce](../companies/salesforce.md) | 11 | 52 | Aug 24, 2026 | ████ |
@@ -21,18 +21,18 @@
 | [DoorDash](../companies/doordash.md) | 8 | 70 | Sep 16, 2026 | ███ |
 | [Figma](../companies/figma.md) | 8 | 18 | Aug 12, 2026 | ███ |
 | [Harvey](../companies/harvey.md) | 8 | 17 | Sep 15, 2026 | ███ |
-| [Meta](../companies/meta.md) | 8 | 185 | Aug 16, 2026 | ███ |
+| [Meta](../companies/meta.md) | 7 | 185 | Aug 16, 2026 | ███ |
 | [Point72](../companies/point72.md) | 7 | 21 | Jul 29, 2026 | ███ |
 | [OpenAI](../companies/openai.md) | 6 | 101 | Aug 22, 2026 | ██ |
 | [Stripe](../companies/stripe.md) | 6 | 76 | Sep 11, 2026 | ██ |
 | [Databricks](../companies/databricks.md) | 5 | 67 | Sep 15, 2026 | ██ |
-| [NVIDIA](../companies/nvidia.md) | 5 | 29 | Aug 21, 2026 | ██ |
 | [Pinterest](../companies/pinterest.md) | 5 | 75 | Aug 26, 2026 | ██ |
-| [Affirm](../companies/affirm.md) | 4 | 14 | Aug 12, 2026 | █ |
-| [Bloomberg](../companies/bloomberg.md) | 4 | 70 | Jul 22, 2026 | █ |
-| [Capital One](../companies/capital-one.md) | 4 | 48 | Sep 07, 2026 | █ |
-| [Snowflake](../companies/snowflake.md) | 4 | 110 | Aug 15, 2026 | █ |
-| [Uber](../companies/uber.md) | 4 | 172 | Aug 16, 2026 | █ |
+| [Affirm](../companies/affirm.md) | 4 | 14 | Aug 12, 2026 | ██ |
+| [Bloomberg](../companies/bloomberg.md) | 4 | 70 | Jul 22, 2026 | ██ |
+| [Capital One](../companies/capital-one.md) | 4 | 48 | Sep 07, 2026 | ██ |
+| [NVIDIA](../companies/nvidia.md) | 4 | 29 | Aug 21, 2026 | ██ |
+| [Snowflake](../companies/snowflake.md) | 4 | 110 | Aug 15, 2026 | ██ |
+| [Uber](../companies/uber.md) | 4 | 172 | Aug 16, 2026 | ██ |
 | [AMD](../companies/amd.md) | 3 | 3 | Sep 14, 2026 | █ |
 | [Roblox](../companies/roblox.md) | 3 | 61 | Sep 09, 2026 | █ |
 
@@ -40,9 +40,9 @@
 
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 238 | 20 | 29 | 43 | Sep 14, 2026 | Algorithm | `hashing` |
+| [Amazon](../companies/amazon.md) | 238 | 20 | 29 | 41 | Sep 14, 2026 | Algorithm | `hashing` |
 | [Google](../companies/google.md) | 197 | 8 | 22 | 20 | Sep 10, 2026 | Algorithm | `graphs` |
-| [Meta](../companies/meta.md) | 185 | 11 | 23 | 8 | Aug 16, 2026 | Algorithm | `graphs` |
+| [Meta](../companies/meta.md) | 185 | 11 | 23 | 7 | Aug 16, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 172 | 6 | 36 | 4 | Aug 16, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 168 | 14 | 23 | 16 | Sep 06, 2026 | Algorithm | `graphs` |
 | [Apple](../companies/apple.md) | 115 | 10 | 21 | 10 | Aug 26, 2026 | Algorithm | `hashing` |
@@ -76,7 +76,7 @@
 | [Akuna Capital](../companies/akuna-capital.md) | 30 | 6 | 5 | 1 | Jul 29, 2026 | Algorithm | `arrays` |
 | [Expedia](../companies/expedia.md) | 30 | 1 | 5 | 0 | Jun 28, 2026 | Algorithm | `greedy` |
 | [IBM](../companies/ibm.md) | 29 | 3 | 7 | 2 | Sep 14, 2026 | Algorithm | `greedy` |
-| [NVIDIA](../companies/nvidia.md) | 29 | 7 | 6 | 5 | Aug 21, 2026 | Algorithm | `hashing` |
+| [NVIDIA](../companies/nvidia.md) | 29 | 7 | 6 | 4 | Aug 21, 2026 | Algorithm | `hashing` |
 | [Rippling](../companies/rippling.md) | 29 | 7 | 5 | 2 | Sep 13, 2026 | Algorithm | `hashing` |
 | [SoFi](../companies/sofi.md) | 27 | 2 | 4 | 1 | Jul 04, 2026 | Algorithm | `hashing` |
 | [Verkada](../companies/verkada.md) | 27 | 1 | 4 | 0 | Jun 17, 2026 | Algorithm | `arrays` |

@@ -118,7 +118,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Algorithm | Medium | 🔥 Sep 14, 2026 |
+| [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | Algorithm | Medium | 🆕 Aug 27, 2026 |
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | May 30, 2026 |
 | [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) | Algorithm | Medium | Apr 25, 2026 |
