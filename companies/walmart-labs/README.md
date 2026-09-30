@@ -8,7 +8,7 @@ How Walmart Labs interviews, and the questions candidates reported there. Free q
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [26](../walmart-labs.md) |
+| Questions reported | [28](../walmart-labs.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
@@ -51,7 +51,7 @@ The final loop typically runs three sessions: a coding round, a system design ro
 
 ## Everything else
 
-- [All 26 questions reported at Walmart Labs](../walmart-labs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 28 questions reported at Walmart Labs](../walmart-labs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Walmart Labs question on TrueInterview](https://trueinterview.io/problems/company/walmart-labs).
 
 ---

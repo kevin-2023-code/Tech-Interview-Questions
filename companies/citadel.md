@@ -2,37 +2,36 @@
 
 # Citadel interview process, OA & interview questions
 
-**56 questions** reported at Citadel · **5 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
+**61 questions** reported at Citadel · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Citadel interviews & the free questions](citadel/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📈 [Quant trading & hedge funds](../company-types/quant-trading.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-citadel)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-citadel)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **56** |
+| Questions tracked | **61** |
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 8 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 56) |
-| Difficulty (easy / medium / hard) | 8 / 37 / 11 |
+| Most common format | [Algorithm](../formats/algorithm.md) (72% of 61) |
+| Difficulty (easy / medium / hard) | 8 / 40 / 13 |
 | Free to practise | [4](../free/README.md) |
-| Guides & writeups | 5 |
-| Interview reports on the board | 1 in this snapshot |
+| Guides & writeups | 11 |
 
-<sub>Counted from the 56 questions reported at Citadel. 35 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 61 questions reported at Citadel. 40 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **56 of 56** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **61 of 61** questions at Citadel that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 11 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 6 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 37 | ██████████ | [Algorithm](../formats/algorithm.md) (73%) | 3 / 25 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 12 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 41 | ██████████ | [Algorithm](../formats/algorithm.md) (73%) | 3 / 27 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 12 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -54,20 +53,20 @@ Which stage each question came from, for the **56 of 56** questions at Citadel t
 
 ## What they ask about
 
-Of the **39 questions at Citadel that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **43 questions at Citadel that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 5 | 13% | ████████████ | Aug 05, 2026 |
-| `greedy` | 5 | 13% | ████████████ | Mar 09, 2026 |
-| `hashing` | 5 | 13% | ████████████ | Aug 05, 2026 |
-| `heap` | 5 | 13% | ████████████ | Sep 18, 2026 |
-| `binary-search` | 4 | 10% | ██████████ | Jun 04, 2026 |
-| `math` | 4 | 10% | ██████████ | Jan 05, 2026 |
-| `sorting` | 4 | 10% | ██████████ | Jan 05, 2026 |
-| `graphs` | 3 | 8% | ███████ | Aug 15, 2026 |
-| `strings` | 3 | 8% | ███████ | Oct 26, 2024 |
-| `bit-manipulation` | 2 | 5% | █████ | Mar 21, 2026 |
+| `arrays` | 6 | 14% | ████████████ | Aug 05, 2026 |
+| `greedy` | 5 | 12% | ██████████ | Mar 09, 2026 |
+| `hashing` | 5 | 12% | ██████████ | Aug 05, 2026 |
+| `heap` | 5 | 12% | ██████████ | Sep 18, 2026 |
+| `math` | 5 | 12% | ██████████ | Jan 05, 2026 |
+| `binary-search` | 4 | 9% | ████████ | Jun 04, 2026 |
+| `graphs` | 4 | 9% | ████████ | Aug 15, 2026 |
+| `sorting` | 4 | 9% | ████████ | Jan 05, 2026 |
+| `strings` | 4 | 9% | ████████ | Jan 05, 2026 |
+| `backtracking` | 3 | 7% | ██████ | Jan 05, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -77,18 +76,18 @@ Every recorded sighting at Citadel, by the month it was reported in — Oct 26, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ████████ |
-| [Aug 2026](../by-month/2026-08.md) | 3 | ████████ |
-| [Jul 2026](../by-month/2026-07.md) | 2 | █████ |
-| [Jun 2026](../by-month/2026-06.md) | 2 | █████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ████████ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | █████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ████████ |
-| [Feb 2026](../by-month/2026-02.md) | 3 | ████████ |
-| [Jan 2026](../by-month/2026-01.md) | 9 | ████████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 3 | ████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
-| [Oct 2024](../by-month/2024-10.md) | 1 | ███ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | ██████ |
+| [Aug 2026](../by-month/2026-08.md) | 3 | ██████ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ██████ |
+| [Apr 2026](../by-month/2026-04.md) | 2 | ████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ██████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ██████ |
+| [Jan 2026](../by-month/2026-01.md) | 13 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ███████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
+| [Oct 2024](../by-month/2024-10.md) | 1 | ██ |
 
 ## Start here
 
@@ -109,25 +108,21 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 
 ## Guides & writeups
 
-**5 writeups** filed under Citadel in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**11 writeups** filed under Citadel in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | culture-fit, deep-dive, fit, why-company |
 | [Candy (LC 135)](https://trueinterview.io/study/candy-lc-135) | array, greedy |
+| [Case study — LLM inference stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — |
 | [Citadel Interview Process & Questions](https://trueinterview.io/study/citadel-interview-process) | — |
 | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/study/qd-eqr-onsite-coding-ladder) | data-structure, dp, hashmap, heap |
+| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive) | deep-dive, llm, math-reasoning, ml-knowledge, probability |
+| [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/study/gqs-quant-phone-brainteasers) | linear-algebra, math-reasoning, probability, sampling |
+| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | array, binary-search, bst, data-structure, sliding-window |
 | [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/study/citadel-hft-onsite-fundamentals) | complexity-analysis, cs-fundamentals, io, operating-systems, sorting |
-
-## Interview reports
-
-What candidates said happened in the room at Citadel — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Citadel Software Engineer Intern Interview Experience](https://trueinterview.io/interviews/1762a5af-e124-4550-9b5c-fb99c09b9cb6) | Sep 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Citadel and everywhere else →](https://trueinterview.io/interviews)</sub>
+| [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/study/trading-probability-quickfire) | math-reasoning, probability |
+| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/study/quadratic-form-finite-min) | linear-algebra, math-reasoning, optimization |
 
 ---
 
@@ -167,10 +162,15 @@ What candidates said happened in the room at Citadel — written up by the peopl
 | [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state) | Algorithm | Medium | Jan 28, 2026 |
 | [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict) | Object Oriented Programming | Medium | Jan 25, 2026 |
 | [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Object Oriented Programming | Medium | Jan 22, 2026 |
+| [Merge K Sorted Price Streams](https://trueinterview.io/questions/merge-k-sorted-streams-ood) | Object Oriented Programming | Medium | Jan 16, 2026 |
 | [Implement a Round-Robin Task Scheduler](https://trueinterview.io/questions/round-robin-task-scheduler) | Object Oriented Programming | Medium | Jan 15, 2026 |
+| [Pandigital Sum](https://trueinterview.io/questions/pandigital-sum) | Algorithm | Medium | Jan 05, 2026 |
+| [Find Earliest Available Meeting Slot](https://trueinterview.io/questions/find-earliest-available-meeting-slot) | Algorithm | Medium | Jan 05, 2026 |
+| [Find Complete Flight Path](https://trueinterview.io/questions/find-complete-flight-path) | Algorithm | Hard | Jan 05, 2026 |
 | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Algorithm | Hard | Jan 05, 2026 |
 | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Algorithm | Medium | Dec 22, 2025 |
 | [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team) | Algorithm | Medium | Dec 22, 2025 |
+| [Live coding closer](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-live-coding-closer) | Algorithm | Hard | Dec 16, 2025 |
 | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Algorithm | Medium | Dec 16, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |

@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**185 questions** reported at Meta · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**186 questions** reported at Meta · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **185** |
+| Questions tracked | **186** |
 | Most recent sighting | Aug 16, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (66% of 185) |
-| Difficulty (easy / medium / hard) | 28 / 118 / 39 |
+| Most common format | [Algorithm](../formats/algorithm.md) (67% of 186) |
+| Difficulty (easy / medium / hard) | 29 / 118 / 39 |
 | Free to practise | [23](../free/README.md) |
 | Guides & writeups | 11 |
 
-<sub>Counted from the 185 questions reported at Meta. 87 of them carry a sighting date; the other 98 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 186 questions reported at Meta. 88 of them carry a sighting date; the other 98 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **185 of 185** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **186 of 186** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 24 | ██ | [Algorithm](../formats/algorithm.md) (62%) | 17 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 111 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 9 / 86 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 72 | ██████ | [System Design](../formats/system-design.md) (36%) | 4 / 43 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 25 | ██ | [Algorithm](../formats/algorithm.md) (64%) | 17 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 111 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 10 / 85 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 72 | ██████ | [System Design](../formats/system-design.md) (36%) | 5 / 42 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -53,14 +53,14 @@ Which stage each question came from, for the **185 of 185** questions at Meta th
 
 ## What they ask about
 
-Of the **119 questions at Meta that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **120 questions at Meta that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 20 | 17% | ████████████ | Jun 28, 2026 |
-| `hashing` | 15 | 13% | █████████ | Jun 28, 2026 |
-| `strings` | 15 | 13% | █████████ | Jun 24, 2026 |
-| `trees` | 15 | 13% | █████████ | Jun 28, 2026 |
+| `hashing` | 15 | 12% | █████████ | Jun 28, 2026 |
+| `strings` | 15 | 12% | █████████ | Jun 24, 2026 |
+| `trees` | 15 | 12% | █████████ | Jun 28, 2026 |
 | `arrays` | 14 | 12% | ████████ | Jun 30, 2026 |
 | `stack` | 11 | 9% | ███████ | Jun 24, 2026 |
 | `two-pointers` | 11 | 9% | ███████ | May 08, 2026 |
@@ -82,7 +82,7 @@ Every recorded sighting at Meta, by the month it was reported in — Jun 10, 202
 | [May 2026](../by-month/2026-05.md) | 15 | ███████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 24 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 5 | █████ |
-| [Feb 2026](../by-month/2026-02.md) | 8 | ████████ |
+| [Feb 2026](../by-month/2026-02.md) | 9 | █████████ |
 | [Jan 2026](../by-month/2026-01.md) | 10 | ██████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | █ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | █ |
@@ -201,12 +201,13 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
 | [Facebook Search (Mini Elasticsearch)](https://trueinterview.io/questions/system-design-facebook-search) | System Design | Hard | Feb 23, 2026 |
+| [Battery Usage with Recharge Cycle](https://trueinterview.io/questions/battery-recharge-cycle) | Algorithm | Medium | Feb 18, 2026 |
 | [Closest Binary Search Tree Value](https://trueinterview.io/questions/closest-binary-search-tree-value) | Algorithm | Medium | Feb 13, 2026 |
 | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | Feb 08, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [AI Project Round (Take-Home-Style, NEW)](https://trueinterview.io/questions/ai-project-take-home-style-round) | AI Coding | Medium | Feb 03, 2026 |
-| [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
+| [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Easy | Feb 01, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Algorithm | Medium | Jan 29, 2026 |
 | [Binary Tree Maximum Path Sum (with path reconstruction)](https://trueinterview.io/questions/binary-tree-max-path-sum) | Algorithm | Hard | Jan 26, 2026 |

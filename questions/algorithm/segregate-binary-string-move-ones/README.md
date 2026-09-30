@@ -22,12 +22,6 @@ For a binary string `s`, keep shifting each `'1'` rightward until it either reac
 s = "10100" -> 5
 ```
 
-## Notes
-
-This cost is exactly the count of `(1, 0)` pairs in which the `'1'` occurs earlier than the `'0'`; equivalently, it is the number of neighboring swaps required to move every `'1'` beyond every later `'0'`. Traverse the string from left to right while recording how many `'1'`s have appeared. Whenever a `'0'` is found, add that running `'1'` total to the result. This avoids simulation and runs in O(n) time.
-
-- **Variant:** In a similar version, the task is described as finding the "maximum number of operations needed to move ones to the end." There, one operation transfers an entire prefix run of `'1'`s across one `'0'`, and the requested result is the operation total rather than the total distance moved. The same left-to-right counting idea applies (count prior ones and process each zero), but the returned quantity changes, so check whether the prompt asks for displacement cost or operation count.
-
 ## Hints
 
 <details>

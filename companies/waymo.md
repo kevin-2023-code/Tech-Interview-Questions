@@ -2,7 +2,7 @@
 
 # Waymo interview process, OA & interview questions
 
-**47 questions** reported at Waymo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
+**55 questions** reported at Waymo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Waymo interviews & the free questions](waymo/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **47** |
+| Questions tracked | **55** |
 | Most recent sighting | Jul 09, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 47) |
-| Difficulty (easy / medium / hard) | 1 / 31 / 15 |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 55) |
+| Difficulty (easy / medium / hard) | 1 / 38 / 16 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 47 questions reported at Waymo. 41 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 55 questions reported at Waymo. 49 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **47 of 47** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **55 of 55** questions at Waymo that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [SQL](../formats/sql.md) (100%) | 0 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 27 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 0 / 21 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 18 | ███████ | [Algorithm](../formats/algorithm.md) (39%) | 1 / 9 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 29 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 0 / 23 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 24 | ████████ | [Algorithm](../formats/algorithm.md) (42%) | 1 / 14 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -48,20 +48,20 @@ Which stage each question came from, for the **47 of 47** questions at Waymo tha
 
 ## What they ask about
 
-Of the **28 questions at Waymo that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **32 questions at Waymo that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 9 | 32% | ████████████ | Jul 06, 2026 |
-| `greedy` | 4 | 14% | █████ | Nov 14, 2025 |
-| `matrix` | 4 | 14% | █████ | Jul 02, 2026 |
-| `strings` | 4 | 14% | █████ | May 13, 2026 |
-| `backtracking` | 3 | 11% | ████ | Jul 09, 2026 |
-| `dynamic-programming` | 3 | 11% | ████ | Jul 06, 2026 |
-| `arrays` | 2 | 7% | ███ | May 13, 2026 |
-| `binary-search` | 2 | 7% | ███ | Jan 23, 2026 |
-| `hashing` | 2 | 7% | ███ | May 06, 2026 |
-| `two-pointers` | 2 | 7% | ███ | Mar 23, 2026 |
+| `graphs` | 9 | 28% | ████████████ | Jul 06, 2026 |
+| `backtracking` | 4 | 12% | █████ | Jul 09, 2026 |
+| `greedy` | 4 | 12% | █████ | Nov 14, 2025 |
+| `matrix` | 4 | 12% | █████ | Jul 02, 2026 |
+| `strings` | 4 | 12% | █████ | May 13, 2026 |
+| `arrays` | 3 | 9% | ████ | May 13, 2026 |
+| `dynamic-programming` | 3 | 9% | ████ | Jul 06, 2026 |
+| `two-pointers` | 3 | 9% | ████ | Jun 27, 2026 |
+| `binary-search` | 2 | 6% | ███ | Jan 23, 2026 |
+| `hashing` | 2 | 6% | ███ | May 06, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -71,15 +71,15 @@ Every recorded sighting at Waymo, by the month it was reported in — Sep 29, 20
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ██████ |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████ |
-| [May 2026](../by-month/2026-05.md) | 13 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 10 | ██████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ██████ |
-| [Jan 2026](../by-month/2026-01.md) | 6 | ███████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ████ |
+| [Jul 2026](../by-month/2026-07.md) | 3 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 5 | █████████ |
+| [May 2026](../by-month/2026-05.md) | 13 | ██████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 14 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 6 | ██████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ██ |
+| [Sep 2025](../by-month/2025-09.md) | 2 | ███ |
 
 ## Start here
 
@@ -90,11 +90,11 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | **1** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | — | Jul 09, 2026 |
 | **2** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | — | Jul 06, 2026 |
 | **3** | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | — | Jul 02, 2026 |
-| **4** | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Object Oriented Programming | Medium | — | Jun 13, 2026 |
-| **5** | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | — | Jun 04, 2026 |
-| **6** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | SQL | Medium | — | May 23, 2026 |
-| **7** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | SQL | Medium | — | May 23, 2026 |
-| **8** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | SQL | Medium | — | May 23, 2026 |
+| **4** | [Design a Fleet That Collects Mapping Data](https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data) | System Design | Medium | — | Jun 27, 2026 |
+| **5** | [Find Dictionary Words Represented by Repeated Letters](https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters) | Algorithm | Medium | — | Jun 27, 2026 |
+| **6** | [Find a Repeating Vehicle Program Under Fuel and Memory Limits](https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits) | Algorithm | Hard | — | Jun 27, 2026 |
+| **7** | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Object Oriented Programming | Medium | — | Jun 13, 2026 |
+| **8** | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | — | Jun 04, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -121,6 +121,9 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | Jul 06, 2026 |
 | [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | Jul 02, 2026 |
+| [Find Dictionary Words Represented by Repeated Letters](https://trueinterview.io/questions/find-dictionary-words-represented-by-repeated-letters) | Algorithm | Medium | Jun 27, 2026 |
+| [Find a Repeating Vehicle Program Under Fuel and Memory Limits](https://trueinterview.io/questions/find-a-repeating-vehicle-program-under-fuel-and-memory-limits) | Algorithm | Hard | Jun 27, 2026 |
+| [Design a Fleet That Collects Mapping Data](https://trueinterview.io/questions/design-a-fleet-that-collects-mapping-data) | System Design | Medium | Jun 27, 2026 |
 | [OO Design: Continuous Time Intervals from Two Timestamp Signal Streams](https://trueinterview.io/questions/timestamp-signals-time-intervals-ood) | Object Oriented Programming | Medium | Jun 13, 2026 |
 | [Validate a Forest from (parent, child) Edges](https://trueinterview.io/questions/forest-validation-parent-child-edges) | Algorithm | Medium | Jun 04, 2026 |
 | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | SQL | Hard | May 23, 2026 |
@@ -137,6 +140,10 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Randomly Populate Grid with Connected Equal-Size Token Regions](https://trueinterview.io/questions/random-grid-token-fill) | Algorithm | Hard | May 06, 2026 |
 | [Shortest Path from Source to Target Nodes (Dijkstra)](https://trueinterview.io/questions/dijkstra-shortest-path-to-targets) | Algorithm | Medium | May 01, 2026 |
 | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Algorithm | Hard | Apr 27, 2026 |
+| [Roadway Segment Speed Query](https://trueinterview.io/questions/roadway-segment-speed-query) | Algorithm | Medium | Apr 24, 2026 |
+| [Garage Occupancy per Timestamp](https://trueinterview.io/questions/garage-occupancy-per-timestamp) | Algorithm | Medium | Apr 24, 2026 |
+| [Car Fleet Scheduler](https://trueinterview.io/questions/car-fleet-scheduler) | Algorithm | Medium | Apr 24, 2026 |
+| [Elevator Operation Logic](https://trueinterview.io/questions/sd-elevator-operation-logic) | System Design | Medium | Apr 24, 2026 |
 | [Largest Rectangle Area](https://trueinterview.io/questions/max-area-rectangle-coordinate-set) | Algorithm | Medium | Apr 24, 2026 |
 | [Simulation Log Collection and Result Aggregation](https://trueinterview.io/questions/sd-simulation-log-aggregation) | System Design | Medium | Apr 23, 2026 |
 | [Process Raw CSV for Downstream Consumers](https://trueinterview.io/questions/csv-parser-open-ended) | Object Oriented Programming | Medium | Apr 22, 2026 |
@@ -158,6 +165,7 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider) | Algorithm | Medium | Nov 14, 2025 |
+| [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | Object Oriented Programming | Medium | Sep 29, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | System Design | Hard | Sep 29, 2025 |
 | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Algorithm | Medium | — |
 | [Minimum travel path for a pen-plotter to draw given strokes](https://trueinterview.io/questions/3381639d-07f5-4b35-b058-b7310ebb194d) | Algorithm | Hard | — |

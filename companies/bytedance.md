@@ -2,38 +2,37 @@
 
 # ByteDance interview process, OA & interview questions
 
-**168 questions** reported at ByteDance · **14 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
+**176 questions** reported at ByteDance · **17 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How ByteDance interviews & the free questions](bytedance/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-bytedance)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-bytedance)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **168** |
+| Questions tracked | **176** |
 | Most recent sighting | Sep 06, 2026 |
 | Reported in the last 90 days | 16 |
-| Most common format | [Algorithm](../formats/algorithm.md) (78% of 168) |
-| Difficulty (easy / medium / hard) | 21 / 111 / 36 |
+| Most common format | [Algorithm](../formats/algorithm.md) (78% of 176) |
+| Difficulty (easy / medium / hard) | 24 / 116 / 36 |
 | Free to practise | [23](../free/README.md) |
-| Guides & writeups | 14 |
-| Interview reports on the board | 2 in this snapshot |
+| Guides & writeups | 17 |
 
-<sub>Counted from the 168 questions reported at ByteDance. 86 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 176 questions reported at ByteDance. 94 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **168 of 168** questions at ByteDance that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **176 of 176** questions at ByteDance that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 21 | ██ | [Algorithm](../formats/algorithm.md) (86%) | 13 / 5 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 114 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 6 / 85 / 23 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 61 | █████ | [Algorithm](../formats/algorithm.md) (56%) | 3 / 39 / 19 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 26 | ██ | [Algorithm](../formats/algorithm.md) (88%) | 15 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 115 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 7 / 86 / 22 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 63 | █████ | [Algorithm](../formats/algorithm.md) (56%) | 4 / 39 / 20 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -60,15 +59,15 @@ Which stage each question came from, for the **168 of 168** questions at ByteDan
 
 ## What they ask about
 
-Of the **133 questions at ByteDance that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **137 questions at ByteDance that carry a topic label** (78% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 26 | 20% | ████████████ | Sep 04, 2026 |
-| `arrays` | 21 | 16% | ██████████ | Aug 21, 2026 |
-| `strings` | 17 | 13% | ████████ | Sep 04, 2026 |
+| `graphs` | 26 | 19% | ████████████ | Sep 04, 2026 |
+| `arrays` | 23 | 17% | ███████████ | Aug 21, 2026 |
+| `strings` | 18 | 13% | ████████ | Sep 04, 2026 |
 | `hashing` | 16 | 12% | ███████ | Aug 17, 2026 |
-| `backtracking` | 14 | 11% | ██████ | Sep 04, 2026 |
+| `backtracking` | 14 | 10% | ██████ | Sep 04, 2026 |
 | `sliding-window` | 12 | 9% | ██████ | Jun 29, 2026 |
 | `stack` | 12 | 9% | ██████ | Jun 24, 2026 |
 | `dynamic-programming` | 11 | 8% | █████ | Aug 17, 2026 |
@@ -89,9 +88,9 @@ Every recorded sighting at ByteDance, by the month it was reported in — May 30
 | [Jun 2026](../by-month/2026-06.md) | 20 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 4 | █████ |
 | [Apr 2026](../by-month/2026-04.md) | 8 | ██████████ |
-| [Mar 2026](../by-month/2026-03.md) | 10 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 14 | █████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 10 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 11 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 15 | ██████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | █ |
 | [Jul 2025](../by-month/2025-07.md) | 2 | ██ |
@@ -116,11 +115,12 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 
 ## Guides & writeups
 
-**14 writeups** filed under ByteDance in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**17 writeups** filed under ByteDance in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | agents, evaluation, networking, operating-systems, troubleshooting |
+| [AI-Native Coding Interview](https://trueinterview.io/study/d4c1dd70-7481-447a-ad23-a3a276799518) | — |
 | [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
 | [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
 | [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
@@ -130,21 +130,12 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | database |
 | [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
 | [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
+| [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/study/how-you-build-service-stability-and-troubleshoot-production-incidents) | — |
 | [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | ambiguity, bq, fit |
 | [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal, ai-safety, llm, ownership |
 | [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
+| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/study/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — |
 | [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
-
-## Interview reports
-
-What candidates said happened in the room at ByteDance — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [ByteDance Course Schedule Coding Interview Experience](https://trueinterview.io/interviews/4c70e4a0-d98a-4455-9659-a4f930cc664b) | Sep 27, 2026 |
-| Software | [ByteDance {Company} {Role} Interview Experience](https://trueinterview.io/interviews/91c6912f-e43b-4d71-9346-0764d6fb854c) | Sep 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at ByteDance and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -187,7 +178,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts) | System Design | Medium | Jun 11, 2026 |
-| [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Hard | Jun 11, 2026 |
+| [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
 | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Algorithm | Medium | Jun 06, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
@@ -206,10 +197,14 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
+| [Agent Tool-Use System Design (AML Volcano Engine)](https://trueinterview.io/questions/agent-tool-use-system-design) | System Design | Hard | Mar 20, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
+| [Two-Direction Justified Newspaper Layout](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-two-direction-justified-newspaper-layout) | Algorithm | Medium | Mar 17, 2026 |
+| [Drone Relay to Target](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-drone-relay-to-target) | Algorithm | Easy | Mar 17, 2026 |
 | [Zigzag (Alternating-Parity) Subarrays](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-zigzag-alternating-parity-subarrays) | Algorithm | Medium | Mar 17, 2026 |
 | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
-| [CodeSignal SWE OA (Spring 2026 Bank)](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026) | Algorithm | Hard | Mar 17, 2026 |
+| [Aligned Memory Allocator and Related Tasks](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026) | Algorithm | Hard | Mar 17, 2026 |
+| [Reverse Words in a String (Preserve Spaces, In-Place)](https://trueinterview.io/questions/reverse-words-in-place) | Algorithm | Medium | Mar 10, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Algorithm | Easy | Mar 06, 2026 |
 | [Photo Groups via Transitive Similarity](https://trueinterview.io/questions/friend-circles-photo-groups) | Algorithm | Medium | Mar 05, 2026 |
@@ -223,7 +218,7 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Algorithm | Medium | Feb 04, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
-| [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
+| [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Easy | Feb 01, 2026 |
 | [Shortest Path with Gas Stations](https://trueinterview.io/questions/gas-tank-grid-bfs) | Algorithm | Medium | Jan 31, 2026 |
 | [Valid Parentheses with Wildcard '*' and DFS All Strings](https://trueinterview.io/questions/valid-parentheses-with-wildcard) | Algorithm | Medium | Jan 30, 2026 |
 | [MinStack, MaxStack and Streaming Median](https://trueinterview.io/questions/streaming-median-min-max-stack) | Algorithm | Hard | Jan 30, 2026 |
@@ -233,7 +228,11 @@ What candidates said happened in the room at ByteDance — written up by the peo
 | [Dynamic K in Retrieval Stage](https://trueinterview.io/questions/dynamic-k-retrieval-ml-system-design) | System Design | Hard | Jan 28, 2026 |
 | [Binary Tree Maximum Path Sum (with path reconstruction)](https://trueinterview.io/questions/binary-tree-max-path-sum) | Algorithm | Hard | Jan 26, 2026 |
 | [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Object Oriented Programming | Medium | Jan 22, 2026 |
-| [CodeSignal ML / Research Scientist OA (10-Problem Battery)](https://trueinterview.io/questions/codesignal-ml-rs-oa) | Algorithm | Hard | Jan 04, 2026 |
+| [Merge K Sorted Price Streams](https://trueinterview.io/questions/merge-k-sorted-streams-ood) | Object Oriented Programming | Medium | Jan 16, 2026 |
+| [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch) | Algorithm | Medium | Jan 04, 2026 |
+| [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch) | Algorithm | Easy | Jan 04, 2026 |
+| [Local maximum on a 1-D stream](https://trueinterview.io/questions/codesignal-ml-rs-oa-local-maximum-on-a-1-d-stream) | Algorithm | Medium | Jan 04, 2026 |
+| [ML Concepts and Coding Assessment](https://trueinterview.io/questions/codesignal-ml-rs-oa) | Algorithm | Hard | Jan 04, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Wildcard / Regex String Matching (`*` operator)](https://trueinterview.io/questions/wildcard-regex-matching) | Algorithm | Medium | Dec 16, 2025 |

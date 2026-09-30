@@ -8,10 +8,10 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [49](../airbnb.md) |
+| Questions reported | [55](../airbnb.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 4 |
 | Most recent sighting | Sep 04, 2026 |
 
 ## How Airbnb interviews
@@ -57,11 +57,12 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 | :-- | :-- |
 | [Core Values Behavioral Round](guides/core-values-bq-round.md) | bq, culture-fit, star, values, why-company |
 | [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md) | deep-dive, impact, leadership, technical-deep-dive |
+| [Explain ML Project Milestones, Scope, and Conflict](guides/explain-ml-project-milestones-scope-and-conflict.md) | — |
 | [Hiring Manager Screen](guides/hiring-manager-screen.md) | deep-dive, fit |
 
 ## Everything else
 
-- [All 49 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 55 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airbnb question on TrueInterview](https://trueinterview.io/problems/company/airbnb).
 
 ---

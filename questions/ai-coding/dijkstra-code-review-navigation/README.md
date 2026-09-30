@@ -20,13 +20,6 @@
 - Explain why Dijkstra's algorithm fits this navigation scenario, and compare it with A\* and Floyd-Warshall.
 - Follow-up: explain how the approach changes when edges may have negative weights, including Bellman-Ford and its operating method.
 
-## Notes
-
-- Treat this as a debugging and code-review exercise rather than a from-scratch rewrite. Retain the existing organization where practical and repair the broken invariant.
-- Address the common Dijkstra errors: failing to replace a node's best-known distance when a shorter route is discovered, marking nodes visited prematurely, and processing stale entries from the heap without a guard.
-- In the duplicate-push implementation with a binary heap and adjacency list, the target complexity is `O((V + E) log V)`. Whenever an entry is removed from the heap, skip it if its distance is greater than the node's current best distance.
-- State that Dijkstra requires non-negative edge weights. Bellman-Ford relaxes every edge `V - 1` times, then performs one additional pass to identify negative cycles.
-
 ## Preparation
 
 - Practice writing heap-based Dijkstra from memory, including the stale-entry check. Then intentionally damage the relaxation step so you can explain which invariant the review uncovers.

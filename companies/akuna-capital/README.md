@@ -48,8 +48,8 @@ Technical phone rounds start almost immediately after introductions, and several
 
 | Guide | Tags |
 | :-- | :-- |
+| [Advanced Math and Reasoning Brain Teasers](guides/qr-video-oa-advanced-math-and-reasoning.md) | linear-algebra, math, math-reasoning, probability, verbal |
 | [Junior Trader Final: Investment & Market-Making Games](guides/junior-trader-final-games.md) | brainteaser, expected-value, fermi-estimation, market-making, verbal |
-| [QR Video OA: Advanced Math and Reasoning](guides/qr-video-oa-advanced-math-and-reasoning.md) | linear-algebra, math, math-reasoning, probability, verbal |
 | [Trader Fair-Bet Probability and Number Sequences](guides/trader-fair-bet-probability-and-number-sequences.md) | math, math-reasoning, probability, verbal |
 
 ## Everything else

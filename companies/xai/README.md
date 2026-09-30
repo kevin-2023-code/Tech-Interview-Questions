@@ -8,11 +8,11 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [31](../xai.md) |
+| Questions reported | [35](../xai.md) |
 | Free to read here | 5 |
 | Interview-process guides | 4 |
 | Other guides | 2 |
-| Most recent sighting | Jul 22, 2026 |
+| Most recent sighting | Sep 15, 2026 |
 
 ## How xAI interviews
 
@@ -55,7 +55,7 @@ This guide goes deeper than the process outline on the company page: how each xA
 
 ## Everything else
 
-- [All 31 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 35 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every xAI question on TrueInterview](https://trueinterview.io/problems/company/xai).
 
 ---

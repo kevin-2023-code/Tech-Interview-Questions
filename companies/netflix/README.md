@@ -8,7 +8,7 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [71](../netflix.md) |
+| Questions reported | [73](../netflix.md) |
 | Free to read here | 13 |
 | Interview-process guides | 4 |
 | Other guides | 2 |
@@ -65,7 +65,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 
 ## Everything else
 
-- [All 71 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 73 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Netflix question on TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 ---

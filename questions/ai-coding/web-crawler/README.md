@@ -50,11 +50,6 @@ The crawler must:
 4. Follow only URLs whose **hostname** equals the hostname of `startUrl`.
 5. Treat every URL as using the `http` protocol and as having no port.
 
-#### Note for Candidate
-
-* **URL Fragments**: Decide how fragments such as `http://example.com/page#section1` should be treated. Should that URL differ from `http://example.com/page#section2`, or should both identify one URL? Discuss the choice with the interviewer if clarification is necessary.
-* **URL Normalization**: For the basic version, you may assume that URL normalization is unnecessary.
-
 ### Follow-up: Multithreaded/Concurrent Implementation (Important!!)
 
 Once the single-threaded crawler is complete, create a multithreaded or concurrent version that can improve performance.
@@ -67,14 +62,6 @@ The concurrent crawler must:
 2. Protect shared structures, including the visited set and result list, from race conditions.
 3. Ensure that concurrent execution still crawls each URL at most once.
 4. Continue limiting traversal to URLs with the same hostname.
-
-#### Note for Candidate
-
-Use a thread pool to cap the number of active threads.
-
-* Avoid creating an unlimited number of threads, such as one thread for every URL.
-* A thread pool bounds concurrency and helps prevent resource exhaustion.
-* A typical design uses a fixed-size pool, for example with 10-20 threads, together with a task queue.
 
 ## Hints
 

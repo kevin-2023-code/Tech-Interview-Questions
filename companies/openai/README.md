@@ -8,7 +8,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [101](../openai.md) |
+| Questions reported | [103](../openai.md) |
 | Free to read here | 11 |
 | Interview-process guides | 7 |
 | Other guides | 4 |
@@ -42,7 +42,7 @@ The virtual onsite typically runs three to five rounds: another practical coding
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/infection-spread-simulation) |
 | [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
-| [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Hard | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
+| [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
@@ -63,7 +63,7 @@ The virtual onsite typically runs three to five rounds: another practical coding
 
 ## Everything else
 
-- [All 101 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 103 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OpenAI question on TrueInterview](https://trueinterview.io/problems/company/openai).
 
 ---

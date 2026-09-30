@@ -44,10 +44,6 @@ Yes Yes Yes No
 
 Explanation: `BAT` runs down the first column, `POT` appears from right to left in the bottom row, `BEE` occupies the top row, while `BOO` cannot be found.
 
-## Notes
-
-- One straightforward approach is to construct strings for every row and column, along with their reversed forms, and check whether each target word is contained in one of those strings.
-
 ## Hints
 
 <details>

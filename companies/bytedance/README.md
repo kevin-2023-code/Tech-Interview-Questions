@@ -8,10 +8,10 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [168](../bytedance.md) |
+| Questions reported | [176](../bytedance.md) |
 | Free to read here | 23 |
 | Interview-process guides | 5 |
-| Other guides | 9 |
+| Other guides | 12 |
 | Most recent sighting | Sep 06, 2026 |
 
 ## How ByteDance interviews
@@ -43,7 +43,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
-| [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Hard | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
+| [Contiguous Memory Allocator II](../../questions/object-oriented-programming/memory-allocator/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/memory-allocator) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
@@ -71,18 +71,21 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | Guide | Tags |
 | :-- | :-- |
 | [AI Agent Intern Technical Questions](guides/ai-agent-intern-oral-fundamentals.md) | agents, evaluation, networking, operating-systems, troubleshooting |
+| [AI-Native Coding Interview](https://trueinterview.io/study/d4c1dd70-7481-447a-ad23-a3a276799518) | — |
 | [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](guides/backend-fundamentals-oral-cluster.md) | concurrency, database, distributed-systems, verbal |
 | [Data Engineering Experience Screen](guides/data-engineering-experience-screen.md) | database |
 | [Dropout, Overfitting, Normalization, Loss Functions](guides/ml-knowledge-oral-cluster.md) | attention, ml-knowledge, transformer, verbal |
 | [Hiring Manager / Final Behavioral Round](guides/hm-behavioral-final-round.md) | bq, deep-dive, fit, leadership, star |
+| [How You Build Service Stability and Troubleshoot Production Incidents](guides/how-you-build-service-stability-and-troubleshoot-production-incidents.md) | — |
 | [Motivation, Ambiguity, and Collaboration Screen](guides/motivation-ambiguity-collaboration-screen.md) | ambiguity, bq, fit |
 | [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md) | deep-dive, verbal, ai-safety, llm, ownership |
 | [RAG / Agent / Kafka Oral Drill](guides/rag-agent-kafka-oral-drill.md) | concurrency, kafka, llm-agent, networking, rag, redis, tool-use, verbal |
+| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](guides/sre-background-development-vs-stability-focus-and-your-most-memorable-pr.md) | — |
 | [SRE Linux / Networking Troubleshooting Round](guides/sre-linux-networking-troubleshoot.md) | networking, operating-systems, sre, troubleshooting, verbal |
 
 ## Everything else
 
-- [All 168 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 176 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every ByteDance question on TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 ---

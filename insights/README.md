@@ -2,47 +2,47 @@
 
 # What companies are actually asking
 
-**2,746 tracked questions** across **109 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 18, 2026. Windows below are measured against **Sep 30, 2026**, and everything on this page is recomputed hourly.
+**2,935 tracked questions** across **109 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Sep 30, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
-> **What the numbers are counted over.** 1,511 of the 2,746 questions carry a sighting date and 1,235 do not; an undated question is *unmeasured*, not *old*, so it is in every total below and in no window. Every share on this page names the population it is a share of, because most of them are not the whole bank.
+> **What the numbers are counted over.** 1,638 of the 2,935 questions carry a sighting date and 1,297 do not; an undated question is *unmeasured*, not *old*, so it is in every total below and in no window. Every share on this page names the population it is a share of, because most of them are not the whole bank.
 
 ## The last 90 days
 
-**239 sightings** recorded between Jul 02, 2026 → Sep 30, 2026 — 16% of the 1,511 questions in the bank that carry a sighting date at all.
+**276 sightings** recorded between Jul 02, 2026 → Sep 30, 2026 — 17% of the 1,638 questions in the bank that carry a sighting date at all.
 
 ### By format
 
 | Format | Sightings | Share of the window |  |
 | :-- | --: | --: | :-- |
-| [Algorithm](../formats/algorithm.md) | 136 | 57% | ████████████████ |
-| [SQL](../formats/sql.md) | 31 | 13% | ████ |
-| [System Design](../formats/system-design.md) | 45 | 19% | █████ |
+| [Algorithm](../formats/algorithm.md) | 155 | 56% | ████████████████ |
+| [SQL](../formats/sql.md) | 31 | 11% | ███ |
+| [System Design](../formats/system-design.md) | 57 | 21% | ██████ |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 25 | 10% | ███ |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 31 | 11% | ███ |
 
 ### Where
 
 | Company | Sightings |  |
 | :-- | --: | :-- |
-| [Amazon](../companies/amazon.md) | 39 | ████████████████ |
-| [Google](../companies/google.md) | 19 | ████████ |
-| [ByteDance](../companies/bytedance.md) | 16 | ███████ |
-| [LinkedIn](../companies/linkedin.md) | 11 | █████ |
-| [Salesforce](../companies/salesforce.md) | 11 | █████ |
+| [Amazon](../companies/amazon.md) | 44 | ████████████████ |
+| [Google](../companies/google.md) | 20 | ███████ |
+| [Microsoft](../companies/microsoft.md) | 20 | ███████ |
+| [ByteDance](../companies/bytedance.md) | 16 | ██████ |
+| [LinkedIn](../companies/linkedin.md) | 11 | ████ |
+| [Salesforce](../companies/salesforce.md) | 11 | ████ |
 | [Apple](../companies/apple.md) | 10 | ████ |
-| [Microsoft](../companies/microsoft.md) | 10 | ████ |
 | [Citadel](../companies/citadel.md) | 8 | ███ |
 | [DoorDash](../companies/doordash.md) | 8 | ███ |
 | [Figma](../companies/figma.md) | 8 | ███ |
 | [Meta](../companies/meta.md) | 7 | ███ |
+| [Oracle](../companies/oracle.md) | 7 | ███ |
 | [Point72](../companies/point72.md) | 7 | ███ |
-| [Harvey](../companies/harvey.md) | 6 | ██ |
-| [OpenAI](../companies/openai.md) | 6 | ██ |
-| [Stripe](../companies/stripe.md) | 6 | ██ |
+| [Stripe](../companies/stripe.md) | 7 | ███ |
+| [Uber](../companies/uber.md) | 7 | ███ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 239 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 276 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -50,57 +50,57 @@ Every question is asked in exactly one format, so this column sums to the whole 
 
 | Format | Questions | Share | Last 90d | Easy | Medium | Hard | Graded | Free |
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
-| [Algorithm](../formats/algorithm.md) | 1,800 | 66% | 136 | 320 | 1,123 | 357 | 1,800 | 239 |
+| [Algorithm](../formats/algorithm.md) | 1,943 | 66% | 155 | 353 | 1,214 | 376 | 1,943 | 238 |
 | [SQL](../formats/sql.md) | 94 | 3% | 31 | 20 | 58 | 16 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 290 | 11% | 45 | 17 | 147 | 126 | 290 | 25 |
-| [AI Coding](../formats/ai-coding.md) | 126 | 5% | 2 | 12 | 68 | 46 | 126 | 10 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 436 | 16% | 25 | 40 | 345 | 51 | 436 | 51 |
+| [System Design](../formats/system-design.md) | 312 | 11% | 57 | 17 | 156 | 139 | 312 | 24 |
+| [AI Coding](../formats/ai-coding.md) | 126 | 4% | 2 | 12 | 68 | 46 | 126 | 10 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 460 | 16% | 31 | 41 | 364 | 55 | 460 | 51 |
 
 <sub>*Graded* is how many of that format's questions carry a difficulty at all — the easy/medium/hard columns are counted out of it, never out of the whole format. *Free* is how many open without a paid plan.</sub>
 
 ## Difficulty
 
-Of the **2,746 questions the catalog has graded** (100% of the bank):
+Of the **2,935 questions the catalog has graded** (100% of the bank):
 
 | Difficulty | Questions | Share of graded |  |
 | :-- | --: | --: | :-- |
-| Easy | 409 | 15% | ████ |
-| Medium | 1,741 | 63% | ████████████████ |
-| Hard | 596 | 22% | █████ |
+| Easy | 443 | 15% | ████ |
+| Medium | 1,860 | 63% | ████████████████ |
+| Hard | 632 | 22% | █████ |
 
 <sub>The other 0 carry no grade. That is not *easy* — it is ungraded, and the two are only the same number if you let them be.</sub>
 
 ## Where in the loop
 
-Of the **2,746 questions that name a round** (100% of the bank):
+Of the **2,935 questions that name a round** (100% of the bank):
 
 | Round | Questions |  |
 | :-- | --: | :-- |
-| Online assessment | 511 | ██████ |
-| Phone screen | 1,406 | ████████████████ |
-| Onsite / virtual onsite | 1,123 | █████████████ |
+| Online assessment | 548 | ██████ |
+| Phone screen | 1,484 | ████████████████ |
+| Onsite / virtual onsite | 1,201 | █████████████ |
 | Take-home | 10 | █ |
 
 <sub>One question can be reported in more than one round — the same problem turns up in a phone screen at one company and onsite at another — so this column sums to more than the row above it.</sub>
 
 ## Topics
 
-Of the **1,777 questions that carry a topic label** (65% of the bank — the rest are unlabelled, which is not the same as having no topic):
+Of the **1,915 questions that carry a topic label** (65% of the bank — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled | Last 90d |  |
 | :-- | --: | --: | --: | :-- |
-| `hashing` | 312 | 18% | 33 | ████████████████ |
-| `arrays` | 267 | 15% | 27 | ██████████████ |
-| `graphs` | 264 | 15% | 22 | ██████████████ |
-| `strings` | 246 | 14% | 19 | █████████████ |
-| `greedy` | 174 | 10% | 13 | █████████ |
-| `dynamic-programming` | 143 | 8% | 15 | ███████ |
-| `trees` | 123 | 7% | 14 | ██████ |
-| `sorting` | 122 | 7% | 14 | ██████ |
-| `backtracking` | 119 | 7% | 15 | ██████ |
-| `math` | 105 | 6% | 14 | █████ |
-| `heap` | 96 | 5% | 12 | █████ |
-| `matrix` | 95 | 5% | 10 | █████ |
+| `hashing` | 330 | 17% | 36 | ████████████████ |
+| `arrays` | 295 | 15% | 27 | ██████████████ |
+| `graphs` | 278 | 15% | 26 | █████████████ |
+| `strings` | 267 | 14% | 25 | █████████████ |
+| `greedy` | 185 | 10% | 13 | █████████ |
+| `dynamic-programming` | 151 | 8% | 15 | ███████ |
+| `trees` | 129 | 7% | 15 | ██████ |
+| `sorting` | 128 | 7% | 16 | ██████ |
+| `backtracking` | 124 | 6% | 15 | ██████ |
+| `math` | 118 | 6% | 18 | ██████ |
+| `heap` | 100 | 5% | 13 | █████ |
+| `matrix` | 99 | 5% | 11 | █████ |
 
 [**Every topic, with difficulty mix and who asks it →**](topics.md)
 
@@ -116,8 +116,8 @@ The closest thing this data has to an instruction. A question reported at one em
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | **14** | System Design | Medium | Robinhood, Airbnb, Atlassian, ByteDance … |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | **13** | Algorithm | Medium | Ramp, Amazon, Bloomberg, ByteDance … |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **12** | System Design | Easy | Reddit, Airbnb, Amazon, DoorDash … |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | **12** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
 | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | **11** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
+| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | **11** | Algorithm | Easy | Apple, Amazon, Bloomberg, ByteDance … |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **11** | Object Oriented Programming | Medium | Rippling, Amazon, Atlassian, LinkedIn … |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | **10** | System Design | Hard | Airbnb, Amazon, Ebay, Expedia … |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | **10** | AI Coding | Medium | Apple, Amazon, Bloomberg, ByteDance … |
@@ -145,28 +145,28 @@ The closest thing this data has to an instruction. A question reported at one em
 
 | Plan needed | Questions | Share of bank |
 | :-- | --: | --: |
-| Free | 325 | 12% |
-| Pro | 77 | 3% |
-| Insider | 2,344 | 85% |
+| Free | 323 | 11% |
+| Pro | 78 | 3% |
+| Insider | 2,534 | 86% |
 
-<sub>Straight from the catalog's own `accessTier`, never asserted here. The **325 free ones are listed in full** — [start there](../free/README.md).</sub>
+<sub>Straight from the catalog's own `accessTier`, never asserted here. The **323 free ones are listed in full** — [start there](../free/README.md).</sub>
 
 ## Month by month
 
 | Month | Sightings | Companies |  |
 | :-- | --: | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 55 | 25 | ████ |
-| [Aug 2026](../by-month/2026-08.md) | 94 | 25 | ████████ |
-| [Jul 2026](../by-month/2026-07.md) | 95 | 35 | ████████ |
-| [Jun 2026](../by-month/2026-06.md) | 195 | 53 | ████████████████ |
-| [May 2026](../by-month/2026-05.md) | 199 | 52 | ████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 168 | 58 | ██████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 129 | 49 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 124 | 53 | ██████████ |
-| [Jan 2026](../by-month/2026-01.md) | 150 | 49 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 67 | 42 | █████ |
-| [Nov 2025](../by-month/2025-11.md) | 76 | 40 | ██████ |
-| [Oct 2025](../by-month/2025-10.md) | 40 | 33 | ███ |
+| [Sep 2026](../by-month/2026-09.md) | 83 | 31 | ██████ |
+| [Aug 2026](../by-month/2026-08.md) | 103 | 25 | ████████ |
+| [Jul 2026](../by-month/2026-07.md) | 95 | 35 | ███████ |
+| [Jun 2026](../by-month/2026-06.md) | 200 | 53 | ███████████████ |
+| [May 2026](../by-month/2026-05.md) | 208 | 54 | ████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 181 | 59 | ██████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 137 | 50 | ███████████ |
+| [Feb 2026](../by-month/2026-02.md) | 130 | 52 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 162 | 50 | ████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 73 | 43 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 87 | 40 | ███████ |
+| [Oct 2025](../by-month/2025-10.md) | 50 | 33 | ████ |
 
 [**The full trend, with what each month's format mix was →**](trends.md)
 

@@ -8,10 +8,10 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [56](../citadel.md) |
+| Questions reported | [61](../citadel.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
-| Other guides | 4 |
+| Other guides | 10 |
 | Most recent sighting | Sep 18, 2026 |
 
 ## How Citadel interviews
@@ -51,12 +51,18 @@ The loop typically runs four to five rounds beyond the recruiter call, and the f
 | :-- | :-- |
 | [Behavioral / Resume Drilling Across the Loop](guides/citadel-bq-resume-loop.md) | culture-fit, deep-dive, fit, why-company |
 | [Candy (LC 135)](guides/candy-lc-135.md) | array, greedy |
+| [Case study — LLM inference stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — |
 | [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](guides/qd-eqr-onsite-coding-ladder.md) | data-structure, dp, hashmap, heap |
+| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](guides/eqr-alpha-factor-deep-dive.md) | deep-dive, llm, math-reasoning, ml-knowledge, probability |
+| [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](guides/gqs-quant-phone-brainteasers.md) | linear-algebra, math-reasoning, probability, sampling |
+| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](guides/gqs-swe-whiteboard-boundary-search-top-k.md) | array, binary-search, bst, data-structure, sliding-window, top-k |
 | [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](guides/citadel-hft-onsite-fundamentals.md) | complexity-analysis, cs-fundamentals, io, operating-systems, sorting |
+| [Probability and Combinatorics Quickfire Quiz](guides/trading-probability-quickfire.md) | math-reasoning, probability |
+| [When Does `min x'Qx + c'x` Have a Finite Minimum?](guides/quadratic-form-finite-min.md) | linear-algebra, math-reasoning, optimization |
 
 ## Everything else
 
-- [All 56 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 61 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Citadel question on TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 ---

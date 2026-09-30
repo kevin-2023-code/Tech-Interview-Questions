@@ -8,11 +8,11 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [51](../snapchat.md) |
+| Questions reported | [54](../snapchat.md) |
 | Free to read here | 12 |
 | Interview-process guides | 3 |
-| Other guides | 4 |
-| Most recent sighting | Jul 22, 2026 |
+| Other guides | 5 |
+| Most recent sighting | Sep 09, 2026 |
 
 ## How Snapchat interviews
 
@@ -62,11 +62,12 @@ Coding difficulty sits at LeetCode medium with occasional hard follow-ups, but S
 | [Choose Labels and Losses for Multiple Engagement Outcomes](guides/choose-labels-and-losses-for-multiple-engagement-outcomes.md) | — |
 | [Compare Batch Normalization and Layer Normalization](guides/compare-batch-normalization-and-layer-normalization.md) | — |
 | [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
+| [Explain Neural-Network Regularization and Dropout](guides/explain-neural-network-regularization-and-dropout.md) | — |
 | [ML Fundamentals, Transformer & Regularization](guides/ml-fundamentals-transformer-and-regularization.md) | ml-knowledge, optimization, transformer |
 
 ## Everything else
 
-- [All 51 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 54 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snapchat question on TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 ---

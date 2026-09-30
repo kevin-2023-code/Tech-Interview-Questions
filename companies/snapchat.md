@@ -2,7 +2,7 @@
 
 # Snapchat interview process, OA & interview questions
 
-**51 questions** reported at Snapchat · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
+**54 questions** reported at Snapchat · **8 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snapchat interviews & the free questions](snapchat/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,61 +14,63 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **51** |
-| Most recent sighting | Jul 22, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (49% of 51) |
-| Difficulty (easy / medium / hard) | 7 / 38 / 6 |
+| Questions tracked | **54** |
+| Most recent sighting | Sep 09, 2026 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (52% of 54) |
+| Difficulty (easy / medium / hard) | 7 / 41 / 6 |
 | Free to practise | [12](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 8 |
 
-<sub>Counted from the 51 questions reported at Snapchat. 37 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 54 questions reported at Snapchat. 40 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **51 of 51** questions at Snapchat that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **54 of 54** questions at Snapchat that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 29 | █████████ | [Algorithm](../formats/algorithm.md) (66%) | 2 / 25 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 31 | ██████████ | [System Design](../formats/system-design.md) (48%) | 4 / 21 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 30 | █████████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 26 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 33 | ██████████ | [System Design](../formats/system-design.md) (45%) | 4 / 23 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Algorithm | Medium | Onsite / virtual onsite | Sep 09, 2026 |
 | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
 ## What they ask about
 
-Of the **26 questions at Snapchat that carry a topic label** (51% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **29 questions at Snapchat that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 9 | 35% | ████████████ | May 13, 2026 |
-| `heap` | 5 | 19% | ███████ | Jan 30, 2026 |
-| `binary-search` | 4 | 15% | █████ | Mar 28, 2026 |
-| `hashing` | 3 | 12% | ████ | Mar 06, 2026 |
-| `sliding-window` | 3 | 12% | ████ | May 01, 2026 |
-| `strings` | 3 | 12% | ████ | Mar 12, 2026 |
-| `arrays` | 2 | 8% | ███ | Mar 28, 2026 |
-| `backtracking` | 2 | 8% | ███ | — |
-| `matrix` | 2 | 8% | ███ | Apr 17, 2026 |
-| `sorting` | 2 | 8% | ███ | Mar 28, 2026 |
+| `graphs` | 9 | 31% | ████████████ | May 13, 2026 |
+| `heap` | 5 | 17% | ███████ | Jan 30, 2026 |
+| `binary-search` | 4 | 14% | █████ | Mar 28, 2026 |
+| `arrays` | 3 | 10% | ████ | Mar 28, 2026 |
+| `hashing` | 3 | 10% | ████ | Mar 06, 2026 |
+| `sliding-window` | 3 | 10% | ████ | May 01, 2026 |
+| `strings` | 3 | 10% | ████ | Mar 12, 2026 |
+| `backtracking` | 2 | 7% | ███ | — |
+| `matrix` | 2 | 7% | ███ | Apr 17, 2026 |
+| `sorting` | 2 | 7% | ███ | Mar 28, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Snapchat, by the month it was reported in — Oct 15, 2025 to Jul 22, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Snapchat, by the month it was reported in — Oct 15, 2025 to Sep 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ██ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | █████ |
 | [May 2026](../by-month/2026-05.md) | 2 | █████ |
@@ -76,7 +78,7 @@ Every recorded sighting at Snapchat, by the month it was reported in — Oct 15,
 | [Mar 2026](../by-month/2026-03.md) | 10 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ██████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
 
@@ -86,26 +88,27 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Medium | — | Jul 22, 2026 |
-| **2** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
-| **3** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
-| **4** | [Course Schedule Cycle Detection](https://trueinterview.io/questions/course-schedule-cycle-detection) | Algorithm | Medium | — | May 13, 2026 |
-| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
-| **6** | [Short Video Recommendation & Ranking](https://trueinterview.io/questions/short-video-recommendation-and-ranking) | System Design | Hard | — | Apr 21, 2026 |
-| **7** | [Snap Ads Ranking](https://trueinterview.io/questions/snap-ads-ranking) | System Design | Hard | — | Apr 21, 2026 |
-| **8** | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | 2 | Apr 17, 2026 |
+| **1** | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Algorithm | Medium | — | Sep 09, 2026 |
+| **2** | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Medium | — | Jul 22, 2026 |
+| **3** | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | 5 | Jun 21, 2026 |
+| **4** | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | 3 | Jun 16, 2026 |
+| **5** | [Course Schedule Cycle Detection](https://trueinterview.io/questions/course-schedule-cycle-detection) | Algorithm | Medium | — | May 13, 2026 |
+| **6** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
+| **7** | [Short Video Recommendation & Ranking](https://trueinterview.io/questions/short-video-recommendation-and-ranking) | System Design | Hard | — | Apr 21, 2026 |
+| **8** | [Snap Ads Ranking](https://trueinterview.io/questions/snap-ads-ranking) | System Design | Hard | — | Apr 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**7 writeups** filed under Snapchat in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**8 writeups** filed under Snapchat in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/study/choose-labels-and-losses-for-multiple-engagement-outcomes) | — |
 | [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/study/compare-batch-normalization-and-layer-normalization) | — |
 | [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
+| [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/study/explain-neural-network-regularization-and-dropout) | — |
 | [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/study/ml-fundamentals-transformer-and-regularization) | ml-knowledge, optimization, transformer |
 | [Snapchat Interview Process & Questions](https://trueinterview.io/study/snapchat-interview-process) | — |
 | [Snapchat Machine Learning Engineer Interview Process](https://trueinterview.io/study/snapchat-machine-learning-engineer-interview-process) | — |
@@ -121,6 +124,7 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Algorithm | Medium | 🆕 Sep 09, 2026 |
 | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Medium | Jul 22, 2026 |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
@@ -154,6 +158,8 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
+| [Print Employee Org Chart](https://trueinterview.io/questions/print-employee-org-chart) | Algorithm | Medium | Dec 31, 2025 |
+| [Find Peak Event Moment](https://trueinterview.io/questions/find-peak-event-moment) | Algorithm | Medium | Dec 31, 2025 |
 | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Algorithm | Medium | Dec 31, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |

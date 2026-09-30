@@ -2,7 +2,7 @@
 
 # Optiver interview process, OA & interview questions
 
-**19 questions** reported at Optiver · **13 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/optiver), judged server-side on the algorithm, low-level-design and SQL formats.
+**20 questions** reported at Optiver · **13 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/optiver), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Optiver interviews & the free questions](optiver/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
+| Questions tracked | **20** |
 | Most recent sighting | Jun 15, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (63% of 19) |
-| Difficulty (easy / medium / hard) | 0 / 13 / 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 20) |
+| Difficulty (easy / medium / hard) | 0 / 13 / 7 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 13 |
 
-<sub>Counted from the 19 questions reported at Optiver. 15 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 20 questions reported at Optiver. 16 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at Optiver that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **20 of 20** questions at Optiver that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (64%) | 0 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 7 | ██████ | [Algorithm](../formats/algorithm.md) (57%) | 0 / 4 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ███ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 1 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 4 | ████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -43,7 +43,7 @@ Which stage each question came from, for the **19 of 19** questions at Optiver t
 
 ## What they ask about
 
-Of the **11 questions at Optiver that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Optiver that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,6 +70,7 @@ Every recorded sighting at Optiver, by the month it was reported in — Aug 05, 
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ████████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ████████ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | ████████ |
@@ -130,6 +131,7 @@ The 8 questions to open first if you are preparing for Optiver, ranked by **the 
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Schedule Orders onto Planes](https://trueinterview.io/questions/opticargo-flight-scheduling) | AI Coding | Hard | Jan 22, 2026 |
 | [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design) | Object Oriented Programming | Medium | Jan 16, 2026 |
+| [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | System Design | Hard | Dec 13, 2025 |
 | [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching) | Algorithm | Medium | Nov 18, 2025 |
 | [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system) | Object Oriented Programming | Medium | Nov 17, 2025 |
 | [Stock Transaction Sequence Counting (Catalan / DP)](https://trueinterview.io/questions/stock-transaction-counting) | Algorithm | Medium | Nov 03, 2025 |

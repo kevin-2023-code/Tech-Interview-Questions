@@ -8,7 +8,7 @@ How Capital One interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [48](../capital-one.md) |
+| Questions reported | [51](../capital-one.md) |
 | Free to read here | 2 |
 | Interview-process guides | 5 |
 | Other guides | 8 |
@@ -40,7 +40,7 @@ Capital One runs one of the most distinctive loops among large engineering emplo
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Banking System Design](../../questions/object-oriented-programming/banking-system-design/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) |
+| [Banking System with Transaction Activity](../../questions/object-oriented-programming/banking-system-with-transaction-activity/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 
 ## Guides
@@ -58,7 +58,7 @@ Capital One runs one of the most distinctive loops among large engineering emplo
 
 ## Everything else
 
-- [All 48 questions reported at Capital One](../capital-one.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 51 questions reported at Capital One](../capital-one.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Capital One question on TrueInterview](https://trueinterview.io/problems/company/capital-one).
 
 ---

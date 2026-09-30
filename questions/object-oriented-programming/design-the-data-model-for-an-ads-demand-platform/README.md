@@ -319,6 +319,14 @@ Floating-point calculations introduce rounding problems ($$0.1 + 0.2 \ne 0.3$$).
 [object Object]
 ```
 
+### Requirements
+
+- Represent advertiser or business-account ownership and permissions.
+- Represent campaigns, ad groups or line items, creative resources, targeting policies, budgets, pacing, and order type.
+- Record serving events including eligible requests, impressions, clicks, conversions, and measurement attribution.
+- Accommodate direct-sold demand as a sp
+…[truncated]…
+
 ## Hints
 
 <details>

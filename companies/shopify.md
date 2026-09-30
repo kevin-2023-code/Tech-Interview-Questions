@@ -84,7 +84,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | **5** | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | 2 | Jan 05, 2026 |
 | **6** | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) 🆓 | Algorithm | Easy | — | Aug 29, 2025 |
 | **7** | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) 🆓 | Algorithm | Easy | — | Aug 29, 2025 |
-| **8** | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) 🆓 | Algorithm | Medium | — | Aug 29, 2025 |
+| **8** | [Paint House](https://trueinterview.io/questions/swe-intern-coding-oa) 🆓 | Algorithm | Medium | — | Aug 29, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,7 +116,7 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | [Ruby only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | Algorithm | Easy | Aug 29, 2025 |
 | [Dynamic programming, ~45 min, any language](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) | Algorithm | Medium | Aug 29, 2025 |
-| [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) | Algorithm | Medium | Aug 29, 2025 |
+| [Paint House](https://trueinterview.io/questions/swe-intern-coding-oa) | Algorithm | Medium | Aug 29, 2025 |
 | [Cows and Bulls (Guess the Number)](https://trueinterview.io/questions/cows-and-bulls) | Algorithm | Medium | Jun 19, 2025 |
 | [Design a 2D Robot with Turning and Movement + CLI](https://trueinterview.io/questions/a917e16a-22aa-4528-9a7f-f579c8782e91) | Object Oriented Programming | Easy | — |
 | [Design an Extensible Text Editor with Multiple Renderers](https://trueinterview.io/questions/96a826d5-6b64-5148-835c-9aa999e35b15) | Algorithm | Medium | — |

@@ -2,7 +2,7 @@
 
 # Roblox interview process, OA & interview questions
 
-**61 questions** reported at Roblox · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
+**66 questions** reported at Roblox · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Roblox interviews & the free questions](roblox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **61** |
+| Questions tracked | **66** |
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 61) |
-| Difficulty (easy / medium / hard) | 11 / 39 / 11 |
+| Most common format | [Algorithm](../formats/algorithm.md) (59% of 66) |
+| Difficulty (easy / medium / hard) | 12 / 43 / 11 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 61 questions reported at Roblox. 49 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 66 questions reported at Roblox. 54 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **61 of 61** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **66 of 66** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (80%) | 1 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 8 / 21 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 31 | █████████ | [System Design](../formats/system-design.md) (61%) | 2 / 22 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 39 | ██████████ | [Algorithm](../formats/algorithm.md) (77%) | 9 / 24 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 34 | █████████ | [System Design](../formats/system-design.md) (56%) | 2 / 25 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -48,20 +48,20 @@ Which stage each question came from, for the **61 of 61** questions at Roblox th
 
 ## What they ask about
 
-Of the **36 questions at Roblox that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **41 questions at Roblox that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 11 | 31% | ████████████ | Sep 09, 2026 |
-| `hashing` | 7 | 19% | ████████ | Aug 12, 2026 |
-| `sorting` | 6 | 17% | ███████ | May 24, 2026 |
-| `heap` | 5 | 14% | █████ | Jun 29, 2026 |
-| `matrix` | 5 | 14% | █████ | May 31, 2026 |
-| `sliding-window` | 4 | 11% | ████ | May 19, 2026 |
-| `strings` | 4 | 11% | ████ | Aug 12, 2026 |
-| `graphs` | 3 | 8% | ███ | Jun 29, 2026 |
-| `greedy` | 3 | 8% | ███ | Jun 29, 2026 |
-| `intervals` | 3 | 8% | ███ | Sep 09, 2026 |
+| `arrays` | 12 | 29% | ████████████ | Sep 09, 2026 |
+| `hashing` | 10 | 24% | ██████████ | Aug 12, 2026 |
+| `sorting` | 6 | 15% | ██████ | May 24, 2026 |
+| `heap` | 5 | 12% | █████ | Jun 29, 2026 |
+| `matrix` | 5 | 12% | █████ | May 31, 2026 |
+| `sliding-window` | 5 | 12% | █████ | May 19, 2026 |
+| `strings` | 5 | 12% | █████ | Aug 12, 2026 |
+| `greedy` | 4 | 10% | ████ | Jun 29, 2026 |
+| `stack` | 4 | 10% | ████ | Jun 10, 2026 |
+| `graphs` | 3 | 7% | ███ | Jun 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -81,7 +81,7 @@ Every recorded sighting at Roblox, by the month it was reported in — Sep 02, 2
 | [Jan 2026](../by-month/2026-01.md) | 4 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 7 | █████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 2 | ██████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ███ |
+| [Sep 2025](../by-month/2025-09.md) | 6 | ██████████████████ |
 
 ## Start here
 
@@ -171,7 +171,12 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) | Algorithm | Easy | Dec 05, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
+| [Same Word of HTML Labels](https://trueinterview.io/questions/same-word-of-html-labels) | Algorithm | Medium | Sep 04, 2025 |
+| [Randomly Partition Array](https://trueinterview.io/questions/randomly-partition-array) | Algorithm | Medium | Sep 03, 2025 |
+| [Validate Playlist Sequence](https://trueinterview.io/questions/validate-playlist-sequence) | Algorithm | Medium | Sep 02, 2025 |
 | [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain) | Algorithm | Medium | Sep 02, 2025 |
+| [Find Minimum Score Threshold](https://trueinterview.io/questions/find-minimum-score-threshold) | Algorithm | Medium | Sep 02, 2025 |
+| [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | Algorithm | Easy | Sep 02, 2025 |
 | [Lasers and Robot](https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b) | Algorithm | Medium | — |
 | [Configurable Tic-Tac-Toe Board](https://trueinterview.io/questions/027d9159-df55-5351-b2d2-b3f7e1bbac99) | Algorithm | Medium | — |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | — |

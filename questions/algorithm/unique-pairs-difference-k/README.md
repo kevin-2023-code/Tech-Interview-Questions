@@ -27,6 +27,26 @@ public static int countPair(int[] numbers, int k)
 
 - LC 532, "K-diff Pairs in an Array," is the standard matching problem; LC 1, "Two Sum," uses the related lookup-pattern fingerprint.
 
+## Examples
+
+**Example 1**
+
+```text
+Input:
+6 2 8 2 10
+4
+Output: 2
+```
+
+**Example 2**
+
+```text
+Input:
+4 4 4 4
+0
+Output: 1
+```
+
 ## Hints
 
 <details>

@@ -101,11 +101,11 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 
 | Writeup | Topics |
 | :-- | :-- |
+| [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | linear-algebra, math, math-reasoning, probability, verbal |
 | [Akuna Capital Interview Process & Questions](https://trueinterview.io/study/akunacapital-interview-process) | — |
 | [Akuna Capital Quantitative Finance Interview Process](https://trueinterview.io/study/akunacapital-quantitative-finance-interview-process) | — |
 | [Akuna Capital Research Scientist Interview Process](https://trueinterview.io/study/akunacapital-research-scientist-interview-process) | — |
 | [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/study/junior-trader-final-games) | brainteaser, expected-value, fermi-estimation, market-making, verbal |
-| [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | linear-algebra, math, math-reasoning, probability, verbal |
 | [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/study/trader-fair-bet-probability-and-number-sequences) | math, math-reasoning, probability, verbal |
 
 ---

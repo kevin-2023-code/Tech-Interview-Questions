@@ -2,7 +2,7 @@
 
 # Figma interview process, OA & interview questions
 
-**18 questions** reported at Figma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at Figma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Figma interviews & the free questions](figma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **18** |
+| Questions tracked | **19** |
 | Most recent sighting | Aug 12, 2026 |
 | Reported in the last 90 days | 8 |
-| Most common format | [System Design](../formats/system-design.md) (44% of 18) |
-| Difficulty (easy / medium / hard) | 2 / 13 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (42% of 19) |
+| Difficulty (easy / medium / hard) | 2 / 14 / 3 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 18 questions reported at Figma. 14 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 19 questions reported at Figma. 15 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **18 of 18** questions at Figma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **19 of 19** questions at Figma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 7 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 14 | ██████████ | [System Design](../formats/system-design.md) (57%) | 1 / 11 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 15 | ██████████ | [System Design](../formats/system-design.md) (53%) | 1 / 12 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -53,18 +53,18 @@ Which stage each question came from, for the **18 of 18** questions at Figma tha
 
 ## What they ask about
 
-Of the **10 questions at Figma that carry a topic label** (56% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Figma that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 20% | ████████████ | Aug 12, 2026 |
-| `graphs` | 2 | 20% | ████████████ | — |
-| `greedy` | 2 | 20% | ████████████ | Aug 12, 2026 |
-| `math` | 2 | 20% | ████████████ | Apr 13, 2026 |
-| `stack` | 2 | 20% | ████████████ | Aug 04, 2026 |
-| `strings` | 2 | 20% | ████████████ | Aug 04, 2026 |
-| `backtracking` | 1 | 10% | ██████ | Aug 04, 2026 |
-| `sorting` | 1 | 10% | ██████ | Aug 12, 2026 |
+| `strings` | 3 | 27% | ████████████ | Aug 04, 2026 |
+| `arrays` | 2 | 18% | ████████ | Aug 12, 2026 |
+| `graphs` | 2 | 18% | ████████ | — |
+| `greedy` | 2 | 18% | ████████ | Aug 12, 2026 |
+| `math` | 2 | 18% | ████████ | Apr 13, 2026 |
+| `stack` | 2 | 18% | ████████ | Aug 04, 2026 |
+| `backtracking` | 1 | 9% | ████ | Aug 04, 2026 |
+| `sorting` | 1 | 9% | ████ | Aug 12, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -76,7 +76,7 @@ Every recorded sighting at Figma, by the month it was reported in — May 28, 20
 | :-- | --: | :-- |
 | [Aug 2026](../by-month/2026-08.md) | 6 | ████████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 2 | ████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | ████████ |
 | [May 2024](../by-month/2024-05.md) | 1 | ████ |
@@ -126,6 +126,7 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Aug 04, 2026 |
 | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Jul 09, 2026 |
 | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Object Oriented Programming | Medium | Jul 06, 2026 |
+| [Template String Formatter II](https://trueinterview.io/questions/template-string-formatter-ii) | Algorithm | Medium | May 14, 2026 |
 | [File System Permissions](https://trueinterview.io/questions/file-system-permissions) | Object Oriented Programming | Medium | May 14, 2026 |
 | [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation) | System Design | Medium | Apr 13, 2026 |
 | [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed) | System Design | Medium | Apr 13, 2026 |

@@ -22,32 +22,6 @@
   - In the final stage, retain multiple readings for each patient and provide an `is this trending toward fever` query.
 - This is a design-and-refactoring exercise rather than an algorithms exercise.
 
-## Notes
-
-- Use the following core class outline:
-
-  ```
-  enum TemperatureUnit { CELSIUS, FAHRENHEIT }
-  enum MeasurementMethod {
-      ORAL, AXILLARY, RECTAL, TYMPANIC, FOREHEAD;
-      double feverThresholdCelsius() {... }
-  }
-  class TemperatureReading {
-      double value;
-      TemperatureUnit unit;
-      MeasurementMethod method;
-      Instant takenAt;
-      double valueInCelsius() {... }
-      boolean isFebrile() { return valueInCelsius() >= method.feverThresholdCelsius(); }
-  }
-  class PatientTemperatureHistory {
-      String patientId;
-      List<TemperatureReading> readings;
-      void add(TemperatureReading r) {... }
-      boolean trendingTowardFever(Duration lookback) {... }
-  }
-  ```
-
 ## Hints
 
 <details>

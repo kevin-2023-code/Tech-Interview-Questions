@@ -2,7 +2,7 @@
 
 # Expedia interview process, OA & interview questions
 
-**30 questions** reported at Expedia · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/expedia), judged server-side on the algorithm, low-level-design and SQL formats.
+**31 questions** reported at Expedia · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/expedia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Expedia interviews & the free questions](expedia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **30** |
+| Questions tracked | **31** |
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (80% of 30) |
-| Difficulty (easy / medium / hard) | 2 / 18 / 10 |
+| Most common format | [Algorithm](../formats/algorithm.md) (81% of 31) |
+| Difficulty (easy / medium / hard) | 2 / 19 / 10 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 30 questions reported at Expedia. 10 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 31 questions reported at Expedia. 11 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **30 of 30** questions at Expedia that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **31 of 31** questions at Expedia that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 7 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 4 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (94%) | 0 / 11 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (94%) | 0 / 12 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 10 | ██████ | [System Design](../formats/system-design.md) (60%) | 1 / 5 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,20 +42,20 @@ Which stage each question came from, for the **30 of 30** questions at Expedia t
 
 ## What they ask about
 
-Of the **22 questions at Expedia that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at Expedia that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 4 | 18% | ████████████ | May 30, 2026 |
-| `arrays` | 3 | 14% | █████████ | May 30, 2026 |
-| `backtracking` | 3 | 14% | █████████ | — |
-| `dynamic-programming` | 3 | 14% | █████████ | Nov 18, 2025 |
-| `graphs` | 3 | 14% | █████████ | — |
-| `math` | 3 | 14% | █████████ | May 30, 2026 |
+| `arrays` | 4 | 17% | ████████████ | May 30, 2026 |
+| `greedy` | 4 | 17% | ████████████ | May 30, 2026 |
+| `backtracking` | 3 | 13% | █████████ | — |
+| `dynamic-programming` | 3 | 13% | █████████ | Nov 18, 2025 |
+| `graphs` | 3 | 13% | █████████ | — |
+| `math` | 3 | 13% | █████████ | May 30, 2026 |
+| `sliding-window` | 2 | 9% | ██████ | May 30, 2026 |
 | `strings` | 2 | 9% | ██████ | — |
-| `bit-manipulation` | 1 | 5% | ███ | — |
-| `hashing` | 1 | 5% | ███ | — |
-| `linked-list` | 1 | 5% | ███ | — |
+| `bit-manipulation` | 1 | 4% | ███ | — |
+| `hashing` | 1 | 4% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -66,7 +66,7 @@ Every recorded sighting at Expedia, by the month it was reported in — Nov 18, 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
-| [May 2026](../by-month/2026-05.md) | 2 | ████████████████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
@@ -81,11 +81,11 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | **1** | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | 3 | Jun 28, 2026 |
 | **2** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
 | **3** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | 1 | May 30, 2026 |
-| **4** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Algorithm | Medium | — | May 30, 2026 |
-| **5** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
-| **6** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | 4 | Apr 09, 2026 |
-| **7** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) 🆓 | Algorithm | Medium | 4 | Apr 01, 2026 |
-| **8** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
+| **4** | [Count Dropped Requests](https://trueinterview.io/questions/count-dropped-requests) | Algorithm | Medium | — | May 30, 2026 |
+| **5** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Algorithm | Medium | — | May 30, 2026 |
+| **6** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
+| **7** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | 4 | Apr 09, 2026 |
+| **8** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) 🆓 | Algorithm | Medium | 4 | Apr 01, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -110,6 +110,7 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | [Design Google News](https://trueinterview.io/questions/google-news-aggregator) | System Design | Medium | Jun 28, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Algorithm | Medium | May 30, 2026 |
+| [Count Dropped Requests](https://trueinterview.io/questions/count-dropped-requests) | Algorithm | Medium | May 30, 2026 |
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | May 30, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
 | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |

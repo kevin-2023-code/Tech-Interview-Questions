@@ -2,7 +2,7 @@
 
 # Reddit interview process, OA & interview questions
 
-**26 questions** reported at Reddit · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Reddit · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Reddit interviews & the free questions](reddit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
+| Questions tracked | **28** |
 | Most recent sighting | Jun 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (42% of 26) |
-| Difficulty (easy / medium / hard) | 2 / 17 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (43% of 28) |
+| Difficulty (easy / medium / hard) | 2 / 19 / 7 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 7 |
 
-<sub>Counted from the 26 questions reported at Reddit. 21 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 28 questions reported at Reddit. 23 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **28 of 28** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | ███████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 11 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 15 | ████████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 13 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 19 | ██████████ | [System Design](../formats/system-design.md) (58%) | 1 / 13 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,20 +42,20 @@ Which stage each question came from, for the **26 of 26** questions at Reddit th
 
 ## What they ask about
 
-Of the **11 questions at Reddit that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Reddit that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 4 | 36% | ████████████ | Jun 23, 2026 |
-| `arrays` | 3 | 27% | █████████ | Jun 12, 2026 |
-| `graphs` | 3 | 27% | █████████ | May 12, 2026 |
-| `hashing` | 3 | 27% | █████████ | Jun 23, 2026 |
-| `backtracking` | 1 | 9% | ███ | Feb 19, 2026 |
-| `heap` | 1 | 9% | ███ | Jun 12, 2026 |
-| `linked-list` | 1 | 9% | ███ | Mar 01, 2026 |
-| `sliding-window` | 1 | 9% | ███ | Jun 12, 2026 |
-| `sorting` | 1 | 9% | ███ | Jun 23, 2026 |
-| `trees` | 1 | 9% | ███ | Feb 17, 2026 |
+| `graphs` | 4 | 31% | ████████████ | May 12, 2026 |
+| `strings` | 4 | 31% | ████████████ | Jun 23, 2026 |
+| `arrays` | 3 | 23% | █████████ | Jun 12, 2026 |
+| `hashing` | 3 | 23% | █████████ | Jun 23, 2026 |
+| `heap` | 2 | 15% | ██████ | Jun 12, 2026 |
+| `backtracking` | 1 | 8% | ███ | Feb 19, 2026 |
+| `linked-list` | 1 | 8% | ███ | Mar 01, 2026 |
+| `sliding-window` | 1 | 8% | ███ | Jun 12, 2026 |
+| `sorting` | 1 | 8% | ███ | Jun 23, 2026 |
+| `trees` | 1 | 8% | ███ | Feb 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -70,6 +70,7 @@ Every recorded sighting at Reddit, by the month it was reported in — Jul 21, 2
 | [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ████ |
 
 ## Start here
@@ -133,6 +134,8 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | Object Oriented Programming | Medium | Feb 17, 2026 |
 | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | System Design | Hard | Feb 2026 |
+| [Related Communities Finder](https://trueinterview.io/questions/related-communities-finder) | Algorithm | Medium | Jan 23, 2026 |
+| [Merge JSON Event Logs](https://trueinterview.io/questions/merge-json-event-logs) | Algorithm | Medium | Jan 23, 2026 |
 | [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Algorithm | Medium | Jul 21, 2025 |
 | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | System Design | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |

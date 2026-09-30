@@ -8,7 +8,7 @@ How Rubrik interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [20](../rubrik.md) |
+| Questions reported | [19](../rubrik.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -55,7 +55,7 @@ The loop typically closes with a hiring-manager conversation: a deep walk throug
 
 ## Everything else
 
-- [All 20 questions reported at Rubrik](../rubrik.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 19 questions reported at Rubrik](../rubrik.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rubrik question on TrueInterview](https://trueinterview.io/problems/company/rubrik).
 
 ---

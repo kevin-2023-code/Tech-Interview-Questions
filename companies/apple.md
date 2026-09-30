@@ -2,7 +2,7 @@
 
 # Apple interview process, OA & interview questions
 
-**115 questions** reported at Apple · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
+**116 questions** reported at Apple · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Apple interviews & the free questions](apple/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **115** |
+| Questions tracked | **116** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 10 |
-| Most common format | [Algorithm](../formats/algorithm.md) (70% of 115) |
-| Difficulty (easy / medium / hard) | 26 / 71 / 18 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 116) |
+| Difficulty (easy / medium / hard) | 27 / 71 / 18 |
 | Free to practise | [21](../free/README.md) |
 | Guides & writeups | 10 |
 
-<sub>Counted from the 115 questions reported at Apple. 85 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 116 questions reported at Apple. 85 of them carry a sighting date; the other 31 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **115 of 115** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **116 of 116** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 11 | █ | [Algorithm](../formats/algorithm.md) (82%) | 8 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 12 | █ | [Algorithm](../formats/algorithm.md) (83%) | 9 / 3 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 89 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 16 / 56 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 35 | ████ | [Algorithm](../formats/algorithm.md) (37%) | 4 / 22 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -55,7 +55,7 @@ Which stage each question came from, for the **115 of 115** questions at Apple t
 
 ## What they ask about
 
-Of the **86 questions at Apple that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **86 questions at Apple that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -228,6 +228,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [All Subsets with a Given Sum](https://trueinterview.io/questions/9a58ba10-18c3-5f29-ae61-70e1882a22f5) | Algorithm | Medium | — |
 | [Write a One-Hot SystemVerilog Constraint Without $onehot](https://trueinterview.io/questions/7772306e-c2e1-50b0-b143-ea071affcf0b) | Algorithm | Easy | — |
 | [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057) | Algorithm | Easy | — |
+| [Swap Two Variables Without Using Temporary Variable](https://trueinterview.io/questions/68870b4c-8508-4508-88c9-186133ebadf8) | Algorithm | Easy | — |
 | [Determine Whether an Undirected Graph Is Bipartite](https://trueinterview.io/questions/3e8d0c6c-7081-55ae-b3ee-3e5c8621d1b9) | Algorithm | Medium | — |
 | [Classify the Difference Between Two Calendar Dates](https://trueinterview.io/questions/1fd937c6-7de8-57d7-9b2d-c96a07d39ab2) | Algorithm | Medium | — |
 | [Design Task Manager](https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e) | Object Oriented Programming | Medium | — |

@@ -8,10 +8,10 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [18](../jpmorgan.md) |
+| Questions reported | [19](../jpmorgan.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 3 |
 | Most recent sighting | Jun 23, 2026 |
 
 ## How JPMorgan interviews
@@ -54,12 +54,13 @@ The final loop is usually three to four back-to-back sessions of 45 minutes each
 
 | Guide | Tags |
 | :-- | :-- |
+| [Explain Daily Signal Construction and a Prediction Workflow](guides/explain-daily-signal-construction-and-a-prediction-workflow.md) | — |
 | [Quant Probability and Statistics Orals](guides/quant-probability-and-statistics-orals.md) | combinatorics, expected-value, math-reasoning, probability |
 | [Super Day Behavioral Round](guides/superday-behavioral-round.md) | leadership, project-deep-dive |
 
 ## Everything else
 
-- [All 18 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 19 questions reported at JPMorgan](../jpmorgan.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every JPMorgan question on TrueInterview](https://trueinterview.io/problems/company/jpmorgan).
 
 ---

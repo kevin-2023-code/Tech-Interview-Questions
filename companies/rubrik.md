@@ -2,7 +2,7 @@
 
 # Rubrik interview process, OA & interview questions
 
-**20 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
+**19 questions** reported at Rubrik · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rubrik), judged server-side.
 
 [📖 How Rubrik interviews & the free questions](rubrik/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **20** |
+| Questions tracked | **19** |
 | Most recent sighting | — _no sighting date on file_ |
 | Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 20) |
-| Difficulty (easy / medium / hard) | 2 / 4 / 14 |
+| Most common format | [Algorithm](../formats/algorithm.md) (100% of 19) |
+| Difficulty (easy / medium / hard) | 2 / 4 / 13 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 20 questions reported at Rubrik. 0 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 19 questions reported at Rubrik. 0 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **20 of 20** questions at Rubrik that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **19 of 19** questions at Rubrik that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 13 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,7 +41,7 @@ Which stage each question came from, for the **20 of 20** questions at Rubrik th
 
 ## What they ask about
 
-Of the **16 questions at Rubrik that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Rubrik that carry a topic label** (84% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -103,7 +103,6 @@ The 8 questions to open first if you are preparing for Rubrik, ranked by **the o
 | [Maximize Happiness](https://trueinterview.io/questions/9a5a6369-36c2-41ca-923b-276bf08c2011) | Algorithm | Hard | — |
 | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Algorithm | Hard | — |
 | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Algorithm | Hard | — |
-| [Starlight](https://trueinterview.io/questions/73a6ae6a-88c0-45d6-9d5b-63411038dfd8) | Algorithm | Hard | — |
 | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Algorithm | Hard | — |
 | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Algorithm | Hard | — |
 | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Algorithm | Medium | — |

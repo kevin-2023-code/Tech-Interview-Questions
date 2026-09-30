@@ -19,13 +19,6 @@
 - Produce all positions in `s1` where deleting the character leaves precisely `s2`.
 - When identical characters allow more than one qualifying removal, report every such index.
 
-## Notes
-
-- If the relationship is not guaranteed by the prompt, begin by checking that `len(s1)` is one greater than `len(s2)`.
-- For small input limits, you can use an O(n²) baseline that removes each character in turn and tests the resulting string.
-- To achieve O(n), locate the earliest differing position and extend through the matching-character streak in `s1`; each position in that streak may represent a valid deletion.
-- Consecutive duplicates are the key edge case: with `s1 = "bbbc"` and `s2 = "bbc"`, the answer must contain all three possible positions, `[0, 1, 2]`, because removing any one of the three `b` characters gives `"bbc"`.
-
 ## Preparation
 
 - First write the exhaustive implementation as a reference for correctness, and afterward implement the O(n) scan that handles the duplicate run.

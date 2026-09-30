@@ -2,7 +2,7 @@
 
 # Two Sigma interview process, OA & interview questions
 
-**23 questions** reported at Two Sigma · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
+**24 questions** reported at Two Sigma · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Two Sigma interviews & the free questions](two-sigma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
+| Questions tracked | **24** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (87% of 23) |
-| Difficulty (easy / medium / hard) | 1 / 18 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (88% of 24) |
+| Difficulty (easy / medium / hard) | 1 / 18 / 5 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 23 questions reported at Two Sigma. 15 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 24 questions reported at Two Sigma. 16 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **24 of 24** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 8 | ████████ | [Algorithm](../formats/algorithm.md) (88%) | 1 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (89%) | 1 / 6 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (80%) | 0 / 9 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 6 | ██████ | [Algorithm](../formats/algorithm.md) (83%) | 0 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -46,19 +46,19 @@ Which stage each question came from, for the **23 of 23** questions at Two Sigma
 
 ## What they ask about
 
-Of the **17 questions at Two Sigma that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Two Sigma that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 24% | ████████████ | Mar 25, 2026 |
-| `greedy` | 3 | 18% | █████████ | Mar 25, 2026 |
-| `trees` | 3 | 18% | █████████ | Mar 25, 2026 |
-| `arrays` | 2 | 12% | ██████ | Mar 25, 2026 |
-| `binary-search` | 2 | 12% | ██████ | May 10, 2026 |
-| `heap` | 2 | 12% | ██████ | Jul 29, 2026 |
-| `math` | 2 | 12% | ██████ | May 10, 2026 |
-| `sorting` | 2 | 12% | ██████ | Mar 25, 2026 |
-| `strings` | 2 | 12% | ██████ | Feb 18, 2026 |
+| `graphs` | 4 | 22% | ████████████ | Mar 25, 2026 |
+| `greedy` | 3 | 17% | █████████ | Mar 25, 2026 |
+| `math` | 3 | 17% | █████████ | May 10, 2026 |
+| `trees` | 3 | 17% | █████████ | Mar 25, 2026 |
+| `arrays` | 2 | 11% | ██████ | Mar 25, 2026 |
+| `binary-search` | 2 | 11% | ██████ | May 10, 2026 |
+| `heap` | 2 | 11% | ██████ | Jul 29, 2026 |
+| `sorting` | 2 | 11% | ██████ | Mar 25, 2026 |
+| `strings` | 2 | 11% | ██████ | Feb 18, 2026 |
 | `backtracking` | 1 | 6% | ███ | Oct 09, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -72,7 +72,7 @@ Every recorded sighting at Two Sigma, by the month it was reported in — Oct 09
 | [Jul 2026](../by-month/2026-07.md) | 1 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 2 | ████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 2 | ████████████████ |
@@ -85,13 +85,13 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
-| **2** | [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | — | May 10, 2026 |
+| **2** | [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | — | May 10, 2026 |
 | **3** | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) 🆓 | Algorithm | Medium | — | May 10, 2026 |
-| **4** | [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | — | May 10, 2026 |
+| **4** | [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | — | May 10, 2026 |
 | **5** | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Object Oriented Programming | Medium | — | Apr 07, 2026 |
 | **6** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) 🆓 | Algorithm | Hard | 1 | Mar 25, 2026 |
 | **7** | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Algorithm | Medium | — | Mar 25, 2026 |
-| **8** | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Algorithm | Medium | 1 | Feb 18, 2026 |
+| **8** | [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero) | Algorithm | Hard | — | Mar 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -119,12 +119,13 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
-| [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | May 10, 2026 |
-| [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | May 10, 2026 |
+| [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | May 10, 2026 |
+| [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | May 10, 2026 |
 | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | Algorithm | Medium | May 10, 2026 |
 | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Object Oriented Programming | Medium | Apr 07, 2026 |
 | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Algorithm | Medium | Mar 25, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
+| [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero) | Algorithm | Hard | Mar 21, 2026 |
 | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Algorithm | Medium | Feb 18, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Huffman-Style Binary Encode / Decode](https://trueinterview.io/questions/huffman-style-binary-encode-decode) | Algorithm | Hard | Dec 15, 2025 |

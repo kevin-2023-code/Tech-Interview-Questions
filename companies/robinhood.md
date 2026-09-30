@@ -85,7 +85,7 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | **1** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | 1 | May 09, 2026 |
 | **2** | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Algorithm | Medium | — | May 09, 2026 |
 | **3** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
-| **4** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | 1 | May 2026 |
+| **4** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | 2 | May 2026 |
 | **5** | [Employee Referral Program](https://trueinterview.io/questions/referral-program-leaderboard) | Algorithm | Medium | — | Apr 28, 2026 |
 | **6** | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design) | System Design | Medium | 1 | Apr 23, 2026 |
 | **7** | [Fractional Inventory](https://trueinterview.io/questions/fractional-share-inventory-trading) 🆓 | Algorithm | Hard | — | Apr 23, 2026 |

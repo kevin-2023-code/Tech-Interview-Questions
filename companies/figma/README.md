@@ -8,7 +8,7 @@ How Figma interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [18](../figma.md) |
+| Questions reported | [19](../figma.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
@@ -50,7 +50,7 @@ Figma's question pool is unusually narrow — one document-and-layers exercise a
 
 ## Everything else
 
-- [All 18 questions reported at Figma](../figma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 19 questions reported at Figma](../figma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Figma question on TrueInterview](https://trueinterview.io/problems/company/figma).
 
 ---

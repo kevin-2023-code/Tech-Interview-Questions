@@ -2,7 +2,7 @@
 
 # Cisco interview process, OA & interview questions
 
-**23 questions** reported at Cisco · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cisco), judged server-side on the algorithm, low-level-design and SQL formats.
+**25 questions** reported at Cisco · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cisco), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Cisco interviews & the free questions](cisco/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
+| Questions tracked | **25** |
 | Most recent sighting | Jun 16, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (96% of 23) |
-| Difficulty (easy / medium / hard) | 11 / 9 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (96% of 25) |
+| Difficulty (easy / medium / hard) | 12 / 10 / 3 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 23 questions reported at Cisco. 13 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 25 questions reported at Cisco. 15 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at Cisco that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **25 of 25** questions at Cisco that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 11 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 12 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 6 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,20 +42,20 @@ Which stage each question came from, for the **23 of 23** questions at Cisco tha
 
 ## What they ask about
 
-Of the **20 questions at Cisco that carry a topic label** (87% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **21 questions at Cisco that carry a topic label** (84% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `matrix` | 5 | 25% | ████████████ | May 01, 2026 |
-| `arrays` | 4 | 20% | ██████████ | Sep 04, 2025 |
-| `strings` | 4 | 20% | ██████████ | Jun 16, 2026 |
-| `dynamic-programming` | 3 | 15% | ███████ | Sep 06, 2025 |
+| `matrix` | 5 | 24% | ████████████ | May 01, 2026 |
+| `arrays` | 4 | 19% | ██████████ | Sep 04, 2025 |
+| `strings` | 4 | 19% | ██████████ | Jun 16, 2026 |
+| `dynamic-programming` | 3 | 14% | ███████ | Sep 06, 2025 |
+| `linked-list` | 2 | 10% | █████ | Sep 06, 2025 |
 | `math` | 2 | 10% | █████ | Jul 17, 2025 |
 | `backtracking` | 1 | 5% | ██ | — |
 | `graphs` | 1 | 5% | ██ | — |
 | `greedy` | 1 | 5% | ██ | — |
 | `hashing` | 1 | 5% | ██ | Jul 17, 2025 |
-| `linked-list` | 1 | 5% | ██ | Sep 06, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -65,11 +65,11 @@ Every recorded sighting at Cisco, by the month it was reported in — Jul 17, 20
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 1 | █████ |
-| [May 2026](../by-month/2026-05.md) | 1 | █████ |
-| [Sep 2025](../by-month/2025-09.md) | 5 | ████████████████████████ |
-| [Aug 2025](../by-month/2025-08.md) | 3 | ██████████████ |
-| [Jul 2025](../by-month/2025-07.md) | 3 | ██████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 1 | ███ |
+| [Sep 2025](../by-month/2025-09.md) | 7 | ████████████████████████ |
+| [Aug 2025](../by-month/2025-08.md) | 3 | ██████████ |
+| [Jul 2025](../by-month/2025-07.md) | 3 | ██████████ |
 
 ## Start here
 
@@ -81,10 +81,10 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | **2** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) 🆓 | Algorithm | Medium | 3 | May 2026 |
 | **3** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | 1 | Sep 29, 2025 |
 | **4** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Algorithm | Easy | — | Sep 06, 2025 |
-| **5** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | — | Sep 06, 2025 |
-| **6** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Algorithm | Easy | — | Sep 04, 2025 |
-| **7** | [Minimum Swaps for Even / Odd Partition](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) | Algorithm | Easy | — | Sep 04, 2025 |
-| **8** | [Compress Consecutive Ranges](https://trueinterview.io/questions/compress-consecutive-ranges) 🆓 | Algorithm | Easy | — | Aug 26, 2025 |
+| **5** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | Algorithm | Medium | — | Sep 06, 2025 |
+| **6** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | — | Sep 06, 2025 |
+| **7** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Algorithm | Easy | — | Sep 04, 2025 |
+| **8** | [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) | Algorithm | Easy | — | Sep 04, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -111,8 +111,10 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
 | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Algorithm | Easy | Sep 06, 2025 |
 | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | Sep 06, 2025 |
+| [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | Algorithm | Medium | Sep 06, 2025 |
 | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Algorithm | Easy | Sep 04, 2025 |
 | [Minimum Swaps for Even / Odd Partition](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) | Algorithm | Easy | Sep 04, 2025 |
+| [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) | Algorithm | Easy | Sep 04, 2025 |
 | [Nested Pattern String Expansion](https://trueinterview.io/questions/nested-pattern-string-expansion) | Algorithm | Hard | Aug 26, 2025 |
 | [Compress Consecutive Ranges](https://trueinterview.io/questions/compress-consecutive-ranges) | Algorithm | Easy | Aug 26, 2025 |
 | [Matrix Zig-Zag Traversal](https://trueinterview.io/questions/matrix-zig-zag-traversal) | Algorithm | Medium | Aug 25, 2025 |

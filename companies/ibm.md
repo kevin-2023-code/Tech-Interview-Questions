@@ -90,7 +90,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | **1** | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Algorithm | Medium | — | Sep 14, 2026 |
 | **2** | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | Algorithm | Medium | — | Aug 27, 2026 |
 | **3** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | 1 | May 30, 2026 |
-| **4** | [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) 🆓 | Algorithm | Medium | — | Apr 25, 2026 |
+| **4** | [Count 3^x * 5^y Numbers and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) 🆓 | Algorithm | Medium | — | Apr 25, 2026 |
 | **5** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | 2 | Feb 26, 2026 |
 | **6** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Algorithm | Medium | — | Feb 22, 2026 |
 | **7** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Algorithm | Medium | — | Feb 22, 2026 |
@@ -121,7 +121,7 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 | [VM Rental Revenue from Changing Stock](https://trueinterview.io/questions/vm-rental-revenue) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | Algorithm | Medium | 🆕 Aug 27, 2026 |
 | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | May 30, 2026 |
-| [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) | Algorithm | Medium | Apr 25, 2026 |
+| [Count 3^x * 5^y Numbers and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) | Algorithm | Medium | Apr 25, 2026 |
 | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | Feb 26, 2026 |
 | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Algorithm | Medium | Feb 22, 2026 |
 | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Algorithm | Medium | Feb 22, 2026 |

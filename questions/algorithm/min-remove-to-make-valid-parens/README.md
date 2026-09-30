@@ -19,12 +19,6 @@
 - Use two scans: while moving left to right, flag surplus `)`; then scan right to left (or use a stack) to flag excess `(`; construct the answer by omitting every flagged position.
 - Follow-up: extend the approach to process `()[]{}` together. A single stack that records the closing character expected for each opener is sufficient.
 
-
-## Notes
-
-- A stack containing character positions provides the most straightforward one-pass approach.
-- For the multiple-bracket follow-up, preserve this key condition: remove an item from the stack only when its bracket kind matches; otherwise, flag the character for deletion.
-
 ## Preparation
 
 - Practice the multi-bracket variation using stack entries shaped as `(index, expected_close_char)`.

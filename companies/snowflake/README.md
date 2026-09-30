@@ -8,7 +8,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [110](../snowflake.md) |
+| Questions reported | [112](../snowflake.md) |
 | Free to read here | 27 |
 | Interview-process guides | 1 |
 | Other guides | 4 |
@@ -48,7 +48,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
-| [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
+| [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Hard | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
 | [Unequal Elements](../../questions/algorithm/unequal-elements/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/unequal-elements) |
 | [Find Unique Number in Consecutive Pairs](../../questions/algorithm/find-unique-number-in-consecutive-pairs/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) |
 | [Minimize Marbles in Grid](../../questions/algorithm/minimize-marbles-in-grid/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) |
@@ -77,7 +77,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Everything else
 
-- [All 110 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 112 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

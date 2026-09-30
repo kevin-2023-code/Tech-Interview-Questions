@@ -2,7 +2,7 @@
 
 # Pinterest interview process, OA & interview questions
 
-**75 questions** reported at Pinterest · **6 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**77 questions** reported at Pinterest · **6 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **75** |
+| Questions tracked | **77** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 75) |
-| Difficulty (easy / medium / hard) | 7 / 51 / 17 |
+| Most common format | [Algorithm](../formats/algorithm.md) (61% of 77) |
+| Difficulty (easy / medium / hard) | 8 / 52 / 17 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 6 |
 | Interview reports on the board | 2 in this snapshot |
 
-<sub>Counted from the 75 questions reported at Pinterest. 46 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 77 questions reported at Pinterest. 47 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **75 of 75** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **77 of 77** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 47 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 1 / 35 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 48 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 1 / 36 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 36 | ████████ | [Algorithm](../formats/algorithm.md) (39%) | 3 / 23 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -51,7 +51,7 @@ Which stage each question came from, for the **75 of 75** questions at Pinterest
 
 ## What they ask about
 
-Of the **49 questions at Pinterest that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **51 questions at Pinterest that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -60,8 +60,8 @@ Of the **49 questions at Pinterest that carry a topic label** (65% of them — t
 | `graphs` | 7 | 14% | ████████ | Aug 26, 2026 |
 | `greedy` | 7 | 14% | ████████ | Jun 16, 2026 |
 | `arrays` | 6 | 12% | ███████ | Aug 26, 2026 |
+| `binary-search` | 6 | 12% | ███████ | Mar 28, 2026 |
 | `strings` | 6 | 12% | ███████ | May 27, 2026 |
-| `binary-search` | 5 | 10% | ██████ | Mar 28, 2026 |
 | `dynamic-programming` | 4 | 8% | █████ | Jan 07, 2026 |
 | `trees` | 4 | 8% | █████ | Aug 26, 2026 |
 | `heap` | 3 | 6% | ████ | Jun 16, 2026 |
@@ -80,7 +80,7 @@ Every recorded sighting at Pinterest, by the month it was reported in — May 30
 | [May 2026](../by-month/2026-05.md) | 4 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 10 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | ██████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ██ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
 | [Jan 2026](../by-month/2026-01.md) | 4 | ██████████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ███████ |
 | [Nov 2025](../by-month/2025-11.md) | 5 | ████████████ |
@@ -126,7 +126,7 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | Software | [Pinterest SDE2 Interview Experience](https://trueinterview.io/interviews/519ecb26-48c1-4198-a490-a8c6b6cfdf77) | Sep 27, 2026 |
 | Software | [Pinterest Senior Software Engineer Interview Experience: Region Tree Access Control System Design](https://trueinterview.io/interviews/b1c34d1b-e5ae-4d52-95ed-c2810a070236) | Sep 27, 2026 |
 
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Pinterest and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -167,6 +167,7 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | [Lighthouse Light Propagation](https://trueinterview.io/questions/lighthouse-2d-matrix) | Algorithm | Medium | Mar 28, 2026 |
 | [Binary Search Log Entries by Date String](https://trueinterview.io/questions/binary-search-log-by-date) | Algorithm | Medium | Mar 28, 2026 |
 | [Pin Board Connectivity](https://trueinterview.io/questions/graph-distance-mle-screen) | Algorithm | Medium | Mar 15, 2026 |
+| [Weighted Sampling from Score Distribution](https://trueinterview.io/questions/weighted-sampling-from-scores) | Algorithm | Medium | Feb 26, 2026 |
 | [Personalized Chatbot Recommending Pins](https://trueinterview.io/questions/system-design-personalized-chat-recommend) | System Design | Hard | Feb 11, 2026 |
 | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Object Oriented Programming | Medium | Jan 16, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
@@ -192,6 +193,7 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | [Count Unique Active Pins Over Time](https://trueinterview.io/questions/5be6bdc4-e6f9-5de3-ac51-09f1c5936324) | Algorithm | Hard | — |
 | [Reach a Target by Inserting Addition or Multiplication Left to Right](https://trueinterview.io/questions/58c488bd-d704-52e2-beb8-105e3f2ae61d) | Algorithm | Medium | — |
 | [Delete a Subtree by Marking Nodes as Removed](https://trueinterview.io/questions/240aacef-d2d1-533b-b082-004b1d4015a8) | Algorithm | Medium | — |
+| [Longest Run of Identical Characters](https://trueinterview.io/questions/ee3f373d-6a1f-5751-b6f7-d7f4577b6670) | Algorithm | Easy | — |
 | [Coin Change (LC 322)](https://trueinterview.io/questions/coin-change) | Algorithm | Medium | — |
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | — |
 | [Design Soft 404 Detection](https://trueinterview.io/questions/design-soft-404-detection) | System Design | Medium | — |

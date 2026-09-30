@@ -2,7 +2,7 @@
 
 # Unknown interview process, OA & interview questions
 
-**2 questions** reported at Unknown. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/unknown), judged server-side.
+**1 question** reported at Unknown. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/unknown), judged server-side.
 
 [📖 How Unknown interviews & the free questions](unknown/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,23 +12,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **2** |
+| Questions tracked | **1** |
 | Most recent sighting | Feb 26, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 2) |
-| Difficulty (easy / medium / hard) | 1 / 1 / 0 |
-| Free to practise | [2](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (100% of 1) |
+| Difficulty (easy / medium / hard) | 0 / 1 / 0 |
+| Free to practise | [1](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 2 questions reported at Unknown. 2 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 1 question reported at Unknown. 1 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **2 of 2** questions at Unknown that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **1 of 1** questions at Unknown that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -38,34 +38,31 @@ Which stage each question came from, for the **2 of 2** questions at Unknown tha
 
 ## What they ask about
 
-Of the **2 questions at Unknown that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **1 question at Unknown that carries a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `backtracking` | 1 | 50% | ████████████ | Feb 26, 2026 |
-| `graphs` | 1 | 50% | ████████████ | Feb 26, 2026 |
-| `stack` | 1 | 50% | ████████████ | Feb 07, 2026 |
-| `strings` | 1 | 50% | ████████████ | Feb 07, 2026 |
-| `trees` | 1 | 50% | ████████████ | Feb 26, 2026 |
+| `backtracking` | 1 | 100% | ████████████ | Feb 26, 2026 |
+| `graphs` | 1 | 100% | ████████████ | Feb 26, 2026 |
+| `trees` | 1 | 100% | ████████████ | Feb 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Unknown, by the month it was reported in — Feb 07, 2026 to Feb 26, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Unknown, by the month it was reported in — Feb 26, 2026 to Feb 26, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
 
 ## Start here
 
-The 2 questions to open first if you are preparing for Unknown, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 1 question to open first if you are preparing for Unknown, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) 🆓 | Algorithm | Medium | 8 | Feb 26, 2026 |
-| **2** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 11 | Feb 07, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -80,4 +77,3 @@ The 2 questions to open first if you are preparing for Unknown, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
-| [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |

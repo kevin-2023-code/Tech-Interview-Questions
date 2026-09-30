@@ -2,7 +2,7 @@
 
 # Tesla interview process, OA & interview questions
 
-**33 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Tesla interviews & the free questions](tesla/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **33** |
+| Questions tracked | **35** |
 | Most recent sighting | Jun 03, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (48% of 33) |
-| Difficulty (easy / medium / hard) | 2 / 19 / 12 |
-| Free to practise | [9](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (51% of 35) |
+| Difficulty (easy / medium / hard) | 2 / 21 / 12 |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 33 questions reported at Tesla. 24 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 35 questions reported at Tesla. 26 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **33 of 33** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **35 of 35** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | █ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 24 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 1 / 14 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 1 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 5 | ██ | [SQL](../formats/sql.md) (60%) | 0 / 4 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 23 | ██████████ | [Algorithm](../formats/algorithm.md) (57%) | 1 / 13 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ███ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 5 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -43,20 +43,20 @@ Which stage each question came from, for the **33 of 33** questions at Tesla tha
 
 ## What they ask about
 
-Of the **14 questions at Tesla that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Tesla that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 29% | ████████████ | Apr 17, 2026 |
-| `arrays` | 2 | 14% | ██████ | Oct 31, 2025 |
-| `matrix` | 2 | 14% | ██████ | Apr 17, 2026 |
-| `backtracking` | 1 | 7% | ███ | Oct 16, 2025 |
-| `dynamic-programming` | 1 | 7% | ███ | — |
-| `hashing` | 1 | 7% | ███ | Jun 03, 2026 |
-| `heap` | 1 | 7% | ███ | May 27, 2026 |
-| `linked-list` | 1 | 7% | ███ | — |
-| `sliding-window` | 1 | 7% | ███ | — |
-| `stack` | 1 | 7% | ███ | Jul 24, 2025 |
+| `graphs` | 4 | 24% | ████████████ | Apr 17, 2026 |
+| `arrays` | 3 | 18% | █████████ | Apr 18, 2026 |
+| `matrix` | 2 | 12% | ██████ | Apr 17, 2026 |
+| `stack` | 2 | 12% | ██████ | Apr 18, 2026 |
+| `backtracking` | 1 | 6% | ███ | Oct 16, 2025 |
+| `bit-manipulation` | 1 | 6% | ███ | Jun 01, 2026 |
+| `dynamic-programming` | 1 | 6% | ███ | — |
+| `hashing` | 1 | 6% | ███ | Jun 03, 2026 |
+| `heap` | 1 | 6% | ███ | May 27, 2026 |
+| `linked-list` | 1 | 6% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -66,18 +66,18 @@ Every recorded sighting at Tesla, by the month it was reported in — Jul 04, 20
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ██████ |
-| [May 2026](../by-month/2026-05.md) | 2 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ██████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ████████████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ██████ |
-| [Aug 2025](../by-month/2025-08.md) | 4 | ████████████████████████ |
-| [Jul 2025](../by-month/2025-07.md) | 4 | ████████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ██████████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | █████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | █████ |
+| [Nov 2025](../by-month/2025-11.md) | 2 | ██████████ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | ██████████ |
+| [Sep 2025](../by-month/2025-09.md) | 1 | █████ |
+| [Aug 2025](../by-month/2025-08.md) | 4 | ███████████████████ |
+| [Jul 2025](../by-month/2025-07.md) | 3 | ██████████████ |
 
 ## Start here
 
@@ -86,13 +86,13 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | — | Jun 03, 2026 |
-| **2** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | — | May 27, 2026 |
-| **3** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) 🆓 | System Design | Hard | 4 | May 03, 2026 |
-| **4** | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Object Oriented Programming | Medium | — | Apr 30, 2026 |
-| **5** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | SQL | Hard | — | Apr 27, 2026 |
-| **6** | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | 2 | Apr 17, 2026 |
-| **7** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | System Design | Hard | — | Mar 11, 2026 |
-| **8** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) 🆓 | Algorithm | Medium | 2 | Feb 21, 2026 |
+| **2** | [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset) | Algorithm | Medium | — | Jun 01, 2026 |
+| **3** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | — | May 27, 2026 |
+| **4** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) 🆓 | System Design | Hard | 4 | May 03, 2026 |
+| **5** | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Object Oriented Programming | Medium | — | Apr 30, 2026 |
+| **6** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | SQL | Hard | — | Apr 27, 2026 |
+| **7** | [Minimum Absolute Difference Pairs](https://trueinterview.io/questions/minimum-absolute-difference-pairs) | Algorithm | Medium | 1 | Apr 18, 2026 |
+| **8** | [Fuel Station Queue Simulation](https://trueinterview.io/questions/fuel-station-queue-simulation) | Algorithm | Medium | — | Apr 18, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -119,10 +119,13 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | Jun 03, 2026 |
+| [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset) | Algorithm | Medium | Jun 01, 2026 |
 | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | May 27, 2026 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | May 03, 2026 |
 | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Object Oriented Programming | Medium | Apr 30, 2026 |
 | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | SQL | Hard | Apr 27, 2026 |
+| [Minimum Absolute Difference Pairs](https://trueinterview.io/questions/minimum-absolute-difference-pairs) | Algorithm | Medium | Apr 18, 2026 |
+| [Fuel Station Queue Simulation](https://trueinterview.io/questions/fuel-station-queue-simulation) | Algorithm | Medium | Apr 18, 2026 |
 | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Algorithm | Medium | Apr 17, 2026 |
 | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | System Design | Hard | Mar 11, 2026 |
 | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Algorithm | Medium | Feb 21, 2026 |
@@ -139,7 +142,6 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | Object Oriented Programming | Hard | Aug 19, 2025 |
 | [Route Nearest Checkpoint](https://trueinterview.io/questions/trajectory-waypoint-distance-queries) | Algorithm | Medium | Aug 11, 2025 |
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](https://trueinterview.io/questions/dojo-permutation-and-pow) | Algorithm | Medium | Jul 25, 2025 |
-| [Rank Vehicles by Contribution](https://trueinterview.io/questions/ota-p2p-vehicle-seeding-rank) | Algorithm | Medium | Jul 24, 2025 |
 | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Object Oriented Programming | Hard | Jul 24, 2025 |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | Object Oriented Programming | Medium | Jul 04, 2025 |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | — |

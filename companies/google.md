@@ -2,47 +2,47 @@
 
 # Google interview process, OA & interview questions
 
-**197 questions** reported at Google · **8 writeups** · **6 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**198 questions** reported at Google · **8 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-google)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-google)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **197** |
-| Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 19 |
-| Most common format | [Algorithm](../formats/algorithm.md) (76% of 197) |
-| Difficulty (easy / medium / hard) | 20 / 130 / 47 |
+| Questions tracked | **198** |
+| Most recent sighting | Sep 18, 2026 |
+| Reported in the last 90 days | 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 198) |
+| Difficulty (easy / medium / hard) | 21 / 130 / 47 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 8 |
-| Interview reports on the board | 6 in this snapshot |
 
-<sub>Counted from the 197 questions reported at Google. 100 of them carry a sighting date; the other 97 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 198 questions reported at Google. 101 of them carry a sighting date; the other 97 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **197 of 197** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **198 of 198** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 9 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 108 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 4 / 78 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 95 | █████████ | [Algorithm](../formats/algorithm.md) (56%) | 7 / 59 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 108 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 5 / 77 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 96 | █████████ | [Algorithm](../formats/algorithm.md) (55%) | 8 / 59 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**19 sightings** in this window. Newest first.
+**20 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 18, 2026 |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | Onsite / virtual onsite | Sep 10, 2026 |
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | Phone screen | Sep 09, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | Onsite / virtual onsite | Sep 02, 2026 |
@@ -54,18 +54,17 @@ Which stage each question came from, for the **197 of 197** questions at Google 
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | Phone screen | Aug 13, 2026 |
 | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | Onsite / virtual onsite | Aug 13, 2026 |
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Phone screen | Aug 11, 2026 |
-| [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>8 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **151 questions at Google that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **151 questions at Google that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 34 | 23% | ████████████ | Jul 19, 2026 |
-| `arrays` | 23 | 15% | ████████ | Aug 16, 2026 |
+| `arrays` | 24 | 16% | ████████ | Aug 16, 2026 |
 | `hashing` | 19 | 13% | ███████ | Sep 02, 2026 |
 | `strings` | 19 | 13% | ███████ | Sep 02, 2026 |
 | `greedy` | 18 | 12% | ██████ | Aug 11, 2026 |
@@ -79,11 +78,11 @@ Of the **151 questions at Google that carry a topic label** (77% of them — the
 
 ## When they asked it
 
-Every recorded sighting at Google, by the month it was reported in — Jun 10, 2025 to Sep 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Google, by the month it was reported in — Jun 10, 2025 to Sep 18, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | █████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ██████ |
 | [Aug 2026](../by-month/2026-08.md) | 8 | █████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 9 | ██████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 15 | ████████████████████████ |
@@ -104,14 +103,14 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | — | Sep 10, 2026 |
-| **2** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | — | Sep 09, 2026 |
-| **3** | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | — | Sep 02, 2026 |
-| **4** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Hard | — | Aug 29, 2026 |
-| **5** | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | — | Aug 20, 2026 |
-| **6** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | Medium | — | Aug 16, 2026 |
-| **7** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | — | Aug 16, 2026 |
-| **8** | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | Hard | — | Aug 16, 2026 |
+| **1** | [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Object Oriented Programming | Medium | — | Sep 18, 2026 |
+| **2** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | — | Sep 10, 2026 |
+| **3** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | — | Sep 09, 2026 |
+| **4** | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | — | Sep 02, 2026 |
+| **5** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Hard | — | Aug 29, 2026 |
+| **6** | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | — | Aug 20, 2026 |
+| **7** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | Medium | — | Aug 16, 2026 |
+| **8** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -130,21 +129,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
 | [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | critique, deep-dive, presentation, vlm |
 
-## Interview reports
-
-What candidates said happened in the room at Google — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Google 2D Clustering Phone Interview Experience](https://trueinterview.io/interviews/9780173b-a2c5-4616-87a2-52fa2c12d5fb) | Sep 27, 2026 |
-| Software | [Google Decode String Coding and Behavioral Interview Experience](https://trueinterview.io/interviews/ebc5997e-5723-4959-b402-6bf2ed0e487a) | Sep 27, 2026 |
-| Software | [Google Deduplicating and Sorting Batch and Streaming Logs Interview Experience](https://trueinterview.io/interviews/a5081634-e782-409c-83c3-d1f7c8dd54cf) | Sep 27, 2026 |
-| Software | [Google Software Engineer II, Early Career Interview Experience](https://trueinterview.io/interviews/766f34dc-647d-4725-90c8-dc515a36e995) | Sep 27, 2026 |
-| Software | [Google Software Engineer Interview Experience](https://trueinterview.io/interviews/85061c2b-c365-445a-a59d-b90abfba3d78) | Sep 27, 2026 |
-| Software | [Google Software Engineer L4 Interview Experience (Mountain View)](https://trueinterview.io/interviews/d31723af-0630-49cd-9d88-990b5c8ac5d4) | Sep 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Google and everywhere else →](https://trueinterview.io/interviews)</sub>
-
 ---
 
 **Practise these on TrueInterview.** Every title on this page — including every row of the table below — opens the full problem in a runnable workspace, judged server-side on the algorithm, low-level-design and SQL formats: [Google on TrueInterview](https://trueinterview.io/problems/company/google).
@@ -155,6 +139,7 @@ What candidates said happened in the room at Google — written up by the people
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design Extensible Spreadsheet Aggregation APIs](https://trueinterview.io/questions/design-extensible-spreadsheet-aggregation-apis) | Object Oriented Programming | Medium | 🔥 Sep 18, 2026 |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Algorithm | Medium | 🆕 Sep 10, 2026 |
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🆕 Sep 09, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | 🆕 Sep 02, 2026 |
@@ -230,7 +215,7 @@ What candidates said happened in the room at Google — written up by the people
 | [Weighted LRU Cache](https://trueinterview.io/questions/weighted-lru-cache-2) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Restaurant Waitlist: join / delete / find_first_match](https://trueinterview.io/questions/waitlist-data-structure-with-table-size-match) | Object Oriented Programming | Medium | Feb 01, 2026 |
 | [Split Text into Lines](https://trueinterview.io/questions/document-line-wrap) | Algorithm | Medium | Feb 01, 2026 |
-| [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Medium | Feb 01, 2026 |
+| [Binary Tree Right Side View](https://trueinterview.io/questions/binary-tree-right-side-view) | Algorithm | Easy | Feb 01, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Algorithm | Medium | Jan 22, 2026 |

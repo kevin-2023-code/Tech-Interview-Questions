@@ -2,13 +2,13 @@
 
 # Databricks interview process, OA & interview questions
 
-**67 questions** reported at Databricks · **6 writeups** · **3 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
+**67 questions** reported at Databricks · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Databricks interviews & the free questions](databricks/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > ☁️ [Developer tools, cloud & data infrastructure](../company-types/dev-infra.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-databricks)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-databricks)
 
 ## At a glance
 
@@ -21,7 +21,6 @@
 | Difficulty (easy / medium / hard) | 5 / 43 / 19 |
 | Free to practise | [11](../free/README.md) |
 | Guides & writeups | 6 |
-| Interview reports on the board | 3 in this snapshot |
 
 <sub>Counted from the 67 questions reported at Databricks. 46 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -116,18 +115,6 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/study/18740a79-71e0-4f42-9231-0432e82af752) | — |
 | [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | culture-fit, fit, verbal, why-company |
 | [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | conflict, culture-fit, deep-dive, why-company |
-
-## Interview reports
-
-What candidates said happened in the room at Databricks — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [Databricks Customer Revenue System Design Interview Experience](https://trueinterview.io/interviews/02775fb7-ef25-40de-bff0-ff92058820e7) | Sep 27, 2026 |
-| Software | [Databricks Customer Revenue System Design Interview Experience](https://trueinterview.io/interviews/e50e7ebe-9a3e-4e35-a99a-c22c799f4036) | Sep 27, 2026 |
-| Software | [Databricks Interview Experience](https://trueinterview.io/interviews/48bb901e-22c6-4240-9bc1-bd5be853deb4) | Sep 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at Databricks and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 

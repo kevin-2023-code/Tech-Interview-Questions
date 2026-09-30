@@ -2,87 +2,96 @@
 
 # Oracle interview process, OA & interview questions
 
-**45 questions** reported at Oracle · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
+**81 questions** reported at Oracle · **7 writeups** · **17 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Oracle interviews & the free questions](oracle/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-oracle)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-oracle)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **45** |
-| Most recent sighting | Aug 13, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 45) |
-| Difficulty (easy / medium / hard) | 7 / 32 / 6 |
+| Questions tracked | **81** |
+| Most recent sighting | Sep 11, 2026 |
+| Reported in the last 90 days | 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (72% of 81) |
+| Difficulty (easy / medium / hard) | 15 / 55 / 11 |
 | Free to practise | [9](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 7 |
+| Interview reports on the board | 17 in this snapshot |
 
-<sub>Counted from the 45 questions reported at Oracle. 34 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 81 questions reported at Oracle. 48 of them carry a sighting date; the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **45 of 45** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **81 of 81** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | █ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 26 | ██████████ | [Algorithm](../formats/algorithm.md) (73%) | 3 / 19 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 17 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (47%) | 1 / 13 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 8 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 42 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 4 / 32 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 31 | ███████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 22 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | Onsite / virtual onsite | Sep 11, 2026 |
+| [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | Onsite / virtual onsite | Sep 03, 2026 |
+| [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Onsite / virtual onsite | Aug 28, 2026 |
+| [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Hard | Onsite / virtual onsite | Aug 19, 2026 |
 | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | Onsite / virtual onsite | Aug 13, 2026 |
+| [Run-Length String Compression](https://trueinterview.io/questions/run-length-string-compression) | Algorithm | Easy | Onsite / virtual onsite | Aug 10, 2026 |
+| [Two-Value Exchange Warm-Up](https://trueinterview.io/questions/swap-two-values-without-temp) | Algorithm | Easy | Onsite / virtual onsite | Aug 10, 2026 |
 
 ## What they ask about
 
-Of the **27 questions at Oracle that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **58 questions at Oracle that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 5 | 19% | ████████████ | Feb 07, 2026 |
-| `arrays` | 4 | 15% | ██████████ | Apr 14, 2026 |
-| `graphs` | 4 | 15% | ██████████ | Apr 14, 2026 |
-| `math` | 4 | 15% | ██████████ | Apr 14, 2026 |
-| `backtracking` | 3 | 11% | ███████ | Nov 17, 2025 |
-| `greedy` | 3 | 11% | ███████ | Apr 14, 2026 |
-| `hashing` | 3 | 11% | ███████ | Apr 14, 2026 |
-| `stack` | 3 | 11% | ███████ | Feb 07, 2026 |
-| `heap` | 2 | 7% | █████ | Nov 20, 2025 |
-| `linked-list` | 2 | 7% | █████ | Apr 14, 2026 |
+| `hashing` | 8 | 14% | ████████████ | Apr 14, 2026 |
+| `strings` | 8 | 14% | ████████████ | Aug 10, 2026 |
+| `arrays` | 7 | 12% | ██████████ | Apr 14, 2026 |
+| `graphs` | 7 | 12% | ██████████ | Sep 11, 2026 |
+| `greedy` | 7 | 12% | ██████████ | Apr 14, 2026 |
+| `math` | 6 | 10% | █████████ | Aug 10, 2026 |
+| `dynamic-programming` | 5 | 9% | ████████ | Nov 24, 2025 |
+| `backtracking` | 4 | 7% | ██████ | Nov 17, 2025 |
+| `sliding-window` | 4 | 7% | ██████ | Nov 21, 2025 |
+| `sorting` | 4 | 7% | ██████ | Aug 28, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2025 to Aug 13, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2025 to Sep 11, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
-| [May 2026](../by-month/2026-05.md) | 2 | ████████ |
-| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 5 | ████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████ |
-| [Sep 2025](../by-month/2025-09.md) | 3 | ████████████ |
-| [Aug 2025](../by-month/2025-08.md) | 1 | ████ |
-| [Jul 2025](../by-month/2025-07.md) | 1 | ████ |
-| [Jun 2025](../by-month/2025-06.md) | 1 | ████ |
-| [Apr 2025](../by-month/2025-04.md) | 1 | ████ |
-| [Jan 2025](../by-month/2025-01.md) | 2 | ████████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | █████ |
+| [Aug 2026](../by-month/2026-08.md) | 5 | ████████████ |
+| [May 2026](../by-month/2026-05.md) | 2 | █████ |
+| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ██ |
+| [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 6 | ██████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ██ |
+| [Nov 2025](../by-month/2025-11.md) | 10 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
+| [Sep 2025](../by-month/2025-09.md) | 3 | ███████ |
+| [Aug 2025](../by-month/2025-08.md) | 1 | ██ |
+| [Jul 2025](../by-month/2025-07.md) | 1 | ██ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
+| [Apr 2025](../by-month/2025-04.md) | 1 | ██ |
+| [Jan 2025](../by-month/2025-01.md) | 2 | █████ |
 
 ## Start here
 
@@ -90,26 +99,56 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | — | Aug 13, 2026 |
-| **2** | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | 1 | May 26, 2026 |
-| **3** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) 🆓 | System Design | Hard | 4 | May 03, 2026 |
-| **4** | [Minimum Swaps to Group Evens First](https://trueinterview.io/questions/sort-array-by-parity-min-swaps) | Algorithm | Medium | 1 | Apr 14, 2026 |
-| **5** | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Object Oriented Programming | Medium | — | Apr 14, 2026 |
-| **6** | [Monotone Increasing Digits II](https://trueinterview.io/questions/monotone-increasing-digits) | Algorithm | Medium | — | Apr 14, 2026 |
-| **7** | [Number of Islands (LC 200)](https://trueinterview.io/questions/number-of-islands-4) | Algorithm | Medium | — | Apr 14, 2026 |
-| **8** | [Same N-ary Tree Comparison](https://trueinterview.io/questions/same-nary-tree-comparison) | Algorithm | Medium | — | Apr 14, 2026 |
+| **1** | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | — | Sep 11, 2026 |
+| **2** | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | — | Sep 03, 2026 |
+| **3** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | — | Aug 28, 2026 |
+| **4** | [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Hard | — | Aug 19, 2026 |
+| **5** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | — | Aug 13, 2026 |
+| **6** | [Run-Length String Compression](https://trueinterview.io/questions/run-length-string-compression) | Algorithm | Easy | — | Aug 10, 2026 |
+| **7** | [Two-Value Exchange Warm-Up](https://trueinterview.io/questions/swap-two-values-without-temp) | Algorithm | Easy | — | Aug 10, 2026 |
+| **8** | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | 1 | May 26, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
 ## Guides & writeups
 
-**3 writeups** filed under Oracle in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**7 writeups** filed under Oracle in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | ambiguity, bq, conflict, deep-dive, leadership |
+| [Data-Center Camera Access Incident Response](https://trueinterview.io/study/data-center-camera-access-incident-response) | domain-knowledge, infra, security |
+| [Evaluate Subjective, Nondeterministic Agent Outputs](https://trueinterview.io/study/evaluate-subjective-agent-outputs) | deep-dive, evaluation, llm-agent, ml-knowledge |
 | [Oracle Interview Process & Questions](https://trueinterview.io/study/oracle-interview-process) | — |
+| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/study/resume-project-deep-dive) | deep-dive, ownership |
+| [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/study/troubleshoot-a-frontend-failure-in-a-client-server-application) | — |
 | [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | cs-fundamentals, domain-knowledge, networking, operating-systems, verbal |
+
+## Interview reports
+
+What candidates said happened in the room at Oracle — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
+
+| Role | Report | Posted |
+| :-- | :-- | :-- |
+| Data & AI | [Oracle AI Agent Evaluation and Python Technical Interview Experience](https://trueinterview.io/interviews/403c48ad-cd4a-4213-a8b4-3c12c15b3965) | Sep 30, 2026 |
+| Software | [Oracle Behavioral and Coding Interview Experience](https://trueinterview.io/interviews/fa406301-182a-4a14-b7d4-54116de900f7) | Sep 30, 2026 |
+| Software | [Oracle Binary Tree Coding and System Design Interview Experience (2025)](https://trueinterview.io/interviews/098b678a-72bb-4df2-a622-e6d9cfcbef46) | Sep 30, 2026 |
+| Software | [Oracle Cloud Infrastructure (OCI) IC4 Interview Experience (United States)](https://trueinterview.io/interviews/e3ab743a-99b1-44fa-860b-5ab2f9ab5105) | Sep 30, 2026 |
+| Software | [Oracle Coding, System Design, and Behavioral Interview Experience](https://trueinterview.io/interviews/95d252b2-d141-4b2d-87a0-7de0bbe5ff85) | Sep 30, 2026 |
+| Software | [Oracle DSA, Java, SQL, System Design, and Behavioral Interview Experience](https://trueinterview.io/interviews/dfa3997f-66a4-4538-b0f4-22235caa1b1e) | Sep 30, 2026 |
+| Software | [Oracle Four-Round Coding and Behavioral Interview Experience](https://trueinterview.io/interviews/e58b67e7-d241-492f-b149-bb78c3c62492) | Sep 30, 2026 |
+| Software | [Oracle Four-Round Final Interview Experience: Coding, Behavioral, and Design Rounds](https://trueinterview.io/interviews/fa310692-231c-4c0f-a586-f55fe76806c3) | Sep 30, 2026 |
+| Software | [Oracle Interview Experience](https://trueinterview.io/interviews/3557789f-9e93-4f47-9cf8-c15a5ec5449b) | Sep 30, 2026 |
+| Software | [Oracle Interview Experience](https://trueinterview.io/interviews/3dcd5f49-295a-41db-98a8-41117782deb5) | Sep 30, 2026 |
+| Software | [Oracle Interview Experience](https://trueinterview.io/interviews/f38c5f2c-c39d-4404-afb7-e1ffd4b2127f) | Sep 30, 2026 |
+| Software | [Oracle REST API Medical Records By Age Coding Assessment Interview Experience](https://trueinterview.io/interviews/eab5bad8-6236-4107-9282-ffddd37dc482) | Sep 30, 2026 |
+| Software | [Oracle Sliding Window & SQL Tree Classification Interview Experience](https://trueinterview.io/interviews/24a1e54e-3c46-4083-a14d-b262a2ec1bb6) | Sep 30, 2026 |
+| Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/3fd6e832-f468-4a11-98f3-d1e80e63f4b0) | Sep 30, 2026 |
+| Software | [Oracle Software Engineer Interview Experience](https://trueinterview.io/interviews/7836661b-38bb-4f30-bb95-54a7ca1ea406) | Sep 30, 2026 |
+| Software | [Oracle System Design Interview Experience: Top K URL, Event Stream, and Log Collection](https://trueinterview.io/interviews/0861e4f8-afcb-4287-84ce-382b20895da8) | Sep 30, 2026 |
+| Software | [Oracle Zoom + HackerRank Behavioral and LeetCode Sqrt(x) Coding Interview Experience](https://trueinterview.io/interviews/46a91614-afa6-49f7-a74d-77ffae87a7c6) | Sep 30, 2026 |
+
+<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,997 in total). [Every report at Oracle and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -121,7 +160,13 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | 🆕 Sep 11, 2026 |
+| [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | 🆕 Sep 03, 2026 |
+| [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | 🆕 Aug 28, 2026 |
+| [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Hard | 🆕 Aug 19, 2026 |
 | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | Aug 13, 2026 |
+| [Two-Value Exchange Warm-Up](https://trueinterview.io/questions/swap-two-values-without-temp) | Algorithm | Easy | Aug 10, 2026 |
+| [Run-Length String Compression](https://trueinterview.io/questions/run-length-string-compression) | Algorithm | Easy | Aug 10, 2026 |
 | [Sparse Matrix Operation](https://trueinterview.io/questions/sparse-matrix-class) | Object Oriented Programming | Medium | May 26, 2026 |
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | System Design | Hard | May 03, 2026 |
 | [Minimum Swaps to Group Evens First](https://trueinterview.io/questions/sort-array-by-parity-min-swaps) | Algorithm | Medium | Apr 14, 2026 |
@@ -129,6 +174,7 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Monotone Increasing Digits II](https://trueinterview.io/questions/monotone-increasing-digits) | Algorithm | Medium | Apr 14, 2026 |
 | [Same N-ary Tree Comparison](https://trueinterview.io/questions/same-nary-tree-comparison) | Algorithm | Medium | Apr 14, 2026 |
 | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Object Oriented Programming | Medium | Apr 14, 2026 |
+| [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
 | [VM Health Monitoring at 1M Scale](https://trueinterview.io/questions/system-design-vm-health-monitoring) | System Design | Hard | Feb 13, 2026 |
 | [Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search) | System Design | Hard | Feb 13, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
@@ -138,15 +184,22 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Sparse Matrix Multiplication](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication) | Algorithm | Medium | Jan 22, 2026 |
 | [Multi-Head Attention (from scratch)](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-multi-head-attention-from-scratch) | Algorithm | Hard | Jan 22, 2026 |
 | [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | Algorithm | Hard | Jan 22, 2026 |
+| [Sqrt(x)](https://trueinterview.io/questions/sqrt-x) | Algorithm | Easy | Jan 22, 2026 |
 | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | Jan 19, 2026 |
 | [Container With Most Water](https://trueinterview.io/questions/container-with-most-water-2) | Algorithm | Medium | Jan 06, 2026 |
 | [First-Login Only-Once User Tracker (O(1) Worst-Case)](https://trueinterview.io/questions/first-unique-login-tracker) | Object Oriented Programming | Medium | Dec 01, 2025 |
+| [Reduce The Maximum To Even K Times](https://trueinterview.io/questions/reduce-the-maximum-to-even-k-times) | Algorithm | Medium | Nov 24, 2025 |
+| [Product Price Tracker](https://trueinterview.io/questions/product-price-tracker) | Object Oriented Programming | Medium | Nov 24, 2025 |
+| [Palindrome Check with Ignore Set](https://trueinterview.io/questions/palindrome-check-with-ignore-set) | Algorithm | Easy | Nov 24, 2025 |
+| [Find the K-th Highest Debit](https://trueinterview.io/questions/find-the-k-th-highest-debit) | Algorithm | Medium | Nov 24, 2025 |
+| [Eliminate Adjacent Duplicate Characters](https://trueinterview.io/questions/eliminate-adjacent-duplicate-characters) | Algorithm | Medium | Nov 24, 2025 |
+| [Circular Prime Number Check](https://trueinterview.io/questions/circular-prime-number-check) | Algorithm | Medium | Nov 24, 2025 |
 | [Anagram Word Replacement in Phrases](https://trueinterview.io/questions/anagram-phrase-replacement) | Algorithm | Medium | Nov 21, 2025 |
 | [Merge K Sorted (Key, Value) Lists with Later Override](https://trueinterview.io/questions/merge-k-sorted-key-value-lists) | Algorithm | Medium | Nov 20, 2025 |
 | [Course Scheduler — Print Path (Simplified)](https://trueinterview.io/questions/course-scheduler-simplified) | Algorithm | Easy | Nov 19, 2025 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Poker Straight Sequence Check](https://trueinterview.io/questions/valid-poker-straight) | Algorithm | Easy | Oct 22, 2025 |
-| [File Management System](https://trueinterview.io/questions/ood-file-management-system) | Object Oriented Programming | Medium | Sep 16, 2025 |
+| [OOD — File Management System](https://trueinterview.io/questions/ood-file-management-system) | Object Oriented Programming | Medium | Sep 16, 2025 |
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | Object Oriented Programming | Easy | Sep 15, 2025 |
 | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | Object Oriented Programming | Medium | Sep 15, 2025 |
 | [Log Parser with Multi-Line Follow-up](https://trueinterview.io/questions/log-parser-multiline) | Algorithm | Medium | Aug 06, 2025 |
@@ -155,8 +208,29 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Maximum Completable Tasks with Prerequisites (Topological)](https://trueinterview.io/questions/course-prerequisites-task-count) | Algorithm | Medium | Apr 02, 2025 |
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Object Oriented Programming | Medium | Jan 15, 2025 |
 | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | System Design | Hard | Jan 15, 2025 |
+| [Top K Frequent Elements with Descending Value Tie-Break](https://trueinterview.io/questions/fafdcfea-e85a-522c-a5d1-256c48782c32) | Algorithm | Medium | — |
+| [Enumerate All Valid Grid Paths](https://trueinterview.io/questions/f945df71-38ee-5506-a41b-2b5b1c7306d2) | Algorithm | Medium | — |
+| [Remove Duplicates from Sorted Array with At Most K Occurrences](https://trueinterview.io/questions/f7139943-c5e6-5db3-bf8d-4694427d4b5f) | Algorithm | Medium | — |
+| [Maximum Subarray Sum with Length at Most K](https://trueinterview.io/questions/c950578d-97d8-5e4e-a160-d010bbf52edb) | Algorithm | Hard | — |
+| [Remove Even-Positioned Nodes from a Singly Linked List](https://trueinterview.io/questions/c88afd74-8f74-56e2-87d5-312fdedc5a14) | Algorithm | Easy | — |
+| [Partition Unique Cards into Consecutive Groups](https://trueinterview.io/questions/aba5156b-30b3-5dd5-9d57-7e426f0d66ca) | Algorithm | Medium | — |
+| [Partition a String into Exactly Three Palindromic Substrings](https://trueinterview.io/questions/99e7fc90-247c-5818-b72b-a1d00c992fe8) | Algorithm | Medium | — |
+| [Lexicographically Maximum Substring](https://trueinterview.io/questions/97363544-69e6-5318-bbe1-a937ccd198fe) | Algorithm | Medium | — |
+| [Add One to a Number Represented by Digits Without ArrayList](https://trueinterview.io/questions/928c453b-ec05-5a5d-ab6c-58c7147da117) | Algorithm | Easy | — |
+| [Maximum Height of Each Island](https://trueinterview.io/questions/712ca994-03d3-589e-9d9b-9ea213f907da) | Algorithm | Medium | — |
+| [Deploy Packages in Dependency Order](https://trueinterview.io/questions/610c4faf-c13d-5349-80df-fc912257f0c4) | Algorithm | Medium | — |
+| [Bottom View of a Binary Tree](https://trueinterview.io/questions/584d665b-bb3f-5462-8bf1-69df5c516571) | Algorithm | Medium | — |
+| [Maximum of Minimums of Every Window](https://trueinterview.io/questions/4ffe3fac-ea66-5d5f-8331-b09736fb1392) | Algorithm | Medium | — |
+| [Maximum Movie Rating with No Two Consecutive Skips](https://trueinterview.io/questions/425e7c94-efc5-5797-afd4-194d39da160c) | Algorithm | Medium | — |
+| [Replace a Range of Nodes in a Linked List](https://trueinterview.io/questions/3ff8e86f-0abd-5967-bf35-5f1aac1c42e6) | Algorithm | Medium | — |
+| [Valid Parenthesis String](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463) | Algorithm | Hard | — |
+| [Dropped Requests Rate Limiter II](https://trueinterview.io/questions/3cf3a0aa-2d80-5652-bb0d-975c8f3fd6ec) | Algorithm | Medium | — |
+| [Spiral Matrix (LC 54)](https://trueinterview.io/questions/spiral-matrix-lc54) | Algorithm | Medium | — |
 | [Generate all permutations of a list](https://trueinterview.io/questions/55b47ffb-5c4d-4c32-b3fc-350263687e62) | Algorithm | Easy | — |
+| [Design Authentication Manager](https://trueinterview.io/questions/fffd1adb-8564-54b2-a493-eb65a9b78c1a) | Object Oriented Programming | Medium | — |
+| [Swap Two Variables Without Using Temporary Variable](https://trueinterview.io/questions/68870b4c-8508-4508-88c9-186133ebadf8) | Algorithm | Easy | — |
 | [Binary Tree Paths With Target Sum](https://trueinterview.io/questions/7c3b95ff-ace7-5377-a58a-332635b2b2e7) | Algorithm | Medium | — |
+| [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Algorithm | Easy | — |
 | [Missing Number](https://trueinterview.io/questions/42d82a10-60bb-5d00-8b5c-f33dc969fb80) | Algorithm | Easy | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Maximum on Both Sides](https://trueinterview.io/questions/f547b32a-e42e-4a0e-899e-a8d686990998) | Algorithm | Medium | — |
@@ -164,5 +238,6 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 | [Find Users with Valid Login Sessions](https://trueinterview.io/questions/a780c95b-69ec-4029-b04a-55101695e5d1) | Algorithm | Medium | — |
 | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Object Oriented Programming | Medium | — |
 | [Maximum Product Subarray in O(n) Time](https://trueinterview.io/questions/7b99193e-c69f-4941-a0be-8ccf49a291c8) | Algorithm | Medium | — |
+| [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Object Oriented Programming | Medium | — |
 | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

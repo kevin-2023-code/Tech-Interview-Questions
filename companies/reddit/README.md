@@ -8,7 +8,7 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [26](../reddit.md) |
+| Questions reported | [28](../reddit.md) |
 | Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 4 |
@@ -59,7 +59,7 @@ Timelines vary widely. One candidate went from phone screen through four onsite 
 
 ## Everything else
 
-- [All 26 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 28 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Reddit question on TrueInterview](https://trueinterview.io/problems/company/reddit).
 
 ---

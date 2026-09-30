@@ -5,290 +5,387 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Coinbase · Instacart | Online assessment | hashing, heap | Feb 2026 |
+| Object Oriented Programming | Hard | Coinbase · Instacart | Online assessment | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/task-management-system)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-## Task Tracking System
+Design and implement a task management system that supports creating, reading, updating, and listing tasks, assigning tasks to users with quotas and time-to-live (TTL) constraints, and tracking task completion and expiration. The system is built in four incremental levels.
 
-Software Engineer Coding Exercise
+Each task has a unique string `task_id`, a string `name`, and an integer `priority` where larger values indicate higher importance.
 
-### Problem Overview
+### Level 1: Basic Task Operations
 
-Build a **task tracking system** with task CRUD functionality, priority-ordered retrieval, quota-controlled user assignments with TTLs, and tracking for completed or expired tasks. The exercise is organized in levels, with each level extending the capabilities introduced before it.
+Implement a `TaskManager` class with the following methods.
 
-Every task has a distinct string `task_id`, a string `name`, and an integer `priority`; larger priority values indicate greater importance. Implement the system progressively through four levels.
-
-### Level 1: Core Task Operations
-
-#### Problem Statement
-
-Create a `TaskManager` class that can add, look up, and modify tasks.
-
-```
+```python
 class TaskManager:
     def __init__(self):
-        """Set up the task tracking system."""
+        """
+        Set up the task management system.
+        """
         pass
 
     def create_task(self, task_id: str, name: str, priority: int) -> bool:
         """
-        Add a task using the supplied ID, name, and priority.
+        Add a new task with the supplied identifier, name, and priority.
 
-        Args:
-            task_id: The task's unique identifier.
-            name: The task title.
-            priority: Importance of the task; larger means more important.
+        Parameters:
+            task_id: Unique identifier for the task.
+            name: Display name for the task.
+            priority: Priority level (higher means more important).
 
         Returns:
-            True when the task is added successfully.
-            False when another task already uses this ID.
+            True if the task was added, False if a task with this
+            task_id already exists.
         """
         pass
 
     def get_task(self, task_id: str) -> str:
         """
-        Look up a task using its identifier.
+        Fetch a task by its identifier.
 
-        Args:
-            task_id: Identifier of the requested task.
+        Parameters:
+            task_id: Identifier of the task to retrieve.
 
         Returns:
-            A value formatted as "task_id: name (priority P)", with P
-            replaced by the priority, or "" when no matching task exists.
+            A string formatted as "task_id: name (priority P)" where P
+            is the numeric priority. Returns an empty string if the
+            task does not exist.
         """
         pass
 
     def update_task(self, task_id: str, name: str, priority: int) -> bool:
         """
-        Replace the name and priority of an existing task.
+        Modify the name and priority of an existing task.
 
-        Args:
-            task_id: Identifier of the task being changed.
-            name: Replacement task name.
-            priority: Replacement priority value.
+        Parameters:
+            task_id: Identifier of the task to update.
+            name: New name for the task.
+            priority: New priority level.
 
         Returns:
-            True if the requested task was changed.
-            False if no task has that ID.
+            True if the update succeeded, False if the task does not
+            exist.
         """
         pass
 ```
 
-#### Example Usage
+Example Usage:
 
 ```
 tm = TaskManager()
 
-tm.create_task("job7", "Plan Sprint", 2) # True
-tm.create_task("job8", "Run Checks", 6) # True
-tm.create_task("job7", "Repeated Entry", 1) # False (duplicate ID)
+tm.create_task("t1", "Design API", 3) # True
+tm.create_task("t2", "Write Tests", 5) # True
+tm.create_task("t1", "Duplicate", 1) # False (duplicate ID)
 
-tm.get_task("job7") # "job7: Plan Sprint (priority 2)"
-tm.get_task("job9") # "" (task is absent)
+tm.get_task("t1") # "t1: Design API (priority 3)"
+tm.get_task("t3") # "" (doesn't exist)
 
-tm.update_task("job7", "Plan Next Sprint", 4) # True
-tm.get_task("job7") # "job7: Plan Next Sprint (priority 4)"
-tm.update_task("job9", "Unused", 1) # False (task is absent)
+tm.update_task("t1", "Design REST API", 4) # True
+tm.get_task("t1") # "t1: Design REST API (priority 4)"
+tm.update_task("t3", "Nothing", 1) # False (doesn't exist)
 ```
 
 ---
 
-### Level 2: Priority Listing and Name Search
+### Level 2: Priority-Based Listing with Search
 
-#### Problem Statement
+Add a `list_tasks` method that returns the top `n` tasks sorted by priority. Optionally filter the results to tasks whose `name` contains a given substring.
 
-Add support for returning the highest-priority N tasks, with an optional filter that keeps only tasks whose names include a specified substring.
-
-```
+```python
 def list_tasks(self, n: int, substr: str = "") -> list:
     """
-    Produce up to N tasks ordered from greatest priority to least.
-    A provided substring can restrict the results to tasks whose
-    names contain that text.
+    Return up to n tasks ordered by priority in descending order.
+    If substr is not empty, only tasks whose name contains this
+    substring (case-sensitive) are included.
 
-    Args:
-        n: Largest number of tasks that may be returned.
-        substr: When non-empty, retain only tasks with names that
-                contain this case-sensitive substring. When empty,
-                consider every task.
+    Parameters:
+        n: Maximum number of tasks to return.
+        substr: If non-empty, filter tasks to those whose name
+                contains this substring. If empty, no filtering is
+                applied.
 
     Returns:
-        Strings formatted as "task_id: name (priority P)", ordered
-        by descending priority. Equal-priority tasks are ordered by
-        task_id alphabetically. Return every matching task when fewer
-        than n tasks match.
+        A list of strings formatted as "task_id: name (priority P)",
+        sorted by priority descending. Tasks with equal priority are
+        sorted alphabetically by task_id. If fewer than n matching
+        tasks exist, return all of them.
     """
     pass
 ```
 
-#### Example Usage
+Example Usage:
 
 ```
 tm = TaskManager()
 
-tm.create_task("a1", "Draft Plan", 4)
-tm.create_task("a2", "Verify Build", 7)
-tm.create_task("a3", "Plan Review", 7)
-tm.create_task("a4", "Publish Notes", 1)
+tm.create_task("t1", "Design API", 3)
+tm.create_task("t2", "Write Tests", 5)
+tm.create_task("t3", "Review API docs", 5)
+tm.create_task("t4", "Deploy service", 1)
 
 tm.list_tasks(3)
 # [
-# "a2: Verify Build (priority 7)",
-# "a3: Plan Review (priority 7)",
-# "a1: Draft Plan (priority 4)"
+# "t2: Write Tests (priority 5)",
+# "t3: Review API docs (priority 5)",
+# "t1: Design API (priority 3)"
 # ]
-# a2 and a3 have priority 7, and a2 sorts before a3 alphabetically
+# t2 and t3 tie at priority 5, t2 < t3 alphabetically
 
-tm.list_tasks(2, "Plan")
+tm.list_tasks(2, "API")
 # [
-# "a3: Plan Review (priority 7)",
-# "a1: Draft Plan (priority 4)"
+# "t3: Review API docs (priority 5)",
+# "t1: Design API (priority 3)"
 # ]
-# Only names containing "Plan" qualify, with the best two returned
+# Only tasks with "API" in the name, top 2 by priority
 
 tm.list_tasks(10)
-# Returns all 4 tasks in descending priority order
+# Returns all 4 tasks sorted by priority descending
 
-tm.list_tasks(2, "missing")
-# [] (no task name contains "missing")
+tm.list_tasks(2, "xyz")
+# [] (no tasks contain "xyz")
 ```
 
 ---
 
-### Level 3: User Assignment with Limits and TTL
+### Level 3: User Assignment with Quotas and TTL
 
-#### Problem Statement
+Extend the system to manage users and task assignments. Each user has a quota that limits the number of simultaneously active task assignments they can hold. Every assignment has a time-to-live (TTL); it expires at `start_time + ttl`. A task may be assigned to multiple users, and a user may hold multiple tasks up to their quota limit.
 
-Enhance the system with users. A user has a quota that caps their number of active task assignments. Assignments include a TTL (Time-To-Live), so an assignment ends at `start_time + ttl`. One task may belong to several users, and each user may receive several tasks provided their quota is not exceeded.
+Add the following methods.
 
-```
+```python
 def add_user(self, user_id: str, quota: int) -> bool:
     """
-    Register a user and set their task-assignment limit.
+    Register a new user with a maximum active assignment quota.
 
-    Args:
+    Parameters:
         user_id: Unique identifier for the user.
-        quota: Greatest number of active task assignments the user
-               may have at one time.
+        quota: Maximum number of active task assignments this user
+               can hold at one time.
 
     Returns:
-        True if the user was added.
-        False if that user ID is already registered.
+        True if the user was added, False if a user with this
+        user_id already exists.
     """
     pass
 
 def assign_task(self, timestamp: int, user_id: str, task_id: str, ttl: int) -> bool:
     """
-    Give a user a task assignment that lasts for a TTL.
+    Assign a task to a user with a given TTL.
 
-    Args:
-        timestamp: Current time.
-        user_id: User receiving the task.
-        task_id: Task being assigned.
-        ttl: Duration of the assignment. It expires at timestamp + ttl.
+    Parameters:
+        timestamp: Current time value.
+        user_id: Identifier of the user receiving the assignment.
+        task_id: Identifier of the task to assign.
+        ttl: Duration after timestamp after which the assignment
+             expires; expiry time is timestamp + ttl.
 
     Returns:
-        True if the assignment is created.
-        False if:
-          - The user is unknown.
-          - The task is unknown.
-          - The user's active-task quota is already full, considering
-            only assignments not expired at the current timestamp.
-          - This task is already actively assigned to that user and has
-            not expired.
+        True if the assignment was created. False if any of these
+        conditions hold:
+          - The user does not exist.
+          - The task does not exist.
+          - The user has already reached their active assignment
+            quota at the given timestamp.
+          - The same task is already actively assigned to this
+            user (i.e., an assignment of this task that has not
+            yet expired).
 
     Notes:
-        - Different users may be assigned the same task.
-        - Once an earlier assignment has expired, a user may receive the
-          same task again.
-        - Every invocation adds a separate assignment record with its own
-          start_time and TTL.
+        - A task can be assigned to several different users.
+        - After a previous assignment of the same task to the same
+          user has expired, that task can be assigned again.
+        - Each call creates a separate assignment record with its
+          own start_time and expiry_time.
     """
     pass
 
 def list_user_tasks(self, timestamp: int, user_id: str) -> list:
     """
-    Return every active assignment belonging to one user.
+    List all currently active (non-expired) task assignments for a
+    user.
 
-    Args:
-        timestamp: Current time.
-        user_id: User whose assignments should be returned.
+    Parameters:
+        timestamp: Current time value.
+        user_id: Identifier of the user whose active assignments
+                 should be listed.
 
     Returns:
-        Strings formatted as "task_id: name (priority P)", sorted by
-        decreasing priority and then ascending task_id. Return an empty
-        list when the user does not exist or has no active assignments.
+        A list of strings formatted as "task_id: name (priority P)",
+        sorted by priority descending and then by task_id ascending.
+        Returns an empty list if the user does not exist or has no
+        active assignments.
     """
     pass
 ```
 
-#### Example Usage
+Example Usage:
 
 ```
 tm = TaskManager()
 
-tm.create_task("q1", "Plan Sprint", 3)
-tm.create_task("q2", "Run Checks", 6)
-tm.create_task("q3", "Review Patch", 2)
+tm.create_task("t1", "Design API", 3)
+tm.create_task("t2", "Write Tests", 5)
+tm.create_task("t3", "Code Review", 2)
 
-tm.add_user("maya", 2) # True
-tm.add_user("noah", 3) # True
-tm.add_user("maya", 1) # False (duplicate user)
+tm.add_user("alice", 2) # True
+tm.add_user("bob", 3) # True
+tm.add_user("alice", 1) # False (duplicate)
 
-tm.assign_task(10, "maya", "q1", 8) # True (expires at 18)
-tm.assign_task(11, "maya", "q2", 20) # True (expires at 31)
-tm.assign_task(12, "maya", "q3", 15) # False (quota is 2, and both are active)
+tm.assign_task(1, "alice", "t1", 10) # True (expires at 11)
+tm.assign_task(2, "alice", "t2", 20) # True (expires at 22)
+tm.assign_task(3, "alice", "t3", 15) # False (quota is 2, both active)
 
-# A single task may be given to more than one user.
-tm.assign_task(13, "noah", "q1", 9) # True (expires at 22)
+# Same task assigned to multiple users
+tm.assign_task(4, "bob", "t1", 10) # True (expires at 14)
 
-# An active assignment cannot be repeated for the same user.
-tm.assign_task(14, "maya", "q1", 10) # False (q1 remains active for maya)
+# Duplicate active assignment
+tm.assign_task(5, "alice", "t1", 10) # False (t1 still active for alice)
 
-tm.list_user_tasks(16, "maya")
+tm.list_user_tasks(6, "alice")
 # [
-# "q2: Run Checks (priority 6)",
-# "q1: Plan Sprint (priority 3)"
+# "t2: Write Tests (priority 5)",
+# "t1: Design API (priority 3)"
 # ]
 
-# q1 reaches its expiration time for maya at time 18.
-tm.list_user_tasks(18, "maya")
-# ["q2: Run Checks (priority 6)"]
-# q1 is expired, so q2 is the sole active assignment
+# After t1 expires for alice at time 11
+tm.list_user_tasks(11, "alice")
+# ["t2: Write Tests (priority 5)"]
+# t1 expired, only t2 remains active
 
-# An expired slot lets maya receive another task.
-tm.assign_task(19, "maya", "q3", 8) # True
+# alice can now take a new task (quota freed up)
+tm.assign_task(12, "alice", "t3", 10) # True
 
-# q1 could be assigned again after expiring, but maya's quota is now full.
-tm.assign_task(20, "maya", "q1", 5) # False (q2 and q3 are active, and quota is 2)
+# alice can be reassigned t1 since the previous assignment expired
+tm.assign_task(13, "alice", "t1", 5) # False (quota is 2, t2 and t3 active)
 ```
 
 ---
+
+### Level 4: Task Completion and Expiration Tracking
+
+Extend the system to allow completing task assignments before their TTL expires and to list assignments that have expired. An assignment can be completed while still active. If its TTL passes without completion, the assignment is considered expired.
+
+Add the following methods.
+
+```python
+def complete_task(self, timestamp: int, user_id: str, task_id: str) -> bool:
+    """
+    Mark an active assignment of a task as completed for a user.
+
+    Parameters:
+        timestamp: Current time value.
+        user_id: Identifier of the user completing the task.
+        task_id: Identifier of the task to complete.
+
+    Returns:
+        True if the task assignment was successfully completed.
+        False if:
+          - The user does not exist.
+          - The task does not exist.
+          - The user has no active (non-expired, non-completed)
+            assignment for this task.
+
+    Notes:
+        - If multiple active assignment records exist for the same
+          task_id for this user, complete the one with the earliest
+          start_time that is still active.
+        - A completed assignment no longer counts toward the user's
+          quota.
+        - An assignment whose expiry_time is less than or equal to
+          timestamp (i.e., already expired) cannot be completed.
+    """
+    pass
+
+def list_expired_tasks(self, timestamp: int, user_id: str) -> list:
+    """
+    List all expired assignments for a user that were not completed.
+
+    Parameters:
+        timestamp: Current time value.
+        user_id: Identifier of the user whose expired assignments
+                 should be listed.
+
+    Returns:
+        A list of strings formatted as "task_id: name (priority P)",
+        sorted by priority descending and then by task_id ascending.
+        Returns an empty list if the user does not exist or has no
+        expired assignments. Each distinct task_id appears at most
+        once, even if there are multiple expired assignment records
+        for the same task.
+    """
+    pass
+```
+
+Example Usage:
+
+```
+tm = TaskManager()
+
+tm.create_task("t1", "Design API", 3)
+tm.create_task("t2", "Write Tests", 5)
+
+tm.add_user("alice", 3)
+
+tm.assign_task(1, "alice", "t1", 10) # True (expires at 11)
+tm.assign_task(2, "alice", "t2", 20) # True (expires at 22)
+
+# Complete t2 before it expires
+tm.complete_task(5, "alice", "t2") # True
+
+# t2 is completed, frees quota
+tm.list_user_tasks(6, "alice")
+# ["t1: Design API (priority 3)"]
+# t2 no longer active (completed)
+
+# t1 expires at time 11 without being completed
+tm.list_user_tasks(11, "alice")
+# [] (t1 expired)
+
+tm.list_expired_tasks(12, "alice")
+# ["t1: Design API (priority 3)"]
+# t1 expired without completion; t2 was completed so not expired
+
+# Cannot complete an expired task
+tm.complete_task(12, "alice", "t1") # False (already expired)
+
+# Reassign t1 to alice
+tm.assign_task(15, "alice", "t1", 10) # True (new assignment, expires at 25)
+
+# Multiple assignments of same task — complete the earliest active one
+tm.assign_task(16, "alice", "t1", 20) # False (t1 already active for alice)
+tm.complete_task(18, "alice", "t1") # True (completes the assignment from time 15)
+
+# The first assignment of t1 (from time 1) is still expired
+tm.list_expired_tasks(20, "alice")
+# ["t1: Design API (priority 3)"]
+```
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of tasks as objects with attributes like id, priority, status, assignee, and TTL, and design the system to support priority-ordered retrieval and quota-based assignment.
+Model tasks and users as separate entities, with a central manager coordinating CRUD, assignment, and lifecycle.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a priority queue (heap) for retrieving tasks by priority, and a hash map for O(1) lookup by task ID, for user quotas, maintain a map of user to count of active tasks with TTL.
+Use hash maps for O(1) task and user lookup and a priority structure or sorted index for listing by priority, track assignment quotas and TTL with timestamps.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The key edge case is handling TTL expiration: you need a background process or lazy cleanup to remove expired tasks and update user quotas, ensuring consistency with priority retrieval.
+Watch edge cases like updating completed or expired tasks, reassigning tasks, quota enforcement, and lazy versus eager expiration.
 
 </details>
 

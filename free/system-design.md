@@ -2,7 +2,7 @@
 
 # Free System Design questions
 
-**25 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**24 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -29,7 +29,6 @@
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | **Robinhood / Coinbase / Databricks / Square** | Hard | Apr 2026 |
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor** | Hard | Apr 07, 2026 |
 | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | **Anthropic** | Hard | — |
-| [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | **Oracle** | Hard | Jan 15, 2025 |
 | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | **JPMorgan** | Hard | Jun 21, 2025 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |

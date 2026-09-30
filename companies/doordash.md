@@ -2,37 +2,36 @@
 
 # DoorDash interview process, OA & interview questions
 
-**70 questions** reported at DoorDash · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
+**71 questions** reported at DoorDash · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How DoorDash interviews & the free questions](doordash/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🛒 [E-commerce & marketplaces](../company-types/ecommerce-marketplace.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Interview reports](#interview-reports) · [Every question](#every-question-reported-at-doordash)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-doordash)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **70** |
+| Questions tracked | **71** |
 | Most recent sighting | Sep 16, 2026 |
 | Reported in the last 90 days | 8 |
-| Most common format | [Algorithm](../formats/algorithm.md) (44% of 70) |
-| Difficulty (easy / medium / hard) | 8 / 51 / 11 |
+| Most common format | [Algorithm](../formats/algorithm.md) (45% of 71) |
+| Difficulty (easy / medium / hard) | 8 / 51 / 12 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 7 |
-| Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 70 questions reported at DoorDash. 47 of them carry a sighting date; the other 23 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 71 questions reported at DoorDash. 47 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **70 of 70** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **71 of 71** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 43 | ██████████ | [Algorithm](../formats/algorithm.md) (58%) | 3 / 36 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 44 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 3 / 36 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 30 | ███████ | [System Design](../formats/system-design.md) (50%) | 2 / 20 / 8 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -54,16 +53,16 @@ Which stage each question came from, for the **70 of 70** questions at DoorDash 
 
 ## What they ask about
 
-Of the **31 questions at DoorDash that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **32 questions at DoorDash that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 6 | 19% | ████████████ | Aug 16, 2026 |
 | `strings` | 6 | 19% | ████████████ | Aug 16, 2026 |
+| `arrays` | 5 | 16% | ██████████ | Aug 16, 2026 |
 | `trees` | 5 | 16% | ██████████ | Feb 04, 2026 |
-| `arrays` | 4 | 13% | ████████ | Aug 16, 2026 |
-| `graphs` | 4 | 13% | ████████ | Apr 29, 2026 |
-| `binary-search` | 3 | 10% | ██████ | Aug 16, 2026 |
+| `graphs` | 4 | 12% | ████████ | Apr 29, 2026 |
+| `binary-search` | 3 | 9% | ██████ | Aug 16, 2026 |
 | `dynamic-programming` | 2 | 6% | ████ | Feb 07, 2026 |
 | `greedy` | 2 | 6% | ████ | Aug 16, 2026 |
 | `intervals` | 2 | 6% | ████ | — |
@@ -119,16 +118,6 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | ai-collaboration, bq, conflict, leadership, star |
 | [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | ab-testing, experiment-design, ml-knowledge, ranking, verbal |
 | [On-Call Case Investigation](https://trueinterview.io/study/onsite-case-investigation) | open-ended, operating-systems, sre, troubleshooting, verbal |
-
-## Interview reports
-
-What candidates said happened in the room at DoorDash — written up by the people who sat the loop. The freshest thing this page points at: a question enters the bank when somebody curates it, a report lands the week the interview happened.
-
-| Role | Report | Posted |
-| :-- | :-- | :-- |
-| Software | [DoorDash Bootstrap API Coding Interview Experience](https://trueinterview.io/interviews/963f6ed1-c533-4d81-bb32-51bde96f1a1e) | Sep 27, 2026 |
-
-<sub>These are the reports that were in the newest slice the catalog API hands over (it holds 2,964 in total). [Every report at DoorDash and everywhere else →](https://trueinterview.io/interviews)</sub>
 
 ---
 
@@ -195,6 +184,7 @@ What candidates said happened in the room at DoorDash — written up by the peop
 | [Calculate Dasher Salary](https://trueinterview.io/questions/calculate-dasher-salary) | Algorithm | Medium | — |
 | [Dasher Pay](https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f) | Algorithm | Hard | — |
 | [Refund Decision Tree Evaluation](https://trueinterview.io/questions/541ffb96-2770-590b-b5b6-0df02380d374) | Algorithm | Medium | — |
+| [Adjust Prices](https://trueinterview.io/questions/3e5b7ff1-ae9e-4b12-bb30-53665b60e66f) | Algorithm | Hard | — |
 | [Minimum Replacements to Make Two Strings Anagrams](https://trueinterview.io/questions/ab4d715c-a45e-4d9d-bff9-8fe14a380cbf) | Algorithm | Medium | — |
 | [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076) | AI Coding | Medium | — |
 | [Find Peak Element](https://trueinterview.io/questions/35f2ff41-64d2-4224-9988-855e1a3fbc61) | Algorithm | Medium | — |

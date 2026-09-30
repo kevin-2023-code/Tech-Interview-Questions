@@ -2,7 +2,7 @@
 
 # HubSpot interview process, OA & interview questions
 
-**10 questions** reported at HubSpot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hubspot), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at HubSpot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hubspot), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How HubSpot interviews & the free questions](hubspot/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,35 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **10** |
-| Most recent sighting | Feb 01, 2026 |
+| Questions tracked | **11** |
+| Most recent sighting | May 21, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 10) |
-| Difficulty (easy / medium / hard) | 1 / 8 / 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (45% of 11) |
+| Difficulty (easy / medium / hard) | 1 / 9 / 1 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 10 questions reported at HubSpot. 7 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at HubSpot. 8 of them carry a sighting date; the other 3 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **10 of 10** questions at HubSpot that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at HubSpot that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 4 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 3 | █████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 7 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 1 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 3 | ████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at HubSpot since Feb 01, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at HubSpot since May 21, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **6 questions at HubSpot that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **6 questions at HubSpot that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -54,10 +54,11 @@ Of the **6 questions at HubSpot that carry a topic label** (60% of them — the 
 
 ## When they asked it
 
-Every recorded sighting at HubSpot, by the month it was reported in — Dec 15, 2025 to Feb 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at HubSpot, by the month it was reported in — Dec 15, 2025 to May 21, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [May 2026](../by-month/2026-05.md) | 1 | █████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | █████ |
 | [Jan 2026](../by-month/2026-01.md) | 5 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | █████ |
@@ -68,14 +69,14 @@ The 8 questions to open first if you are preparing for HubSpot, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
-| **2** | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | 1 | Jan 19, 2026 |
-| **3** | [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country) | Algorithm | Medium | — | Jan 19, 2026 |
-| **4** | [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment) | Algorithm | Medium | — | Jan 19, 2026 |
-| **5** | [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree) | Algorithm | Medium | — | Jan 19, 2026 |
-| **6** | [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Algorithm | Hard | — | Jan 19, 2026 |
-| **7** | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) 🆓 | Object Oriented Programming | Medium | 3 | Dec 15, 2025 |
-| **8** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) 🆓 | Object Oriented Programming | Medium | 5 | — |
+| **1** | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | 3 | May 21, 2026 |
+| **2** | [Design Youtube](https://trueinterview.io/questions/design-youtube) 🆓 | System Design | Medium | 7 | Feb 2026 |
+| **3** | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | 1 | Jan 19, 2026 |
+| **4** | [Best Meeting Date by Country](https://trueinterview.io/questions/best-meeting-date-by-country) | Algorithm | Medium | — | Jan 19, 2026 |
+| **5** | [Company Role Assignment](https://trueinterview.io/questions/company-role-assignment) | Algorithm | Medium | — | Jan 19, 2026 |
+| **6** | [Evaluate JSON Expression Tree](https://trueinterview.io/questions/evaluate-json-expression-tree) | Algorithm | Medium | — | Jan 19, 2026 |
+| **7** | [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Algorithm | Hard | — | Jan 19, 2026 |
+| **8** | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) 🆓 | Object Oriented Programming | Medium | 3 | Dec 15, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -89,6 +90,7 @@ The 8 questions to open first if you are preparing for HubSpot, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | May 21, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Most Frequent Substring](https://trueinterview.io/questions/most-frequent-substring) | Algorithm | Medium | Jan 19, 2026 |
 | [Maximum Concurrent Calls](https://trueinterview.io/questions/maximum-concurrent-calls) | Algorithm | Hard | Jan 19, 2026 |

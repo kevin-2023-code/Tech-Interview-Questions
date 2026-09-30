@@ -2,7 +2,7 @@
 
 # 🎮 Gaming & interactive — interview & OA questions
 
-**61 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**66 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Roblox (61)](../companies/roblox.md)
+[Roblox (66)](../companies/roblox.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,29 +18,29 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 34 | 56% | ██████████████ | 5 |
-| [System Design](../formats/system-design.md) | 21 | 34% | █████████ | 3 |
+| [Algorithm](../formats/algorithm.md) | 39 | 59% | ██████████████ | 5 |
+| [System Design](../formats/system-design.md) | 21 | 32% | ████████ | 3 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 8% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **11 / 39 / 11**, over the rows the catalog has graded. 10 of the 61 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **12 / 43 / 11**, over the rows the catalog has graded. 10 of the 66 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **36 questions in this cut that carry a topic label** (59% of it):
+Of the **41 questions in this cut that carry a topic label** (62% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 11 | 31% | ████████████ |
-| `hashing` | 7 | 19% | ████████ |
-| `sorting` | 6 | 17% | ███████ |
-| `heap` | 5 | 14% | █████ |
-| `matrix` | 5 | 14% | █████ |
-| `sliding-window` | 4 | 11% | ████ |
-| `strings` | 4 | 11% | ████ |
-| `graphs` | 3 | 8% | ███ |
-| `greedy` | 3 | 8% | ███ |
-| `intervals` | 3 | 8% | ███ |
+| `arrays` | 12 | 29% | ████████████ |
+| `hashing` | 10 | 24% | ██████████ |
+| `sorting` | 6 | 15% | ██████ |
+| `heap` | 5 | 12% | █████ |
+| `matrix` | 5 | 12% | █████ |
+| `sliding-window` | 5 | 12% | █████ |
+| `strings` | 5 | 12% | █████ |
+| `greedy` | 4 | 10% | ████ |
+| `stack` | 4 | 10% | ████ |
+| `graphs` | 3 | 7% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -110,7 +110,12 @@ Of the **36 questions in this cut that carry a topic label** (59% of it):
 | **Roblox** | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) | Easy | Dec 05, 2025 |
 | **Stripe / Affirm / Robinhood / Roblox / Uber** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | Hard | Oct 26, 2025 |
 | **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
+| **Roblox** | [Same Word of HTML Labels](https://trueinterview.io/questions/same-word-of-html-labels) | Medium | Sep 04, 2025 |
+| **Roblox** | [Randomly Partition Array](https://trueinterview.io/questions/randomly-partition-array) | Medium | Sep 03, 2025 |
+| **Roblox** | [Validate Playlist Sequence](https://trueinterview.io/questions/validate-playlist-sequence) | Medium | Sep 02, 2025 |
 | **Roblox** | [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain) | Medium | Sep 02, 2025 |
+| **Roblox** | [Find Minimum Score Threshold](https://trueinterview.io/questions/find-minimum-score-threshold) | Medium | Sep 02, 2025 |
+| **Roblox** | [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | Easy | Sep 02, 2025 |
 | **Roblox** | [Lasers and Robot](https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b) | Medium | — |
 | **Roblox** | [Configurable Tic-Tac-Toe Board](https://trueinterview.io/questions/027d9159-df55-5351-b2d2-b3f7e1bbac99) | Medium | — |
 | **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |

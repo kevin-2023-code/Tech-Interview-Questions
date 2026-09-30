@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Verkada · Amazon · ByteDance · LinkedIn · Lyft · Rokt | Onsite / virtual onsite | — | — |
+| Object Oriented Programming | Medium | Verkada · Amazon · ByteDance · Goldman Sachs · Lyft · Rokt | Onsite / virtual onsite | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -78,7 +78,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Verkada](../../../companies/verkada/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Lyft](../../../companies/lyft/README.md) · [Rokt](../../../companies/rokt/README.md)
+[Verkada](../../../companies/verkada/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Goldman Sachs](../../../companies/goldman-sachs/README.md) · [Lyft](../../../companies/lyft/README.md) · [Rokt](../../../companies/rokt/README.md)
 
 ---
 

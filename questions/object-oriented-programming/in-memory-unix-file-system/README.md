@@ -102,6 +102,14 @@ Important cases to test include:
 [object Object]
 ```
 
+### Requirements
+
+- A wider version of the exercise also mentions reading and writing files, plus finding or listing by path.
+
+### Preparation
+
+- Cover nested path creation, listing both empty and populated directories, deletion attempts on non-empty directories, and commands targeting missing paths.
+
 ## Hints
 
 <details>

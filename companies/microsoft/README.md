@@ -8,11 +8,11 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [115](../microsoft.md) |
+| Questions reported | [130](../microsoft.md) |
 | Free to read here | 18 |
 | Interview-process guides | 5 |
-| Other guides | 5 |
-| Most recent sighting | Sep 09, 2026 |
+| Other guides | 8 |
+| Most recent sighting | Sep 10, 2026 |
 
 ## How Microsoft interviews
 
@@ -65,15 +65,18 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 
 | Guide | Tags |
 | :-- | :-- |
+| [Adapt When Project Requirements Change Midway](guides/adapt-when-project-requirements-change-midway.md) | — |
 | [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md) | ai-collaboration, conflict, culture-fit, leadership, star |
+| [Explain Platform Evolution, Ownership, and Career Motivation](guides/explain-platform-evolution-ownership-and-career-motivation.md) | — |
 | [Object-Oriented Design Round](guides/object-oriented-design-round.md) | object-design, ood, oop-design |
 | [Project Deep Dive](guides/project-deep-dive-2.md) | deep-dive, impact, leadership |
 | [Resolve Technical Disagreement and Work Across Different Styles](guides/resolve-technical-disagreement-and-work-across-different-styles.md) | — |
 | [Transformer Roofline + FP32→FP16 Drill](guides/transformer-roofline-fp-precision.md) | arithmetic-intensity, gpu, kernel, numerical-stability, transformer |
+| [Use AI to Reduce Repetitive Pipeline Development Work](guides/use-ai-to-reduce-repetitive-pipeline-development-work.md) | — |
 
 ## Everything else
 
-- [All 115 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 130 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Microsoft question on TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 ---

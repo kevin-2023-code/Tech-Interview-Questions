@@ -20,13 +20,6 @@ You receive an array of `words` along with an array of `queries`. For every quer
 get_search_results(words, queries)
 ```
 
-## Notes
-
-- A standard efficient strategy computes a key for each word in advance—either its characters in sorted order or a serialized 26-slot letter-frequency array—and maps `key → List<originalWord>`. Processing a query then requires an O(L log L) character sort followed by a hash-map retrieval.
-- The straightforward reference approach re-sorts characters during each word/query comparison, which costs O(Q × W × L log L). That is acceptable on small datasets, but for an interview question such as “what would you do with 10^6 queries?”, use the prebuilt-key method instead.
-- Before producing the answer, lexicographically order every matching-word list; simply scanning the input does not inherently provide the required ordering.
-- Important cases: a query without any anagrams must yield an empty array rather than `null`, and repeated occurrences in `words` must remain repeated in the result, matching the reference behavior.
-
 ## Preparation
 
 - First build the solution with a sorted-character-string key, then implement it again using a 26-integer frequency array converted into a string key so that individual words no longer need to be sorted.

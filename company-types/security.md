@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**70 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**69 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (27)](../companies/verkada.md) · [Rubrik (20)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
+[Verkada (27)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,15 +18,15 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 52 | 74% | ██████████████ | 11 |
+| [Algorithm](../formats/algorithm.md) | 51 | 74% | ██████████████ | 11 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 14% | ███ | 3 |
-| [System Design](../formats/system-design.md) | 8 | 11% | ██ | 2 |
+| [System Design](../formats/system-design.md) | 8 | 12% | ██ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **8 / 44 / 18**, over the rows the catalog has graded. 16 of the 70 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **8 / 44 / 17**, over the rows the catalog has graded. 16 of the 69 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **48 questions in this cut that carry a topic label** (69% of it):
+Of the **48 questions in this cut that carry a topic label** (70% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -92,7 +92,7 @@ Of the **48 questions in this cut that carry a topic label** (69% of it):
 | **Verkada / Amazon** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
 | **Verkada / Salesforce** | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Medium | — |
-| **Verkada / Amazon / ByteDance / LinkedIn / Lyft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
+| **Verkada / Amazon / ByteDance / Goldman Sachs / Lyft / Rokt** | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | Medium | — |
 | **Vanta** | [Aggregate Employee Counts and Overdue Days Over a Group Hierarchy (Tree)](https://trueinterview.io/questions/fb4b1b89-be33-4f08-b0a5-062f4dd67dda) | Medium | — |
 | **Vanta** | [Check Whether an Employee Completed Security Training by a Given Day and Compute Overdue Days](https://trueinterview.io/questions/a7ab15e1-2a50-414d-86d4-f145c442b46c) | Easy | — |
 | **Vanta** | [Recursive Class Dependency Ordering](https://trueinterview.io/questions/6a6d48b0-1054-5ae3-8079-864c8ebd48bf) | Medium | — |
@@ -107,7 +107,6 @@ Of the **48 questions in this cut that carry a topic label** (69% of it):
 | **Rubrik** | [Maximize Happiness](https://trueinterview.io/questions/9a5a6369-36c2-41ca-923b-276bf08c2011) | Hard | — |
 | **Rubrik** | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Hard | — |
 | **Rubrik** | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Hard | — |
-| **Rubrik** | [Starlight](https://trueinterview.io/questions/73a6ae6a-88c0-45d6-9d5b-63411038dfd8) | Hard | — |
 | **Rubrik** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Hard | — |
 | **Rubrik** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Hard | — |
 | **Rubrik** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Medium | — |

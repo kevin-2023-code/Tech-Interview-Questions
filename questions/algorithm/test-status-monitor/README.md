@@ -25,11 +25,6 @@ You receive a stream of test-run events, each carrying a `test_id`, a `timestamp
 - Keep the same `log(...)`. Add a query `get(min_tests)` that returns the **longest continuous time window during which at least `min_tests` distinct tests are simultaneously failing**. Which specific tests are failing doesn’t matter, only that the count stays at or above the threshold for the whole window.
 - Return an object with `start_timestamp` (inclusive) and `end_timestamp` (exclusive) of that failure window.
 
-## Notes
-
-- Part 1 should be straightforward and fast to implement. Part 2 is the harder half — budget time to clarify the requirements, then model it as a sweep over failing intervals, tracking the number of concurrently failing tests and the longest stretch where that count remains ≥ `min_tests`.
-- The full prompt has only appeared once and the candidate ran out of time on Part 2, so exact return shapes beyond what’s described may vary — restate the spec back to the interviewer before coding.
-
 ## Examples
 
 **Part 1**
@@ -46,7 +41,6 @@ get("B")  // returns 2
 
 get("C")  // returns null (no data)
 ```
-
 
 **Part 2**
 

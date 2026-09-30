@@ -29,6 +29,42 @@ public static int pointsBelong(int x1, int y1, int x2, int y2, int x3, int y3,
                                int xp, int yp, int xq, int yq)
 ```
 
+## Examples
+
+**Example 1**
+
+```text
+Input:
+0
+0
+4
+0
+0
+3
+1
+1
+5
+5
+Output: 1
+```
+
+**Example 2**
+
+```text
+Input:
+1
+1
+5
+1
+1
+5
+10
+10
+2
+2
+Output: 2
+```
+
 ## Notes
 
 - A point lying exactly on an edge is treated as outside.

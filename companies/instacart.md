@@ -2,7 +2,7 @@
 
 # Instacart interview process, OA & interview questions
 
-**26 questions** reported at Instacart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/instacart), judged server-side on the algorithm, low-level-design and SQL formats.
+**27 questions** reported at Instacart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/instacart), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Instacart interviews & the free questions](instacart/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,53 +14,54 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
+| Questions tracked | **27** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 26) |
-| Difficulty (easy / medium / hard) | 3 / 16 / 7 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (52% of 27) |
+| Difficulty (easy / medium / hard) | 3 / 16 / 8 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 26 questions reported at Instacart. 16 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 27 questions reported at Instacart. 16 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at Instacart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **27 of 27** questions at Instacart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 7 | █████ | [Algorithm](../formats/algorithm.md) (43%) | 2 / 3 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (40%) | 0 / 10 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 7 | ████ | [Algorithm](../formats/algorithm.md) (43%) | 2 / 2 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (44%) | 0 / 11 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Algorithm | Medium | Onsite / virtual onsite | Sep 18, 2026 |
 | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Algorithm | Medium | Online assessment | Sep 18, 2026 |
 
 ## What they ask about
 
-Of the **13 questions at Instacart that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Instacart that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 23% | ████████████ | Feb 03, 2026 |
 | `stack` | 3 | 23% | ████████████ | Jun 24, 2026 |
 | `strings` | 3 | 23% | ████████████ | Jun 24, 2026 |
 | `arrays` | 2 | 15% | ████████ | Apr 04, 2026 |
-| `heap` | 2 | 15% | ████████ | Feb 03, 2026 |
+| `hashing` | 2 | 15% | ████████ | Jul 30, 2025 |
 | `backtracking` | 1 | 8% | ████ | Nov 17, 2025 |
 | `binary-search` | 1 | 8% | ████ | — |
 | `graphs` | 1 | 8% | ████ | Apr 04, 2026 |
 | `greedy` | 1 | 8% | ████ | — |
-| `sliding-window` | 1 | 8% | ████ | — |
+| `heap` | 1 | 8% | ████ | — |
+| `math` | 1 | 8% | ████ | Sep 18, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -70,12 +71,11 @@ Every recorded sighting at Instacart, by the month it was reported in — Jul 30
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ████████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ████ |
 | [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ████ |
@@ -86,14 +86,14 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Algorithm | Medium | — | Sep 18, 2026 |
-| **2** | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | 3 | Jun 24, 2026 |
-| **3** | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | AI Coding | Hard | — | Jun 22, 2026 |
-| **4** | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Algorithm | Easy | — | May 27, 2026 |
-| **5** | [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | Object Oriented Programming | Medium | — | Apr 23, 2026 |
-| **6** | [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Object Oriented Programming | Hard | — | Apr 23, 2026 |
-| **7** | [Design Online Product Catalog](https://trueinterview.io/questions/system-design-product-catalog) | System Design | Hard | — | Apr 23, 2026 |
-| **8** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | 4 | Apr 09, 2026 |
+| **1** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Algorithm | Medium | — | Sep 18, 2026 |
+| **2** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Algorithm | Medium | — | Sep 18, 2026 |
+| **3** | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | 3 | Jun 24, 2026 |
+| **4** | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | AI Coding | Hard | — | Jun 22, 2026 |
+| **5** | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Algorithm | Easy | — | May 27, 2026 |
+| **6** | [Bus Simulation Codebase](https://trueinterview.io/questions/karat-ai-bus-simulation-codebase) | Object Oriented Programming | Medium | — | Apr 23, 2026 |
+| **7** | [In-Memory Key-Value Store](https://trueinterview.io/questions/oa-in-memory-key-value-store) | Object Oriented Programming | Hard | — | Apr 23, 2026 |
+| **8** | [Design Online Product Catalog](https://trueinterview.io/questions/system-design-product-catalog) | System Design | Hard | — | Apr 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,6 +116,7 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Algorithm | Medium | 🔥 Sep 18, 2026 |
+| [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Algorithm | Medium | 🔥 Sep 18, 2026 |
 | [Basic Calculator I / II](https://trueinterview.io/questions/basic-calculator-i-ii) | Algorithm | Medium | Jun 24, 2026 |
 | [Full-Stack AI-Pairing Assessment](https://trueinterview.io/questions/full-stack-ai-assessment) | AI Coding | Hard | Jun 22, 2026 |
 | [Max Adjacent Stock Price Change](https://trueinterview.io/questions/karat-stock-price-change) | Algorithm | Easy | May 27, 2026 |
@@ -126,7 +127,6 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Algorithm | Medium | Apr 04, 2026 |
 | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Algorithm | Hard | Apr 04, 2026 |
 | [Design Instacart Inventory System](https://trueinterview.io/questions/system-design-inventory-management) | System Design | Hard | Mar 02, 2026 |
-| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Object Oriented Programming | Medium | Feb 03, 2026 |
 | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Algorithm | Medium | Jan 30, 2026 |
 | [Worker Attendance & Payroll](https://trueinterview.io/questions/oa-worker-attendance-payroll) | Object Oriented Programming | Medium | Jan 26, 2026 |
 | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
@@ -141,3 +141,4 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Find Minimal Shoppers](https://trueinterview.io/questions/bf1e0319-2d75-436c-99b9-4ff2b4c85911) | Algorithm | Medium | — |
 | [Count Subarrays With Alternating Parity (Odd/Even) Including Negatives](https://trueinterview.io/questions/8babc81e-6a75-4bc6-b67e-d7f11327c8e8) | Algorithm | Medium | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
+| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Object Oriented Programming | Hard | — |

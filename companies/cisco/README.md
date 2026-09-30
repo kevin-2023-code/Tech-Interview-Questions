@@ -8,7 +8,7 @@ How Cisco interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [23](../cisco.md) |
+| Questions reported | [25](../cisco.md) |
 | Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -51,7 +51,7 @@ End to end, the Cisco pipeline typically runs four to eight weeks, though schedu
 
 ## Everything else
 
-- [All 23 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 25 questions reported at Cisco](../cisco.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cisco question on TrueInterview](https://trueinterview.io/problems/company/cisco).
 
 ---

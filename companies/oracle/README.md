@@ -8,11 +8,11 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [45](../oracle.md) |
+| Questions reported | [81](../oracle.md) |
 | Free to read here | 9 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
-| Most recent sighting | Aug 13, 2026 |
+| Other guides | 6 |
+| Most recent sighting | Sep 11, 2026 |
 
 ## How Oracle interviews
 
@@ -39,13 +39,13 @@ Oracle's interview loop changes shape more from team to team than almost any com
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
+| [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Log Parser with Multi-Line Follow-up](../../questions/algorithm/log-parser-multiline/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/log-parser-multiline) |
 | [Binary Search — Rightmost Index of Duplicate](../../questions/algorithm/binary-search-rightmost-duplicate/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/binary-search-rightmost-duplicate) |
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
 | [Maximum Completable Tasks with Prerequisites (Topological)](../../questions/algorithm/course-prerequisites-task-count/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/course-prerequisites-task-count) |
 | [Body-Temperature Measurement Classes](../../questions/object-oriented-programming/ood-patient-temperature-classes/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/ood-patient-temperature-classes) |
-| [Event Ingestion + Top-K Aggregation](../../questions/system-design/system-design-event-ingestion-topk/README.md) | System Design | Hard | Onsite / virtual onsite | Jan 2025 | [Solve](https://trueinterview.io/questions/system-design-event-ingestion-topk) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Guides
@@ -53,11 +53,15 @@ Oracle's interview loop changes shape more from team to team than almost any com
 | Guide | Tags |
 | :-- | :-- |
 | [Behavioral & Bar Raiser BQ Set](guides/behavioral-bq-bar-raiser.md) | ambiguity, bq, conflict, deep-dive, leadership, mentorship, ownership |
+| [Data-Center Camera Access Incident Response](guides/data-center-camera-access-incident-response.md) | domain-knowledge, infra, security |
+| [Evaluate Subjective, Nondeterministic Agent Outputs](guides/evaluate-subjective-agent-outputs.md) | deep-dive, evaluation, llm-agent, ml-knowledge |
+| [Resume / Project Deep Dive (HM or Tech Screen Opener)](guides/resume-project-deep-dive.md) | deep-dive, ownership |
+| [Troubleshoot a Frontend Failure in a Client-Server Application](guides/troubleshoot-a-frontend-failure-in-a-client-server-application.md) | — |
 | [Verbal Java / CS-Fundamentals Quiz](guides/verbal-java-cs-fundamentals.md) | cs-fundamentals, domain-knowledge, networking, operating-systems, verbal |
 
 ## Everything else
 
-- [All 45 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 81 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

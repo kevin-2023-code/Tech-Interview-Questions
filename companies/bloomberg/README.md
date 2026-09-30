@@ -8,7 +8,7 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [70](../bloomberg.md) |
+| Questions reported | [77](../bloomberg.md) |
 | Free to read here | 12 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
@@ -59,7 +59,7 @@ This guide is the deep dive behind the short outline on Bloomberg's company page
 
 ## Everything else
 
-- [All 70 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 77 questions reported at Bloomberg](../bloomberg.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Bloomberg question on TrueInterview](https://trueinterview.io/problems/company/bloomberg).
 
 ---

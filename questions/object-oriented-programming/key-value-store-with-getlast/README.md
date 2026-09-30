@@ -73,11 +73,6 @@ Reading `"dog"` does not promote it or otherwise change the last-key result.
 - Linked-list bookkeeping should allow insertion-order updates and removals without scanning every stored key.
 - The store may be empty, in which case `get` and `getLast` return `null` for missing results.
 
-## Notes
-
-- Clarify whether `getLast()` should report the newest key ever added, the most recently modified key, or the latest key still present according to insertion order.
-- When a key is removed, delete its hashmap entry and unlink its corresponding list node.
-
 ## Hints
 
 <details>

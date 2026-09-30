@@ -8,7 +8,7 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [70](../doordash.md) |
+| Questions reported | [71](../doordash.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
@@ -57,7 +57,7 @@ DoorDash runs one of the most practical interview loops among large consumer-tec
 
 ## Everything else
 
-- [All 70 questions reported at DoorDash](../doordash.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 71 questions reported at DoorDash](../doordash.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every DoorDash question on TrueInterview](https://trueinterview.io/problems/company/doordash).
 
 ---

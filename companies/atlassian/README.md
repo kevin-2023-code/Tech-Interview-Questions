@@ -8,11 +8,11 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [45](../atlassian.md) |
+| Questions reported | [52](../atlassian.md) |
 | Free to read here | 13 |
 | Interview-process guides | 3 |
-| Other guides | 1 |
-| Most recent sighting | Apr 21, 2026 |
+| Other guides | 2 |
+| Most recent sighting | Sep 03, 2026 |
 
 ## How Atlassian interviews
 
@@ -57,10 +57,11 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 | Guide | Tags |
 | :-- | :-- |
 | [Atlassian Values and Management Rounds](guides/atlassian-values-and-management-rounds.md) | ambiguity, culture-fit, leadership, mentorship, values |
+| [Explain a Project Architecture Through a Technical Deep Dive](guides/explain-a-project-architecture-through-a-technical-deep-dive.md) | — |
 
 ## Everything else
 
-- [All 45 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 52 questions reported at Atlassian](../atlassian.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Atlassian question on TrueInterview](https://trueinterview.io/problems/company/atlassian).
 
 ---

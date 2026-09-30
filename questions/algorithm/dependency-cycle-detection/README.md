@@ -40,7 +40,6 @@ Output: True
 {"v":1,"kind":"example","title":"Dependency Cycle Detection","input":{"dependencies":"[[1, 2], [2], [0]]"},"steps":[{"say":"The input has three resources. An arrow A → B means A directly depends on B.","panels":[{"type":"graph","id":"dep_graph","label":"Dependency Graph","nodes":[{"id":"0","label":"Resource 0"},{"id":"1","label":"Resource 1"},{"id":"2","label":"Resource 2"}],"edges":[{"from":"0","to":"1"},{"from":"0","to":"2"},{"from":"1","to":"2"},{"from":"2","to":"0"}],"directed":true}]},{"say":"Resource 0 has an outgoing edge to resource 2: 0 → 2.","panels":[{"type":"graph","id":"dep_graph","label":"Dependency Graph","nodes":[{"id":"0","label":"Resource 0"},{"id":"1","label":"Resource 1"},{"id":"2","label":"Resource 2"}],"edges":[{"from":"0","to":"1"},{"from":"0","to":"2"},{"from":"1","to":"2"},{"from":"2","to":"0"}],"directed":true,"marks":{"read":["0"]}}]},{"say":"Resource 2 has an outgoing edge to resource 0: 2 → 0.","panels":[{"type":"graph","id":"dep_graph","label":"Dependency Graph","nodes":[{"id":"0","label":"Resource 0"},{"id":"1","label":"Resource 1"},{"id":"2","label":"Resource 2"}],"edges":[{"from":"0","to":"1"},{"from":"0","to":"2"},{"from":"1","to":"2"},{"from":"2","to":"0"}],"directed":true,"marks":{"read":["2"]}}]},{"say":"Together, 0 → 2 and 2 → 0 close a directed cycle, so the graph contains a cycle.","panels":[{"type":"graph","id":"dep_graph","label":"Dependency Graph","nodes":[{"id":"0","label":"Resource 0"},{"id":"1","label":"Resource 1"},{"id":"2","label":"Resource 2"}],"edges":[{"from":"0","to":"1"},{"from":"0","to":"2"},{"from":"1","to":"2"},{"from":"2","to":"0"}],"directed":true,"marks":{"found":["0","2"],"dim":["1"]}}]},{"say":"The function returns True.","panels":[{"type":"string","id":"answer","label":"Output","values":["T","r","u","e"]}]}],"expected":"true"}
 ```
 
-
 **Example 2**
 ```
 Input:  dependencies = [[1], [2], []]
@@ -67,11 +66,6 @@ Output: False
 - `n = len(dependencies)` is the number of resources, where $$0 \le n \le 10^{4}$$.
 - Each inner list `dependencies[i]` contains only valid resource indices `j` such that $$0 \le j < n$$.
 - The total number of dependency entries across all lists is at most $$10^{5}$$.
-
-## Notes
-
-- Keep the cycle‑detection state minimal. You need to distinguish nodes that are on the **current recursion path** from nodes that have already been **fully explored**. Trying to avoid re‑traversing fully explored subgraphs by short‑circuiting at the start often leads to edge‑case bugs and wastes time.
-- This was a ~50‑minute single‑problem round. Aim to finish a clean, correct implementation well before the end so you have time for discussion and Q&A. The interviewer may stay silent, so drive your own narration and pacing.
 
 ## Preparation
 

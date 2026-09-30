@@ -47,7 +47,7 @@ The stages below follow Shopify's public description of its process; the order a
 | [Ruby only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-ruby-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-ruby-only-10-min) |
 | [C++ only, ~10 min](../../questions/algorithm/swe-intern-coding-oa-c-only-10-min/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) |
 | [Dynamic programming, ~45 min, any language](../../questions/algorithm/swe-intern-coding-oa-dynamic-programming-45-min-any-language/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) |
-| [SWE / SDE Intern Coding OA (DP + C++/Ruby)](../../questions/algorithm/swe-intern-coding-oa/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa) |
+| [Paint House](../../questions/algorithm/swe-intern-coding-oa/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa) |
 | [Cows and Bulls (Guess the Number)](../../questions/algorithm/cows-and-bulls/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/cows-and-bulls) |
 
 ## Guides

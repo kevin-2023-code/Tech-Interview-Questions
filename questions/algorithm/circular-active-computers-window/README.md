@@ -40,10 +40,6 @@ Output: 4
 
 Explanation: Repeated wrapping allows the length-five window [1, 1, 0, 1, 1], which has four 1s.
 
-
-
-## Notes
-
 ## Preparation
 
 - Write one implementation using a sliding window and another using prefix sums.

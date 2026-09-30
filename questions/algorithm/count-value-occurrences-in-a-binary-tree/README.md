@@ -67,47 +67,6 @@ count_value(root, 8) -> 0
 
 There are four nodes containing `5`, exactly one containing `1`, and no node whose value is `8`.
 
-#### Approach (Recursive DFS)
-
-Since this is not a BST, no branch can be skipped; each node must be examined once. A recursive traversal expresses that directly:
-
-```python
-def count_value(root: Optional[TreeNode], x: int) -> int:
-    if root is None:
-        return 0
-    return (1 if root.val == x else 0) \
-         + count_value(root.left, x) \
-         + count_value(root.right, x)
-```
-
-**Complexity:**
-
-* Time: **O(n)**, with `n` equal to the number of nodes, because each node is processed once.
-* Space: **O(h)** due to recursive call frames, where `h` is the height of the tree. This is O(log n) for a balanced tree and O(n) for a skewed one.
-
-#### Approach (Iterative DFS)
-
-For an extremely deep tree, such as a 10^5-node chain, recursion may overflow the call stack. Use an explicit stack instead:
-
-```python
-def count_value(root: Optional[TreeNode], x: int) -> int:
-    if root is None:
-        return 0
-    count = 0
-    stack = [root]
-    while stack:
-        node = stack.pop()
-        if node.val == x:
-            count += 1
-        if node.left: stack.append(node.left)
-        if node.right: stack.append(node.right)
-    return count
-```
-
-**Complexity:** It remains O(n) time and O(h) auxiliary space, except that the active frontier resides on the heap rather than in the language call stack.
-
-Do not spend too long on Part 1. Using 10 minutes on this portion leaves insufficient time for the follow-ups, which are the main evaluation target.
-
 ### Part 2: Improving Performance (Follow-Ups)
 
 Once Part 1 is complete, three increasingly involved questions follow:

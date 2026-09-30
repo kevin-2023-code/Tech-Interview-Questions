@@ -36,7 +36,7 @@ IBM's engineering loop is shorter and less algorithm-heavy than most big-tech pr
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [.NET OA: 3^x * 5^y Count and Decreasing Subarrays](../../questions/algorithm/dotnet-number-and-decreasing-subarray-oa/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) |
+| [Count 3^x * 5^y Numbers and Decreasing Subarrays](../../questions/algorithm/dotnet-number-and-decreasing-subarray-oa/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) |
 | [Kubernetes Controller for Pod Balance](../../questions/object-oriented-programming/kubernetes-controller-pod-balance/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/kubernetes-controller-pod-balance) |
 | [1-D Valid Convolution with Multithreading Follow-up](../../questions/algorithm/one-dimensional-valid-convolution/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/one-dimensional-valid-convolution) |
 | [Minimum Removal Rounds by Smallest Response Time](../../questions/algorithm/minimum-removal-rounds-by-smallest-response-time/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/minimum-removal-rounds-by-smallest-response-time) |

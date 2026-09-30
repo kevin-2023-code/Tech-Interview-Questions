@@ -8,8 +8,8 @@ How Unknown interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../unknown.md) |
-| Free to read here | 2 |
+| Questions reported | [1](../unknown.md) |
+| Free to read here | 1 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Feb 26, 2026 |
@@ -20,16 +20,15 @@ No written process guide yet. [The loop, as reported](../unknown.md#the-loop-as-
 
 ## Free Unknown questions
 
-2 questions reported at Unknown open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+1 question reported at Unknown open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
-| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 
 ## Everything else
 
-- [All 2 questions reported at Unknown](../unknown.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 1 questions reported at Unknown](../unknown.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Unknown question on TrueInterview](https://trueinterview.io/problems/company/unknown).
 
 ---

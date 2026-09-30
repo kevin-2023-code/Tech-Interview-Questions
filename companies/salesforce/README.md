@@ -8,7 +8,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [52](../salesforce.md) |
+| Questions reported | [77](../salesforce.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 5 |
@@ -53,11 +53,11 @@ Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1)
 | [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](guides/cloud-domain-knowledge-round.md) | cloud, cs-fundamentals, domain-knowledge, infra, verbal |
 | [Hiring Manager + Behavioral Rounds](guides/hm-and-bq-rounds.md) | bq, conflict, leadership, mentorship, ownership, star, why-company |
 | [Project Architecture Deep Dive (AI Engineer / Backend)](guides/project-deep-dive-ai-engineer.md) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent, messaging, ml-knowledge, presentation, race-condition, transactions |
-| [TypeScript Refactor OA (HackerRank — fullstack)](guides/typescript-refactor-oa.md) | code-reading, frontend, fullstack, oop-design, refactoring, typescript |
+| [TypeScript Test and Code Refactor](guides/typescript-refactor-oa.md) | code-reading, frontend, fullstack, oop-design, refactoring, typescript |
 
 ## Everything else
 
-- [All 52 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 77 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Salesforce question on TrueInterview](https://trueinterview.io/problems/company/salesforce).
 
 ---

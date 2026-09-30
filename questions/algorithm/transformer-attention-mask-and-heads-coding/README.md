@@ -39,12 +39,6 @@ class MultiHeadSelfAttention(nn.Module):
 
 Assume `x` has shape `(batch, seq, hidden_dim)` and the returned tensor has the same shape. The mask must be usable for either padding positions or causal attention.
 
-## Notes
-
-Keep the dimension changes explicit, especially when converting projected queries, keys, and values into separate attention heads. Explain how a padding mask differs in broadcast behavior from a mask that blocks access to future positions.
-
-Masks must affect the logits before normalization; applying one only after softmax is not acceptable.
-
 ## Examples
 
 ### Example 1: Unmasked attention

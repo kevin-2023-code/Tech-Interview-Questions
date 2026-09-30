@@ -8,7 +8,7 @@ How Optiver interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [19](../optiver.md) |
+| Questions reported | [20](../optiver.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
 | Other guides | 10 |
@@ -64,7 +64,7 @@ Optiver hires on one conviction: good engineers and good traders both make accur
 
 ## Everything else
 
-- [All 19 questions reported at Optiver](../optiver.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 20 questions reported at Optiver](../optiver.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Optiver question on TrueInterview](https://trueinterview.io/problems/company/optiver).
 
 ---
