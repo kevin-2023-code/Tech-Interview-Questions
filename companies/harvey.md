@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **17** |
 | Most recent sighting | Sep 15, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 6 |
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 17) |
 | Difficulty (easy / medium / hard) | 0 / 12 / 5 |
 | Free to practise | [2](../free/README.md) |
@@ -37,7 +37,7 @@ Which stage each question came from, for the **17 of 17** questions at Harvey th
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,8 +47,6 @@ Which stage each question came from, for the **17 of 17** questions at Harvey th
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Citation Highlighting](https://trueinterview.io/questions/citation-highlighting) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 09, 2026 |
 | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | System Design | Medium | Onsite / virtual onsite | Jul 07, 2026 |
-| [Design a Law Firm Memo Q&A AI Agent](https://trueinterview.io/questions/design-a-law-firm-memo-q-a-ai-agent) | System Design | Hard | Onsite / virtual onsite | Jul 2026 |
-| [Spreadsheet with Cell Dependencies](https://trueinterview.io/questions/design-spreadsheet-with-cell-dependencies) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Jul 2026 |
 
 ## What they ask about
 
@@ -116,7 +114,7 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | System Design | Medium | 🔥 Sep 15, 2026 |
+| [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | System Design | Medium | 🆕 Sep 15, 2026 |
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | System Design | Medium | 🆕 Sep 01, 2026 |
 | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | System Design | Hard | 🆕 Sep 01, 2026 |
 | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Algorithm | Medium | 🆕 Sep 01, 2026 |

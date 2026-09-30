@@ -91,4 +91,4 @@ The 1 question to open first if you are preparing for Together AI, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | Medium | 🔥 Sep 15, 2026 |
+| [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | Medium | 🆕 Sep 15, 2026 |

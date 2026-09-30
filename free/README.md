@@ -55,7 +55,7 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Count Unique Pairs With Difference K](https://trueinterview.io/questions/unique-pairs-difference-k) | **Goldman Sachs** | Easy | Oct 26, 2024 |
 | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree) | **Apple** | Easy | Dec 10, 2025 |
 | [Delete-One-Character Positions](https://trueinterview.io/questions/delete-one-character-positions) | **JPMorgan** | Easy | Jul 29, 2025 |
-| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🔥 Sep 15, 2026 |
+| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🆕 Sep 15, 2026 |
 | [Determine Employees to Promote](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) | **Snowflake** | Easy | — |
 | [File Profiler](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) | **Anthropic** | Easy | — |
 | [Find Combinations After Flip](https://trueinterview.io/questions/1da69ce4-74fb-48ef-9eb8-ebca7578ec21) | **Uber** | Easy | — |

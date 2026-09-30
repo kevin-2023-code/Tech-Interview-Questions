@@ -89,7 +89,7 @@ Of the **239 questions in this cut that carry a topic label** (64% of it):
 | **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Medium | 🆕 Aug 16, 2026 |
 | **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Medium | 🆕 Aug 16, 2026 |
 | **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | 🆕 Aug 15, 2026 |
+| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | Aug 15, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
 | **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Medium | Aug 13, 2026 |
 | **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Medium | Aug 12, 2026 |

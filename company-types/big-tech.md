@@ -47,7 +47,7 @@ Of the **919 questions in this cut that carry a topic label** (68% of it):
 
 ## Asked here in the last 90 days
 
-**143 sightings** across this cut. Newest first.
+**140 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **919 questions in this cut that carry a topic label** (68% of it):
 | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | LinkedIn | Object Oriented Programming | Sep 06, 2026 |
 | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Object Oriented Programming | Sep 06, 2026 |
 
-<sub>131 more in this window are in the table below.</sub>
+<sub>128 more in this window are in the table below.</sub>
 
 ---
 
@@ -145,7 +145,7 @@ Of the **919 questions in this cut that carry a topic label** (68% of it):
 | **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Medium | 🆕 Aug 16, 2026 |
 | **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Medium | 🆕 Aug 16, 2026 |
 | **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | 🆕 Aug 15, 2026 |
+| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | Aug 15, 2026 |
 | **Amazon** | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Medium | Aug 14, 2026 |
 | **Amazon** | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Medium | Aug 14, 2026 |
 | **Amazon** | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Medium | Aug 14, 2026 |

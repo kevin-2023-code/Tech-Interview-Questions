@@ -47,7 +47,7 @@ Of the **112 questions in this cut that carry a topic label** (42% of it):
 
 ## Asked here in the last 90 days
 
-**20 sightings** across this cut. Newest first.
+**18 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **112 questions in this cut that carry a topic label** (42% of it):
 | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | OpenAI | System Design | Aug 08, 2026 |
 | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | OpenAI | Algorithm | Jul 31, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ---
 
@@ -76,10 +76,10 @@ Of the **112 questions in this cut that carry a topic label** (42% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Medium | 🔥 Sep 15, 2026 |
-| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🔥 Sep 15, 2026 |
-| **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🔥 Sep 15, 2026 |
-| **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🔥 Sep 15, 2026 |
+| **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Medium | 🆕 Sep 15, 2026 |
+| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🆕 Sep 15, 2026 |
+| **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🆕 Sep 15, 2026 |
+| **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | Medium | 🆕 Sep 15, 2026 |
 | **Harvey** | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Medium | 🆕 Sep 01, 2026 |
 | **Harvey** | [Design and Evaluate a Retrieval-Augmented Generation Pipeline](https://trueinterview.io/questions/design-and-evaluate-a-retrieval-augmented-generation-pipeline) | Hard | 🆕 Sep 01, 2026 |
 | **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |

@@ -72,4 +72,4 @@ The 1 question to open first if you are preparing for Nclusion, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | System Design | Easy | 🔥 Sep 15, 2026 |
+| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | System Design | Easy | 🆕 Sep 15, 2026 |

@@ -151,7 +151,7 @@
 | [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c) | **Moveworks** | Medium | — |
 | [Graph Coloring Problem](https://trueinterview.io/questions/127d85cb-786f-47dd-8141-f83f4b8f8b66) | **WeRide** | Medium | — |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | **Vanta** | Medium | Jul 16, 2026 |
-| [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | **Cohere** | Medium | 🔥 Sep 15, 2026 |
+| [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | **Cohere** | Medium | 🆕 Sep 15, 2026 |
 | [Implement Trie with Non-Standard Alphabet](https://trueinterview.io/questions/a6dc4f5a-45a3-4687-a192-593d8fcd1712) | **Snowflake** | Medium | — |
 | [K Smallest Substring](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) | **Akuna Capital** | Medium | — |
 | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | **Squarepoint** | Medium | — |
@@ -196,7 +196,7 @@
 | [Shipping Cost Calculator](https://trueinterview.io/questions/shipping-cost-calculator) | **Stripe** | Medium | Dec 19, 2025 |
 | [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) | **Chicago Trading** | Medium | — |
 | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) | **Rubrik** | Medium | — |
-| [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | **Together AI** | Medium | 🔥 Sep 15, 2026 |
+| [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | **Together AI** | Medium | 🆕 Sep 15, 2026 |
 | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) | **Anthropic** | Medium | Jun 04, 2026 |
 | [SWE / SDE Intern Coding OA (DP + C++/Ruby)](https://trueinterview.io/questions/swe-intern-coding-oa) | **Shopify** | Medium | Aug 29, 2025 |
 | [Task Query by Time and Name Filter with Sorting](https://trueinterview.io/questions/091d8486-b41a-4846-8a15-c30d696e1a7f) | **Circle** | Medium | — |

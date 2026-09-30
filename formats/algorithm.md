@@ -14,8 +14,8 @@
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Medium | 🔥 Sep 18, 2026 |
 | **Houzz** | [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label) | Easy | 🔥 Sep 18, 2026 |
 | **Ziphq** | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Hard | 🔥 Sep 17, 2026 |
-| **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Medium | 🔥 Sep 15, 2026 |
-| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🔥 Sep 15, 2026 |
+| **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Medium | 🆕 Sep 15, 2026 |
+| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🆕 Sep 15, 2026 |
 | **Amazon** | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Medium | 🆕 Sep 14, 2026 |
 | **AMD** | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Medium | 🆕 Sep 14, 2026 |
 | **Voleon** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Hard | 🆕 Sep 14, 2026 |
@@ -79,9 +79,9 @@
 | **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Medium | 🆕 Aug 16, 2026 |
 | **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Medium | 🆕 Aug 16, 2026 |
 | **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | 🆕 Aug 16, 2026 |
-| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | 🆕 Aug 15, 2026 |
-| **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Medium | 🆕 Aug 15, 2026 |
-| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | 🆕 Aug 15, 2026 |
+| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | Aug 15, 2026 |
+| **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Medium | Aug 15, 2026 |
+| **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | Aug 15, 2026 |
 | **Amazon** | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Medium | Aug 14, 2026 |
 | **Amazon** | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Medium | Aug 14, 2026 |
 | **Amazon** | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Medium | Aug 14, 2026 |

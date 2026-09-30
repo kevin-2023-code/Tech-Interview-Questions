@@ -139,7 +139,7 @@ What candidates said happened in the room at Databricks — written up by the pe
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | System Design | Medium | 🔥 Sep 15, 2026 |
+| [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | System Design | Medium | 🆕 Sep 15, 2026 |
 | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Algorithm | Hard | 🆕 Sep 06, 2026 |
 | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Algorithm | Hard | 🆕 Sep 06, 2026 |
 | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | System Design | Medium | 🆕 Sep 06, 2026 |

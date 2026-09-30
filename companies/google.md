@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **197** |
 | Most recent sighting | Sep 10, 2026 |
-| Reported in the last 90 days | 20 |
+| Reported in the last 90 days | 19 |
 | Most common format | [Algorithm](../formats/algorithm.md) (76% of 197) |
 | Difficulty (easy / medium / hard) | 20 / 130 / 47 |
 | Free to practise | [22](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **197 of 197** questions at Google 
 
 ## Asked here in the last 90 days
 
-**20 sightings** in this window. Newest first.
+**19 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -56,7 +56,7 @@ Which stage each question came from, for the **197 of 197** questions at Google 
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Phone screen | Aug 11, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>7 more in this window are in the table below.</sub>
 
 ## What they ask about
 

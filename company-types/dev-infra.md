@@ -71,11 +71,11 @@ Of the **144 questions in this cut that carry a topic label** (63% of it):
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Easy | 🔥 Sep 17, 2026 |
-| **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Medium | 🔥 Sep 15, 2026 |
+| **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Medium | 🆕 Sep 15, 2026 |
 | **Databricks** | [Tic-Tac-Toe Against a Deterministic Automatic Opponent](https://trueinterview.io/questions/tic-tac-toe-against-a-deterministic-automatic-opponent) | Hard | 🆕 Sep 06, 2026 |
 | **Databricks** | [Referral Credit Tracker with Indirect Referrals](https://trueinterview.io/questions/referral-credit-tracker-with-indirect-referrals) | Hard | 🆕 Sep 06, 2026 |
 | **Databricks** | [Design Chat APIs, Storage, and Message Flows](https://trueinterview.io/questions/design-chat-apis-storage-and-message-flows) | Medium | 🆕 Sep 06, 2026 |
-| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | 🆕 Aug 15, 2026 |
+| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | Aug 15, 2026 |
 | **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Medium | Aug 13, 2026 |
 | **Snowflake** | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Medium | Aug 01, 2026 |
 | **Databricks** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | Medium | Jul 30, 2026 |

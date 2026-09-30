@@ -11,7 +11,7 @@
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | Easy | Apr 12, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | Easy | Mar 24, 2026 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | Easy | Oct 29, 2025 |
-| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🔥 Sep 15, 2026 |
+| [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🆕 Sep 15, 2026 |
 | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | **Cursor** | Easy | Apr 07, 2026 |
 | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Easy | 🔥 Sep 17, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | Medium | Jan 14, 2026 |
@@ -20,7 +20,7 @@
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | Medium | Jun 11, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | **Reddit / Atlassian / Meta** | Medium | Apr 02, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | **Databricks / Square** | Medium | Apr 06, 2026 |
-| [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | **Cohere** | Medium | 🔥 Sep 15, 2026 |
+| [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | **Cohere** | Medium | 🆕 Sep 15, 2026 |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | **AMD** | Medium | 🆕 Sep 14, 2026 |
 | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | **Robinhood** | Medium | Jun 2025 |
 | [Web Crawler with Communication Constraint](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) | **Lyft** | Medium | — |

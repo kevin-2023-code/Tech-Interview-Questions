@@ -47,7 +47,7 @@ Of the **498 questions in this cut that carry a topic label** (70% of it):
 
 ## Asked here in the last 90 days
 
-**58 sightings** across this cut. Newest first.
+**57 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **498 questions in this cut that carry a topic label** (70% of it):
 | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | LinkedIn | Algorithm | Aug 27, 2026 |
 | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Pinterest | Algorithm | Aug 26, 2026 |
 
-<sub>46 more in this window are in the table below.</sub>
+<sub>45 more in this window are in the table below.</sub>
 
 ---
 

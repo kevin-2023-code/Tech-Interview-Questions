@@ -89,7 +89,7 @@ Of the **560 questions in this cut that carry a topic label** (58% of it):
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | 🆕 Aug 24, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | 🆕 Aug 22, 2026 |
 | **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Easy | 🆕 Aug 17, 2026 |
-| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | 🆕 Aug 15, 2026 |
+| **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | Aug 15, 2026 |
 | **OpenAI** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Hard | Aug 13, 2026 |
 | **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Medium | Aug 13, 2026 |
 | **Roblox** | [Distinct Cyclic Number Pairs](https://trueinterview.io/questions/distinct-cyclic-number-pairs) | Medium | Aug 12, 2026 |

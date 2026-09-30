@@ -137,7 +137,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | 🆕 Aug 15, 2026 |
+| [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | Aug 15, 2026 |
 | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | Aug 13, 2026 |
 | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | Aug 01, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | Jul 22, 2026 |

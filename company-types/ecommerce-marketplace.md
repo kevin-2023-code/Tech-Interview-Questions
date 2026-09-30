@@ -47,7 +47,7 @@ Of the **421 questions in this cut that carry a topic label** (66% of it):
 
 ## Asked here in the last 90 days
 
-**64 sightings** across this cut. Newest first.
+**62 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **421 questions in this cut that carry a topic label** (66% of it):
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Amazon | Algorithm | Sep 01, 2026 |
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Amazon | Algorithm | Sep 01, 2026 |
 
-<sub>52 more in this window are in the table below.</sub>
+<sub>50 more in this window are in the table below.</sub>
 
 ---
 

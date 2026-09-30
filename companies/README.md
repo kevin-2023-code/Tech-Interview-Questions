@@ -58,8 +58,8 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 238 | 20 | 41 | Sep 14, 2026 | 29 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 197 | 8 | 20 | Sep 10, 2026 | 22 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 238 | 20 | 39 | Sep 14, 2026 | 29 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 197 | 8 | 19 | Sep 10, 2026 | 22 |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 185 | 11 | 7 | Aug 16, 2026 | 23 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 172 | 6 | 4 | Aug 16, 2026 | 36 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 168 | 14 | 16 | Sep 06, 2026 | 23 |
@@ -117,7 +117,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Figma](figma.md) | Enterprise & business software · 1,000–9,999 people | 18 | 3 | 8 | Aug 12, 2026 | 2 |
 | [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 18 | 2 | 0 | Jun 28, 2026 | 2 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 18 | 3 | 0 | Jun 23, 2026 | 5 |
-| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 17 | 2 | 8 | Sep 15, 2026 | 2 |
+| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 17 | 2 | 6 | Sep 15, 2026 | 2 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 0 | May 01, 2026 | 3 |
 | [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 8 |
 | [Yelp](yelp.md) | Consumer internet & media · 1,000–9,999 people | 17 | — | 0 | Apr 12, 2026 | 9 |

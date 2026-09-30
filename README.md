@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,746 questions** · **385 writeups** · **109 companies** · **325 free to practise** · **244 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,746 questions** · **385 writeups** · **109 companies** · **325 free to practise** · **239 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -41,9 +41,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 244 sightings at 53 companies — Algorithm 138 · SQL 31 · System Design 46 · AI Coding 2 · Object Oriented Programming 27.
+**Last 90 days:** 239 sightings at 53 companies — Algorithm 136 · SQL 31 · System Design 45 · AI Coding 2 · Object Oriented Programming 25.
 
-**Reported most:** [Amazon (41)](companies/amazon.md) · [Google (20)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (11)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Microsoft (10)](companies/microsoft.md) · [Citadel (8)](companies/citadel.md)
+**Reported most:** [Amazon (39)](companies/amazon.md) · [Google (19)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (11)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Microsoft (10)](companies/microsoft.md) · [Citadel (8)](companies/citadel.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (13)
 
@@ -163,12 +163,12 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | System Design | 🔥 Sep 17, 2026 |
 | **Ziphq** | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | 🔥 Sep 17, 2026 |
 | **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | 🔥 Sep 16, 2026 |
-| **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | 🔥 Sep 15, 2026 |
-| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Algorithm | 🔥 Sep 15, 2026 |
-| **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | System Design | 🔥 Sep 15, 2026 |
-| **Nclusion** | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | System Design | 🔥 Sep 15, 2026 |
-| **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | System Design | 🔥 Sep 15, 2026 |
-| **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | System Design | 🔥 Sep 15, 2026 |
+| **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | 🆕 Sep 15, 2026 |
+| **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Algorithm | 🆕 Sep 15, 2026 |
+| **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | System Design | 🆕 Sep 15, 2026 |
+| **Nclusion** | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | System Design | 🆕 Sep 15, 2026 |
+| **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | System Design | 🆕 Sep 15, 2026 |
+| **Harvey** | [Design a Chat Application with Durable Conversation History](https://trueinterview.io/questions/design-a-chat-application-with-durable-conversation-history) | System Design | 🆕 Sep 15, 2026 |
 | **AMD** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | 🆕 Sep 14, 2026 |
 | **Amazon** | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | 🆕 Sep 14, 2026 |
 | **AMD** | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Algorithm | 🆕 Sep 14, 2026 |
