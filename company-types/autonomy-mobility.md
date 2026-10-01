@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 85 | 66% | ██████████████ | 16 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 17 | 13% | ███ | 7 |
-| [System Design](../formats/system-design.md) | 13 | 10% | ██ | 1 |
+| [Algorithm](../formats/algorithm.md) | 85 | 66% | ██████████████ | 17 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 17 | 13% | ███ | 8 |
+| [System Design](../formats/system-design.md) | 13 | 10% | ██ | 2 |
 | [SQL](../formats/sql.md) | 8 | 6% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **12 / 78 / 38**, over the rows the catalog has graded. 25 of the 128 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **12 / 78 / 38**, over the rows the catalog has graded. 28 of the 128 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -47,14 +47,13 @@ Of the **81 questions in this cut that carry a topic label** (63% of it):
 
 ## Asked here in the last 90 days
 
-**4 sightings** across this cut. Newest first.
+**3 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | WeRide … | Algorithm | Jul 29, 2026 |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Waymo | Algorithm | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Waymo | Algorithm | Jul 06, 2026 |
-| [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Waymo | Algorithm | Jul 02, 2026 |
 
 ---
 

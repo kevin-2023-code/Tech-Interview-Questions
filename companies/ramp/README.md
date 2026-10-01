@@ -9,7 +9,7 @@ How Ramp interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [27](../ramp.md) |
-| Free to read here | 8 |
+| Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
 | Most recent sighting | Sep 18, 2026 |
@@ -34,13 +34,14 @@ Frontend-flavored assessments replace the simulation with practical React work: 
 
 ## Free Ramp questions
 
-8 questions reported at Ramp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Ramp open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [User Flight Location Tracker](../../questions/algorithm/find-a-user-s-airport-from-flight-history/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/find-a-user-s-airport-from-flight-history) |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
+| [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/rate-limiter-by-ip-address) |
 | [Cloud Storage System](../../questions/algorithm/cloud-storage-system/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/cloud-storage-system) |
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
 | [Convert Snake Case to Camel Case](../../questions/algorithm/convert-snake-case-names-to-lowercamelcase/README.md) | Algorithm | Easy | Online assessment | Apr 2025 | [Solve](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) |

@@ -9,7 +9,7 @@ How Cisco interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [25](../cisco.md) |
-| Free to read here | 10 |
+| Free to read here | 17 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jun 16, 2026 |
@@ -34,11 +34,18 @@ End to end, the Cisco pipeline typically runs four to eight weeks, though schedu
 
 ## Free Cisco questions
 
-10 questions reported at Cisco open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+17 questions reported at Cisco open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Rotate a Matrix by 90 Degrees In Place](../../questions/algorithm/rotate-a-matrix-by-90-degrees-in-place/README.md) | Algorithm | Medium | Online assessment, Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) |
+| [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
+| [Linked List Binary to Decimal](../../questions/algorithm/linked-list-binary-to-decimal/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/linked-list-binary-to-decimal) |
+| [Minimum Insertions / Deletions Password Update](../../questions/algorithm/minimum-insertions-deletions-password-update/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) |
+| [Add Two Reversed Digit Lists](../../questions/algorithm/add-two-reversed-digit-lists/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/add-two-reversed-digit-lists) |
+| [Row Maximum / Column Minimum](../../questions/algorithm/row-maximum-column-minimum/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) |
+| [Minimum Swaps for Even / Odd Partition](../../questions/algorithm/minimum-swaps-even-odd-partition/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) |
+| [Alternating String Merge](../../questions/algorithm/alternating-string-merge/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/alternating-string-merge) |
 | [Nested Pattern String Expansion](../../questions/algorithm/nested-pattern-string-expansion/README.md) | Algorithm | Hard | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/nested-pattern-string-expansion) |
 | [Compress Consecutive Ranges](../../questions/algorithm/compress-consecutive-ranges/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/compress-consecutive-ranges) |
 | [Matrix Zig-Zag Traversal](../../questions/algorithm/matrix-zig-zag-traversal/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/matrix-zig-zag-traversal) |

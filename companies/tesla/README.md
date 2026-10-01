@@ -9,7 +9,7 @@ How Tesla interviews, and the questions candidates reported there. Free question
 |  |  |
 | :-- | :-- |
 | Questions reported | [35](../tesla.md) |
-| Free to read here | 8 |
+| Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 2 |
 | Most recent sighting | Jun 03, 2026 |
@@ -38,12 +38,13 @@ End to end, the process typically takes three to eight weeks, but the operationa
 
 ## Free Tesla questions
 
-8 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Tesla open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/shortest-bridge-2) |
+| [Robot Room Navigation Take-Home](../../questions/algorithm/robot-room-navigation-takehome/README.md) | Algorithm | Hard | Take-home | Sep 2025 | [Solve](https://trueinterview.io/questions/robot-room-navigation-takehome) |
 | [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md) | AI Coding | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/dijkstra-code-review-navigation) |
 | [Priority Expiry LRU Cache](../../questions/object-oriented-programming/priority-expire-cache-eviction/README.md) | Object Oriented Programming | Hard | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/priority-expire-cache-eviction) |
 | [Route Nearest Checkpoint](../../questions/algorithm/trajectory-waypoint-distance-queries/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/trajectory-waypoint-distance-queries) |

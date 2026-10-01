@@ -44,7 +44,7 @@ Two graded coding stages — the initial assessment and at least one live round 
 
 - [QR HackerRank: Profitable Pairs and Delivery Order](https://trueinterview.io/questions/qr-hackerrank-profitable-pairs-and-delivery-order)
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
-- [Find Missing and Repeated Element](https://trueinterview.io/questions/find-missing-and-repeated-element)
+- [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
 - [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips)
 
 ### Low-Level Design
@@ -54,7 +54,7 @@ The final round converts research problems into implementable components under h
 - [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
 - [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
 - [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer)
-- [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels)
+- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
 
 ## What They Don't Test
 

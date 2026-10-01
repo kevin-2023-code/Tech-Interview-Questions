@@ -2,16 +2,16 @@
 
 # Free questions
 
-**323 of the 2,935 tracked questions open without a paid plan** (11%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
+**361 of the 2,935 tracked questions open without a paid plan** (12%) — the whole statement, the editor, the test cases you can run, and a judged verdict. This list is the catalog's own `accessTier`, regenerated hourly: nothing here is a claim this repository makes on the site's behalf.
 
 [← Question bank](../README.md) · [What companies are asking](../insights/README.md) · [Free reading](../guides/README.md)
 
 | Format | Free questions | Easy | Medium | Hard |
 | :-- | --: | --: | --: | --: |
-| [Algorithm](algorithm.md) | 238 | 63 | 136 | 39 |
-| [System Design](system-design.md) | 24 | 6 | 10 | 8 |
+| [Algorithm](algorithm.md) | 267 | 71 | 156 | 40 |
+| [System Design](system-design.md) | 26 | 7 | 10 | 9 |
 | [AI Coding](ai-coding.md) | 10 | 1 | 8 | 1 |
-| [Object Oriented Programming](object-oriented-programming.md) | 51 | 2 | 43 | 6 |
+| [Object Oriented Programming](object-oriented-programming.md) | 58 | 3 | 48 | 7 |
 
 ## Start here
 
@@ -38,11 +38,14 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Final Prices With a Special Discount in a Shop](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) | **Uber / Microsoft** | Easy | Apr 01, 2026 |
 | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | **Uber / Block** | Easy | May 2026 |
 | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | **Luma AI / Amazon** | Easy | — |
+| [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | **Intuit / Cisco** | Easy | Sep 29, 2025 |
 | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | **ByteDance / Rubrik** | Easy | — |
 | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | **Akuna Capital / Google** | Easy | Aug 26, 2025 |
 | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | **Bobyard** | Easy | — |
 | [Alphanumeric Vowel / Consonant Count](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) | **JPMorgan** | Easy | Jun 30, 2025 |
+| [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) | **Cisco** | Easy | Sep 04, 2025 |
 | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | **Applied Intuition** | Easy | — |
+| [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | **Roblox** | Easy | Sep 02, 2025 |
 | [C++ only, ~10 min](https://trueinterview.io/questions/swe-intern-coding-oa-c-only-10-min) | **Shopify** | Easy | Aug 29, 2025 |
 | [Calculate and Sort Customer Ratings](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) | **Atlassian** | Easy | — |
 | [Calculate Fibonacci Number](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) | **Snowflake** | Easy | — |
@@ -54,10 +57,7 @@ The 40 to open first: easiest first, and within a level the ones reported at the
 | [Count Unique Pairs With Difference K](https://trueinterview.io/questions/unique-pairs-difference-k) | **Goldman Sachs** | Easy | Oct 26, 2024 |
 | [Count Value Occurrences in a Binary Tree](https://trueinterview.io/questions/count-value-occurrences-in-a-binary-tree) | **Apple** | Easy | Dec 10, 2025 |
 | [Delete-One-Character Positions](https://trueinterview.io/questions/delete-one-character-positions) | **JPMorgan** | Easy | Jul 29, 2025 |
+| [Design A Color Picker Service](https://trueinterview.io/questions/design-a-color-picker-service) | **Atlassian** | Easy | — |
 | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🆕 Sep 15, 2026 |
-| [Determine Employees to Promote](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) | **Snowflake** | Easy | — |
-| [File Profiler](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) | **Anthropic** | Easy | — |
-| [Find Combinations After Flip](https://trueinterview.io/questions/1da69ce4-74fb-48ef-9eb8-ebca7578ec21) | **Uber** | Easy | — |
-| [Find Destination Node](https://trueinterview.io/questions/find-destination-node) | **Yelp** | Easy | Apr 20, 2025 |
 
 <sub>The rest are on the per-format pages above. A dash in *Reported* means no sighting date was recorded, which is not the same as old.</sub>

@@ -80,22 +80,22 @@
 | **Amazon / ByteDance** | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Medium | 🆕 Aug 17, 2026 |
 | **ByteDance** | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Hard | 🆕 Aug 17, 2026 |
 | **ByteDance** | [Pythagorean Triple in an Integer Array](https://trueinterview.io/questions/pythagorean-triple-integer-array) | Medium | 🆕 Aug 17, 2026 |
-| **LinkedIn** | [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Medium | 🆕 Aug 16, 2026 |
-| **LinkedIn** | [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Medium | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Medium | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Medium | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Hard | 🆕 Aug 16, 2026 |
-| **DoorDash** | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Easy | 🆕 Aug 16, 2026 |
-| **DoorDash** | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Medium | 🆕 Aug 16, 2026 |
-| **Apple** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Medium | 🆕 Aug 16, 2026 |
-| **DoorDash** | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Medium | 🆕 Aug 16, 2026 |
-| **Uber** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Medium | 🆕 Aug 16, 2026 |
-| **Google** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Medium | 🆕 Aug 16, 2026 |
-| **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Medium | 🆕 Aug 16, 2026 |
-| **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | 🆕 Aug 16, 2026 |
+| **LinkedIn** | [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Medium | Aug 16, 2026 |
+| **LinkedIn** | [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Medium | Aug 16, 2026 |
+| **Salesforce** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Medium | Aug 16, 2026 |
+| **Salesforce** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Medium | Aug 16, 2026 |
+| **Salesforce** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Hard | Aug 16, 2026 |
+| **DoorDash** | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Easy | Aug 16, 2026 |
+| **DoorDash** | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Medium | Aug 16, 2026 |
+| **Apple** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Medium | Aug 16, 2026 |
+| **DoorDash** | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Medium | Aug 16, 2026 |
+| **Uber** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Medium | Aug 16, 2026 |
+| **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Medium | Aug 16, 2026 |
+| **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Medium | Aug 16, 2026 |
+| **Google** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Medium | Aug 16, 2026 |
+| **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Medium | Aug 16, 2026 |
+| **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Medium | Aug 16, 2026 |
+| **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | Aug 16, 2026 |
 | **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | Aug 15, 2026 |
 | **Citadel** | [Task Dependency Ordering](https://trueinterview.io/questions/task-dependency-ordering) | Medium | Aug 15, 2026 |
 | **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | Aug 15, 2026 |

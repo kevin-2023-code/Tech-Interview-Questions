@@ -1,7 +1,7 @@
 {
   "accessTiers": {
-    "free": 323,
-    "insider": 2534,
+    "free": 361,
+    "insider": 2496,
     "pro": 78
   },
   "companies": [
@@ -10,7 +10,7 @@
       "free": 29,
       "guides": 24,
       "inLastYear": 152,
-      "inWindow": 44,
+      "inWindow": 40,
       "lastSighting": "2026-09-20",
       "name": "Amazon",
       "questions": 252,
@@ -23,7 +23,7 @@
       "free": 22,
       "guides": 8,
       "inLastYear": 99,
-      "inWindow": 20,
+      "inWindow": 19,
       "lastSighting": "2026-09-18",
       "name": "Google",
       "questions": 198,
@@ -137,7 +137,7 @@
     },
     {
       "dated": 48,
-      "free": 9,
+      "free": 12,
       "guides": 7,
       "inLastYear": 39,
       "inWindow": 7,
@@ -218,7 +218,7 @@
       "free": 4,
       "guides": 7,
       "inLastYear": 46,
-      "inWindow": 8,
+      "inWindow": 7,
       "lastSighting": "2026-09-16",
       "name": "DoorDash",
       "questions": 71,
@@ -228,7 +228,7 @@
     },
     {
       "dated": 40,
-      "free": 10,
+      "free": 11,
       "guides": 11,
       "inLastYear": 40,
       "inWindow": 0,
@@ -254,7 +254,7 @@
     },
     {
       "dated": 54,
-      "free": 10,
+      "free": 15,
       "guides": 6,
       "inLastYear": 48,
       "inWindow": 3,
@@ -280,7 +280,7 @@
     },
     {
       "dated": 44,
-      "free": 4,
+      "free": 6,
       "guides": 7,
       "inLastYear": 41,
       "inWindow": 3,
@@ -293,10 +293,10 @@
     },
     {
       "dated": 49,
-      "free": 2,
+      "free": 4,
       "guides": 3,
       "inLastYear": 47,
-      "inWindow": 3,
+      "inWindow": 2,
       "lastSighting": "2026-07-09",
       "name": "Waymo",
       "questions": 55,
@@ -319,7 +319,7 @@
     },
     {
       "dated": 33,
-      "free": 13,
+      "free": 15,
       "guides": 5,
       "inLastYear": 30,
       "inWindow": 2,
@@ -358,7 +358,7 @@
     },
     {
       "dated": 36,
-      "free": 21,
+      "free": 25,
       "guides": 7,
       "inLastYear": 16,
       "inWindow": 1,
@@ -384,7 +384,7 @@
     },
     {
       "dated": 26,
-      "free": 8,
+      "free": 9,
       "guides": 5,
       "inLastYear": 18,
       "inWindow": 0,
@@ -449,7 +449,7 @@
     },
     {
       "dated": 23,
-      "free": 5,
+      "free": 9,
       "guides": 6,
       "inLastYear": 18,
       "inWindow": 1,
@@ -475,7 +475,7 @@
     },
     {
       "dated": 18,
-      "free": 7,
+      "free": 10,
       "guides": 3,
       "inLastYear": 11,
       "inWindow": 2,
@@ -540,7 +540,7 @@
     },
     {
       "dated": 20,
-      "free": 8,
+      "free": 9,
       "guides": 2,
       "inLastYear": 15,
       "inWindow": 1,
@@ -553,7 +553,7 @@
     },
     {
       "dated": 15,
-      "free": 4,
+      "free": 5,
       "guides": 2,
       "inLastYear": 12,
       "inWindow": 1,
@@ -592,7 +592,7 @@
     },
     {
       "dated": 15,
-      "free": 10,
+      "free": 17,
       "guides": 1,
       "inLastYear": 2,
       "inWindow": 0,
@@ -683,7 +683,7 @@
     },
     {
       "dated": 16,
-      "free": 4,
+      "free": 5,
       "guides": 13,
       "inLastYear": 13,
       "inWindow": 0,
@@ -722,7 +722,7 @@
     },
     {
       "dated": 19,
-      "free": 5,
+      "free": 6,
       "guides": 4,
       "inLastYear": 14,
       "inWindow": 0,
@@ -761,7 +761,7 @@
     },
     {
       "dated": 12,
-      "free": 2,
+      "free": 3,
       "guides": 2,
       "inLastYear": 11,
       "inWindow": 0,
@@ -1433,10 +1433,10 @@
     {
       "easy": 353,
       "format": "algorithm",
-      "free": 238,
+      "free": 267,
       "graded": 1943,
       "hard": 376,
-      "inWindow": 155,
+      "inWindow": 150,
       "label": "Algorithm",
       "medium": 1214,
       "questions": 1943
@@ -1455,10 +1455,10 @@
     {
       "easy": 17,
       "format": "system-design",
-      "free": 24,
+      "free": 26,
       "graded": 312,
       "hard": 139,
-      "inWindow": 57,
+      "inWindow": 56,
       "label": "System Design",
       "medium": 156,
       "questions": 312
@@ -1469,7 +1469,7 @@
       "free": 10,
       "graded": 126,
       "hard": 46,
-      "inWindow": 2,
+      "inWindow": 1,
       "label": "AI Coding",
       "medium": 68,
       "questions": 126
@@ -1477,7 +1477,7 @@
     {
       "easy": 41,
       "format": "object-oriented-programming",
-      "free": 51,
+      "free": 58,
       "graded": 460,
       "hard": 55,
       "inWindow": 31,
@@ -1486,7 +1486,7 @@
       "questions": 460
     }
   ],
-  "generated": "2026-09-30",
+  "generated": "2026-10-01",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2153,7 +2153,7 @@
       "easy": 83,
       "graded": 330,
       "hard": 42,
-      "inWindow": 36,
+      "inWindow": 35,
       "medium": 205,
       "questions": 330,
       "topCompanies": [
@@ -2513,7 +2513,7 @@
       "easy": 4,
       "graded": 100,
       "hard": 34,
-      "inWindow": 13,
+      "inWindow": 12,
       "medium": 62,
       "questions": 100,
       "topCompanies": [
@@ -2549,7 +2549,7 @@
       "easy": 10,
       "graded": 99,
       "hard": 13,
-      "inWindow": 11,
+      "inWindow": 10,
       "medium": 76,
       "questions": 99,
       "topCompanies": [
@@ -2693,7 +2693,7 @@
       "easy": 11,
       "graded": 88,
       "hard": 20,
-      "inWindow": 8,
+      "inWindow": 7,
       "medium": 57,
       "questions": 88,
       "topCompanies": [
@@ -2729,7 +2729,7 @@
       "easy": 1,
       "graded": 70,
       "hard": 15,
-      "inWindow": 6,
+      "inWindow": 5,
       "medium": 54,
       "questions": 70,
       "topCompanies": [
@@ -2909,12 +2909,12 @@
   "totals": {
     "companies": 109,
     "dated": 1638,
-    "free": 323,
+    "free": 361,
     "futureDated": 0,
     "gradedDifficulty": 2935,
     "guides": 410,
     "inLastYear": 1509,
-    "inWindow": 276,
+    "inWindow": 269,
     "labelledTopic": 1915,
     "namingARound": 2935,
     "questions": 2935,

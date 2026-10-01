@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 303 | 66% | ██████████████ | 45 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 85 | 19% | ████ | 16 |
-| [System Design](../formats/system-design.md) | 55 | 12% | ███ | 5 |
+| [Algorithm](../formats/algorithm.md) | 303 | 66% | ██████████████ | 46 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 85 | 19% | ████ | 20 |
+| [System Design](../formats/system-design.md) | 55 | 12% | ███ | 6 |
 | [AI Coding](../formats/ai-coding.md) | 8 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **72 / 298 / 88**, over the rows the catalog has graded. 67 of the 458 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **72 / 298 / 88**, over the rows the catalog has graded. 73 of the 458 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -99,13 +99,13 @@ Of the **307 questions in this cut that carry a topic label** (67% of it):
 | **Salesforce** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Medium | 🆕 Aug 24, 2026 |
 | **Microsoft** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Hard | 🆕 Aug 20, 2026 |
 | **Oracle** | [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | Hard | 🆕 Aug 19, 2026 |
-| **Salesforce** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | Hard | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Medium | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Medium | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Hard | 🆕 Aug 16, 2026 |
-| **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | 🆕 Aug 16, 2026 |
+| **Salesforce** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | Hard | Aug 16, 2026 |
+| **Salesforce** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Medium | Aug 16, 2026 |
+| **Salesforce** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Medium | Aug 16, 2026 |
+| **Salesforce** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Hard | Aug 16, 2026 |
+| **Microsoft** | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Medium | Aug 16, 2026 |
+| **Microsoft** | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Medium | Aug 16, 2026 |
+| **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | Aug 16, 2026 |
 | **Microsoft** | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Medium | Aug 15, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
 | **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Medium | Aug 13, 2026 |

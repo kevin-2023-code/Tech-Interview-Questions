@@ -48,7 +48,7 @@ Waymo coding rounds reward choosing the right tool aloud — BFS versus DFS vers
 Design prompts are domain-shaped and under-specified on purpose: evaluation platforms, fleet operations, and ML pipelines over sensor data rather than a standard consumer app. Lead with requirements clarification, quantify constraints early, and connect offline evaluation to on-road behavior — rare events, uncertainty, and latency are where interviewers dig.
 
 - [System Design: Evaluate a Self-Driving Model End-to-End](https://trueinterview.io/questions/sd-evaluate-self-driving-model)
-- [System Design: Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch)
+- [System Design: Parking Lot + Robotaxi Dispatch](../../questions/system-design/sd-parking-and-dispatch/README.md)
 - [ML System Design: Behavior Prediction from Sensor + Camera Data](https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors)
 - [ML System Design: Inference Serving with Back-of-Envelope Capacity Planning](https://trueinterview.io/questions/sd-ml-inference-serving-back-of-envelope)
 

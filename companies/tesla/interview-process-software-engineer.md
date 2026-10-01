@@ -60,7 +60,7 @@ Backend and data-adjacent teams check whether you can work in the shape of their
 - [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen)
 - [Cumulative Monthly Sales by Store with Month Reset (SQL)](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b)
 - [Find All Reports Under a Manager (n-level) and Return Hierarchy Path (SQL)](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61)
-- [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome)
+- [Robot Room Navigation Take-Home](../../questions/algorithm/robot-room-navigation-takehome/README.md)
 
 ### Project Deep Dive
 

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (46% of 52) |
 | Difficulty (easy / medium / hard) | 13 / 34 / 5 |
-| Free to practise | [13](../free/README.md) |
+| Free to practise | [15](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 52 questions reported at Atlassian. 33 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

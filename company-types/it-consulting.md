@@ -18,10 +18,10 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 26 | 90% | ██████████████ | 6 |
+| [Algorithm](../formats/algorithm.md) | 26 | 90% | ██████████████ | 9 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 10% | ██ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **5 / 22 / 2**, over the rows the catalog has graded. 7 of the 29 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **5 / 22 / 2**, over the rows the catalog has graded. 10 of the 29 open without a paid plan.</sub>
 
 ## What they ask about
 

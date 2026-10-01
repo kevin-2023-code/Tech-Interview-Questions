@@ -44,7 +44,7 @@ SoFi coding prompts are product-shaped rather than contest-shaped: log parsing, 
 - [GIF Info Pagination by Tag](https://trueinterview.io/questions/gif-info-pagination-by-tag)
 - [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph)
 - [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure)
-- [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions)
+- [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md)
 
 ## Low-Level Design Questions
 

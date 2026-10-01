@@ -52,7 +52,7 @@ One or two sessions at medium difficulty, and this is where the track's rejectio
 
 Much of the coding time is component design rather than puzzle solving: a stateful object with a fixed operation set, a complexity or memory target, and a definition that shifts under you. The reported instances are streaming structures — a window average that cannot store the full history, then a weighted variant with a running weighted sum; a linked structure with constant-time operations; counters that must return a maximum without scanning. State your invariant out loud, because the follow-ups are built to break it.
 
-- [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints)
+- [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md)
 - [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one)
 - [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md)
 

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 18) |
 | Difficulty (easy / medium / hard) | 3 / 12 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 2 |
 
 <sub>Counted from the 18 questions reported at Intuit. 12 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

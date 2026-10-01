@@ -60,7 +60,7 @@ Candidates on this track also report object-modelling rounds, either as the whol
 
 - [Squirrel Nut Storage Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
 - [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system)
-- [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation)
+- [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md)
 - [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design)
 
 ### Behavioral and Leadership

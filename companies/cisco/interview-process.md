@@ -37,8 +37,8 @@ End to end, the Cisco pipeline typically runs four to eight weeks, though schedu
 
 Cisco coding practice should emphasize clean implementation of common patterns under time pressure rather than obscure algorithms. String parsing and grid traversal deserve disproportionate attention, because small interpretation errors invalidate otherwise sound solutions, and the nested-expansion pattern below has appeared in live Cisco rounds in nearly identical form. Practice stating the invariant while you work, then defending complexity with an adversarial example.
 
-- [Find Elements Largest in Row Smallest in Column](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84)
-- [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update)
+- [Find Elements Largest in Row Smallest in Column](../../questions/algorithm/row-maximum-column-minimum/README.md)
+- [Minimum Insertions / Deletions Password Update](../../questions/algorithm/minimum-insertions-deletions-password-update/README.md)
 - [Nested Pattern String Expansion](../../questions/algorithm/nested-pattern-string-expansion/README.md)
 
 ## How to Prepare

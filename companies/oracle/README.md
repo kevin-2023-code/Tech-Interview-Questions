@@ -9,7 +9,7 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [81](../oracle.md) |
-| Free to read here | 9 |
+| Free to read here | 12 |
 | Interview-process guides | 1 |
 | Other guides | 6 |
 | Most recent sighting | Sep 11, 2026 |
@@ -34,13 +34,16 @@ Oracle's interview loop changes shape more from team to team than almost any com
 
 ## Free Oracle questions
 
-9 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+12 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
+| [OOD — File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-file-management-system) |
+| [Trie-Based Autocomplete](../../questions/object-oriented-programming/trie-autocomplete/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/trie-autocomplete) |
+| [Treatment Frequency Scheduler](../../questions/object-oriented-programming/ood-treatment-scheduler/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-treatment-scheduler) |
 | [Log Parser with Multi-Line Follow-up](../../questions/algorithm/log-parser-multiline/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/log-parser-multiline) |
 | [Binary Search — Rightmost Index of Duplicate](../../questions/algorithm/binary-search-rightmost-duplicate/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/binary-search-rightmost-duplicate) |
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |

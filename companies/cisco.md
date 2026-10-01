@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (96% of 25) |
 | Difficulty (easy / medium / hard) | 12 / 10 / 3 |
-| Free to practise | [10](../free/README.md) |
+| Free to practise | [17](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 25 questions reported at Cisco. 15 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -79,12 +79,12 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 2 | Jun 16, 2026 |
 | **2** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) 🆓 | Algorithm | Medium | 3 | May 2026 |
-| **3** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | 1 | Sep 29, 2025 |
-| **4** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Algorithm | Easy | — | Sep 06, 2025 |
-| **5** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | Algorithm | Medium | — | Sep 06, 2025 |
-| **6** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | — | Sep 06, 2025 |
-| **7** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Algorithm | Easy | — | Sep 04, 2025 |
-| **8** | [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) | Algorithm | Easy | — | Sep 04, 2025 |
+| **3** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |
+| **4** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
+| **5** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) 🆓 | Algorithm | Medium | — | Sep 06, 2025 |
+| **6** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) 🆓 | Algorithm | Medium | — | Sep 06, 2025 |
+| **7** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) 🆓 | Algorithm | Easy | — | Sep 04, 2025 |
+| **8** | [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) 🆓 | Algorithm | Easy | — | Sep 04, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

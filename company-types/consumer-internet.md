@@ -47,7 +47,7 @@ Of the **512 questions in this cut that carry a topic label** (69% of it):
 
 ## Asked here in the last 90 days
 
-**59 sightings** across this cut. Newest first.
+**58 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **512 questions in this cut that carry a topic label** (69% of it):
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | ByteDance | System Design | Aug 30, 2026 |
 | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Google | System Design | Aug 29, 2026 |
 
-<sub>47 more in this window are in the table below.</sub>
+<sub>46 more in this window are in the table below.</sub>
 
 ---
 
@@ -100,14 +100,14 @@ Of the **512 questions in this cut that carry a topic label** (69% of it):
 | **Amazon / ByteDance** | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Medium | 🆕 Aug 17, 2026 |
 | **ByteDance** | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Hard | 🆕 Aug 17, 2026 |
 | **ByteDance** | [Pythagorean Triple in an Integer Array](https://trueinterview.io/questions/pythagorean-triple-integer-array) | Medium | 🆕 Aug 17, 2026 |
-| **LinkedIn** | [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | Medium | 🆕 Aug 16, 2026 |
-| **LinkedIn** | [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Medium | 🆕 Aug 16, 2026 |
-| **LinkedIn** | [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Medium | 🆕 Aug 16, 2026 |
-| **Google** | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | Hard | 🆕 Aug 16, 2026 |
-| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | 🆕 Aug 16, 2026 |
-| **Google** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Medium | 🆕 Aug 16, 2026 |
-| **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Medium | 🆕 Aug 16, 2026 |
-| **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | 🆕 Aug 16, 2026 |
+| **LinkedIn** | [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | Medium | Aug 16, 2026 |
+| **LinkedIn** | [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Medium | Aug 16, 2026 |
+| **LinkedIn** | [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Medium | Aug 16, 2026 |
+| **Google** | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | Hard | Aug 16, 2026 |
+| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | Aug 16, 2026 |
+| **Google** | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Medium | Aug 16, 2026 |
+| **Google** | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Medium | Aug 16, 2026 |
+| **Microsoft / LinkedIn** | [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Medium | Aug 16, 2026 |
 | **Google** | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Hard | Aug 13, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
 | **Google** | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | Easy | Aug 13, 2026 |

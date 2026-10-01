@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (29% of 70) |
 | Difficulty (easy / medium / hard) | 9 / 39 / 22 |
-| Free to practise | [10](../free/README.md) |
+| Free to practise | [11](../free/README.md) |
 | Guides & writeups | 11 |
 
 <sub>Counted from the 70 questions reported at Anthropic. 40 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

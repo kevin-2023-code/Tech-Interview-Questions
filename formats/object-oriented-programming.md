@@ -27,7 +27,7 @@
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
 | **Microsoft** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Hard | 🆕 Aug 20, 2026 |
 | **Google** | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Medium | 🆕 Aug 20, 2026 |
-| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | 🆕 Aug 16, 2026 |
+| **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | Aug 16, 2026 |
 | **OpenAI** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Hard | Aug 13, 2026 |
 | **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Medium | Aug 12, 2026 |
 | **Uber** | [Filesystem Navigation](https://trueinterview.io/questions/phone-screen-ood-filesystem-navigation) | Medium | Aug 11, 2026 |

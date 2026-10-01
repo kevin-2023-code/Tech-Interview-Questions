@@ -37,7 +37,7 @@ IBM coding rounds favor fundamentals applied to realistic data-processing patter
 - [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes)
 - [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals)
 - [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct)
-- [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips)
+- [Sliding-Window Rate Limiter / Abuse IP Detection](../../questions/algorithm/sliding-window-rate-limiter-and-abuse-ips/README.md)
 - [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern)
 
 ## Behavioral Questions

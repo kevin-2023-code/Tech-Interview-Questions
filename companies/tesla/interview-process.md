@@ -40,7 +40,7 @@ Tesla coding rounds favor practical problems with a domain wrapper: schedulers, 
 - [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution)
 - [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid)
 - [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal)
-- [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome)
+- [Robot Room Navigation Take-Home](../../questions/algorithm/robot-room-navigation-takehome/README.md)
 
 ## System Design Questions
 

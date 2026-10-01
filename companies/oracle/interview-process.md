@@ -54,7 +54,7 @@ Design prompts lean operational and cloud-scale, reflecting OCI's influence: sto
 Object-oriented and data-structure design is a distinct Oracle round, not an afterthought. Prompts start with a small API and then add concurrency, expiration, or strict performance bounds — state your invariants and explain why each structure owns its state.
 
 - [First-Login Only-Once User Tracker (O(1) Worst-Case)](https://trueinterview.io/questions/first-unique-login-tracker)
-- [OOD — File Management System](https://trueinterview.io/questions/ood-file-management-system)
+- [OOD — File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md)
 
 ## Behavioral Questions
 

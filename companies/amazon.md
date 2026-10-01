@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **252** |
 | Most recent sighting | Sep 20, 2026 |
-| Reported in the last 90 days | 44 |
+| Reported in the last 90 days | 40 |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 252) |
 | Difficulty (easy / medium / hard) | 41 / 166 / 45 |
 | Free to practise | [29](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **252 of 252** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**44 sightings** in this window. Newest first.
+**40 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **252 of 252** questions at Amazon 
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | Onsite / virtual onsite | Sep 01, 2026 |
 
-<sub>32 more in this window are in the table below.</sub>
+<sub>28 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -176,7 +176,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator) | Algorithm | Medium | 🆕 Aug 21, 2026 |
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | Hard | 🆕 Aug 21, 2026 |
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | 🆕 Aug 17, 2026 |
-| [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Algorithm | Medium | Aug 16, 2026 |
 | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | Medium | Aug 14, 2026 |
 | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | Medium | Aug 14, 2026 |
 | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Algorithm | Medium | Aug 14, 2026 |

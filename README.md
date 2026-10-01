@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,935 questions** · **410 writeups** · **109 companies** · **323 free to practise** · **276 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,935 questions** · **410 writeups** · **109 companies** · **361 free to practise** · **269 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -41,9 +41,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 276 sightings at 55 companies — Algorithm 155 · SQL 31 · System Design 57 · AI Coding 2 · Object Oriented Programming 31.
+**Last 90 days:** 269 sightings at 55 companies — Algorithm 150 · SQL 31 · System Design 56 · AI Coding 1 · Object Oriented Programming 31.
 
-**Reported most:** [Amazon (44)](companies/amazon.md) · [Google (20)](companies/google.md) · [Microsoft (20)](companies/microsoft.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (11)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Citadel (8)](companies/citadel.md)
+**Reported most:** [Amazon (40)](companies/amazon.md) · [Microsoft (20)](companies/microsoft.md) · [Google (19)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (11)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Citadel (8)](companies/citadel.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (14) · [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) (13)
 
@@ -54,9 +54,9 @@ share naming the population it is a share of.
 ## 🆓 Free to practise right now
 
 <!-- gen:free:start -->
-**323 of the 2,935 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
+**361 of the 2,935 tracked questions open without a paid plan** — the full statement, a runnable editor and a judged verdict.
 
-[Algorithm (238)](free/algorithm.md) · [System Design (24)](free/system-design.md) · [AI Coding (10)](free/ai-coding.md) · [Object Oriented Programming (51)](free/object-oriented-programming.md)
+[Algorithm (267)](free/algorithm.md) · [System Design (26)](free/system-design.md) · [AI Coding (10)](free/ai-coding.md) · [Object Oriented Programming (58)](free/object-oriented-programming.md)
 
 [**Every free question, easiest first →**](free/README.md)
 <!-- gen:free:end -->
@@ -168,7 +168,7 @@ means no sighting date was recorded, which is not the same as old.</sub>
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Algorithm | 🔥 Sep 18, 2026 |
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | System Design | 🔥 Sep 17, 2026 |
 | **Ziphq** | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) | Algorithm | 🔥 Sep 17, 2026 |
-| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | 🔥 Sep 16, 2026 |
+| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | 🆕 Sep 16, 2026 |
 | **Together AI** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) | Algorithm | 🆕 Sep 15, 2026 |
 | **xAI** | [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Object Oriented Programming | 🆕 Sep 15, 2026 |
 | **xAI** | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Algorithm | 🆕 Sep 15, 2026 |

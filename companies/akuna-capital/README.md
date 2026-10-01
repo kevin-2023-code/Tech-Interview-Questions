@@ -9,7 +9,7 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [30](../akuna-capital.md) |
-| Free to read here | 5 |
+| Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 3 |
 | Most recent sighting | Jul 29, 2026 |
@@ -34,11 +34,15 @@ Technical phone rounds start almost immediately after introductions, and several
 
 ## Free Akuna Capital questions
 
-5 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+9 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) |
+| [Array Challenge: Left-Comparison Running Counter](../../questions/algorithm/left-comparison-running-counter/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/left-comparison-running-counter) |
+| [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/find-missing-and-repeated-element) |
+| [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md) | Object Oriented Programming | Hard | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) |
+| [Round Price to Nearest Valid Tick](../../questions/algorithm/round-price-to-nearest-tick/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/round-price-to-nearest-tick) |
 | [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
 | [An Evening of Movies](../../questions/algorithm/an-evening-of-movies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) |

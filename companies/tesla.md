@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (51% of 35) |
 | Difficulty (easy / medium / hard) | 2 / 21 / 12 |
-| Free to practise | [8](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 5 |
 
 <sub>Counted from the 35 questions reported at Tesla. 26 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

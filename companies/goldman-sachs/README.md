@@ -9,7 +9,7 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [48](../goldman-sachs.md) |
-| Free to read here | 21 |
+| Free to read here | 25 |
 | Interview-process guides | 1 |
 | Other guides | 6 |
 | Most recent sighting | Jul 06, 2026 |
@@ -34,13 +34,17 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 
 ## Free Goldman Sachs questions
 
-21 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
+| [Process Starvation Time](../../questions/algorithm/process-starvation-time/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/process-starvation-time) |
+| [Ethernet Cable Square Count](../../questions/algorithm/ethernet-cable-square-count/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/ethernet-cable-square-count) |
+| [Equalize Letter Frequencies With Add / Remove](../../questions/algorithm/equalize-letter-frequencies/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/equalize-letter-frequencies) |
+| [Encyclopedia Removal Grid](../../questions/algorithm/encyclopedia-removal-grid/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/encyclopedia-removal-grid) |
 | [Decode Ways / Alphanumeric Combination](../../questions/algorithm/decode-ways/README.md) | Algorithm | Medium | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/decode-ways) |
 | [Extend Queue: Min-Size & Min-Sum Selector](../../questions/object-oriented-programming/queue-extension-min-size-min-sum/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/queue-extension-min-size-min-sum) |
 | [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists-3) |

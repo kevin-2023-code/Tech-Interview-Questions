@@ -9,7 +9,7 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [55](../airbnb.md) |
-| Free to read here | 4 |
+| Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 4 |
 | Most recent sighting | Sep 04, 2026 |
@@ -42,7 +42,7 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 
 ## Free Airbnb questions
 
-4 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Airbnb open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -50,6 +50,8 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
+| [Guess Number](../../questions/algorithm/guess-number/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/guess-number) |
+| [Minimum Vertices to Traverse Directed Graph](../../questions/algorithm/minimum-vertices-to-traverse-directed-graph/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-vertices-to-traverse-directed-graph) |
 
 ## Guides
 

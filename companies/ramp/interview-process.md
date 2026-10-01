@@ -40,7 +40,7 @@ Ramp's live coding leans on realistic data processing with production concerns a
 - [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions)
 - [Find a User's Airport from Flight History](../../questions/algorithm/find-a-user-s-airport-from-flight-history/README.md)
 - [URL Maze Graph Traversal](https://trueinterview.io/questions/url-maze-graph-traversal)
-- [Rate Limiter by IP Address](https://trueinterview.io/questions/rate-limiter-by-ip-address)
+- [Rate Limiter by IP Address](../../questions/algorithm/rate-limiter-by-ip-address/README.md)
 - [Sliding-Window Rate Limiter](../../questions/algorithm/sliding-window-rate-limiter/README.md)
 - [AI Coding: Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources)
 

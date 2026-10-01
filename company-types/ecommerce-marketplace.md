@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 444 | 67% | ██████████████ | 60 |
+| [Algorithm](../formats/algorithm.md) | 444 | 67% | ██████████████ | 62 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 95 | 14% | ███ | 13 |
 | [System Design](../formats/system-design.md) | 85 | 13% | ███ | 9 |
 | [SQL](../formats/sql.md) | 26 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 16 | 2% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **90 / 432 / 144**, over the rows the catalog has graded. 83 of the 666 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **90 / 432 / 144**, over the rows the catalog has graded. 85 of the 666 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -47,7 +47,7 @@ Of the **437 questions in this cut that carry a topic label** (66% of it):
 
 ## Asked here in the last 90 days
 
-**72 sightings** across this cut. Newest first.
+**67 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **437 questions in this cut that carry a topic label** (66% of it):
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | DoorDash | System Design | Sep 10, 2026 |
 | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Uber | Algorithm | Sep 09, 2026 |
 
-<sub>60 more in this window are in the table below.</sub>
+<sub>55 more in this window are in the table below.</sub>
 
 ---
 
@@ -80,7 +80,7 @@ Of the **437 questions in this cut that carry a topic label** (66% of it):
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🔥 Sep 20, 2026 |
 | **Instacart** | [Debug Search and Stock Behavior in a Library Application](https://trueinterview.io/questions/debug-search-and-stock-behavior-in-a-library-application) | Medium | 🔥 Sep 18, 2026 |
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Medium | 🔥 Sep 18, 2026 |
-| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🔥 Sep 16, 2026 |
+| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🆕 Sep 16, 2026 |
 | **Amazon** | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Medium | 🆕 Sep 14, 2026 |
@@ -107,13 +107,13 @@ Of the **437 questions in this cut that carry a topic label** (66% of it):
 | **Amazon** | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Hard | 🆕 Aug 21, 2026 |
 | **ByteDance / Ebay / NVIDIA** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Medium | 🆕 Aug 21, 2026 |
 | **Amazon / ByteDance** | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Medium | 🆕 Aug 17, 2026 |
-| **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | Medium | 🆕 Aug 16, 2026 |
-| **DoorDash** | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Easy | 🆕 Aug 16, 2026 |
-| **DoorDash** | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Medium | 🆕 Aug 16, 2026 |
-| **DoorDash** | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Medium | 🆕 Aug 16, 2026 |
-| **Uber** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | Medium | 🆕 Aug 16, 2026 |
-| **Uber** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Medium | 🆕 Aug 16, 2026 |
-| **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Medium | 🆕 Aug 16, 2026 |
+| **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | Medium | Aug 16, 2026 |
+| **DoorDash** | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Easy | Aug 16, 2026 |
+| **DoorDash** | [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Medium | Aug 16, 2026 |
+| **DoorDash** | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Medium | Aug 16, 2026 |
+| **Uber** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | Medium | Aug 16, 2026 |
+| **Uber** | [K Closest Points](https://trueinterview.io/questions/onsite-k-closest-points) | Medium | Aug 16, 2026 |
+| **Amazon** | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Medium | Aug 16, 2026 |
 | **Amazon** | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Medium | Aug 14, 2026 |
 | **Amazon** | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Medium | Aug 14, 2026 |
 | **Amazon** | [Package Dependency Installation & Build Order](https://trueinterview.io/questions/package-dependency-installation-build-order) | Medium | Aug 14, 2026 |

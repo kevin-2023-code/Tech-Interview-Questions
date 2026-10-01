@@ -46,7 +46,7 @@ Two to four coded problems per live round at medium difficulty, with the bar set
 The competency that decides offers here. Design questions are never abstract architecture — they are a component you implement and then defend under resource constraints: an order book with separate structures per side, a best-bid tracker using a heap plus lazy deletion, streaming statistics with bounded memory, an object pool with correct ownership. Interviewers go straight to second-order questions: estimate the footprint for integers in a fixed range on a machine with 1 GB of RAM, keep a running sum from overflowing, say what changes when cancellations are rare versus constant. "It depends" without a number loses the round.
 
 - [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine)
-- [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels)
+- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
 - [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode)
 - [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging)
 

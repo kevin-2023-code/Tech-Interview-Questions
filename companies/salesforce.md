@@ -143,10 +143,10 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | :-- | :-- | :-: | :-- |
 | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | 🆕 Aug 24, 2026 |
 | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | 🆕 Aug 24, 2026 |
-| [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | 🆕 Aug 16, 2026 |
-| [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | 🆕 Aug 16, 2026 |
+| [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | Aug 16, 2026 |
+| [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | Aug 16, 2026 |
+| [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | Aug 16, 2026 |
+| [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | Aug 16, 2026 |
 | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | Jul 26, 2026 |
 | [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Algorithm | Hard | Jul 25, 2026 |
 | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | Jul 25, 2026 |

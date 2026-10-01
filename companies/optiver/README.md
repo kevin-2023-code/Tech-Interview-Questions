@@ -9,7 +9,7 @@ How Optiver interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [20](../optiver.md) |
-| Free to read here | 4 |
+| Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 10 |
 | Most recent sighting | Jun 15, 2026 |
@@ -38,12 +38,13 @@ Optiver hires on one conviction: good engineers and good traders both make accur
 
 ## Free Optiver questions
 
-4 questions reported at Optiver open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Optiver open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/koko-eating-bananas) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
+| [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md) | Object Oriented Programming | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/balloon-festival-simulation) |
 | [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md) | Algorithm | Hard | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/currency-arbitrage-detection) |
 | [Satellite Message Propagation](../../questions/object-oriented-programming/satellite-message-propagation/README.md) | Object Oriented Programming | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/satellite-message-propagation) |
 

@@ -9,7 +9,7 @@ How SoFi interviews, and the questions candidates reported there. Free questions
 |  |  |
 | :-- | :-- |
 | Questions reported | [27](../sofi.md) |
-| Free to read here | 4 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
 | Most recent sighting | Jul 04, 2026 |
@@ -34,11 +34,12 @@ This guide goes deeper than the process outline on the company page: what each S
 
 ## Free SoFi questions
 
-4 questions reported at SoFi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at SoFi open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
+| [Anagram Sentence Substitutions](../../questions/algorithm/anagram-sentence-substitutions/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/anagram-sentence-substitutions) |
 | [Key-Value Store with getLast](../../questions/object-oriented-programming/key-value-store-with-getlast/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/key-value-store-with-getlast) |
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
 | [Swap Parity](../../questions/algorithm/swap-parity/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) |

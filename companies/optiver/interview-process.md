@@ -49,7 +49,7 @@ Low-level design is the heart of the engineering OA and phone screens: small sys
 
 - [News Aggregation / Subscription System](https://trueinterview.io/questions/news-subscription-system)
 - [Satellite Message Propagation](../../questions/object-oriented-programming/satellite-message-propagation/README.md)
-- [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation)
+- [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md)
 - [Squirrel Nut Storage Tracker](https://trueinterview.io/questions/squirrel-nut-storage)
 - [Design Circular Queue (Ring Buffer)](https://trueinterview.io/questions/circular-queue-design)
 - [Thread-Safe Buy/Sell Without Overselling](https://trueinterview.io/questions/multithreaded-buy-sell-lock)

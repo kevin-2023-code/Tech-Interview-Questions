@@ -2,7 +2,7 @@
 
 # Free System Design questions
 
-**24 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**26 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -11,6 +11,7 @@
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | Easy | Apr 12, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | Easy | Mar 24, 2026 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | Easy | Oct 29, 2025 |
+| [Design A Color Picker Service](https://trueinterview.io/questions/design-a-color-picker-service) | **Atlassian** | Easy | — |
 | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🆕 Sep 15, 2026 |
 | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | **Cursor** | Easy | Apr 07, 2026 |
 | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Easy | 🔥 Sep 17, 2026 |
@@ -30,5 +31,6 @@
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor** | Hard | Apr 07, 2026 |
 | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | **Anthropic** | Hard | — |
 | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | **JPMorgan** | Hard | Jun 21, 2025 |
+| [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | **Waymo** | Hard | Sep 29, 2025 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |

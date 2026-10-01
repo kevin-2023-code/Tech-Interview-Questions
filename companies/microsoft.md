@@ -155,9 +155,9 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Object Oriented Programming | Medium | 🆕 Aug 30, 2026 |
 | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Algorithm | Medium | 🆕 Aug 30, 2026 |
 | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Object Oriented Programming | Hard | 🆕 Aug 20, 2026 |
-| [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Aug 16, 2026 |
+| [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | Medium | Aug 16, 2026 |
+| [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | Aug 16, 2026 |
 | [Lowest Common Ancestor (LC 235) with a Follow-Up Variant](https://trueinterview.io/questions/lowest-common-ancestor-bst-binary-tree) | Algorithm | Medium | Aug 15, 2026 |
 | [Minimum Fuel Cost Across a Road Network](https://trueinterview.io/questions/minimum-fuel-cost-road-network) | Algorithm | Hard | Aug 11, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |

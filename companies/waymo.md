@@ -16,10 +16,10 @@
 | :-- | :-- |
 | Questions tracked | **55** |
 | Most recent sighting | Jul 09, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 55) |
 | Difficulty (easy / medium / hard) | 1 / 38 / 16 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 55 questions reported at Waymo. 49 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -38,13 +38,12 @@ Which stage each question came from, for the **55 of 55** questions at Waymo tha
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Phone screen | Jul 09, 2026 |
 | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | Phone screen | Jul 06, 2026 |
-| [Implement Max Pooling with Argmax Coordinates](https://trueinterview.io/questions/max-pooling-with-argmax-coordinates) | Algorithm | Medium | Phone screen | Jul 02, 2026 |
 
 ## What they ask about
 

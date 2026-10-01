@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 108 | 75% | ██████████████ | 26 |
+| [Algorithm](../formats/algorithm.md) | 108 | 75% | ██████████████ | 33 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 16 | 11% | ██ | 2 |
 | [System Design](../formats/system-design.md) | 14 | 10% | ██ | 2 |
 | [AI Coding](../formats/ai-coding.md) | 3 | 2% | █ | 1 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **40 / 83 / 21**, over the rows the catalog has graded. 31 of the 144 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **40 / 83 / 21**, over the rows the catalog has graded. 38 of the 144 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -71,8 +71,8 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Medium | 🆕 Aug 26, 2026 |
-| **Apple** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | Medium | 🆕 Aug 16, 2026 |
-| **Apple** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Medium | 🆕 Aug 16, 2026 |
+| **Apple** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | Medium | Aug 16, 2026 |
+| **Apple** | [Copy List with Random Pointer (LC 138)](https://trueinterview.io/questions/copy-list-with-random-pointer-2) | Medium | Aug 16, 2026 |
 | **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Medium | Aug 13, 2026 |
 | **Apple** | [Large-Scale Media Transfer to ML Compute](https://trueinterview.io/questions/large-scale-media-transfer-to-ml-compute) | Hard | Aug 08, 2026 |
 | **Apple** | [Top K Closest Pairs in a Sorted Array](https://trueinterview.io/questions/top-k-closest-pairs-in-sorted-array) | Hard | Aug 05, 2026 |

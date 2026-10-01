@@ -9,7 +9,7 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [18](../intuit.md) |
-| Free to read here | 2 |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 1 |
 | Most recent sighting | Jun 28, 2026 |
@@ -36,12 +36,13 @@ The end-to-end process typically runs three to six weeks from application to dec
 
 ## Free Intuit questions
 
-2 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Intuit open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Pandas Meeting Work-Duration Calculation](../../questions/algorithm/pandas-meeting-work-duration/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/pandas-meeting-work-duration) |
 | [DNA Substring Palindrome Cost Sum](../../questions/algorithm/dna-substring-palindrome-cost-sum/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) |
+| [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
 
 ## Guides
 

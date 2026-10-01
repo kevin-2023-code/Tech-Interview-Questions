@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **71** |
 | Most recent sighting | Sep 16, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (45% of 71) |
 | Difficulty (easy / medium / hard) | 8 / 51 / 12 |
 | Free to practise | [4](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **71 of 71** questions at DoorDash 
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -49,7 +49,6 @@ Which stage each question came from, for the **71 of 71** questions at DoorDash 
 | [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Easy | Onsite / virtual onsite | Aug 16, 2026 |
 | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | Onsite / virtual onsite | Aug 16, 2026 |
-| [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | Onsite / virtual onsite | Jul 02, 2026 |
 
 ## What they ask about
 
@@ -129,13 +128,13 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | Medium | 🔥 Sep 16, 2026 |
+| [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | System Design | Medium | 🆕 Sep 16, 2026 |
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | System Design | Hard | 🆕 Sep 10, 2026 |
 | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | System Design | Medium | 🆕 Sep 10, 2026 |
-| [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | 🆕 Aug 16, 2026 |
-| [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Easy | 🆕 Aug 16, 2026 |
-| [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | System Design | Medium | Aug 16, 2026 |
+| [Minimum Parenthesis Deletions](https://trueinterview.io/questions/coding-minimum-parenthesis-deletions) | Algorithm | Easy | Aug 16, 2026 |
+| [First Unique Restaurant in a Stream](https://trueinterview.io/questions/coding-first-unique-restaurant-stream) | Algorithm | Medium | Aug 16, 2026 |
+| [Minimum Dasher Processing Speed](https://trueinterview.io/questions/coding-minimum-dasher-processing-speed) | Algorithm | Medium | Aug 16, 2026 |
 | [AI Code Craft Challenge: Delayed-Delivery Workflow Engine](https://trueinterview.io/questions/ai-code-craft-workflow-engine) | AI Coding | Hard | Jul 02, 2026 |
 | [Design Uber](https://trueinterview.io/questions/onsite-sd-rider-driver-matching) | System Design | Medium | Jun 16, 2026 |
 | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Object Oriented Programming | Medium | Jun 11, 2026 |

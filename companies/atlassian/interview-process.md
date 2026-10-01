@@ -37,7 +37,7 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 Atlassian coding prompts wear product clothing — ratings, bookings, prices, org charts, URL fetching — but grade fundamentals underneath: data-structure choice, invariants under mutation, and how gracefully a design absorbs the next requirement.
 
 - [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating)
-- [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints)
+- [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md)
 - [Expanding Tennis Club Court Assignment](https://trueinterview.io/questions/expanding-tennis-club-court-assignment)
 - [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md)
 - [Sequential, Deduped, and Parallel URL Fetcher](https://trueinterview.io/questions/sequential-deduped-parallel-url-fetcher)

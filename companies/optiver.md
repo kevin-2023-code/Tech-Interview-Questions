@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 20) |
 | Difficulty (easy / medium / hard) | 0 / 13 / 7 |
-| Free to practise | [4](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 13 |
 
 <sub>Counted from the 20 questions reported at Optiver. 16 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

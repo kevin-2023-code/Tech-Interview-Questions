@@ -46,7 +46,7 @@ Two or three graded sessions at solid medium difficulty — merge intervals, ins
 Much of this track's coding time is component design against a strict target: O(1) for all three popularity operations, constant time for linked-list insert, delete and lookup, bounded memory for a rate limiter that must not accumulate expired timestamps. Tie-breaking and concurrency are the traps — earliest-increased wins on equal popularity, stable order on equal averages, correctness under simultaneous updates.
 
 - [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one)
-- [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints)
+- [Commodity Price Checkpoints](../../questions/object-oriented-programming/commodity-price-checkpoints/README.md)
 - [Customer Service Rating](https://trueinterview.io/questions/customer-service-rating)
 - [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md)
 

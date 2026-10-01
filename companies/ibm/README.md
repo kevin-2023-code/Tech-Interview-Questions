@@ -9,7 +9,7 @@ How IBM interviews, and the questions candidates reported there. Free questions 
 |  |  |
 | :-- | :-- |
 | Questions reported | [29](../ibm.md) |
-| Free to read here | 7 |
+| Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 2 |
 | Most recent sighting | Sep 14, 2026 |
@@ -32,11 +32,14 @@ IBM's engineering loop is shorter and less algorithm-heavy than most big-tech pr
 
 ## Free IBM questions
 
-7 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at IBM open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Count 3^x * 5^y Numbers and Decreasing Subarrays](../../questions/algorithm/dotnet-number-and-decreasing-subarray-oa/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) |
+| [Minimum Link Reallocation to Connect Repositories](../../questions/algorithm/minimum-link-reallocation/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-link-reallocation) |
+| [Sliding-Window Rate Limiter / Abuse IP Detection](../../questions/algorithm/sliding-window-rate-limiter-and-abuse-ips/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) |
+| [Earliest Coordinate Reach with Optional Moves](../../questions/algorithm/earliest-coordinate-reach-with-optional-moves/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) |
 | [Kubernetes Controller for Pod Balance](../../questions/object-oriented-programming/kubernetes-controller-pod-balance/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/kubernetes-controller-pod-balance) |
 | [1-D Valid Convolution with Multithreading Follow-up](../../questions/algorithm/one-dimensional-valid-convolution/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/one-dimensional-valid-convolution) |
 | [Minimum Removal Rounds by Smallest Response Time](../../questions/algorithm/minimum-removal-rounds-by-smallest-response-time/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/minimum-removal-rounds-by-smallest-response-time) |

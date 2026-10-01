@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (56% of 27) |
 | Difficulty (easy / medium / hard) | 4 / 20 / 3 |
-| Free to practise | [8](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 2 |
 
 <sub>Counted from the 27 questions reported at Ramp. 20 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

@@ -9,7 +9,7 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [66](../roblox.md) |
-| Free to read here | 10 |
+| Free to read here | 15 |
 | Interview-process guides | 4 |
 | Other guides | 2 |
 | Most recent sighting | Sep 09, 2026 |
@@ -38,7 +38,7 @@ The company page sketches the shape of the Roblox loop; this guide covers what h
 
 ## Free Roblox questions
 
-10 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+15 questions reported at Roblox open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -49,6 +49,11 @@ The company page sketches the shape of the Roblox loop; this guide covers what h
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
+| [Same Word of HTML Labels](../../questions/algorithm/same-word-of-html-labels/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/same-word-of-html-labels) |
+| [Randomly Partition Array](../../questions/algorithm/randomly-partition-array/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/randomly-partition-array) |
+| [Validate Playlist Sequence](../../questions/algorithm/validate-playlist-sequence/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/validate-playlist-sequence) |
+| [Find Minimum Score Threshold](../../questions/algorithm/find-minimum-score-threshold/README.md) | Algorithm | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/find-minimum-score-threshold) |
+| [Auto Email Generation](../../questions/algorithm/auto-email-generation/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/auto-email-generation) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |

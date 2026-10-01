@@ -9,7 +9,7 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [19](../jpmorgan.md) |
-| Free to read here | 5 |
+| Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 3 |
 | Most recent sighting | Jun 23, 2026 |
@@ -40,11 +40,12 @@ The final loop is usually three to four back-to-back sessions of 45 minutes each
 
 ## Free JPMorgan questions
 
-5 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at JPMorgan open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) |
+| [Split Array: Left Sum Greater](../../questions/algorithm/split-array-left-sum-greater/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/split-array-left-sum-greater) |
 | [Delete-One-Character Positions](../../questions/algorithm/delete-one-character-positions/README.md) | Algorithm | Easy | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/delete-one-character-positions) |
 | [Circular Active Computers Window](../../questions/algorithm/circular-active-computers-window/README.md) | Algorithm | Medium | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/circular-active-computers-window) |
 | [Alphanumeric Vowel / Consonant Count](../../questions/algorithm/alphanumeric-vowel-consonant-count/README.md) | Algorithm | Easy | Online assessment | Jun 2025 | [Solve](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) |

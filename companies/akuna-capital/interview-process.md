@@ -39,7 +39,7 @@ Akuna's coding pool favors classic patterns executed cleanly and fast: cycle dec
 - [Minimum Swaps to Sort (Cycle Decomposition)](../../questions/algorithm/minimum-swaps-to-sort-cycle/README.md)
 - [Maximum Distinct Elements After K Swaps](https://trueinterview.io/questions/maximum-distinct-after-k-swaps)
 - [Max Subsequence Sum Without Skipping Two in a Row](https://trueinterview.io/questions/max-sum-no-two-consecutive-skips)
-- [Find Missing and Repeated Element](https://trueinterview.io/questions/find-missing-and-repeated-element)
+- [Find Missing and Repeated Element](../../questions/algorithm/find-missing-and-repeated-element/README.md)
 - [Fun With Anagrams (Deduplicate Anagrams)](https://trueinterview.io/questions/fun-with-anagrams-dedup)
 
 ## Low-Level Design Questions
@@ -47,7 +47,7 @@ Akuna's coding pool favors classic patterns executed cleanly and fast: cycle dec
 Design prompts start small — a pool, a handler, a moving statistic — and grow through constraints. Interviewers grade the invariants you state, the per-operation costs you can defend, and how the design behaves under cancellation, eviction, exceptions, and concurrent access. For C++ sessions, ownership and object lifetime are examined line by line.
 
 - [C++ Object Pool Debugging](https://trueinterview.io/questions/c-plus-plus-object-pool-debugging)
-- [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels)
+- [Track Best Bid/Ask with Cancellations](../../questions/object-oriented-programming/track-best-bid-ask-with-cancels/README.md)
 - [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler)
 - [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
 - [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer)

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 19) |
 | Difficulty (easy / medium / hard) | 6 / 10 / 3 |
-| Free to practise | [5](../free/README.md) |
+| Free to practise | [6](../free/README.md) |
 | Guides & writeups | 4 |
 
 <sub>Counted from the 19 questions reported at JPMorgan. 19 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

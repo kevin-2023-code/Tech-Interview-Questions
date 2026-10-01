@@ -13,7 +13,7 @@
 | **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Hard | 🔥 Sep 20, 2026 |
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🔥 Sep 20, 2026 |
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Easy | 🔥 Sep 17, 2026 |
-| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🔥 Sep 16, 2026 |
+| **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🆕 Sep 16, 2026 |
 | **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🆕 Sep 15, 2026 |
 | **Nclusion** | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | Easy | 🆕 Sep 15, 2026 |
 | **Databricks** | [Design a Typeahead Search System](https://trueinterview.io/questions/design-a-typeahead-search-system) | Medium | 🆕 Sep 15, 2026 |
@@ -43,12 +43,12 @@
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Medium | 🆕 Aug 22, 2026 |
 | **Oracle** | [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | Hard | 🆕 Aug 19, 2026 |
 | **ByteDance** | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | Hard | 🆕 Aug 17, 2026 |
-| **LinkedIn** | [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | Medium | 🆕 Aug 16, 2026 |
-| **Salesforce** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | Hard | 🆕 Aug 16, 2026 |
-| **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | Medium | 🆕 Aug 16, 2026 |
-| **Apple** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | Medium | 🆕 Aug 16, 2026 |
-| **Uber** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | Medium | 🆕 Aug 16, 2026 |
-| **Google** | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | Hard | 🆕 Aug 16, 2026 |
+| **LinkedIn** | [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | Medium | Aug 16, 2026 |
+| **Salesforce** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | Hard | Aug 16, 2026 |
+| **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | Medium | Aug 16, 2026 |
+| **Apple** | [Cross-Device Wallpaper Synchronization](https://trueinterview.io/questions/cross-device-wallpaper-synchronization) | Medium | Aug 16, 2026 |
+| **Uber** | [Nearby Driver Proximity Service](https://trueinterview.io/questions/onsite-sd-nearby-driver-proximity-service) | Medium | Aug 16, 2026 |
+| **Google** | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | Hard | Aug 16, 2026 |
 | **Figma** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | Medium | Aug 12, 2026 |
 | **Figma** | [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design) | Medium | Aug 12, 2026 |
 | **OpenAI** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | Hard | Aug 08, 2026 |

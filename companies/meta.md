@@ -134,7 +134,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | 🆕 Aug 16, 2026 |
+| [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Jul 22, 2026 |
 | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | Jul 22, 2026 |

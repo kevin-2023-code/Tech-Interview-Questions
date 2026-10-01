@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **198** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 20 |
+| Reported in the last 90 days | 19 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 198) |
 | Difficulty (easy / medium / hard) | 21 / 130 / 47 |
 | Free to practise | [22](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **198 of 198** questions at Google 
 
 ## Asked here in the last 90 days
 
-**20 sightings** in this window. Newest first.
+**19 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **198 of 198** questions at Google 
 | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | Onsite / virtual onsite | Aug 13, 2026 |
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Phone screen | Aug 11, 2026 |
 
-<sub>8 more in this window are in the table below.</sub>
+<sub>7 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -145,9 +145,9 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Hard | 🆕 Aug 29, 2026 |
 | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | 🆕 Aug 20, 2026 |
-| [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | Hard | 🆕 Aug 16, 2026 |
-| [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | Hard | Aug 16, 2026 |
+| [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | Medium | Aug 16, 2026 |
+| [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | Aug 16, 2026 |
 | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | Aug 13, 2026 |
 | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | SQL | Easy | Aug 13, 2026 |
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Aug 11, 2026 |

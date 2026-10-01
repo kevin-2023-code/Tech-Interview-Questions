@@ -149,10 +149,10 @@ What candidates said happened in the room at LinkedIn — written up by the peop
 | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Algorithm | Medium | 🆕 Aug 27, 2026 |
 | [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Algorithm | Hard | 🆕 Aug 24, 2026 |
 | [Robot Navigation in an Unknown Grid](https://trueinterview.io/questions/coding-robot-navigation-unknown-grid) | Algorithm | Hard | 🆕 Aug 18, 2026 |
-| [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | System Design | Medium | 🆕 Aug 16, 2026 |
-| [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Algorithm | Medium | 🆕 Aug 16, 2026 |
-| [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | 🆕 Aug 16, 2026 |
+| [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | System Design | Medium | Aug 16, 2026 |
+| [Count Distinct Values in a Massive Sorted Array](https://trueinterview.io/questions/coding-count-distinct-sorted-array) | Algorithm | Medium | Aug 16, 2026 |
+| [Find K Closest Elements in a Sorted Array (LC 658)](https://trueinterview.io/questions/coding-k-closest-elements-sorted-array) | Algorithm | Medium | Aug 16, 2026 |
+| [Binary Tree Zigzag Level Order Traversal (LC 103)](https://trueinterview.io/questions/binary-tree-zigzag-level-order) | Algorithm | Medium | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | SQL | Medium | Jul 22, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
