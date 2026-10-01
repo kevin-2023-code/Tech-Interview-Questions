@@ -2,7 +2,7 @@
 
 # Bloomberg interview process, OA & interview questions
 
-**77 questions** reported at Bloomberg · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
+**77 questions** reported at Bloomberg · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bloomberg), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Bloomberg interviews & the free questions](bloomberg/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 77) |
 | Difficulty (easy / medium / hard) | 14 / 46 / 17 |
 | Free to practise | [12](../free/README.md) |
-| Guides & writeups | 2 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 77 questions reported at Bloomberg. 52 of them carry a sighting date; the other 25 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -102,11 +102,10 @@ The 8 questions to open first if you are preparing for Bloomberg, ranked by **th
 
 ## Guides & writeups
 
-**2 writeups** filed under Bloomberg in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Bloomberg in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Behavioral Question Pool](https://trueinterview.io/study/behavioral-question-pool) | deep-dive, star, why-company |
 | [Bloomberg Interview Process & Questions](https://trueinterview.io/study/bloomberg-interview-process) | — |
 
 ---

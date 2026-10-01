@@ -72,9 +72,9 @@ Some assessments already include AI assistance, with long-context code, planted 
 
 The hiring assessment rewards one consistent work persona, and the Googleyness round rewards stories with numbers and clear reasons behind each decision.
 
-- [Google Hiring Assessment (GHA / Work Styles)](guides/google-hiring-assessment-gha.md)
-- [Behavioral Round (Googliness Themes)](guides/bq-round-google-style.md)
-- [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](guides/ml-fundamentals-deep-dive.md)
+- [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha)
+- [Behavioral Round (Googliness Themes)](https://trueinterview.io/questions/bq-round-google-style)
+- [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/questions/ml-fundamentals-deep-dive)
 
 ## How to Prepare
 

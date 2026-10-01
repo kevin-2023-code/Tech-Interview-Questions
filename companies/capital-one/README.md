@@ -11,7 +11,7 @@ How Capital One interviews, and the questions candidates reported there. Free qu
 | Questions reported | [51](../capital-one.md) |
 | Free to read here | 2 |
 | Interview-process guides | 5 |
-| Other guides | 8 |
+| Other guides | 0 |
 | Most recent sighting | Sep 07, 2026 |
 
 ## How Capital One interviews
@@ -42,19 +42,6 @@ Capital One runs one of the most distinctive loops among large engineering emplo
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Banking System with Transaction Activity](../../questions/object-oriented-programming/banking-system-with-transaction-activity/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Amusement Park Profitability Case](guides/amusement-park-profitability-case.md) | critical-thinking, open-ended, verbal |
-| [AR Panel Talk Project Deep-Dive](guides/ar-panel-talk-deep-dive.md) | deep-dive, open-ended, paper-read, presentation, verbal |
-| [Data Challenge: Presentation + Coding (Python, Data Processing)](guides/data-challenge-presentation-coding-python-data-processing.md) | — |
-| [DS Business Analyst Case (P&L Decomposition)](guides/ds-business-analyst-case-study.md) | critical-thinking, math-reasoning, open-ended, verbal |
-| [DS Role-Play: Explain Model Regression to PM](guides/ds-role-play-pm-explanation.md) | ab-testing, critical-thinking, ml-knowledge, open-ended, verbal |
-| [MLE ML Knowledge Orals (Set A)](guides/mle-ml-knowledge-orals.md) | cs-fundamentals, deep-dive, ml-knowledge, verbal |
-| [Model Risk: VaR & Monte Carlo Orals](guides/model-risk-quant-orals.md) | cs-fundamentals, math-reasoning, open-ended, probability, verbal |
-| [Power Day Behavioral](guides/power-day-behavioral.md) | ambiguity, bq, conflict, leadership, star |
 
 ## Everything else
 

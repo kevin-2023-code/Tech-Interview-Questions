@@ -11,7 +11,7 @@ How JPMorgan interviews, and the questions candidates reported there. Free quest
 | Questions reported | [19](../jpmorgan.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Jun 23, 2026 |
 
 ## How JPMorgan interviews
@@ -50,14 +50,6 @@ The final loop is usually three to four back-to-back sessions of 45 minutes each
 | [Circular Active Computers Window](../../questions/algorithm/circular-active-computers-window/README.md) | Algorithm | Medium | Online assessment, Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/circular-active-computers-window) |
 | [Alphanumeric Vowel / Consonant Count](../../questions/algorithm/alphanumeric-vowel-consonant-count/README.md) | Algorithm | Easy | Online assessment | Jun 2025 | [Solve](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) |
 | [Million-User Flash Sale System](../../questions/system-design/million-user-flash-sale-system/README.md) | System Design | Hard | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/million-user-flash-sale-system) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Explain Daily Signal Construction and a Prediction Workflow](guides/explain-daily-signal-construction-and-a-prediction-workflow.md) | — |
-| [Quant Probability and Statistics Orals](guides/quant-probability-and-statistics-orals.md) | combinatorics, expected-value, math-reasoning, probability |
-| [Super Day Behavioral Round](guides/superday-behavioral-round.md) | leadership, project-deep-dive |
 
 ## Everything else
 

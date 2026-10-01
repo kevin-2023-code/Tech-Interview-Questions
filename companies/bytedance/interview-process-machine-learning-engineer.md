@@ -36,7 +36,7 @@ Machine Learning Engineer candidates at ByteDance are rejected even when their t
 
 The heaviest competency, examined at derivation depth. Candidates wrote pseudocode for self-attention and cross-entropy, derived the binary classification loss by hand, and explained the √d_k scaling, the purpose of the feed-forward block, KL divergence as a loss, AUC/ROC, and why XGBoost overfits less than a single tree. One ads-team candidate was pressed on the math behind log-q correction and why MSE is a poor fit for classification. Generative-model teams add multi-head attention, vLLM PagedAttention and continuous batching, and RLHF. The failure mode is a fluent first answer that falls apart on the second "why."
 
-- [Dropout, Overfitting, Normalization, Loss Functions](guides/ml-knowledge-oral-cluster.md)
+- [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/questions/ml-knowledge-oral-cluster)
 - [Hand-Code Self-Attention and Cross-Entropy](https://trueinterview.io/questions/self-attention-cross-entropy-pseudocode)
 - [Bagging from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-bagging-from-scratch)
 - [k-Means from scratch](https://trueinterview.io/questions/codesignal-ml-rs-oa-k-means-from-scratch)
@@ -62,7 +62,7 @@ About 20-25 minutes per hour at medium difficulty, with hard problems in extende
 
 Every round opens here. Interviewers probe design choices, escalation thresholds, and offline evaluation methodology, and one criticized a project's small user base. Candidates advise memorizing every formula tied to projects on your resume.
 
-- [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
 
 ## What They Don't Test
 

@@ -11,7 +11,7 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 | Questions reported | [73](../netflix.md) |
 | Free to read here | 13 |
 | Interview-process guides | 4 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Jun 15, 2026 |
 
 ## How Netflix interviews
@@ -55,13 +55,6 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Sort Dictionary Keys](../../questions/algorithm/sort-dictionary-keys/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ae01be58-8b41-4cdc-a071-17655d89c3ee) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [ML Research Orals (Self-Attention / LoRA / Optimizers)](guides/ml-research-orals.md) | attention, lora, ml-knowledge, transformer |
-| [Netflix Culture / Domain Manager Rounds](guides/netflix-culture-and-domain-manager-rounds.md) | collaboration, culture, culture-fit, fit, impact, leadership |
 
 ## Everything else
 

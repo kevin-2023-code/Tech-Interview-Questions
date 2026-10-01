@@ -58,8 +58,8 @@ One round, weighted toward the engineering half of the lifecycle. Interviewers p
 
 Usually one dedicated round plus a project deep dive. Motivation, views on AGI and safety, and reasons for previous moves are asked directly, and candidates report the recruiter emphasizing this preparation as much as the technical rounds. The deep dive punishes decisions you cannot defend: one candidate's choice of a simplistic similarity method over a learned representation was read as a judgment gap and named in the outcome.
 
-- [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md)
-- [Technical Deep Dive (slide-based)](guides/technical-deep-dive.md)
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
 
 ## What They Don't Test
 

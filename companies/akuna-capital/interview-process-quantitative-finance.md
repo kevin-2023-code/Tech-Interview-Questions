@@ -54,8 +54,8 @@ The competency that decides offers here. Design questions are never abstract arc
 
 Quantitative judgment is tested on every variant, not only trading. Reported phone screens open with scenarios and grade structure rather than answers: allocating one million dollars over three days versus three years, an optimal-stopping game on a 100-sided die where each reroll costs one dollar, and making a market on an instrument trading in both Sydney and Chicago with an overnight inventory handoff. Interviewers say explicitly that no memorized formulas are wanted; they push boundary cases instead — what happens as the stopping threshold approaches the maximum face, what your quotes do while one venue sleeps. Silence while you compute scores worse than a narrated wrong turn.
 
-- [Trader Fair-Bet Probability and Number Sequences](guides/trader-fair-bet-probability-and-number-sequences.md)
-- [Junior Trader Final: Investment & Market-Making Games](guides/junior-trader-final-games.md)
+- [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
+- [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
 - [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system)
 - [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer)
 

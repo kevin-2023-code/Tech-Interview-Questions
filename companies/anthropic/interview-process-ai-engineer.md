@@ -51,8 +51,8 @@ One round, 55–60 minutes, consistently broader than candidates prepare for. Th
 ### Behavioral and Leadership
 At least one dedicated conversation, and it carries real weight. Reported prompts: why this company and not another lab, your own view of current developments and their risks, a time you upheld a value when it cost you, a disagreement you handled well, and how you would act if a project conflicted with your ethics. Generic mission enthusiasm is the most reported way to lose it.
 
-- [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md)
-- [Recruiter Screen — Why Anthropic Deep-Dive](guides/recruiter-screen-why-anthropic.md)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
 
 ## What They Don't Test
 

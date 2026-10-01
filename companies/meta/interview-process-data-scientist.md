@@ -49,8 +49,8 @@ This covers product sense and experimentation. Interviewers want metrics tied to
 
 The prompts are conventional, but each answer is pressed for your individual contribution and a number. Because this track sits between engineering and the business, interviewers listen for how you persuaded a partner with data and how you handled a result nobody wanted.
 
-- [Traditional Behavioral](guides/traditional-behavioral-meta.md)
-- [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md)
+- [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
+- [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
 
 ## What They Don't Test
 

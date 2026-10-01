@@ -2,7 +2,7 @@
 
 # Tesla interview process, OA & interview questions
 
-**35 questions** reported at Tesla · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at Tesla · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Tesla interviews & the free questions](tesla/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (51% of 35) |
 | Difficulty (easy / medium / hard) | 2 / 21 / 12 |
 | Free to practise | [9](../free/README.md) |
-| Guides & writeups | 5 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 35 questions reported at Tesla. 26 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -98,12 +98,10 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 
 ## Guides & writeups
 
-**5 writeups** filed under Tesla in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Tesla in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Battery Cell Quality Statistical Case](https://trueinterview.io/study/battery-cell-quality-statistical-case) | experiment-design, probability |
-| [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/study/cv-sensing-ml-fundamentals-oral) | cnn, computer-vision, ml-knowledge |
 | [Tesla Interview Process & Questions](https://trueinterview.io/study/tesla-interview-process) | — |
 | [Tesla Machine Learning Engineer Interview Process](https://trueinterview.io/study/tesla-machine-learning-engineer-interview-process) | — |
 | [Tesla Software Engineer Interview Process](https://trueinterview.io/study/tesla-software-engineer-interview-process) | — |

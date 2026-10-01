@@ -11,7 +11,7 @@ How Optiver interviews, and the questions candidates reported there. Free questi
 | Questions reported | [20](../optiver.md) |
 | Free to read here | 5 |
 | Interview-process guides | 3 |
-| Other guides | 10 |
+| Other guides | 0 |
 | Most recent sighting | Jun 15, 2026 |
 
 ## How Optiver interviews
@@ -47,21 +47,6 @@ Optiver hires on one conviction: good engineers and good traders both make accur
 | [Hot Air Balloon Festival Simulation](../../questions/object-oriented-programming/balloon-festival-simulation/README.md) | Object Oriented Programming | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/balloon-festival-simulation) |
 | [Currency Arbitrage Detection](../../questions/algorithm/currency-arbitrage-detection/README.md) | Algorithm | Hard | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/currency-arbitrage-detection) |
 | [Satellite Message Propagation](../../questions/object-oriented-programming/satellite-message-propagation/README.md) | Object Oriented Programming | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/satellite-message-propagation) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Beat the Odds — Probability Test](guides/beat-the-odds-probability.md) | brainteaser, expected-value, math-reasoning, mental-math, probability |
-| [HR / Behavioral Phone Screen](guides/hr-behavioral-screen.md) | why-company |
-| [Likelihood / Event-Ordering Test](guides/likelihood-ordering-test.md) | data-analysis, new-round, probability |
-| [Market-Making Interval Estimation Game](guides/market-making-interval-game.md) | expected-value, fermi-estimation, market-making |
-| [Number Logic — Sequence / Find the Pattern](guides/number-logic-sequence.md) | math, mental-math, pattern-recognition |
-| [Programming & Computer-System Knowledge Quiz](guides/coding-knowledge-test.md) | cs-fundamentals, networking, operating-systems |
-| [QR Take-Home Data Project & Presentation](guides/qr-take-home-data-project.md) | data-analysis, pandas, presentation |
-| [QR Technical Round — Brainteasers & Estimation](guides/qr-technical-brainteasers.md) | brainteaser, fermi-estimation, math-reasoning, probability |
-| [Trading Betting Game (EV / Market-Making)](guides/trading-betting-game.md) | expected-value, market-making, mental-math, probability, trading |
-| [Zap-N Reaction & Memory Mini-Games](guides/zap-n-reaction-games.md) | brainteaser, reaction-speed |
 
 ## Everything else
 

@@ -42,7 +42,7 @@ One or two rounds when they appear at all, and the content is applied rather tha
 
 One breadth round, the widest-surface competency in the loop. The reported failure mode is precise: deep knowledge of your own specialty with thin coverage of the territory next to it — the fusion paradigms you did not pick, the serving and optimization patterns around your models, the experimentation methodology behind your metrics. Questions arrive as comparisons, so rehearsed definitions of DPO or diffusion score little next to a trade-off argument.
 
-- [ML Fundamentals & Model Debugging Drill](guides/ml-fundamentals-and-model-debugging.md)
+- [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/questions/ml-fundamentals-and-model-debugging)
 - [Debug a Buggy UNet in PyTorch](https://trueinterview.io/questions/debug-a-buggy-unet-in-pytorch)
 - [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter)
 
@@ -65,7 +65,7 @@ One to three rounds, carrying more weight than on any other engineering track he
 
 At least one dedicated round, sometimes an entire phone screen, with openers inside technical rounds too. Reported themes: priority conflicts and being blocked by another team, resource allocation, disagreement resolution, staying current with fast-moving research, working without business context, and why Apple. Casual unstructured storytelling and any negative characterization of a former colleague both cost candidates here.
 
-- [Behavioral Prioritization and Stakeholder Fit](guides/behavioral-prioritization-and-stakeholder-fit.md)
+- [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit)
 
 ## What They Don't Test
 

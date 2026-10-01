@@ -65,7 +65,7 @@ Cache and storage primitives recur because they mirror the daily work, and they 
 
 One dedicated round plus openers elsewhere, and on this track the content is operational: an incident you ran end to end, toil you removed with automation, observability you introduced, a reliability improvement you drove across teams that did not report to you. Generic teamwork answers lose it; a specific incident with a specific follow-up action wins it.
 
-- [Behavioral Prioritization and Stakeholder Fit](guides/behavioral-prioritization-and-stakeholder-fit.md)
+- [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit)
 
 ## What They Don't Test
 

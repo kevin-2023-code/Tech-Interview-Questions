@@ -34,9 +34,9 @@ Infrastructure Engineer candidates at ByteDance are mostly rejected in rounds wi
 
 This is the heaviest-weighted competency and it decides most outcomes. One rejected candidate concluded that his Linux fundamentals were weaker than he had thought, and that day-to-day scripting had not prepared him to write a shell script live. Interviewers keep asking the next question: which process is filling the disk and how you would prove it, why a DNS lookup fails, what the kernel does with a signal. A list of keywords invites the follow-up that exposes the gap. Explaining why each command works is what scores.
 
-- [SRE Linux / Networking Troubleshooting Round](guides/sre-linux-networking-troubleshoot.md)
+- [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/questions/sre-linux-networking-troubleshoot)
 - [Write a Shell Script](https://trueinterview.io/questions/e4cf0983-ff34-459a-94c1-19fd845d217f)
-- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](guides/backend-fundamentals-oral-cluster.md)
+- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster)
 
 ### Coding and Algorithm
 
@@ -60,7 +60,7 @@ One hour, graded on operating a system rather than drawing it: idempotency and f
 
 Projects are discussed with a production focus: incidents you personally handled, the metrics you watched and what you changed afterwards. Some interviewers read your resume live and ask very specific low-level questions about whatever they land on.
 
-- [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
 
 ## What They Don't Test
 

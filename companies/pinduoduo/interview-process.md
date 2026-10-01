@@ -57,8 +57,8 @@ No report describes an assistant-enabled round, so treat this one as a from-scra
 
 There is no dedicated behavioural loop. The probing is folded into the project deep dive and the closing director conversation: strengths and weaknesses, how a former manager would rate you, your previous performance review, why this company.
 
-- [Project Deep Dive & Behavioral](guides/project-deep-dive-and-bq-2.md)
-- [Resume-Driven Language & Database Fundamentals](guides/resume-driven-language-database-fundamentals.md)
+- [Project Deep Dive & Behavioral](https://trueinterview.io/questions/project-deep-dive-and-bq-2)
+- [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/questions/resume-driven-language-database-fundamentals)
 
 ## How to Prepare
 

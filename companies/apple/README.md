@@ -11,7 +11,7 @@ How Apple interviews, and the questions candidates reported there. Free question
 | Questions reported | [116](../apple.md) |
 | Free to read here | 21 |
 | Interview-process guides | 4 |
-| Other guides | 6 |
+| Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
 
 ## How Apple interviews
@@ -63,17 +63,6 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Accessories QA Benchmark and Regression Deep Dive](guides/accessories-qa-benchmark-and-regression-deep-dive.md) | deep-dive, metrics, optimization, presentation |
-| [Behavioral Prioritization and Stakeholder Fit](guides/behavioral-prioritization-and-stakeholder-fit.md) | ambiguity, bq, collaboration, conflict, fit, impact, star |
-| [ML Fundamentals & Model Debugging Drill](guides/ml-fundamentals-and-model-debugging.md) | ab-testing, ads, debugging, evaluation, llm, ml-knowledge, transformer |
-| [ML Systems Codebase Deep Dive](guides/ml-systems-codebase-deep-dive.md) | agentic-workflow, agents, backend, database, deep-dive, rag, retrieval |
-| [OS Fundamentals & Concurrency Drill](guides/os-fundamentals-and-concurrency.md) | concurrency, operating-systems, race-condition, threading |
-| [SystemVerilog DV Constraint & Architecture Loop](guides/systemverilog-dv-constraint-and-architecture-loop.md) | concurrency, cs-fundamentals, probability, testing |
 
 ## Everything else
 

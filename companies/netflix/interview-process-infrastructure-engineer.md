@@ -67,7 +67,7 @@ Durability and memory discipline are probed as their own subject. Reported follo
 
 One or two rounds, unusually concrete on platform teams. Interviewers want end-to-end ownership of a system: how you debugged something ugly in production, how you handled disagreement over a platform decision, feedback you delivered that was not welcome. The memo's language appears verbatim in the questions, and what lands is a specific incident with the trade-off you accepted, not a statement of values.
 
-- [Netflix Culture / Domain Manager Rounds](guides/netflix-culture-and-domain-manager-rounds.md)
+- [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds)
 
 ## What They Don't Test
 

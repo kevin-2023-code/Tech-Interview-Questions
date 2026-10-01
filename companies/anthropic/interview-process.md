@@ -71,9 +71,9 @@ Debugging someone else's code is a first-class format here: a buggy cache, a bro
 
 Behavioral rounds ask for evidence, not principles: a conflict where you were wrong, a value you upheld under pressure, someone you respect but disagree with. The safety discussion rewards critical engagement — including thoughtful critique of Anthropic's own policies — over enthusiasm.
 
-- [Recruiter Screen — Why Anthropic Deep-Dive](guides/recruiter-screen-why-anthropic.md)
-- [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md)
-- [Hiring Manager Round — Behavioral & Collaboration](guides/onsite-hm-behavioral.md)
+- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
 ## How to Prepare
 

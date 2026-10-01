@@ -2,7 +2,7 @@
 
 # Databricks interview process, OA & interview questions
 
-**67 questions** reported at Databricks · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
+**67 questions** reported at Databricks · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Databricks interviews & the free questions](databricks/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (42% of 67) |
 | Difficulty (easy / medium / hard) | 5 / 43 / 19 |
 | Free to practise | [11](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 67 questions reported at Databricks. 46 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -105,16 +105,13 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 
 ## Guides & writeups
 
-**6 writeups** filed under Databricks in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Databricks in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Databricks Infrastructure Engineer Interview Process](https://trueinterview.io/study/databricks-infrastructure-engineer-interview-process) | — |
 | [Databricks Interview Process & Questions](https://trueinterview.io/study/databricks-interview-process) | — |
 | [Databricks Software Engineer Interview Process](https://trueinterview.io/study/databricks-software-engineer-interview-process) | — |
-| [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/study/18740a79-71e0-4f42-9231-0432e82af752) | — |
-| [Senior FDE Recruiter Screen](https://trueinterview.io/study/senior-fde-recruiter-screen) | culture-fit, fit, verbal, why-company |
-| [SWE / MLE Behavioral Round](https://trueinterview.io/study/swe-behavioral-round) | conflict, culture-fit, deep-dive, why-company |
 
 ---
 

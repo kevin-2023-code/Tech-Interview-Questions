@@ -11,7 +11,7 @@ How Google interviews, and the questions candidates reported there. Free questio
 | Questions reported | [198](../google.md) |
 | Free to read here | 22 |
 | Interview-process guides | 3 |
-| Other guides | 5 |
+| Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
 
 ## How Google interviews
@@ -64,16 +64,6 @@ This is the in-depth companion to the Google company page. It covers how each st
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Behavioral Round (Googliness Themes)](guides/bq-round-google-style.md) | culture-fit |
-| [CPU Architecture and Simulator Design Deep Dive](guides/cpu-architecture-simulator-deep-dive.md) | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
-| [Google Hiring Assessment (GHA / Work Styles)](guides/google-hiring-assessment-gha.md) | culture-fit |
-| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](guides/ml-fundamentals-deep-dive.md) | deep-dive, ml-knowledge, rag, retrieval, transformer |
-| [Research Paper Presentation and Defense (DeepMind RS)](guides/deepmind-rs-paper-presentation-defense.md) | critique, deep-dive, presentation, vlm |
 
 ## Everything else
 

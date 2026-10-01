@@ -11,7 +11,7 @@ How Harvey interviews, and the questions candidates reported there. Free questio
 | Questions reported | [17](../harvey.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
 
 ## How Harvey interviews
@@ -38,12 +38,6 @@ Harvey's loop is unusual in how narrow it is: a small set of problem families â€
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/citation-highlighting) |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Harvey Values / Behavioral](guides/harvey-values-behavioral.md) | collaboration, conflict, culture-fit, leadership, mentorship, values |
 
 ## Everything else
 

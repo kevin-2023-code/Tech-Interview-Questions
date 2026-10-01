@@ -2,7 +2,7 @@
 
 # Reddit interview process, OA & interview questions
 
-**28 questions** reported at Reddit · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Reddit · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Reddit interviews & the free questions](reddit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (43% of 28) |
 | Difficulty (easy / medium / hard) | 2 / 19 / 7 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 28 questions reported at Reddit. 23 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -92,14 +92,10 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 
 ## Guides & writeups
 
-**7 writeups** filed under Reddit in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Reddit in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Cross-Functional & PM Behavioral](https://trueinterview.io/study/cross-functional-pm-bq) | collaboration, conflict, values |
-| [Hiring-Manager Domain Round](https://trueinterview.io/study/hiring-manager-domain-round) | ads, deep-dive, fit, leadership, ml-infra |
-| [ML Fundamentals](https://trueinterview.io/study/ml-fundamentals) | ml fundamentals |
-| [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/study/product-sense-improve-onboarding) | ambiguity, open-ended, product-design, ux |
 | [Reddit Interview Process & Questions](https://trueinterview.io/study/reddit-interview-process) | — |
 | [Reddit Machine Learning Engineer Interview Process](https://trueinterview.io/study/reddit-machine-learning-engineer-interview-process) | — |
 | [Reddit Software Engineer Interview Process](https://trueinterview.io/study/reddit-software-engineer-interview-process) | — |

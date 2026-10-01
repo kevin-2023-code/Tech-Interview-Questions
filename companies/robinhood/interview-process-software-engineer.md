@@ -68,7 +68,7 @@ One dedicated hour, occasionally slide-driven, and repeatedly the round candidat
 
 Threaded through the loop rather than confined to one round — several reported phone rounds opened with 15 to 20 minutes of behavioral questions before any code. Themes recur under different labels: pushing a project through a blocker, persuading a team to change approach, deciding fast under uncertainty, conflict with a senior stakeholder, mentoring. Hiring managers calibrate seniority here, and one candidate felt measured against a level above the one they applied for, so quantify scope explicitly.
 
-- [Recruiter / HR Screen](guides/recruiter-hr-screen.md)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
 ## What They Don't Test
 

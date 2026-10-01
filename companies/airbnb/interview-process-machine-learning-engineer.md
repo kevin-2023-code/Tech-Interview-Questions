@@ -58,15 +58,15 @@ Store-implementation exercises recur in this track's coding rounds and are grade
 
 One dedicated round, plus scope probing inside the manager conversation. The measure is the size of the problem you owned, not the sophistication of the model: who used it, what moved, who outside your team you had to align. Reports flag scope perception as an under-anticipated failure point — a technically deep project with narrow blast radius reads weaker than a simpler one with clear cross-team impact.
 
-- [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md)
-- [Hiring Manager Screen](guides/hiring-manager-screen.md)
+- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
+- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
 
 ### Behavioral and Leadership
 
 One values round and one manager conversation, both non-technical and both weighted in the final decision. The questions reach outside work into what you care about and why this mission; answers assembled from a framework land poorly. Rapport matters more here than in most loops — one candidate named an awkward dynamic with the interviewer as part of why the overall signal came out weak.
 
-- [Core Values Behavioral Round](guides/core-values-bq-round.md)
-- [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md)
+- [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round)
+- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
 
 ## What They Don't Test
 

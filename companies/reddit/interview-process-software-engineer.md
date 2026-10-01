@@ -61,9 +61,9 @@ One onsite round, occasionally two, and it carries the most weight for senior ca
 
 Two rounds carry this, and they are graded differently. The hiring manager wants volume and specificity — bring more stories than feels necessary, including a genuine lowlight, because the round pushes for a second and third example on the same theme. The cross-functional round wants evidence you can be overruled gracefully and still ship. Where the team is domain-heavy, the manager substitutes technical depth for stories entirely, and a mismatch there is decisive rather than advisory.
 
-- [Hiring-Manager Domain Round](guides/hiring-manager-domain-round.md)
-- [Cross-Functional & PM Behavioral](guides/cross-functional-pm-bq.md)
-- [Product Sense: Improve Reddit Onboarding](guides/product-sense-improve-onboarding.md)
+- [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round)
+- [Cross-Functional & PM Behavioral](https://trueinterview.io/questions/cross-functional-pm-bq)
+- [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding)
 
 ## What They Don't Test
 

@@ -2,7 +2,7 @@
 
 # Rippling interview process, OA & interview questions
 
-**30 questions** reported at Rippling · **8 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Rippling · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/rippling), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Rippling interviews & the free questions](rippling/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (37% of 30) |
 | Difficulty (easy / medium / hard) | 1 / 20 / 9 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 8 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 30 questions reported at Rippling. 16 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -97,18 +97,11 @@ The 8 questions to open first if you are preparing for Rippling, ranked by **the
 
 ## Guides & writeups
 
-**8 writeups** filed under Rippling in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Rippling in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [DSA Multiple Choice and Costliest Chocolate](https://trueinterview.io/study/intern-oa-fixed-set) | api-integration, dfs, hashmap, heap, sliding-window |
-| [Explain How AI Supports Your Design and Coding Work](https://trueinterview.io/study/explain-how-ai-supports-your-design-and-coding-work) | — |
-| [Explain the Scope and Impact of Your Most Important Project](https://trueinterview.io/study/explain-the-scope-and-impact-of-your-most-important-project) | — |
-| [Explain Your Current and Previous Engineering Roles](https://trueinterview.io/study/explain-your-current-and-previous-engineering-roles) | — |
-| [Explain Your Reason for Changing Roles and Your Interest in the Team](https://trueinterview.io/study/explain-your-reason-for-changing-roles-and-your-interest-in-the-team) | — |
-| [Project Deep Dive / HM BQ](https://trueinterview.io/study/project-deep-dive-and-bq) | bq, deep-dive, impact, mentorship, presentation |
 | [Rippling Interview Process & Questions](https://trueinterview.io/study/rippling-interview-process) | — |
-| [Time Complexity Analysis](https://trueinterview.io/study/3ff04932-615f-483c-a528-757dfbfc638a) | — |
 
 ---
 

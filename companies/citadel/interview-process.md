@@ -54,8 +54,8 @@ Design at Citadel means a concrete class with stated complexity per operation, n
 
 Behavioral time at Citadel is mostly a technical audit of your resume plus breadth checks that can surface in any round. Prepare each project as a defensible narrative — decisions, alternatives, measured results — and expect quantitative or systems quickfire segments on quant-adjacent tracks.
 
-- [Behavioral / Resume Drilling Across the Loop](guides/citadel-bq-resume-loop.md)
-- [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](guides/citadel-hft-onsite-fundamentals.md)
+- [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/questions/citadel-bq-resume-loop)
+- [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/questions/citadel-hft-onsite-fundamentals)
 
 ## How to Prepare
 

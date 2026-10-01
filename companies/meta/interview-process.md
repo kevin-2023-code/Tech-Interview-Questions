@@ -73,8 +73,8 @@ The AI-enabled round is one codebase that changes in stages: fix a failing test,
 
 The behavioral rounds sound conversational but dig hard: your proudest project, a conflict, critical feedback, a project whose direction changed. Each answer is pressed for what you personally drove and what number moved. Newer sessions add a structured thread on AI: which tools you use, where they misled you, and how you check their output.
 
-- [Traditional Behavioral](guides/traditional-behavioral-meta.md)
-- [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md)
+- [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
+- [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
 - [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/questions/03c246e8-c1a4-47b1-b1bd-5c212e569288)
 
 ## How to Prepare

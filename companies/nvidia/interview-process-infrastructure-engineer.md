@@ -58,14 +58,14 @@ A recurring round, often with no code required — the interviewer wants the dat
 
 It runs in every round, not one, and is the highest-weight competency on the track. Interviewers pull one infrastructure system off your resume and stay on it: the topology, what broke, how you measured it, which decision you would reverse. Telemetry, monitoring, and cluster-management work draws the most attention, and hardware-adjacent experience is examined for whether you understood the machine or only the service running on it. Vague ownership language collapses because the interviewer has usually built the same kind of system.
 
-- [Hardware-Adjacent Project Deep Dive](guides/hardware-adjacent-project-deep-dive.md)
-- [GPU and Inference Systems Fundamentals](guides/gpu-and-inference-systems-fundamentals.md)
+- [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive)
+- [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals)
 
 ### Behavioral and Leadership
 
 There is no scripted values rubric here. Behavioral shows up as five to ten minutes at the top of nearly every round — a challenge on a past project, a disagreement, why you are moving — plus the director conversation's hypotheticals. It is graded as coherence and candor, and the recurring weakness is candidates burning technical time on long, unrehearsed project narratives.
 
-- [Culture Fit, Motivation, and Learning Habits](guides/culture-fit-motivation-and-learning-habits.md)
+- [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits)
 
 ## What They Don't Test
 

@@ -49,9 +49,9 @@ One dedicated onsite round, and often a phone-screen segment too. Strong answers
 
 On generative-AI teams this is one or two rounds, often LLM-focused: transformers, fine-tuning versus pretraining, RLHF and newer policy-optimization variants, parameter-efficient tuning, KV caching and attention efficiency. Team screens can also run through classical statistics quickly. Interviewers follow up on practical details, such as the memory cost of an adapter or where an efficient attention kernel fits into an existing codebase.
 
-- [Transformer / Attention Deep-Dive](guides/transformer-attention-deep-dive.md)
-- [RLHF: PPO vs GRPO vs GSPO](guides/rlhf-ppo-grpo-gspo.md)
-- [LoRA and PEFT Variants](guides/lora-and-peft-variants.md)
+- [Transformer / Attention Deep-Dive](https://trueinterview.io/questions/transformer-attention-deep-dive)
+- [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo)
+- [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants)
 
 ### Coding and Algorithm
 
@@ -64,13 +64,13 @@ One or two segments, easy to medium, often in the first round. Reported problems
 
 At least one round is entirely about your work, and it is often combined with fundamentals. It is graded on ownership and impact, not novelty: which decisions you made, what went wrong, and how the result moved a user-level or revenue metric. Impact that sounds purely technical is marked down against the target level.
 
-- [Paper Read Round (FAR / Premium Loops)](guides/paper-read-round-far.md)
+- [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/questions/paper-read-round-far)
 
 ### Behavioral and Leadership
 
 A full behavioral round plus principle questions in every technical hour, even when the recruiter says there will be none. Stories need data and measurable results, and they should involve ML work.
 
-- [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md)
+- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
 
 ## What They Don't Test
 

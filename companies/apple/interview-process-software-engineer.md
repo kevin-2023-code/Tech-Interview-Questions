@@ -62,7 +62,7 @@ Roughly a third of reported loops replaced a generic round with one drawn from t
 
 At least one dedicated round, usually the hiring manager, plus behavioral openers on technical rounds. Recurring themes: conflicting deadlines, reallocating resources between initiatives, influencing peers to reprioritize, a lesson from not asking for advice, mentoring, and what your current team would miss about you. Describing process instead of a decision you made loses the round, and it carries real veto weight.
 
-- [Behavioral Prioritization and Stakeholder Fit](guides/behavioral-prioritization-and-stakeholder-fit.md)
+- [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit)
 
 ## What They Don't Test
 

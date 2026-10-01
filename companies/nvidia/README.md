@@ -11,7 +11,7 @@ How NVIDIA interviews, and the questions candidates reported there. Free questio
 | Questions reported | [29](../nvidia.md) |
 | Free to read here | 6 |
 | Interview-process guides | 3 |
-| Other guides | 4 |
+| Other guides | 0 |
 | Most recent sighting | Aug 21, 2026 |
 
 ## How NVIDIA interviews
@@ -48,15 +48,6 @@ NVIDIA does not run one standardized loop: the team you interview with decides t
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Remove Duplicates from Sorted Array](../../questions/algorithm/remove-duplicates-from-sorted-array/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Culture Fit, Motivation, and Learning Habits](guides/culture-fit-motivation-and-learning-habits.md) | culture-fit, values, why-company |
-| [Deep Learning Fundamentals: Optimization, Drift, Calibration](guides/deep-learning-fundamentals.md) | calibration, distribution, ml-knowledge, optimization |
-| [GPU and Inference Systems Fundamentals](guides/gpu-and-inference-systems-fundamentals.md) | gpu, inference, kernel, matmul, transformer |
-| [Hardware-Adjacent Project Deep Dive](guides/hardware-adjacent-project-deep-dive.md) | domain-knowledge, gpu, infra, metrics |
 
 ## Everything else
 

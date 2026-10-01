@@ -66,7 +66,7 @@ A growing share of the loop puts an AI assistant in the room and grades how you 
 
 Usually one manager round, with the panel folding behavioral probing into the project deep dive. Level calibration is explicit and uncomfortable: expect direct questions about your band, your promotion timeline, and whether the project you chose was genuinely critical infrastructure, alongside a cross-team conflict and a mentoring example.
 
-- [Hiring Manager — Project Deep-Dive + AI Usage BQ](guides/hm-bq-project-deep-dive.md)
+- [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
 
 ## What They Don't Test
 

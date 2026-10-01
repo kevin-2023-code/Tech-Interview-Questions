@@ -2,7 +2,7 @@
 
 # Shopify interview process, OA & interview questions
 
-**15 questions** reported at Shopify · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Shopify · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Shopify interviews & the free questions](shopify/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (73% of 15) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 1 |
 | Free to practise | [7](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 15 questions reported at Shopify. 10 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -90,12 +90,10 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 
 ## Guides & writeups
 
-**3 writeups** filed under Shopify in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Shopify in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Life Story / Values Interview](https://trueinterview.io/study/life-story-values-interview) | culture-fit, star, values, why-company |
-| [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/study/ml-modeling-round) | classification, evaluation, feature-engineering, ml-knowledge, mlsd |
 | [Shopify Interview Process & Questions](https://trueinterview.io/study/shopify-interview-process) | — |
 
 ---

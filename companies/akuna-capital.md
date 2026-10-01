@@ -2,7 +2,7 @@
 
 # Akuna Capital interview process, OA & interview questions
 
-**30 questions** reported at Akuna Capital · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Akuna Capital · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Akuna Capital interviews & the free questions](akuna-capital/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 30) |
 | Difficulty (easy / medium / hard) | 7 / 22 / 1 |
 | Free to practise | [9](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 30 questions reported at Akuna Capital. 23 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -97,16 +97,13 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 
 ## Guides & writeups
 
-**6 writeups** filed under Akuna Capital in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Akuna Capital in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Advanced Math and Reasoning Brain Teasers](https://trueinterview.io/study/qr-video-oa-advanced-math-and-reasoning) | linear-algebra, math, math-reasoning, probability, verbal |
 | [Akuna Capital Interview Process & Questions](https://trueinterview.io/study/akunacapital-interview-process) | — |
 | [Akuna Capital Quantitative Finance Interview Process](https://trueinterview.io/study/akunacapital-quantitative-finance-interview-process) | — |
 | [Akuna Capital Research Scientist Interview Process](https://trueinterview.io/study/akunacapital-research-scientist-interview-process) | — |
-| [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/study/junior-trader-final-games) | brainteaser, expected-value, fermi-estimation, market-making, verbal |
-| [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/study/trader-fair-bet-probability-and-number-sequences) | math, math-reasoning, probability, verbal |
 
 ---
 

@@ -56,7 +56,7 @@ Low-level design at SoFi starts small and scales: the key-value store below was 
 
 Behavioral evaluation is folded into nearly every SoFi round — screens open with 15–20 minutes of stories, and the hiring-manager round is a full project deep dive. Prepare STAR-format narratives with concrete metrics for failure, conflict with senior colleagues, and end-user advocacy, and be ready to walk through architecture decisions in your proudest project.
 
-- [Manager Behavioral and Project Deep Dive](guides/manager-behavioral-and-project-deep-dive.md)
+- [Manager Behavioral and Project Deep Dive](https://trueinterview.io/questions/manager-behavioral-and-project-deep-dive)
 
 ## How to Prepare
 

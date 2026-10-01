@@ -70,10 +70,10 @@ Some teams now let you code with your own AI tool while sharing your screen. The
 
 Behavioral signal is collected throughout the loop: project defenses open most calls, and hiring manager rounds ask about conflict, ambiguity, weaknesses and whether you can handle intensity.
 
-- [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md)
-- [Hiring Manager / Final Behavioral Round](guides/hm-behavioral-final-round.md)
-- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](guides/backend-fundamentals-oral-cluster.md)
-- [SRE Linux / Networking Troubleshooting Round](guides/sre-linux-networking-troubleshoot.md)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+- [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round)
+- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster)
+- [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/questions/sre-linux-networking-troubleshoot)
 
 ## How to Prepare
 

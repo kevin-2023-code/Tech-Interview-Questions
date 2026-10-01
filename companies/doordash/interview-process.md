@@ -68,8 +68,8 @@ The AI Code Craft round hands you starter code, allows an AI assistant, and eval
 
 Behavioral rounds lean into negative scenarios — conflict, mistakes, failed projects, disagreement with a manager — and into operational judgment: preventing wrong orders, investigating incidents, and balancing customer, merchant, and Dasher interests. Prepare concrete stories with your individual actions and measurable outcomes.
 
-- [Onsite: On-Call Case Investigation](guides/onsite-case-investigation.md)
-- [MLE Onsite: ML Knowledge / Discussion Round](guides/mle-ml-discussion-round.md)
+- [Onsite: On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation)
+- [MLE Onsite: ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round)
 
 ## How to Prepare
 

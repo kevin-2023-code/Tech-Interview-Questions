@@ -59,7 +59,7 @@ Expect one or two rounds, and the content leans away from the standard canon. Nu
 This is tested through implementation and spoken production knowledge rather than recitation. Examples: a probabilistic text generator built from scratch, and a discussion of how to keep tail latency down with distillation, quantization and batching. Experiment statistics also count: ratio metrics, switchbacks, and confidence intervals. Generic textbook answers do not carry the round.
 
 - [ML Coding from Scratch (Regression / Markov / Facility)](https://trueinterview.io/questions/mle-onsite-ml-coding-from-scratch)
-- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](guides/scientist-experiment-design.md)
+- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design)
 - [PyTorch Multi-Head Self-Attention](https://trueinterview.io/questions/pytorch-multi-head-self-attention)
 
 ### ML System Design
@@ -74,7 +74,7 @@ This appears as a phone screen or an onsite round. You start from a product goal
 
 This appears in most ML loops, often in the very first screen, and it is decisive at senior and Staff level. It covers problem formulation, metrics, business impact and team structure, and at Staff it adds reframing the problem from fundamentals.
 
-- [Onsite BQ + Hiring Manager + Project Deep-Dive](guides/onsite-bq-hm-deep-dive.md)
+- [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/questions/onsite-bq-hm-deep-dive)
 
 ## What They Don't Test
 

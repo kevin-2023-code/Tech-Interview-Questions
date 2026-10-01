@@ -54,8 +54,8 @@ Cache and data-structure design sits inside the coding rounds. The LRU cache app
 
 Rounds open with 15-30 minutes on your resume. The frontend reports show interviewers pushing on the AI components of a project and on performance work, asking what you built, why that approach won, and what the numbers showed. Anything named on the resume, React included, can trigger an internals question with no warning.
 
-- [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md)
-- [Hiring Manager / Final Behavioral Round](guides/hm-behavioral-final-round.md)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+- [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round)
 
 ## What They Don't Test
 

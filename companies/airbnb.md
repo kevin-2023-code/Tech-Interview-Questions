@@ -2,7 +2,7 @@
 
 # Airbnb interview process, OA & interview questions
 
-**55 questions** reported at Airbnb · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
+**55 questions** reported at Airbnb · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Airbnb interviews & the free questions](airbnb/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 55) |
 | Difficulty (easy / medium / hard) | 3 / 32 / 20 |
 | Free to practise | [6](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 55 questions reported at Airbnb. 44 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -102,17 +102,13 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 
 ## Guides & writeups
 
-**7 writeups** filed under Airbnb in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Airbnb in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Airbnb Interview Process & Questions](https://trueinterview.io/study/airbnb-interview-process) | — |
 | [Airbnb Machine Learning Engineer Interview Process](https://trueinterview.io/study/airbnb-machine-learning-engineer-interview-process) | — |
 | [Airbnb Software Engineer Interview Process](https://trueinterview.io/study/airbnb-software-engineer-interview-process) | — |
-| [Core Values Behavioral Round](https://trueinterview.io/study/core-values-bq-round) | bq, culture-fit, star, values, why-company |
-| [Experience / Project Deep-Dive Round](https://trueinterview.io/study/experience-project-deep-dive) | deep-dive, impact, leadership, technical-deep-dive |
-| [Explain ML Project Milestones, Scope, and Conflict](https://trueinterview.io/study/explain-ml-project-milestones-scope-and-conflict) | — |
-| [Hiring Manager Screen](https://trueinterview.io/study/hiring-manager-screen) | deep-dive, fit |
 
 ---
 

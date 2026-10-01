@@ -2,7 +2,7 @@
 
 # Harvey interview process, OA & interview questions
 
-**17 questions** reported at Harvey · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
+**17 questions** reported at Harvey · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/harvey), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Harvey interviews & the free questions](harvey/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (35% of 17) |
 | Difficulty (easy / medium / hard) | 0 / 12 / 5 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 2 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 17 questions reported at Harvey. 12 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -97,12 +97,11 @@ The 8 questions to open first if you are preparing for Harvey, ranked by **the m
 
 ## Guides & writeups
 
-**2 writeups** filed under Harvey in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Harvey in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Harvey Interview Process & Questions](https://trueinterview.io/study/harvey-interview-process) | — |
-| [Harvey Values / Behavioral](https://trueinterview.io/study/harvey-values-behavioral) | collaboration, conflict, culture-fit, leadership, mentorship |
 
 ---
 

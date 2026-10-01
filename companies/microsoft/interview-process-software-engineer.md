@@ -63,8 +63,8 @@ One round of 45 to 60 minutes, or a slice of a mixed round. Requirements first, 
 
 Present in almost every round rather than isolated. Questions cover conflict, feedback, shifting priorities, and moving forward with limited guidance, with follow-ups that verify hands-on detail (code freezes, environment parity, experiment rollout). Some loops keyed each round to a named competency such as influence for impact or bias for action.
 
-- [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md)
-- [Project Deep Dive](guides/project-deep-dive-2.md)
+- [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
+- [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
 
 ## What They Don't Test
 

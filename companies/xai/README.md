@@ -11,7 +11,7 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 | Questions reported | [35](../xai.md) |
 | Free to read here | 5 |
 | Interview-process guides | 4 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
 
 ## How xAI interviews
@@ -45,13 +45,6 @@ This guide goes deeper than the process outline on the company page: how each xA
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Nested Structure Flatten and Unflatten](../../questions/algorithm/nested-structure-flatten-and-unflatten/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Most Challenging Project + Why xAI](guides/most-challenging-project-why-xai.md) | fit, project-deep-dive |
-| [Process vs Thread (Verbal CS Fundamentals)](guides/process-vs-thread-verbal.md) | concurrency, cs-fundamentals, operating-systems, verbal |
 
 ## Everything else
 

@@ -65,8 +65,8 @@ This is the family that defines a Lyft loop. The key-value store appears in more
 
 The behavioral round is a structured pass through conflict, communication breakdowns, a failure you learned from, tough decisions, ambiguity, and diversity and inclusion, anchored to a resume project with follow-ups until the interviewer reaches an actual decision you made; a candid, specific failure story went over well. Data candidates get a second non-coding filter: applied probability in the screen, plus an open-ended business case such as root-causing a shift in surge-pricing metrics, which is where one candidate's loop ended.
 
-- [Project, Conflict, Failure, and DEI](guides/behavioral-project-conflict-and-dei.md)
-- [Commuter Coupon Conditional Probability](guides/ds-commuter-coupon-probability.md)
+- [Project, Conflict, Failure, and DEI](https://trueinterview.io/questions/behavioral-project-conflict-and-dei)
+- [Commuter Coupon Conditional Probability](https://trueinterview.io/questions/ds-commuter-coupon-probability)
 
 ## How to Prepare
 

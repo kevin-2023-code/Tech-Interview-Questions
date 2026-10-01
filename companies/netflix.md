@@ -2,7 +2,7 @@
 
 # Netflix interview process, OA & interview questions
 
-**73 questions** reported at Netflix · **6 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/netflix), judged server-side on the algorithm, low-level-design and SQL formats.
+**73 questions** reported at Netflix · **4 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/netflix), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Netflix interviews & the free questions](netflix/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (51% of 73) |
 | Difficulty (easy / medium / hard) | 19 / 45 / 9 |
 | Free to practise | [13](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 4 |
 | Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 73 questions reported at Netflix. 44 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -93,12 +93,10 @@ The 8 questions to open first if you are preparing for Netflix, ranked by **the 
 
 ## Guides & writeups
 
-**6 writeups** filed under Netflix in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under Netflix in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/study/ml-research-orals) | attention, lora, ml-knowledge, transformer |
-| [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/study/netflix-culture-and-domain-manager-rounds) | collaboration, culture, culture-fit, fit, impact |
 | [Netflix Infrastructure Engineer Interview Process](https://trueinterview.io/study/netflix-infrastructure-engineer-interview-process) | — |
 | [Netflix Interview Process & Questions](https://trueinterview.io/study/netflix-interview-process) | — |
 | [Netflix Machine Learning Engineer Interview Process](https://trueinterview.io/study/netflix-machine-learning-engineer-interview-process) | — |

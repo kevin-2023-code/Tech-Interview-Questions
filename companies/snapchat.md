@@ -2,7 +2,7 @@
 
 # Snapchat interview process, OA & interview questions
 
-**54 questions** reported at Snapchat · **8 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
+**54 questions** reported at Snapchat · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snapchat), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snapchat interviews & the free questions](snapchat/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 54) |
 | Difficulty (easy / medium / hard) | 7 / 41 / 6 |
 | Free to practise | [12](../free/README.md) |
-| Guides & writeups | 8 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 54 questions reported at Snapchat. 40 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -101,15 +101,10 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 
 ## Guides & writeups
 
-**8 writeups** filed under Snapchat in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Snapchat in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Choose Labels and Losses for Multiple Engagement Outcomes](https://trueinterview.io/study/choose-labels-and-losses-for-multiple-engagement-outcomes) | — |
-| [Compare Batch Normalization and Layer Normalization](https://trueinterview.io/study/compare-batch-normalization-and-layer-normalization) | — |
-| [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
-| [Explain Neural-Network Regularization and Dropout](https://trueinterview.io/study/explain-neural-network-regularization-and-dropout) | — |
-| [ML Fundamentals, Transformer & Regularization](https://trueinterview.io/study/ml-fundamentals-transformer-and-regularization) | ml-knowledge, optimization, transformer |
 | [Snapchat Interview Process & Questions](https://trueinterview.io/study/snapchat-interview-process) | — |
 | [Snapchat Machine Learning Engineer Interview Process](https://trueinterview.io/study/snapchat-machine-learning-engineer-interview-process) | — |
 | [Snapchat Software Engineer Interview Process](https://trueinterview.io/study/snapchat-software-engineer-interview-process) | — |

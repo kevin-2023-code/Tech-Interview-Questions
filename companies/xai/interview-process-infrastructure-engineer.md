@@ -36,7 +36,7 @@ An Infrastructure Engineer candidate here was rejected after an eight-minute pho
 
 Operating-systems and concurrency fundamentals are tested verbally, at speed, with no ramp. Reports show a three-question sequence on process versus thread, inter-process shared memory, and its risks inside an eight-minute call, and multiprocessing versus multithreading asked conversationally with a demand for real examples from your own work. Signal comes from a crisp definition followed immediately by something you shipped; a textbook answer with no lived example is documented as insufficient even when factually correct. Assume seconds, not minutes, per concept.
 
-- [Process vs Thread (Verbal CS Fundamentals)](guides/process-vs-thread-verbal.md)
+- [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal)
 - [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt)
 
 ### Coding and Algorithm
@@ -68,7 +68,7 @@ Typically one round, sometimes merged with implementation. Prompts are distribut
 
 Every reported infrastructure loop opened with the most-challenging-project question and returned to it later at greater depth. Interviewers probe the decisions inside the project rather than its outcome, and one candidate got explicit feedback to be more precise when defining problems and constraints. The written work statement feeds this round, so pick a project whose hardest part is a systems problem you personally solved.
 
-- [Most Challenging Project + Why xAI](guides/most-challenging-project-why-xai.md)
+- [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai)
 - [Twitter Insight Platform (CodeSignal Take-Home)](https://trueinterview.io/questions/twitter-insight-platform-take-home)
 
 ## What They Don't Test

@@ -11,7 +11,7 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 | Questions reported | [54](../snapchat.md) |
 | Free to read here | 12 |
 | Interview-process guides | 3 |
-| Other guides | 5 |
+| Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
 
 ## How Snapchat interviews
@@ -54,16 +54,6 @@ Coding difficulty sits at LeetCode medium with occasional hard follow-ups, but S
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Choose Labels and Losses for Multiple Engagement Outcomes](guides/choose-labels-and-losses-for-multiple-engagement-outcomes.md) | — |
-| [Compare Batch Normalization and Layer Normalization](guides/compare-batch-normalization-and-layer-normalization.md) | — |
-| [DispatchQueue Code Analysis in Swift](https://trueinterview.io/study/4dde5e0c-9e01-477b-b775-5919892177b9) | — |
-| [Explain Neural-Network Regularization and Dropout](guides/explain-neural-network-regularization-and-dropout.md) | — |
-| [ML Fundamentals, Transformer & Regularization](guides/ml-fundamentals-transformer-and-regularization.md) | ml-knowledge, optimization, transformer |
 
 ## Everything else
 

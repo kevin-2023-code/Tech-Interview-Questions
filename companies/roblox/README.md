@@ -11,7 +11,7 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 | Questions reported | [66](../roblox.md) |
 | Free to read here | 15 |
 | Interview-process guides | 4 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
 
 ## How Roblox interviews
@@ -57,13 +57,6 @@ The company page sketches the shape of the Roblox loop; this guide covers what h
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [HM Behavioral: Traffic Scale & Scope of Past Work](guides/behavioral-hm-traffic-and-scope.md) | ambiguity, bq, culture-fit, leadership, scaling, star |
-| [MLE Project / Paper Deep Dive](guides/mle-project-deep-dive.md) | deep-dive, ml-knowledge, paper-read, presentation |
 
 ## Everything else
 

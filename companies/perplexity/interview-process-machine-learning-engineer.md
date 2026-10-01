@@ -52,7 +52,7 @@ Design questions are about serving and retrieval under real constraints rather t
 
 One project, examined to the depth at which you either made the decisions or did not. The screen asks for the hardest thing you have shipped and the specific obstacles inside it; the later round wants the measurement story — what the objective was, how you evaluated it, what the deployment constraints were, and what you changed after it underperformed. Reading and explaining unfamiliar work is graded in the same family: a written summary of a supplied codebase appears as an explicit scored task in this organization's take-home before any code is written.
 
-- [Behavioral and Project Deep-Dive](guides/behavioral-and-project-deep-dive.md)
+- [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive)
 - [Understand Code Functionality](https://trueinterview.io/questions/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7)
 
 ## What They Don't Test

@@ -11,7 +11,7 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 | Questions reported | [55](../airbnb.md) |
 | Free to read here | 6 |
 | Interview-process guides | 3 |
-| Other guides | 4 |
+| Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
 
 ## How Airbnb interviews
@@ -52,15 +52,6 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
 | [Guess Number](../../questions/algorithm/guess-number/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/guess-number) |
 | [Minimum Vertices to Traverse Directed Graph](../../questions/algorithm/minimum-vertices-to-traverse-directed-graph/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-vertices-to-traverse-directed-graph) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Core Values Behavioral Round](guides/core-values-bq-round.md) | bq, culture-fit, star, values, why-company |
-| [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md) | deep-dive, impact, leadership, technical-deep-dive |
-| [Explain ML Project Milestones, Scope, and Conflict](guides/explain-ml-project-milestones-scope-and-conflict.md) | — |
-| [Hiring Manager Screen](guides/hiring-manager-screen.md) | deep-dive, fit |
 
 ## Everything else
 

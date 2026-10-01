@@ -53,8 +53,8 @@ This round is graded on how you prompt, verify and iterate, and the problems hav
 
 Expect a conflict with peers, a project hit by shifting requirements, and your specific role in each. At senior levels, interviewers probe mentoring and cross-functional prioritization. The AI-usage thread is detailed enough that one candidate compared it to a survey.
 
-- [Traditional Behavioral](guides/traditional-behavioral-meta.md)
-- [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md)
+- [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
+- [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
 
 ## What They Don't Test
 

@@ -11,7 +11,7 @@ How Walmart Labs interviews, and the questions candidates reported there. Free q
 | Questions reported | [28](../walmart-labs.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Jul 07, 2026 |
 
 ## How Walmart Labs interviews
@@ -41,13 +41,6 @@ The final loop typically runs three sessions: a coding round, a system design ro
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Spring Boot Verbal Quiz](guides/spring-boot-verbal-quiz.md) | backend, cs-fundamentals, verbal |
-| [Walmart Behavioral / HM Loop](guides/walmart-bq-loop.md) | bq, conflict, culture-fit, impact, leadership, star |
 
 ## Everything else
 

@@ -2,7 +2,7 @@
 
 # Waymo interview process, OA & interview questions
 
-**55 questions** reported at Waymo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
+**55 questions** reported at Waymo · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/waymo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Waymo interviews & the free questions](waymo/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 55) |
 | Difficulty (easy / medium / hard) | 1 / 38 / 16 |
 | Free to practise | [4](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 55 questions reported at Waymo. 49 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -99,12 +99,10 @@ The 8 questions to open first if you are preparing for Waymo, ranked by **the mo
 
 ## Guides & writeups
 
-**3 writeups** filed under Waymo in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Waymo in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/study/behavioral-policy-vs-efficiency-leadership) | ambiguity, conflict, deep-dive, leadership |
-| [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/study/project-deep-dive-ml-fundamentals) | deep-dive, ml-knowledge, open-ended, presentation |
 | [Waymo Interview Process & Questions](https://trueinterview.io/study/waymo-interview-process) | — |
 
 ---

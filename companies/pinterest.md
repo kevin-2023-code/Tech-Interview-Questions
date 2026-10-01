@@ -2,7 +2,7 @@
 
 # Pinterest interview process, OA & interview questions
 
-**77 questions** reported at Pinterest · **6 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**77 questions** reported at Pinterest · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 77) |
 | Difficulty (easy / medium / hard) | 8 / 52 / 17 |
 | Free to practise | [6](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
 
 <sub>Counted from the 77 questions reported at Pinterest. 47 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -106,13 +106,10 @@ The 8 questions to open first if you are preparing for Pinterest, ranked by **th
 
 ## Guides & writeups
 
-**6 writeups** filed under Pinterest in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Pinterest in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Leadership, Initiative, Project End-to-End](https://trueinterview.io/study/behavioral-leadership-initiative) | ambiguity, conflict, deep-dive, impact, leadership |
-| [MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/study/mle-intern-codesignal-oa) | classification, ml-knowledge, python |
-| [ML Fundamentals Quick-Fire](https://trueinterview.io/study/ml-fundamentals-quick-fire) | cs-fundamentals, ml-knowledge, verbal |
 | [Pinterest Interview Process & Questions](https://trueinterview.io/study/pinterest-interview-process) | — |
 | [Pinterest Machine Learning Engineer Interview Process](https://trueinterview.io/study/pinterest-machine-learning-engineer-interview-process) | — |
 | [Pinterest Software Engineer Interview Process](https://trueinterview.io/study/pinterest-software-engineer-interview-process) | — |

@@ -38,8 +38,8 @@ Data Scientist candidates here are routinely handed two full business cases in o
 
 The largest block of the day and the one that decides most outcomes. You are graded on stating a framework before touching numbers, decomposing a profit or loss into its drivers, doing arithmetic aloud without a calculator, and closing with a recommendation you can defend. Interviewers deliberately choose unfamiliar industries, so domain knowledge is not the point — the reusable structure is. The two most common failures: computing silently and announcing only the answer, and producing a framework so generic it never touches the specifics of the scenario.
 
-- [Amusement Park Profitability Case](guides/amusement-park-profitability-case.md)
-- [DS Business Analyst Case (P&L Decomposition)](guides/ds-business-analyst-case-study.md)
+- [Amusement Park Profitability Case](https://trueinterview.io/questions/amusement-park-profitability-case)
+- [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/questions/ds-business-analyst-case-study)
 
 ### Coding and Algorithm
 
@@ -60,8 +60,8 @@ Breadth over depth, and biased toward tabular practice: tree ensembles, missing-
 
 A graded hour with prompts that resist rehearsed answers, notably the feedback question: what someone told you, how you reacted, and what specifically changed afterwards. Conflict and ambiguity stories are expected to end with a measurable result. Interviewers probe your individual actions, so stories told entirely in the first person plural score poorly.
 
-- [Power Day Behavioral](guides/power-day-behavioral.md)
-- [AR Panel Talk Project Deep-Dive](guides/ar-panel-talk-deep-dive.md)
+- [Power Day Behavioral](https://trueinterview.io/questions/power-day-behavioral)
+- [AR Panel Talk Project Deep-Dive](https://trueinterview.io/questions/ar-panel-talk-deep-dive)
 
 ## What They Don't Test
 

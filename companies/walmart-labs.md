@@ -2,7 +2,7 @@
 
 # Walmart Labs interview process, OA & interview questions
 
-**28 questions** reported at Walmart Labs · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Walmart Labs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Walmart Labs interviews & the free questions](walmart-labs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 28) |
 | Difficulty (easy / medium / hard) | 6 / 17 / 5 |
 | Free to practise | [3](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 28 questions reported at Walmart Labs. 20 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -99,12 +99,10 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 
 ## Guides & writeups
 
-**3 writeups** filed under Walmart Labs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Walmart Labs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Spring Boot Verbal Quiz](https://trueinterview.io/study/spring-boot-verbal-quiz) | backend, cs-fundamentals, verbal |
-| [Walmart Behavioral / HM Loop](https://trueinterview.io/study/walmart-bq-loop) | bq, conflict, culture-fit, impact, leadership |
 | [Walmart Global Tech Interview Process & Questions](https://trueinterview.io/study/walmartlabs-interview-process) | — |
 
 ---

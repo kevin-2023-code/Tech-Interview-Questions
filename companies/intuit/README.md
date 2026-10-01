@@ -11,7 +11,7 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 | Questions reported | [18](../intuit.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Jun 28, 2026 |
 
 ## How Intuit interviews
@@ -43,12 +43,6 @@ The end-to-end process typically runs three to six weeks from application to dec
 | [Pandas Meeting Work-Duration Calculation](../../questions/algorithm/pandas-meeting-work-duration/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/pandas-meeting-work-duration) |
 | [DNA Substring Palindrome Cost Sum](../../questions/algorithm/dna-substring-palindrome-cost-sum/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) |
 | [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [AI Application Conversation](guides/ai-application-conversation.md) | ai-collaboration, ai-safety, llm, open-ended, prompt-engineering |
 
 ## Everything else
 

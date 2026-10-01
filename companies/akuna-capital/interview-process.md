@@ -56,8 +56,8 @@ Design prompts start small — a pool, a handler, a moving statistic — and gro
 
 Formal behavioral rounds are minimal, but trading-flavored judgment exercises fill the same slot: scenario games, fair-bet sizing, and open-ended allocation questions that measure structured thinking rather than biography. Prepare a few concise stories about debugging under pressure and revising a position on new evidence, then drill the scenario formats below.
 
-- [Junior Trader Final: Investment & Market-Making Games](guides/junior-trader-final-games.md)
-- [Trader Fair-Bet Probability and Number Sequences](guides/trader-fair-bet-probability-and-number-sequences.md)
+- [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
+- [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
 
 ## How to Prepare
 

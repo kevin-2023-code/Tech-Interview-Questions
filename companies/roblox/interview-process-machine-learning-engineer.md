@@ -50,7 +50,7 @@ One hour, open prompt, and the conversation branches from your own first framing
 
 A full hour on one project, run as an interrogation rather than a presentation. Graded on whether you own the decisions: why this architecture over the alternative, what the baseline was, how the data pipeline actually worked, where it broke, what the measured impact was, what you would rebuild. Expect to be stopped every couple of minutes, and expect to be asked to port the idea onto a problem on this platform. Lead with your strongest single piece of work — candidates planning to cover breadth have run out of time inside the first item.
 
-- [MLE Project / Paper Deep Dive](guides/mle-project-deep-dive.md)
+- [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive)
 
 ### Behavioral and Leadership
 

@@ -40,10 +40,10 @@ Research Scientist candidates are most often eliminated by a stage that has noth
 
 Probability fluency under a clock is the spine of this track, and it is tested at least twice: once as a timed battery of roughly 30 questions and again live, where an interviewer expects a spoken answer inside a minute or two. Signal comes from recognising the underlying model on sight and reaching for symmetry, linearity of expectation, first-step analysis and complementary counting instead of enumeration. The live variant adds estimation and brainteasers, where interviewers grade the decomposition rather than the final figure — stated assumptions with a defensible number beat a confident guess. The most reported failure mode is a research-trained candidate who can derive everything but has not practised doing it out loud at speed.
 
-- [Beat the Odds: Probability Test](guides/beat-the-odds-probability.md)
-- [QR Technical Round: Brainteasers and Estimation](guides/qr-technical-brainteasers.md)
-- [Trading Betting Game (EV / Market-Making)](guides/trading-betting-game.md)
-- [Number Logic: Sequence and Pattern Finding](guides/number-logic-sequence.md)
+- [Beat the Odds: Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
+- [QR Technical Round: Brainteasers and Estimation](https://trueinterview.io/questions/qr-technical-brainteasers)
+- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
+- [Number Logic: Sequence and Pattern Finding](https://trueinterview.io/questions/number-logic-sequence)
 
 ### Coding and Algorithm
 
@@ -56,16 +56,16 @@ Three problems, and the difficulty is not the algorithms but the translation: ev
 
 This is the track's distinguishing stage and it spans two rounds: an unsupervised take-home and a live defence of it. What is graded is diagnostic honesty. Candidates report that a mediocre model with a rigorous account of its failure modes is a pass-shaped outcome, while a strong metric with no residual analysis, no out-of-sample check and no statement of where the assumptions break is not. The presentation then tests whether you can hold that account under questioning from people who will trade on it, and evasiveness about a weak result reads worse than the weak result. The analysis of performance deserves as much effort as the fitting.
 
-- [QR Take-Home Data Project and Presentation](guides/qr-take-home-data-project.md)
+- [QR Take-Home Data Project and Presentation](https://trueinterview.io/questions/qr-take-home-data-project)
 - [OptiCargo: Cargo-to-Flight Scheduling](https://trueinterview.io/questions/opticargo-flight-scheduling)
 
 ### Behavioral and Leadership
 
 Two explicit conversations bracket the loop, and the closing one carries real weight. The recruiter call screens motivation, self-awareness and communication in concise, structured form. The final call revisits culture fit alongside live Python questions and your research background, and candidates report it being decisive after all technical stages passed. Temperament is also sampled indirectly: the ranking and reaction modules measure whether judgement holds while a countdown is visible, and one candidate who answered the technical material adequately attributed their rejection to explanations that were not sharp enough and enthusiasm that did not register.
 
-- [HR / Behavioral Phone Screen](guides/hr-behavioral-screen.md)
-- [Likelihood / Event-Ordering Test](guides/likelihood-ordering-test.md)
-- [Zap-N Reaction and Memory Mini-Games](guides/zap-n-reaction-games.md)
+- [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen)
+- [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test)
+- [Zap-N Reaction and Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
 
 ## What They Don't Test
 

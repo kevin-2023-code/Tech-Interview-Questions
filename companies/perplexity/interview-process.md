@@ -69,7 +69,7 @@ Perplexity's practical exercises reward reading unfamiliar code, preserving exac
 
 Behavioral evaluation is spread across the loop rather than confined to one round: screens probe ownership of a hard project, senior rounds probe conflict and unpopular decisions, and finals probe product judgment. Bring stories with your individual contribution, the trade-off you accepted, and measured outcomes.
 
-- [Behavioral and Project Deep-Dive](guides/behavioral-and-project-deep-dive.md)
+- [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive)
 - [Understand Code Functionality](https://trueinterview.io/questions/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7)
 
 ## How to Prepare

@@ -60,7 +60,7 @@ Component correctness shows up in both the timed assessment and live rounds: an 
 
 The highest-weight competency, asked in nearly every round. The same project gets re-examined by the screener, the hiring manager, and again at the assessment demo, each time deeper: what made it hard, which decisions you owned, what you would measure differently. The failure mode is a project tour — what the team shipped, without the tradeoffs you personally chose. For the demo you must explain every line you submitted; over-reliance on generated code is suspected in at least one rejection.
 
-- [Most Challenging Project + Why xAI](guides/most-challenging-project-why-xai.md)
+- [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai)
 - [Twitter Insight Platform (CodeSignal Take-Home)](https://trueinterview.io/questions/twitter-insight-platform-take-home)
 
 ## What They Don't Test

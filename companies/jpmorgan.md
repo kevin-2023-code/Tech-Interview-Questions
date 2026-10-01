@@ -2,7 +2,7 @@
 
 # JPMorgan interview process, OA & interview questions
 
-**19 questions** reported at JPMorgan · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at JPMorgan · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How JPMorgan interviews & the free questions](jpmorgan/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 19) |
 | Difficulty (easy / medium / hard) | 6 / 10 / 3 |
 | Free to practise | [6](../free/README.md) |
-| Guides & writeups | 4 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 19 questions reported at JPMorgan. 19 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -95,14 +95,11 @@ The 8 questions to open first if you are preparing for JPMorgan, ranked by **the
 
 ## Guides & writeups
 
-**4 writeups** filed under JPMorgan in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under JPMorgan in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Explain Daily Signal Construction and a Prediction Workflow](https://trueinterview.io/study/explain-daily-signal-construction-and-a-prediction-workflow) | — |
 | [JPMorgan Chase Interview Process & Questions](https://trueinterview.io/study/jpmorgan-interview-process) | — |
-| [Quant Probability and Statistics Orals](https://trueinterview.io/study/quant-probability-and-statistics-orals) | combinatorics, expected-value, math-reasoning, probability |
-| [Super Day Behavioral Round](https://trueinterview.io/study/superday-behavioral-round) | leadership, project-deep-dive |
 
 ---
 

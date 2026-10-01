@@ -57,8 +57,8 @@ Systems-programming fundamentals are tested directly rather than assumed. Alloca
 The specialist round separates infrastructure candidates from generalists. Reports include kernel launch behavior, global versus shared memory versus registers, avoiding warp divergence, coalesced access and occupancy when optimizing a matrix operation; distributed matrix multiplication with communication overlapped against computation; and GPU scheduling on Kubernetes with device plugins and shared-resource contention. Candidates are also asked how their accelerator knowledge changes a batching decision, which is where black-box answers collapse.
 
 - [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04)
-- [LLM Inference Timeout and Restart Strategy](guides/llm-inference-timeout-and-restart-strategy.md)
-- [Technical Deep Dive (slide-based)](guides/technical-deep-dive.md)
+- [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy)
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
 
 ## What They Don't Test
 

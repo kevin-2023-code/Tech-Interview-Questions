@@ -62,7 +62,7 @@ Cache construction is the recurring low-level exercise across LinkedIn loops: LR
 
 Behavioral signal is collected everywhere: dedicated rounds, host-manager conversations, and the opening minutes of technical screens. Prepare stories with explicit personal ownership, quantified impact, and honest failure analysis — interviewers have pressed on mentoring failures, cross-team conflict, and what you cut under deadline pressure.
 
-- [Behavioral / BQ Question Pack (Staff & Senior)](guides/behavioral-bq-pack.md)
+- [Behavioral / BQ Question Pack (Staff & Senior)](https://trueinterview.io/questions/behavioral-bq-pack)
 
 ## How to Prepare
 

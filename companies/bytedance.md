@@ -2,7 +2,7 @@
 
 # ByteDance interview process, OA & interview questions
 
-**176 questions** reported at ByteDance · **17 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
+**176 questions** reported at ByteDance · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How ByteDance interviews & the free questions](bytedance/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (78% of 176) |
 | Difficulty (easy / medium / hard) | 24 / 116 / 36 |
 | Free to practise | [23](../free/README.md) |
-| Guides & writeups | 17 |
+| Guides & writeups | 5 |
 
 <sub>Counted from the 176 questions reported at ByteDance. 94 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -115,27 +115,15 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 
 ## Guides & writeups
 
-**17 writeups** filed under ByteDance in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under ByteDance in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [AI Agent Intern Technical Questions](https://trueinterview.io/study/ai-agent-intern-oral-fundamentals) | agents, evaluation, networking, operating-systems, troubleshooting |
-| [AI-Native Coding Interview](https://trueinterview.io/study/d4c1dd70-7481-447a-ad23-a3a276799518) | — |
 | [ByteDance Frontend Engineer Interview Process](https://trueinterview.io/study/bytedance-frontend-engineer-interview-process) | — |
 | [ByteDance Infrastructure Engineer Interview Process](https://trueinterview.io/study/bytedance-infrastructure-engineer-interview-process) | — |
 | [ByteDance Interview Process & Questions](https://trueinterview.io/study/bytedance-interview-process) | — |
 | [ByteDance Machine Learning Engineer Interview Process](https://trueinterview.io/study/bytedance-machine-learning-engineer-interview-process) | — |
 | [ByteDance Software Engineer Interview Process](https://trueinterview.io/study/bytedance-software-engineer-interview-process) | — |
-| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/study/backend-fundamentals-oral-cluster) | concurrency, database, distributed-systems, verbal |
-| [Data Engineering Experience Screen](https://trueinterview.io/study/data-engineering-experience-screen) | database |
-| [Dropout, Overfitting, Normalization, Loss Functions](https://trueinterview.io/study/ml-knowledge-oral-cluster) | attention, ml-knowledge, transformer, verbal |
-| [Hiring Manager / Final Behavioral Round](https://trueinterview.io/study/hm-behavioral-final-round) | bq, deep-dive, fit, leadership, star |
-| [How You Build Service Stability and Troubleshoot Production Incidents](https://trueinterview.io/study/how-you-build-service-stability-and-troubleshoot-production-incidents) | — |
-| [Motivation, Ambiguity, and Collaboration Screen](https://trueinterview.io/study/motivation-ambiguity-collaboration-screen) | ambiguity, bq, fit |
-| [Project Deep Dive (Resume Drill)](https://trueinterview.io/study/project-deep-dive-round) | deep-dive, verbal, ai-safety, llm, ownership |
-| [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/study/rag-agent-kafka-oral-drill) | concurrency, kafka, llm-agent, networking, rag |
-| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](https://trueinterview.io/study/sre-background-development-vs-stability-focus-and-your-most-memorable-project) | — |
-| [SRE Linux / Networking Troubleshooting Round](https://trueinterview.io/study/sre-linux-networking-troubleshoot) | networking, operating-systems, sre, troubleshooting, verbal |
 
 ---
 

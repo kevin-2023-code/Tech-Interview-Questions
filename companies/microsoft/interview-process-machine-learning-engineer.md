@@ -38,7 +38,7 @@ Machine Learning Engineer candidates at Microsoft are rejected on implementation
 
 One screen or a thread through several rounds. Breadth matters more than depth: classical ML, evaluation metrics, ensembles, attention, and fine-tuning methods in one conversation. Signal comes from tying each concept to a decision you made. The applied scientist candidate who received an offer called the difficulty moderate but warned that coverage depends heavily on the interviewer's background.
 
-- [Transformer Roofline + FP32/FP16 Drill](guides/transformer-roofline-fp-precision.md)
+- [Transformer Roofline + FP32/FP16 Drill](https://trueinterview.io/questions/transformer-roofline-fp-precision)
 
 ### Coding and Algorithm
 
@@ -67,7 +67,7 @@ One or two rounds. The strongest answers cover the full pipeline: data, model, t
 
 Present in nearly every reported ML loop, sometimes as the final round. Interviewers use your project as a case study and push on alternatives you did not take.
 
-- [Project Deep Dive](guides/project-deep-dive-2.md)
+- [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
 
 ## What They Don't Test
 

@@ -67,7 +67,7 @@ ML-adjacent teams test hands-on fluency with real framework code — reading a m
 
 Apple treats behavioral rounds as real filters, not formalities. Expect structured questioning on prioritization, stakeholder conflict, and a genuine "why Apple" — and expect some screens to drill written-style fundamentals rather than code.
 
-- [Behavioral Prioritization and Stakeholder Fit](guides/behavioral-prioritization-and-stakeholder-fit.md)
+- [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/questions/behavioral-prioritization-and-stakeholder-fit)
 
 ## How to Prepare
 

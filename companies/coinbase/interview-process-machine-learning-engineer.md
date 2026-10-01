@@ -59,7 +59,7 @@ The design conversation is grounded in risk and fraud work rather than recommend
 
 Whether it is slides or a resume-driven conversation, the interviewer is testing depth of ownership rather than the impressiveness of the project. Expect to justify data quality decisions, model selection, the validation split, the metric you optimized, and the impact you claim, with each answer generating another follow-up. The AI-assisted variant extends this into live work: debug unfamiliar code, sketch an architecture, then build a small feature alongside an assistant while narrating what you accept, correct, or discard.
 
-- [Hiring Manager — Project Deep-Dive + AI Usage BQ](guides/hm-bq-project-deep-dive.md)
+- [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
 - [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain)
 
 ## What They Don't Test

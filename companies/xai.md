@@ -2,7 +2,7 @@
 
 # xAI interview process, OA & interview questions
 
-**35 questions** reported at xAI · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/xai), judged server-side on the algorithm, low-level-design and SQL formats.
+**35 questions** reported at xAI · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/xai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How xAI interviews & the free questions](xai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (34% of 35) |
 | Difficulty (easy / medium / hard) | 3 / 23 / 9 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 4 |
 
 <sub>Counted from the 35 questions reported at xAI. 24 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -101,12 +101,10 @@ The 8 questions to open first if you are preparing for xAI, ranked by **the most
 
 ## Guides & writeups
 
-**6 writeups** filed under xAI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under xAI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Most Challenging Project + Why xAI](https://trueinterview.io/study/most-challenging-project-why-xai) | fit, project-deep-dive |
-| [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/study/process-vs-thread-verbal) | concurrency, cs-fundamentals, operating-systems, verbal |
 | [xAI Infrastructure Engineer Interview Process](https://trueinterview.io/study/xai-infrastructure-engineer-interview-process) | — |
 | [xAI Interview Process & Questions](https://trueinterview.io/study/xai-interview-process) | — |
 | [xAI Machine Learning Engineer Interview Process](https://trueinterview.io/study/xai-machine-learning-engineer-interview-process) | — |

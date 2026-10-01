@@ -11,7 +11,7 @@ How LinkedIn interviews, and the questions candidates reported there. Free quest
 | Questions reported | [84](../linkedin.md) |
 | Free to read here | 7 |
 | Interview-process guides | 4 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Sep 06, 2026 |
 
 ## How LinkedIn interviews
@@ -49,13 +49,6 @@ The design round is data-intensive but often deliberately scoped down rather tha
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Behavioral / BQ Question Pack](guides/behavioral-bq-pack.md) | ambiguity, conflict, impact, leadership, star |
-| [Project Deep-Dive (Four-Axis Rubric)](guides/behavioral-project-deep-dive.md) | deep-dive, impact, leadership, presentation, project-retro |
 
 ## Everything else
 

@@ -11,7 +11,7 @@ How Ramp interviews, and the questions candidates reported there. Free questions
 | Questions reported | [27](../ramp.md) |
 | Free to read here | 9 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
 
 ## How Ramp interviews
@@ -47,12 +47,6 @@ Frontend-flavored assessments replace the simulation with practical React work: 
 | [Convert Snake Case to Camel Case](../../questions/algorithm/convert-snake-case-names-to-lowercamelcase/README.md) | Algorithm | Easy | Online assessment | Apr 2025 | [Solve](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Async Video Behavioral Screen](guides/video-interview-behavioral.md) | ai-collaboration, why-company |
 
 ## Everything else
 

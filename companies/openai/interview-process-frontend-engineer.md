@@ -55,9 +55,9 @@ Object and component structuring shows up as a live restructuring exercise: one 
 
 Expect one project session and one behavioral session, with technical follow-ups inside the behavioral one. Interviewers want the incident you diagnosed, the system you owned end to end, and the decisions you would reverse today. Motivation questions are not a formality on this track — a thin answer to why this product, rather than frontend work generally, reads as a negative signal.
 
-- [Technical Deep Dive (slide-based)](guides/technical-deep-dive.md)
-- [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md)
-- [Recruiter / HR Screen](../robinhood/guides/recruiter-hr-screen.md)
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
 ## What They Don't Test
 

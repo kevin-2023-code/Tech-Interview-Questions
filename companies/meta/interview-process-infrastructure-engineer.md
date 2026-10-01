@@ -55,8 +55,8 @@ The deep dive lands on partitioning, aggregation windows, hot keys, back-pressur
 
 This round has an operations angle: how you communicated during an incident, a missed commitment and how you found it, and cross-team alignment. Interviewers probe for accountability and for measurable outcomes, and they increasingly ask how AI tooling fits into your on-call and development work.
 
-- [Traditional Behavioral](guides/traditional-behavioral-meta.md)
-- [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md)
+- [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
+- [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
 
 ## What They Don't Test
 

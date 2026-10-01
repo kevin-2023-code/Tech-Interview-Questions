@@ -68,7 +68,7 @@ Ramp explicitly evaluates how you work with AI tools: whether you keep ownership
 
 Behavioral rounds are conversational but pointed: why Ramp, a technology you learned recently and how you would teach it to an intern, how AI changed your daily workflow, and detailed walkthroughs of recent projects — with follow-ups that keep drilling until they hit real decisions.
 
-- [Async Video Behavioral Screen](guides/video-interview-behavioral.md)
+- [Async Video Behavioral Screen](https://trueinterview.io/questions/video-interview-behavioral)
 
 ## How to Prepare
 

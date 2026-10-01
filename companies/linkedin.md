@@ -2,7 +2,7 @@
 
 # LinkedIn interview process, OA & interview questions
 
-**84 questions** reported at LinkedIn · **6 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
+**84 questions** reported at LinkedIn · **4 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/linkedin), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How LinkedIn interviews & the free questions](linkedin/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (52% of 84) |
 | Difficulty (easy / medium / hard) | 7 / 57 / 20 |
 | Free to practise | [7](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 4 |
 | Interview reports on the board | 2 in this snapshot |
 
 <sub>Counted from the 84 questions reported at LinkedIn. 47 of them carry a sighting date; the other 37 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -112,16 +112,14 @@ The 8 questions to open first if you are preparing for LinkedIn, ranked by **the
 
 ## Guides & writeups
 
-**6 writeups** filed under LinkedIn in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under LinkedIn in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Behavioral / BQ Question Pack](https://trueinterview.io/study/behavioral-bq-pack) | ambiguity, conflict, impact, leadership, star |
 | [LinkedIn Infrastructure Engineer Interview Process](https://trueinterview.io/study/linkedin-infrastructure-engineer-interview-process) | — |
 | [LinkedIn Interview Process & Questions](https://trueinterview.io/study/linkedin-interview-process) | — |
 | [LinkedIn Machine Learning Engineer Interview Process](https://trueinterview.io/study/linkedin-machine-learning-engineer-interview-process) | — |
 | [LinkedIn Software Engineer Interview Process](https://trueinterview.io/study/linkedin-software-engineer-interview-process) | — |
-| [Project Deep-Dive (Four-Axis Rubric)](https://trueinterview.io/study/behavioral-project-deep-dive) | deep-dive, impact, leadership, presentation, project-retro |
 
 ## Interview reports
 

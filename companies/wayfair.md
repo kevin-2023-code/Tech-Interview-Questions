@@ -2,11 +2,11 @@
 
 # Wayfair interview process, OA & interview questions
 
-**3 questions** reported at Wayfair · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/wayfair), judged server-side on the algorithm, low-level-design and SQL formats.
+**3 questions** reported at Wayfair. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/wayfair), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Wayfair interviews & the free questions](wayfair/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-wayfair)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-wayfair)
 
 ## At a glance
 
@@ -18,7 +18,7 @@
 | Most common format | [System Design](../formats/system-design.md) (67% of 3) |
 | Difficulty (easy / medium / hard) | 0 / 0 / 3 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 1 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 3 questions reported at Wayfair. 3 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -72,14 +72,6 @@ The 3 questions to open first if you are preparing for Wayfair, ranked by **the 
 | **3** | [Simulate and Compare Multi-Armed Bandit Strategies](https://trueinterview.io/questions/simulate-and-compare-multi-armed-bandit-strategies) | Algorithm | Hard | — | Sep 10, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Guides & writeups
-
-**1 writeup** filed under Wayfair in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Evaluate Post-Purchase Recommendation Emails](https://trueinterview.io/study/evaluate-post-purchase-recommendation-emails) | — |
 
 ---
 

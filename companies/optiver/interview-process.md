@@ -58,10 +58,10 @@ Low-level design is the heart of the engineering OA and phone screens: small sys
 
 Behavioral screens are short, direct, and repeated across the loop: self-introduction, why Optiver, individual versus team contribution, initiative, weaknesses and what you are doing about them, and how peers would describe you. Prepare crisp retrospectives — Optiver interviewers consistently ask what you would do differently and what blocked you from doing it at the time.
 
-- [HR / Behavioral Phone Screen](guides/hr-behavioral-screen.md)
-- [Zap-N Reaction & Memory Mini-Games](guides/zap-n-reaction-games.md)
-- [Market-Making Interval Estimation Game](guides/market-making-interval-game.md)
-- [QR Take-Home Data Project & Presentation](guides/qr-take-home-data-project.md)
+- [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen)
+- [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
+- [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game)
+- [QR Take-Home Data Project & Presentation](https://trueinterview.io/questions/qr-take-home-data-project)
 
 ## How to Prepare
 

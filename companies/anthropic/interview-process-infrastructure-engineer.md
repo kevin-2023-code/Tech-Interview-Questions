@@ -55,8 +55,8 @@ The assessment stage tests whether you can build a correct stateful component an
 ### Behavioral and Leadership
 The hiring-manager round covers ownership, technical disagreement, delivering under constrained resources, and translating research needs into production systems. The values round is separate and heavier: why this company, a value upheld when it was costly, someone you respect but fundamentally disagree with, safety-versus-commercial hypotheticals. One candidate strong on every technical round attributed the rejection entirely to that session.
 
-- [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md)
-- [Hiring Manager Round — Behavioral & Collaboration](guides/onsite-hm-behavioral.md)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
 ## What They Don't Test
 

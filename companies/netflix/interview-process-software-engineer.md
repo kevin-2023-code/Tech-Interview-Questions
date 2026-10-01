@@ -60,7 +60,7 @@ Roughly half of reported screens are a component implementation rather than an a
 
 One or two rounds, memo-grounded and scored as engineering signal. The reported format is rapid-fire situational rather than one narrative: giving and receiving feedback, pivoting when a project changes direction, owning an outcome, conflict with a teammate, working without defined success metrics, your biggest mistake. Interviewers also map your history against the job description explicitly, and manager buy-in is often decisive. Keep answers work-focused — one candidate was told personal anecdotes hurt.
 
-- [Netflix Culture / Domain Manager Rounds](guides/netflix-culture-and-domain-manager-rounds.md)
+- [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds)
 
 ## What They Don't Test
 

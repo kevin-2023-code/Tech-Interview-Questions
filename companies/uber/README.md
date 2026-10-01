@@ -11,7 +11,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 | Questions reported | [176](../uber.md) |
 | Free to read here | 36 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
 
 ## How Uber interviews
@@ -92,14 +92,6 @@ In coding rounds, candidates typically solve the core problem in under half the 
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Bar Raiser: Architecture, Influence, and Values](guides/bar-raiser-architecture-and-values.md) | culture-fit, leadership |
-| [Onsite BQ + Hiring Manager + Project Deep-Dive](guides/onsite-bq-hm-deep-dive.md) | deep-dive, presentation |
-| [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](guides/scientist-experiment-design.md) | deep-dive, math-reasoning, ml-knowledge, probability |
 
 ## Everything else
 

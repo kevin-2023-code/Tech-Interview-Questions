@@ -71,9 +71,9 @@ The AI-assisted assessment task is triage in an unfamiliar repository. The faste
 
 Roughly half of every hour is behavioral. Common themes are missed deadlines, disagree-and-commit, scope you took on without being asked, critical feedback, and when AI output was wrong.
 
-- [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md)
-- [GenAI Usage (How / Failure / Tradeoff)](guides/bq-genai-usage.md)
-- [Work Simulation & Work Style Assessment](guides/work-style-simulation-assessment.md)
+- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage)
+- [Work Simulation & Work Style Assessment](https://trueinterview.io/questions/work-style-simulation-assessment)
 
 ## How to Prepare
 

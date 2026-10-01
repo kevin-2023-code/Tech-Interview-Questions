@@ -62,7 +62,7 @@ One long round, often opened by a resume walkthrough, then pushed by an intervie
 
 Roughly 45 minutes, usually with the hiring manager, weighted toward negatives: your biggest engineering mistake, a conflict you did not win cleanly, a project that went sideways, feedback you had to deliver. Several loops attach an operational scenario — a payment incident or a wrong-order complaint — graded on triage sequence and stakeholder communication rather than the technical fix. Polished success stories score poorly; specific failures with the guardrail you added afterward score well.
 
-- [Onsite: On-Call Case Investigation](guides/onsite-case-investigation.md)
+- [Onsite: On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation)
 
 ## What They Don't Test
 

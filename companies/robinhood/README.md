@@ -11,7 +11,7 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 | Questions reported | [31](../robinhood.md) |
 | Free to read here | 8 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | May 09, 2026 |
 
 ## How Robinhood interviews
@@ -50,14 +50,6 @@ System design draws from a small, stable bank that varies by track. The job sche
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
 | [Mobile Table View Timer App](../../questions/ai-coding/mobile-table-view-timer-app/README.md) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/mobile-table-view-timer-app) |
 | [Financial News Recommendation Feed](../../questions/system-design/financial-news-recommendation-feed/README.md) | System Design | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/financial-news-recommendation-feed) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Project Deep Dive](guides/project-deep-dive-3.md) | deep-dive |
-| [Recruiter / HR Screen](guides/recruiter-hr-screen.md) | why-company |
-| [Test Plan Design for a Ride-sharing Application](https://trueinterview.io/study/03cca6eb-1380-4985-8ddd-f69c70b2206d) | — |
 
 ## Everything else
 

@@ -11,7 +11,7 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 | Questions reported | [48](../goldman-sachs.md) |
 | Free to read here | 25 |
 | Interview-process guides | 1 |
-| Other guides | 6 |
+| Other guides | 0 |
 | Most recent sighting | Jul 06, 2026 |
 
 ## How Goldman Sachs interviews
@@ -63,17 +63,6 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 | [Longest Subarray With Sum ≤ K](../../questions/algorithm/longest-subarray-sum-at-most-k/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/longest-subarray-sum-at-most-k) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [25 Horses, 5 Lanes Puzzle](guides/horse-race-25.md) | math-reasoning, verbal |
-| [Explain Recursion to a Non-CS Audience](guides/explain-recursion-no-cs-audience.md) | bq, cs-fundamentals, verbal |
-| [Hash Collision: Causes, Resolution, Complexity](guides/hash-collision-fundamentals.md) | complexity-analysis, cs-fundamentals, hashmap, verbal |
-| [Hirevue Behavioral Bank (6 Questions)](guides/hirevue-behavioral-six-questions.md) | bq, culture-fit, values |
-| [Math and Probability Multiple Choice Bank](guides/quant-oa-math-probability-bank.md) | math-reasoning, probability, verbal |
-| [Quant Strat Superday Probability + Fixed Income Drill](guides/quant-strat-superday-probability-fixed-income.md) | domain-knowledge, math-reasoning, probability, verbal |
 
 ## Everything else
 

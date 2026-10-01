@@ -61,7 +61,7 @@ Inference-serving components arrive as concrete implementation asks rather than 
 
 The heaviest-weighted competency by a wide margin, and the only one present in every round of every reported loop. Interviewers want the decision rationale behind your research — why this data, why this environment, why this architecture, and how you measured the downstream effect — not a chronological tour. Methodology questions repeat almost verbatim across rounds, so a rehearsed, self-contained answer is an asset. For research-leaning candidates the same material must also survive a twenty-minute talk and group Q&A.
 
-- [Most Challenging Project + Why xAI](guides/most-challenging-project-why-xai.md)
+- [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai)
 - [Twitter Insight Platform (CodeSignal Take-Home)](https://trueinterview.io/questions/twitter-insight-platform-take-home)
 
 ## What They Don't Test

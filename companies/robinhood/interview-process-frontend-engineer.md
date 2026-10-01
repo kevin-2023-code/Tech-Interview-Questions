@@ -67,7 +67,7 @@ One hour, technical rather than soft. Interviewers pick one client-side system y
 
 Present as a hiring manager hour in mobile loops and folded into the deep dive elsewhere. Reported questions cover conflict with teammates over design choices, how you prioritize competing work, and debugging a production incident under pressure. The recruiter conversation is itself scored on motivation and fit, and a weak answer to why Robinhood is a documented early exit.
 
-- [Recruiter / HR Screen](guides/recruiter-hr-screen.md)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
 ## What They Don't Test
 

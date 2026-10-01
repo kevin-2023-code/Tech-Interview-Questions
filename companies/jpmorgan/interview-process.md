@@ -66,8 +66,8 @@ Design conversations start broad and are graded through follow-ups: duplicate re
 
 Behavioral rounds here are project reviews in disguise: expect layered follow-ups on what you personally decided, what the measurable outcome was, and what you would do differently. Prepare stories that survive three levels of "why", and for quant-track candidates, expect the behavioral round to be replaced by more technical depth.
 
-- [Super Day Behavioral Round](guides/superday-behavioral-round.md)
-- [Quant Probability and Statistics Orals](guides/quant-probability-and-statistics-orals.md)
+- [Super Day Behavioral Round](https://trueinterview.io/questions/superday-behavioral-round)
+- [Quant Probability and Statistics Orals](https://trueinterview.io/questions/quant-probability-and-statistics-orals)
 
 ## How to Prepare
 

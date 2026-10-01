@@ -32,7 +32,7 @@ The technical design round on this track is not a modeling round. Candidates who
 
 The most distinctive competency here and the one with the sharpest failure mode. Questions are not "what is X" but "why is X built that way", and the follow-up always goes one level below the definition. Knowing that low-rank adaptation freezes base weights earns nothing on its own; the scoring question is where the memory actually goes. The same holds for the attention scaling factor and for optimizer choice, and answers are expected both intuitively and with the reasoning underneath.
 
-- [ML Research Orals (Self-Attention / LoRA / Optimizers)](guides/ml-research-orals.md)
+- [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals)
 
 ### ML System Design
 
@@ -64,7 +64,7 @@ The data side of the role is probed directly: defining what success means for a 
 
 A full round, sometimes the first of the onsite, built on the culture memo and answered with specifics. The prompts probe how you operate without instruction, how you handled a model or project failing in production, a disagreement with a partner team, and feedback you gave that was hard to give. Values-only answers are treated as a negative signal rather than a neutral one.
 
-- [Netflix Culture / Domain Manager Rounds](guides/netflix-culture-and-domain-manager-rounds.md)
+- [Netflix Culture / Domain Manager Rounds](https://trueinterview.io/questions/netflix-culture-and-domain-manager-rounds)
 
 ## What They Don't Test
 

@@ -61,15 +61,15 @@ The highest-variance part of the loop: candidates who got offers cite design as 
 
 A dedicated round that also drives leveling. Interviewers probe scope and ownership: what was yours versus the team's, who outside your group you influenced, how success was measured. A narrow solo feature gives too little material, and scope judgements here overturn good technical performance.
 
-- [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md)
-- [Hiring Manager Screen](guides/hiring-manager-screen.md)
+- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
+- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
 
 ### Behavioral and Leadership
 
 One to two values rounds plus the manager conversation, run by people from across the company and weighted in the same debrief as the technical rounds. A few honest, structured stories — including non-work ones — read well; engineering wins remapped onto value names do not.
 
-- [Core Values Behavioral Round](guides/core-values-bq-round.md)
-- [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md)
+- [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round)
+- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
 
 ## What They Don't Test
 

@@ -50,8 +50,8 @@ Two live rounds, Python, applied. The recurring exercise is stateful and increme
 ### Behavioral and Leadership
 A dedicated values conversation plus a research and career discussion. Reported prompts: why this company rather than another lab, a specific value you can name and evidence you have acted on it, a person you deeply respect but fundamentally disagree with, how you engage with the organisation's internal tensions, and where your ethical limits sit. Critical engagement is rewarded over praise.
 
-- [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md)
-- [Recruiter Screen — Why Anthropic Deep-Dive](guides/recruiter-screen-why-anthropic.md)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
 
 ## What They Don't Test
 

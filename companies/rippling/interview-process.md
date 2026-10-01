@@ -40,7 +40,7 @@ Rippling coding rounds favor realistic data manipulation with escalating require
 
 - [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823)
 - [Maximize Amount After Two Days of Conversions](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions)
-- [Intern OA Fixed Set](guides/intern-oa-fixed-set.md)
+- [Intern OA Fixed Set](https://trueinterview.io/questions/intern-oa-fixed-set)
 
 ## System Design Questions
 
@@ -65,7 +65,7 @@ Low-level design is the heart of the Rippling loop: small in-memory services tha
 
 The behavioral surface at Rippling is concentrated in the project deep dive, and it is graded like a technical round. Interviewers keep drilling until they can separate your decisions from the team's outcome, and they ask for measured impact, not adjectives. Prepare one project you can defend for thirty minutes, including a failure and what you would redo.
 
-- [Project Deep Dive / HM BQ](guides/project-deep-dive-and-bq.md)
+- [Project Deep Dive / HM BQ](https://trueinterview.io/questions/project-deep-dive-and-bq)
 
 ## How to Prepare
 

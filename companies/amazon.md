@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**252 questions** reported at Amazon · **24 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**252 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 252) |
 | Difficulty (easy / medium / hard) | 41 / 166 / 45 |
 | Free to practise | [29](../free/README.md) |
-| Guides & writeups | 24 |
+| Guides & writeups | 5 |
 
 <sub>Counted from the 252 questions reported at Amazon. 153 of them carry a sighting date; the other 99 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -115,34 +115,15 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 
 ## Guides & writeups
 
-**24 writeups** filed under Amazon in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under Amazon in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [AI-Assisted Debugging Challenge](https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5) | — |
 | [Amazon Frontend Engineer Interview Process](https://trueinterview.io/study/amazon-frontend-engineer-interview-process) | — |
 | [Amazon Interview Process & Questions](https://trueinterview.io/study/amazon-interview-process) | — |
 | [Amazon Machine Learning Engineer Interview Process](https://trueinterview.io/study/amazon-machine-learning-engineer-interview-process) | — |
 | [Amazon Research Scientist Interview Process](https://trueinterview.io/study/amazon-research-scientist-interview-process) | — |
 | [Amazon Software Engineer Interview Process](https://trueinterview.io/study/amazon-software-engineer-interview-process) | — |
-| [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/study/asm-phone-screen-deep-dive-bq) | deep-dive |
-| [Describe a Deep Debugging Investigation](https://trueinterview.io/study/describe-a-deep-debugging-investigation) | — |
-| [Explain a Project That Could Not Meet a Tight Deadline](https://trueinterview.io/study/explain-a-project-that-could-not-meet-a-tight-deadline) | — |
-| [Explain What You Want in Your Next Role](https://trueinterview.io/study/explain-what-you-want-in-your-next-role) | — |
-| [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/study/bq-genai-usage) | ai-tools |
-| [Influence a Colleague Who Prefers a Different Approach](https://trueinterview.io/study/influence-a-colleague-who-prefers-a-different-approach) | — |
-| [Leadership Principles Standard Set](https://trueinterview.io/study/bq-leadership-principles-standard-set) | deep-dive |
-| [Learn What You Need to Solve an Unfamiliar Problem](https://trueinterview.io/study/learn-what-you-need-to-solve-an-unfamiliar-problem) | — |
-| [LoRA and PEFT Variants](https://trueinterview.io/study/lora-and-peft-variants) | ml-knowledge, transformer |
-| [Make an Important Decision Before Every Option Can Be Explored](https://trueinterview.io/study/make-an-important-decision-before-every-option-can-be-explored) | — |
-| [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/study/as-ml-breadth-orals) | math-reasoning, ml-knowledge, probability |
-| [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/study/paper-read-round-far) | deep-dive, ml-knowledge, presentation |
-| [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/study/rlhf-ppo-grpo-gspo) | math-reasoning, ml-knowledge |
-| [Science Application (Ambiguous Problem)](https://trueinterview.io/study/science-application-ambiguous-problem) | deep-dive, ml-knowledge |
-| [Solve a Problem Outside Your Assigned Responsibilities](https://trueinterview.io/study/solve-a-problem-outside-your-assigned-responsibilities) | — |
-| [Take Initiative on a Customer Pain Point](https://trueinterview.io/study/take-initiative-on-a-customer-pain-point) | — |
-| [Transformer / Attention Deep-Dive](https://trueinterview.io/study/transformer-attention-deep-dive) | ml-knowledge, pytorch, transformer |
-| [Work Simulation & Work Style Assessment](https://trueinterview.io/study/work-style-simulation-assessment) | work-style |
 
 ---
 

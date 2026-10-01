@@ -61,7 +61,7 @@ Component design shows up inside coding screens: a small stateful service built 
 
 Prepare roughly two stories per value with distinct situations — interviewers probe past the surface of each story into your exact actions, how others responded, and what changed afterward.
 
-- [Atlassian Values and Management Rounds](guides/atlassian-values-and-management-rounds.md)
+- [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds)
 - [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow)
 
 ## How to Prepare

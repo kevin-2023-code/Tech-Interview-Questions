@@ -2,7 +2,7 @@
 
 # Citadel interview process, OA & interview questions
 
-**61 questions** reported at Citadel · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
+**61 questions** reported at Citadel · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/citadel), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Citadel interviews & the free questions](citadel/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 61) |
 | Difficulty (easy / medium / hard) | 8 / 40 / 13 |
 | Free to practise | [4](../free/README.md) |
-| Guides & writeups | 11 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 61 questions reported at Citadel. 40 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -108,21 +108,11 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 
 ## Guides & writeups
 
-**11 writeups** filed under Citadel in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Citadel in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Behavioral / Resume Drilling Across the Loop](https://trueinterview.io/study/citadel-bq-resume-loop) | culture-fit, deep-dive, fit, why-company |
-| [Candy (LC 135)](https://trueinterview.io/study/candy-lc-135) | array, greedy |
-| [Case study — LLM inference stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive-case-study-llm-inference-stability) | — |
 | [Citadel Interview Process & Questions](https://trueinterview.io/study/citadel-interview-process) | — |
-| [Citadel QD On-Site Coding Ladder (3 Rounds, 3-4 Problems Each)](https://trueinterview.io/study/qd-eqr-onsite-coding-ladder) | data-structure, dp, hashmap, heap |
-| [EQR Alpha-Factor Research Deep-Dive + LLM Inference Stability](https://trueinterview.io/study/eqr-alpha-factor-deep-dive) | deep-dive, llm, math-reasoning, ml-knowledge, probability |
-| [GQS Quant Phone — Correlation Range + Box-Muller-Style Sampling](https://trueinterview.io/study/gqs-quant-phone-brainteasers) | linear-algebra, math-reasoning, probability, sampling |
-| [GQS SWE Whiteboard: Boundary Search + Sliding-Window Top K](https://trueinterview.io/study/gqs-swe-whiteboard-boundary-search-top-k) | array, binary-search, bst, data-structure, sliding-window |
-| [HFT Onsite Round 3 — Sort Complexity + Linux Fundamentals + tail(n) Design](https://trueinterview.io/study/citadel-hft-onsite-fundamentals) | complexity-analysis, cs-fundamentals, io, operating-systems, sorting |
-| [Probability and Combinatorics Quickfire Quiz](https://trueinterview.io/study/trading-probability-quickfire) | math-reasoning, probability |
-| [When Does `min x'Qx + c'x` Have a Finite Minimum?](https://trueinterview.io/study/quadratic-form-finite-min) | linear-algebra, math-reasoning, optimization |
 
 ---
 

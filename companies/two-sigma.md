@@ -2,7 +2,7 @@
 
 # Two Sigma interview process, OA & interview questions
 
-**24 questions** reported at Two Sigma · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
+**24 questions** reported at Two Sigma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Two Sigma interviews & the free questions](two-sigma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (88% of 24) |
 | Difficulty (easy / medium / hard) | 1 / 18 / 5 |
 | Free to practise | [3](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 24 questions reported at Two Sigma. 16 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -97,13 +97,10 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 
 ## Guides & writeups
 
-**6 writeups** filed under Two Sigma in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Two Sigma in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/study/genai-quant-swe-manager-deep-dive) | agentic-workflow, evaluation, llm, lora, technical-deep-dive |
-| [QR Data Analysis Prediction Case](https://trueinterview.io/study/qr-data-analysis-prediction-case) | data-analysis, experiment-design, feature-engineering, linear-regression, open-ended |
-| [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/study/qr-statistics-domain-oral) | expected-value, linear-algebra, linear-regression, math-reasoning, probability |
 | [Two Sigma Interview Process & Questions](https://trueinterview.io/study/twosigma-interview-process) | — |
 | [Two Sigma Quantitative Finance Interview Process](https://trueinterview.io/study/twosigma-quantitative-finance-interview-process) | — |
 | [Two Sigma Research Scientist Interview Process](https://trueinterview.io/study/twosigma-research-scientist-interview-process) | — |

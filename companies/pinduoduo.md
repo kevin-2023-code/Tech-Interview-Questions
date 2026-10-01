@@ -2,7 +2,7 @@
 
 # Pinduoduo interview process, OA & interview questions
 
-**19 questions** reported at Pinduoduo · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at Pinduoduo · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinduoduo), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinduoduo interviews & the free questions](pinduoduo/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (95% of 19) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 5 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 19 questions reported at Pinduoduo. 9 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -95,13 +95,11 @@ The 8 questions to open first if you are preparing for Pinduoduo, ranked by **th
 
 ## Guides & writeups
 
-**3 writeups** filed under Pinduoduo in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Pinduoduo in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Pinduoduo Interview Process & Questions](https://trueinterview.io/study/pinduoduo-interview-process) | — |
-| [Project Deep Dive & Behavioral](https://trueinterview.io/study/project-deep-dive-and-bq-2) | deep-dive, star |
-| [Resume-Driven Language & Database Fundamentals](https://trueinterview.io/study/resume-driven-language-database-fundamentals) | cs-fundamentals, java, database, verbal |
 
 ---
 

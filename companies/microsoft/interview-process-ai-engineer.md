@@ -61,8 +61,8 @@ Hands-on model knowledge rather than theory recital: PyTorch data loading and tr
 
 Present in most AI loops, often as a full round. Interviewers probe what you personally decided, how impact was measured, and what you would change. Concrete artifacts such as pull requests help.
 
-- [Project Deep Dive](guides/project-deep-dive-2.md)
-- [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md)
+- [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
+- [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
 
 ## What They Don't Test
 

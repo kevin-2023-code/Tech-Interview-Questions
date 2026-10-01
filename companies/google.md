@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**198 questions** reported at Google · **8 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**198 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 198) |
 | Difficulty (easy / medium / hard) | 21 / 130 / 47 |
 | Free to practise | [22](../free/README.md) |
-| Guides & writeups | 8 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 198 questions reported at Google. 101 of them carry a sighting date; the other 97 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -116,18 +116,13 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 
 ## Guides & writeups
 
-**8 writeups** filed under Google in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Google in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Behavioral Round (Googliness Themes)](https://trueinterview.io/study/bq-round-google-style) | culture-fit |
-| [CPU Architecture and Simulator Design Deep Dive](https://trueinterview.io/study/cpu-architecture-simulator-deep-dive) | cpp, cpu-architecture, cs-fundamentals, technical-deep-dive |
-| [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/study/google-hiring-assessment-gha) | culture-fit |
 | [Google Interview Process & Questions](https://trueinterview.io/study/google-interview-process) | — |
 | [Google Machine Learning Engineer Interview Process](https://trueinterview.io/study/google-machine-learning-engineer-interview-process) | — |
 | [Google Software Engineer Interview Process](https://trueinterview.io/study/google-software-engineer-interview-process) | — |
-| [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/study/ml-fundamentals-deep-dive) | deep-dive, ml-knowledge, rag, retrieval, transformer |
-| [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/study/deepmind-rs-paper-presentation-defense) | critique, deep-dive, presentation, vlm |
 
 ---
 

@@ -11,7 +11,7 @@ How Bloomberg interviews, and the questions candidates reported there. Free ques
 | Questions reported | [77](../bloomberg.md) |
 | Free to read here | 12 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Jul 22, 2026 |
 
 ## How Bloomberg interviews
@@ -50,12 +50,6 @@ This guide is the deep dive behind the short outline on Bloomberg's company page
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Behavioral Question Pool](guides/behavioral-question-pool.md) | deep-dive, star, why-company |
 
 ## Everything else
 

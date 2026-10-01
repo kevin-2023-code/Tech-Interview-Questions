@@ -11,7 +11,7 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 | Questions reported | [30](../akuna-capital.md) |
 | Free to read here | 9 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
 
 ## How Akuna Capital interviews
@@ -47,14 +47,6 @@ Technical phone rounds start almost immediately after introductions, and several
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
 | [An Evening of Movies](../../questions/algorithm/an-evening-of-movies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) |
 | [K Smallest Substring](../../questions/algorithm/k-smallest-substring/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Advanced Math and Reasoning Brain Teasers](guides/qr-video-oa-advanced-math-and-reasoning.md) | linear-algebra, math, math-reasoning, probability, verbal |
-| [Junior Trader Final: Investment & Market-Making Games](guides/junior-trader-final-games.md) | brainteaser, expected-value, fermi-estimation, market-making, verbal |
-| [Trader Fair-Bet Probability and Number Sequences](guides/trader-fair-bet-probability-and-number-sequences.md) | math, math-reasoning, probability, verbal |
 
 ## Everything else
 

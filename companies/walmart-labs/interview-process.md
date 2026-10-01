@@ -66,8 +66,8 @@ The AI-assisted assessment evaluates judgment with an unfamiliar, limited assist
 
 Behavioral and verbal-knowledge rounds are specific and probing: hiring managers push past the surface story into what you personally did, and technical screens include rapid-fire framework and SQL fluency checks that punish vague answers.
 
-- [Walmart Behavioral / HM Loop](guides/walmart-bq-loop.md)
-- [Spring Boot Verbal Quiz](guides/spring-boot-verbal-quiz.md)
+- [Walmart Behavioral / HM Loop](https://trueinterview.io/questions/walmart-bq-loop)
+- [Spring Boot Verbal Quiz](https://trueinterview.io/questions/spring-boot-verbal-quiz)
 - [SQL Live Coding: Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217)
 
 ## How to Prepare

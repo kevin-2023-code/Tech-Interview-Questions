@@ -88,9 +88,9 @@ Some loops now replace a coding round with work inside an existing codebase with
 
 The behavioral round is a cross-examination of one project: architecture, rejected alternatives, and your personal contribution. At senior levels it also looks for evidence of influence beyond your own team.
 
-- [Onsite BQ + Hiring Manager + Project Deep-Dive](guides/onsite-bq-hm-deep-dive.md)
-- [Bar Raiser: Architecture, Influence, and Values](guides/bar-raiser-architecture-and-values.md)
-- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](guides/scientist-experiment-design.md)
+- [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/questions/onsite-bq-hm-deep-dive)
+- [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values)
+- [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/questions/scientist-experiment-design)
 
 ## How to Prepare
 

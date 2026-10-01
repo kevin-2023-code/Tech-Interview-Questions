@@ -11,7 +11,7 @@ How Figma interviews, and the questions candidates reported there. Free question
 | Questions reported | [19](../figma.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Aug 12, 2026 |
 
 ## How Figma interviews
@@ -40,13 +40,6 @@ Figma's question pool is unusually narrow — one document-and-layers exercise a
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Document Layer System](../../questions/object-oriented-programming/document-layer-apply-undo/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/document-layer-apply-undo) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Deep Dive — What Happens When You Access a URL](guides/deep-dive-url-request-lifecycle.md) | cs-fundamentals, http, networking, open-ended |
-| [Hiring Manager Behavioral](guides/hiring-manager-behavioral.md) | conflict, deep-dive, ownership, presentation, project-retro, why-company |
 
 ## Everything else
 

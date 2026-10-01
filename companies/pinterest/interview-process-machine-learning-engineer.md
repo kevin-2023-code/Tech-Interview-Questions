@@ -43,8 +43,8 @@ The most underestimated competency here, spanning the phone screen and one to tw
 
 Verbal and strikingly repetitive across reports: bias-variance on learning curves, overfitting remedies, why L1 drives weights to exactly zero and L2 does not, dropout as an implicit regularizer, logistic-regression loss behavior under different learning rates, and vanishing gradients. The bar is mechanism, not definition — interviewers ask where in a fully connected network vanishing gradients bite hardest, the input side or the output side, and how you would observe it.
 
-- [ML Fundamentals Quick-Fire](guides/ml-fundamentals-quick-fire.md)
-- [ML Intern OA (CodeSignal: MCQ + NN Forward + Coding + ML Implementations)](guides/mle-intern-codesignal-oa.md)
+- [ML Fundamentals Quick-Fire](https://trueinterview.io/questions/ml-fundamentals-quick-fire)
+- [ML Intern OA (CodeSignal: MCQ + NN Forward + Coding + ML Implementations)](https://trueinterview.io/questions/mle-intern-codesignal-oa)
 
 ### ML System Design
 
@@ -58,7 +58,7 @@ One to three rounds of roughly an hour, and the stage that decides senior and st
 
 One round at mid-level, up to three at staff, and increasingly technical with level: several were really project deep dives demanding quantified impact and a defense of specific technical decisions. The distinctive prompts are organizational — what you look for when hiring, which gap on your team you would fill.
 
-- [Behavioral: Leadership, Initiative, Project End-to-End](guides/behavioral-leadership-initiative.md)
+- [Behavioral: Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative)
 
 ## What They Don't Test
 

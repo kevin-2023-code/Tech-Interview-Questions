@@ -11,7 +11,7 @@ How Databricks interviews, and the questions candidates reported there. Free que
 | Questions reported | [67](../databricks.md) |
 | Free to read here | 11 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
 
 ## How Databricks interviews
@@ -53,14 +53,6 @@ The design round scales with seniority: mid-level candidates may design a concre
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [IP CIDR Range Query](../../questions/algorithm/ip-cidr-range-query/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Impactful Project Experience: Goals, Role, Challenges, Outcomes](https://trueinterview.io/study/18740a79-71e0-4f42-9231-0432e82af752) | — |
-| [Senior FDE Recruiter Screen](guides/senior-fde-recruiter-screen.md) | culture-fit, fit, verbal, why-company |
-| [SWE / MLE Behavioral Round](guides/swe-behavioral-round.md) | conflict, culture-fit, deep-dive, why-company |
 
 ## Everything else
 

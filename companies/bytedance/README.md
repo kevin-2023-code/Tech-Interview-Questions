@@ -11,7 +11,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 | Questions reported | [176](../bytedance.md) |
 | Free to read here | 23 |
 | Interview-process guides | 5 |
-| Other guides | 12 |
+| Other guides | 0 |
 | Most recent sighting | Sep 06, 2026 |
 
 ## How ByteDance interviews
@@ -65,23 +65,6 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [AI Agent Intern Technical Questions](guides/ai-agent-intern-oral-fundamentals.md) | agents, evaluation, networking, operating-systems, troubleshooting |
-| [AI-Native Coding Interview](https://trueinterview.io/study/d4c1dd70-7481-447a-ad23-a3a276799518) | — |
-| [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](guides/backend-fundamentals-oral-cluster.md) | concurrency, database, distributed-systems, verbal |
-| [Data Engineering Experience Screen](guides/data-engineering-experience-screen.md) | database |
-| [Dropout, Overfitting, Normalization, Loss Functions](guides/ml-knowledge-oral-cluster.md) | attention, ml-knowledge, transformer, verbal |
-| [Hiring Manager / Final Behavioral Round](guides/hm-behavioral-final-round.md) | bq, deep-dive, fit, leadership, star |
-| [How You Build Service Stability and Troubleshoot Production Incidents](guides/how-you-build-service-stability-and-troubleshoot-production-incidents.md) | — |
-| [Motivation, Ambiguity, and Collaboration Screen](guides/motivation-ambiguity-collaboration-screen.md) | ambiguity, bq, fit |
-| [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md) | deep-dive, verbal, ai-safety, llm, ownership |
-| [RAG / Agent / Kafka Oral Drill](guides/rag-agent-kafka-oral-drill.md) | concurrency, kafka, llm-agent, networking, rag, redis, tool-use, verbal |
-| [SRE Background: Development vs. Stability Focus and Your Most Memorable Project](guides/sre-background-development-vs-stability-focus-and-your-most-memorable-pr.md) | — |
-| [SRE Linux / Networking Troubleshooting Round](guides/sre-linux-networking-troubleshoot.md) | networking, operating-systems, sre, troubleshooting, verbal |
 
 ## Everything else
 

@@ -11,7 +11,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 | Questions reported | [112](../snowflake.md) |
 | Free to read here | 27 |
 | Interview-process guides | 1 |
-| Other guides | 4 |
+| Other guides | 0 |
 | Most recent sighting | Aug 15, 2026 |
 
 ## How Snowflake interviews
@@ -65,15 +65,6 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Vowel Substring](../../questions/algorithm/vowel-substring/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) |
 | [Minimum Value Weight](../../questions/algorithm/minimum-value-weight/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [AI-Conducted Screening Interview](guides/ai-conducted-screening.md) | ai-screening, ai-tools, deep-dive, new-round, verbal |
-| [Explain a Technical Project from Milestone to Production](guides/explain-a-technical-project-from-milestone-to-production.md) | — |
-| [Infra Recruiter Screen: Experience and Tooling](guides/infra-recruiter-experience-screen.md) | fit, infra |
-| [Proud Project / Conflict / Failure](guides/onsite-behavioral-proud-conflict-failure.md) | conflict, ownership |
 
 ## Everything else
 

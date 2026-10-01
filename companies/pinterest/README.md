@@ -11,7 +11,7 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 | Questions reported | [77](../pinterest.md) |
 | Free to read here | 6 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
 
 ## How Pinterest interviews
@@ -48,14 +48,6 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Leadership, Initiative, Project End-to-End](guides/behavioral-leadership-initiative.md) | ambiguity, conflict, deep-dive, impact, leadership, star |
-| [MCQ + NN Forward + Coding + ML Implementations)](guides/mle-intern-codesignal-oa.md) | classification, ml-knowledge, python |
-| [ML Fundamentals Quick-Fire](guides/ml-fundamentals-quick-fire.md) | cs-fundamentals, ml-knowledge, verbal |
 
 ## Everything else
 

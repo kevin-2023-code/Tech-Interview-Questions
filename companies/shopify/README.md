@@ -11,7 +11,7 @@ How Shopify interviews, and the questions candidates reported there. Free questi
 | Questions reported | [15](../shopify.md) |
 | Free to read here | 7 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Jun 15, 2026 |
 
 ## How Shopify interviews
@@ -49,13 +49,6 @@ The stages below follow Shopify's public description of its process; the order a
 | [Dynamic programming, ~45 min, any language](../../questions/algorithm/swe-intern-coding-oa-dynamic-programming-45-min-any-language/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa-dynamic-programming-45-min-any-language) |
 | [Paint House](../../questions/algorithm/swe-intern-coding-oa/README.md) | Algorithm | Medium | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/swe-intern-coding-oa) |
 | [Cows and Bulls (Guess the Number)](../../questions/algorithm/cows-and-bulls/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/cows-and-bulls) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Life Story / Values Interview](guides/life-story-values-interview.md) | culture-fit, star, values, why-company |
-| [ML Modeling Round (Forecasting / Targeting / Fraud)](guides/ml-modeling-round.md) | classification, evaluation, feature-engineering, ml-knowledge, mlsd, ranking |
 
 ## Everything else
 

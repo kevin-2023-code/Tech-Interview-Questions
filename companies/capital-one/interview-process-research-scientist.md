@@ -36,13 +36,13 @@ The round that ends most Research Scientist candidacies here is the one candidat
 
 The highest-weighted competency on this track, spread over the panel presentation and the opening of the mixed technical round. What earns signal: owning the problem framing, naming the alternatives you rejected and why, being precise about what your evaluation did and did not prove, and being comfortable saying where the work is weak. What loses it: a narrative that stays at the level of an abstract, or an answer that attributes key decisions to collaborators. Rehearse the version of your talk where every slide can absorb four follow-up questions.
 
-- [AR Panel Talk Project Deep-Dive](guides/ar-panel-talk-deep-dive.md)
+- [AR Panel Talk Project Deep-Dive](https://trueinterview.io/questions/ar-panel-talk-deep-dive)
 
 ### ML Theory
 
 Tested broadly rather than deeply, through the fixed question set and the paper discussion. Expect fundamentals stated crisply, evaluation methodology, data quality and missing-value handling, overfitting, and applied tradeoffs — plus, on quantitative and model-risk teams, real statistical rigor: why a quantile estimate converges more slowly than a mean, what the standard error of a simulated tail actually depends on, and when a parametric shortcut is defensible. Vague phrasing gets challenged immediately on this track.
 
-- [Model Risk: VaR & Monte Carlo Orals](guides/model-risk-quant-orals.md)
+- [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/questions/model-risk-quant-orals)
 - [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study)
 
 ### Coding and Algorithm
@@ -64,7 +64,7 @@ The case hour asks whether a researcher can think like an operator in a regulate
 
 A graded hour, not a courtesy. The prompts are specific enough that generic stories fall apart under follow-up: a blocker you cleared while still hitting the date, a result peers thought was out of reach. Answers that describe research for its own sake read poorly; the ones that land connect the work to a decision someone made because of it.
 
-- [Power Day Behavioral](guides/power-day-behavioral.md)
+- [Power Day Behavioral](https://trueinterview.io/questions/power-day-behavioral)
 
 ## What They Don't Test
 

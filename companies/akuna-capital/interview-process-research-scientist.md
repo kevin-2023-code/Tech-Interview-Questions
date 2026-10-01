@@ -34,9 +34,9 @@ The stage that eliminates most Research Scientist candidates at Akuna Capital ha
 
 The competency the track exists to test, examined twice — once on camera under a five-minute clock, once live. The surface is narrow and repeats across reports: chain rule and Leibniz's rule, orthogonality and bases, Markov chains, Newton's method and its convergence rate, expected values and hitting times, and combinatorial spread puzzles. Signal comes from deriving from first principles and stating assumptions as you go; the failure mode is formula recall with no intuition behind it, and — on the recorded stage — dead air while you compute, which submits a solution with no visible reasoning at all.
 
-- [QR Video OA: Advanced Math and Reasoning](guides/qr-video-oa-advanced-math-and-reasoning.md)
-- [Trader Fair-Bet Probability and Number Sequences](guides/trader-fair-bet-probability-and-number-sequences.md)
-- [Junior Trader Final: Investment & Market-Making Games](guides/junior-trader-final-games.md)
+- [QR Video OA: Advanced Math and Reasoning](https://trueinterview.io/questions/qr-video-oa-advanced-math-and-reasoning)
+- [Trader Fair-Bet Probability and Number Sequences](https://trueinterview.io/questions/trader-fair-bet-probability-and-number-sequences)
+- [Junior Trader Final: Investment & Market-Making Games](https://trueinterview.io/questions/junior-trader-final-games)
 
 ### Coding and Algorithm
 

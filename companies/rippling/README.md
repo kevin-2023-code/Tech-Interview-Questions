@@ -11,7 +11,7 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 | Questions reported | [30](../rippling.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
-| Other guides | 7 |
+| Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
 
 ## How Rippling interviews
@@ -43,18 +43,6 @@ The technical screen is usually 45-60 minutes of live coding on a multi-part pra
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [DSA Multiple Choice and Costliest Chocolate](guides/intern-oa-fixed-set.md) | api-integration, dfs, hashmap, heap, sliding-window |
-| [Explain How AI Supports Your Design and Coding Work](guides/explain-how-ai-supports-your-design-and-coding-work.md) | — |
-| [Explain the Scope and Impact of Your Most Important Project](guides/explain-the-scope-and-impact-of-your-most-important-project.md) | — |
-| [Explain Your Current and Previous Engineering Roles](guides/explain-your-current-and-previous-engineering-roles.md) | — |
-| [Explain Your Reason for Changing Roles and Your Interest in the Team](guides/explain-your-reason-for-changing-roles-and-your-interest-in-the-team.md) | — |
-| [Project Deep Dive / HM BQ](guides/project-deep-dive-and-bq.md) | bq, deep-dive, impact, mentorship, presentation, star |
-| [Time Complexity Analysis](https://trueinterview.io/study/3ff04932-615f-483c-a528-757dfbfc638a) | — |
 
 ## Everything else
 

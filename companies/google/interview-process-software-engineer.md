@@ -59,8 +59,8 @@ L5 has one design round and L6 has two, and design occasionally shows up in phon
 
 There is a dedicated behavioral screen and a Googleyness round, and behavioral questions are often added to coding rounds as well. Scored themes include ownership beyond your scope, a bug in code your team owns vs code it does not, harsh feedback, shifting priorities, and a personal goal outside work. Answers with concrete numbers and a clear reason for each decision earn signal. A single rehearsed story per theme does not hold up when the interviewer asks for another example.
 
-- [Google Hiring Assessment (GHA / Work Styles)](guides/google-hiring-assessment-gha.md)
-- [Behavioral Round (Googliness Themes)](guides/bq-round-google-style.md)
+- [Google Hiring Assessment (GHA / Work Styles)](https://trueinterview.io/questions/google-hiring-assessment-gha)
+- [Behavioral Round (Googliness Themes)](https://trueinterview.io/questions/bq-round-google-style)
 
 ## What They Don't Test
 

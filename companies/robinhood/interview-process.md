@@ -66,7 +66,7 @@ The practical round turns a small spec into runnable, testable code. Money-movem
 Behavioral evaluation is spread across the loop, with the project retrospective as its center of gravity. Prepare narratives that expose reasoning under pressure and honest reflection on failure — interviewers explicitly reward it.
 
 - Project Deep Dive
-- [Recruiter / HR Screen](guides/recruiter-hr-screen.md)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 - [Test Plan Design for a Ride-sharing Application](https://trueinterview.io/questions/03cca6eb-1380-4985-8ddd-f69c70b2206d)
 
 ## How to Prepare

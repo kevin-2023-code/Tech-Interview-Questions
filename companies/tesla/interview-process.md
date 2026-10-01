@@ -66,7 +66,7 @@ These rounds test implementation from first principles: debugging an existing al
 
 Behavioral evaluation recurs across the loop rather than living in one round: disagreement with a leader, handling criticism, biggest failure, and thriving at a demanding pace all appear repeatedly in reports. Some technical screens also include oral no-code questioning on fundamentals, graded on precision of explanation rather than code.
 
-- [CV / Sensing ML Fundamentals Oral](guides/cv-sensing-ml-fundamentals-oral.md)
+- [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral)
 
 ## How to Prepare
 

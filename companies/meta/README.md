@@ -11,7 +11,7 @@ How Meta interviews, and the questions candidates reported there. Free questions
 | Questions reported | [186](../meta.md) |
 | Free to read here | 23 |
 | Interview-process guides | 6 |
-| Other guides | 5 |
+| Other guides | 0 |
 | Most recent sighting | Aug 16, 2026 |
 
 ## How Meta interviews
@@ -65,16 +65,6 @@ This guide goes past the outline on the Meta company page. It covers how the scr
 | [Token Bucket Rate Limiter II](../../questions/algorithm/token-bucket-rate-limiter-ii/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md) | ai-collaboration, bq, star |
-| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](guides/ml-foundations-optimizers-scaling-law-clustering.md) | clustering, llm, ml-knowledge, optimization |
-| [Mouse and Cheese / Maze Rewards](guides/mouse-and-cheese-maze-rewards.md) | backtracking, dfs, dp, grid |
-| [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/study/03c246e8-c1a4-47b1-b1bd-5c212e569288) | — |
-| [Traditional Behavioral](guides/traditional-behavioral-meta.md) | ambiguity, bq, conflict, leadership, star |
 
 ## Everything else
 

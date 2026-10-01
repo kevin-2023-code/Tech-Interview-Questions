@@ -2,7 +2,7 @@
 
 # Microsoft interview process, OA & interview questions
 
-**130 questions** reported at Microsoft · **13 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
+**130 questions** reported at Microsoft · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Microsoft interviews & the free questions](microsoft/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 130) |
 | Difficulty (easy / medium / hard) | 18 / 81 / 31 |
 | Free to practise | [18](../free/README.md) |
-| Guides & writeups | 13 |
+| Guides & writeups | 5 |
 
 <sub>Counted from the 130 questions reported at Microsoft. 77 of them carry a sighting date; the other 53 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -115,23 +115,15 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 
 ## Guides & writeups
 
-**13 writeups** filed under Microsoft in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under Microsoft in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Adapt When Project Requirements Change Midway](https://trueinterview.io/study/adapt-when-project-requirements-change-midway) | — |
-| [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/study/behavioral-round) | ai-collaboration, conflict, culture-fit, leadership, star |
-| [Explain Platform Evolution, Ownership, and Career Motivation](https://trueinterview.io/study/explain-platform-evolution-ownership-and-career-motivation) | — |
 | [Microsoft AI Engineer Interview Process](https://trueinterview.io/study/microsoft-ai-engineer-interview-process) | — |
 | [Microsoft Infrastructure Engineer Interview Process](https://trueinterview.io/study/microsoft-infrastructure-engineer-interview-process) | — |
 | [Microsoft Interview Process & Questions](https://trueinterview.io/study/microsoft-interview-process) | — |
 | [Microsoft Machine Learning Engineer Interview Process](https://trueinterview.io/study/microsoft-machine-learning-engineer-interview-process) | — |
 | [Microsoft Software Engineer Interview Process](https://trueinterview.io/study/microsoft-software-engineer-interview-process) | — |
-| [Object-Oriented Design Round](https://trueinterview.io/study/object-oriented-design-round) | object-design, ood, oop-design |
-| [Project Deep Dive](https://trueinterview.io/study/project-deep-dive-2) | deep-dive, impact, leadership |
-| [Resolve Technical Disagreement and Work Across Different Styles](https://trueinterview.io/study/resolve-technical-disagreement-and-work-across-different-styles) | — |
-| [Transformer Roofline + FP32→FP16 Drill](https://trueinterview.io/study/transformer-roofline-fp-precision) | arithmetic-intensity, gpu, kernel, numerical-stability, transformer |
-| [Use AI to Reduce Repetitive Pipeline Development Work](https://trueinterview.io/study/use-ai-to-reduce-repetitive-pipeline-development-work) | — |
 
 ---
 

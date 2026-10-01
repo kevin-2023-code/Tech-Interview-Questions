@@ -61,7 +61,7 @@ One to two rounds. Candidates who stated scale, consistency needs, and the failu
 
 Short, but present. Conflict and escalation stories dominate, often delivered in a dense one-day schedule. Interviewers mentioned that responsibilities change often and that broad ownership matters, so stories about operating something you did not build land well.
 
-- [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md)
+- [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
 
 ## What They Don't Test
 

@@ -66,8 +66,8 @@ Pinterest leans on implementation-design exercises more than most companies: bui
 
 Behavioral rounds run 25–45 minutes and probe initiative, ownership, and reaction to critical feedback with concrete follow-ups; polished but generic stories fall flat.
 
-- [Behavioral: Leadership, Initiative, Project End-to-End](guides/behavioral-leadership-initiative.md)
-- [ML Fundamentals Quick-Fire](guides/ml-fundamentals-quick-fire.md)
+- [Behavioral: Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative)
+- [ML Fundamentals Quick-Fire](https://trueinterview.io/questions/ml-fundamentals-quick-fire)
 
 ## How to Prepare
 

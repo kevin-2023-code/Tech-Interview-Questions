@@ -11,7 +11,7 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 | Questions reported | [252](../amazon.md) |
 | Free to read here | 29 |
 | Interview-process guides | 5 |
-| Other guides | 19 |
+| Other guides | 0 |
 | Most recent sighting | Sep 20, 2026 |
 
 ## How Amazon interviews
@@ -67,30 +67,6 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [AI-Assisted Debugging Challenge](https://trueinterview.io/study/fc060aa0-b909-41da-b78b-6ee1285b13a5) | — |
-| [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](guides/asm-phone-screen-deep-dive-bq.md) | deep-dive |
-| [Describe a Deep Debugging Investigation](guides/describe-a-deep-debugging-investigation.md) | — |
-| [Explain a Project That Could Not Meet a Tight Deadline](guides/explain-a-project-that-could-not-meet-a-tight-deadline.md) | — |
-| [Explain What You Want in Your Next Role](guides/explain-what-you-want-in-your-next-role.md) | — |
-| [GenAI Usage (How / Failure / Tradeoff)](guides/bq-genai-usage.md) | ai-tools |
-| [Influence a Colleague Who Prefers a Different Approach](guides/influence-a-colleague-who-prefers-a-different-approach.md) | — |
-| [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md) | deep-dive |
-| [Learn What You Need to Solve an Unfamiliar Problem](guides/learn-what-you-need-to-solve-an-unfamiliar-problem.md) | — |
-| [LoRA and PEFT Variants](guides/lora-and-peft-variants.md) | ml-knowledge, transformer |
-| [Make an Important Decision Before Every Option Can Be Explored](guides/make-an-important-decision-before-every-option-can-be-explored.md) | — |
-| [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](guides/as-ml-breadth-orals.md) | math-reasoning, ml-knowledge, probability |
-| [Paper Read Round (FAR / Premium Loops)](guides/paper-read-round-far.md) | deep-dive, ml-knowledge, presentation |
-| [RLHF: PPO vs GRPO vs GSPO](guides/rlhf-ppo-grpo-gspo.md) | math-reasoning, ml-knowledge |
-| [Science Application (Ambiguous Problem)](guides/science-application-ambiguous-problem.md) | deep-dive, ml-knowledge |
-| [Solve a Problem Outside Your Assigned Responsibilities](guides/solve-a-problem-outside-your-assigned-responsibilities.md) | — |
-| [Take Initiative on a Customer Pain Point](guides/take-initiative-on-a-customer-pain-point.md) | — |
-| [Transformer / Attention Deep-Dive](guides/transformer-attention-deep-dive.md) | ml-knowledge, pytorch, transformer |
-| [Work Simulation & Work Style Assessment](guides/work-style-simulation-assessment.md) | work-style |
 
 ## Everything else
 

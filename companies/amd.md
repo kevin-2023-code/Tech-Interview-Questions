@@ -2,13 +2,13 @@
 
 # AMD interview process, OA & interview questions
 
-**3 questions** reported at AMD · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amd), judged server-side on the algorithm, low-level-design and SQL formats.
+**3 questions** reported at AMD. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amd), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How AMD interviews & the free questions](amd/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🔬 [Semiconductors & chips](../company-types/semiconductors.md) · 10,000+ people · [Big Tech](../company-types/big-tech.md) — a derived cut: a technology-sector employer with 10,000+ people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-amd)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-amd)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [System Design](../formats/system-design.md) (67% of 3) |
 | Difficulty (easy / medium / hard) | 0 / 2 / 1 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 3 questions reported at AMD. 3 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -73,20 +73,6 @@ The 3 questions to open first if you are preparing for AMD, ranked by **the most
 | **3** | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | System Design | Hard | — | Sep 14, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Guides & writeups
-
-**7 writeups** filed under AMD in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Explain Cache Conflicts and Related Memory-Access Problems](https://trueinterview.io/study/explain-cache-conflicts-and-related-memory-access-problems) | — |
-| [Explain GPU Register Spills and Their Performance Cost](https://trueinterview.io/study/explain-gpu-register-spills-and-their-performance-cost) | — |
-| [Explain How You Learn New Technical Topics](https://trueinterview.io/study/explain-how-you-learn-new-technical-topics) | — |
-| [Explain Skills and Progressive Disclosure in an Agent](https://trueinterview.io/study/explain-skills-and-progressive-disclosure-in-an-agent) | — |
-| [Explain the ReAct Agent Loop](https://trueinterview.io/study/explain-the-react-agent-loop) | — |
-| [Optimize the Memory Accesses of a GPU Matrix Transpose](https://trueinterview.io/study/optimize-the-memory-accesses-of-a-gpu-matrix-transpose) | — |
-| [Use the Roofline Model to Analyze Prefill and Decoding](https://trueinterview.io/study/use-the-roofline-model-to-analyze-prefill-and-decoding) | — |
 
 ---
 

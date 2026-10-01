@@ -49,13 +49,13 @@ One or two rounds on the company's own problems: an inference API with batching,
 Two formats: a 20–25 minute presentation of your own work where interviewers probe every layer and expect you to justify rejected alternatives, and a critique of an internal design document that grades prioritisation — candidates who enumerate small issues instead of engaging with the topic the interviewer flags run out of time.
 
 - [Onsite Design Doc Review](https://trueinterview.io/questions/onsite-design-doc-review)
-- [Hiring Manager Round — Behavioral & Collaboration](guides/onsite-hm-behavioral.md)
+- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
 ### Behavioral and Leadership
 A hiring-manager round on ownership, mentoring and deadlines, plus a values round unlike the rest of the loop. Reported prompts: a project that failed and how you found impact inside it, a conflict where you turned out to be wrong, someone you deeply respect but fundamentally disagree with, and whether you would accept a worse financial outcome for a safety gain.
 
-- [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md)
-- [Recruiter Screen — Why Anthropic Deep-Dive](guides/recruiter-screen-why-anthropic.md)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/questions/recruiter-screen-why-anthropic)
 
 ## What They Don't Test
 

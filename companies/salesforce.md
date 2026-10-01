@@ -2,7 +2,7 @@
 
 # Salesforce interview process, OA & interview questions
 
-**77 questions** reported at Salesforce · **6 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**77 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (84% of 77) |
 | Difficulty (easy / medium / hard) | 14 / 43 / 20 |
 | Free to practise | [4](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 1 |
 | Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 77 questions reported at Salesforce. 34 of them carry a sighting date; the other 43 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -110,16 +110,11 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 
 ## Guides & writeups
 
-**6 writeups** filed under Salesforce in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Salesforce in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [AI / ML Fundamentals Oral Round (AI Engineer)](https://trueinterview.io/study/ai-ml-fundamentals-oral) | attention, cs-fundamentals, evaluation, inference, llm |
-| [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](https://trueinterview.io/study/cloud-domain-knowledge-round) | cloud, cs-fundamentals, domain-knowledge, infra, verbal |
-| [Hiring Manager + Behavioral Rounds](https://trueinterview.io/study/hm-and-bq-rounds) | bq, conflict, leadership, mentorship, ownership |
-| [Project Architecture Deep Dive (AI Engineer / Backend)](https://trueinterview.io/study/project-deep-dive-ai-engineer) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent |
 | [Salesforce Interview Process & Questions](https://trueinterview.io/study/salesforce-interview-process) | — |
-| [TypeScript Test and Code Refactor](https://trueinterview.io/study/typescript-refactor-oa) | code-reading, frontend, fullstack, oop-design, refactoring |
 
 ## Interview reports
 

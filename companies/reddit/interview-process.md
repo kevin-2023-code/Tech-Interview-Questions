@@ -64,9 +64,9 @@ ML-adjacent funnels may include a notebook-style working session — exploring a
 
 The collaboration and hiring-manager rounds ask for multiple concrete stories, not one polished highlight. Bring more examples than you expect to need — recent wins and lowlights, conflict with non-engineers, a decision you reversed — and be ready for a hiring manager to probe the domain details inside each story.
 
-- [Cross-Functional & PM Behavioral](guides/cross-functional-pm-bq.md)
-- [Hiring-Manager Domain Round](guides/hiring-manager-domain-round.md)
-- [Product Sense: Improve Reddit Onboarding](guides/product-sense-improve-onboarding.md)
+- [Cross-Functional & PM Behavioral](https://trueinterview.io/questions/cross-functional-pm-bq)
+- [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round)
+- [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding)
 
 ## How to Prepare
 

@@ -57,7 +57,7 @@ Design rounds start from a concrete product and drill into the data model, API d
 Low-level rounds reward precise interfaces and disciplined state ownership: define the invariants and complexity targets before writing code, and justify the data-structure combination that meets them. For the refactoring-style assessments, show how your changes improve testability and maintainability, not just tidiness.
 
 - [LFU Cache](https://trueinterview.io/questions/lfu-cache)
-- [TypeScript Refactor OA (HackerRank — fullstack)](guides/typescript-refactor-oa.md)
+- [TypeScript Refactor OA (HackerRank — fullstack)](https://trueinterview.io/questions/typescript-refactor-oa)
 
 ## How to Prepare
 

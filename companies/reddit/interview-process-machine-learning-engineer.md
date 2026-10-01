@@ -46,7 +46,7 @@ One onsite round, about an hour, and the heaviest weight in the loop. The prompt
 
 Covered in the fundamentals round and probed again inside the phone screen. Expect to justify model choices rather than list them: why boosted trees over logistic regression for categorical-heavy click data, what regularization is buying you, where the bias-variance trade sits for your chosen capacity. Two recurring specifics: cold start appeared in fundamentals, in design and in ranking prompts across separate loops, and interpreting a two-distribution overlap plot was asked directly. Depth on internals is expected — objectives, optimization procedure and the hyperparameters that actually move the metric, not API familiarity.
 
-- [ML Fundamentals](guides/ml-fundamentals.md)
+- [ML Fundamentals](https://trueinterview.io/questions/ml-fundamentals)
 
 ### Coding and Algorithm
 
@@ -69,8 +69,8 @@ Object-modeling problems reach this track through the screen rather than a dedic
 
 One round with the hiring manager, plus a product session on infrastructure loops. The questions are conventional — a failure, a success, a conflict, cross-team collaboration — but the round is where team fit and level get argued. Tie examples to concrete ML delivery rather than teamwork in general, and be ready to reason about a user-facing change and the experiment that would validate it.
 
-- [Product Sense: Improve Reddit Onboarding](guides/product-sense-improve-onboarding.md)
-- [Hiring-Manager Domain Round](guides/hiring-manager-domain-round.md)
+- [Product Sense: Improve Reddit Onboarding](https://trueinterview.io/questions/product-sense-improve-onboarding)
+- [Hiring-Manager Domain Round](https://trueinterview.io/questions/hiring-manager-domain-round)
 
 ## What They Don't Test
 

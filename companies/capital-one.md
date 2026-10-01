@@ -2,7 +2,7 @@
 
 # Capital One interview process, OA & interview questions
 
-**51 questions** reported at Capital One · **13 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
+**51 questions** reported at Capital One · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Capital One interviews & the free questions](capital-one/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 51) |
 | Difficulty (easy / medium / hard) | 10 / 37 / 4 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 13 |
+| Guides & writeups | 5 |
 
 <sub>Counted from the 51 questions reported at Capital One. 37 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -102,23 +102,15 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 
 ## Guides & writeups
 
-**13 writeups** filed under Capital One in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**5 writeups** filed under Capital One in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Amusement Park Profitability Case](https://trueinterview.io/study/amusement-park-profitability-case) | critical-thinking, open-ended, verbal |
-| [AR Panel Talk Project Deep-Dive](https://trueinterview.io/study/ar-panel-talk-deep-dive) | deep-dive, open-ended, paper-read, presentation, verbal |
 | [Capital One Data Scientist Interview Process](https://trueinterview.io/study/capitalone-data-scientist-interview-process) | — |
 | [Capital One Interview Process & Questions](https://trueinterview.io/study/capitalone-interview-process) | — |
 | [Capital One Machine Learning Engineer Interview Process](https://trueinterview.io/study/capitalone-machine-learning-engineer-interview-process) | — |
 | [Capital One Research Scientist Interview Process](https://trueinterview.io/study/capitalone-research-scientist-interview-process) | — |
 | [Capital One Software Engineer Interview Process](https://trueinterview.io/study/capitalone-software-engineer-interview-process) | — |
-| [Data Challenge: Presentation + Coding (Python, Data Processing)](https://trueinterview.io/study/f63e89db-acce-46ac-9ee8-4b85820078e0) | — |
-| [DS Business Analyst Case (P&L Decomposition)](https://trueinterview.io/study/ds-business-analyst-case-study) | critical-thinking, math-reasoning, open-ended, verbal |
-| [DS Role-Play: Explain Model Regression to PM](https://trueinterview.io/study/ds-role-play-pm-explanation) | ab-testing, critical-thinking, ml-knowledge, open-ended, verbal |
-| [MLE ML Knowledge Orals (Set A)](https://trueinterview.io/study/mle-ml-knowledge-orals) | cs-fundamentals, deep-dive, ml-knowledge, verbal |
-| [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/study/model-risk-quant-orals) | cs-fundamentals, math-reasoning, open-ended, probability, verbal |
-| [Power Day Behavioral](https://trueinterview.io/study/power-day-behavioral) | ambiguity, bq, conflict, leadership, star |
 
 ---
 

@@ -2,7 +2,7 @@
 
 # DoorDash interview process, OA & interview questions
 
-**71 questions** reported at DoorDash · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
+**71 questions** reported at DoorDash · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How DoorDash interviews & the free questions](doordash/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (45% of 71) |
 | Difficulty (easy / medium / hard) | 8 / 51 / 12 |
 | Free to practise | [4](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 71 questions reported at DoorDash. 47 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -106,17 +106,13 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 
 ## Guides & writeups
 
-**7 writeups** filed under DoorDash in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under DoorDash in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | ai-safety, critical-thinking, culture, values |
 | [DoorDash Interview Process & Questions](https://trueinterview.io/study/doordash-interview-process) | — |
 | [DoorDash Machine Learning Engineer Interview Process](https://trueinterview.io/study/doordash-machine-learning-engineer-interview-process) | — |
 | [DoorDash Software Engineer Interview Process](https://trueinterview.io/study/doordash-software-engineer-interview-process) | — |
-| [Hiring Manager Behavioral Round](https://trueinterview.io/study/hm-behavioral-round) | ai-collaboration, bq, conflict, leadership, star |
-| [ML Knowledge / Discussion Round](https://trueinterview.io/study/mle-ml-discussion-round) | ab-testing, experiment-design, ml-knowledge, ranking, verbal |
-| [On-Call Case Investigation](https://trueinterview.io/study/onsite-case-investigation) | open-ended, operating-systems, sre, troubleshooting, verbal |
 
 ---
 

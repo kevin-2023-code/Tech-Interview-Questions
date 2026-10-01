@@ -2,7 +2,7 @@
 
 # Scale AI interview process, OA & interview questions
 
-**16 questions** reported at Scale AI · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
+**16 questions** reported at Scale AI · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/scale-ai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Scale AI interviews & the free questions](scale-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 16) |
 | Difficulty (easy / medium / hard) | 0 / 11 / 5 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 16 questions reported at Scale AI. 10 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -88,15 +88,10 @@ The 8 questions to open first if you are preparing for Scale AI, ranked by **the
 
 ## Guides & writeups
 
-**6 writeups** filed under Scale AI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Scale AI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Credo Behavioral and Customer Engagement](https://trueinterview.io/study/credo-behavioral-and-customer-engagement) | — |
-| [Designing GPT-2 Prompts Using Given Keywords](https://trueinterview.io/study/147c9781-846f-407b-a3e9-cb2f61ae898d) | — |
-| [Generate Jailbreak Prompts from Text Inputs Algorithm](https://trueinterview.io/study/49333e01-4b07-4b53-b4b6-ca3fb77a0f8c) | — |
-| [LLM Post-Training Theory Conversation](https://trueinterview.io/study/llm-post-training-theory-conversation) | domain-knowledge, ml-knowledge, transformer |
-| [Project Deep Dive and Paper Presentation](https://trueinterview.io/study/project-deep-dive-and-paper-presentation) | domain-knowledge, ml-knowledge |
 | [Scale AI Interview Process & Questions](https://trueinterview.io/study/scale-ai-interview-process) | — |
 
 ---

@@ -61,15 +61,15 @@ One or two hours for mid-level and senior candidates, sometimes squeezed into 15
 
 Backend fundamentals come up constantly: indexes and why you cannot index every column, CAP, locking, Kafka partitions and rebalancing, Redis persistence, Java's LinkedHashMap versus ConcurrentHashMap, and cache consistency under cache-aside. Answers that recite definitions without the mechanism fail. The SQL-to-NoSQL migration trade-off question is the one candidates named as their weak point.
 
-- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](guides/backend-fundamentals-oral-cluster.md)
-- [RAG / Agent / Kafka Oral Drill](guides/rag-agent-kafka-oral-drill.md)
+- [CAP, DB Indexing, Concurrency and Logging: Backend Fundamentals Oral Round](https://trueinterview.io/questions/backend-fundamentals-oral-cluster)
+- [RAG / Agent / Kafka Oral Drill](https://trueinterview.io/questions/rag-agent-kafka-oral-drill)
 
 ### Project Deep Dive
 
 Resume questioning takes 15-45 minutes of most rounds. Interviewers pick your hardest project and ask for schema choices, edge cases, metrics and failure handling. Some fixate on one old line item. A shaky start here hurt candidates' later coding, and when the drill ran long it left too little time to code.
 
-- [Project Deep Dive (Resume Drill)](guides/project-deep-dive-round.md)
-- [Hiring Manager / Final Behavioral Round](guides/hm-behavioral-final-round.md)
+- [Project Deep Dive (Resume Drill)](https://trueinterview.io/questions/project-deep-dive-round)
+- [Hiring Manager / Final Behavioral Round](https://trueinterview.io/questions/hm-behavioral-final-round)
 
 ## What They Don't Test
 

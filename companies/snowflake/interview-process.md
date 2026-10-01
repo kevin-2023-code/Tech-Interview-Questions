@@ -65,7 +65,7 @@ Hands-on component builds carry as much weight as abstract architecture here. Fi
 
 Behavioral rounds are conversational but concrete: a project you are proud of, a conflict, a failure, and technical challenges you personally resolved — with follow-ups that test whether the ownership was really yours.
 
-- [Onsite Behavioral: Proud Project / Conflict / Failure](guides/onsite-behavioral-proud-conflict-failure.md)
+- [Onsite Behavioral: Proud Project / Conflict / Failure](https://trueinterview.io/questions/onsite-behavioral-proud-conflict-failure)
 
 ## How to Prepare
 

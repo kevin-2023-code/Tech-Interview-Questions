@@ -100,8 +100,8 @@ This is one round, and it is decisive from L5 upward. Depth on a small set of pr
 
 This happens in the hiring-manager round and sometimes inside the phone screen. Interviewers probe data-streaming choices, design rules and measurable impact, often harder than candidates expect. This round sets the level.
 
-- [Onsite BQ + Hiring Manager + Project Deep-Dive](guides/onsite-bq-hm-deep-dive.md)
-- [Bar Raiser: Architecture, Influence, and Values](guides/bar-raiser-architecture-and-values.md)
+- [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/questions/onsite-bq-hm-deep-dive)
+- [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/questions/bar-raiser-architecture-and-values)
 
 ## What They Don't Test
 

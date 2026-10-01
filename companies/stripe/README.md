@@ -11,7 +11,7 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 | Questions reported | [80](../stripe.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Sep 11, 2026 |
 
 ## How Stripe interviews
@@ -43,13 +43,6 @@ Stripe's loop rewards a different kind of preparation than most big-tech process
 | [Shipping Cost Calculator](../../questions/algorithm/shipping-cost-calculator/README.md) | Algorithm | Medium | Phone screen | Dec 2025 | [Solve](https://trueinterview.io/questions/shipping-cost-calculator) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Hiring Manager Behavioral](guides/hiring-manager-behavioral-2.md) | deep-dive, why-company |
-| [Show Senior Engineering Leadership Through a Past Project](guides/show-senior-engineering-leadership-through-a-past-project.md) | — |
 
 ## Everything else
 

@@ -11,7 +11,7 @@ How Together AI interviews, and the questions candidates reported there. Free qu
 | Questions reported | [1](../together-ai.md) |
 | Free to read here | 1 |
 | Interview-process guides | 0 |
-| Other guides | 4 |
+| Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
 
 ## How Together AI interviews
@@ -25,15 +25,6 @@ No written process guide yet. [The loop, as reported](../together-ai.md#the-loop
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Split a Chunked Text Stream into Line-Balanced Parts](../../questions/algorithm/split-a-chunked-text-stream-into-line-balanced-parts/README.md) | Algorithm | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Diagnose CPU Performance Problems on a Linux Server](guides/diagnose-cpu-performance-problems-on-a-linux-server.md) | — |
-| [Diagnose Slow Network Throughput Including Containers](guides/diagnose-slow-network-throughput-including-containers.md) | — |
-| [Diagnose Storage I/O Performance and Identify the Workload](guides/diagnose-storage-i-o-performance-and-identify-the-workload.md) | — |
-| [Investigate a Server Saturated by Logging](guides/investigate-a-server-saturated-by-logging.md) | — |
 
 ## Everything else
 

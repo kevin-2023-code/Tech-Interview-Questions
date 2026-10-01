@@ -2,7 +2,7 @@
 
 # Uber interview process, OA & interview questions
 
-**176 questions** reported at Uber · **6 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
+**176 questions** reported at Uber · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Uber interviews & the free questions](uber/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 176) |
 | Difficulty (easy / medium / hard) | 24 / 117 / 35 |
 | Free to practise | [36](../free/README.md) |
-| Guides & writeups | 6 |
+| Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
 
 <sub>Counted from the 176 questions reported at Uber. 111 of them carry a sighting date; the other 65 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -109,13 +109,10 @@ The 8 questions to open first if you are preparing for Uber, ranked by **the mos
 
 ## Guides & writeups
 
-**6 writeups** filed under Uber in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Uber in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Bar Raiser: Architecture, Influence, and Values](https://trueinterview.io/study/bar-raiser-architecture-and-values) | culture-fit, leadership |
-| [Onsite BQ + Hiring Manager + Project Deep-Dive](https://trueinterview.io/study/onsite-bq-hm-deep-dive) | deep-dive, presentation |
-| [Scientist Onsite: Experiment Design (Switchback + CI Interpretation)](https://trueinterview.io/study/scientist-experiment-design) | deep-dive, math-reasoning, ml-knowledge, probability |
 | [Uber Interview Process & Questions](https://trueinterview.io/study/uber-interview-process) | — |
 | [Uber Machine Learning Engineer Interview Process](https://trueinterview.io/study/uber-machine-learning-engineer-interview-process) | — |
 | [Uber Software Engineer Interview Process](https://trueinterview.io/study/uber-software-engineer-interview-process) | — |

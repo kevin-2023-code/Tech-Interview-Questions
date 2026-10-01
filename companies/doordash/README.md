@@ -11,7 +11,7 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 | Questions reported | [71](../doordash.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Sep 16, 2026 |
 
 ## How DoorDash interviews
@@ -46,14 +46,6 @@ DoorDash runs one of the most practical interview loops among large consumer-tec
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Hiring Manager Behavioral Round](guides/hm-behavioral-round.md) | ai-collaboration, bq, conflict, leadership, star |
-| [ML Knowledge / Discussion Round](guides/mle-ml-discussion-round.md) | ab-testing, experiment-design, ml-knowledge, ranking, verbal |
-| [On-Call Case Investigation](guides/onsite-case-investigation.md) | open-ended, operating-systems, sre, troubleshooting, verbal |
 
 ## Everything else
 

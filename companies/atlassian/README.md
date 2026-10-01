@@ -11,7 +11,7 @@ How Atlassian interviews, and the questions candidates reported there. Free ques
 | Questions reported | [52](../atlassian.md) |
 | Free to read here | 15 |
 | Interview-process guides | 3 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Sep 03, 2026 |
 
 ## How Atlassian interviews
@@ -53,13 +53,6 @@ Atlassian interviews reward candidates who can grow a simple, correct solution t
 | [Calculate and Sort Customer Ratings](../../questions/algorithm/calculate-and-sort-customer-ratings/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f0ad4811-d7eb-4489-beee-e2ff1149f904) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Maximum Subarray](../../questions/algorithm/maximum-subarray/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Atlassian Values and Management Rounds](guides/atlassian-values-and-management-rounds.md) | ambiguity, culture-fit, leadership, mentorship, values |
-| [Explain a Project Architecture Through a Technical Deep Dive](guides/explain-a-project-architecture-through-a-technical-deep-dive.md) | — |
 
 ## Everything else
 

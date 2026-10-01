@@ -2,7 +2,7 @@
 
 # IBM interview process, OA & interview questions
 
-**29 questions** reported at IBM · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at IBM · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ibm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How IBM interviews & the free questions](ibm/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (90% of 29) |
 | Difficulty (easy / medium / hard) | 5 / 22 / 2 |
 | Free to practise | [10](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 29 questions reported at IBM. 18 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -100,12 +100,10 @@ The 8 questions to open first if you are preparing for IBM, ranked by **the most
 
 ## Guides & writeups
 
-**3 writeups** filed under IBM in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under IBM in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Competency and Resume Interview](https://trueinterview.io/study/competency-and-resume-interview) | bq, deep-dive, star, why-company |
-| [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/study/devsecops-kubernetes-cicd-screen) | cs-fundamentals, docker, networking, sre, troubleshooting |
 | [IBM Interview Process & Questions](https://trueinterview.io/study/ibm-interview-process) | — |
 
 ---

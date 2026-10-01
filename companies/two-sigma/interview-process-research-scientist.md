@@ -40,14 +40,14 @@ Code is graded on this track, but the code is numerical rather than combinatoria
 
 The modeling rounds test judgment about a pipeline, not knowledge of model families. Signal comes from naming a leakage risk before being asked, from distinguishing drift in the mean from drift in the variance, from explaining intuitively why an L1 penalty puts coefficients exactly at zero while an L2 penalty only shrinks them, and from choosing a validation scheme that respects time ordering. Signal is lost by reciting a standard pipeline; every reported version of this round is a chain of "why" follow-ups deep enough that memorized answers run out after two steps.
 
-- [QR Data Analysis Prediction Case](guides/qr-data-analysis-prediction-case.md)
-- [GenAI Quant SWE Manager Deep Dive](guides/genai-quant-swe-manager-deep-dive.md)
+- [QR Data Analysis Prediction Case](https://trueinterview.io/questions/qr-data-analysis-prediction-case)
+- [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive)
 
 ### Domain Deep Dive
 
 At least one round is statistics at derivation depth, and reports consistently describe it as traditional statistics and linear models rather than contemporary machine learning. The questions ask for constructions and proofs — exhibit the variables that hit the correlation bound, write the bias term in matrix notation, extend the result from three variables to n. For PhD candidates this round doubles as an examination of the thesis field, and the reported experience is that the questions come at familiar material sideways, so rehearsed summaries do not survive.
 
-- [QR Statistics / Domain Knowledge Oral](guides/qr-statistics-domain-oral.md)
+- [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral)
 - [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression)
 
 ### Low-Level Design

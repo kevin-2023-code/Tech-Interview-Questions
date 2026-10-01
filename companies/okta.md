@@ -2,7 +2,7 @@
 
 # Okta interview process, OA & interview questions
 
-**10 questions** reported at Okta · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
+**10 questions** reported at Okta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Okta interviews & the free questions](okta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (80% of 10) |
 | Difficulty (easy / medium / hard) | 3 / 7 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 2 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 10 questions reported at Okta. 9 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -86,11 +86,10 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 
 ## Guides & writeups
 
-**2 writeups** filed under Okta in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Okta in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/study/hm-project-and-ai-philosophy) | ai-collaboration, deep-dive, leadership |
 | [Okta Interview Process & Questions](https://trueinterview.io/study/okta-interview-process) | — |
 
 ---

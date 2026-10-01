@@ -2,7 +2,7 @@
 
 # Optiver interview process, OA & interview questions
 
-**20 questions** reported at Optiver · **13 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/optiver), judged server-side on the algorithm, low-level-design and SQL formats.
+**20 questions** reported at Optiver · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/optiver), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Optiver interviews & the free questions](optiver/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (60% of 20) |
 | Difficulty (easy / medium / hard) | 0 / 13 / 7 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 13 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 20 questions reported at Optiver. 16 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -95,23 +95,13 @@ The 8 questions to open first if you are preparing for Optiver, ranked by **the 
 
 ## Guides & writeups
 
-**13 writeups** filed under Optiver in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Optiver in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Beat the Odds — Probability Test](https://trueinterview.io/study/beat-the-odds-probability) | brainteaser, expected-value, math-reasoning, mental-math, probability |
-| [HR / Behavioral Phone Screen](https://trueinterview.io/study/hr-behavioral-screen) | why-company |
-| [Likelihood / Event-Ordering Test](https://trueinterview.io/study/likelihood-ordering-test) | data-analysis, new-round, probability |
-| [Market-Making Interval Estimation Game](https://trueinterview.io/study/market-making-interval-game) | expected-value, fermi-estimation, market-making |
-| [Number Logic — Sequence / Find the Pattern](https://trueinterview.io/study/number-logic-sequence) | math, mental-math, pattern-recognition |
 | [Optiver Interview Process & Questions](https://trueinterview.io/study/optiver-interview-process) | — |
 | [Optiver Quantitative Finance Interview Process](https://trueinterview.io/study/optiver-quantitative-finance-interview-process) | — |
 | [Optiver Research Scientist Interview Process](https://trueinterview.io/study/optiver-research-scientist-interview-process) | — |
-| [Programming & Computer-System Knowledge Quiz](https://trueinterview.io/study/coding-knowledge-test) | cs-fundamentals, networking, operating-systems |
-| [QR Take-Home Data Project & Presentation](https://trueinterview.io/study/qr-take-home-data-project) | data-analysis, pandas, presentation |
-| [QR Technical Round — Brainteasers & Estimation](https://trueinterview.io/study/qr-technical-brainteasers) | brainteaser, fermi-estimation, math-reasoning, probability |
-| [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/study/trading-betting-game) | expected-value, market-making, mental-math, probability, trading |
-| [Zap-N Reaction & Memory Mini-Games](https://trueinterview.io/study/zap-n-reaction-games) | brainteaser, reaction-speed |
 
 ---
 

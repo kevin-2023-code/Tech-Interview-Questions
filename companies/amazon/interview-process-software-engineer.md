@@ -62,9 +62,9 @@ One round for mid-level candidates, and two or more plus design inside the Bar R
 
 This is the heaviest competency by time. Candidates estimate that more loop minutes go to principles than to code, and one counted 17 questions in four hours. Each story is questioned for dates, metrics, alternatives and what you would change. Generative AI is its own theme: how you validate generated code, and a time it was wrong.
 
-- [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md)
-- [GenAI Usage (How / Failure / Tradeoff)](guides/bq-genai-usage.md)
-- [Work Simulation & Work Style Assessment](guides/work-style-simulation-assessment.md)
+- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage)
+- [Work Simulation & Work Style Assessment](https://trueinterview.io/questions/work-style-simulation-assessment)
 
 ## What They Don't Test
 

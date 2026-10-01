@@ -11,7 +11,7 @@ How Waymo interviews, and the questions candidates reported there. Free question
 | Questions reported | [55](../waymo.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Jul 09, 2026 |
 
 ## How Waymo interviews
@@ -40,13 +40,6 @@ Waymo holds candidates to a Google-grade coding bar while testing how they reaso
 | [Sparse Matrix Left- and Right-Multiply Vector](../../questions/object-oriented-programming/sparse-matrix-vector-multiply/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/sparse-matrix-vector-multiply) |
 | [Parking Lot + Robotaxi Dispatch](../../questions/system-design/sd-parking-and-dispatch/README.md) | System Design | Hard | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/sd-parking-and-dispatch) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Policy vs Efficiency Trade-offs & Leadership](guides/behavioral-policy-vs-efficiency-leadership.md) | ambiguity, conflict, deep-dive, leadership |
-| [Project Deep-Dive + ML Fundamentals Discussion](guides/project-deep-dive-ml-fundamentals.md) | deep-dive, ml-knowledge, open-ended, presentation |
 
 ## Everything else
 

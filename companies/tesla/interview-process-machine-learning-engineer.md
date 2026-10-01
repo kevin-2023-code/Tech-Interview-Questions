@@ -41,8 +41,8 @@ Coding is live, in a shared editor, and framed in the vehicle domain rather than
 
 This is the highest-variance competency and the one that ends interviews. Questions are oral, rapid and sequenced from easy to sharp: describe the transformer, then how backpropagation flows through softmax in attention, then CNN versus MLP, then ResNet skip connections, then whether a linear function can serve as an activation. Interviewers are not checking that you can name things — the reported failures all involved answers that were correct at the headline level and empty underneath. Derivation beats recall: be able to produce a convolutional layer's parameter count from hyperparameters without a formula sheet, explain why a purely linear activation collapses a deep network into a single affine map, and state importance sampling's variance behavior rather than its definition. For quality and manufacturing roles the same bar applies to statistics, where naming the test is worth nothing without the null hypothesis, the assumptions and the decision it drives.
 
-- [CV / Sensing ML Fundamentals Oral](guides/cv-sensing-ml-fundamentals-oral.md)
-- [Battery Cell Quality Statistical Case](guides/battery-cell-quality-statistical-case.md)
+- [CV / Sensing ML Fundamentals Oral](https://trueinterview.io/questions/cv-sensing-ml-fundamentals-oral)
+- [Battery Cell Quality Statistical Case](https://trueinterview.io/questions/battery-cell-quality-statistical-case)
 
 ### Domain Deep Dive
 

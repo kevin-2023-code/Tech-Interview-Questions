@@ -76,9 +76,9 @@ Object-design rounds expect compilable core methods, not class diagrams. Intervi
 
 Behavioral evaluation is distributed across the loop — deep dive, hiring manager, and two dedicated values conversations — and each expects concrete stories with a clear personal role, measurable outcomes, and honest reflection on failure.
 
-- [Core Values Behavioral Round](guides/core-values-bq-round.md)
-- [Experience / Project Deep-Dive Round](guides/experience-project-deep-dive.md)
-- [Hiring Manager Screen](guides/hiring-manager-screen.md)
+- [Core Values Behavioral Round](https://trueinterview.io/questions/core-values-bq-round)
+- [Experience / Project Deep-Dive Round](https://trueinterview.io/questions/experience-project-deep-dive)
+- [Hiring Manager Screen](https://trueinterview.io/questions/hiring-manager-screen)
 
 ## How to Prepare
 

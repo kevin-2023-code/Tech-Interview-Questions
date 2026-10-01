@@ -48,13 +48,13 @@ There is usually one round, sometimes combined with coding in the same session. 
 
 This is covered in a dedicated domain round, a screen, or a quiz, and it goes to first principles. Examples: bias-variance, logistic regression and cross-entropy derived from maximum likelihood, why L1 regularization produces sparse weights, backpropagation by hand, Bayesian vs frequentist views, perplexity, and Transformer components including SwiGLU gating. Candidates choose a domain (NLP is one option), and questions like comparing tokenization methods or using an LLM to build a recommender follow from that choice. How deep it goes depends on the interviewer, and some need an advanced idea explained in simple terms.
 
-- [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](guides/ml-fundamentals-deep-dive.md)
+- [ML Fundamentals Deep Dive (AI/ML & MLE Roles)](https://trueinterview.io/questions/ml-fundamentals-deep-dive)
 
 ### Project Deep Dive
 
 A résumé walkthrough runs through the domain round, and research roles get a full talk. In one DeepMind research scientist interview, the presentation was the entire evaluation. Interviewers asked why the problem mattered, what alternatives existed and what happens if an assumption breaks. The candidate thought the rejection came from the work looking like benchmark assembly with too little depth in post-training.
 
-- [Research Paper Presentation and Defense (DeepMind RS)](guides/deepmind-rs-paper-presentation-defense.md)
+- [Research Paper Presentation and Defense (DeepMind RS)](https://trueinterview.io/questions/deepmind-rs-paper-presentation-defense)
 
 ### Low-Level Design
 
@@ -67,7 +67,7 @@ Coding rounds often become design questions about data structures, such as an LR
 
 This is usually a standalone screen or round. Themes include conflict, a professional failure, working with people unlike you, and helping others when your own work has higher priority. One scenario specific to this track: a model wins its A/B test, but your manager thinks it hurts long-term user experience.
 
-- [Behavioral Round (Googliness Themes)](guides/bq-round-google-style.md)
+- [Behavioral Round (Googliness Themes)](https://trueinterview.io/questions/bq-round-google-style)
 
 ## What They Don't Test
 

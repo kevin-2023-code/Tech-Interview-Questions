@@ -11,7 +11,7 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 | Questions reported | [51](../coinbase.md) |
 | Free to read here | 8 |
 | Interview-process guides | 4 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Jun 15, 2026 |
 
 ## How Coinbase interviews
@@ -48,12 +48,6 @@ Live rounds start with a 60-minute screen that fits either two medium problems o
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Hard | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Hiring Manager — Project Deep-Dive + AI Usage BQ](guides/hm-bq-project-deep-dive.md) | ai-collaboration, culture-fit, deep-dive, leadership |
 
 ## Everything else
 

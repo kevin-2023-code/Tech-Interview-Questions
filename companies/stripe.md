@@ -2,7 +2,7 @@
 
 # Stripe interview process, OA & interview questions
 
-**80 questions** reported at Stripe · **3 writeups** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
+**80 questions** reported at Stripe · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Stripe interviews & the free questions](stripe/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (55% of 80) |
 | Difficulty (easy / medium / hard) | 13 / 55 / 12 |
 | Free to practise | [5](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
 
 <sub>Counted from the 80 questions reported at Stripe. 53 of them carry a sighting date; the other 27 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -108,12 +108,10 @@ The 8 questions to open first if you are preparing for Stripe, ranked by **the m
 
 ## Guides & writeups
 
-**3 writeups** filed under Stripe in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Stripe in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral-2) | deep-dive, why-company |
-| [Show Senior Engineering Leadership Through a Past Project](https://trueinterview.io/study/show-senior-engineering-leadership-through-a-past-project) | — |
 | [Stripe Interview Process & Questions](https://trueinterview.io/study/stripe-interview-process) | — |
 
 ## Interview reports

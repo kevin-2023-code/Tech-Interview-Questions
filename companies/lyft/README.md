@@ -11,7 +11,7 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 | Questions reported | [32](../lyft.md) |
 | Free to read here | 9 |
 | Interview-process guides | 1 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
 
 ## How Lyft interviews
@@ -47,13 +47,6 @@ Lyft's loop rewards a different reflex than a pure algorithm gauntlet: the round
 | [Web Crawler with Communication Constraint](../../questions/system-design/web-crawler-with-communication-constraint/README.md) | System Design | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/e29b9e99-7444-4764-b397-88d7aab21f3a) |
 | [Find All Shortest Paths in Word Ladder](../../questions/algorithm/find-all-shortest-paths-in-word-ladder/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/598ffed4-56aa-44e6-8efa-e18db21262d3) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Commuter Coupon Conditional Probability](guides/ds-commuter-coupon-probability.md) | math-reasoning, probability |
-| [Project, Conflict, Failure, and DEI](guides/behavioral-project-conflict-and-dei.md) | — |
 
 ## Everything else
 

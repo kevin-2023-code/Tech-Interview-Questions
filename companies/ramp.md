@@ -2,7 +2,7 @@
 
 # Ramp interview process, OA & interview questions
 
-**27 questions** reported at Ramp · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
+**27 questions** reported at Ramp · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Ramp interviews & the free questions](ramp/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (56% of 27) |
 | Difficulty (easy / medium / hard) | 4 / 20 / 3 |
 | Free to practise | [9](../free/README.md) |
-| Guides & writeups | 2 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 27 questions reported at Ramp. 20 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -101,11 +101,10 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 
 ## Guides & writeups
 
-**2 writeups** filed under Ramp in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Ramp in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Async Video Behavioral Screen](https://trueinterview.io/study/video-interview-behavioral) | ai-collaboration, why-company |
 | [Ramp Interview Process & Questions](https://trueinterview.io/study/ramp-interview-process) | — |
 
 ---

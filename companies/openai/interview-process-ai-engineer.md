@@ -59,7 +59,7 @@ At least one round with no model content at all. The reported prompts are engine
 
 One round, sometimes folded into the hiring manager conversation. Motivation and safety views are treated as substantive content, not warm-up, and candidates report being pushed into concrete hypotheticals about deploying systems they consider unsafe. Recruiters for this track explicitly flag behavioral preparation as critical.
 
-- [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md)
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
 - Recruiter / HR Screen
 
 ## What They Don't Test

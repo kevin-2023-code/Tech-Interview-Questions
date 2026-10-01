@@ -62,7 +62,7 @@ A distinct band of rounds hands you the company's own artifacts to work inside: 
 
 Two bars apply. At the screen it is short and factual — proudest project, its obstacles, the stack you chose and why, motivation — yet a rejection came out of exactly that conversation. At senior and staff level a dedicated round probes cross-team conflict you drove to resolution, an unpopular call you defended, and a late requirements pivot you absorbed without derailing delivery. The take-home rewards the same skill in writing: an English summary of an unfamiliar codebase is graded before any code.
 
-- [Behavioral and Project Deep-Dive](guides/behavioral-and-project-deep-dive.md)
+- [Behavioral and Project Deep-Dive](https://trueinterview.io/questions/behavioral-and-project-deep-dive)
 - [Understand Code Functionality](https://trueinterview.io/questions/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7)
 
 ## What They Don't Test

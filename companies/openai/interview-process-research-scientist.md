@@ -51,22 +51,22 @@ Tested through implementation and derivation rather than discussion. Candidates 
 The probability and decoding-behavior round is where this track separates from engineering loops. The recurring shape is a random completion time and a policy over it: bound the tail, design a restart schedule, prove how much it improves over a single-threshold baseline, then extend to variable restart times. Adjacent prompts cover post-training methods — instruction tuning, preference optimization, reward model design, data quality and alignment cost — and experiment design under a tight budget, including deriving a theoretical account of an empirical effect and regularizing it away.
 
 - [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f)
-- [LLM Inference Timeout and Restart Strategy](guides/llm-inference-timeout-and-restart-strategy.md)
+- [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/questions/llm-inference-timeout-and-restart-strategy)
 - [Reproduce Double Descent in Linear Regression](https://trueinterview.io/questions/a5c37bda-f1a1-528d-b6aa-0968b57e250a)
 
 ### Project Deep Dive
 
 The 45-minute research presentation plus the researcher conversations that follow are a single graded competency. Interviewers are practitioners in the same area and go straight at the choices: why this hypothesis, why this baseline, what the negative results were, what you would run next. A slide-based deep dive on a past project appears in some loops as a separate session with the same standard — the narrative is not the point, the defense is.
 
-- [Technical Deep Dive (slide-based)](guides/technical-deep-dive.md)
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
 - [ML Coding Interview: Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f)
 
 ### Behavioral and Leadership
 
 Lighter than on engineering tracks but not absent. Motivation, reasons for leaving, views on AGI and safety, and concrete hypotheticals about what you would do if a system you considered unsafe were being launched. Answers are expected to be personal and specific; a diplomatic non-answer registers as a gap.
 
-- [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md)
-- [Recruiter / HR Screen](../robinhood/guides/recruiter-hr-screen.md)
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
 ## What They Don't Test
 

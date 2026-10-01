@@ -64,7 +64,7 @@ The case hour is the round candidates are least ready for. Its comprehension for
 
 A graded hour, themed rather than free-form. Bring at least three stories that survive four layers of follow-up, each with a measurable result, including one about conflict with a person and one about ambiguity or shifting requirements. Interviewers who type continuously and offer nothing back are not disengaged; keep expanding with specifics until stopped.
 
-- [Power Day Behavioral](guides/power-day-behavioral.md)
+- [Power Day Behavioral](https://trueinterview.io/questions/power-day-behavioral)
 
 ## What They Don't Test
 

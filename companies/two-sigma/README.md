@@ -11,7 +11,7 @@ How Two Sigma interviews, and the questions candidates reported there. Free ques
 | Questions reported | [24](../two-sigma.md) |
 | Free to read here | 3 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
 
 ## How Two Sigma interviews
@@ -43,14 +43,6 @@ Two Sigma runs one of the most implementation-heavy loops in quantitative financ
 | [Linear Interpolation](../../questions/algorithm/qr-oa-linear-interpolator/README.md) | Algorithm | Medium | Online assessment | May 2026 | [Solve](https://trueinterview.io/questions/qr-oa-linear-interpolator) |
 | [IPO Share Allocation](../../questions/algorithm/swe-oa-ipo-share-allocation/README.md) | Algorithm | Hard | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [GenAI Quant SWE Manager Deep Dive](guides/genai-quant-swe-manager-deep-dive.md) | agentic-workflow, evaluation, llm, lora, technical-deep-dive |
-| [QR Data Analysis Prediction Case](guides/qr-data-analysis-prediction-case.md) | data-analysis, experiment-design, feature-engineering, linear-regression, open-ended |
-| [QR Statistics / Domain Knowledge Oral](guides/qr-statistics-domain-oral.md) | expected-value, linear-algebra, linear-regression, math-reasoning, probability |
 
 ## Everything else
 

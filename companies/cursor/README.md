@@ -11,7 +11,7 @@ How Cursor interviews, and the questions candidates reported there. Free questio
 | Questions reported | [2](../cursor.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Apr 07, 2026 |
 
 ## How Cursor interviews
@@ -26,12 +26,6 @@ No written process guide yet. [The loop, as reported](../cursor.md#the-loop-as-r
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Hash a Repository with a Merkle Tree and Find Changed Files](../../questions/system-design/hash-a-repository-with-a-merkle-tree-and-find-changed-files/README.md) | System Design | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) |
 | [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Connect a Project Deep Dive to Engineering Career Decisions](guides/connect-a-project-deep-dive-to-engineering-career-decisions.md) | — |
 
 ## Everything else
 

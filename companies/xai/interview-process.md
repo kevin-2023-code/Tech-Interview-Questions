@@ -71,8 +71,8 @@ xAI explicitly permits and expects AI tooling on its project assessment, but the
 
 There is no dedicated culture round; behavioral signal is collected inside the screens, where a compelling most-challenging-project story and a specific, credible reason for wanting xAI often decide whether the loop continues at all.
 
-- [Most Challenging Project + Why xAI](guides/most-challenging-project-why-xai.md)
-- [Process vs Thread (Verbal CS Fundamentals)](guides/process-vs-thread-verbal.md)
+- [Most Challenging Project + Why xAI](https://trueinterview.io/questions/most-challenging-project-why-xai)
+- [Process vs Thread (Verbal CS Fundamentals)](https://trueinterview.io/questions/process-vs-thread-verbal)
 
 ## How to Prepare
 

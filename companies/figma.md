@@ -2,7 +2,7 @@
 
 # Figma interview process, OA & interview questions
 
-**19 questions** reported at Figma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at Figma · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Figma interviews & the free questions](figma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (42% of 19) |
 | Difficulty (easy / medium / hard) | 2 / 14 / 3 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 19 questions reported at Figma. 15 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -100,13 +100,11 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 
 ## Guides & writeups
 
-**3 writeups** filed under Figma in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Figma in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Deep Dive — What Happens When You Access a URL](https://trueinterview.io/study/deep-dive-url-request-lifecycle) | cs-fundamentals, http, networking, open-ended |
 | [Figma Interview Process & Questions](https://trueinterview.io/study/figma-interview-process) | — |
-| [Hiring Manager Behavioral](https://trueinterview.io/study/hiring-manager-behavioral) | conflict, deep-dive, ownership, presentation, project-retro |
 
 ---
 

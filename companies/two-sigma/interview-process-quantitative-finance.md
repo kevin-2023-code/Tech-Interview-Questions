@@ -48,7 +48,7 @@ The design work on this track is object-level, not infrastructure-level. Intervi
 
 At least one full round is statistics and quantitative domain knowledge with no coding, and it is graded at derivation depth. Candidates are asked not for definitions but for constructions: exhibit variables that attain the extreme correlation, generalize the bound to n variables, write the omitted-variable bias term in matrix form, explain when regressing y on x and x on y give equal coefficients. Reports consistently note the emphasis is traditional statistics and linear models rather than modern machine learning. PhD candidates additionally get their own field probed from unexpected angles rather than by textbook recall.
 
-- [QR Statistics / Domain Knowledge Oral](guides/qr-statistics-domain-oral.md)
+- [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral)
 - [QR OA — Efficient Univariate OLS Regression](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols)
 - [QR OA — NYC Temperature Regression](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression)
 
@@ -56,8 +56,8 @@ At least one full round is statistics and quantitative domain knowledge with no 
 
 Manager and hiring-manager rounds go after the engineering decisions inside your own work, not a narrative of it. The reported probes are scope, stack, why a scaling choice was made, what the constraint was, and what was traded away. High-level familiarity with a technology reads as thin; the candidates who report these rounds going badly are the ones who had concepts but not the numbers behind their own systems.
 
-- [GenAI Quant SWE Manager Deep Dive](guides/genai-quant-swe-manager-deep-dive.md)
-- [QR Data Analysis Prediction Case](guides/qr-data-analysis-prediction-case.md)
+- [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive)
+- [QR Data Analysis Prediction Case](https://trueinterview.io/questions/qr-data-analysis-prediction-case)
 
 ## What They Don't Test
 

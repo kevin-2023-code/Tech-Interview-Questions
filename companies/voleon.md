@@ -2,13 +2,13 @@
 
 # Voleon interview process, OA & interview questions
 
-**7 questions** reported at Voleon · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/voleon), judged server-side.
+**7 questions** reported at Voleon. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/voleon), judged server-side.
 
 [📖 How Voleon interviews & the free questions](voleon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📈 [Quant trading & hedge funds](../company-types/quant-trading.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-voleon)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-voleon)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 7) |
 | Difficulty (easy / medium / hard) | 0 / 3 / 4 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 3 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 7 questions reported at Voleon. 3 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -82,16 +82,6 @@ The 7 questions to open first if you are preparing for Voleon, ranked by **the m
 | **7** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Guides & writeups
-
-**3 writeups** filed under Voleon in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Bound R-Squared for Individual and Combined OLS Regressions](https://trueinterview.io/study/bound-r-squared-for-individual-and-combined-ols-regressions) | — |
-| [Reason About Train and Test Loss Under Regularization and More Data](https://trueinterview.io/study/reason-about-train-and-test-loss-under-regularization-and-more-data) | — |
-| [Row and Column Sums: Square Matrices and Nilpotence](https://trueinterview.io/study/row-and-column-sums-square-matrices-and-nilpotence) | — |
 
 ---
 

@@ -11,7 +11,7 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 | Questions reported | [130](../microsoft.md) |
 | Free to read here | 18 |
 | Interview-process guides | 5 |
-| Other guides | 8 |
+| Other guides | 0 |
 | Most recent sighting | Sep 10, 2026 |
 
 ## How Microsoft interviews
@@ -60,19 +60,6 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 | [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Adapt When Project Requirements Change Midway](guides/adapt-when-project-requirements-change-midway.md) | — |
-| [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md) | ai-collaboration, conflict, culture-fit, leadership, star |
-| [Explain Platform Evolution, Ownership, and Career Motivation](guides/explain-platform-evolution-ownership-and-career-motivation.md) | — |
-| [Object-Oriented Design Round](guides/object-oriented-design-round.md) | object-design, ood, oop-design |
-| [Project Deep Dive](guides/project-deep-dive-2.md) | deep-dive, impact, leadership |
-| [Resolve Technical Disagreement and Work Across Different Styles](guides/resolve-technical-disagreement-and-work-across-different-styles.md) | — |
-| [Transformer Roofline + FP32→FP16 Drill](guides/transformer-roofline-fp-precision.md) | arithmetic-intensity, gpu, kernel, numerical-stability, transformer |
-| [Use AI to Reduce Repetitive Pipeline Development Work](guides/use-ai-to-reduce-repetitive-pipeline-development-work.md) | — |
 
 ## Everything else
 

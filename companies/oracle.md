@@ -2,7 +2,7 @@
 
 # Oracle interview process, OA & interview questions
 
-**81 questions** reported at Oracle · **7 writeups** · **17 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
+**81 questions** reported at Oracle · **1 writeup** · **17 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Oracle interviews & the free questions](oracle/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 81) |
 | Difficulty (easy / medium / hard) | 15 / 55 / 11 |
 | Free to practise | [12](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 1 |
 | Interview reports on the board | 17 in this snapshot |
 
 <sub>Counted from the 81 questions reported at Oracle. 48 of them carry a sighting date; the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -112,17 +112,11 @@ The 8 questions to open first if you are preparing for Oracle, ranked by **the m
 
 ## Guides & writeups
 
-**7 writeups** filed under Oracle in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Oracle in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/study/behavioral-bq-bar-raiser) | ambiguity, bq, conflict, deep-dive, leadership |
-| [Data-Center Camera Access Incident Response](https://trueinterview.io/study/data-center-camera-access-incident-response) | domain-knowledge, infra, security |
-| [Evaluate Subjective, Nondeterministic Agent Outputs](https://trueinterview.io/study/evaluate-subjective-agent-outputs) | deep-dive, evaluation, llm-agent, ml-knowledge |
 | [Oracle Interview Process & Questions](https://trueinterview.io/study/oracle-interview-process) | — |
-| [Resume / Project Deep Dive (HM or Tech Screen Opener)](https://trueinterview.io/study/resume-project-deep-dive) | deep-dive, ownership |
-| [Troubleshoot a Frontend Failure in a Client-Server Application](https://trueinterview.io/study/troubleshoot-a-frontend-failure-in-a-client-server-application) | — |
-| [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/study/verbal-java-cs-fundamentals) | cs-fundamentals, domain-knowledge, networking, operating-systems, verbal |
 
 ## Interview reports
 

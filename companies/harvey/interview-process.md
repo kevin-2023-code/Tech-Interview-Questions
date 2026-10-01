@@ -67,7 +67,7 @@ Harvey's practical rounds are miniature systems: start from the methods and thei
 
 Values questions are asked one value at a time and pushed for specifics, and the project deep dive is scored on the same axis: did you decide, keep it simple, and carry it to done. Bring stories where you owned the call, including ones that went badly.
 
-- [Harvey Values / Behavioral](guides/harvey-values-behavioral.md)
+- [Harvey Values / Behavioral](https://trueinterview.io/questions/harvey-values-behavioral)
 
 ## How to Prepare
 

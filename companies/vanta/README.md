@@ -11,7 +11,7 @@ How Vanta interviews, and the questions candidates reported there. Free question
 | Questions reported | [13](../vanta.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Jul 16, 2026 |
 
 ## How Vanta interviews
@@ -51,12 +51,6 @@ The screen runs about 45 to 60 minutes in a shared editor, and it is almost alwa
 | [Word Pattern / Meta-Pattern Match (Backtracking)](../../questions/algorithm/word-pattern-meta-match/README.md) | Algorithm | Medium | Phone screen | Dec 2024 | [Solve](https://trueinterview.io/questions/word-pattern-meta-match) |
 | [Find All Dependencies](../../questions/algorithm/find-all-dependencies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/13cba32d-7517-469b-965e-8c140232c558) |
 | [Implement Unix uniq](../../questions/algorithm/implement-unix-uniq/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Principles & Leadership Behavioral Rounds](guides/principles-and-leadership-bq.md) | ambiguity, conflict, leadership, values |
 
 ## Everything else
 

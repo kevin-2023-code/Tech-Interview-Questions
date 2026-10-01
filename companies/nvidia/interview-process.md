@@ -59,10 +59,10 @@ Object-design exercises here reward defining the interface and invariants before
 
 Behavioral assessment is woven into nearly every round rather than isolated in one. Expect integrity scenarios, motivation questions, curiosity checks (the last engineering book you read, a favorite technical blog post), and repeated tests of whether you can explain deep technical work to different audiences.
 
-- [Culture Fit, Motivation, and Learning Habits](guides/culture-fit-motivation-and-learning-habits.md)
-- [Hardware-Adjacent Project Deep Dive](guides/hardware-adjacent-project-deep-dive.md)
-- [GPU and Inference Systems Fundamentals](guides/gpu-and-inference-systems-fundamentals.md)
-- [Deep Learning Fundamentals: Optimization, Drift, Calibration](guides/deep-learning-fundamentals.md)
+- [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits)
+- [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive)
+- [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals)
+- [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals)
 
 ## How to Prepare
 

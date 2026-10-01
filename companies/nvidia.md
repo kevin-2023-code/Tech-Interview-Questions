@@ -2,7 +2,7 @@
 
 # NVIDIA interview process, OA & interview questions
 
-**29 questions** reported at NVIDIA · **7 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at NVIDIA · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How NVIDIA interviews & the free questions](nvidia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
 | Difficulty (easy / medium / hard) | 6 / 15 / 8 |
 | Free to practise | [6](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 29 questions reported at NVIDIA. 17 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -99,14 +99,10 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 
 ## Guides & writeups
 
-**7 writeups** filed under NVIDIA in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under NVIDIA in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/study/culture-fit-motivation-and-learning-habits) | culture-fit, values, why-company |
-| [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/study/deep-learning-fundamentals) | calibration, distribution, ml-knowledge, optimization |
-| [GPU and Inference Systems Fundamentals](https://trueinterview.io/study/gpu-and-inference-systems-fundamentals) | gpu, inference, kernel, matmul, transformer |
-| [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/study/hardware-adjacent-project-deep-dive) | domain-knowledge, gpu, infra, metrics |
 | [NVIDIA Infrastructure Engineer Interview Process](https://trueinterview.io/study/nvidia-infrastructure-engineer-interview-process) | — |
 | [NVIDIA Interview Process & Questions](https://trueinterview.io/study/nvidia-interview-process) | — |
 | [NVIDIA Machine Learning Engineer Interview Process](https://trueinterview.io/study/nvidia-machine-learning-engineer-interview-process) | — |

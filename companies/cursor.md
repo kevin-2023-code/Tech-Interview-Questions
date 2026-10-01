@@ -2,13 +2,13 @@
 
 # Cursor interview process, OA & interview questions
 
-**2 questions** reported at Cursor · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cursor), judged server-side on the algorithm, low-level-design and SQL formats.
+**2 questions** reported at Cursor. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cursor), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Cursor interviews & the free questions](cursor/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-cursor)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-cursor)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [System Design](../formats/system-design.md) (100% of 2) |
 | Difficulty (easy / medium / hard) | 1 / 0 / 1 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 1 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 2 questions reported at Cursor. 2 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -68,14 +68,6 @@ The 2 questions to open first if you are preparing for Cursor, ranked by **the m
 | **2** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) 🆓 | System Design | Hard | — | Apr 07, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Guides & writeups
-
-**1 writeup** filed under Cursor in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Connect a Project Deep Dive to Engineering Career Decisions](https://trueinterview.io/study/connect-a-project-deep-dive-to-engineering-career-decisions) | — |
 
 ---
 

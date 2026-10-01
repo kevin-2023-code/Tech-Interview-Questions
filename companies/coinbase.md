@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**51 questions** reported at Coinbase · **5 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**51 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (49% of 51) |
 | Difficulty (easy / medium / hard) | 11 / 31 / 9 |
 | Free to practise | [8](../free/README.md) |
-| Guides & writeups | 5 |
+| Guides & writeups | 4 |
 | Interview reports on the board | 5 in this snapshot |
 
 <sub>Counted from the 51 questions reported at Coinbase. 25 of them carry a sighting date; the other 26 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -94,7 +94,7 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 
 ## Guides & writeups
 
-**5 writeups** filed under Coinbase in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under Coinbase in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -102,7 +102,6 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 | [Coinbase Interview Process & Questions](https://trueinterview.io/study/coinbase-interview-process) | — |
 | [Coinbase Machine Learning Engineer Interview Process](https://trueinterview.io/study/coinbase-machine-learning-engineer-interview-process) | — |
 | [Coinbase Software Engineer Interview Process](https://trueinterview.io/study/coinbase-software-engineer-interview-process) | — |
-| [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/study/hm-bq-project-deep-dive) | ai-collaboration, culture-fit, deep-dive, leadership |
 
 ## Interview reports
 

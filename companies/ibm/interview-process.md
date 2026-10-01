@@ -44,8 +44,8 @@ IBM coding rounds favor fundamentals applied to realistic data-processing patter
 
 Behavioral evaluation at IBM rewards evidence over polish: concrete ownership, a failure handled well, and the ability to explain a technical system to a non-specialist. Resume and project questions go one level deeper than a summary — expect to defend motivations, decisions, and technology choices on anything you list.
 
-- [Competency and Resume Interview](guides/competency-and-resume-interview.md)
-- [DevSecOps Kubernetes / CI-CD Technical Screen](guides/devsecops-kubernetes-cicd-screen.md)
+- [Competency and Resume Interview](https://trueinterview.io/questions/competency-and-resume-interview)
+- [DevSecOps Kubernetes / CI-CD Technical Screen](https://trueinterview.io/questions/devsecops-kubernetes-cicd-screen)
 
 ## How to Prepare
 

@@ -69,7 +69,7 @@ This track writes production code, so at least one session is a class build rath
 
 At least one full round, plus a behavioral opener inside many screens. The scored dimensions are cross-team influence, mentoring, prioritization under constraint, and initiative on problems nobody assigned you. Feedback in these reports cited discussion that described what was built but not its wider organizational impact — that specific gap contributed to a rejection and to a down-level.
 
-- [Behavioral / BQ Question Pack (Staff & Senior)](guides/behavioral-bq-pack.md)
+- [Behavioral / BQ Question Pack (Staff & Senior)](https://trueinterview.io/questions/behavioral-bq-pack)
 
 ## What They Don't Test
 

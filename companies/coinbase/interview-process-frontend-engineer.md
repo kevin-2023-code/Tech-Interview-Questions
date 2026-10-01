@@ -58,7 +58,7 @@ One verbal round, and because nothing is drawn, your narration is the entire art
 
 One manager conversation, sometimes joined by a separate project deep dive. Expect motivation for the domain, a cross-functional conflict, a mentoring example, and an unusually direct read on level: the project you present is measured against the scope expected at your band, and staff candidates were told when it fell short. Quality varies — one manager screen ran 15 minutes short with questions read off a list — so bring the story fully structured rather than expecting to be drawn out.
 
-- [Hiring Manager — Project Deep-Dive + AI Usage BQ](guides/hm-bq-project-deep-dive.md)
+- [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
 
 ## What They Don't Test
 

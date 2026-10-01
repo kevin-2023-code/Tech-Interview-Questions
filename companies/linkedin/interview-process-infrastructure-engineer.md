@@ -69,7 +69,7 @@ Systems fundamentals are probed directly rather than inferred from your resume: 
 
 The host manager round and the project deep dive are scored, not warm-ups. Scenarios are operational — a production outage colliding with a roadmap commitment, an unpopular technical call you drove, a knowledge transfer you ran when leaving a system behind. At Staff the panel is listening for scope across teams and judgment under production pressure, not a well-narrated single-service story.
 
-- [Behavioral / BQ Question Pack (Staff & Senior)](guides/behavioral-bq-pack.md)
+- [Behavioral / BQ Question Pack (Staff & Senior)](https://trueinterview.io/questions/behavioral-bq-pack)
 
 ## What They Don't Test
 

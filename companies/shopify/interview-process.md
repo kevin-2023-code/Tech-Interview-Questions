@@ -69,9 +69,9 @@ Object-design prompts pair naturally with a long pair-programming session: a 2D 
 
 Shopify's non-coding rounds carry real weight: the Life Story and the technical deep dive are both evaluated conversations. The bank also reflects track-specific rounds for ML and data candidates.
 
-- [Life Story / Values Interview](guides/life-story-values-interview.md)
+- [Life Story / Values Interview](https://trueinterview.io/questions/life-story-values-interview)
 - Project / Technical Deep Dive
-- [ML Modeling Round (Forecasting / Targeting / Fraud)](guides/ml-modeling-round.md)
+- [ML Modeling Round (Forecasting / Targeting / Fraud)](https://trueinterview.io/questions/ml-modeling-round)
 
 ## How to Prepare
 

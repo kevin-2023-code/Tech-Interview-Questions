@@ -70,7 +70,7 @@ The AI-assisted set rewards judgment over acceptance: reviewing generated code f
 
 Behavioral conversations reward stories where your individual decision, the trade-off you weighed, and the measurable outcome are unmistakable — especially at scale. Prepare concise versions for conflict, ambiguity, failure, and a project you personally drove end to end.
 
-- [MLE Project / Paper Deep Dive](guides/mle-project-deep-dive.md)
+- [MLE Project / Paper Deep Dive](https://trueinterview.io/questions/mle-project-deep-dive)
 
 ## How to Prepare
 

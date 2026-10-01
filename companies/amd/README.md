@@ -11,7 +11,7 @@ How AMD interviews, and the questions candidates reported there. Free questions 
 | Questions reported | [3](../amd.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
-| Other guides | 7 |
+| Other guides | 0 |
 | Most recent sighting | Sep 14, 2026 |
 
 ## How AMD interviews
@@ -26,18 +26,6 @@ No written process guide yet. [The loop, as reported](../amd.md#the-loop-as-repo
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Find the Largest K Elements with Partitioning](../../questions/algorithm/find-the-largest-k-elements-with-partitioning/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](../../questions/system-design/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code/README.md) | System Design | Medium | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Explain Cache Conflicts and Related Memory-Access Problems](guides/explain-cache-conflicts-and-related-memory-access-problems.md) | — |
-| [Explain GPU Register Spills and Their Performance Cost](guides/explain-gpu-register-spills-and-their-performance-cost.md) | — |
-| [Explain How You Learn New Technical Topics](guides/explain-how-you-learn-new-technical-topics.md) | — |
-| [Explain Skills and Progressive Disclosure in an Agent](guides/explain-skills-and-progressive-disclosure-in-an-agent.md) | — |
-| [Explain the ReAct Agent Loop](guides/explain-the-react-agent-loop.md) | — |
-| [Optimize the Memory Accesses of a GPU Matrix Transpose](guides/optimize-the-memory-accesses-of-a-gpu-matrix-transpose.md) | — |
-| [Use the Roofline Model to Analyze Prefill and Decoding](guides/use-the-roofline-model-to-analyze-prefill-and-decoding.md) | — |
 
 ## Everything else
 

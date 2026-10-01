@@ -50,8 +50,8 @@ One round, and the most misread session on this track. Reports are consistent: t
 ### Behavioral and Leadership
 Two conversations at minimum: a hiring-manager discussion of ownership, past projects and collaboration, and a separate values round. Reported prompts include why this company rather than another lab, a project that failed and what you salvaged, a disagreement where you turned out to be wrong, and whether you would accept a personal cost for a safety gain. Rehearsed enthusiasm is the most reported way to lose it.
 
-- [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md)
-- [Hiring Manager Round — Behavioral & Collaboration](guides/onsite-hm-behavioral.md)
+- [Culture & Behavioral Interview Questions](https://trueinterview.io/questions/culture-behavioral-interview-questions)
+- [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/questions/onsite-hm-behavioral)
 
 ## What They Don't Test
 

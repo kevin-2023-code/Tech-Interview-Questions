@@ -59,9 +59,9 @@ Practical UI builds are graded like design problems. Can you split the work into
 
 At least half of every hour, plus the dedicated Bar Raiser round. The reported advice from the frontend loop is to prepare eight to ten stories, each covering two or three principles, because interviewers credit an answer that covers several principles and then probe the gaps. Expect a question about AI tools as well.
 
-- [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md)
-- [GenAI Usage (How / Failure / Tradeoff)](guides/bq-genai-usage.md)
-- [Work Simulation & Work Style Assessment](guides/work-style-simulation-assessment.md)
+- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
+- [GenAI Usage (How / Failure / Tradeoff)](https://trueinterview.io/questions/bq-genai-usage)
+- [Work Simulation & Work Style Assessment](https://trueinterview.io/questions/work-style-simulation-assessment)
 
 ## What They Don't Test
 

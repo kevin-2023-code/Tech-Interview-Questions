@@ -68,7 +68,7 @@ For full-stack postings, one round proves you understand the whole request path 
 
 Two separately scored conversations, and not a formality: reports include loops where the technical rounds went well and the outcome was still negative. Interviewers ask for a situation, then keep pulling — your exact role, what you decided, the result.
 
-- [Atlassian Values and Management Rounds](guides/atlassian-values-and-management-rounds.md)
+- [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds)
 
 ## What They Don't Test
 

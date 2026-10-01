@@ -11,7 +11,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 | Questions reported | [77](../salesforce.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
-| Other guides | 5 |
+| Other guides | 0 |
 | Most recent sighting | Aug 24, 2026 |
 
 ## How Salesforce interviews
@@ -44,16 +44,6 @@ Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1)
 | [Minimum Knight Moves](../../questions/algorithm/minimum-knight-moves/README.md) | Algorithm | Medium | Online assessment | Mar 2026 | [Solve](https://trueinterview.io/questions/minimum-knight-moves) |
 | [Min Elements to Remove to Make Almost Sorted Array](../../questions/algorithm/min-elements-to-remove-to-make-almost-sorted-array/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [AI / ML Fundamentals Oral Round (AI Engineer)](guides/ai-ml-fundamentals-oral.md) | attention, cs-fundamentals, evaluation, inference, llm, ml-knowledge, rag, transformer |
-| [Cloud / Domain Knowledge Oral Round (GCP / AWS / K8s)](guides/cloud-domain-knowledge-round.md) | cloud, cs-fundamentals, domain-knowledge, infra, verbal |
-| [Hiring Manager + Behavioral Rounds](guides/hm-and-bq-rounds.md) | bq, conflict, leadership, mentorship, ownership, star, why-company |
-| [Project Architecture Deep Dive (AI Engineer / Backend)](guides/project-deep-dive-ai-engineer.md) | circuit-breaker, concurrency, deep-dive, kafka, llm-agent, messaging, ml-knowledge, presentation, race-condition, transactions |
-| [TypeScript Test and Code Refactor](guides/typescript-refactor-oa.md) | code-reading, frontend, fullstack, oop-design, refactoring, typescript |
 
 ## Everything else
 

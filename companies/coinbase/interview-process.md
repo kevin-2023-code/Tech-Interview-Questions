@@ -66,7 +66,7 @@ Coinbase now runs dedicated AI-assisted rounds where you steer an integrated ass
 
 Behavioral conversations here are unusually pointed: expect a project deep-dive with relentless follow-ups on scope, trade-offs, and your individual contribution, plus direct questions about your level, promotion history, and daily AI usage.
 
-- [Hiring Manager — Project Deep-Dive + AI Usage BQ](guides/hm-bq-project-deep-dive.md)
+- [Hiring Manager — Project Deep-Dive + AI Usage BQ](https://trueinterview.io/questions/hm-bq-project-deep-dive)
 
 ## How to Prepare
 

@@ -48,7 +48,7 @@ The centerpiece, and sometimes two separate rounds. The product-facing one asks 
 
 A discussion round with no code, aimed squarely at marketplace modeling rather than textbook theory. Reported prompts include designing a single ranking model with two heads — one predicting conversion, one predicting delivery time — and specifying the shared and task-specific layers, the loss for each head, and how both predictions combine into one ranking score; modeling promotion redemption to trade growth against margin with uplift methods and a cold-start story for new users; and choosing an evaluation metric for an ETA model, defending mean absolute error, and handling long-tail deliveries. Experimentation depth is tested directly in some loops: hypothesis testing, sample sizing, peeking, and multiple-comparison corrections.
 
-- [MLE Onsite: ML Knowledge / Discussion Round](guides/mle-ml-discussion-round.md)
+- [MLE Onsite: ML Knowledge / Discussion Round](https://trueinterview.io/questions/mle-ml-discussion-round)
 
 ### Domain Deep Dive
 
@@ -62,7 +62,7 @@ The analytics-facing sessions in this family are heavier than candidates expect.
 
 One dedicated round, occasionally two, focused almost entirely on friction: a disagreement with a colleague, a mistake you owned, a project that failed. Several loops attach an operational scenario to it — trace why an order arrived wrong across platform, merchant, and courier causes, or propose the process change that prevents a class of complaints. Interviewers want the causal decomposition and the fix you actually shipped, and generic well-formatted stories consistently underperform.
 
-- [Onsite: On-Call Case Investigation](guides/onsite-case-investigation.md)
+- [Onsite: On-Call Case Investigation](https://trueinterview.io/questions/onsite-case-investigation)
 
 ## What They Don't Test
 

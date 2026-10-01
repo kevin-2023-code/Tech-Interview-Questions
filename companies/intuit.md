@@ -2,7 +2,7 @@
 
 # Intuit interview process, OA & interview questions
 
-**18 questions** reported at Intuit · **2 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/intuit), judged server-side on the algorithm, low-level-design and SQL formats.
+**18 questions** reported at Intuit · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/intuit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Intuit interviews & the free questions](intuit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 18) |
 | Difficulty (easy / medium / hard) | 3 / 12 / 3 |
 | Free to practise | [3](../free/README.md) |
-| Guides & writeups | 2 |
+| Guides & writeups | 1 |
 
 <sub>Counted from the 18 questions reported at Intuit. 12 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -93,11 +93,10 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 
 ## Guides & writeups
 
-**2 writeups** filed under Intuit in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Intuit in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [AI Application Conversation](https://trueinterview.io/study/ai-application-conversation) | ai-collaboration, ai-safety, llm, open-ended, prompt-engineering |
 | [Intuit Interview Process & Questions](https://trueinterview.io/study/intuit-interview-process) | — |
 
 ---

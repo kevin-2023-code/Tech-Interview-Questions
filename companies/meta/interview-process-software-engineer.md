@@ -55,8 +55,8 @@ This competency is tested mostly in the assessment and in banking-style coding r
 
 This round decides level as often as it decides hire. Candidates report that answers like "we discussed and agreed" come across as junior, while specifics (you wrote the doc, called the meeting, reset the timeline) come across as senior. The AI thread is concrete: which tools you use, what changed in your workflow, and how you verify output.
 
-- [Traditional Behavioral](guides/traditional-behavioral-meta.md)
-- [AI-Oriented Behavioral](guides/ai-oriented-behavioral.md)
+- [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
+- [AI-Oriented Behavioral](https://trueinterview.io/questions/ai-oriented-behavioral)
 
 ## What They Don't Test
 

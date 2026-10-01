@@ -42,10 +42,10 @@ The rejection Quantitative Finance candidates least see coming arrives after the
 
 This is the bulk of the loop and the bulk of the rejections. Across the assessment battery and every live technical call, the object is fluency: mapping a described process to a known distribution instantly, using symmetry, linearity of expectation and complementary counting rather than enumeration, and speaking the reasoning while you compute. Live rounds reward a fast bounded estimate over a slow exact answer — one candidate was nudged to act more decisively while computing an exact expectation, then rejected for the pause. In market-making segments the grading shifts to calibration: whether your midpoint is defensible, your spread widens when the variable is noisier, and your stake scales with the edge you claim. Naming a framework does not substitute for the reasoning; one candidate invoked the Kelly criterion and was told immediately it did not apply to that game.
 
-- [Beat the Odds: Probability Test](guides/beat-the-odds-probability.md)
-- [Market-Making Interval Estimation Game](guides/market-making-interval-game.md)
-- [Trading Betting Game (EV / Market-Making)](guides/trading-betting-game.md)
-- [Number Logic: Sequence and Pattern Finding](guides/number-logic-sequence.md)
+- [Beat the Odds: Probability Test](https://trueinterview.io/questions/beat-the-odds-probability)
+- [Market-Making Interval Estimation Game](https://trueinterview.io/questions/market-making-interval-game)
+- [Trading Betting Game (EV / Market-Making)](https://trueinterview.io/questions/trading-betting-game)
+- [Number Logic: Sequence and Pattern Finding](https://trueinterview.io/questions/number-logic-sequence)
 
 ### Coding and Algorithm
 
@@ -67,9 +67,9 @@ Candidates on this track also report object-modelling rounds, either as the whol
 
 There is one conventional behavioural conversation and it is short, but temperament is graded continuously everywhere else. The recruiter call wants structured, concise stories and clear English; the assessment's ranking and reaction sections measure whether your judgement degrades under a visible countdown; the live games measure coachability, which interviewers test explicitly by correcting your sizing and watching the next quote. Composure after a visible mistake matters more than the mistake — reports consistently describe candidates who let one bad round contaminate the next.
 
-- [HR / Behavioral Phone Screen](guides/hr-behavioral-screen.md)
-- [Likelihood / Event-Ordering Test](guides/likelihood-ordering-test.md)
-- [Zap-N Reaction and Memory Mini-Games](guides/zap-n-reaction-games.md)
+- [HR / Behavioral Phone Screen](https://trueinterview.io/questions/hr-behavioral-screen)
+- [Likelihood / Event-Ordering Test](https://trueinterview.io/questions/likelihood-ordering-test)
+- [Zap-N Reaction and Memory Mini-Games](https://trueinterview.io/questions/zap-n-reaction-games)
 
 ## What They Don't Test
 

@@ -11,7 +11,7 @@ How Wayfair interviews, and the questions candidates reported there. Free questi
 | Questions reported | [3](../wayfair.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Sep 10, 2026 |
 
 ## How Wayfair interviews
@@ -26,12 +26,6 @@ No written process guide yet. [The loop, as reported](../wayfair.md#the-loop-as-
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Set Bids for Search Advertising from Business Value](../../questions/system-design/set-bids-for-search-advertising-from-business-value/README.md) | System Design | Hard | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) |
 | [Rank Homepage Modules for an E-Commerce Product](../../questions/system-design/rank-homepage-modules-for-an-e-commerce-product/README.md) | System Design | Hard | Onsite / virtual onsite | Sep 2026 | [Solve](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Evaluate Post-Purchase Recommendation Emails](guides/evaluate-post-purchase-recommendation-emails.md) | — |
 
 ## Everything else
 

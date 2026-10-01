@@ -60,7 +60,7 @@ Much of the coding time is component design rather than puzzle solving: a statef
 
 A values conversation and a management conversation, both scored independently of the technical rounds. Interviewers on this track are described as friendly and willing to guide a stalled answer, which candidates sometimes misread as a low bar — the round still asks for a specific situation and then drills into your exact role and the outcome. The management portion adds role expectations and how you operate when requirements shift, which matters on teams where the target moves between quarters.
 
-- [Atlassian Values and Management Rounds](guides/atlassian-values-and-management-rounds.md)
+- [Atlassian Values and Management Rounds](https://trueinterview.io/questions/atlassian-values-and-management-rounds)
 
 ## What They Don't Test
 

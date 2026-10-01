@@ -39,7 +39,7 @@ You are graded on how you reason when you are unsure. Separate your contribution
 
 The round expects derivations, not descriptions. Signal comes from explaining when to pick an optimizer and why, deriving EM, and working out attention's quadratic cost and the memory savings of fused kernels. Candidates who can only summarize a method at a high level are exposed quickly. The rejected candidate whose loop covered theory and attention advised knowing vanilla attention cold and being able to contrast the efficient variants.
 
-- [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](guides/ml-foundations-optimizers-scaling-law-clustering.md)
+- [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/questions/ml-foundations-optimizers-scaling-law-clustering)
 - [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb)
 
 ### ML System Design
@@ -64,7 +64,7 @@ Coding is a gate here. You need optimal, clean solutions to medium problems, oft
 
 The prompts are conventional: your most challenging project, critical feedback, disagreement with peers, and cross-functional work. They are pressed for concrete decisions and outcomes. Research candidates who treat the round as a formality and answer with stories instead of specifics lose ground.
 
-- [Traditional Behavioral](guides/traditional-behavioral-meta.md)
+- [Traditional Behavioral](https://trueinterview.io/questions/traditional-behavioral-meta)
 
 ## What They Don't Test
 

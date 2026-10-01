@@ -72,7 +72,7 @@ Design prompts repeat across loops and stay close to product analytics. Intervie
 
 Behavioral surface area is larger than the round count suggests: a values round, a project deep dive graded like a technical session, and often a separate leadership conversation about scope and organizational impact. Bring one substantial project you can defend for an hour, plus distinct concrete stories for conflict, prioritization, mentoring and trade-offs.
 
-- [Principles & Leadership Behavioral Rounds](guides/principles-and-leadership-bq.md)
+- [Principles & Leadership Behavioral Rounds](https://trueinterview.io/questions/principles-and-leadership-bq)
 - Project Deep Dive
 
 ## How to Prepare

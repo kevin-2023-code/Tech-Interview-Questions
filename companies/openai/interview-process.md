@@ -65,8 +65,8 @@ Even generalist loops can include hands-on model code: finding four or five plan
 
 Behavioral rounds are engineering conversations in disguise: every story invites implementation-level follow-ups, and the "why OpenAI" answer is expected to be personal and specific, often extending into your views on AI safety and AGI. Recruiter screens also carry behavioral weight, so rehearse your career narrative before the first call.
 
-- [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md)
-- [Recruiter / HR Screen](../robinhood/guides/recruiter-hr-screen.md)
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 - [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design)
 
 ## How to Prepare

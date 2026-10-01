@@ -2,7 +2,7 @@
 
 # Apple interview process, OA & interview questions
 
-**116 questions** reported at Apple · **10 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
+**116 questions** reported at Apple · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Apple interviews & the free questions](apple/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 116) |
 | Difficulty (easy / medium / hard) | 27 / 71 / 18 |
 | Free to practise | [21](../free/README.md) |
-| Guides & writeups | 10 |
+| Guides & writeups | 4 |
 
 <sub>Counted from the 116 questions reported at Apple. 85 of them carry a sighting date; the other 31 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -109,20 +109,14 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 
 ## Guides & writeups
 
-**10 writeups** filed under Apple in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**4 writeups** filed under Apple in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Accessories QA Benchmark and Regression Deep Dive](https://trueinterview.io/study/accessories-qa-benchmark-and-regression-deep-dive) | deep-dive, metrics, optimization, presentation |
 | [Apple Infrastructure Engineer Interview Process](https://trueinterview.io/study/apple-infrastructure-engineer-interview-process) | — |
 | [Apple Interview Process & Questions](https://trueinterview.io/study/apple-interview-process) | — |
 | [Apple Machine Learning Engineer Interview Process](https://trueinterview.io/study/apple-machine-learning-engineer-interview-process) | — |
 | [Apple Software Engineer Interview Process](https://trueinterview.io/study/apple-software-engineer-interview-process) | — |
-| [Behavioral Prioritization and Stakeholder Fit](https://trueinterview.io/study/behavioral-prioritization-and-stakeholder-fit) | ambiguity, bq, collaboration, conflict, fit |
-| [ML Fundamentals & Model Debugging Drill](https://trueinterview.io/study/ml-fundamentals-and-model-debugging) | ab-testing, ads, debugging, evaluation, llm |
-| [ML Systems Codebase Deep Dive](https://trueinterview.io/study/ml-systems-codebase-deep-dive) | agentic-workflow, agents, backend, database, deep-dive |
-| [OS Fundamentals & Concurrency Drill](https://trueinterview.io/study/os-fundamentals-and-concurrency) | concurrency, operating-systems, race-condition, threading |
-| [SystemVerilog DV Constraint & Architecture Loop](https://trueinterview.io/study/systemverilog-dv-constraint-and-architecture-loop) | concurrency, cs-fundamentals, probability, testing |
 
 ---
 

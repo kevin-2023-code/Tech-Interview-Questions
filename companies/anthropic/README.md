@@ -11,7 +11,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 | Questions reported | [70](../anthropic.md) |
 | Free to read here | 11 |
 | Interview-process guides | 6 |
-| Other guides | 5 |
+| Other guides | 0 |
 | Most recent sighting | Jun 21, 2026 |
 
 ## How Anthropic interviews
@@ -51,16 +51,6 @@ This guide goes deeper than the short outline on the Anthropic company page: wha
 | [High-Concurrency Prompt Template Deduplication (Array + Hash Map)](../../questions/algorithm/high-concurrency-prompt-template-deduplication-array-hash-map/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/c70ba245-6dae-4c2d-a468-a77101e44faf) |
 | [Efficiency of Distributed Systems](../../questions/system-design/efficiency-of-distributed-systems/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) |
 | [Web Crawler with Asyncio](../../questions/ai-coding/web-crawler-with-asyncio/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Culture & Behavioral Interview Questions](guides/culture-behavioral-interview-questions.md) | ai-safety, critical-thinking, culture, values |
-| [Explain How You Resolved a Professional Conflict](guides/explain-how-you-resolved-a-professional-conflict.md) | — |
-| [Hiring Manager Round — Behavioral & Collaboration](guides/onsite-hm-behavioral.md) | collaboration, impact, leadership, mentorship |
-| [Reason About Delaying an AI Breakthrough Under Uncertain Risk](guides/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk.md) | — |
-| [Recruiter Screen — Why Anthropic Deep-Dive](guides/recruiter-screen-why-anthropic.md) | ai-safety |
 
 ## Everything else
 

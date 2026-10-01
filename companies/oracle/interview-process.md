@@ -60,8 +60,8 @@ Object-oriented and data-structure design is a distinct Oracle round, not an aft
 
 Behavioral rounds probe cross-team collaboration, conflict, delegation, mentoring, and ownership beyond formal scope, and verbal fundamentals quizzes can appear inside otherwise behavioral conversations.
 
-- [Behavioral & Bar Raiser BQ Set](guides/behavioral-bq-bar-raiser.md)
-- [Verbal Java / CS-Fundamentals Quiz](guides/verbal-java-cs-fundamentals.md)
+- [Behavioral & Bar Raiser BQ Set](https://trueinterview.io/questions/behavioral-bq-bar-raiser)
+- [Verbal Java / CS-Fundamentals Quiz](https://trueinterview.io/questions/verbal-java-cs-fundamentals)
 
 ## How to Prepare
 

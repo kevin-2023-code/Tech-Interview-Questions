@@ -11,7 +11,7 @@ How Perplexity interviews, and the questions candidates reported there. Free que
 | Questions reported | [23](../perplexity.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
-| Other guides | 3 |
+| Other guides | 0 |
 | Most recent sighting | Jun 15, 2026 |
 
 ## How Perplexity interviews
@@ -44,14 +44,6 @@ This guide goes deeper than the process outline on the company page: what each P
 | [ToDo List with Task Dependencies](../../questions/object-oriented-programming/todo-list-with-task-dependencies-ood/README.md) | Object Oriented Programming | Medium | Phone screen | May 2026 | [Solve](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Credit Tracker with Expiring Credits](../../questions/object-oriented-programming/credit-tracker-with-expiring-credits/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Behavioral and Project Deep-Dive](guides/behavioral-and-project-deep-dive.md) | collaboration, project-deep-dive, why-company |
-| [Map-Reduce and Blockwise Attention](guides/map-reduce-and-blockwise-attention.md) | attention, map-reduce, numerical-stability, parallelism |
-| [Understand Code Functionality](https://trueinterview.io/study/3fb5e103-da74-4bf4-bc83-9f0f44ab5eb7) | — |
 
 ## Everything else
 

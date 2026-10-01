@@ -45,7 +45,7 @@ Okta coding rounds prefer small systems you implement and then improve under pre
 
 Several Okta rounds are graded through conversation rather than a scored algorithm: project deep dives, an explicit discussion of how AI fits into your engineering practice, and practical sessions where reviewing and debugging existing code matters more than inventing a new one.
 
-- [Hiring-Manager / Project Chat + AI Philosophy](guides/hm-project-and-ai-philosophy.md)
+- [Hiring-Manager / Project Chat + AI Philosophy](https://trueinterview.io/questions/hm-project-and-ai-philosophy)
 
 ## How to Prepare
 

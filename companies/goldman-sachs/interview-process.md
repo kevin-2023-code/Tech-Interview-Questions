@@ -54,8 +54,8 @@ Implementation rounds ask you to build a small, coherent abstraction — a conta
 
 The behavioral bank centers on integrity, accountability, and judgment under pressure — client-policy conflicts, confidential-data mishaps, teammates who miss deadlines — plus communication tests and quantitative reasoning prompts that blur into the technical evaluation. Structure answers around your specific actions and escalation decisions.
 
-- [Hirevue Behavioral Bank (6 Questions)](guides/hirevue-behavioral-six-questions.md)
-- [Quant OA Math / Probability Multiple Choice Bank](guides/quant-oa-math-probability-bank.md)
+- [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/questions/hirevue-behavioral-six-questions)
+- [Quant OA Math / Probability Multiple Choice Bank](https://trueinterview.io/questions/quant-oa-math-probability-bank)
 
 ## How to Prepare
 

@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**52 questions** reported at Atlassian · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**52 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Atlassian interviews & the free questions](atlassian/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (46% of 52) |
 | Difficulty (easy / medium / hard) | 13 / 34 / 5 |
 | Free to practise | [15](../free/README.md) |
-| Guides & writeups | 5 |
+| Guides & writeups | 3 |
 
 <sub>Counted from the 52 questions reported at Atlassian. 33 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -100,15 +100,13 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 
 ## Guides & writeups
 
-**5 writeups** filed under Atlassian in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**3 writeups** filed under Atlassian in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
 | [Atlassian Interview Process & Questions](https://trueinterview.io/study/atlassian-interview-process) | — |
 | [Atlassian Machine Learning Engineer Interview Process](https://trueinterview.io/study/atlassian-machine-learning-engineer-interview-process) | — |
 | [Atlassian Software Engineer Interview Process](https://trueinterview.io/study/atlassian-software-engineer-interview-process) | — |
-| [Atlassian Values and Management Rounds](https://trueinterview.io/study/atlassian-values-and-management-rounds) | ambiguity, culture-fit, leadership, mentorship, values |
-| [Explain a Project Architecture Through a Technical Deep Dive](https://trueinterview.io/study/explain-a-project-architecture-through-a-technical-deep-dive) | — |
 
 ---
 

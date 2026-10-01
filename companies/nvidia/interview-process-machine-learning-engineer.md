@@ -38,8 +38,8 @@ The round that ends the most Machine Learning Engineer candidacies at NVIDIA con
 
 The most reliably present competency, and the one asked with the most persistence — an entire 45-minute screen can be theory with no editor open. Answers are pushed three questions past the definition: not what the bias-variance trade-off is, but how it manifests in the variance of a gradient estimate at different batch sizes, and what that implies about generalization. Naming the assumption behind your answer is what earns signal.
 
-- [Deep Learning Fundamentals: Optimization, Drift, Calibration](guides/deep-learning-fundamentals.md)
-- [GPU and Inference Systems Fundamentals](guides/gpu-and-inference-systems-fundamentals.md)
+- [Deep Learning Fundamentals: Optimization, Drift, Calibration](https://trueinterview.io/questions/deep-learning-fundamentals)
+- [GPU and Inference Systems Fundamentals](https://trueinterview.io/questions/gpu-and-inference-systems-fundamentals)
 
 ### Coding and Algorithm
 
@@ -53,7 +53,7 @@ Two flavors, and candidates prepare the wrong one. The standard algorithm proble
 
 One to three rounds depending on team, and the widest-ranging part of the loop. Interviewers take the largest system on your resume and chase it: the scale you ran, the bottleneck you found, how you proved it was the bottleneck, why each optimization was worth its complexity. The failure mode is knowing what you did but not why the numbers moved.
 
-- [Hardware-Adjacent Project Deep Dive](guides/hardware-adjacent-project-deep-dive.md)
+- [Hardware-Adjacent Project Deep Dive](https://trueinterview.io/questions/hardware-adjacent-project-deep-dive)
 - [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall)
 - [SQL Aggregation Across Country/State/City/Zip Tables](https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a)
 
@@ -68,7 +68,7 @@ Usually one round, sometimes three prompts inside one hour, constrained by hard 
 
 One dedicated round in longer loops, plus motivation questions folded into the first screen. The book and recent-article questions are effectively a curiosity check, and hedging on them reads badly at a company of long-tenured specialists.
 
-- [Culture Fit, Motivation, and Learning Habits](guides/culture-fit-motivation-and-learning-habits.md)
+- [Culture Fit, Motivation, and Learning Habits](https://trueinterview.io/questions/culture-fit-motivation-and-learning-habits)
 
 ## What They Don't Test
 

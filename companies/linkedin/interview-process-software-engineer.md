@@ -63,7 +63,7 @@ One round, deliberately narrower than a generic scaling interview: a single-mach
 
 Two rounds touch this, plus a behavioral opener inside many phone screens. Questions are concrete: a disagreement you resolved, ambiguity you cut through, a quality initiative you drove, a time you unblocked yourself on the critical path. At Staff, scope is the whole test — multi-team influence and measurable organizational impact, not a well-told story about one service.
 
-- [Behavioral / BQ Question Pack (Staff & Senior)](guides/behavioral-bq-pack.md)
+- [Behavioral / BQ Question Pack (Staff & Senior)](https://trueinterview.io/questions/behavioral-bq-pack)
 
 ## What They Don't Test
 

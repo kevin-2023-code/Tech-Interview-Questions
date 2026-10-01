@@ -11,7 +11,7 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 | Questions reported | [28](../reddit.md) |
 | Free to read here | 5 |
 | Interview-process guides | 3 |
-| Other guides | 4 |
+| Other guides | 0 |
 | Most recent sighting | Jun 23, 2026 |
 
 ## How Reddit interviews
@@ -47,15 +47,6 @@ Timelines vary widely. One candidate went from phone screen through four onsite 
 | [Design Online Game Leaderboard](../../questions/system-design/design-a-gaming-leaderboard-service/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) |
 | [Report Chain](../../questions/object-oriented-programming/report-chain/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/report-chain) |
 | [Dictionary Word Transformation Path](../../questions/algorithm/dictionary-word-transformation-path/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/dictionary-word-transformation-path) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Cross-Functional & PM Behavioral](guides/cross-functional-pm-bq.md) | collaboration, conflict, values |
-| [Hiring-Manager Domain Round](guides/hiring-manager-domain-round.md) | ads, deep-dive, fit, leadership, ml-infra |
-| [ML Fundamentals](guides/ml-fundamentals.md) | ml fundamentals |
-| [Product Sense: Improve Reddit Onboarding](guides/product-sense-improve-onboarding.md) | ambiguity, open-ended, product-design, ux |
 
 ## Everything else
 

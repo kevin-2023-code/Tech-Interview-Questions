@@ -2,7 +2,7 @@
 
 # Goldman Sachs interview process, OA & interview questions
 
-**48 questions** reported at Goldman Sachs · **7 writeups** · **11 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
+**48 questions** reported at Goldman Sachs · **1 writeup** · **11 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/goldman-sachs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Goldman Sachs interviews & the free questions](goldman-sachs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (81% of 48) |
 | Difficulty (easy / medium / hard) | 11 / 32 / 5 |
 | Free to practise | [25](../free/README.md) |
-| Guides & writeups | 7 |
+| Guides & writeups | 1 |
 | Interview reports on the board | 11 in this snapshot |
 
 <sub>Counted from the 48 questions reported at Goldman Sachs. 36 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -103,17 +103,11 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 
 ## Guides & writeups
 
-**7 writeups** filed under Goldman Sachs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**1 writeup** filed under Goldman Sachs in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [25 Horses, 5 Lanes Puzzle](https://trueinterview.io/study/horse-race-25) | math-reasoning, verbal |
-| [Explain Recursion to a Non-CS Audience](https://trueinterview.io/study/explain-recursion-no-cs-audience) | bq, cs-fundamentals, verbal |
 | [Goldman Sachs Interview Process & Questions](https://trueinterview.io/study/goldmansachs-interview-process) | — |
-| [Hash Collision: Causes, Resolution, Complexity](https://trueinterview.io/study/hash-collision-fundamentals) | complexity-analysis, cs-fundamentals, hashmap, verbal |
-| [Hirevue Behavioral Bank (6 Questions)](https://trueinterview.io/study/hirevue-behavioral-six-questions) | bq, culture-fit, values |
-| [Math and Probability Multiple Choice Bank](https://trueinterview.io/study/quant-oa-math-probability-bank) | math-reasoning, probability, verbal |
-| [Quant Strat Superday Probability + Fixed Income Drill](https://trueinterview.io/study/quant-strat-superday-probability-fixed-income) | domain-knowledge, math-reasoning, probability, verbal |
 
 ## Interview reports
 

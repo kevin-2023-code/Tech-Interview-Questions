@@ -2,13 +2,13 @@
 
 # Brex interview process, OA & interview questions
 
-**2 questions** reported at Brex · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/brex), judged server-side on the algorithm, low-level-design and SQL formats.
+**2 questions** reported at Brex. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/brex), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Brex interviews & the free questions](brex/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-brex)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-brex)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (50% of 2) |
 | Difficulty (easy / medium / hard) | 2 / 0 / 0 |
 | Free to practise | [2](../free/README.md) |
-| Guides & writeups | 1 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 2 questions reported at Brex. 0 of them carry a sighting date; the other 2 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -59,14 +59,6 @@ The 2 questions to open first if you are preparing for Brex. **This is not a ran
 | **2** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) 🆓 | Object Oriented Programming | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Guides & writeups
-
-**1 writeup** filed under Brex in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what it covers; open the one closest to what you have next.
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Credit Card Service with Points Earning and Redemption System](https://trueinterview.io/study/72fc1b26-d7bc-4260-a442-36f08b50385c) | — |
 
 ---
 

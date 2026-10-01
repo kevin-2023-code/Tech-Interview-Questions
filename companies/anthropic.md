@@ -2,7 +2,7 @@
 
 # Anthropic interview process, OA & interview questions
 
-**70 questions** reported at Anthropic · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
+**70 questions** reported at Anthropic · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Anthropic interviews & the free questions](anthropic/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (29% of 70) |
 | Difficulty (easy / medium / hard) | 9 / 39 / 22 |
 | Free to practise | [11](../free/README.md) |
-| Guides & writeups | 11 |
+| Guides & writeups | 6 |
 
 <sub>Counted from the 70 questions reported at Anthropic. 40 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -93,7 +93,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 
 ## Guides & writeups
 
-**11 writeups** filed under Anthropic in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**6 writeups** filed under Anthropic in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
@@ -103,11 +103,6 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Anthropic Machine Learning Engineer Interview Process](https://trueinterview.io/study/anthropic-machine-learning-engineer-interview-process) | — |
 | [Anthropic Research Scientist Interview Process](https://trueinterview.io/study/anthropic-research-scientist-interview-process) | — |
 | [Anthropic Software Engineer Interview Process](https://trueinterview.io/study/anthropic-software-engineer-interview-process) | — |
-| [Culture & Behavioral Interview Questions](https://trueinterview.io/study/culture-behavioral-interview-questions) | ai-safety, critical-thinking, culture, values |
-| [Explain How You Resolved a Professional Conflict](https://trueinterview.io/study/explain-how-you-resolved-a-professional-conflict) | — |
-| [Hiring Manager Round — Behavioral & Collaboration](https://trueinterview.io/study/onsite-hm-behavioral) | collaboration, impact, leadership, mentorship |
-| [Reason About Delaying an AI Breakthrough Under Uncertain Risk](https://trueinterview.io/study/reason-about-delaying-an-ai-breakthrough-under-uncertain-risk) | — |
-| [Recruiter Screen — Why Anthropic Deep-Dive](https://trueinterview.io/study/recruiter-screen-why-anthropic) | ai-safety |
 
 ---
 

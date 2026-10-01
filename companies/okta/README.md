@@ -11,7 +11,7 @@ How Okta interviews, and the questions candidates reported there. Free questions
 | Questions reported | [10](../okta.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
-| Other guides | 1 |
+| Other guides | 0 |
 | Most recent sighting | Jun 24, 2026 |
 
 ## How Okta interviews
@@ -40,12 +40,6 @@ Okta's loop is more conversational than most security-company processes, and the
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Dependency Cycle Detection (Deadlock)](../../questions/algorithm/dependency-cycle-detection/README.md) | Algorithm | Medium | Phone screen | Nov 2025 | [Solve](https://trueinterview.io/questions/dependency-cycle-detection) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Hiring-Manager / Project Chat + AI Philosophy](guides/hm-project-and-ai-philosophy.md) | ai-collaboration, deep-dive, leadership |
 
 ## Everything else
 

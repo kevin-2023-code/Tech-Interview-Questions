@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**186 questions** reported at Meta · **11 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**186 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 186) |
 | Difficulty (easy / medium / hard) | 29 / 118 / 39 |
 | Free to practise | [23](../free/README.md) |
-| Guides & writeups | 11 |
+| Guides & writeups | 6 |
 
 <sub>Counted from the 186 questions reported at Meta. 88 of them carry a sighting date; the other 98 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -108,21 +108,16 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 ## Guides & writeups
 
-**11 writeups** filed under Meta in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**6 writeups** filed under Meta in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [AI-Oriented Behavioral](https://trueinterview.io/study/ai-oriented-behavioral) | ai-collaboration, bq, star |
 | [Meta Data Scientist Interview Process](https://trueinterview.io/study/meta-data-scientist-interview-process) | — |
 | [Meta Infrastructure Engineer Interview Process](https://trueinterview.io/study/meta-infrastructure-engineer-interview-process) | — |
 | [Meta Interview Process & Questions](https://trueinterview.io/study/meta-interview-process) | — |
 | [Meta Machine Learning Engineer Interview Process](https://trueinterview.io/study/meta-machine-learning-engineer-interview-process) | — |
 | [Meta Research Scientist Interview Process](https://trueinterview.io/study/meta-research-scientist-interview-process) | — |
 | [Meta Software Engineer Interview Process](https://trueinterview.io/study/meta-software-engineer-interview-process) | — |
-| [ML Foundations — Optimizers, Scaling Laws, K-Means and GMM](https://trueinterview.io/study/ml-foundations-optimizers-scaling-law-clustering) | clustering, llm, ml-knowledge, optimization |
-| [Mouse and Cheese / Maze Rewards](https://trueinterview.io/study/mouse-and-cheese-maze-rewards) | backtracking, dfs, dp, grid |
-| [Project Success and Conflict Resolution Experience Discussion](https://trueinterview.io/study/03c246e8-c1a4-47b1-b1bd-5c212e569288) | — |
-| [Traditional Behavioral](https://trueinterview.io/study/traditional-behavioral-meta) | ambiguity, bq, conflict, leadership, star |
 
 ---
 

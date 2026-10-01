@@ -70,8 +70,8 @@ The tensor-debugging round looks like maintenance, not greenfield work: find ali
 
 Behavioral interviewers probe past the polished story: your exact contribution, the alternative you rejected, the decision you would reverse. Senior candidates should prepare for hypothetical judgment scenarios — including tension between policy, efficiency, and safety — where the expected depth of reflection is high.
 
-- [L5+ Behavioral: Policy vs Efficiency Trade-offs & Leadership](guides/behavioral-policy-vs-efficiency-leadership.md)
-- [Project Deep-Dive + ML Fundamentals Discussion](guides/project-deep-dive-ml-fundamentals.md)
+- [L5+ Behavioral: Policy vs Efficiency Trade-offs & Leadership](https://trueinterview.io/questions/behavioral-policy-vs-efficiency-leadership)
+- [Project Deep-Dive + ML Fundamentals Discussion](https://trueinterview.io/questions/project-deep-dive-ml-fundamentals)
 
 ## How to Prepare
 

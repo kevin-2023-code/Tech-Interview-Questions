@@ -11,7 +11,7 @@ How Tesla interviews, and the questions candidates reported there. Free question
 | Questions reported | [35](../tesla.md) |
 | Free to read here | 9 |
 | Interview-process guides | 3 |
-| Other guides | 2 |
+| Other guides | 0 |
 | Most recent sighting | Jun 03, 2026 |
 
 ## How Tesla interviews
@@ -51,13 +51,6 @@ End to end, the process typically takes three to eight weeks, but the operationa
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/dojo-permutation-and-pow) |
 | [Basic Calculator with Operators, Variables, and Functions](../../questions/object-oriented-programming/basic-calculator-extended-language/README.md) | Object Oriented Programming | Hard | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/basic-calculator-extended-language) |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](../../questions/object-oriented-programming/event-bus-emit-subscribe/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/event-bus-emit-subscribe) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Battery Cell Quality Statistical Case](guides/battery-cell-quality-statistical-case.md) | experiment-design, probability |
-| [CV / Sensing ML Fundamentals Oral](guides/cv-sensing-ml-fundamentals-oral.md) | cnn, computer-vision, ml-knowledge |
 
 ## Everything else
 

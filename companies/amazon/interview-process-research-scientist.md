@@ -38,18 +38,18 @@ The rejection path Research Scientist candidates don't see coming at Amazon is t
 
 This spans the phone screen plus one or two loop rounds. Interviewers want the formula-level reason behind a concept, not a summary: why decoupled weight decay changes generalization, how rotation preserves relative position, why log loss beats squared loss for classification. Classical statistics gets the same scrutiny as generative modeling. The reported failure is a specialist who cannot re-derive coursework material, or who struggles to compare two recent embedding models.
 
-- [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](guides/as-ml-breadth-orals.md)
-- [Transformer / Attention Deep-Dive](guides/transformer-attention-deep-dive.md)
-- [LoRA and PEFT Variants](guides/lora-and-peft-variants.md)
-- [RLHF: PPO vs GRPO vs GSPO](guides/rlhf-ppo-grpo-gspo.md)
+- [ML Breadth Orals — Linear / Logistic / Random Forest / Optimizers](https://trueinterview.io/questions/as-ml-breadth-orals)
+- [Transformer / Attention Deep-Dive](https://trueinterview.io/questions/transformer-attention-deep-dive)
+- [LoRA and PEFT Variants](https://trueinterview.io/questions/lora-and-peft-variants)
+- [RLHF: PPO vs GRPO vs GSPO](https://trueinterview.io/questions/rlhf-ppo-grpo-gspo)
 
 ### Project Deep Dive
 
 One full round, plus parts of the screens. It is graded on whether you can defend your choices: your contribution versus your collaborators', the baselines, the limitation you raise before being asked, and for applied teams, how the work was deployed and what effect it had. Candidates who called it their strongest round spent it on their most impactful project.
 
-- [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](guides/asm-phone-screen-deep-dive-bq.md)
-- [Paper Read Round (FAR / Premium Loops)](guides/paper-read-round-far.md)
-- [Science Application (Ambiguous Problem)](guides/science-application-ambiguous-problem.md)
+- [Applied Science Manager Phone Screen — Project Deep-Dive + Leadership BQ](https://trueinterview.io/questions/asm-phone-screen-deep-dive-bq)
+- [Paper Read Round (FAR / Premium Loops)](https://trueinterview.io/questions/paper-read-round-far)
+- [Science Application (Ambiguous Problem)](https://trueinterview.io/questions/science-application-ambiguous-problem)
 
 ### Coding and Algorithm
 
@@ -64,7 +64,7 @@ One or two segments, often squeezed by principle questions: classic mediums, num
 
 Assigned principles in every round, and usually one round that is only behavioral. Stories are questioned for dates, data and your exact role. Several reports say the stories count as much as the technical answers. One candidate ran out of prepared examples by round four and struggled to explain how an individual contributor shapes a roadmap.
 
-- [Leadership Principles Standard Set](guides/bq-leadership-principles-standard-set.md)
+- [Leadership Principles Standard Set](https://trueinterview.io/questions/bq-leadership-principles-standard-set)
 
 ## What They Don't Test
 

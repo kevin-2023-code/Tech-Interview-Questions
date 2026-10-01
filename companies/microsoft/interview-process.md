@@ -78,9 +78,9 @@ Where AI rounds exist, the grade is on judgment: reading generated code critical
 
 Behavioral questions run through nearly every round, sometimes keyed to named competencies such as drive for results, influence for impact, and bias for action. Expect follow-ups until your individual decisions are visible.
 
-- [Behavioral Round (Growth Mindset / Customer Obsession)](guides/behavioral-round.md)
-- [Project Deep Dive](guides/project-deep-dive-2.md)
-- [Object-Oriented Design Round](guides/object-oriented-design-round.md)
+- [Behavioral Round (Growth Mindset / Customer Obsession)](https://trueinterview.io/questions/behavioral-round)
+- [Project Deep Dive](https://trueinterview.io/questions/project-deep-dive-2)
+- [Object-Oriented Design Round](https://trueinterview.io/questions/object-oriented-design-round)
 
 ## How to Prepare
 

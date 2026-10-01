@@ -2,13 +2,13 @@
 
 # Together AI interview process, OA & interview questions
 
-**1 question** reported at Together AI · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/together-ai), judged server-side.
+**1 question** reported at Together AI. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/together-ai), judged server-side.
 
 [📖 How Together AI interviews & the free questions](together-ai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🧠 [AI labs & AI infrastructure](../company-types/ai.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-together-ai)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-together-ai)
 
 ## At a glance
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (100% of 1) |
 | Difficulty (easy / medium / hard) | 0 / 1 / 0 |
 | Free to practise | [1](../free/README.md) |
-| Guides & writeups | 4 |
+| Guides & writeups | 0 |
 
 <sub>Counted from the 1 question reported at Together AI. 1 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
@@ -69,17 +69,6 @@ The 1 question to open first if you are preparing for Together AI, ranked by **t
 | **1** | [Split a Chunked Text Stream into Line-Balanced Parts](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) 🆓 | Algorithm | Medium | — | Sep 15, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
-
-## Guides & writeups
-
-**4 writeups** filed under Together AI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
-
-| Writeup | Topics |
-| :-- | :-- |
-| [Diagnose CPU Performance Problems on a Linux Server](https://trueinterview.io/study/diagnose-cpu-performance-problems-on-a-linux-server) | — |
-| [Diagnose Slow Network Throughput Including Containers](https://trueinterview.io/study/diagnose-slow-network-throughput-including-containers) | — |
-| [Diagnose Storage I/O Performance and Identify the Workload](https://trueinterview.io/study/diagnose-storage-i-o-performance-and-identify-the-workload) | — |
-| [Investigate a Server Saturated by Logging](https://trueinterview.io/study/investigate-a-server-saturated-by-logging) | — |
 
 ---
 

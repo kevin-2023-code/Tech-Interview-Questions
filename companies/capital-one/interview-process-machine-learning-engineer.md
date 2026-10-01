@@ -38,7 +38,7 @@ The decisive round for a Capital One Machine Learning Engineer is not about mach
 
 One screen and part of the deep dive, both breadth-first rather than deep. The questions are fundamentals asked crisply — bias-variance, hyperparameter versus parameter, missing-value strategies, overfitting detection — and the interviewer is checking whether your definitions survive one follow-up, not whether you can derive anything. Tree ensembles come up far more than deep learning. Signal is lost by giving a memorized definition and then failing to say when the tradeoff actually bit you on a project.
 
-- [Model Risk: VaR & Monte Carlo Orals](guides/model-risk-quant-orals.md)
+- [Model Risk: VaR & Monte Carlo Orals](https://trueinterview.io/questions/model-risk-quant-orals)
 
 ### ML System Design
 
@@ -66,8 +66,8 @@ The case hour rewards a candidate who can be a product thinker for sixty minutes
 
 A full graded hour with unusually specific prompts — challenging the status quo, delivering on time after something broke, doing something peers thought was very hard — plus conflict and ambiguity. Quantified outcomes matter; so does showing you drove a decision rather than executed one. The role-play round is graded on the same axis, which makes communication effectively two of the interview-day hours.
 
-- [Power Day Behavioral](guides/power-day-behavioral.md)
-- [AR Panel Talk Project Deep-Dive](guides/ar-panel-talk-deep-dive.md)
+- [Power Day Behavioral](https://trueinterview.io/questions/power-day-behavioral)
+- [AR Panel Talk Project Deep-Dive](https://trueinterview.io/questions/ar-panel-talk-deep-dive)
 
 ## What They Don't Test
 

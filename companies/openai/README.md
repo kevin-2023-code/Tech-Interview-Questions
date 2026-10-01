@@ -11,7 +11,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 | Questions reported | [103](../openai.md) |
 | Free to read here | 11 |
 | Interview-process guides | 7 |
-| Other guides | 4 |
+| Other guides | 0 |
 | Most recent sighting | Aug 22, 2026 |
 
 ## How OpenAI interviews
@@ -51,15 +51,6 @@ The virtual onsite typically runs three to five rounds: another practical coding
 | [Restore Valid IPv4 Addresses](../../questions/algorithm/restore-valid-ipv4-addresses/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4ff5eff-1541-5da7-b251-598d75a41f06) |
 | [Cell Simulation / Conway's Game of Life](../../questions/algorithm/cell-simulation-conway-s-game-of-life/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) |
 | [Toy Language](../../questions/algorithm/toy-language/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) |
-
-## Guides
-
-| Guide | Tags |
-| :-- | :-- |
-| [Engineering Management Fundamentals & Team Operations](guides/engineering-management-fundamentals.md) | leadership, mentorship, ownership |
-| [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md) | culture-fit, why-company |
-| [LLM Inference Timeout and Restart Strategy](guides/llm-inference-timeout-and-restart-strategy.md) | math, new, algorithm-design, math-reasoning, ml-knowledge, probability |
-| [Technical Deep Dive (slide-based)](guides/technical-deep-dive.md) | deep-dive, presentation, project-deep-dive |
 
 ## Everything else
 

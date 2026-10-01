@@ -45,8 +45,8 @@ Two Sigma coding problems wrap standard techniques — heaps, DFS, tree DP, pref
 
 Behavioral evaluation at Two Sigma is folded into hiring-manager conversations and domain orals rather than a standalone HR round. Expect probing questions about your background, how your work maps to the team, and technical judgment under ambiguity — treat these as graded rounds, not chats.
 
-- [GenAI Quant SWE Manager Deep Dive](guides/genai-quant-swe-manager-deep-dive.md)
-- [QR Statistics / Domain Knowledge Oral](guides/qr-statistics-domain-oral.md)
+- [GenAI Quant SWE Manager Deep Dive](https://trueinterview.io/questions/genai-quant-swe-manager-deep-dive)
+- [QR Statistics / Domain Knowledge Oral](https://trueinterview.io/questions/qr-statistics-domain-oral)
 
 ## How to Prepare
 

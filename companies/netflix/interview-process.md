@@ -65,7 +65,7 @@ These look like coding problems but are graded as design: API contracts, invaria
 
 Behavioral rounds are evidence-based conversations mapped to the culture memo: ownership under ambiguity, candid feedback in both directions, pivoting when a project changes underneath you, and defining success when nobody hands you metrics. Expect rapid-fire situational questions rather than one long project walkthrough, and expect the same story probed from multiple angles. Research-flavored tracks add oral-exam style conceptual rounds on top.
 
-- [ML Research Orals (Self-Attention / LoRA / Optimizers)](guides/ml-research-orals.md)
+- [ML Research Orals (Self-Attention / LoRA / Optimizers)](https://trueinterview.io/questions/ml-research-orals)
 
 ## How to Prepare
 

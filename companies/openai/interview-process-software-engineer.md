@@ -58,15 +58,15 @@ One to three rounds. Interviewers push on mechanics, not diagrams: how a queue i
 
 A dedicated 45–60 minute session, sometimes with slides you prepare in advance. Interviewers pick one project and go down to memory management, serialization formats, backpressure and the numbers you measured. Describing what you built is scored as a fail; what earns signal is the alternatives you rejected and why, the edge cases you handled, and what you would change now. A related variant hands you a messy codebase and asks you to critique and restructure it live, graded the same way — every change must be justified.
 
-- [Technical Deep Dive (slide-based)](guides/technical-deep-dive.md)
+- [Technical Deep Dive (slide-based)](https://trueinterview.io/questions/technical-deep-dive)
 - [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring)
 
 ### Behavioral and Leadership
 
 One or two rounds, one usually with the hiring manager. Motivation is the load-bearing question and a generic answer visibly costs candidates; one rejection cited insufficient signal after the candidate answered correctly but never volunteered enthusiasm to a quiet manager. Other recurring prompts: a project that stalled, a conflict with a product manager, critical feedback you acted on, and delivering something quickly without causing an incident. Expect technical follow-ups inside the behavioral round — the stories you tell get drilled.
 
-- [HM BQ — Why OpenAI / AI Safety / AGI](guides/hm-bq-why-openai.md)
-- [Recruiter / HR Screen](../robinhood/guides/recruiter-hr-screen.md)
+- [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/questions/hm-bq-why-openai)
+- [Recruiter / HR Screen](https://trueinterview.io/questions/recruiter-hr-screen)
 
 ## What They Don't Test
 

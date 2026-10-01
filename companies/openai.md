@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**103 questions** reported at OpenAI · **12 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**103 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -20,7 +20,7 @@
 | Most common format | [Algorithm](../formats/algorithm.md) (40% of 103) |
 | Difficulty (easy / medium / hard) | 7 / 54 / 42 |
 | Free to practise | [11](../free/README.md) |
-| Guides & writeups | 12 |
+| Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 
 <sub>Counted from the 103 questions reported at OpenAI. 54 of them carry a sighting date; the other 49 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -107,13 +107,10 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 
 ## Guides & writeups
 
-**12 writeups** filed under OpenAI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
+**7 writeups** filed under OpenAI in the Study section — how a round runs, a problem worked end to end, or notes on the process. The *Topics* column says what each one covers; open the one closest to what you have next.
 
 | Writeup | Topics |
 | :-- | :-- |
-| [Engineering Management Fundamentals & Team Operations](https://trueinterview.io/study/engineering-management-fundamentals) | leadership, mentorship, ownership |
-| [HM BQ — Why OpenAI / AI Safety / AGI](https://trueinterview.io/study/hm-bq-why-openai) | culture-fit, why-company |
-| [LLM Inference Timeout and Restart Strategy](https://trueinterview.io/study/llm-inference-timeout-and-restart-strategy) | math, new, algorithm-design, math-reasoning, ml-knowledge |
 | [OpenAI AI Engineer Interview Process](https://trueinterview.io/study/openai-ai-engineer-interview-process) | — |
 | [OpenAI Frontend Engineer Interview Process](https://trueinterview.io/study/openai-frontend-engineer-interview-process) | — |
 | [OpenAI Infrastructure Engineer Interview Process](https://trueinterview.io/study/openai-infrastructure-engineer-interview-process) | — |
@@ -121,8 +118,6 @@ The 8 questions to open first if you are preparing for OpenAI, ranked by **the m
 | [OpenAI Machine Learning Engineer Interview Process](https://trueinterview.io/study/openai-machine-learning-engineer-interview-process) | — |
 | [OpenAI Research Scientist Interview Process](https://trueinterview.io/study/openai-research-scientist-interview-process) | — |
 | [OpenAI Software Engineer Interview Process](https://trueinterview.io/study/openai-software-engineer-interview-process) | — |
-| [Technical Deep Dive (slide-based)](https://trueinterview.io/study/technical-deep-dive) | deep-dive, presentation, project-deep-dive |
-| [Recruiter / HR Screen](https://trueinterview.io/study/recruiter-hr-screen) | why-company |
 
 ## Interview reports
 

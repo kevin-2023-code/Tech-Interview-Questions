@@ -58,7 +58,7 @@ Pinterest leans on implementation-design more than most loops, sometimes as a fu
 
 One round at mid-level, two at senior, and the only competency that has appeared verbatim in written rejection feedback for this track. Interviewers press on initiative beyond assigned scope, sourcing requirements from stakeholders directly, absorbing critical feedback, and handling a collaborator who does not deliver. What scores is a specific decision, the friction it created, and the measurable outcome.
 
-- [Behavioral: Leadership, Initiative, Project End-to-End](guides/behavioral-leadership-initiative.md)
+- [Behavioral: Leadership, Initiative, Project End-to-End](https://trueinterview.io/questions/behavioral-leadership-initiative)
 
 ## What They Don't Test
 
