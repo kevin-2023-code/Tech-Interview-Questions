@@ -47,7 +47,7 @@ Of the **20 questions in this cut that carry a topic label** (62% of it):
 
 ## Asked here in the last 90 days
 
-**7 sightings** across this cut. Newest first.
+**4 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -55,9 +55,6 @@ Of the **20 questions in this cut that carry a topic label** (62% of it):
 | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | AMD | Algorithm | Sep 14, 2026 |
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | AMD | System Design | Sep 14, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | NVIDIA … | Algorithm | Aug 21, 2026 |
-| [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | NVIDIA | System Design | Jul 03, 2026 |
-| [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | NVIDIA | System Design | Jul 03, 2026 |
-| [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | NVIDIA | System Design | Jul 03, 2026 |
 
 ---
 

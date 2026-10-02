@@ -33,8 +33,8 @@
 | [Affirm](../companies/affirm.md) | 4 | 14 | Aug 12, 2026 | ██ |
 | [Bloomberg](../companies/bloomberg.md) | 4 | 77 | Jul 22, 2026 | ██ |
 | [Capital One](../companies/capital-one.md) | 4 | 51 | Sep 07, 2026 | ██ |
-| [NVIDIA](../companies/nvidia.md) | 4 | 29 | Aug 21, 2026 | ██ |
 | [Snowflake](../companies/snowflake.md) | 4 | 112 | Aug 15, 2026 | ██ |
+| [Airbnb](../companies/airbnb.md) | 3 | 55 | Sep 04, 2026 | █ |
 
 ## Every company
 
@@ -77,7 +77,7 @@
 | [Akuna Capital](../companies/akuna-capital.md) | 30 | 3 | 9 | 1 | Jul 29, 2026 | Algorithm | `arrays` |
 | [Rippling](../companies/rippling.md) | 30 | 1 | 5 | 3 | Sep 18, 2026 | Algorithm | `hashing` |
 | [IBM](../companies/ibm.md) | 29 | 1 | 10 | 2 | Sep 14, 2026 | Algorithm | `greedy` |
-| [NVIDIA](../companies/nvidia.md) | 29 | 3 | 6 | 4 | Aug 21, 2026 | Algorithm | `hashing` |
+| [NVIDIA](../companies/nvidia.md) | 29 | 3 | 6 | 1 | Aug 21, 2026 | Algorithm | `hashing` |
 | [Reddit](../companies/reddit.md) | 28 | 3 | 5 | 0 | Jun 23, 2026 | Algorithm | `graphs` |
 | [Walmart Labs](../companies/walmart-labs.md) | 28 | 1 | 3 | 3 | Jul 07, 2026 | Algorithm | `arrays` |
 | [Instacart](../companies/instacart.md) | 27 | 1 | 4 | 2 | Sep 18, 2026 | Algorithm | `stack` |

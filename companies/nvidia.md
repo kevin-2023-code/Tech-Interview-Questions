@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **29** |
 | Most recent sighting | Aug 21, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
 | Difficulty (easy / medium / hard) | 6 / 15 / 8 |
 | Free to practise | [6](../free/README.md) |
@@ -38,14 +38,11 @@ Which stage each question came from, for the **29 of 29** questions at NVIDIA th
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 21, 2026 |
-| [Data Platform, Pipeline, and ML Operations Fundamentals](https://trueinterview.io/questions/data-platform-pipeline-and-ml-operations-fundamentals) | System Design | Medium | Onsite / virtual onsite | Jul 03, 2026 |
-| [LLM SQL Chatbot Access Control and Query Safety](https://trueinterview.io/questions/llm-sql-chatbot-access-control-and-query-safety) | System Design | Hard | Onsite / virtual onsite | Jul 03, 2026 |
-| [Telemetry Collector and GPU Utilization Dashboard](https://trueinterview.io/questions/telemetry-collector-and-gpu-utilization-dashboard) | System Design | Medium | Onsite / virtual onsite | Jul 03, 2026 |
 
 ## What they ask about
 

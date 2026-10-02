@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**2,935 tracked questions** across **109 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 01, 2026**, and everything on this page is recomputed hourly.
+**2,935 tracked questions** across **109 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 02, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,7 +10,7 @@
 
 ## The last 90 days
 
-**269 sightings** recorded between Jul 03, 2026 → Oct 01, 2026 — 16% of the 1,638 questions in the bank that carry a sighting date at all.
+**266 sightings** recorded between Jul 04, 2026 → Oct 02, 2026 — 16% of the 1,638 questions in the bank that carry a sighting date at all.
 
 ### By format
 
@@ -18,7 +18,7 @@
 | :-- | --: | --: | :-- |
 | [Algorithm](../formats/algorithm.md) | 150 | 56% | ████████████████ |
 | [SQL](../formats/sql.md) | 31 | 12% | ███ |
-| [System Design](../formats/system-design.md) | 56 | 21% | ██████ |
+| [System Design](../formats/system-design.md) | 53 | 20% | ██████ |
 | [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 31 | 12% | ███ |
 
@@ -42,7 +42,7 @@
 | [Stripe](../companies/stripe.md) | 7 | ███ |
 | [Uber](../companies/uber.md) | 7 | ███ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 269 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 266 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -52,7 +52,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
 | [Algorithm](../formats/algorithm.md) | 1,943 | 66% | 150 | 353 | 1,214 | 376 | 1,943 | 267 |
 | [SQL](../formats/sql.md) | 94 | 3% | 31 | 20 | 58 | 16 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 312 | 11% | 56 | 17 | 156 | 139 | 312 | 26 |
+| [System Design](../formats/system-design.md) | 312 | 11% | 53 | 17 | 156 | 139 | 312 | 26 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 4% | 1 | 12 | 68 | 46 | 126 | 10 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 460 | 16% | 31 | 41 | 364 | 55 | 460 | 58 |
 

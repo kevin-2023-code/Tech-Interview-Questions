@@ -95,7 +95,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Akuna Capital](akuna-capital.md) | Quant trading & hedge funds · 200–999 people | 30 | 3 | 1 | Jul 29, 2026 | 9 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 30 | 1 | 3 | Sep 18, 2026 | 5 |
 | [IBM](ibm.md) | IT services & consulting · 10,000+ people | 29 | 1 | 2 | Sep 14, 2026 | 10 |
-| [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 29 | 3 | 4 | Aug 21, 2026 | 6 |
+| [NVIDIA](nvidia.md) | Semiconductors & chips · 10,000+ people | 29 | 3 | 1 | Aug 21, 2026 | 6 |
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 28 | 3 | 0 | Jun 23, 2026 | 5 |
 | [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 28 | 1 | 3 | Jul 07, 2026 | 3 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 27 | 1 | 2 | Sep 18, 2026 | 4 |
