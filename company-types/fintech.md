@@ -47,7 +47,7 @@ Of the **157 questions in this cut that carry a topic label** (57% of it):
 
 ## Asked here in the last 90 days
 
-**13 sightings** across this cut. Newest first.
+**12 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,8 +64,6 @@ Of the **157 questions in this cut that carry a topic label** (57% of it):
 | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Affirm | Algorithm | Aug 01, 2026 |
 | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | Stripe | SQL | Jul 22, 2026 |
 
-<sub>1 more in this window are in the table below.</sub>
-
 ---
 
 **Preparing for one of these?** Open a company page above for its own loop, its rounds and its reports. Everything in the table below opens in a runnable workspace on [TrueInterview](https://trueinterview.io/problems) — judged server-side on the algorithm, low-level-design and SQL formats.
@@ -76,7 +74,7 @@ Of the **157 questions in this cut that carry a topic label** (57% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Hard | 🔥 Sep 18, 2026 |
+| **Ramp** | [Spreadsheet String Concatenation with Dependent Cells](https://trueinterview.io/questions/spreadsheet-string-concatenation-with-dependent-cells) | Hard | 🆕 Sep 18, 2026 |
 | **Stripe** | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Medium | 🆕 Sep 11, 2026 |
 | **Stripe** | [Connect JSON Coordinates Through a Documented Drawing API](https://trueinterview.io/questions/connect-json-coordinates-through-a-documented-drawing-api) | Medium | 🆕 Sep 11, 2026 |
 | **Stripe** | [Financial Account Ledger](https://trueinterview.io/questions/financial-account-ledger-oa) | Hard | 🆕 Sep 11, 2026 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **27** |
 | Most recent sighting | Jul 04, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (63% of 27) |
 | Difficulty (easy / medium / hard) | 9 / 16 / 2 |
 | Free to practise | [5](../free/README.md) |
@@ -38,11 +38,7 @@ Which stage each question came from, for the **27 of 27** questions at SoFi that
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Reachable Nodes in a Directed Graph](https://trueinterview.io/questions/reachable-nodes-in-directed-graph) | Algorithm | Medium | Onsite / virtual onsite | Jul 04, 2026 |
+**Nothing has been reported at SoFi since Jul 04, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

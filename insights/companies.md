@@ -20,12 +20,12 @@
 | [Citadel](../companies/citadel.md) | 8 | 61 | Sep 18, 2026 | ███ |
 | [Figma](../companies/figma.md) | 8 | 19 | Aug 12, 2026 | ███ |
 | [DoorDash](../companies/doordash.md) | 7 | 71 | Sep 16, 2026 | ███ |
-| [Meta](../companies/meta.md) | 7 | 186 | Aug 16, 2026 | ███ |
 | [Oracle](../companies/oracle.md) | 7 | 81 | Sep 11, 2026 | ███ |
 | [Point72](../companies/point72.md) | 7 | 21 | Jul 29, 2026 | ███ |
 | [Stripe](../companies/stripe.md) | 7 | 80 | Sep 11, 2026 | ███ |
 | [Uber](../companies/uber.md) | 7 | 176 | Sep 09, 2026 | ███ |
 | [Harvey](../companies/harvey.md) | 6 | 17 | Sep 15, 2026 | ██ |
+| [Meta](../companies/meta.md) | 6 | 186 | Aug 16, 2026 | ██ |
 | [OpenAI](../companies/openai.md) | 6 | 103 | Aug 22, 2026 | ██ |
 | [Databricks](../companies/databricks.md) | 5 | 67 | Sep 15, 2026 | ██ |
 | [Pinterest](../companies/pinterest.md) | 5 | 77 | Aug 26, 2026 | ██ |
@@ -42,7 +42,7 @@
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
 | [Amazon](../companies/amazon.md) | 252 | 5 | 29 | 40 | Sep 20, 2026 | Algorithm | `hashing` |
 | [Google](../companies/google.md) | 198 | 3 | 22 | 19 | Sep 18, 2026 | Algorithm | `graphs` |
-| [Meta](../companies/meta.md) | 186 | 6 | 23 | 7 | Aug 16, 2026 | Algorithm | `graphs` |
+| [Meta](../companies/meta.md) | 186 | 6 | 23 | 6 | Aug 16, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 176 | 5 | 23 | 16 | Sep 06, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 176 | 3 | 36 | 7 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 130 | 5 | 18 | 20 | Sep 10, 2026 | Algorithm | `graphs` |
@@ -82,7 +82,7 @@
 | [Walmart Labs](../companies/walmart-labs.md) | 28 | 1 | 3 | 3 | Jul 07, 2026 | Algorithm | `arrays` |
 | [Instacart](../companies/instacart.md) | 27 | 1 | 4 | 2 | Sep 18, 2026 | Algorithm | `stack` |
 | [Ramp](../companies/ramp.md) | 27 | 1 | 9 | 1 | Sep 18, 2026 | Algorithm | `strings` |
-| [SoFi](../companies/sofi.md) | 27 | 1 | 5 | 1 | Jul 04, 2026 | Algorithm | `hashing` |
+| [SoFi](../companies/sofi.md) | 27 | 1 | 5 | 0 | Jul 04, 2026 | Algorithm | `hashing` |
 | [Verkada](../companies/verkada.md) | 27 | 1 | 4 | 0 | Jun 17, 2026 | Algorithm | `arrays` |
 | [Datadog](../companies/datadog.md) | 26 | 1 | 4 | 0 | Apr 10, 2026 | Algorithm | `hashing` |
 | [Cisco](../companies/cisco.md) | 25 | 1 | 17 | 0 | Jun 16, 2026 | Algorithm | `matrix` |

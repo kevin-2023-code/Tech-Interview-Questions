@@ -10,7 +10,7 @@ What the bank is *about*, counted over the **1,915 questions that carry a topic 
 | :-- | --: | --: | --: | --: | --: | --: | :-- |
 | `hashing` | 330 | 17% | 35 | 83 | 205 | 42 | [Amazon](../companies/amazon.md), [Apple](../companies/apple.md), [Google](../companies/google.md) |
 | `arrays` | 295 | 15% | 27 | 79 | 185 | 31 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [Google](../companies/google.md) |
-| `graphs` | 278 | 15% | 26 | 16 | 187 | 75 | [Uber](../companies/uber.md), [Google](../companies/google.md), [Amazon](../companies/amazon.md) |
+| `graphs` | 278 | 15% | 25 | 16 | 187 | 75 | [Uber](../companies/uber.md), [Google](../companies/google.md), [Amazon](../companies/amazon.md) |
 | `strings` | 267 | 14% | 25 | 71 | 157 | 39 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
 | `greedy` | 185 | 10% | 13 | 15 | 125 | 45 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [Uber](../companies/uber.md) |
 | `dynamic-programming` | 151 | 8% | 15 | 9 | 84 | 58 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |

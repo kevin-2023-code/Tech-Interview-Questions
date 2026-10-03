@@ -60,7 +60,7 @@ The sector and size of an employer are facts about the company rather than about
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 252 | 5 | 40 | Sep 20, 2026 | 29 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 198 | 3 | 19 | Sep 18, 2026 | 22 |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 186 | 6 | 7 | Aug 16, 2026 | 23 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 186 | 6 | 6 | Aug 16, 2026 | 23 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 176 | 5 | 16 | Sep 06, 2026 | 23 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 176 | 3 | 7 | Sep 09, 2026 | 36 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 130 | 5 | 20 | Sep 10, 2026 | 18 |
@@ -100,7 +100,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 28 | 1 | 3 | Jul 07, 2026 | 3 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 27 | 1 | 2 | Sep 18, 2026 | 4 |
 | [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 1 | 1 | Sep 18, 2026 | 9 |
-| [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 1 | 1 | Jul 04, 2026 | 5 |
+| [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 1 | 0 | Jul 04, 2026 | 5 |
 | [Verkada](verkada.md) | Cybersecurity · 1,000–9,999 people | 27 | 1 | 0 | Jun 17, 2026 | 4 |
 | [Datadog](datadog.md) | Developer tools, cloud & data infrastructure · 1,000–9,999 people | 26 | 1 | 0 | Apr 10, 2026 | 4 |
 | [Cisco](cisco.md) | Hardware, devices & networking · 10,000+ people | 25 | 1 | 0 | Jun 16, 2026 | 17 |

@@ -78,4 +78,4 @@ The 1 question to open first if you are preparing for Houzz, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label) | Algorithm | Easy | 🔥 Sep 18, 2026 |
+| [Convert a Column Number to an Excel-Style Label](https://trueinterview.io/questions/convert-a-column-number-to-an-excel-style-label) | Algorithm | Easy | 🆕 Sep 18, 2026 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **186** |
 | Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 7 |
+| Reported in the last 90 days | 6 |
 | Most common format | [Algorithm](../formats/algorithm.md) (67% of 186) |
 | Difficulty (easy / medium / hard) | 29 / 118 / 39 |
 | Free to practise | [23](../free/README.md) |
@@ -39,7 +39,7 @@ Which stage each question came from, for the **186 of 186** questions at Meta th
 
 ## Asked here in the last 90 days
 
-**7 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -49,7 +49,6 @@ Which stage each question came from, for the **186 of 186** questions at Meta th
 | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | Phone screen | Jul 22, 2026 |
 | [Tally Service](https://trueinterview.io/questions/tally-service-concurrent-windowed-counter) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 20, 2026 |
 | [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | Onsite / virtual onsite | Jul 19, 2026 |
-| [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | Online assessment | Jul 04, 2026 |
 
 ## What they ask about
 
