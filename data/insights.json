@@ -633,7 +633,7 @@
       "dated": 14,
       "free": 4,
       "guides": 3,
-      "inLastYear": 13,
+      "inLastYear": 12,
       "inWindow": 0,
       "lastSighting": "2026-06-15",
       "name": "Perplexity",
@@ -763,7 +763,7 @@
       "dated": 12,
       "free": 3,
       "guides": 1,
-      "inLastYear": 10,
+      "inLastYear": 9,
       "inWindow": 0,
       "lastSighting": "2026-06-28",
       "name": "Intuit",
@@ -1486,7 +1486,7 @@
       "questions": 460
     }
   ],
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2913,7 +2913,7 @@
     "futureDated": 0,
     "gradedDifficulty": 2935,
     "guides": 171,
-    "inLastYear": 1501,
+    "inLastYear": 1499,
     "inWindow": 264,
     "labelledTopic": 1915,
     "namingARound": 2935,

@@ -157,7 +157,7 @@ What candidates said happened in the room at Oracle — written up by the people
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Algorithm | Medium | 🆕 Sep 11, 2026 |
 | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | 🆕 Sep 03, 2026 |
 | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | 🆕 Aug 28, 2026 |
-| [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Hard | 🆕 Aug 19, 2026 |
+| [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Hard | Aug 19, 2026 |
 | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | SQL | Medium | Aug 13, 2026 |
 | [Two-Value Exchange Warm-Up](https://trueinterview.io/questions/swap-two-values-without-temp) | Algorithm | Easy | Aug 10, 2026 |
 | [Run-Length String Compression](https://trueinterview.io/questions/run-length-string-compression) | Algorithm | Easy | Aug 10, 2026 |

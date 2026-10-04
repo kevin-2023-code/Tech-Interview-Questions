@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**2,935 tracked questions** across **109 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 03, 2026**, and everything on this page is recomputed hourly.
+**2,935 tracked questions** across **109 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 04, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,7 +10,7 @@
 
 ## The last 90 days
 
-**264 sightings** recorded between Jul 05, 2026 → Oct 03, 2026 — 16% of the 1,638 questions in the bank that carry a sighting date at all.
+**264 sightings** recorded between Jul 06, 2026 → Oct 04, 2026 — 16% of the 1,638 questions in the bank that carry a sighting date at all.
 
 ### By format
 
