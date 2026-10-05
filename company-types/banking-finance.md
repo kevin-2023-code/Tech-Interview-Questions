@@ -32,11 +32,11 @@ Of the **162 questions in this cut that carry a topic label** (75% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 33 | 20% | ████████████ |
+| `arrays` | 34 | 21% | ████████████ |
 | `hashing` | 30 | 19% | ███████████ |
-| `strings` | 26 | 16% | █████████ |
-| `graphs` | 17 | 10% | ██████ |
-| `sorting` | 16 | 10% | ██████ |
+| `strings` | 27 | 17% | ██████████ |
+| `graphs` | 16 | 10% | ██████ |
+| `sorting` | 15 | 9% | █████ |
 | `dynamic-programming` | 13 | 8% | █████ |
 | `greedy` | 13 | 8% | █████ |
 | `backtracking` | 11 | 7% | ████ |
@@ -106,7 +106,6 @@ Of the **162 questions in this cut that carry a topic label** (75% of it):
 | **Capital One** | [Wheat Harvest Optimisation Case](https://trueinterview.io/questions/wheat-harvest-case) | Medium | May 13, 2026 |
 | **Bloomberg** | [Active Users Sliding Window](https://trueinterview.io/questions/active-users-sliding-window) | Medium | May 03, 2026 |
 | **Uber / Amazon / Bloomberg / Meta / Netflix** | [Meeting Rooms](https://trueinterview.io/questions/meeting-rooms-2) | Easy | May 2026 |
-| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | May 2026 |
 | **Capital One** | [Tetris-Style Figure Placement](https://trueinterview.io/questions/tetris-figure-placement) | Medium | Apr 29, 2026 |
 | **Capital One** | [Repeated Leading-Nonzero Subtraction](https://trueinterview.io/questions/repeated-subtraction-zeroing) | Medium | Apr 25, 2026 |
 | **Capital One** | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Easy | Apr 25, 2026 |
@@ -285,6 +284,7 @@ Of the **162 questions in this cut that carry a topic label** (75% of it):
 | **Amazon / Goldman Sachs** | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Medium | — |
 | **Meta / Goldman Sachs** | [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643) | Medium | — |
 | **Capital One** | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Medium | — |
+| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | — |
 | **Stripe / Bloomberg** | [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Medium | — |
 | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Medium | — |
 | **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

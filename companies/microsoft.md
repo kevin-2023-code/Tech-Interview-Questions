@@ -59,12 +59,12 @@ Which stage each question came from, for the **139 of 139** questions at Microso
 
 ## What they ask about
 
-Of the **101 questions at Microsoft that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **102 questions at Microsoft that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
+| `graphs` | 18 | 18% | ████████████ | Aug 16, 2026 |
 | `strings` | 18 | 18% | ████████████ | Aug 30, 2026 |
-| `graphs` | 17 | 17% | ███████████ | Aug 16, 2026 |
 | `hashing` | 17 | 17% | ███████████ | Sep 10, 2026 |
 | `arrays` | 13 | 13% | █████████ | Sep 09, 2026 |
 | `trees` | 10 | 10% | ███████ | Aug 16, 2026 |

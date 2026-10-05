@@ -8,7 +8,7 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [256](../amazon.md) |
+| Questions reported | [255](../amazon.md) |
 | Free to read here | 31 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
@@ -72,7 +72,7 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 
 ## Everything else
 
-- [All 256 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 255 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Amazon question on TrueInterview](https://trueinterview.io/problems/company/amazon).
 
 ---

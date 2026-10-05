@@ -12,42 +12,24 @@
 
 ## Problem
 
-Steve is building a board game in which players trade colored gems for cards. Implement the following three functions:
+Steve is building a board game played with cards, in which participants trade gems of different colors.
 
-```python
-def can_afford(price, gems):
-    pass
+Write an entry point named `solve` that accepts three arguments in this order — `price`, `gems`, and `card_count` — and covers three distinct pieces of logic, reporting the outcome of each one.
 
-def purchase_card(price, gems):
-    pass
+1. **Affordability check.** Using the card's `price` and the player's `gems`, decide whether the card can be paid for. Produce `True` when it can, and `False` when it cannot.
 
-def compute_discount(card_count):
-    pass
-```
+2. **Purchase.** Given the same `price` and `gems`, if the card is affordable, take the appropriate number of gems out of the player's stock and report the player's updated gem counts.
 
-**1. `can_afford`**
+3. **Discounts.** Given `card_count` — a list of integers where element $$i$$ is how many cards of color $$i$$ the player holds — return a list of integers giving the discount for each color.
 
-- Accept the card's price and the player's colored-gem counts.
-- Produce `True` when the available gems are sufficient; otherwise, produce `False`.
+You should also be ready to explain why you picked the data structures you used.
 
-**2. `purchase_card`**
+**Input size and limits**
 
-- Accept the card's price and the player's colored-gem counts.
-- When the card is affordable, remove the required gems and return the resulting gem counts.
+* At most 5 colors.
+* A card can call for as many as 10 gems.
 
-**3. `compute_discount`**
-
-- Accept an integer list containing the player's card counts, with one entry for each color.
-- Return an integer list containing the discount for every color.
-
-Also explain why the selected data structures are suitable.
-
-## Constraints
-
-- There can be as many as 5 colors.
-- A card can require at most 10 gems.
-
-## Sample Input
+Sample Input:
 
 ```plaintext
 price = [1, 1, 1, 0, 2]
@@ -55,7 +37,7 @@ gems = [2, 1, 0, 3, 0]
 card count = [3, 0, 1, 1, 2]
 ```
 
-## Sample Output
+Sample Output:
 
 ```plaintext
 can_afford: True
@@ -63,18 +45,20 @@ updated gems: [1, 0, 0, 3, 0]
 discounts: [1, 0, 0, 0, 1]
 ```
 
-The affordability result is `True` because the supplied gems cover the listed price, and the updated counts show the required gems removed. The discount list is the result expected from the supplied card counts.
+## Examples
 
-### Example
+**Example**
 
-The following example is also part of the prompt:
-
-```plaintext
+```text
 Input:
-0
-1
-print('OK')
+5
+1 1 1 0 2
+2 1 0 3 0
+3 0 1 1 2
 Output:
+can_afford: True
+updated gems: [1, 0, 0, 3, 0]
+discounts: [1, 0, 0, 0, 1]
 ```
 
 ## Hints
@@ -82,21 +66,21 @@ Output:
 <details>
 <summary>Hint 1</summary>
 
-For the affordability check, think of comparing each gem count in the price to the corresponding gem count in the player's stash, if any price count exceeds the stash count, it's unaffordable.
+Break the problem into three independent sub-results: affordability, the gems remaining after purchase, and the discount calculation.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For purchase_card, if the price is affordable, subtract each gem count elementwise from the stash, return the updated stash.
+For affordability compare price against gems, for purchase subtract the price from gems only when affordable, otherwise leave gems unchanged.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-For compute_discount, watch for a bulk discount rule: the discount might be per‑card or a flat reduction based on card_count, the exact formula is given in the problem description.
+Watch the discount logic carefully — it likely depends on card_count and may need clamping so the result never goes negative.
 
 </details>
 

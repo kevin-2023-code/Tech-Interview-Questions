@@ -39,7 +39,7 @@ Of the **140 questions in this cut that carry a topic label** (70% of it):
 | `dynamic-programming` | 15 | 11% | ███████ |
 | `graphs` | 15 | 11% | ███████ |
 | `sorting` | 15 | 11% | ███████ |
-| `strings` | 14 | 10% | ██████ |
+| `strings` | 15 | 11% | ███████ |
 | `binary-search` | 12 | 9% | ██████ |
 | `heap` | 10 | 7% | █████ |
 

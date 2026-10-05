@@ -23,7 +23,7 @@
 | Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
 
-<sub>Counted from the 113 questions reported at Snowflake. 79 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 113 questions reported at Snowflake. 78 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -33,7 +33,7 @@ Which stage each question came from, for the **113 of 113** questions at Snowfla
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 80 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 6 / 57 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 51 | ██████ | [Algorithm](../formats/algorithm.md) (55%) | 4 / 35 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 50 | ██████ | [Algorithm](../formats/algorithm.md) (54%) | 4 / 34 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -54,13 +54,13 @@ Of the **85 questions at Snowflake that carry a topic label** (75% of them — t
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 20 | 24% | ████████████ | Jun 17, 2026 |
-| `backtracking` | 12 | 14% | ███████ | Jun 17, 2026 |
+| `graphs` | 19 | 22% | ████████████ | Jun 17, 2026 |
+| `backtracking` | 12 | 14% | ████████ | Jun 17, 2026 |
 | `trees` | 11 | 13% | ███████ | Jun 24, 2026 |
 | `arrays` | 10 | 12% | ██████ | Jun 24, 2026 |
 | `dynamic-programming` | 10 | 12% | ██████ | Jun 07, 2026 |
-| `greedy` | 9 | 11% | █████ | Jun 17, 2026 |
-| `strings` | 9 | 11% | █████ | Jun 17, 2026 |
+| `greedy` | 9 | 11% | ██████ | Jun 17, 2026 |
+| `strings` | 9 | 11% | ██████ | Jun 17, 2026 |
 | `hashing` | 7 | 8% | ████ | May 30, 2026 |
 | `heap` | 6 | 7% | ████ | Jun 10, 2026 |
 | `binary-search` | 5 | 6% | ███ | May 30, 2026 |
@@ -76,7 +76,7 @@ Every recorded sighting at Snowflake, by the month it was reported in — Jul 20
 | [Aug 2026](../by-month/2026-08.md) | 3 | █████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
 | [Jun 2026](../by-month/2026-06.md) | 14 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 7 | ████████████ |
+| [May 2026](../by-month/2026-05.md) | 6 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 9 | ███████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | █████ |
 | [Feb 2026](../by-month/2026-02.md) | 14 | ████████████████████████ |
@@ -157,7 +157,6 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [DAG Allow / Disallow Propagation](https://trueinterview.io/questions/dag-allow-disallow-letters) | Algorithm | Medium | May 20, 2026 |
 | [Wiki Page Shortest-Click Path](https://trueinterview.io/questions/wiki-page-shortest-path) | Algorithm | Hard | May 11, 2026 |
 | [Design an RPC Abstraction Layer for REST APIs](https://trueinterview.io/questions/design-an-rpc-abstraction-layer-for-rest-apis) | System Design | Medium | May 2026 |
-| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | May 2026 |
 | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design) | System Design | Medium | Apr 23, 2026 |
 | [Copy Neighbor Sums Between Binary Trees](https://trueinterview.io/questions/copy-neighbor-sums-between-binary-trees) | Algorithm | Medium | Apr 22, 2026 |
 | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | System Design | Hard | Apr 20, 2026 |
@@ -240,6 +239,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Easy | — |
 | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Algorithm | Hard | — |
 | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Algorithm | Hard | — |
+| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
 | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c) | Object Oriented Programming | Medium | — |
 | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Algorithm | Easy | — |

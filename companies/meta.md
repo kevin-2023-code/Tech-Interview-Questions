@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**189 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**190 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,36 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **189** |
-| Most recent sighting | Aug 16, 2026 |
-| Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (66% of 189) |
-| Difficulty (easy / medium / hard) | 30 / 120 / 39 |
+| Questions tracked | **190** |
+| Most recent sighting | Aug 27, 2026 |
+| Reported in the last 90 days | 8 |
+| Most common format | [Algorithm](../formats/algorithm.md) (66% of 190) |
+| Difficulty (easy / medium / hard) | 31 / 120 / 39 |
 | Free to practise | [26](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 189 questions reported at Meta. 91 of them carry a sighting date; the other 98 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 190 questions reported at Meta. 92 of them carry a sighting date; the other 98 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **189 of 189** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **190 of 190** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 25 | ██ | [Algorithm](../formats/algorithm.md) (64%) | 17 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 112 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 10 / 86 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 75 | ███████ | [System Design](../formats/system-design.md) (37%) | 6 / 44 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 113 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 11 / 86 / 16 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 76 | ███████ | [System Design](../formats/system-design.md) (37%) | 7 / 44 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**7 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Aug 27, 2026 |
 | [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Onsite / virtual onsite | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Phone screen | Jul 29, 2026 |
@@ -53,18 +54,18 @@ Which stage each question came from, for the **189 of 189** questions at Meta th
 
 ## What they ask about
 
-Of the **123 questions at Meta that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **125 questions at Meta that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 21 | 17% | ████████████ | Aug 16, 2026 |
 | `strings` | 17 | 14% | ██████████ | Jun 24, 2026 |
-| `hashing` | 15 | 12% | █████████ | Jun 28, 2026 |
-| `trees` | 15 | 12% | █████████ | Aug 16, 2026 |
-| `arrays` | 14 | 11% | ████████ | Jun 30, 2026 |
-| `stack` | 12 | 10% | ███████ | Jun 24, 2026 |
+| `hashing` | 16 | 13% | █████████ | Jun 28, 2026 |
+| `arrays` | 15 | 12% | █████████ | Jun 30, 2026 |
+| `trees` | 14 | 11% | ████████ | Aug 16, 2026 |
+| `stack` | 13 | 10% | ███████ | Jun 24, 2026 |
 | `two-pointers` | 12 | 10% | ███████ | May 08, 2026 |
-| `backtracking` | 10 | 8% | ██████ | Aug 16, 2026 |
+| `backtracking` | 9 | 7% | █████ | Aug 16, 2026 |
 | `sorting` | 9 | 7% | █████ | Jun 09, 2026 |
 | `binary-search` | 7 | 6% | ████ | Apr 24, 2026 |
 
@@ -72,11 +73,11 @@ Of the **123 questions at Meta that carry a topic label** (65% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Meta, by the month it was reported in — Jun 10, 2025 to Aug 16, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Meta, by the month it was reported in — Jun 10, 2025 to Aug 27, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 2 | ██ |
+| [Aug 2026](../by-month/2026-08.md) | 3 | ███ |
 | [Jul 2026](../by-month/2026-07.md) | 6 | ██████ |
 | [Jun 2026](../by-month/2026-06.md) | 14 | █████████████ |
 | [May 2026](../by-month/2026-05.md) | 15 | ██████████████ |
@@ -95,14 +96,14 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | — | Aug 16, 2026 |
-| **2** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | — | Aug 16, 2026 |
-| **3** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
-| **4** | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | — | Jul 22, 2026 |
-| **5** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | — | Jul 22, 2026 |
-| **6** | [Tally Service](https://trueinterview.io/questions/tally-service-concurrent-windowed-counter) | Object Oriented Programming | Medium | — | Jul 20, 2026 |
-| **7** | [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | — | Jul 19, 2026 |
-| **8** | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | SQL | Easy | — | Jul 04, 2026 |
+| **1** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 1 | Aug 27, 2026 |
+| **2** | [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | — | Aug 16, 2026 |
+| **3** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | — | Aug 16, 2026 |
+| **4** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
+| **5** | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | SQL | Medium | — | Jul 22, 2026 |
+| **6** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | SQL | Hard | — | Jul 22, 2026 |
+| **7** | [Tally Service](https://trueinterview.io/questions/tally-service-concurrent-windowed-counter) | Object Oriented Programming | Medium | — | Jul 20, 2026 |
+| **8** | [Randomized Container](https://trueinterview.io/questions/randomized-container) | Object Oriented Programming | Medium | — | Jul 19, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -129,6 +130,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 🆕 Aug 27, 2026 |
 | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Aug 16, 2026 |
 | [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |

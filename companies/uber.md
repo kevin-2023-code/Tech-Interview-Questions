@@ -58,7 +58,7 @@ Of the **131 questions at Uber that carry a topic label** (74% of them — the r
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 35 | 27% | ████████████ | Sep 09, 2026 |
-| `arrays` | 25 | 19% | █████████ | Aug 16, 2026 |
+| `arrays` | 26 | 20% | █████████ | Aug 16, 2026 |
 | `hashing` | 15 | 11% | █████ | Aug 16, 2026 |
 | `strings` | 15 | 11% | █████ | Jun 24, 2026 |
 | `matrix` | 14 | 11% | █████ | Sep 09, 2026 |

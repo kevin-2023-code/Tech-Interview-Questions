@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (256)](../companies/amazon.md) · [Google (198)](../companies/google.md) · [Meta (189)](../companies/meta.md) · [ByteDance (182)](../companies/bytedance.md) · [Uber (178)](../companies/uber.md) · [Microsoft (139)](../companies/microsoft.md) · [Apple (116)](../companies/apple.md) · [LinkedIn (88)](../companies/linkedin.md) · [Oracle (84)](../companies/oracle.md) · [Salesforce (78)](../companies/salesforce.md) · [Netflix (72)](../companies/netflix.md) · [DoorDash (71)](../companies/doordash.md) · [Atlassian (53)](../companies/atlassian.md) · [Ebay (39)](../companies/ebay.md) · [Expedia (31)](../companies/expedia.md) · [NVIDIA (31)](../companies/nvidia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Cisco (25)](../companies/cisco.md) · [Pinduoduo (20)](../companies/pinduoduo.md) · [Intuit (19)](../companies/intuit.md) · [PayPal (17)](../companies/paypal.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
+[Amazon (255)](../companies/amazon.md) · [Google (198)](../companies/google.md) · [Meta (190)](../companies/meta.md) · [ByteDance (182)](../companies/bytedance.md) · [Uber (178)](../companies/uber.md) · [Microsoft (139)](../companies/microsoft.md) · [Apple (116)](../companies/apple.md) · [LinkedIn (88)](../companies/linkedin.md) · [Oracle (84)](../companies/oracle.md) · [Salesforce (78)](../companies/salesforce.md) · [Netflix (72)](../companies/netflix.md) · [DoorDash (71)](../companies/doordash.md) · [Atlassian (53)](../companies/atlassian.md) · [Ebay (39)](../companies/ebay.md) · [Expedia (31)](../companies/expedia.md) · [NVIDIA (31)](../companies/nvidia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Cisco (25)](../companies/cisco.md) · [Pinduoduo (20)](../companies/pinduoduo.md) · [Intuit (19)](../companies/intuit.md) · [PayPal (17)](../companies/paypal.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
 
 <sub>24 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -28,26 +28,26 @@
 
 ## What they ask about
 
-Of the **1,020 questions in this cut that carry a topic label** (69% of it):
+Of the **1,023 questions in this cut that carry a topic label** (69% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 170 | 17% | ████████████ |
+| `arrays` | 172 | 17% | ████████████ |
 | `graphs` | 157 | 15% | ███████████ |
-| `hashing` | 152 | 15% | ███████████ |
-| `strings` | 139 | 14% | ██████████ |
+| `hashing` | 154 | 15% | ███████████ |
+| `strings` | 140 | 14% | ██████████ |
 | `greedy` | 94 | 9% | ███████ |
-| `dynamic-programming` | 77 | 8% | █████ |
-| `backtracking` | 69 | 7% | █████ |
-| `trees` | 69 | 7% | █████ |
+| `dynamic-programming` | 78 | 8% | █████ |
+| `backtracking` | 68 | 7% | █████ |
+| `trees` | 68 | 7% | █████ |
 | `two-pointers` | 67 | 7% | █████ |
-| `sorting` | 64 | 6% | █████ |
+| `sorting` | 63 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**158 sightings** across this cut. Newest first.
+**160 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **1,020 questions in this cut that carry a topic label** (69% of it):
 | [Trace an LLM Request Through a Paged-KV Inference Engine](https://trueinterview.io/questions/trace-an-llm-request-through-a-paged-kv-inference-engine) | AMD | System Design | Sep 14, 2026 |
 | [Count Islands and Return the Largest Island Size](https://trueinterview.io/questions/count-islands-and-return-the-largest-island-size) | Oracle | Algorithm | Sep 11, 2026 |
 
-<sub>146 more in this window are in the table below.</sub>
+<sub>148 more in this window are in the table below.</sub>
 
 ---
 
@@ -96,6 +96,7 @@ Of the **1,020 questions in this cut that carry a topic label** (69% of it):
 | **Microsoft** | [Design a Global One-to-One Voice Calling System](https://trueinterview.io/questions/design-a-global-one-to-one-voice-calling-system) | Medium | 🆕 Sep 10, 2026 |
 | **DoorDash** | [Design a Donation Service with Reliable Payment and Payout Tracking](https://trueinterview.io/questions/design-a-donation-service-with-reliable-payment-and-payout-tracking) | Medium | 🆕 Sep 10, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🆕 Sep 10, 2026 |
+| **Google** | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Medium | 🆕 Sep 10, 2026 |
 | **Uber** | [Sort a Matrix into Snake Order Using Adjacent Swaps](https://trueinterview.io/questions/sort-a-matrix-into-snake-order-using-adjacent-swaps) | Medium | 🆕 Sep 09, 2026 |
 | **Uber** | [Design Distributed Storage for Large Structured Data](https://trueinterview.io/questions/design-distributed-storage-for-large-structured-data) | Hard | 🆕 Sep 09, 2026 |
 | **Uber** | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Hard | 🆕 Sep 09, 2026 |
@@ -127,6 +128,7 @@ Of the **1,020 questions in this cut that carry a topic label** (69% of it):
 | **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | 🆕 Aug 28, 2026 |
 | **LinkedIn** | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Medium | 🆕 Aug 27, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
+| **Amazon / Meta** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Easy | 🆕 Aug 27, 2026 |
 | **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Medium | 🆕 Aug 26, 2026 |
 | **ByteDance** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | Medium | 🆕 Aug 25, 2026 |
 | **LinkedIn** | [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Hard | 🆕 Aug 24, 2026 |
@@ -324,7 +326,5 @@ Of the **1,020 questions in this cut that carry a topic label** (69% of it):
 | **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 | **Meta** | [Shared Substring in String List](https://trueinterview.io/questions/ai-coding-substring-from-list) | Medium | Jun 09, 2026 |
 | **Meta** | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | Hard | Jun 09, 2026 |
-| **Amazon** | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Hard | Jun 09, 2026 |
-| **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
 
 <sub>Page 1 of 6 · [Page 2 →](big-tech-2.md)</sub>

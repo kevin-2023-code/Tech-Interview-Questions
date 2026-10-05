@@ -111,7 +111,7 @@
 | **Netflix** | [Weighted Cache](https://trueinterview.io/questions/weighted-cache) | Hard | May 12, 2026 |
 | **Uber** | [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine) | Medium | May 12, 2026 |
 | **Anthropic** | [Worker / Employee Grant Management](https://trueinterview.io/questions/oa-worker-management) | Medium | May 10, 2026 |
-| **Uber / Amazon** | [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms) | Medium | May 10, 2026 |
+| **Uber** | [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms) | Medium | May 10, 2026 |
 | **Coinbase** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Medium | May 08, 2026 |
 | **Citadel** | [Order Book Pair Coding](https://trueinterview.io/questions/order-book-pair-coding) | Medium | May 07, 2026 |
 | **Coinbase** | [Worker Salary](https://trueinterview.io/questions/worker-salary-oa) | Medium | May 06, 2026 |

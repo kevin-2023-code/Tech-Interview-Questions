@@ -50,7 +50,6 @@
 | **Amazon** | [Find Middle and Cycle Start in Linked List](https://trueinterview.io/questions/77fafabb-4814-4d6d-a77a-8490798dc751) | Medium | — |
 | **Amazon / OpenAI** | [Friend Circle Detection](https://trueinterview.io/questions/4f1379cf-84aa-485a-80a7-23c14177a4da) | Medium | — |
 | **Amazon** | [Pizza Slices Calculator Program](https://trueinterview.io/questions/43b6b9d3-5c99-4c4e-bfbd-0005865fd5e3) | Easy | — |
-| **Amazon** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Easy | — |
 | **Amazon / Google** | [Binary Tree Level Average (Level-order traversal)](https://trueinterview.io/questions/317e2feb-db97-48b9-9a58-0959ba8569f5) | Medium | — |
 | **Amazon** | [Student Printing Queue: Enumerate All Valid Printing Orders (Queue to Ring Variant)](https://trueinterview.io/questions/2f74ec78-ce03-4ec9-985d-86839640c844) | Medium | — |
 | **Amazon** | [String Reorganization](https://trueinterview.io/questions/1629025a-c2f7-499b-8c5e-1d27bad56998) | Medium | — |
@@ -121,6 +120,7 @@
 | **Rippling / Meta** | [Task Management Filtering and Sorting](https://trueinterview.io/questions/159a317a-4e4a-5e58-8900-ec4aae417823) | Medium | — |
 | **Uber** | [Kth Largest Element in a BST](https://trueinterview.io/questions/03374ebf-7274-4299-8e01-fe473216995d) | Medium | — |
 | **Snowflake** | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Hard | — |
+| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | — |
 | **Rippling** | [Maximize Amount After Two Days of Conversions](https://trueinterview.io/questions/maximize-amount-after-two-days-of-conversions) | Medium | — |
 | **Perplexity** | [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Medium | — |
 | **xAI** | [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Medium | — |

@@ -5,72 +5,55 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber | Phone screen | hashing | — |
+| Algorithm | Medium | Uber | Phone screen | hashing, arrays | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-You are given an array of positive integers `nums`. Define a function `rev(x)` that takes an integer, reverses the order of its decimal digits, and removes any leading zeros from the reversed form. For instance, `rev(800) = 8` and `rev(210) = 12`.
+Given an integer array `nums`, let `flip(x)` denote the integer obtained by reversing the decimal digits of `x` and removing any leading zeros. For example, $$flip(800) = 8$$ and $$flip(210) = 12$$.
 
-A pair of indices `(i, j)` (with `i` and `j` inside the array bounds) is called **valid** when
-
-`nums[i] + rev(nums[j]) == nums[j] + rev(nums[i])`.
-
-Count the total number of valid pairs. Note that the pair `(i, j)` is unordered — the order of indices does not matter, and `i` and `j` can be equal.
+Implement `countNicePairs(nums)` to count the number of pairs of elements `nums[i]` and `nums[j]`, where both indices are valid positions in `nums`, such that $$nums[i] + flip(nums[j]) = nums[j] + flip(nums[i])$$. Return that count.
 
 Example 1:
 
 ```text
-Input: nums = [12, 21, 45, 54]
-
-Output: 2
-```
-
-Explanation: `rev(12)=21 (diff -9)`, `rev(21)=12 (diff 9)`, `rev(45)=54 (diff -9)`, `rev(54)=45 (diff 9)`. The pairs `(0,2)` and `(1,3)` share the same diff, giving two valid pairs.
-
-Example 2:
-
-```text
-Input: nums = [30, 3, 30]
-
-Output: 1
-```
-
-Example 3:
-
-```text
-Input: nums = [7, 7, 7]
+Input: [1, 20, 2, 11]
 
 Output: 3
 ```
 
+```trueviz
+{"v":1,"kind":"example","title":"Flip and Compare","input":{"nums":"[1, 20, 2, 11]"},"steps":[{"say":"The input array is nums = [1, 20, 2, 11].","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"]}]},{"say":"The flip of each number reverses its digits: flip(1)=1, flip(20)=2, flip(2)=2, flip(11)=11.","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"]},{"type":"array","id":"flips","label":"flip(nums)","values":["1","2","2","11"]}]},{"say":"Check pair (1, 2): 1 + flip(2) = 1 + 2 = 3 and 2 + flip(1) = 2 + 1 = 3, so it matches.","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"],"marks":{"read":[0,2],"found":[0,2]}},{"type":"array","id":"flips","label":"flip(nums)","values":["1","2","2","11"],"marks":{"read":[0,2],"found":[0,2]}}]},{"say":"Check pair (1, 11): 1 + flip(11) = 1 + 11 = 12 and 11 + flip(1) = 11 + 1 = 12, so it matches.","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"],"marks":{"read":[0,3],"found":[0,3]}},{"type":"array","id":"flips","label":"flip(nums)","values":["1","2","2","11"],"marks":{"read":[0,3],"found":[0,3]}}]},{"say":"Check pair (2, 11): 2 + flip(11) = 2 + 11 = 13 and 11 + flip(2) = 11 + 2 = 13, so it matches.","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"],"marks":{"read":[2,3],"found":[2,3]}},{"type":"array","id":"flips","label":"flip(nums)","values":["1","2","2","11"],"marks":{"read":[2,3],"found":[2,3]}}]},{"say":"A non-matching example: pair (1, 20) gives 1 + flip(20) = 3, but 20 + flip(1) = 21. Not equal.","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"],"marks":{"read":[0,1],"dim":[2,3]}},{"type":"array","id":"flips","label":"flip(nums)","values":["1","2","2","11"],"marks":{"read":[0,1],"dim":[2,3]}}]},{"say":"The matching pairs are (1,2), (1,11), and (2,11). That is 3 nice pairs.","panels":[{"type":"array","id":"nums","label":"nums","values":["1","20","2","11"],"marks":{"found":[0,2,3],"dim":[1]}},{"type":"array","id":"flips","label":"flip(nums)","values":["1","2","2","11"],"marks":{"found":[0,2,3],"dim":[1]}}]}],"expected":"3"}
+```
+
+
 Constraints:
 
-* `1 <= nums.length <= 100000`
-* `1 <= nums[i] <= 20000`
+* $$1 \le nums.length \le 10^5$$
+* $$1 \le nums[i] \le 10^4$$
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Rewrite the condition nums[i] + rev(nums[j]) == nums[j] + rev(nums[i]) as nums[i] - rev(nums[i]) == nums[j] - rev(nums[j]).
+Rearrange the equation nums[i] + flip(nums[j]) = nums[j] + flip(nums[i]) to isolate each index on its own side.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Precompute a value diff(x) = x - rev(x) for each element, then the problem reduces to counting the number of pairs with equal diff values.
+The condition becomes nums[i] - flip(nums[i]) == nums[j] - flip(nums[j]), so group elements by this transformed value.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Use a hash map to store frequencies of diff values, for each diff with frequency f, add f choose 2 to the total count, remembering that i and j can be equal (so a single element with a given diff contributes 1 pair with itself).
+Count pairs within each group using the combination formula, watch for overflow and remember flip must strip leading zeros.
 
 </details>
 

@@ -53,19 +53,19 @@ Which stage each question came from, for the **80 of 80** questions at Stripe th
 
 ## What they ask about
 
-Of the **43 questions at Stripe that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **44 questions at Stripe that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 16 | 37% | ████████████ | Sep 11, 2026 |
-| `hashing` | 12 | 28% | █████████ | Sep 11, 2026 |
+| `strings` | 17 | 39% | ████████████ | Sep 11, 2026 |
+| `hashing` | 12 | 27% | ████████ | Sep 11, 2026 |
 | `graphs` | 6 | 14% | ████ | Jun 24, 2026 |
-| `greedy` | 5 | 12% | ████ | Aug 24, 2026 |
-| `intervals` | 5 | 12% | ████ | Sep 04, 2026 |
+| `greedy` | 5 | 11% | ████ | Aug 24, 2026 |
+| `intervals` | 5 | 11% | ████ | Sep 04, 2026 |
 | `sorting` | 4 | 9% | ███ | Jun 10, 2026 |
-| `arrays` | 2 | 5% | ██ | May 13, 2026 |
-| `dynamic-programming` | 2 | 5% | ██ | Jun 11, 2026 |
-| `heap` | 2 | 5% | ██ | Sep 11, 2026 |
+| `arrays` | 2 | 5% | █ | May 13, 2026 |
+| `dynamic-programming` | 2 | 5% | █ | Jun 11, 2026 |
+| `heap` | 2 | 5% | █ | Sep 11, 2026 |
 | `backtracking` | 1 | 2% | █ | Nov 21, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

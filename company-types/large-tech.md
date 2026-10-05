@@ -28,18 +28,18 @@
 
 ## What they ask about
 
-Of the **599 questions in this cut that carry a topic label** (59% of it):
+Of the **598 questions in this cut that carry a topic label** (59% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 123 | 21% | ████████████ |
+| `hashing` | 121 | 20% | ████████████ |
 | `strings` | 100 | 17% | ██████████ |
-| `graphs` | 87 | 15% | ████████ |
-| `arrays` | 77 | 13% | ████████ |
-| `greedy` | 63 | 11% | ██████ |
-| `backtracking` | 46 | 8% | ████ |
+| `graphs` | 86 | 14% | █████████ |
+| `arrays` | 75 | 13% | ███████ |
+| `greedy` | 62 | 10% | ██████ |
+| `backtracking` | 46 | 8% | █████ |
 | `dynamic-programming` | 42 | 7% | ████ |
-| `sorting` | 39 | 7% | ████ |
+| `sorting` | 40 | 7% | ████ |
 | `trees` | 38 | 6% | ████ |
 | `heap` | 35 | 6% | ███ |
 
@@ -304,7 +304,6 @@ Of the **599 questions in this cut that carry a topic label** (59% of it):
 | **Scale AI** | [LLM API Practical and Output Validation](https://trueinterview.io/questions/llm-api-practical-and-output-validation) | Medium | May 01, 2026 |
 | **Scale AI** | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Medium | May 01, 2026 |
 | **Snowflake** | [Design an RPC Abstraction Layer for REST APIs](https://trueinterview.io/questions/design-an-rpc-abstraction-layer-for-rest-apis) | Medium | May 2026 |
-| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | May 2026 |
 | **Roblox / Atlassian / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **Reddit** | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Medium | May 2026 |
 | **Anthropic** | [Task Management System](https://trueinterview.io/questions/task-management-system-online-assessment) | Hard | May 2026 |
@@ -326,5 +325,6 @@ Of the **599 questions in this cut that carry a topic label** (59% of it):
 | **Snapchat** | [Short Video Recommendation & Ranking](https://trueinterview.io/questions/short-video-recommendation-and-ranking) | Hard | Apr 21, 2026 |
 | **Pinterest** | [Grant / Revoke / Check Access on Hierarchy](https://trueinterview.io/questions/grant-revoke-access-tree) | Medium | Apr 21, 2026 |
 | **Coinbase** | [Food Delivery System (Multi-Level Coding)](https://trueinterview.io/questions/food-delivery-system-2) | Medium | Apr 20, 2026 |
+| **Okta** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Easy | Apr 20, 2026 |
 
 <sub>Page 1 of 5 · [Page 2 →](large-tech-2.md)</sub>

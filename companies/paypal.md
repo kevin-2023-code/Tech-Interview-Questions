@@ -42,17 +42,17 @@ Which stage each question came from, for the **17 of 17** questions at PayPal th
 
 ## What they ask about
 
-Of the **14 questions at PayPal that carry a topic label** (82% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at PayPal that carry a topic label** (88% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 3 | 21% | ████████████ | Feb 26, 2026 |
-| `greedy` | 3 | 21% | ████████████ | — |
-| `backtracking` | 2 | 14% | ████████ | Feb 26, 2026 |
-| `dynamic-programming` | 2 | 14% | ████████ | — |
-| `hashing` | 2 | 14% | ████████ | Apr 09, 2026 |
-| `heap` | 2 | 14% | ████████ | — |
-| `trees` | 2 | 14% | ████████ | Feb 26, 2026 |
+| `dynamic-programming` | 3 | 20% | ████████████ | — |
+| `graphs` | 3 | 20% | ████████████ | Feb 26, 2026 |
+| `greedy` | 3 | 20% | ████████████ | — |
+| `backtracking` | 2 | 13% | ████████ | Feb 26, 2026 |
+| `hashing` | 2 | 13% | ████████ | Apr 09, 2026 |
+| `heap` | 2 | 13% | ████████ | — |
+| `trees` | 2 | 13% | ████████ | Feb 26, 2026 |
 | `binary-search` | 1 | 7% | ████ | — |
 | `linked-list` | 1 | 7% | ████ | Apr 09, 2026 |
 | `math` | 1 | 7% | ████ | — |

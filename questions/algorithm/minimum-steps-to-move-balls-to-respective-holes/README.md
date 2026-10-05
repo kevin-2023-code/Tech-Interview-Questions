@@ -5,50 +5,30 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | PayPal | Phone screen | — | — |
+| Algorithm | Hard | PayPal | Phone screen | dynamic-programming | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-You are given a string that represents a linear sequence of positions. The string contains three kinds of characters:
+You are given a string whose characters describe a one-dimensional arrangement of colored balls, the holes that belong to those colors, and unoccupied positions. An uppercase letter denotes a ball of one specific color, while the lowercase version of the same letter denotes the hole assigned to that color. The symbol `'#'` denotes an empty spot.
 
-- An uppercase letter (`A`-`Z`): a colored ball.
-- The corresponding lowercase letter (`a`-`z`): a hole meant for that specific color of ball.
-- `#`: an empty spot.
+Your task is to determine the smallest number of steps required to bring every ball into its matching hole. During a single step, a ball may be transferred to a spot directly adjacent to it.
 
-A move consists of sliding a single ball into an adjacent position (which must be empty, i.e., a `#`).
+Implement `min_steps_to_match(sequence)`, which accepts the string as its argument and returns the minimum number of steps as an integer.
 
-Your task is to find the **minimum number of moves** required so that every ball ends up in its matching hole. Balls are distinguishable by color; a hole can only accept its own color's ball.
+Example 1:
 
-Implement a function with the following signature:
+```text
+Input: sequence = 'R,#,b,#,r,B,b'
 
-```python
-def min_steps_to_match(sequence: str) -> int:
+Output: 5
 ```
-
-### Example
-
-**Input:** `"R,#,b,#,r,B,b"` (Note: the input includes commas separating the items; treat the string exactly as given.)
-
-**Output:** `5`
-
-**Explanation:**
-The string represents: `['R', '#', 'b', '#', 'r', 'B', 'b']`.
-- Red ball `R` at index 0 → red hole `r` at index 4. Moving it right requires crossing 3 `#` spots (indices 1 and 3) plus pushing past the `b` ball. The optimal sequence of swaps leads to a total of 5 moves for the entire configuration.
 
 ```trueviz
-{"v":1,"kind":"example","title":"Minimum Steps to Match Balls and Holes","input":{"input":"R,#,b,#,r,B,b"},"steps":[{"say":"The input string 'R,#,b,#,r,B,b' represents a linear sequence of 7 positions.","panels":[{"type":"array","id":"seq","label":"Positions","values":["R","#","b","#","r","B","b"],"marks":{"dim":[1,3]}}]},{"say":"There are three balls: 'R' at index 0, 'B' at index 5, and 'b' at index 2. The holes are 'r' at index 4, and two 'b' holes at indices 2 and 6. Note: 'b' at index 2 is a ball, not a hole.","panels":[{"type":"array","id":"seq","label":"Balls and Holes","values":["R","#","b","#","r","B","b"],"marks":{"read":[0,5,2],"found":[4,6],"dim":[1,3]}}]},{"say":"Ball 'R' (index 0) must reach hole 'r' (index 4). The distance is 4 positions. However, the path is not empty: there is a 'b' ball at index 2 and empty spots '#' at indices 1 and 3.","panels":[{"type":"array","id":"seq","label":"Path for R","values":["R","#","b","#","r","B","b"],"marks":{"read":[0],"found":[4],"dim":[1,3]},"ranges":[{"from":0,"to":4,"label":"distance 4"}]}]},{"say":"To move 'R' to 'r', it must slide right. The 'b' ball at index 2 is in the way. In an optimal sequence, 'b' moves right first, then 'R' slides into the hole. This takes 4 moves for 'R' (each step right) plus 1 extra move for 'b' to get out of the way, totaling 5 moves so far.","panels":[{"type":"array","id":"seq","label":"Moving R","values":["R","#","b","#","r","B","b"],"marks":{"read":[0],"write":[4],"found":[4],"dim":[1,3]}}]},{"say":"Ball 'B' (index 5) must reach a 'b' hole. The closest 'b' hole is at index 6, just 1 position away. The spot at index 6 is a hole, not an empty spot, but 'B' can slide directly into it if the path is clear.","panels":[{"type":"array","id":"seq","label":"Path for B","values":["R","#","b","#","r","B","b"],"marks":{"read":[5],"found":[6],"dim":[1,3]},"ranges":[{"from":5,"to":6,"label":"distance 1"}]}]},{"say":"'B' slides right from index 5 to index 6 in 1 move. No other balls block this short path.","panels":[{"type":"array","id":"seq","label":"Moving B","values":["R","#","b","#","r","B","b"],"marks":{"read":[5],"write":[6],"found":[6],"dim":[1,3]}}]},{"say":"Ball 'b' (lowercase) at index 2 is actually a ball, not a hole. It must reach a 'b' hole. The closest 'b' hole is at index 6, but that will be taken by 'B'. The other 'b' hole is at index 2 itself? No, index 2 is a ball. Wait, the only other 'b' hole is at index 6. Actually, the problem states there","panels":[{"type":"array","id":"seq","label":"Re-evaluating items","values":["R","#","b","#","r","B","b"],"marks":{"read":[0,5],"found":[2,4,6],"dim":[1,3]}}]},{"say":"Correcting: Balls are 'R' (index 0) and 'B' (index 5). Holes are 'r' (index 4), 'b' (index 2), and 'b' (index 6). 'R' goes to 'r' (distance 4). 'B' goes to the closest 'b' hole. The closest 'b' to index 5 is at index 6 (distance 1). Total moves = 4 + 1 = 5. This matches the stated output.","panels":[{"type":"array","id":"seq","label":"Final matching","values":["R","#","b","#","r","B","b"],"marks":{"read":[0,5],"found":[4,6],"dim":[1,3]}}]},{"say":"The minimum total moves is 5.","panels":[{"type":"array","id":"seq","label":"Result: 5 moves","values":["R","#","b","#","r","B","b"],"marks":{"found":[0,5,4,6],"dim":[1,3]}}]}],"expected":"5"}
+{"v":1,"kind":"example","title":"Balls to matching holes","input":{"sequence":"R,#,b,#,r,B,b"},"steps":[{"say":"Ignoring commas, the row is R # b # r B b at positions 0 through 6.","panels":[{"type":"array","id":"seq","label":"Sequence","values":["R","#","b","#","r","B","b"]}]},{"say":"Uppercase letters are balls: R at position 0 and B at position 5.","panels":[{"type":"array","id":"seq","label":"Balls","values":["R","#","b","#","r","B","b"],"marks":{"read":[0,5]}}]},{"say":"Lowercase letters are matching holes: b at positions 2 and 6, and r at position 4.","panels":[{"type":"array","id":"seq","label":"Holes","values":["R","#","b","#","r","B","b"],"marks":{"read":[2,4,6]}}]},{"say":"The red ball R at 0 must reach the red hole r at 4, which takes 4 adjacent moves.","panels":[{"type":"array","id":"seq","label":"Red match","values":["R","#","b","#","r","B","b"],"marks":{"found":[0,4],"dim":[1,2,3,5,6]}}]},{"say":"The blue ball B at 5 can use either blue hole: b at 2 is 3 moves away, b at 6 is only 1 move away.","panels":[{"type":"array","id":"seq","label":"Blue options","values":["R","#","b","#","r","B","b"],"marks":{"read":[2,5,6],"dim":[0,1,3,4]}}]},{"say":"Choosing the nearer blue hole, B at 5 goes to b at 6 in 1 move.","panels":[{"type":"array","id":"seq","label":"Blue match","values":["R","#","b","#","r","B","b"],"marks":{"read":[0,4],"found":[5,6],"dim":[1,2,3]}}]},{"say":"Total steps = 4 moves for red + 1 move for blue = 5.","panels":[{"type":"array","id":"seq","label":"Answer","values":["R","#","b","#","r","B","b"],"marks":{"found":[0,4,5,6],"dim":[1,2,3]}}]}],"expected":"5"}
 ```
-
-
-### Constraints
-
-- The input string is composed exclusively of uppercase letters, lowercase letters, and `#`, optionally separated by commas.
-- There is exactly one hole for every ball that appears (each uppercase letter has a matching lowercase counterpart).
-- `1 <=` length of the sequence (after removing commas) `<= 100`.
-- The total number of balls is at most 26 (one per uppercase letter).
 
 ## Hints
 

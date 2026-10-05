@@ -23,7 +23,7 @@
 | Guides & writeups | 1 |
 | Interview reports on the board | 11 in this snapshot |
 
-<sub>Counted from the 48 questions reported at Goldman Sachs. 36 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 48 questions reported at Goldman Sachs. 35 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
@@ -33,7 +33,7 @@ Which stage each question came from, for the **48 of 48** questions at Goldman S
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 19 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 13 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 24 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 4 / 16 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | █████ | [Algorithm](../formats/algorithm.md) (55%) | 3 / 8 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 10 | ████ | [Algorithm](../formats/algorithm.md) (50%) | 3 / 7 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -47,16 +47,16 @@ Of the **36 questions at Goldman Sachs that carry a topic label** (75% of them �
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
+| `arrays` | 9 | 25% | ████████████ | Apr 01, 2026 |
 | `hashing` | 9 | 25% | ████████████ | Jul 06, 2026 |
-| `arrays` | 8 | 22% | ███████████ | Apr 01, 2026 |
-| `strings` | 6 | 17% | ████████ | Feb 05, 2026 |
+| `strings` | 7 | 19% | █████████ | Feb 05, 2026 |
 | `dynamic-programming` | 5 | 14% | ███████ | Apr 01, 2026 |
 | `sliding-window` | 3 | 8% | ████ | Nov 25, 2025 |
 | `trees` | 3 | 8% | ████ | Jun 21, 2026 |
 | `backtracking` | 2 | 6% | ███ | Sep 08, 2025 |
-| `graphs` | 2 | 6% | ███ | Jun 18, 2026 |
 | `greedy` | 2 | 6% | ███ | Nov 25, 2025 |
 | `heap` | 2 | 6% | ███ | Jun 09, 2025 |
+| `math` | 2 | 6% | ███ | Oct 26, 2024 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -68,7 +68,6 @@ Every recorded sighting at Goldman Sachs, by the month it was reported in — Oc
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ███████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ███ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | █████ |
 | [Mar 2026](../by-month/2026-03.md) | 2 | █████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
@@ -91,9 +90,9 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | **3** | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | — | Jun 18, 2026 |
 | **4** | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Medium | — | Jun 18, 2026 |
 | **5** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 5 | Jun 16, 2026 |
-| **6** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | 2 | May 2026 |
-| **7** | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | 1 | Apr 03, 2026 |
-| **8** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
+| **6** | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | 1 | Apr 03, 2026 |
+| **7** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
+| **8** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) 🆓 | Algorithm | Easy | 6 | Mar 17, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -140,7 +139,6 @@ What candidates said happened in the room at Goldman Sachs — written up by the
 | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Medium | Jun 18, 2026 |
 | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | Jun 18, 2026 |
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
-| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | May 2026 |
 | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Apr 03, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
@@ -183,3 +181,4 @@ What candidates said happened in the room at Goldman Sachs — written up by the
 | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | — |
 | [Implement a HashMap Without Built-in Libraries](https://trueinterview.io/questions/2f98e202-1b13-4bb4-bc5e-9503bd9e1bea) | Object Oriented Programming | Medium | — |
 | [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643) | Algorithm | Medium | — |
+| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | — |

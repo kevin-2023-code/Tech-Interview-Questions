@@ -10,7 +10,7 @@
 
 The sector and size of an employer are facts about the company rather than about a question, so they come from a hand-written registry, which covers **106 of 112** of the companies here. An employer it does not cover is under *Not classified* below and in the table like everybody else — guessing a sector from a company's name is how a reader preparing for one kind of loop ends up with the wrong shortlist.
 
-🏛️ **[Big Tech](../company-types/big-tech.md)** (24) — [Amazon (256)](amazon/README.md) · [Google (198)](google/README.md) · [Meta (189)](meta/README.md) · [ByteDance (182)](bytedance/README.md) · [Uber (178)](uber/README.md) · [Microsoft (139)](microsoft/README.md) · [Apple (116)](apple/README.md) · [LinkedIn (88)](linkedin/README.md) · [Oracle (84)](oracle/README.md) · [Salesforce (78)](salesforce/README.md) · [Netflix (72)](netflix/README.md) · [DoorDash (71)](doordash/README.md) · [Atlassian (53)](atlassian/README.md) · [Ebay (39)](ebay/README.md) · [Expedia (31)](expedia/README.md) · [NVIDIA (31)](nvidia/README.md) · [Walmart Labs (29)](walmart-labs/README.md) · [Cisco (25)](cisco/README.md) · [Pinduoduo (20)](pinduoduo/README.md) · [Intuit (19)](intuit/README.md) · [PayPal (17)](paypal/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Block (5)](block/README.md) · [AMD (3)](amd/README.md)
+🏛️ **[Big Tech](../company-types/big-tech.md)** (24) — [Amazon (255)](amazon/README.md) · [Google (198)](google/README.md) · [Meta (190)](meta/README.md) · [ByteDance (182)](bytedance/README.md) · [Uber (178)](uber/README.md) · [Microsoft (139)](microsoft/README.md) · [Apple (116)](apple/README.md) · [LinkedIn (88)](linkedin/README.md) · [Oracle (84)](oracle/README.md) · [Salesforce (78)](salesforce/README.md) · [Netflix (72)](netflix/README.md) · [DoorDash (71)](doordash/README.md) · [Atlassian (53)](atlassian/README.md) · [Ebay (39)](ebay/README.md) · [Expedia (31)](expedia/README.md) · [NVIDIA (31)](nvidia/README.md) · [Walmart Labs (29)](walmart-labs/README.md) · [Cisco (25)](cisco/README.md) · [Pinduoduo (20)](pinduoduo/README.md) · [Intuit (19)](intuit/README.md) · [PayPal (17)](paypal/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Block (5)](block/README.md) · [AMD (3)](amd/README.md)
 
 <sub>A derived cut rather than a list of opinions: a technology-sector employer with 10,000+ people. Every company in it also appears under its own sector below.</sub>
 
@@ -22,9 +22,9 @@ The sector and size of an employer are facts about the company rather than about
 
 🧠 **[AI labs & AI infrastructure](../company-types/ai.md)** (12) — [OpenAI (104)](openai/README.md) · [Anthropic (70)](anthropic/README.md) · [xAI (36)](xai/README.md) · [Perplexity (23)](perplexity/README.md) · [Harvey (17)](harvey/README.md) · [Scale AI (16)](scale-ai/README.md) · [Microsoft AI (13)](microsoft-ai/README.md) · [Luma AI (6)](luma-ai/README.md) · [Moveworks (3)](moveworks/README.md) · [Cohere (2)](cohere/README.md) · [Cursor (2)](cursor/README.md) · [Together AI (1)](together-ai/README.md)
 
-📱 **[Consumer internet & media](../company-types/consumer-internet.md)** (10) — [Google (198)](google/README.md) · [Meta (189)](meta/README.md) · [ByteDance (182)](bytedance/README.md) · [LinkedIn (88)](linkedin/README.md) · [Pinterest (76)](pinterest/README.md) · [Netflix (72)](netflix/README.md) · [Snapchat (57)](snapchat/README.md) · [Reddit (29)](reddit/README.md) · [Yelp (17)](yelp/README.md) · [Discord (1)](discord/README.md)
+📱 **[Consumer internet & media](../company-types/consumer-internet.md)** (10) — [Google (198)](google/README.md) · [Meta (190)](meta/README.md) · [ByteDance (182)](bytedance/README.md) · [LinkedIn (88)](linkedin/README.md) · [Pinterest (76)](pinterest/README.md) · [Netflix (72)](netflix/README.md) · [Snapchat (57)](snapchat/README.md) · [Reddit (29)](reddit/README.md) · [Yelp (17)](yelp/README.md) · [Discord (1)](discord/README.md)
 
-🛒 **[E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)** (14) — [Amazon (256)](amazon/README.md) · [Uber (178)](uber/README.md) · [DoorDash (71)](doordash/README.md) · [Airbnb (55)](airbnb/README.md) · [Ebay (39)](ebay/README.md) · [Lyft (36)](lyft/README.md) · [Expedia (31)](expedia/README.md) · [Walmart Labs (29)](walmart-labs/README.md) · [Instacart (28)](instacart/README.md) · [Pinduoduo (20)](pinduoduo/README.md) · [Shopify (17)](shopify/README.md) · [Whatnot (9)](whatnot/README.md) · [Faire (4)](faire/README.md) · [Stubhub (2)](stubhub/README.md)
+🛒 **[E-commerce & marketplaces](../company-types/ecommerce-marketplace.md)** (14) — [Amazon (255)](amazon/README.md) · [Uber (178)](uber/README.md) · [DoorDash (71)](doordash/README.md) · [Airbnb (55)](airbnb/README.md) · [Ebay (39)](ebay/README.md) · [Lyft (36)](lyft/README.md) · [Expedia (31)](expedia/README.md) · [Walmart Labs (29)](walmart-labs/README.md) · [Instacart (28)](instacart/README.md) · [Pinduoduo (20)](pinduoduo/README.md) · [Shopify (17)](shopify/README.md) · [Whatnot (9)](whatnot/README.md) · [Faire (4)](faire/README.md) · [Stubhub (2)](stubhub/README.md)
 
 ☁️ **[Developer tools, cloud & data infrastructure](../company-types/dev-infra.md)** (7) — [Snowflake (113)](snowflake/README.md) · [Databricks (68)](databricks/README.md) · [Datadog (26)](datadog/README.md) · [Confluent (23)](confluent/README.md) · [MongoDB (6)](mongodb/README.md) · [Sigmacomputing (5)](sigmacomputing/README.md) · [Render (1)](render/README.md)
 
@@ -58,9 +58,9 @@ The sector and size of an employer are facts about the company rather than about
 
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 256 | 5 | 42 | Sep 20, 2026 | 31 |
-| [Google](google.md) | Consumer internet & media · 10,000+ people | 198 | 3 | 18 | Sep 18, 2026 | 24 |
-| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 189 | 6 | 7 | Aug 16, 2026 | 26 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 255 | 5 | 43 | Sep 20, 2026 | 31 |
+| [Google](google.md) | Consumer internet & media · 10,000+ people | 198 | 3 | 19 | Sep 18, 2026 | 24 |
+| [Meta](meta.md) | Consumer internet & media · 10,000+ people | 190 | 6 | 8 | Aug 27, 2026 | 26 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 182 | 5 | 16 | Sep 06, 2026 | 25 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 178 | 3 | 7 | Sep 09, 2026 | 39 |
 | [Microsoft](microsoft.md) | Enterprise & business software · 10,000+ people | 139 | 5 | 20 | Sep 10, 2026 | 21 |

@@ -61,10 +61,10 @@ Of the **14 questions at Point72 that carry a topic label** (67% of them — the
 | `sorting` | 4 | 29% | ████████████ | Jul 29, 2026 |
 | `arrays` | 2 | 14% | ██████ | Jul 29, 2026 |
 | `math` | 2 | 14% | ██████ | — |
+| `strings` | 2 | 14% | ██████ | — |
 | `binary-search` | 1 | 7% | ███ | — |
 | `hashing` | 1 | 7% | ███ | Jul 29, 2026 |
 | `stack` | 1 | 7% | ███ | Mar 25, 2026 |
-| `strings` | 1 | 7% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

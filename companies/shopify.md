@@ -48,10 +48,11 @@ Of the **14 questions at Shopify that carry a topic label** (82% of them — the
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 4 | 29% | ████████████ | Apr 14, 2026 |
 | `strings` | 4 | 29% | ████████████ | May 12, 2026 |
-| `arrays` | 3 | 21% | █████████ | Aug 29, 2025 |
 | `backtracking` | 3 | 21% | █████████ | May 12, 2026 |
 | `linked-list` | 3 | 21% | █████████ | Apr 14, 2026 |
+| `arrays` | 2 | 14% | ██████ | Aug 29, 2025 |
 | `dynamic-programming` | 2 | 14% | ██████ | Aug 29, 2025 |
+| `matrix` | 1 | 7% | ███ | — |
 | `stack` | 1 | 7% | ███ | Aug 29, 2025 |
 | `trees` | 1 | 7% | ███ | Jun 15, 2026 |
 | `tries` | 1 | 7% | ███ | Jun 15, 2026 |

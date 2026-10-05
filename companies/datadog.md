@@ -42,18 +42,18 @@ Which stage each question came from, for the **26 of 26** questions at Datadog t
 
 ## What they ask about
 
-Of the **15 questions at Datadog that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Datadog that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 33% | ████████████ | Mar 06, 2026 |
-| `dynamic-programming` | 3 | 20% | ███████ | Apr 10, 2026 |
-| `math` | 2 | 13% | █████ | Feb 17, 2026 |
-| `strings` | 2 | 13% | █████ | Mar 06, 2026 |
-| `trees` | 2 | 13% | █████ | — |
-| `arrays` | 1 | 7% | ██ | — |
-| `graphs` | 1 | 7% | ██ | — |
-| `sliding-window` | 1 | 7% | ██ | Mar 06, 2026 |
+| `hashing` | 4 | 29% | ████████████ | Mar 06, 2026 |
+| `dynamic-programming` | 3 | 21% | █████████ | Apr 10, 2026 |
+| `math` | 2 | 14% | ██████ | Feb 17, 2026 |
+| `strings` | 2 | 14% | ██████ | Mar 06, 2026 |
+| `trees` | 2 | 14% | ██████ | — |
+| `arrays` | 1 | 7% | ███ | — |
+| `graphs` | 1 | 7% | ███ | — |
+| `sliding-window` | 1 | 7% | ███ | Mar 06, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -52,14 +52,14 @@ Of the **18 questions at Walmart Labs that carry a topic label** (62% of them �
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 6 | 33% | ████████████ | May 07, 2026 |
-| `two-pointers` | 5 | 28% | ██████████ | Jul 07, 2026 |
-| `binary-search` | 2 | 11% | ████ | — |
-| `greedy` | 2 | 11% | ████ | May 07, 2026 |
-| `intervals` | 2 | 11% | ████ | Apr 24, 2026 |
-| `sorting` | 2 | 11% | ████ | Apr 24, 2026 |
-| `stack` | 2 | 11% | ████ | Feb 24, 2026 |
-| `strings` | 2 | 11% | ████ | Apr 24, 2026 |
+| `arrays` | 7 | 39% | ████████████ | May 07, 2026 |
+| `two-pointers` | 5 | 28% | █████████ | Jul 07, 2026 |
+| `binary-search` | 2 | 11% | ███ | — |
+| `greedy` | 2 | 11% | ███ | May 07, 2026 |
+| `intervals` | 2 | 11% | ███ | Apr 24, 2026 |
+| `sorting` | 2 | 11% | ███ | Apr 24, 2026 |
+| `stack` | 2 | 11% | ███ | Feb 24, 2026 |
+| `strings` | 2 | 11% | ███ | Apr 24, 2026 |
 | `backtracking` | 1 | 6% | ██ | Jul 20, 2025 |
 | `hashing` | 1 | 6% | ██ | Mar 03, 2026 |
 

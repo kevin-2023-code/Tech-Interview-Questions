@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Okta** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Easy | Apr 20, 2026 |
 | **Okta** | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Easy | Apr 20, 2026 |
 | **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
 | **Snowflake** | [Document Predicate Search Engine](https://trueinterview.io/questions/document-predicate-search-engine) | Medium | Apr 20, 2026 |
@@ -260,5 +259,6 @@
 | **Stripe** | [Currency Exchange Rate Converter](https://trueinterview.io/questions/currency-exchange-rate-converter) | Medium | Nov 21, 2025 |
 | **Pinterest** | [Call Elevator](https://trueinterview.io/questions/call-elevator) | Medium | Nov 18, 2025 |
 | **Pinterest** | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Medium | Nov 18, 2025 |
+| **Lyft** | [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Medium | Nov 17, 2025 |
 
 <sub>[← Page 1](large-tech.md) · Page 2 of 5 · [Page 3 →](large-tech-3.md)</sub>

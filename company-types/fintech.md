@@ -28,20 +28,20 @@
 
 ## What they ask about
 
-Of the **161 questions in this cut that carry a topic label** (58% of it):
+Of the **163 questions in this cut that carry a topic label** (58% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 44 | 27% | ████████████ |
-| `strings` | 33 | 20% | █████████ |
-| `graphs` | 25 | 16% | ███████ |
+| `strings` | 34 | 21% | █████████ |
+| `graphs` | 24 | 15% | ███████ |
 | `greedy` | 20 | 12% | █████ |
 | `arrays` | 14 | 9% | ████ |
-| `sorting` | 12 | 7% | ███ |
+| `sorting` | 11 | 7% | ███ |
+| `dynamic-programming` | 10 | 6% | ███ |
 | `backtracking` | 9 | 6% | ██ |
-| `dynamic-programming` | 9 | 6% | ██ |
+| `trees` | 9 | 6% | ██ |
 | `intervals` | 8 | 5% | ██ |
-| `stack` | 8 | 5% | ██ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -121,7 +121,6 @@ Of the **161 questions in this cut that carry a topic label** (58% of it):
 | **Coinbase** | [Mining Block](https://trueinterview.io/questions/mining-block) | Medium | May 05, 2026 |
 | **Coinbase** | [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain) | Medium | May 05, 2026 |
 | **Uber / Block** | [Generate 2D Minesweeper Grid](https://trueinterview.io/questions/generate-2d-minesweeper-grid) | Easy | May 2026 |
-| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | May 2026 |
 | **Roblox / Atlassian / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **Stripe** | [Bit Font Renderer](https://trueinterview.io/questions/bit-font-renderer) | Medium | May 01, 2026 |
 | **Stripe** | [Working Hours Time Slots](https://trueinterview.io/questions/working-hours-time-slots) | Medium | Apr 30, 2026 |
@@ -313,6 +312,7 @@ Of the **161 questions in this cut that carry a topic label** (58% of it):
 | **Ramp** | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | Medium | — |
 | **Stripe** | [Bitmap Character Lookup: Print, Compress/Decompress, and Manipulate](https://trueinterview.io/questions/581723d6-46ce-415b-a363-39e8c0a37a19) | Medium | — |
 | **Coinbase** | [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Easy | — |
+| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | — |
 | **Uber / Amazon / Apple / Databricks / Meta / OKX / Roblox** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Medium | — |
 | **Stripe / Amazon** | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Medium | — |
 | **Stripe** | [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Medium | — |

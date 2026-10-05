@@ -51,19 +51,19 @@ Which stage each question came from, for the **76 of 76** questions at Pinterest
 
 ## What they ask about
 
-Of the **52 questions at Pinterest that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **51 questions at Pinterest that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 10 | 19% | ████████████ | Aug 26, 2026 |
-| `greedy` | 8 | 15% | ██████████ | Jun 16, 2026 |
-| `backtracking` | 7 | 13% | ████████ | Apr 18, 2026 |
-| `graphs` | 7 | 13% | ████████ | Aug 26, 2026 |
-| `arrays` | 6 | 12% | ███████ | Aug 26, 2026 |
-| `binary-search` | 6 | 12% | ███████ | Mar 28, 2026 |
-| `strings` | 6 | 12% | ███████ | May 27, 2026 |
+| `hashing` | 9 | 18% | ████████████ | Aug 26, 2026 |
+| `greedy` | 8 | 16% | ███████████ | Jun 16, 2026 |
+| `backtracking` | 7 | 14% | █████████ | Apr 18, 2026 |
+| `graphs` | 7 | 14% | █████████ | Aug 26, 2026 |
+| `arrays` | 6 | 12% | ████████ | Aug 26, 2026 |
+| `strings` | 6 | 12% | ████████ | May 27, 2026 |
+| `binary-search` | 5 | 10% | ███████ | Mar 28, 2026 |
 | `dynamic-programming` | 4 | 8% | █████ | Jan 07, 2026 |
-| `trees` | 4 | 8% | █████ | Aug 26, 2026 |
+| `math` | 4 | 8% | █████ | May 27, 2026 |
 | `heap` | 3 | 6% | ████ | Jun 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>

@@ -33,13 +33,13 @@ Of the **48 questions in this cut that carry a topic label** (70% of it):
 | `graphs` | 9 | 19% | ████████████ |
 | `hashing` | 9 | 19% | ████████████ |
 | `arrays` | 7 | 15% | █████████ |
-| `strings` | 7 | 15% | █████████ |
+| `strings` | 6 | 12% | ████████ |
 | `dynamic-programming` | 4 | 8% | █████ |
 | `math` | 4 | 8% | █████ |
 | `backtracking` | 3 | 6% | ████ |
 | `binary-search` | 3 | 6% | ████ |
+| `sorting` | 3 | 6% | ████ |
 | `topological-sort` | 3 | 6% | ████ |
-| `trees` | 3 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

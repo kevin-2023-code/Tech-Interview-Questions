@@ -5,25 +5,48 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs | Online assessment | hashing, sorting | Oct 2024 |
+| Algorithm | Medium | Goldman Sachs | Online assessment | strings, hashing, sorting | Oct 2024 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/anagram-queries)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-## Requirements
+You are handed two string arrays, `words` and `queries`. Two strings count as anagrams when the characters of one can be rearranged to spell the other — that is, both hold exactly the same letters with exactly the same multiplicities.
 
-You receive an array of `words` along with an array of `queries`. For every query, produce every entry from `words` that is an anagram of that query, with the returned entries arranged in lexicographic order.
+For each entry of `queries`, collect every string from `words` that is an anagram of that query, and arrange the collected strings in lexicographic order. Return one such ordered list per query.
 
-```text
-get_search_results(words, queries)
+Implement the following method:
+
+```java
+public static String[][] getSearchResults(String[] words, String[] queries)
 ```
 
-## Preparation
+The returned outer array has the same length as `queries`, and position `i` holds the matches for `queries[i]`.
 
-- First build the solution with a sorted-character-string key, then implement it again using a 26-integer frequency array converted into a string key so that individual words no longer need to be sorted.
-- The familiar “Group Anagrams” problem is the standard example of this fingerprinting technique.
+Two behaviors to keep in mind:
+
+* A query with no anagram among `words` maps to an empty array, not to `null`.
+* If the same string occurs several times inside `words`, every occurrence is kept, so repeated matches show up repeatedly in the output.
+
+## Examples
+
+**Example**
+
+```text
+Input:
+3
+duel speed dule
+2
+speed duel
+Output:
+1 speed
+2 duel dule
+```
+
+## Follow-ups
+
+The interviewer may push further by asking how you would handle on the order of $$10^6$$ queries.
 
 ## Hints
 

@@ -28,19 +28,19 @@
 
 ## What they ask about
 
-Of the **150 questions in this cut that carry a topic label** (64% of it):
+Of the **149 questions in this cut that carry a topic label** (63% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 27 | 18% | ████████████ |
-| `trees` | 25 | 17% | ███████████ |
-| `hashing` | 22 | 15% | ██████████ |
-| `dynamic-programming` | 21 | 14% | █████████ |
+| `graphs` | 26 | 17% | ████████████ |
+| `trees` | 25 | 17% | ████████████ |
+| `dynamic-programming` | 21 | 14% | ██████████ |
+| `hashing` | 21 | 14% | ██████████ |
 | `arrays` | 18 | 12% | ████████ |
 | `strings` | 18 | 12% | ████████ |
 | `backtracking` | 15 | 10% | ███████ |
-| `greedy` | 12 | 8% | █████ |
-| `sliding-window` | 10 | 7% | ████ |
+| `greedy` | 12 | 8% | ██████ |
+| `sliding-window` | 10 | 7% | █████ |
 | `heap` | 7 | 5% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -116,7 +116,6 @@ Of the **150 questions in this cut that carry a topic label** (64% of it):
 | **Databricks** | [Uniform Random Edges to Connect Node Groups](https://trueinterview.io/questions/uniform-random-edges-to-connect-node-groups) | Hard | May 05, 2026 |
 | **Databricks / Apple / Google / Oracle / Tesla** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | Hard | May 03, 2026 |
 | **Snowflake** | [Design an RPC Abstraction Layer for REST APIs](https://trueinterview.io/questions/design-an-rpc-abstraction-layer-for-rest-apis) | Medium | May 2026 |
-| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | May 2026 |
 | **Robinhood / Snowflake** | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design) | Medium | Apr 23, 2026 |
 | **Snowflake** | [Copy Neighbor Sums Between Binary Trees](https://trueinterview.io/questions/copy-neighbor-sums-between-binary-trees) | Medium | Apr 22, 2026 |
 | **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
@@ -288,6 +287,7 @@ Of the **150 questions in this cut that carry a topic label** (64% of it):
 | **Snowflake** | [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Easy | — |
 | **Snowflake** | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Hard | — |
 | **Snowflake** | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Hard | — |
+| **Snowflake / Goldman Sachs / Robinhood** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Medium | — |
 | **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
 | **Netflix / Apple / Snowflake** | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | Medium | — |
 | **Uber / Amazon / Apple / Databricks / Meta / OKX / Roblox** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Medium | — |

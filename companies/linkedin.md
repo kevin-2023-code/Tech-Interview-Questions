@@ -63,11 +63,11 @@ Of the **53 questions at LinkedIn that carry a topic label** (60% of them — th
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 10 | 19% | ████████████ | Aug 27, 2026 |
-| `backtracking` | 8 | 15% | ██████████ | Sep 04, 2026 |
 | `hashing` | 8 | 15% | ██████████ | Aug 27, 2026 |
-| `trees` | 7 | 13% | ████████ | Aug 27, 2026 |
+| `backtracking` | 7 | 13% | ████████ | Sep 04, 2026 |
+| `trees` | 6 | 11% | ███████ | Aug 27, 2026 |
+| `arrays` | 5 | 9% | ██████ | Aug 16, 2026 |
 | `binary-search` | 5 | 9% | ██████ | Aug 16, 2026 |
-| `arrays` | 4 | 8% | █████ | Aug 16, 2026 |
 | `linked-list` | 4 | 8% | █████ | Apr 09, 2026 |
 | `math` | 4 | 8% | █████ | Aug 24, 2026 |
 | `stack` | 4 | 8% | █████ | Aug 16, 2026 |

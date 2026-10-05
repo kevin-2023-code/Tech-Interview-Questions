@@ -54,8 +54,8 @@ Of the **14 questions at Instacart that carry a topic label** (50% of them — t
 | :-- | --: | --: | :-- | :-- |
 | `strings` | 4 | 29% | ████████████ | Jun 24, 2026 |
 | `stack` | 3 | 21% | █████████ | Jun 24, 2026 |
-| `arrays` | 2 | 14% | ██████ | Apr 04, 2026 |
 | `hashing` | 2 | 14% | ██████ | Jul 30, 2025 |
+| `arrays` | 1 | 7% | ███ | — |
 | `backtracking` | 1 | 7% | ███ | Nov 17, 2025 |
 | `binary-search` | 1 | 7% | ███ | — |
 | `graphs` | 1 | 7% | ███ | Apr 04, 2026 |

@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (256)](../companies/amazon.md) · [Uber (178)](../companies/uber.md) · [DoorDash (71)](../companies/doordash.md) · [Airbnb (55)](../companies/airbnb.md) · [Ebay (39)](../companies/ebay.md) · [Lyft (36)](../companies/lyft.md) · [Expedia (31)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Instacart (28)](../companies/instacart.md) · [Pinduoduo (20)](../companies/pinduoduo.md) · [Shopify (17)](../companies/shopify.md) · [Whatnot (9)](../companies/whatnot.md) · [Faire (4)](../companies/faire.md) · [Stubhub (2)](../companies/stubhub.md)
+[Amazon (255)](../companies/amazon.md) · [Uber (178)](../companies/uber.md) · [DoorDash (71)](../companies/doordash.md) · [Airbnb (55)](../companies/airbnb.md) · [Ebay (39)](../companies/ebay.md) · [Lyft (36)](../companies/lyft.md) · [Expedia (31)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Instacart (28)](../companies/instacart.md) · [Pinduoduo (20)](../companies/pinduoduo.md) · [Shopify (17)](../companies/shopify.md) · [Whatnot (9)](../companies/whatnot.md) · [Faire (4)](../companies/faire.md) · [Stubhub (2)](../companies/stubhub.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -32,14 +32,14 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 85 | 19% | ████████████ |
+| `arrays` | 84 | 19% | ████████████ |
+| `hashing` | 73 | 16% | ██████████ |
 | `graphs` | 72 | 16% | ██████████ |
-| `hashing` | 72 | 16% | ██████████ |
 | `strings` | 65 | 14% | █████████ |
 | `greedy` | 42 | 9% | ██████ |
 | `dynamic-programming` | 40 | 9% | ██████ |
-| `sorting` | 35 | 8% | █████ |
-| `matrix` | 30 | 7% | ████ |
+| `sorting` | 34 | 8% | █████ |
+| `matrix` | 32 | 7% | █████ |
 | `backtracking` | 28 | 6% | ████ |
 | `trees` | 28 | 6% | ████ |
 
@@ -47,7 +47,7 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 
 ## Asked here in the last 90 days
 
-**70 sightings** across this cut. Newest first.
+**71 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 | [Make Rider Addition and Dispatch Safe Under Concurrency](https://trueinterview.io/questions/make-rider-addition-and-dispatch-safe-under-concurrency) | DoorDash | System Design | Sep 10, 2026 |
 | [Answer Repeated Shortest Increasing-Path Queries](https://trueinterview.io/questions/answer-repeated-shortest-increasing-path-queries) | Uber | Algorithm | Sep 09, 2026 |
 
-<sub>58 more in this window are in the table below.</sub>
+<sub>59 more in this window are in the table below.</sub>
 
 ---
 
@@ -100,6 +100,7 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 | **Amazon** | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Hard | 🆕 Sep 01, 2026 |
 | **Amazon** | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Hard | 🆕 Aug 30, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
+| **Amazon / Meta** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Easy | 🆕 Aug 27, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Medium | 🆕 Aug 24, 2026 |
 | **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Medium | 🆕 Aug 22, 2026 |
 | **Amazon** | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Medium | 🆕 Aug 22, 2026 |
@@ -272,7 +273,7 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 | **Uber** | [Uber Eats Cart & Pricing Engine](https://trueinterview.io/questions/onsite-ood-eats-cart-pricing-engine) | Medium | May 12, 2026 |
 | **DoorDash** | [Code Craft: Chef Skill → Dish Profit Assignment](https://trueinterview.io/questions/code-craft-chef-dish-profit-assignment) | Medium | May 11, 2026 |
 | **Shopify** | [Product Categorization / Taxonomy](https://trueinterview.io/questions/ml-system-design-product-categorization) | Hard | May 10, 2026 |
-| **Uber / Amazon** | [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms) | Medium | May 10, 2026 |
+| **Uber** | [Design Meeting Scheduler](https://trueinterview.io/questions/phone-screen-meeting-scheduler-rooms) | Medium | May 10, 2026 |
 | **Uber** | [AI-Assisted Coding / Debug Round (HackerRank IDE + AI)](https://trueinterview.io/questions/vo-ai-assisted-debug-round) | Hard | May 08, 2026 |
 | **Walmart Labs** | [Permutation Maximizing Σ B&#91;i&#93; where B&#91;i&#93; &gt; A&#91;i&#93;](https://trueinterview.io/questions/permutation-max-greater-sum) | Easy | May 07, 2026 |
 | **Airbnb** | [Listing Lifetime Value — Estimation](https://trueinterview.io/questions/listing-lifetime-value-ml-design) | Medium | May 03, 2026 |
@@ -325,6 +326,5 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 | **DoorDash** | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Uber / Google** | [Shortest Subarray with At Least K Distinct](https://trueinterview.io/questions/oa-shortest-subarray-k-distinct) | Medium | Apr 01, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](ecommerce-marketplace-2.md)</sub>

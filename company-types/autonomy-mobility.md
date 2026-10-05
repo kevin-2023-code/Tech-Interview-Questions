@@ -28,7 +28,7 @@
 
 ## What they ask about
 
-Of the **83 questions in this cut that carry a topic label** (64% of it):
+Of the **84 questions in this cut that carry a topic label** (65% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -37,9 +37,9 @@ Of the **83 questions in this cut that carry a topic label** (64% of it):
 | `math` | 8 | 10% | ██████ |
 | `strings` | 8 | 10% | ██████ |
 | `arrays` | 7 | 8% | █████ |
+| `greedy` | 7 | 8% | █████ |
 | `backtracking` | 6 | 7% | ████ |
 | `dynamic-programming` | 6 | 7% | ████ |
-| `greedy` | 6 | 7% | ████ |
 | `matrix` | 6 | 7% | ████ |
 | `stack` | 6 | 7% | ████ |
 

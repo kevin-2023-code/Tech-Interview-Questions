@@ -45,16 +45,16 @@ Of the **16 questions at Rubrik that carry a topic label** (84% of them — the 
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `binary-search` | 2 | 12% | ████████████ | — |
-| `bit-manipulation` | 2 | 12% | ████████████ | — |
-| `dynamic-programming` | 2 | 12% | ████████████ | — |
-| `graphs` | 2 | 12% | ████████████ | — |
-| `greedy` | 2 | 12% | ████████████ | — |
-| `sorting` | 2 | 12% | ████████████ | — |
-| `strings` | 2 | 12% | ████████████ | — |
-| `two-pointers` | 2 | 12% | ████████████ | — |
-| `arrays` | 1 | 6% | ██████ | — |
-| `backtracking` | 1 | 6% | ██████ | — |
+| `sorting` | 3 | 19% | ████████████ | — |
+| `binary-search` | 2 | 12% | ████████ | — |
+| `bit-manipulation` | 2 | 12% | ████████ | — |
+| `dynamic-programming` | 2 | 12% | ████████ | — |
+| `graphs` | 2 | 12% | ████████ | — |
+| `two-pointers` | 2 | 12% | ████████ | — |
+| `arrays` | 1 | 6% | ████ | — |
+| `backtracking` | 1 | 6% | ████ | — |
+| `greedy` | 1 | 6% | ████ | — |
+| `hashing` | 1 | 6% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

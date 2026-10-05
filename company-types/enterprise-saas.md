@@ -28,14 +28,14 @@
 
 ## What they ask about
 
-Of the **319 questions in this cut that carry a topic label** (68% of it):
+Of the **320 questions in this cut that carry a topic label** (69% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 49 | 15% | ████████████ |
 | `strings` | 48 | 15% | ████████████ |
 | `arrays` | 45 | 14% | ███████████ |
-| `graphs` | 41 | 13% | ██████████ |
+| `graphs` | 42 | 13% | ██████████ |
 | `greedy` | 37 | 12% | █████████ |
 | `dynamic-programming` | 26 | 8% | ██████ |
 | `two-pointers` | 23 | 7% | ██████ |
