@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **ByteDance / Rubrik** | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | Easy | — |
 | **ByteDance / Pinduoduo** | [Spiral Matrix Fill](https://trueinterview.io/questions/3b33f241-83ae-4754-af33-8eac2267c5b2) | Medium | — |
 | **ByteDance / Pinduoduo** | [Longest Repeating Character Replacement](https://trueinterview.io/questions/3a164a8b-39bc-46e6-9256-95cdcd72c714) | Medium | — |
 | **ByteDance** | [Convert Between Integer and Roman (Two-Way)](https://trueinterview.io/questions/37ebf2fa-456e-422b-9a8a-e19c3815f353) | Medium | — |
@@ -43,7 +44,6 @@
 | **Amazon** | [Find Duplicates in Integer List](https://trueinterview.io/questions/bd0e2b57-f5bc-4ccc-9f1b-a850c9b902c2) | Easy | — |
 | **Amazon** | [Minimum Conflicts in Merging Two Branches](https://trueinterview.io/questions/b8150658-07b4-4d2d-a1de-6fa127801b90) | Hard | — |
 | **Amazon** | [Frequent Page Visit Pattern](https://trueinterview.io/questions/b2a33813-d10b-4a9d-a596-778a2a7fc7e8) | Medium | — |
-| **Amazon** | [Repeat Customer Visits](https://trueinterview.io/questions/a654f3a3-e029-432a-926b-60ed98685ea5) | Easy | — |
 | **Amazon** | [Replace tokens in a string using delimiter-based key-value rules](https://trueinterview.io/questions/901b3947-032c-4b3b-9e08-90eb36b9d95b) | Medium | — |
 | **Amazon** | [In-place Array Reordering (0/1/2 sort variant)](https://trueinterview.io/questions/8f2cdb13-1620-4874-900f-1597fce80c27) | Medium | — |
 | **Amazon** | [Deduplicate Events List (with Sorting + Map/Stack)](https://trueinterview.io/questions/83856d15-e217-467d-9269-2da9d2a261cd) | Easy | — |
@@ -78,7 +78,7 @@
 | **Meta / IBM / Oracle** | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Easy | — |
 | **Meta** | [Longest Increasing Sequence in BST](https://trueinterview.io/questions/366ab104-e87e-4aa3-ac9b-5763f0517723) | Medium | — |
 | **Meta / Goldman Sachs** | [Maze Path Finding](https://trueinterview.io/questions/325e267f-faaa-42a4-8bd4-5b98dbab3643) | Medium | — |
-| **Meta / NVIDIA / Upstart** | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | Easy | — |
+| **Meta / Microsoft / NVIDIA / Upstart** | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) | Easy | — |
 | **Meta** | [Binary Tree: Print Left Boundary Bottom-Up and Right Boundary Top-Down](https://trueinterview.io/questions/0d8ad1b8-ec74-4ddf-9c25-37d113f4aad3) | Medium | — |
 | **LinkedIn** | [Reverse a String](https://trueinterview.io/questions/28b8bcd2-9b73-4c32-9f13-f89038bc8e84) | Easy | — |
 | **Google** | [Maximum Coins Eaten](https://trueinterview.io/questions/6eca8cb0-2bbe-4bed-8e49-48257111c9b7) | Easy | — |
@@ -171,7 +171,7 @@
 | **OpenAI** | [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Hard | — |
 | **OpenAI** | [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Medium | — |
 | **OpenAI** | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Medium | — |
-| **Netflix** | [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Medium | — |
+| **Netflix / Uber** | [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Medium | — |
 | **Netflix** | [DFS: Print Each Node's Level and Whether It Is Balanced](https://trueinterview.io/questions/d91d2480-fd9d-4e2b-a5a6-afb3d5b4de42) | Medium | — |
 | **Netflix** | [Calculate Kullback-Leibler Divergence Between Two Distributions](https://trueinterview.io/questions/d511049a-0e9c-4ef8-8716-7ed85fb33120) | Easy | — |
 | **Netflix** | [Inverted Index with Phrase Search](https://trueinterview.io/questions/b72512c1-88e3-415d-ae28-a7cd4a1110a6) | Medium | — |

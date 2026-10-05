@@ -2,7 +2,7 @@
 
 # Databricks interview process, OA & interview questions
 
-**67 questions** reported at Databricks · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
+**68 questions** reported at Databricks · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/databricks), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Databricks interviews & the free questions](databricks/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **67** |
+| Questions tracked | **68** |
 | Most recent sighting | Sep 15, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (42% of 67) |
-| Difficulty (easy / medium / hard) | 5 / 43 / 19 |
-| Free to practise | [11](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 68) |
+| Difficulty (easy / medium / hard) | 5 / 44 / 19 |
+| Free to practise | [14](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 67 questions reported at Databricks. 46 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 68 questions reported at Databricks. 46 of them carry a sighting date; the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **67 of 67** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **68 of 68** questions at Databricks that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 29 | ██████ | [Algorithm](../formats/algorithm.md) (66%) | 2 / 23 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 47 | ██████████ | [System Design](../formats/system-design.md) (49%) | 3 / 28 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 48 | ██████████ | [System Design](../formats/system-design.md) (48%) | 3 / 29 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,20 +50,20 @@ Which stage each question came from, for the **67 of 67** questions at Databrick
 
 ## What they ask about
 
-Of the **31 questions at Databricks that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **33 questions at Databricks that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `trees` | 7 | 23% | ████████████ | Sep 06, 2026 |
-| `hashing` | 6 | 19% | ██████████ | Nov 07, 2025 |
-| `dynamic-programming` | 5 | 16% | █████████ | Jun 06, 2026 |
-| `graphs` | 5 | 16% | █████████ | Jun 29, 2026 |
-| `matrix` | 5 | 16% | █████████ | Jun 29, 2026 |
-| `strings` | 4 | 13% | ███████ | May 22, 2026 |
-| `arrays` | 3 | 10% | █████ | May 31, 2026 |
-| `sliding-window` | 3 | 10% | █████ | Nov 07, 2025 |
+| `hashing` | 7 | 21% | ████████████ | Jun 01, 2026 |
+| `trees` | 7 | 21% | ████████████ | Sep 06, 2026 |
+| `dynamic-programming` | 5 | 15% | █████████ | Jun 06, 2026 |
+| `graphs` | 5 | 15% | █████████ | Jun 29, 2026 |
+| `matrix` | 5 | 15% | █████████ | Jun 29, 2026 |
+| `strings` | 4 | 12% | ███████ | May 22, 2026 |
+| `arrays` | 3 | 9% | █████ | May 31, 2026 |
+| `greedy` | 3 | 9% | █████ | Jun 29, 2026 |
+| `sliding-window` | 3 | 9% | █████ | Nov 07, 2025 |
 | `backtracking` | 2 | 6% | ███ | Sep 06, 2026 |
-| `greedy` | 2 | 6% | ███ | Jun 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -178,6 +178,7 @@ The 8 questions to open first if you are preparing for Databricks, ranked by **t
 | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | System Design | Medium | — |
 | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
+| [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
 | [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) | Algorithm | Medium | — |

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Meta · NVIDIA · Upstart | Online assessment | two-pointers | — |
+| Algorithm | Easy | Meta · Microsoft · NVIDIA · Upstart | Online assessment | two-pointers | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -94,7 +94,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Meta](../../../companies/meta/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Upstart](../../../companies/upstart/README.md)
+[Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Upstart](../../../companies/upstart/README.md)
 
 ---
 

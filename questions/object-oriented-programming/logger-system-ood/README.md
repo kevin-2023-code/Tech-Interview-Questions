@@ -177,6 +177,23 @@ print(store.search("complete"))
 [object Object]
 ```
 
+### Requirements
+
+- Build a logger with independently configurable actions:
+  - remove every occurrence of a configured substring before printing;
+  - shorten messages to a specified maximum character count before printing;
+  - uppercase the complete message before printing;
+  - save messages in an internal list instead of printing them.
+- Use an OOD or design-pattern-oriented design, rather than one large all-in-one function.
+- Follow-up: support searching among saved messages.
+- Explain the read-versus-write trade-offs of the chosen storage structure.
+
+### Preparation
+
+- Implement a small Strategy- or Decorator-based logger, and test every ordering of the transformations.
+- Practice introducing a `SearchableStore` abstraction without needing to replace the message-processing pipeline.
+- Be ready to discuss indexing choices for read-heavy versus write-heavy substring and token queries.
+
 ## Hints
 
 <details>

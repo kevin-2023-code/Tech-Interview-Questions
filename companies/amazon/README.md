@@ -8,8 +8,8 @@ How Amazon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [252](../amazon.md) |
-| Free to read here | 29 |
+| Questions reported | [256](../amazon.md) |
+| Free to read here | 31 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Sep 20, 2026 |
@@ -34,7 +34,7 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 
 ## Free Amazon questions
 
-29 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+31 questions reported at Amazon open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -61,8 +61,10 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 | [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/house-robber-series) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Implement Softmax](../../questions/algorithm/implement-softmax/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) |
+| [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
+| [Palindrome Detection](../../questions/algorithm/palindrome-detection/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
@@ -70,7 +72,7 @@ Amazon runs two evaluations at once in almost every hour: a technical exercise a
 
 ## Everything else
 
-- [All 252 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 256 questions reported at Amazon](../amazon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Amazon question on TrueInterview](https://trueinterview.io/problems/company/amazon).
 
 ---

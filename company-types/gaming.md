@@ -76,7 +76,7 @@ Of the **41 questions in this cut that carry a topic label** (62% of it):
 | **Roblox** | [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Medium | May 19, 2026 |
 | **Robinhood / Roblox** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | Medium | May 09, 2026 |
 | **Roblox** | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Medium | May 09, 2026 |
-| **Roblox / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
+| **Roblox / Atlassian / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **Roblox** | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | Hard | Apr 18, 2026 |
 | **Roblox** | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | Medium | Apr 13, 2026 |
 | **Roblox** | [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | Hard | Apr 12, 2026 |
@@ -104,12 +104,12 @@ Of the **41 questions in this cut that carry a topic label** (62% of it):
 | **Roblox** | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Medium | Dec 23, 2025 |
 | **Roblox** | [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | Medium | Dec 23, 2025 |
 | **Roblox** | [Remove Prefix String](https://trueinterview.io/questions/remove-prefix-strings) | Medium | Dec 11, 2025 |
-| **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
+| **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
 | **Roblox** | [Minimum Height Difference Between Distant Peaks](https://trueinterview.io/questions/minimum-height-difference-between-distant-peaks) | Medium | Dec 09, 2025 |
 | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Easy | Dec 06, 2025 |
 | **Roblox** | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) | Easy | Dec 05, 2025 |
 | **Stripe / Affirm / Robinhood / Roblox / Uber** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | Hard | Oct 26, 2025 |
-| **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
+| **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Salesforce / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
 | **Roblox** | [Same Word of HTML Labels](https://trueinterview.io/questions/same-word-of-html-labels) | Medium | Sep 04, 2025 |
 | **Roblox** | [Randomly Partition Array](https://trueinterview.io/questions/randomly-partition-array) | Medium | Sep 03, 2025 |
 | **Roblox** | [Validate Playlist Sequence](https://trueinterview.io/questions/validate-playlist-sequence) | Medium | Sep 02, 2025 |
@@ -126,5 +126,5 @@ Of the **41 questions in this cut that carry a topic label** (62% of it):
 | **Roblox** | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Easy | — |
 | **Roblox** | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Easy | — |
 | **Roblox / Uber** | [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Hard | — |
-| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
+| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Reddit / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
 | **Ramp / Amazon / Bloomberg / ByteDance / Ebay / Google / IBM / Meta / Microsoft / Roblox / Snowflake / Uber / Walmart Labs** | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Medium | — |

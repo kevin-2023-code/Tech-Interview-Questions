@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Amazon · ByteDance · Gusto · Oracle | Onsite / virtual onsite | hashing, binary-search | Mar 2026 |
+| Algorithm | Medium | Uber · Amazon · ByteDance · Gusto · Microsoft · Oracle | Onsite / virtual onsite | hashing, binary-search | Mar 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/time-based-key-value-store-2)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -71,7 +71,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Uber](../../../companies/uber/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Gusto](../../../companies/gusto/README.md) · [Oracle](../../../companies/oracle/README.md)
+[Uber](../../../companies/uber/README.md) · [Amazon](../../../companies/amazon/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Gusto](../../../companies/gusto/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Oracle](../../../companies/oracle/README.md)
 
 ---
 

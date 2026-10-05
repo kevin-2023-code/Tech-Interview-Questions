@@ -42,20 +42,20 @@ Which stage each question came from, for the **24 of 24** questions at Squarepoi
 
 ## What they ask about
 
-Of the **15 questions at Squarepoint that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Squarepoint that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 3 | 20% | ████████████ | Apr 11, 2026 |
-| `binary-search` | 3 | 20% | ████████████ | Apr 11, 2026 |
-| `dynamic-programming` | 3 | 20% | ████████████ | Apr 01, 2026 |
-| `hashing` | 3 | 20% | ████████████ | — |
-| `math` | 2 | 13% | ████████ | — |
-| `sorting` | 2 | 13% | ████████ | — |
-| `stack` | 2 | 13% | ████████ | Apr 01, 2026 |
-| `two-pointers` | 2 | 13% | ████████ | Apr 01, 2026 |
-| `greedy` | 1 | 7% | ████ | — |
-| `sliding-window` | 1 | 7% | ████ | Apr 11, 2026 |
+| `arrays` | 3 | 19% | ████████████ | Apr 11, 2026 |
+| `binary-search` | 3 | 19% | ████████████ | Apr 11, 2026 |
+| `dynamic-programming` | 3 | 19% | ████████████ | Apr 01, 2026 |
+| `hashing` | 3 | 19% | ████████████ | — |
+| `math` | 2 | 12% | ████████ | — |
+| `sorting` | 2 | 12% | ████████ | — |
+| `stack` | 2 | 12% | ████████ | Apr 01, 2026 |
+| `strings` | 2 | 12% | ████████ | — |
+| `two-pointers` | 2 | 12% | ████████ | Apr 01, 2026 |
+| `greedy` | 1 | 6% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -77,7 +77,7 @@ The 8 questions to open first if you are preparing for Squarepoint, ranked by **
 | **1** | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | SQL | Hard | — | May 23, 2026 |
 | **2** | [Chunk a List of Lists](https://trueinterview.io/questions/chunk-a-list-of-lists) | Algorithm | Medium | — | Apr 11, 2026 |
 | **3** | [Minimum Idleness After K Flips](https://trueinterview.io/questions/minimum-idleness-after-k-flips) | Algorithm | Hard | — | Apr 11, 2026 |
-| **4** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 3 | Apr 02, 2026 |
+| **4** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 4 | Apr 02, 2026 |
 | **5** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
 | **6** | [Maximum Subarray](https://trueinterview.io/questions/bdf491a2-4e68-40d5-b7d9-3117bf5afbe9) 🆓 | Algorithm | Easy | 6 | — |
 | **7** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Object Oriented Programming | Medium | 3 | — |

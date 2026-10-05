@@ -8,7 +8,7 @@ How Shopify interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [15](../shopify.md) |
+| Questions reported | [17](../shopify.md) |
 | Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -52,7 +52,7 @@ The stages below follow Shopify's public description of its process; the order a
 
 ## Everything else
 
-- [All 15 questions reported at Shopify](../shopify.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 17 questions reported at Shopify](../shopify.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Shopify question on TrueInterview](https://trueinterview.io/problems/company/shopify).
 
 ---

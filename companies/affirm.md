@@ -2,7 +2,7 @@
 
 # Affirm interview process, OA & interview questions
 
-**14 questions** reported at Affirm. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/affirm), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Affirm. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/affirm), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Affirm interviews & the free questions](affirm/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **14** |
+| Questions tracked | **15** |
 | Most recent sighting | Aug 12, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (64% of 14) |
-| Difficulty (easy / medium / hard) | 3 / 8 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (60% of 15) |
+| Difficulty (easy / medium / hard) | 3 / 9 / 3 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 14 questions reported at Affirm. 7 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Affirm. 7 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **14 of 14** questions at Affirm that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Affirm that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 2 / 4 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (57%) | 2 / 2 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 2 / 4 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 2 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -49,7 +49,7 @@ Which stage each question came from, for the **14 of 14** questions at Affirm th
 
 ## What they ask about
 
-Of the **9 questions at Affirm that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Affirm that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -86,9 +86,9 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | **3** | [Group Loans by Top-Level Company](https://trueinterview.io/questions/group-loans-by-top-level-company) | Object Oriented Programming | Medium | — | Aug 06, 2026 |
 | **4** | [Live Fraud Detector](https://trueinterview.io/questions/live-fraud-detector) | Algorithm | Easy | — | Aug 01, 2026 |
 | **5** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) 🆓 | Algorithm | Medium | 2 | Jun 10, 2026 |
-| **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 8 | Dec 10, 2025 |
+| **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
 | **7** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) 🆓 | System Design | Hard | 4 | Oct 26, 2025 |
-| **8** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Object Oriented Programming | Medium | 1 | — |
+| **8** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | 9 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -116,3 +116,4 @@ The 8 questions to open first if you are preparing for Affirm, ranked by **the m
 | [High Correlation Seller](https://trueinterview.io/questions/high-correlation-seller) | Algorithm | Easy | — |
 | [End Of Day Balance](https://trueinterview.io/questions/end-of-day-balance) | Algorithm | Easy | — |
 | [Count Reversing Triples](https://trueinterview.io/questions/count-reversing-triples) | Algorithm | Medium | — |
+| [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (47% of 55) |
 | Difficulty (easy / medium / hard) | 3 / 32 / 20 |
-| Free to practise | [6](../free/README.md) |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 55 questions reported at Airbnb. 44 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -47,20 +47,20 @@ Which stage each question came from, for the **55 of 55** questions at Airbnb th
 
 ## What they ask about
 
-Of the **26 questions at Airbnb that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **27 questions at Airbnb that carry a topic label** (49% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 7 | 27% | ████████████ | Jun 26, 2026 |
-| `hashing` | 7 | 27% | ████████████ | Jun 26, 2026 |
-| `strings` | 6 | 23% | ██████████ | Jun 03, 2026 |
-| `greedy` | 5 | 19% | █████████ | Jun 03, 2026 |
+| `dynamic-programming` | 7 | 26% | ████████████ | Jun 26, 2026 |
+| `hashing` | 7 | 26% | ████████████ | Jun 26, 2026 |
+| `greedy` | 6 | 22% | ██████████ | Jun 03, 2026 |
+| `strings` | 6 | 22% | ██████████ | Jun 03, 2026 |
 | `graphs` | 4 | 15% | ███████ | Jun 17, 2026 |
-| `intervals` | 3 | 12% | █████ | Jan 07, 2026 |
-| `arrays` | 2 | 8% | ███ | Feb 28, 2026 |
-| `backtracking` | 2 | 8% | ███ | Jun 03, 2026 |
-| `binary-search` | 2 | 8% | ███ | Jan 07, 2026 |
-| `bit-manipulation` | 2 | 8% | ███ | Feb 28, 2026 |
+| `intervals` | 3 | 11% | █████ | Jan 07, 2026 |
+| `arrays` | 2 | 7% | ███ | Feb 28, 2026 |
+| `backtracking` | 2 | 7% | ███ | Jun 03, 2026 |
+| `binary-search` | 2 | 7% | ███ | Jan 07, 2026 |
+| `bit-manipulation` | 2 | 7% | ███ | Feb 28, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

@@ -8,8 +8,8 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [176](../uber.md) |
-| Free to read here | 36 |
+| Questions reported | [178](../uber.md) |
+| Free to read here | 39 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
@@ -52,7 +52,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Free Uber questions
 
-36 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+39 questions reported at Uber open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -77,10 +77,13 @@ In coding rounds, candidates typically solve the core problem in under half the 
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
+| [Verifying an Alien Dictionary](../../questions/algorithm/verifying-an-alien-dictionary/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/verifying-an-alien-dictionary) |
 | [Round-Trip Mission Schedule](../../questions/algorithm/oa-codesignal-multi-mission-routing/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) |
 | [Find Number of Joins in an Array](../../questions/algorithm/find-number-of-joins-in-an-array/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/fc4d092e-f8cd-4378-89a3-23839a79b360) |
+| [Longest Diagonal Pattern](../../questions/algorithm/longest-diagonal-pattern/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/ca8d82e9-bbbb-490a-baaf-0fb6d8be563c) |
 | [Alien Dictionary Evaluation](../../questions/algorithm/alien-dictionary-evaluation/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec) |
 | [Find Target with Rotation](../../questions/algorithm/find-target-with-rotation/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b61576ab-0661-458e-ae7d-f1a3ed8e4d3d) |
+| [Design an In-Memory File System with Recursive Wildcards](../../questions/object-oriented-programming/design-an-in-memory-file-system-with-recursive-wildcards/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) |
 | [Paint Line and Count Adjacent Same Colors](../../questions/algorithm/paint-line-and-count-adjacent-same-colors/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/688b80fe-8f40-45dc-8c98-61c2aaac7ea9) |
 | [Track Customer Website Visits](../../questions/algorithm/track-customer-website-visits/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) |
 | [Find Index of Max Rate to Price Ratio](../../questions/algorithm/find-index-of-max-rate-to-price-ratio/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/2d92d9fc-3676-44e1-a4f8-db5e99c47868) |
@@ -95,7 +98,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Everything else
 
-- [All 176 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 178 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Uber question on TrueInterview](https://trueinterview.io/problems/company/uber).
 
 ---

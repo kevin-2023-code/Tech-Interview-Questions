@@ -77,7 +77,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 2 | Jun 16, 2026 |
+| **1** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
 | **2** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) 🆓 | Algorithm | Medium | 3 | May 2026 |
 | **3** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |
 | **4** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |

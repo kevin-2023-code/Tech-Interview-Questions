@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **55** |
 | Most recent sighting | Jul 09, 2026 |
-| Reported in the last 90 days | 2 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 55) |
 | Difficulty (easy / medium / hard) | 1 / 38 / 16 |
 | Free to practise | [4](../free/README.md) |
@@ -38,20 +38,19 @@ Which stage each question came from, for the **55 of 55** questions at Waymo tha
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Phone screen | Jul 09, 2026 |
-| [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Algorithm | Hard | Phone screen | Jul 06, 2026 |
 
 ## What they ask about
 
-Of the **32 questions at Waymo that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **33 questions at Waymo that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 9 | 28% | ████████████ | Jul 06, 2026 |
+| `graphs` | 9 | 27% | ████████████ | Jul 06, 2026 |
 | `backtracking` | 4 | 12% | █████ | Jul 09, 2026 |
 | `greedy` | 4 | 12% | █████ | Nov 14, 2025 |
 | `matrix` | 4 | 12% | █████ | Jul 02, 2026 |

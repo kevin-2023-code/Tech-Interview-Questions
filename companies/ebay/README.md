@@ -8,8 +8,8 @@ How Ebay interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [35](../ebay.md) |
-| Free to read here | 6 |
+| Questions reported | [39](../ebay.md) |
+| Free to read here | 7 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 21, 2026 |
@@ -40,7 +40,7 @@ But the screen is not always an algorithm round. Reported variants include an ob
 
 ## Free Ebay questions
 
-6 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Ebay open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -48,12 +48,13 @@ But the screen is not always an algorithm round. Reported variants include an ob
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Convert Snake Case to Camel Case](../../questions/algorithm/convert-snake-case-names-to-lowercamelcase/README.md) | Algorithm | Easy | Online assessment | Apr 2025 | [Solve](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) |
 | [Hash Map Counting / Lookup Problem](../../questions/algorithm/hash-map-counting-lookup-problem/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) |
+| [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |
 
 ## Everything else
 
-- [All 35 questions reported at Ebay](../ebay.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 39 questions reported at Ebay](../ebay.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Ebay question on TrueInterview](https://trueinterview.io/problems/company/ebay).
 
 ---

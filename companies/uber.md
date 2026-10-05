@@ -2,7 +2,7 @@
 
 # Uber interview process, OA & interview questions
 
-**176 questions** reported at Uber · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
+**178 questions** reported at Uber · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/uber), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Uber interviews & the free questions](uber/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **176** |
+| Questions tracked | **178** |
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (75% of 176) |
-| Difficulty (easy / medium / hard) | 24 / 117 / 35 |
-| Free to practise | [36](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 178) |
+| Difficulty (easy / medium / hard) | 24 / 119 / 35 |
+| Free to practise | [39](../free/README.md) |
 | Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
 
-<sub>Counted from the 176 questions reported at Uber. 111 of them carry a sighting date; the other 65 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 178 questions reported at Uber. 111 of them carry a sighting date; the other 67 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **176 of 176** questions at Uber that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **178 of 178** questions at Uber that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 28 | ███ | [Algorithm](../formats/algorithm.md) (96%) | 10 / 14 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 96 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 8 / 68 / 20 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 76 | ████████ | [Algorithm](../formats/algorithm.md) (49%) | 7 / 51 / 18 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 97 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 8 / 69 / 20 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 77 | ████████ | [Algorithm](../formats/algorithm.md) (48%) | 7 / 52 / 18 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -53,15 +53,15 @@ Which stage each question came from, for the **176 of 176** questions at Uber th
 
 ## What they ask about
 
-Of the **130 questions at Uber that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **131 questions at Uber that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 35 | 27% | ████████████ | Sep 09, 2026 |
 | `arrays` | 25 | 19% | █████████ | Aug 16, 2026 |
-| `hashing` | 15 | 12% | █████ | Aug 16, 2026 |
+| `hashing` | 15 | 11% | █████ | Aug 16, 2026 |
+| `strings` | 15 | 11% | █████ | Jun 24, 2026 |
 | `matrix` | 14 | 11% | █████ | Sep 09, 2026 |
-| `strings` | 14 | 11% | █████ | Jun 24, 2026 |
 | `greedy` | 11 | 8% | ████ | May 15, 2026 |
 | `trees` | 11 | 8% | ████ | Jun 28, 2026 |
 | `backtracking` | 9 | 7% | ███ | Jun 10, 2026 |
@@ -271,6 +271,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Algorithm | Easy | — |
 | [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Algorithm | Medium | — |
 | [Flip and Compare in Arrays](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) | Algorithm | Medium | — |
+| [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | System Design | Medium | — |
 | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | System Design | Medium | — |
 | [CPU Usage Analysis](https://trueinterview.io/questions/cpu-usage-analysis) | Algorithm | Medium | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
@@ -312,5 +313,6 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Number of Ways to Wear Different Hats to Each Other](https://trueinterview.io/questions/70e9b704-fadb-5196-b645-9ef00acf84e8) | Algorithm | Hard | — |
 | [Design a Calendar Booking System](https://trueinterview.io/questions/f1096c0c-18ab-463d-a820-79fd45858a0a) | Object Oriented Programming | Medium | — |
 | [Minimum Meeting Rooms](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) | Algorithm | Medium | — |
+| [Minimum Time to Finish All Dependent Tasks with Durations (Detect Cycles)](https://trueinterview.io/questions/d9bad890-81a8-40f5-a833-94456bc91b9f) | Algorithm | Medium | — |
 | [Currency Exchange](https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971) | Algorithm | Hard | — |
 | [Reachability with restricted backward moves and prime-step jumps (digit contains 3)](https://trueinterview.io/questions/0972c04c-fd7d-4c75-a098-28f56edf1955) | Algorithm | Medium | — |

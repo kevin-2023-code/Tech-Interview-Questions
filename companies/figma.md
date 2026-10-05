@@ -2,7 +2,7 @@
 
 # Figma interview process, OA & interview questions
 
-**19 questions** reported at Figma · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
+**20 questions** reported at Figma · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Figma interviews & the free questions](figma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
+| Questions tracked | **20** |
 | Most recent sighting | Aug 12, 2026 |
-| Reported in the last 90 days | 8 |
-| Most common format | [Algorithm](../formats/algorithm.md) (42% of 19) |
-| Difficulty (easy / medium / hard) | 2 / 14 / 3 |
-| Free to practise | [2](../free/README.md) |
+| Reported in the last 90 days | 7 |
+| Most common format | [System Design](../formats/system-design.md) (45% of 20) |
+| Difficulty (easy / medium / hard) | 2 / 15 / 3 |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 19 questions reported at Figma. 15 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 20 questions reported at Figma. 16 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at Figma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **20 of 20** questions at Figma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 9 | ██████ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 7 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 15 | ██████████ | [System Design](../formats/system-design.md) (53%) | 1 / 12 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 10 | ██████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 16 | ██████████ | [System Design](../formats/system-design.md) (56%) | 1 / 13 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -49,22 +49,21 @@ Which stage each question came from, for the **19 of 19** questions at Figma tha
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | Onsite / virtual onsite | Aug 04, 2026 |
 | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jul 09, 2026 |
-| [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 06, 2026 |
 
 ## What they ask about
 
-Of the **11 questions at Figma that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Figma that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 3 | 27% | ████████████ | Aug 04, 2026 |
-| `arrays` | 2 | 18% | ████████ | Aug 12, 2026 |
-| `graphs` | 2 | 18% | ████████ | — |
-| `greedy` | 2 | 18% | ████████ | Aug 12, 2026 |
-| `math` | 2 | 18% | ████████ | Apr 13, 2026 |
-| `stack` | 2 | 18% | ████████ | Aug 04, 2026 |
-| `backtracking` | 1 | 9% | ████ | Aug 04, 2026 |
-| `sorting` | 1 | 9% | ████ | Aug 12, 2026 |
+| `greedy` | 3 | 25% | ████████████ | Aug 12, 2026 |
+| `strings` | 3 | 25% | ████████████ | Aug 04, 2026 |
+| `arrays` | 2 | 17% | ████████ | Aug 12, 2026 |
+| `graphs` | 2 | 17% | ████████ | — |
+| `math` | 2 | 17% | ████████ | Apr 13, 2026 |
+| `stack` | 2 | 17% | ████████ | Aug 04, 2026 |
+| `backtracking` | 1 | 8% | ████ | Aug 04, 2026 |
+| `sorting` | 1 | 8% | ████ | Aug 12, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -78,12 +77,12 @@ Every recorded sighting at Figma, by the month it was reported in — May 28, 20
 | [Jul 2026](../by-month/2026-07.md) | 2 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 2 | ████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 2 | ████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
 | [May 2024](../by-month/2024-05.md) | 1 | ████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Figma, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Figma, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -91,10 +90,10 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 | **2** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Object Oriented Programming | Medium | — | Aug 12, 2026 |
 | **3** | [Design a Real-Time Canvas Comment System](https://trueinterview.io/questions/realtime-comments-design) | System Design | Medium | — | Aug 12, 2026 |
 | **4** | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | — | Aug 12, 2026 |
-| **5** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | — | Aug 04, 2026 |
-| **6** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | — | Aug 04, 2026 |
+| **5** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | 2 | Aug 04, 2026 |
+| **6** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | — | Aug 04, 2026 |
 | **7** | [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | — | Jul 09, 2026 |
-| **8** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) 🆓 | Object Oriented Programming | Medium | — | Jul 06, 2026 |
+| **8** | [Design Document Layer System](https://trueinterview.io/questions/document-layer-apply-undo) | Object Oriented Programming | Medium | — | Jul 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -128,6 +127,7 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 | [File System Permissions](https://trueinterview.io/questions/file-system-permissions) | Object Oriented Programming | Medium | May 14, 2026 |
 | [ML Model Design — Prompt-to-Design Generation](https://trueinterview.io/questions/prompt-to-design-generation) | System Design | Medium | Apr 13, 2026 |
 | [Asset / Template Recommendation & Feed](https://trueinterview.io/questions/ml-recsys-assets-feed) | System Design | Medium | Apr 13, 2026 |
+| [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation) | Algorithm | Medium | Mar 03, 2026 |
 | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | System Design | Medium | May 28, 2024 |

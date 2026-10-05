@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Apple · Amazon · Bloomberg · ByteDance · Meta · NVIDIA · +5 | Phone screen | strings, stack | Feb 2026 |
+| Algorithm | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance · Intuit · +8 | Phone screen | strings, stack | Feb 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/valid-parentheses)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -94,7 +94,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Meta](../../../companies/meta/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Oracle](../../../companies/oracle/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Snowflake](../../../companies/snowflake/README.md) · [Walmart Labs](../../../companies/walmart-labs/README.md) · [WeRide](../../../companies/weride/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [Boston Consulting Group](../../../companies/boston-consulting-group/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [Intuit](../../../companies/intuit/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Oracle](../../../companies/oracle/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Snowflake](../../../companies/snowflake/README.md) · [Walmart Labs](../../../companies/walmart-labs/README.md) · [WeRide](../../../companies/weride/README.md)
 
 ---
 

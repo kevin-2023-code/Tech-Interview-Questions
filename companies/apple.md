@@ -64,7 +64,7 @@ Of the **86 questions at Apple that carry a topic label** (74% of them — the r
 | `graphs` | 15 | 17% | █████████ | Jul 27, 2026 |
 | `matrix` | 10 | 12% | ██████ | Aug 26, 2026 |
 | `strings` | 10 | 12% | ██████ | May 05, 2026 |
-| `two-pointers` | 9 | 10% | █████ | Apr 28, 2026 |
+| `two-pointers` | 8 | 9% | █████ | Apr 28, 2026 |
 | `heap` | 7 | 8% | ████ | Aug 05, 2026 |
 | `linked-list` | 7 | 8% | ████ | Aug 16, 2026 |
 | `backtracking` | 5 | 6% | ███ | Apr 20, 2026 |

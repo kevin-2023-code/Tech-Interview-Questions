@@ -5,181 +5,128 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Hard | xAI | Phone screen | — | Apr 2026 |
+| AI Coding | Hard | xAI | Phone screen | math | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
 
 ## Problem
 
-## Problem Statement
+## Data Parallel & FSDP Matrix Multiplication
 
-This coding exercise evaluates your grasp of distributed-computation patterns and NumPy operations. A starter `Communicator` class models device-to-device messaging with queues. Complete two parallel matrix-multiplication approaches:
+### Background
 
-1. **Data Parallel (DP):** Partition matrix A by rows. Every device receives the complete matrix B, computes its assigned rows, and sends the resulting block to rank 0 for gathering.
-2. **Fully Sharded Data Parallel (FSDP):** Partition A by rows and B by columns. Have devices exchange B shards in an all-gather-style rotation, computing and placing each column block as it becomes available.
+This question tests distributed-systems intuition and NumPy fundamentals: a `Communicator` that simulates device-to-device messaging with queues, and two ways to spread one matrix multiply across a fleet of devices. Suggested time: about 45 minutes, three phases.
 
-#### Starter Code
+**Data parallel** shards the batch and replicates the parameters. Every rank keeps a full copy of the parameter matrix `B`, takes a different block of rows of `A`, multiplies, and the row blocks are gathered back to rank 0. Simple, and it only works while `B` fits on a device.
 
-```python
-import threading
-import numpy as np
-from queue import Queue
+**Fully sharded data parallel (FSDP)** shards the parameters too. Rank `r` owns one column shard of `B` and nothing more. No rank ever holds the whole thing, so the shards have to travel: each rank multiplies its rows by the shard it is holding, passes that shard to its right-hand neighbour, takes one from its left, and goes again, until every shard has visited every rank. Same answer, a fraction of the memory, a lot more wire.
 
+The workspace has both, plus the training step that goes with them: the ranks computed their gradients on different slices of the batch, so they have to agree on one averaged gradient before they may take a step.
 
-class Communicator:
-    """Models communication between devices with Queues."""
-    def __init__(self, num_devices: int):
-        self.num_devices = num_devices
-        self.inboxes = [Queue() for _ in range(num_devices)]
+Ranks are simulated **in this process, as threads** -- no second GPU, no launcher. The `Communicator` in `src/comm.py` is the only channel between ranks: a rank hands data to another rank with `send` and gets data with `recv`. Reaching into a peer's arrays is not communication and does not count; every byte that crosses a rank boundary is counted, and the tests check the counters.
 
-    def send(self, src: int, dst: int, data: np.ndarray) -> None:
-        self.inboxes[dst].put((src, data))
+### What is in the workspace
 
-    def recv(self, dst: int) -> tuple:
-        return self.inboxes[dst].get()
-
-
-def compute_fn(comm, rank, a_chunk, b, result):
-    """
-    TODO: Compute one device's work for the Data Parallel strategy.
-    The device should multiply a_chunk by b and send the result to rank 0.
-    """
-    # IMPLEMENT HERE
-    pass
-
-
-def dp_mat_mul(a: np.ndarray, b: np.ndarray, num_devices: int) -> np.ndarray:
-    """
-    Multiply matrices with Data Parallelism.
-    Divide A across rows, compute each block independently, and gather at rank 0.
-    """
-    comm = Communicator(num_devices)
-    result = [None]
-    a_chunks = np.array_split(a, num_devices, axis=0)
-
-    threads = []
-    for rank in range(num_devices):
-        t = threading.Thread(
-            target=compute_fn,
-            args=(comm, rank, a_chunks[rank], b, result)
-)
-        threads.append(t)
-        t.start()
-
-    for t in threads:
-        t.join()
-
-    return result[0]
-
-
-def fsdp_mat_mul(a: np.ndarray, b: np.ndarray, num_devices: int) -> np.ndarray:
-    """
-    Multiply matrices with Fully Sharded Data Parallelism.
-    Divide A by rows and B by columns across devices.
-    TODO: Build this implementation from scratch.
-    Use an all-gather rotation in which B shards circulate while devices
-    accumulate the corresponding partial products.
-    """
-    # IMPLEMENT HERE
-    pass
-
-
-if __name__ == "__main__":
-    np.random.seed(42)
-    M, K, N, num_devices = 8, 6, 4, 2
-    a = np.random.randn(M, K)
-    b = np.random.randn(K, N)
-    expected = a @ b
-
-    result_dp = dp_mat_mul(a, b, num_devices)
-    assert np.allclose(result_dp, expected), "DP result mismatch!"
-    print("DP passed!")
-
-    result_fsdp = fsdp_mat_mul(a, b, num_devices)
-    assert np.allclose(result_fsdp, expected), "FSDP result mismatch!"
-    print("FSDP passed!")
+```text
+src/
+  comm.py          Communicator: one inbox per rank, send / recv, traffic counters
+  sharding.py      who owns which rows of A, which columns of B, where a block goes back
+  collectives.py   gather_to_root, reduce_mean, ring_neighbors
+  dp.py            data parallel: dp_mat_mul, dp_train_step        (complete)
+  fsdp.py          fully sharded: fsdp_mat_mul, fsdp_grad_step     (yours to write)
+main.py            a demo of the call shapes
+tests/
+  test_sharding.py      Phase 1
+  test_collectives.py   Phase 1
+  test_dp.py            Phase 1
+  test_fsdp.py          Phase 2
+  test_performance.py   Phase 3 (wall clock)
+  test_fsdp_wire.py     Phase 3 (largest message on the wire)
+requirements.txt   numpy
 ```
 
-#### Constraints
+### Phase 1 -- Fix the bugs
 
-* All inter-device messaging must use the supplied `Communicator` class.
-* A device thread may access only its own data shard; do not bypass communication through shared-memory shortcuts.
-* The computed matrices must be numerically equivalent to `a @ b`, as checked with `np.allclose`.
-* The implementation should support any `num_devices` that evenly divides both M and N.
+Data parallel is fully implemented and it does not work.
 
-#### Test Cases
+There are exactly **4 bugs**: two in `src/sharding.py` and two in `src/collectives.py`. There are none in `src/dp.py`, none in `src/comm.py`, and none in the tests. `src/dp.py` is where you will *see* most of the damage; it is not where the damage is.
 
-```python
-# Test 1: Basic 2-device DP
-np.random.seed(42)
-a = np.random.randn(8, 6)
-b = np.random.randn(6, 4)
-assert np.allclose(dp_mat_mul(a, b, 2), a @ b)
+Every docstring states the intended behaviour; the code does not always agree with it. Read the failing tests, then make the code agree.
 
-# Test 2: Basic 2-device FSDP
-assert np.allclose(fsdp_mat_mul(a, b, 2), a @ b)
-
-# Test 3: 4-device DP
-a = np.random.randn(16, 8)
-b = np.random.randn(8, 12)
-assert np.allclose(dp_mat_mul(a, b, 4), a @ b)
-
-# Test 4: 4-device FSDP
-assert np.allclose(fsdp_mat_mul(a, b, 4), a @ b)
-
-# Test 5: Single device (degenerate case)
-a = np.random.randn(4, 3)
-b = np.random.randn(3, 5)
-assert np.allclose(dp_mat_mul(a, b, 1), a @ b)
-assert np.allclose(fsdp_mat_mul(a, b, 1), a @ b)
+```text
+python -m unittest discover -s tests -p "test_sharding.py" -v
+python -m unittest discover -s tests -p "test_collectives.py" -v
+python -m unittest discover -s tests -p "test_dp.py" -v
 ```
 
-### Follow-Up Discussion Topics
+### Phase 2 -- Implement FSDP
 
-#### Why FSDP Over DP?
+`src/fsdp.py` is empty. Write both functions to their docstrings.
 
-In production LLM training, parameter counts can reach hundreds of billions. Data Parallelism duplicates the complete model on every device, which is impractical when one GPU provides 80GB but the model needs 400GB. FSDP instead shards parameters and optimizer state, changing per-device storage from O(Model) to O(Model/D).
+- `fsdp_mat_mul(a, b, num_devices)` -- `a` sharded by rows, `b` sharded by columns, ring rotation of the parameter shards, the full product returned on rank 0. Track which columns of the output the shard in your hands feeds: after `k` rotations it is not the shard you started with.
+- `fsdp_grad_step(param_shards, local_grads, num_devices, lr)` -- one synchronous optimizer step. Every rank ends holding its own updated shard of the parameter, stepped on the mean of every rank's gradient.
 
-#### Communication Patterns in Practice
+The result must match `a @ b` (up to float tolerance) for every `num_devices`, including 1. No rank may be handed the whole `b`, and no single message may carry it.
 
-| Pattern | Used By | Description |
-| --- | --- | --- |
-| All-Reduce | DP gradient sync | Add gradients from all devices together |
-| All-Gather | FSDP forward pass | Reassemble complete parameters from shards |
-| Reduce-Scatter | FSDP backward pass | Reduce gradients while distributing the reduced shards |
-| Ring topology | NCCL backend | Bandwidth-efficient for large tensors |
-| Tree topology | Small messages | Lower latency for small messages |
+```text
+python -m unittest discover -s tests -p "test_fsdp.py" -v
+```
 
-#### Hybrid Parallelism (Real xAI/Grok Scale)
+### Phase 3 -- Make the reduction cheap
 
-Training models at Grok scale combines several forms of parallelism:
+The obvious way to write `fsdp_grad_step` is the way `src/dp.py` already reduces: every rank ships its whole gradient to every other rank and adds them all up. It is correct. It costs `num_devices` times more arithmetic and `num_devices` times more wire than it has to, and it quietly puts a full-size parameter tensor back on a device that was sharded precisely because that tensor did not fit.
 
-* **FSDP** across nodes: distribute model-parameter shards among machines
-* **Tensor Parallel (TP)** within a node: divide individual matrix multiplications among GPUs connected by fast NVLink
-* **Pipeline Parallel (PP)**: assign model layers to stages and stream micro-batches through them
-* **Sequence Parallel (SP)**: partition the sequence dimension for long-context training
+Both of those are gated: one test watches the clock, one watches the wire.
+
+```text
+python -m unittest discover -s tests -p "test_performance.py" -v
+python -m unittest discover -s tests -p "test_fsdp_wire.py" -v
+```
+
+### Running everything
+
+```text
+pip install -r requirements.txt
+python -m unittest discover -s tests -v
+python main.py
+```
+
+Python 3.9+ and numpy, nothing else, no network. The Phase 3 test allocates about 270 MB of float32 gradients and takes a couple of seconds; the other suites are instant.
+
+### What is evaluated
+
+- All suites pass with the tests unedited.
+- All inter-rank data moves through the `Communicator`; a rank only touches its own shard.
+- FSDP never materializes the full parameter (or the full averaged gradient) on any one rank, and no message carries more than one shard.
+- You can explain the memory, compute and communication trade-offs between the two schemes.
+
+### Follow-up discussion
+
+- **Why FSDP over DP?** At production LLM scale the parameters (and optimizer state) do not fit on one device -- for example an 80 GB GPU against a 400 GB model. Replicating them is impossible; sharding takes per-device storage from O(model) to O(model / D).
+- **Communication patterns in practice:** all-reduce for data-parallel gradient sync, all-gather to reassemble parameters in the FSDP forward pass, reduce-scatter for the FSDP backward pass; ring topologies for bandwidth on large tensors, tree topologies for latency on small messages.
+- **Hybrid parallelism at very large scale:** FSDP across nodes, tensor parallelism within a node over fast NVLink, pipeline parallelism across layer stages with micro-batches, and sequence parallelism for long contexts.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Focus on how to split the matrix multiplication workload across workers and aggregate partial results efficiently.
+Separate the two strategies by what gets sharded: data parallel splits the batch while FSDP splits the parameters.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For data parallelism, consider using all-reduce to sum gradients, for FSDP, think about sharding parameters and communication patterns.
+Model each rank as an object holding its local shard and use the communicator's send/receive queues to move blocks between ranks.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Aim to overlap computation with communication to hide latency, and handle the case where workers may have different amounts of data.
+For FSDP, remember that each rank needs the other ranks' parameter shards before it can compute its output block, so plan the all-gather step carefully.
 
 </details>
 

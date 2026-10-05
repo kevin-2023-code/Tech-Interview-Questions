@@ -12,39 +12,34 @@
 
 ## Problem
 
-## Requirements
+You are asked to design a system for a flash sale where a large volume of users attempts to purchase a product with very limited inventory.
 
-- Functional capabilities:
-  - Allow customers to join the purchasing process for a heavily sought-after item during a flash-sale event.
-  - Maintain correct accounting for the small available stock.
-  - Finalize an order or hold inventory for customers who succeed.
-  - Present understandable error outcomes if stock has been exhausted or a charge cannot be completed.
-- Scale and limitations:
-  - Around a release window, the platform may receive traffic from millions of customers.
-  - Available stock is limited compared with the number of interested buyers.
-  - Rather than flooding checkout, stock management, or payment services, the design should shed and control load safely.
-- Topics for design discussion:
-  - whether buyers should use a waiting area or proceed straight to checkout
-  - the lifetime of an admission token or inventory hold before charging
-  - edge-level throttling and backpressure mechanisms
-  - idempotent order submission and protection against repeated clicks
-  - flows for both successful and failed outcomes
+## Functional Requirements
 
-## Notes
+- Allow users to join a purchase process when demand spikes during a flash sale.
+- Maintain correct counts of the limited stock.
+- Finalize the purchase or reservation for users who succeed.
+- Provide explicit failure messages when the item is sold out or payment does not go through.
 
-- Cover both the successful and unsuccessful journeys. In addition to a service diagram, describe what happens for a completed purchase, sold-out inventory, an expired hold, a declined payment, and a retry attempt.
-- Regulating the arrival rate is a key concern. Introducing a queue, access credential, or gradual admission process is more important than merely scaling out web servers.
-- Accurate stock handling takes priority over cart usability; the design must prevent inventory from being sold more than once.
+## Scale and Constraints
 
-## Preparation
+- Up to millions of users may arrive simultaneously at launch.
+- The available inventory is very small compared to the number of interested buyers.
+- The system should shed load or slow down gracefully rather than causing overload of checkout, inventory, or payment services.
 
-_High-level flow for flash sale system with edge rate limiting, waiting area, inventory reservation, and payment outcomes._
+## Design Decisions to Discuss
 
-![Flash sale flow with rate limiting queue inventory reservation and payment outcomes](https://cgppcnnkwbfiieexbrea.supabase.co/storage/v1/object/public/question-images/diagrams/35342bcd6ae39505e79fcee85817b8cc.svg)
+- Should you use a waiting room or queue instead of direct checkout?
+- How to set a time-to-live (TTL) for a token or reservation before payment?
+- Where to apply rate limiting and backpressure at the edge?
+- How to make checkout idempotent and handle users clicking multiple times?
+- What are the workflows for both successful and unsuccessful scenarios?
 
-- Sketch the end-to-end path beginning with edge rate control, then the waiting area, reservation component, payment processing, and final confirmation.
-- Be ready to explain an idempotency approach involving request identifiers, reservation identifiers, payment reattempts, and repeated payment callbacks.
-- Be comfortable discussing capacity in terms of arrival peaks, requests admitted each second, queue size, reservation duration, and downstream timeout limits.
+## Interview Notes
+
+- Your answer must cover both the successful path and the failure paths. Go beyond drawing a component diagram; describe the sequence for a successful purchase, a sold-out item, a timeout, a payment failure, and a retry.
+- Traffic smoothing is a key concern. Using a queue, an admission token, or a staged release is more important than merely scaling up web servers.
+- Getting inventory right is more critical than providing a convenient cart experience. Overselling is the primary failure mode to prevent.
 
 ## Hints
 

@@ -66,7 +66,7 @@ The 6 questions to open first if you are preparing for GEICO, ranked by **the mo
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 3 | Apr 02, 2026 |
+| **1** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) 🆓 | Algorithm | Medium | 4 | Apr 02, 2026 |
 | **2** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
 | **3** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Algorithm | Easy | — | — |
 | **4** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Algorithm | Medium | — | — |

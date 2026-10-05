@@ -32,7 +32,7 @@
 | **Goldman Sachs** | [Implement Heap Insert](https://trueinterview.io/questions/21b6a445-4f44-5df6-b4fe-1c7a01c4aac6) | Medium | — |
 | **Coinbase** | [Transaction History System with Add, Delete, and Balance Calculation](https://trueinterview.io/questions/7c91bdaf-7852-4e5f-a023-d6b03d998867) | Easy | — |
 | **LinkedIn** | [LRU Cache with Counters](https://trueinterview.io/questions/78341155-cbbe-5ad1-a69b-4397d1288bef) | Medium | — |
-| **Anthropic** | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Hard | — |
+| **Anthropic / Lyft** | [In-Memory Key-Value Store with Nested Transactions and Value Counts](https://trueinterview.io/questions/20ebc05b-c152-573c-aa66-541458bdacc0) | Hard | — |
 | **LinkedIn** | [Shortest Word Distance II](https://trueinterview.io/questions/a87d7c6b-06c5-5d2c-9924-55712f12b1e0) | Medium | — |
 | **IBM / Oracle** | [Design Authentication Manager](https://trueinterview.io/questions/fffd1adb-8564-54b2-a493-eb65a9b78c1a) | Medium | — |
 | **Bloomberg** | [Refactor an LRU Cache into a Pluggable Eviction-Policy Cache](https://trueinterview.io/questions/312640e3-e5d3-5e4b-b47f-0a997bf3471d) | Hard | — |
@@ -65,7 +65,7 @@
 | **Circle** | [Design a Recipe Storage System with Case-Insensitive Name Uniqueness and String IDs](https://trueinterview.io/questions/a50dfa50-dd7a-4d96-92e5-4a2f7fef2dbd) | Medium | — |
 | **Arista** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | Medium | — |
 | **Sigmacomputing** | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | Medium | — |
-| **Lyft** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
+| **Lyft / Applied Intuition** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
 | **Confluent** | [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1) | Medium | — |
 | **Confluent / Pinterest** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Medium | — |
 | **Affirm / Amazon** | [Design Card Game](https://trueinterview.io/questions/design-card-game) | Medium | — |
@@ -98,7 +98,7 @@
 | **PayPal** | [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | Medium | — |
 | **Ebay** | [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e) | Easy | — |
 | **Dropbox** | [API Design for Long Running Requests](https://trueinterview.io/questions/ea7d38db-f5ac-4619-b82f-c7d0228d01ca) | Medium | — |
-| **Dropbox** | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Medium | — |
+| **Dropbox / Databricks** | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Medium | — |
 | **Dropbox** | [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8) | Medium | — |
 | **Dropbox** | [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8) | Medium | — |
 | **Confluent** | [Design Scalable TinyURL Service with One-to-One URL Mapping](https://trueinterview.io/questions/de4acc6e-512d-4f63-8ca0-4520fda00b7a) | Medium | — |
@@ -124,7 +124,7 @@
 | **Tesla** | [Flatten Nested List Iterator](https://trueinterview.io/questions/ab2991f4-f95b-59ad-86be-d5b4b8547533) | Easy | — |
 | **Instacart** | [Implement Search and Filter UI for a Library Management Table](https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81) | Medium | — |
 | **Intuit** | [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Medium | — |
-| **Anthropic / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
+| **Anthropic / Affirm / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
 | **Anthropic** | [Concurrent Web Crawler](https://trueinterview.io/questions/24ef32e6-b554-41ca-977b-307982b4d871) | Medium | — |
 | **Anthropic** | [Web Crawler Implementation](https://trueinterview.io/questions/cdf0facf-7e01-47e4-9261-15bb1346366e) | Medium | — |
 | **SoFi** | [Design a Multi-threaded Task Executor with Extensible Task Types (Semaphore-based)](https://trueinterview.io/questions/4e7be800-1e64-44b9-ada0-f2cb1c43c816) | Medium | — |
@@ -192,13 +192,13 @@
 | **Robinhood / Uber** | [Design a Calendar Booking System](https://trueinterview.io/questions/f1096c0c-18ab-463d-a820-79fd45858a0a) | Medium | — |
 | **Robinhood** | [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212) | Easy | — |
 | **Rippling** | [Driver Payroll: sum salaries of driving records up to a timestamp](https://trueinterview.io/questions/fc5a915a-d060-407d-a337-cbd179a6230d) | Medium | — |
-| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
+| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Reddit / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
 | **Reddit** | [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444) | Medium | — |
 | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Medium | — |
 | **OpenAI** | [Implement a Simple Key-Value Store from Scratch](https://trueinterview.io/questions/b4834cb9-c51e-4405-9adb-f8f28a99335d) | Medium | — |
 | **OpenAI** | [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Medium | — |
 | **OpenAI / Perplexity** | [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Medium | — |
-| **Netflix** | [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Medium | — |
+| **Netflix / Oracle** | [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Medium | — |
 | **Netflix** | [Double-Checked Locking / Locking Correctness in Multithreaded Code](https://trueinterview.io/questions/6bcb25e8-ba72-4809-9b07-09b387195248) | Medium | — |
 | **Netflix** | [Design a word counter for streaming text](https://trueinterview.io/questions/4840a6ed-a44c-4478-b55f-eff03d261fcf) | Medium | — |
 | **Databricks** | [Lazy Array (Delayed Evaluation Array)](https://trueinterview.io/questions/240da66e-fee4-4897-a81e-75c7dad94bff) | Easy | — |

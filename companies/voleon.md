@@ -49,8 +49,8 @@ Of the **6 questions at Voleon that carry a topic label** (86% of them — the r
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 33% | ████████████ | — |
 | `hashing` | 2 | 33% | ████████████ | Jun 27, 2026 |
+| `arrays` | 1 | 17% | ██████ | — |
 | `intervals` | 1 | 17% | ██████ | — |
 | `math` | 1 | 17% | ██████ | — |
 | `strings` | 1 | 17% | ██████ | Oct 26, 2024 |

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (29% of 70) |
 | Difficulty (easy / medium / hard) | 9 / 39 / 22 |
-| Free to practise | [11](../free/README.md) |
+| Free to practise | [9](../free/README.md) |
 | Guides & writeups | 6 |
 
 <sub>Counted from the 70 questions reported at Anthropic. 40 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -30,9 +30,9 @@ Which stage each question came from, for the **70 of 70** questions at Anthropic
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 16 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (56%) | 5 / 7 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 15 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 5 / 7 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 30 | ███████ | [Algorithm](../formats/algorithm.md) (47%) | 0 / 20 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 41 | ██████████ | [AI Coding](../formats/ai-coding.md) (37%) | 5 / 22 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 42 | ██████████ | [AI Coding](../formats/ai-coding.md) (36%) | 5 / 22 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -43,20 +43,20 @@ Which stage each question came from, for the **70 of 70** questions at Anthropic
 
 ## What they ask about
 
-Of the **24 questions at Anthropic that carry a topic label** (34% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **25 questions at Anthropic that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 9 | 38% | ████████████ | Jun 10, 2026 |
-| `strings` | 5 | 21% | ███████ | Jun 04, 2026 |
-| `graphs` | 4 | 17% | █████ | Jun 19, 2026 |
+| `hashing` | 9 | 36% | ████████████ | Jun 10, 2026 |
+| `strings` | 5 | 20% | ███████ | Jun 04, 2026 |
+| `graphs` | 4 | 16% | █████ | Jun 19, 2026 |
 | `greedy` | 2 | 8% | ███ | May 28, 2026 |
+| `math` | 2 | 8% | ███ | Mar 02, 2026 |
 | `sorting` | 2 | 8% | ███ | May 03, 2026 |
 | `stack` | 2 | 8% | ███ | Jun 04, 2026 |
 | `tries` | 2 | 8% | ███ | May 28, 2026 |
 | `arrays` | 1 | 4% | █ | — |
 | `backtracking` | 1 | 4% | █ | Jun 10, 2026 |
-| `heap` | 1 | 4% | █ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

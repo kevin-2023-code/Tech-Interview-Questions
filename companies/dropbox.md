@@ -61,12 +61,12 @@ The 8 questions to open first if you are preparing for Dropbox, ranked by **the 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) 🆓 | Algorithm | Medium | 2 | — |
-| **2** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Algorithm | Easy | — | — |
-| **3** | [Tetris-like Block Drop Simulation](https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6) | Algorithm | Medium | — | — |
-| **4** | [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8) | Object Oriented Programming | Medium | — | — |
-| **5** | [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8) | Object Oriented Programming | Medium | — | — |
-| **6** | [Shortest Path with Uniform Walking Method](https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739) | Algorithm | Medium | — | — |
-| **7** | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | — | — |
+| **2** | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | 1 | — |
+| **3** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Algorithm | Easy | — | — |
+| **4** | [Tetris-like Block Drop Simulation](https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6) | Algorithm | Medium | — | — |
+| **5** | [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8) | Object Oriented Programming | Medium | — | — |
+| **6** | [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8) | Object Oriented Programming | Medium | — | — |
+| **7** | [Shortest Path with Uniform Walking Method](https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739) | Algorithm | Medium | — | — |
 | **8** | [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9) | System Design | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>

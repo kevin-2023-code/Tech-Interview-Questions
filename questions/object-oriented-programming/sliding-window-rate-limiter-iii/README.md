@@ -126,7 +126,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Rippling](../../../companies/rippling/README.md) · [Amazon](../../../companies/amazon/README.md) · [Atlassian](../../../companies/atlassian/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Oracle](../../../companies/oracle/README.md) · [Pinterest](../../../companies/pinterest/README.md) · [Roblox](../../../companies/roblox/README.md) · [Waymo](../../../companies/waymo/README.md) · [xAI](../../../companies/xai/README.md)
+[Rippling](../../../companies/rippling/README.md) · [Amazon](../../../companies/amazon/README.md) · [Atlassian](../../../companies/atlassian/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [NVIDIA](../../../companies/nvidia/README.md) · [Oracle](../../../companies/oracle/README.md) · [Reddit](../../../companies/reddit/README.md) · [Roblox](../../../companies/roblox/README.md) · [Waymo](../../../companies/waymo/README.md) · [xAI](../../../companies/xai/README.md)
 
 ---
 

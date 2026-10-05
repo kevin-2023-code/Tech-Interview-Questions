@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**103 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**104 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **103** |
+| Questions tracked | **104** |
 | Most recent sighting | Aug 22, 2026 |
 | Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (40% of 103) |
-| Difficulty (easy / medium / hard) | 7 / 54 / 42 |
-| Free to practise | [11](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (39% of 104) |
+| Difficulty (easy / medium / hard) | 8 / 54 / 42 |
+| Free to practise | [13](../free/README.md) |
 | Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 103 questions reported at OpenAI. 54 of them carry a sighting date; the other 49 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 104 questions reported at OpenAI. 54 of them carry a sighting date; the other 50 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **103 of 103** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **104 of 104** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (60%) | 3 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 50 | ████████ | [Algorithm](../formats/algorithm.md) (66%) | 1 / 32 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 65 | ██████████ | [System Design](../formats/system-design.md) (34%) | 3 / 32 / 30 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 66 | ██████████ | [System Design](../formats/system-design.md) (35%) | 4 / 32 / 30 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -52,17 +52,17 @@ Which stage each question came from, for the **103 of 103** questions at OpenAI 
 
 ## What they ask about
 
-Of the **38 questions at OpenAI that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **39 questions at OpenAI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 6 | 16% | ████████████ | Jun 19, 2026 |
+| `graphs` | 6 | 15% | ████████████ | Jun 19, 2026 |
 | `hashing` | 5 | 13% | ██████████ | Aug 22, 2026 |
 | `strings` | 5 | 13% | ██████████ | May 15, 2026 |
-| `arrays` | 4 | 11% | ████████ | Feb 04, 2026 |
-| `sorting` | 4 | 11% | ████████ | Mar 09, 2026 |
+| `arrays` | 4 | 10% | ████████ | Feb 04, 2026 |
+| `greedy` | 4 | 10% | ████████ | May 31, 2026 |
+| `sorting` | 4 | 10% | ████████ | Mar 09, 2026 |
 | `backtracking` | 3 | 8% | ██████ | Jun 19, 2026 |
-| `greedy` | 3 | 8% | ██████ | May 31, 2026 |
 | `math` | 3 | 8% | ██████ | Jul 31, 2026 |
 | `binary-search` | 2 | 5% | ████ | Nov 17, 2025 |
 | `heap` | 2 | 5% | ████ | Jun 08, 2026 |
@@ -212,6 +212,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Object Oriented Programming | Hard | — |
 | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | AI Coding | Hard | — |
 | [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | AI Coding | Hard | — |
+| [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | — |
 | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | AI Coding | Medium | — |
 | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Algorithm | Hard | — |
 | [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Algorithm | Medium | — |

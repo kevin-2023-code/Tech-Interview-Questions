@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | Snowflake · Applied Intuition | Phone screen, Onsite / virtual onsite | — | Feb 2026 |
+| Object Oriented Programming | Medium | Snowflake · Applied Intuition · Lyft | Phone screen, Onsite / virtual onsite | — | Feb 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-key-value-store-with-transactions)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -214,21 +214,21 @@ The lock must cover the complete **read-from-disk, modify, write-to-disk** seque
 <details>
 <summary>Hint 1</summary>
 
-Think of transactions as a stack of snapshots—each begin creates a new layer that can be committed or rolled back independently.
+Build the basic get/set/delete first, then layer transactions on top as a separate concern.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a HashMap for the base store and a stack of HashMaps for transaction-local changes, merging on commit and discarding on rollback.
+For nested transactions, a stack of undo logs or snapshots lets you roll back only the innermost transaction's changes.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-For multi-threading, consider using locks or optimistic concurrency control to ensure atomicity of transactions without deadlocks.
+For thread safety, decide whether you need a global lock or finer-grained locking, and ensure commit/rollback are atomic with respect to other operations.
 
 </details>
 
@@ -238,7 +238,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Snowflake](../../../companies/snowflake/README.md) · [Applied Intuition](../../../companies/applied-intuition/README.md)
+[Snowflake](../../../companies/snowflake/README.md) · [Applied Intuition](../../../companies/applied-intuition/README.md) · [Lyft](../../../companies/lyft/README.md)
 
 ---
 

@@ -8,8 +8,8 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [77](../pinterest.md) |
-| Free to read here | 6 |
+| Questions reported | [76](../pinterest.md) |
+| Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
@@ -38,20 +38,19 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 
 ## Free Pinterest questions
 
-6 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
-| [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
-| [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 
 ## Everything else
 
-- [All 77 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 76 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Pinterest question on TrueInterview](https://trueinterview.io/problems/company/pinterest).
 
 ---

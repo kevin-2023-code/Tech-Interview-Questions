@@ -77,7 +77,7 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 | **2** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
 | **3** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | — | Jun 24, 2026 |
 | **4** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | — | Jun 02, 2026 |
-| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
+| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 4 | May 2026 |
 | **6** | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | — | Apr 20, 2026 |
 | **7** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | — | Apr 20, 2026 |
 | **8** | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) 🆓 | Algorithm | Medium | — | Nov 05, 2025 |

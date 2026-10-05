@@ -8,8 +8,8 @@ How Figma interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [19](../figma.md) |
-| Free to read here | 2 |
+| Questions reported | [20](../figma.md) |
+| Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Aug 12, 2026 |
@@ -34,16 +34,17 @@ Figma's question pool is unusually narrow — one document-and-layers exercise a
 
 ## Free Figma questions
 
-2 questions reported at Figma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+3 questions reported at Figma open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Design Document Layer System](../../questions/object-oriented-programming/document-layer-apply-undo/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 2026 | [Solve](https://trueinterview.io/questions/document-layer-apply-undo) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
+| [Template & Instance System with Update Propagation](../../questions/system-design/template-instance-propagation-system/README.md) | System Design | Medium | Onsite / virtual onsite | May 2024 | [Solve](https://trueinterview.io/questions/template-instance-propagation-system) |
 
 ## Everything else
 
-- [All 19 questions reported at Figma](../figma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 20 questions reported at Figma](../figma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Figma question on TrueInterview](https://trueinterview.io/problems/company/figma).
 
 ---

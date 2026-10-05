@@ -45,7 +45,6 @@ Of the **2 questions at Cursor that carry a topic label** (100% of them — the 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `greedy` | 1 | 50% | ████████████ | Apr 07, 2026 |
-| `hashing` | 1 | 50% | ████████████ | Apr 07, 2026 |
 | `trees` | 1 | 50% | ████████████ | Apr 07, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -60,12 +59,12 @@ Every recorded sighting at Cursor, by the month it was reported in — Apr 07, 2
 
 ## Start here
 
-The 2 questions to open first if you are preparing for Cursor, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 2 questions to open first if you are preparing for Cursor, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) 🆓 | System Design | Easy | — | Apr 07, 2026 |
-| **2** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) 🆓 | System Design | Hard | — | Apr 07, 2026 |
+| **1** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) 🆓 | System Design | Hard | 1 | Apr 07, 2026 |
+| **2** | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) 🆓 | System Design | Easy | — | Apr 07, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

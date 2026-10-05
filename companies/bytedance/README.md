@@ -8,8 +8,8 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [176](../bytedance.md) |
-| Free to read here | 23 |
+| Questions reported | [182](../bytedance.md) |
+| Free to read here | 25 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Sep 06, 2026 |
@@ -38,7 +38,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Free ByteDance questions
 
-23 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+25 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -47,6 +47,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [In-Flight Movie Pair (Two Sum Variant)](../../questions/algorithm/in-flight-movie-pair-two-sum/README.md) | Algorithm | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) |
@@ -56,9 +57,10 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
-| [Nested Set Equality](../../questions/algorithm/nested-set-equality/README.md) | Algorithm | Medium | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/nested-set-equality) |
+| [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/largest-rectangle-histogram) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
+| [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Remove Duplicates from Sorted Linked List](../../questions/algorithm/remove-duplicates-from-sorted-linked-list/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) |
 | [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
@@ -68,7 +70,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Everything else
 
-- [All 176 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 182 questions reported at ByteDance](../bytedance.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every ByteDance question on TrueInterview](https://trueinterview.io/problems/company/bytedance).
 
 ---

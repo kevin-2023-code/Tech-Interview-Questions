@@ -42,7 +42,7 @@ One screen plus at least one onsite round, both medium difficulty and both timed
 
 The centerpiece, and sometimes two separate rounds. The product-facing one asks for recommendation or ranking end to end: candidate generation, feature stores, handling short-lived session signals alongside stable long-term preferences, cold start, online versus offline evaluation, and serving at low latency. The platform-facing one asks for the training and inference pipeline itself — distributed training, experiment tracking, containerized serving, monitoring, and how model updates ship behind an experiment. Strong answers commit to a serving path and defend its latency budget; weak ones stay at the box-diagram level and never say where features come from at request time.
 
-- [Job Scheduler System Design](https://trueinterview.io/questions/job-scheduler-design)
+- [Job Scheduler System Design](../../questions/system-design/job-scheduler-design/README.md)
 
 ### ML Theory
 

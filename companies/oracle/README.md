@@ -8,8 +8,8 @@ How Oracle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [81](../oracle.md) |
-| Free to read here | 12 |
+| Questions reported | [84](../oracle.md) |
+| Free to read here | 13 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 11, 2026 |
@@ -34,11 +34,12 @@ Oracle's interview loop changes shape more from team to team than almost any com
 
 ## Free Oracle questions
 
-12 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at Oracle open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design Dropbox](../../questions/system-design/design-dropbox/README.md) | System Design | Hard | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-dropbox) |
+| [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [OOD — File Management System](../../questions/object-oriented-programming/ood-file-management-system/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/ood-file-management-system) |
@@ -53,7 +54,7 @@ Oracle's interview loop changes shape more from team to team than almost any com
 
 ## Everything else
 
-- [All 81 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 84 questions reported at Oracle](../oracle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Oracle question on TrueInterview](https://trueinterview.io/problems/company/oracle).
 
 ---

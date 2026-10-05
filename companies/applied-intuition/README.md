@@ -8,7 +8,7 @@ How Applied Intuition interviews, and the questions candidates reported there. F
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [19](../applied-intuition.md) |
+| Questions reported | [21](../applied-intuition.md) |
 | Free to read here | 8 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -49,7 +49,7 @@ Applied Intuition builds its interview almost entirely out of its own product su
 
 ## Everything else
 
-- [All 19 questions reported at Applied Intuition](../applied-intuition.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 21 questions reported at Applied Intuition](../applied-intuition.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Applied Intuition question on TrueInterview](https://trueinterview.io/problems/company/applied-intuition).
 
 ---

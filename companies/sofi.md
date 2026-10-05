@@ -47,11 +47,11 @@ Of the **18 questions at SoFi that carry a topic label** (67% of them — the re
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `hashing` | 6 | 33% | ████████████ | Mar 06, 2026 |
-| `graphs` | 3 | 17% | ██████ | Jul 04, 2026 |
+| `graphs` | 4 | 22% | ████████ | Jul 04, 2026 |
 | `greedy` | 3 | 17% | ██████ | Jan 13, 2026 |
+| `arrays` | 2 | 11% | ████ | Jan 14, 2026 |
 | `backtracking` | 2 | 11% | ████ | Jan 14, 2026 |
 | `strings` | 2 | 11% | ████ | Jan 30, 2026 |
-| `arrays` | 1 | 6% | ██ | Nov 12, 2025 |
 | `bit-manipulation` | 1 | 6% | ██ | Jan 13, 2026 |
 | `dynamic-programming` | 1 | 6% | ██ | Jan 14, 2026 |
 | `math` | 1 | 6% | ██ | Jan 13, 2026 |

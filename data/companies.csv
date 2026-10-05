@@ -1,21 +1,23 @@
 slug,company,questions,page,site_url
-affirm,Affirm,14,companies/affirm.md,https://trueinterview.io/problems/company/affirm
+affirm,Affirm,15,companies/affirm.md,https://trueinterview.io/problems/company/affirm
 airbnb,Airbnb,55,companies/airbnb.md,https://trueinterview.io/problems/company/airbnb
 airtable,Airtable,5,companies/airtable.md,https://trueinterview.io/problems/company/airtable
+airwallex,Airwallex,1,companies/airwallex.md,https://trueinterview.io/problems/company/airwallex
 akuna-capital,Akuna Capital,30,companies/akuna-capital.md,https://trueinterview.io/problems/company/akuna-capital
-amazon,Amazon,252,companies/amazon.md,https://trueinterview.io/problems/company/amazon
+amazon,Amazon,256,companies/amazon.md,https://trueinterview.io/problems/company/amazon
 amd,AMD,3,companies/amd.md,https://trueinterview.io/problems/company/amd
 amplitude,Amplitude,5,companies/amplitude.md,https://trueinterview.io/problems/company/amplitude
 anthropic,Anthropic,70,companies/anthropic.md,https://trueinterview.io/problems/company/anthropic
 apple,Apple,116,companies/apple.md,https://trueinterview.io/problems/company/apple
-applied-intuition,Applied Intuition,19,companies/applied-intuition.md,https://trueinterview.io/problems/company/applied-intuition
+applied-intuition,Applied Intuition,21,companies/applied-intuition.md,https://trueinterview.io/problems/company/applied-intuition
 arista,Arista,5,companies/arista.md,https://trueinterview.io/problems/company/arista
-atlassian,Atlassian,52,companies/atlassian.md,https://trueinterview.io/problems/company/atlassian
+atlassian,Atlassian,53,companies/atlassian.md,https://trueinterview.io/problems/company/atlassian
 block,Block,5,companies/block.md,https://trueinterview.io/problems/company/block
-bloomberg,Bloomberg,77,companies/bloomberg.md,https://trueinterview.io/problems/company/bloomberg
+bloomberg,Bloomberg,78,companies/bloomberg.md,https://trueinterview.io/problems/company/bloomberg
 bobyard,Bobyard,3,companies/bobyard.md,https://trueinterview.io/problems/company/bobyard
+boston-consulting-group,Boston Consulting Group,4,companies/boston-consulting-group.md,https://trueinterview.io/problems/company/boston-consulting-group
 brex,Brex,2,companies/brex.md,https://trueinterview.io/problems/company/brex
-bytedance,ByteDance,176,companies/bytedance.md,https://trueinterview.io/problems/company/bytedance
+bytedance,ByteDance,182,companies/bytedance.md,https://trueinterview.io/problems/company/bytedance
 capital-one,Capital One,51,companies/capital-one.md,https://trueinterview.io/problems/company/capital-one
 chicago-trading,Chicago Trading,5,companies/chicago-trading.md,https://trueinterview.io/problems/company/chicago-trading
 circle,Circle,5,companies/circle.md,https://trueinterview.io/problems/company/circle
@@ -23,16 +25,17 @@ cisco,Cisco,25,companies/cisco.md,https://trueinterview.io/problems/company/cisc
 citadel,Citadel,61,companies/citadel.md,https://trueinterview.io/problems/company/citadel
 cohere,Cohere,2,companies/cohere.md,https://trueinterview.io/problems/company/cohere
 coinbase,Coinbase,51,companies/coinbase.md,https://trueinterview.io/problems/company/coinbase
-confluent,Confluent,22,companies/confluent.md,https://trueinterview.io/problems/company/confluent
+confluent,Confluent,23,companies/confluent.md,https://trueinterview.io/problems/company/confluent
 cursor,Cursor,2,companies/cursor.md,https://trueinterview.io/problems/company/cursor
-databricks,Databricks,67,companies/databricks.md,https://trueinterview.io/problems/company/databricks
+databricks,Databricks,68,companies/databricks.md,https://trueinterview.io/problems/company/databricks
 datadog,Datadog,26,companies/datadog.md,https://trueinterview.io/problems/company/datadog
+discord,Discord,1,companies/discord.md,https://trueinterview.io/problems/company/discord
 doordash,DoorDash,71,companies/doordash.md,https://trueinterview.io/problems/company/doordash
 dropbox,Dropbox,13,companies/dropbox.md,https://trueinterview.io/problems/company/dropbox
-ebay,Ebay,35,companies/ebay.md,https://trueinterview.io/problems/company/ebay
+ebay,Ebay,39,companies/ebay.md,https://trueinterview.io/problems/company/ebay
 expedia,Expedia,31,companies/expedia.md,https://trueinterview.io/problems/company/expedia
 faire,Faire,4,companies/faire.md,https://trueinterview.io/problems/company/faire
-figma,Figma,19,companies/figma.md,https://trueinterview.io/problems/company/figma
+figma,Figma,20,companies/figma.md,https://trueinterview.io/problems/company/figma
 geico,GEICO,6,companies/geico.md,https://trueinterview.io/problems/company/geico
 goldman-sachs,Goldman Sachs,48,companies/goldman-sachs.md,https://trueinterview.io/problems/company/goldman-sachs
 google,Google,198,companies/google.md,https://trueinterview.io/problems/company/google
@@ -41,48 +44,48 @@ harvey,Harvey,17,companies/harvey.md,https://trueinterview.io/problems/company/h
 houzz,Houzz,1,companies/houzz.md,https://trueinterview.io/problems/company/houzz
 hubspot,HubSpot,11,companies/hubspot.md,https://trueinterview.io/problems/company/hubspot
 hudson-river-trading,Hudson River Trading,17,companies/hudson-river-trading.md,https://trueinterview.io/problems/company/hudson-river-trading
-ibm,IBM,29,companies/ibm.md,https://trueinterview.io/problems/company/ibm
-instacart,Instacart,27,companies/instacart.md,https://trueinterview.io/problems/company/instacart
-intuit,Intuit,18,companies/intuit.md,https://trueinterview.io/problems/company/intuit
+ibm,IBM,30,companies/ibm.md,https://trueinterview.io/problems/company/ibm
+instacart,Instacart,28,companies/instacart.md,https://trueinterview.io/problems/company/instacart
+intuit,Intuit,19,companies/intuit.md,https://trueinterview.io/problems/company/intuit
 jpmorgan,JPMorgan,19,companies/jpmorgan.md,https://trueinterview.io/problems/company/jpmorgan
 lead-bank,Lead Bank,5,companies/lead-bank.md,https://trueinterview.io/problems/company/lead-bank
-linkedin,LinkedIn,84,companies/linkedin.md,https://trueinterview.io/problems/company/linkedin
+linkedin,LinkedIn,88,companies/linkedin.md,https://trueinterview.io/problems/company/linkedin
 luma-ai,Luma AI,6,companies/luma-ai.md,https://trueinterview.io/problems/company/luma-ai
-lyft,Lyft,32,companies/lyft.md,https://trueinterview.io/problems/company/lyft
-meta,Meta,186,companies/meta.md,https://trueinterview.io/problems/company/meta
-microsoft,Microsoft,130,companies/microsoft.md,https://trueinterview.io/problems/company/microsoft
+lyft,Lyft,36,companies/lyft.md,https://trueinterview.io/problems/company/lyft
+meta,Meta,189,companies/meta.md,https://trueinterview.io/problems/company/meta
+microsoft,Microsoft,139,companies/microsoft.md,https://trueinterview.io/problems/company/microsoft
 microsoft-ai,Microsoft AI,13,companies/microsoft-ai.md,https://trueinterview.io/problems/company/microsoft-ai
 mongodb,MongoDB,6,companies/mongodb.md,https://trueinterview.io/problems/company/mongodb
 moveworks,Moveworks,3,companies/moveworks.md,https://trueinterview.io/problems/company/moveworks
 nclusion,Nclusion,1,companies/nclusion.md,https://trueinterview.io/problems/company/nclusion
-netflix,Netflix,73,companies/netflix.md,https://trueinterview.io/problems/company/netflix
-nvidia,NVIDIA,29,companies/nvidia.md,https://trueinterview.io/problems/company/nvidia
+netflix,Netflix,72,companies/netflix.md,https://trueinterview.io/problems/company/netflix
+nvidia,NVIDIA,31,companies/nvidia.md,https://trueinterview.io/problems/company/nvidia
 okta,Okta,10,companies/okta.md,https://trueinterview.io/problems/company/okta
 okx,OKX,5,companies/okx.md,https://trueinterview.io/problems/company/okx
-openai,OpenAI,103,companies/openai.md,https://trueinterview.io/problems/company/openai
+openai,OpenAI,104,companies/openai.md,https://trueinterview.io/problems/company/openai
 optiver,Optiver,20,companies/optiver.md,https://trueinterview.io/problems/company/optiver
-oracle,Oracle,81,companies/oracle.md,https://trueinterview.io/problems/company/oracle
+oracle,Oracle,84,companies/oracle.md,https://trueinterview.io/problems/company/oracle
 oscar-health,Oscar Health,3,companies/oscar-health.md,https://trueinterview.io/problems/company/oscar-health
 palantir,Palantir,6,companies/palantir.md,https://trueinterview.io/problems/company/palantir
 paypal,PayPal,17,companies/paypal.md,https://trueinterview.io/problems/company/paypal
 perplexity,Perplexity,23,companies/perplexity.md,https://trueinterview.io/problems/company/perplexity
-pinduoduo,Pinduoduo,19,companies/pinduoduo.md,https://trueinterview.io/problems/company/pinduoduo
-pinterest,Pinterest,77,companies/pinterest.md,https://trueinterview.io/problems/company/pinterest
+pinduoduo,Pinduoduo,20,companies/pinduoduo.md,https://trueinterview.io/problems/company/pinduoduo
+pinterest,Pinterest,76,companies/pinterest.md,https://trueinterview.io/problems/company/pinterest
 point72,Point72,21,companies/point72.md,https://trueinterview.io/problems/company/point72
-ramp,Ramp,27,companies/ramp.md,https://trueinterview.io/problems/company/ramp
-reddit,Reddit,28,companies/reddit.md,https://trueinterview.io/problems/company/reddit
+ramp,Ramp,28,companies/ramp.md,https://trueinterview.io/problems/company/ramp
+reddit,Reddit,29,companies/reddit.md,https://trueinterview.io/problems/company/reddit
 render,Render,1,companies/render.md,https://trueinterview.io/problems/company/render
 rippling,Rippling,30,companies/rippling.md,https://trueinterview.io/problems/company/rippling
-robinhood,Robinhood,31,companies/robinhood.md,https://trueinterview.io/problems/company/robinhood
+robinhood,Robinhood,32,companies/robinhood.md,https://trueinterview.io/problems/company/robinhood
 roblox,Roblox,66,companies/roblox.md,https://trueinterview.io/problems/company/roblox
 rokt,Rokt,4,companies/rokt.md,https://trueinterview.io/problems/company/rokt
 rubrik,Rubrik,19,companies/rubrik.md,https://trueinterview.io/problems/company/rubrik
-salesforce,Salesforce,77,companies/salesforce.md,https://trueinterview.io/problems/company/salesforce
+salesforce,Salesforce,78,companies/salesforce.md,https://trueinterview.io/problems/company/salesforce
 scale-ai,Scale AI,16,companies/scale-ai.md,https://trueinterview.io/problems/company/scale-ai
-shopify,Shopify,15,companies/shopify.md,https://trueinterview.io/problems/company/shopify
+shopify,Shopify,17,companies/shopify.md,https://trueinterview.io/problems/company/shopify
 sigmacomputing,Sigmacomputing,5,companies/sigmacomputing.md,https://trueinterview.io/problems/company/sigmacomputing
-snapchat,Snapchat,54,companies/snapchat.md,https://trueinterview.io/problems/company/snapchat
-snowflake,Snowflake,112,companies/snowflake.md,https://trueinterview.io/problems/company/snowflake
+snapchat,Snapchat,57,companies/snapchat.md,https://trueinterview.io/problems/company/snapchat
+snowflake,Snowflake,113,companies/snowflake.md,https://trueinterview.io/problems/company/snowflake
 sofi,SoFi,27,companies/sofi.md,https://trueinterview.io/problems/company/sofi
 square,Square,12,companies/square.md,https://trueinterview.io/problems/company/square
 squarepoint,Squarepoint,24,companies/squarepoint.md,https://trueinterview.io/problems/company/squarepoint
@@ -93,18 +96,18 @@ tesla,Tesla,35,companies/tesla.md,https://trueinterview.io/problems/company/tesl
 together-ai,Together AI,1,companies/together-ai.md,https://trueinterview.io/problems/company/together-ai
 tradedesk,Tradedesk,16,companies/tradedesk.md,https://trueinterview.io/problems/company/tradedesk
 two-sigma,Two Sigma,24,companies/two-sigma.md,https://trueinterview.io/problems/company/two-sigma
-uber,Uber,176,companies/uber.md,https://trueinterview.io/problems/company/uber
+uber,Uber,178,companies/uber.md,https://trueinterview.io/problems/company/uber
 unknown,Unknown,1,companies/unknown.md,https://trueinterview.io/problems/company/unknown
 upstart,Upstart,15,companies/upstart.md,https://trueinterview.io/problems/company/upstart
 vanta,Vanta,13,companies/vanta.md,https://trueinterview.io/problems/company/vanta
 verkada,Verkada,27,companies/verkada.md,https://trueinterview.io/problems/company/verkada
 visa,Visa,15,companies/visa.md,https://trueinterview.io/problems/company/visa
 voleon,Voleon,7,companies/voleon.md,https://trueinterview.io/problems/company/voleon
-walmart-labs,Walmart Labs,28,companies/walmart-labs.md,https://trueinterview.io/problems/company/walmart-labs
+walmart-labs,Walmart Labs,29,companies/walmart-labs.md,https://trueinterview.io/problems/company/walmart-labs
 wayfair,Wayfair,3,companies/wayfair.md,https://trueinterview.io/problems/company/wayfair
 waymo,Waymo,55,companies/waymo.md,https://trueinterview.io/problems/company/waymo
 weride,WeRide,21,companies/weride.md,https://trueinterview.io/problems/company/weride
-whatnot,Whatnot,8,companies/whatnot.md,https://trueinterview.io/problems/company/whatnot
-xai,xAI,35,companies/xai.md,https://trueinterview.io/problems/company/xai
+whatnot,Whatnot,9,companies/whatnot.md,https://trueinterview.io/problems/company/whatnot
+xai,xAI,36,companies/xai.md,https://trueinterview.io/problems/company/xai
 yelp,Yelp,17,companies/yelp.md,https://trueinterview.io/problems/company/yelp
 ziphq,Ziphq,1,companies/ziphq.md,https://trueinterview.io/problems/company/ziphq

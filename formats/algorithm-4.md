@@ -10,6 +10,11 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **LinkedIn** | [Service Dependency Impact Propagation](https://trueinterview.io/questions/coding-service-dependency-impact) | Hard | Dec 22, 2025 |
+| **Citadel** | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Medium | Dec 22, 2025 |
+| **Citadel** | [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team) | Medium | Dec 22, 2025 |
+| **Apple** | [Out of Boundary Paths](https://trueinterview.io/questions/out-of-boundary-paths) | Medium | Dec 21, 2025 |
+| **Apple** | [Numbers with No Neighbors](https://trueinterview.io/questions/numbers-with-no-neighbors) | Easy | Dec 21, 2025 |
 | **Akuna Capital / JPMorgan** | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Medium | Dec 20, 2025 |
 | **Stripe** | [Shipping Cost Calculator](https://trueinterview.io/questions/shipping-cost-calculator) | Medium | Dec 19, 2025 |
 | **Citadel** | [Live coding closer](https://trueinterview.io/questions/eqr-alpha-factor-deep-dive-live-coding-closer) | Hard | Dec 16, 2025 |
@@ -72,7 +77,7 @@
 | **Optiver** | [Order Book Matching Simulation](https://trueinterview.io/questions/order-book-matching) | Medium | Nov 18, 2025 |
 | **Databricks / Amazon / Expedia** | [House Robber Series](https://trueinterview.io/questions/house-robber-series) | Medium | Nov 18, 2025 |
 | **Lyft** | [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Medium | Nov 17, 2025 |
-| **Oracle / Bloomberg / Google / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
+| **Oracle / Bloomberg / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
 | **OpenAI** | [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check) | Medium | Nov 17, 2025 |
 | **Waymo** | [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider) | Medium | Nov 14, 2025 |
 | **LinkedIn** | [Count Subarrays Where First = Last = Max](https://trueinterview.io/questions/coding-subarray-first-last-equal-max) | Medium | Nov 13, 2025 |
@@ -240,7 +245,7 @@
 | **Oracle** | [Maximum of Minimums of Every Window](https://trueinterview.io/questions/4ffe3fac-ea66-5d5f-8331-b09736fb1392) | Medium | — |
 | **Oracle** | [Maximum Movie Rating with No Two Consecutive Skips](https://trueinterview.io/questions/425e7c94-efc5-5797-afd4-194d39da160c) | Medium | — |
 | **Oracle** | [Replace a Range of Nodes in a Linked List](https://trueinterview.io/questions/3ff8e86f-0abd-5967-bf35-5f1aac1c42e6) | Medium | — |
-| **Oracle** | [Valid Parenthesis String](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463) | Hard | — |
+| **Oracle / ByteDance** | [Valid Parenthesis String](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463) | Hard | — |
 | **Oracle** | [Dropped Requests Rate Limiter II](https://trueinterview.io/questions/3cf3a0aa-2d80-5652-bb0d-975c8f3fd6ec) | Medium | — |
 | **Goldman Sachs** | [Staircase Search in a Sorted 2D Matrix](https://trueinterview.io/questions/dbd4755b-bf74-5377-b3ca-42bb7bdc22e8) | Medium | — |
 | **Goldman Sachs** | [Maximum Rock Collection Path in a Grid](https://trueinterview.io/questions/d2cd1228-3f9d-563d-adb7-4d5f86c1af78) | Medium | — |
@@ -255,10 +260,5 @@
 | **LinkedIn** | [Validate a Decimal Number String](https://trueinterview.io/questions/c4ab51bc-0703-5e40-aca8-21c8d8a63a0a) | Easy | — |
 | **LinkedIn** | [Minimum-Cost Path in a Hidden Weighted Grid](https://trueinterview.io/questions/a531995e-256c-5c2c-b17b-84c3f438d282) | Medium | — |
 | **LinkedIn** | [Can Place Flowers with O(1) Queries](https://trueinterview.io/questions/97c74ee5-2415-54b8-bad7-063ac0cce501) | Medium | — |
-| **LinkedIn** | [Nearest Supply Point in a Map](https://trueinterview.io/questions/2d464101-c921-5548-8f3e-508ad1f9c109) | Medium | — |
-| **LinkedIn** | [Find the Second Minimum in a Tournament Tree](https://trueinterview.io/questions/03cf85cf-d059-5960-9a3b-07b92478b554) | Medium | — |
-| **Anthropic** | [Stack Trace Suffix Matching](https://trueinterview.io/questions/3f55c628-6ee0-5304-8799-4ae500643827) | Medium | — |
-| **Anthropic** | [Minimum Workers with Deterministic Job Assignment](https://trueinterview.io/questions/168b4161-b86a-5ebc-a16f-6118c8c00adb) | Medium | — |
-| **Anthropic** | [Optimized Infection Simulation on a 2D Grid](https://trueinterview.io/questions/01599122-965f-57e6-99b0-d43238e938fc) | Hard | — |
 
 <sub>[← Page 3](algorithm-3.md) · Page 4 of 8 · [Page 5 →](algorithm-5.md)</sub>

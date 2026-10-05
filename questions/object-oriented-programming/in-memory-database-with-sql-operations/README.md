@@ -442,21 +442,21 @@ class Database:
 <details>
 <summary>Hint 1</summary>
 
-Think of each table as a list of rows, where each row is a dictionary mapping column names to values.
+Design your own simple API representation for tables, rows, and conditions rather than parsing SQL text.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hash map to store tables by name, and for filtering/ordering, iterate over rows and apply predicates/comparators.
+Represent each table as a map of column names to values per row, and implement WHERE and ORDER BY as composable filters and comparators over row collections.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Aim for O(n) per query where n is the number of rows in the table, and watch for case-insensitive column names in WHERE clauses.
+Keep the design extensible so adding projections, filters, and ordering doesn't require rewriting the core storage layer.
 
 </details>
 

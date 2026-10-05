@@ -47,7 +47,7 @@ Two to three rounds, each 45 to 60 minutes, medium difficulty and practical in s
 
 One round for mid-level, two for senior and above, one hour each, and the strongest gate in the loop. The prompts repeat, so unfamiliarity is rarely the problem — depth is. Interviewers steer relentlessly toward failure semantics: a worker dying mid-job, preventing duplicate execution, detecting a silently dropped job, surviving a partition or a crash in the middle of money movement. Answers that stop at a box diagram lose; answers that name the source of truth, the retry path, and the monitoring signal win. One rejected candidate traced the loss to being unable to compare time-series stores concretely or defend a data-granularity choice.
 
-- [Job Scheduler System Design](https://trueinterview.io/questions/job-scheduler-design)
+- [Job Scheduler System Design](../../questions/system-design/job-scheduler-design/README.md)
 - [Job Scheduler](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86)
 - [Design a Stock Order / Trade Management System](../../questions/system-design/design-a-stock-order-trade-management-system/README.md)
 - [Stock Trading / Real-Time Quote System Design](https://trueinterview.io/questions/stock-trading-quote-system-design)

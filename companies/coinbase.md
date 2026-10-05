@@ -31,9 +31,9 @@ Which stage each question came from, for the **51 of 51** questions at Coinbase 
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 15 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 6 / 7 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 14 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 6 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 6 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 32 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (56%) | 6 / 21 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 33 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (58%) | 6 / 21 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 

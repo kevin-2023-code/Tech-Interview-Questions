@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (53% of 17) |
 | Difficulty (easy / medium / hard) | 4 / 10 / 3 |
-| Free to practise | [9](../free/README.md) |
+| Free to practise | [11](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 17 questions reported at Yelp. 13 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -41,16 +41,16 @@ Which stage each question came from, for the **17 of 17** questions at Yelp that
 
 ## What they ask about
 
-Of the **8 questions at Yelp that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **9 questions at Yelp that carry a topic label** (53% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `heap` | 3 | 38% | ████████████ | Apr 20, 2025 |
-| `greedy` | 2 | 25% | ████████ | Apr 20, 2025 |
-| `strings` | 2 | 25% | ████████ | Apr 20, 2025 |
-| `graphs` | 1 | 12% | ████ | Apr 20, 2025 |
-| `hashing` | 1 | 12% | ████ | Apr 20, 2025 |
-| `sliding-window` | 1 | 12% | ████ | Apr 21, 2025 |
+| `greedy` | 3 | 33% | ████████████ | Mar 30, 2026 |
+| `heap` | 3 | 33% | ████████████ | Apr 20, 2025 |
+| `strings` | 2 | 22% | ████████ | Apr 20, 2025 |
+| `graphs` | 1 | 11% | ████ | Apr 20, 2025 |
+| `hashing` | 1 | 11% | ████ | Apr 20, 2025 |
+| `sliding-window` | 1 | 11% | ████ | Apr 21, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -73,12 +73,12 @@ The 8 questions to open first if you are preparing for Yelp, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
-| **2** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | 13 | Mar 30, 2026 |
-| **3** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 8 | Mar 23, 2026 |
+| **1** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
+| **2** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) 🆓 | System Design | Medium | 15 | Mar 30, 2026 |
+| **3** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | System Design | Medium | 9 | Mar 23, 2026 |
 | **4** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
-| **5** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 8 | Dec 10, 2025 |
-| **6** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 8 | Oct 15, 2025 |
+| **5** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
+| **6** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 9 | Oct 15, 2025 |
 | **7** | [Count Alert Triggers](https://trueinterview.io/questions/count-alert-triggers) 🆓 | Algorithm | Medium | — | Apr 21, 2025 |
 | **8** | [Find Destination Node](https://trueinterview.io/questions/find-destination-node) 🆓 | Algorithm | Easy | — | Apr 20, 2025 |
 

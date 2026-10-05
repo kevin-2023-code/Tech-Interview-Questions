@@ -25,8 +25,8 @@
 | **Amazon** | [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation) | Medium | 🆕 Sep 01, 2026 |
 | **Microsoft** | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Medium | 🆕 Aug 30, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
-| **Microsoft** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Hard | 🆕 Aug 20, 2026 |
-| **Google** | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Medium | 🆕 Aug 20, 2026 |
+| **Microsoft** | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Hard | Aug 20, 2026 |
+| **Google** | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Medium | Aug 20, 2026 |
 | **Meta** | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Medium | Aug 16, 2026 |
 | **OpenAI** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Hard | Aug 13, 2026 |
 | **Figma** | [Select Table and Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color) | Medium | Aug 12, 2026 |
@@ -64,7 +64,7 @@
 | **Ebay** | [Circular Storage Allocator](https://trueinterview.io/questions/circular-storage-allocator) | Medium | Jun 12, 2026 |
 | **Reddit** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Medium | Jun 12, 2026 |
 | **OpenAI** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Medium | Jun 12, 2026 |
-| **DoorDash** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Medium | Jun 11, 2026 |
+| **DoorDash / xAI** | [Dasher Payment Model](https://trueinterview.io/questions/225122e6-6cec-454c-b592-53715cc6ab81) | Medium | Jun 11, 2026 |
 | **Amazon** | [Event Filter & Queue Routing Service](https://trueinterview.io/questions/event-filter-routing-service) | Medium | Jun 11, 2026 |
 | **DoorDash** | [Pick Dasher / Round Robin Load Balancer](https://trueinterview.io/questions/debugging-pick-dasher-round-robin) | Medium | Jun 11, 2026 |
 | **OpenAI / ByteDance** | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Medium | Jun 11, 2026 |
@@ -78,7 +78,7 @@
 | **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
 | **Databricks** | [Customer Revenue System](https://trueinterview.io/questions/revenue-tracking-system-with-referrals) | Medium | Jun 05, 2026 |
 | **Airbnb** | [Boxes, Keys & Candies](https://trueinterview.io/questions/boxes-keys-candies-ood) | Medium | Jun 02, 2026 |
-| **Databricks** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Medium | Jun 2026 |
+| **Databricks / Microsoft** | [Snapshot Set Iterator](https://trueinterview.io/questions/snapshotset-with-iterator) | Medium | Jun 2026 |
 | **OpenAI / Uber** | [Snapshot Social Graph](https://trueinterview.io/questions/social-network-with-snapshots) | Medium | Jun 2026 |
 | **Databricks** | [Encrypt All Files in a File-System Tree](https://trueinterview.io/questions/encrypt-all-files-in-a-file-system-tree) | Medium | Jun 2026 |
 | **Amazon** | [Playlist / Guide Voting System](https://trueinterview.io/questions/playlist-guide-voting-ood) | Medium | May 31, 2026 |
@@ -133,7 +133,7 @@
 | **Anthropic** | [ML Configuration System](https://trueinterview.io/questions/ml-configuration-system) | Medium | Apr 17, 2026 |
 | **NVIDIA** | [Disk Space Manager / KV Store with setAll](https://trueinterview.io/questions/storage-manager-and-kv-setall) | Medium | Apr 15, 2026 |
 | **Amazon** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter-ood) | Medium | Apr 15, 2026 |
-| **Oracle** | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Medium | Apr 14, 2026 |
+| **Oracle / Shopify** | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Medium | Apr 14, 2026 |
 | **Meta** | [Friend Recommendation II](https://trueinterview.io/questions/ai-coding-friend-recommendation) | Medium | Apr 14, 2026 |
 | **Amazon** | [Minesweeper Game Design](https://trueinterview.io/questions/minesweeper-game-design) | Medium | Apr 13, 2026 |
 | **Databricks / Amazon** | [Design Lazy Array](https://trueinterview.io/questions/implement-lazyarray-with-deferred-function-execution) | Medium | Apr 13, 2026 |
@@ -162,7 +162,7 @@
 | **Apple / Uber** | [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Medium | Mar 02, 2026 |
 | **Snapchat** | [Custom List, Iterator & Map Function](https://trueinterview.io/questions/custom-list-iterator-and-map-function) | Medium | Feb 26, 2026 |
 | **Apple** | [Design a Deck of Cards](https://trueinterview.io/questions/design-a-deck-of-cards) | Medium | Feb 26, 2026 |
-| **Snowflake / Applied Intuition** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
+| **Snowflake / Applied Intuition / Lyft** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Amazon** | [Music Player with Frequency Priority](https://trueinterview.io/questions/music-player-frequency-priority) | Medium | Feb 22, 2026 |
 | **Airbnb** | [Banking — Deposit / Withdraw / Transaction / Balance](https://trueinterview.io/questions/banking-transactions-class) | Medium | Feb 19, 2026 |
 | **Reddit** | [Report Chain](https://trueinterview.io/questions/report-chain) | Medium | Feb 17, 2026 |
@@ -195,7 +195,7 @@
 | **Netflix** | [Music Playlist](https://trueinterview.io/questions/music-playlist) | Medium | Jan 26, 2026 |
 | **Citadel** | [LRU + LFU + Custom Eviction Function](https://trueinterview.io/questions/lru-lfu-custom-evict) | Medium | Jan 25, 2026 |
 | **Akuna Capital** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Medium | Jan 23, 2026 |
-| **LinkedIn** | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Hard | Jan 22, 2026 |
+| **LinkedIn / Amazon / Microsoft / Oracle / Shopify / Snapchat** | [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Hard | Jan 22, 2026 |
 | **LinkedIn** | [Design Cache with Eviction](https://trueinterview.io/questions/design-cache-with-eviction) | Medium | Jan 22, 2026 |
 | **Citadel** | [BST from Scratch (insert / search / delete) + Balancing Discussion](https://trueinterview.io/questions/bst-from-scratch) | Medium | Jan 22, 2026 |
 | **Snowflake / ByteDance** | [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Medium | Jan 22, 2026 |

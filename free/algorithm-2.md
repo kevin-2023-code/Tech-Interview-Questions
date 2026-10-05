@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**267 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**263 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,10 +10,6 @@
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) | **StackAdapt** | Hard | — |
-| [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | **Rubrik** | Hard | — |
-| [Min Elements to Remove to Make Almost Sorted Array](https://trueinterview.io/questions/8cde9af6-10ba-4bb5-83de-bc54cbc21f8c) | **Salesforce** | Hard | — |
-| [Min × Max Product After Push / Pop](https://trueinterview.io/questions/min-max-product-stream) | **Goldman Sachs** | Hard | Oct 26, 2024 |
 | [Minimize Marbles in Grid](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) | **Snowflake** | Hard | — |
 | [Minimum Steps to Move Balls to Respective Holes](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb) | **PayPal** | Hard | — |
 | [Minimum XOR Sum of Two Arrays](https://trueinterview.io/questions/4678a97e-3396-567b-86cc-2df3a6aed0b1) | **MongoDB** | Hard | — |

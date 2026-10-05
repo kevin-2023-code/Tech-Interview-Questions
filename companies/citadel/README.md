@@ -9,7 +9,7 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 |  |  |
 | :-- | :-- |
 | Questions reported | [61](../citadel.md) |
-| Free to read here | 4 |
+| Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
@@ -36,7 +36,7 @@ The loop typically runs four to five rounds beyond the recruiter call, and the f
 
 ## Free Citadel questions
 
-4 questions reported at Citadel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at Citadel open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -44,6 +44,7 @@ The loop typically runs four to five rounds beyond the recruiter call, and the f
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Closest Pair of Points](../../questions/algorithm/closest-pair-of-points/README.md) | Algorithm | Hard | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/closest-pair-of-points) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
+| [Palindrome Detection](../../questions/algorithm/palindrome-detection/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) |
 
 ## Everything else
 

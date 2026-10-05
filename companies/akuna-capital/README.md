@@ -9,7 +9,7 @@ How Akuna Capital interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [30](../akuna-capital.md) |
-| Free to read here | 9 |
+| Free to read here | 7 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Jul 29, 2026 |
@@ -34,7 +34,7 @@ Technical phone rounds start almost immediately after introductions, and several
 
 ## Free Akuna Capital questions
 
-9 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+7 questions reported at Akuna Capital open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -45,8 +45,6 @@ Technical phone rounds start almost immediately after introductions, and several
 | [Round Price to Nearest Valid Tick](../../questions/algorithm/round-price-to-nearest-tick/README.md) | Algorithm | Medium | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/round-price-to-nearest-tick) |
 | [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
 | [Minimal Operations](../../questions/algorithm/minimal-operations/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) |
-| [An Evening of Movies](../../questions/algorithm/an-evening-of-movies/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) |
-| [K Smallest Substring](../../questions/algorithm/k-smallest-substring/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/3151e9ea-6dd7-474f-bab5-ae916dc77f0c) |
 
 ## Everything else
 

@@ -8,7 +8,7 @@ How Intuit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [18](../intuit.md) |
+| Questions reported | [19](../intuit.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -40,13 +40,13 @@ The end-to-end process typically runs three to six weeks from application to dec
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Pandas Meeting Work-Duration Calculation](../../questions/algorithm/pandas-meeting-work-duration/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/pandas-meeting-work-duration) |
+| [Valid Parentheses](../../questions/algorithm/valid-parentheses/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/valid-parentheses) |
 | [DNA Substring Palindrome Cost Sum](../../questions/algorithm/dna-substring-palindrome-cost-sum/README.md) | Algorithm | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) |
 | [Look-and-Say Sequence](../../questions/algorithm/look-and-say-sequence/README.md) | Algorithm | Easy | Online assessment | Sep 2025 | [Solve](https://trueinterview.io/questions/look-and-say-sequence) |
 
 ## Everything else
 
-- [All 18 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 19 questions reported at Intuit](../intuit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Intuit question on TrueInterview](https://trueinterview.io/problems/company/intuit).
 
 ---

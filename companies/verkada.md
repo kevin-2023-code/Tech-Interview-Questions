@@ -82,7 +82,7 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 | **5** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
 | **6** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
 | **7** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | 1 | Feb 16, 2026 |
-| **8** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | 2 | Feb 08, 2026 |
+| **8** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | 3 | Feb 08, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

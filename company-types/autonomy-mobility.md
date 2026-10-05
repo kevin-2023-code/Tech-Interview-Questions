@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**128 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**130 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (55)](../companies/waymo.md) · [Tesla (35)](../companies/tesla.md) · [WeRide (21)](../companies/weride.md) · [Applied Intuition (19)](../companies/applied-intuition.md)
+[Waymo (55)](../companies/waymo.md) · [Tesla (35)](../companies/tesla.md) · [Applied Intuition (21)](../companies/applied-intuition.md) · [WeRide (21)](../companies/weride.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,25 +18,25 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 85 | 66% | ██████████████ | 17 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 17 | 13% | ███ | 8 |
+| [Algorithm](../formats/algorithm.md) | 86 | 66% | ██████████████ | 16 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 18 | 14% | ███ | 8 |
 | [System Design](../formats/system-design.md) | 13 | 10% | ██ | 2 |
 | [SQL](../formats/sql.md) | 8 | 6% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **12 / 78 / 38**, over the rows the catalog has graded. 28 of the 128 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **13 / 79 / 38**, over the rows the catalog has graded. 27 of the 130 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **81 questions in this cut that carry a topic label** (63% of it):
+Of the **83 questions in this cut that carry a topic label** (64% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 17 | 21% | ████████████ |
-| `hashing` | 8 | 10% | ██████ |
+| `graphs` | 17 | 20% | ████████████ |
+| `hashing` | 9 | 11% | ██████ |
+| `math` | 8 | 10% | ██████ |
 | `strings` | 8 | 10% | ██████ |
-| `arrays` | 7 | 9% | █████ |
-| `math` | 7 | 9% | █████ |
+| `arrays` | 7 | 8% | █████ |
 | `backtracking` | 6 | 7% | ████ |
 | `dynamic-programming` | 6 | 7% | ████ |
 | `greedy` | 6 | 7% | ████ |
@@ -47,13 +47,12 @@ Of the **81 questions in this cut that carry a topic label** (63% of it):
 
 ## Asked here in the last 90 days
 
-**3 sightings** across this cut. Newest first.
+**2 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | WeRide … | Algorithm | Jul 29, 2026 |
 | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Waymo | Algorithm | Jul 09, 2026 |
-| [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Waymo | Algorithm | Jul 06, 2026 |
 
 ---
 
@@ -115,9 +114,9 @@ Of the **81 questions in this cut that carry a topic label** (63% of it):
 | **Waymo** | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Medium | Mar 23, 2026 |
 | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **Tesla** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | Hard | Mar 11, 2026 |
-| **Snowflake / Applied Intuition** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
+| **Snowflake / Applied Intuition / Lyft** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Tesla** | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Medium | Feb 03, 2026 |
 | **Waymo** | [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human) | Hard | Jan 29, 2026 |
 | **Waymo** | [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Medium | Jan 29, 2026 |
@@ -143,6 +142,8 @@ Of the **81 questions in this cut that carry a topic label** (63% of it):
 | **Tesla** | [Dojo Pythonic Coding Pair: Permutation Check and Pow](https://trueinterview.io/questions/dojo-permutation-and-pow) | Medium | Jul 25, 2025 |
 | **Tesla** | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Hard | Jul 24, 2025 |
 | **Tesla** | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | Medium | Jul 04, 2025 |
+| **Anthropic / Applied Intuition** | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Easy | — |
+| **Lyft / Applied Intuition** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
 | **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
 | **WeRide** | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Hard | — |
 | **WeRide** | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Hard | — |
@@ -190,4 +191,4 @@ Of the **81 questions in this cut that carry a topic label** (63% of it):
 | **ByteDance / LinkedIn / NVIDIA / WeRide** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) | Medium | — |
 | **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
 | **Airbnb / Waymo** | [Board Score](https://trueinterview.io/questions/56b407e8-ba0e-4120-a839-4bc5a36a9e0d) | Medium | — |
-| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Pinterest / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |
+| **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Reddit / Roblox / Waymo / xAI** | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Medium | — |

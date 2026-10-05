@@ -8,7 +8,7 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [112](../snowflake.md) |
+| Questions reported | [113](../snowflake.md) |
 | Free to read here | 27 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -40,6 +40,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
 | [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/closest-cake-and-global-assignment) |
+| [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
@@ -57,7 +58,6 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Calculate Fibonacci Number](../../questions/algorithm/calculate-fibonacci-number/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/85108a7d-7e80-47be-bae4-69bca33e7216) |
 | [Determine if a Binary Tree is Perfect](../../questions/algorithm/determine-if-a-binary-tree-is-perfect/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/75c6f6e1-605a-4ddb-ac1a-cb0109ac3671) |
 | [Determine Employees to Promote](../../questions/algorithm/determine-employees-to-promote/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/4833cb6c-1b0f-42e2-95f4-751c03039086) |
-| [Role-Based Access Control with Inheritance and Deny Rules](../../questions/algorithm/role-based-access-control-with-inheritance-and-deny-rules/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/406c257a-cd8f-4c52-ba90-ea79a05da226) |
 | [Simple TypeScript Program](../../questions/algorithm/simple-typescript-program/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) |
 | [Check Validity of Input String](../../questions/algorithm/check-validity-of-input-string/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) |
 | [Deployments Node Calculation](../../questions/algorithm/deployments-node-calculation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) |
@@ -68,7 +68,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Everything else
 
-- [All 112 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 113 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

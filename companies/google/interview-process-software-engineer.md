@@ -53,7 +53,7 @@ L5 has one design round and L6 has two, and design occasionally shows up in phon
 
 - [L6 System Design (Staff Loop)](https://trueinterview.io/questions/l6-system-design-staff-loop)
 - [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system)
-- [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design)
+- [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md)
 
 ### Behavioral and Leadership
 

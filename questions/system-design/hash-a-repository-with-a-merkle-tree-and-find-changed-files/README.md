@@ -5,139 +5,88 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| System Design | Easy | Cursor | Phone screen | hashing, trees | Apr 2026 |
+| System Design | Easy | Cursor | Phone screen | trees | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
 
 ## Problem
 
-Given two directory structures representing consecutive snapshots of a repository, compare them efficiently using a Merkle tree approach. Compute a hash for each node—files and directories—to form a tree. Use these hashes to detect and list all files that have been added, removed, or modified between the two snapshots.  
+You are given two snapshots of a source-code repository, where each snapshot is provided as a list of `(relative_path, contents)` pairs naming every regular file it holds. Directories are never listed directly — they are implied by the file paths, and `/` is the path separator. Implement a function `solution(snapshot_a, snapshot_b)` that returns every file whose existence or contents differ across the two snapshots.
 
-Each file node is represented by its name and content hash. Each directory node is represented by its name and an ordered list of child node hashes. Two snapshots are considered equal at a given node if and only if their hashes match. For directories whose hashes differ, recursively compare their children to identify the specific file-level changes.  
+Model the repository internally as a Merkle tree that mirrors the real directory hierarchy. Each file is a leaf whose hash is derived from the file's contents, and each directory is an internal node with an arbitrary number of children whose hash is derived from its children's names, kinds, and hashes combined in a deterministic sorted order. Because identical hashes imply identical subtrees, any subtree whose hash matches its counterpart can be skipped during the diff instead of being explored.
 
-Your implementation must handle the following:  
-- Directory child ordering: sort children by name before hashing to ensure a canonical representation.  
-- Hash computation: use a consistent hash function (e.g., SHA-256) and a domain separator to avoid collisions between file and directory nodes.  
-- Change reporting: list changes at the file level only, not at the directory level.  
+The diff deals with files only. A path appearing solely in `snapshot_b` is `'ADDED'`; a path appearing solely in `snapshot_a` is `'REMOVED'`; a path present in both whose contents differ is `'MODIFIED'`. Every reported path must be relative to the repository root. If a path switches between a file and a directory across the two snapshots, treat it as a removal of the old file paths together with an addition of the new ones. Return the affected paths as `(relative_path, change_type)` tuples sorted lexicographically by path. Use only the standard library.
 
-Example 1:  
+In the original interview this was framed as a `MerkleTree(root_directory)` class exposing a `diff(other)` method and a `ChangeType` enum with members `ADDED`, `MODIFIED`, and `REMOVED`; the judged `solution(...)` form above is equivalent and self-contained.
 
-```text
-Input:
-snapshot_old = {
-  "type": "dir",
-  "name": "root",
-  "children": [
-    {
-      "type": "dir",
-      "name": "src",
-      "children": [
-        {"type": "file", "name": "main.py", "content_hash": "abc123"}
-      ]
-    },
-    {"type": "file", "name": "README.md", "content_hash": "def456"}
-  ]
-}
-snapshot_new = {
-  "type": "dir",
-  "name": "root",
-  "children": [
-    {
-      "type": "dir",
-      "name": "src",
-      "children": [
-        {"type": "file", "name": "main.py", "content_hash": "xyz789"}
-      ]
-    },
-    {"type": "file", "name": "README.md", "content_hash": "def456"}
-  ]
-}
-
-Output: ["src/main.py"]
-```
-
-Explanation: The hash of the `src` directory changed because `main.py`'s content hash changed. The root hash also changed, but we only report the file-level change.  
-
-Example 2:  
+Example 1:
 
 ```text
-Input:
-snapshot_old = {
-  "type": "dir",
-  "name": "root",
-  "children": [
-    {"type": "file", "name": "a.txt", "content_hash": "111"},
-    {"type": "file", "name": "b.txt", "content_hash": "222"}
-  ]
-}
-snapshot_new = {
-  "type": "dir",
-  "name": "root",
-  "children": [
-    {"type": "file", "name": "a.txt", "content_hash": "111"},
-    {"type": "file", "name": "c.txt", "content_hash": "333"}
-  ]
-}
-
-Output: ["b.txt", "c.txt"]
-```
-
-Explanation: `b.txt` was removed, and `c.txt` was added.  
-
-Example 3:  
-
-```text
-Input:
-snapshot_old = {
-  "type": "dir",
-  "name": "root",
-  "children": [
-    {"type": "file", "name": "log.txt", "content_hash": "aaa"}
-  ]
-}
-snapshot_new = {
-  "type": "dir",
-  "name": "root",
-  "children": [
-    {"type": "file", "name": "log.txt", "content_hash": "aaa"}
-  ]
-}
+Input: snapshot_a = [("lib/core.rs", "fn main() {}"), ("app/index.js", "run()")], snapshot_b = [("lib/core.rs", "fn main() {}"), ("app/index.js", "run()")]
 
 Output: []
 ```
 
-Explanation: The hashes match at every level, so no changes are detected.  
+Explanation: Both snapshots hold exactly the same files with the same contents, so nothing differs.
 
-Constraints:  
+Example 2:
 
-* The tree depth does not exceed 50.  
-* The total number of nodes (files and directories) in each snapshot is between 1 and 10,000.  
-* File names and directory names consist of lowercase English letters, digits, hyphens, underscores, and dots, with lengths between 1 and 64.  
-* Content hashes are hexadecimal strings of length 64 (e.g., SHA-256).  
-* The input snapshots are coherent—no concurrent modifications occur during the comparison process.  
-* Equality between nodes is determined solely by name and hash; metadata, permissions, and symlink targets are ignored.
+```text
+Input: snapshot_a = [("a.txt", "hello"), ("dir/x.txt", "x1"), ("dir/y.txt", "y1"), ("dir/sub/z.txt", "z1")], snapshot_b = [("a.txt", "hello"), ("dir/x.txt", "x2"), ("dir/sub/z.txt", "z1"), ("dir/sub/w.txt", "w1"), ("new.txt", "n")]
+
+Output: [("dir/sub/w.txt", "ADDED"), ("dir/x.txt", "MODIFIED"), ("dir/y.txt", "REMOVED"), ("new.txt", "ADDED")]
+```
+
+Explanation: `dir/x.txt` changed contents, `dir/y.txt` disappeared, while `dir/sub/w.txt` and `new.txt` are new; `a.txt` and `dir/sub/z.txt` are untouched.
+
+Example 3:
+
+```text
+Input: snapshot_a = [("p", "standalone file")], snapshot_b = [("p/q.txt", "nested file")]
+
+Output: [("p", "REMOVED"), ("p/q.txt", "ADDED")]
+```
+
+Explanation: The path `p` is a file in the first snapshot but a directory in the second, so it is reported as a removal of `p` plus an addition of `p/q.txt`.
+
+Constraints:
+
+* The number of files per snapshot satisfies $$0 \le \lvert snapshot\_a \rvert \le 2000$$ and $$0 \le \lvert snapshot\_b \rvert \le 2000$$.
+* The combined size of all file contents across both snapshots does not exceed $$2 \times 10^{6}$$ bytes.
+* Within a single snapshot every relative path is unique.
+* Within a single snapshot no file path is a prefix of another file path.
+* Paths are relative, use `/` as the separator, and refer only to regular files and the directories implied by those paths.
+* Only the standard library may be used.
+
+## Follow-ups
+
+* Discuss how you would design the node hashes so that two subtrees with equal hashes are guaranteed to be identical, and how that guarantee lets the diff prune work.
+
+## Interview Notes
+
+This round probes your grasp of Merkle trees, filesystem-aware hashing, directory traversal, and diff algorithms for surfacing file-level changes.
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Build a Merkle tree where each directory's hash is computed from the hashes of its children (files and subdirectories).
+Build the tree by inserting each file path component by component, then hash bottom-up so a directory's hash reflects all its contents.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-To find changes, compare the hashes of the root directories: if they match, nothing changed, otherwise, recursively compare children.
+Compare the two trees recursively: if a node's hash matches, skip its whole subtree, otherwise descend to find differing leaves.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The key edge case is handling file renames: a file that moved to a different directory will appear as a deletion and an addition, not a modification.
+A file is changed if it exists in only one snapshot or if its content hash differs, so collect those paths during the comparison.
 
 </details>
 

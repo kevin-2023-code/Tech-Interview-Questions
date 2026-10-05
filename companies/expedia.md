@@ -42,20 +42,20 @@ Which stage each question came from, for the **31 of 31** questions at Expedia t
 
 ## What they ask about
 
-Of the **23 questions at Expedia that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **24 questions at Expedia that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 4 | 17% | ████████████ | May 30, 2026 |
-| `greedy` | 4 | 17% | ████████████ | May 30, 2026 |
-| `backtracking` | 3 | 13% | █████████ | — |
-| `dynamic-programming` | 3 | 13% | █████████ | Nov 18, 2025 |
-| `graphs` | 3 | 13% | █████████ | — |
-| `math` | 3 | 13% | █████████ | May 30, 2026 |
-| `sliding-window` | 2 | 9% | ██████ | May 30, 2026 |
-| `strings` | 2 | 9% | ██████ | — |
-| `bit-manipulation` | 1 | 4% | ███ | — |
-| `hashing` | 1 | 4% | ███ | — |
+| `arrays` | 5 | 21% | ████████████ | May 30, 2026 |
+| `greedy` | 4 | 17% | ██████████ | May 30, 2026 |
+| `backtracking` | 3 | 12% | ███████ | — |
+| `dynamic-programming` | 3 | 12% | ███████ | Nov 18, 2025 |
+| `graphs` | 3 | 12% | ███████ | — |
+| `math` | 3 | 12% | ███████ | May 30, 2026 |
+| `sliding-window` | 2 | 8% | █████ | May 30, 2026 |
+| `sorting` | 2 | 8% | █████ | — |
+| `strings` | 2 | 8% | █████ | — |
+| `bit-manipulation` | 1 | 4% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -83,7 +83,7 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | **3** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Algorithm | Medium | 1 | May 30, 2026 |
 | **4** | [Count Dropped Requests](https://trueinterview.io/questions/count-dropped-requests) | Algorithm | Medium | — | May 30, 2026 |
 | **5** | [Range Negate Data Updates](https://trueinterview.io/questions/range-negate-data-updates) | Algorithm | Medium | — | May 30, 2026 |
-| **6** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 11 | Apr 12, 2026 |
+| **6** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
 | **7** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | 4 | Apr 09, 2026 |
 | **8** | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) 🆓 | Algorithm | Medium | 4 | Apr 01, 2026 |
 

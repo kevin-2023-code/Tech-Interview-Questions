@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**276 questions** reported across the **12 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**277 questions** reported across the **12 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **OpenAI** | [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | Hard | — |
 | **OpenAI** | [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | Easy | — |
 | **OpenAI** | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | Medium | — |
 | **OpenAI** | [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | Hard | — |

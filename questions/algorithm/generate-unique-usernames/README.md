@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Squarepoint | Online assessment | — | — |
+| Algorithm | Medium | Squarepoint | Online assessment | strings | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/1ac76be5-90d6-4f8f-b5af-24baa7b56ea9)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -70,21 +70,21 @@ Output: ["parkerpe", "parkepet", "parkpete", "parpeter", "parkepe1", "parkepe2",
 <details>
 <summary>Hint 1</summary>
 
-Think about how to systematically extract the required components from a name that may have varying numbers of middle names.
+Think about how to construct a base username from the name parts, then handle collisions by appending a numeric suffix.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Consider how to handle names that share a common first initial and surname, and what fallback strategy you could use to ensure uniqueness.
+Use a hash set to track used usernames and a hash map to remember the next suffix to try for each base.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for edge cases such as names with fewer than two parts or characters that might make the username invalid.
+Watch out for names with multiple spaces or empty parts, ensure you only use allowed characters and handle the case where the base itself is already taken.
 
 </details>
 

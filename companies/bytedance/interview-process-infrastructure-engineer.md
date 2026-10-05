@@ -54,7 +54,7 @@ One hour, graded on operating a system rather than drawing it: idempotency and f
 
 - [Design Payment System](https://trueinterview.io/questions/payment-platform-design)
 - [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts)
-- [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design)
+- [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md)
 
 ### Project Deep Dive
 

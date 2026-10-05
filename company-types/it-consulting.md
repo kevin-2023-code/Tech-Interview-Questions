@@ -2,7 +2,7 @@
 
 # 🧾 IT services & consulting — interview & OA questions
 
-**29 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**30 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[IBM (29)](../companies/ibm.md)
+[IBM (30)](../companies/ibm.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,24 +18,24 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 26 | 90% | ██████████████ | 9 |
+| [Algorithm](../formats/algorithm.md) | 27 | 90% | ██████████████ | 9 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 10% | ██ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **5 / 22 / 2**, over the rows the catalog has graded. 10 of the 29 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **5 / 23 / 2**, over the rows the catalog has graded. 10 of the 30 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **25 questions in this cut that carry a topic label** (86% of it):
+Of the **26 questions in this cut that carry a topic label** (87% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `greedy` | 7 | 28% | ████████████ |
-| `arrays` | 5 | 20% | █████████ |
-| `strings` | 5 | 20% | █████████ |
-| `hashing` | 3 | 12% | █████ |
-| `intervals` | 3 | 12% | █████ |
-| `math` | 3 | 12% | █████ |
-| `sorting` | 3 | 12% | █████ |
+| `greedy` | 8 | 31% | ████████████ |
+| `arrays` | 5 | 19% | ████████ |
+| `strings` | 5 | 19% | ████████ |
+| `hashing` | 4 | 15% | ██████ |
+| `intervals` | 3 | 12% | ████ |
+| `math` | 3 | 12% | ████ |
+| `sorting` | 3 | 12% | ████ |
 | `dynamic-programming` | 2 | 8% | ███ |
 | `graphs` | 2 | 8% | ███ |
 | `heap` | 2 | 8% | ███ |
@@ -63,7 +63,8 @@ Of the **25 questions in this cut that carry a topic label** (86% of it):
 | **IBM** | [Minimum Replacements for Adjacent Duplicate Characters](https://trueinterview.io/questions/minimum-replacements-adjacent-duplicates) | Medium | 🆕 Aug 27, 2026 |
 | **Expedia / IBM** | [Card Packets with Identical Distribution](https://trueinterview.io/questions/card-packets-with-identical-distribution) | Medium | May 30, 2026 |
 | **IBM** | [Count 3^x * 5^y Numbers and Decreasing Subarrays](https://trueinterview.io/questions/dotnet-number-and-decreasing-subarray-oa) | Medium | Apr 25, 2026 |
-| **IBM / Amazon / ByteDance** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Medium | Feb 26, 2026 |
+| **Salesforce / IBM** | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Medium | Mar 19, 2026 |
+| **IBM / Amazon / ByteDance / Google** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Medium | Feb 26, 2026 |
 | **IBM** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Medium | Feb 22, 2026 |
 | **IBM** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Medium | Feb 22, 2026 |
 | **IBM** | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Easy | Nov 07, 2025 |

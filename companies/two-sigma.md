@@ -46,20 +46,20 @@ Which stage each question came from, for the **24 of 24** questions at Two Sigma
 
 ## What they ask about
 
-Of the **18 questions at Two Sigma that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Two Sigma that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 22% | ████████████ | Mar 25, 2026 |
-| `greedy` | 3 | 17% | █████████ | Mar 25, 2026 |
-| `math` | 3 | 17% | █████████ | May 10, 2026 |
-| `trees` | 3 | 17% | █████████ | Mar 25, 2026 |
+| `graphs` | 4 | 21% | ████████████ | Mar 25, 2026 |
+| `math` | 4 | 21% | ████████████ | May 10, 2026 |
+| `greedy` | 3 | 16% | █████████ | Mar 25, 2026 |
+| `trees` | 3 | 16% | █████████ | Mar 25, 2026 |
 | `arrays` | 2 | 11% | ██████ | Mar 25, 2026 |
 | `binary-search` | 2 | 11% | ██████ | May 10, 2026 |
 | `heap` | 2 | 11% | ██████ | Jul 29, 2026 |
 | `sorting` | 2 | 11% | ██████ | Mar 25, 2026 |
 | `strings` | 2 | 11% | ██████ | Feb 18, 2026 |
-| `backtracking` | 1 | 6% | ███ | Oct 09, 2025 |
+| `backtracking` | 1 | 5% | ███ | Oct 09, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

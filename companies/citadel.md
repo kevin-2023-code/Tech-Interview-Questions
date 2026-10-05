@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 61) |
 | Difficulty (easy / medium / hard) | 8 / 40 / 13 |
-| Free to practise | [4](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
 <sub>Counted from the 61 questions reported at Citadel. 40 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -53,19 +53,19 @@ Which stage each question came from, for the **61 of 61** questions at Citadel t
 
 ## What they ask about
 
-Of the **43 questions at Citadel that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **44 questions at Citadel that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `arrays` | 6 | 14% | ████████████ | Aug 05, 2026 |
-| `greedy` | 5 | 12% | ██████████ | Mar 09, 2026 |
-| `hashing` | 5 | 12% | ██████████ | Aug 05, 2026 |
-| `heap` | 5 | 12% | ██████████ | Sep 18, 2026 |
-| `math` | 5 | 12% | ██████████ | Jan 05, 2026 |
+| `hashing` | 6 | 14% | ████████████ | Aug 05, 2026 |
+| `strings` | 6 | 14% | ████████████ | May 07, 2026 |
+| `heap` | 5 | 11% | ██████████ | Sep 18, 2026 |
+| `math` | 5 | 11% | ██████████ | Jan 05, 2026 |
 | `binary-search` | 4 | 9% | ████████ | Jun 04, 2026 |
 | `graphs` | 4 | 9% | ████████ | Aug 15, 2026 |
+| `greedy` | 4 | 9% | ████████ | Mar 09, 2026 |
 | `sorting` | 4 | 9% | ████████ | Jan 05, 2026 |
-| `strings` | 4 | 9% | ████████ | Jan 05, 2026 |
 | `backtracking` | 3 | 7% | ██████ | Jan 05, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -91,7 +91,7 @@ Every recorded sighting at Citadel, by the month it was reported in — Oct 26, 
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Citadel, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Citadel, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
@@ -102,7 +102,7 @@ The 8 questions to open first if you are preparing for Citadel, ranked by **the 
 | **5** | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | — | Aug 05, 2026 |
 | **6** | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | — | Aug 05, 2026 |
 | **7** | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Hard | — | Jul 27, 2026 |
-| **8** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | — | Jul 08, 2026 |
+| **8** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | 1 | Jul 08, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

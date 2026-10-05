@@ -2,7 +2,7 @@
 
 # ByteDance interview process, OA & interview questions
 
-**176 questions** reported at ByteDance · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
+**182 questions** reported at ByteDance · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bytedance), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How ByteDance interviews & the free questions](bytedance/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **176** |
+| Questions tracked | **182** |
 | Most recent sighting | Sep 06, 2026 |
 | Reported in the last 90 days | 16 |
-| Most common format | [Algorithm](../formats/algorithm.md) (78% of 176) |
-| Difficulty (easy / medium / hard) | 24 / 116 / 36 |
-| Free to practise | [23](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (79% of 182) |
+| Difficulty (easy / medium / hard) | 24 / 121 / 37 |
+| Free to practise | [25](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 176 questions reported at ByteDance. 94 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 182 questions reported at ByteDance. 100 of them carry a sighting date; the other 82 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **176 of 176** questions at ByteDance that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **182 of 182** questions at ByteDance that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 26 | ██ | [Algorithm](../formats/algorithm.md) (88%) | 15 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 115 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 7 / 86 / 22 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 63 | █████ | [Algorithm](../formats/algorithm.md) (56%) | 4 / 39 / 20 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 27 | ██ | [Algorithm](../formats/algorithm.md) (89%) | 15 / 9 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 119 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 7 / 89 / 23 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 67 | ██████ | [Algorithm](../formats/algorithm.md) (58%) | 4 / 43 / 20 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,20 +59,20 @@ Which stage each question came from, for the **176 of 176** questions at ByteDan
 
 ## What they ask about
 
-Of the **137 questions at ByteDance that carry a topic label** (78% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **145 questions at ByteDance that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 26 | 19% | ████████████ | Sep 04, 2026 |
-| `arrays` | 23 | 17% | ███████████ | Aug 21, 2026 |
-| `strings` | 18 | 13% | ████████ | Sep 04, 2026 |
-| `hashing` | 16 | 12% | ███████ | Aug 17, 2026 |
+| `graphs` | 28 | 19% | ████████████ | Sep 04, 2026 |
+| `arrays` | 24 | 17% | ██████████ | Aug 21, 2026 |
+| `strings` | 20 | 14% | █████████ | Sep 04, 2026 |
+| `hashing` | 19 | 13% | ████████ | Sep 06, 2026 |
 | `backtracking` | 14 | 10% | ██████ | Sep 04, 2026 |
-| `sliding-window` | 12 | 9% | ██████ | Jun 29, 2026 |
-| `stack` | 12 | 9% | ██████ | Jun 24, 2026 |
-| `dynamic-programming` | 11 | 8% | █████ | Aug 17, 2026 |
+| `sliding-window` | 13 | 9% | ██████ | Jun 29, 2026 |
+| `dynamic-programming` | 12 | 8% | █████ | Aug 17, 2026 |
+| `stack` | 12 | 8% | █████ | Jun 24, 2026 |
+| `greedy` | 11 | 8% | █████ | Aug 20, 2026 |
 | `trees` | 11 | 8% | █████ | Aug 17, 2026 |
-| `greedy` | 9 | 7% | ████ | Aug 20, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -82,16 +82,16 @@ Every recorded sighting at ByteDance, by the month it was reported in — May 30
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | ████ |
-| [Aug 2026](../by-month/2026-08.md) | 10 | ████████████ |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ████ |
-| [Jun 2026](../by-month/2026-06.md) | 20 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 4 | █████ |
-| [Apr 2026](../by-month/2026-04.md) | 8 | ██████████ |
-| [Mar 2026](../by-month/2026-03.md) | 14 | █████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 10 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 15 | ██████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 3 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | ███ |
+| [Aug 2026](../by-month/2026-08.md) | 10 | ███████████ |
+| [Jul 2026](../by-month/2026-07.md) | 3 | ███ |
+| [Jun 2026](../by-month/2026-06.md) | 22 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 7 | ████████ |
+| [Apr 2026](../by-month/2026-04.md) | 8 | █████████ |
+| [Mar 2026](../by-month/2026-03.md) | 14 | ███████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 11 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 15 | ████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | █ |
 | [Jul 2025](../by-month/2025-07.md) | 2 | ██ |
 | [May 2025](../by-month/2025-05.md) | 1 | █ |
@@ -141,7 +141,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | System Design | Hard | 🆕 Aug 30, 2026 |
 | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | Medium | 🆕 Aug 25, 2026 |
 | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Algorithm | Medium | 🆕 Aug 21, 2026 |
-| [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) | Algorithm | Medium | 🆕 Aug 20, 2026 |
+| [Timestamped Task Scheduler](https://trueinterview.io/questions/timestamped-task-scheduler) | Algorithm | Medium | Aug 20, 2026 |
 | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | System Design | Hard | Aug 17, 2026 |
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | Aug 17, 2026 |
 | [Stickers to Spell Word (LeetCode 691)](https://trueinterview.io/questions/stickers-to-spell-word) | Algorithm | Hard | Aug 17, 2026 |
@@ -162,18 +162,23 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | Jun 16, 2026 |
 | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | Jun 16, 2026 |
 | [Number of Islands and Grid BFS Variants](https://trueinterview.io/questions/number-of-islands-family) | Algorithm | Hard | Jun 16, 2026 |
+| [Word Break](https://trueinterview.io/questions/word-break) | Algorithm | Medium | Jun 16, 2026 |
 | [Sliding Window Maximum](https://trueinterview.io/questions/sliding-window-maximum) | Algorithm | Medium | Jun 16, 2026 |
 | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Algorithm | Hard | Jun 16, 2026 |
 | [Parallel Courses III](https://trueinterview.io/questions/parallel-courses-iii) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Recent Like Count and Top Posts in a Sliding Window](https://trueinterview.io/questions/recent-like-count-and-top-posts) | System Design | Medium | Jun 11, 2026 |
 | [Contiguous Memory Allocator II](https://trueinterview.io/questions/memory-allocator) | Object Oriented Programming | Medium | Jun 11, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
+| [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Algorithm | Medium | Jun 06, 2026 |
 | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Algorithm | Medium | Jun 06, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
 | [Video-Keyword Association Review System](https://trueinterview.io/questions/video-keyword-association-review-system) | System Design | Hard | Jun 01, 2026 |
+| [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Algorithm | Medium | May 31, 2026 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | May 27, 2026 |
 | [Design a HashMap](https://trueinterview.io/questions/design-a-hashmap) | Object Oriented Programming | Easy | May 27, 2026 |
 | [Realtime Auction Bidding System](https://trueinterview.io/questions/realtime-auction-bidding-system) | System Design | Medium | May 20, 2026 |
+| [Course Schedule Cycle Detection](https://trueinterview.io/questions/course-schedule-cycle-detection) | Algorithm | Medium | May 13, 2026 |
+| [Kth Largest Element / Quick Select](https://trueinterview.io/questions/kth-largest-quick-select) | Algorithm | Medium | May 06, 2026 |
 | [Hand-Code Self-Attention and Cross-Entropy](https://trueinterview.io/questions/self-attention-cross-entropy-pseudocode) | Algorithm | Hard | May 01, 2026 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Apr 17, 2026 |
 | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Algorithm | Medium | Apr 09, 2026 |
@@ -199,6 +204,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Algorithm | Hard | Mar 04, 2026 |
 | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | Feb 26, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
+| [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Algorithm | Medium | Feb 21, 2026 |
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | Feb 17, 2026 |
 | [N-Queens](https://trueinterview.io/questions/n-queens) | Algorithm | Medium | Feb 16, 2026 |
@@ -229,6 +235,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Delete k Elements to Balance](https://trueinterview.io/questions/delete-k-elements-to-balance) | Algorithm | Medium | Jul 25, 2025 |
 | [Add Signed Arrays](https://trueinterview.io/questions/add-signed-arrays) | Algorithm | Easy | Jul 25, 2025 |
 | [Nested Set Equality](https://trueinterview.io/questions/nested-set-equality) | Algorithm | Medium | May 30, 2025 |
+| [Valid Parenthesis String](https://trueinterview.io/questions/3f5b04ec-1edd-5e0f-8855-0cd11245d463) | Algorithm | Hard | — |
 | [Enumerate All Simple Paths and Directed Cycles](https://trueinterview.io/questions/da77d8f0-0d6f-5c7b-b2d3-7817a85ee644) | Algorithm | Hard | — |
 | [Count Numbers with an Even Number of Digits](https://trueinterview.io/questions/d8685168-d442-5d0b-bd80-b6a7479d500e) | Algorithm | Easy | — |
 | [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01) | Algorithm | Hard | — |
@@ -253,7 +260,6 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Maximum Candies Allocated to K Children](https://trueinterview.io/questions/399fbb4a-5f57-5d2c-bf6b-ead8141c2dd9) | Algorithm | Medium | — |
 | [Count of Interesting Subarrays](https://trueinterview.io/questions/183844b9-53d4-5fd4-b729-237e53de7f2a) | Algorithm | Medium | — |
 | [Number of Islands and Island Perimeter](https://trueinterview.io/questions/73ad9595-8e31-53b1-b6fa-e87b2565ff10) | Algorithm | Medium | — |
-| [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Algorithm | Medium | — |
 | [Reverse Linked List in Groups of K Including the Last Partial Group](https://trueinterview.io/questions/350eb5bb-42fe-5d74-a546-13518c969355) | Algorithm | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |

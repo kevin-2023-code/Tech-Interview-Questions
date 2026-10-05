@@ -16,10 +16,10 @@
 | :-- | :-- |
 | Questions tracked | **198** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 19 |
+| Reported in the last 90 days | 18 |
 | Most common format | [Algorithm](../formats/algorithm.md) (75% of 198) |
 | Difficulty (easy / medium / hard) | 21 / 130 / 47 |
-| Free to practise | [22](../free/README.md) |
+| Free to practise | [24](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 198 questions reported at Google. 101 of them carry a sighting date; the other 97 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -30,15 +30,15 @@ Which stage each question came from, for the **198 of 198** questions at Google 
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 17 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 9 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 108 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 5 / 77 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 18 | ██ | [Algorithm](../formats/algorithm.md) (94%) | 9 / 8 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 5 / 76 / 26 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 96 | █████████ | [Algorithm](../formats/algorithm.md) (55%) | 8 / 59 / 29 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**19 sightings** in this window. Newest first.
+**18 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,24 +55,24 @@ Which stage each question came from, for the **198 of 198** questions at Google 
 | [Target Expressions from Ordered Digits](https://trueinterview.io/questions/target-expressions-ordered-digits) | Algorithm | Hard | Onsite / virtual onsite | Aug 13, 2026 |
 | [Progressive Array Partitioning](https://trueinterview.io/questions/array-partition-unique-frequencies-straights) | Algorithm | Hard | Phone screen | Aug 11, 2026 |
 
-<sub>7 more in this window are in the table below.</sub>
+<sub>6 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **151 questions at Google that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **152 questions at Google that carry a topic label** (77% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 34 | 23% | ████████████ | Jul 19, 2026 |
+| `graphs` | 34 | 22% | ████████████ | Jul 19, 2026 |
 | `arrays` | 24 | 16% | ████████ | Aug 16, 2026 |
-| `hashing` | 19 | 13% | ███████ | Sep 02, 2026 |
-| `strings` | 19 | 13% | ███████ | Sep 02, 2026 |
-| `greedy` | 18 | 12% | ██████ | Aug 11, 2026 |
+| `greedy` | 19 | 12% | ███████ | Aug 11, 2026 |
+| `hashing` | 19 | 12% | ███████ | Sep 02, 2026 |
+| `strings` | 18 | 12% | ██████ | Sep 02, 2026 |
 | `trees` | 16 | 11% | ██████ | Sep 09, 2026 |
-| `backtracking` | 14 | 9% | █████ | Aug 16, 2026 |
 | `dynamic-programming` | 14 | 9% | █████ | Sep 09, 2026 |
+| `backtracking` | 13 | 9% | █████ | Aug 16, 2026 |
 | `heap` | 11 | 7% | ████ | Jul 23, 2026 |
-| `intervals` | 10 | 7% | ████ | Jun 26, 2026 |
+| `intervals` | 11 | 7% | ████ | Jun 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -89,10 +89,10 @@ Every recorded sighting at Google, by the month it was reported in — Jun 10, 2
 | [May 2026](../by-month/2026-05.md) | 13 | █████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 7 | ███████████ |
 | [Mar 2026](../by-month/2026-03.md) | 9 | ██████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 13 | █████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 14 | ██████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 9 | ██████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 6 | ██████████ |
-| [Nov 2025](../by-month/2025-11.md) | 5 | ████████ |
+| [Nov 2025](../by-month/2025-11.md) | 4 | ██████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | ██ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Algorithm | Hard | 🆕 Sep 09, 2026 |
 | [Next-Word Predictor](https://trueinterview.io/questions/next-word-frequency-predictor) | Algorithm | Medium | 🆕 Sep 02, 2026 |
 | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Hard | 🆕 Aug 29, 2026 |
-| [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | 🆕 Aug 20, 2026 |
+| [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | Aug 20, 2026 |
 | [Web Crawler at Search Scale](https://trueinterview.io/questions/web-crawler-at-search-scale) | System Design | Hard | Aug 16, 2026 |
 | [Cutting Ribbons (LC 1891)](https://trueinterview.io/questions/cutting-ribbons-max-equal-length) | Algorithm | Medium | Aug 16, 2026 |
 | [Nested List Weight Sum (LC 339) with Follow-Ups](https://trueinterview.io/questions/nested-list-weighted-sum-parsing) | Algorithm | Medium | Aug 16, 2026 |
@@ -199,6 +199,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Hard | Mar 17, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
+| [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | Feb 26, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Medium | Feb 26, 2026 |
 | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Algorithm | Medium | Feb 19, 2026 |
 | [Decode String](https://trueinterview.io/questions/decode-string) | Algorithm | Medium | Feb 16, 2026 |
@@ -230,7 +231,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Object Oriented Programming | Hard | Nov 28, 2025 |
 | [Find All Bad Pairs Using runTest Oracle](https://trueinterview.io/questions/find-bad-pairs-with-oracle) | Algorithm | Hard | Nov 27, 2025 |
 | [Two-Day Log Intersection under Memory Limit](https://trueinterview.io/questions/two-logs-intersection-memory-limit) | Algorithm | Medium | Nov 27, 2025 |
-| [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Algorithm | Medium | Nov 17, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | Algorithm | Easy | Aug 26, 2025 |

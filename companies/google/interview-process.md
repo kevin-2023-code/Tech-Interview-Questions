@@ -49,7 +49,7 @@ Design prompts are about specific products and leave the requirements open: quot
 
 - [L6 System Design (Staff Loop)](https://trueinterview.io/questions/l6-system-design-staff-loop)
 - [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system)
-- [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design)
+- [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md)
 - [ML System Design (Recsys / Chatbot / Image Classifier)](https://trueinterview.io/questions/ml-system-design-recsys-chatbot-classifier)
 
 ## Low-Level Design Questions

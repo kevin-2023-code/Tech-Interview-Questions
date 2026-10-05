@@ -69,10 +69,10 @@ The 8 questions to open first if you are preparing for Visa, ranked by **the one
 | **2** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) 🆓 | Algorithm | Medium | 2 | — |
 | **3** | [Best Time to Buy and Sell Stock](https://trueinterview.io/questions/b22b8d56-b468-4bec-86db-22b981d32761) | Algorithm | Easy | 1 | — |
 | **4** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Algorithm | Medium | 1 | — |
-| **5** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Algorithm | Easy | — | — |
-| **6** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | System Design | Medium | — | — |
-| **7** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Algorithm | Medium | — | — |
-| **8** | [Minimize Value by Parentheses in Concatenated Expression](https://trueinterview.io/questions/2c206b9d-3d55-4b5e-a350-1617c3666b7b) | Algorithm | Medium | — | — |
+| **5** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | 1 | — |
+| **6** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Algorithm | Easy | — | — |
+| **7** | [Concurrent User Management System Architecture Design](https://trueinterview.io/questions/0b31ae3b-9d46-43e6-b4ba-b4ff6c58394a) | System Design | Medium | — | — |
+| **8** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

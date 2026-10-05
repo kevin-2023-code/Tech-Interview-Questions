@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (45% of 71) |
 | Difficulty (easy / medium / hard) | 8 / 51 / 12 |
-| Free to practise | [4](../free/README.md) |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 71 questions reported at DoorDash. 47 of them carry a sighting date; the other 24 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -52,18 +52,18 @@ Which stage each question came from, for the **71 of 71** questions at DoorDash 
 
 ## What they ask about
 
-Of the **32 questions at DoorDash that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **33 questions at DoorDash that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 6 | 19% | ████████████ | Aug 16, 2026 |
-| `strings` | 6 | 19% | ████████████ | Aug 16, 2026 |
-| `arrays` | 5 | 16% | ██████████ | Aug 16, 2026 |
-| `trees` | 5 | 16% | ██████████ | Feb 04, 2026 |
+| `hashing` | 6 | 18% | ████████████ | Aug 16, 2026 |
+| `strings` | 6 | 18% | ████████████ | Aug 16, 2026 |
+| `arrays` | 5 | 15% | ██████████ | Aug 16, 2026 |
+| `trees` | 5 | 15% | ██████████ | Feb 04, 2026 |
 | `graphs` | 4 | 12% | ████████ | Apr 29, 2026 |
 | `binary-search` | 3 | 9% | ██████ | Aug 16, 2026 |
+| `greedy` | 3 | 9% | ██████ | Aug 16, 2026 |
 | `dynamic-programming` | 2 | 6% | ████ | Feb 07, 2026 |
-| `greedy` | 2 | 6% | ████ | Aug 16, 2026 |
 | `intervals` | 2 | 6% | ████ | — |
 | `math` | 2 | 6% | ████ | Aug 16, 2026 |
 

@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 2 |
 | Most common format | [System Design](../formats/system-design.md) (46% of 13) |
 | Difficulty (easy / medium / hard) | 2 / 7 / 4 |
-| Free to practise | [2](../free/README.md) |
+| Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
 <sub>Counted from the 13 questions reported at Microsoft AI. 7 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
@@ -84,9 +84,9 @@ The 8 questions to open first if you are preparing for Microsoft AI, ranked by *
 | **3** | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) 🆓 | System Design | Medium | 4 | Jun 11, 2026 |
 | **4** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
 | **5** | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Algorithm | Hard | 1 | Mar 03, 2026 |
-| **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 8 | Dec 10, 2025 |
+| **6** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | 9 | Dec 10, 2025 |
 | **7** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) 🆓 | System Design | Easy | 4 | Oct 29, 2025 |
-| **8** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | 8 | — |
+| **8** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) 🆓 | System Design | Hard | 9 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 

@@ -2,7 +2,7 @@
 
 # Reddit interview process, OA & interview questions
 
-**28 questions** reported at Reddit · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at Reddit · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Reddit interviews & the free questions](reddit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **28** |
+| Questions tracked | **29** |
 | Most recent sighting | Jun 23, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (43% of 28) |
-| Difficulty (easy / medium / hard) | 2 / 19 / 7 |
-| Free to practise | [5](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (41% of 29) |
+| Difficulty (easy / medium / hard) | 2 / 20 / 7 |
+| Free to practise | [8](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 28 questions reported at Reddit. 23 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 29 questions reported at Reddit. 23 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **28 of 28** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **29 of 29** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 15 | ████████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 13 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 19 | ██████████ | [System Design](../formats/system-design.md) (58%) | 1 / 13 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 20 | ██████████ | [System Design](../formats/system-design.md) (55%) | 1 / 14 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,20 +42,20 @@ Which stage each question came from, for the **28 of 28** questions at Reddit th
 
 ## What they ask about
 
-Of the **13 questions at Reddit that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Reddit that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 31% | ████████████ | May 12, 2026 |
-| `strings` | 4 | 31% | ████████████ | Jun 23, 2026 |
-| `arrays` | 3 | 23% | █████████ | Jun 12, 2026 |
-| `hashing` | 3 | 23% | █████████ | Jun 23, 2026 |
-| `heap` | 2 | 15% | ██████ | Jun 12, 2026 |
-| `backtracking` | 1 | 8% | ███ | Feb 19, 2026 |
-| `linked-list` | 1 | 8% | ███ | Mar 01, 2026 |
-| `sliding-window` | 1 | 8% | ███ | Jun 12, 2026 |
-| `sorting` | 1 | 8% | ███ | Jun 23, 2026 |
-| `trees` | 1 | 8% | ███ | Feb 17, 2026 |
+| `graphs` | 4 | 29% | ████████████ | May 12, 2026 |
+| `strings` | 4 | 29% | ████████████ | Jun 23, 2026 |
+| `arrays` | 3 | 21% | █████████ | Jun 12, 2026 |
+| `hashing` | 3 | 21% | █████████ | Jun 23, 2026 |
+| `heap` | 2 | 14% | ██████ | Jun 12, 2026 |
+| `backtracking` | 1 | 7% | ███ | Feb 19, 2026 |
+| `greedy` | 1 | 7% | ███ | Mar 30, 2026 |
+| `linked-list` | 1 | 7% | ███ | Mar 01, 2026 |
+| `sliding-window` | 1 | 7% | ███ | Jun 12, 2026 |
+| `sorting` | 1 | 7% | ███ | Jun 23, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -136,5 +136,6 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | System Design | Medium | — |
 | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
+| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444) | Object Oriented Programming | Medium | — |
 | [Tennis Scoring](https://trueinterview.io/questions/b30fcfc7-0dd6-4ac0-822e-39e316e02870) | Algorithm | Medium | — |

@@ -74,7 +74,7 @@ The 8 questions to open first if you are preparing for Tradedesk, ranked by **th
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
-| **2** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | 1 | — |
+| **2** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | 2 | — |
 | **3** | [Buddies Greater than Target](https://trueinterview.io/questions/055e2b8e-9813-42ea-be04-71e25dff05a4) | Algorithm | Easy | — | — |
 | **4** | [Last to Be Checked](https://trueinterview.io/questions/2069bf07-0c49-475c-8ef8-9e11c443b509) | Algorithm | Easy | — | — |
 | **5** | [Narrative Words](https://trueinterview.io/questions/9ad96e3a-7f96-4ddb-bcbb-724f098ce6e9) | Algorithm | Easy | — | — |

@@ -2,7 +2,7 @@
 
 # Salesforce interview process, OA & interview questions
 
-**77 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**78 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **77** |
+| Questions tracked | **78** |
 | Most recent sighting | Aug 24, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (84% of 77) |
-| Difficulty (easy / medium / hard) | 14 / 43 / 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (83% of 78) |
+| Difficulty (easy / medium / hard) | 15 / 43 / 20 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 77 questions reported at Salesforce. 34 of them carry a sighting date; the other 43 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 78 questions reported at Salesforce. 35 of them carry a sighting date; the other 43 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **77 of 77** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **78 of 78** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 22 | ██████ | [Algorithm](../formats/algorithm.md) (95%) | 13 / 8 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 40 | ██████████ | [Algorithm](../formats/algorithm.md) (90%) | 1 / 29 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 22 | █████ | [Algorithm](../formats/algorithm.md) (95%) | 13 / 8 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 41 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 2 / 29 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 20 | █████ | [Algorithm](../formats/algorithm.md) (55%) | 0 / 11 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
@@ -58,7 +58,7 @@ Which stage each question came from, for the **77 of 77** questions at Salesforc
 
 ## What they ask about
 
-Of the **65 questions at Salesforce that carry a topic label** (84% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **66 questions at Salesforce that carry a topic label** (85% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -66,18 +66,18 @@ Of the **65 questions at Salesforce that carry a topic label** (84% of them — 
 | `strings` | 11 | 17% | ██████████ | Aug 24, 2026 |
 | `greedy` | 10 | 15% | █████████ | Apr 01, 2026 |
 | `dynamic-programming` | 9 | 14% | ████████ | Jul 25, 2026 |
+| `graphs` | 8 | 12% | ███████ | Aug 24, 2026 |
 | `two-pointers` | 7 | 11% | ██████ | Aug 16, 2026 |
-| `graphs` | 6 | 9% | ██████ | Aug 24, 2026 |
 | `hashing` | 5 | 8% | █████ | Mar 19, 2026 |
 | `math` | 5 | 8% | █████ | — |
+| `trees` | 5 | 8% | █████ | Aug 16, 2026 |
 | `backtracking` | 4 | 6% | ████ | Aug 16, 2026 |
-| `sliding-window` | 4 | 6% | ████ | Mar 19, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Salesforce, by the month it was reported in — Nov 26, 2025 to Aug 24, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Salesforce, by the month it was reported in — Oct 15, 2025 to Aug 24, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
@@ -90,19 +90,20 @@ Every recorded sighting at Salesforce, by the month it was reported in — Nov 2
 | [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 2 | ██████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Salesforce, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Salesforce, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | — | Aug 24, 2026 |
 | **2** | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | — | Aug 24, 2026 |
-| **3** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | — | Aug 16, 2026 |
-| **4** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | — | Aug 16, 2026 |
-| **5** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | — | Aug 16, 2026 |
-| **6** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | — | Aug 16, 2026 |
+| **3** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | 1 | Aug 16, 2026 |
+| **4** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | — | Aug 16, 2026 |
+| **5** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | — | Aug 16, 2026 |
+| **6** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | — | Aug 16, 2026 |
 | **7** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | — | Jul 26, 2026 |
 | **8** | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | — | Jul 25, 2026 |
 
@@ -170,6 +171,7 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | [Binary String Synchronous '01' → '10' Replacement](https://trueinterview.io/questions/binary-string-01-10-swap) | Algorithm | Hard | Dec 25, 2025 |
 | [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check) | Algorithm | Easy | Dec 25, 2025 |
 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Algorithm | Medium | Nov 26, 2025 |
+| [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Implement Merge Sort and Explain Its Recursion Tree](https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4) | Algorithm | Medium | — |
 | [Convert a Sorted Doubly Linked List to an In-Place Balanced BST](https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7) | Algorithm | Medium | — |
 | [Get Max Efficiency](https://trueinterview.io/questions/f17bf4e8-5c3c-440a-8223-2134aa4a4837) | Algorithm | Medium | — |

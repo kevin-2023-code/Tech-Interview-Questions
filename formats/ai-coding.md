@@ -51,7 +51,7 @@
 | **Meta** | [DE AI-Native Full-Stack Round](https://trueinterview.io/questions/de-ai-native-full-stack-round) | Medium | Apr 17, 2026 |
 | **Databricks** | [Gradient Descent for Simple Linear Regression](https://trueinterview.io/questions/274c024f-d789-4f9c-99cd-ad66381cfc31) | Medium | Apr 17, 2026 |
 | **Perplexity** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | Medium | Apr 12, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **xAI** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Medium | Apr 04, 2026 |
 | **xAI** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | Hard | Apr 04, 2026 |
 | **Meta** | [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting) | Medium | Apr 01, 2026 |

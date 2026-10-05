@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| System Design | Easy | Reddit · Airbnb · Amazon · DoorDash · Expedia · Google · +6 | Onsite / virtual onsite | — | Apr 2026 |
+| System Design | Easy | Reddit · Airbnb · Amazon · DoorDash · Expedia · Google · +7 | Onsite / virtual onsite | — | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-a-notification-system-for-reddit)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
@@ -101,7 +101,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Reddit](../../../companies/reddit/README.md) · [Airbnb](../../../companies/airbnb/README.md) · [Amazon](../../../companies/amazon/README.md) · [DoorDash](../../../companies/doordash/README.md) · [Expedia](../../../companies/expedia/README.md) · [Google](../../../companies/google/README.md) · [Pinterest](../../../companies/pinterest/README.md) · [Robinhood](../../../companies/robinhood/README.md) · [Snapchat](../../../companies/snapchat/README.md) · [Whatnot](../../../companies/whatnot/README.md) · [xAI](../../../companies/xai/README.md) · [Yelp](../../../companies/yelp/README.md)
+[Reddit](../../../companies/reddit/README.md) · [Airbnb](../../../companies/airbnb/README.md) · [Amazon](../../../companies/amazon/README.md) · [DoorDash](../../../companies/doordash/README.md) · [Expedia](../../../companies/expedia/README.md) · [Google](../../../companies/google/README.md) · [Meta](../../../companies/meta/README.md) · [Pinterest](../../../companies/pinterest/README.md) · [Robinhood](../../../companies/robinhood/README.md) · [Snapchat](../../../companies/snapchat/README.md) · [Whatnot](../../../companies/whatnot/README.md) · [xAI](../../../companies/xai/README.md) · [Yelp](../../../companies/yelp/README.md)
 
 ---
 

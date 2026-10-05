@@ -10,6 +10,11 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Amazon** | [Frequency-Priority Error Code Sort](https://trueinterview.io/questions/frequency-priority-error-code-sort) | Easy | Mar 23, 2026 |
+| **Uber** | [Active Couriers Timeline](https://trueinterview.io/questions/active-couriers-timeline) | Medium | Mar 23, 2026 |
+| **Roblox** | [Single-Threaded CPU](https://trueinterview.io/questions/single-threaded-cpu) | Hard | Mar 23, 2026 |
+| **Amazon** | [Lexicographically Minimal BoxIds via +1/9 Op](https://trueinterview.io/questions/lex-min-box-ids-plus-one-mod-nine) | Hard | Mar 22, 2026 |
+| **Uber** | [Checking Existence of Edge Length Limited Paths](https://trueinterview.io/questions/checking-existence-of-edge-length-limited-paths) | Hard | Mar 22, 2026 |
 | **Uber / Google** | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Hard | Mar 22, 2026 |
 | **Two Sigma** | [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero) | Hard | Mar 21, 2026 |
 | **Lyft** | [One-Hot Encoder + ML Error Diagnosis](https://trueinterview.io/questions/one-hot-encoder-and-ml-error-diagnosis) | Medium | Mar 21, 2026 |
@@ -17,12 +22,12 @@
 | **Amazon / Google** | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Medium | Mar 21, 2026 |
 | **Uber / Google** | [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Medium | Mar 21, 2026 |
 | **Roblox** | [Candy Crush Grid Matching and Gravity](https://trueinterview.io/questions/candy-crush-grid-matching-and-gravity) | Medium | Mar 21, 2026 |
-| **Uber / Amazon / ByteDance / Gusto / Oracle** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Medium | Mar 20, 2026 |
+| **Uber / Amazon / ByteDance / Gusto / Microsoft / Oracle** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Medium | Mar 20, 2026 |
 | **Airbnb** | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Medium | Mar 20, 2026 |
 | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
 | **Databricks** | [Encode And Decode](https://trueinterview.io/questions/integer-stream-encoder-decoder) | Hard | Mar 20, 2026 |
 | **Salesforce** | [Maximum Requests in a Time Window](https://trueinterview.io/questions/maximum-requests-in-time-window) | Easy | Mar 19, 2026 |
-| **Salesforce** | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Medium | Mar 19, 2026 |
+| **Salesforce / IBM** | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Medium | Mar 19, 2026 |
 | **Microsoft** | [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader) | Medium | Mar 18, 2026 |
 | **JPMorgan** | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Hard | Mar 18, 2026 |
 | **ByteDance** | [Two-Direction Justified Newspaper Layout](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-two-direction-justified-newspaper-layout) | Medium | Mar 17, 2026 |
@@ -47,7 +52,7 @@
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
 | **Uber** | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Hard | Mar 08, 2026 |
 | **SoFi** | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Medium | Mar 06, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / Netflix / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **ByteDance** | [Photo Groups via Transitive Similarity](https://trueinterview.io/questions/friend-circles-photo-groups) | Medium | Mar 05, 2026 |
 | **Uber / Apple / Bloomberg / ByteDance / Meta / Microsoft** | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Hard | Mar 04, 2026 |
 | **OpenAI** | [Design IP Range Iterator](https://trueinterview.io/questions/design-ip-range-iterator) | Medium | Mar 03, 2026 |
@@ -69,7 +74,7 @@
 | **Roblox** | [Grid Reachability With Jump/Walk Cells](https://trueinterview.io/questions/grid-reachability-with-jump-walk-cells) | Medium | Feb 28, 2026 |
 | **Apple** | [Write a Debounce Function](https://trueinterview.io/questions/write-a-debounce-function) | Medium | Feb 27, 2026 |
 | **Pinterest** | [Weighted Sampling from Score Distribution](https://trueinterview.io/questions/weighted-sampling-from-scores) | Medium | Feb 26, 2026 |
-| **IBM / Amazon / ByteDance** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Medium | Feb 26, 2026 |
+| **IBM / Amazon / ByteDance / Google** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Medium | Feb 26, 2026 |
 | **Snowflake** | [String-Command Calculator](https://trueinterview.io/questions/calculator-string-commands) | Medium | Feb 26, 2026 |
 | **Uber / Amazon / Atlassian / ByteDance / Google / Meta / Microsoft / PayPal / Unknown** | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Medium | Feb 26, 2026 |
 | **xAI** | [Nested Structure Flatten and Unflatten](https://trueinterview.io/questions/nested-structure-flatten-and-unflatten) | Medium | Feb 26, 2026 |
@@ -85,7 +90,7 @@
 | **IBM** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Medium | Feb 22, 2026 |
 | **Bloomberg** | [Round-Robin Tournament Schedule](https://trueinterview.io/questions/round-robin-tournament-schedule) | Hard | Feb 22, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
-| **Snowflake / Microsoft / Salesforce** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
+| **Snowflake / ByteDance / Microsoft / Salesforce** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
 | **Snowflake / Google** | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Medium | Feb 19, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Reddit / Snowflake** | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Hard | Feb 19, 2026 |
 | **Citadel** | [Time-Keyed Key-Value Store (set / get-before-timestamp)](https://trueinterview.io/questions/time-keyed-kv-store) | Medium | Feb 18, 2026 |
@@ -114,10 +119,10 @@
 | **Apple** | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Medium | Feb 09, 2026 |
 | **Snowflake** | [Top K Hash Tags](https://trueinterview.io/questions/top-k-hash-tags) | Medium | Feb 09, 2026 |
 | **Google** | [Sum of Good Subarrays (Adjacent Diff ±1)](https://trueinterview.io/questions/good-subarrays-diff-one) | Hard | Feb 08, 2026 |
-| **Amazon / Meta / Verkada** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Medium | Feb 08, 2026 |
+| **Amazon / Meta / Verkada / Walmart Labs** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Medium | Feb 08, 2026 |
 | **Coinbase** | [ML Concepts and Coding Assessment](https://trueinterview.io/questions/mle-codesignal-oa) | Medium | Feb 08, 2026 |
 | **DoorDash** | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle) | Medium | Feb 07, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Scale AI** | [Distinct Wall Crossing on Number Line](https://trueinterview.io/questions/distinct-wall-crossing-on-number-line) | Hard | Feb 06, 2026 |
 | **Optiver** | [Target Stock Portfolio Operations](https://trueinterview.io/questions/target-stock-portfolio-operations) | Medium | Feb 06, 2026 |
 | **Optiver** | [Minimum Expected Asset Cost](https://trueinterview.io/questions/minimum-expected-asset-cost) | Hard | Feb 06, 2026 |
@@ -156,7 +161,7 @@
 | **Snowflake** | [Maximum Number of Events That Can Be Attended](https://trueinterview.io/questions/maximum-number-of-events-that-can-be-attended) | Hard | Jan 30, 2026 |
 | **Netflix / ByteDance / Google / Instacart / Meta / Microsoft / Snapchat / SoFi / Uber** | [Basic Calculator](https://trueinterview.io/questions/basic-calculator-2) | Medium | Jan 30, 2026 |
 | **Coinbase** | [Thread Logs Processing](https://trueinterview.io/questions/thread-logs-processing) | Easy | Jan 29, 2026 |
-| **ByteDance** | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | Hard | Jan 29, 2026 |
+| **ByteDance / Airwallex** | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | Hard | Jan 29, 2026 |
 | **Apple / ByteDance / Meta** | [Subarray Sum Equals K](https://trueinterview.io/questions/subarray-sum-equals-k) | Medium | Jan 29, 2026 |
 | **Citadel** | [Task Scheduler with Priority + Lazy Deletion](https://trueinterview.io/questions/task-scheduler-priority-lazy-delete) | Medium | Jan 28, 2026 |
 | **Citadel** | [2048 Simulation + Compress State to a `long long`](https://trueinterview.io/questions/simulate-2048-encode-state) | Medium | Jan 28, 2026 |
@@ -182,7 +187,7 @@
 | **Bloomberg** | [Candy Crush 1D](https://trueinterview.io/questions/candy-crush-1d) | Hard | Jan 22, 2026 |
 | **Bloomberg** | [Flatten a Multilevel Doubly Linked List](https://trueinterview.io/questions/flatten-multilevel-doubly-linked-list) | Hard | Jan 22, 2026 |
 | **Apple / Google** | [Find K Pairs with Smallest Sums](https://trueinterview.io/questions/find-k-pairs-with-smallest-sums) | Medium | Jan 22, 2026 |
-| **Uber / Oracle** | [Sqrt(x)](https://trueinterview.io/questions/sqrt-x) | Easy | Jan 22, 2026 |
+| **Uber / Microsoft / Oracle** | [Sqrt(x)](https://trueinterview.io/questions/sqrt-x) | Easy | Jan 22, 2026 |
 | **Snowflake / Anthropic** | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Hard | Jan 22, 2026 |
 | **Bloomberg** | [Equal Frequency After One Deletion](https://trueinterview.io/questions/equal-character-frequency) | Medium | Jan 21, 2026 |
 | **Microsoft** | [Palindrome Number + Next-Greater Palindrome](https://trueinterview.io/questions/25b44e72-b83e-4f2d-b206-4b58550ea722) | Medium | Jan 20, 2026 |
@@ -255,10 +260,5 @@
 | **Intuit** | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | Medium | Dec 25, 2025 |
 | **Snowflake / Google** | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Medium | Dec 23, 2025 |
 | **Roblox** | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Medium | Dec 23, 2025 |
-| **LinkedIn** | [Service Dependency Impact Propagation](https://trueinterview.io/questions/coding-service-dependency-impact) | Hard | Dec 22, 2025 |
-| **Citadel** | [Non-Consecutive Process Scheduling](https://trueinterview.io/questions/grace-hopper-non-consecutive-processes) | Medium | Dec 22, 2025 |
-| **Citadel** | [Largest Team Whose Members Share a Common Office Window](https://trueinterview.io/questions/interval-overlap-max-team) | Medium | Dec 22, 2025 |
-| **Apple** | [Out of Boundary Paths](https://trueinterview.io/questions/out-of-boundary-paths) | Medium | Dec 21, 2025 |
-| **Apple** | [Numbers with No Neighbors](https://trueinterview.io/questions/numbers-with-no-neighbors) | Easy | Dec 21, 2025 |
 
 <sub>[← Page 2](algorithm-2.md) · Page 3 of 8 · [Page 4 →](algorithm-4.md)</sub>

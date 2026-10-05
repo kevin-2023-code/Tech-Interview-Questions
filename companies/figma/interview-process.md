@@ -50,14 +50,14 @@ Design at Figma is domain-specific: real-time collaboration semantics, permissio
 
 - [Real-Time Comment Threads (FigJam / Figma)](https://trueinterview.io/questions/realtime-comments-design)
 - [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking)
-- [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system)
+- [Template & Instance System with Update Propagation](../../questions/system-design/template-instance-propagation-system/README.md)
 - [Async Job Scheduler](https://trueinterview.io/questions/async-job-scheduler-design)
 
 ## Low-Level Design Questions
 
 The phone screen's signature problems are object design with escalating requirements: separating document model, command representation, and history manager earns explicit credit; a hand-waved memory policy loses it.
 
-- [Document / Layer — Apply, Undo, Commit Batch, Redo](../../questions/object-oriented-programming/document-layer-apply-undo/README.md)
+- [Document / Layer — Apply, Undo, Commit Batch, Redo](https://trueinterview.io/questions/document-layer-apply-undo)
 - [FigJam Table — Selection & Set Color](https://trueinterview.io/questions/figjam-table-selection-set-color)
 - [File / Folder / Team Permissions — Fewest Grants](https://trueinterview.io/questions/file-system-permissions)
 

@@ -12,48 +12,47 @@
 
 ## Problem
 
-### Requirements
+You are given a two-dimensional array `grid`. A cell containing `'1'` is land, while a cell containing `'0'` is water. Implement `numIslands(grid)` to determine how many separate islands appear in the grid and return that count.
 
-- Input: a two-dimensional array whose entries are the string values `'1'` for land and `'0'` for water.
-- Output: return how many islands exist. An island is one connected land region using only up, down, left, and right neighbors; diagonal contact does not connect regions. Treat everything beyond the grid boundary as water.
-- Constraints: `1 <= grid.length, grid[i].length <= 100`.
+Two land cells belong to the same island if they touch along an edge in one of the four cardinal directions. Contact through a diagonal corner does not connect them. Everything outside the grid is considered water, so the entire outside boundary behaves as if it is surrounded by water.
 
+Example 1:
 
-```python
-def numIslands(grid: list[list[str]]) -> int:...
-    # Produces the number of land regions connected in the four cardinal directions.
-    # Each region contains every horizontally or vertically neighboring '1' cell reachable from it.
+```text
+Input:
+grid = [
+["0","1","1","1","0"],
+["0","1","0","1","0"],
+["1","1","0","0","0"],
+["0","0","0","0","0"]
+]
+
+Output: 1
 ```
 
-- Frequently seen variations:
-  - **Rotting oranges / infection propagation** (LC 994 terminology) — compute BFS rounds rather than the number of components.
-  - **Incremental islands** (LC 305) — handle a sequence of `addLand` updates and report the island total after every update (described in the alternate standard version below).
-
-### Notes
-
-- A typical extension asks: "How would you handle a grid that cannot fit in memory?"
-- In a senior-level phone screen, a likely extension is: "after each `addLand`, return the largest island size."
-- Some interviewers require **union-find for the ordinary LC 200 version** specifically to assess familiarity with that data structure, even when DFS handles the main task.
-
-#### Alternate canonical variant — incremental updates (Number of Islands II)
-
-Begin with an `m x n` board containing only water. Every `addLand` operation changes one location into land, and you must give the current number of islands immediately after each update.
-
-```python
-# Streaming inputs are m: int, n: int, and positions: list[list[int]].
-# positions[i] = [ri, ci] changes (ri, ci) to land during operation i.
-# Return a list whose i-th value is the four-directional island count after operation i.
-# The returned list has len(positions) entries, representing live counts rather than only the ending total.
+```trueviz
+{"v":1,"kind":"example","title":"Number of Islands — Example 1","input":{"grid":"[[\"0\", \"1\", \"1\", \"1\", \"0\"], [\"0\", \"1\", \"0\", \"1\", \"0\"], [\"1\", \"1\", \"0\", \"0\", \"0\"], [\"0\", \"0\", \"0\", \"0\", \"0\"]]"},"steps":[{"say":"Input grid: '1' marks land and '0' marks water.","panels":[{"type":"grid","id":"grid","label":"Land (1) and water (0)","values":[["0","1","1","1","0"],["0","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]}]},{"say":"There are seven land cells in this grid.","panels":[{"type":"grid","id":"grid","label":"Land cells","values":[["0","1","1","1","0"],["0","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]],"marks":{"found":[[0,1],[0,2],[0,3],[1,1],[1,3],[2,0],[2,1]]}}]},{"say":"The top land cells touch edge-to-edge: (0,1)-(0,2)-(0,3), and (0,3) touches (1,3) vertically.","panels":[{"type":"grid","id":"grid","label":"Top connected land","values":[["0","1","1","1","0"],["0","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]],"marks":{"read":[[0,1],[0,2],[0,3],[1,3]],"found":[[0,1],[0,2],[0,3],[1,3]]}}]},{"say":"The left-side land cells also touch edge-to-edge: (0,1) touches (1,1), which touches (2,1), which touches (2,0).","panels":[{"type":"grid","id":"grid","label":"Left connected land","values":[["0","1","1","1","0"],["0","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]],"marks":{"read":[[0,1],[1,1],[2,1],[2,0]],"found":[[0,1],[1,1],[2,1],[2,0]]}}]},{"say":"These two groups share the land cell (0,1), so all seven land cells form one connected island.","panels":[{"type":"grid","id":"grid","label":"One connected island","values":[["0","1","1","1","0"],["0","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]],"marks":{"found":[[0,1],[0,2],[0,3],[1,1],[1,3],[2,0],[2,1]]}}]},{"say":"No other '1' cells remain outside this connected group, so the number of islands is 1.","panels":[{"type":"grid","id":"grid","label":"Answer: 1 island","values":[["0","1","1","1","0"],["0","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]],"marks":{"found":[[0,1],[0,2],[0,3],[1,1],[1,3],[2,0],[2,1]]}}]}],"expected":"1"}
 ```
 
-- Return behavior: emit exactly one result for each update, preserving update order; one insertion may therefore combine multiple islands and reduce the total.
-- Constraints: `1 <= m, n <= 10^4`, `1 <= m * n <= 10^4`, `0 <= positions.length <= 10^4`, `0 <= ri < m`, `0 <= ci < n`. `positions` is allowed to be empty, in which case return `[]`. A coordinate can also occur repeatedly; adding land where land already exists does not alter the count.
 
-### Preparation
+Example 2:
 
-- Practice LC 200, LC 305, and LC 994 together because their central traversal ideas overlap.
-- Be able to write a union-find implementation with `parent`, `rank`, and `size` arrays without reference material.
-- Prepare an explanation for the "largest island after every `addLand`" extension; it has been a decisive senior-interview variation in several loops.
+```text
+Input:
+grid = [
+["1","1","0","0","1"],
+["1","1","0","0","1"],
+["0","0","1","0","0"],
+["0","0","0","1","1"]
+]
+
+Output: 3
+```
+
+Constraints:
+
+* $$1 \le \text{grid.length},\ \text{grid[i].length} \le 100$$
+* Each `grid[i][j]` is either `'0'` or `'1'`.
 
 ## Hints
 

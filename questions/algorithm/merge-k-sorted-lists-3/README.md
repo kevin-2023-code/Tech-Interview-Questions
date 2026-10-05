@@ -18,6 +18,19 @@
 - Produce the head of one ascending linked list that includes every node from all supplied lists.
 - Interview versions may ask either for arbitrary `k` or specifically for `k = 3`. For exactly three lists, a direct three-list merge is preferred to using a heap; the general `k` version favors a heap-based approach.
 
+## Examples
+
+**Example**
+
+```text
+Input:
+3
+1 4 5
+1 3 4
+2 6
+Output: 1 1 2 3 4 4 5 6
+```
+
 ## Notes
 
 - Boundary cases: if the array of lists is empty, return `null`; if every supplied head is `null`, also return `null`; lists with differing lengths require no special handling beyond the usual merge behavior.

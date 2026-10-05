@@ -5,56 +5,96 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn · Meta · +4 | Phone screen | hashing, linked-list | Apr 2026 |
+| AI Coding | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn · Meta · +5 | Phone screen | hashing, linked-list | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lru-cache)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.
 
 ## Problem
 
-Build a data structure that behaves as a **Least Recently Used (LRU) cache**.
+## Background
 
-Implement the `LRUCache` class with the following operations:
+The textbook Least Recently Used cache -- a common phone-screen and onsite question:
 
-* `LRUCache(int capacity)` Creates an LRU cache whose **positive** maximum size is `capacity`.
-* `int get(int key)` Produces the value associated with `key` when it is present; otherwise, it produces `-1`.
-* `void put(int key, int value)` Replaces the value when `key` is already stored. If it is absent, insert the `key-value` pair. When this insertion causes the number of keys to exceed `capacity`, remove the key that was used least recently.
-
-Both `get` and `put` must have `O(1)` average running time.
-
-## Examples
-
-Example 1:
+- `LRUCache(capacity)` creates a cache with a **positive** maximum size `capacity`.
+- `get(key)` returns the value stored for `key`, or `-1` if it is absent.
+- `put(key, value)` updates the value if `key` is present; otherwise inserts the pair. If the insert pushes the number of keys past `capacity`, evict the key that was used least recently.
+- `get` and `put` must each run in `O(1)` average time.
 
 ```text
 Input:
-`["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
-[[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]`
-
-Output: [null, null, null, 1, null, -1, null, -1, 3, 4]
+["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
+[[2], [1, 1], [2, 2], [1], [3, 3], [2], [4, 4], [1], [3], [4]]
+Output:
+[null, null, null, 1, null, -1, null, -1, 3, 4]
 ```
 
-Explanation:
+With capacity 2: after `put(1,1)` and `put(2,2)`, `get(1)` returns 1; `put(3,3)` evicts key 2 (least recently used); `get(2)` returns -1; `put(4,4)` evicts key 1; then `get(1)` returns -1, `get(3)` returns 3 and `get(4)` returns 4.
 
+Constraints from the original question: `1 <= capacity <= 3000`, `0 <= key <= 10^4`, `0 <= value <= 10^5`, at most `2 * 10^5` calls to `get` and `put`.
+
+This workspace is not the from-scratch version. The recency tracker is its own module, a TTL extension sits on top in a second class, and the performance gate asks for the doubly linked list the textbook already promised you.
+
+## What is in the workspace
+
+```text
+src/recency.py          RecencyOrder -- which key was used least recently
+src/cache.py            LRUCache     -- the LRU cache, capacity-bounded
+src/ttl.py              TTLCache     -- you fill in put / purge_expired
+main.py                 runnable demo: the example above on a capacity-2 cache, then the TTL cache on a fake clock
+tests/test_recency.py   Phase 1
+tests/test_cache.py     Phase 1
+tests/test_ttl.py       Phase 2
+tests/test_performance.py  Phase 3
 ```
-LRUCache lRUCache = new LRUCache(2);
-lRUCache.put(1, 1); // the cache now contains {1=1}
-lRUCache.put(2, 2); // the cache now contains {1=1, 2=2}
-lRUCache.get(1); // produces 1
-lRUCache.put(3, 3); // key 2 is least recently used, so it is removed; the cache becomes {1=1, 3=3}
-lRUCache.get(2); // produces -1 because key 2 is absent
-lRUCache.put(4, 4); // key 1 is least recently used, so it is removed; the cache becomes {4=4, 3=3}
-lRUCache.get(1); // produces -1 because key 1 is absent
-lRUCache.get(3); // produces 3
-lRUCache.get(4); // produces 4
+
+The tests put `src/` on `sys.path` themselves, so you can run them from anywhere in the repo.
+
+## Phase 1 -- Fix the defects
+
+There are exactly **3 defects** in `src/recency.py` and `src/cache.py`. The docstrings state the intended behavior; the code does not always match them. Read the failing tests, then fix the code.
+
+```text
+python -m unittest discover -s tests -p "test_recency.py" -v
+python -m unittest discover -s tests -p "test_cache.py" -v
 ```
 
-## Constraints
+## Phase 2 -- Implement the TTL cache
 
-* `1 <= capacity <= 3000`
-* `0 <= key <= 10^4`
-* `0 <= value <= 10^5`
-* The combined number of calls to `get` and `put` will not exceed `2 * 10^5`.
+Implement `put` and `purge_expired` in `src/ttl.py` per the docstrings. `get`, `__len__`, `__contains__` and `keys()` are already wired; they call `purge_expired()` once it exists, so the cache reflects live entries on the way out and on explicit sweeps.
+
+The clock is injected: `TTLCache(capacity=2, ttl_s=10.0, now=clock)` lets the test advance a fake clock and step past deadlines without sleeping.
+
+```text
+python -m unittest discover -s tests -p "test_ttl.py" -v
+```
+
+## Phase 3 -- Make the recency tracker O(1)
+
+Your Phase 1 code is correct and too slow for the scale tests. The recency order walks the list from the front on every `touch` -- a linear scan plus a linear remove plus a re-insert, every single call. Cut it.
+
+```text
+python -m unittest discover -s tests -p "test_performance.py" -v
+```
+
+## Running everything
+
+```text
+python -m unittest discover -s tests -v
+python main.py
+```
+
+Python 3.9+, standard library only. No third-party packages, no network.
+
+## What is evaluated
+
+- All four suites pass with the tests unedited.
+- `get` and `put` are O(1) average: a hash map for lookup plus a doubly linked list for recency.
+- The TTL cache honours both capacity and deadlines using the injected clock.
+
+## Interview notes
+
+Candidates report being asked to explain the design choice (a hash map paired with a doubly linked list) and to walk through edge cases line by line while coding, often on a whiteboard alongside behavioral questions in the same round.
 
 ## Hints
 
@@ -85,7 +125,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [PayPal](../../../companies/paypal/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Shopify](../../../companies/shopify/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [Bloomberg](../../../companies/bloomberg/README.md) · [ByteDance](../../../companies/bytedance/README.md) · [LinkedIn](../../../companies/linkedin/README.md) · [Meta](../../../companies/meta/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Oracle](../../../companies/oracle/README.md) · [PayPal](../../../companies/paypal/README.md) · [Pinduoduo](../../../companies/pinduoduo/README.md) · [Shopify](../../../companies/shopify/README.md)
 
 ---
 

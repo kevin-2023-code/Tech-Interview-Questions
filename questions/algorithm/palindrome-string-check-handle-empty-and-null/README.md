@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Arista | Online assessment | two-pointers | — |
+| Algorithm | Easy | Arista · Boston Consulting Group | Online assessment | two-pointers | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -71,7 +71,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Arista](../../../companies/arista/README.md)
+[Arista](../../../companies/arista/README.md) · [Boston Consulting Group](../../../companies/boston-consulting-group/README.md)
 
 ---
 

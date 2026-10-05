@@ -37,8 +37,8 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | `graphs` | 16 | 15% | █████████ |
 | `matrix` | 15 | 14% | ████████ |
 | `strings` | 14 | 13% | ████████ |
-| `two-pointers` | 11 | 10% | ██████ |
 | `linked-list` | 10 | 9% | █████ |
+| `two-pointers` | 10 | 9% | █████ |
 | `dynamic-programming` | 8 | 7% | ████ |
 | `heap` | 7 | 6% | ████ |
 | `backtracking` | 6 | 6% | ███ |
@@ -84,7 +84,7 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Hotel Booking System OOD Coding](https://trueinterview.io/questions/hotel-booking-system-ood-coding) | Medium | Jun 28, 2026 |
 | **Apple** | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | Hard | Jun 28, 2026 |
 | **Apple** | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Hard | Jun 24, 2026 |
-| **Bloomberg / ByteDance / Cisco** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
+| **Bloomberg / ByteDance / Cisco / Ebay** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
 | **Apple / Scale AI** | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Hard | Jun 16, 2026 |
 | **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Medium | Jun 08, 2026 |
@@ -105,10 +105,10 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Hard | Apr 18, 2026 |
 | **Pinterest / Apple** | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Medium | Apr 18, 2026 |
 | **Apple / Amazon / DoorDash / Optiver** | [Koko Eating Bananas](https://trueinterview.io/questions/koko-eating-bananas) | Medium | Apr 14, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **Apple** | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | Medium | Apr 08, 2026 |
 | **Apple** | [Container With Most Water II](https://trueinterview.io/questions/container-with-most-water) | Medium | Apr 08, 2026 |
-| **Apple / Amazon / GEICO / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
+| **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
 | **Apple / Amazon** | [Longest Mountain in Array](https://trueinterview.io/questions/longest-mountain-in-array) | Easy | Apr 01, 2026 |
@@ -118,7 +118,7 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | **Apple** | [Random IP from Load Balancer](https://trueinterview.io/questions/random-ip-from-load-balancer) | Medium | Mar 17, 2026 |
 | **Apple / Google / LinkedIn / Microsoft / Salesforce** | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Hard | Mar 17, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / Netflix / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **Uber / Apple / Bloomberg / ByteDance / Meta / Microsoft** | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Hard | Mar 04, 2026 |
 | **Apple** | [Bold Words in String](https://trueinterview.io/questions/bold-words-in-string) | Medium | Mar 03, 2026 |
 | **Apple / Uber** | [Design Hit Counter](https://trueinterview.io/questions/design-hit-counter) | Medium | Mar 02, 2026 |
@@ -131,7 +131,7 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | **Apple / Bloomberg / Google** | [Decode String](https://trueinterview.io/questions/decode-string) | Medium | Feb 16, 2026 |
 | **Apple** | [One Edit Distance](https://trueinterview.io/questions/one-edit-distance) | Easy | Feb 11, 2026 |
 | **Apple** | [Dedupe Unsorted Array (Three Variants)](https://trueinterview.io/questions/dedupe-unsorted-array-three-variants) | Medium | Feb 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Apple** | [Find Median (Oracle Variant)](https://trueinterview.io/questions/find-median-oracle-variant) | Medium | Feb 06, 2026 |
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
@@ -188,7 +188,7 @@ Of the **109 questions in this cut that carry a topic label** (76% of it):
 | **Arista** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Medium | — |
 | **Arista** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Easy | — |
 | **Arista** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Medium | — |
-| **Arista** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Easy | — |
+| **Arista / Boston Consulting Group** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Easy | — |
 | **Apple** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2) | Easy | — |
 | **Cisco** | [Find Largest Sum Contiguous Subarray](https://trueinterview.io/questions/f29c0c29-2a76-42d9-9ece-3eeaa42c017b) | Easy | — |
 | **Cisco** | [Count Numbers with Sum of Digits](https://trueinterview.io/questions/c17c4233-5a37-452b-933f-4a3994c7295f) | Easy | — |

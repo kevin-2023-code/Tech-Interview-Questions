@@ -12,38 +12,96 @@
 
 ## Problem
 
-## Requirements
+## Overview
 
-You receive a small Python maze project containing `S` for the start, `E` for the destination, `#` for walls, and `.` for traversable cells. The interviewer provides `solver.py`, a printing helper, and a `tests/` directory. The exercise advances through four or five stages.
+A small Python maze project: a grid parsed from text, a breadth-first search over it, a printer that draws a route back onto the maze, and two solvers that are not finished. `S` is the start, `E` the end, `#` a wall, `.` an open cell.
 
-- **Q1 — Repairing a defect; AI is generally not permitted.** The rendered route may replace the `S` or `E` markers, or the diff-like display may be incorrectly formatted. Correct the printing behavior so the start and end glyphs take precedence.
-- **Q2 — Preventing BFS / DFS from looping forever.** The search currently lacks a `visited` set. Add one and remove duplicate states before they are enqueued.
-- **Q3 — One-way directional gates.** A `>` or `<` cell restricts the direction of the following move. Update `get_neighbors` / `move` so the glyph in the current cell is taken into account.
-- **Q4 — Collectible keys and locked doors.** Lowercase characters represent keys, while uppercase characters represent doors. Search state must grow from `(x, y)` to `(x, y, collected_keys_bitmask)`. A location may therefore need to be visited again after additional keys have been collected.
-- **Q5 (added in April 2026) — Bomb mechanics.** A bomb removes walls inside a fixed area, commonly either a radius-2 Chebyshev neighborhood or a one-cell `+` shape. Add a `get_affected_area(x, y)` helper, include the set of destroyed walls in the search state, and determine whether a blast occurs once or remains persistent.
-- **Q5 alternative — Energy-aware shortest paths.** When cells have energy costs, find an exit path with the minimum total energy. The expected technique is Dijkstra's algorithm. Some versions use this variant instead of bombs.
+The round runs as a staged conversation in an editor with an AI assistant: fix what is broken, then extend the rules, then make the extension fast enough to be worth having. Expect to explain every change you make -- including every line the AI wrote for you.
 
-## Trap to watch
+## The workspace
 
-A candidate has reported that the Q1 starter includes a deliberately invalid test that must be commented out before the display fix can be checked. The intended response is to identify that bad test rather than alter the implementation to accommodate it. If the Q1 test continues failing after an apparently correct fix for more than 30 minutes, ask whether one of the tests is incorrect.
+```
+main.py                     run this to see how your code is called
+mazes/                      four maze files, one per feature
+  simple.txt  gates.txt  keys.txt  energy.txt
+src/
+  grid.py                   Grid: parsing, bounds, glyphs, neighbours
+  render.py                 render_path: draw a route onto the maze
+  search.py                 shortest_route: plain BFS over walls
+  solver.py                 KeyedSolver: gates, keys and doors
+  costs.py                  cheapest_route: least-energy routes
+tests/
+  test_grid.py              Phase 1
+  test_render.py            Phase 1
+  test_search.py            Phase 1
+  test_solver.py            Phase 2
+  test_performance.py       Phase 3
+```
 
-## Examples
+Maze glyphs: `S` start, `E` end, `#` wall, `.` open cell (costs 1 to enter), `1`-`9` open cell costing that much, `>` `<` `^` `v` gates, `a`-`z` keys, `A`-`Z` doors. Python 3.9 or newer, standard library only -- nothing to install, no network.
 
-A reported run uses an 8×10 grid in the style of `S.....#...E`. Q1 prevents the `*` route marker from covering `S`; Q2 adds `visited` tracking to BFS; Q3 blocks leftward movement from `>` cells; Q4 adds matching `a/A` and `b/B` pairs; and Q5 puts a single bomb in the maze that clears a 5×5 wall block when triggered. Several reports describe seven hidden tests, with passing the first four stages as the threshold.
+## Phase 1 -- Fix the bugs
 
-## Notes
+There are exactly **3 bugs**: one in `src/render.py` and two in `Grid` (`src/grid.py`). Nothing in `src/search.py` is wrong -- everything it gets wrong, it gets wrong because of something underneath it. The docstrings state the intended behavior; the code does not always match them. Read the failing tests, then fix the code.
 
-- Since mid-March, the AI assistant has been able to edit the CoderPad workspace directly in a Cursor-like manner. The model selector offers Claude Opus 4.6, GPT-5.x, and Sonnet, with Opus 4.6 commonly regarded as the strongest choice for this prompt.
-- You will be asked to explain the code the AI produces. A solution that runs correctly but cannot be explained is a frequent reason for rejection.
-- Completing Q4 is generally considered the strong-performance benchmark; Q5 is an advanced extension introduced in April 2026.
-- The bomb rules are intentionally underspecified. Before asking the AI for help, clarify whether bombs activate when entered, when left, or when triggered from an adjacent cell.
+```
+python -m unittest discover -s tests -p "test_grid.py" -v
+python -m unittest discover -s tests -p "test_render.py" -v
+python -m unittest discover -s tests -p "test_search.py" -v
+```
 
-## Preparation
+## Phase 2 -- Gates, keys and doors
 
-- First practice the standard Q1–Q4 progression manually, so you can state the algorithm to the AI instead of accepting generated code without understanding it.
-- Use a public maze-practice harness with the same class organization and an interactive AI panel to rehearse.
-- Repeat this prompting pattern: choose the algorithm independently, divide the work into small functions, request help one function at a time, then read and explain every change. Having the AI complete the entire exercise without review often leads to failure during the explanation follow-up.
-- For Q5, prepare a mental pattern for radius-`N` blast geometry and for adding a bitmask-like state component, so you do not need to derive either idea from scratch during the interview.
+Implement the four stubs in `KeyedSolver` (`src/solver.py`) per their docstrings.
+
+- **Gates.** A cell holding `>`, `<`, `^` or `v` fixes the direction of the move made *from* it. Entering a gate is never restricted; only leaving is. A gate pointing into a wall is a dead end.
+- **Keys and doors.** A lowercase letter is a key; its uppercase counterpart is the door it opens. Keys are kept for the rest of the route and are not consumed. `S` and `E` are not doors.
+- The keyring changes what is passable, so a cell may have to be walked **more than once** -- once per keyring it can be reached with. That decides the shape of your search state.
+
+```
+python -m unittest discover -s tests -p "test_solver.py" -v
+```
+
+## Phase 3 -- Least-energy routes, at scale
+
+`cheapest_route` (`src/costs.py`) is correct and does not scale. It is Dijkstra with a list for a frontier: it scans the whole frontier for the cheapest cell on every settle, and scans it again to remove that cell. Keep the answer identical and get it inside the time budget.
+
+```
+python -m unittest discover -s tests -p "test_performance.py" -v
+```
+
+`test_performance.py` is slow until Phase 3 is done; run the other four suites while you work.
+
+## Running everything
+
+```
+python -m unittest discover -s tests -v
+python main.py
+python main.py mazes/energy.txt --cheapest
+```
+
+## What is evaluated
+
+- The suites for each phase pass, and the earlier phases stay green.
+- You can explain each fix, the search state you chose for keys and doors, and why the Phase 3 change keeps the answer identical while getting faster.
+
+## About the live round
+
+Reports of the real round describe a Python starter (a solver, a print helper and a `tests/` folder) worked through in four or five stages:
+
+1. a bug in how the found route is printed onto the maze (AI usually not allowed for this stage);
+2. a BFS/DFS that never finishes because it does not track visited cells;
+3. one-way gates (`>` / `<` force the next move direction);
+4. keys and doors, where a cell may need to be revisited once new keys are held;
+5. (added in April 2026) either **bombs** -- a bomb clears walls in a fixed area, commonly a radius-2 Chebyshev neighbourhood or a one-cell `+`, which means a `get_affected_area(x, y)` helper, the destroyed walls folded into the search state, and a decision on whether the blast is one-shot or persistent -- or the **energy** variant, a minimum-total-energy route via Dijkstra.
+
+This workspace covers stages 1-4 and the energy variant (as Phase 3). **If time remains**, discuss the bomb variant: its rules are deliberately underspecified, so first settle with the interviewer whether a bomb fires when entered, when left, or from an adjacent cell.
+
+Other notes from those reports:
+
+- Several reports mention seven hidden tests, with passing the first four stages as the bar; reaching stage 4 is the usual "strong" signal.
+- One candidate reported that the stage 1 starter had an invalid test that had to be commented out; if a test still fails after a fix you are confident in, ask whether the test itself is wrong.
+- The AI assistant edits the editor directly. A working solution you cannot explain is a common rejection reason.
 
 ## Solution
 

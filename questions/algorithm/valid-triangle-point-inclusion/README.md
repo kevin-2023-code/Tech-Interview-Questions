@@ -5,29 +5,36 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs | Online assessment | arrays | Oct 2024 |
+| Algorithm | Medium | Goldman Sachs | Online assessment | math | Oct 2024 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/valid-triangle-point-inclusion)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
+You are given the coordinates of three points intended as triangle vertices — `A(x1,y1)`, `B(x2,y2)`, `C(x3,y3)` — along with two points to test, `P(xp,yp)` and `Q(xq,yq)`.
+
 ## Requirements
 
-You receive three vertices of a triangle, `A(x1,y1)`, `B(x2,y2)`, and `C(x3,y3)`, along with two points to test: `P(xp,yp)` and `Q(xq,yq)`.
+1. Begin by deciding whether the three vertices actually form a triangle. The side lengths must obey the triangle inequality, with the comparison strict rather than an equality — for instance, $$AB + BC > AC$$ must hold — and the vertices must not be collinear.
+2. If the triangle is not valid, return `0`.
+3. If the triangle is valid, return:
+   * `1` when only `P` is inside,
+   * `2` when only `Q` is inside,
+   * `3` when both points are inside,
+   * `4` when neither point is inside.
 
-1. Begin by checking that the three vertices form a valid triangle: their side lengths must meet the strict triangle inequality, meaning, for example, `AB + BC > AC`; no vertex pair may produce a collinear configuration.
-2. Return `0` when the triangle fails validation.
-3. For a valid triangle, return the appropriate code:
-   - `1` when `P` lies inside and `Q` does not,
-   - `2` when `Q` lies inside and `P` does not,
-   - `3` when both query points lie inside,
-   - `4` when neither query point lies inside.
+Implement the method with this signature:
 
-```
+```java
 public static int pointsBelong(int x1, int y1, int x2, int y2, int x3, int y3,
                                int xp, int yp, int xq, int yq)
 ```
+
+## Interview Notes
+
+* The statement does not define whether a point lying exactly on an edge counts as inside or outside. Ask the interviewer for the intended boundary behavior before writing code.
+* The online assessment associated with this problem usually does not dig deeply into degenerate configurations, such as collinear vertices or a query point sitting exactly on a vertex. A live interviewer, however, may ask about them.
 
 ## Examples
 
@@ -64,11 +71,6 @@ Input:
 2
 Output: 2
 ```
-
-## Notes
-
-- A point lying exactly on an edge is treated as outside.
-- This familiar computational-geometry containment approach is usually enough for online assessments, whose tests rarely examine degeneracies such as collinear triangle vertices or a query point exactly at a vertex; an interviewer may still ask about them.
 
 ## Hints
 

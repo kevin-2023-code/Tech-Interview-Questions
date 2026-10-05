@@ -2,7 +2,7 @@
 
 # 💳 Fintech, payments & crypto — interview & OA questions
 
-**276 questions** reported across the **13 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**279 questions** reported across the **14 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,9 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Stripe / Bloomberg** | [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Medium | — |
+| **Stripe** | [Exception handling in debugging](https://trueinterview.io/questions/2db842ae-625f-4098-8075-aab97db253a8) | Easy | — |
+| **Stripe** | [Fee Calculation for Transactions](https://trueinterview.io/questions/012ccdf5-7691-4ff9-9a61-9b5cf3c60ead) | Easy | — |
 | **Robinhood / Uber** | [Design a Calendar Booking System](https://trueinterview.io/questions/f1096c0c-18ab-463d-a820-79fd45858a0a) | Medium | — |
 | **Robinhood** | [Distribute Strings into K Lines with Greedy Placement](https://trueinterview.io/questions/84ccf656-2a40-4ff8-8080-a648e545eb50) | Easy | — |
 | **Robinhood** | [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212) | Easy | — |

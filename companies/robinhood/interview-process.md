@@ -51,7 +51,7 @@ Robinhood coding problems are practical and stateful rather than puzzle-flavored
 
 Design rounds reward explicit failure semantics over box-drawing. For every design, name the source of truth, walk the retry and duplicate-execution paths, and explain how the system detects silent loss — those follow-ups arrive in nearly every reported session.
 
-- [Job Scheduler System Design](https://trueinterview.io/questions/job-scheduler-design)
+- [Job Scheduler System Design](../../questions/system-design/job-scheduler-design/README.md)
 - [Design a Stock Order / Trade Management System](../../questions/system-design/design-a-stock-order-trade-management-system/README.md)
 - [Stock Trading / Real-Time Quote System Design](https://trueinterview.io/questions/stock-trading-quote-system-design)
 

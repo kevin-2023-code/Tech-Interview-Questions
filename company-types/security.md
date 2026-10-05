@@ -73,14 +73,14 @@ Of the **48 questions in this cut that carry a topic label** (70% of it):
 | **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
 | **Verkada** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Medium | Jun 05, 2026 |
 | **Okta** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Medium | Jun 02, 2026 |
-| **Roblox / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
+| **Roblox / Atlassian / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **Okta** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Easy | Apr 20, 2026 |
 | **Okta** | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Easy | Apr 20, 2026 |
 | **Vanta** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Medium | Mar 17, 2026 |
 | **Atlassian / Expedia / Ramp / Roblox / Snapchat / Snowflake / Stripe / Verkada** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | Medium | Feb 22, 2026 |
 | **Datadog / ByteDance / Verkada** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Medium | Feb 17, 2026 |
 | **Scale AI / Verkada** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Medium | Feb 16, 2026 |
-| **Amazon / Meta / Verkada** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Medium | Feb 08, 2026 |
+| **Amazon / Meta / Verkada / Walmart Labs** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Medium | Feb 08, 2026 |
 | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | [Design Youtube](https://trueinterview.io/questions/design-youtube) | Medium | Feb 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
 | **Okta** | [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3) | Medium | Nov 05, 2025 |
@@ -112,7 +112,7 @@ Of the **48 questions in this cut that carry a topic label** (70% of it):
 | **Rubrik** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Medium | — |
 | **Rubrik** | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | Hard | — |
 | **Okta** | [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Easy | — |
-| **Verkada / Amazon** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Medium | — |
+| **Verkada / Amazon / Microsoft** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Medium | — |
 | **Vanta** | [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Easy | — |
 | **Verkada** | [Find IPv4 Addresses in Nested Files](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37) | Medium | — |
 | **Verkada** | [Matrix Transpose with Workers](https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b) | Easy | — |

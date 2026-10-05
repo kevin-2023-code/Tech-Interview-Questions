@@ -9,7 +9,7 @@ How DoorDash interviews, and the questions candidates reported there. Free quest
 |  |  |
 | :-- | :-- |
 | Questions reported | [71](../doordash.md) |
-| Free to read here | 4 |
+| Free to read here | 5 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 16, 2026 |
@@ -38,12 +38,13 @@ DoorDash runs one of the most practical interview loops among large consumer-tec
 
 ## Free DoorDash questions
 
-4 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+5 questions reported at DoorDash open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Koko Eating Bananas](../../questions/algorithm/koko-eating-bananas/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/koko-eating-bananas) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 

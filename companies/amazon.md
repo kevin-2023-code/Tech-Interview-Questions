@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**252 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**256 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **252** |
+| Questions tracked | **256** |
 | Most recent sighting | Sep 20, 2026 |
-| Reported in the last 90 days | 40 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 252) |
-| Difficulty (easy / medium / hard) | 41 / 166 / 45 |
-| Free to practise | [29](../free/README.md) |
+| Reported in the last 90 days | 42 |
+| Most common format | [Algorithm](../formats/algorithm.md) (67% of 256) |
+| Difficulty (easy / medium / hard) | 42 / 167 / 47 |
+| Free to practise | [31](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 252 questions reported at Amazon. 153 of them carry a sighting date; the other 99 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 256 questions reported at Amazon. 157 of them carry a sighting date; the other 99 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **252 of 252** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **256 of 256** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 40 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 15 / 17 / 8 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 120 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 16 / 84 / 20 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 117 | ██████████ | [Algorithm](../formats/algorithm.md) (44%) | 13 / 85 / 19 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 39 | ███ | [Algorithm](../formats/algorithm.md) (87%) | 14 / 17 / 8 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 123 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 17 / 85 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 121 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 14 / 86 / 21 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**40 sightings** in this window. Newest first.
+**42 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,23 +55,23 @@ Which stage each question came from, for the **252 of 252** questions at Amazon 
 | [NumPy Mean and Variance with MLE Follow-Up](https://trueinterview.io/questions/numpy-mean-variance-mle) | Algorithm | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 | [Top K Frequent Elements (LC 347) with a Follow-Up Variant](https://trueinterview.io/questions/top-k-frequent-elements-streaming-follow-up) | Algorithm | Hard | Onsite / virtual onsite | Sep 01, 2026 |
 
-<sub>28 more in this window are in the table below.</sub>
+<sub>30 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **172 questions at Amazon that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **175 questions at Amazon that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 33 | 19% | ████████████ | Sep 05, 2026 |
-| `arrays` | 27 | 16% | ██████████ | Sep 02, 2026 |
-| `graphs` | 26 | 15% | █████████ | Aug 30, 2026 |
-| `strings` | 19 | 11% | ███████ | Aug 14, 2026 |
+| `hashing` | 34 | 19% | ████████████ | Sep 05, 2026 |
+| `arrays` | 27 | 15% | ██████████ | Sep 02, 2026 |
+| `graphs` | 27 | 15% | ██████████ | Aug 30, 2026 |
+| `strings` | 20 | 11% | ███████ | Aug 14, 2026 |
 | `greedy` | 16 | 9% | ██████ | Aug 24, 2026 |
 | `sorting` | 15 | 9% | █████ | Sep 01, 2026 |
 | `heap` | 14 | 8% | █████ | Sep 14, 2026 |
-| `dynamic-programming` | 13 | 8% | █████ | Jul 14, 2026 |
-| `trees` | 13 | 8% | █████ | Sep 14, 2026 |
+| `trees` | 14 | 8% | █████ | Sep 14, 2026 |
+| `dynamic-programming` | 13 | 7% | █████ | Jul 14, 2026 |
 | `two-pointers` | 12 | 7% | ████ | Jun 22, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -82,15 +82,15 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 12 | █████████████ |
-| [Aug 2026](../by-month/2026-08.md) | 16 | █████████████████ |
-| [Jul 2026](../by-month/2026-07.md) | 18 | ███████████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 23 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 18 | ███████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 23 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 15 | ████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 15 | ████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 5 | █████ |
+| [Sep 2026](../by-month/2026-09.md) | 12 | ████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 18 | ██████████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 18 | ██████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 24 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 18 | ██████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 23 | ███████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 15 | ███████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 15 | ███████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 6 | ██████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 3 | ███ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | █ |
@@ -137,8 +137,8 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | Hard | 🔥 Sep 20, 2026 |
-| [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | Medium | 🔥 Sep 20, 2026 |
+| [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | Hard | 🆕 Sep 20, 2026 |
+| [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | Medium | 🆕 Sep 20, 2026 |
 | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Algorithm | Medium | 🆕 Sep 14, 2026 |
@@ -156,7 +156,9 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | Medium | 🆕 Aug 22, 2026 |
 | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator) | Algorithm | Medium | 🆕 Aug 21, 2026 |
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | Hard | 🆕 Aug 21, 2026 |
+| [Repeat Customer Visits](https://trueinterview.io/questions/a654f3a3-e029-432a-926b-60ed98685ea5) | Algorithm | Easy | Aug 19, 2026 |
 | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Algorithm | Medium | Aug 17, 2026 |
+| [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | Aug 16, 2026 |
 | [Asteroid Collision (LC 735)](https://trueinterview.io/questions/asteroid-collision-lc-735) | Algorithm | Medium | Aug 16, 2026 |
 | [Bootstrap Mean & Confidence Interval](https://trueinterview.io/questions/bootstrap-mean-confidence-interval) | Algorithm | Medium | Aug 14, 2026 |
 | [Out-of-Order Package Receiver](https://trueinterview.io/questions/out-of-order-package-receiver) | Algorithm | Medium | Aug 14, 2026 |
@@ -203,6 +205,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | System Design | Medium | Jun 11, 2026 |
 | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Algorithm | Hard | Jun 09, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Medium | Jun 08, 2026 |
+| [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Algorithm | Medium | Jun 06, 2026 |
 | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Algorithm | Medium | Jun 06, 2026 |
 | [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood) | AI Coding | Medium | Jun 06, 2026 |
 | [Topological Sort / Course Schedule for Ads](https://trueinterview.io/questions/topological-sort-course-schedule-ads) | Algorithm | Medium | Jun 04, 2026 |
@@ -279,6 +282,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [VM Inventory Rental — Heap Simulation](https://trueinterview.io/questions/vm-inventory-rental-heap) | Algorithm | Medium | Jan 31, 2026 |
 | [Prefix Frequency Partition](https://trueinterview.io/questions/equal-block-prefix-via-prefix-hash) | Algorithm | Medium | Jan 31, 2026 |
+| [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Object Oriented Programming | Hard | Jan 22, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Word Search](https://trueinterview.io/questions/word-search) | Algorithm | Medium | Jan 05, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
@@ -356,7 +360,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Find Duplicates in Integer List](https://trueinterview.io/questions/bd0e2b57-f5bc-4ccc-9f1b-a850c9b902c2) | Algorithm | Easy | — |
 | [Minimum Conflicts in Merging Two Branches](https://trueinterview.io/questions/b8150658-07b4-4d2d-a1de-6fa127801b90) | Algorithm | Hard | — |
 | [Frequent Page Visit Pattern](https://trueinterview.io/questions/b2a33813-d10b-4a9d-a596-778a2a7fc7e8) | Algorithm | Medium | — |
-| [Repeat Customer Visits](https://trueinterview.io/questions/a654f3a3-e029-432a-926b-60ed98685ea5) | Algorithm | Easy | — |
 | [Replace tokens in a string using delimiter-based key-value rules](https://trueinterview.io/questions/901b3947-032c-4b3b-9e08-90eb36b9d95b) | Algorithm | Medium | — |
 | [In-place Array Reordering (0/1/2 sort variant)](https://trueinterview.io/questions/8f2cdb13-1620-4874-900f-1597fce80c27) | Algorithm | Medium | — |
 | [Deduplicate Events List (with Sorting + Map/Stack)](https://trueinterview.io/questions/83856d15-e217-467d-9269-2da9d2a261cd) | Algorithm | Easy | — |
@@ -383,9 +386,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Plus One](https://trueinterview.io/questions/65c03f5a-0fe9-4f02-8d66-d34a3b8193fd) | Algorithm | Easy | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Algorithm | Easy | — |
-| [Nearest Exit in a 2D Grid (BFS)](https://trueinterview.io/questions/f81c8862-7d95-4d4f-9537-73b6b1642297) | Algorithm | Medium | — |
-| [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
-| [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Algorithm | Medium | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
+| [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | — |
 
 <sub>Page 1 of 2 · [Page 2 →](amazon-2.md)</sub>

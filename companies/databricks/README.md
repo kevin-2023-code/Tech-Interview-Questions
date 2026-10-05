@@ -8,8 +8,8 @@ How Databricks interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [67](../databricks.md) |
-| Free to read here | 11 |
+| Questions reported | [68](../databricks.md) |
+| Free to read here | 14 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -38,7 +38,7 @@ The design round scales with seniority: mid-level candidates may design a concre
 
 ## Free Databricks questions
 
-11 questions reported at Databricks open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+14 questions reported at Databricks open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -47,16 +47,19 @@ The design round scales with seniority: mid-level candidates may design a concre
 | [Stock Trading Agent System Design](../../questions/system-design/stock-trading-agent-system-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/stock-trading-agent-system-design) |
 | [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md) | System Design | Hard | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) |
 | [Find Path in Fibonacci Tree](../../questions/algorithm/find-path-between-nodes-in-k-th-order-fibonacci-tree/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [House Robber Series](../../questions/algorithm/house-robber-series/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/house-robber-series) |
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Design AI Chatbot App](../../questions/system-design/design-an-ai-chatbot-system/README.md) | System Design | Easy | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/design-an-ai-chatbot-system) |
 | [Tic Tac Toe](../../questions/ai-coding/tic-tac-toe/README.md) | AI Coding | Easy | Phone screen | Jun 2025 | [Solve](https://trueinterview.io/questions/tic-tac-toe) |
+| [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |
+| [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 | [Group Anagrams](../../questions/algorithm/group-anagrams/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) |
 | [IP CIDR Range Query](../../questions/algorithm/ip-cidr-range-query/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/27c18b00-98ea-48a2-984f-27e6ad16170a) |
 
 ## Everything else
 
-- [All 67 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 68 questions reported at Databricks](../databricks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Databricks question on TrueInterview](https://trueinterview.io/problems/company/databricks).
 
 ---

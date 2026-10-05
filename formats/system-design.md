@@ -10,8 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Hard | 🔥 Sep 20, 2026 |
-| **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🔥 Sep 20, 2026 |
+| **Amazon** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | Hard | 🆕 Sep 20, 2026 |
+| **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🆕 Sep 20, 2026 |
 | **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Easy | 🆕 Sep 17, 2026 |
 | **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🆕 Sep 16, 2026 |
 | **Cohere** | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | Medium | 🆕 Sep 15, 2026 |
@@ -42,7 +42,7 @@
 | **ByteDance** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | Medium | 🆕 Aug 25, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Medium | 🆕 Aug 22, 2026 |
 | **Oracle** | [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | Hard | Aug 19, 2026 |
-| **ByteDance** | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | Hard | Aug 17, 2026 |
+| **ByteDance / LinkedIn** | [Short-Video Recommendation System](https://trueinterview.io/questions/short-video-recommendation-system) | Hard | Aug 17, 2026 |
 | **LinkedIn** | [News Feed / Timeline](https://trueinterview.io/questions/sd-news-feed) | Medium | Aug 16, 2026 |
 | **Salesforce** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | Hard | Aug 16, 2026 |
 | **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | Medium | Aug 16, 2026 |
@@ -58,7 +58,7 @@
 | **Figma** | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | Medium | Aug 04, 2026 |
 | **Databricks** | [Collaborative Playlist Design](https://trueinterview.io/questions/collaborative-playlist-design) | Medium | Jul 30, 2026 |
 | **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Hard | Jul 10, 2026 |
-| **Citadel** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Hard | Jul 08, 2026 |
+| **Citadel / Snapchat** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Hard | Jul 08, 2026 |
 | **Bloomberg** | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | Hard | Jul 07, 2026 |
 | **Bloomberg** | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | Medium | Jul 07, 2026 |
 | **Harvey** | [Design Vault (Google Drive-Style File Storage)](https://trueinterview.io/questions/design-vault-google-drive-style-file-storage) | Medium | Jul 07, 2026 |
@@ -100,7 +100,7 @@
 | **Meta** | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | Hard | Jun 09, 2026 |
 | **Roblox** | [Notification System](https://trueinterview.io/questions/front-end-system-design-notification-system) | Medium | Jun 04, 2026 |
 | **Anthropic** | [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design) | Hard | Jun 04, 2026 |
-| **Anthropic** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | Medium | Jun 02, 2026 |
+| **Anthropic / Lyft** | [Design a 1-to-1 Chat System](https://trueinterview.io/questions/design-a-1-to-1-chat-system) | Medium | Jun 02, 2026 |
 | **ByteDance** | [Video-Keyword Association Review System](https://trueinterview.io/questions/video-keyword-association-review-system) | Hard | Jun 01, 2026 |
 | **Anthropic** | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | Medium | Jun 2026 |
 | **Meta** | [Ads Ranking](https://trueinterview.io/questions/mlsd-ads-ranking) | Hard | May 30, 2026 |
@@ -159,14 +159,14 @@
 | **Roblox** | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | Medium | Apr 13, 2026 |
 | **Databricks / DoorDash / Pinterest** | [Design A Harmful Content Detection System](https://trueinterview.io/questions/harmful-content-detection-system) | Hard | Apr 13, 2026 |
 | **Roblox** | [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | Hard | Apr 12, 2026 |
-| **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
+| **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Meta / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
 | **Roblox** | [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | Medium | Apr 10, 2026 |
 | **Pinterest** | [Design Inventory Management System](https://trueinterview.io/questions/system-design-catalog-update-bulk-single) | Medium | Apr 09, 2026 |
 | **Pinterest / DoorDash / Expedia / Instacart / Reddit** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | Hard | Apr 09, 2026 |
 | **Roblox** | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system) | Medium | Apr 08, 2026 |
 | **Apple** | [Design App Store Search](https://trueinterview.io/questions/design-app-store-search) | Medium | Apr 08, 2026 |
 | **Cursor** | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | Easy | Apr 07, 2026 |
-| **Cursor** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | Hard | Apr 07, 2026 |
+| **Cursor / Snowflake** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | Hard | Apr 07, 2026 |
 | **Roblox** | [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet) | Medium | Apr 07, 2026 |
 | **Databricks / Square** | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | Medium | Apr 06, 2026 |
 | **Netflix** | [MLP Portal Full-Stack Design](https://trueinterview.io/questions/mlp-portal-fullstack-design) | Hard | Apr 03, 2026 |
@@ -176,13 +176,13 @@
 | **Databricks / Anthropic / Netflix / OpenAI** | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | Hard | Apr 2026 |
 | **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Mar 31, 2026 |
 | **Anthropic** | [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication) | Hard | Mar 30, 2026 |
-| **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Google / LinkedIn / Lyft / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | Medium | Mar 30, 2026 |
+| **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Figma / Google / LinkedIn / Lyft / Meta / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | Medium | Mar 30, 2026 |
 | **Airbnb** | [Home Page — Search + Availability + Ranking](https://trueinterview.io/questions/home-page-search-availability-design) | Hard | Mar 29, 2026 |
 | **Apple** | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation) | Hard | Mar 28, 2026 |
 | **Walmart Labs** | [Design State-Wide Temperature Sensor Ingestion](https://trueinterview.io/questions/design-sensor-temperature-ingestion) | Medium | Mar 26, 2026 |
 | **NVIDIA** | [Real-Time Fraud Detection System](https://trueinterview.io/questions/real-time-fraud-detection-system) | Hard | Mar 25, 2026 |
 | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | Easy | Mar 24, 2026 |
-| **Snowflake / Amazon / Atlassian / Bloomberg / Datadog / LinkedIn / Rippling / Snapchat / Yelp** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | Medium | Mar 23, 2026 |
+| **Snowflake / Amazon / Atlassian / Bloomberg / Datadog / LinkedIn / Microsoft / Rippling / Snapchat / Yelp** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | Medium | Mar 23, 2026 |
 | **Reddit** | [Design Reddit Comments Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system) | Medium | Mar 23, 2026 |
 | **Reddit** | [Feature Store](https://trueinterview.io/questions/feature-store) | Medium | Mar 23, 2026 |
 | **OpenAI** | [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design) | Hard | Mar 22, 2026 |
@@ -255,7 +255,7 @@
 | **Apple** | [Apple News Search Without ML](https://trueinterview.io/questions/apple-news-search-without-ml) | Medium | Dec 18, 2025 |
 | **Walmart Labs** | [Predict Item Category](https://trueinterview.io/questions/mlsd-predict-item-category) | Medium | Dec 17, 2025 |
 | **Optiver** | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | Hard | Dec 13, 2025 |
-| **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
+| **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
 | **Pinterest** | [Leaderboard / Category Ranking](https://trueinterview.io/questions/system-design-leaderboard) | Medium | Dec 09, 2025 |
 | **Coinbase** | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | Medium | Dec 01, 2025 |
 | **Airbnb** | [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search) | Hard | Nov 30, 2025 |

@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 152 | 76% | ██████████████ | 33 |
+| [Algorithm](../formats/algorithm.md) | 152 | 76% | ██████████████ | 32 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 41 | 20% | ████ | 5 |
 | [SQL](../formats/sql.md) | 3 | 2% | █ | 0 |
 | [System Design](../formats/system-design.md) | 3 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **29 / 127 / 44**, over the rows the catalog has graded. 38 of the 200 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **29 / 127 / 44**, over the rows the catalog has graded. 37 of the 200 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **136 questions in this cut that carry a topic label** (68% of it):
+Of the **140 questions in this cut that carry a topic label** (70% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 27 | 20% | ████████████ |
+| `arrays` | 26 | 19% | ████████████ |
+| `hashing` | 19 | 14% | █████████ |
 | `greedy` | 18 | 13% | ████████ |
-| `hashing` | 18 | 13% | ████████ |
+| `math` | 17 | 12% | ████████ |
 | `dynamic-programming` | 15 | 11% | ███████ |
 | `graphs` | 15 | 11% | ███████ |
-| `math` | 15 | 11% | ███████ |
 | `sorting` | 15 | 11% | ███████ |
-| `binary-search` | 11 | 8% | █████ |
-| `strings` | 11 | 8% | █████ |
-| `heap` | 10 | 7% | ████ |
+| `strings` | 14 | 10% | ██████ |
+| `binary-search` | 12 | 9% | ██████ |
+| `heap` | 10 | 7% | █████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -90,7 +90,7 @@ Of the **136 questions in this cut that carry a topic label** (68% of it):
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Point72** | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Easy | Jul 29, 2026 |
 | **Citadel** | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Hard | Jul 27, 2026 |
-| **Citadel** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Hard | Jul 08, 2026 |
+| **Citadel / Snapchat** | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | Hard | Jul 08, 2026 |
 | **Voleon** | [Return Words in Repeated Anagram Groups](https://trueinterview.io/questions/return-words-in-repeated-anagram-groups) | Medium | Jun 27, 2026 |
 | **Optiver** | [Build Binary Tree from Edges / S-Expression](https://trueinterview.io/questions/binary-tree-from-edges) | Hard | Jun 15, 2026 |
 | **Citadel** | [N-ary Tree Sum + Leaf `next` Pointer](https://trueinterview.io/questions/tree-sum-leaf-next-pointer) | Hard | Jun 13, 2026 |
@@ -112,7 +112,7 @@ Of the **136 questions in this cut that carry a topic label** (68% of it):
 | **Squarepoint** | [Chunk a List of Lists](https://trueinterview.io/questions/chunk-a-list-of-lists) | Medium | Apr 11, 2026 |
 | **Two Sigma** | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Medium | Apr 07, 2026 |
 | **Meta / ByteDance / Citadel** | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Medium | Apr 02, 2026 |
-| **Apple / Amazon / GEICO / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
+| **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
 | **Two Sigma** | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Medium | Mar 25, 2026 |
@@ -194,7 +194,7 @@ Of the **136 questions in this cut that carry a topic label** (68% of it):
 | **Citadel** | [Town Temperature Regression Analysis](https://trueinterview.io/questions/40633852-5eda-59ea-9c7a-4e233abff5ec) | Hard | — |
 | **Citadel** | [Square and Reverse a List](https://trueinterview.io/questions/053a4fe5-1f9c-51b1-a965-6f9698ca8bcd) | Easy | — |
 | **Citadel** | [Reconcile Unmatched Buy and Sell Trades](https://trueinterview.io/questions/0060bc58-0dc6-5b92-a4a9-07bef5b895c0) | Hard | — |
-| **Citadel** | [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7) | Medium | — |
+| **Citadel / Ramp** | [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7) | Medium | — |
 | **Citadel** | [Minimum Changes for a Palindromic Periodic Password](https://trueinterview.io/questions/5f178ac0-8422-5332-b151-6b030e7edb50) | Medium | — |
 | **Voleon** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Hard | — |
 | **Voleon** | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Hard | — |
@@ -262,7 +262,7 @@ Of the **136 questions in this cut that carry a topic label** (68% of it):
 | **Two Sigma** | [Calculate y/x using Patch](https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796) | Easy | — |
 | **Optiver** | [Optimize Cargo Transport Algorithm](https://trueinterview.io/questions/6031e550-cf37-42a2-813d-85aa4b2095dc) | Hard | — |
 | **Meta / Amazon / Apple / Bloomberg / Goldman Sachs / Lyft / Microsoft / Point72** | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Medium | — |
-| **Citadel / Amazon** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Easy | — |
+| **Citadel / Amazon / Boston Consulting Group** | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Easy | — |
 | **Akuna Capital** | [Delivery Management System (QR Intern)](https://trueinterview.io/questions/f05572aa-f89c-4422-b7fd-9569d863158f) | Medium | — |
 | **Akuna Capital** | [An Evening of Movies](https://trueinterview.io/questions/d5fd5e8c-f2f0-4231-bdd6-7fa8716245bc) | Medium | — |
 | **Akuna Capital** | [Calculate Positive Profit Combinations](https://trueinterview.io/questions/9919842d-f64c-4fc5-9a0a-a636ac00bf95) | Easy | — |

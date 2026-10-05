@@ -2,7 +2,7 @@
 
 # Oracle interview process, OA & interview questions
 
-**81 questions** reported at Oracle · **1 writeup** · **17 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
+**84 questions** reported at Oracle · **1 writeup** · **17 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/oracle), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Oracle interviews & the free questions](oracle/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **81** |
+| Questions tracked | **84** |
 | Most recent sighting | Sep 11, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 81) |
-| Difficulty (easy / medium / hard) | 15 / 55 / 11 |
-| Free to practise | [12](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (69% of 84) |
+| Difficulty (easy / medium / hard) | 15 / 57 / 12 |
+| Free to practise | [13](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 17 in this snapshot |
 
-<sub>Counted from the 81 questions reported at Oracle. 48 of them carry a sighting date; the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 84 questions reported at Oracle. 50 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **81 of 81** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **84 of 84** questions at Oracle that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 9 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 8 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 42 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 4 / 32 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 31 | ███████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 22 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 44 | ██████████ | [Algorithm](../formats/algorithm.md) (80%) | 4 / 33 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 33 | ████████ | [Algorithm](../formats/algorithm.md) (42%) | 3 / 23 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -53,20 +53,20 @@ Which stage each question came from, for the **81 of 81** questions at Oracle th
 
 ## What they ask about
 
-Of the **58 questions at Oracle that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **61 questions at Oracle that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 8 | 14% | ████████████ | Apr 14, 2026 |
-| `strings` | 8 | 14% | ████████████ | Aug 10, 2026 |
-| `arrays` | 7 | 12% | ██████████ | Apr 14, 2026 |
-| `graphs` | 7 | 12% | ██████████ | Sep 11, 2026 |
-| `greedy` | 7 | 12% | ██████████ | Apr 14, 2026 |
-| `math` | 6 | 10% | █████████ | Aug 10, 2026 |
-| `dynamic-programming` | 5 | 9% | ████████ | Nov 24, 2025 |
-| `backtracking` | 4 | 7% | ██████ | Nov 17, 2025 |
-| `sliding-window` | 4 | 7% | ██████ | Nov 21, 2025 |
-| `sorting` | 4 | 7% | ██████ | Aug 28, 2026 |
+| `hashing` | 11 | 18% | ████████████ | Apr 14, 2026 |
+| `strings` | 8 | 13% | █████████ | Aug 10, 2026 |
+| `arrays` | 7 | 11% | ████████ | Apr 14, 2026 |
+| `graphs` | 7 | 11% | ████████ | Sep 11, 2026 |
+| `greedy` | 7 | 11% | ████████ | Apr 14, 2026 |
+| `linked-list` | 6 | 10% | ███████ | Apr 14, 2026 |
+| `math` | 6 | 10% | ███████ | Aug 10, 2026 |
+| `dynamic-programming` | 5 | 8% | █████ | Nov 24, 2025 |
+| `backtracking` | 4 | 7% | ████ | Nov 17, 2025 |
+| `sliding-window` | 4 | 7% | ████ | Nov 21, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -79,10 +79,10 @@ Every recorded sighting at Oracle, by the month it was reported in — Jan 15, 2
 | [Sep 2026](../by-month/2026-09.md) | 2 | █████ |
 | [Aug 2026](../by-month/2026-08.md) | 5 | ████████████ |
 | [May 2026](../by-month/2026-05.md) | 2 | █████ |
-| [Apr 2026](../by-month/2026-04.md) | 5 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ██████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ██ |
 | [Feb 2026](../by-month/2026-02.md) | 6 | ██████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 6 | ██████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 1 | ██ |
 | [Nov 2025](../by-month/2025-11.md) | 10 | ████████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
@@ -168,6 +168,7 @@ What candidates said happened in the room at Oracle — written up by the people
 | [Monotone Increasing Digits II](https://trueinterview.io/questions/monotone-increasing-digits) | Algorithm | Medium | Apr 14, 2026 |
 | [Same N-ary Tree Comparison](https://trueinterview.io/questions/same-nary-tree-comparison) | Algorithm | Medium | Apr 14, 2026 |
 | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Object Oriented Programming | Medium | Apr 14, 2026 |
+| [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
 | [VM Health Monitoring at 1M Scale](https://trueinterview.io/questions/system-design-vm-health-monitoring) | System Design | Hard | Feb 13, 2026 |
 | [Video Upload + Search with LLM](https://trueinterview.io/questions/system-design-video-upload-search) | System Design | Hard | Feb 13, 2026 |
@@ -175,6 +176,7 @@ What candidates said happened in the room at Oracle — written up by the people
 | [Simplified Redis-Like KV / List Store](https://trueinterview.io/questions/simplified-redis-kv-store) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Hospital Appointment Booking API](https://trueinterview.io/questions/hospital-appointment-booking-api) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Apply List of Operations (Command Pattern)](https://trueinterview.io/questions/apply-operations-command-pattern) | Object Oriented Programming | Medium | Feb 03, 2026 |
+| [LRU Cache + Thread-Safe Follow-up](https://trueinterview.io/questions/coding-lru-cache-multithread) | Object Oriented Programming | Hard | Jan 22, 2026 |
 | [Sparse Matrix Multiplication](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-sparse-matrix-multiplication) | Algorithm | Medium | Jan 22, 2026 |
 | [Multi-Head Attention (from scratch)](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul-multi-head-attention-from-scratch) | Algorithm | Hard | Jan 22, 2026 |
 | [Handwritten MHA and Sparse Matmul](https://trueinterview.io/questions/ml-coding-mha-sparse-matmul) | Algorithm | Hard | Jan 22, 2026 |
@@ -235,3 +237,4 @@ What candidates said happened in the room at Oracle — written up by the people
 | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Object Oriented Programming | Medium | — |
 | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Algorithm | Easy | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
+| [Design and Implement an In-Memory Cache with Eviction and Memory Bound](https://trueinterview.io/questions/d676765a-102e-4e09-bab7-29d3c707b374) | Object Oriented Programming | Medium | — |

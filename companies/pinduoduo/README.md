@@ -8,11 +8,11 @@ How Pinduoduo interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [19](../pinduoduo.md) |
+| Questions reported | [20](../pinduoduo.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jul 30, 2026 |
+| Most recent sighting | Aug 16, 2026 |
 
 ## How Pinduoduo interviews
 
@@ -48,7 +48,7 @@ Two logistics details matter. The coding environment in one report was a locked-
 
 ## Everything else
 
-- [All 19 questions reported at Pinduoduo](../pinduoduo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 20 questions reported at Pinduoduo](../pinduoduo.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Pinduoduo question on TrueInterview](https://trueinterview.io/problems/company/pinduoduo).
 
 ---

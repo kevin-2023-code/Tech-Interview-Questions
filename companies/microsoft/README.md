@@ -8,8 +8,8 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [130](../microsoft.md) |
-| Free to read here | 18 |
+| Questions reported | [139](../microsoft.md) |
+| Free to read here | 21 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Sep 10, 2026 |
@@ -38,13 +38,15 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 
 ## Free Microsoft questions
 
-18 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+21 questions reported at Microsoft open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
+| [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Final Prices With a Special Discount in a Shop](../../questions/algorithm/final-prices-with-a-special-discount-in-a-shop/README.md) | Algorithm | Easy | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/final-prices-with-a-special-discount-in-a-shop) |
+| [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
 | [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
@@ -58,12 +60,13 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 | [Matrix Multiplication](../../questions/algorithm/matrix-multiplication/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Jump Game](../../questions/algorithm/jump-game/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) |
+| [Remove Duplicates from Sorted Array](../../questions/algorithm/remove-duplicates-from-sorted-array/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) |
 | [Sliding-Window Rate Limiter III](../../questions/object-oriented-programming/sliding-window-rate-limiter-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 130 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 139 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Microsoft question on TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 ---

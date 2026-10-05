@@ -8,8 +8,8 @@ How Snapchat interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [54](../snapchat.md) |
-| Free to read here | 12 |
+| Questions reported | [57](../snapchat.md) |
+| Free to read here | 13 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 09, 2026 |
@@ -38,13 +38,14 @@ Coding difficulty sits at LeetCode medium with occasional hard follow-ups, but S
 
 ## Free Snapchat questions
 
-12 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+13 questions reported at Snapchat open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Sliding-Window Rate Limiter II](../../questions/algorithm/sliding-window-rate-limiter/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/sliding-window-rate-limiter) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
@@ -57,7 +58,7 @@ Coding difficulty sits at LeetCode medium with occasional hard follow-ups, but S
 
 ## Everything else
 
-- [All 54 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 57 questions reported at Snapchat](../snapchat.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snapchat question on TrueInterview](https://trueinterview.io/problems/company/snapchat).
 
 ---

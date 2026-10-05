@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Apple · Amazon · GEICO · Squarepoint | Phone screen | arrays | Apr 2026 |
+| Algorithm | Medium | Apple · Amazon · GEICO · Microsoft · Squarepoint | Phone screen | arrays | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/product-of-array-except-self)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -75,7 +75,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [GEICO](../../../companies/geico/README.md) · [Squarepoint](../../../companies/squarepoint/README.md)
+[Apple](../../../companies/apple/README.md) · [Amazon](../../../companies/amazon/README.md) · [GEICO](../../../companies/geico/README.md) · [Microsoft](../../../companies/microsoft/README.md) · [Squarepoint](../../../companies/squarepoint/README.md)
 
 ---
 

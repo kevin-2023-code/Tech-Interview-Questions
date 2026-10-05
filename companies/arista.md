@@ -56,11 +56,11 @@ Of the **4 questions at Arista that carry a topic label** (80% of them — the r
 
 ## Start here
 
-The 5 questions to open first if you are preparing for Arista. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
+The 5 questions to open first if you are preparing for Arista, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | — | — |
+| **1** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) 🆓 | Algorithm | Easy | 1 | — |
 | **2** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Algorithm | Easy | — | — |
 | **3** | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) 🆓 | Object Oriented Programming | Medium | — | — |
 | **4** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Algorithm | Medium | — | — |

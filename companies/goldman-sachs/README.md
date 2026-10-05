@@ -9,7 +9,7 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 |  |  |
 | :-- | :-- |
 | Questions reported | [48](../goldman-sachs.md) |
-| Free to read here | 25 |
+| Free to read here | 24 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
 | Most recent sighting | Jul 06, 2026 |
@@ -34,7 +34,7 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 
 ## Free Goldman Sachs questions
 
-25 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+24 questions reported at Goldman Sachs open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -50,7 +50,6 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 | [Merge K Sorted Lists (incl. K = 3)](../../questions/algorithm/merge-k-sorted-lists-3/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists-3) |
 | [Longest Substring of All Same Letter](../../questions/algorithm/longest-same-letter-substring/README.md) | Algorithm | Easy | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/longest-same-letter-substring) |
 | [Spiral Matrix Traversal](../../questions/algorithm/spiral-matrix-output/README.md) | Algorithm | Medium | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/spiral-matrix-output) |
-| [Maximum-Sum Path in a Matrix (No Revisits)](../../questions/algorithm/matrix-max-sum-path-no-repeat/README.md) | Algorithm | Hard | Phone screen | Nov 2024 | [Solve](https://trueinterview.io/questions/matrix-max-sum-path-no-repeat) |
 | [Second-Smallest Unique Element](../../questions/algorithm/second-smallest-unique-element/README.md) | Algorithm | Easy | Phone screen, Onsite / virtual onsite | Nov 2024 | [Solve](https://trueinterview.io/questions/second-smallest-unique-element) |
 | [Count Unique Pairs With Difference K](../../questions/algorithm/unique-pairs-difference-k/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/unique-pairs-difference-k) |
 | [Plus-Multiply Even / Odd Parity](../../questions/algorithm/plus-multiply-even-odd-parity/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/plus-multiply-even-odd-parity) |

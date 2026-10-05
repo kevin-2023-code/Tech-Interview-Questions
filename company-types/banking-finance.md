@@ -2,7 +2,7 @@
 
 # 🏦 Banks, insurers & asset managers — interview & OA questions
 
-**216 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**217 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Bloomberg (77)](../companies/bloomberg.md) · [Capital One (51)](../companies/capital-one.md) · [Goldman Sachs (48)](../companies/goldman-sachs.md) · [JPMorgan (19)](../companies/jpmorgan.md) · [Visa (15)](../companies/visa.md) · [GEICO (6)](../companies/geico.md) · [Lead Bank (5)](../companies/lead-bank.md)
+[Bloomberg (78)](../companies/bloomberg.md) · [Capital One (51)](../companies/capital-one.md) · [Goldman Sachs (48)](../companies/goldman-sachs.md) · [JPMorgan (19)](../companies/jpmorgan.md) · [Visa (15)](../companies/visa.md) · [GEICO (6)](../companies/geico.md) · [Lead Bank (5)](../companies/lead-bank.md)
 
 <sub>7 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,48 +18,50 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 168 | 78% | ██████████████ | 41 |
+| [Algorithm](../formats/algorithm.md) | 169 | 78% | ██████████████ | 40 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 27 | 12% | ██ | 4 |
-| [System Design](../formats/system-design.md) | 18 | 8% | ██ | 3 |
+| [System Design](../formats/system-design.md) | 18 | 8% | █ | 3 |
 | [SQL](../formats/sql.md) | 2 | 1% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **47 / 138 / 31**, over the rows the catalog has graded. 49 of the 216 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **47 / 138 / 32**, over the rows the catalog has graded. 48 of the 217 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **160 questions in this cut that carry a topic label** (74% of it):
+Of the **162 questions in this cut that carry a topic label** (75% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 33 | 21% | ████████████ |
-| `hashing` | 29 | 18% | ███████████ |
-| `strings` | 25 | 16% | █████████ |
-| `graphs` | 17 | 11% | ██████ |
+| `arrays` | 33 | 20% | ████████████ |
+| `hashing` | 30 | 19% | ███████████ |
+| `strings` | 26 | 16% | █████████ |
+| `graphs` | 17 | 10% | ██████ |
 | `sorting` | 16 | 10% | ██████ |
 | `dynamic-programming` | 13 | 8% | █████ |
 | `greedy` | 13 | 8% | █████ |
+| `backtracking` | 11 | 7% | ████ |
 | `matrix` | 11 | 7% | ████ |
-| `backtracking` | 10 | 6% | ████ |
-| `stack` | 10 | 6% | ████ |
+| `stack` | 11 | 7% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**9 sightings** across this cut. Newest first.
+**11 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Capital One | Algorithm | Sep 16, 2026 |
 | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Capital One | Algorithm | Sep 07, 2026 |
 | [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Capital One | Algorithm | Aug 28, 2026 |
+| [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Bloomberg … | Algorithm | Aug 04, 2026 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Bloomberg | SQL | Jul 22, 2026 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Bloomberg | SQL | Jul 22, 2026 |
 | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Capital One | Algorithm | Jul 19, 2026 |
 | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Capital One | Algorithm | Jul 19, 2026 |
+| [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Bloomberg | Algorithm | Jul 09, 2026 |
 | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | Bloomberg | System Design | Jul 07, 2026 |
 | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | Bloomberg | System Design | Jul 07, 2026 |
-| [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Goldman Sachs | Algorithm | Jul 06, 2026 |
 
 ---
 
@@ -69,12 +71,15 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Capital One** | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Medium | 🆕 Sep 16, 2026 |
 | **Capital One** | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Medium | 🆕 Sep 07, 2026 |
 | **Capital One** | [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Medium | 🆕 Aug 28, 2026 |
+| **Figma / Bloomberg / Boston Consulting Group** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Hard | Aug 04, 2026 |
 | **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Medium | Jul 22, 2026 |
 | **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Medium | Jul 22, 2026 |
 | **Capital One** | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Easy | Jul 19, 2026 |
 | **Capital One** | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Easy | Jul 19, 2026 |
+| **Bloomberg** | [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Medium | Jul 09, 2026 |
 | **Bloomberg** | [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | Hard | Jul 07, 2026 |
 | **Bloomberg** | [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | Medium | Jul 07, 2026 |
 | **Goldman Sachs** | [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Medium | Jul 06, 2026 |
@@ -86,9 +91,9 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Goldman Sachs** | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Medium | Jun 21, 2026 |
 | **Goldman Sachs** | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Medium | Jun 18, 2026 |
 | **Goldman Sachs** | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Easy | Jun 18, 2026 |
-| **Bloomberg / Amazon / ByteDance / Goldman Sachs / Pinduoduo** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Medium | Jun 16, 2026 |
+| **Bloomberg / Amazon / ByteDance / Goldman Sachs / Lyft / Pinduoduo** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Medium | Jun 16, 2026 |
 | **Bloomberg** | [Real-time Market Data System](https://trueinterview.io/questions/real-time-market-data-system) | Hard | Jun 16, 2026 |
-| **Bloomberg / ByteDance / Cisco** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
+| **Bloomberg / ByteDance / Cisco / Ebay** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Medium | Jun 16, 2026 |
 | **Bloomberg** | [Design Underground System](https://trueinterview.io/questions/design-underground-system) | Medium | Jun 16, 2026 |
 | **Rippling / Bloomberg / ByteDance / Uber** | [Median of Two Sorted Arrays](https://trueinterview.io/questions/median-of-two-sorted-arrays) | Hard | Jun 16, 2026 |
 | **Capital One** | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Medium | Jun 05, 2026 |
@@ -96,7 +101,7 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Bloomberg** | [Minimum Cost Flight Split](https://trueinterview.io/questions/minimum-cost-flight-split) | Medium | Jun 04, 2026 |
 | **Capital One** | [Longest Same-Character Run](https://trueinterview.io/questions/longest-same-character-run) | Easy | May 31, 2026 |
 | **Capital One / Databricks / Roblox** | [Laser Grid Robot Max Safe Run](https://trueinterview.io/questions/laser-grid-robot-max-safe-run) | Medium | May 31, 2026 |
-| **Capital One** | [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Medium | May 31, 2026 |
+| **Capital One / ByteDance** | [House Segments After Deletions](https://trueinterview.io/questions/house-segments-after-deletions) | Medium | May 31, 2026 |
 | **Capital One** | [Even Digit Count](https://trueinterview.io/questions/even-digit-count) | Easy | May 31, 2026 |
 | **Capital One** | [Wheat Harvest Optimisation Case](https://trueinterview.io/questions/wheat-harvest-case) | Medium | May 13, 2026 |
 | **Bloomberg** | [Active Users Sliding Window](https://trueinterview.io/questions/active-users-sliding-window) | Medium | May 03, 2026 |
@@ -108,24 +113,24 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Capital One** | [Beautify Houses to Strict Monotone](https://trueinterview.io/questions/beautify-houses-monotone) | Medium | Apr 25, 2026 |
 | **JPMorgan** | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | Medium | Apr 22, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **Capital One** | [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Medium | Apr 08, 2026 |
 | **Capital One** | [Warehouse Round-Robin Allocation with Closures](https://trueinterview.io/questions/warehouse-round-robin-allocation) | Medium | Apr 08, 2026 |
 | **Capital One** | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets) | Easy | Apr 08, 2026 |
 | **Capital One** | [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Medium | Apr 08, 2026 |
 | **Salesforce / Goldman Sachs** | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Medium | Apr 03, 2026 |
-| **Apple / Amazon / GEICO / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
+| **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **JPMorgan** | [Process Scheduler II](https://trueinterview.io/questions/minimum-cpu-cores) | Medium | Mar 31, 2026 |
 | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | Easy | Mar 24, 2026 |
-| **Snowflake / Amazon / Atlassian / Bloomberg / Datadog / LinkedIn / Rippling / Snapchat / Yelp** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | Medium | Mar 23, 2026 |
+| **Snowflake / Amazon / Atlassian / Bloomberg / Datadog / LinkedIn / Microsoft / Rippling / Snapchat / Yelp** | [Cross-Platform Logging Library](https://trueinterview.io/questions/logging-library-design) | Medium | Mar 23, 2026 |
 | **JPMorgan** | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Hard | Mar 18, 2026 |
 | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
 | **JPMorgan** | [Table of Contents from Markdown Headings II](https://trueinterview.io/questions/markdown-table-of-contents) | Easy | Mar 14, 2026 |
 | **JPMorgan / Microsoft** | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Medium | Mar 14, 2026 |
 | **Netflix / Goldman Sachs** | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Medium | Mar 11, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / Netflix / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
+| **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **Uber / Apple / Bloomberg / ByteDance / Meta / Microsoft** | [Alien Dictionary](https://trueinterview.io/questions/alien-dictionary) | Hard | Mar 04, 2026 |
 | **Netflix / Bloomberg** | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Medium | Mar 03, 2026 |
 | **Bloomberg** | [Subway / Network Connectivity](https://trueinterview.io/questions/subway-network-connectivity) | Hard | Feb 25, 2026 |
@@ -138,7 +143,7 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Capital One** | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study) | Hard | Feb 13, 2026 |
 | **Goldman Sachs** | [Transaction Authorizer / Fraud Checks](https://trueinterview.io/questions/transaction-authorizer-fraud-checks) | Medium | Feb 12, 2026 |
 | **JPMorgan** | [Property Rental Search System](https://trueinterview.io/questions/property-rental-search-system) | Medium | Feb 08, 2026 |
-| **Apple / Amazon / Bloomberg / ByteDance / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
+| **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Goldman Sachs** | [Movement Command Controller](https://trueinterview.io/questions/movement-command-controller) | Easy | Feb 05, 2026 |
 | **Capital One** | [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency) | Easy | Feb 04, 2026 |
 | **Capital One** | [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths) | Medium | Feb 04, 2026 |
@@ -176,7 +181,7 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Bloomberg** | [Simplified Grep](https://trueinterview.io/questions/simplified-grep) | Medium | Nov 22, 2025 |
 | **Bloomberg** | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Medium | Nov 22, 2025 |
 | **JPMorgan** | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips) | Medium | Nov 19, 2025 |
-| **Oracle / Bloomberg / Google / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
+| **Oracle / Bloomberg / Instacart** | [Decode String (k&#91;encoded&#93;)](https://trueinterview.io/questions/decode-string-lc394) | Medium | Nov 17, 2025 |
 | **IBM / Capital One** | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Medium | Nov 03, 2025 |
 | **Bloomberg** | [Palindrome Stream Tracker](https://trueinterview.io/questions/palindrome-stream-tracker) | Hard | Oct 17, 2025 |
 | **Bloomberg / Citadel / Hudson River Trading / Meta / Tesla** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Easy | Oct 16, 2025 |
@@ -237,7 +242,7 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **GEICO** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Medium | — |
 | **Visa** | [AI-augmented Course Schedule Variation](https://trueinterview.io/questions/f07d3e71-08f4-4626-a568-17e13bd74cbc) | Medium | — |
 | **Visa** | [Largest Square Area in Cityscape](https://trueinterview.io/questions/e89ab3f5-2a6f-456a-ab6b-bb0e599eafe6) | Medium | — |
-| **Visa** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
+| **Visa / NVIDIA** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
 | **Visa** | [Designing Real-Time Instant Messaging Application with Media Support](https://trueinterview.io/questions/9856cf15-b820-45d8-8dc8-dbaa40b41637) | Medium | — |
 | **Visa** | [Minimize Maximum of Array](https://trueinterview.io/questions/643cf075-9cb4-571b-9d05-a2d0f99a3a47) | Hard | — |
 | **Visa** | [Connected Groups](https://trueinterview.io/questions/6053e4f1-8399-5673-bbd5-ae75726d6a0b) | Easy | — |
@@ -249,8 +254,7 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Visa** | [Minimum Score of a Path Between Two Cities](https://trueinterview.io/questions/bdfa46dd-5ef8-59ba-a4da-2c0a912b8d4d) | Medium | — |
 | **Visa / LinkedIn** | [Find K Closest Elements](https://trueinterview.io/questions/7bedae5f-5feb-4c90-95d3-db93bbb7a7a2) | Medium | — |
 | **Visa** | [Perfect Substring](https://trueinterview.io/questions/217a1c20-1806-5c0d-a1fc-2ab0f81b44c1) | Medium | — |
-| **Bloomberg** | [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Medium | — |
-| **Anthropic / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
+| **Anthropic / Affirm / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Oracle / Uber** | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Medium | — |
 | **SoFi / Bloomberg / ByteDance / Google** | [Array and DFS with Backtracking](https://trueinterview.io/questions/40de368d-03ee-43ac-8936-a91b44d9769d) | Medium | — |
 | **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
 | **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |
@@ -258,7 +262,6 @@ Of the **160 questions in this cut that carry a topic label** (74% of it):
 | **Goldman Sachs / LinkedIn / Oracle** | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Medium | — |
 | **Goldman Sachs / WeRide** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Easy | — |
 | **Capital One / WeRide** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Medium | — |
-| **Capital One** | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Medium | — |
 | **Capital One** | [Fraud Detection Algorithm for Credit Card Transactions](https://trueinterview.io/questions/86a950f4-60b5-454a-90e5-d8e02a13e342) | Easy | — |
 | **Capital One** | [Ordered Fragment Pairs String-Counting Problem](https://trueinterview.io/questions/8584e53e-8871-4009-a423-69c8fbed330c) | Medium | — |
 | **Capital One** | [Round-robin Server Simulation](https://trueinterview.io/questions/575a3ef4-db97-47f1-ba55-d7d74332f87f) | Medium | — |

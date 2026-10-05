@@ -9,7 +9,7 @@ How Google interviews, and the questions candidates reported there. Free questio
 |  |  |
 | :-- | :-- |
 | Questions reported | [198](../google.md) |
-| Free to read here | 22 |
+| Free to read here | 24 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
 | Most recent sighting | Sep 18, 2026 |
@@ -38,7 +38,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 
 ## Free Google questions
 
-22 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+24 questions reported at Google open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -47,6 +47,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Number of Islands (Plain and Streaming)](../../questions/algorithm/phone-screen-number-of-islands/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/phone-screen-number-of-islands) |
 | [Minimum Operations to Reduce an Integer to 0](../../questions/algorithm/minimum-operations-to-reduce-an-integer-to-0/README.md) | Algorithm | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) |
+| [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design A Top K Popular Items System](../../questions/system-design/design-popular-products-for-a-shopping-homepage/README.md) | System Design | Easy | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) |
 | [Count Paths That Can Form a Palindrome in a Tree](../../questions/algorithm/count-paths-that-can-form-a-palindrome-in-a-tree/README.md) | Algorithm | Hard | Online assessment, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
@@ -61,6 +62,7 @@ This is the in-depth companion to the Google company page. It covers how each st
 | [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [Segregate Binary String (Move Ones to End)](../../questions/algorithm/segregate-binary-string-move-ones/README.md) | Algorithm | Easy | Online assessment | Aug 2025 | [Solve](https://trueinterview.io/questions/segregate-binary-string-move-ones) |
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
+| [Design A VM Bandwidth Rate Limiter](../../questions/system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 | [Contains Duplicate II](../../questions/algorithm/contains-duplicate-ii/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/contains-duplicate-ii) |

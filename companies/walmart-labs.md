@@ -2,7 +2,7 @@
 
 # Walmart Labs interview process, OA & interview questions
 
-**28 questions** reported at Walmart Labs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at Walmart Labs · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/walmart-labs), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Walmart Labs interviews & the free questions](walmart-labs/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **28** |
+| Questions tracked | **29** |
 | Most recent sighting | Jul 07, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 28) |
-| Difficulty (easy / medium / hard) | 6 / 17 / 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
+| Difficulty (easy / medium / hard) | 6 / 18 / 5 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 28 questions reported at Walmart Labs. 20 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 29 questions reported at Walmart Labs. 21 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **28 of 28** questions at Walmart Labs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **29 of 29** questions at Walmart Labs that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 2 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 3 / 9 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | █████████ | [System Design](../formats/system-design.md) (55%) | 1 / 7 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (92%) | 3 / 10 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 12 | █████████ | [System Design](../formats/system-design.md) (50%) | 1 / 8 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -48,18 +48,18 @@ Which stage each question came from, for the **28 of 28** questions at Walmart L
 
 ## What they ask about
 
-Of the **17 questions at Walmart Labs that carry a topic label** (61% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Walmart Labs that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 6 | 35% | ████████████ | May 07, 2026 |
-| `two-pointers` | 4 | 24% | ████████ | Jul 07, 2026 |
-| `binary-search` | 2 | 12% | ████ | — |
-| `greedy` | 2 | 12% | ████ | May 07, 2026 |
-| `intervals` | 2 | 12% | ████ | Apr 24, 2026 |
-| `sorting` | 2 | 12% | ████ | Apr 24, 2026 |
-| `stack` | 2 | 12% | ████ | Feb 24, 2026 |
-| `strings` | 2 | 12% | ████ | Apr 24, 2026 |
+| `arrays` | 6 | 33% | ████████████ | May 07, 2026 |
+| `two-pointers` | 5 | 28% | ██████████ | Jul 07, 2026 |
+| `binary-search` | 2 | 11% | ████ | — |
+| `greedy` | 2 | 11% | ████ | May 07, 2026 |
+| `intervals` | 2 | 11% | ████ | Apr 24, 2026 |
+| `sorting` | 2 | 11% | ████ | Apr 24, 2026 |
+| `stack` | 2 | 11% | ████ | Feb 24, 2026 |
+| `strings` | 2 | 11% | ████ | Apr 24, 2026 |
 | `backtracking` | 1 | 6% | ██ | Jul 20, 2025 |
 | `hashing` | 1 | 6% | ██ | Mar 03, 2026 |
 
@@ -75,7 +75,7 @@ Every recorded sighting at Walmart Labs, by the month it was reported in — Jul
 | [May 2026](../by-month/2026-05.md) | 1 | ██████ |
 | [Apr 2026](../by-month/2026-04.md) | 3 | ██████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 4 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 3 | ██████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 4 | ████████████████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ██████ |
@@ -128,6 +128,7 @@ The 8 questions to open first if you are preparing for Walmart Labs, ranked by *
 | [Two Sum with Smallest-Indices Tiebreak (+ 3 Sum Follow-up)](https://trueinterview.io/questions/two-sum-smallest-indices) | Algorithm | Medium | Mar 03, 2026 |
 | [Plants Pesticide — Days Until Stable](https://trueinterview.io/questions/plants-pesticide-days) | Algorithm | Medium | Feb 24, 2026 |
 | [Design Multi-Carrier Package Delivery Routing System](https://trueinterview.io/questions/design-multi-carrier-delivery-system) | System Design | Hard | Feb 24, 2026 |
+| [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | Feb 08, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Validate N×N Grid as Latin Square](https://trueinterview.io/questions/validate-square-grid) | Algorithm | Medium | Dec 31, 2025 |
 | [Validate Nonogram Solution](https://trueinterview.io/questions/validate-nonogram) | Algorithm | Medium | Dec 31, 2025 |

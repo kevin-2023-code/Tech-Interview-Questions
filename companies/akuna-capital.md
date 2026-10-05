@@ -19,7 +19,7 @@
 | Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (70% of 30) |
 | Difficulty (easy / medium / hard) | 7 / 22 / 1 |
-| Free to practise | [9](../free/README.md) |
+| Free to practise | [7](../free/README.md) |
 | Guides & writeups | 3 |
 
 <sub>Counted from the 30 questions reported at Akuna Capital. 23 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>

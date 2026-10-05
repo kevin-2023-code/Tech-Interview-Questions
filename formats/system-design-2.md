@@ -22,7 +22,7 @@
 | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
 | **Stripe / Affirm / Robinhood / Roblox / Uber** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | Hard | Oct 26, 2025 |
 | **OpenAI** | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | Medium | Oct 18, 2025 |
-| **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
+| **Amazon / Confluent / Ebay / Google / Microsoft / OpenAI / Roblox / Salesforce / Snapchat / Yelp** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | Easy | Oct 15, 2025 |
 | **Databricks** | [Autonomous Ride-Hailing App System Design (Waymo-like)](https://trueinterview.io/questions/autonomous-ride-hailing-app-system-design-waymo-like) | Medium | Oct 09, 2025 |
 | **OpenAI** | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | Medium | Oct 07, 2025 |
 | **Waymo** | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | Hard | Sep 29, 2025 |
@@ -31,7 +31,7 @@
 | **Oracle** | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | Hard | Jan 15, 2025 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
 | **StackAdapt** | [Priority-Based Rate-Limited Web Crawler Design](https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22) | Medium | — |
-| **DoorDash** | [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | Medium | — |
+| **DoorDash / Uber** | [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | Medium | — |
 | **Databricks / Amazon / Google** | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | Hard | — |
 | **Amazon** | [Design Amazon Locker](https://trueinterview.io/questions/design-amazon-locker) | Medium | — |
 | **Yelp / Uber** | [Design Yelp](https://trueinterview.io/questions/design-yelp-2) | Medium | — |
@@ -59,11 +59,11 @@
 | **Microsoft** | [Resource Change Database Design](https://trueinterview.io/questions/bcd45958-19cb-4471-90e5-86cdb8a138f5) | Medium | — |
 | **LinkedIn** | [Real-Time Scalable Spam Email Detection System Design](https://trueinterview.io/questions/6b5e2814-d680-40a4-8a95-e002c830c543) | Hard | — |
 | **Instacart / Airbnb / DoorDash / Reddit / Robinhood / Uber** | [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | Hard | — |
-| **ByteDance / Airbnb / Databricks / Ebay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | Hard | — |
+| **ByteDance / Airbnb / Databricks / Discord / Ebay / LinkedIn / Microsoft AI / OpenAI / Reddit / Yelp** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | Hard | — |
 | **ByteDance** | [Real-Time Top-K Most Listened Songs Data Structure Design](https://trueinterview.io/questions/0c5b8340-9932-4075-84de-2a6e3b340bc3) | Medium | — |
 | **Amazon / Datadog / DoorDash / Google / LinkedIn / Rippling / Roblox / Snapchat / Stripe** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | Hard | — |
 | **Robinhood** | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | Medium | — |
-| **xAI** | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | Easy | — |
+| **xAI / Amazon / OpenAI** | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | Easy | — |
 | **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
 | **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |
 | **Netflix / Apple / Rippling** | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | Medium | — |

@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,007 questions** reported across the **38 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,018 questions** reported across the **40 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,17 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Anthropic** | [Python Class and Data Structures](https://trueinterview.io/questions/1c35c2c1-9209-49c2-8ad6-aca71db1ffdb) | Easy | — |
+| **Anthropic** | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | Medium | — |
+| **Anthropic** | [Implement a UI From a Figma Mock in React + TypeScript](https://trueinterview.io/questions/1a1fb907-7914-40b7-aa33-f5825437aa91) | Medium | — |
+| **xAI** | [Design a Distributed KV Store](https://trueinterview.io/questions/design-a-distributed-kv-store) | Medium | — |
+| **Stripe** | [Repo Debugging: Fix Failing Tests in a Failsafe Project](https://trueinterview.io/questions/46333f06-4228-4ad2-9088-75edef798537) | Medium | — |
+| **Rippling** | [Compare Incomplete Hands](https://trueinterview.io/questions/71691137-0213-4dbb-b149-45dbd9faa5a3) | Hard | — |
+| **OpenAI** | [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Medium | — |
+| **OpenAI** | [Design an in-memory rate limiter (token bucket / sliding window)](https://trueinterview.io/questions/91b46503-5a56-4b8a-a1f3-b4f15da02b11) | Medium | — |
+| **OpenAI** | [GPU Credits II (Modified): Balance Query Returns None When Subtract Fails](https://trueinterview.io/questions/27d03a78-b011-4752-b7f4-b9aa6f92ad54) | Easy | — |
+| **Coinbase** | [Generate Random NFT](https://trueinterview.io/questions/c371c4af-f5cd-4071-967e-e37e7b38cdb3) | Medium | — |
+| **Coinbase** | [Longest Consecutive Character in String](https://trueinterview.io/questions/ae5833c1-2569-4d9e-ae07-7087514da7f6) | Easy | — |
 | **Coinbase / Instacart** | [Task Management System III](https://trueinterview.io/questions/task-management-system) | Hard | — |
 | **xAI** | [Design a Rate Limiter with Variable User Quotas](https://trueinterview.io/questions/design-a-rate-limiter-with-variable-user-quotas) | Easy | — |
 | **Coinbase / Ebay / HubSpot** | [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Medium | — |

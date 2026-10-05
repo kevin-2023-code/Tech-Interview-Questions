@@ -2,7 +2,7 @@
 
 # 🏤 Mid-sized tech (200–999) — interview & OA questions
 
-**84 questions** reported across the **10 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**85 questions** reported across the **10 Mid-sized tech (200–999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Perplexity (23)](../companies/perplexity.md) · [Harvey (17)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (8)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md) · [Cohere (2)](../companies/cohere.md)
+[Perplexity (23)](../companies/perplexity.md) · [Harvey (17)](../companies/harvey.md) · [Vanta (13)](../companies/vanta.md) · [Whatnot (9)](../companies/whatnot.md) · [Airtable (5)](../companies/airtable.md) · [Amplitude (5)](../companies/amplitude.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Rokt (4)](../companies/rokt.md) · [Moveworks (3)](../companies/moveworks.md) · [Cohere (2)](../companies/cohere.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,23 +18,23 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 41 | 49% | ██████████████ | 14 |
+| [Algorithm](../formats/algorithm.md) | 42 | 49% | ██████████████ | 13 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 20 | 24% | ███████ | 9 |
 | [System Design](../formats/system-design.md) | 18 | 21% | ██████ | 4 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 6% | ██ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **4 / 67 / 13**, over the rows the catalog has graded. 27 of the 84 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **4 / 68 / 13**, over the rows the catalog has graded. 26 of the 85 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **45 questions in this cut that carry a topic label** (54% of it):
+Of the **46 questions in this cut that carry a topic label** (54% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 14 | 31% | ████████████ |
-| `strings` | 8 | 18% | ███████ |
-| `graphs` | 7 | 16% | ██████ |
-| `trees` | 7 | 16% | ██████ |
+| `hashing` | 14 | 30% | ████████████ |
+| `strings` | 8 | 17% | ███████ |
+| `graphs` | 7 | 15% | ██████ |
+| `trees` | 7 | 15% | ██████ |
 | `intervals` | 4 | 9% | ███ |
 | `topological-sort` | 4 | 9% | ███ |
 | `tries` | 4 | 9% | ███ |
@@ -93,7 +93,7 @@ Of the **45 questions in this cut that carry a topic label** (54% of it):
 | **Harvey** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Medium | Apr 30, 2026 |
 | **LinkedIn / Amazon / Google / Meta / Microsoft AI / Perplexity / Pinterest** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | Medium | Apr 16, 2026 |
 | **Perplexity** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | Medium | Apr 12, 2026 |
-| **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
+| **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Meta / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
 | **Harvey** | [Design a Text Editor](https://trueinterview.io/questions/design-a-text-editor) | Medium | Apr 2026 |
 | **Uber / Atlassian / Bloomberg / Figma / Google / Lyft / Perplexity / Snapchat** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | Easy | Mar 24, 2026 |
 | **Vanta** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Medium | Mar 17, 2026 |
@@ -117,7 +117,7 @@ Of the **45 questions in this cut that carry a topic label** (54% of it):
 | **Airtable** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Hard | — |
 | **Airtable** | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Medium | — |
 | **Airtable** | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | Medium | — |
-| **Rokt** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Medium | — |
+| **Rokt / Instacart** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Medium | — |
 | **Moveworks** | [Find Maximum Number of Strings](https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019) | Medium | — |
 | **Moveworks** | [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c) | Medium | — |
 | **Airtable** | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | Medium | — |
@@ -147,6 +147,7 @@ Of the **45 questions in this cut that carry a topic label** (54% of it):
 | **Vanta** | [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Easy | — |
 | **Harvey** | [Tag Exact-Matched Sources in a Document and Provide Citations](https://trueinterview.io/questions/8fcce720-27a1-4aa8-a42a-eed7767ec0b9) | Medium | — |
 | **Perplexity** | [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | Medium | — |
+| **ByteDance / Whatnot** | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Medium | — |
 | **Snapchat / ByteDance / Google / Meta / Pinduoduo / Rokt / Walmart Labs** | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Medium | — |
 | **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
 | **Perplexity** | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | Medium | — |

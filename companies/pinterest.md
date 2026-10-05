@@ -2,7 +2,7 @@
 
 # Pinterest interview process, OA & interview questions
 
-**77 questions** reported at Pinterest · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**76 questions** reported at Pinterest · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **77** |
+| Questions tracked | **76** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 77) |
-| Difficulty (easy / medium / hard) | 8 / 52 / 17 |
-| Free to practise | [6](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (62% of 76) |
+| Difficulty (easy / medium / hard) | 8 / 51 / 17 |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
 
-<sub>Counted from the 77 questions reported at Pinterest. 47 of them carry a sighting date; the other 30 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 76 questions reported at Pinterest. 47 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **77 of 77** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **76 of 76** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 48 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 1 / 36 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 36 | ████████ | [Algorithm](../formats/algorithm.md) (39%) | 3 / 23 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 35 | ███████ | [Algorithm](../formats/algorithm.md) (40%) | 3 / 22 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -51,14 +51,14 @@ Which stage each question came from, for the **77 of 77** questions at Pinterest
 
 ## What they ask about
 
-Of the **51 questions at Pinterest that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **52 questions at Pinterest that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 10 | 20% | ████████████ | Aug 26, 2026 |
-| `backtracking` | 7 | 14% | ████████ | Apr 18, 2026 |
-| `graphs` | 7 | 14% | ████████ | Aug 26, 2026 |
-| `greedy` | 7 | 14% | ████████ | Jun 16, 2026 |
+| `hashing` | 10 | 19% | ████████████ | Aug 26, 2026 |
+| `greedy` | 8 | 15% | ██████████ | Jun 16, 2026 |
+| `backtracking` | 7 | 13% | ████████ | Apr 18, 2026 |
+| `graphs` | 7 | 13% | ████████ | Aug 26, 2026 |
 | `arrays` | 6 | 12% | ███████ | Aug 26, 2026 |
 | `binary-search` | 6 | 12% | ███████ | Mar 28, 2026 |
 | `strings` | 6 | 12% | ███████ | May 27, 2026 |
@@ -211,4 +211,3 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | — |
 | [Set Equality Verification](https://trueinterview.io/questions/0def6fa8-60e7-41ea-bf60-ab321aa731ea) | Algorithm | Easy | — |
 | [Expression Add Operators to Reach Target](https://trueinterview.io/questions/ce65b729-d003-4aba-82e4-ee55204dce4c) | Algorithm | Hard | — |
-| [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |

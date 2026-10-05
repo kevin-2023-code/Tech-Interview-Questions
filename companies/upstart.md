@@ -60,7 +60,7 @@ The 8 questions to open first if you are preparing for Upstart, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) 🆓 | Algorithm | Easy | 2 | — |
+| **1** | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) 🆓 | Algorithm | Easy | 3 | — |
 | **2** | [Interleave Three Equal-Length Strings](https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7) 🆓 | Algorithm | Easy | — | — |
 | **3** | [Format Bytes into Human-Readable String (B/KB/MB)](https://trueinterview.io/questions/51be1242-45a4-47fc-9f37-e1bcd9800d17) | Algorithm | Easy | — | — |
 | **4** | [Decipher using two hashmaps](https://trueinterview.io/questions/6a88ab18-e062-493a-80b1-528e00f50d3e) | Algorithm | Easy | — | — |

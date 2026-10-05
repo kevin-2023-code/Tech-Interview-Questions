@@ -2,7 +2,7 @@
 
 # Ramp interview process, OA & interview questions
 
-**27 questions** reported at Ramp · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Ramp · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/ramp), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Ramp interviews & the free questions](ramp/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **27** |
+| Questions tracked | **28** |
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 27) |
-| Difficulty (easy / medium / hard) | 4 / 20 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (57% of 28) |
+| Difficulty (easy / medium / hard) | 4 / 21 / 3 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 27 questions reported at Ramp. 20 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 28 questions reported at Ramp. 20 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **27 of 27** questions at Ramp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **28 of 28** questions at Ramp that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (45%) | 3 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 10 | █████████ | [Algorithm](../formats/algorithm.md) (90%) | 1 / 9 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (91%) | 1 / 10 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 10 | █████████ | [Algorithm](../formats/algorithm.md) (40%) | 1 / 7 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -46,17 +46,17 @@ Which stage each question came from, for the **27 of 27** questions at Ramp that
 
 ## What they ask about
 
-Of the **17 questions at Ramp that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Ramp that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 5 | 29% | ████████████ | Sep 18, 2026 |
-| `hashing` | 4 | 24% | ██████████ | Dec 15, 2025 |
-| `graphs` | 3 | 18% | ███████ | Sep 18, 2026 |
-| `arrays` | 2 | 12% | █████ | Jun 01, 2026 |
-| `binary-search` | 2 | 12% | █████ | Jun 01, 2026 |
-| `greedy` | 2 | 12% | █████ | — |
-| `sliding-window` | 2 | 12% | █████ | May 01, 2026 |
+| `strings` | 6 | 33% | ████████████ | Sep 18, 2026 |
+| `hashing` | 5 | 28% | ██████████ | Dec 15, 2025 |
+| `graphs` | 3 | 17% | ██████ | Sep 18, 2026 |
+| `arrays` | 2 | 11% | ████ | Jun 01, 2026 |
+| `binary-search` | 2 | 11% | ████ | Jun 01, 2026 |
+| `greedy` | 2 | 11% | ████ | — |
+| `sliding-window` | 2 | 11% | ████ | May 01, 2026 |
 | `intervals` | 1 | 6% | ██ | — |
 | `matrix` | 1 | 6% | ██ | Jun 01, 2025 |
 | `sorting` | 1 | 6% | ██ | Jun 01, 2026 |
@@ -94,7 +94,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | **4** | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | 3 | May 21, 2026 |
 | **5** | [Correct Bedroom Counts from Descriptions](https://trueinterview.io/questions/correct-bedroom-counts-from-descriptions) | Algorithm | Medium | — | May 21, 2026 |
 | **6** | [URL Maze Traversal](https://trueinterview.io/questions/url-maze-graph-traversal) | Algorithm | Medium | — | May 06, 2026 |
-| **7** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 3 | May 2026 |
+| **7** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 4 | May 2026 |
 | **8** | [Reconcile Multiple Data Sources](https://trueinterview.io/questions/ai-coding-reconcile-multiple-data-sources) | AI Coding | Medium | — | Apr 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
@@ -137,6 +137,7 @@ The 8 questions to open first if you are preparing for Ramp, ranked by **the mos
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | AI Coding | Easy | Jun 2025 |
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
 | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Algorithm | Easy | Apr 2025 |
+| [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7) | Algorithm | Medium | — |
 | [Maximum Profit from Unordered Stock Price Records](https://trueinterview.io/questions/522363cd-bdb8-5f9b-bfd8-86d74fb6f057) | Algorithm | Medium | — |
 | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Object Oriented Programming | Easy | — |
 | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | AI Coding | Medium | — |

@@ -16,10 +16,10 @@
 | :-- | :-- |
 | Questions tracked | **48** |
 | Most recent sighting | Jul 06, 2026 |
-| Reported in the last 90 days | 1 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (81% of 48) |
 | Difficulty (easy / medium / hard) | 11 / 32 / 5 |
-| Free to practise | [25](../free/README.md) |
+| Free to practise | [24](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 11 in this snapshot |
 
@@ -39,11 +39,7 @@ Which stage each question came from, for the **48 of 48** questions at Goldman S
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Highest Average Score Per Person](https://trueinterview.io/questions/max-average-score-per-person) | Algorithm | Medium | Online assessment, Phone screen | Jul 06, 2026 |
+**Nothing has been reported at Goldman Sachs since Jul 06, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
@@ -51,8 +47,8 @@ Of the **36 questions at Goldman Sachs that carry a topic label** (75% of them �
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 9 | 25% | ████████████ | Apr 01, 2026 |
 | `hashing` | 9 | 25% | ████████████ | Jul 06, 2026 |
+| `arrays` | 8 | 22% | ███████████ | Apr 01, 2026 |
 | `strings` | 6 | 17% | ████████ | Feb 05, 2026 |
 | `dynamic-programming` | 5 | 14% | ███████ | Apr 01, 2026 |
 | `sliding-window` | 3 | 8% | ████ | Nov 25, 2025 |
@@ -94,7 +90,7 @@ The 8 questions to open first if you are preparing for Goldman Sachs, ranked by 
 | **2** | [ClayWorkspace Resource Tree](https://trueinterview.io/questions/clay-workspace-resource-tree) | Object Oriented Programming | Medium | — | Jun 21, 2026 |
 | **3** | [Implement a Deque](https://trueinterview.io/questions/implement-deque) | Object Oriented Programming | Easy | — | Jun 18, 2026 |
 | **4** | [Largest Tree in a Forest](https://trueinterview.io/questions/largest-tree-in-forest) | Algorithm | Medium | — | Jun 18, 2026 |
-| **5** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 4 | Jun 16, 2026 |
+| **5** | [Validate Binary Search Tree](https://trueinterview.io/questions/validate-binary-search-tree) | Algorithm | Medium | 5 | Jun 16, 2026 |
 | **6** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | 2 | May 2026 |
 | **7** | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | 1 | Apr 03, 2026 |
 | **8** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) 🆓 | Algorithm | Hard | 7 | Apr 01, 2026 |
