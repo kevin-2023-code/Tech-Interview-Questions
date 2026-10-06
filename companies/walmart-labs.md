@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **29** |
 | Most recent sighting | Jul 07, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (62% of 29) |
 | Difficulty (easy / medium / hard) | 6 / 18 / 5 |
 | Free to practise | [3](../free/README.md) |
@@ -38,13 +38,7 @@ Which stage each question came from, for the **29 of 29** questions at Walmart L
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [AI-Assisted Full-Stack Project Debugging](https://trueinterview.io/questions/ai-assisted-fullstack-oa) | AI Coding | Hard | Online assessment | Jul 07, 2026 |
-| [Merge Strings Alternately](https://trueinterview.io/questions/merge-strings-alternately) | Algorithm | Easy | Phone screen | Jul 07, 2026 |
-| [Minimum Talent-Complete Team from Every Start](https://trueinterview.io/questions/minimum-talent-complete-team-from-each-start) | Algorithm | Medium | Online assessment | Jul 07, 2026 |
+**Nothing has been reported at Walmart Labs since Jul 07, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 

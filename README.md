@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,935 questions** · **171 writeups** · **112 companies** · **359 free to practise** · **266 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,935 questions** · **171 writeups** · **112 companies** · **359 free to practise** · **260 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -41,7 +41,7 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 266 sightings at 54 companies — Algorithm 153 · SQL 30 · System Design 52 · AI Coding 1 · Object Oriented Programming 30.
+**Last 90 days:** 260 sightings at 53 companies — Algorithm 151 · SQL 30 · System Design 49 · Object Oriented Programming 30.
 
 **Reported most:** [Amazon (43)](companies/amazon.md) · [Microsoft (20)](companies/microsoft.md) · [Google (19)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (12)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Citadel (8)](companies/citadel.md)
 

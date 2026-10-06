@@ -70,7 +70,7 @@ The sector and size of an employer are facts about the company rather than about
 | [LinkedIn](linkedin.md) | Consumer internet & media · 10,000+ people | 88 | 4 | 12 | Sep 06, 2026 | 10 |
 | [Oracle](oracle.md) | Enterprise & business software · 10,000+ people | 84 | 1 | 7 | Sep 11, 2026 | 13 |
 | [Stripe](stripe.md) | Fintech, payments & crypto · 1,000–9,999 people | 80 | 1 | 7 | Sep 11, 2026 | 5 |
-| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 78 | 1 | 6 | Aug 04, 2026 | 12 |
+| [Bloomberg](bloomberg.md) | Banks, insurers & asset managers · 10,000+ people | 78 | 1 | 4 | Aug 04, 2026 | 12 |
 | [Salesforce](salesforce.md) | Enterprise & business software · 10,000+ people | 78 | 1 | 11 | Aug 24, 2026 | 4 |
 | [Pinterest](pinterest.md) | Consumer internet & media · 1,000–9,999 people | 76 | 3 | 5 | Aug 26, 2026 | 5 |
 | [Netflix](netflix.md) | Consumer internet & media · 10,000+ people | 72 | 4 | 0 | Jun 15, 2026 | 12 |
@@ -97,7 +97,7 @@ The sector and size of an employer are facts about the company rather than about
 | [IBM](ibm.md) | IT services & consulting · 10,000+ people | 30 | 1 | 2 | Sep 14, 2026 | 10 |
 | [Rippling](rippling.md) | Enterprise & business software · 1,000–9,999 people | 30 | 1 | 3 | Sep 18, 2026 | 5 |
 | [Reddit](reddit.md) | Consumer internet & media · 1,000–9,999 people | 29 | 3 | 0 | Jun 23, 2026 | 8 |
-| [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 29 | 1 | 3 | Jul 07, 2026 | 3 |
+| [Walmart Labs](walmart-labs.md) | E-commerce & marketplaces · 10,000+ people | 29 | 1 | 0 | Jul 07, 2026 | 3 |
 | [Instacart](instacart.md) | E-commerce & marketplaces · 1,000–9,999 people | 28 | 1 | 2 | Sep 18, 2026 | 4 |
 | [Ramp](ramp.md) | Fintech, payments & crypto · 1,000–9,999 people | 28 | 1 | 1 | Sep 18, 2026 | 9 |
 | [SoFi](sofi.md) | Fintech, payments & crypto · 1,000–9,999 people | 27 | 1 | 0 | Jul 04, 2026 | 5 |
@@ -117,7 +117,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Intuit](intuit.md) | Enterprise & business software · 10,000+ people | 19 | 1 | 0 | Jun 28, 2026 | 3 |
 | [JPMorgan](jpmorgan.md) | Banks, insurers & asset managers · 10,000+ people | 19 | 1 | 0 | Jun 23, 2026 | 6 |
 | [Rubrik](rubrik.md) | Cybersecurity · 1,000–9,999 people | 19 | 1 | — | — | 4 |
-| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 17 | 1 | 6 | Sep 15, 2026 | 2 |
+| [Harvey](harvey.md) | AI labs & AI infrastructure · 200–999 people | 17 | 1 | 5 | Sep 15, 2026 | 2 |
 | [Hudson River Trading](hudson-river-trading.md) | Quant trading & hedge funds · 1,000–9,999 people | 17 | 1 | 0 | May 01, 2026 | 3 |
 | [PayPal](paypal.md) | Fintech, payments & crypto · 10,000+ people | 17 | 1 | 0 | Apr 09, 2026 | 8 |
 | [Shopify](shopify.md) | E-commerce & marketplaces · 1,000–9,999 people | 17 | 1 | 0 | Jun 15, 2026 | 7 |

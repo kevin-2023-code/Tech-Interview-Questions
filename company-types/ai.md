@@ -47,7 +47,7 @@ Of the **117 questions in this cut that carry a topic label** (42% of it):
 
 ## Asked here in the last 90 days
 
-**22 sightings** across this cut. Newest first.
+**21 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **117 questions in this cut that carry a topic label** (42% of it):
 | [Find Duplicate Files While Handling Symbolic-Link Cycles](https://trueinterview.io/questions/find-duplicate-files-while-handling-symbolic-link-cycles) | Harvey | System Design | Sep 01, 2026 |
 | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | OpenAI | System Design | Aug 22, 2026 |
 
-<sub>10 more in this window are in the table below.</sub>
+<sub>9 more in this window are in the table below.</sub>
 
 ---
 

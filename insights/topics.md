@@ -20,9 +20,9 @@ What the bank is *about*, counted over the **1,934 questions that carry a topic 
 | `backtracking` | 124 | 6% | 16 | 8 | 76 | 40 | [ByteDance](../companies/bytedance.md), [Google](../companies/google.md), [Snowflake](../companies/snowflake.md) |
 | `matrix` | 103 | 5% | 11 | 11 | 78 | 14 | [Uber](../companies/uber.md), [Apple](../companies/apple.md), [Capital One](../companies/capital-one.md) |
 | `heap` | 102 | 5% | 13 | 5 | 63 | 34 | [Amazon](../companies/amazon.md), [Google](../companies/google.md), [ByteDance](../companies/bytedance.md) |
-| `two-pointers` | 96 | 5% | 6 | 25 | 66 | 5 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md) |
+| `two-pointers` | 96 | 5% | 5 | 25 | 66 | 5 | [Amazon](../companies/amazon.md), [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md) |
 | `binary-search` | 92 | 5% | 6 | 9 | 57 | 26 | [Amazon](../companies/amazon.md), [Uber](../companies/uber.md), [ByteDance](../companies/bytedance.md) |
-| `sliding-window` | 90 | 5% | 5 | 13 | 65 | 12 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
+| `sliding-window` | 90 | 5% | 4 | 13 | 65 | 12 | [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md), [Google](../companies/google.md) |
 | `stack` | 88 | 5% | 6 | 11 | 56 | 21 | [Meta](../companies/meta.md), [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md) |
 | `intervals` | 69 | 4% | 5 | 1 | 53 | 15 | [Google](../companies/google.md), [Amazon](../companies/amazon.md), [ByteDance](../companies/bytedance.md) |
 | `linked-list` | 41 | 2% | 4 | 5 | 32 | 4 | [Apple](../companies/apple.md), [ByteDance](../companies/bytedance.md), [Amazon](../companies/amazon.md) |

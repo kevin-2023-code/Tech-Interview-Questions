@@ -47,7 +47,7 @@ Of the **162 questions in this cut that carry a topic label** (75% of it):
 
 ## Asked here in the last 90 days
 
-**11 sightings** across this cut. Newest first.
+**9 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -60,8 +60,6 @@ Of the **162 questions in this cut that carry a topic label** (75% of it):
 | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Capital One | Algorithm | Jul 19, 2026 |
 | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Capital One | Algorithm | Jul 19, 2026 |
 | [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Bloomberg | Algorithm | Jul 09, 2026 |
-| [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | Bloomberg | System Design | Jul 07, 2026 |
-| [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | Bloomberg | System Design | Jul 07, 2026 |
 
 ---
 

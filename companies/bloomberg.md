@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **78** |
 | Most recent sighting | Aug 04, 2026 |
-| Reported in the last 90 days | 6 |
+| Reported in the last 90 days | 4 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 78) |
 | Difficulty (easy / medium / hard) | 14 / 46 / 18 |
 | Free to practise | [12](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **78 of 78** questions at Bloomberg
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -46,8 +46,6 @@ Which stage each question came from, for the **78 of 78** questions at Bloomberg
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Algorithm | Medium | Phone screen | Jul 09, 2026 |
-| [Holiday Service Latency Optimization](https://trueinterview.io/questions/holiday-service-latency-optimization) | System Design | Medium | Onsite / virtual onsite | Jul 07, 2026 |
-| [VWAP Analytic Provider](https://trueinterview.io/questions/vwap-analytic-provider) | System Design | Hard | Onsite / virtual onsite | Jul 07, 2026 |
 
 ## What they ask about
 

@@ -166,7 +166,7 @@
       "free": 12,
       "guides": 1,
       "inLastYear": 54,
-      "inWindow": 6,
+      "inWindow": 4,
       "lastSighting": "2026-08-04",
       "name": "Bloomberg",
       "questions": 78,
@@ -464,7 +464,7 @@
       "dated": 23,
       "free": 7,
       "guides": 3,
-      "inLastYear": 18,
+      "inLastYear": 17,
       "inWindow": 1,
       "lastSighting": "2026-07-29",
       "name": "Akuna Capital",
@@ -517,7 +517,7 @@
       "free": 3,
       "guides": 1,
       "inLastYear": 20,
-      "inWindow": 3,
+      "inWindow": 0,
       "lastSighting": "2026-07-07",
       "name": "Walmart Labs",
       "questions": 29,
@@ -777,7 +777,7 @@
       "free": 2,
       "guides": 1,
       "inLastYear": 12,
-      "inWindow": 6,
+      "inWindow": 5,
       "lastSighting": "2026-09-15",
       "name": "Harvey",
       "questions": 17,
@@ -1475,7 +1475,7 @@
       "free": 263,
       "graded": 1943,
       "hard": 376,
-      "inWindow": 153,
+      "inWindow": 151,
       "label": "Algorithm",
       "medium": 1214,
       "questions": 1943
@@ -1497,7 +1497,7 @@
       "free": 28,
       "graded": 312,
       "hard": 139,
-      "inWindow": 52,
+      "inWindow": 49,
       "label": "System Design",
       "medium": 156,
       "questions": 312
@@ -1508,7 +1508,7 @@
       "free": 10,
       "graded": 126,
       "hard": 46,
-      "inWindow": 1,
+      "inWindow": 0,
       "label": "AI Coding",
       "medium": 68,
       "questions": 126
@@ -1525,7 +1525,7 @@
       "questions": 460
     }
   ],
-  "generated": "2026-10-05",
+  "generated": "2026-10-06",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2626,7 +2626,7 @@
       "easy": 25,
       "graded": 96,
       "hard": 5,
-      "inWindow": 6,
+      "inWindow": 5,
       "medium": 66,
       "questions": 96,
       "topCompanies": [
@@ -2698,7 +2698,7 @@
       "easy": 13,
       "graded": 90,
       "hard": 12,
-      "inWindow": 5,
+      "inWindow": 4,
       "medium": 65,
       "questions": 90,
       "topCompanies": [
@@ -2954,8 +2954,8 @@
     "futureDated": 0,
     "gradedDifficulty": 2935,
     "guides": 171,
-    "inLastYear": 1505,
-    "inWindow": 266,
+    "inLastYear": 1504,
+    "inWindow": 260,
     "labelledTopic": 1934,
     "namingARound": 2935,
     "questions": 2935,
