@@ -8,11 +8,11 @@ How Vanta interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [13](../vanta.md) |
+| Questions reported | [14](../vanta.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jul 16, 2026 |
+| Most recent sighting | Sep 12, 2026 |
 
 ## How Vanta interviews
 
@@ -54,7 +54,7 @@ The screen runs about 45 to 60 minutes in a shared editor, and it is almost alwa
 
 ## Everything else
 
-- [All 13 questions reported at Vanta](../vanta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 14 questions reported at Vanta](../vanta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Vanta question on TrueInterview](https://trueinterview.io/problems/company/vanta).
 
 ---

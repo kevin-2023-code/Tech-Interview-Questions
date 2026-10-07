@@ -2,47 +2,47 @@
 
 # Lead Bank interview process, OA & interview questions
 
-**5 questions** reported at Lead Bank · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lead-bank), judged server-side on the algorithm, low-level-design and SQL formats.
+**7 questions** reported at Lead Bank · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/lead-bank), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Lead Bank interviews & the free questions](lead-bank/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏦 [Banks, insurers & asset managers](../company-types/banking-finance.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-lead-bank)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-lead-bank)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (80% of 5) |
-| Difficulty (easy / medium / hard) | 2 / 2 / 1 |
+| Questions tracked | **7** |
+| Most recent sighting | Apr 01, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (57% of 7) |
+| Difficulty (easy / medium / hard) | 2 / 3 / 2 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 5 questions reported at Lead Bank. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 7 questions reported at Lead Bank. 2 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Lead Bank that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **7 of 7** questions at Lead Bank that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 2 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 2 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 1 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Lead Bank.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Lead Bank since Apr 01, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **4 questions at Lead Bank that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Lead Bank that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -53,17 +53,28 @@ Of the **4 questions at Lead Bank that carry a topic label** (80% of them — th
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at Lead Bank, by the month it was reported in — Feb 12, 2026 to Apr 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
+
 ## Start here
 
-The 5 questions to open first if you are preparing for Lead Bank. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
+The 7 questions to open first if you are preparing for Lead Bank, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) 🆓 | Algorithm | Easy | — | — |
-| **2** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) 🆓 | Algorithm | Easy | — | — |
-| **3** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Object Oriented Programming | Medium | — | — |
-| **4** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Algorithm | Medium | — | — |
-| **5** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) 🆓 | Algorithm | Hard | — | — |
+| **1** | [Implement Stock Price Query APIs](https://trueinterview.io/questions/implement-stock-price-query-apis) | Object Oriented Programming | Hard | — | Apr 01, 2026 |
+| **2** | [Implement a versioned hash map with snapshot](https://trueinterview.io/questions/implement-a-versioned-hash-map-with-snapshot) | Object Oriented Programming | Medium | — | Feb 12, 2026 |
+| **3** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) 🆓 | Algorithm | Easy | — | — |
+| **4** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) 🆓 | Algorithm | Easy | — | — |
+| **5** | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Object Oriented Programming | Medium | — | — |
+| **6** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Algorithm | Medium | — | — |
+| **7** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) 🆓 | Algorithm | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -85,6 +96,8 @@ The 5 questions to open first if you are preparing for Lead Bank. **This is not 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Implement Stock Price Query APIs](https://trueinterview.io/questions/implement-stock-price-query-apis) | Object Oriented Programming | Hard | Apr 01, 2026 |
+| [Implement a versioned hash map with snapshot](https://trueinterview.io/questions/implement-a-versioned-hash-map-with-snapshot) | Object Oriented Programming | Medium | Feb 12, 2026 |
 | [Design an Event Store with CRUD and Sorted Insert (Binary Search) + Pagination](https://trueinterview.io/questions/97172098-125e-4cbc-8fd0-ce5d3e64799c) | Object Oriented Programming | Medium | — |
 | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Algorithm | Medium | — |
 | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Algorithm | Easy | — |

@@ -8,11 +8,11 @@ How Amplitude interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../amplitude.md) |
+| Questions reported | [7](../amplitude.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Oct 02, 2025 |
+| Most recent sighting | Mar 03, 2026 |
 
 ## How Amplitude interviews
 
@@ -49,7 +49,7 @@ The screen is also conducted over screen share **using your own editor**, and at
 
 ## Everything else
 
-- [All 5 questions reported at Amplitude](../amplitude.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at Amplitude](../amplitude.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Amplitude question on TrueInterview](https://trueinterview.io/problems/company/amplitude).
 
 ---

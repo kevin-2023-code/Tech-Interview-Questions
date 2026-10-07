@@ -86,7 +86,7 @@ The third pattern is unpredictable format. Candidates for the same track describ
 
 ## Data Source
 
-Based on 12 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 13 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

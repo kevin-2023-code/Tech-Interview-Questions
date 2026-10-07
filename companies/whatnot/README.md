@@ -8,7 +8,7 @@ How Whatnot interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [9](../whatnot.md) |
+| Questions reported | [17](../whatnot.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../whatnot.md#the-loop-as-
 
 ## Everything else
 
-- [All 9 questions reported at Whatnot](../whatnot.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 17 questions reported at Whatnot](../whatnot.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Whatnot question on TrueInterview](https://trueinterview.io/problems/company/whatnot).
 
 ---

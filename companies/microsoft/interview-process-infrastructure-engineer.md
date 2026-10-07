@@ -80,7 +80,7 @@ Short, but present. Conflict and escalation stories dominate, often delivered in
 
 ## Data Source
 
-Based on 54 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 56 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

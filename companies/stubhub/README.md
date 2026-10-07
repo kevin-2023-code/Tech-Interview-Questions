@@ -8,11 +8,11 @@ How Stubhub interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../stubhub.md) |
+| Questions reported | [3](../stubhub.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Feb 16, 2026 |
 
 ## How Stubhub interviews
 
@@ -45,7 +45,7 @@ The loop is short and front-loaded with a hiring manager. Candidates consistentl
 
 ## Everything else
 
-- [All 2 questions reported at Stubhub](../stubhub.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 3 questions reported at Stubhub](../stubhub.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Stubhub question on TrueInterview](https://trueinterview.io/problems/company/stubhub).
 
 ---

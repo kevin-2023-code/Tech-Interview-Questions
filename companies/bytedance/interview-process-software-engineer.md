@@ -88,7 +88,7 @@ The third filter is time lost in rounds that feel easy. Solid candidates were re
 
 ## Data Source
 
-Based on 90 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 92 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

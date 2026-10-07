@@ -2,53 +2,79 @@
 
 # Discord interview process, OA & interview questions
 
-**1 question** reported at Discord. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/discord), judged server-side on the algorithm, low-level-design and SQL formats.
+**8 questions** reported at Discord. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/discord), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Discord interviews & the free questions](discord/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 📱 [Consumer internet & media](../company-types/consumer-internet.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-discord)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-discord)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **1** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [System Design](../formats/system-design.md) (100% of 1) |
-| Difficulty (easy / medium / hard) | 0 / 0 / 1 |
-| Free to practise | [1](../free/README.md) |
+| Questions tracked | **8** |
+| Most recent sighting | Apr 03, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [System Design](../formats/system-design.md) (62% of 8) |
+| Difficulty (easy / medium / hard) | 0 / 4 / 4 |
+| Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 1 question reported at Discord. 0 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 8 questions reported at Discord. 7 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **1 of 1** questions at Discord that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **8 of 8** questions at Discord that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Onsite / virtual onsite** | 1 | ██████████ | [System Design](../formats/system-design.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 2 | ███ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 6 | ██████████ | [System Design](../formats/system-design.md) (67%) | 0 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Discord.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Discord since Apr 03, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-**None of the 1 question reported at Discord carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+Of the **1 question at Discord that carries a topic label** (12% of them — the rest are unlabelled, which is not the same as having no topic):
+
+| Topic | Questions | Share of labelled |  | Last seen |
+| :-- | --: | --: | :-- | :-- |
+| `hashing` | 1 | 100% | ████████████ | Dec 16, 2025 |
+| `heap` | 1 | 100% | ████████████ | Dec 16, 2025 |
+
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+
+## When they asked it
+
+Every recorded sighting at Discord, by the month it was reported in — Oct 25, 2025 to Apr 03, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
+| [Oct 2025](../by-month/2025-10.md) | 3 | ████████████████████████ |
 
 ## Start here
 
-The 1 question to open first if you are preparing for Discord, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Discord, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) 🆓 | System Design | Hard | 9 | — |
+| **1** | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) 🆓 | Object Oriented Programming | Medium | — | Apr 03, 2026 |
+| **2** | [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server) | System Design | Medium | — | Jan 27, 2026 |
+| **3** | [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | — | Jan 16, 2026 |
+| **4** | [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | — | Dec 16, 2025 |
+| **5** | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | — | Oct 25, 2025 |
+| **6** | [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | System Design | Hard | — | Oct 25, 2025 |
+| **7** | [Implement an asyncio-based chat server](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) | Object Oriented Programming | Hard | — | Oct 25, 2025 |
+| **8** | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) 🆓 | System Design | Hard | 9 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -62,4 +88,11 @@ The 1 question to open first if you are preparing for Discord, ranked by **the o
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | Object Oriented Programming | Medium | Apr 03, 2026 |
+| [Design a TCP Discord-like chat server](https://trueinterview.io/questions/design-a-tcp-discord-like-chat-server) | System Design | Medium | Jan 27, 2026 |
+| [Design Product Notification and Autocomplete Experiments](https://trueinterview.io/questions/design-product-notification-and-autocomplete-experiments) | System Design | Medium | Jan 16, 2026 |
+| [Implement User Sessionization From Event Stream](https://trueinterview.io/questions/implement-user-sessionization-from-event-stream) | Algorithm | Hard | Dec 16, 2025 |
+| [Implement an asyncio-based chat server](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) | Object Oriented Programming | Hard | Oct 25, 2025 |
+| [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | System Design | Hard | Oct 25, 2025 |
+| [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | System Design | Medium | Oct 25, 2025 |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |

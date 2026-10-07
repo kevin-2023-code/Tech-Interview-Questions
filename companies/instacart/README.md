@@ -8,7 +8,7 @@ How Instacart interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [28](../instacart.md) |
+| Questions reported | [38](../instacart.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -44,11 +44,11 @@ The onsite typically runs four to five back-to-back rounds over four to five hou
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Pivot Table Profit Analyzer](../../questions/algorithm/pivot-table-profit-analyzer/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jul 2025 | [Solve](https://trueinterview.io/questions/pivot-table-profit-analyzer) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
-| [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Hard | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
+| [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
 
 ## Everything else
 
-- [All 28 questions reported at Instacart](../instacart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 38 questions reported at Instacart](../instacart.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Instacart question on TrueInterview](https://trueinterview.io/problems/company/instacart).
 
 ---

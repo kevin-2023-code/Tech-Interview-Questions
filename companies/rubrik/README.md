@@ -48,7 +48,7 @@ The loop typically closes with a hiring-manager conversation: a deep walk throug
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Mike and Gems](../../questions/algorithm/mike-and-gems/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) |
+| [Mike and Gems](../../questions/algorithm/mike-and-gems/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) |
 | [String Shift](../../questions/algorithm/string-shift/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905) |
 | [Simulate Stack](../../questions/algorithm/simulate-stack/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) |
 | [Remove Duplicates from Sorted Linked List](../../questions/algorithm/remove-duplicates-from-sorted-linked-list/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) |

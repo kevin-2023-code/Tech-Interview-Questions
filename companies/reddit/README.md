@@ -8,11 +8,11 @@ How Reddit interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [29](../reddit.md) |
+| Questions reported | [34](../reddit.md) |
 | Free to read here | 8 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Jun 23, 2026 |
+| Most recent sighting | Sep 04, 2026 |
 
 ## How Reddit interviews
 
@@ -53,7 +53,7 @@ Timelines vary widely. One candidate went from phone screen through four onsite 
 
 ## Everything else
 
-- [All 29 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 34 questions reported at Reddit](../reddit.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Reddit question on TrueInterview](https://trueinterview.io/problems/company/reddit).
 
 ---

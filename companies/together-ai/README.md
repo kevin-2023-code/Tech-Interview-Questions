@@ -8,8 +8,8 @@ How Together AI interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../together-ai.md) |
-| Free to read here | 1 |
+| Questions reported | [2](../together-ai.md) |
+| Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -20,15 +20,16 @@ No written process guide yet. [The loop, as reported](../together-ai.md#the-loop
 
 ## Free Together AI questions
 
-1 question reported at Together AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+2 questions reported at Together AI open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Split a Chunked Text Stream into Line-Balanced Parts](../../questions/algorithm/split-a-chunked-text-stream-into-line-balanced-parts/README.md) | Algorithm | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/split-a-chunked-text-stream-into-line-balanced-parts) |
+| [Detect cycles and break them in pod dependencies](../../questions/algorithm/detect-cycles-and-break-them-in-pod-dependencies/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/detect-cycles-and-break-them-in-pod-dependencies) |
 
 ## Everything else
 
-- [All 1 questions reported at Together AI](../together-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 2 questions reported at Together AI](../together-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Together AI question on TrueInterview](https://trueinterview.io/problems/company/together-ai).
 
 ---

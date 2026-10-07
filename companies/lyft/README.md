@@ -8,11 +8,11 @@ How Lyft interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [36](../lyft.md) |
+| Questions reported | [43](../lyft.md) |
 | Free to read here | 10 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jul 29, 2026 |
+| Most recent sighting | Sep 08, 2026 |
 
 ## How Lyft interviews
 
@@ -51,7 +51,7 @@ Lyft's loop rewards a different reflex than a pure algorithm gauntlet: the round
 
 ## Everything else
 
-- [All 36 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 43 questions reported at Lyft](../lyft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Lyft question on TrueInterview](https://trueinterview.io/problems/company/lyft).
 
 ---

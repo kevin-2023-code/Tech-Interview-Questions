@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Databricks | Phone screen, Onsite / virtual onsite | trees, backtracking, math | Apr 2026 |
+| Algorithm | Easy | Databricks | Phone screen, Onsite / virtual onsite | trees, backtracking, math | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/find-path-between-nodes-in-k-th-order-fibonacci-tree)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

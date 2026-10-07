@@ -75,21 +75,21 @@ _High-Level Architecture — Matchmaking Pipeline and Authoritative Game Server_
 <details>
 <summary>Hint 1</summary>
 
-The core is a real-time multiplayer game with strict consistency on game state and clock, so use an authoritative server model.
+Separate the realtime experience from the authoritative source of truth: clients can feel instant, but the backend must own the final result, legal plies, and active clock.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use WebSockets for bidirectional communication, a game state service with strong consistency (e.g., using a single writer per game), and a matchmaking queue.
+Reach for a matchmaking service, a game-room/session service holding authoritative state, and a pub/sub or websocket fanout layer to keep both clients in sync.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The trickiest edge case is handling disconnections and reconnections without losing game state or clock accuracy.
+Watch the trickiest edge case: clock enforcement and move validation must be server-authoritative so a disconnected or cheating client cannot desync the board or the timer.
 
 </details>
 

@@ -8,7 +8,7 @@ How Expedia interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [31](../expedia.md) |
+| Questions reported | [33](../expedia.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -54,7 +54,7 @@ Reported onsites run three to five rounds, roughly 45 minutes each. Four kinds o
 
 ## Everything else
 
-- [All 31 questions reported at Expedia](../expedia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 33 questions reported at Expedia](../expedia.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Expedia question on TrueInterview](https://trueinterview.io/problems/company/expedia).
 
 ---

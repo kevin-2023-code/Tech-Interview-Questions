@@ -80,7 +80,7 @@ The third filter is the Bar Raiser, which arrives last after the technical round
 
 ## Data Source
 
-Based on 116 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 117 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

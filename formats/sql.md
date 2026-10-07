@@ -2,103 +2,263 @@
 
 # SQL interview & OA questions
 
-**94 questions** in the SQL format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=sql).
+**298 questions** in the SQL format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=sql).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
+<sub>Page 1 of 2 · [Page 2 →](sql-2.md)</sub>
+
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Medium | Aug 13, 2026 |
-| **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Medium | Aug 13, 2026 |
+| **Oracle** | [Classify Tree Nodes in SQL](https://trueinterview.io/questions/classify-tree-nodes-in-sql) | Medium | 🆕 Sep 09, 2026 |
+| **Airbnb** | [Find Users with Seven Consecutive Impression Days](https://trueinterview.io/questions/find-users-with-seven-consecutive-impression-days) | Medium | 🆕 Sep 04, 2026 |
+| **Airbnb** | [Find Hosts Meeting Listing, Rating, and Review-Coverage Rules](https://trueinterview.io/questions/find-hosts-meeting-listing-rating-and-review-coverage-rules) | Medium | 🆕 Sep 04, 2026 |
+| **Airbnb** | [Estimate Page-Visit Duration from the Next User Event](https://trueinterview.io/questions/estimate-page-visit-duration-from-the-next-user-event) | Medium | 🆕 Sep 04, 2026 |
+| **Airbnb** | [Calculate the Median House Price in Each City](https://trueinterview.io/questions/calculate-the-median-house-price-in-each-city) | Medium | 🆕 Sep 04, 2026 |
+| **Meta** | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | Easy | 🆕 Sep 03, 2026 |
+| **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | 🆕 Aug 31, 2026 |
+| **Oracle** | [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count) | Easy | Aug 21, 2026 |
+| **Snowflake** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | Easy | Aug 13, 2026 |
+| **Oracle** | [Who Made Quota?](https://trueinterview.io/questions/who-made-quota) | Easy | Aug 13, 2026 |
 | **Google** | [Ad Campaign ROAS](https://trueinterview.io/questions/ad-campaign-roas) | Easy | Aug 13, 2026 |
-| **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Medium | Aug 13, 2026 |
+| **Apple** | [Trade In Payouts](https://trueinterview.io/questions/trade-in-payouts) | Easy | Aug 13, 2026 |
 | **Amazon** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary) | Easy | Aug 13, 2026 |
-| **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | Medium | Aug 13, 2026 |
+| **Amazon** | [Cumulative Purchases by Product Type](https://trueinterview.io/questions/cumulative-purchases-by-product-type) | Easy | Aug 13, 2026 |
 | **Salesforce** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | Easy | Jul 26, 2026 |
-| **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Medium | Jul 26, 2026 |
+| **Apple** | [Follow-Up Airpod Percentage](https://trueinterview.io/questions/follow-up-airpod-percentage) | Easy | Jul 26, 2026 |
 | **Pinterest** | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | Easy | Jul 23, 2026 |
-| **xAI** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | Hard | Jul 22, 2026 |
-| **ByteDance** | [Signup Activation Rate](https://trueinterview.io/questions/signup-activation-rate) | Medium | Jul 22, 2026 |
-| **Stripe** | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | Medium | Jul 22, 2026 |
+| **xAI** | [Tweets' Rolling Averages](https://trueinterview.io/questions/tweets-rolling-averages) | Medium | Jul 22, 2026 |
+| **ByteDance** | [Signup Activation Rate](https://trueinterview.io/questions/signup-activation-rate) | Easy | Jul 22, 2026 |
+| **Stripe** | [Repeated Payments](https://trueinterview.io/questions/repeated-payments) | Easy | Jul 22, 2026 |
 | **Snowflake** | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | Medium | Jul 22, 2026 |
-| **Snapchat** | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | Medium | Jul 22, 2026 |
-| **Pinterest** | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | Hard | Jul 22, 2026 |
+| **Snapchat** | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | Easy | Jul 22, 2026 |
+| **Pinterest** | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | Medium | Jul 22, 2026 |
 | **Pinterest** | [Same Week Purchases](https://trueinterview.io/questions/same-week-purchases) | Medium | Jul 22, 2026 |
-| **Microsoft** | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | Medium | Jul 22, 2026 |
-| **Meta** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | Hard | Jul 22, 2026 |
+| **Microsoft** | [Supercloud Customer](https://trueinterview.io/questions/supercloud-customer) | Easy | Jul 22, 2026 |
+| **Meta** | [Weekly Churn Rates](https://trueinterview.io/questions/weekly-churn-rates) | Medium | Jul 22, 2026 |
 | **Meta** | [Event Friends Recommendation](https://trueinterview.io/questions/event-friends-recommendation) | Medium | Jul 22, 2026 |
-| **LinkedIn** | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | Medium | Jul 22, 2026 |
-| **Google** | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | Medium | Jul 22, 2026 |
+| **LinkedIn** | [LinkedIn Power Creators](https://trueinterview.io/questions/linkedin-power-creators) | Easy | Jul 22, 2026 |
+| **Google** | [Odd and Even Measurements](https://trueinterview.io/questions/odd-and-even-measurements) | Easy | Jul 22, 2026 |
 | **Google** | [Median Google Search Frequency](https://trueinterview.io/questions/median-google-search-frequency) | Medium | Jul 22, 2026 |
 | **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Medium | Jul 22, 2026 |
 | **Bloomberg** | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | Medium | Jul 22, 2026 |
 | **Amazon** | [User Shopping Sprees](https://trueinterview.io/questions/user-shopping-sprees) | Medium | Jul 22, 2026 |
 | **Amazon** | [Server Utilization Time](https://trueinterview.io/questions/server-utilization-time) | Medium | Jul 22, 2026 |
 | **Amazon** | [Maximize Prime Item Inventory](https://trueinterview.io/questions/maximize-prime-item-inventory) | Medium | Jul 22, 2026 |
-| **Amazon** | [Highest-Grossing Items](https://trueinterview.io/questions/highest-grossing-items) | Medium | Jul 22, 2026 |
-| **Amazon** | [Best-Selling Product](https://trueinterview.io/questions/best-selling-product) | Medium | Jul 22, 2026 |
-| **Airbnb** | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | Medium | Jul 22, 2026 |
+| **Amazon** | [Highest-Grossing Items](https://trueinterview.io/questions/highest-grossing-items) | Easy | Jul 22, 2026 |
+| **Amazon** | [Best-Selling Product](https://trueinterview.io/questions/best-selling-product) | Easy | Jul 22, 2026 |
+| **Airbnb** | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | Easy | Jul 22, 2026 |
 | **Meta** | [Page With No Likes](https://trueinterview.io/questions/page-with-no-likes) | Easy | Jul 04, 2026 |
-| **Snowflake** | [Project Duration & Budget per Employee](https://trueinterview.io/questions/sql-project-duration-budget-per-employee) | Medium | Jun 18, 2026 |
-| **Akuna Capital** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | Medium | May 25, 2026 |
-| **Waymo** | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | Hard | May 23, 2026 |
-| **Waymo** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | Medium | May 23, 2026 |
-| **Waymo** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | Medium | May 23, 2026 |
-| **Waymo** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | Medium | May 23, 2026 |
-| **Squarepoint** | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | Hard | May 23, 2026 |
+| **Snowflake** | [Project Duration & Budget per Employee](https://trueinterview.io/questions/sql-project-duration-budget-per-employee) | Easy | Jun 18, 2026 |
+| **Akuna Capital** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | Easy | May 25, 2026 |
+| **Waymo** | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | Medium | May 23, 2026 |
+| **Waymo** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | Easy | May 23, 2026 |
+| **Waymo** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | Easy | May 23, 2026 |
+| **Waymo** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | Easy | May 23, 2026 |
+| **Squarepoint** | [Auction Lots with Highest Bids](https://trueinterview.io/questions/auction-lots-with-highest-bids) | Medium | May 23, 2026 |
 | **Pinterest** | [Fresh Content Reach](https://trueinterview.io/questions/fresh-content-reach) | Medium | May 23, 2026 |
 | **Pinterest** | [CTR By Pin-Format and Date](https://trueinterview.io/questions/ctr-by-pin-format-and-date) | Medium | May 23, 2026 |
 | **Meta** | [Recent Unrelated Posts](https://trueinterview.io/questions/recent-unrelated-posts) | Easy | May 23, 2026 |
 | **Meta** | [Average Reactions per Post](https://trueinterview.io/questions/average-reactions-per-post) | Medium | May 23, 2026 |
-| **Meta** | [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis) | Hard | May 23, 2026 |
+| **Meta** | [Advertising Time-of-Day Analysis](https://trueinterview.io/questions/advertising-time-of-day-analysis) | Medium | May 23, 2026 |
 | **LinkedIn** | [Data Science Skills](https://trueinterview.io/questions/data-science-skills) | Easy | May 23, 2026 |
 | **DoorDash** | [Percent of Late Orders](https://trueinterview.io/questions/percent-of-late-orders) | Easy | May 23, 2026 |
-| **DoorDash** | [Orders with Offer Increase](https://trueinterview.io/questions/orders-with-offer-increase) | Medium | May 23, 2026 |
-| **DoorDash** | [Order-Level Request Statistics](https://trueinterview.io/questions/order-level-request-statistics) | Medium | May 23, 2026 |
+| **DoorDash** | [Orders with Offer Increase](https://trueinterview.io/questions/orders-with-offer-increase) | Easy | May 23, 2026 |
+| **DoorDash** | [Order-Level Request Statistics](https://trueinterview.io/questions/order-level-request-statistics) | Easy | May 23, 2026 |
 | **DoorDash** | [Monthly Top Eligible Customer](https://trueinterview.io/questions/monthly-top-eligible-customer) | Medium | May 23, 2026 |
-| **DoorDash** | [Monthly Sales Growth](https://trueinterview.io/questions/monthly-sales-growth) | Medium | May 23, 2026 |
-| **DoorDash** | [Bottom Quartile Reach](https://trueinterview.io/questions/bottom-quartile-reach) | Medium | May 23, 2026 |
+| **DoorDash** | [Monthly Sales Growth](https://trueinterview.io/questions/monthly-sales-growth) | Easy | May 23, 2026 |
+| **DoorDash** | [Bottom Quartile Reach](https://trueinterview.io/questions/bottom-quartile-reach) | Easy | May 23, 2026 |
 | **Amazon** | [Total Order Amount per Region](https://trueinterview.io/questions/total-order-amount-per-region) | Medium | May 23, 2026 |
 | **Airbnb** | [Average Vacant Days](https://trueinterview.io/questions/average-vacant-days) | Easy | May 23, 2026 |
-| **DoorDash** | [Monthly Percentage of High-Frequency Customers](https://trueinterview.io/questions/monthly-percentage-of-high-frequency-customers) | Medium | May 19, 2026 |
-| **Tesla** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | Hard | Apr 27, 2026 |
-| **Netflix** | [Data Engineering Movie Success Pipeline](https://trueinterview.io/questions/data-engineering-movie-success-pipeline) | Hard | Mar 25, 2026 |
+| **DoorDash** | [Monthly Percentage of High-Frequency Customers](https://trueinterview.io/questions/monthly-percentage-of-high-frequency-customers) | Easy | May 19, 2026 |
+| **DoorDash** | [Measure Daily Late-Order Rates by Delivery Zone](https://trueinterview.io/questions/measure-daily-late-order-rates-by-delivery-zone) | Medium | May 07, 2026 |
+| **Meta** | [Compute ad impression conversion rates](https://trueinterview.io/questions/compute-ad-impression-conversion-rates) | Hard | Apr 30, 2026 |
+| **Shopify** | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact) | Medium | Apr 28, 2026 |
+| **Tesla** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | Medium | Apr 27, 2026 |
+| **DoorDash** | [Calculate Order Request Metrics — Q 3](https://trueinterview.io/questions/calculate-order-request-metrics-q3) | Medium | Apr 25, 2026 |
+| **DoorDash** | [Calculate Order Request Metrics — Q 1](https://trueinterview.io/questions/calculate-order-request-metrics-q1) | Easy | Apr 25, 2026 |
+| **Meta** | [Count unconnected posts and reactions](https://trueinterview.io/questions/count-unconnected-posts-and-reactions) | Medium | Apr 05, 2026 |
+| **ByteDance** | [Campaign Efficiency Metrics and Below-Average CTR](https://trueinterview.io/questions/campaign-efficiency-metrics-and-below-average-ctr) | Medium | Apr 04, 2026 |
+| **Whatnot** | [Compute a Seven-Day Rolling Average](https://trueinterview.io/questions/compute-a-seven-day-rolling-average-2) | Medium | Mar 30, 2026 |
+| **Whatnot** | [Calculate Monthly Customer Retention](https://trueinterview.io/questions/calculate-monthly-customer-retention) | Medium | Mar 30, 2026 |
+| **Netflix** | [Data Engineering Movie Success Pipeline](https://trueinterview.io/questions/data-engineering-movie-success-pipeline) | Medium | Mar 25, 2026 |
 | **DoorDash** | [DE / AE Screen: SQL + Python (Sliding Window + Joins)](https://trueinterview.io/questions/de-ae-sql-python-screen) | Medium | Mar 20, 2026 |
-| **DoorDash** | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | Hard | Mar 16, 2026 |
-| **Robinhood** | [Analytics Engineer: SQL + Python Sessionization](https://trueinterview.io/questions/analytics-engineer-sql-python) | Hard | Mar 06, 2026 |
+| **DoorDash** | [DE / AE Onsite: Data Modeling (Fitness App)](https://trueinterview.io/questions/de-ae-data-modeling) | Medium | Mar 16, 2026 |
+| **Waymo** | [Ratings in the First and Third Active Months](https://trueinterview.io/questions/analyze-user-ride-activity-with-sql-ratings-in-the-first-and-third-active-months) | Hard | Mar 14, 2026 |
+| **ByteDance** | [Count Same-Day Registered Posters](https://trueinterview.io/questions/count-same-day-registered-posters) | Medium | Mar 14, 2026 |
+| **Waymo** | [Compute Ride Metrics in SQL](https://trueinterview.io/questions/compute-ride-metrics-in-sql) | Medium | Mar 07, 2026 |
+| **Robinhood** | [Analytics Engineer: SQL + Python Sessionization](https://trueinterview.io/questions/analytics-engineer-sql-python) | Medium | Mar 06, 2026 |
+| **Meta** | [Compute High-Call Usage Rates](https://trueinterview.io/questions/compute-high-call-usage-rates) | Medium | Mar 04, 2026 |
+| **Capital One** | [Write SQL using joins and window functions](https://trueinterview.io/questions/write-sql-using-joins-and-window-functions) | Medium | Mar 01, 2026 |
+| **Intuit** | [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | Hard | Feb 23, 2026 |
+| **Wayfair** | [Solve SQL and Python Tasks](https://trueinterview.io/questions/solve-sql-and-python-oa-tasks) | Medium | Feb 16, 2026 |
+| **Wayfair** | [How to improve complaint resolution](https://trueinterview.io/questions/how-to-improve-complaint-resolution) | Medium | Feb 16, 2026 |
+| **Capital One** | [Find Lowest Prices for Highly Rated Categories](https://trueinterview.io/questions/find-lowest-prices-for-highly-rated-categories) | Medium | Feb 15, 2026 |
+| **OpenAI** | [Write SQL for repeat churn](https://trueinterview.io/questions/write-sql-for-repeat-churn) | Hard | Feb 03, 2026 |
+| **Meta** | [Posts and Replies Engagement](https://trueinterview.io/questions/posts-and-replies-engagement) | Easy | Feb 01, 2026 |
+| **Pinterest** | [Write Queries for Pinterest Engagement Tasks](https://trueinterview.io/questions/write-queries-for-pinterest-engagement-tasks) | Medium | Jan 22, 2026 |
+| **Figma** | [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator) | Hard | Jan 20, 2026 |
+| **Meta** | [Write SQL for Pixel Signal Metrics](https://trueinterview.io/questions/write-sql-for-pixel-signal-metrics) | Hard | Jan 20, 2026 |
+| **xAI** | [Design a schema for server engagement](https://trueinterview.io/questions/design-a-schema-for-server-engagement) | Medium | Jan 17, 2026 |
+| **Meta** | [Write SQL for call analytics — Q 3](https://trueinterview.io/questions/write-sql-for-call-analytics-q3) | Medium | Jan 16, 2026 |
+| **Meta** | [Write SQL for call analytics — Q 2](https://trueinterview.io/questions/write-sql-for-call-analytics-q2) | Easy | Jan 16, 2026 |
+| **Meta** | [Write SQL for call analytics — Q 1](https://trueinterview.io/questions/write-sql-for-call-analytics-q1) | Easy | Jan 16, 2026 |
+| **Meta** | [Compute seller counts and vehicle share](https://trueinterview.io/questions/compute-seller-counts-and-vehicle-share) | Medium | Jan 05, 2026 |
 | **Intuit** | [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql) | Medium | Dec 25, 2025 |
-| **Microsoft** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-4) | Easy | — |
-| **Meta** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | Easy | — |
-| **Apple** | [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-2) | Easy | — |
-| **Point72** | [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | Hard | — |
-| **Walmart Labs** | [Last-Mile Business Queries (Aggregations, Joins, Windows, Dates, Optimization)](https://trueinterview.io/questions/0621ce99-ba72-46ab-b3f0-3bbc90c0f217) | Hard | — |
-| **Tesla** | [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b) | Medium | — |
-| **Tesla** | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | Medium | — |
-| **Tesla** | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | Hard | — |
-| **Snapchat** | [LeetCode 626](https://trueinterview.io/questions/ced96981-8e5c-4ba2-b1d9-eef1e3f20c7f) | Medium | — |
-| **NVIDIA** | [SQL Aggregation Across Country/State/City/Zip Tables](https://trueinterview.io/questions/53506fd0-9b04-40be-a6f6-eb349d9f220a) | Medium | — |
-| **Meta** | [Ads Impression SQL Query](https://trueinterview.io/questions/cd8e263f-9929-49d1-804b-210708292d39) | Easy | — |
-| **Meta** | [SQL Query for Data Processing](https://trueinterview.io/questions/604a5e3c-2bb5-495c-bc43-c97818be0c9a) | Easy | — |
-| **Meta** | [Top 3 Customers by Book Purchases in Specific Categories](https://trueinterview.io/questions/48ac9704-e9a2-4d9e-ae72-7e46d09b96ad) | Medium | — |
-| **Meta** | [SQL Floor Function Usage for Numeric Values](https://trueinterview.io/questions/4154d677-1a2c-4e36-8a65-a9568c1436db) | Easy | — |
-| **Meta** | [Group Video Call Data Analysis Queries](https://trueinterview.io/questions/3f8ab151-1633-4675-a957-6dfb74b18779) | Medium | — |
-| **Meta** | [Find Total Sales by Unique Customers](https://trueinterview.io/questions/237e2cdf-214c-4455-9486-bcc9c85df7a9) | Easy | — |
-| **Intuit** | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | Easy | — |
-| **DoorDash** | [Restaurant query (classic)](https://trueinterview.io/questions/76299eba-6d03-4939-abf9-0ae7af84c196) | Medium | — |
-| **DoorDash** | [Basic SQL Queries for Orders](https://trueinterview.io/questions/56a590ce-9602-42e8-b375-9c55e3b0e55d) | Easy | — |
-| **ByteDance** | [SQL Query Session](https://trueinterview.io/questions/b0150c5e-8dd9-4acb-834f-e778ed8bff5f) | Medium | — |
-| **ByteDance** | [Longest Consecutive Login Days per User](https://trueinterview.io/questions/958957e9-157b-4f85-9660-bab2890de9f6) | Medium | — |
-| **ByteDance** | [Find Highest Salary In Each Department](https://trueinterview.io/questions/5348b956-13e3-4f3a-a381-f80594e38002) | Medium | — |
-| **Amazon** | [Retrieve Every Merchant ID the First Order for Each Date](https://trueinterview.io/questions/8067ece7-a152-41ae-818d-0e97b1e19376) | Medium | — |
-| **Amazon** | [Window Function to Rank Within Group](https://trueinterview.io/questions/7b6eaf32-be9a-48d3-9c05-20c0ae41c795) | Medium | — |
-| **Amazon** | [Use LEFT JOIN to Find Missing Relationships](https://trueinterview.io/questions/6a588842-cf65-4bb1-944b-b4829bfe9511) | Medium | — |
-| **Amazon** | [SQL Interview Questions (Window Functions and CTE)](https://trueinterview.io/questions/66986c12-8cc7-460c-8d29-f7dcec6170d1) | Hard | — |
-| **Meta** | [SQL Query for Connected Ad Tables](https://trueinterview.io/questions/a1591988-c338-4582-87e6-3c61cd131eba) | Medium | — |
-| **Stripe** | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | Hard | — |
-| **Rippling** | [SQL Aggregation and Percentage Calculation](https://trueinterview.io/questions/52404848-b8f6-477d-85a4-d58a360ae9e7) | Easy | — |
-| **OpenAI** | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | Medium | — |
-| **Netflix** | [SQL Query to Retrieve User IDs and Names from Users Table](https://trueinterview.io/questions/46cf5bbc-362f-41d2-87e4-5ec71acac4ad) | Easy | — |
-| **Netflix** | [User Last Order Date and Order Count SQL Query](https://trueinterview.io/questions/271dd842-2fcc-4d29-834a-4db7987216dd) | Medium | — |
-| **Databricks** | [SQL for Data Analysis](https://trueinterview.io/questions/fbafc874-d6f5-487f-988f-47f0b70c83c1) | Medium | — |
-| **Databricks** | [Top-5 Most Similar Rows Using MSE Across Multiple Features](https://trueinterview.io/questions/a30e9f92-4754-47a1-a8c0-4a8bcf748e50) | Hard | — |
-| **Anthropic** | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | Medium | — |
+| **Roblox** | [Write SQL for influence score and follower growth](https://trueinterview.io/questions/write-sql-for-influence-score-and-follower-growth) | Hard | Dec 11, 2025 |
+| **PayPal** | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | Medium | Dec 07, 2025 |
+| **Meta** | [Compute active ad revenue by creation source](https://trueinterview.io/questions/compute-active-ad-revenue-by-creation-source) | Medium | Dec 06, 2025 |
+| **Pinterest** | [Write SQL for top categories and highly active users](https://trueinterview.io/questions/write-sql-for-top-categories-and-highly-active-users) | Medium | Dec 05, 2025 |
+| **Coinbase** | [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category) | Medium | Dec 04, 2025 |
+| **Databricks** | [Count weekly customers with ≥$1000 YTD spend](https://trueinterview.io/questions/count-weekly-customers-with-1000-ytd-spend) | Hard | Dec 03, 2025 |
+| **Meta** | [Write SQL for car rental utilization by city](https://trueinterview.io/questions/write-sql-for-car-rental-utilization-by-city) | Hard | Dec 01, 2025 |
+| **ByteDance** | [Write monthly customer and sales SQL queries](https://trueinterview.io/questions/write-monthly-customer-and-sales-sql-queries) | Medium | Nov 27, 2025 |
+| **Meta** | [SQL Questions](https://trueinterview.io/questions/solve-sql-and-python-coding-tasks-sql-questions) | Medium | Nov 20, 2025 |
+| **Amazon** | [Find recommended friend pairs by shared listening](https://trueinterview.io/questions/find-recommended-friend-pairs-by-shared-listening) | Medium | Nov 20, 2025 |
+| **Airwallex** | [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution) | Medium | Nov 14, 2025 |
+| **Airwallex** | [Compute Moderation View Metrics](https://trueinterview.io/questions/compute-moderation-view-metrics) | Hard | Nov 14, 2025 |
+| **ByteDance** | [Find top-paid employee per department](https://trueinterview.io/questions/find-top-paid-employee-per-department-2) | Medium | Nov 12, 2025 |
+| **Glean** | [Compute DAU and rolling MAU with zero days](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) | Hard | Nov 10, 2025 |
+| **Intuit** | [Pivot daily users and revenue by platform](https://trueinterview.io/questions/pivot-daily-users-and-revenue-by-platform) | Medium | Nov 08, 2025 |
+| **Amazon** | [Write SQL window functions for D7 retention](https://trueinterview.io/questions/write-sql-window-functions-for-d7-retention) | Medium | Nov 04, 2025 |
+| **Pinterest** | [Compute percent of first-cancel users who never return](https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return) | Medium | Oct 26, 2025 |
+| **Cvs Health** | [Compute specialty spend share and top age band](https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band) | Medium | Oct 17, 2025 |
+| **DoorDash** | [Compute Fitness App DAU](https://trueinterview.io/questions/compute-fitness-app-dau) | Medium | Oct 12, 2025 |
+| **ByteDance** | [(Hard)](https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics-hard) | Medium | Oct 09, 2025 |
+| **ByteDance** | [Write SQL for TikTok Live creator metrics](https://trueinterview.io/questions/write-sql-for-tiktok-live-creator-metrics) | Medium | Oct 09, 2025 |
+| **OpenAI** | [Compute signup rate and retention from raw logs](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) | Medium | Oct 04, 2025 |
+| **IBM** | [Write SQL to compute max and min marks](https://trueinterview.io/questions/write-sql-to-compute-max-and-min-marks) | Easy | Oct 03, 2025 |
+| **Meta** | [Write dating profile report with final reviews](https://trueinterview.io/questions/write-dating-profile-report-with-final-reviews) | Hard | — |
+| **Microsoft** | [Find common friends from directed edges](https://trueinterview.io/questions/find-common-friends-from-directed-edges) | Hard | — |
+| **Meta** | [Compute view prevalence from views and labels](https://trueinterview.io/questions/compute-view-prevalence-from-views-and-labels) | Hard | — |
+| **ByteDance** | [Calculate valid daily usage with gap constraints](https://trueinterview.io/questions/calculate-valid-daily-usage-with-gap-constraints) | Hard | — |
+| **LinkedIn** | [Analyze member video posting behavior by country](https://trueinterview.io/questions/analyze-member-video-posting-behavior-by-country) | Medium | — |
+| **Pinterest** | [Write windowed retention and ARPU SQL](https://trueinterview.io/questions/write-windowed-retention-and-arpu-sql) | Hard | — |
+| **Meta** | [Write SQL with HAVING and efficient joins](https://trueinterview.io/questions/write-sql-with-having-and-efficient-joins) | Medium | — |
+| **Pinterest** | [Write SQL to rank categories by impressions](https://trueinterview.io/questions/write-sql-to-rank-categories-by-impressions) | Medium | — |
+| **Instacart** | [Write SQL to rank advertisers and profitability](https://trueinterview.io/questions/write-sql-to-rank-advertisers-and-profitability) | Medium | — |
+| **Capital One** | [Write SQL to quantify outage revenue loss](https://trueinterview.io/questions/write-sql-to-quantify-outage-revenue-loss) | Hard | — |
+| **Roblox** | [Write SQL to flag suspect payments and chargebacks](https://trueinterview.io/questions/write-sql-to-flag-suspect-payments-and-chargebacks) | Medium | — |
+| **Meta** | [Write SQL to flag coordinated fake accounts](https://trueinterview.io/questions/write-sql-to-flag-coordinated-fake-accounts) | Hard | — |
+| **Capital One** | [Write SQL to find top net-revenue products](https://trueinterview.io/questions/write-sql-to-find-top-net-revenue-products) | Medium | — |
+| **Stripe** | [Write SQL to detect recurring non-subscription users](https://trueinterview.io/questions/write-sql-to-detect-recurring-non-subscription-users) | Hard | — |
+| **Pinterest** | [Write SQL to compute max-overlap lists](https://trueinterview.io/questions/write-sql-to-compute-max-overlap-lists) | Hard | — |
+| **Capital One** | [Write SQL to compute campaign net revenue](https://trueinterview.io/questions/write-sql-to-compute-campaign-net-revenue) | Hard | — |
+| **Meta** | [Write SQL to compare social-only vs game-only engagement](https://trueinterview.io/questions/write-sql-to-compare-social-only-vs-game-only-engagement) | Medium | — |
+| **Meta** | [Write SQL to compare exclusive category engagement](https://trueinterview.io/questions/write-sql-to-compare-exclusive-category-engagement) | Medium | — |
+| **DoorDash** | [Write SQL to backtest refund policy](https://trueinterview.io/questions/write-sql-to-backtest-refund-policy) | Hard | — |
+| **Meta** | [Write SQL to analyze shop visibility](https://trueinterview.io/questions/write-sql-to-analyze-shop-visibility) | Medium | — |
+| **Meta** | [Write SQL to analyze Group Calls adoption](https://trueinterview.io/questions/write-sql-to-analyze-group-calls-adoption) | Hard | — |
+| **Meta** | [Write SQL to analyze group-call concurrency](https://trueinterview.io/questions/write-sql-to-analyze-group-call-concurrency) | Hard | — |
+| **Coinbase** | [Write SQL: sum values ≤ each row’s value](https://trueinterview.io/questions/write-sql-sum-values-each-rows-value) | Medium | — |
+| **Meta** | [Write SQL for visibility, calls, and cohort activity](https://trueinterview.io/questions/write-sql-for-visibility-calls-and-cohort-activity) | Medium | — |
+| **Meta** | [Write SQL for video-call recipients and FR activity](https://trueinterview.io/questions/write-sql-for-video-call-recipients-and-fr-activity) | Medium | — |
+| **Point72** | [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | Medium | — |
+| **Capital One** | [Write SQL for theme-park revenue and visits](https://trueinterview.io/questions/write-sql-for-theme-park-revenue-and-visits) | Medium | — |
+| **Meta** | [Write SQL for social feed metrics and ties](https://trueinterview.io/questions/write-sql-for-social-feed-metrics-and-ties) | Medium | — |
+| **Stripe** | [Write SQL for snapshot features and labels](https://trueinterview.io/questions/write-sql-for-snapshot-features-and-labels) | Hard | — |
+| **Netflix** | [Write SQL for rolling frequency caps](https://trueinterview.io/questions/write-sql-for-rolling-frequency-caps) | Hard | — |
+| **Meta** | [Write SQL for revenue and advertiser analyses](https://trueinterview.io/questions/write-sql-for-revenue-and-advertiser-analyses) | Medium | — |
+| **Meta** | [Write SQL for retention, conversion, and churn](https://trueinterview.io/questions/write-sql-for-retention-conversion-and-churn) | Hard | — |
+| **Point72** | [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | Medium | — |
+| **OpenAI** | [Write SQL for post-trial conversion cohorts](https://trueinterview.io/questions/write-sql-for-post-trial-conversion-cohorts) | Hard | — |
+| **DoorDash** | [Write SQL for percent and window changes](https://trueinterview.io/questions/write-sql-for-percent-and-window-changes) | Hard | — |
+| **ByteDance** | [Write SQL for last-7-day metrics without windows](https://trueinterview.io/questions/write-sql-for-last-7-day-metrics-without-windows) | Medium | — |
+| **Meta** | [Write SQL for initiators and French DAU%](https://trueinterview.io/questions/write-sql-for-initiators-and-french-daupercent) | Medium | — |
+| **Meta** | [Write SQL for hashtag source and safety rates](https://trueinterview.io/questions/write-sql-for-hashtag-source-and-safety-rates) | Medium | — |
+| **Meta** | [Write SQL for hashtag analytics and joins](https://trueinterview.io/questions/write-sql-for-hashtag-analytics-and-joins) | Medium | — |
+| **ByteDance** | [Write SQL for geo posting-frequency drops](https://trueinterview.io/questions/write-sql-for-geo-posting-frequency-drops) | Hard | — |
+| **DoorDash** | [Write SQL for deliveries analytics](https://trueinterview.io/questions/write-sql-for-deliveries-analytics) | Medium | — |
+| **Cvs Health** | [Write SQL for dedup and purchase shares](https://trueinterview.io/questions/write-sql-for-dedup-and-purchase-shares) | Medium | — |
+| **Netflix** | [Write SQL for DAU and first-purchase conversion](https://trueinterview.io/questions/write-sql-for-dau-and-first-purchase-conversion) | Medium | — |
+| **DoorDash** | [Write SQL for cuisine median delivery times](https://trueinterview.io/questions/write-sql-for-cuisine-median-delivery-times) | Medium | — |
+| **DoorDash** | [Write SQL for cold-complaint diagnostics with LAG/QUALIFY](https://trueinterview.io/questions/write-sql-for-cold-complaint-diagnostics-with-lag-qualify) | Hard | — |
+| **Onemain Financial** | [Write SQL for cohort retention and ARPU](https://trueinterview.io/questions/write-sql-for-cohort-retention-and-arpu) | Hard | — |
+| **Roblox** | [Write SQL for ads metrics and variability](https://trueinterview.io/questions/write-sql-for-ads-metrics-and-variability) | Hard | — |
+| **Uber** | [Write SQL for active counts and YTD top driver](https://trueinterview.io/questions/write-sql-for-active-counts-and-ytd-top-driver) | Medium | — |
+| **Meta** | [Write SQL for 7-day WhatsApp call metrics](https://trueinterview.io/questions/write-sql-for-7-day-whatsapp-call-metrics) | Hard | — |
+| **ByteDance** | [Write SQL for 7-day geo-localized revenue dashboard](https://trueinterview.io/questions/write-sql-for-7-day-geo-localized-revenue-dashboard) | Hard | — |
+| **Meta** | [Write SQL filtering, grouping, CASE, UNION tasks](https://trueinterview.io/questions/write-sql-filtering-grouping-case-union-tasks) | Easy | — |
+| **Robinhood** | [Write SQL and Python for transaction analytics](https://trueinterview.io/questions/write-sql-and-python-for-transaction-analytics) | Medium | — |
+| **Coinbase** | [Write SQL and Python for funnels/retention](https://trueinterview.io/questions/write-sql-and-python-for-funnels-retention) | Hard | — |
+| **Uber** | [Write SQL and Pandas for Uber Trips](https://trueinterview.io/questions/write-sql-and-pandas-for-uber-trips) | Medium | — |
+| **Pinterest** | [Write SQL and pandas for shopping events](https://trueinterview.io/questions/write-sql-and-pandas-for-shopping-events) | Hard | — |
+| **Thumbtack** | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | Medium | — |
+| **DoorDash** | [Write complex SQL on DoorDash data](https://trueinterview.io/questions/write-complex-sql-on-doordash-data) | Hard | — |
+| **Meta** | [Write advanced SQL for sales support analytics](https://trueinterview.io/questions/write-advanced-sql-for-sales-support-analytics) | Medium | — |
+| **Amazon** | [Verify subscriptions and analyze orders with SQL/Python](https://trueinterview.io/questions/verify-subscriptions-and-analyze-orders-with-sql-python) | Medium | — |
+| **Upstart** | [Solve SQL CTR and Python analytics tasks](https://trueinterview.io/questions/solve-sql-ctr-and-python-analytics-tasks) | Medium | — |
+| **ByteDance** | [Select max-discount product per category](https://trueinterview.io/questions/select-max-discount-product-per-category) | Easy | — |
+| **Capital One** | [Reconcile ledgers with SQL/Python and late events](https://trueinterview.io/questions/reconcile-ledgers-with-sql-python-and-late-events) | Hard | — |
+| **Atlassian** | [Rank each team’s top 3 scores in 2024](https://trueinterview.io/questions/rank-each-teams-top-3-scores-in-2024) | Medium | — |
+| **Boston Consulting Group** | [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth) | Medium | — |
+| **Snowflake** | [Query seven-day conversion with windows and dedupe](https://trueinterview.io/questions/query-seven-day-conversion-with-windows-and-dedupe) | Medium | — |
+| **Microsoft** | [Query email logs for deliverability insights](https://trueinterview.io/questions/query-email-logs-for-deliverability-insights) | Medium | — |
+| **Lyft** | [Query and transform marketplace data in SQL/Python](https://trueinterview.io/questions/query-and-transform-marketplace-data-in-sql-python) | Medium | — |
+| **Capital One** | [Merge ad CSVs and compute CTR](https://trueinterview.io/questions/merge-ad-csvs-and-compute-ctr) | Hard | — |
+| **Roblox** | [Match requests and accepts into friendships in SQL](https://trueinterview.io/questions/match-requests-and-accepts-into-friendships-in-sql) | Medium | — |
+| **Meta** | [Label new vs old users over time in SQL](https://trueinterview.io/questions/label-new-vs-old-users-over-time-in-sql) | Medium | — |
+| **Meta** | [Join datasets and compute conversion by assignment](https://trueinterview.io/questions/join-datasets-and-compute-conversion-by-assignment) | Medium | — |
+| **Capital One** | [Impute, join, and upsert using SQL and Python](https://trueinterview.io/questions/impute-join-and-upsert-using-sql-and-python) | Medium | — |
+| **Capital One** | [Identify country with highest sunny-day probability](https://trueinterview.io/questions/identify-country-with-highest-sunny-day-probability) | Medium | — |
+| **Capital One** | [Fix dash dates and aggregate watch time](https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time) | Medium | — |
+| **Amazon** | [Find top-spend categories per customer with ranking](https://trueinterview.io/questions/find-top-spend-categories-per-customer-with-ranking) | Hard | — |
+| **LinkedIn** | [Find top countries by population per continent](https://trueinterview.io/questions/find-top-countries-by-population-per-continent) | Medium | — |
+| **Capital One** | [Find top category per region in Aug 2025](https://trueinterview.io/questions/find-top-category-per-region-in-aug-2025) | Medium | — |
+| **Google** | [Find most co‑purchased product pairs in SQL](https://trueinterview.io/questions/find-most-copurchased-product-pairs-in-sql) | Medium | — |
+| **Amazon** | [Find daily first-order merchants with SQL](https://trueinterview.io/questions/find-daily-first-order-merchants-with-sql) | Medium | — |
+| **Atlassian** | [Find 2023 NCAA championship winner](https://trueinterview.io/questions/find-2023-ncaa-championship-winner) | Medium | — |
+| **Intuit** | [Exclude free subscribers via anti-join](https://trueinterview.io/questions/exclude-free-subscribers-via-anti-join) | Medium | — |
+| **Apple** | [Detect sessions and gaps using SQL LEAD](https://trueinterview.io/questions/detect-sessions-and-gaps-using-sql-lead) | Medium | — |
+| **Amazon** | [Design student–course data models and SQL](https://trueinterview.io/questions/design-studentcourse-data-models-and-sql) | Medium | — |
+| **Stripe** | [Design metrics and write SQL for a case](https://trueinterview.io/questions/design-metrics-and-write-sql-for-a-case) | Medium | — |
+| **Amazon** | [Design idempotent daily loads with deduping](https://trueinterview.io/questions/design-idempotent-daily-loads-with-deduping) | Medium | — |
+| **Stripe** | [Design an idempotent SQL ETL for late data](https://trueinterview.io/questions/design-an-idempotent-sql-etl-for-late-data) | Hard | — |
+| **Intuit** | [Design an idempotent churn ETL pipeline](https://trueinterview.io/questions/design-an-idempotent-churn-etl-pipeline) | Hard | — |
+| **Capital One** | [Design a reproducible data pipeline for modeling](https://trueinterview.io/questions/design-a-reproducible-data-pipeline-for-modeling) | Medium | — |
+| **Meta** | [Define and query shop visibility](https://trueinterview.io/questions/define-and-query-shop-visibility) | Medium | — |
+| **Google** | [Deduplicate events and rank products with SQL](https://trueinterview.io/questions/deduplicate-events-and-rank-products-with-sql) | Medium | — |
+| **Cvs Health** | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | Medium | — |
+| **Cvs Health** | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema) | Medium | — |
+| **ByteDance** | [Count buggy vs non-buggy by employer](https://trueinterview.io/questions/count-buggy-vs-non-buggy-by-employer) | Easy | — |
+| **Point72** | [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters) | Medium | — |
+| **Thumbtack** | [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) | Medium | — |
+| **Google** | [Compute violation rate and flag precision in SQL](https://trueinterview.io/questions/compute-violation-rate-and-flag-precision-in-sql) | Hard | — |
+| **Meta** | [Compute video-call SQL metrics with edge cases](https://trueinterview.io/questions/compute-video-call-sql-metrics-with-edge-cases) | Hard | — |
+| **Meta** | [Compute shop visibility and intent metrics in SQL](https://trueinterview.io/questions/compute-shop-visibility-and-intent-metrics-in-sql) | Medium | — |
+| **Snapchat** | [Compute same-day acceptance metrics last week](https://trueinterview.io/questions/compute-same-day-acceptance-metrics-last-week) | Medium | — |
+| **DoorDash** | [Compute rolling cold-delivery rates with windows](https://trueinterview.io/questions/compute-rolling-cold-delivery-rates-with-windows) | Medium | — |
+| **Intuit** | [Compute paid subscriber YoY counts by month](https://trueinterview.io/questions/compute-paid-subscriber-yoy-counts-by-month) | Medium | — |
+| **Meta** | [Compute multi-account actives and unread coverage](https://trueinterview.io/questions/compute-multi-account-actives-and-unread-coverage) | Medium | — |
+| **Intuit** | [Compute monthly new subscribers and YoY deltas](https://trueinterview.io/questions/compute-monthly-new-subscribers-and-yoy-deltas) | Medium | — |
+| **Google** | [Compute monthly CRR with merges and gaps](https://trueinterview.io/questions/compute-monthly-crr-with-merges-and-gaps) | Hard | — |
+| **ByteDance** | [Compute last-to-previous ad impression gaps](https://trueinterview.io/questions/compute-last-to-previous-ad-impression-gaps) | Medium | — |
+| **Amazon** | [Compute join counts and window ranks](https://trueinterview.io/questions/compute-join-counts-and-window-ranks) | Medium | — |
+| **Meta** | [Compute French DAU video-call percentage yesterday](https://trueinterview.io/questions/compute-french-dau-video-call-percentage-yesterday) | Medium | — |
+| **Uber** | [Compute ETA shift and conversion uplift](https://trueinterview.io/questions/compute-eta-shift-and-conversion-uplift) | Hard | — |
+| **LinkedIn** | [Compute each member’s current notification status](https://trueinterview.io/questions/compute-each-member-s-current-notification-status) | Medium | — |
+| **Meta** | [Compute daily post success rate for last 7 days](https://trueinterview.io/questions/compute-daily-post-success-rate-for-last-7-days) | Medium | — |
+| **Tubi** | [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) | Medium | — |
+| **Roblox** | [Compute CTR, RPM, and daily RPM variability in SQL](https://trueinterview.io/questions/compute-ctr-rpm-and-daily-rpm-variability-in-sql) | Hard | — |
+| **Meta** | [Compute CTR overall and by campaign type](https://trueinterview.io/questions/compute-ctr-overall-and-by-campaign-type) | Medium | — |
+| **ByteDance** | [Compute CTR drop with exclusions](https://trueinterview.io/questions/compute-ctr-drop-with-exclusions) | Medium | — |
+| **Pinterest** | [Compute CTR by format for new US users](https://trueinterview.io/questions/compute-ctr-by-format-for-new-us-users) | Medium | — |
+| **Meta** | [Compute cohort GMV and payer rate with edge cases](https://trueinterview.io/questions/compute-cohort-gmv-and-payer-rate-with-edge-cases) | Hard | — |
+| **Intuit** | [Compute churn and revenue churn in SQL](https://trueinterview.io/questions/compute-churn-and-revenue-churn-in-sql) | Medium | — |
+| **Meta** | [Compute callers contacting &gt;3 people last 7 days](https://trueinterview.io/questions/compute-callers-contacting-3-people-last-7-days) | Medium | — |
+| **Airbnb** | [Compute C/T metrics from bookings and visits](https://trueinterview.io/questions/compute-c-t-metrics-from-bookings-and-visits) | Medium | — |
+| **LinkedIn** | [Compute article-type diversity per user and histogram](https://trueinterview.io/questions/compute-article-type-diversity-per-user-and-histogram) | Medium | — |
+| **Roblox** | [Compute ARPDAU/ARPPU by country](https://trueinterview.io/questions/compute-arpdau-arppu-by-country) | Medium | — |
+| **ByteDance** | [Compute and rank top bad advertisers](https://trueinterview.io/questions/compute-and-rank-top-bad-advertisers) | Medium | — |
+| **Cvs Health** | [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | Medium | — |
+| **Coinbase** | [Compute adoption, latency, and cross-region transactions](https://trueinterview.io/questions/compute-adoption-latency-and-cross-region-transactions) | Hard | — |
+| **ByteDance** | [Compute 7-day rolling complaint/order ratio in SQL](https://trueinterview.io/questions/compute-7-day-rolling-complaint-order-ratio-in-sql) | Medium | — |
+| **ByteDance** | [Compare SQL counts, windows, and NULL semantics](https://trueinterview.io/questions/compare-sql-counts-windows-and-null-semantics) | Medium | — |
+| **Meta** | [Calculate survey response and quality metrics in SQL](https://trueinterview.io/questions/calculate-survey-response-and-quality-metrics-in-sql) | Hard | — |
+| **Meta** | [Calculate posts per DAU by country today](https://trueinterview.io/questions/calculate-posts-per-dau-by-country-today) | Medium | — |
+| **Amazon** | [Calculate cross-channel login user proportions](https://trueinterview.io/questions/calculate-cross-channel-login-user-proportions) | Medium | — |
+| **Cvs Health** | [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) | Medium | — |
+| **Airbnb** | [Build panel in SQL; run causal regression](https://trueinterview.io/questions/build-panel-in-sql-run-causal-regression) | Medium | — |
+| **Snowflake** | [Build a cohort dashboard with Streamlit and SQL](https://trueinterview.io/questions/build-a-cohort-dashboard-with-streamlit-and-sql) | Medium | — |
+
+<sub>Page 1 of 2 · [Page 2 →](sql-2.md)</sub>

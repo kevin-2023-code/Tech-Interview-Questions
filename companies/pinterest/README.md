@@ -8,11 +8,11 @@ How Pinterest interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [76](../pinterest.md) |
-| Free to read here | 5 |
+| Questions reported | [103](../pinterest.md) |
+| Free to read here | 6 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Aug 26, 2026 |
+| Most recent sighting | Sep 02, 2026 |
 
 ## How Pinterest interviews
 
@@ -38,7 +38,7 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 
 ## Free Pinterest questions
 
-5 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+6 questions reported at Pinterest open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -46,11 +46,12 @@ Pinterest's engineering loop looks conventional on paper — screen, onsite, dec
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
-| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Shortest Path in Unweighted Graph](../../questions/algorithm/shortest-path-in-unweighted-graph/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) |
 
 ## Everything else
 
-- [All 76 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 103 questions reported at Pinterest](../pinterest.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Pinterest question on TrueInterview](https://trueinterview.io/problems/company/pinterest).
 
 ---

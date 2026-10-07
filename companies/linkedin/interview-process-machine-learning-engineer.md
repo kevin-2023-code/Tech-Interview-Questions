@@ -89,7 +89,7 @@ The third is scope in the behavioral rounds at Staff level. Every technical roun
 
 ## Data Source
 
-Based on 7 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q1.
+Based on 9 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q1.
 
 ## FAQ
 

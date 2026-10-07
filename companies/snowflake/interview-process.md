@@ -38,7 +38,7 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 Snowflake coding rounds pair a recognizable pattern with a domain-flavored twist or a second constraint layer. Practice explaining why your data structure fits the operations, then defend it as requirements shift mid-session.
 
-- [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md)
+- [Closest Cake and Global Assignment](https://trueinterview.io/questions/closest-cake-and-global-assignment)
 - [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling)
 - [String-Command Calculator](https://trueinterview.io/questions/calculator-string-commands)
 - [DAG Allow / Disallow Propagation](https://trueinterview.io/questions/dag-allow-disallow-letters)

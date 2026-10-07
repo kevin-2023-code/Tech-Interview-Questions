@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Hard | Tesla | Phone screen | stack | Jul 2025 |
+| Object Oriented Programming | Medium | Tesla | Phone screen | stack | Jul 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/basic-calculator-extended-language)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

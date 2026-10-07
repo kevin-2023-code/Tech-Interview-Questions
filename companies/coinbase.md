@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**51 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**71 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,65 +14,71 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **51** |
-| Most recent sighting | Jun 15, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (49% of 51) |
-| Difficulty (easy / medium / hard) | 11 / 31 / 9 |
+| Questions tracked | **71** |
+| Most recent sighting | Aug 27, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (44% of 71) |
+| Difficulty (easy / medium / hard) | 12 / 44 / 15 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 4 |
 | Interview reports on the board | 5 in this snapshot |
 
-<sub>Counted from the 51 questions reported at Coinbase. 25 of them carry a sighting date; the other 26 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 71 questions reported at Coinbase. 37 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **51 of 51** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **71 of 71** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 14 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 6 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 33 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (58%) | 6 / 21 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 18 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (56%) | 6 / 9 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 13 | ███ | [Algorithm](../formats/algorithm.md) (62%) | 0 / 7 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 42 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (48%) | 7 / 29 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Coinbase since Jun 15, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Object Oriented Programming | Medium | Online assessment | Aug 27, 2026 |
 
 ## What they ask about
 
-Of the **16 questions at Coinbase that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Coinbase that carry a topic label** (31% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 5 | 31% | ████████████ | May 06, 2026 |
-| `graphs` | 3 | 19% | ███████ | May 06, 2026 |
-| `sorting` | 3 | 19% | ███████ | May 05, 2026 |
-| `strings` | 3 | 19% | ███████ | Feb 08, 2026 |
-| `backtracking` | 2 | 12% | █████ | May 06, 2026 |
-| `greedy` | 2 | 12% | █████ | May 05, 2026 |
-| `sliding-window` | 2 | 12% | █████ | — |
-| `dynamic-programming` | 1 | 6% | ██ | — |
-| `math` | 1 | 6% | ██ | Feb 08, 2026 |
-| `stack` | 1 | 6% | ██ | Feb 13, 2026 |
+| `hashing` | 5 | 23% | ████████████ | May 06, 2026 |
+| `sorting` | 4 | 18% | ██████████ | May 05, 2026 |
+| `arrays` | 3 | 14% | ███████ | Feb 13, 2026 |
+| `graphs` | 3 | 14% | ███████ | May 06, 2026 |
+| `strings` | 3 | 14% | ███████ | Feb 08, 2026 |
+| `backtracking` | 2 | 9% | █████ | May 06, 2026 |
+| `dynamic-programming` | 2 | 9% | █████ | Feb 13, 2026 |
+| `greedy` | 2 | 9% | █████ | May 05, 2026 |
+| `math` | 2 | 9% | █████ | Mar 01, 2026 |
+| `sliding-window` | 2 | 9% | █████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Coinbase, by the month it was reported in — Jul 22, 2025 to Jun 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Coinbase, by the month it was reported in — Jul 22, 2025 to Aug 27, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [May 2026](../by-month/2026-05.md) | 9 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 3 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
-| [Feb 2026](../by-month/2026-02.md) | 6 | ████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ███ |
-| [Dec 2025](../by-month/2025-12.md) | 3 | ████████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ████████ |
+| [Feb 2026](../by-month/2026-02.md) | 8 | █████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 5 | █████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ███ |
 
 ## Start here
@@ -81,14 +87,14 @@ The 8 questions to open first if you are preparing for Coinbase, ranked by **the
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | — | Jun 15, 2026 |
-| **2** | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | 3 | May 21, 2026 |
-| **3** | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | AI Coding | Easy | — | May 19, 2026 |
-| **4** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
-| **5** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | — | May 08, 2026 |
-| **6** | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | — | May 06, 2026 |
-| **7** | [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation) | Algorithm | Medium | — | May 06, 2026 |
-| **8** | [Worker Salary](https://trueinterview.io/questions/worker-salary-oa) | Object Oriented Programming | Medium | — | May 06, 2026 |
+| **1** | [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Object Oriented Programming | Medium | — | Aug 27, 2026 |
+| **2** | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | — | Jun 15, 2026 |
+| **3** | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | 3 | May 21, 2026 |
+| **4** | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | Algorithm | Easy | — | May 19, 2026 |
+| **5** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
+| **6** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | — | May 08, 2026 |
+| **7** | [Crypto Order Management (Kafka Consumer)](https://trueinterview.io/questions/crypto-order-management-kafka) | Algorithm | Medium | — | May 06, 2026 |
+| **8** | [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation) | Algorithm | Medium | — | May 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -127,9 +133,10 @@ What candidates said happened in the room at Coinbase — written up by the peop
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Object Oriented Programming | Medium | 🆕 Aug 27, 2026 |
 | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | Jun 15, 2026 |
 | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | May 21, 2026 |
-| [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | AI Coding | Easy | May 19, 2026 |
+| [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | Algorithm | Easy | May 19, 2026 |
 | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Object Oriented Programming | Medium | May 08, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
 | [Worker Salary](https://trueinterview.io/questions/worker-salary-oa) | Object Oriented Programming | Medium | May 06, 2026 |
@@ -137,21 +144,40 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | [NFT Feature Generation](https://trueinterview.io/questions/nft-feature-generation) | Algorithm | Medium | May 06, 2026 |
 | [Mining Block](https://trueinterview.io/questions/mining-block) | Algorithm | Medium | May 05, 2026 |
 | [AI Enhanced Pilot — Domain (AI-Assisted Coding Round)](https://trueinterview.io/questions/ai-enhanced-pilot-domain) | AI Coding | Medium | May 05, 2026 |
+| [Implement an In-Memory Database](https://trueinterview.io/questions/implement-an-in-memory-database-2) | Algorithm | Hard | Apr 29, 2026 |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Apr 28, 2026 |
 | [Food Delivery System (Multi-Level Coding)](https://trueinterview.io/questions/food-delivery-system-2) | Object Oriented Programming | Medium | Apr 20, 2026 |
+| [Debug and Extend Cursor Queries](https://trueinterview.io/questions/debug-and-extend-cursor-queries) | Algorithm | Medium | Apr 02, 2026 |
+| [Implement Game Physics and Block Mining](https://trueinterview.io/questions/implement-game-physics-and-block-mining) | Object Oriented Programming | Medium | Apr 02, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | System Design | Hard | Apr 2026 |
 | [Render Blog Posts (Multi-Stage CodeSignal)](https://trueinterview.io/questions/fe-render-blog-posts-oa) | AI Coding | Medium | Mar 09, 2026 |
+| [Implement a crypto order management system](https://trueinterview.io/questions/implement-a-crypto-order-management-system) | Object Oriented Programming | Medium | Mar 01, 2026 |
+| [Generate NFT metadata and ensure uniqueness](https://trueinterview.io/questions/generate-nft-metadata-and-ensure-uniqueness) | Algorithm | Hard | Mar 01, 2026 |
 | [Design Coinbase Explore](https://trueinterview.io/questions/sd-coinbase-explore-realtime-price) | System Design | Medium | Feb 26, 2026 |
 | [Frontend Domain — Card / Validation Component to Mockup](https://trueinterview.io/questions/fe-domain-card-component) | AI Coding | Medium | Feb 23, 2026 |
 | [Design Credit Card Application System](https://trueinterview.io/questions/design-a-credit-approval-risk-engine) | System Design | Medium | Feb 15, 2026 |
+| [Maximize block fee with transaction selection](https://trueinterview.io/questions/maximize-block-fee-with-transaction-selection) | Algorithm | Medium | Feb 13, 2026 |
+| [Implement Plus One](https://trueinterview.io/questions/implement-plus-one) | Algorithm | Easy | Feb 13, 2026 |
 | [Interleave Iterator](https://trueinterview.io/questions/interleave-iterator) | Object Oriented Programming | Medium | Feb 13, 2026 |
 | [ML Concepts and Coding Assessment](https://trueinterview.io/questions/mle-codesignal-oa) | Algorithm | Medium | Feb 08, 2026 |
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Object Oriented Programming | Medium | Feb 04, 2026 |
 | [Thread Logs Processing](https://trueinterview.io/questions/thread-logs-processing) | Algorithm | Easy | Jan 29, 2026 |
+| [Implement cursor-based query pagination](https://trueinterview.io/questions/implement-cursor-based-query-pagination) | Object Oriented Programming | Medium | Jan 22, 2026 |
 | [Jupyter Pair Programming on Messy Classification Data](https://trueinterview.io/questions/mle-jupyter-classification) | AI Coding | Medium | Dec 19, 2025 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
+| [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category) | SQL | Medium | Dec 04, 2025 |
+| [Build a baseline classification model from messy data](https://trueinterview.io/questions/build-a-baseline-classification-model-from-messy-data) | Algorithm | Medium | Dec 04, 2025 |
 | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | System Design | Medium | Dec 01, 2025 |
+| [Design an in-memory database with TTL and backups](https://trueinterview.io/questions/design-an-in-memory-database-with-ttl-and-backups) | Object Oriented Programming | Hard | Nov 08, 2025 |
 | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Object Oriented Programming | Medium | Jul 22, 2025 |
+| [Design KYC experiment amid crypto volatility](https://trueinterview.io/questions/design-kyc-experiment-amid-crypto-volatility) | System Design | Hard | — |
+| [Design a blob storage system for lunar environment](https://trueinterview.io/questions/design-a-blob-storage-system-for-lunar-environment) | System Design | Hard | — |
+| [Write SQL: sum values ≤ each row’s value](https://trueinterview.io/questions/write-sql-sum-values-each-rows-value) | SQL | Medium | — |
+| [Write SQL and Python for funnels/retention](https://trueinterview.io/questions/write-sql-and-python-for-funnels-retention) | SQL | Hard | — |
+| [Shortest paths in a restaurant grid](https://trueinterview.io/questions/solve-restaurant-path-and-order-event-tasks-shortest-paths-in-a-restaurant-grid) | Algorithm | Hard | — |
+| [Paginate forward and backward through results](https://trueinterview.io/questions/paginate-forward-and-backward-through-results) | Algorithm | Medium | — |
+| [Design crypto trading order control API](https://trueinterview.io/questions/design-crypto-trading-order-control-api) | Object Oriented Programming | Medium | — |
+| [Compute adoption, latency, and cross-region transactions](https://trueinterview.io/questions/compute-adoption-latency-and-cross-region-transactions) | SQL | Hard | — |
 | [Minimum Days to Execute Ordered Tasks with Cooldown](https://trueinterview.io/questions/aceaaa24-bfc7-5f9d-9dac-8462aa82ba07) | Algorithm | Medium | — |
 | [Transaction History System with Add, Delete, and Balance Calculation](https://trueinterview.io/questions/7c91bdaf-7852-4e5f-a023-d6b03d998867) | Object Oriented Programming | Easy | — |
 | [Flatten Iterator for Vector of Iterators with getnext() and hasnext() Methods](https://trueinterview.io/questions/4ac45ecd-0c2b-47e5-bae9-8f19aa67657e) | Algorithm | Medium | — |
@@ -164,7 +190,7 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
 | [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Object Oriented Programming | Easy | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
-| [Currency Exchange](https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971) | Algorithm | Hard | — |
+| [Currency Exchange](https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971) | Algorithm | Medium | — |
 | [Maximize Transaction Fees in Block](https://trueinterview.io/questions/7839fcf7-ef9d-4183-8b53-4bb3fa1e7172) | Algorithm | Medium | — |
 | [Execution Task with Promise Chains](https://trueinterview.io/questions/7296b5d5-6b1c-4ff1-ae43-012cb3886ad1) | Algorithm | Easy | — |
 | [Find Shortest Path for All Items](https://trueinterview.io/questions/6b165ecf-6592-4940-ab4d-0bb42c54a0e5) | Algorithm | Hard | — |
@@ -174,7 +200,7 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | [In-Memory DB: Track per-key operation counts and return Top N keys](https://trueinterview.io/questions/18f2af09-b069-4916-95ad-59284a68cccf) | Object Oriented Programming | Medium | — |
 | [Generate Random NFT](https://trueinterview.io/questions/c371c4af-f5cd-4071-967e-e37e7b38cdb3) | Object Oriented Programming | Medium | — |
 | [Longest Consecutive Character in String](https://trueinterview.io/questions/ae5833c1-2569-4d9e-ae07-7087514da7f6) | Algorithm | Easy | — |
-| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Object Oriented Programming | Hard | — |
+| [Task Management System III](https://trueinterview.io/questions/task-management-system) | Object Oriented Programming | Medium | — |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | Object Oriented Programming | Medium | — |
 | [Bank System](https://trueinterview.io/questions/bank-system) | Object Oriented Programming | Hard | — |
 | [Log File Parser](https://trueinterview.io/questions/log-file-parser) | Object Oriented Programming | Easy | — |

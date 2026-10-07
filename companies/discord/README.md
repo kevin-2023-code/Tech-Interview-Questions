@@ -8,11 +8,11 @@ How Discord interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../discord.md) |
-| Free to read here | 1 |
+| Questions reported | [8](../discord.md) |
+| Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Apr 03, 2026 |
 
 ## How Discord interviews
 
@@ -20,15 +20,16 @@ No written process guide yet. [The loop, as reported](../discord.md#the-loop-as-
 
 ## Free Discord questions
 
-1 question reported at Discord open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+2 questions reported at Discord open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Implement Game Metadata Lookups](../../questions/object-oriented-programming/implement-game-metadata-lookups/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/implement-game-metadata-lookups) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |
 
 ## Everything else
 
-- [All 1 questions reported at Discord](../discord.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 8 questions reported at Discord](../discord.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Discord question on TrueInterview](https://trueinterview.io/problems/company/discord).
 
 ---

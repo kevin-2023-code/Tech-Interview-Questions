@@ -8,11 +8,11 @@ How Voleon interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [7](../voleon.md) |
+| Questions reported | [12](../voleon.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Sep 14, 2026 |
+| Most recent sighting | Jun 27, 2026 |
 
 ## How Voleon interviews
 
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../voleon.md#the-loop-as-r
 
 ## Everything else
 
-- [All 7 questions reported at Voleon](../voleon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 12 questions reported at Voleon](../voleon.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Voleon question on TrueInterview](https://trueinterview.io/problems/company/voleon).
 
 ---

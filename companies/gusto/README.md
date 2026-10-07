@@ -8,11 +8,11 @@ How Gusto interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [4](../gusto.md) |
+| Questions reported | [5](../gusto.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Mar 20, 2026 |
+| Most recent sighting | Aug 01, 2026 |
 
 ## How Gusto interviews
 
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../gusto.md#the-loop-as-re
 
 ## Everything else
 
-- [All 4 questions reported at Gusto](../gusto.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 5 questions reported at Gusto](../gusto.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Gusto question on TrueInterview](https://trueinterview.io/problems/company/gusto).
 
 ---

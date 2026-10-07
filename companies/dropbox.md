@@ -2,72 +2,82 @@
 
 # Dropbox interview process, OA & interview questions
 
-**13 questions** reported at Dropbox · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/dropbox), judged server-side on the algorithm, low-level-design and SQL formats.
+**15 questions** reported at Dropbox · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/dropbox), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Dropbox interviews & the free questions](dropbox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-dropbox)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-dropbox)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **13** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (46% of 13) |
-| Difficulty (easy / medium / hard) | 1 / 11 / 1 |
+| Questions tracked | **15** |
+| Most recent sighting | Jan 25, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (47% of 15) |
+| Difficulty (easy / medium / hard) | 1 / 12 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 13 questions reported at Dropbox. 0 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 15 questions reported at Dropbox. 1 of them carry a sighting date; the other 14 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **13 of 13** questions at Dropbox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **15 of 15** questions at Dropbox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 5 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (86%) | 0 / 7 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 6 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 8 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Dropbox.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Dropbox since Jan 25, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **5 questions at Dropbox that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at Dropbox that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 20% | ████████████ | — |
-| `dynamic-programming` | 1 | 20% | ████████████ | — |
-| `greedy` | 1 | 20% | ████████████ | — |
-| `hashing` | 1 | 20% | ████████████ | — |
-| `sorting` | 1 | 20% | ████████████ | — |
+| `graphs` | 2 | 29% | ████████████ | Jan 25, 2026 |
+| `arrays` | 1 | 14% | ██████ | — |
+| `dynamic-programming` | 1 | 14% | ██████ | — |
+| `greedy` | 1 | 14% | ██████ | — |
+| `hashing` | 1 | 14% | ██████ | — |
+| `matrix` | 1 | 14% | ██████ | — |
+| `sorting` | 1 | 14% | ██████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at Dropbox, by the month it was reported in — Jan 25, 2026 to Jan 25, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+
 ## Start here
 
-The 8 questions to open first if you are preparing for Dropbox, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Dropbox, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) 🆓 | Algorithm | Medium | 2 | — |
-| **2** | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | 1 | — |
-| **3** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Algorithm | Easy | — | — |
-| **4** | [Tetris-like Block Drop Simulation](https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6) | Algorithm | Medium | — | — |
-| **5** | [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8) | Object Oriented Programming | Medium | — | — |
-| **6** | [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8) | Object Oriented Programming | Medium | — | — |
-| **7** | [Shortest Path with Uniform Walking Method](https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739) | Algorithm | Medium | — | — |
-| **8** | [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9) | System Design | Medium | — | — |
+| **1** | [Design a recursive distributed file crawler](https://trueinterview.io/questions/design-a-recursive-distributed-file-crawler) | System Design | Medium | — | Jan 25, 2026 |
+| **2** | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) 🆓 | Algorithm | Medium | 2 | — |
+| **3** | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | 1 | — |
+| **4** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Algorithm | Easy | — | — |
+| **5** | [Tetris-like Block Drop Simulation](https://trueinterview.io/questions/02df0747-8a69-4a01-9098-10ef7070a1a6) | Algorithm | Medium | — | — |
+| **6** | [Double Circuit Breaker for server calls (lambda returns success/failure)](https://trueinterview.io/questions/09d9b5c2-55aa-42e6-aa90-59a942fb10f8) | Object Oriented Programming | Medium | — | — |
+| **7** | [Design and Implement an In-Memory KV Store (API + Optional Extensions)](https://trueinterview.io/questions/25de6019-dd6c-4d5c-a34f-39827dfbaba8) | Object Oriented Programming | Medium | — | — |
+| **8** | [Shortest Path with Uniform Walking Method](https://trueinterview.io/questions/374ea0b3-6ad5-4d15-a6a4-bfd7a92db739) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -89,6 +99,8 @@ The 8 questions to open first if you are preparing for Dropbox, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design a recursive distributed file crawler](https://trueinterview.io/questions/design-a-recursive-distributed-file-crawler) | System Design | Medium | Jan 25, 2026 |
+| [Compute max island with constrained flips](https://trueinterview.io/questions/compute-max-island-with-constrained-flips) | Algorithm | Hard | — |
 | [API Design for Long Running Requests](https://trueinterview.io/questions/ea7d38db-f5ac-4619-b82f-c7d0228d01ca) | Object Oriented Programming | Medium | — |
 | [Event Logger with batching, fsync, and group commit follow-ups](https://trueinterview.io/questions/481f5542-4481-47c3-948d-fa2e58f4b6d9) | System Design | Medium | — |
 | [Implement SnapshotSet](https://trueinterview.io/questions/457a2c8a-2f83-46a9-8137-e8f8ed59b3a6) | Object Oriented Programming | Medium | — |

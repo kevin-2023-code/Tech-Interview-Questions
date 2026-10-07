@@ -8,7 +8,7 @@ How Airbnb interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [55](../airbnb.md) |
+| Questions reported | [79](../airbnb.md) |
 | Free to read here | 8 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -49,7 +49,7 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 | [Design Online Chess Game](../../questions/system-design/design-chess-com-online-chess-game/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/design-chess-com-online-chess-game) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
-| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 | [In-Memory Database with SQL Operations](../../questions/object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/in-memory-database-with-sql-operations) |
 | [Guess Number](../../questions/algorithm/guess-number/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/guess-number) |
 | [Minimum Vertices to Traverse Directed Graph](../../questions/algorithm/minimum-vertices-to-traverse-directed-graph/README.md) | Algorithm | Medium | Onsite / virtual onsite | Sep 2025 | [Solve](https://trueinterview.io/questions/minimum-vertices-to-traverse-directed-graph) |
@@ -57,7 +57,7 @@ The onsite generally runs four to six sessions, and senior journeys can stretch 
 
 ## Everything else
 
-- [All 55 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 79 questions reported at Airbnb](../airbnb.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airbnb question on TrueInterview](https://trueinterview.io/problems/company/airbnb).
 
 ---

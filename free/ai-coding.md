@@ -2,7 +2,7 @@
 
 # Free AI Coding questions
 
-**10 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**7 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -13,8 +13,5 @@
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | **Tesla** | Medium | Aug 23, 2025 |
 | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | **Stripe** | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | **Meta** | Medium | May 30, 2026 |
-| [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | **Robinhood** | Medium | Aug 2025 |
-| [Payment Invoice Reconciliation](https://trueinterview.io/questions/payment-invoice-reconciliation) | **Stripe** | Medium | May 12, 2026 |
-| [Web Crawler](https://trueinterview.io/questions/web-crawler) | **Anthropic** | Medium | May 03, 2026 |
 | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | **Anthropic** | Medium | — |
 | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | **xAI** | Hard | Apr 04, 2026 |

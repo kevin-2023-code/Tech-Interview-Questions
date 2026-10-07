@@ -8,11 +8,11 @@ How Arista interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../arista.md) |
+| Questions reported | [6](../arista.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Feb 03, 2026 |
 
 ## How Arista interviews
 
@@ -45,7 +45,7 @@ Beyond that, reported loops vary. One candidate describes a process of around fi
 
 ## Everything else
 
-- [All 5 questions reported at Arista](../arista.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Arista](../arista.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Arista question on TrueInterview](https://trueinterview.io/problems/company/arista).
 
 ---

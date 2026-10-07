@@ -8,7 +8,7 @@ How Affirm interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [15](../affirm.md) |
+| Questions reported | [17](../affirm.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../affirm.md#the-loop-as-r
 
 ## Everything else
 
-- [All 15 questions reported at Affirm](../affirm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 17 questions reported at Affirm](../affirm.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Affirm question on TrueInterview](https://trueinterview.io/problems/company/affirm).
 
 ---

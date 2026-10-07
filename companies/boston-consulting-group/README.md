@@ -8,7 +8,7 @@ How Boston Consulting Group interviews, and the questions candidates reported th
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [4](../boston-consulting-group.md) |
+| Questions reported | [12](../boston-consulting-group.md) |
 | Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -30,7 +30,7 @@ No written process guide yet. [The loop, as reported](../boston-consulting-group
 
 ## Everything else
 
-- [All 4 questions reported at Boston Consulting Group](../boston-consulting-group.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 12 questions reported at Boston Consulting Group](../boston-consulting-group.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Boston Consulting Group question on TrueInterview](https://trueinterview.io/problems/company/boston-consulting-group).
 
 ---

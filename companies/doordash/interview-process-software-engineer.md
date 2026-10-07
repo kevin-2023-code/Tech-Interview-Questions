@@ -82,7 +82,7 @@ The third pattern is outside your control and worth naming: leveling pushback fo
 
 ## Data Source
 
-Based on 60 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 61 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

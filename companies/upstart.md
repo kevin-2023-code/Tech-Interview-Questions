@@ -2,72 +2,94 @@
 
 # Upstart interview process, OA & interview questions
 
-**15 questions** reported at Upstart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/upstart), judged server-side.
+**31 questions** reported at Upstart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/upstart), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Upstart interviews & the free questions](upstart/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 💳 [Fintech, payments & crypto](../company-types/fintech.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-upstart)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-upstart)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **15** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 15) |
-| Difficulty (easy / medium / hard) | 10 / 5 / 0 |
+| Questions tracked | **31** |
+| Most recent sighting | Sep 12, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (94% of 31) |
+| Difficulty (easy / medium / hard) | 15 / 14 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 15 questions reported at Upstart. 0 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 31 questions reported at Upstart. 13 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **15 of 15** questions at Upstart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **31 of 31** questions at Upstart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 10 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 5 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 5 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 12 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 13 | ████████ | [Algorithm](../formats/algorithm.md) (85%) | 3 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Upstart.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Algorithm | Easy | Online assessment | Sep 12, 2026 |
 
 ## What they ask about
 
-Of the **13 questions at Upstart that carry a topic label** (87% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at Upstart that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 4 | 31% | ████████████ | — |
-| `hashing` | 3 | 23% | █████████ | — |
-| `math` | 3 | 23% | █████████ | — |
-| `arrays` | 2 | 15% | ██████ | — |
-| `dynamic-programming` | 1 | 8% | ███ | — |
-| `two-pointers` | 1 | 8% | ███ | — |
+| `hashing` | 6 | 27% | ████████████ | Sep 12, 2026 |
+| `math` | 6 | 27% | ████████████ | Dec 09, 2025 |
+| `strings` | 6 | 27% | ████████████ | Sep 12, 2026 |
+| `arrays` | 3 | 14% | ██████ | Mar 09, 2026 |
+| `dynamic-programming` | 1 | 5% | ██ | — |
+| `linked-list` | 1 | 5% | ██ | Mar 09, 2026 |
+| `matrix` | 1 | 5% | ██ | Jan 20, 2026 |
+| `sorting` | 1 | 5% | ██ | Apr 05, 2026 |
+| `stack` | 1 | 5% | ██ | — |
+| `two-pointers` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at Upstart, by the month it was reported in — Nov 29, 2025 to Sep 12, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
+
 ## Start here
 
-The 8 questions to open first if you are preparing for Upstart, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Upstart, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Remove Duplicates from Sorted Array](https://trueinterview.io/questions/15169e41-e24b-49dc-8789-70fdaf573c39) 🆓 | Algorithm | Easy | 3 | — |
-| **2** | [Interleave Three Equal-Length Strings](https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7) 🆓 | Algorithm | Easy | — | — |
-| **3** | [Format Bytes into Human-Readable String (B/KB/MB)](https://trueinterview.io/questions/51be1242-45a4-47fc-9f37-e1bcd9800d17) | Algorithm | Easy | — | — |
-| **4** | [Decipher using two hashmaps](https://trueinterview.io/questions/6a88ab18-e062-493a-80b1-528e00f50d3e) | Algorithm | Easy | — | — |
-| **5** | [Scale Ingredient Quantities](https://trueinterview.io/questions/9afaf0f8-87bc-5dfe-b93c-224f4075b902) | Algorithm | Easy | — | — |
-| **6** | [Bounding Rectangle of Points](https://trueinterview.io/questions/9d823331-a85f-512a-b445-25f5ef04e96d) | Algorithm | Easy | — | — |
-| **7** | [Compute File Size on Disk](https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133) | Algorithm | Easy | — | — |
-| **8** | [Check Value Occurrence by Position and Half](https://trueinterview.io/questions/b66c3fdf-2dee-553d-ad9d-baa7bee7db8a) | Algorithm | Easy | — | — |
+| **1** | [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Algorithm | Easy | — | Sep 12, 2026 |
+| **2** | [Compute coordinate bounds](https://trueinterview.io/questions/implement-three-assessment-functions-compute-coordinate-bounds) | Algorithm | Easy | — | Apr 20, 2026 |
+| **3** | [Find the highest eligible score](https://trueinterview.io/questions/implement-three-assessment-functions-find-the-highest-eligible-score) | Algorithm | Easy | — | Apr 20, 2026 |
+| **4** | [Move across a server grid efficiently](https://trueinterview.io/questions/implement-three-assessment-functions-move-across-a-server-grid-efficiently) | Algorithm | Medium | — | Apr 20, 2026 |
+| **5** | [Extract disallowed URLs for bot user agents](https://trueinterview.io/questions/solve-five-oa-coding-tasks-extract-disallowed-urls-for-bot-user-agents) | Algorithm | Medium | — | Apr 10, 2026 |
+| **6** | [Find incorrect digit positions in a sum](https://trueinterview.io/questions/solve-five-oa-coding-tasks-find-incorrect-digit-positions-in-a-sum) | Algorithm | Medium | — | Apr 10, 2026 |
+| **7** | [Solve Reported Coding Problems](https://trueinterview.io/questions/solve-reported-oa-coding-problems) | Algorithm | Medium | — | Apr 05, 2026 |
+| **8** | [Reverse even numbers in a list](https://trueinterview.io/questions/reverse-even-numbers-in-a-list) | Algorithm | Easy | — | Mar 09, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -89,6 +111,22 @@ The 8 questions to open first if you are preparing for Upstart, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Check Whether Two Words Are Case-Insensitive Anagrams](https://trueinterview.io/questions/check-whether-two-words-are-case-insensitive-anagrams) | Algorithm | Easy | 🆕 Sep 12, 2026 |
+| [Move across a server grid efficiently](https://trueinterview.io/questions/implement-three-assessment-functions-move-across-a-server-grid-efficiently) | Algorithm | Medium | Apr 20, 2026 |
+| [Find the highest eligible score](https://trueinterview.io/questions/implement-three-assessment-functions-find-the-highest-eligible-score) | Algorithm | Easy | Apr 20, 2026 |
+| [Compute coordinate bounds](https://trueinterview.io/questions/implement-three-assessment-functions-compute-coordinate-bounds) | Algorithm | Easy | Apr 20, 2026 |
+| [Extract disallowed URLs for bot user agents](https://trueinterview.io/questions/solve-five-oa-coding-tasks-extract-disallowed-urls-for-bot-user-agents) | Algorithm | Medium | Apr 10, 2026 |
+| [Find incorrect digit positions in a sum](https://trueinterview.io/questions/solve-five-oa-coding-tasks-find-incorrect-digit-positions-in-a-sum) | Algorithm | Medium | Apr 10, 2026 |
+| [Solve Reported Coding Problems](https://trueinterview.io/questions/solve-reported-oa-coding-problems) | Algorithm | Medium | Apr 05, 2026 |
+| [Reverse even numbers in a list](https://trueinterview.io/questions/reverse-even-numbers-in-a-list) | Algorithm | Easy | Mar 09, 2026 |
+| [Decode an anagram sentence using vocabulary constraints](https://trueinterview.io/questions/decode-an-anagram-sentence-using-vocabulary-constraints) | Algorithm | Medium | Mar 09, 2026 |
+| [Compute buffet revenue with capacity and waiting](https://trueinterview.io/questions/compute-buffet-revenue-with-capacity-and-waiting) | Algorithm | Hard | Mar 09, 2026 |
+| [Solve Remembered Coding Tasks](https://trueinterview.io/questions/solve-remembered-oa-coding-tasks) | Algorithm | Medium | Jan 20, 2026 |
+| [Implement factorial and count trailing zeros](https://trueinterview.io/questions/implement-factorial-and-count-trailing-zeros) | Algorithm | Medium | Dec 09, 2025 |
+| [Implement decay simulation and trailing-zero counting](https://trueinterview.io/questions/implement-decay-simulation-and-trailing-zero-counting) | Algorithm | Medium | Nov 29, 2025 |
+| [Implement PAVA spend-smoothing under no-borrowing constraint](https://trueinterview.io/questions/implement-pava-spend-smoothing-under-no-borrowing-constraint) | Algorithm | Hard | — |
+| [Decide to ship a signup experiment](https://trueinterview.io/questions/decide-to-ship-a-signup-experiment) | System Design | Medium | — |
+| [Solve SQL CTR and Python analytics tasks](https://trueinterview.io/questions/solve-sql-ctr-and-python-analytics-tasks) | SQL | Medium | — |
 | [addDrama](https://trueinterview.io/questions/e4325a5b-96a7-440c-8712-bfe087708f59) | Algorithm | Easy | — |
 | [Parse a Comma-Separated String with Quoted Fields](https://trueinterview.io/questions/1f5e8959-fd67-587b-bdd9-b271a10016ac) | Algorithm | Medium | — |
 | [Interleave Three Equal-Length Strings](https://trueinterview.io/questions/0b074bbd-5c4d-5d9c-a970-b8bd946084a7) | Algorithm | Easy | — |
@@ -96,7 +134,7 @@ The 8 questions to open first if you are preparing for Upstart, ranked by **the 
 | [Decrypt a Double-Substitution Cipher](https://trueinterview.io/questions/f7f2a358-a5bb-55e0-a442-4ba0ed8f1869) | Algorithm | Medium | — |
 | [Increase Exclamation Marks and Replace Periods](https://trueinterview.io/questions/f2aa7ead-a63b-5709-8feb-03c891c03e4d) | Algorithm | Easy | — |
 | [Check Value Occurrence by Position and Half](https://trueinterview.io/questions/b66c3fdf-2dee-553d-ad9d-baa7bee7db8a) | Algorithm | Easy | — |
-| [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532) | Algorithm | Medium | — |
+| [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532) | Algorithm | Easy | — |
 | [Compute File Size on Disk](https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133) | Algorithm | Easy | — |
 | [Bounding Rectangle of Points](https://trueinterview.io/questions/9d823331-a85f-512a-b445-25f5ef04e96d) | Algorithm | Easy | — |
 | [Scale Ingredient Quantities](https://trueinterview.io/questions/9afaf0f8-87bc-5dfe-b93c-224f4075b902) | Algorithm | Easy | — |

@@ -2,7 +2,7 @@
 
 # JPMorgan interview process, OA & interview questions
 
-**19 questions** reported at JPMorgan · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at JPMorgan · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jpmorgan), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How JPMorgan interviews & the free questions](jpmorgan/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,82 +14,87 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
-| Most recent sighting | Jun 23, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (74% of 19) |
-| Difficulty (easy / medium / hard) | 6 / 10 / 3 |
+| Questions tracked | **23** |
+| Most recent sighting | Aug 17, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (78% of 23) |
+| Difficulty (easy / medium / hard) | 5 / 12 / 6 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 19 questions reported at JPMorgan. 19 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at JPMorgan. 23 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at JPMorgan that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at JPMorgan that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 7 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 4 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 2 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 7 | ██████ | [System Design](../formats/system-design.md) (57%) | 2 / 3 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 8 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 3 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 7 | █████ | [System Design](../formats/system-design.md) (71%) | 1 / 3 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at JPMorgan since Jun 23, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Reason About Top K Frequent Values at Scale](https://trueinterview.io/questions/reason-about-top-k-frequent-values-at-scale) | Algorithm | Hard | Phone screen | Aug 17, 2026 |
 
 ## What they ask about
 
-Of the **14 questions at JPMorgan that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at JPMorgan that carry a topic label** (78% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 5 | 36% | ████████████ | Jun 23, 2026 |
-| `intervals` | 3 | 21% | ███████ | Jun 23, 2026 |
-| `sorting` | 3 | 21% | ███████ | Jun 23, 2026 |
-| `strings` | 3 | 21% | ███████ | Mar 14, 2026 |
-| `greedy` | 2 | 14% | █████ | Mar 31, 2026 |
-| `two-pointers` | 2 | 14% | █████ | Jun 23, 2026 |
-| `dynamic-programming` | 1 | 7% | ██ | Jan 15, 2026 |
-| `graphs` | 1 | 7% | ██ | Dec 20, 2025 |
-| `hashing` | 1 | 7% | ██ | Mar 18, 2026 |
-| `math` | 1 | 7% | ██ | Jan 15, 2026 |
+| `arrays` | 6 | 33% | ████████████ | Jun 23, 2026 |
+| `strings` | 4 | 22% | ████████ | Mar 14, 2026 |
+| `intervals` | 3 | 17% | ██████ | Jun 23, 2026 |
+| `sorting` | 3 | 17% | ██████ | Jun 23, 2026 |
+| `greedy` | 2 | 11% | ████ | Mar 31, 2026 |
+| `hashing` | 2 | 11% | ████ | Aug 17, 2026 |
+| `two-pointers` | 2 | 11% | ████ | Jun 23, 2026 |
+| `binary-search` | 1 | 6% | ██ | Apr 24, 2026 |
+| `dynamic-programming` | 1 | 6% | ██ | Jan 15, 2026 |
+| `graphs` | 1 | 6% | ██ | Dec 20, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at JPMorgan, by the month it was reported in — Jun 21, 2025 to Jun 23, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at JPMorgan, by the month it was reported in — Jun 21, 2025 to Aug 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 4 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ██████ |
-| [Mar 2026](../by-month/2026-03.md) | 4 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ██████ |
-| [Jul 2025](../by-month/2025-07.md) | 2 | ████████████ |
-| [Jun 2025](../by-month/2025-06.md) | 2 | ████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 4 | ███████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 5 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ██████████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | █████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | █████ |
+| [Sep 2025](../by-month/2025-09.md) | 1 | █████ |
+| [Jul 2025](../by-month/2025-07.md) | 2 | ██████████ |
+| [Jun 2025](../by-month/2025-06.md) | 2 | ██████████ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for JPMorgan, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for JPMorgan, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Algorithm | Easy | — | Jun 23, 2026 |
-| **2** | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa) | Algorithm | Medium | — | Jun 23, 2026 |
-| **3** | [Prerequisite Cycle](https://trueinterview.io/questions/prerequisite-cycle-oa) | Algorithm | Medium | — | Jun 23, 2026 |
-| **4** | [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | System Design | Hard | — | Jun 23, 2026 |
-| **5** | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | System Design | Medium | — | Apr 22, 2026 |
-| **6** | [Process Scheduler II](https://trueinterview.io/questions/minimum-cpu-cores) | Algorithm | Medium | — | Mar 31, 2026 |
-| **7** | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Algorithm | Hard | — | Mar 18, 2026 |
-| **8** | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Algorithm | Medium | 1 | Mar 14, 2026 |
+| **1** | [Reason About Top K Frequent Values at Scale](https://trueinterview.io/questions/reason-about-top-k-frequent-values-at-scale) | Algorithm | Hard | — | Aug 17, 2026 |
+| **2** | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Algorithm | Easy | — | Jun 23, 2026 |
+| **3** | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa) | Algorithm | Medium | — | Jun 23, 2026 |
+| **4** | [Prerequisite Cycle](https://trueinterview.io/questions/prerequisite-cycle-oa) | Algorithm | Medium | — | Jun 23, 2026 |
+| **5** | [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | System Design | Hard | — | Jun 23, 2026 |
+| **6** | [Implement Integer Square Root](https://trueinterview.io/questions/implement-integer-square-root) | Algorithm | Medium | — | Apr 24, 2026 |
+| **7** | [Design a Reliable Bank Payment System](https://trueinterview.io/questions/design-a-reliable-bank-payment-system) | System Design | Hard | — | Apr 23, 2026 |
+| **8** | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | System Design | Medium | — | Apr 22, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -111,18 +116,22 @@ The 8 questions to open first if you are preparing for JPMorgan, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Reason About Top K Frequent Values at Scale](https://trueinterview.io/questions/reason-about-top-k-frequent-values-at-scale) | Algorithm | Hard | Aug 17, 2026 |
 | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Algorithm | Easy | Jun 23, 2026 |
 | [Shopping Cart Latency and Inventory](https://trueinterview.io/questions/shopping-cart-latency-and-inventory) | System Design | Hard | Jun 23, 2026 |
 | [Prerequisite Cycle](https://trueinterview.io/questions/prerequisite-cycle-oa) | Algorithm | Medium | Jun 23, 2026 |
 | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa) | Algorithm | Medium | Jun 23, 2026 |
+| [Implement Integer Square Root](https://trueinterview.io/questions/implement-integer-square-root) | Algorithm | Medium | Apr 24, 2026 |
+| [Design a Reliable Bank Payment System](https://trueinterview.io/questions/design-a-reliable-bank-payment-system) | System Design | Hard | Apr 23, 2026 |
 | [URL Shortener With Click Tracking](https://trueinterview.io/questions/url-shortener-with-click-tracking) | System Design | Medium | Apr 22, 2026 |
 | [Process Scheduler II](https://trueinterview.io/questions/minimum-cpu-cores) | Algorithm | Medium | Mar 31, 2026 |
+| [Minimize Operations to Balance Shipments](https://trueinterview.io/questions/minimize-operations-to-balance-shipments) | Algorithm | Medium | Mar 21, 2026 |
 | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Algorithm | Hard | Mar 18, 2026 |
 | [Table of Contents from Markdown Headings II](https://trueinterview.io/questions/markdown-table-of-contents) | Algorithm | Easy | Mar 14, 2026 |
 | [Grouped Binary Substrings](https://trueinterview.io/questions/grouped-binary-substrings) | Algorithm | Medium | Mar 14, 2026 |
 | [Property Rental Search System](https://trueinterview.io/questions/property-rental-search-system) | System Design | Medium | Feb 08, 2026 |
 | [Domino Tiling Recurrences](https://trueinterview.io/questions/domino-tiling-recurrences) | Algorithm | Medium | Jan 15, 2026 |
-| [C++ Virtual / Destructor / Pointer Review](https://trueinterview.io/questions/cpp-virtual-destructor-pointer-review) | Object Oriented Programming | Easy | Jan 15, 2026 |
+| [Count substrings and generate TOC](https://trueinterview.io/questions/count-substrings-and-generate-toc) | Algorithm | Hard | Jan 13, 2026 |
 | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) | Algorithm | Medium | Dec 20, 2025 |
 | [Interval Sign Flips](https://trueinterview.io/questions/interval-sign-flips) | Algorithm | Medium | Nov 19, 2025 |
 | [Split Array: Left Sum Greater](https://trueinterview.io/questions/split-array-left-sum-greater) | Algorithm | Easy | Sep 05, 2025 |

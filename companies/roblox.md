@@ -2,7 +2,7 @@
 
 # Roblox interview process, OA & interview questions
 
-**66 questions** reported at Roblox · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Roblox · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/roblox), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Roblox interviews & the free questions](roblox/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **66** |
+| Questions tracked | **87** |
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (59% of 66) |
-| Difficulty (easy / medium / hard) | 12 / 43 / 11 |
+| Most common format | [Algorithm](../formats/algorithm.md) (59% of 87) |
+| Difficulty (easy / medium / hard) | 16 / 51 / 20 |
 | Free to practise | [15](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 66 questions reported at Roblox. 54 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 87 questions reported at Roblox. 61 of them carry a sighting date; the other 26 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **66 of 66** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **87 of 87** questions at Roblox that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (80%) | 1 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 39 | ██████████ | [Algorithm](../formats/algorithm.md) (77%) | 9 / 24 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 34 | █████████ | [System Design](../formats/system-design.md) (56%) | 2 / 25 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 11 | ██ | [Algorithm](../formats/algorithm.md) (82%) | 2 / 6 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 53 | ██████████ | [Algorithm](../formats/algorithm.md) (68%) | 12 / 29 / 12 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 35 | ███████ | [System Design](../formats/system-design.md) (57%) | 4 / 24 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -48,20 +48,20 @@ Which stage each question came from, for the **66 of 66** questions at Roblox th
 
 ## What they ask about
 
-Of the **41 questions at Roblox that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **51 questions at Roblox that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 12 | 29% | ████████████ | Sep 09, 2026 |
-| `hashing` | 10 | 24% | ██████████ | Aug 12, 2026 |
-| `sorting` | 6 | 15% | ██████ | May 24, 2026 |
-| `heap` | 5 | 12% | █████ | Jun 29, 2026 |
-| `matrix` | 5 | 12% | █████ | May 31, 2026 |
-| `sliding-window` | 5 | 12% | █████ | May 19, 2026 |
-| `strings` | 5 | 12% | █████ | Aug 12, 2026 |
-| `greedy` | 4 | 10% | ████ | Jun 29, 2026 |
-| `stack` | 4 | 10% | ████ | Jun 10, 2026 |
-| `graphs` | 3 | 7% | ███ | Jun 29, 2026 |
+| `arrays` | 12 | 24% | ████████████ | Sep 09, 2026 |
+| `hashing` | 12 | 24% | ████████████ | Aug 12, 2026 |
+| `sliding-window` | 6 | 12% | ██████ | May 19, 2026 |
+| `sorting` | 6 | 12% | ██████ | May 24, 2026 |
+| `heap` | 5 | 10% | █████ | Jun 29, 2026 |
+| `math` | 5 | 10% | █████ | Nov 24, 2025 |
+| `matrix` | 5 | 10% | █████ | May 31, 2026 |
+| `strings` | 5 | 10% | █████ | Aug 12, 2026 |
+| `graphs` | 4 | 8% | ████ | Jun 29, 2026 |
+| `greedy` | 4 | 8% | ████ | Jun 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -72,16 +72,17 @@ Every recorded sighting at Roblox, by the month it was reported in — Sep 02, 2
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 1 | ███ |
-| [Aug 2026](../by-month/2026-08.md) | 2 | ██████ |
-| [Jun 2026](../by-month/2026-06.md) | 4 | ████████████ |
-| [May 2026](../by-month/2026-05.md) | 8 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 7 | █████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 5 | ███████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 8 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 4 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 7 | █████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ██████ |
-| [Sep 2025](../by-month/2025-09.md) | 6 | ██████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | █████ |
+| [Jun 2026](../by-month/2026-06.md) | 4 | ███████████ |
+| [May 2026](../by-month/2026-05.md) | 8 | █████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 7 | ███████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 5 | █████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 9 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 4 | ███████████ |
+| [Dec 2025](../by-month/2025-12.md) | 9 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 3 | ████████ |
+| [Oct 2025](../by-month/2025-10.md) | 3 | ████████ |
+| [Sep 2025](../by-month/2025-09.md) | 6 | ████████████████ |
 
 ## Start here
 
@@ -132,14 +133,14 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Cursor-Based Pagination Over Sorted Logs](https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs) | Algorithm | Medium | May 24, 2026 |
 | [Implement Trie (Prefix Tree)](https://trueinterview.io/questions/implement-trie-prefix-tree-2) | Object Oriented Programming | Easy | May 20, 2026 |
 | [Recommend Games to a Roblox User](https://trueinterview.io/questions/ml-modeling-game-recommendation) | System Design | Medium | May 19, 2026 |
-| [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Algorithm | Medium | May 19, 2026 |
+| [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Algorithm | Easy | May 19, 2026 |
 | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | May 09, 2026 |
 | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Algorithm | Medium | May 09, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
-| [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | System Design | Hard | Apr 18, 2026 |
+| [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | System Design | Medium | Apr 18, 2026 |
 | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | System Design | Medium | Apr 13, 2026 |
-| [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | System Design | Hard | Apr 12, 2026 |
-| [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | System Design | Medium | Apr 10, 2026 |
+| [Design Delayed/Scheduled Payment System](https://trueinterview.io/questions/design-delayed-scheduled-payment-system) | System Design | Medium | Apr 12, 2026 |
+| [Design A Shared Todo List](https://trueinterview.io/questions/design-collaborative-to-do-list-system) | System Design | Easy | Apr 10, 2026 |
 | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system) | System Design | Medium | Apr 08, 2026 |
 | [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet) | System Design | Medium | Apr 07, 2026 |
 | [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs) | Algorithm | Easy | Apr 2026 |
@@ -155,19 +156,26 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Closest Binary Search Tree Value](https://trueinterview.io/questions/closest-binary-search-tree-value) | Algorithm | Medium | Feb 13, 2026 |
 | [Design Frontend Feed Status App](https://trueinterview.io/questions/design-frontend-feed-status-app) | System Design | Easy | Feb 11, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
+| [Find the Most Frequent Log Call](https://trueinterview.io/questions/find-the-most-frequent-log-call) | Algorithm | Easy | Feb 01, 2026 |
 | [Reach Endpoint With Obstacles](https://trueinterview.io/questions/reach-endpoint-with-obstacles) | Algorithm | Easy | Feb 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | System Design | Medium | Jan 22, 2026 |
 | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Object Oriented Programming | Medium | Jan 16, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | System Design | Hard | Jan 12, 2026 |
 | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Algorithm | Medium | Dec 23, 2025 |
-| [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | Object Oriented Programming | Medium | Dec 23, 2025 |
+| [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | System Design | Medium | Dec 23, 2025 |
+| [Write SQL for influence score and follower growth](https://trueinterview.io/questions/write-sql-for-influence-score-and-follower-growth) | SQL | Hard | Dec 11, 2025 |
+| [Find maximum follow depth using recursion](https://trueinterview.io/questions/find-maximum-follow-depth-using-recursion) | Algorithm | Hard | Dec 11, 2025 |
 | [Remove Prefix String](https://trueinterview.io/questions/remove-prefix-strings) | Algorithm | Medium | Dec 11, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
 | [Minimum Height Difference Between Distant Peaks](https://trueinterview.io/questions/minimum-height-difference-between-distant-peaks) | Algorithm | Medium | Dec 09, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) | Algorithm | Easy | Dec 05, 2025 |
+| [Normalize features and rank logistic coefficients](https://trueinterview.io/questions/normalize-features-and-rank-logistic-coefficients) | Algorithm | Medium | Nov 24, 2025 |
+| [Fit logistic regression and return top features](https://trueinterview.io/questions/fit-logistic-regression-and-return-top-features) | Algorithm | Hard | Nov 23, 2025 |
+| [Compute DiD and validate parallel trends](https://trueinterview.io/questions/compute-did-and-validate-parallel-trends) | Algorithm | Medium | Nov 23, 2025 |
 | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | System Design | Hard | Oct 26, 2025 |
+| [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Algorithm | Hard | Oct 18, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Same Word of HTML Labels](https://trueinterview.io/questions/same-word-of-html-labels) | Algorithm | Medium | Sep 04, 2025 |
 | [Randomly Partition Array](https://trueinterview.io/questions/randomly-partition-array) | Algorithm | Medium | Sep 03, 2025 |
@@ -175,12 +183,26 @@ The 8 questions to open first if you are preparing for Roblox, ranked by **the m
 | [Most Frequent Call Chain](https://trueinterview.io/questions/most-frequent-call-chain) | Algorithm | Medium | Sep 02, 2025 |
 | [Find Minimum Score Threshold](https://trueinterview.io/questions/find-minimum-score-threshold) | Algorithm | Medium | Sep 02, 2025 |
 | [Auto Email Generation](https://trueinterview.io/questions/auto-email-generation) | Algorithm | Easy | Sep 02, 2025 |
+| [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit) | Algorithm | Hard | — |
+| [Implement robust one/two-sided p-value function](https://trueinterview.io/questions/implement-robust-one-two-sided-p-value-function) | Algorithm | Hard | — |
+| [Design real-time payments fraud model under constraints](https://trueinterview.io/questions/design-real-time-payments-fraud-model-under-constraints) | System Design | Hard | — |
+| [Design leakage-free predictive maintenance pipeline](https://trueinterview.io/questions/design-leakage-free-predictive-maintenance-pipeline) | System Design | Hard | — |
+| [Design experiment for homepage tab replacement](https://trueinterview.io/questions/design-experiment-for-homepage-tab-replacement) | System Design | Medium | — |
+| [Write SQL to flag suspect payments and chargebacks](https://trueinterview.io/questions/write-sql-to-flag-suspect-payments-and-chargebacks) | SQL | Medium | — |
+| [Write SQL for ads metrics and variability](https://trueinterview.io/questions/write-sql-for-ads-metrics-and-variability) | SQL | Hard | — |
+| [Match requests and accepts into friendships in SQL](https://trueinterview.io/questions/match-requests-and-accepts-into-friendships-in-sql) | SQL | Medium | — |
+| [Implement streaming CTR with deduplication](https://trueinterview.io/questions/implement-streaming-ctr-with-deduplication) | Algorithm | Hard | — |
+| [Implement deduped CTR/RPM aggregator over event stream](https://trueinterview.io/questions/implement-deduped-ctr-rpm-aggregator-over-event-stream) | Algorithm | Medium | — |
+| [Extend counter to per-client rate limiting](https://trueinterview.io/questions/extend-counter-to-per-client-rate-limiting) | Object Oriented Programming | Medium | — |
+| [Compute CTR, RPM, and daily RPM variability in SQL](https://trueinterview.io/questions/compute-ctr-rpm-and-daily-rpm-variability-in-sql) | SQL | Hard | — |
+| [Compute ARPDAU/ARPPU by country](https://trueinterview.io/questions/compute-arpdau-arppu-by-country) | SQL | Medium | — |
 | [Lasers and Robot](https://trueinterview.io/questions/cc7ea860-4eb6-5776-9026-f8bb5368ca1b) | Algorithm | Medium | — |
 | [Configurable Tic-Tac-Toe Board](https://trueinterview.io/questions/027d9159-df55-5351-b2d2-b3f7e1bbac99) | Algorithm | Medium | — |
 | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Algorithm | Medium | — |
-| [Optimize the Space of Code in Coding Screen](https://trueinterview.io/questions/92dadf5d-6db1-424c-b110-2cd7b367704d) | AI Coding | Medium | — |
+| [Optimize the Space of Code in Coding Screen](https://trueinterview.io/questions/92dadf5d-6db1-424c-b110-2cd7b367704d) | Algorithm | Easy | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
+| [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893) | Algorithm | Medium | — |
 | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Algorithm | Medium | — |
 | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Algorithm | Easy | — |
 | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Algorithm | Easy | — |

@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Medium | OpenAI · Airbnb · Amazon · Confluent · Databricks · Google · +4 | Onsite / virtual onsite | — | Nov 2025 |
+| Object Oriented Programming | Easy | OpenAI · Airbnb · Amazon · Confluent · Databricks · Google · +4 | Onsite / virtual onsite | — | Nov 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/durable-key-value-store-serialization)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

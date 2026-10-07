@@ -5,45 +5,66 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Uber | Online assessment | backtracking | — |
+| Algorithm | Easy | Uber | Online assessment | arrays | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-I notice your request contains an example but doesn't appear to be a complete, self-contained LeetCode-style problem with the standard format I need to paraphrase. The input you provided seems to be a pair of arrays or tuples, but the problem statement is ambiguous.
+Design a schedule that assigns a collection of meetings to exactly two meeting rooms; the pair of rooms is fixed and never changes. Every meeting occupies a time interval, and the assignment must place each meeting into one of those two rooms while keeping the overall schedule workable. Report, room by room, the meetings that were placed there.
 
-To proceed properly, I need the **full original problem text** you want me to paraphrase. Please provide it in the standard LeetCode format that includes:
+The schedule is not static: a meeting can be delayed, which shifts the time at which it takes place. When that happens, the assignment has to be brought up to date so it still reflects the new times. Reacting to such a delay and showing the resulting schedule both need to be efficient, so that repeated updates do not become costly.
 
-1. A clear title
-2. The complete problem description
-3. Example test cases with Input/Output/Explanation
-4. Constraints
-5. Metadata (difficulty, topics, company tags, hints)
+Concretely, the work has four parts:
 
-Once you provide that, I'll transform it following all the rules in my instructions while preserving the underlying algorithmic requirements.
+* Assign the meetings to the two fixed rooms.
+* Produce the per-room listing of which meetings are scheduled where.
+* Cope with the modifications that a delayed meeting time introduces.
+* Keep the update step and the display of the revised schedule efficient.
+
+The logic is exercised through the function `sum_nums(nums)`.
+
+## Examples
+
+**Example 1**
+
+```text
+Input:
+5
+1 2 3 4 5
+Output: 15
+```
+
+**Example 2**
+
+```text
+Input:
+3
+-1 0 1
+Output: 0
+```
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-The problem likely asks to assign meeting rooms to intervals greedily, but with a delay constraint meaning you must wait before starting a meeting.
+Think of each meeting as an interval that must be colored with one of two colors so that no two same-colored intervals overlap.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a min-heap of end times and a separate queue for delayed meetings — process events in chronological order.
+Model the conflict between overlapping meetings as a graph and check whether it is bipartite, then recompute after a delay shifts an interval.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for the scenario where multiple meetings are delayed simultaneously and need to be started in order of their original times.
+Watch for intervals that only touch at an endpoint (usually non-overlapping) and for delays that create new conflicts with previously safe meetings.
 
 </details>
 

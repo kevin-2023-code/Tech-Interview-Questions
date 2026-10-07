@@ -8,8 +8,8 @@ How Render interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../render.md) |
-| Free to read here | 1 |
+| Questions reported | [2](../render.md) |
+| Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -20,15 +20,16 @@ No written process guide yet. [The loop, as reported](../render.md#the-loop-as-r
 
 ## Free Render questions
 
-1 question reported at Render open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+2 questions reported at Render open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Rate Limit an API During a Traffic Attack](../../questions/system-design/rate-limit-an-api-during-a-traffic-attack/README.md) | System Design | Easy | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) |
+| [Rate Limit an API During a Traffic Attack](../../questions/object-oriented-programming/rate-limit-an-api-during-a-traffic-attack/README.md) | Object Oriented Programming | Medium | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) |
+| [Count Blocked Rate-Limited Requests](../../questions/algorithm/count-blocked-rate-limited-requests/README.md) | Algorithm | Hard | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/count-blocked-rate-limited-requests) |
 
 ## Everything else
 
-- [All 1 questions reported at Render](../render.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 2 questions reported at Render](../render.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Render question on TrueInterview](https://trueinterview.io/problems/company/render).
 
 ---

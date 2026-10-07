@@ -8,11 +8,11 @@ How Brex interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../brex.md) |
+| Questions reported | [3](../brex.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | May 08, 2026 |
 
 ## How Brex interviews
 
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../brex.md#the-loop-as-rep
 
 ## Everything else
 
-- [All 2 questions reported at Brex](../brex.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 3 questions reported at Brex](../brex.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Brex question on TrueInterview](https://trueinterview.io/problems/company/brex).
 
 ---

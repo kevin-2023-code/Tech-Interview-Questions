@@ -61,26 +61,30 @@ updated gems: [1, 0, 0, 3, 0]
 discounts: [1, 0, 0, 0, 1]
 ```
 
+```trueviz
+{"v":1,"kind":"example","title":"Card Game Gems","input":{"price":"[1, 1, 1, 0, 2]","gems":"[2, 1, 0, 3, 0]","card_count":"[3, 0, 1, 1, 2]"},"steps":[{"say":"The card's price per color, the player's gems per color, and how many cards of each color the player holds.","panels":[{"type":"array","id":"price","label":"price","values":["1","1","1","0","2"]},{"type":"array","id":"gems","label":"gems","values":["2","1","0","3","0"]},{"type":"array","id":"card_count","label":"card_count","values":["3","0","1","1","2"]}]},{"say":"Total gems = 2+1+0+3+0 = 6. Total price = 1+1+1+0+2 = 5. Since 6 >= 5, the card is affordable.","panels":[{"type":"array","id":"gems","label":"gems","values":["2","1","0","3","0"],"marks":{"found":[0,1,2,3,4]}},{"type":"array","id":"price","label":"price","values":["1","1","1","0","2"],"marks":{"found":[0,1,2,3,4]}}]},{"say":"Pay color by color: take the price out of the gems for each color, never going below 0.","panels":[{"type":"array","id":"gems","label":"gems","values":["2","1","0","3","0"],"marks":{"read":[0,1,2,3,4]}},{"type":"array","id":"price","label":"price","values":["1","1","1","0","2"],"marks":{"read":[0,1,2,3,4]}}]},{"say":"Color 0: 2-1=1. Color 1: 1-1=0. Color 2: 0-1 stays 0. Color 3: 3-0=3. Color 4: 0-2 stays 0.","panels":[{"type":"array","id":"updated","label":"updated gems","values":["1","0","0","3","0"],"marks":{"found":[0,1,2,3,4]}}]},{"say":"Discounts: each color's card count is halved, rounding down.","panels":[{"type":"array","id":"card_count","label":"card_count","values":["3","0","1","1","2"],"marks":{"read":[0,1,2,3,4]}},{"type":"array","id":"discounts","label":"discounts","values":["1","0","0","0","1"],"marks":{"found":[0,1,2,3,4]}}]},{"say":"Answer: can_afford True, updated gems [1, 0, 0, 3, 0], discounts [1, 0, 0, 0, 1].","panels":[{"type":"array","id":"updated","label":"updated gems","values":["1","0","0","3","0"],"marks":{"found":[0,1,2,3,4]}},{"type":"array","id":"discounts","label":"discounts","values":["1","0","0","0","1"],"marks":{"found":[0,1,2,3,4]}}]}],"expected":"can_afford: True\nupdated gems: [1, 0, 0, 3, 0]\ndiscounts: [1, 0, 0, 0, 1]"}
+```
+
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Break the problem into three independent sub-results: affordability, the gems remaining after purchase, and the discount calculation.
+The problem asks for three separate functions: affordability, purchase, and discount calculation, handle each independently.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-For affordability compare price against gems, for purchase subtract the price from gems only when affordable, otherwise leave gems unchanged.
+For affordability, compare the total gem count to the price, for purchase, subtract the price from gems if affordable, for discount, apply the discount rule to the price.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch the discount logic carefully — it likely depends on card_count and may need clamping so the result never goes negative.
+Be careful with edge cases: insufficient gems, zero price, or discount making price negative (clamp to zero if needed).
 
 </details>
 

@@ -2,7 +2,7 @@
 
 # Airwallex interview process, OA & interview questions
 
-**1 question** reported at Airwallex. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airwallex), judged server-side.
+**8 questions** reported at Airwallex. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airwallex), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Airwallex interviews & the free questions](airwallex/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,57 +14,78 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **1** |
-| Most recent sighting | Jan 29, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 1) |
-| Difficulty (easy / medium / hard) | 0 / 0 / 1 |
-| Free to practise | [1](../free/README.md) |
+| Questions tracked | **8** |
+| Most recent sighting | Sep 10, 2026 |
+| Reported in the last 90 days | 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (38% of 8) |
+| Difficulty (easy / medium / hard) | 0 / 3 / 5 |
+| Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 1 question reported at Airwallex. 1 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 8 questions reported at Airwallex. 8 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **1 of 1** questions at Airwallex that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **8 of 8** questions at Airwallex that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 1 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ████████ | [SQL](../formats/sql.md) (50%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Airwallex since Jan 29, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**5 sightings** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | System Design | Hard | Phone screen | Sep 10, 2026 |
+| [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Algorithm | Hard | Phone screen | Sep 10, 2026 |
+| [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | Phone screen | Sep 02, 2026 |
+| [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
+| [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | System Design | Hard | Phone screen | Aug 09, 2026 |
 
 ## What they ask about
 
-Of the **1 question at Airwallex that carries a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Airwallex that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 100% | ████████████ | Jan 29, 2026 |
-| `stack` | 1 | 100% | ████████████ | Jan 29, 2026 |
+| `matrix` | 2 | 50% | ████████████ | Sep 10, 2026 |
+| `arrays` | 1 | 25% | ██████ | Jan 29, 2026 |
+| `dynamic-programming` | 1 | 25% | ██████ | Sep 02, 2026 |
+| `heap` | 1 | 25% | ██████ | Sep 10, 2026 |
+| `stack` | 1 | 25% | ██████ | Jan 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Airwallex, by the month it was reported in — Jan 29, 2026 to Jan 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Airwallex, by the month it was reported in — Nov 14, 2025 to Sep 10, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 4 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
 
 ## Start here
 
-The 1 question to open first if you are preparing for Airwallex, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Airwallex, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) 🆓 | Algorithm | Hard | 1 | Jan 29, 2026 |
+| **1** | [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | System Design | Hard | — | Sep 10, 2026 |
+| **2** | [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Algorithm | Hard | — | Sep 10, 2026 |
+| **3** | [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | — | Sep 02, 2026 |
+| **4** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | 1 | Sep 01, 2026 |
+| **5** | [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | System Design | Hard | — | Aug 09, 2026 |
+| **6** | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) 🆓 | Algorithm | Hard | 1 | Jan 29, 2026 |
+| **7** | [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution) | SQL | Medium | — | Nov 14, 2025 |
+| **8** | [Compute Moderation View Metrics](https://trueinterview.io/questions/compute-moderation-view-metrics) 🆓 | SQL | Hard | — | Nov 14, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -78,4 +99,11 @@ The 1 question to open first if you are preparing for Airwallex, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Merge Hundreds of Paginated Sorted Sources into One Deduplicated Record Stream](https://trueinterview.io/questions/merge-hundreds-of-paginated-sorted-sources-into-one-deduplicated-record-stream) | Algorithm | Hard | 🆕 Sep 10, 2026 |
+| [Design a Real-Time Robot Chase Game on a Weighted Terrain Grid](https://trueinterview.io/questions/design-a-real-time-robot-chase-game-on-a-weighted-terrain-grid) | System Design | Hard | 🆕 Sep 10, 2026 |
+| [Largest Square of Ones](https://trueinterview.io/questions/largest-square-of-ones) | Algorithm | Medium | 🆕 Sep 02, 2026 |
+| [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | 🆕 Sep 01, 2026 |
+| [Design a High-Demand Ticketing System](https://trueinterview.io/questions/design-a-high-demand-ticketing-system) | System Design | Hard | Aug 09, 2026 |
 | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | Algorithm | Hard | Jan 29, 2026 |
+| [Monthly violation-type distribution.](https://trueinterview.io/questions/compute-moderation-view-metrics-monthly-violation-type-distribution) | SQL | Medium | Nov 14, 2025 |
+| [Compute Moderation View Metrics](https://trueinterview.io/questions/compute-moderation-view-metrics) | SQL | Hard | Nov 14, 2025 |

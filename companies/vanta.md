@@ -2,7 +2,7 @@
 
 # Vanta interview process, OA & interview questions
 
-**13 questions** reported at Vanta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/vanta), judged server-side on the algorithm, low-level-design and SQL formats.
+**14 questions** reported at Vanta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/vanta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Vanta interviews & the free questions](vanta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,41 +14,42 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **13** |
-| Most recent sighting | Jul 16, 2026 |
-| Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (77% of 13) |
-| Difficulty (easy / medium / hard) | 2 / 9 / 2 |
+| Questions tracked | **14** |
+| Most recent sighting | Sep 12, 2026 |
+| Reported in the last 90 days | 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 14) |
+| Difficulty (easy / medium / hard) | 3 / 10 / 1 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 13 questions reported at Vanta. 8 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 14 questions reported at Vanta. 9 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **13 of 13** questions at Vanta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **14 of 14** questions at Vanta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ██████ | [System Design](../formats/system-design.md) (50%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 5 | ███████ | [System Design](../formats/system-design.md) (60%) | 1 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | Onsite / virtual onsite | Sep 12, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | Phone screen | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Medium | Onsite / virtual onsite | Jul 16, 2026 |
-| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Hard | Onsite / virtual onsite | Jul 10, 2026 |
+| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Onsite / virtual onsite | Jul 10, 2026 |
 
 ## What they ask about
 
-Of the **11 questions at Vanta that carry a topic label** (85% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **11 questions at Vanta that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -66,10 +67,11 @@ Of the **11 questions at Vanta that carry a topic label** (85% of them — the r
 
 ## When they asked it
 
-Every recorded sighting at Vanta, by the month it was reported in — Dec 04, 2024 to Jul 16, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Vanta, by the month it was reported in — Dec 04, 2024 to Sep 12, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ████████ |
 | [Jul 2026](../by-month/2026-07.md) | 3 | ████████████████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ████████ |
@@ -82,14 +84,14 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | — | Jul 16, 2026 |
-| **2** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) 🆓 | Algorithm | Medium | — | Jul 16, 2026 |
-| **3** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Hard | — | Jul 10, 2026 |
-| **4** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | — | Jun 10, 2026 |
-| **5** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | — | Mar 17, 2026 |
-| **6** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) 🆓 | Algorithm | Hard | — | Jul 31, 2025 |
-| **7** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) 🆓 | Object Oriented Programming | Medium | — | Jul 24, 2025 |
-| **8** | [Word Pattern / Meta-Pattern Match (Backtracking)](https://trueinterview.io/questions/word-pattern-meta-match) 🆓 | Algorithm | Medium | — | Dec 04, 2024 |
+| **1** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | — | Sep 12, 2026 |
+| **2** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | — | Jul 16, 2026 |
+| **3** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) 🆓 | Algorithm | Medium | — | Jul 16, 2026 |
+| **4** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | — | Jul 10, 2026 |
+| **5** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Easy | — | Jun 10, 2026 |
+| **6** | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | — | Mar 17, 2026 |
+| **7** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) 🆓 | Algorithm | Hard | — | Jul 31, 2025 |
+| **8** | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) 🆓 | Object Oriented Programming | Medium | — | Jul 24, 2025 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -111,10 +113,11 @@ The 8 questions to open first if you are preparing for Vanta, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | 🆕 Sep 12, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Medium | Jul 16, 2026 |
-| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Hard | Jul 10, 2026 |
-| [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Medium | Jun 10, 2026 |
+| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Jul 10, 2026 |
+| [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | System Design | Easy | Jun 10, 2026 |
 | [Employee Training Status + Group Tree Aggregation](https://trueinterview.io/questions/training-status-group-aggregation) | Algorithm | Medium | Mar 17, 2026 |
 | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Algorithm | Hard | Jul 31, 2025 |
 | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | Object Oriented Programming | Medium | Jul 24, 2025 |

@@ -55,7 +55,6 @@ Usually one round, sometimes folded into a coding round. Interviewers want a sma
 
 One round of 45 to 60 minutes, or a slice of a mixed round. Requirements first, then API, schema, and the concurrency hazard at the center (double-booking, duplicate writes). Several candidates named system design as the round they under-prepared, particularly capacity estimation and partitioning. Naming tools without trade-offs was called out as a loss.
 
-- [Design Ticket Booking System](https://trueinterview.io/questions/system-design-ticketmaster)
 - [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design)
 - [Resource Change Database Design](https://trueinterview.io/questions/bcd45958-19cb-4471-90e5-86cdb8a138f5)
 
@@ -83,7 +82,7 @@ Present in almost every round rather than isolated. Questions cover conflict, fe
 
 ## Data Source
 
-Based on 54 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 56 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

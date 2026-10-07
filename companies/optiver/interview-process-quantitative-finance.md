@@ -89,7 +89,7 @@ The third is attrition inside the assessment, before any human sees you. The bat
 
 ## Data Source
 
-Based on 53 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q1.
+Based on 52 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q1.
 
 ## FAQ
 

@@ -46,7 +46,7 @@ One or two rounds, and the most frequently decisive. The ads frequency cap appea
 
 The data modeling round, plus the domain probing inside the behavioral round. You are handed a business area and asked for entities, constraints, indexing and query patterns, then pushed on how the schema evolves. Reported prompts: the demand side of an advertising platform, order tracking for direct-sold demand with no open auction, and streaming watch history and catalog. Breadth is rewarded, but depth on bidding mechanics and targeting taxonomies separates outcomes.
 
-- [Design the Data Model for an Ads Demand Platform](../../questions/object-oriented-programming/design-the-data-model-for-an-ads-demand-platform/README.md)
+- [Design the Data Model for an Ads Demand Platform](../../questions/system-design/design-the-data-model-for-an-ads-demand-platform/README.md)
 - [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator)
 
 ### Low-Level Design
@@ -80,7 +80,7 @@ One or two rounds, memo-grounded and scored as engineering signal. The reported 
 
 ## Data Source
 
-Based on 46 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 47 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

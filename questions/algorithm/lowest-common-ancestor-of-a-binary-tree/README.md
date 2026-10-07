@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Amazon · Atlassian · ByteDance · Google · Meta · +3 | Phone screen | trees, backtracking, graphs | Feb 2026 |
+| Algorithm | Easy | Uber · Amazon · Atlassian · ByteDance · Google · Meta · +3 | Phone screen | trees, backtracking, graphs | Feb 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

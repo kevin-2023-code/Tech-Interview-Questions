@@ -8,11 +8,11 @@ How Faire interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [4](../faire.md) |
+| Questions reported | [5](../faire.md) |
 | Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Apr 10, 2026 |
 
 ## How Faire interviews
 
@@ -30,7 +30,7 @@ No written process guide yet. [The loop, as reported](../faire.md#the-loop-as-re
 
 ## Everything else
 
-- [All 4 questions reported at Faire](../faire.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 5 questions reported at Faire](../faire.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Faire question on TrueInterview](https://trueinterview.io/problems/company/faire).
 
 ---

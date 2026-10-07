@@ -8,7 +8,7 @@ How Ramp interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [28](../ramp.md) |
+| Questions reported | [33](../ramp.md) |
 | Free to read here | 9 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -50,7 +50,7 @@ Frontend-flavored assessments replace the simulation with practical React work: 
 
 ## Everything else
 
-- [All 28 questions reported at Ramp](../ramp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 33 questions reported at Ramp](../ramp.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Ramp question on TrueInterview](https://trueinterview.io/problems/company/ramp).
 
 ---

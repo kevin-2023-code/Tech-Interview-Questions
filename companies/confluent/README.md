@@ -8,11 +8,11 @@ How Confluent interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [23](../confluent.md) |
+| Questions reported | [30](../confluent.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jan 14, 2026 |
+| Most recent sighting | Apr 29, 2026 |
 
 ## How Confluent interviews
 
@@ -39,11 +39,11 @@ Confluent runs one of the most repetitive interview loops in infrastructure hiri
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
-| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
 
 ## Everything else
 
-- [All 23 questions reported at Confluent](../confluent.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 30 questions reported at Confluent](../confluent.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Confluent question on TrueInterview](https://trueinterview.io/problems/company/confluent).
 
 ---

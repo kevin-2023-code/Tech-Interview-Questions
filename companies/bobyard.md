@@ -2,7 +2,7 @@
 
 # Bobyard interview process, OA & interview questions
 
-**3 questions** reported at Bobyard. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bobyard), judged server-side.
+**6 questions** reported at Bobyard. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/bobyard), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Bobyard interviews & the free questions](bobyard/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **3** |
+| Questions tracked | **6** |
 | Most recent sighting | Aug 13, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 3) |
-| Difficulty (easy / medium / hard) | 1 / 2 / 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (50% of 6) |
+| Difficulty (easy / medium / hard) | 1 / 5 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 3 questions reported at Bobyard. 1 of them carry a sighting date; the other 2 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 6 questions reported at Bobyard. 4 of them carry a sighting date; the other 2 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **3 of 3** questions at Bobyard that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **6 of 6** questions at Bobyard that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 5 | ██████████ | [Algorithm](../formats/algorithm.md) (40%) | 0 / 5 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -45,33 +45,38 @@ Which stage each question came from, for the **3 of 3** questions at Bobyard tha
 
 ## What they ask about
 
-Of the **3 questions at Bobyard that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Bobyard that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `trees` | 2 | 67% | ████████████ | Aug 13, 2026 |
-| `hashing` | 1 | 33% | ██████ | Aug 13, 2026 |
-| `sorting` | 1 | 33% | ██████ | — |
+| `trees` | 3 | 75% | ████████████ | Aug 13, 2026 |
+| `sorting` | 2 | 50% | ████████ | Apr 09, 2026 |
+| `hashing` | 1 | 25% | ████ | Aug 13, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Bobyard, by the month it was reported in — Aug 13, 2026 to Aug 13, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Bobyard, by the month it was reported in — Mar 01, 2026 to Aug 13, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 2 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ████████████ |
 
 ## Start here
 
-The 3 questions to open first if you are preparing for Bobyard, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 6 questions to open first if you are preparing for Bobyard, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | 1 | Aug 13, 2026 |
-| **2** | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) 🆓 | Algorithm | Easy | — | — |
-| **3** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) 🆓 | Algorithm | Medium | — | — |
+| **2** | [Design comments and async image generation](https://trueinterview.io/questions/design-comments-and-async-image-generation) | System Design | Medium | — | Apr 09, 2026 |
+| **3** | [Implement comment sorting and nesting](https://trueinterview.io/questions/implement-comment-sorting-and-nesting) | Object Oriented Programming | Medium | — | Apr 09, 2026 |
+| **4** | [Design a client-side comment system](https://trueinterview.io/questions/design-a-client-side-comment-system) | System Design | Medium | — | Mar 01, 2026 |
+| **5** | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) 🆓 | Algorithm | Easy | — | — |
+| **6** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) 🆓 | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -86,5 +91,8 @@ The 3 questions to open first if you are preparing for Bobyard, ranked by **the 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Algorithm | Medium | Aug 13, 2026 |
+| [Implement comment sorting and nesting](https://trueinterview.io/questions/implement-comment-sorting-and-nesting) | Object Oriented Programming | Medium | Apr 09, 2026 |
+| [Design comments and async image generation](https://trueinterview.io/questions/design-comments-and-async-image-generation) | System Design | Medium | Apr 09, 2026 |
+| [Design a client-side comment system](https://trueinterview.io/questions/design-a-client-side-comment-system) | System Design | Medium | Mar 01, 2026 |
 | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | Algorithm | Medium | — |
 | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | Algorithm | Easy | — |

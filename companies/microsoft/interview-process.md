@@ -52,7 +52,6 @@ Coding favors well-known patterns with a Microsoft twist in the follow-up: palin
 
 Design rounds appear below senior level and lean toward booking and consistency problems, plus a newer family of product-AI prompts: resuming past chatbot conversations with personalization, re-engaging dormant users of an assistant, grounding a news recommender to limit hallucination.
 
-- [Design Ticket Booking System](https://trueinterview.io/questions/system-design-ticketmaster)
 - [URL Shortener / Tiny URL System Design](https://trueinterview.io/questions/url-shortener-system-design)
 - [Chatbot Personalization / Memory System Design](https://trueinterview.io/questions/chatbot-personalization-memory-design)
 - [Job Scheduler / ETL Pipeline System Design](https://trueinterview.io/questions/job-scheduler-etl-pipeline)

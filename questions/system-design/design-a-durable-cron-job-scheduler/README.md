@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| System Design | Hard | Cursor · Snowflake | Phone screen | greedy | Apr 2026 |
+| System Design | Medium | Cursor · Snowflake | Phone screen | greedy | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler)** — free, no card: the interview workspace, an AI interviewer to push back on your design, and the reference solution.

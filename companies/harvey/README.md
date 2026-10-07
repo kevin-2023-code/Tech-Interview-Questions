@@ -8,7 +8,7 @@ How Harvey interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [17](../harvey.md) |
+| Questions reported | [20](../harvey.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -36,12 +36,12 @@ Harvey's loop is unusual in how narrow it is: a small set of problem families �
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/citation-highlighting) |
+| [Citation Highlighting](../../questions/algorithm/citation-highlighting/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 2026 | [Solve](https://trueinterview.io/questions/citation-highlighting) |
 | [In-Memory Unix File System](../../questions/object-oriented-programming/in-memory-unix-file-system/README.md) | Object Oriented Programming | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/in-memory-unix-file-system) |
 
 ## Everything else
 
-- [All 17 questions reported at Harvey](../harvey.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 20 questions reported at Harvey](../harvey.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Harvey question on TrueInterview](https://trueinterview.io/problems/company/harvey).
 
 ---

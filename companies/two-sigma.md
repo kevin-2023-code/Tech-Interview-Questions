@@ -2,7 +2,7 @@
 
 # Two Sigma interview process, OA & interview questions
 
-**24 questions** reported at Two Sigma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
+**42 questions** reported at Two Sigma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Two Sigma interviews & the free questions](two-sigma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **24** |
+| Questions tracked | **42** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (88% of 24) |
-| Difficulty (easy / medium / hard) | 1 / 18 / 5 |
+| Most common format | [Algorithm](../formats/algorithm.md) (83% of 42) |
+| Difficulty (easy / medium / hard) | 2 / 30 / 10 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 24 questions reported at Two Sigma. 16 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 42 questions reported at Two Sigma. 31 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **24 of 24** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **42 of 42** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 9 | █████████ | [Algorithm](../formats/algorithm.md) (89%) | 1 / 6 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (80%) | 0 / 9 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 6 | ██████ | [Algorithm](../formats/algorithm.md) (83%) | 0 / 4 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 2 / 14 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 17 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 10 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **24 of 24** questions at Two Sigma
 
 ## What they ask about
 
-Of the **19 questions at Two Sigma that carry a topic label** (79% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **27 questions at Two Sigma that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 21% | ████████████ | Mar 25, 2026 |
-| `math` | 4 | 21% | ████████████ | May 10, 2026 |
-| `greedy` | 3 | 16% | █████████ | Mar 25, 2026 |
-| `trees` | 3 | 16% | █████████ | Mar 25, 2026 |
-| `arrays` | 2 | 11% | ██████ | Mar 25, 2026 |
-| `binary-search` | 2 | 11% | ██████ | May 10, 2026 |
-| `heap` | 2 | 11% | ██████ | Jul 29, 2026 |
-| `sorting` | 2 | 11% | ██████ | Mar 25, 2026 |
-| `strings` | 2 | 11% | ██████ | Feb 18, 2026 |
-| `backtracking` | 1 | 5% | ███ | Oct 09, 2025 |
+| `math` | 7 | 26% | ████████████ | May 10, 2026 |
+| `graphs` | 5 | 19% | █████████ | Mar 25, 2026 |
+| `greedy` | 4 | 15% | ███████ | Mar 25, 2026 |
+| `sorting` | 4 | 15% | ███████ | Mar 25, 2026 |
+| `binary-search` | 3 | 11% | █████ | May 10, 2026 |
+| `strings` | 3 | 11% | █████ | Feb 18, 2026 |
+| `trees` | 3 | 11% | █████ | Mar 25, 2026 |
+| `arrays` | 2 | 7% | ███ | Mar 25, 2026 |
+| `heap` | 2 | 7% | ███ | Jul 29, 2026 |
+| `stack` | 2 | 7% | ███ | Mar 25, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -69,14 +69,14 @@ Every recorded sighting at Two Sigma, by the month it was reported in — Oct 09
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jul 2026](../by-month/2026-07.md) | 1 | ████████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████ |
-| [Mar 2026](../by-month/2026-03.md) | 3 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 3 | ████████████████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
+| [May 2026](../by-month/2026-05.md) | 3 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | █████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 5 | █████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ██████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | ██████████ |
+| [Nov 2025](../by-month/2025-11.md) | 7 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 3 | ██████████ |
 
 ## Start here
 
@@ -88,10 +88,10 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | **2** | [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | — | May 10, 2026 |
 | **3** | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) 🆓 | Algorithm | Medium | — | May 10, 2026 |
 | **4** | [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | — | May 10, 2026 |
-| **5** | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Object Oriented Programming | Medium | — | Apr 07, 2026 |
-| **6** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) 🆓 | Algorithm | Hard | 1 | Mar 25, 2026 |
-| **7** | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Algorithm | Medium | — | Mar 25, 2026 |
-| **8** | [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero) | Algorithm | Hard | — | Mar 21, 2026 |
+| **5** | [Greedy feature selection](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-greedy-feature-selection) | Algorithm | Medium | — | Apr 21, 2026 |
+| **6** | [No-intercept linear regression](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-no-intercept-linear-regression) | Algorithm | Medium | — | Apr 21, 2026 |
+| **7** | [Prediction task](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task) | Algorithm | Medium | — | Apr 21, 2026 |
+| **8** | [Similarity analysis](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-similarity-analysis) | Algorithm | Medium | — | Apr 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -119,23 +119,41 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | [NYC Temperature Regression Analysis](https://trueinterview.io/questions/qr-oa-nyc-temperature-regression) | Algorithm | Medium | May 10, 2026 |
 | [Univariate OLS Regression Through Origin](https://trueinterview.io/questions/qr-oa-efficient-univariate-ols) | Algorithm | Medium | May 10, 2026 |
 | [Linear Interpolation](https://trueinterview.io/questions/qr-oa-linear-interpolator) | Algorithm | Medium | May 10, 2026 |
+| [No-intercept linear regression](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-no-intercept-linear-regression) | Algorithm | Medium | Apr 21, 2026 |
+| [Greedy feature selection](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-greedy-feature-selection) | Algorithm | Medium | Apr 21, 2026 |
+| [Prediction task](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-prediction-task) | Algorithm | Medium | Apr 21, 2026 |
+| [Similarity analysis](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-similarity-analysis) | Algorithm | Medium | Apr 21, 2026 |
+| [Volatility analysis](https://trueinterview.io/questions/analyze-temperatures-and-update-regression-volatility-analysis) | Algorithm | Medium | Apr 21, 2026 |
 | [In-Memory SQL-Like Database](https://trueinterview.io/questions/fab7e746-1323-41e3-9a38-6a6a56ae1e46) | Object Oriented Programming | Medium | Apr 07, 2026 |
 | [Split Drainage Tree](https://trueinterview.io/questions/swe-oa-sewer-tree-partition) | Algorithm | Medium | Mar 25, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
 | [Minimum Operations to Reduce to Zero](https://trueinterview.io/questions/minimum-operations-to-reduce-to-zero) | Algorithm | Hard | Mar 21, 2026 |
+| [Predict bike demand and avoid overfitting](https://trueinterview.io/questions/predict-bike-demand-and-avoid-overfitting) | System Design | Medium | Mar 13, 2026 |
+| [Evaluate piecewise linear function at x](https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x) | Algorithm | Medium | Mar 01, 2026 |
+| [Implement merge sort and largest 1-rectangle](https://trueinterview.io/questions/implement-merge-sort-and-largest-1-rectangle) | Algorithm | Hard | Feb 26, 2026 |
 | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Algorithm | Medium | Feb 18, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Huffman-Style Binary Encode / Decode](https://trueinterview.io/questions/huffman-style-binary-encode-decode) | Algorithm | Hard | Dec 15, 2025 |
-| [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree) | Algorithm | Hard | Nov 18, 2025 |
+| [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data) | System Design | Hard | Dec 02, 2025 |
+| [Expected Number of Good Pairs in a Randomly Weighted Complete Graph](https://trueinterview.io/questions/expected-number-of-good-pairs-in-a-randomly-weighted-complete-graph) | Algorithm | Hard | Dec 02, 2025 |
+| [Smallest Palindrome Strictly Greater Than K](https://trueinterview.io/questions/smallest-palindrome-strictly-greater-than-k) | Algorithm | Hard | Nov 28, 2025 |
+| [Assign 2n Workers to Two Tasks to Minimize Total Time](https://trueinterview.io/questions/assign-2n-workers-to-two-tasks-to-minimize-total-time) | Algorithm | Hard | Nov 28, 2025 |
+| [Maximum Independent Set on a Tree](https://trueinterview.io/questions/maximum-independent-set-on-tree) | Algorithm | Medium | Nov 18, 2025 |
+| [Implement Univariate Linear Regression with Ordinary Least Squares](https://trueinterview.io/questions/implement-univariate-linear-regression-with-ordinary-least-squares) | Algorithm | Medium | Nov 15, 2025 |
+| [Count Distinct Island Shapes in a Binary Grid](https://trueinterview.io/questions/count-distinct-island-shapes-in-a-binary-grid) | Algorithm | Medium | Nov 15, 2025 |
 | [HashMap from Scratch](https://trueinterview.io/questions/hashmap-from-scratch) | Object Oriented Programming | Medium | Nov 13, 2025 |
+| [Predict a Company's Stock Price from Six Years of Web Search Logs](https://trueinterview.io/questions/predict-a-companys-stock-price-from-six-years-of-web-search-logs) | System Design | Hard | Nov 02, 2025 |
 | [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Object Oriented Programming | Medium | Oct 13, 2025 |
 | [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round) | Algorithm | Medium | Oct 09, 2025 |
 | [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) | Algorithm | Hard | Oct 09, 2025 |
+| [Perform no-intercept linear regression from two datasets](https://trueinterview.io/questions/perform-no-intercept-linear-regression-from-two-datasets) | Algorithm | Medium | — |
+| [Analyze NYC taxi trips efficiently over last 7 days](https://trueinterview.io/questions/analyze-nyc-taxi-trips-efficiently-over-last-7-days) | SQL | Medium | — |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
 | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Algorithm | Medium | — |
 | [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Algorithm | Medium | — |
 | [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Algorithm | Medium | — |
 | [Redundant Connection: Underground Pipes](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) | Algorithm | Medium | — |
+| [Stock Max Profit (Single or Multiple Transactions)](https://trueinterview.io/questions/7b157f40-79a0-48dd-a935-b4e27d6a6d0a) | Algorithm | Easy | — |
 | [Data Analysis on New York Housing Prices](https://trueinterview.io/questions/79e545c0-6cc0-4940-a1ff-941b8e249bb7) | Algorithm | Medium | — |
 | [Calculate y/x using Patch](https://trueinterview.io/questions/08463bd2-ae87-4cda-9a87-de246d9df796) | Algorithm | Easy | — |

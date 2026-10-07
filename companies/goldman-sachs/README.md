@@ -8,11 +8,11 @@ How Goldman Sachs interviews, and the questions candidates reported there. Free 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [48](../goldman-sachs.md) |
+| Questions reported | [53](../goldman-sachs.md) |
 | Free to read here | 24 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jul 06, 2026 |
+| Most recent sighting | Sep 13, 2026 |
 
 ## How Goldman Sachs interviews
 
@@ -55,17 +55,17 @@ This guide goes deeper than the process outline on the Goldman Sachs company pag
 | [Plus-Multiply Even / Odd Parity](../../questions/algorithm/plus-multiply-even-odd-parity/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/plus-multiply-even-odd-parity) |
 | [Valid Triangle + Point Inclusion](../../questions/algorithm/valid-triangle-point-inclusion/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/valid-triangle-point-inclusion) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
-| [Min × Max Product After Push / Pop](../../questions/algorithm/min-max-product-stream/README.md) | Algorithm | Hard | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/min-max-product-stream) |
-| [Compliance Alert / Trailing-Average Sliding Window](../../questions/algorithm/compliance-alert-sliding-window/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/compliance-alert-sliding-window) |
+| [Min × Max Product After Push / Pop](../../questions/algorithm/min-max-product-stream/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/min-max-product-stream) |
+| [Compliance Alert / Trailing-Average Sliding Window](../../questions/algorithm/compliance-alert-sliding-window/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/compliance-alert-sliding-window) |
 | [Chairs / Restaurant Order Simulation](../../questions/algorithm/chairs-restaurant-simulation/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/chairs-restaurant-simulation) |
-| [Anagram Queries on Word List](../../questions/algorithm/anagram-queries/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/anagram-queries) |
+| [Anagram Queries on Word List](../../questions/algorithm/anagram-queries/README.md) | Algorithm | Easy | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/anagram-queries) |
 | [Longest Subarray With Sum ≤ K](../../questions/algorithm/longest-subarray-sum-at-most-k/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/longest-subarray-sum-at-most-k) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 
 ## Everything else
 
-- [All 48 questions reported at Goldman Sachs](../goldman-sachs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 53 questions reported at Goldman Sachs](../goldman-sachs.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Goldman Sachs question on TrueInterview](https://trueinterview.io/problems/company/goldman-sachs).
 
 ---

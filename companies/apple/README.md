@@ -8,8 +8,8 @@ How Apple interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [116](../apple.md) |
-| Free to read here | 21 |
+| Questions reported | [145](../apple.md) |
+| Free to read here | 22 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
 | Most recent sighting | Aug 26, 2026 |
@@ -38,7 +38,7 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 
 ## Free Apple questions
 
-21 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+22 questions reported at Apple open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -49,6 +49,7 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 | [LRU Cache](../../questions/ai-coding/lru-cache/README.md) | AI Coding | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/lru-cache) |
 | [Product of Array Except Self](../../questions/algorithm/product-of-array-except-self/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/product-of-array-except-self) |
 | [Trapping Rain Water](../../questions/algorithm/trapping-rain-water/README.md) | Algorithm | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/trapping-rain-water) |
+| [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Longest Substring Without Repeating Characters II](../../questions/algorithm/longest-substring-without-repeating-characters/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/longest-substring-without-repeating-characters) |
@@ -66,7 +67,7 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 
 ## Everything else
 
-- [All 116 questions reported at Apple](../apple.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 145 questions reported at Apple](../apple.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Apple question on TrueInterview](https://trueinterview.io/problems/company/apple).
 
 ---

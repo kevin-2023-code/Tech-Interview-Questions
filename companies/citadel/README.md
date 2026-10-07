@@ -8,7 +8,7 @@ How Citadel interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [61](../citadel.md) |
+| Questions reported | [72](../citadel.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -40,7 +40,7 @@ The loop typically runs four to five rounds beyond the recruiter call, and the f
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Maximize Pipeline Throughput](../../questions/algorithm/oa-pipeline-throughput/README.md) | Algorithm | Medium | Online assessment | Jun 2026 | [Solve](https://trueinterview.io/questions/oa-pipeline-throughput) |
+| [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
 | [Closest Pair of Points](../../questions/algorithm/closest-pair-of-points/README.md) | Algorithm | Hard | Phone screen | Jan 2026 | [Solve](https://trueinterview.io/questions/closest-pair-of-points) |
 | [Count Palindromic Substrings](../../questions/algorithm/palindromic-substrings/README.md) | Algorithm | Medium | Online assessment | Oct 2024 | [Solve](https://trueinterview.io/questions/palindromic-substrings) |
@@ -48,7 +48,7 @@ The loop typically runs four to five rounds beyond the recruiter call, and the f
 
 ## Everything else
 
-- [All 61 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 72 questions reported at Citadel](../citadel.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Citadel question on TrueInterview](https://trueinterview.io/problems/company/citadel).
 
 ---

@@ -83,7 +83,7 @@ The third is adaptability when the problem changes. Interviewers add a constrain
 
 ## Data Source
 
-Based on 25 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 42 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

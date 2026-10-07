@@ -8,7 +8,7 @@ How Cohere interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../cohere.md) |
+| Questions reported | [3](../cohere.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../cohere.md#the-loop-as-r
 
 ## Everything else
 
-- [All 2 questions reported at Cohere](../cohere.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 3 questions reported at Cohere](../cohere.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cohere question on TrueInterview](https://trueinterview.io/problems/company/cohere).
 
 ---

@@ -2,7 +2,7 @@
 
 # Salesforce interview process, OA & interview questions
 
-**78 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**87 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,36 +14,38 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **78** |
-| Most recent sighting | Aug 24, 2026 |
-| Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (83% of 78) |
-| Difficulty (easy / medium / hard) | 15 / 43 / 20 |
+| Questions tracked | **87** |
+| Most recent sighting | Aug 31, 2026 |
+| Reported in the last 90 days | 13 |
+| Most common format | [Algorithm](../formats/algorithm.md) (78% of 87) |
+| Difficulty (easy / medium / hard) | 16 / 51 / 20 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 78 questions reported at Salesforce. 35 of them carry a sighting date; the other 43 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 87 questions reported at Salesforce. 43 of them carry a sighting date; the other 44 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **78 of 78** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **87 of 87** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 22 | █████ | [Algorithm](../formats/algorithm.md) (95%) | 13 / 8 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 41 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 2 / 29 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 20 | █████ | [Algorithm](../formats/algorithm.md) (55%) | 0 / 11 / 9 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 24 | ██████ | [Algorithm](../formats/algorithm.md) (96%) | 14 / 9 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 41 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 2 / 31 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 27 | ███████ | [Algorithm](../formats/algorithm.md) (44%) | 0 / 16 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**11 sightings** in this window. Newest first.
+**13 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
+| [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | System Design | Hard | Onsite / virtual onsite | Aug 31, 2026 |
 | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | Onsite / virtual onsite | Aug 24, 2026 |
 | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | Onsite / virtual onsite | Aug 24, 2026 |
 | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | Onsite / virtual onsite | Aug 16, 2026 |
@@ -54,43 +56,44 @@ Which stage each question came from, for the **78 of 78** questions at Salesforc
 | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | Online assessment | Jul 25, 2026 |
 | [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Algorithm | Hard | Phone screen | Jul 25, 2026 |
 | [Maximal Rectangle (LeetCode 85)](https://trueinterview.io/questions/maximal-rectangle) | Algorithm | Hard | Onsite / virtual onsite | Jul 17, 2026 |
-| [Maximal Square (LeetCode 221)](https://trueinterview.io/questions/maximal-square) | Algorithm | Hard | Onsite / virtual onsite | Jul 17, 2026 |
+
+<sub>1 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **66 questions at Salesforce that carry a topic label** (85% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **70 questions at Salesforce that carry a topic label** (80% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 13 | 20% | ████████████ | Jun 22, 2026 |
-| `strings` | 11 | 17% | ██████████ | Aug 24, 2026 |
-| `greedy` | 10 | 15% | █████████ | Apr 01, 2026 |
-| `dynamic-programming` | 9 | 14% | ████████ | Jul 25, 2026 |
-| `graphs` | 8 | 12% | ███████ | Aug 24, 2026 |
-| `two-pointers` | 7 | 11% | ██████ | Aug 16, 2026 |
-| `hashing` | 5 | 8% | █████ | Mar 19, 2026 |
-| `math` | 5 | 8% | █████ | — |
-| `trees` | 5 | 8% | █████ | Aug 16, 2026 |
+| `arrays` | 13 | 19% | ████████████ | Jun 22, 2026 |
+| `greedy` | 12 | 17% | ███████████ | Apr 05, 2026 |
+| `strings` | 11 | 16% | ██████████ | Aug 24, 2026 |
+| `dynamic-programming` | 9 | 13% | ████████ | Jul 25, 2026 |
+| `graphs` | 8 | 11% | ███████ | Aug 24, 2026 |
+| `two-pointers` | 8 | 11% | ███████ | Aug 16, 2026 |
+| `hashing` | 6 | 9% | ██████ | Aug 31, 2026 |
+| `math` | 5 | 7% | █████ | — |
+| `trees` | 5 | 7% | █████ | Aug 16, 2026 |
 | `backtracking` | 4 | 6% | ████ | Aug 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Salesforce, by the month it was reported in — Oct 15, 2025 to Aug 24, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Salesforce, by the month it was reported in — Oct 15, 2025 to Aug 31, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 6 | ██████████████████ |
-| [Jul 2026](../by-month/2026-07.md) | 5 | ███████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 8 | █████████████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 5 | █████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ██████ |
-| [Mar 2026](../by-month/2026-03.md) | 8 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ██████ |
-| [Jan 2026](../by-month/2026-01.md) | 7 | █████████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ██████ |
+| [Apr 2026](../by-month/2026-04.md) | 4 | ███████████ |
+| [Mar 2026](../by-month/2026-03.md) | 8 | █████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 9 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | █████ |
 
 ## Start here
 
@@ -98,14 +101,14 @@ The 8 questions to open first if you are preparing for Salesforce, ranked by **t
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | — | Aug 24, 2026 |
-| **2** | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | — | Aug 24, 2026 |
-| **3** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | 1 | Aug 16, 2026 |
-| **4** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | — | Aug 16, 2026 |
-| **5** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | — | Aug 16, 2026 |
-| **6** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | — | Aug 16, 2026 |
-| **7** | [Average Deal Size](https://trueinterview.io/questions/average-deal-size) | SQL | Easy | — | Jul 26, 2026 |
-| **8** | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | — | Jul 25, 2026 |
+| **1** | [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | System Design | Hard | — | Aug 31, 2026 |
+| **2** | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | System Design | Hard | — | Aug 31, 2026 |
+| **3** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | — | Aug 24, 2026 |
+| **4** | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | — | Aug 24, 2026 |
+| **5** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Algorithm | Hard | 1 | Aug 16, 2026 |
+| **6** | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | — | Aug 16, 2026 |
+| **7** | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | — | Aug 16, 2026 |
+| **8** | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | — | Aug 16, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -137,6 +140,8 @@ What candidates said happened in the room at Salesforce — written up by the pe
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | System Design | Hard | 🆕 Aug 31, 2026 |
+| [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | System Design | Hard | 🆕 Aug 31, 2026 |
 | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | 🆕 Aug 24, 2026 |
 | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | 🆕 Aug 24, 2026 |
 | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | Aug 16, 2026 |
@@ -147,30 +152,36 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | [Optimal Account Balancing (LeetCode 465)](https://trueinterview.io/questions/optimal-account-balancing) | Algorithm | Hard | Jul 25, 2026 |
 | [Delete One Character Type, Minimize Unique-Character Segments](https://trueinterview.io/questions/delete-character-minimize-unique-segments) | Algorithm | Medium | Jul 25, 2026 |
 | [Maximal Rectangle (LeetCode 85)](https://trueinterview.io/questions/maximal-rectangle) | Algorithm | Hard | Jul 17, 2026 |
-| [Maximal Square (LeetCode 221)](https://trueinterview.io/questions/maximal-square) | Algorithm | Hard | Jul 17, 2026 |
+| [Maximal Square (LeetCode 221)](https://trueinterview.io/questions/maximal-square) | Algorithm | Medium | Jul 17, 2026 |
 | [Campaign Cost Weekly Partition](https://trueinterview.io/questions/campaign-cost-weekly-partition) | Algorithm | Medium | Jun 22, 2026 |
+| [Validate a Generalized Word Abbreviation](https://trueinterview.io/questions/validate-a-generalized-word-abbreviation) | Algorithm | Medium | Apr 11, 2026 |
+| [Solve Two Coding Problems](https://trueinterview.io/questions/solve-two-oa-coding-problems) | Algorithm | Medium | Apr 05, 2026 |
 | [String Compression](https://trueinterview.io/questions/string-compression-oa) | Algorithm | Medium | Apr 03, 2026 |
 | [Minimum Operations to Reduce an Integer to 0](https://trueinterview.io/questions/minimum-operations-to-reduce-an-integer-to-0) | Algorithm | Medium | Apr 01, 2026 |
 | [Minimum Knight Moves](https://trueinterview.io/questions/minimum-knight-moves) | Algorithm | Medium | Mar 28, 2026 |
 | [Maximum Requests in a Time Window](https://trueinterview.io/questions/maximum-requests-in-time-window) | Algorithm | Easy | Mar 19, 2026 |
 | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Algorithm | Medium | Mar 19, 2026 |
-| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Hard | Mar 17, 2026 |
+| [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Medium | Mar 17, 2026 |
 | [Design a Collaborative Spreadsheet (Google Sheets)](https://trueinterview.io/questions/google-sheets-design) | System Design | Hard | Mar 10, 2026 |
 | [Design an Analytics Metrics Dashboard for ChatGPT / LLM Service](https://trueinterview.io/questions/analytics-dashboard-llm-product) | System Design | Hard | Mar 10, 2026 |
 | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | AI Coding | Medium | Mar 10, 2026 |
 | [Code Review of a Python Repository](https://trueinterview.io/questions/code-review-oa) | AI Coding | Medium | Mar 05, 2026 |
 | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Algorithm | Medium | Feb 21, 2026 |
 | [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system) | System Design | Medium | Feb 09, 2026 |
-| [Rate Limiter for Expensive API with User-Configurable Monthly Quota](https://trueinterview.io/questions/rate-limiter-user-configurable-quota) | System Design | Medium | Jan 30, 2026 |
-| [Singly Linked List — Remove Duplicate Values](https://trueinterview.io/questions/linked-list-remove-duplicates) | Algorithm | Medium | Jan 30, 2026 |
+| [Rate Limiter for Expensive API with User-Configurable Monthly Quota](https://trueinterview.io/questions/rate-limiter-user-configurable-quota) | Object Oriented Programming | Medium | Jan 30, 2026 |
+| [Singly Linked List — Remove Duplicate Values](https://trueinterview.io/questions/linked-list-remove-duplicates) | Algorithm | Easy | Jan 30, 2026 |
 | [Frontend Curry: addTwoNumbers → addThreeNumbers(a)(b)(c)](https://trueinterview.io/questions/frontend-currying-add-numbers) | Algorithm | Medium | Jan 30, 2026 |
 | [Longest Subsequence of X That Is a Substring of Y](https://trueinterview.io/questions/longest-subsequence-substring) | Algorithm | Medium | Jan 20, 2026 |
+| [Design a Multi-Vendor Integration Platform](https://trueinterview.io/questions/design-a-multi-vendor-integration-platform) | System Design | Hard | Jan 18, 2026 |
+| [Design a Concurrent Car Reservation Service](https://trueinterview.io/questions/design-a-concurrent-car-reservation-service) | System Design | Medium | Jan 18, 2026 |
 | [Flatten Nested JSON / HashMap to String](https://trueinterview.io/questions/flatten-nested-json) | Algorithm | Medium | Jan 11, 2026 |
 | [Design a High-Throughput Distributed Cache](https://trueinterview.io/questions/high-throughput-cache-design) | System Design | Hard | Jan 09, 2026 |
-| [Design an Async Job / Task System](https://trueinterview.io/questions/async-job-task-system) | System Design | Hard | Jan 09, 2026 |
+| [Design an Async Job / Task System](https://trueinterview.io/questions/async-job-task-system) | System Design | Medium | Jan 09, 2026 |
 | [Binary String Synchronous '01' → '10' Replacement](https://trueinterview.io/questions/binary-string-01-10-swap) | Algorithm | Hard | Dec 25, 2025 |
 | [Array Left / Right Duplicate Check (Binary Strings)](https://trueinterview.io/questions/array-left-right-duplicate-check) | Algorithm | Easy | Dec 25, 2025 |
+| [Solve array duplicate flags and binary swaps](https://trueinterview.io/questions/solve-array-duplicate-flags-and-binary-swaps) | Algorithm | Medium | Dec 17, 2025 |
 | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Algorithm | Medium | Nov 26, 2025 |
+| [Design a 911 emergency calling service](https://trueinterview.io/questions/design-a-911-emergency-calling-service) | System Design | Hard | Oct 18, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Implement Merge Sort and Explain Its Recursion Tree](https://trueinterview.io/questions/fd482349-0d16-53dc-92d1-556d697f78c4) | Algorithm | Medium | — |
 | [Convert a Sorted Doubly Linked List to an In-Place Balanced BST](https://trueinterview.io/questions/f1aaa02f-904d-5b17-9a24-32f73f3f56a7) | Algorithm | Medium | — |
@@ -192,7 +203,7 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | [Most Visited Marker in Sprint Training](https://trueinterview.io/questions/65f00d0c-3f95-41c3-9de7-a7efa08dfd1f) | Algorithm | Easy | — |
 | [Get Special Substring (MTS)](https://trueinterview.io/questions/5e82414b-11b4-4b76-93fc-3ab5dc368f3e) | Algorithm | Medium | — |
 | [Minimize Length of Longest Substring](https://trueinterview.io/questions/58c4ff99-6edc-4bf8-a18a-33ee1f085852) | Algorithm | Hard | — |
-| [Split Array into K Parts with Minimum Sum of Maxima](https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00) | Algorithm | Hard | — |
+| [Split Array into K Parts with Minimum Sum of Maxima](https://trueinterview.io/questions/54c46fcb-af9b-4954-80f6-8f6bd2449d00) | Algorithm | Medium | — |
 | [Path Sum in a Binary Tree](https://trueinterview.io/questions/47b63952-31a7-5519-a5d6-16d0eecff233) | Algorithm | Easy | — |
 | [Determine Whether a Date Falls on a Weekend](https://trueinterview.io/questions/4445f526-42ef-5256-bc53-b6614133cfc3) | Algorithm | Easy | — |
 | [Spam Classification](https://trueinterview.io/questions/32ae8ac4-07db-42b6-9ace-a99f3b13c4ed) | Algorithm | Easy | — |
@@ -213,5 +224,6 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | [String Anagram Windows](https://trueinterview.io/questions/44f7611e-614f-4bde-9a4e-75bccab17ace) | Algorithm | Medium | — |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | — |
 | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | — |
+| [Design Elevator Control System](https://trueinterview.io/questions/design-elevator-control-system) | Object Oriented Programming | Medium | — |
 | [LFU Cache II](https://trueinterview.io/questions/c488db3c-4149-4a40-8d6d-baca65c23221) | Object Oriented Programming | Medium | — |
 | [Finding the Longest Increasing Subsequence](https://trueinterview.io/questions/08ee097d-ac29-4e3c-b527-6c46b34be62e) | Algorithm | Hard | — |

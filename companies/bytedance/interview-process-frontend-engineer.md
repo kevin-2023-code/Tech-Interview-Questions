@@ -74,7 +74,7 @@ The third filter comes after you have done well. Frontend candidates report hear
 
 ## Data Source
 
-Based on 90 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 92 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

@@ -8,11 +8,11 @@ How Circle interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../circle.md) |
+| Questions reported | [6](../circle.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Jan 19, 2026 |
 
 ## How Circle interviews
 
@@ -43,7 +43,7 @@ Beyond the assessment, the loop moves to live rounds run over video. Candidates 
 
 ## Everything else
 
-- [All 5 questions reported at Circle](../circle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Circle](../circle.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Circle question on TrueInterview](https://trueinterview.io/problems/company/circle).
 
 ---

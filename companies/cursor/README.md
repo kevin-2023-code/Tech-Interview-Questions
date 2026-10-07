@@ -8,11 +8,11 @@ How Cursor interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [2](../cursor.md) |
+| Questions reported | [5](../cursor.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Apr 07, 2026 |
+| Most recent sighting | Aug 21, 2026 |
 
 ## How Cursor interviews
 
@@ -24,12 +24,12 @@ No written process guide yet. [The loop, as reported](../cursor.md#the-loop-as-r
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Hash a Repository with a Merkle Tree and Find Changed Files](../../questions/system-design/hash-a-repository-with-a-merkle-tree-and-find-changed-files/README.md) | System Design | Easy | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) |
-| [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
+| [Hash a Repository with a Merkle Tree and Find Changed Files](../../questions/algorithm/hash-a-repository-with-a-merkle-tree-and-find-changed-files/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) |
+| [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
 
 ## Everything else
 
-- [All 2 questions reported at Cursor](../cursor.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 5 questions reported at Cursor](../cursor.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cursor question on TrueInterview](https://trueinterview.io/problems/company/cursor).
 
 ---

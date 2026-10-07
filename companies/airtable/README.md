@@ -8,11 +8,11 @@ How Airtable interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../airtable.md) |
+| Questions reported | [8](../airtable.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Feb 12, 2026 |
 
 ## How Airtable interviews
 
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../airtable.md#the-loop-as
 
 ## Everything else
 
-- [All 5 questions reported at Airtable](../airtable.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 8 questions reported at Airtable](../airtable.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airtable question on TrueInterview](https://trueinterview.io/problems/company/airtable).
 
 ---

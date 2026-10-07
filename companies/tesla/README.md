@@ -8,11 +8,11 @@ How Tesla interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [35](../tesla.md) |
+| Questions reported | [44](../tesla.md) |
 | Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Jun 03, 2026 |
+| Most recent sighting | Sep 04, 2026 |
 
 ## How Tesla interviews
 
@@ -46,15 +46,15 @@ End to end, the process typically takes three to eight weeks, but the operationa
 | [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/shortest-bridge-2) |
 | [Robot Room Navigation Take-Home](../../questions/algorithm/robot-room-navigation-takehome/README.md) | Algorithm | Hard | Take-home | Sep 2025 | [Solve](https://trueinterview.io/questions/robot-room-navigation-takehome) |
 | [Debug Dijkstra Shortest Path for Navigation](../../questions/ai-coding/dijkstra-code-review-navigation/README.md) | AI Coding | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/dijkstra-code-review-navigation) |
-| [Priority Expiry LRU Cache](../../questions/object-oriented-programming/priority-expire-cache-eviction/README.md) | Object Oriented Programming | Hard | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/priority-expire-cache-eviction) |
+| [Priority Expiry LRU Cache](../../questions/object-oriented-programming/priority-expire-cache-eviction/README.md) | Object Oriented Programming | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/priority-expire-cache-eviction) |
 | [Route Nearest Checkpoint](../../questions/algorithm/trajectory-waypoint-distance-queries/README.md) | Algorithm | Medium | Phone screen | Aug 2025 | [Solve](https://trueinterview.io/questions/trajectory-waypoint-distance-queries) |
 | [Dojo Pythonic Coding Pair: Permutation Check and Pow](../../questions/algorithm/dojo-permutation-and-pow/README.md) | Algorithm | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/dojo-permutation-and-pow) |
-| [Basic Calculator with Operators, Variables, and Functions](../../questions/object-oriented-programming/basic-calculator-extended-language/README.md) | Object Oriented Programming | Hard | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/basic-calculator-extended-language) |
+| [Basic Calculator with Operators, Variables, and Functions](../../questions/object-oriented-programming/basic-calculator-extended-language/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/basic-calculator-extended-language) |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](../../questions/object-oriented-programming/event-bus-emit-subscribe/README.md) | Object Oriented Programming | Medium | Phone screen | Jul 2025 | [Solve](https://trueinterview.io/questions/event-bus-emit-subscribe) |
 
 ## Everything else
 
-- [All 35 questions reported at Tesla](../tesla.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 44 questions reported at Tesla](../tesla.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Tesla question on TrueInterview](https://trueinterview.io/problems/company/tesla).
 
 ---

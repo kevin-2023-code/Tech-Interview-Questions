@@ -83,7 +83,7 @@ The third filter is treating coding as a formality. The reports include an origi
 
 ## Data Source
 
-Based on 19 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 20 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

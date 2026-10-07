@@ -8,7 +8,7 @@ How Square interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [12](../square.md) |
+| Questions reported | [14](../square.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../square.md#the-loop-as-r
 
 ## Everything else
 
-- [All 12 questions reported at Square](../square.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 14 questions reported at Square](../square.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Square question on TrueInterview](https://trueinterview.io/problems/company/square).
 
 ---

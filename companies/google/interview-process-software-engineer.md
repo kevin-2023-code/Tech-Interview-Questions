@@ -79,7 +79,7 @@ The third pattern is the interviewer's style. Some interviewers give no hints, s
 
 ## Data Source
 
-Based on 110 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
+Based on 115 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q3.
 
 ## FAQ
 

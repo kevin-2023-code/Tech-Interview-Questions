@@ -8,11 +8,11 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [32](../robinhood.md) |
+| Questions reported | [43](../robinhood.md) |
 | Free to read here | 10 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | May 09, 2026 |
+| Most recent sighting | Sep 17, 2026 |
 
 ## How Robinhood interviews
 
@@ -42,20 +42,20 @@ System design draws from a small, stable bank that varies by track. The job sche
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
-| [Fractional Inventory](../../questions/algorithm/fractional-share-inventory-trading/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/fractional-share-inventory-trading) |
+| [Fractional Inventory](../../questions/algorithm/fractional-share-inventory-trading/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/fractional-share-inventory-trading) |
 | [Design Notification System](../../questions/system-design/design-a-notification-system-for-reddit/README.md) | System Design | Easy | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-notification-system-for-reddit) |
 | [Design Stock Trading Platform](../../questions/system-design/design-a-stock-order-trade-management-system/README.md) | System Design | Hard | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) |
 | [Design Job Scheduler](../../questions/system-design/job-scheduler-design/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/job-scheduler-design) |
 | [Load Factor Calculation](../../questions/algorithm/service-dependency-load-factor/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/service-dependency-load-factor) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Design An Account Takeover Detection System](../../questions/system-design/account-takeover-prediction-system/README.md) | System Design | Hard | Onsite / virtual onsite | Oct 2025 | [Solve](https://trueinterview.io/questions/account-takeover-prediction-system) |
-| [Mobile Table View Timer App](../../questions/ai-coding/mobile-table-view-timer-app/README.md) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/mobile-table-view-timer-app) |
+| [Mobile Table View Timer App](../../questions/object-oriented-programming/mobile-table-view-timer-app/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Aug 2025 | [Solve](https://trueinterview.io/questions/mobile-table-view-timer-app) |
 | [Financial News Recommendation Feed](../../questions/system-design/financial-news-recommendation-feed/README.md) | System Design | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/financial-news-recommendation-feed) |
-| [Find Middle Course](../../questions/algorithm/find-middle-course/README.md) | Algorithm | Medium | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/find-middle-course) |
+| [Find Middle Course](../../questions/algorithm/find-middle-course/README.md) | Algorithm | Easy | Phone screen | Apr 2025 | [Solve](https://trueinterview.io/questions/find-middle-course) |
 
 ## Everything else
 
-- [All 32 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 43 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Robinhood question on TrueInterview](https://trueinterview.io/problems/company/robinhood).
 
 ---

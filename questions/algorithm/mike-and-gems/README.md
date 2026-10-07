@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Rubrik | Phone screen | backtracking, greedy | — |
+| Algorithm | Medium | Rubrik | Phone screen | backtracking, greedy | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -81,7 +81,7 @@ Present in most AI loops, often as a full round. Interviewers probe what you per
 
 ## Data Source
 
-Based on 10 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

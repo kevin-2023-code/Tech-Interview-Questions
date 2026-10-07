@@ -2,7 +2,7 @@
 
 # Reddit interview process, OA & interview questions
 
-**29 questions** reported at Reddit · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
+**34 questions** reported at Reddit · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/reddit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Reddit interviews & the free questions](reddit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,35 +14,39 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **29** |
-| Most recent sighting | Jun 23, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (41% of 29) |
-| Difficulty (easy / medium / hard) | 2 / 20 / 7 |
+| Questions tracked | **34** |
+| Most recent sighting | Sep 04, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [System Design](../formats/system-design.md) (41% of 34) |
+| Difficulty (easy / medium / hard) | 3 / 26 / 5 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 29 questions reported at Reddit. 23 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 34 questions reported at Reddit. 27 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **29 of 29** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **34 of 34** questions at Reddit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ████████ | [Algorithm](../formats/algorithm.md) (60%) | 0 / 13 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 20 | ██████████ | [System Design](../formats/system-design.md) (55%) | 1 / 14 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 18 | ████████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 16 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 22 | ██████████ | [System Design](../formats/system-design.md) (59%) | 1 / 17 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Reddit since Jun 23, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Object Oriented Programming | Medium | Phone screen | Sep 04, 2026 |
 
 ## What they ask about
 
-Of the **14 questions at Reddit that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **14 questions at Reddit that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -61,16 +65,18 @@ Of the **14 questions at Reddit that carry a topic label** (48% of them — the 
 
 ## When they asked it
 
-Every recorded sighting at Reddit, by the month it was reported in — Jul 21, 2025 to Jun 23, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Reddit, by the month it was reported in — Jul 21, 2025 to Sep 04, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ████████████████ |
-| [May 2026](../by-month/2026-05.md) | 3 | ████████████ |
+| [May 2026](../by-month/2026-05.md) | 5 | ████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 4 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 3 | ████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ████ |
 
 ## Start here
@@ -79,14 +85,14 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) 🆓 | Algorithm | Medium | — | Jun 23, 2026 |
-| **2** | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Algorithm | Medium | — | Jun 12, 2026 |
-| **3** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | — | Jun 12, 2026 |
-| **4** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
-| **5** | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | — | May 30, 2026 |
-| **6** | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | 1 | May 12, 2026 |
-| **7** | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | — | May 2026 |
-| **8** | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | 2 | Apr 17, 2026 |
+| **1** | [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Object Oriented Programming | Medium | — | Sep 04, 2026 |
+| **2** | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) 🆓 | Algorithm | Medium | — | Jun 23, 2026 |
+| **3** | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Algorithm | Medium | — | Jun 12, 2026 |
+| **4** | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | — | Jun 12, 2026 |
+| **5** | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | — | Jun 12, 2026 |
+| **6** | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | — | May 30, 2026 |
+| **7** | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | 1 | May 12, 2026 |
+| **8** | [Debug and Improve a Load Balancer](https://trueinterview.io/questions/debug-and-improve-a-load-balancer) | System Design | Medium | — | May 06, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -110,31 +116,36 @@ The 8 questions to open first if you are preparing for Reddit, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design Add, Overwrite, Undo, and Redo for Billing State](https://trueinterview.io/questions/design-add-overwrite-undo-and-redo-for-billing-state) | Object Oriented Programming | Medium | 🆕 Sep 04, 2026 |
 | [Moderator List Hierarchy](https://trueinterview.io/questions/moderator-list-hierarchy) | Algorithm | Medium | Jun 23, 2026 |
 | [Tennis Scoring II](https://trueinterview.io/questions/tennis-match-scoring) | Object Oriented Programming | Medium | Jun 12, 2026 |
 | [Pseudo-Memcached Protocol Server](https://trueinterview.io/questions/pseudo-memcached-protocol) | Algorithm | Medium | Jun 12, 2026 |
 | [Chat Message Range Merge](https://trueinterview.io/questions/merge-chat-message-windows) | Algorithm | Medium | Jun 12, 2026 |
 | [Post Click Prediction](https://trueinterview.io/questions/post-click-prediction) | AI Coding | Medium | May 30, 2026 |
 | [Word Search in a Straight Line](https://trueinterview.io/questions/phone-screen-word-search-straight-line) | Algorithm | Medium | May 12, 2026 |
+| [Design Tennis Scoring with Pluggable Rules](https://trueinterview.io/questions/design-tennis-scoring-with-pluggable-rules) | Object Oriented Programming | Medium | May 06, 2026 |
+| [Debug and Improve a Load Balancer](https://trueinterview.io/questions/debug-and-improve-a-load-balancer) | System Design | Medium | May 06, 2026 |
 | [Reconstruct Billing Status](https://trueinterview.io/questions/billing-status-replay-ood) | Object Oriented Programming | Medium | May 2026 |
 | [Design Content Moderation System](https://trueinterview.io/questions/content-moderation-system-design) | System Design | Hard | Apr 17, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
-| [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Hard | Apr 09, 2026 |
+| [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | System Design | Medium | Apr 09, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Apr 02, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Design Reddit Comments Ranking System](https://trueinterview.io/questions/design-reddit-s-post-comment-ranking-system) | System Design | Medium | Mar 23, 2026 |
 | [Feature Store](https://trueinterview.io/questions/feature-store) | System Design | Medium | Mar 23, 2026 |
-| [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Algorithm | Hard | Mar 2026 |
+| [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Algorithm | Medium | Mar 2026 |
 | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Algorithm | Medium | Mar 2026 |
 | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Algorithm | Easy | Mar 2026 |
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | Object Oriented Programming | Medium | Feb 17, 2026 |
 | [Video Recommendation](https://trueinterview.io/questions/video-recommendation) | System Design | Hard | Feb 2026 |
 | [Related Communities Finder](https://trueinterview.io/questions/related-communities-finder) | Algorithm | Medium | Jan 23, 2026 |
-| [Merge JSON Event Logs](https://trueinterview.io/questions/merge-json-event-logs) | Algorithm | Medium | Jan 23, 2026 |
+| [Merge JSON Event Logs](https://trueinterview.io/questions/merge-json-event-logs) | Algorithm | Easy | Jan 23, 2026 |
+| [Design comment-likelihood prediction platform](https://trueinterview.io/questions/design-comment-likelihood-prediction-platform) | System Design | Medium | Nov 10, 2025 |
 | [Dictionary Word Transformation Path](https://trueinterview.io/questions/dictionary-word-transformation-path) | Algorithm | Medium | Jul 21, 2025 |
+| [Design A Video Recommendation System](https://trueinterview.io/questions/design-a-video-recommendation-system-2) | System Design | Hard | — |
 | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | System Design | Medium | — |
-| [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Hard | — |
+| [Design A Personalized Search Ranking System](https://trueinterview.io/questions/d6c8316c-c7a9-4074-bec9-f19e4252f21d) | System Design | Medium | — |
 | [Design Slack-like Chat System](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) | System Design | Hard | — |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | Object Oriented Programming | Medium | — |
 | [Bill Status](https://trueinterview.io/questions/c81438b9-658d-4bae-b831-0fbca2814444) | Object Oriented Programming | Medium | — |

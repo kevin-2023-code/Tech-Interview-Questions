@@ -8,7 +8,7 @@ How SoFi interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [27](../sofi.md) |
+| Questions reported | [30](../sofi.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -46,7 +46,7 @@ This guide goes deeper than the process outline on the company page: what each S
 
 ## Everything else
 
-- [All 27 questions reported at SoFi](../sofi.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 30 questions reported at SoFi](../sofi.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every SoFi question on TrueInterview](https://trueinterview.io/problems/company/sofi).
 
 ---

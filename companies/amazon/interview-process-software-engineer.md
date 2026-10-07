@@ -47,7 +47,6 @@ Two to four coding segments across the process, easy to medium with an occasiona
 
 At least one design-and-code round per loop, and often a phone screen as well. Prompts are two sentences long, and the interviewer expects you to pull out the requirements. Strong answers separate entities cleanly (a book title versus a physical copy, for example), make ordering rules pluggable and cover concurrency when asked. Weak answers stop at a list of if-statements, or spend so long clarifying that nothing gets built.
 
-- [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search)
 - [Pub-Sub Messaging System](https://trueinterview.io/questions/pub-sub-system-ood)
 - [Playlist / Guide Voting System](https://trueinterview.io/questions/playlist-guide-voting-ood)
 - [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation)
@@ -84,7 +83,7 @@ The third filter is behavioral depth. Stories that hold up once fall apart at th
 
 ## Data Source
 
-Based on 116 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 117 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

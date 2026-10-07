@@ -86,7 +86,7 @@ The third is operational shallowness in design. Structure alone does not pass: a
 
 ## Data Source
 
-Based on 35 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 40 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

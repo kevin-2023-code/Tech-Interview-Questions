@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Cisco | Online assessment | linked-list | Sep 2025 |
+| Algorithm | Easy | Cisco | Online assessment | linked-list | Sep 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/add-two-reversed-digit-lists)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -66,6 +66,11 @@ apple
 
 **Explanation:** The first two `"apple"` lines form a run (only the first kept). The three `"banana"` lines form another run (only the first kept). The final two `"apple"` lines are a new run (again, only the first kept).
 
+```trueviz
+{"v":1,"kind":"example","title":"uniq: collapse adjacent duplicate lines","input":{"lines":"[\"apple\", \"apple\", \"banana\", \"banana\", \"banana\", \"apple\", \"apple\"]"},"steps":[{"say":"Input: 7 lines, in order.","panels":[{"type":"array","id":"in","label":"input lines","values":["apple","apple","banana","banana","banana","apple","apple"]}]},{"say":"Lines 1-2 are both \"apple\" — one run; only the first is kept.","panels":[{"type":"array","id":"in","label":"input lines","values":["apple","apple","banana","banana","banana","apple","apple"],"marks":{"read":[0,1],"found":[0],"dim":[1]},"ranges":[{"from":0,"to":1,"label":"run: apple"}]}]},{"say":"Lines 3-5 are all \"banana\" — one run; only the first is kept.","panels":[{"type":"array","id":"in","label":"input lines","values":["apple","apple","banana","banana","banana","apple","apple"],"marks":{"read":[2,3,4],"found":[0,2],"dim":[1,3,4]},"ranges":[{"from":0,"to":1,"label":"run: apple"},{"from":2,"to":4,"label":"run: banana"}]}]},{"say":"Lines 6-7 are both \"apple\" again — a new run, not adjacent to the earlier apples; only the first is kept.","panels":[{"type":"array","id":"in","label":"input lines","values":["apple","apple","banana","banana","banana","apple","apple"],"marks":{"read":[5,6],"found":[0,2,5],"dim":[1,3,4,6]},"ranges":[{"from":0,"to":1,"label":"run: apple"},{"from":2,"to":4,"label":"run: banana"},{"from":5,"to":6,"label":"run: apple"}]}]},{"say":"Kept lines, in original order: apple, banana, apple.","panels":[{"type":"array","id":"in","label":"input lines","values":["apple","apple","banana","banana","banana","apple","apple"],"marks":{"found":[0,2,5],"dim":[1,3,4,6]},"ranges":[{"from":0,"to":1,"label":"run: apple"},{"from":2,"to":4,"label":"run: banana"},{"from":5,"to":6,"label":"run: apple"}]},{"type":"array","id":"out","label":"output","values":["apple","banana","apple"],"marks":{"found":[0,1,2]}}]}],"expected":"apple\nbanana\napple"}
+```
+
+
 ### Example 2
 
 Input:

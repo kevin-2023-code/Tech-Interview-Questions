@@ -50,6 +50,11 @@ Input:
 Output: 1 0 0 1
 ```
 
+```trueviz
+{"v":1,"kind":"example","title":"Check Prefix Permutation","input":{"p":"[2, 4, 1, 3]"},"steps":[{"say":"The input permutation p = [2, 4, 1, 3]. The map shows where each value sits.","panels":[{"type":"array","id":"p","label":"p","values":["2","4","1","3"]},{"type":"map","id":"pos","label":"value -> index","entries":[{"key":"1","value":"2"},{"key":"2","value":"0"},{"key":"3","value":"3"},{"key":"4","value":"1"}],"layout":"table"}]},{"say":"For k=1, the set {1} is at index 2. Its span is just index 2, length 1, which equals k. So result[0] = 1.","panels":[{"type":"array","id":"p","label":"p","values":["2","4","1","3"],"marks":{"found":[2]},"ranges":[{"from":2,"to":2,"label":"span"}]},{"type":"array","id":"result","label":"result","values":["1","0","0","0"],"marks":{"found":[0]}}]},{"say":"For k=2, the set {1,2} is at indices 2 and 0. The span from 0 to 2 has length 3, not 2. So result[1] = 0.","panels":[{"type":"array","id":"p","label":"p","values":["2","4","1","3"],"marks":{"found":[0,2]},"ranges":[{"from":0,"to":2,"label":"span"}]},{"type":"array","id":"result","label":"result","values":["1","0","0","0"],"marks":{"read":[1]}}]},{"say":"For k=3, the set {1,2,3} is at indices 2, 0, and 3. The span from 0 to 3 has length 4, not 3. So result[2] = 0.","panels":[{"type":"array","id":"p","label":"p","values":["2","4","1","3"],"marks":{"found":[0,2,3]},"ranges":[{"from":0,"to":3,"label":"span"}]},{"type":"array","id":"result","label":"result","values":["1","0","0","0"],"marks":{"read":[2]}}]},{"say":"For k=4, the set {1,2,3,4} covers all indices 0..3. The span length is 4, which equals k. So result[3] = 1.","panels":[{"type":"array","id":"p","label":"p","values":["2","4","1","3"],"marks":{"found":[0,1,2,3]},"ranges":[{"from":0,"to":3,"label":"span"}]},{"type":"array","id":"result","label":"result","values":["1","0","0","1"],"marks":{"found":[3]}}]},{"say":"The final result array is [1, 0, 0, 1].","panels":[{"type":"array","id":"result","label":"result","values":["1","0","0","1"],"marks":{"found":[0,3]}}]}],"expected":"[1, 0, 0, 1]"}
+```
+
+
 **Example 2**
 
 ```text
@@ -64,21 +69,21 @@ Output: 1 1 1 1 1
 <details>
 <summary>Hint 1</summary>
 
-Think about what condition must hold for a subarray of length k to contain exactly the numbers 1..k — how does the position of the maximum value in that subarray relate to k?
+For each k, you need to check if there is a contiguous subarray of length k that contains exactly the numbers 1 through k in some order.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Track the running maximum and minimum positions of the first k numbers as you iterate k from 1 to n, and check if those positions define a subarray of exactly length k.
+Since the array is a permutation, a subarray of length k contains 1..k if and only if the maximum value in that subarray is k and the minimum is 1, but more efficiently, track the positions of each value and check if the positions of 1..k form a contiguous block.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The O(n) solution uses the fact that for k to be balanced, the span of positions of numbers 1..k must equal k — watch for the case where numbers are not contiguous in value but still form a contiguous block in the permutation.
+For each k, the positions of 1..k must span exactly k indices (i.e., max position - min position + 1 == k). You can compute this incrementally by maintaining the min and max positions as you iterate k from 1 to n.
 
 </details>
 

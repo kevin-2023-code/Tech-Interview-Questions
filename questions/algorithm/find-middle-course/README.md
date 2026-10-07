@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Robinhood | Phone screen | graphs, dynamic-programming | Apr 2025 |
+| Algorithm | Easy | Robinhood | Phone screen | graphs, dynamic-programming | Apr 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/find-middle-course)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

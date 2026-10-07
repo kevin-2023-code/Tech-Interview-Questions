@@ -8,8 +8,8 @@ How Ziphq interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../ziphq.md) |
-| Free to read here | 1 |
+| Questions reported | [6](../ziphq.md) |
+| Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
 | Most recent sighting | Sep 17, 2026 |
@@ -20,15 +20,16 @@ No written process guide yet. [The loop, as reported](../ziphq.md#the-loop-as-re
 
 ## Free Ziphq questions
 
-1 question reported at Ziphq open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+2 questions reported at Ziphq open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Find the Guaranteed Capture Time in a Turn-Based Graph Game](../../questions/algorithm/find-the-guaranteed-capture-time-in-a-turn-based-graph-game/README.md) | Algorithm | Hard | Phone screen | Sep 2026 | [Solve](https://trueinterview.io/questions/find-the-guaranteed-capture-time-in-a-turn-based-graph-game) |
+| [Find shortest path on infinite grid](../../questions/algorithm/find-shortest-path-on-infinite-grid/README.md) | Algorithm | Hard | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/find-shortest-path-on-infinite-grid) |
 
 ## Everything else
 
-- [All 1 questions reported at Ziphq](../ziphq.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Ziphq](../ziphq.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Ziphq question on TrueInterview](https://trueinterview.io/problems/company/ziphq).
 
 ---

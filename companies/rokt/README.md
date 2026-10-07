@@ -8,11 +8,11 @@ How Rokt interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [4](../rokt.md) |
+| Questions reported | [5](../rokt.md) |
 | Free to read here | 3 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Dec 06, 2025 |
 
 ## How Rokt interviews
 
@@ -30,7 +30,7 @@ No written process guide yet. [The loop, as reported](../rokt.md#the-loop-as-rep
 
 ## Everything else
 
-- [All 4 questions reported at Rokt](../rokt.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 5 questions reported at Rokt](../rokt.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rokt question on TrueInterview](https://trueinterview.io/problems/company/rokt).
 
 ---

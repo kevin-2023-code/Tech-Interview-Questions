@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**104 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**148 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,94 +14,103 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **104** |
-| Most recent sighting | Aug 22, 2026 |
-| Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (39% of 104) |
-| Difficulty (easy / medium / hard) | 8 / 54 / 42 |
+| Questions tracked | **148** |
+| Most recent sighting | Sep 17, 2026 |
+| Reported in the last 90 days | 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (38% of 148) |
+| Difficulty (easy / medium / hard) | 10 / 69 / 69 |
 | Free to practise | [13](../free/README.md) |
 | Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 104 questions reported at OpenAI. 54 of them carry a sighting date; the other 50 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 148 questions reported at OpenAI. 96 of them carry a sighting date; the other 52 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **104 of 104** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **148 of 148** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | █ | [Algorithm](../formats/algorithm.md) (60%) | 3 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 50 | ████████ | [Algorithm](../formats/algorithm.md) (66%) | 1 / 32 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 66 | ██████████ | [System Design](../formats/system-design.md) (35%) | 4 / 32 / 30 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (67%) | 3 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 79 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 43 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 80 | ██████████ | [System Design](../formats/system-design.md) (41%) | 4 / 34 / 42 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**6 sightings** in this window. Newest first.
+**20 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Medium | Phone screen, Onsite / virtual onsite | Aug 22, 2026 |
-| [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | Onsite / virtual onsite | Aug 13, 2026 |
-| [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Hard | Onsite / virtual onsite | Aug 08, 2026 |
-| [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Hard | Onsite / virtual onsite | Jul 31, 2026 |
-| [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | Onsite / virtual onsite | Jul 16, 2026 |
-| [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jul 15, 2026 |
+| [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | Phone screen | Sep 17, 2026 |
+| [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | Phone screen | Sep 08, 2026 |
+| [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | Phone screen | Sep 07, 2026 |
+| [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | Phone screen | Aug 27, 2026 |
+| [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | Onsite / virtual onsite | Aug 24, 2026 |
+| [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | Phone screen | Aug 23, 2026 |
+| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Object Oriented Programming | Hard | Phone screen, Onsite / virtual onsite | Aug 22, 2026 |
+| [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | System Design | Hard | Phone screen | Aug 21, 2026 |
+| [Design Real-Time Electricity Monitoring and Policy Control](https://trueinterview.io/questions/design-real-time-electricity-monitoring-and-policy-control) | System Design | Hard | Phone screen | Aug 18, 2026 |
+| [Design Command Dispatch and Telemetry Reconciliation for Unreliable Devices](https://trueinterview.io/questions/design-command-dispatch-and-telemetry-reconciliation-for-unreliable-devices) | System Design | Hard | Phone screen | Aug 17, 2026 |
+| [Design a Dependency-Aware Concurrent Tool Scheduler](https://trueinterview.io/questions/design-a-dependency-aware-concurrent-tool-scheduler) | Object Oriented Programming | Medium | Phone screen | Aug 16, 2026 |
+| [Design a Digital Game Distribution Platform](https://trueinterview.io/questions/design-a-digital-game-distribution-platform) | System Design | Hard | Phone screen | Aug 16, 2026 |
+
+<sub>8 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **39 questions at OpenAI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **56 questions at OpenAI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 6 | 15% | ████████████ | Jun 19, 2026 |
-| `hashing` | 5 | 13% | ██████████ | Aug 22, 2026 |
-| `strings` | 5 | 13% | ██████████ | May 15, 2026 |
-| `arrays` | 4 | 10% | ████████ | Feb 04, 2026 |
-| `greedy` | 4 | 10% | ████████ | May 31, 2026 |
-| `sorting` | 4 | 10% | ████████ | Mar 09, 2026 |
-| `backtracking` | 3 | 8% | ██████ | Jun 19, 2026 |
-| `math` | 3 | 8% | ██████ | Jul 31, 2026 |
-| `binary-search` | 2 | 5% | ████ | Nov 17, 2025 |
-| `heap` | 2 | 5% | ████ | Jun 08, 2026 |
+| `math` | 9 | 16% | ████████████ | Sep 08, 2026 |
+| `graphs` | 8 | 14% | ███████████ | Aug 15, 2026 |
+| `matrix` | 8 | 14% | ███████████ | Aug 27, 2026 |
+| `hashing` | 7 | 12% | █████████ | Aug 22, 2026 |
+| `strings` | 6 | 11% | ████████ | May 15, 2026 |
+| `arrays` | 5 | 9% | ███████ | Apr 04, 2026 |
+| `greedy` | 5 | 9% | ███████ | May 31, 2026 |
+| `sorting` | 4 | 7% | █████ | Mar 09, 2026 |
+| `backtracking` | 3 | 5% | ████ | Jun 19, 2026 |
+| `topological-sort` | 3 | 5% | ████ | Sep 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2025 to Aug 22, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2025 to Sep 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 3 | ███████ |
-| [Jul 2026](../by-month/2026-07.md) | 3 | ███████ |
-| [Jun 2026](../by-month/2026-06.md) | 11 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 10 | ██████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 2 | ████ |
-| [Mar 2026](../by-month/2026-03.md) | 6 | █████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 4 | █████████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ████ |
-| [Dec 2025](../by-month/2025-12.md) | 3 | ███████ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | █████████ |
-| [Oct 2025](../by-month/2025-10.md) | 5 | ███████████ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | █████ |
+| [Aug 2026](../by-month/2026-08.md) | 13 | ██████████████████████ |
+| [Jul 2026](../by-month/2026-07.md) | 4 | ███████ |
+| [Jun 2026](../by-month/2026-06.md) | 11 | ███████████████████ |
+| [May 2026](../by-month/2026-05.md) | 10 | █████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 14 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | ██████████ |
+| [Feb 2026](../by-month/2026-02.md) | 7 | ████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | █████ |
+| [Dec 2025](../by-month/2025-12.md) | 11 | ███████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | █████████ |
+| [Oct 2025](../by-month/2025-10.md) | 8 | ██████████████ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
 
 ## Start here
 
-The 8 questions to open first if you are preparing for OpenAI, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for OpenAI, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Medium | — | Aug 22, 2026 |
-| **2** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | — | Aug 13, 2026 |
-| **3** | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Hard | — | Aug 08, 2026 |
-| **4** | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Hard | — | Jul 31, 2026 |
-| **5** | [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | — | Jul 16, 2026 |
-| **6** | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | — | Jul 15, 2026 |
-| **7** | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | — | Jun 20, 2026 |
-| **8** | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) 🆓 | Algorithm | Medium | 1 | Jun 19, 2026 |
+| **1** | [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | — | Sep 17, 2026 |
+| **2** | [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | — | Sep 08, 2026 |
+| **3** | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | — | Sep 07, 2026 |
+| **4** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | — | Aug 27, 2026 |
+| **5** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | — | Aug 24, 2026 |
+| **6** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | — | Aug 23, 2026 |
+| **7** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Object Oriented Programming | Hard | — | Aug 22, 2026 |
+| **8** | [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | System Design | Hard | — | Aug 21, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -139,10 +148,24 @@ What candidates said happened in the room at OpenAI — written up by the people
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Medium | Aug 22, 2026 |
+| [Order Tasks with Dependencies Using a Deterministic Topological Sort](https://trueinterview.io/questions/order-tasks-with-dependencies-using-a-deterministic-topological-sort) | Algorithm | Medium | 🆕 Sep 17, 2026 |
+| [Debug a Transformer Implementation and Implement a KV Cache for Decoding](https://trueinterview.io/questions/debug-a-transformer-implementation-and-implement-a-kv-cache-for-decoding) | Algorithm | Hard | 🆕 Sep 08, 2026 |
+| [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | 🆕 Sep 07, 2026 |
+| [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | 🆕 Aug 27, 2026 |
+| [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | 🆕 Aug 24, 2026 |
+| [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | 🆕 Aug 23, 2026 |
+| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Object Oriented Programming | Hard | Aug 22, 2026 |
+| [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | System Design | Hard | Aug 21, 2026 |
+| [Design Real-Time Electricity Monitoring and Policy Control](https://trueinterview.io/questions/design-real-time-electricity-monitoring-and-policy-control) | System Design | Hard | Aug 18, 2026 |
+| [Design Command Dispatch and Telemetry Reconciliation for Unreliable Devices](https://trueinterview.io/questions/design-command-dispatch-and-telemetry-reconciliation-for-unreliable-devices) | System Design | Hard | Aug 17, 2026 |
+| [Design a Time-Windowed GPU Credit Ledger](https://trueinterview.io/questions/design-a-time-windowed-gpu-credit-ledger) | System Design | Hard | Aug 16, 2026 |
+| [Design a Digital Game Distribution Platform](https://trueinterview.io/questions/design-a-digital-game-distribution-platform) | System Design | Hard | Aug 16, 2026 |
+| [Design a Dependency-Aware Concurrent Tool Scheduler](https://trueinterview.io/questions/design-a-dependency-aware-concurrent-tool-scheduler) | Object Oriented Programming | Medium | Aug 16, 2026 |
+| [Simulate Infection Spread with Immunity and Recovery](https://trueinterview.io/questions/simulate-infection-spread-with-immunity-and-recovery) | Algorithm | Hard | Aug 15, 2026 |
 | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | Aug 13, 2026 |
 | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Hard | Aug 08, 2026 |
 | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Hard | Jul 31, 2026 |
+| [Design a Highly Available Conversational AI Service](https://trueinterview.io/questions/design-a-highly-available-conversational-ai-service) | System Design | Hard | Jul 17, 2026 |
 | [Maximum Grid Jumping Path](https://trueinterview.io/questions/maximum-grid-jumping-path) | Algorithm | Hard | Jul 16, 2026 |
 | [Chat Message Events Aggregation](https://trueinterview.io/questions/chat-message-events-aggregation) | Object Oriented Programming | Medium | Jul 15, 2026 |
 | [Resumable Iterator with Multi-Dimensional Support](https://trueinterview.io/questions/resumable-iterator-with-multi-dimensional-support) | Object Oriented Programming | Medium | Jun 20, 2026 |
@@ -162,37 +185,68 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Mining Novel Data from Large Unlabeled Corpus](https://trueinterview.io/questions/mining-novel-data-unlabeled-corpus) | System Design | Hard | May 26, 2026 |
 | [Design ChatGPT](https://trueinterview.io/questions/design-chatgpt) | System Design | Medium | May 26, 2026 |
 | [Toy Language Type System](https://trueinterview.io/questions/toy-language-type-system) | Object Oriented Programming | Medium | May 26, 2026 |
-| [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Hard | May 26, 2026 |
+| [Classifier with Noisy Annotators](https://trueinterview.io/questions/classifier-noisy-annotators) | AI Coding | Medium | May 26, 2026 |
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
 | [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Algorithm | Medium | May 20, 2026 |
 | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Algorithm | Medium | May 15, 2026 |
+| [Generate Data Labeling Schedules](https://trueinterview.io/questions/generate-data-labeling-schedules) | Algorithm | Hard | Apr 28, 2026 |
+| [Design a Slack-Like Messaging System](https://trueinterview.io/questions/design-a-slack-like-messaging-system-3) | System Design | Hard | Apr 26, 2026 |
+| [Compute entropy and implement 1-NN](https://trueinterview.io/questions/compute-entropy-and-implement-1-nn) | Algorithm | Hard | Apr 24, 2026 |
+| [Convert IPv4 Ranges to CIDR Blocks](https://trueinterview.io/questions/convert-ipv4-ranges-to-cidr-blocks) | Algorithm | Hard | Apr 22, 2026 |
+| [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system) | System Design | Hard | Apr 19, 2026 |
+| [Design a Real-Time Sensor Intelligence System](https://trueinterview.io/questions/design-a-real-time-sensor-intelligence-system) | System Design | Hard | Apr 13, 2026 |
+| [Design IDE Sandbox and Payments](https://trueinterview.io/questions/design-ide-sandbox-and-payments) | System Design | Hard | Apr 07, 2026 |
+| [Prevent Duplicate Request Processing](https://trueinterview.io/questions/prevent-duplicate-request-processing) | System Design | Medium | Apr 04, 2026 |
+| [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui) | System Design | Medium | Apr 04, 2026 |
+| [Debug MiniGPT and Backpropagate Matmul](https://trueinterview.io/questions/debug-minigpt-and-backpropagate-matmul) | Algorithm | Hard | Apr 03, 2026 |
+| [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning) | Algorithm | Hard | Apr 02, 2026 |
+| [Compute Matrix Prefix Products And Gradients](https://trueinterview.io/questions/compute-matrix-prefix-products-and-gradients) | Algorithm | Hard | Apr 02, 2026 |
 | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | System Design | Hard | Apr 2026 |
 | [Debug a Transformer and Convert It to a Classifier](https://trueinterview.io/questions/transformer-debug) | AI Coding | Hard | Apr 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [ModalLock and FairModalLock](https://trueinterview.io/questions/modallock-and-fairmodallock) | Object Oriented Programming | Hard | Mar 30, 2026 |
-| [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design) | System Design | Hard | Mar 22, 2026 |
+| [RAG / Search ML Design (oral)](https://trueinterview.io/questions/rag-search-ml-design) | Algorithm | Hard | Mar 22, 2026 |
 | [Code Reading — 400-line PyTorch Refactor](https://trueinterview.io/questions/code-reading-pytorch-refactor) | AI Coding | Hard | Mar 09, 2026 |
 | [Shard Rebalancing](https://trueinterview.io/questions/shard-rebalancing) | Algorithm | Hard | Mar 09, 2026 |
-| [Design IP Range Iterator](https://trueinterview.io/questions/design-ip-range-iterator) | Algorithm | Medium | Mar 03, 2026 |
-| [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Hard | Feb 18, 2026 |
+| [Design IP Range Iterator](https://trueinterview.io/questions/design-ip-range-iterator) | Algorithm | Easy | Mar 03, 2026 |
+| [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Medium | Feb 18, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
+| [Write SQL for repeat churn](https://trueinterview.io/questions/write-sql-for-repeat-churn) | SQL | Hard | Feb 03, 2026 |
+| [Design a free-month experiment](https://trueinterview.io/questions/design-a-free-month-experiment) | System Design | Medium | Feb 03, 2026 |
+| [Implement follow graph with snapshots and recommendations](https://trueinterview.io/questions/implement-follow-graph-with-snapshots-and-recommendations) | Object Oriented Programming | Hard | Feb 02, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
 | [Design a Cloud IDE](https://trueinterview.io/questions/design-a-cloud-ide) | System Design | Medium | Feb 01, 2026 |
 | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | System Design | Medium | Jan 22, 2026 |
+| [Implement a memory allocator with malloc/free](https://trueinterview.io/questions/implement-a-memory-allocator-with-malloc-free) | Object Oriented Programming | Medium | Jan 09, 2026 |
 | [Design a Crossword Puzzle Solver](https://trueinterview.io/questions/crossword-puzzle-solver) | System Design | Hard | Jan 05, 2026 |
 | [Implement a CD Command](https://trueinterview.io/questions/implement-a-cd-command) | Algorithm | Hard | Dec 27, 2025 |
 | [Design Webhook Delivery System](https://trueinterview.io/questions/payment-webhook-system) | System Design | Medium | Dec 22, 2025 |
+| [Design an image/video near-duplicate detection system](https://trueinterview.io/questions/design-an-image-video-near-duplicate-detection-system) | System Design | Hard | Dec 15, 2025 |
+| [Design an AWS fine-tuning platform for LLMs](https://trueinterview.io/questions/design-an-aws-fine-tuning-platform-for-llms) | System Design | Hard | Dec 15, 2025 |
+| [Design a search query autocomplete system](https://trueinterview.io/questions/design-a-search-query-autocomplete-system) | System Design | Medium | Dec 15, 2025 |
+| [Design a regional surge pricing strategy](https://trueinterview.io/questions/design-a-regional-surge-pricing-strategy) | System Design | Medium | Dec 15, 2025 |
+| [Design a recommendation system end-to-end](https://trueinterview.io/questions/design-a-recommendation-system-end-to-end) | System Design | Hard | Dec 15, 2025 |
+| [Design a harmful video content moderation system](https://trueinterview.io/questions/design-a-harmful-video-content-moderation-system) | System Design | Hard | Dec 15, 2025 |
+| [Design a chatbot fallback for unknown questions](https://trueinterview.io/questions/design-a-chatbot-fallback-for-unknown-questions) | System Design | Hard | Dec 15, 2025 |
 | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | System Design | Hard | Dec 10, 2025 |
+| [Implement map serialization and deserialization](https://trueinterview.io/questions/implement-map-serialization-and-deserialization) | Object Oriented Programming | Medium | Dec 01, 2025 |
+| [Implement a persistent sharded key-value store](https://trueinterview.io/questions/implement-a-persistent-sharded-key-value-store) | Object Oriented Programming | Medium | Nov 24, 2025 |
 | [Dependency Version Check](https://trueinterview.io/questions/dependency-version-check) | Algorithm | Medium | Nov 17, 2025 |
 | [Chat Bot System Refactoring](https://trueinterview.io/questions/chat-bot-system-refactoring) | Object Oriented Programming | Medium | Nov 13, 2025 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
 | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Object Oriented Programming | Medium | Nov 07, 2025 |
+| [Implement delimiter-free string codec](https://trueinterview.io/questions/implement-delimiter-free-string-codec) | Algorithm | Medium | Oct 31, 2025 |
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | System Design | Easy | Oct 29, 2025 |
 | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | AI Coding | Hard | Oct 19, 2025 |
+| [Design a Resumable Iterator with Checkpoint and Restore](https://trueinterview.io/questions/design-a-resumable-iterator-with-checkpoint-and-restore) | Object Oriented Programming | Medium | Oct 18, 2025 |
 | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | System Design | Medium | Oct 18, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | System Design | Medium | Oct 07, 2025 |
+| [Compute signup rate and retention from raw logs](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) | SQL | Medium | Oct 04, 2025 |
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
+| [Debug and harden trial-assignment Python code](https://trueinterview.io/questions/debug-and-harden-trial-assignment-python-code) | Algorithm | Medium | — |
+| [Debug and fix a PyTorch Transformer training loop](https://trueinterview.io/questions/debug-and-fix-a-pytorch-transformer-training-loop) | Algorithm | Hard | — |
+| [Write SQL for post-trial conversion cohorts](https://trueinterview.io/questions/write-sql-for-post-trial-conversion-cohorts) | SQL | Hard | — |
 | [Guess a Secret Number with One-Call Delayed Feedback](https://trueinterview.io/questions/e41553c0-20ac-51a0-bc69-17309dce31b6) | Algorithm | Medium | — |
 | [Find the Incorrect Data Labeler](https://trueinterview.io/questions/d2fcfdcf-7015-535c-aecb-8729bdd9edcf) | Algorithm | Medium | — |
 | [Spreadsheet Implementation with Cycle Detection and Caching](https://trueinterview.io/questions/b0fb2e35-02e8-45a9-bcfe-f1ad3e4778fd) | Object Oriented Programming | Medium | — |
@@ -211,12 +265,12 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Algorithm | Medium | — |
 | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Object Oriented Programming | Hard | — |
 | [Debug a Transformer with Padding-Mask Invariance](https://trueinterview.io/questions/2255b47c-b6fa-4797-a06c-ffb8391f30c2) | AI Coding | Hard | — |
-| [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | AI Coding | Hard | — |
+| [Implement Matrix Multiplication Forward and Backward (Autograd-Style) in PyTorch](https://trueinterview.io/questions/0b297a24-8769-4688-b0bd-1b914279a827) | Algorithm | Hard | — |
 | [Design a RAG System](https://trueinterview.io/questions/design-a-rag-system) | System Design | Easy | — |
 | [Debug A/B Test Python Code (Metric Computation and Statistical Testing)](https://trueinterview.io/questions/fbde06cd-0253-4b64-a01a-9ea551c06435) | AI Coding | Medium | — |
 | [Monster Duel](https://trueinterview.io/questions/f015eda2-55c2-42c1-a27e-389cd37fbde7) | Algorithm | Hard | — |
 | [Dataset Exploration: Detect Label Noise and Choose Metrics](https://trueinterview.io/questions/efbf2b5a-6863-4c73-947f-003612c370f3) | Algorithm | Medium | — |
-| [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | AI Coding | Hard | — |
+| [Jetpack Compose: Build a UI Similar to Google Translate Home Screen](https://trueinterview.io/questions/ecec4fb8-cd2f-4da0-9620-145885b2aa3f) | AI Coding | Medium | — |
 | [Draw Paths / Strokes on a Set of Points](https://trueinterview.io/questions/e27c0df7-1849-4946-8f9d-70773e7d96e3) | Algorithm | Medium | — |
 | [Toy Language Interpreter](https://trueinterview.io/questions/d7b129eb-5166-4c1e-97bc-02132d748c47) | Algorithm | Easy | — |
 | [Math + Coding + Research Brainstorm (Notebook-based)](https://trueinterview.io/questions/d249ed6c-598c-435e-ba34-56d4c3aded8f) | AI Coding | Medium | — |
@@ -229,12 +283,11 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Cell Simulation / Conway's Game of Life](https://trueinterview.io/questions/a53a5fba-8679-5995-a771-1783f0fad482) | Algorithm | Medium | — |
 | [Debug and Improve a GRPO RL Training Loop for Language Models (PyTorch)](https://trueinterview.io/questions/906a162e-db6b-4431-8c41-1c53c758d2b9) | AI Coding | Hard | — |
 | [Compute the Distribution of LLM Decoding Stopping Time and Build a Strategy Against Adversaries](https://trueinterview.io/questions/7c43fee5-fd93-40b0-b610-b533299b665f) | Algorithm | Hard | — |
-| [Implement a ChatGPT-like Chat UI in React (Streaming + Loading + Message Flow)](https://trueinterview.io/questions/7754ac3d-eaf8-4ebc-855d-45a901c39e18) | AI Coding | Hard | — |
-| [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | Object Oriented Programming | Medium | — |
+| [Design a System for Remote Devbox](https://trueinterview.io/questions/7712035f-9c95-4803-8d87-0611bd9aca4c) | System Design | Medium | — |
 | [Balanced Sequence Generation for (AI, Human, Task) Tags with Prefix Constraints](https://trueinterview.io/questions/6c63f46e-8897-4039-b189-0fed5e159bf7) | Algorithm | Medium | — |
 | [Credit/Bug-free Implementation](https://trueinterview.io/questions/68125203-6fe0-48a1-ad34-b40da1720c20) | Object Oriented Programming | Medium | — |
 | [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | AI Coding | Hard | — |
-| [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | System Design | Easy | — |
+| [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | Algorithm | Medium | — |
 | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | SQL | Medium | — |
 | [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | AI Coding | Hard | — |
 | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Algorithm | Medium | — |

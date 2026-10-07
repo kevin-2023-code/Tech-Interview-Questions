@@ -8,11 +8,11 @@ How Perplexity interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [23](../perplexity.md) |
+| Questions reported | [24](../perplexity.md) |
 | Free to read here | 4 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
-| Most recent sighting | Jun 15, 2026 |
+| Most recent sighting | Sep 01, 2026 |
 
 ## How Perplexity interviews
 
@@ -47,7 +47,7 @@ This guide goes deeper than the process outline on the company page: what each P
 
 ## Everything else
 
-- [All 23 questions reported at Perplexity](../perplexity.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 24 questions reported at Perplexity](../perplexity.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Perplexity question on TrueInterview](https://trueinterview.io/problems/company/perplexity).
 
 ---

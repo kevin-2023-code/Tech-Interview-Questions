@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Hard | Squarepoint | Onsite / virtual onsite | — | — |
+| Object Oriented Programming | Medium | Squarepoint | Onsite / virtual onsite | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

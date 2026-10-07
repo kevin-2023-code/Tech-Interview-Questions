@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber | Phone screen | arrays | — |
+| Algorithm | Easy | Uber | Online assessment | arrays | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/688b80fe-8f40-45dc-8c98-61c2aaac7ea9)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

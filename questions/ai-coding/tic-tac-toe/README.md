@@ -12,56 +12,105 @@
 
 ## Problem
 
-## Tic-Tac-Toe
+## Tic Tac Toe
 
-Coding Phone Mobile Engineer Reported Jun, 2025 Medium Frequency
+**Medium** · 3 phases · TypeScript, no dependencies · phone screen
 
-### Problem Description
+Build a single-screen tic tac toe mini-game, then handle the small follow-up requirements the interviewer keeps adding once it works. In this workspace the follow-ups are already folded in: the board is **N x N and K in a row wins**, there is undo and redo, the winning run gets a line drawn through it, a computer opponent sits behind a "Hint" button, and on a 100 x 100 board it still has to feel instant.
 
-Create a one-screen Tic-Tac-Toe game that two players can play locally. Use the standard 3-by-3 board: `X` takes the first turn, players alternate placing their marks in empty cells, and a player wins by completing a row, column, or diagonal. If all nine cells are occupied without a winner, the game ends in a draw.
+Suggested time box: 45 to 60 minutes (Phase 1 about 10, Phase 2 about 25, Phase 3 about 15). AI assistance is fine, but be ready to explain every line you keep.
 
-Implement the game through the following component interface:
+#### The game
 
-```text
-TicTacToe()
+- The default board is the classic 3 x 3, three in a row to win; a new round can reshape it to any N x N with a win length K.
+- `X` always moves first and the players alternate; a mark may only go on an empty square.
+- A player wins with K marks in an unbroken line along a row, a column or either diagonal. If every square is taken and nobody has won, the round is a draw.
+- Once a round is decided no further moves are accepted.
+- The screen shows the board, whose turn it is while the round is live, and `X wins` / `O wins` / `Draw` when it ends. "New round" clears the board and its history and keeps the scoreboard.
+
+For example, on the 3 x 3 board, `X` top-left, `O` center, `X` top-middle, `O` bottom-right, `X` top-right is a win for `X` along the top row.
+
+#### How the screen is put together
+
+`app/` owns no logic. The state lives in one reducer, the rules live in one pure module, and everything the screen draws (every square, label and disabled button) comes out of one function, `buildViewModel`:
+
+```
+                                    src/board.ts   the grid: bounds, axes, runs
+   app/app.ts  --dispatch(action)--> src/store.ts   the reducer: one GameState
+      ^                              src/game.ts    the rules: who won, what to play
+      |                              src/view.ts    state -> ViewModel (what to draw)
+      +------------- ViewModel -----------+
 ```
 
-The screen should show the current board, indicate whose turn it is while play continues, and announce the winner or draw when the game finishes. Include a way to reset the board and begin a new match. Several small follow-up requirements may be discussed after the initial implementation.
+That split is what the phases grade, and it is why the whole game can be exercised from Node without a browser. `app/app.ts` is the reference wiring that renders the snapshot; read it to see exactly how your code is called. Rendering it in a browser needs a bundler, but the graded phases need nothing at all.
 
-### Examples
+#### What is in the workspace
 
-#### Example 1
+```
+src/
+  types.ts      the data model + the render contract (yours to widen)
+  board.ts      the grid: indexOf, inBounds, DIRECTIONS, countRun   <- 2 bugs
+  store.ts      the reducer: play, undo, redo, new round, scores    <- 1 bug
+  game.ts       findOutcome + chooseAiMove                          <- Phase 2, then Phase 3
+  view.ts       buildViewModel: the screen as one snapshot          <- Phase 2
+app/
+  app.ts        the screen: dispatch, view model, draw              <- read this
+  index.html    the markup it hangs on
+  styles.css
+main.ts         plays a round on the console
+tests/          one suite per phase; do not edit them
+```
 
-**Input:** Start a new game and place `X` in the top-left cell, then `O` in the center cell.
+#### Phase 1 - fix the bugs (about 10 min)
 
-**Output:** The board shows those two marks, and the next-turn indicator displays `X`.
+There are exactly **3 bugs**: **two in `src/board.ts`** and **one in `src/store.ts`**. Every function's documented behaviour is right; the code under it does not always agree.
 
-**Explanation:** Players alternate turns, with `X` moving first.
+Symptoms, if you want to reproduce them before reading the tests: a row of three that ends at the right-hand edge can be "completed" by a mark at the start of the row below; a genuine three in a row down the anti-diagonal is not a win at all; and a move played after an undo leaves the undone move waiting, so Redo drops a mark from a game nobody is playing any more.
 
-#### Example 2
+`src/game.ts` is a placeholder during Phase 1 that reports every position as still being played, which is why nothing can be won yet. The Phase 1 tests do not depend on it.
 
-**Input:** Play the moves `X: top-left, O: center, X: top-middle, O: bottom-right, X: top-right`.
+```
+node --test tests/board.test.ts tests/store.test.ts
+```
 
-**Output:** The game announces `X` as the winner.
+#### Phase 2 - implement the rules and the render layer (about 25 min)
 
-**Explanation:** `X` occupies all three cells in the top row.
+Two files, three functions; their docstrings are the contract.
 
-#### Example 3
+- `src/game.ts` - `findOutcome(position)`: has anyone made `winLength` in a row, who, and which squares. `chooseAiMove(position)`: win if you can, block if you must, otherwise take the middle.
+- `src/view.ts` - `buildViewModel(state)`: the whole screen as one immutable snapshot - squares with their marks and flags, the status line, the winning run, whether undo and redo are live, and the scoreboard.
 
-**Input:** Fill the board with `X` at top-left, top-right, center, bottom-left, and bottom-right; place `O` in the top-middle, middle-left, middle-right, and bottom-middle.
+```
+node --test tests/game.test.ts tests/view.test.ts
+node main.ts          # the acceptance script, printed
+```
 
-**Output:** The game reports a draw.
+#### Phase 3 - hold up on a big board (about 15 min)
 
-**Explanation:** Every cell is occupied, but neither mark forms a complete row, column, or diagonal.
+The same screen on a gomoku board: 100 x 100, five in a row to win, and `findOutcome` runs on **every play, every undo and every redo**. A Phase 2 answer that decides "has anybody won?" by reading all 10,000 squares again makes the board crawl.
 
-### Constraints
+```
+node --test tests/performance.test.ts
+```
 
-- The board contains exactly 9 cells arranged in a 3-by-3 grid.
-- A move may be made only in an unoccupied cell.
-- Players use only the marks `X` and `O`.
-- `X` always starts, and turns alternate until the game ends.
-- No moves are accepted after a winner or draw has been declared.
-- Resetting the game clears the board and makes `X` the next player.
+There are two gates, both on wall-clock time: playing a board out to the last square, and walking the history back and forth over a full board. The header of the test explains what the brute force costs and how the budgets were sized.
+
+#### Running everything
+
+```
+node --test "tests/*.test.ts"     # all five suites
+node main.ts                      # a round on the console
+```
+
+Node 22.18 or newer runs the TypeScript directly. No dependencies, no install, no network.
+
+#### Grading
+
+- All three gates green with the tests unedited.
+- Fixes address the cause, not the failing assertion; no special cases shaped like a test.
+- The split holds: state stays in the reducer, the rules stay pure, the screen stays dumb.
+- No `any`; the types say what the data is.
+- For each bug, you can explain why it produced the symptom it did.
 
 ## Hints
 

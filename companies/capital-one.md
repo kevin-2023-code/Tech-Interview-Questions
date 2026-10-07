@@ -2,7 +2,7 @@
 
 # Capital One interview process, OA & interview questions
 
-**51 questions** reported at Capital One · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
+**89 questions** reported at Capital One · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Capital One interviews & the free questions](capital-one/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **51** |
+| Questions tracked | **89** |
 | Most recent sighting | Sep 16, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (80% of 51) |
-| Difficulty (easy / medium / hard) | 10 / 37 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (56% of 89) |
+| Difficulty (easy / medium / hard) | 11 / 55 / 23 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 51 questions reported at Capital One. 38 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 89 questions reported at Capital One. 45 of them carry a sighting date; the other 44 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **51 of 51** questions at Capital One that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **89 of 89** questions at Capital One that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 30 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 21 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 6 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 13 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (38%) | 1 / 9 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
-| **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
+| **Online assessment** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 10 / 25 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 26 | ███████ | [Algorithm](../formats/algorithm.md) (46%) | 0 / 16 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 25 | ███████ | [System Design](../formats/system-design.md) (48%) | 1 / 14 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -45,26 +44,26 @@ Which stage each question came from, for the **51 of 51** questions at Capital O
 | :-- | :-- | :-: | :-- | :-- |
 | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | Online assessment | Sep 16, 2026 |
 | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Algorithm | Medium | Online assessment | Sep 07, 2026 |
-| [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Algorithm | Medium | Take-home | Aug 28, 2026 |
+| [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | System Design | Hard | Onsite / virtual onsite | Aug 23, 2026 |
 | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | Online assessment | Jul 19, 2026 |
 | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | Online assessment | Jul 19, 2026 |
 
 ## What they ask about
 
-Of the **36 questions at Capital One that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **40 questions at Capital One that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 11 | 31% | ████████████ | Sep 16, 2026 |
-| `matrix` | 8 | 22% | █████████ | Sep 07, 2026 |
-| `strings` | 5 | 14% | █████ | Jul 19, 2026 |
-| `hashing` | 4 | 11% | ████ | Jun 05, 2026 |
-| `sorting` | 4 | 11% | ████ | Sep 16, 2026 |
+| `arrays` | 12 | 30% | ████████████ | Sep 16, 2026 |
+| `matrix` | 10 | 25% | ██████████ | Sep 07, 2026 |
+| `strings` | 5 | 12% | █████ | Jul 19, 2026 |
+| `hashing` | 4 | 10% | ████ | Jun 05, 2026 |
+| `sorting` | 4 | 10% | ████ | Sep 16, 2026 |
 | `binary-search` | 3 | 8% | ███ | Jan 18, 2026 |
 | `greedy` | 3 | 8% | ███ | Apr 25, 2026 |
-| `math` | 3 | 8% | ███ | Aug 28, 2026 |
-| `two-pointers` | 2 | 6% | ██ | Jul 19, 2026 |
-| `dynamic-programming` | 1 | 3% | █ | Jan 19, 2026 |
+| `math` | 3 | 8% | ███ | May 13, 2026 |
+| `dynamic-programming` | 2 | 5% | ██ | Feb 12, 2026 |
+| `heap` | 2 | 5% | ██ | Feb 18, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -74,14 +73,16 @@ Every recorded sighting at Capital One, by the month it was reported in — Nov 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 2 | ████ |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ███ |
 | [Aug 2026](../by-month/2026-08.md) | 1 | ██ |
-| [Jul 2026](../by-month/2026-07.md) | 2 | ████ |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████ |
+| [Jul 2026](../by-month/2026-07.md) | 2 | ███ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ███ |
 | [May 2026](../by-month/2026-05.md) | 5 | █████████ |
-| [Apr 2026](../by-month/2026-04.md) | 8 | ███████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 4 | ███████ |
-| [Jan 2026](../by-month/2026-01.md) | 13 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 9 | ███████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 1 | ██ |
+| [Feb 2026](../by-month/2026-02.md) | 6 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 14 | ████████████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ███ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 
 ## Start here
@@ -92,7 +93,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | — | Sep 16, 2026 |
 | **2** | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Algorithm | Medium | — | Sep 07, 2026 |
-| **3** | [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Algorithm | Medium | — | Aug 28, 2026 |
+| **3** | [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | System Design | Hard | — | Aug 23, 2026 |
 | **4** | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | — | Jul 19, 2026 |
 | **5** | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | — | Jul 19, 2026 |
 | **6** | [Dynamic Two-Array Pair Sum Queries](https://trueinterview.io/questions/dynamic-two-array-pair-sum-queries) | Algorithm | Medium | — | Jun 05, 2026 |
@@ -125,7 +126,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | :-- | :-- | :-: | :-- |
 | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | 🆕 Sep 16, 2026 |
 | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Algorithm | Medium | 🆕 Sep 07, 2026 |
-| [NYC Green Taxi Data Science Challenge](https://trueinterview.io/questions/nyc-green-taxi-data-science-challenge) | Algorithm | Medium | 🆕 Aug 28, 2026 |
+| [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | System Design | Hard | 🆕 Aug 23, 2026 |
 | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | Jul 19, 2026 |
 | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | Jul 19, 2026 |
 | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Algorithm | Medium | Jun 05, 2026 |
@@ -139,14 +140,19 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Repeated Leading-Nonzero Subtraction](https://trueinterview.io/questions/repeated-subtraction-zeroing) | Algorithm | Medium | Apr 25, 2026 |
 | [Cumulative Views Reach Target Day](https://trueinterview.io/questions/cumulative-views-target-day) | Algorithm | Easy | Apr 25, 2026 |
 | [Beautify Houses to Strict Monotone](https://trueinterview.io/questions/beautify-houses-monotone) | Algorithm | Medium | Apr 25, 2026 |
+| [Solve Four Coding Assessment Tasks](https://trueinterview.io/questions/solve-four-coding-assessment-tasks) | Algorithm | Hard | Apr 13, 2026 |
 | [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Algorithm | Medium | Apr 08, 2026 |
 | [Warehouse Round-Robin Allocation with Closures](https://trueinterview.io/questions/warehouse-round-robin-allocation) | Algorithm | Medium | Apr 08, 2026 |
 | [Symmetric Triplets](https://trueinterview.io/questions/symmetric-triplets) | Algorithm | Easy | Apr 08, 2026 |
 | [Bank Class OOD: Deposit / Withdraw / Transfer](https://trueinterview.io/questions/bank-class-ood-transactions) | Object Oriented Programming | Medium | Apr 08, 2026 |
+| [Write SQL using joins and window functions](https://trueinterview.io/questions/write-sql-using-joins-and-window-functions) | SQL | Medium | Mar 01, 2026 |
 | [Battery Usage with Recharge Cycle](https://trueinterview.io/questions/battery-recharge-cycle) | Algorithm | Medium | Feb 18, 2026 |
+| [Find Lowest Prices for Highly Rated Categories](https://trueinterview.io/questions/find-lowest-prices-for-highly-rated-categories) | SQL | Medium | Feb 15, 2026 |
 | [Chatbot Case Study](https://trueinterview.io/questions/chatbot-case-study) | System Design | Hard | Feb 13, 2026 |
+| [Solve multiple algorithmic interview questions](https://trueinterview.io/questions/solve-multiple-algorithmic-interview-questions) | Algorithm | Hard | Feb 12, 2026 |
 | [MLE Deployment & Latency (Set B)](https://trueinterview.io/questions/mle-deployment-and-latency) | System Design | Easy | Feb 04, 2026 |
 | [Print All Root-to-Leaf Tree Paths](https://trueinterview.io/questions/print-tree-paths) | Algorithm | Medium | Feb 04, 2026 |
+| [How would you design delay and watchlist models?](https://trueinterview.io/questions/how-would-you-design-delay-and-watchlist-models) | System Design | Hard | Jan 30, 2026 |
 | [Lunar Phase State Lookup](https://trueinterview.io/questions/lunar-phase-state) | Algorithm | Medium | Jan 27, 2026 |
 | [AP Replacement Rounds](https://trueinterview.io/questions/ap-replacement-rounds) | Algorithm | Medium | Jan 27, 2026 |
 | [Account Balance & Cross-Region Event Platform](https://trueinterview.io/questions/account-balance-cross-region-events) | System Design | Hard | Jan 24, 2026 |
@@ -157,13 +163,46 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Top-p (Nucleus) Sampling with Logits or Probabilities](https://trueinterview.io/questions/ml-coding-top-p-sampling) | Algorithm | Medium | Jan 19, 2026 |
 | [Matrix Expression Max Value](https://trueinterview.io/questions/matrix-expression-max-value) | Algorithm | Medium | Jan 19, 2026 |
 | [Matrix Commands: Reverse / Swap / Rotate](https://trueinterview.io/questions/matrix-commands-reverse-swap-rotate) | Algorithm | Medium | Jan 19, 2026 |
-| [Train Schedule Nearest Departure](https://trueinterview.io/questions/train-schedule-nearest-departure) | Algorithm | Medium | Jan 18, 2026 |
+| [Train Schedule Nearest Departure](https://trueinterview.io/questions/train-schedule-nearest-departure) | Algorithm | Easy | Jan 18, 2026 |
 | [Online Banking Application](https://trueinterview.io/questions/online-banking-application) | System Design | Hard | Jan 17, 2026 |
 | [Color Match-Three Grid](https://trueinterview.io/questions/color-match-three-grid) | Algorithm | Medium | Jan 09, 2026 |
+| [Design a highly reliable account balance system](https://trueinterview.io/questions/design-a-highly-reliable-account-balance-system) | System Design | Hard | Dec 25, 2025 |
+| [Design a cross-region event processing platform](https://trueinterview.io/questions/design-a-cross-region-event-processing-platform) | System Design | Hard | Dec 25, 2025 |
 | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Algorithm | Medium | Nov 03, 2025 |
+| [Refactor code and enforce robustness](https://trueinterview.io/questions/refactor-code-and-enforce-robustness) | Algorithm | Medium | — |
+| [Prevent data registration outage and reduce loss](https://trueinterview.io/questions/prevent-data-registration-outage-and-reduce-loss) | System Design | Hard | — |
+| [Optimize theme park queues and revenue](https://trueinterview.io/questions/optimize-theme-park-queues-and-revenue) | System Design | Hard | — |
+| [Identify and mitigate risks to break-even](https://trueinterview.io/questions/identify-and-mitigate-risks-to-break-even) | System Design | Hard | — |
+| [Fix failing tests and refactor code](https://trueinterview.io/questions/fix-failing-tests-and-refactor-code) | Algorithm | Medium | — |
+| [Design profit evaluation for loyalty program](https://trueinterview.io/questions/design-profit-evaluation-for-loyalty-program) | System Design | Hard | — |
+| [Design late-tolerant streaming window aggregator](https://trueinterview.io/questions/design-late-tolerant-streaming-window-aggregator) | Object Oriented Programming | Hard | — |
+| [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | System Design | Medium | — |
+| [Decide content volume and price under uncertainty](https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty) | System Design | Hard | — |
+| [Choose cashback segment and model post-launch impact](https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact) | System Design | Medium | — |
+| [Build and validate a binary classifier](https://trueinterview.io/questions/build-and-validate-a-binary-classifier) | Algorithm | Medium | — |
+| [Build a causal ML pipeline end-to-end](https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end) | System Design | Hard | — |
+| [Write SQL to quantify outage revenue loss](https://trueinterview.io/questions/write-sql-to-quantify-outage-revenue-loss) | SQL | Hard | — |
+| [Write SQL to find top net-revenue products](https://trueinterview.io/questions/write-sql-to-find-top-net-revenue-products) | SQL | Medium | — |
+| [Write SQL to compute campaign net revenue](https://trueinterview.io/questions/write-sql-to-compute-campaign-net-revenue) | SQL | Hard | — |
+| [Write SQL for theme-park revenue and visits](https://trueinterview.io/questions/write-sql-for-theme-park-revenue-and-visits) | SQL | Medium | — |
+| [Reconcile ledgers with SQL/Python and late events](https://trueinterview.io/questions/reconcile-ledgers-with-sql-python-and-late-events) | SQL | Hard | — |
+| [Optimize invites under capacity constraints](https://trueinterview.io/questions/optimize-invites-under-capacity-constraints) | Algorithm | Medium | — |
+| [Merge seven tables into one clean DataFrame](https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe) | Algorithm | Medium | — |
+| [Merge four CSVs locally, robustly and efficiently](https://trueinterview.io/questions/merge-four-csvs-locally-robustly-and-efficiently) | Algorithm | Hard | — |
+| [Merge CSVs and build revenue pivot with pandas](https://trueinterview.io/questions/merge-csvs-and-build-revenue-pivot-with-pandas) | Algorithm | Medium | — |
+| [Merge ad CSVs and compute CTR](https://trueinterview.io/questions/merge-ad-csvs-and-compute-ctr) | SQL | Hard | — |
+| [Impute missing values without leakage](https://trueinterview.io/questions/impute-missing-values-without-leakage) | Algorithm | Hard | — |
+| [Impute, join, and upsert using SQL and Python](https://trueinterview.io/questions/impute-join-and-upsert-using-sql-and-python) | SQL | Medium | — |
+| [Identify country with highest sunny-day probability](https://trueinterview.io/questions/identify-country-with-highest-sunny-day-probability) | SQL | Medium | — |
+| [Fix dash dates and aggregate watch time](https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time) | SQL | Medium | — |
+| [Find top category per region in Aug 2025](https://trueinterview.io/questions/find-top-category-per-region-in-aug-2025) | SQL | Medium | — |
+| [Design a reproducible data pipeline for modeling](https://trueinterview.io/questions/design-a-reproducible-data-pipeline-for-modeling) | SQL | Medium | — |
+| [Audit flight data quality from metadata](https://trueinterview.io/questions/audit-flight-data-quality-from-metadata) | SQL | Hard | — |
+| [Aggregate exam scores with NULL handling](https://trueinterview.io/questions/aggregate-exam-scores-with-null-handling) | SQL | Medium | — |
+| [Decide on vegan-burger R&D investment](https://trueinterview.io/questions/decide-on-vegan-burger-randd-investment) | System Design | Medium | — |
 | [Check Whether a Board Fits Between Blockers](https://trueinterview.io/questions/e10f0996-651a-5155-859a-9eb69a7ce8fa) | Algorithm | Medium | — |
 | [Check Alternating Peaks and Valleys in a Circular Array](https://trueinterview.io/questions/2a51b3dc-6f2d-5830-89b2-7515275b4bad) | Algorithm | Easy | — |
-| [Count Pairs Matchable by One Digit Swap](https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc) | Algorithm | Hard | — |
+| [Count Pairs Matchable by One Digit Swap](https://trueinterview.io/questions/6c350a90-bb18-562d-b74c-f15b535a57dc) | Algorithm | Medium | — |
 | [Find the First Dictionary Word Matchable as a Reusable-Character Subsequence](https://trueinterview.io/questions/283a18eb-b75e-5b60-9dd6-f18b79b6033b) | Algorithm | Medium | — |
 | [Find an Exact Submatrix Pattern](https://trueinterview.io/questions/021c67f3-e24d-578b-b212-4b0fac4c2b8d) | Algorithm | Medium | — |
 | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | — |

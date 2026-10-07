@@ -2,7 +2,7 @@
 
 # Perplexity interview process, OA & interview questions
 
-**23 questions** reported at Perplexity · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
+**24 questions** reported at Perplexity · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/perplexity), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Perplexity interviews & the free questions](perplexity/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,57 +14,62 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
-| Most recent sighting | Jun 15, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (35% of 23) |
-| Difficulty (easy / medium / hard) | 1 / 18 / 4 |
+| Questions tracked | **24** |
+| Most recent sighting | Sep 01, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (42% of 24) |
+| Difficulty (easy / medium / hard) | 1 / 19 / 4 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 23 questions reported at Perplexity. 14 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 24 questions reported at Perplexity. 15 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at Perplexity that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **24 of 24** questions at Perplexity that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 3 | ██ | [AI Coding](../formats/ai-coding.md) (67%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 9 | ████████ | [System Design](../formats/system-design.md) (56%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 0 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 11 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 9 | ███████ | [System Design](../formats/system-design.md) (67%) | 1 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Perplexity since Jun 15, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | Onsite / virtual onsite | Sep 01, 2026 |
 
 ## What they ask about
 
-Of the **11 questions at Perplexity that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Perplexity that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 3 | 27% | ████████████ | Jun 08, 2026 |
-| `tries` | 3 | 27% | ████████████ | Jun 15, 2026 |
-| `heap` | 2 | 18% | ████████ | Jun 08, 2026 |
-| `trees` | 2 | 18% | ████████ | Jun 15, 2026 |
-| `binary-search` | 1 | 9% | ████ | Feb 23, 2026 |
-| `dynamic-programming` | 1 | 9% | ████ | — |
-| `graphs` | 1 | 9% | ████ | Oct 03, 2025 |
-| `intervals` | 1 | 9% | ████ | Aug 09, 2025 |
-| `matrix` | 1 | 9% | ████ | Oct 03, 2025 |
-| `sorting` | 1 | 9% | ████ | — |
+| `hashing` | 3 | 25% | ████████████ | Jun 08, 2026 |
+| `heap` | 3 | 25% | ████████████ | Jun 08, 2026 |
+| `tries` | 3 | 25% | ████████████ | Jun 15, 2026 |
+| `strings` | 2 | 17% | ████████ | Jan 06, 2026 |
+| `trees` | 2 | 17% | ████████ | Jun 15, 2026 |
+| `binary-search` | 1 | 8% | ████ | Feb 23, 2026 |
+| `dynamic-programming` | 1 | 8% | ████ | — |
+| `graphs` | 1 | 8% | ████ | Oct 03, 2025 |
+| `intervals` | 1 | 8% | ████ | Aug 09, 2025 |
+| `linked-list` | 1 | 8% | ████ | Jan 06, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Perplexity, by the month it was reported in — Aug 09, 2025 to Jun 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Perplexity, by the month it was reported in — Aug 09, 2025 to Sep 01, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ████████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ████████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████████████ |
@@ -82,14 +87,14 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
-| **2** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | 1 | Jun 08, 2026 |
-| **3** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) 🆓 | Object Oriented Programming | Medium | — | May 26, 2026 |
-| **4** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
-| **5** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | — | Apr 12, 2026 |
-| **6** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
-| **7** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | 1 | Feb 23, 2026 |
-| **8** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Medium | — | Jan 06, 2026 |
+| **1** | [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | — | Sep 01, 2026 |
+| **2** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) 🆓 | Object Oriented Programming | Medium | 2 | Jun 15, 2026 |
+| **3** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | 1 | Jun 08, 2026 |
+| **4** | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) 🆓 | Object Oriented Programming | Medium | — | May 26, 2026 |
+| **5** | [Design Typehead Suggestion](https://trueinterview.io/questions/sd-typeahead-autocomplete) | System Design | Medium | 6 | Apr 16, 2026 |
+| **6** | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | — | Apr 12, 2026 |
+| **7** | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) 🆓 | System Design | Easy | 7 | Mar 24, 2026 |
+| **8** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | 1 | Feb 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -113,6 +118,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design a Long-Running Query Service](https://trueinterview.io/questions/design-a-long-running-query-service) | System Design | Medium | 🆕 Sep 01, 2026 |
 | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Algorithm | Hard | Jun 08, 2026 |
 | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | Object Oriented Programming | Medium | May 26, 2026 |
@@ -120,7 +126,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Frontend Discover Infinite Scroll](https://trueinterview.io/questions/35618d45-785f-413b-ba19-66b7d4c0e730) | AI Coding | Medium | Apr 12, 2026 |
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Algorithm | Hard | Feb 23, 2026 |
-| [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | AI Coding | Medium | Jan 06, 2026 |
+| [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Algorithm | Medium | Jan 06, 2026 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Binary Classifier with Model Improvement](https://trueinterview.io/questions/binary-classifier-with-model-improvement) | AI Coding | Medium | Nov 22, 2025 |
 | [Stream Processing with Stop Words](https://trueinterview.io/questions/stream-processing-with-stop-words) | Algorithm | Medium | Oct 12, 2025 |
@@ -129,7 +135,7 @@ The 8 questions to open first if you are preparing for Perplexity, ranked by **t
 | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | Object Oriented Programming | Medium | Aug 09, 2025 |
 | [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809) | Algorithm | Hard | — |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
-| [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | AI Coding | Medium | — |
+| [Fix Existing Code (Bug Fixing)](https://trueinterview.io/questions/2c71454e-9fe0-4ad3-bc61-28746db93b44) | Algorithm | Medium | — |
 | [Design Mint.com](https://trueinterview.io/questions/mint-com) | System Design | Medium | — |
 | [Design Perplexity Discover](https://trueinterview.io/questions/design-perplexity-discover) | System Design | Medium | — |
 | [Stream Deduplication with Near-Duplicate Detection](https://trueinterview.io/questions/stream-deduplication-with-near-duplicate-detection) | Algorithm | Medium | — |

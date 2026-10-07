@@ -2,7 +2,7 @@
 
 # Verkada interview process, OA & interview questions
 
-**27 questions** reported at Verkada · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/verkada), judged server-side on the algorithm, low-level-design and SQL formats.
+**31 questions** reported at Verkada · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/verkada), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Verkada interviews & the free questions](verkada/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,60 +14,66 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **27** |
-| Most recent sighting | Jun 17, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (52% of 27) |
-| Difficulty (easy / medium / hard) | 1 / 24 / 2 |
+| Questions tracked | **31** |
+| Most recent sighting | Sep 04, 2026 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 31) |
+| Difficulty (easy / medium / hard) | 1 / 27 / 3 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 27 questions reported at Verkada. 10 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 31 questions reported at Verkada. 14 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **27 of 27** questions at Verkada that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **31 of 31** questions at Verkada that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 1 / 15 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 12 | ███████ | [System Design](../formats/system-design.md) (50%) | 0 / 11 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (68%) | 1 / 17 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 14 | ███████ | [System Design](../formats/system-design.md) (50%) | 0 / 12 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Verkada since Jun 17, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**2 sightings** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | System Design | Medium | Phone screen | Sep 04, 2026 |
+| [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Algorithm | Medium | Phone screen | Sep 04, 2026 |
 
 ## What they ask about
 
-Of the **14 questions at Verkada that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Verkada that carry a topic label** (52% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 3 | 21% | ████████████ | Jun 05, 2026 |
-| `hashing` | 3 | 21% | ████████████ | — |
-| `graphs` | 2 | 14% | ████████ | — |
-| `strings` | 2 | 14% | ████████ | — |
-| `binary-search` | 1 | 7% | ████ | — |
-| `dynamic-programming` | 1 | 7% | ████ | Feb 17, 2026 |
-| `heap` | 1 | 7% | ████ | — |
-| `intervals` | 1 | 7% | ████ | — |
-| `linked-list` | 1 | 7% | ████ | — |
-| `math` | 1 | 7% | ████ | — |
+| `hashing` | 5 | 31% | ████████████ | Sep 04, 2026 |
+| `arrays` | 3 | 19% | ███████ | Jun 05, 2026 |
+| `graphs` | 2 | 12% | █████ | — |
+| `linked-list` | 2 | 12% | █████ | Jan 23, 2026 |
+| `strings` | 2 | 12% | █████ | — |
+| `binary-search` | 1 | 6% | ██ | — |
+| `dynamic-programming` | 1 | 6% | ██ | Feb 17, 2026 |
+| `heap` | 1 | 6% | ██ | — |
+| `intervals` | 1 | 6% | ██ | — |
+| `math` | 1 | 6% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Verkada, by the month it was reported in — Jan 14, 2026 to Jun 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Verkada, by the month it was reported in — Jan 14, 2026 to Sep 04, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Sep 2026](../by-month/2026-09.md) | 2 | ██████████ |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ███████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 5 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | █████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ██████████████ |
 
 ## Start here
 
@@ -75,14 +81,14 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
-| **2** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Object Oriented Programming | Medium | — | Jun 05, 2026 |
-| **3** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Algorithm | Medium | — | Jun 05, 2026 |
-| **4** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Object Oriented Programming | Medium | — | Jun 05, 2026 |
-| **5** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
-| **6** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
-| **7** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | 1 | Feb 16, 2026 |
-| **8** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | 3 | Feb 08, 2026 |
+| **1** | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | System Design | Medium | — | Sep 04, 2026 |
+| **2** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Algorithm | Medium | — | Sep 04, 2026 |
+| **3** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | 9 | Jun 17, 2026 |
+| **4** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Object Oriented Programming | Medium | — | Jun 05, 2026 |
+| **5** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Algorithm | Medium | — | Jun 05, 2026 |
+| **6** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Object Oriented Programming | Medium | — | Jun 05, 2026 |
+| **7** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | System Design | Medium | 7 | Feb 22, 2026 |
+| **8** | [Minimum Coin Combination Counts](https://trueinterview.io/questions/minimum-coin-combination-counts) | Algorithm | Medium | 2 | Feb 17, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,6 +110,8 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | System Design | Medium | 🆕 Sep 04, 2026 |
+| [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Algorithm | Medium | 🆕 Sep 04, 2026 |
 | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | System Design | Hard | Jun 17, 2026 |
 | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Object Oriented Programming | Medium | Jun 05, 2026 |
 | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Object Oriented Programming | Medium | Jun 05, 2026 |
@@ -113,6 +121,8 @@ The 8 questions to open first if you are preparing for Verkada, ranked by **the 
 | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Object Oriented Programming | Medium | Feb 16, 2026 |
 | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Algorithm | Medium | Feb 08, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | System Design | Medium | Feb 2026 |
+| [Design access control and heartbeat systems](https://trueinterview.io/questions/design-access-control-and-heartbeat-systems) | System Design | Medium | Jan 23, 2026 |
+| [Implement LRU and LFU caches](https://trueinterview.io/questions/implement-lru-and-lfu-caches) | Object Oriented Programming | Hard | Jan 23, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Design a Food Rating System](https://trueinterview.io/questions/b2197b53-6bbb-4f91-99f4-1a76814c1001) | Object Oriented Programming | Medium | — |
 | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | System Design | Medium | — |

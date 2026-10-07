@@ -2,7 +2,7 @@
 
 # 🧾 IT services & consulting — interview & OA questions
 
-**30 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**33 questions** reported across the **1 IT services & consulting employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[IBM (30)](../companies/ibm.md)
+[IBM (33)](../companies/ibm.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,27 +18,28 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 27 | 90% | ██████████████ | 9 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 10% | ██ | 1 |
+| [Algorithm](../formats/algorithm.md) | 29 | 88% | ██████████████ | 9 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 9% | █ | 1 |
+| [SQL](../formats/sql.md) | 1 | 3% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **5 / 23 / 2**, over the rows the catalog has graded. 10 of the 30 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **7 / 22 / 4**, over the rows the catalog has graded. 10 of the 33 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **26 questions in this cut that carry a topic label** (87% of it):
+Of the **27 questions in this cut that carry a topic label** (82% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `greedy` | 8 | 31% | ████████████ |
-| `arrays` | 5 | 19% | ████████ |
+| `greedy` | 8 | 30% | ████████████ |
+| `arrays` | 6 | 22% | █████████ |
 | `strings` | 5 | 19% | ████████ |
 | `hashing` | 4 | 15% | ██████ |
-| `intervals` | 3 | 12% | ████ |
-| `math` | 3 | 12% | ████ |
-| `sorting` | 3 | 12% | ████ |
-| `dynamic-programming` | 2 | 8% | ███ |
-| `graphs` | 2 | 8% | ███ |
-| `heap` | 2 | 8% | ███ |
+| `intervals` | 3 | 11% | ████ |
+| `math` | 3 | 11% | ████ |
+| `sorting` | 3 | 11% | ████ |
+| `dynamic-programming` | 2 | 7% | ███ |
+| `graphs` | 2 | 7% | ███ |
+| `heap` | 2 | 7% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -67,10 +68,13 @@ Of the **26 questions in this cut that carry a topic label** (87% of it):
 | **IBM / Amazon / ByteDance / Google** | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Medium | Feb 26, 2026 |
 | **IBM** | [Minimum Length Subarray with K Distinct Numbers](https://trueinterview.io/questions/minimum-length-subarray-with-k-distinct) | Medium | Feb 22, 2026 |
 | **IBM** | [Maximum Palindromes After Cross-String Swaps](https://trueinterview.io/questions/maximum-palindromes-after-cross-string-swaps) | Medium | Feb 22, 2026 |
+| **IBM** | [Design a lead-scoring model](https://trueinterview.io/questions/design-a-lead-scoring-model) | Hard | Jan 17, 2026 |
 | **IBM** | [Minimum Insertions to Form Repeated abc Pattern](https://trueinterview.io/questions/minimum-insertions-to-abc-pattern) | Easy | Nov 07, 2025 |
 | **IBM** | [JSON Prediction Diff](https://trueinterview.io/questions/json-prediction-diff) | Easy | Nov 07, 2025 |
 | **IBM / Capital One** | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Medium | Nov 03, 2025 |
 | **IBM** | [Frontend CSS Flexbox Layout Task](https://trueinterview.io/questions/frontend-css-flexbox-layout) | Easy | Oct 07, 2025 |
+| **IBM** | [Write SQL to compute max and min marks](https://trueinterview.io/questions/write-sql-to-compute-max-and-min-marks) | Easy | Oct 03, 2025 |
+| **IBM** | [Find minimum operations to make array sorted](https://trueinterview.io/questions/find-minimum-operations-to-make-array-sorted) | Hard | Oct 03, 2025 |
 | **IBM** | [Minimum Link Reallocation to Connect Repositories](https://trueinterview.io/questions/minimum-link-reallocation) | Medium | Sep 21, 2025 |
 | **IBM** | [Sliding-Window Rate Limiter / Abuse IP Detection](https://trueinterview.io/questions/sliding-window-rate-limiter-and-abuse-ips) | Medium | Sep 09, 2025 |
 | **IBM** | [Earliest Coordinate Reach with Optional Moves](https://trueinterview.io/questions/earliest-coordinate-reach-with-optional-moves) | Medium | Sep 09, 2025 |
@@ -84,7 +88,7 @@ Of the **26 questions in this cut that carry a topic label** (87% of it):
 | **Expedia / IBM** | [Get Maximum Efficiency](https://trueinterview.io/questions/b2ff328c-50ce-40b3-b37a-3301dc7c3f58) | Hard | — |
 | **IBM** | [Maximum Increment to Make Array Ascending](https://trueinterview.io/questions/da81199d-faf5-4c87-a5a0-297fb918d3b8) | Hard | — |
 | **IBM** | [Reverse Last Two Characters with a Space](https://trueinterview.io/questions/aed17c65-c5b3-4e56-a00d-9edbfd9f0f59) | Easy | — |
-| **IBM** | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Medium | — |
+| **IBM** | [Count strictly decreasing-by-1 subarrays of length at least 2](https://trueinterview.io/questions/a411438c-f3c1-4036-b11a-9bc8151d5e16) | Easy | — |
 | **IBM** | [Stock Maximum Profit](https://trueinterview.io/questions/9b10ab48-d72a-4df0-be8f-10a997cfdd02) | Medium | — |
 | **IBM** | [Minimum Hits Needed](https://trueinterview.io/questions/96a1a76b-aad1-425d-88a1-e28fff36624b) | Medium | — |
 | **Meta / IBM / Oracle** | [Minimum Add to Make Parentheses Valid](https://trueinterview.io/questions/56074ec6-dddf-458d-8d85-3fdd4430c2de) | Easy | — |

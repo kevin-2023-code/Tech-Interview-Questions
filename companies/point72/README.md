@@ -8,7 +8,7 @@ How Point72 interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [21](../point72.md) |
+| Questions reported | [30](../point72.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -41,7 +41,7 @@ Point72 does not run one interview loop — it runs a different one per hiring d
 
 ## Everything else
 
-- [All 21 questions reported at Point72](../point72.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 30 questions reported at Point72](../point72.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Point72 question on TrueInterview](https://trueinterview.io/problems/company/point72).
 
 ---

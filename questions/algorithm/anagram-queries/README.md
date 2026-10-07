@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Goldman Sachs | Online assessment | strings, hashing, sorting | Oct 2024 |
+| Algorithm | Easy | Goldman Sachs | Online assessment | strings, hashing, sorting | Oct 2024 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/anagram-queries)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

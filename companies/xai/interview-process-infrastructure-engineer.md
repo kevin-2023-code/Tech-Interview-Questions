@@ -89,7 +89,7 @@ The third is fit with the operating conditions, which interviewers state openly.
 
 ## Data Source
 
-Based on 24 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 22 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

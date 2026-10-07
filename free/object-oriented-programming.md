@@ -2,19 +2,20 @@
 
 # Free Object Oriented Programming questions
 
-**58 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**63 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Easy | Nov 08, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | Easy | Dec 06, 2025 |
 | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | **Brex** | Easy | — |
 | [Trie-Based Autocomplete](https://trueinterview.io/questions/trie-autocomplete) | **Oracle** | Easy | Sep 15, 2025 |
 | [Sliding-Window Rate Limiter III](https://trueinterview.io/questions/f6b060d7-ad6e-5167-9988-9cb05356483f) | **Rippling / Amazon / Atlassian / LinkedIn / Microsoft / NVIDIA / Oracle / Reddit / Roblox / Waymo / xAI** | Medium | — |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | Medium | Nov 08, 2025 |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | **Ramp / Anthropic / Capital One / Coinbase / HubSpot / Instacart** | Medium | — |
 | [LRU Cache III](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) | **Verkada / Amazon / ByteDance / Goldman Sachs / Lyft / Rokt** | Medium | — |
+| [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | **Onemain Financial / Anthropic / Google / LinkedIn / Microsoft** | Medium | — |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | **Coinbase / Anthropic / HubSpot / Ramp** | Medium | Dec 15, 2025 |
 | [Cloud Storage System](https://trueinterview.io/questions/cloud-file-system) | **Coinbase / Ebay / HubSpot** | Medium | — |
 | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | **Snowflake / Applied Intuition / Lyft** | Medium | Feb 26, 2026 |
@@ -27,8 +28,10 @@
 | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | **OpenAI / Airbnb** | Medium | Nov 07, 2025 |
 | [Query Pagination](https://trueinterview.io/questions/query-pagination) | **Coinbase / Lyft** | Medium | Feb 04, 2026 |
 | [Snake Game](https://trueinterview.io/questions/snake-game) | **Atlassian / Amplitude** | Medium | Oct 02, 2025 |
+| [Task Management System III](https://trueinterview.io/questions/task-management-system) | **Coinbase / Instacart** | Medium | — |
 | [API Call and Data Processing](https://trueinterview.io/questions/69704f7c-4eae-4ac6-a2f9-e547e1e42039) | **PayPal** | Medium | — |
 | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | **Capital One** | Medium | — |
+| [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | **Tesla** | Medium | Jul 24, 2025 |
 | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | **Oracle** | Medium | Jan 15, 2025 |
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | **Atlassian** | Medium | Sep 12, 2025 |
 | [Credit Tracker with Expiring Credits](https://trueinterview.io/questions/credit-tracker-with-expiring-credits) | **Perplexity** | Medium | Aug 09, 2025 |
@@ -37,32 +40,34 @@
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | **Tradedesk** | Medium | — |
 | [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) | **Uber** | Medium | — |
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | **Airtable** | Medium | — |
-| [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | **Netflix** | Medium | May 21, 2026 |
 | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | **Squarepoint** | Medium | — |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | **Tesla** | Medium | Jul 04, 2025 |
 | [Extend Queue: Min-Size & Min-Sum Selector](https://trueinterview.io/questions/queue-extension-min-size-min-sum) | **Goldman Sachs** | Medium | Jun 09, 2025 |
+| [File Management System](https://trueinterview.io/questions/ood-file-management-system) | **Oracle** | Medium | Sep 16, 2025 |
 | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | **Anthropic** | Medium | Jun 10, 2026 |
 | [Frontend Practical Coding — Work Against a Provided API](https://trueinterview.io/questions/frontend-api-practical) | **Vanta** | Medium | Jul 24, 2025 |
 | [Hot Air Balloon Festival Simulation](https://trueinterview.io/questions/balloon-festival-simulation) | **Optiver** | Medium | Sep 09, 2025 |
+| [Implement 2048 Game Logic](https://trueinterview.io/questions/implement-2048-game-logic) | **Glean** | Medium | Mar 01, 2026 |
+| [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | **Squarepoint** | Medium | — |
 | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | **Arista** | Medium | — |
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | **Sigmacomputing** | Medium | — |
 | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | **Rokt** | Medium | — |
 | [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | **Verkada** | Medium | — |
+| [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | **Discord** | Medium | Apr 03, 2026 |
 | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | **SoFi** | Medium | Jul 14, 2025 |
 | [Kubernetes Controller for Pod Balance](https://trueinterview.io/questions/kubernetes-controller-pod-balance) | **IBM** | Medium | Aug 25, 2025 |
 | [Logger System](https://trueinterview.io/questions/logger-system-ood) | **Rippling** | Medium | Jun 09, 2026 |
-| [OOD — File Management System](https://trueinterview.io/questions/ood-file-management-system) | **Oracle** | Medium | Sep 16, 2025 |
+| [Mobile Table View Timer App](https://trueinterview.io/questions/mobile-table-view-timer-app) | **Robinhood** | Medium | Aug 2025 |
 | [Org Tree Lowest Common Department](https://trueinterview.io/questions/9c1d6fbf-6cfc-4c1d-ae37-66af8ca43cd0) | **Atlassian** | Medium | Feb 15, 2026 |
+| [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | **Tesla** | Medium | Aug 19, 2025 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Medium | 🆕 Sep 17, 2026 |
 | [Report Chain](https://trueinterview.io/questions/report-chain) | **Reddit** | Medium | Feb 17, 2026 |
 | [Satellite Message Propagation](https://trueinterview.io/questions/satellite-message-propagation) | **Optiver** | Medium | Aug 05, 2025 |
 | [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | **Waymo** | Medium | Sep 29, 2025 |
 | [Tagged Command Undo](https://trueinterview.io/questions/tagged-command-undo) | **Netflix** | Medium | Apr 30, 2026 |
 | [ToDo List with Task Dependencies](https://trueinterview.io/questions/todo-list-with-task-dependencies-ood) | **Perplexity** | Medium | May 26, 2026 |
 | [Treatment Frequency Scheduler](https://trueinterview.io/questions/ood-treatment-scheduler) | **Oracle** | Medium | Sep 15, 2025 |
-| [Task Management System III](https://trueinterview.io/questions/task-management-system) | **Coinbase / Instacart** | Hard | — |
 | [Banking System with Transfers, Top Spenders, Delayed Payments, and Account Merging](https://trueinterview.io/questions/1939c0c7-01cd-4c15-b2dd-bdebafec068f) | **Circle** | Hard | — |
-| [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | **Tesla** | Hard | Jul 24, 2025 |
 | [Composable Event Recommendation Campaign Engine (Flexible Filters + Ranking + Fallback)](https://trueinterview.io/questions/1e6967ec-6fb6-4033-af89-0ec21458242d) | **Stubhub** | Hard | — |
-| [Implement a Custom Vector Using Metaprogramming](https://trueinterview.io/questions/13ad30cb-fbd2-42e1-8ced-71667820fdbf) | **Squarepoint** | Hard | — |
-| [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | **Tesla** | Hard | Aug 19, 2025 |
+| [Design and Solve a Rotatable Jigsaw Puzzle](https://trueinterview.io/questions/design-and-solve-a-rotatable-jigsaw-puzzle) | **Asana** | Hard | Apr 13, 2026 |
 | [Track Best Bid/Ask with Cancellations](https://trueinterview.io/questions/track-best-bid-ask-with-cancels) | **Akuna Capital** | Hard | Sep 22, 2025 |

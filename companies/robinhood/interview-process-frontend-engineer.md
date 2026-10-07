@@ -55,7 +55,7 @@ One hour, and it stays on the client. The evaluation is whether you can walk dat
 The mobile equivalent of the build round, and the most concrete hour in the loop: you either implement a platform primitive from scratch or complete methods inside an existing skeleton. Graded on lifecycle correctness — which callback starts the timer, which one tears it down, whether you invalidate to avoid leaks — plus threading, error handling, and callback structure. Interviewers here are often staff-level engineers who care more about testability and structure than about getting the first implementation right, and one explicitly asked for a refactor toward testable seams after the feature worked.
 
 - [Implement Android findViewById](https://trueinterview.io/questions/20f0926e-8b1b-4160-b794-3e5c1f012212)
-- [Mobile Table View Timer App](../../questions/ai-coding/mobile-table-view-timer-app/README.md)
+- [Mobile Table View Timer App](../../questions/object-oriented-programming/mobile-table-view-timer-app/README.md)
 
 ### Project Deep Dive
 

@@ -8,7 +8,7 @@ How xAI interviews, and the questions candidates reported there. Free questions 
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [36](../xai.md) |
+| Questions reported | [38](../xai.md) |
 | Free to read here | 5 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -48,7 +48,7 @@ This guide goes deeper than the process outline on the company page: how each xA
 
 ## Everything else
 
-- [All 36 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 38 questions reported at xAI](../xai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every xAI question on TrueInterview](https://trueinterview.io/problems/company/xai).
 
 ---

@@ -8,11 +8,11 @@ How Airwallex interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [1](../airwallex.md) |
-| Free to read here | 1 |
+| Questions reported | [8](../airwallex.md) |
+| Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Jan 29, 2026 |
+| Most recent sighting | Sep 10, 2026 |
 
 ## How Airwallex interviews
 
@@ -20,15 +20,16 @@ No written process guide yet. [The loop, as reported](../airwallex.md#the-loop-a
 
 ## Free Airwallex questions
 
-1 question reported at Airwallex open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+2 questions reported at Airwallex open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/largest-rectangle-histogram) |
+| [Compute Moderation View Metrics](../../questions/sql/compute-moderation-view-metrics/README.md) | SQL | Hard | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/compute-moderation-view-metrics) |
 
 ## Everything else
 
-- [All 1 questions reported at Airwallex](../airwallex.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 8 questions reported at Airwallex](../airwallex.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Airwallex question on TrueInterview](https://trueinterview.io/problems/company/airwallex).
 
 ---

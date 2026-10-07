@@ -2,7 +2,7 @@
 
 # Applied Intuition interview process, OA & interview questions
 
-**21 questions** reported at Applied Intuition · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Applied Intuition · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/applied-intuition), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Applied Intuition interviews & the free questions](applied-intuition/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,60 +14,67 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
-| Most recent sighting | Jun 17, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 21) |
-| Difficulty (easy / medium / hard) | 4 / 11 / 6 |
+| Questions tracked | **30** |
+| Most recent sighting | Aug 30, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (70% of 30) |
+| Difficulty (easy / medium / hard) | 4 / 15 / 11 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 21 questions reported at Applied Intuition. 4 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 30 questions reported at Applied Intuition. 12 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at Applied Intuition that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **30 of 30** questions at Applied Intuition that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (85%) | 0 / 8 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 5 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (60%) | 1 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (79%) | 0 / 11 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | ████ | [Algorithm](../formats/algorithm.md) (38%) | 1 / 4 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Applied Intuition since Jun 17, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Object Oriented Programming | Medium | Phone screen | Aug 30, 2026 |
 
 ## What they ask about
 
-Of the **14 questions at Applied Intuition that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **20 questions at Applied Intuition that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 4 | 29% | ████████████ | Apr 28, 2026 |
-| `graphs` | 3 | 21% | █████████ | — |
-| `math` | 3 | 21% | █████████ | — |
-| `binary-search` | 2 | 14% | ██████ | — |
-| `sorting` | 2 | 14% | ██████ | — |
-| `greedy` | 1 | 7% | ███ | — |
-| `intervals` | 1 | 7% | ███ | — |
-| `matrix` | 1 | 7% | ███ | — |
-| `stack` | 1 | 7% | ███ | — |
-| `strings` | 1 | 7% | ███ | — |
+| `graphs` | 4 | 20% | ████████████ | Dec 01, 2025 |
+| `hashing` | 4 | 20% | ████████████ | Apr 28, 2026 |
+| `math` | 4 | 20% | ████████████ | Feb 12, 2026 |
+| `binary-search` | 2 | 10% | ██████ | — |
+| `sorting` | 2 | 10% | ██████ | — |
+| `stack` | 2 | 10% | ██████ | Feb 12, 2026 |
+| `strings` | 2 | 10% | ██████ | Feb 12, 2026 |
+| `arrays` | 1 | 5% | ███ | Apr 14, 2026 |
+| `greedy` | 1 | 5% | ███ | — |
+| `heap` | 1 | 5% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Applied Intuition, by the month it was reported in — Feb 26, 2026 to Jun 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Applied Intuition, by the month it was reported in — Dec 01, 2025 to Aug 30, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 3 | ██████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 4 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
+| [Dec 2025](../by-month/2025-12.md) | 1 | ██████ |
 
 ## Start here
 
@@ -75,14 +82,14 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types) | System Design | Medium | — | Jun 17, 2026 |
-| **2** | [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui) | Algorithm | Hard | — | Jun 17, 2026 |
-| **3** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) 🆓 | Object Oriented Programming | Medium | 2 | Apr 28, 2026 |
-| **4** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) 🆓 | Object Oriented Programming | Medium | 2 | Feb 26, 2026 |
-| **5** | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Algorithm | Easy | 1 | — |
-| **6** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Object Oriented Programming | Medium | 1 | — |
-| **7** | [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) 🆓 | Algorithm | Easy | — | — |
-| **8** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) 🆓 | Algorithm | Easy | — | — |
+| **1** | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Object Oriented Programming | Medium | — | Aug 30, 2026 |
+| **2** | [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types) | System Design | Medium | — | Jun 17, 2026 |
+| **3** | [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui) | Algorithm | Hard | — | Jun 17, 2026 |
+| **4** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) 🆓 | Object Oriented Programming | Medium | 2 | Apr 28, 2026 |
+| **5** | [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque) | Object Oriented Programming | Medium | — | Apr 14, 2026 |
+| **6** | [Design Ordered CUDA Reduction](https://trueinterview.io/questions/design-ordered-cuda-reduction) | Algorithm | Hard | — | Apr 14, 2026 |
+| **7** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) 🆓 | Object Oriented Programming | Medium | 2 | Feb 26, 2026 |
+| **8** | [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments) | Algorithm | Medium | — | Feb 12, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,10 +111,19 @@ The 8 questions to open first if you are preparing for Applied Intuition, ranked
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Object Oriented Programming | Medium | 🆕 Aug 30, 2026 |
 | [Design Parsing Boundaries for Interdependent Message Types](https://trueinterview.io/questions/design-parsing-boundaries-for-interdependent-message-types) | System Design | Medium | Jun 17, 2026 |
 | [Build a File-Driven Data Visualization and Replay UI](https://trueinterview.io/questions/build-a-file-driven-data-visualization-and-replay-ui) | Algorithm | Hard | Jun 17, 2026 |
 | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Object Oriented Programming | Medium | Apr 28, 2026 |
+| [Design Ordered CUDA Reduction](https://trueinterview.io/questions/design-ordered-cuda-reduction) | Algorithm | Hard | Apr 14, 2026 |
+| [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque) | Object Oriented Programming | Medium | Apr 14, 2026 |
 | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Object Oriented Programming | Medium | Feb 26, 2026 |
+| [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter) | Algorithm | Hard | Feb 12, 2026 |
+| [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions) | System Design | Hard | Feb 12, 2026 |
+| [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments) | Algorithm | Medium | Feb 12, 2026 |
+| [Validate Nested Configuration Objects](https://trueinterview.io/questions/validate-nested-configuration-objects) | Algorithm | Medium | Jan 12, 2026 |
+| [Evaluate variables in simple arithmetic DSL](https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl) | Algorithm | Hard | Dec 01, 2025 |
+| [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts) | Algorithm | Hard | — |
 | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Algorithm | Easy | — |
 | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Object Oriented Programming | Medium | — |
 | [Arithmetic Expression Evaluator II](https://trueinterview.io/questions/78d6d121-b1eb-489a-ad84-0e90cce7d0fc) | Algorithm | Hard | — |

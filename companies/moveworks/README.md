@@ -8,11 +8,11 @@ How Moveworks interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../moveworks.md) |
+| Questions reported | [6](../moveworks.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Dec 15, 2025 |
 
 ## How Moveworks interviews
 
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../moveworks.md#the-loop-a
 
 ## Everything else
 
-- [All 3 questions reported at Moveworks](../moveworks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Moveworks](../moveworks.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Moveworks question on TrueInterview](https://trueinterview.io/problems/company/moveworks).
 
 ---

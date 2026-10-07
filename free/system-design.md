@@ -2,7 +2,7 @@
 
 # Free System Design questions
 
-**28 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**34 System Design questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -13,16 +13,18 @@
 | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | Easy | Oct 29, 2025 |
 | [Design A Color Picker Service](https://trueinterview.io/questions/design-a-color-picker-service) | **Atlassian** | Easy | — |
 | [Design Consistent List and Category APIs](https://trueinterview.io/questions/design-consistent-list-and-category-apis) | **Nclusion** | Easy | 🆕 Sep 15, 2026 |
-| [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | **Cursor** | Easy | Apr 07, 2026 |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | **Render** | Easy | 🆕 Sep 17, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Figma / Google / LinkedIn / Lyft / Meta / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | Medium | Mar 30, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | Medium | Jan 14, 2026 |
 | [Design Youtube](https://trueinterview.io/questions/design-youtube) | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | Medium | Feb 2026 |
 | [Design Instagram](https://trueinterview.io/questions/design-instagram) | **Roblox / Datadog / DoorDash / Ebay / Google / Lyft / Meta** | Medium | Jan 22, 2026 |
 | [Design Online Chess Game](https://trueinterview.io/questions/design-chess-com-online-chess-game) | **OpenAI / Airbnb / Amazon / Meta / Microsoft AI** | Medium | Jun 11, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | **Reddit / Atlassian / Meta** | Medium | Apr 02, 2026 |
+| [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor / Snowflake** | Medium | Apr 07, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | **Databricks / Square** | Medium | Apr 06, 2026 |
+| [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) | **Thumbtack** | Medium | — |
+| [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) | **Asana** | Medium | Feb 08, 2026 |
 | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | **Cohere** | Medium | 🆕 Sep 15, 2026 |
+| [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | **Netflix** | Medium | May 21, 2026 |
 | [Evaluate Agents That Generate or Optimize Kernels and Compiler Code](https://trueinterview.io/questions/evaluate-agents-that-generate-or-optimize-kernels-and-compiler-code) | **AMD** | Medium | 🆕 Sep 14, 2026 |
 | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | **Robinhood** | Medium | Jun 2025 |
 | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | **Figma** | Medium | May 28, 2024 |
@@ -31,8 +33,12 @@
 | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | **Databricks / Apple / Google / Oracle / Tesla** | Hard | May 03, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | **Robinhood / Coinbase / Databricks / Square** | Hard | Apr 2026 |
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | **Databricks / Amazon / Google** | Hard | — |
-| [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor / Snowflake** | Hard | Apr 07, 2026 |
+| [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) | **Mistral AI** | Hard | Apr 16, 2026 |
+| [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | **Mercor** | Hard | 🆕 Aug 30, 2026 |
+| [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | **Axon** | Hard | Feb 11, 2026 |
+| [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | **C3 AI** | Hard | Aug 21, 2026 |
 | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | **JPMorgan** | Hard | Jun 21, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | **Waymo** | Hard | Sep 29, 2025 |
 | [Rank Homepage Modules for an E-Commerce Product](https://trueinterview.io/questions/rank-homepage-modules-for-an-e-commerce-product) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |
+| [Redesign a Spam Classifier for Production](https://trueinterview.io/questions/redesign-a-spam-classifier-for-production) | **Indeed** | Hard | Aug 20, 2026 |
 | [Set Bids for Search Advertising from Business Value](https://trueinterview.io/questions/set-bids-for-search-advertising-from-business-value) | **Wayfair** | Hard | 🆕 Sep 10, 2026 |

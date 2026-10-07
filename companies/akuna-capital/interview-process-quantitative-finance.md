@@ -77,7 +77,7 @@ The third is the behavioral round. It sits late, so candidates arrive expecting 
 
 ## Data Source
 
-Based on 28 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
+Based on 17 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q2.
 
 ## FAQ
 

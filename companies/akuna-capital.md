@@ -2,7 +2,7 @@
 
 # Akuna Capital interview process, OA & interview questions
 
-**30 questions** reported at Akuna Capital · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
+**31 questions** reported at Akuna Capital · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/akuna-capital), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Akuna Capital interviews & the free questions](akuna-capital/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,61 +14,63 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **30** |
-| Most recent sighting | Jul 29, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (70% of 30) |
-| Difficulty (easy / medium / hard) | 7 / 22 / 1 |
+| Questions tracked | **31** |
+| Most recent sighting | Aug 26, 2026 |
+| Reported in the last 90 days | 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 31) |
+| Difficulty (easy / medium / hard) | 9 / 21 / 1 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 30 questions reported at Akuna Capital. 23 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 31 questions reported at Akuna Capital. 24 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **30 of 30** questions at Akuna Capital that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **31 of 31** questions at Akuna Capital that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 6 / 13 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (70%) | 7 / 12 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 8 | ████ | [Algorithm](../formats/algorithm.md) (75%) | 1 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 3 | ██ | [Algorithm](../formats/algorithm.md) (67%) | 1 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | Phone screen | Aug 26, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Online assessment | Jul 29, 2026 |
 
 ## What they ask about
 
-Of the **22 questions at Akuna Capital that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at Akuna Capital that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 8 | 36% | ████████████ | Jul 29, 2026 |
-| `greedy` | 6 | 27% | █████████ | Dec 20, 2025 |
-| `graphs` | 4 | 18% | ██████ | May 25, 2026 |
-| `hashing` | 4 | 18% | ██████ | May 25, 2026 |
-| `sorting` | 4 | 18% | ██████ | Jul 29, 2026 |
+| `arrays` | 8 | 35% | ████████████ | Jul 29, 2026 |
+| `greedy` | 6 | 26% | █████████ | Dec 20, 2025 |
+| `graphs` | 4 | 17% | ██████ | May 25, 2026 |
+| `hashing` | 4 | 17% | ██████ | May 25, 2026 |
+| `sorting` | 4 | 17% | ██████ | Jul 29, 2026 |
 | `heap` | 2 | 9% | ███ | Nov 11, 2025 |
 | `sliding-window` | 2 | 9% | ███ | Jan 23, 2026 |
 | `stack` | 2 | 9% | ███ | Jan 23, 2026 |
 | `strings` | 2 | 9% | ███ | Nov 04, 2025 |
-| `backtracking` | 1 | 5% | ██ | Oct 29, 2025 |
+| `backtracking` | 1 | 4% | ██ | Oct 29, 2025 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Akuna Capital, by the month it was reported in — Aug 26, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Akuna Capital, by the month it was reported in — Aug 26, 2025 to Aug 26, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ████ |
 | [May 2026](../by-month/2026-05.md) | 3 | ████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 3 | ████████████ |
@@ -84,14 +86,14 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 2 | Jul 29, 2026 |
-| **2** | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | — | May 25, 2026 |
-| **3** | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | — | May 25, 2026 |
-| **4** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Medium | — | May 25, 2026 |
-| **5** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | — | Jan 23, 2026 |
-| **6** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | — | Jan 23, 2026 |
-| **7** | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Algorithm | Medium | — | Jan 23, 2026 |
-| **8** | [Minimum Swaps to Sort (Cycle Decomposition)](https://trueinterview.io/questions/minimum-swaps-to-sort-cycle) 🆓 | Algorithm | Medium | 1 | Dec 20, 2025 |
+| **1** | [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | — | Aug 26, 2026 |
+| **2** | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | 2 | Jul 29, 2026 |
+| **3** | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Easy | — | May 25, 2026 |
+| **4** | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | — | May 25, 2026 |
+| **5** | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | — | May 25, 2026 |
+| **6** | [Count Set Bits in an Integer Array](https://trueinterview.io/questions/count-set-bits-in-integer-array) | Algorithm | Easy | — | Jan 23, 2026 |
+| **7** | [Moving Average Signal System](https://trueinterview.io/questions/moving-average-signal-system) | Object Oriented Programming | Medium | — | Jan 23, 2026 |
+| **8** | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Algorithm | Medium | — | Jan 23, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -115,8 +117,9 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | 🆕 Aug 26, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
-| [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Medium | May 25, 2026 |
+| [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Easy | May 25, 2026 |
 | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | May 25, 2026 |
 | [Maximum Difference Across Connected Components](https://trueinterview.io/questions/maximum-difference-connected-components) | Algorithm | Medium | May 25, 2026 |
 | [Sliding-Window Order Message Rate Limiter](https://trueinterview.io/questions/sliding-window-order-message-rate-limiter) | Algorithm | Medium | Jan 23, 2026 |

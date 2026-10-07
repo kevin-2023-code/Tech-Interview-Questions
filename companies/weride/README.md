@@ -8,7 +8,7 @@ How WeRide interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [21](../weride.md) |
+| Questions reported | [22](../weride.md) |
 | Free to read here | 6 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -53,7 +53,7 @@ This is the core of the loop. Reports describe anywhere from a single screen to 
 
 ## Everything else
 
-- [All 21 questions reported at WeRide](../weride.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 22 questions reported at WeRide](../weride.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every WeRide question on TrueInterview](https://trueinterview.io/problems/company/weride).
 
 ---

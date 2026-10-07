@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Optiver | Online assessment | — | Aug 2025 |
+| Algorithm | Hard | Optiver | Online assessment | graphs | Aug 2025 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/currency-arbitrage-detection)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -31,21 +31,21 @@
 <details>
 <summary>Hint 1</summary>
 
-Convert the multiplication of exchange rates into addition by using logarithms, turning the problem into detecting a negative cycle.
+An arbitrage loop is a cycle whose product of rates exceeds 1 after the fee, so reframe the problem as cycle detection on a weighted graph.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use the Bellman-Ford algorithm to find negative cycles in a graph where edge weights are -log(rates[i][j]).
+Take the negative logarithm of each rate to turn multiplication into addition, then look for a negative-weight cycle with Bellman-Ford.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-The fee of 0.01% can be incorporated by adjusting the rates or adding a small constant to the log-transformed weights.
+Remember to fold the 0.01% fee into the edge weights, and watch for cycles reachable from any starting currency, not just currency 0.
 
 </details>
 

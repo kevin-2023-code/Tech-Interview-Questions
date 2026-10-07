@@ -2,7 +2,7 @@
 
 # Point72 interview process, OA & interview questions
 
-**21 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Point72 interviews & the free questions](point72/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
+| Questions tracked | **30** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (81% of 21) |
-| Difficulty (easy / medium / hard) | 5 / 9 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (73% of 30) |
+| Difficulty (easy / medium / hard) | 5 / 18 / 7 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 21 questions reported at Point72. 8 of them carry a sighting date; the other 13 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 30 questions reported at Point72. 11 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **30 of 30** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (91%) | 5 / 1 / 5 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 7 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 4 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 5 / 4 / 5 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 13 | █████████ | [Algorithm](../formats/algorithm.md) (77%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -52,30 +52,33 @@ Which stage each question came from, for the **21 of 21** questions at Point72 t
 
 ## What they ask about
 
-Of the **14 questions at Point72 that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at Point72 that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `dynamic-programming` | 4 | 29% | ████████████ | Jul 29, 2026 |
-| `greedy` | 4 | 29% | ████████████ | Jul 29, 2026 |
-| `sorting` | 4 | 29% | ████████████ | Jul 29, 2026 |
-| `arrays` | 2 | 14% | ██████ | Jul 29, 2026 |
-| `math` | 2 | 14% | ██████ | — |
-| `strings` | 2 | 14% | ██████ | — |
-| `binary-search` | 1 | 7% | ███ | — |
-| `hashing` | 1 | 7% | ███ | Jul 29, 2026 |
-| `stack` | 1 | 7% | ███ | Mar 25, 2026 |
+| `math` | 5 | 29% | ████████████ | — |
+| `dynamic-programming` | 4 | 24% | ██████████ | Jul 29, 2026 |
+| `greedy` | 4 | 24% | ██████████ | Jul 29, 2026 |
+| `sorting` | 4 | 24% | ██████████ | Jul 29, 2026 |
+| `arrays` | 2 | 12% | █████ | Jul 29, 2026 |
+| `strings` | 2 | 12% | █████ | — |
+| `binary-search` | 1 | 6% | ██ | — |
+| `hashing` | 1 | 6% | ██ | Jul 29, 2026 |
+| `stack` | 1 | 6% | ██ | Mar 25, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Point72, by the month it was reported in — Mar 25, 2026 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Point72, by the month it was reported in — Oct 20, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 7 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ███ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ███ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ███ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ███ |
 
 ## Start here
 
@@ -90,7 +93,7 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | **5** | [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | — | Jul 29, 2026 |
 | **6** | [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Algorithm | Hard | — | Jul 29, 2026 |
 | **7** | [Optimal Stock Price Subsequence](https://trueinterview.io/questions/optimal-stock-price-subsequence) | Algorithm | Hard | — | Jul 29, 2026 |
-| **8** | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) 🆓 | Algorithm | Hard | 1 | Mar 25, 2026 |
+| **8** | [Design Data Quality and Observability Pipeline](https://trueinterview.io/questions/design-data-quality-and-observability-pipeline) | System Design | Medium | — | Apr 30, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -119,11 +122,20 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | [Coins and Energy](https://trueinterview.io/questions/coins-and-energy) | Algorithm | Hard | Jul 29, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Bank Transaction Mining](https://trueinterview.io/questions/bank-transaction-mining) | Algorithm | Easy | Jul 29, 2026 |
+| [Design Data Quality and Observability Pipeline](https://trueinterview.io/questions/design-data-quality-and-observability-pipeline) | System Design | Medium | Apr 30, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | Algorithm | Hard | Mar 25, 2026 |
+| [Design a News-Filtering Prompt](https://trueinterview.io/questions/design-a-news-filtering-prompt) | Algorithm | Medium | Jan 21, 2026 |
+| [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Algorithm | Medium | Oct 20, 2025 |
+| [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | SQL | Medium | — |
+| [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | SQL | Medium | — |
+| [Solve date, shopping, and circle problems](https://trueinterview.io/questions/solve-date-shopping-and-circle-problems) | Algorithm | Hard | — |
+| [Maximize outfits with distinct colors](https://trueinterview.io/questions/maximize-outfits-with-distinct-colors) | Algorithm | Hard | — |
+| [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters) | SQL | Medium | — |
+| [Classify relationships for multiple circle pairs](https://trueinterview.io/questions/classify-relationships-for-multiple-circle-pairs) | Algorithm | Medium | — |
 | [Design a system to find median in a data stream under memory constraints](https://trueinterview.io/questions/cf6f9ffb-bc33-4e69-abc9-ab9cd1cc4a1c) | Object Oriented Programming | Medium | — |
 | [Lexicographically Smallest String After Substring Operation](https://trueinterview.io/questions/ba992b9b-c4bd-4972-8d2f-504c8782f205) | Algorithm | Medium | — |
-| [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Object Oriented Programming | Hard | — |
-| [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | SQL | Hard | — |
+| [Expandable Array&lt;T&gt; Class Template](https://trueinterview.io/questions/eea5c9ac-85a5-447b-a531-44537f1b2902) | Object Oriented Programming | Medium | — |
+| [Election Exit Poll by State Report (Top-3 states per candidate with ties)](https://trueinterview.io/questions/de777a06-c9a4-4a9d-9685-ae0ee64ed2c4) | SQL | Medium | — |
 | [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | Algorithm | Medium | — |
 | [SmartString Class Template](https://trueinterview.io/questions/a93b34de-1a99-4fd5-93ba-42159f0e77b6) | Object Oriented Programming | Hard | — |
 | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Algorithm | Medium | — |

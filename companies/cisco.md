@@ -18,7 +18,7 @@
 | Most recent sighting | Jun 16, 2026 |
 | Reported in the last 90 days | 0 |
 | Most common format | [Algorithm](../formats/algorithm.md) (96% of 25) |
-| Difficulty (easy / medium / hard) | 12 / 10 / 3 |
+| Difficulty (easy / medium / hard) | 13 / 9 / 3 |
 | Free to practise | [17](../free/README.md) |
 | Guides & writeups | 1 |
 
@@ -30,7 +30,7 @@ Which stage each question came from, for the **25 of 25** questions at Cisco tha
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 12 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 13 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 6 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 2 | █ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -80,8 +80,8 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | **1** | [Longest Palindromic Substring](https://trueinterview.io/questions/longest-palindromic-substring) | Algorithm | Medium | 3 | Jun 16, 2026 |
 | **2** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) 🆓 | Algorithm | Medium | 3 | May 2026 |
 | **3** | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) 🆓 | Algorithm | Easy | 1 | Sep 29, 2025 |
-| **4** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
-| **5** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) 🆓 | Algorithm | Medium | — | Sep 06, 2025 |
+| **4** | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
+| **5** | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) 🆓 | Algorithm | Easy | — | Sep 06, 2025 |
 | **6** | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) 🆓 | Algorithm | Medium | — | Sep 06, 2025 |
 | **7** | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) 🆓 | Algorithm | Easy | — | Sep 04, 2025 |
 | **8** | [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) 🆓 | Algorithm | Easy | — | Sep 04, 2025 |
@@ -111,7 +111,7 @@ The 8 questions to open first if you are preparing for Cisco, ranked by **the mo
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
 | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | Algorithm | Easy | Sep 06, 2025 |
 | [Minimum Insertions / Deletions Password Update](https://trueinterview.io/questions/minimum-insertions-deletions-password-update) | Algorithm | Medium | Sep 06, 2025 |
-| [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | Algorithm | Medium | Sep 06, 2025 |
+| [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | Algorithm | Easy | Sep 06, 2025 |
 | [Row Maximum / Column Minimum](https://trueinterview.io/questions/83372ba6-ecf6-4c1c-9b56-dd6156a7ff84) | Algorithm | Easy | Sep 04, 2025 |
 | [Minimum Swaps for Even / Odd Partition](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) | Algorithm | Easy | Sep 04, 2025 |
 | [Alternating String Merge](https://trueinterview.io/questions/alternating-string-merge) | Algorithm | Easy | Sep 04, 2025 |

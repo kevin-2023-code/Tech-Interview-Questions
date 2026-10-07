@@ -86,7 +86,7 @@ Present in nearly every reported ML loop, sometimes as the final round. Intervie
 
 ## Data Source
 
-Based on 10 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 8 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

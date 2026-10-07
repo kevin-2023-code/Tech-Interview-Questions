@@ -2,7 +2,7 @@
 
 # Render interview process, OA & interview questions
 
-**1 question** reported at Render. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/render), judged server-side on the algorithm, low-level-design and SQL formats.
+**2 questions** reported at Render. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/render), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Render interviews & the free questions](render/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **1** |
+| Questions tracked | **2** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [System Design](../formats/system-design.md) (100% of 1) |
-| Difficulty (easy / medium / hard) | 1 / 0 / 0 |
-| Free to practise | [1](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (50% of 2) |
+| Difficulty (easy / medium / hard) | 0 / 1 / 1 |
+| Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 1 question reported at Render. 1 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 2 questions reported at Render. 2 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **1 of 1** questions at Render that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **2 of 2** questions at Render that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 1 | ██████████ | [System Design](../formats/system-design.md) (100%) | 1 / 0 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 2 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -40,27 +40,35 @@ Which stage each question came from, for the **1 of 1** questions at Render that
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | System Design | Easy | Phone screen | Sep 17, 2026 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | Medium | Phone screen | Sep 17, 2026 |
 
 ## What they ask about
 
-**None of the 1 question reported at Render carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
+Of the **1 question at Render that carries a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
+
+| Topic | Questions | Share of labelled |  | Last seen |
+| :-- | --: | --: | :-- | :-- |
+| `sliding-window` | 1 | 100% | ████████████ | Feb 26, 2026 |
+
+<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Render, by the month it was reported in — Sep 17, 2026 to Sep 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Render, by the month it was reported in — Feb 26, 2026 to Sep 17, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 1 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
 
 ## Start here
 
-The 1 question to open first if you are preparing for Render, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 2 questions to open first if you are preparing for Render, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) 🆓 | System Design | Easy | — | Sep 17, 2026 |
+| **1** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) 🆓 | Object Oriented Programming | Medium | — | Sep 17, 2026 |
+| **2** | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) 🆓 | Algorithm | Hard | — | Feb 26, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -74,4 +82,5 @@ The 1 question to open first if you are preparing for Render, ranked by **the mo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | System Design | Easy | 🆕 Sep 17, 2026 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Object Oriented Programming | Medium | 🆕 Sep 17, 2026 |
+| [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | Algorithm | Hard | Feb 26, 2026 |

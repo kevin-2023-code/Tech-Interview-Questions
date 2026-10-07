@@ -82,7 +82,7 @@ The third is that the technical bar is not the last gate. One candidate passed t
 
 ## Data Source
 
-Based on 5 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 6 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

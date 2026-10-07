@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**130 questions** reported across the **4 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**169 questions** reported across the **5 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,49 +10,61 @@
 
 ## The companies in this cut
 
-[Waymo (55)](../companies/waymo.md) · [Tesla (35)](../companies/tesla.md) · [Applied Intuition (21)](../companies/applied-intuition.md) · [WeRide (21)](../companies/weride.md)
+[Waymo (64)](../companies/waymo.md) · [Tesla (44)](../companies/tesla.md) · [Applied Intuition (30)](../companies/applied-intuition.md) · [WeRide (22)](../companies/weride.md) · [Nuro (11)](../companies/nuro.md)
 
-<sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
+<sub>5 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
 ## What this cut asks
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 86 | 66% | ██████████████ | 16 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 18 | 14% | ███ | 8 |
-| [System Design](../formats/system-design.md) | 13 | 10% | ██ | 2 |
-| [SQL](../formats/sql.md) | 8 | 6% | █ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 5 | 4% | █ | 1 |
+| [Algorithm](../formats/algorithm.md) | 106 | 63% | ██████████████ | 18 |
+| [System Design](../formats/system-design.md) | 28 | 17% | ████ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 23 | 14% | ███ | 8 |
+| [SQL](../formats/sql.md) | 10 | 6% | █ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **13 / 79 / 38**, over the rows the catalog has graded. 27 of the 130 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **19 / 100 / 50**, over the rows the catalog has graded. 29 of the 169 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **84 questions in this cut that carry a topic label** (65% of it):
+Of the **101 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 17 | 20% | ████████████ |
-| `hashing` | 9 | 11% | ██████ |
-| `math` | 8 | 10% | ██████ |
-| `strings` | 8 | 10% | ██████ |
-| `arrays` | 7 | 8% | █████ |
-| `greedy` | 7 | 8% | █████ |
-| `backtracking` | 6 | 7% | ████ |
-| `dynamic-programming` | 6 | 7% | ████ |
-| `matrix` | 6 | 7% | ████ |
-| `stack` | 6 | 7% | ████ |
+| `graphs` | 19 | 19% | ████████████ |
+| `math` | 13 | 13% | ████████ |
+| `arrays` | 10 | 10% | ██████ |
+| `hashing` | 10 | 10% | ██████ |
+| `strings` | 9 | 9% | ██████ |
+| `dynamic-programming` | 7 | 7% | ████ |
+| `greedy` | 7 | 7% | ████ |
+| `matrix` | 7 | 7% | ████ |
+| `stack` | 7 | 7% | ████ |
+| `backtracking` | 6 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**2 sightings** across this cut. Newest first.
+**15 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | WeRide … | Algorithm | Jul 29, 2026 |
-| [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Waymo | Algorithm | Jul 09, 2026 |
+| [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Tesla | Object Oriented Programming | Sep 04, 2026 |
+| [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Tesla | System Design | Sep 01, 2026 |
+| [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | Nuro | System Design | Aug 31, 2026 |
+| [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | Nuro | System Design | Aug 31, 2026 |
+| [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | Nuro | System Design | Aug 31, 2026 |
+| [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | Nuro | System Design | Aug 31, 2026 |
+| [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | Nuro | System Design | Aug 31, 2026 |
+| [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | Nuro | System Design | Aug 31, 2026 |
+| [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Applied Intuition | Object Oriented Programming | Aug 30, 2026 |
+| [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Waymo | Algorithm | Aug 27, 2026 |
+| [Coordinate Counter Updates Across Threads](https://trueinterview.io/questions/coordinate-counter-updates-across-threads) | Tesla | Algorithm | Aug 24, 2026 |
+| [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Tesla | System Design | Aug 24, 2026 |
+
+<sub>3 more in this window are in the table below.</sub>
 
 ---
 
@@ -62,6 +74,19 @@ Of the **84 questions in this cut that carry a topic label** (65% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Tesla** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Medium | 🆕 Sep 04, 2026 |
+| **Tesla** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Medium | 🆕 Sep 01, 2026 |
+| **Nuro** | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | Hard | 🆕 Aug 31, 2026 |
+| **Nuro** | [Schedule CPU and GPU Video Processing](https://trueinterview.io/questions/schedule-cpu-and-gpu-video-processing) | Medium | 🆕 Aug 31, 2026 |
+| **Nuro** | [Design an Autonomous-Vehicle Simulator](https://trueinterview.io/questions/design-an-autonomous-vehicle-simulator) | Hard | 🆕 Aug 31, 2026 |
+| **Nuro** | [Design a Shared Distributed ML Training Platform](https://trueinterview.io/questions/design-a-shared-distributed-ml-training-platform) | Hard | 🆕 Aug 31, 2026 |
+| **Nuro** | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | Hard | 🆕 Aug 31, 2026 |
+| **Nuro** | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | Hard | 🆕 Aug 31, 2026 |
+| **Applied Intuition** | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Medium | 🆕 Aug 30, 2026 |
+| **Waymo** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Hard | 🆕 Aug 27, 2026 |
+| **Tesla** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | Hard | 🆕 Aug 24, 2026 |
+| **Tesla** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Hard | 🆕 Aug 24, 2026 |
+| **Tesla** | [Coordinate Counter Updates Across Threads](https://trueinterview.io/questions/coordinate-counter-updates-across-threads) | Medium | 🆕 Aug 24, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
 | **Waymo** | [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Hard | Jul 09, 2026 |
 | **Waymo** | [Race Car: Minimum Instructions to Reach a Target](https://trueinterview.io/questions/race-car-minimum-instructions) | Hard | Jul 06, 2026 |
@@ -76,24 +101,25 @@ Of the **84 questions in this cut that carry a topic label** (65% of it):
 | **Tesla** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Medium | Jun 03, 2026 |
 | **Tesla** | [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset) | Medium | Jun 01, 2026 |
 | **Tesla** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Hard | May 27, 2026 |
-| **Waymo** | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | Hard | May 23, 2026 |
-| **Waymo** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | Medium | May 23, 2026 |
-| **Waymo** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | Medium | May 23, 2026 |
-| **Waymo** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | Medium | May 23, 2026 |
+| **Waymo** | [Retention Rating By Active Month](https://trueinterview.io/questions/retention-rating-by-active-month) | Medium | May 23, 2026 |
+| **Waymo** | [Monthly Ride Aggregation](https://trueinterview.io/questions/monthly-ride-aggregation) | Easy | May 23, 2026 |
+| **Waymo** | [Low-Frequency Users By City](https://trueinterview.io/questions/low-frequency-users-by-city) | Easy | May 23, 2026 |
+| **Waymo** | [7-Day Inactive Users](https://trueinterview.io/questions/7-day-inactive-users) | Easy | May 23, 2026 |
 | **Waymo** | [Inference Serving with Back-of-Envelope Capacity Planning](https://trueinterview.io/questions/sd-ml-inference-serving-back-of-envelope) | Medium | May 22, 2026 |
-| **Waymo** | [Debug a NumPy / Tensor Framework](https://trueinterview.io/questions/ml-coding-tensor-framework-debug) | Hard | May 22, 2026 |
-| **Waymo** | [Contains Duplicate III (Bucket Sort)](https://trueinterview.io/questions/bucket-sort-contains-duplicate-iii) | Hard | May 15, 2026 |
+| **Waymo** | [Debug a NumPy / Tensor Framework](https://trueinterview.io/questions/ml-coding-tensor-framework-debug) | Medium | May 22, 2026 |
+| **Waymo** | [Contains Duplicate III (Bucket Sort)](https://trueinterview.io/questions/bucket-sort-contains-duplicate-iii) | Medium | May 15, 2026 |
 | **Waymo** | [Hashmap + Prefix Sum Subarray Round](https://trueinterview.io/questions/hash-prefix-sum-coding) | Medium | May 13, 2026 |
-| **Waymo** | [Decode String with `(group){k}` Repeat Syntax](https://trueinterview.io/questions/decode-string-curly-repeat) | Hard | May 13, 2026 |
+| **Waymo** | [Decode String with `(group){k}` Repeat Syntax](https://trueinterview.io/questions/decode-string-curly-repeat) | Medium | May 13, 2026 |
 | **Waymo / Microsoft** | [Hand-Write K-Means Clustering (NumPy)](https://trueinterview.io/questions/ml-coding-handwrite-kmeans) | Medium | May 13, 2026 |
 | **Waymo** | [Count Same-Color Squares in an Unbounded Grid](https://trueinterview.io/questions/same-color-squares-in-grid) | Medium | May 06, 2026 |
 | **Waymo** | [Randomly Populate Grid with Connected Equal-Size Token Regions](https://trueinterview.io/questions/random-grid-token-fill) | Hard | May 06, 2026 |
+| **Waymo** | [Count Squares Formed by Segments](https://trueinterview.io/questions/count-squares-formed-by-segments) | Hard | May 05, 2026 |
 | **Databricks / Apple / Google / Oracle / Tesla** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) | Hard | May 03, 2026 |
 | **Waymo** | [Shortest Path from Source to Target Nodes (Dijkstra)](https://trueinterview.io/questions/dijkstra-shortest-path-to-targets) | Medium | May 01, 2026 |
 | **Tesla** | [Rollback-Capable KV Store with Nested Transactions](https://trueinterview.io/questions/rollback-kv-store-nested-transactions) | Medium | Apr 30, 2026 |
 | **Coinbase / Anthropic / Applied Intuition** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Medium | Apr 28, 2026 |
 | **Waymo** | [Serialize Arithmetic Expression Tree with Minimum Parentheses](https://trueinterview.io/questions/binary-expression-tree-serialize-min-parens) | Hard | Apr 27, 2026 |
-| **Tesla** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | Hard | Apr 27, 2026 |
+| **Tesla** | [Data Cleaning Pipeline and SQL Analytics Screen](https://trueinterview.io/questions/data-engineering-cleaning-and-sql-screen) | Medium | Apr 27, 2026 |
 | **Waymo** | [Roadway Segment Speed Query](https://trueinterview.io/questions/roadway-segment-speed-query) | Medium | Apr 24, 2026 |
 | **Waymo** | [Garage Occupancy per Timestamp](https://trueinterview.io/questions/garage-occupancy-per-timestamp) | Medium | Apr 24, 2026 |
 | **Waymo** | [Car Fleet Scheduler](https://trueinterview.io/questions/car-fleet-scheduler) | Medium | Apr 24, 2026 |
@@ -106,6 +132,9 @@ Of the **84 questions in this cut that carry a topic label** (65% of it):
 | **Waymo** | [Choose Passenger Drop-off Location](https://trueinterview.io/questions/sd-passenger-dropoff-location-ml) | Hard | Apr 18, 2026 |
 | **Waymo** | [Behavior Prediction from Sensor + Camera Data](https://trueinterview.io/questions/sd-ml-behavior-prediction-from-sensors) | Hard | Apr 18, 2026 |
 | **Snapchat / Tesla / Waymo** | [Maximum Island Perimeter](https://trueinterview.io/questions/maximum-island-perimeter) | Medium | Apr 17, 2026 |
+| **Applied Intuition** | [Design Ordered CUDA Reduction](https://trueinterview.io/questions/design-ordered-cuda-reduction) | Hard | Apr 14, 2026 |
+| **Applied Intuition** | [Implement a Fixed-Capacity Deque](https://trueinterview.io/questions/implement-a-fixed-capacity-deque) | Medium | Apr 14, 2026 |
+| **Waymo** | [Find Largest Adjacent Sorted Difference](https://trueinterview.io/questions/find-largest-adjacent-sorted-difference) | Hard | Apr 12, 2026 |
 | **Waymo** | [Chess Piece Shortest Path on a Fixed Board](https://trueinterview.io/questions/chess-shortest-path-fixed-board) | Medium | Apr 08, 2026 |
 | **Waymo** | [Battleship Board (React, Frontend Onsite)](https://trueinterview.io/questions/battleship-react-frontend) | Medium | Apr 03, 2026 |
 | **Waymo** | [Streaming Interval Coverage on a Number Axis](https://trueinterview.io/questions/interval-pollution-coverage) | Hard | Apr 01, 2026 |
@@ -113,39 +142,61 @@ Of the **84 questions in this cut that carry a topic label** (65% of it):
 | **Waymo** | [Car Maze with Incrementally Revealed Neighbors (DFS)](https://trueinterview.io/questions/car-maze-incremental-discovery-dfs) | Medium | Mar 25, 2026 |
 | **Waymo** | [Sort a Quadratic-Transformed Sorted Array](https://trueinterview.io/questions/sort-transformed-quadratic-array) | Medium | Mar 23, 2026 |
 | **Amazon / Bloomberg / ByteDance / Ebay / Goldman Sachs / Meta / WeRide** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Easy | Mar 17, 2026 |
+| **Waymo** | [Ratings in the First and Third Active Months](https://trueinterview.io/questions/analyze-user-ride-activity-with-sql-ratings-in-the-first-and-third-active-months) | Hard | Mar 14, 2026 |
 | **Tesla** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | Hard | Mar 11, 2026 |
+| **Waymo** | [Assess Routing Experiment Validity](https://trueinterview.io/questions/assess-routing-experiment-validity) | Hard | Mar 07, 2026 |
+| **Waymo** | [Implement Safe Average Function](https://trueinterview.io/questions/implement-safe-average-function) | Easy | Mar 07, 2026 |
+| **Waymo** | [Compute Ride Metrics in SQL](https://trueinterview.io/questions/compute-ride-metrics-in-sql) | Medium | Mar 07, 2026 |
 | **Snowflake / Applied Intuition / Lyft** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
+| **Nuro** | [Coordinate Video Reading and Rendering at 25 Frames per Second](https://trueinterview.io/questions/coordinate-video-reading-and-rendering-at-25-frames-per-second) | Hard | Feb 15, 2026 |
+| **Nuro** | [Check Vertical Reflection Symmetry with Duplicate Points](https://trueinterview.io/questions/check-vertical-reflection-symmetry-with-duplicate-points) | Medium | Feb 15, 2026 |
+| **Tesla** | [Model other agents in simulation](https://trueinterview.io/questions/model-other-agents-in-simulation) | Hard | Feb 12, 2026 |
+| **Applied Intuition** | [Design a mini compiler/interpreter](https://trueinterview.io/questions/design-a-mini-compiler-interpreter) | Hard | Feb 12, 2026 |
+| **Applied Intuition** | [Design a KV store with transactions](https://trueinterview.io/questions/design-a-kv-store-with-transactions) | Hard | Feb 12, 2026 |
+| **Applied Intuition** | [Find intersection of two line segments](https://trueinterview.io/questions/find-intersection-of-two-line-segments) | Medium | Feb 12, 2026 |
+| **Tesla** | [Compute suffix sums over waypoints](https://trueinterview.io/questions/compute-suffix-sums-over-waypoints) | Medium | Feb 12, 2026 |
 | **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Tesla** | [Speed-Limit RL Reward from Trajectory Samples](https://trueinterview.io/questions/speed-limit-rl-reward) | Medium | Feb 03, 2026 |
+| **Nuro** | [Design an Inference Pipeline](https://trueinterview.io/questions/design-an-inference-pipeline) | Medium | Jan 30, 2026 |
+| **Nuro** | [Find Maximum Path Sum in N-ary Tree](https://trueinterview.io/questions/find-maximum-path-sum-in-n-ary-tree) | Hard | Jan 30, 2026 |
 | **Waymo** | [Evaluation System with Human + LLM Evaluators](https://trueinterview.io/questions/sd-evaluation-system-llm-human) | Hard | Jan 29, 2026 |
 | **Waymo** | [Waymo Passenger Pickup Scheduler (OO Design)](https://trueinterview.io/questions/passenger-pickup-scheduler-oo-design) | Medium | Jan 29, 2026 |
-| **Waymo** | [LED Digit Display Invariant Under 180° Rotation](https://trueinterview.io/questions/strobogrammatic-led-display) | Medium | Jan 23, 2026 |
+| **Tesla** | [Design a remittance-file processing system](https://trueinterview.io/questions/design-booking-and-settlement-systems-design-a-remittance-file-processing-system) | Medium | Jan 25, 2026 |
+| **Tesla** | [Design a transaction reconciliation system](https://trueinterview.io/questions/design-booking-and-settlement-systems-design-a-transaction-reconciliation-system) | Medium | Jan 25, 2026 |
+| **Waymo** | [LED Digit Display Invariant Under 180° Rotation](https://trueinterview.io/questions/strobogrammatic-led-display) | Easy | Jan 23, 2026 |
 | **Waymo** | [Evaluate a Self-Driving Model End-to-End](https://trueinterview.io/questions/sd-evaluate-self-driving-model) | Hard | Jan 23, 2026 |
 | **Waymo** | [Run-Length Encoded String: Find by Index and Range Max](https://trueinterview.io/questions/run-length-encoding-find-by-index) | Medium | Jan 23, 2026 |
 | **Waymo** | [Sort Target String by Custom Order](https://trueinterview.io/questions/custom-sort-string-by-order) | Medium | Jan 23, 2026 |
 | **Tesla** | [Parallel Runner with Exclusive Targets A and B](https://trueinterview.io/questions/parallel-target-runner) | Hard | Jan 15, 2026 |
+| **Applied Intuition** | [Validate Nested Configuration Objects](https://trueinterview.io/questions/validate-nested-configuration-objects) | Medium | Jan 12, 2026 |
 | **Snapchat / Google / Tesla / Waymo** | [Count Islands and Water Boundary](https://trueinterview.io/questions/count-islands-and-water-boundary) | Medium | Dec 31, 2025 |
+| **Waymo** | [Implement K-means and handle train-inference mismatch](https://trueinterview.io/questions/implement-k-means-and-handle-train-inference-mismatch) | Hard | Dec 06, 2025 |
 | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Easy | Dec 06, 2025 |
-| **Atlassian / Google / Tesla** | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Hard | Nov 28, 2025 |
+| **Applied Intuition** | [Evaluate variables in simple arithmetic DSL](https://trueinterview.io/questions/evaluate-variables-in-simple-arithmetic-dsl) | Hard | Dec 01, 2025 |
+| **Atlassian / Google / Tesla** | [URL Router Design](https://trueinterview.io/questions/url-router-design) | Medium | Nov 28, 2025 |
+| **Waymo** | [Optimize Tensor Runtime Kernels](https://trueinterview.io/questions/optimize-tensor-runtime-kernels) | Hard | Nov 27, 2025 |
 | **Tesla** | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward) | Hard | Nov 22, 2025 |
 | **Waymo** | [Two-Column Table: Place Divider to Minimize Total Height](https://trueinterview.io/questions/two-column-table-optimal-divider) | Medium | Nov 14, 2025 |
+| **Nuro** | [Find gaps between intervals](https://trueinterview.io/questions/find-gaps-between-intervals) | Medium | Nov 09, 2025 |
 | **Tesla** | [First Solar Panel Placement in a Binary Grid](https://trueinterview.io/questions/solar-panel-placement-grid) | Medium | Oct 31, 2025 |
 | **Bloomberg / Citadel / Hudson River Trading / Meta / Tesla** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Easy | Oct 16, 2025 |
+| **WeRide** | [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) | Medium | Oct 02, 2025 |
 | **Waymo** | [Sparse Matrix Left- and Right-Multiply Vector](https://trueinterview.io/questions/sparse-matrix-vector-multiply) | Medium | Sep 29, 2025 |
 | **Waymo** | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | Hard | Sep 29, 2025 |
 | **Tesla** | [Robot Room Navigation Take-Home](https://trueinterview.io/questions/robot-room-navigation-takehome) | Hard | Sep 24, 2025 |
 | **Tesla** | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | Medium | Aug 23, 2025 |
 | **Tesla** | [Word Ladder Variants with Trie Optimization](https://trueinterview.io/questions/word-ladder-variants) | Hard | Aug 21, 2025 |
-| **Tesla** | [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | Hard | Aug 19, 2025 |
+| **Tesla** | [Priority Expiry LRU Cache](https://trueinterview.io/questions/priority-expire-cache-eviction) | Medium | Aug 19, 2025 |
 | **Tesla** | [Route Nearest Checkpoint](https://trueinterview.io/questions/trajectory-waypoint-distance-queries) | Medium | Aug 11, 2025 |
 | **Tesla** | [Dojo Pythonic Coding Pair: Permutation Check and Pow](https://trueinterview.io/questions/dojo-permutation-and-pow) | Medium | Jul 25, 2025 |
-| **Tesla** | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Hard | Jul 24, 2025 |
+| **Tesla** | [Basic Calculator with Operators, Variables, and Functions](https://trueinterview.io/questions/basic-calculator-extended-language) | Medium | Jul 24, 2025 |
 | **Tesla** | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | Medium | Jul 04, 2025 |
+| **Applied Intuition** | [Track simulations and report timeouts](https://trueinterview.io/questions/track-simulations-and-report-timeouts) | Hard | — |
 | **Anthropic / Applied Intuition** | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Easy | — |
 | **Lyft / Applied Intuition** | [Design In-Memory Key-Value Database](https://trueinterview.io/questions/design-in-memory-key-value-database) | Medium | — |
 | **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
-| **WeRide** | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Hard | — |
+| **WeRide** | [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Medium | — |
 | **WeRide** | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Hard | — |
 | **WeRide** | [Implement a Calculator with Brackets](https://trueinterview.io/questions/9fc868b8-b683-4792-9f30-37e943638d43) | Medium | — |
 | **WeRide** | [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Medium | — |
@@ -181,8 +232,8 @@ Of the **84 questions in this cut that carry a topic label** (65% of it):
 | **Two Sigma / Waymo** | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Medium | — |
 | **Tesla / Google** | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Medium | — |
 | **Tesla** | [Cumulative Monthly Sales by Store with Month Reset](https://trueinterview.io/questions/9d1b5b0b-959c-478c-9173-5af85df0dc1b) | Medium | — |
-| **Tesla** | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | Medium | — |
-| **Tesla** | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | Hard | — |
+| **Tesla** | [Daily Metrics by Order Status in a Single SQL Pass](https://trueinterview.io/questions/3af30983-ab64-4415-98d1-c212ec5c39dc) | Easy | — |
+| **Tesla** | [Find All Reports Under a Manager (n-level) and Return Hierarchy Path](https://trueinterview.io/questions/1f1e4db4-8e81-4550-86b1-5c5fb18fcb61) | Medium | — |
 | **Tesla** | [Burning a Binary Tree (Time to Burn Entire Tree)](https://trueinterview.io/questions/19d7abba-9f7c-4acd-ab07-797730cfba83) | Medium | — |
 | **Pinterest / WeRide** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Easy | — |
 | **Microsoft / GEICO / WeRide** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) | Easy | — |

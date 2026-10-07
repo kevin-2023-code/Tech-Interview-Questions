@@ -2,7 +2,7 @@
 
 # Confluent interview process, OA & interview questions
 
-**23 questions** reported at Confluent · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/confluent), judged server-side on the algorithm, low-level-design and SQL formats.
+**30 questions** reported at Confluent · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/confluent), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Confluent interviews & the free questions](confluent/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,60 +14,62 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **23** |
-| Most recent sighting | Jan 14, 2026 |
+| Questions tracked | **30** |
+| Most recent sighting | Apr 29, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (43% of 23) |
-| Difficulty (easy / medium / hard) | 6 / 13 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (43% of 30) |
+| Difficulty (easy / medium / hard) | 7 / 17 / 6 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 23 questions reported at Confluent. 3 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 30 questions reported at Confluent. 10 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **23 of 23** questions at Confluent that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **30 of 30** questions at Confluent that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ███ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | █████ | [Algorithm](../formats/algorithm.md) (57%) | 1 / 4 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 14 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (57%) | 2 / 10 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ███ | [Algorithm](../formats/algorithm.md) (57%) | 1 / 5 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 21 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 3 / 13 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Confluent since Jan 14, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Confluent since Apr 29, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **11 questions at Confluent that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Confluent that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 4 | 36% | ████████████ | — |
-| `dynamic-programming` | 2 | 18% | ██████ | — |
-| `hashing` | 2 | 18% | ██████ | — |
-| `strings` | 2 | 18% | ██████ | — |
-| `backtracking` | 1 | 9% | ███ | — |
-| `bit-manipulation` | 1 | 9% | ███ | — |
-| `sliding-window` | 1 | 9% | ███ | — |
-| `sorting` | 1 | 9% | ███ | — |
-| `stack` | 1 | 9% | ███ | — |
-| `trees` | 1 | 9% | ███ | — |
+| `arrays` | 4 | 33% | ████████████ | — |
+| `hashing` | 3 | 25% | █████████ | Feb 22, 2026 |
+| `dynamic-programming` | 2 | 17% | ██████ | — |
+| `strings` | 2 | 17% | ██████ | — |
+| `backtracking` | 1 | 8% | ███ | — |
+| `bit-manipulation` | 1 | 8% | ███ | — |
+| `sliding-window` | 1 | 8% | ███ | — |
+| `sorting` | 1 | 8% | ███ | — |
+| `stack` | 1 | 8% | ███ | — |
+| `trees` | 1 | 8% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Confluent, by the month it was reported in — Oct 15, 2025 to Jan 14, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Confluent, by the month it was reported in — Oct 15, 2025 to Apr 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ██████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ██████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 4 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
 
 ## Start here
 
@@ -75,14 +77,14 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
-| **2** | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) 🆓 | Object Oriented Programming | Medium | 9 | Nov 08, 2025 |
-| **3** | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | 9 | Oct 15, 2025 |
-| **4** | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | 6 | — |
-| **5** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | 3 | — |
-| **6** | [Minimum Menu Order Cost I](https://trueinterview.io/questions/5c783b97-e5b1-4e93-9466-acb8b8395f20) | Algorithm | Medium | 1 | — |
-| **7** | [Rank Songs by Popularity](https://trueinterview.io/questions/a849f910-580a-4423-ad79-2a2524364c49) | Algorithm | Medium | 1 | — |
-| **8** | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | 1 | — |
+| **1** | [Design an RSS News Feed Service](https://trueinterview.io/questions/design-an-rss-news-feed-service) | System Design | Medium | — | Apr 29, 2026 |
+| **2** | [Function signature matching](https://trueinterview.io/questions/solve-signature-file-and-queue-problems-function-signature-matching) | Algorithm | Medium | — | Feb 22, 2026 |
+| **3** | [Design a News Feed and Mail Service](https://trueinterview.io/questions/design-a-news-feed-and-mail-service) | System Design | Hard | — | Feb 22, 2026 |
+| **4** | [Solve Signature, File, and Queue Problems](https://trueinterview.io/questions/solve-signature-file-and-queue-problems) | Algorithm | Hard | — | Feb 22, 2026 |
+| **5** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
+| **6** | [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average) | Object Oriented Programming | Medium | — | Jan 01, 2026 |
+| **7** | [Search Words and Phrases in a Large Line-Oriented File](https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file) | System Design | Medium | — | Jan 01, 2026 |
+| **8** | [Implement tail -n for a Very Large File](https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file) | Algorithm | Hard | — | Jan 01, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,8 +106,15 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Design an RSS News Feed Service](https://trueinterview.io/questions/design-an-rss-news-feed-service) | System Design | Medium | Apr 29, 2026 |
+| [Design a News Feed and Mail Service](https://trueinterview.io/questions/design-a-news-feed-and-mail-service) | System Design | Hard | Feb 22, 2026 |
+| [Function signature matching](https://trueinterview.io/questions/solve-signature-file-and-queue-problems-function-signature-matching) | Algorithm | Medium | Feb 22, 2026 |
+| [Solve Signature, File, and Queue Problems](https://trueinterview.io/questions/solve-signature-file-and-queue-problems) | Algorithm | Hard | Feb 22, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
+| [Search Words and Phrases in a Large Line-Oriented File](https://trueinterview.io/questions/search-words-and-phrases-in-a-large-line-oriented-file) | System Design | Medium | Jan 01, 2026 |
+| [Implement tail -n for a Very Large File](https://trueinterview.io/questions/implement-tail-n-for-a-very-large-file) | Algorithm | Hard | Jan 01, 2026 |
+| [Design an LRU Cache with a Constant-Time Average](https://trueinterview.io/questions/design-an-lru-cache-with-a-constant-time-average) | Object Oriented Programming | Medium | Jan 01, 2026 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Design Infinite Queue with GetRandom O(1)](https://trueinterview.io/questions/design-infinite-queue-with-getrandom-o-1) | Object Oriented Programming | Medium | — |
 | [Design Delayed Tasks Scheduler](https://trueinterview.io/questions/design-delayed-tasks-scheduler) | Object Oriented Programming | Medium | — |
@@ -123,7 +132,7 @@ The 8 questions to open first if you are preparing for Confluent, ranked by **th
 | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Algorithm | Easy | — |
 | [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Algorithm | Easy | — |
 | [Random Queue ADT + Equality + Thread Safety + RLE-backed Comparison](https://trueinterview.io/questions/b3bded71-9ec4-47de-a97b-80220c09062b) | Object Oriented Programming | Hard | — |
-| [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Algorithm | Hard | — |
+| [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Algorithm | Medium | — |
 | [Silent Sensor Detector (SensorHealth)](https://trueinterview.io/questions/37a8e59a-4ec6-441c-8df5-f86491863f52) | Object Oriented Programming | Easy | — |
 | [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062) | Algorithm | Medium | — |
 | [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417) | Algorithm | Medium | — |

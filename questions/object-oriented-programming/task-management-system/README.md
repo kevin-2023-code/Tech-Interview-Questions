@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Object Oriented Programming | Hard | Coinbase · Instacart | Online assessment | — | — |
+| Object Oriented Programming | Medium | Coinbase · Instacart | Online assessment | — | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/task-management-system)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

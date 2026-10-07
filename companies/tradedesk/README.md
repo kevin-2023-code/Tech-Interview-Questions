@@ -8,11 +8,11 @@ How Tradedesk interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [16](../tradedesk.md) |
+| Questions reported | [21](../tradedesk.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Apr 01, 2026 |
+| Most recent sighting | Sep 15, 2026 |
 
 ## How Tradedesk interviews
 
@@ -45,7 +45,7 @@ The Trade Desk runs a loop that looks conventional on paper — assessment, phon
 
 ## Everything else
 
-- [All 16 questions reported at Tradedesk](../tradedesk.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 21 questions reported at Tradedesk](../tradedesk.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Tradedesk question on TrueInterview](https://trueinterview.io/problems/company/tradedesk).
 
 ---

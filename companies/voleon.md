@@ -2,7 +2,7 @@
 
 # Voleon interview process, OA & interview questions
 
-**7 questions** reported at Voleon. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/voleon), judged server-side.
+**12 questions** reported at Voleon. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/voleon), judged server-side.
 
 [📖 How Voleon interviews & the free questions](voleon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,72 +14,74 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **7** |
-| Most recent sighting | Sep 14, 2026 |
-| Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 7) |
-| Difficulty (easy / medium / hard) | 0 / 3 / 4 |
+| Questions tracked | **12** |
+| Most recent sighting | Jun 27, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (100% of 12) |
+| Difficulty (easy / medium / hard) | 0 / 5 / 7 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 7 questions reported at Voleon. 3 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 12 questions reported at Voleon. 6 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **7 of 7** questions at Voleon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **12 of 12** questions at Voleon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 11 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 4 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**1 sighting** in this window. Newest first.
-
-| Question | Format | Difficulty | Round | Reported |
-| :-- | :-- | :-: | :-- | :-- |
-| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Algorithm | Hard | Phone screen | Sep 14, 2026 |
+**Nothing has been reported at Voleon since Jun 27, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **6 questions at Voleon that carry a topic label** (86% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **12 questions at Voleon that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 2 | 33% | ████████████ | Jun 27, 2026 |
-| `arrays` | 1 | 17% | ██████ | — |
-| `intervals` | 1 | 17% | ██████ | — |
-| `math` | 1 | 17% | ██████ | — |
-| `strings` | 1 | 17% | ██████ | Oct 26, 2024 |
+| `hashing` | 4 | 33% | ████████████ | Jun 27, 2026 |
+| `math` | 2 | 17% | ██████ | — |
+| `strings` | 2 | 17% | ██████ | Dec 09, 2025 |
+| `arrays` | 1 | 8% | ███ | — |
+| `binary-search` | 1 | 8% | ███ | Dec 09, 2025 |
+| `greedy` | 1 | 8% | ███ | Dec 09, 2025 |
+| `heap` | 1 | 8% | ███ | Dec 09, 2025 |
+| `intervals` | 1 | 8% | ███ | — |
+| `matrix` | 1 | 8% | ███ | Dec 09, 2025 |
+| `sorting` | 1 | 8% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Voleon, by the month it was reported in — Oct 26, 2024 to Sep 14, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Voleon, by the month it was reported in — Oct 26, 2024 to Jun 27, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ████████████████████████ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ████████████████████████ |
-| [Oct 2024](../by-month/2024-10.md) | 1 | ████████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ██████ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ████████████████████████ |
+| [Oct 2024](../by-month/2024-10.md) | 1 | ██████ |
 
 ## Start here
 
-The 7 questions to open first if you are preparing for Voleon, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Voleon, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Algorithm | Hard | — | Sep 14, 2026 |
-| **2** | [Return Words in Repeated Anagram Groups](https://trueinterview.io/questions/return-words-in-repeated-anagram-groups) | Algorithm | Medium | — | Jun 27, 2026 |
-| **3** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) 🆓 | Algorithm | Medium | 2 | Oct 26, 2024 |
-| **4** | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Algorithm | Medium | — | — |
-| **5** | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) 🆓 | Algorithm | Hard | — | — |
-| **6** | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Algorithm | Hard | — | — |
-| **7** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Algorithm | Hard | — | — |
+| **1** | [Return Words in Repeated Anagram Groups](https://trueinterview.io/questions/return-words-in-repeated-anagram-groups) | Algorithm | Medium | — | Jun 27, 2026 |
+| **2** | [Implement sparse matrix addition and multiplication](https://trueinterview.io/questions/implement-sparse-matrix-addition-and-multiplication) | Algorithm | Medium | — | Dec 09, 2025 |
+| **3** | [Count queen attacks on points with blockers](https://trueinterview.io/questions/count-queen-attacks-on-points-with-blockers) | Algorithm | Hard | — | Dec 09, 2025 |
+| **4** | [Simulate an exchange and participation-rate trading](https://trueinterview.io/questions/simulate-an-exchange-and-participation-rate-trading) | Algorithm | Hard | — | Dec 09, 2025 |
+| **5** | [Validate whether a binary string is good](https://trueinterview.io/questions/validate-whether-a-binary-string-is-good) | Algorithm | Hard | — | Dec 09, 2025 |
+| **6** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) 🆓 | Algorithm | Medium | 2 | Oct 26, 2024 |
+| **7** | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Algorithm | Medium | — | — |
+| **8** | [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -93,9 +95,14 @@ The 7 questions to open first if you are preparing for Voleon, ranked by **the m
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Audit and Extend a Time-Series ML Pipeline](https://trueinterview.io/questions/audit-and-extend-a-time-series-ml-pipeline) | Algorithm | Hard | 🆕 Sep 14, 2026 |
 | [Return Words in Repeated Anagram Groups](https://trueinterview.io/questions/return-words-in-repeated-anagram-groups) | Algorithm | Medium | Jun 27, 2026 |
+| [Validate whether a binary string is good](https://trueinterview.io/questions/validate-whether-a-binary-string-is-good) | Algorithm | Hard | Dec 09, 2025 |
+| [Simulate an exchange and participation-rate trading](https://trueinterview.io/questions/simulate-an-exchange-and-participation-rate-trading) | Algorithm | Hard | Dec 09, 2025 |
+| [Implement sparse matrix addition and multiplication](https://trueinterview.io/questions/implement-sparse-matrix-addition-and-multiplication) | Algorithm | Medium | Dec 09, 2025 |
+| [Count queen attacks on points with blockers](https://trueinterview.io/questions/count-queen-attacks-on-points-with-blockers) | Algorithm | Hard | Dec 09, 2025 |
 | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Algorithm | Medium | Oct 26, 2024 |
+| [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline) | Algorithm | Medium | — |
+| [Analyze time-zoned events with pandas](https://trueinterview.io/questions/analyze-time-zoned-events-with-pandas) | Algorithm | Hard | — |
 | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Algorithm | Hard | — |
 | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Algorithm | Hard | — |
 | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Algorithm | Medium | — |

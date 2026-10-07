@@ -2,7 +2,7 @@
 
 # 🌱 Startups (under 200) — interview & OA questions
 
-**10 questions** reported across the **3 Startups (under 200) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**14 questions** reported across the **3 Startups (under 200) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Luma AI (6)](../companies/luma-ai.md) · [Bobyard (3)](../companies/bobyard.md) · [Render (1)](../companies/render.md)
+[Bobyard (6)](../companies/bobyard.md) · [Luma AI (6)](../companies/luma-ai.md) · [Render (2)](../companies/render.md)
 
 <sub>3 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,24 +18,25 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 8 | 80% | ██████████████ | 4 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 1 | 10% | ██ | 0 |
-| [System Design](../formats/system-design.md) | 1 | 10% | ██ | 1 |
+| [Algorithm](../formats/algorithm.md) | 9 | 64% | ██████████████ | 5 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 3 | 21% | █████ | 1 |
+| [System Design](../formats/system-design.md) | 2 | 14% | ███ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **5 / 3 / 2**, over the rows the catalog has graded. 5 of the 10 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **4 / 7 / 3**, over the rows the catalog has graded. 6 of the 14 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **8 questions in this cut that carry a topic label** (80% of it):
+Of the **10 questions in this cut that carry a topic label** (71% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `math` | 3 | 38% | ████████████ |
-| `matrix` | 2 | 25% | ████████ |
-| `sorting` | 2 | 25% | ████████ |
-| `trees` | 2 | 25% | ████████ |
-| `arrays` | 1 | 12% | ████ |
-| `hashing` | 1 | 12% | ████ |
+| `math` | 3 | 30% | ████████████ |
+| `sorting` | 3 | 30% | ████████████ |
+| `trees` | 3 | 30% | ████████████ |
+| `matrix` | 2 | 20% | ████████ |
+| `arrays` | 1 | 10% | ████ |
+| `hashing` | 1 | 10% | ████ |
+| `sliding-window` | 1 | 10% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -45,7 +46,7 @@ Of the **8 questions in this cut that carry a topic label** (80% of it):
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
-| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Render | System Design | Sep 17, 2026 |
+| [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Render | Object Oriented Programming | Sep 17, 2026 |
 | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Bobyard … | Algorithm | Aug 13, 2026 |
 
 ---
@@ -56,8 +57,12 @@ Of the **8 questions in this cut that carry a topic label** (80% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Easy | 🆕 Sep 17, 2026 |
+| **Render** | [Rate Limit an API During a Traffic Attack](https://trueinterview.io/questions/rate-limit-an-api-during-a-traffic-attack) | Medium | 🆕 Sep 17, 2026 |
 | **ByteDance / Bobyard** | [Build a Nested Comment Tree from Flat Records](https://trueinterview.io/questions/build-nested-comment-tree) | Medium | Aug 13, 2026 |
+| **Bobyard** | [Implement comment sorting and nesting](https://trueinterview.io/questions/implement-comment-sorting-and-nesting) | Medium | Apr 09, 2026 |
+| **Bobyard** | [Design comments and async image generation](https://trueinterview.io/questions/design-comments-and-async-image-generation) | Medium | Apr 09, 2026 |
+| **Bobyard** | [Design a client-side comment system](https://trueinterview.io/questions/design-a-client-side-comment-system) | Medium | Mar 01, 2026 |
+| **Render** | [Count Blocked Rate-Limited Requests](https://trueinterview.io/questions/count-blocked-rate-limited-requests) | Hard | Feb 26, 2026 |
 | **Citadel / Luma AI** | [Closest Pair of Points](https://trueinterview.io/questions/closest-pair-of-points) | Hard | Jan 05, 2026 |
 | **Bobyard** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | Medium | — |
 | **Bobyard** | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | Easy | — |

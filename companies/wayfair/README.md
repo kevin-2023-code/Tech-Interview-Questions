@@ -8,7 +8,7 @@ How Wayfair interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../wayfair.md) |
+| Questions reported | [6](../wayfair.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../wayfair.md#the-loop-as-
 
 ## Everything else
 
-- [All 3 questions reported at Wayfair](../wayfair.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 6 questions reported at Wayfair](../wayfair.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Wayfair question on TrueInterview](https://trueinterview.io/problems/company/wayfair).
 
 ---

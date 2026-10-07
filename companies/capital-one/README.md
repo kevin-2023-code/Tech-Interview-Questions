@@ -8,7 +8,7 @@ How Capital One interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [51](../capital-one.md) |
+| Questions reported | [89](../capital-one.md) |
 | Free to read here | 2 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
@@ -45,7 +45,7 @@ Capital One runs one of the most distinctive loops among large engineering emplo
 
 ## Everything else
 
-- [All 51 questions reported at Capital One](../capital-one.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 89 questions reported at Capital One](../capital-one.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Capital One question on TrueInterview](https://trueinterview.io/problems/company/capital-one).
 
 ---

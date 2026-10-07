@@ -89,7 +89,7 @@ The third filter is the behavioral round at the end. A full hour of three princi
 
 ## Data Source
 
-Based on 19 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
+Based on 20 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q3.
 
 ## FAQ
 

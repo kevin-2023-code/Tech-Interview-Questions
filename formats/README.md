@@ -8,8 +8,8 @@ Each question is asked in exactly one format, so these counts sum to the whole b
 
 | Format | Questions | On TrueInterview |
 | :-- | --: | :-- |
-| [Algorithm](algorithm.md) | 1,943 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
-| [SQL](sql.md) | 94 | [sql](https://trueinterview.io/problems?type=sql) |
-| [System Design](system-design.md) | 312 | [system-design](https://trueinterview.io/problems?type=system-design) |
-| [AI Coding](ai-coding.md) | 126 | [ai-coding](https://trueinterview.io/problems?type=ai-coding) |
-| [Object Oriented Programming](object-oriented-programming.md) | 460 | [object-oriented-programming](https://trueinterview.io/problems?type=object-oriented-programming) |
+| [Algorithm](algorithm.md) | 2,512 | [algorithm](https://trueinterview.io/problems?type=algorithm) |
+| [SQL](sql.md) | 298 | [sql](https://trueinterview.io/problems?type=sql) |
+| [System Design](system-design.md) | 693 | [system-design](https://trueinterview.io/problems?type=system-design) |
+| [AI Coding](ai-coding.md) | 89 | [ai-coding](https://trueinterview.io/problems?type=ai-coding) |
+| [Object Oriented Programming](object-oriented-programming.md) | 591 | [object-oriented-programming](https://trueinterview.io/problems?type=object-oriented-programming) |

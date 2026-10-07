@@ -2,7 +2,7 @@
 
 # Whatnot interview process, OA & interview questions
 
-**9 questions** reported at Whatnot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
+**17 questions** reported at Whatnot. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/whatnot), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Whatnot interviews & the free questions](whatnot/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **9** |
+| Questions tracked | **17** |
 | Most recent sighting | Jun 12, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [System Design](../formats/system-design.md) (56% of 9) |
-| Difficulty (easy / medium / hard) | 1 / 7 / 1 |
+| Most common format | [System Design](../formats/system-design.md) (47% of 17) |
+| Difficulty (easy / medium / hard) | 2 / 13 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 9 questions reported at Whatnot. 4 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 17 questions reported at Whatnot. 12 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **9 of 9** questions at Whatnot that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **17 of 17** questions at Whatnot that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 5 | ████████ | [Algorithm](../formats/algorithm.md) (80%) | 0 / 5 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 6 | ██████████ | [System Design](../formats/system-design.md) (83%) | 1 / 4 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (46%) | 1 / 11 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 6 | █████ | [System Design](../formats/system-design.md) (83%) | 2 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -41,15 +41,17 @@ Which stage each question came from, for the **9 of 9** questions at Whatnot tha
 
 ## What they ask about
 
-Of the **4 questions at Whatnot that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **6 questions at Whatnot that carry a topic label** (35% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 2 | 50% | ████████████ | — |
-| `sorting` | 1 | 25% | ██████ | — |
-| `stack` | 1 | 25% | ██████ | — |
-| `strings` | 1 | 25% | ██████ | Jun 12, 2026 |
-| `tries` | 1 | 25% | ██████ | Jun 12, 2026 |
+| `hashing` | 2 | 33% | ████████████ | — |
+| `matrix` | 1 | 17% | ██████ | Jan 24, 2026 |
+| `sorting` | 1 | 17% | ██████ | — |
+| `stack` | 1 | 17% | ██████ | — |
+| `strings` | 1 | 17% | ██████ | Jun 12, 2026 |
+| `tries` | 1 | 17% | ██████ | Jun 12, 2026 |
+| `two-pointers` | 1 | 17% | ██████ | Apr 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -59,10 +61,11 @@ Every recorded sighting at Whatnot, by the month it was reported in — Jan 14, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | █████ |
+| [May 2026](../by-month/2026-05.md) | 2 | ██████████ |
+| [Apr 2026](../by-month/2026-04.md) | 2 | ██████████ |
+| [Mar 2026](../by-month/2026-03.md) | 2 | ██████████ |
+| [Jan 2026](../by-month/2026-01.md) | 5 | ████████████████████████ |
 
 ## Start here
 
@@ -70,14 +73,14 @@ The 8 questions to open first if you are preparing for Whatnot, ranked by **the 
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) | Algorithm | Medium | — | Jun 12, 2026 |
+| **1** | [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) | Algorithm | Easy | — | Jun 12, 2026 |
 | **2** | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | 3 | May 12, 2026 |
-| **3** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
-| **4** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) 🆓 | System Design | Medium | 15 | Jan 14, 2026 |
-| **5** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | 4 | — |
-| **6** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | System Design | Hard | 3 | — |
-| **7** | [Remove All Adjacent Duplicates in String II](https://trueinterview.io/questions/86cbd462-a67b-46e8-8223-eb2f778bd5dc) | Algorithm | Medium | 1 | — |
-| **8** | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | 1 | — |
+| **3** | [Design A WhatsApp-Style Messaging System](https://trueinterview.io/questions/design-a-whatsapp-style-messaging-system) | System Design | Medium | — | May 08, 2026 |
+| **4** | [Solve Adjacent-Deletion and Sorted-Square Problems](https://trueinterview.io/questions/solve-adjacent-deletion-and-sorted-square-problems) | Algorithm | Hard | — | Apr 24, 2026 |
+| **5** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) 🆓 | System Design | Easy | 12 | Apr 12, 2026 |
+| **6** | [Calculate Monthly Customer Retention](https://trueinterview.io/questions/calculate-monthly-customer-retention) | SQL | Medium | — | Mar 30, 2026 |
+| **7** | [Compute a Seven-Day Rolling Average](https://trueinterview.io/questions/compute-a-seven-day-rolling-average-2) | SQL | Medium | — | Mar 30, 2026 |
+| **8** | [Build a Tic-Tac-Toe App](https://trueinterview.io/questions/build-a-tic-tac-toe-app) | Algorithm | Medium | — | Jan 24, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -91,9 +94,17 @@ The 8 questions to open first if you are preparing for Whatnot, ranked by **the 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) | Algorithm | Medium | Jun 12, 2026 |
+| [Filter Unsafe Messages](https://trueinterview.io/questions/filter-unsafe-messages) | Algorithm | Easy | Jun 12, 2026 |
 | [Design Online Donation Service](https://trueinterview.io/questions/charity-donation-system) | System Design | Medium | May 12, 2026 |
+| [Design A WhatsApp-Style Messaging System](https://trueinterview.io/questions/design-a-whatsapp-style-messaging-system) | System Design | Medium | May 08, 2026 |
+| [Solve Adjacent-Deletion and Sorted-Square Problems](https://trueinterview.io/questions/solve-adjacent-deletion-and-sorted-square-problems) | Algorithm | Hard | Apr 24, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
+| [Compute a Seven-Day Rolling Average](https://trueinterview.io/questions/compute-a-seven-day-rolling-average-2) | SQL | Medium | Mar 30, 2026 |
+| [Calculate Monthly Customer Retention](https://trueinterview.io/questions/calculate-monthly-customer-retention) | SQL | Medium | Mar 30, 2026 |
+| [Synchronize Shared Data Across Two Lists](https://trueinterview.io/questions/synchronize-shared-data-across-two-lists) | Object Oriented Programming | Medium | Jan 24, 2026 |
+| [Propose and Validate a Mobile App Improvement](https://trueinterview.io/questions/propose-and-validate-a-mobile-app-improvement) | System Design | Medium | Jan 24, 2026 |
+| [Build a Tic-Tac-Toe App](https://trueinterview.io/questions/build-a-tic-tac-toe-app) | Algorithm | Medium | Jan 24, 2026 |
+| [Design trending livestream discovery](https://trueinterview.io/questions/design-trending-livestream-discovery) | System Design | Medium | Jan 17, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Count Singler Role Co-occurrences](https://trueinterview.io/questions/count-singler-role-co-occurrences-2) | Algorithm | Medium | — |
 | [Build Transition Graph](https://trueinterview.io/questions/build-transition-graph-2) | Algorithm | Medium | — |

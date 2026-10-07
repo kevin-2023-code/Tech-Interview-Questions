@@ -8,11 +8,11 @@ How Verkada interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [27](../verkada.md) |
+| Questions reported | [31](../verkada.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Jun 17, 2026 |
+| Most recent sighting | Sep 04, 2026 |
 
 ## How Verkada interviews
 
@@ -45,7 +45,7 @@ Two constraints recur inside these rounds and catch people off guard. Interviewe
 
 ## Everything else
 
-- [All 27 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 31 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Verkada question on TrueInterview](https://trueinterview.io/problems/company/verkada).
 
 ---

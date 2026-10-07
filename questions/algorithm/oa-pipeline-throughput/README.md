@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Medium | Uber · Citadel | Online assessment | binary-search | Jun 2026 |
+| Algorithm | Medium | Uber · Snowflake | Online assessment | binary-search | Jun 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/oa-pipeline-throughput)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
@@ -97,7 +97,7 @@ The reference solution is on [the question page](https://trueinterview.io/questi
 
 ## Asked at
 
-[Uber](../../../companies/uber/README.md) · [Citadel](../../../companies/citadel/README.md)
+[Uber](../../../companies/uber/README.md) · [Snowflake](../../../companies/snowflake/README.md)
 
 ---
 

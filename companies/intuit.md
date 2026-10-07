@@ -2,7 +2,7 @@
 
 # Intuit interview process, OA & interview questions
 
-**19 questions** reported at Intuit · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/intuit), judged server-side on the algorithm, low-level-design and SQL formats.
+**28 questions** reported at Intuit · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/intuit), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Intuit interviews & the free questions](intuit/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **19** |
+| Questions tracked | **28** |
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (68% of 19) |
-| Difficulty (easy / medium / hard) | 4 / 12 / 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (54% of 28) |
+| Difficulty (easy / medium / hard) | 5 / 18 / 5 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 19 questions reported at Intuit. 13 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 28 questions reported at Intuit. 17 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **19 of 19** questions at Intuit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **28 of 28** questions at Intuit that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 7 | ███████ | [Algorithm](../formats/algorithm.md) (71%) | 2 / 5 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (80%) | 1 / 6 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | ███ | [AI Coding](../formats/ai-coding.md) (33%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 7 | ████ | [Algorithm](../formats/algorithm.md) (71%) | 3 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 1 / 13 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (67%) | 1 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,18 +42,18 @@ Which stage each question came from, for the **19 of 19** questions at Intuit th
 
 ## What they ask about
 
-Of the **12 questions at Intuit that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Intuit that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 5 | 42% | ████████████ | Feb 07, 2026 |
-| `arrays` | 2 | 17% | █████ | Jun 28, 2026 |
-| `dynamic-programming` | 2 | 17% | █████ | Dec 25, 2025 |
+| `strings` | 5 | 38% | ████████████ | Feb 07, 2026 |
+| `arrays` | 2 | 15% | █████ | Jun 28, 2026 |
+| `dynamic-programming` | 2 | 15% | █████ | Dec 25, 2025 |
+| `math` | 2 | 15% | █████ | Feb 10, 2026 |
 | `binary-search` | 1 | 8% | ██ | — |
 | `graphs` | 1 | 8% | ██ | May 08, 2026 |
 | `greedy` | 1 | 8% | ██ | — |
 | `intervals` | 1 | 8% | ██ | — |
-| `math` | 1 | 8% | ██ | Dec 25, 2025 |
 | `matrix` | 1 | 8% | ██ | — |
 | `sorting` | 1 | 8% | ██ | Oct 03, 2025 |
 
@@ -65,15 +65,15 @@ Every recorded sighting at Intuit, by the month it was reported in — Sep 29, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 1 | ████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 1 | ████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████████████████ |
-| [Oct 2025](../by-month/2025-10.md) | 2 | ████████████████████████ |
-| [Sep 2025](../by-month/2025-09.md) | 1 | ████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 2 | ████████████ |
+| [May 2026](../by-month/2026-05.md) | 1 | ██████ |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ██████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ██████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
+| [Dec 2025](../by-month/2025-12.md) | 2 | ████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 4 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 2 | ████████████ |
+| [Sep 2025](../by-month/2025-09.md) | 1 | ██████ |
 
 ## Start here
 
@@ -85,10 +85,10 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 | **2** | [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system) | System Design | Hard | — | Jun 28, 2026 |
 | **3** | [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation) | Algorithm | Medium | — | May 08, 2026 |
 | **4** | [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration) | Algorithm | Medium | — | Apr 22, 2026 |
-| **5** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 13 | Feb 07, 2026 |
-| **6** | [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output) | Algorithm | Medium | — | Jan 30, 2026 |
-| **7** | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) 🆓 | Algorithm | Medium | — | Dec 25, 2025 |
-| **8** | [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql) | SQL | Medium | — | Dec 25, 2025 |
+| **5** | [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | — | Feb 23, 2026 |
+| **6** | [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1) | Algorithm | Medium | — | Feb 10, 2026 |
+| **7** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 13 | Feb 07, 2026 |
+| **8** | [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output) | Algorithm | Medium | — | Jan 30, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -114,18 +114,27 @@ The 8 questions to open first if you are preparing for Intuit, ranked by **the m
 | [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up) | Algorithm | Medium | Jun 28, 2026 |
 | [Small Business Network: Degrees of Separation](https://trueinterview.io/questions/small-business-network-degrees-of-separation) | Algorithm | Medium | May 08, 2026 |
 | [Pandas Meeting Work-Duration Calculation](https://trueinterview.io/questions/pandas-meeting-work-duration) | Algorithm | Medium | Apr 22, 2026 |
+| [Calculate Cohort Retention](https://trueinterview.io/questions/calculate-cohort-retention) | SQL | Hard | Feb 23, 2026 |
+| [Calculate Precision, Recall, and F1](https://trueinterview.io/questions/calculate-precision-recall-and-f1) | Algorithm | Medium | Feb 10, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Bash Largest File from Listing Output](https://trueinterview.io/questions/bash-largest-file-from-ls-output) | Algorithm | Medium | Jan 30, 2026 |
 | [Transactions Status Report SQL](https://trueinterview.io/questions/transactions-status-report-sql) | SQL | Medium | Dec 25, 2025 |
 | [DNA Substring Palindrome Cost Sum](https://trueinterview.io/questions/dna-substring-palindrome-cost-sum) | Algorithm | Medium | Dec 25, 2025 |
 | [Three-Column Grid Coloring Count](https://trueinterview.io/questions/three-column-grid-coloring-count) | Algorithm | Medium | Nov 19, 2025 |
-| [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words) | Algorithm | Medium | Nov 19, 2025 |
+| [Clean String: Remove Punctuation and Stop Words](https://trueinterview.io/questions/clean-string-remove-punctuation-stop-words) | Algorithm | Easy | Nov 19, 2025 |
+| [Pivot daily users and revenue by platform](https://trueinterview.io/questions/pivot-daily-users-and-revenue-by-platform) | SQL | Medium | Nov 08, 2025 |
+| [Compute monthly signups, conversion, and YoY growth](https://trueinterview.io/questions/compute-monthly-signups-conversion-and-yoy-growth) | Algorithm | Medium | Nov 08, 2025 |
 | [Weather Data Energy-Usage Ranking](https://trueinterview.io/questions/weather-data-energy-usage-ranking) | Algorithm | Medium | Oct 03, 2025 |
 | [Customer Scheduler: VIP Priority and 2:1 Fairness](https://trueinterview.io/questions/customer-scheduler-vip-fairness) | Object Oriented Programming | Medium | Oct 02, 2025 |
 | [Look-and-Say Sequence](https://trueinterview.io/questions/look-and-say-sequence) | Algorithm | Easy | Sep 29, 2025 |
+| [Exclude free subscribers via anti-join](https://trueinterview.io/questions/exclude-free-subscribers-via-anti-join) | SQL | Medium | — |
+| [Design an idempotent churn ETL pipeline](https://trueinterview.io/questions/design-an-idempotent-churn-etl-pipeline) | SQL | Hard | — |
+| [Compute paid subscriber YoY counts by month](https://trueinterview.io/questions/compute-paid-subscriber-yoy-counts-by-month) | SQL | Medium | — |
+| [Compute monthly new subscribers and YoY deltas](https://trueinterview.io/questions/compute-monthly-new-subscribers-and-yoy-deltas) | SQL | Medium | — |
+| [Compute churn and revenue churn in SQL](https://trueinterview.io/questions/compute-churn-and-revenue-churn-in-sql) | SQL | Medium | — |
 | [Concurrent Task Processor](https://trueinterview.io/questions/a75fd921-df8c-4835-9430-d544a97cc769) | Object Oriented Programming | Medium | — |
 | [SQL Related Multiple Choice](https://trueinterview.io/questions/aba450f6-4f57-4470-8608-cf72eb213c12) | SQL | Easy | — |
 | [Find the Safest Path in a Grid](https://trueinterview.io/questions/4a705b25-2a46-4581-866f-381bfd794dab) | Algorithm | Hard | — |
-| [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | AI Coding | Easy | — |
+| [BankAccount Deposit and Withdraw Methods with Tests](https://trueinterview.io/questions/2825627f-fe90-4c07-b8ee-be0fc9f6d578) | Object Oriented Programming | Easy | — |
 | [Matrix Transpose and Multiplication Speed Benchmark](https://trueinterview.io/questions/0cc929c7-175c-4c2b-8748-4777d598bc16) | Algorithm | Medium | — |
 | [Smart Gardener (Intuit India)](https://trueinterview.io/questions/094b806b-d68d-413f-a536-249524c89249) | Algorithm | Hard | — |

@@ -8,11 +8,11 @@ How Netflix interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [72](../netflix.md) |
+| Questions reported | [89](../netflix.md) |
 | Free to read here | 12 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
-| Most recent sighting | Jun 15, 2026 |
+| Most recent sighting | Sep 11, 2026 |
 
 ## How Netflix interviews
 
@@ -44,7 +44,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
 | [Contains Duplicate III](../../questions/algorithm/contains-duplicate-iii/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/contains-duplicate-iii) |
-| [Design the Data Model for an Ads Demand Platform](../../questions/object-oriented-programming/design-the-data-model-for-an-ads-demand-platform/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) |
+| [Design the Data Model for an Ads Demand Platform](../../questions/system-design/design-the-data-model-for-an-ads-demand-platform/README.md) | System Design | Medium | Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) |
 | [Tagged Command Undo](../../questions/object-oriented-programming/tagged-command-undo/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/tagged-command-undo) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [First Missing Positive](../../questions/algorithm/first-missing-positive/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/first-missing-positive) |
@@ -57,7 +57,7 @@ The virtual onsite typically runs four to six rounds with independent interviewe
 
 ## Everything else
 
-- [All 72 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 89 questions reported at Netflix](../netflix.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Netflix question on TrueInterview](https://trueinterview.io/problems/company/netflix).
 
 ---

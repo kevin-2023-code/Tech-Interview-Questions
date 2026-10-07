@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Goldman Sachs | Online assessment | heap | Oct 2024 |
+| Algorithm | Medium | Goldman Sachs | Online assessment | heap | Oct 2024 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/min-max-product-stream)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

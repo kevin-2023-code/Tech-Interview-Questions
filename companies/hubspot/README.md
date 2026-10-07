@@ -8,7 +8,7 @@ How HubSpot interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [11](../hubspot.md) |
+| Questions reported | [13](../hubspot.md) |
 | Free to read here | 4 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -31,7 +31,7 @@ No written process guide yet. [The loop, as reported](../hubspot.md#the-loop-as-
 
 ## Everything else
 
-- [All 11 questions reported at HubSpot](../hubspot.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 13 questions reported at HubSpot](../hubspot.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every HubSpot question on TrueInterview](https://trueinterview.io/problems/company/hubspot).
 
 ---

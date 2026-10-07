@@ -2,7 +2,7 @@
 
 # Snowflake interview process, OA & interview questions
 
-**113 questions** reported at Snowflake · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
+**130 questions** reported at Snowflake · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/snowflake), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Snowflake interviews & the free questions](snowflake/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,76 +14,81 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **113** |
-| Most recent sighting | Aug 15, 2026 |
-| Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (74% of 113) |
-| Difficulty (easy / medium / hard) | 17 / 73 / 23 |
-| Free to practise | [27](../free/README.md) |
+| Questions tracked | **130** |
+| Most recent sighting | Sep 05, 2026 |
+| Reported in the last 90 days | 8 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 130) |
+| Difficulty (easy / medium / hard) | 20 / 91 / 19 |
+| Free to practise | [28](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
 
-<sub>Counted from the 113 questions reported at Snowflake. 78 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 130 questions reported at Snowflake. 88 of them carry a sighting date; the other 42 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **113 of 113** questions at Snowflake that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **130 of 130** questions at Snowflake that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 80 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 6 / 57 / 17 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 50 | ██████ | [Algorithm](../formats/algorithm.md) (54%) | 4 / 34 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 16 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 91 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 7 / 69 / 15 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 53 | ██████ | [Algorithm](../formats/algorithm.md) (53%) | 6 / 40 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**8 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
+| [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | Phone screen | Sep 05, 2026 |
+| [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | Phone screen | Sep 05, 2026 |
+| [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | Phone screen | Sep 03, 2026 |
+| [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | System Design | Medium | Phone screen | Aug 24, 2026 |
 | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | Onsite / virtual onsite | Aug 15, 2026 |
-| [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | Onsite / virtual onsite | Aug 13, 2026 |
+| [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Easy | Onsite / virtual onsite | Aug 13, 2026 |
 | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | Onsite / virtual onsite | Aug 01, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | Phone screen | Jul 22, 2026 |
 
 ## What they ask about
 
-Of the **85 questions at Snowflake that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **98 questions at Snowflake that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 19 | 22% | ████████████ | Jun 17, 2026 |
-| `backtracking` | 12 | 14% | ████████ | Jun 17, 2026 |
-| `trees` | 11 | 13% | ███████ | Jun 24, 2026 |
-| `arrays` | 10 | 12% | ██████ | Jun 24, 2026 |
-| `dynamic-programming` | 10 | 12% | ██████ | Jun 07, 2026 |
-| `greedy` | 9 | 11% | ██████ | Jun 17, 2026 |
-| `strings` | 9 | 11% | ██████ | Jun 17, 2026 |
-| `hashing` | 7 | 8% | ████ | May 30, 2026 |
-| `heap` | 6 | 7% | ████ | Jun 10, 2026 |
-| `binary-search` | 5 | 6% | ███ | May 30, 2026 |
+| `graphs` | 20 | 20% | ████████████ | Jun 17, 2026 |
+| `backtracking` | 12 | 12% | ███████ | Jun 17, 2026 |
+| `dynamic-programming` | 12 | 12% | ███████ | Jun 07, 2026 |
+| `trees` | 12 | 12% | ███████ | Jun 24, 2026 |
+| `arrays` | 10 | 10% | ██████ | Jun 24, 2026 |
+| `greedy` | 9 | 9% | █████ | Jun 17, 2026 |
+| `hashing` | 9 | 9% | █████ | May 30, 2026 |
+| `strings` | 9 | 9% | █████ | Jun 17, 2026 |
+| `binary-search` | 6 | 6% | ████ | Jun 04, 2026 |
+| `heap` | 6 | 6% | ████ | Jun 10, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Snowflake, by the month it was reported in — Jul 20, 2025 to Aug 15, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Snowflake, by the month it was reported in — Jul 20, 2025 to Sep 05, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Aug 2026](../by-month/2026-08.md) | 3 | █████ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | █████ |
+| [Aug 2026](../by-month/2026-08.md) | 4 | ██████ |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ██ |
-| [Jun 2026](../by-month/2026-06.md) | 14 | ████████████████████████ |
-| [May 2026](../by-month/2026-05.md) | 6 | ██████████ |
-| [Apr 2026](../by-month/2026-04.md) | 9 | ███████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 15 | ████████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 7 | ███████████ |
+| [Apr 2026](../by-month/2026-04.md) | 10 | ████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | █████ |
-| [Feb 2026](../by-month/2026-02.md) | 14 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 10 | █████████████████ |
-| [Dec 2025](../by-month/2025-12.md) | 10 | █████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 4 | ███████ |
-| [Jul 2025](../by-month/2025-07.md) | 4 | ███████ |
+| [Feb 2026](../by-month/2026-02.md) | 15 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 11 | ██████████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 11 | ██████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 4 | ██████ |
+| [Jul 2025](../by-month/2025-07.md) | 4 | ██████ |
 
 ## Start here
 
@@ -91,14 +96,14 @@ The 8 questions to open first if you are preparing for Snowflake, ranked by **th
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | — | Aug 15, 2026 |
-| **2** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | — | Aug 13, 2026 |
-| **3** | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | — | Aug 01, 2026 |
-| **4** | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | — | Jul 22, 2026 |
-| **5** | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | System Design | Medium | — | Jun 25, 2026 |
-| **6** | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Algorithm | Medium | — | Jun 24, 2026 |
-| **7** | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Algorithm | Hard | — | Jun 24, 2026 |
-| **8** | [Design an AI-Powered Jira Ticket Automation System](https://trueinterview.io/questions/design-an-ai-powered-jira-ticket-automation-system) | System Design | Hard | — | Jun 22, 2026 |
+| **1** | [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | — | Sep 05, 2026 |
+| **2** | [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | — | Sep 05, 2026 |
+| **3** | [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | — | Sep 03, 2026 |
+| **4** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | System Design | Medium | — | Aug 24, 2026 |
+| **5** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | — | Aug 15, 2026 |
+| **6** | [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Easy | — | Aug 13, 2026 |
+| **7** | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | — | Aug 01, 2026 |
+| **8** | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | — | Jul 22, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -133,15 +138,19 @@ What candidates said happened in the room at Snowflake — written up by the peo
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Find the Minimum Fleet for a Bus Timetable](https://trueinterview.io/questions/find-the-minimum-fleet-for-a-bus-timetable) | Algorithm | Medium | 🆕 Sep 05, 2026 |
+| [Find the Minimum Bus Fleet with Station Constraints](https://trueinterview.io/questions/find-the-minimum-bus-fleet-with-station-constraints) | Algorithm | Hard | 🆕 Sep 05, 2026 |
+| [Compute Effective Letter Permissions in a DAG](https://trueinterview.io/questions/compute-effective-letter-permissions-in-a-dag) | Algorithm | Hard | 🆕 Sep 03, 2026 |
+| [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | System Design | Medium | 🆕 Aug 24, 2026 |
 | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Algorithm | Medium | Aug 15, 2026 |
-| [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Medium | Aug 13, 2026 |
+| [Webinar Popularity](https://trueinterview.io/questions/webinar-popularity) | SQL | Easy | Aug 13, 2026 |
 | [Priority Task Executor](https://trueinterview.io/questions/priority-task-executor) | Object Oriented Programming | Medium | Aug 01, 2026 |
 | [Marketing Touch Streak](https://trueinterview.io/questions/marketing-touch-streak) | SQL | Medium | Jul 22, 2026 |
 | [Audit Logs Service](https://trueinterview.io/questions/audit-logs-service) | System Design | Medium | Jun 25, 2026 |
 | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Algorithm | Medium | Jun 24, 2026 |
-| [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Algorithm | Hard | Jun 24, 2026 |
+| [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Algorithm | Medium | Jun 24, 2026 |
 | [Design an AI-Powered Jira Ticket Automation System](https://trueinterview.io/questions/design-an-ai-powered-jira-ticket-automation-system) | System Design | Hard | Jun 22, 2026 |
-| [Project Duration & Budget per Employee](https://trueinterview.io/questions/sql-project-duration-budget-per-employee) | SQL | Medium | Jun 18, 2026 |
+| [Project Duration & Budget per Employee](https://trueinterview.io/questions/sql-project-duration-budget-per-employee) | SQL | Easy | Jun 18, 2026 |
 | [Reverse Alphanumeric Segments](https://trueinterview.io/questions/reverse-alphanumeric-segments) | Algorithm | Medium | Jun 17, 2026 |
 | [Number Transformation Path](https://trueinterview.io/questions/number-transformation-path) | Algorithm | Medium | Jun 17, 2026 |
 | [Dynamic Blacklist Filter System](https://trueinterview.io/questions/dynamic-blacklist-filter-system-ood) | Object Oriented Programming | Medium | Jun 17, 2026 |
@@ -151,19 +160,22 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Closest Cake and Global Assignment](https://trueinterview.io/questions/closest-cake-and-global-assignment) | Algorithm | Medium | Jun 10, 2026 |
 | [Max Credits with K Classes (Interval-Style)](https://trueinterview.io/questions/course-credit-max-k-classes) | Algorithm | Medium | Jun 07, 2026 |
 | [Four-in-a-row Game](https://trueinterview.io/questions/connect-four-can-play-win) | Algorithm | Medium | Jun 06, 2026 |
+| [Maximize Pipeline Throughput](https://trueinterview.io/questions/oa-pipeline-throughput) | Algorithm | Medium | Jun 04, 2026 |
 | [Time Range Event Counter](https://trueinterview.io/questions/time-range-event-counter) | Algorithm | Medium | May 30, 2026 |
 | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Object Oriented Programming | Medium | May 24, 2026 |
 | [SnowCal](https://trueinterview.io/questions/snowcal) | Algorithm | Medium | May 22, 2026 |
 | [DAG Allow / Disallow Propagation](https://trueinterview.io/questions/dag-allow-disallow-letters) | Algorithm | Medium | May 20, 2026 |
-| [Wiki Page Shortest-Click Path](https://trueinterview.io/questions/wiki-page-shortest-path) | Algorithm | Hard | May 11, 2026 |
+| [Wiki Page Shortest-Click Path](https://trueinterview.io/questions/wiki-page-shortest-path) | Algorithm | Medium | May 11, 2026 |
 | [Design an RPC Abstraction Layer for REST APIs](https://trueinterview.io/questions/design-an-rpc-abstraction-layer-for-rest-apis) | System Design | Medium | May 2026 |
+| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | May 2026 |
+| [Minimum Clicks Between Wiki Pages](https://trueinterview.io/questions/solve-array-distance-and-wiki-navigation-minimum-clicks-between-wiki-pages) | Algorithm | Medium | Apr 23, 2026 |
 | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design) | System Design | Medium | Apr 23, 2026 |
 | [Copy Neighbor Sums Between Binary Trees](https://trueinterview.io/questions/copy-neighbor-sums-between-binary-trees) | Algorithm | Medium | Apr 22, 2026 |
 | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | System Design | Hard | Apr 20, 2026 |
 | [Document Predicate Search Engine](https://trueinterview.io/questions/document-predicate-search-engine) | Algorithm | Medium | Apr 20, 2026 |
 | [Merge Two Sorted Lists](https://trueinterview.io/questions/merge-two-sorted-lists) | Algorithm | Easy | Apr 20, 2026 |
 | [Limit Tree Height by Deletions](https://trueinterview.io/questions/limit-tree-height-by-deletions) | Algorithm | Hard | Apr 15, 2026 |
-| [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | System Design | Hard | Apr 07, 2026 |
+| [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | System Design | Medium | Apr 07, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
 | [Distributed Rate Limiter](https://trueinterview.io/questions/distributed-rate-limiter) | Algorithm | Medium | Apr 01, 2026 |
 | [Frontend Grid: Robot Eats Candies](https://trueinterview.io/questions/frontend-grid-robot-candy) | Algorithm | Medium | Mar 28, 2026 |
@@ -179,38 +191,47 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Algorithm | Hard | Feb 19, 2026 |
 | [N-Queens](https://trueinterview.io/questions/n-queens) | Algorithm | Medium | Feb 16, 2026 |
 | [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system) | System Design | Easy | Feb 13, 2026 |
+| [Implement topological sort and tree boundary traversal](https://trueinterview.io/questions/implement-topological-sort-and-tree-boundary-traversal) | Algorithm | Medium | Feb 12, 2026 |
 | [Top K Hash Tags](https://trueinterview.io/questions/top-k-hash-tags) | Algorithm | Medium | Feb 09, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [Top K Book Sales](https://trueinterview.io/questions/k-top-selling-books) | Object Oriented Programming | Easy | Feb 01, 2026 |
-| [Maximum Number of Events That Can Be Attended](https://trueinterview.io/questions/maximum-number-of-events-that-can-be-attended) | Algorithm | Hard | Jan 30, 2026 |
-| [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) | Algorithm | Hard | Jan 28, 2026 |
+| [Maximum Number of Events That Can Be Attended](https://trueinterview.io/questions/maximum-number-of-events-that-can-be-attended) | Algorithm | Medium | Jan 30, 2026 |
+| [Cheapest Flights Within K Stops](https://trueinterview.io/questions/cheapest-flights-within-k-stops-3) | Algorithm | Medium | Jan 28, 2026 |
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Jan 22, 2026 |
 | [Design Circular Queue](https://trueinterview.io/questions/design-circular-queue) | Object Oriented Programming | Medium | Jan 22, 2026 |
 | [Throne Inheritance](https://trueinterview.io/questions/throne-inheritance) | Object Oriented Programming | Medium | Jan 18, 2026 |
 | [Recipe Sequence Matcher](https://trueinterview.io/questions/recipe-sequence-matcher) | Algorithm | Medium | Jan 17, 2026 |
 | [Maximum Profit Query Selection](https://trueinterview.io/questions/single-query-max-revenue) | Algorithm | Easy | Jan 17, 2026 |
+| [Compute height of tree with deleted nodes; minimize deletions](https://trueinterview.io/questions/compute-height-of-tree-with-deleted-nodes-minimize-deletions) | Algorithm | Hard | Jan 16, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
 | [Maximum Profit in Job Scheduling](https://trueinterview.io/questions/maximum-profit-in-job-scheduling) | Algorithm | Hard | Jan 07, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
 | [01 Matrix](https://trueinterview.io/questions/01-matrix) | Algorithm | Medium | Dec 30, 2025 |
-| [ACL Service for Another Service](https://trueinterview.io/questions/acl-service-design) | System Design | Hard | Dec 27, 2025 |
+| [ACL Service for Another Service](https://trueinterview.io/questions/acl-service-design) | System Design | Medium | Dec 27, 2025 |
 | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Object Oriented Programming | Medium | Dec 27, 2025 |
 | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Algorithm | Medium | Dec 23, 2025 |
+| [Validate an extended tic-tac-toe state](https://trueinterview.io/questions/validate-an-extended-tic-tac-toe-state) | Algorithm | Hard | Dec 15, 2025 |
 | [Copy List with Random Pointer](https://trueinterview.io/questions/copy-list-with-random-pointer) | Algorithm | Medium | Dec 14, 2025 |
 | [Serialize and Deserialize Dictionary Trie](https://trueinterview.io/questions/serialize-and-deserialize-dictionary-trie) | Algorithm | Medium | Dec 10, 2025 |
 | [Preorder Traversal Without Invalid Nodes](https://trueinterview.io/questions/preorder-traversal-without-invalid-nodes) | Algorithm | Easy | Dec 09, 2025 |
 | [Check if an Original String Exists Given Two Encoded Strings](https://trueinterview.io/questions/check-if-an-original-string-exists-given-two-encoded-strings) | Algorithm | Hard | Dec 09, 2025 |
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
-| [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Hard | Dec 02, 2025 |
+| [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Medium | Dec 02, 2025 |
 | [Dropped Requests (Rate Limiter)](https://trueinterview.io/questions/dropped-requests-rate-limiter) | Algorithm | Medium | Nov 29, 2025 |
-| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Hard | Nov 23, 2025 |
+| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Medium | Nov 23, 2025 |
 | [S3-Style Storage with Dedup](https://trueinterview.io/questions/s3-dedup-storage-design) | System Design | Medium | Nov 23, 2025 |
-| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Medium | Nov 08, 2025 |
+| [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
 | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Algorithm | Medium | Jul 20, 2025 |
-| [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | Algorithm | Hard | Jul 20, 2025 |
+| [Vowels Substring](https://trueinterview.io/questions/vowels-substring) | Algorithm | Medium | Jul 20, 2025 |
 | [Unequal Elements](https://trueinterview.io/questions/unequal-elements) | Algorithm | Medium | Jul 20, 2025 |
-| [Three-Color Map Coloring](https://trueinterview.io/questions/three-color-map-coloring) | Algorithm | Hard | Jul 20, 2025 |
+| [Three-Color Map Coloring](https://trueinterview.io/questions/three-color-map-coloring) | Algorithm | Medium | Jul 20, 2025 |
+| [Design and validate a cost-sensitive classifier](https://trueinterview.io/questions/design-and-validate-a-cost-sensitive-classifier) | Algorithm | Hard | — |
+| [Solve and optimize 3Sum and variants at scale](https://trueinterview.io/questions/solve-and-optimize-3sum-and-variants-at-scale) | Algorithm | Hard | — |
+| [Query seven-day conversion with windows and dedupe](https://trueinterview.io/questions/query-seven-day-conversion-with-windows-and-dedupe) | SQL | Medium | — |
+| [Implement DFS with cycle detection and topo order](https://trueinterview.io/questions/implement-dfs-with-cycle-detection-and-topo-order) | Algorithm | Hard | — |
+| [Design an analytic warehouse for event data](https://trueinterview.io/questions/design-an-analytic-warehouse-for-event-data) | System Design | Medium | — |
+| [Build a cohort dashboard with Streamlit and SQL](https://trueinterview.io/questions/build-a-cohort-dashboard-with-streamlit-and-sql) | SQL | Medium | — |
 | [Get Perfect Pairs Count](https://trueinterview.io/questions/b738f1a9-80bb-420c-b1e1-26d677279f90) | Algorithm | Medium | — |
 | [Wiki Hopper: Crawl All Reachable Pages](https://trueinterview.io/questions/fb29adba-08ba-5631-8405-02b39be6f187) | Algorithm | Easy | — |
 | [Find Unique Number in Consecutive Pairs](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) | Algorithm | Medium | — |
@@ -226,21 +247,22 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Simple TypeScript Program](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) | Algorithm | Easy | — |
 | [Check Validity of Input String](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) | Algorithm | Easy | — |
 | [Deployments Node Calculation](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) | Algorithm | Medium | — |
-| [Maximum Order Volume](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) | Algorithm | Hard | — |
+| [Maximum Order Volume](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) | Algorithm | Medium | — |
 | [Rate Limiter](https://trueinterview.io/questions/5ac1e372-948a-4af9-b467-5e495795ba16) | Algorithm | Easy | — |
 | [Vowel Substring](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) | Algorithm | Easy | — |
 | [Minimum Value Weight](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) | Algorithm | Medium | — |
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
+| [Minimum Distance Between People and Cakes](https://trueinterview.io/questions/787ed7cb-16c1-4605-a606-93dbbc22cb6c) | Algorithm | Easy | — |
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Sort Colors in a RecordCollection In-Place](https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb) | Algorithm | Medium | — |
 | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4) | Algorithm | Medium | — |
-| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Easy | — |
+| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Medium | — |
 | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Algorithm | Hard | — |
 | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Algorithm | Hard | — |
-| [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |
+| [Modified Knapsack Problem](https://trueinterview.io/questions/e4d29efa-828d-4ebc-b3c6-c8e54ee8058f) | Algorithm | Medium | — |
 | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c) | Object Oriented Programming | Medium | — |
 | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Algorithm | Easy | — |
 | [Handle Intervals When Input Is Not Sorted](https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac) | Algorithm | Medium | — |

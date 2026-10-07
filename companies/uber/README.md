@@ -8,7 +8,7 @@ How Uber interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [178](../uber.md) |
+| Questions reported | [222](../uber.md) |
 | Free to read here | 39 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -69,7 +69,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 | [Time Based Key-Value Store](../../questions/algorithm/time-based-key-value-store-2/README.md) | Algorithm | Medium | Onsite / virtual onsite | Mar 2026 | [Solve](https://trueinterview.io/questions/time-based-key-value-store-2) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Best Time to Buy and Sell Stock II](../../questions/algorithm/best-time-to-buy-and-sell-stock-ii/README.md) | Algorithm | Easy | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) |
-| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
+| [Lowest Common Ancestor of a Binary Tree](../../questions/algorithm/lowest-common-ancestor-of-a-binary-tree/README.md) | Algorithm | Easy | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) |
 | [Shortest Bridge](../../questions/algorithm/shortest-bridge-2/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/shortest-bridge-2) |
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Check Prefix Permutation](../../questions/algorithm/oa-permutation-prefix-balanced/README.md) | Algorithm | Easy | Online assessment | Feb 2026 | [Solve](https://trueinterview.io/questions/oa-permutation-prefix-balanced) |
@@ -84,7 +84,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 | [Alien Dictionary Evaluation](../../questions/algorithm/alien-dictionary-evaluation/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec) |
 | [Find Target with Rotation](../../questions/algorithm/find-target-with-rotation/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/b61576ab-0661-458e-ae7d-f1a3ed8e4d3d) |
 | [Design an In-Memory File System with Recursive Wildcards](../../questions/object-oriented-programming/design-an-in-memory-file-system-with-recursive-wildcards/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) |
-| [Paint Line and Count Adjacent Same Colors](../../questions/algorithm/paint-line-and-count-adjacent-same-colors/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/688b80fe-8f40-45dc-8c98-61c2aaac7ea9) |
+| [Paint Line and Count Adjacent Same Colors](../../questions/algorithm/paint-line-and-count-adjacent-same-colors/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/688b80fe-8f40-45dc-8c98-61c2aaac7ea9) |
 | [Track Customer Website Visits](../../questions/algorithm/track-customer-website-visits/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) |
 | [Find Index of Max Rate to Price Ratio](../../questions/algorithm/find-index-of-max-rate-to-price-ratio/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/2d92d9fc-3676-44e1-a4f8-db5e99c47868) |
 | [Find Combinations After Flip](../../questions/algorithm/find-combinations-after-flip/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1da69ce4-74fb-48ef-9eb8-ebca7578ec21) |
@@ -98,7 +98,7 @@ In coding rounds, candidates typically solve the core problem in under half the 
 
 ## Everything else
 
-- [All 178 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 222 questions reported at Uber](../uber.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Uber question on TrueInterview](https://trueinterview.io/problems/company/uber).
 
 ---

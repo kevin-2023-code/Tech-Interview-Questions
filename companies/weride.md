@@ -2,7 +2,7 @@
 
 # WeRide interview process, OA & interview questions
 
-**21 questions** reported at WeRide · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/weride), judged server-side.
+**22 questions** reported at WeRide · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/weride), judged server-side.
 
 [📖 How WeRide interviews & the free questions](weride/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **21** |
+| Questions tracked | **22** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (100% of 21) |
-| Difficulty (easy / medium / hard) | 6 / 11 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (100% of 22) |
+| Difficulty (easy / medium / hard) | 6 / 13 / 3 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 21 questions reported at WeRide. 3 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 22 questions reported at WeRide. 4 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **21 of 21** questions at WeRide that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **22 of 22** questions at WeRide that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 11 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 13 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -46,32 +46,33 @@ Which stage each question came from, for the **21 of 21** questions at WeRide th
 
 ## What they ask about
 
-Of the **21 questions at WeRide that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **22 questions at WeRide that carry a topic label** (100% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 4 | 19% | ████████████ | — |
-| `graphs` | 3 | 14% | █████████ | — |
-| `dynamic-programming` | 2 | 10% | ██████ | — |
-| `hashing` | 2 | 10% | ██████ | Mar 17, 2026 |
-| `stack` | 2 | 10% | ██████ | Feb 07, 2026 |
-| `strings` | 2 | 10% | ██████ | Feb 07, 2026 |
-| `arrays` | 1 | 5% | ███ | Mar 17, 2026 |
-| `backtracking` | 1 | 5% | ███ | — |
-| `binary-search` | 1 | 5% | ███ | — |
-| `greedy` | 1 | 5% | ███ | — |
+| `math` | 5 | 23% | ████████████ | Oct 02, 2025 |
+| `graphs` | 3 | 14% | ███████ | — |
+| `dynamic-programming` | 2 | 9% | █████ | — |
+| `hashing` | 2 | 9% | █████ | Mar 17, 2026 |
+| `stack` | 2 | 9% | █████ | Feb 07, 2026 |
+| `strings` | 2 | 9% | █████ | Feb 07, 2026 |
+| `arrays` | 1 | 5% | ██ | Mar 17, 2026 |
+| `backtracking` | 1 | 5% | ██ | — |
+| `binary-search` | 1 | 5% | ██ | — |
+| `greedy` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at WeRide, by the month it was reported in — Feb 07, 2026 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at WeRide, by the month it was reported in — Oct 02, 2025 to Jul 29, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Jul 2026](../by-month/2026-07.md) | 1 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 1 | ████████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
 
 ## Start here
 
@@ -82,11 +83,11 @@ The 8 questions to open first if you are preparing for WeRide, ranked by **the m
 | **1** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | 8 | Jul 29, 2026 |
 | **2** | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) 🆓 | Algorithm | Easy | 6 | Mar 17, 2026 |
 | **3** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) 🆓 | Algorithm | Easy | 13 | Feb 07, 2026 |
-| **4** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) 🆓 | Algorithm | Medium | 3 | — |
-| **5** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
-| **6** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
-| **7** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |
-| **8** | [Reorder a Singly Linked List in L0→Ln→L1→Ln-1… Order](https://trueinterview.io/questions/e27d7596-6980-4345-a298-499dd7bbad87) | Algorithm | Medium | 1 | — |
+| **4** | [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) | Algorithm | Medium | — | Oct 02, 2025 |
+| **5** | [Implement Power Function](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) 🆓 | Algorithm | Medium | 3 | — |
+| **6** | [Matrix Multiplication](https://trueinterview.io/questions/8873c68e-43b6-476d-be5f-36030a3aec82) 🆓 | Algorithm | Easy | 2 | — |
+| **7** | [Delete Node in a Linked List](https://trueinterview.io/questions/13d6911a-76ff-4500-b9d4-54ca1a194576) | Algorithm | Easy | 1 | — |
+| **8** | [Preprocess Dates](https://trueinterview.io/questions/4bf9c78c-1032-4eb2-b1b6-0d3aa580a099) | Algorithm | Easy | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -111,7 +112,8 @@ The 8 questions to open first if you are preparing for WeRide, ranked by **the m
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
 | [In-Flight Movie Pair (Two Sum Variant)](https://trueinterview.io/questions/in-flight-movie-pair-two-sum) | Algorithm | Easy | Mar 17, 2026 |
 | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Algorithm | Easy | Feb 07, 2026 |
-| [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Algorithm | Hard | — |
+| [Implement matrix multiplication and fast exponentiation](https://trueinterview.io/questions/implement-matrix-multiplication-and-fast-exponentiation) | Algorithm | Medium | Oct 02, 2025 |
+| [Meetup Schedule](https://trueinterview.io/questions/c41a3abb-bca0-472e-9001-c8db9eb97fdb) | Algorithm | Medium | — |
 | [Checking Your Route](https://trueinterview.io/questions/ae7d5b11-bd0d-4a22-a180-25e970f557fa) | Algorithm | Hard | — |
 | [Implement a Calculator with Brackets](https://trueinterview.io/questions/9fc868b8-b683-4792-9f30-37e943638d43) | Algorithm | Medium | — |
 | [Is Bipartite Graph](https://trueinterview.io/questions/91f2f12c-8e72-43d8-9225-faacf732e455) | Algorithm | Medium | — |

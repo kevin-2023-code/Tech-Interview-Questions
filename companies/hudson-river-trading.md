@@ -2,7 +2,7 @@
 
 # Hudson River Trading interview process, OA & interview questions
 
-**17 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
+**19 questions** reported at Hudson River Trading · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Hudson River Trading interviews & the free questions](hudson-river-trading/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **17** |
+| Questions tracked | **19** |
 | Most recent sighting | May 01, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (88% of 17) |
-| Difficulty (easy / medium / hard) | 4 / 11 / 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (89% of 19) |
+| Difficulty (easy / medium / hard) | 4 / 14 / 1 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 17 questions reported at Hudson River Trading. 2 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 19 questions reported at Hudson River Trading. 4 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **17 of 17** questions at Hudson River Trading that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **19 of 19** questions at Hudson River Trading that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | █████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 10 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 7 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 5 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 10 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 2 | ██ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,20 +42,20 @@ Which stage each question came from, for the **17 of 17** questions at Hudson Ri
 
 ## What they ask about
 
-Of the **11 questions at Hudson River Trading that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Hudson River Trading that carry a topic label** (68% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 3 | 27% | ████████████ | — |
-| `hashing` | 2 | 18% | ████████ | — |
-| `backtracking` | 1 | 9% | ████ | Oct 16, 2025 |
-| `binary-search` | 1 | 9% | ████ | May 01, 2026 |
-| `bit-manipulation` | 1 | 9% | ████ | — |
-| `graphs` | 1 | 9% | ████ | — |
-| `math` | 1 | 9% | ████ | — |
-| `sorting` | 1 | 9% | ████ | — |
-| `stack` | 1 | 9% | ████ | — |
-| `strings` | 1 | 9% | ████ | — |
+| `arrays` | 4 | 31% | ████████████ | Apr 23, 2026 |
+| `hashing` | 2 | 15% | ██████ | — |
+| `sorting` | 2 | 15% | ██████ | Nov 28, 2025 |
+| `backtracking` | 1 | 8% | ███ | Oct 16, 2025 |
+| `binary-search` | 1 | 8% | ███ | May 01, 2026 |
+| `bit-manipulation` | 1 | 8% | ███ | — |
+| `graphs` | 1 | 8% | ███ | — |
+| `math` | 1 | 8% | ███ | — |
+| `stack` | 1 | 8% | ███ | — |
+| `strings` | 1 | 8% | ███ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -66,6 +66,8 @@ Every recorded sighting at Hudson River Trading, by the month it was reported in
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [May 2026](../by-month/2026-05.md) | 1 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 1 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████████████████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ████████████████████████ |
 
 ## Start here
@@ -75,13 +77,13 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Algorithm | Medium | — | May 01, 2026 |
-| **2** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | 4 | Oct 16, 2025 |
-| **3** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | 1 | — |
-| **4** | [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Algorithm | Medium | 1 | — |
-| **5** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | — | — |
-| **6** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | — | — |
-| **7** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) 🆓 | Algorithm | Easy | — | — |
-| **8** | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | Algorithm | Medium | — | — |
+| **2** | [Solve Watcher Simulation And Integer Conversion](https://trueinterview.io/questions/solve-watcher-simulation-and-integer-conversion) | Algorithm | Medium | — | Apr 23, 2026 |
+| **3** | [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation) | Algorithm | Medium | — | Nov 28, 2025 |
+| **4** | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | 4 | Oct 16, 2025 |
+| **5** | [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | 1 | — |
+| **6** | [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Algorithm | Medium | 1 | — |
+| **7** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Algorithm | Easy | — | — |
+| **8** | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -104,6 +106,8 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Guess Number II](https://trueinterview.io/questions/guess-number-ii) | Algorithm | Medium | May 01, 2026 |
+| [Solve Watcher Simulation And Integer Conversion](https://trueinterview.io/questions/solve-watcher-simulation-and-integer-conversion) | Algorithm | Medium | Apr 23, 2026 |
+| [Count inversions in a permutation](https://trueinterview.io/questions/count-inversions-in-a-permutation) | Algorithm | Medium | Nov 28, 2025 |
 | [Min Root-to-Leaf Path Sum of N-ary Tree](https://trueinterview.io/questions/min-root-to-leaf-path-sum-of-n-ary-tree) | Algorithm | Easy | Oct 16, 2025 |
 | [Implement Modify in an Order Management System (Codebase Extension)](https://trueinterview.io/questions/23f63264-e86c-447a-aa50-6eb72f9e9609) | Object Oriented Programming | Medium | — |
 | [Winner in a Dot Grid Game](https://trueinterview.io/questions/winner-in-a-dot-grid-game-2) | Algorithm | Medium | — |
@@ -112,7 +116,7 @@ The 8 questions to open first if you are preparing for Hudson River Trading, ran
 | [Fancy Number](https://trueinterview.io/questions/e4e49d37-3d74-4d00-b000-445874bf217a) | Algorithm | Medium | — |
 | [Travese and Merge Two N-ary Trees](https://trueinterview.io/questions/642b9c47-c6ed-43dc-863d-112f6426db92) | Algorithm | Easy | — |
 | [Exploratory Data Analysis & Modeling for Heart Disease Prediction](https://trueinterview.io/questions/077cf7c1-b2f8-4e1a-9238-71b7efc49c0e) | Algorithm | Medium | — |
-| [Max Harvested Crops](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3) | Algorithm | Hard | — |
+| [Max Harvested Crops](https://trueinterview.io/questions/0364d8f3-180c-434b-96f4-fbdf7412a3e3) | Algorithm | Medium | — |
 | [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72) | Algorithm | Medium | — |
 | [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc) | Algorithm | Medium | — |
 | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Algorithm | Easy | — |

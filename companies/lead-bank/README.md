@@ -8,11 +8,11 @@ How Lead Bank interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [5](../lead-bank.md) |
+| Questions reported | [7](../lead-bank.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | — |
+| Most recent sighting | Apr 01, 2026 |
 
 ## How Lead Bank interviews
 
@@ -46,7 +46,7 @@ The design round recurred in both on-site accounts as a hotel reservation system
 
 ## Everything else
 
-- [All 5 questions reported at Lead Bank](../lead-bank.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 7 questions reported at Lead Bank](../lead-bank.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Lead Bank question on TrueInterview](https://trueinterview.io/problems/company/lead-bank).
 
 ---

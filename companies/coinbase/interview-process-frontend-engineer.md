@@ -78,7 +78,7 @@ The third filter is the assessment environment. One screen, one tab, limited pas
 
 ## Data Source
 
-Based on 35 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
+Based on 40 candidate-reported interview experiences, primarily from 2025 Q4 through 2026 Q2.
 
 ## FAQ
 

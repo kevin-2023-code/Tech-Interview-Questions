@@ -8,11 +8,11 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [70](../anthropic.md) |
-| Free to read here | 9 |
+| Questions reported | [79](../anthropic.md) |
+| Free to read here | 10 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
-| Most recent sighting | Jun 21, 2026 |
+| Most recent sighting | Sep 08, 2026 |
 
 ## How Anthropic interviews
 
@@ -36,23 +36,24 @@ This guide goes deeper than the short outline on the Anthropic company page: wha
 
 ## Free Anthropic questions
 
-9 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+10 questions reported at Anthropic open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Infection Spread Simulation](../../questions/algorithm/infection-spread-simulation/README.md) | Algorithm | Medium | Phone screen | Jun 2026 | [Solve](https://trueinterview.io/questions/infection-spread-simulation) |
 | [Find Duplicate Files](../../questions/object-oriented-programming/find-duplicate-files/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) |
 | [Stack Trace Reconstruction](../../questions/algorithm/coding-q3-stack-trace/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/coding-q3-stack-trace) |
-| [Web Crawler](../../questions/ai-coding/web-crawler/README.md) | AI Coding | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/web-crawler) |
+| [Web Crawler](../../questions/algorithm/web-crawler/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | May 2026 | [Solve](https://trueinterview.io/questions/web-crawler) |
 | [In-Memory Database](../../questions/object-oriented-programming/in-memory-database/README.md) | Object Oriented Programming | Medium | Online assessment | Apr 2026 | [Solve](https://trueinterview.io/questions/in-memory-database) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
+| [Implement an LRU cache with O(1) ops](../../questions/object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Object Oriented Programming | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
 | [File Profiler](../../questions/algorithm/file-profiler/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/dc568545-f217-4ade-8ba3-30d633579af6) |
 | [Web Crawler with Asyncio](../../questions/ai-coding/web-crawler-with-asyncio/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) |
 
 ## Everything else
 
-- [All 70 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 79 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Anthropic question on TrueInterview](https://trueinterview.io/problems/company/anthropic).
 
 ---

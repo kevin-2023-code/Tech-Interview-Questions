@@ -8,7 +8,7 @@ How Datadog interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [26](../datadog.md) |
+| Questions reported | [27](../datadog.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -45,7 +45,7 @@ Other reported screens: implement a buffered file writer, then design its test c
 
 ## Everything else
 
-- [All 26 questions reported at Datadog](../datadog.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 27 questions reported at Datadog](../datadog.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Datadog question on TrueInterview](https://trueinterview.io/problems/company/datadog).
 
 ---

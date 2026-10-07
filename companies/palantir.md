@@ -2,68 +2,89 @@
 
 # Palantir interview process, OA & interview questions
 
-**6 questions** reported at Palantir · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/palantir), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at Palantir · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/palantir), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Palantir interviews & the free questions](palantir/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 1,000–9,999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-palantir)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Guides & writeups](#guides--writeups) · [Every question](#every-question-reported-at-palantir)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 6) |
-| Difficulty (easy / medium / hard) | 0 / 5 / 1 |
+| Questions tracked | **11** |
+| Most recent sighting | Aug 27, 2026 |
+| Reported in the last 90 days | 3 |
+| Most common format | [Algorithm](../formats/algorithm.md) (73% of 11) |
+| Difficulty (easy / medium / hard) | 0 / 8 / 3 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 6 questions reported at Palantir. 0 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at Palantir. 5 of them carry a sighting date; the other 6 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at Palantir that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at Palantir that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
+| **Online assessment** | 3 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 4 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (50%) | 0 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Palantir.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**3 sightings** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Algorithm | Medium | Online assessment | Aug 27, 2026 |
+| [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Algorithm | Hard | Online assessment | Aug 27, 2026 |
+| [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Algorithm | Hard | Online assessment | Aug 27, 2026 |
 
 ## What they ask about
 
-Of the **4 questions at Palantir that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Palantir that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 2 | 50% | ████████████ | — |
-| `graphs` | 1 | 25% | ██████ | — |
-| `hashing` | 1 | 25% | ██████ | — |
-| `strings` | 1 | 25% | ██████ | — |
+| `hashing` | 3 | 38% | ████████████ | Aug 27, 2026 |
+| `graphs` | 2 | 25% | ████████ | Mar 08, 2026 |
+| `greedy` | 2 | 25% | ████████ | — |
+| `math` | 2 | 25% | ████████ | Aug 27, 2026 |
+| `backtracking` | 1 | 12% | ████ | Aug 27, 2026 |
+| `heap` | 1 | 12% | ████ | Mar 08, 2026 |
+| `strings` | 1 | 12% | ████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at Palantir, by the month it was reported in — Mar 08, 2026 to Aug 27, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 3 | ████████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 2 | ████████████████ |
+
 ## Start here
 
-The 6 questions to open first if you are preparing for Palantir, ranked by **the ones the most other companies also ask** — a fact about the bank rather than an opinion of ours. No row here carries a sighting date, so recency could not order them; after that key the easier questions come first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Palantir, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) 🆓 | Algorithm | Medium | 2 | — |
-| **2** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) 🆓 | Algorithm | Medium | 1 | — |
-| **3** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | 1 | — |
-| **4** | [Efficient Text Search with Proximity Constraint](https://trueinterview.io/questions/213917cc-da0a-4482-8899-3cde0c1d35b6) 🆓 | Algorithm | Medium | — | — |
-| **5** | [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Object Oriented Programming | Medium | — | — |
-| **6** | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Object Oriented Programming | Medium | — | — |
+| **1** | [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Algorithm | Medium | — | Aug 27, 2026 |
+| **2** | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Algorithm | Hard | — | Aug 27, 2026 |
+| **3** | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Algorithm | Hard | — | Aug 27, 2026 |
+| **4** | [Design a Server Metrics Monitor](https://trueinterview.io/questions/design-a-server-metrics-monitor) | System Design | Medium | — | Mar 08, 2026 |
+| **5** | [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network) | Algorithm | Medium | — | Mar 08, 2026 |
+| **6** | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) 🆓 | Algorithm | Medium | 2 | — |
+| **7** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) 🆓 | Algorithm | Medium | 1 | — |
+| **8** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Algorithm | Hard | 1 | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -85,6 +106,11 @@ The 6 questions to open first if you are preparing for Palantir, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Algorithm | Hard | 🆕 Aug 27, 2026 |
+| [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Algorithm | Hard | 🆕 Aug 27, 2026 |
+| [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Algorithm | Medium | 🆕 Aug 27, 2026 |
+| [Design a Server Metrics Monitor](https://trueinterview.io/questions/design-a-server-metrics-monitor) | System Design | Medium | Mar 08, 2026 |
+| [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network) | Algorithm | Medium | Mar 08, 2026 |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | — |
 | [Implement a Balanced Session Manager](https://trueinterview.io/questions/6b7a482e-7173-44d2-a93e-b90670a7ab10) | Object Oriented Programming | Medium | — |
 | [REST API: Country Codes](https://trueinterview.io/questions/5135d1f2-dc3b-4cb7-a333-b6e57d0ff450) | Object Oriented Programming | Medium | — |

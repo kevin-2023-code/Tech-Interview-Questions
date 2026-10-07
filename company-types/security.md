@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**69 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**75 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (27)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (13)](../companies/vanta.md) · [Okta (10)](../companies/okta.md)
+[Verkada (31)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (14)](../companies/vanta.md) · [Okta (11)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,37 +18,41 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 51 | 74% | ██████████████ | 11 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 14% | ███ | 3 |
-| [System Design](../formats/system-design.md) | 8 | 12% | ██ | 2 |
+| [Algorithm](../formats/algorithm.md) | 53 | 71% | ██████████████ | 11 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 11 | 15% | ███ | 3 |
+| [System Design](../formats/system-design.md) | 11 | 15% | ███ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **8 / 44 / 17**, over the rows the catalog has graded. 16 of the 69 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **9 / 51 / 15**, over the rows the catalog has graded. 16 of the 75 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **48 questions in this cut that carry a topic label** (70% of it):
+Of the **51 questions in this cut that carry a topic label** (68% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 9 | 19% | ████████████ |
-| `hashing` | 9 | 19% | ████████████ |
-| `arrays` | 7 | 15% | █████████ |
-| `strings` | 6 | 12% | ████████ |
-| `dynamic-programming` | 4 | 8% | █████ |
-| `math` | 4 | 8% | █████ |
-| `backtracking` | 3 | 6% | ████ |
-| `binary-search` | 3 | 6% | ████ |
-| `sorting` | 3 | 6% | ████ |
-| `topological-sort` | 3 | 6% | ████ |
+| `hashing` | 12 | 24% | ████████████ |
+| `graphs` | 9 | 18% | █████████ |
+| `arrays` | 7 | 14% | ███████ |
+| `strings` | 6 | 12% | ██████ |
+| `dynamic-programming` | 4 | 8% | ████ |
+| `math` | 4 | 8% | ████ |
+| `backtracking` | 3 | 6% | ███ |
+| `binary-search` | 3 | 6% | ███ |
+| `sorting` | 3 | 6% | ███ |
+| `topological-sort` | 3 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**3 sightings** across this cut. Newest first.
+**7 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Vanta | System Design | Sep 12, 2026 |
+| [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Verkada | System Design | Sep 04, 2026 |
+| [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Verkada | Algorithm | Sep 04, 2026 |
+| [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Okta | Algorithm | Aug 20, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
 | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Vanta | System Design | Jul 10, 2026 |
@@ -61,14 +65,18 @@ Of the **48 questions in this cut that carry a topic label** (70% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Vanta** | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | Medium | 🆕 Sep 12, 2026 |
+| **Verkada** | [Design a Massive Live Two-Choice Voting System](https://trueinterview.io/questions/design-a-massive-live-two-choice-voting-system) | Medium | 🆕 Sep 04, 2026 |
+| **Verkada** | [Validate a Partially Filled Sudoku Board](https://trueinterview.io/questions/validate-a-partially-filled-sudoku-board) | Medium | 🆕 Sep 04, 2026 |
+| **Okta** | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Medium | Aug 20, 2026 |
 | **Vanta** | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Medium | Jul 16, 2026 |
 | **Vanta** | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Medium | Jul 16, 2026 |
-| **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Hard | Jul 10, 2026 |
+| **Vanta** | [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Medium | Jul 10, 2026 |
 | **Okta** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Medium | Jun 24, 2026 |
 | **Okta** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Medium | Jun 24, 2026 |
 | **Okta** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Medium | Jun 24, 2026 |
 | **Airbnb / Amazon / Ebay / Expedia / Meta / Microsoft / Ramp / Rippling / Square / Verkada** | [Design Hotel Booking System](https://trueinterview.io/questions/booking-system-design) | Hard | Jun 17, 2026 |
-| **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Medium | Jun 10, 2026 |
+| **Vanta** | [DAU / MAU Internal Analytics System](https://trueinterview.io/questions/dau-mau-analytics-system) | Easy | Jun 10, 2026 |
 | **Verkada** | [Design Ambient Light Sensor System](https://trueinterview.io/questions/design-ambient-light-sensor-system) | Medium | Jun 05, 2026 |
 | **Verkada** | [Camera Log Relay Server](https://trueinterview.io/questions/camera-log-relay-server) | Medium | Jun 05, 2026 |
 | **Verkada** | [Camera Motion Detection](https://trueinterview.io/questions/camera-motion-detection) | Medium | Jun 05, 2026 |
@@ -82,6 +90,8 @@ Of the **48 questions in this cut that carry a topic label** (70% of it):
 | **Scale AI / Verkada** | [Design Card Game II](https://trueinterview.io/questions/design-card-game-ii) | Medium | Feb 16, 2026 |
 | **Amazon / Meta / Verkada / Walmart Labs** | [Merge Two Sorted Arrays In-Place](https://trueinterview.io/questions/merge-sorted-arrays-in-place) | Medium | Feb 08, 2026 |
 | **OpenAI / Amazon / Datadog / Google / HubSpot / Netflix / Snapchat / Verkada** | [Design Youtube](https://trueinterview.io/questions/design-youtube) | Medium | Feb 2026 |
+| **Verkada** | [Design access control and heartbeat systems](https://trueinterview.io/questions/design-access-control-and-heartbeat-systems) | Medium | Jan 23, 2026 |
+| **Verkada** | [Implement LRU and LFU caches](https://trueinterview.io/questions/implement-lru-and-lfu-caches) | Hard | Jan 23, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
 | **Okta** | [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3) | Medium | Nov 05, 2025 |
 | **Okta** | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | Medium | Nov 05, 2025 |
@@ -107,10 +117,10 @@ Of the **48 questions in this cut that carry a topic label** (70% of it):
 | **Rubrik** | [Maximize Happiness](https://trueinterview.io/questions/9a5a6369-36c2-41ca-923b-276bf08c2011) | Hard | — |
 | **Rubrik** | [Friendship String](https://trueinterview.io/questions/99375dc6-cb8e-404c-abc8-3d56c84f329c) | Hard | — |
 | **Rubrik** | [Redistribute Megaseeds](https://trueinterview.io/questions/8b3d0ac6-7941-413d-bdc1-1e60684f1afb) | Hard | — |
-| **Rubrik** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Hard | — |
+| **Rubrik** | [Unaligned Dedupe](https://trueinterview.io/questions/443f5aa5-eba5-4100-b02b-b853e84bcf40) | Medium | — |
 | **Rubrik** | [Bitonic Partitioning](https://trueinterview.io/questions/39978b32-5e85-4fb1-866a-878bc9a630ca) | Hard | — |
 | **Rubrik** | [Word Compression](https://trueinterview.io/questions/2931217b-ce76-45b1-bc55-c2cff7736271) | Medium | — |
-| **Rubrik** | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | Hard | — |
+| **Rubrik** | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | Medium | — |
 | **Okta** | [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Easy | — |
 | **Verkada / Amazon / Microsoft** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Medium | — |
 | **Vanta** | [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Easy | — |

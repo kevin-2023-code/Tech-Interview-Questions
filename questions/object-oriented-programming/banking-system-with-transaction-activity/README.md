@@ -121,21 +121,21 @@ The withdrawal is rejected because the newly created account has no money, so ne
 <details>
 <summary>Hint 1</summary>
 
-Model each account as an object with a balance and a transaction history list, and the banking service as a registry of accounts.
+Identify the core entities first: an Account holding a balance and its own transaction history, and a Bank managing accounts by unique id.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a map from account ID to account object for O(1) lookups, and validate that accounts exist before operations.
+For the top-N query, consider a structure that keeps accounts ordered by transaction count, such as a heap or sorted container, updated on each successful activity.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-For transfers, ensure both accounts exist and the source has enough funds, record the transaction in both histories.
+Watch the edge cases: invalid amounts, unknown or duplicate account ids, insufficient funds, and ensuring only successful operations are recorded.
 
 </details>
 

@@ -84,7 +84,7 @@ Third: the packet after the interviews. References are collected before the deci
 
 ## Data Source
 
-Based on 68 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
+Based on 70 candidate-reported interview experiences, primarily from 2026 Q1 through 2026 Q2.
 
 ## FAQ
 

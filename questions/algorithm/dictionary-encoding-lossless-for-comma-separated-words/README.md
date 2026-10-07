@@ -39,6 +39,11 @@ Input:
 
 `"USA,USA,USA,USA,Mexico,Canada,Mexico,Mexico,Mexico"`
 
+```trueviz
+{"v":1,"kind":"example","title":"Dictionary encoding","input":{"input_string":"USA,USA,USA,USA,Mexico,Canada,Mexico,Mexico,Mexico"},"steps":[{"say":"The input is nine words separated by commas.","panels":[{"type":"array","id":"words","label":"input words","values":["USA","USA","USA","USA","Mexico","Canada","Mexico","Mexico","Mexico"]}]},{"say":"The word USA appears four times; the dictionary gives it index 0.","panels":[{"type":"array","id":"words","label":"input words","values":["USA","USA","USA","USA","Mexico","Canada","Mexico","Mexico","Mexico"],"marks":{"found":[0,1,2,3]}},{"type":"map","id":"dict","label":"dictionary","entries":[{"key":"USA","value":"0"}],"layout":"table"}]},{"say":"The word Mexico appears four times; it gets the next index, 1.","panels":[{"type":"array","id":"words","label":"input words","values":["USA","USA","USA","USA","Mexico","Canada","Mexico","Mexico","Mexico"],"marks":{"found":[4,6,7,8]}},{"type":"map","id":"dict","label":"dictionary","entries":[{"key":"USA","value":"0"},{"key":"Mexico","value":"1"}],"layout":"table"}]},{"say":"The word Canada appears once; it gets index 2, completing the dictionary.","panels":[{"type":"array","id":"words","label":"input words","values":["USA","USA","USA","USA","Mexico","Canada","Mexico","Mexico","Mexico"],"marks":{"found":[5]}},{"type":"map","id":"dict","label":"dictionary","entries":[{"key":"USA","value":"0"},{"key":"Mexico","value":"1"},{"key":"Canada","value":"2"}],"layout":"table"}]},{"say":"Replacing each word by its index gives the index sequence.","panels":[{"type":"array","id":"words","label":"input words","values":["USA","USA","USA","USA","Mexico","Canada","Mexico","Mexico","Mexico"]},{"type":"array","id":"idx","label":"indices","values":["0","0","0","0","1","2","1","1","1"]}]},{"say":"Dictionary words and indices joined by ':' form the encoded output.","panels":[{"type":"string","id":"out","label":"encoded output","values":["U","S","A",",","M","e","x","i","c","o",",","C","a","n","a","d","a",":","0",",","0",",","0",",","0",",","1",",","2",",","1",",","1",",","1"]}]}],"expected":"USA,Mexico,Canada:0,0,0,0,1,2,1,1,1"}
+```
+
+
 
 
 Encoded output:
@@ -65,21 +70,21 @@ This is produced because:
 <details>
 <summary>Hint 1</summary>
 
-Treat the problem as building a mapping from unique words to integer IDs.
+The compressed string must carry both the dictionary and the index sequence so decode can reconstruct without the original.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Use a hash map for the dictionary and a list/array to store the encoded output sequence.
+Assign indices in first-appearance order, store the dictionary alongside the indices, and join with a delimiter that cannot appear in words.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Consider the output format: reconstruct the encoded string with indices separated by commas.
+Ensure decode handles empty input, single words, and repeated words correctly, and that the encoding is truly lossless.
 
 </details>
 

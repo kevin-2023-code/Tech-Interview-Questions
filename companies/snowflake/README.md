@@ -8,11 +8,11 @@ How Snowflake interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [113](../snowflake.md) |
-| Free to read here | 27 |
+| Questions reported | [130](../snowflake.md) |
+| Free to read here | 28 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
-| Most recent sighting | Aug 15, 2026 |
+| Most recent sighting | Sep 05, 2026 |
 
 ## How Snowflake interviews
 
@@ -34,13 +34,14 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 
 ## Free Snowflake questions
 
-27 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+28 questions reported at Snowflake open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
 | [Parallel Courses III](../../questions/object-oriented-programming/parallel-courses-iii/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/parallel-courses-iii) |
-| [Closest Cake and Global Assignment](../../questions/algorithm/closest-cake-and-global-assignment/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jun 2026 | [Solve](https://trueinterview.io/questions/closest-cake-and-global-assignment) |
-| [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Hard | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
+| [Maximize Pipeline Throughput](../../questions/algorithm/oa-pipeline-throughput/README.md) | Algorithm | Medium | Online assessment | Jun 2026 | [Solve](https://trueinterview.io/questions/oa-pipeline-throughput) |
+| [Design a Durable Cron Job Scheduler](../../questions/system-design/design-a-durable-cron-job-scheduler/README.md) | System Design | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) |
+| [Merge K Sorted Lists](../../questions/algorithm/merge-k-sorted-lists/README.md) | Algorithm | Medium | Phone screen | Apr 2026 | [Solve](https://trueinterview.io/questions/merge-k-sorted-lists) |
 | [Distributed Rate Limiter](../../questions/algorithm/distributed-rate-limiter/README.md) | Algorithm | Medium | Onsite / virtual onsite | Apr 2026 | [Solve](https://trueinterview.io/questions/distributed-rate-limiter) |
 | [Course Schedule](../../questions/algorithm/course-schedule/README.md) | Algorithm | Medium | Phone screen | Mar 2026 | [Solve](https://trueinterview.io/questions/course-schedule) |
 | [Design Key-Value Store with Transactions](../../questions/object-oriented-programming/design-key-value-store-with-transactions/README.md) | Object Oriented Programming | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-key-value-store-with-transactions) |
@@ -48,8 +49,8 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [Rate Limiter](../../questions/object-oriented-programming/rate-limiter/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Dec 2025 | [Solve](https://trueinterview.io/questions/rate-limiter) |
-| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
-| [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Hard | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
+| [Durable Key-Value Store Serialization](../../questions/object-oriented-programming/durable-key-value-store-serialization/README.md) | Object Oriented Programming | Easy | Onsite / virtual onsite | Nov 2025 | [Solve](https://trueinterview.io/questions/durable-key-value-store-serialization) |
+| [Vowels Substring](../../questions/algorithm/vowels-substring/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/vowels-substring) |
 | [Unequal Elements](../../questions/algorithm/unequal-elements/README.md) | Algorithm | Medium | Online assessment | Jul 2025 | [Solve](https://trueinterview.io/questions/unequal-elements) |
 | [Find Unique Number in Consecutive Pairs](../../questions/algorithm/find-unique-number-in-consecutive-pairs/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/e16aea6c-a284-4b0f-8e45-02d87eb22027) |
 | [Minimize Marbles in Grid](../../questions/algorithm/minimize-marbles-in-grid/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/c08bdfd1-9b28-482c-b014-65143dc1ed00) |
@@ -61,14 +62,14 @@ This deep dive goes beyond the process skeleton on the company page: it maps wha
 | [Simple TypeScript Program](../../questions/algorithm/simple-typescript-program/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3d8bad65-315a-4938-9ee9-e3567fcf8c55) |
 | [Check Validity of Input String](../../questions/algorithm/check-validity-of-input-string/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/3b8252fc-0be1-4755-984e-eebf16237f7a) |
 | [Deployments Node Calculation](../../questions/algorithm/deployments-node-calculation/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/1ca38e96-972d-43d4-94bf-0358e19f7bd9) |
-| [Maximum Order Volume](../../questions/algorithm/maximum-order-volume/README.md) | Algorithm | Hard | Phone screen | — | [Solve](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) |
+| [Maximum Order Volume](../../questions/algorithm/maximum-order-volume/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) |
 | [Vowel Substring](../../questions/algorithm/vowel-substring/README.md) | Algorithm | Easy | Online assessment | — | [Solve](https://trueinterview.io/questions/1d80c735-5231-4343-a34b-0dade4106bdb) |
 | [Minimum Value Weight](../../questions/algorithm/minimum-value-weight/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/5a6b8049-d36d-443f-b540-d8618d4e470c) |
 | [Minimum Meeting Rooms](../../questions/algorithm/minimum-meeting-rooms/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/b4adc8d7-199a-591e-a08e-e1bd7437a7f7) |
 
 ## Everything else
 
-- [All 113 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 130 questions reported at Snowflake](../snowflake.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Snowflake question on TrueInterview](https://trueinterview.io/problems/company/snowflake).
 
 ---

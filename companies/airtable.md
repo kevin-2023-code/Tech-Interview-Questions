@@ -2,67 +2,81 @@
 
 # Airtable interview process, OA & interview questions
 
-**5 questions** reported at Airtable. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airtable), judged server-side on the algorithm, low-level-design and SQL formats.
+**8 questions** reported at Airtable. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airtable), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Airtable interviews & the free questions](airtable/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
 > 🏢 [Enterprise & business software](../company-types/enterprise-saas.md) · 200–999 people
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-airtable)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-airtable)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **5** |
-| Most recent sighting | — _no sighting date on file_ |
-| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
-| Most common format | [Algorithm](../formats/algorithm.md) (60% of 5) |
-| Difficulty (easy / medium / hard) | 0 / 4 / 1 |
+| Questions tracked | **8** |
+| Most recent sighting | Feb 12, 2026 |
+| Reported in the last 90 days | 0 |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (50% of 8) |
+| Difficulty (easy / medium / hard) | 0 / 6 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 5 questions reported at Airtable. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 8 questions reported at Airtable. 3 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **5 of 5** questions at Airtable that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **8 of 8** questions at Airtable that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 3 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 3 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | ███████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (100%) | 0 / 1 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 4 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 0 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 4 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**No sighting has ever been dated at Airtable.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**Nothing has been reported at Airtable since Feb 12, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **3 questions at Airtable that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Airtable that carry a topic label** (50% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 1 | 33% | ████████████ | — |
-| `dynamic-programming` | 1 | 33% | ████████████ | — |
-| `topological-sort` | 1 | 33% | ████████████ | — |
-| `trees` | 1 | 33% | ████████████ | — |
+| `arrays` | 1 | 25% | ████████████ | — |
+| `dynamic-programming` | 1 | 25% | ████████████ | — |
+| `greedy` | 1 | 25% | ████████████ | Feb 12, 2026 |
+| `topological-sort` | 1 | 25% | ████████████ | — |
+| `trees` | 1 | 25% | ████████████ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
+## When they asked it
+
+Every recorded sighting at Airtable, by the month it was reported in — Nov 04, 2025 to Feb 12, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+
+| Month | Sightings |  |
+| :-- | --: | :-- |
+| [Feb 2026](../by-month/2026-02.md) | 1 | ████████████████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 1 | ████████████████████████ |
+
 ## Start here
 
-The 5 questions to open first if you are preparing for Airtable. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Airtable, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) 🆓 | Object Oriented Programming | Medium | — | — |
-| **2** | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) 🆓 | Algorithm | Medium | — | — |
-| **3** | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Algorithm | Medium | — | — |
-| **4** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Algorithm | Medium | — | — |
-| **5** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Hard | — | — |
+| **1** | [Optimize a dispatcher’s scheduling data structures](https://trueinterview.io/questions/optimize-a-dispatcher-s-scheduling-data-structures) | Object Oriented Programming | Hard | — | Feb 12, 2026 |
+| **2** | [Implement a Connection Pool](https://trueinterview.io/questions/implement-a-connection-pool) | Object Oriented Programming | Medium | — | Jan 25, 2026 |
+| **3** | [Design NL-to-Formula assistant for Airtable](https://trueinterview.io/questions/design-nl-to-formula-assistant-for-airtable) | System Design | Hard | — | Nov 04, 2025 |
+| **4** | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) 🆓 | Object Oriented Programming | Medium | — | — |
+| **5** | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) 🆓 | Algorithm | Medium | — | — |
+| **6** | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Algorithm | Medium | — | — |
+| **7** | [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Medium | — | — |
+| **8** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -76,8 +90,11 @@ The 5 questions to open first if you are preparing for Airtable. **This is not a
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Optimize a dispatcher’s scheduling data structures](https://trueinterview.io/questions/optimize-a-dispatcher-s-scheduling-data-structures) | Object Oriented Programming | Hard | Feb 12, 2026 |
+| [Implement a Connection Pool](https://trueinterview.io/questions/implement-a-connection-pool) | Object Oriented Programming | Medium | Jan 25, 2026 |
+| [Design NL-to-Formula assistant for Airtable](https://trueinterview.io/questions/design-nl-to-formula-assistant-for-airtable) | System Design | Hard | Nov 04, 2025 |
 | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Algorithm | Medium | — |
-| [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Hard | — |
+| [Table Editing](https://trueinterview.io/questions/85fd5957-a580-4a82-b7b0-a1c5d8c86f27) | Object Oriented Programming | Medium | — |
 | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Algorithm | Medium | — |
 | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | Algorithm | Medium | — |
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | Object Oriented Programming | Medium | — |

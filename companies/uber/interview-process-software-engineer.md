@@ -120,7 +120,7 @@ The third filter is the twist on a known problem. Candidates who memorized the r
 
 ## Data Source
 
-Based on 84 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3.
+Based on 86 candidate-reported interview experiences, primarily from 2025 Q3 through 2026 Q3.
 
 ## FAQ
 

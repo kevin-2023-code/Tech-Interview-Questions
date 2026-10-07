@@ -54,7 +54,6 @@ Design prompts are applied rather than canonical: expiring inventory, core-dump 
 
 Object-oriented design is its own Amazon round, often with native collections banned. Reported prompts include a pizza or cinema price calculator, a deck with in-place shuffle and sort, a pub-sub broker with priorities, and a queue built from raw linked nodes. Grading asks whether the design can take a new requirement without a rewrite.
 
-- [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search)
 - [Pub-Sub Messaging System](https://trueinterview.io/questions/pub-sub-system-ood)
 - [Pizza Slices Calculator Program](https://trueinterview.io/questions/43b6b9d3-5c99-4c4e-bfbd-0005865fd5e3)
 - [Manual Queue Implementation](https://trueinterview.io/questions/manual-queue-implementation)

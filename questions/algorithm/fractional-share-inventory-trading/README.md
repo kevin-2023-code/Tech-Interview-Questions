@@ -5,7 +5,7 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Hard | Robinhood | Phone screen, Onsite / virtual onsite | hashing | Apr 2026 |
+| Algorithm | Medium | Robinhood | Phone screen, Onsite / virtual onsite | hashing | Apr 2026 |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/fractional-share-inventory-trading)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.

@@ -8,7 +8,7 @@ How Rippling interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [30](../rippling.md) |
+| Questions reported | [48](../rippling.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -46,7 +46,7 @@ The technical screen is usually 45-60 minutes of live coding on a multi-part pra
 
 ## Everything else
 
-- [All 30 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 48 questions reported at Rippling](../rippling.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Rippling question on TrueInterview](https://trueinterview.io/problems/company/rippling).
 
 ---

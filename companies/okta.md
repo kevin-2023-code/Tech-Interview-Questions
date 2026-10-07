@@ -2,7 +2,7 @@
 
 # Okta interview process, OA & interview questions
 
-**10 questions** reported at Okta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at Okta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Okta interviews & the free questions](okta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,54 +14,59 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **10** |
-| Most recent sighting | Jun 24, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (80% of 10) |
-| Difficulty (easy / medium / hard) | 3 / 7 / 0 |
+| Questions tracked | **11** |
+| Most recent sighting | Aug 20, 2026 |
+| Reported in the last 90 days | 1 |
+| Most common format | [Algorithm](../formats/algorithm.md) (82% of 11) |
+| Difficulty (easy / medium / hard) | 3 / 8 / 0 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 10 questions reported at Okta. 9 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at Okta. 10 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **10 of 10** questions at Okta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at Okta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 5 | ████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 4 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Okta since Jun 24, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**1 sighting** in this window. Newest first.
+
+| Question | Format | Difficulty | Round | Reported |
+| :-- | :-- | :-: | :-- | :-- |
+| [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Algorithm | Medium | Phone screen | Aug 20, 2026 |
 
 ## What they ask about
 
-Of the **7 questions at Okta that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Okta that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `arrays` | 2 | 29% | ████████████ | Jun 02, 2026 |
-| `strings` | 2 | 29% | ████████████ | Jun 24, 2026 |
-| `dynamic-programming` | 1 | 14% | ██████ | — |
-| `graphs` | 1 | 14% | ██████ | Nov 05, 2025 |
-| `hashing` | 1 | 14% | ██████ | Jun 02, 2026 |
-| `sliding-window` | 1 | 14% | ██████ | May 01, 2026 |
-| `stack` | 1 | 14% | ██████ | Jun 24, 2026 |
+| `arrays` | 2 | 25% | ████████████ | Jun 02, 2026 |
+| `hashing` | 2 | 25% | ████████████ | Aug 20, 2026 |
+| `strings` | 2 | 25% | ████████████ | Jun 24, 2026 |
+| `dynamic-programming` | 1 | 12% | ██████ | — |
+| `graphs` | 1 | 12% | ██████ | Nov 05, 2025 |
+| `sliding-window` | 1 | 12% | ██████ | May 01, 2026 |
+| `stack` | 1 | 12% | ██████ | Jun 24, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## When they asked it
 
-Every recorded sighting at Okta, by the month it was reported in — Nov 05, 2025 to Jun 24, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
+Every recorded sighting at Okta, by the month it was reported in — Nov 05, 2025 to Aug 20, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
+| [Aug 2026](../by-month/2026-08.md) | 1 | ██████ |
 | [Jun 2026](../by-month/2026-06.md) | 4 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ██████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████████ |
@@ -73,14 +78,14 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
-| **2** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
-| **3** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | — | Jun 24, 2026 |
-| **4** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | — | Jun 02, 2026 |
-| **5** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 4 | May 2026 |
-| **6** | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | — | Apr 20, 2026 |
-| **7** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | — | Apr 20, 2026 |
-| **8** | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) 🆓 | Algorithm | Medium | — | Nov 05, 2025 |
+| **1** | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Algorithm | Medium | — | Aug 20, 2026 |
+| **2** | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
+| **3** | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | — | Jun 24, 2026 |
+| **4** | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | — | Jun 24, 2026 |
+| **5** | [Array Duplication — O(n) and Memory Trade-offs](https://trueinterview.io/questions/array-deduplication) | Algorithm | Medium | — | Jun 02, 2026 |
+| **6** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) 🆓 | Algorithm | Medium | 4 | May 2026 |
+| **7** | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | — | Apr 20, 2026 |
+| **8** | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | — | Apr 20, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -102,6 +107,7 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Algorithm | Medium | Aug 20, 2026 |
 | [Concurrent Simple Bank System](https://trueinterview.io/questions/concurrent-simple-bank-system) | Object Oriented Programming | Medium | Jun 24, 2026 |
 | [CD Rental System (Java DSA / LLD)](https://trueinterview.io/questions/cd-rental-system) | Object Oriented Programming | Medium | Jun 24, 2026 |
 | [Reverse Substrings Between Each Pair of Parentheses](https://trueinterview.io/questions/reverse-substrings-in-parentheses) | Algorithm | Medium | Jun 24, 2026 |

@@ -8,11 +8,11 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [51](../coinbase.md) |
+| Questions reported | [71](../coinbase.md) |
 | Free to read here | 8 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
-| Most recent sighting | Jun 15, 2026 |
+| Most recent sighting | Aug 27, 2026 |
 
 ## How Coinbase interviews
 
@@ -46,12 +46,12 @@ Live rounds start with a 60-minute screen that fits either two medium problems o
 | [Query Pagination](../../questions/object-oriented-programming/query-pagination/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/query-pagination) |
 | [Recipe Manager](../../questions/object-oriented-programming/recipe-manager/README.md) | Object Oriented Programming | Medium | Online assessment | Dec 2025 | [Solve](https://trueinterview.io/questions/recipe-manager) |
 | [Banking System with Payments and Account Merging](../../questions/object-oriented-programming/banking-system-with-payments-and-account-merging/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) |
-| [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Hard | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
+| [Task Management System III](../../questions/object-oriented-programming/task-management-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/task-management-system) |
 | [Cloud Storage System](../../questions/object-oriented-programming/cloud-file-system/README.md) | Object Oriented Programming | Medium | Online assessment | — | [Solve](https://trueinterview.io/questions/cloud-file-system) |
 
 ## Everything else
 
-- [All 51 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 71 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Coinbase question on TrueInterview](https://trueinterview.io/problems/company/coinbase).
 
 ---

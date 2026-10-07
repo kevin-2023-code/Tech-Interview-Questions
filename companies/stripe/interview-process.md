@@ -42,7 +42,7 @@ Stripe's loop rewards a different kind of preparation than most big-tech process
 Stripe coding rounds simulate small payment and infrastructure systems with escalating requirements. Practice stateful, multi-part implementations where integer money, timestamp semantics, and exact output format are graded as strictly as the algorithm.
 
 - [Account Balance Manager](https://trueinterview.io/questions/account-balance-manager)
-- [Payment Invoice Reconciliation](../../questions/ai-coding/payment-invoice-reconciliation/README.md)
+- [Payment Invoice Reconciliation](../../questions/algorithm/payment-invoice-reconciliation/README.md)
 - [Dataset Join](https://trueinterview.io/questions/dataset-join)
 - [Jupyter / WebSocket Load Balancer (OA)](https://trueinterview.io/questions/jupyter-load-balancer-oa)
 - [Transaction Logs — Trigger / Resolve](https://trueinterview.io/questions/transaction-logs-trigger-resolve)

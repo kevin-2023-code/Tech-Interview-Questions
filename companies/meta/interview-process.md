@@ -50,7 +50,7 @@ Prompts stay close to products at Meta's scale: feeds, live comments, search, le
 - [Design Instagram](../../questions/system-design/design-instagram/README.md)
 - [Facebook Search (Mini Elasticsearch)](https://trueinterview.io/questions/system-design-facebook-search)
 - [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction)
-- [Design Ticket Booking System](https://trueinterview.io/questions/system-design-ticketmaster)
+- [Design a ticket or hotel reservation system](https://trueinterview.io/questions/design-a-ticket-or-hotel-reservation-system)
 - [AI-Enabled System Design — Agent System](https://trueinterview.io/questions/system-design-ai-enabled-agent-system)
 
 ## Low-Level Design Questions
