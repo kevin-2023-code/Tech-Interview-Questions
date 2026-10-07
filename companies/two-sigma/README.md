@@ -8,7 +8,7 @@ How Two Sigma interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [42](../two-sigma.md) |
+| Questions reported | [41](../two-sigma.md) |
 | Free to read here | 3 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -46,7 +46,7 @@ Two Sigma runs one of the most implementation-heavy loops in quantitative financ
 
 ## Everything else
 
-- [All 42 questions reported at Two Sigma](../two-sigma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 41 questions reported at Two Sigma](../two-sigma.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Two Sigma question on TrueInterview](https://trueinterview.io/problems/company/two-sigma).
 
 ---

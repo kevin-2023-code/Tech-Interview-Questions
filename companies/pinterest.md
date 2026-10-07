@@ -2,7 +2,7 @@
 
 # Pinterest interview process, OA & interview questions
 
-**103 questions** reported at Pinterest · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
+**101 questions** reported at Pinterest · **3 writeups** · **2 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/pinterest), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Pinterest interviews & the free questions](pinterest/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **103** |
+| Questions tracked | **101** |
 | Most recent sighting | Sep 02, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (57% of 103) |
-| Difficulty (easy / medium / hard) | 11 / 71 / 21 |
-| Free to practise | [6](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (56% of 101) |
+| Difficulty (easy / medium / hard) | 11 / 69 / 21 |
+| Free to practise | [5](../free/README.md) |
 | Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
 
-<sub>Counted from the 103 questions reported at Pinterest. 62 of them carry a sighting date; the other 41 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 101 questions reported at Pinterest. 61 of them carry a sighting date; the other 40 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **103 of 103** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **101 of 101** questions at Pinterest that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (100%) | 5 / 1 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 59 | ██████████ | [Algorithm](../formats/algorithm.md) (66%) | 1 / 49 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 49 | ████████ | [Algorithm](../formats/algorithm.md) (39%) | 5 / 29 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 58 | ██████████ | [Algorithm](../formats/algorithm.md) (66%) | 1 / 48 / 9 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 48 | ████████ | [System Design](../formats/system-design.md) (40%) | 5 / 28 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -57,20 +57,20 @@ Which stage each question came from, for the **103 of 103** questions at Pintere
 
 ## What they ask about
 
-Of the **62 questions at Pinterest that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **60 questions at Pinterest that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 11 | 18% | ████████████ | Aug 26, 2026 |
-| `backtracking` | 9 | 15% | ██████████ | Apr 18, 2026 |
-| `graphs` | 9 | 15% | ██████████ | Aug 26, 2026 |
-| `greedy` | 8 | 13% | █████████ | Jun 16, 2026 |
-| `math` | 7 | 11% | ████████ | May 27, 2026 |
+| `hashing` | 10 | 17% | ████████████ | Aug 26, 2026 |
+| `backtracking` | 9 | 15% | ███████████ | Apr 18, 2026 |
+| `graphs` | 9 | 15% | ███████████ | Aug 26, 2026 |
+| `greedy` | 8 | 13% | ██████████ | Jun 16, 2026 |
+| `math` | 7 | 12% | ████████ | May 27, 2026 |
 | `arrays` | 6 | 10% | ███████ | Aug 26, 2026 |
-| `binary-search` | 6 | 10% | ███████ | Mar 28, 2026 |
 | `strings` | 6 | 10% | ███████ | May 27, 2026 |
-| `dynamic-programming` | 4 | 6% | ████ | Jan 07, 2026 |
-| `trees` | 4 | 6% | ████ | Sep 01, 2026 |
+| `binary-search` | 5 | 8% | ██████ | Mar 28, 2026 |
+| `dynamic-programming` | 4 | 7% | █████ | Jan 07, 2026 |
+| `trees` | 4 | 7% | █████ | Sep 01, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -90,7 +90,7 @@ Every recorded sighting at Pinterest, by the month it was reported in — May 30
 | [Feb 2026](../by-month/2026-02.md) | 3 | ███████ |
 | [Jan 2026](../by-month/2026-01.md) | 5 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 5 | ████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 6 | ██████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
 | [May 2025](../by-month/2025-05.md) | 4 | ██████████ |
@@ -196,7 +196,6 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | [Newline-Split Stream Reader](https://trueinterview.io/questions/newline-stream-line-reader) | Algorithm | Medium | Nov 28, 2025 |
 | [Call Elevator](https://trueinterview.io/questions/call-elevator) | Algorithm | Medium | Nov 18, 2025 |
 | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Algorithm | Medium | Nov 18, 2025 |
-| [Solve set equality and ad log top‑K](https://trueinterview.io/questions/solve-set-equality-and-ad-log-topk) | Algorithm | Medium | Nov 11, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
 | [Subarray Score ≤ K (Sliding-Window)](https://trueinterview.io/questions/subarray-score-at-most-k) | Algorithm | Medium | Nov 07, 2025 |
 | [Compute percent of first-cancel users who never return](https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return) | SQL | Medium | Oct 26, 2025 |
@@ -214,7 +213,6 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | [Implement and extend My Calendar III](https://trueinterview.io/questions/implement-and-extend-my-calendar-iii) | Object Oriented Programming | Medium | — |
 | [Compute CTR by format for new US users](https://trueinterview.io/questions/compute-ctr-by-format-for-new-us-users) | SQL | Medium | — |
 | [Compute average unique pins per user](https://trueinterview.io/questions/compute-average-unique-pins-per-user) | Algorithm | Medium | — |
-| [Aggregate video time and unique pins in Python](https://trueinterview.io/questions/aggregate-video-time-and-unique-pins-in-python) | Algorithm | Medium | — |
 | [Find top category by video time spent](https://trueinterview.io/questions/find-top-category-by-video-time-spent) | Algorithm | Medium | — |
 | [Implement Bootstrap Confidence Interval and Jackknife Standard Error for a Two-Group Metric](https://trueinterview.io/questions/f8f2b747-5843-5b82-a2ff-52f8aad3a4bd) | Algorithm | Medium | — |
 | [Minimum Pins to Exactly Fill a Screen](https://trueinterview.io/questions/e817dce0-d504-5169-b4ba-d28533e7f068) | Algorithm | Medium | — |

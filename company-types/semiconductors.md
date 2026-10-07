@@ -2,7 +2,7 @@
 
 # 🔬 Semiconductors & chips — interview & OA questions
 
-**42 questions** reported across the **2 Semiconductors & chips employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**40 questions** reported across the **2 Semiconductors & chips employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[NVIDIA (39)](../companies/nvidia.md) · [AMD (3)](../companies/amd.md)
+[NVIDIA (37)](../companies/nvidia.md) · [AMD (3)](../companies/amd.md)
 
 <sub>2 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 25 | 60% | ██████████████ | 6 |
-| [System Design](../formats/system-design.md) | 9 | 21% | █████ | 1 |
+| [Algorithm](../formats/algorithm.md) | 23 | 58% | ██████████████ | 6 |
+| [System Design](../formats/system-design.md) | 9 | 22% | █████ | 1 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 12% | ███ | 1 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 5% | █ | 0 |
 | [SQL](../formats/sql.md) | 1 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **7 / 25 / 10**, over the rows the catalog has graded. 8 of the 42 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **7 / 25 / 8**, over the rows the catalog has graded. 8 of the 40 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **26 questions in this cut that carry a topic label** (62% of it):
+Of the **24 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `two-pointers` | 5 | 19% | ████████████ |
-| `hashing` | 4 | 15% | ██████████ |
-| `sorting` | 4 | 15% | ██████████ |
+| `two-pointers` | 5 | 21% | ████████████ |
+| `hashing` | 4 | 17% | ██████████ |
+| `sorting` | 4 | 17% | ██████████ |
 | `arrays` | 3 | 12% | ███████ |
 | `strings` | 3 | 12% | ███████ |
 | `binary-search` | 2 | 8% | █████ |
 | `heap` | 2 | 8% | █████ |
-| `linked-list` | 2 | 8% | █████ |
 | `math` | 2 | 8% | █████ |
 | `sliding-window` | 2 | 8% | █████ |
+| `dynamic-programming` | 1 | 4% | ██ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -91,8 +91,6 @@ Of the **26 questions in this cut that carry a topic label** (62% of it):
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
 | **NVIDIA** | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Hard | Dec 10, 2025 |
 | **Google / NVIDIA** | [Return Unique Three-Sum Value Triples](https://trueinterview.io/questions/return-unique-three-sum-value-triples) | Hard | Dec 08, 2025 |
-| **NVIDIA** | [Reverse linked lists, including k-group](https://trueinterview.io/questions/reverse-linked-lists-including-k-group) | Hard | — |
-| **NVIDIA** | [Reverse a singly linked list robustly](https://trueinterview.io/questions/reverse-a-singly-linked-list-robustly) | Hard | — |
 | **NVIDIA** | [Design and explain robust web APIs for ML inference](https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference) | Medium | — |
 | **Visa / NVIDIA** | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Medium | — |
 | **Tradedesk / Google / NVIDIA** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Medium | — |

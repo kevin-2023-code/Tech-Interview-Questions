@@ -8,7 +8,7 @@ How Hudson River Trading interviews, and the questions candidates reported there
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [19](../hudson-river-trading.md) |
+| Questions reported | [18](../hudson-river-trading.md) |
 | Free to read here | 3 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -40,7 +40,7 @@ Hudson River Trading interviews the language, not just the algorithm: candidates
 
 ## Everything else
 
-- [All 19 questions reported at Hudson River Trading](../hudson-river-trading.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 18 questions reported at Hudson River Trading](../hudson-river-trading.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Hudson River Trading question on TrueInterview](https://trueinterview.io/problems/company/hudson-river-trading).
 
 ---

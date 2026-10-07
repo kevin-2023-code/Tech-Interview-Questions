@@ -8,7 +8,7 @@ How Apple interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [145](../apple.md) |
+| Questions reported | [142](../apple.md) |
 | Free to read here | 22 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -67,7 +67,7 @@ Timelines can be strikingly fast: candidates report onsites scheduled two days a
 
 ## Everything else
 
-- [All 145 questions reported at Apple](../apple.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 142 questions reported at Apple](../apple.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Apple question on TrueInterview](https://trueinterview.io/problems/company/apple).
 
 ---

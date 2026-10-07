@@ -2,7 +2,7 @@
 
 # Stripe interview process, OA & interview questions
 
-**94 questions** reported at Stripe · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
+**93 questions** reported at Stripe · **1 writeup** · **4 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/stripe), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Stripe interviews & the free questions](stripe/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **94** |
+| Questions tracked | **93** |
 | Most recent sighting | Sep 11, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (54% of 94) |
-| Difficulty (easy / medium / hard) | 17 / 60 / 17 |
+| Most common format | [Algorithm](../formats/algorithm.md) (54% of 93) |
+| Difficulty (easy / medium / hard) | 17 / 60 / 16 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
 
-<sub>Counted from the 94 questions reported at Stripe. 60 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 93 questions reported at Stripe. 60 of them carry a sighting date; the other 33 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **94 of 94** questions at Stripe that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **93 of 93** questions at Stripe that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 25 | ██████ | [Algorithm](../formats/algorithm.md) (84%) | 8 / 14 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (80%) | 6 / 21 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 34 | ████████ | [Algorithm](../formats/algorithm.md) (79%) | 6 / 21 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 42 | ██████████ | [AI Coding](../formats/ai-coding.md) (29%) | 5 / 30 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -57,12 +57,12 @@ Which stage each question came from, for the **94 of 94** questions at Stripe th
 
 ## What they ask about
 
-Of the **51 questions at Stripe that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **50 questions at Stripe that carry a topic label** (54% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `strings` | 20 | 39% | ████████████ | Sep 11, 2026 |
-| `hashing` | 15 | 29% | █████████ | Sep 11, 2026 |
+| `strings` | 20 | 40% | ████████████ | Sep 11, 2026 |
+| `hashing` | 15 | 30% | █████████ | Sep 11, 2026 |
 | `greedy` | 7 | 14% | ████ | Aug 24, 2026 |
 | `graphs` | 6 | 12% | ████ | Jun 24, 2026 |
 | `intervals` | 5 | 10% | ███ | Sep 04, 2026 |
@@ -204,7 +204,6 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Design a model for subscription adoption prediction](https://trueinterview.io/questions/design-a-model-for-subscription-adoption-prediction) | System Design | Medium | — |
 | [Write SQL to detect recurring non-subscription users](https://trueinterview.io/questions/write-sql-to-detect-recurring-non-subscription-users) | SQL | Hard | — |
 | [Write SQL for snapshot features and labels](https://trueinterview.io/questions/write-sql-for-snapshot-features-and-labels) | SQL | Hard | — |
-| [Implement streaming per-user reservoir sampling](https://trueinterview.io/questions/implement-streaming-per-user-reservoir-sampling) | Algorithm | Hard | — |
 | [Design metrics and write SQL for a case](https://trueinterview.io/questions/design-metrics-and-write-sql-for-a-case) | SQL | Medium | — |
 | [Design an idempotent SQL ETL for late data](https://trueinterview.io/questions/design-an-idempotent-sql-etl-for-late-data) | SQL | Hard | — |
 | [Verify Business Records by Required Fields](https://trueinterview.io/questions/f8231511-f6ac-545f-b959-3920ee7eac6c) | Algorithm | Easy | — |

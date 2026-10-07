@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,104 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Lyft / ByteDance / Meta** | [Minimum Window Substring](https://trueinterview.io/questions/minimum-window-substring) | Medium | Jun 29, 2026 |
-| **Meta** | [Trending Hashtags](https://trueinterview.io/questions/system-design-trending-hashtags) | Hard | Jun 28, 2026 |
-| **Intuit** | [Premium Product Recommendation System](https://trueinterview.io/questions/premium-product-recommendation-system) | Hard | Jun 28, 2026 |
 | **Intuit** | [Array Plus One with Large-Input Follow-Up](https://trueinterview.io/questions/array-plus-one-with-large-input-follow-up) | Medium | Jun 28, 2026 |
 | **Amazon** | [Inventory Allocation by Bid Priority](https://trueinterview.io/questions/inventory-allocation-bid-priority) | Medium | Jun 28, 2026 |
 | **Meta / ByteDance** | [Maximum Unique Character Subset](https://trueinterview.io/questions/ai-coding-max-unique-character-subset) | Hard | Jun 28, 2026 |
@@ -260,5 +257,8 @@
 | **Microsoft** | [SFT Sample Packing](https://trueinterview.io/questions/sft-sample-packing) | Medium | Apr 19, 2026 |
 | **Amazon** | [Array Generation Service](https://trueinterview.io/questions/lex-largest-string-via-state-flips) | Medium | Apr 19, 2026 |
 | **Microsoft** | [Design a Product Search System](https://trueinterview.io/questions/design-a-product-search-system) | Hard | Apr 18, 2026 |
+| **Microsoft** | [Sort Three Categories In Place](https://trueinterview.io/questions/sort-three-categories-in-place) | Medium | Apr 18, 2026 |
+| **Microsoft** | [Implement K-Means and Detect Divisible Subarrays](https://trueinterview.io/questions/implement-k-means-and-detect-divisible-subarrays) | Hard | Apr 18, 2026 |
+| **Tesla / Microsoft** | [Minimum Absolute Difference Pairs](https://trueinterview.io/questions/minimum-absolute-difference-pairs) | Medium | Apr 18, 2026 |
 
 <sub>[← Page 1](big-tech.md) · Page 2 of 9 · [Page 3 →](big-tech-3.md)</sub>

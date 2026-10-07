@@ -2,7 +2,7 @@
 
 # Boston Consulting Group interview process, OA & interview questions
 
-**12 questions** reported at Boston Consulting Group. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/boston-consulting-group), judged server-side.
+**10 questions** reported at Boston Consulting Group. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/boston-consulting-group), judged server-side.
 
 [📖 How Boston Consulting Group interviews & the free questions](boston-consulting-group/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,25 +12,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **12** |
+| Questions tracked | **10** |
 | Most recent sighting | Aug 04, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (92% of 12) |
-| Difficulty (easy / medium / hard) | 3 / 3 / 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (90% of 10) |
+| Difficulty (easy / medium / hard) | 3 / 3 / 4 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 12 questions reported at Boston Consulting Group. 3 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 10 questions reported at Boston Consulting Group. 3 of them carry a sighting date; the other 7 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **12 of 12** questions at Boston Consulting Group that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **10 of 10** questions at Boston Consulting Group that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 5 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 1 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 1 / 2 / 4 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 4 | ███████ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 1 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (83%) | 1 / 2 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -44,7 +44,7 @@ Which stage each question came from, for the **12 of 12** questions at Boston Co
 
 ## What they ask about
 
-Of the **7 questions at Boston Consulting Group that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **7 questions at Boston Consulting Group that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -100,9 +100,7 @@ The 8 questions to open first if you are preparing for Boston Consulting Group, 
 | [Transform and aggregate messy event data](https://trueinterview.io/questions/transform-and-aggregate-messy-event-data) | Algorithm | Hard | — |
 | [Design and sample for credit default prediction](https://trueinterview.io/questions/design-and-sample-for-credit-default-prediction) | Algorithm | Hard | — |
 | [Achieve 0.95 precision via thresholding](https://trueinterview.io/questions/achieve-0-95-precision-via-thresholding) | Algorithm | Medium | — |
-| [Unify 7 tables and impute missing values](https://trueinterview.io/questions/unify-7-tables-and-impute-missing-values) | Algorithm | Hard | — |
 | [Transform messy transactions with pandas](https://trueinterview.io/questions/transform-messy-transactions-with-pandas) | Algorithm | Hard | — |
 | [Query top spenders and 7-day growth](https://trueinterview.io/questions/query-top-spenders-and-7-day-growth) | SQL | Medium | — |
-| [Manipulate and merge DataFrames correctly](https://trueinterview.io/questions/manipulate-and-merge-dataframes-correctly) | Algorithm | Hard | — |
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Algorithm | Easy | — |
 | [Palindrome Detection](https://trueinterview.io/questions/f9fabc2f-0e3c-4bbe-aad2-3825752960c3) | Algorithm | Easy | — |

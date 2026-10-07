@@ -2,7 +2,7 @@
 
 # Upstart interview process, OA & interview questions
 
-**31 questions** reported at Upstart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/upstart), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at Upstart · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/upstart), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Upstart interviews & the free questions](upstart/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **31** |
+| Questions tracked | **29** |
 | Most recent sighting | Sep 12, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (94% of 31) |
-| Difficulty (easy / medium / hard) | 15 / 14 / 2 |
+| Most common format | [Algorithm](../formats/algorithm.md) (93% of 29) |
+| Difficulty (easy / medium / hard) | 15 / 13 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 31 questions reported at Upstart. 13 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 29 questions reported at Upstart. 12 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **31 of 31** questions at Upstart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **29 of 29** questions at Upstart that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 16 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 12 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | ████████ | [Algorithm](../formats/algorithm.md) (85%) | 3 / 8 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 2 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 12 | ████████ | [Algorithm](../formats/algorithm.md) (83%) | 3 / 8 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 1 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,19 +46,18 @@ Which stage each question came from, for the **31 of 31** questions at Upstart t
 
 ## What they ask about
 
-Of the **22 questions at Upstart that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **20 questions at Upstart that carry a topic label** (69% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 6 | 27% | ████████████ | Sep 12, 2026 |
-| `math` | 6 | 27% | ████████████ | Dec 09, 2025 |
-| `strings` | 6 | 27% | ████████████ | Sep 12, 2026 |
-| `arrays` | 3 | 14% | ██████ | Mar 09, 2026 |
+| `hashing` | 6 | 30% | ████████████ | Sep 12, 2026 |
+| `strings` | 6 | 30% | ████████████ | Sep 12, 2026 |
+| `math` | 4 | 20% | ████████ | Nov 29, 2025 |
+| `arrays` | 3 | 15% | ██████ | Mar 09, 2026 |
 | `dynamic-programming` | 1 | 5% | ██ | — |
 | `linked-list` | 1 | 5% | ██ | Mar 09, 2026 |
 | `matrix` | 1 | 5% | ██ | Jan 20, 2026 |
 | `sorting` | 1 | 5% | ██ | Apr 05, 2026 |
-| `stack` | 1 | 5% | ██ | — |
 | `two-pointers` | 1 | 5% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -73,7 +72,6 @@ Every recorded sighting at Upstart, by the month it was reported in — Nov 29, 
 | [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ████ |
-| [Dec 2025](../by-month/2025-12.md) | 1 | ████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ████ |
 
 ## Start here
@@ -122,9 +120,7 @@ The 8 questions to open first if you are preparing for Upstart, ranked by **the 
 | [Decode an anagram sentence using vocabulary constraints](https://trueinterview.io/questions/decode-an-anagram-sentence-using-vocabulary-constraints) | Algorithm | Medium | Mar 09, 2026 |
 | [Compute buffet revenue with capacity and waiting](https://trueinterview.io/questions/compute-buffet-revenue-with-capacity-and-waiting) | Algorithm | Hard | Mar 09, 2026 |
 | [Solve Remembered Coding Tasks](https://trueinterview.io/questions/solve-remembered-oa-coding-tasks) | Algorithm | Medium | Jan 20, 2026 |
-| [Implement factorial and count trailing zeros](https://trueinterview.io/questions/implement-factorial-and-count-trailing-zeros) | Algorithm | Medium | Dec 09, 2025 |
 | [Implement decay simulation and trailing-zero counting](https://trueinterview.io/questions/implement-decay-simulation-and-trailing-zero-counting) | Algorithm | Medium | Nov 29, 2025 |
-| [Implement PAVA spend-smoothing under no-borrowing constraint](https://trueinterview.io/questions/implement-pava-spend-smoothing-under-no-borrowing-constraint) | Algorithm | Hard | — |
 | [Decide to ship a signup experiment](https://trueinterview.io/questions/decide-to-ship-a-signup-experiment) | System Design | Medium | — |
 | [Solve SQL CTR and Python analytics tasks](https://trueinterview.io/questions/solve-sql-ctr-and-python-analytics-tasks) | SQL | Medium | — |
 | [addDrama](https://trueinterview.io/questions/e4325a5b-96a7-440c-8712-bfe087708f59) | Algorithm | Easy | — |

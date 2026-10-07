@@ -2,22 +2,14 @@
 
 # Algorithm interview & OA questions
 
-**2,512 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,431 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
-<sub>[← Page 2](algorithm-2.md) · Page 3 of 11 · [Page 4 →](algorithm-4.md)</sub>
+<sub>[← Page 2](algorithm-2.md) · Page 3 of 10 · [Page 4 →](algorithm-4.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Walmart Labs** | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Easy | Apr 24, 2026 |
-| **Meta / Amazon** | [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight) | Medium | Apr 24, 2026 |
-| **Apple** | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Medium | Apr 24, 2026 |
-| **Netflix** | [Nested Map Path Query (JSON Parser)](https://trueinterview.io/questions/nested-map-path-query-json-parser) | Medium | Apr 24, 2026 |
-| **Hudson River Trading** | [Solve Watcher Simulation And Integer Conversion](https://trueinterview.io/questions/solve-watcher-simulation-and-integer-conversion) | Medium | Apr 23, 2026 |
-| **Snowflake** | [Minimum Clicks Between Wiki Pages](https://trueinterview.io/questions/solve-array-distance-and-wiki-navigation-minimum-clicks-between-wiki-pages) | Medium | Apr 23, 2026 |
-| **Glean** | [Implement Rate-Limited Wikipedia Crawler](https://trueinterview.io/questions/implement-rate-limited-wikipedia-crawler) | Hard | Apr 23, 2026 |
-| **Meta** | [Minimum Add to Make Parentheses Valid II](https://trueinterview.io/questions/minimum-add-to-make-valid-parens) | Medium | Apr 23, 2026 |
 | **Meta** | [Continuous Subarray Sum](https://trueinterview.io/questions/continuous-subarray-sum) | Medium | Apr 23, 2026 |
 | **Robinhood** | [Fractional Inventory](https://trueinterview.io/questions/fractional-share-inventory-trading) | Medium | Apr 23, 2026 |
 | **OpenAI** | [Convert IPv4 Ranges to CIDR Blocks](https://trueinterview.io/questions/convert-ipv4-ranges-to-cidr-blocks) | Hard | Apr 22, 2026 |
@@ -72,7 +64,6 @@
 | **Uber** | [ML Coding from Scratch (Regression / Markov / Facility)](https://trueinterview.io/questions/mle-onsite-ml-coding-from-scratch) | Hard | Apr 15, 2026 |
 | **Stripe** | [Factory Cost Optimizer](https://trueinterview.io/questions/factory-cost-optimizer) | Hard | Apr 15, 2026 |
 | **Lyft** | [Reconstruct a BST from Preorder Traversal](https://trueinterview.io/questions/reconstruct-a-bst-from-preorder-traversal) | Hard | Apr 14, 2026 |
-| **Applied Intuition** | [Design Ordered CUDA Reduction](https://trueinterview.io/questions/design-ordered-cuda-reduction) | Hard | Apr 14, 2026 |
 | **PayPal** | [Minimize a String Using Allowed Swaps](https://trueinterview.io/questions/minimize-a-string-using-allowed-swaps) | Hard | Apr 14, 2026 |
 | **Oracle / Microsoft** | [Minimum Swaps to Group Evens First](https://trueinterview.io/questions/sort-array-by-parity-min-swaps) | Medium | Apr 14, 2026 |
 | **Oracle** | [Number of Islands (LC 200)](https://trueinterview.io/questions/number-of-islands-4) | Medium | Apr 14, 2026 |
@@ -95,14 +86,10 @@
 | **Squarepoint** | [Chunk a List of Lists](https://trueinterview.io/questions/chunk-a-list-of-lists) | Easy | Apr 11, 2026 |
 | **Upstart** | [Extract disallowed URLs for bot user agents](https://trueinterview.io/questions/solve-five-oa-coding-tasks-extract-disallowed-urls-for-bot-user-agents) | Medium | Apr 10, 2026 |
 | **Upstart** | [Find incorrect digit positions in a sum](https://trueinterview.io/questions/solve-five-oa-coding-tasks-find-incorrect-digit-positions-in-a-sum) | Medium | Apr 10, 2026 |
-| **Amazon** | [Solve Three Algorithm Variants](https://trueinterview.io/questions/solve-three-algorithm-variants) | Hard | Apr 10, 2026 |
 | **Datadog** | [Maximum Vacation With Minimum Flights](https://trueinterview.io/questions/maximum-vacation-with-minimum-flights) | Medium | Apr 10, 2026 |
-| **Meta** | [Solve Parser, Trading, Tree, And Deck Tasks](https://trueinterview.io/questions/solve-parser-trading-tree-and-deck-tasks) | Hard | Apr 09, 2026 |
-| **Amazon** | [Solve Union-Find, Graph, and Stream Problems](https://trueinterview.io/questions/solve-union-find-graph-and-stream-problems) | Hard | Apr 09, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
 | **Stripe** | [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join) | Medium | Apr 09, 2026 |
 | **Uber** | [Solve two interview coding problems](https://trueinterview.io/questions/solve-two-interview-coding-problems-2) | Hard | Apr 08, 2026 |
-| **Airbnb** | [Solve Linked-List and Iterator Problems](https://trueinterview.io/questions/solve-linked-list-and-iterator-problems) | Hard | Apr 08, 2026 |
 | **Ebay** | [Solve Dependency, Prefix, and Cache Problems](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems) | Hard | Apr 08, 2026 |
 | **Waymo** | [Chess Piece Shortest Path on a Fixed Board](https://trueinterview.io/questions/chess-shortest-path-fixed-board) | Medium | Apr 08, 2026 |
 | **Capital One** | [Pair Concatenation to Target](https://trueinterview.io/questions/pair-concatenation-to-target) | Medium | Apr 08, 2026 |
@@ -208,7 +195,6 @@
 | **Meta** | [Schedule round trips](https://trueinterview.io/questions/solve-four-online-assessment-problems-schedule-round-trips) | Medium | Mar 19, 2026 |
 | **Salesforce** | [Maximum Requests in a Time Window](https://trueinterview.io/questions/maximum-requests-in-time-window) | Easy | Mar 19, 2026 |
 | **Salesforce / IBM** | [Maximum Number of Palindromic Strings](https://trueinterview.io/questions/maximum-palindromic-strings) | Medium | Mar 19, 2026 |
-| **Snapchat** | [Solve Three Algorithmic Tasks](https://trueinterview.io/questions/solve-three-algorithmic-tasks) | Medium | Mar 18, 2026 |
 | **Microsoft** | [Resumable Batch Dataloader with Weighted Sampling](https://trueinterview.io/questions/resumable-batch-dataloader) | Medium | Mar 18, 2026 |
 | **JPMorgan** | [Minimum Anagram Edits](https://trueinterview.io/questions/minimum-anagram-edits) | Hard | Mar 18, 2026 |
 | **ByteDance** | [Two-Direction Justified Newspaper Layout](https://trueinterview.io/questions/codesignal-swe-oa-spring-2026-two-direction-justified-newspaper-layout) | Medium | Mar 17, 2026 |
@@ -245,7 +231,6 @@
 | **Palantir** | [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network) | Medium | Mar 08, 2026 |
 | **Uber** | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Hard | Mar 08, 2026 |
 | **Ebay** | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products) | Medium | Mar 07, 2026 |
-| **Waymo** | [Assess Routing Experiment Validity](https://trueinterview.io/questions/assess-routing-experiment-validity) | Hard | Mar 07, 2026 |
 | **Waymo** | [Implement Safe Average Function](https://trueinterview.io/questions/implement-safe-average-function) | Easy | Mar 07, 2026 |
 | **SoFi** | [Highway Sensor Journey Count](https://trueinterview.io/questions/8a5951dd-3b82-4d0a-8d9a-0f615d59d1cb) | Medium | Mar 06, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
@@ -260,5 +245,20 @@
 | **Figma** | [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation) | Medium | Mar 03, 2026 |
 | **Walmart Labs** | [Two Sum with Smallest-Indices Tiebreak (+ 3 Sum Follow-up)](https://trueinterview.io/questions/two-sum-smallest-indices) | Medium | Mar 03, 2026 |
 | **Microsoft / Microsoft AI** | [Streaming Stop Token](https://trueinterview.io/questions/streaming-stop-token-detection) | Hard | Mar 03, 2026 |
+| **Apple** | [Bold Words in String](https://trueinterview.io/questions/bold-words-in-string) | Medium | Mar 03, 2026 |
+| **Netflix / Bloomberg** | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | Medium | Mar 03, 2026 |
+| **Meta** | [Count Distinct Values in a Sorted Array When K Is Small](https://trueinterview.io/questions/count-distinct-values-in-a-sorted-array-when-k-is-small) | Medium | Mar 02, 2026 |
+| **LinkedIn** | [Phone Number Word Matching](https://trueinterview.io/questions/coding-phone-letter-combinations) | Medium | Mar 02, 2026 |
+| **Apple / LinkedIn** | [Intersection of Two Linked Lists](https://trueinterview.io/questions/intersection-of-two-linked-lists) | Medium | Mar 02, 2026 |
+| **Apple** | [Implement permutations and image retrieval — Q 2](https://trueinterview.io/questions/implement-permutations-and-image-retrieval-q2) | Medium | Mar 01, 2026 |
+| **Apple** | [Implement permutations and image retrieval — Q 1](https://trueinterview.io/questions/implement-permutations-and-image-retrieval-q1) | Medium | Mar 01, 2026 |
+| **Uber** | [Solve DFS grid and keypad problems](https://trueinterview.io/questions/solve-dfs-grid-and-keypad-problems) | Medium | Mar 01, 2026 |
+| **Coinbase** | [Generate NFT metadata and ensure uniqueness](https://trueinterview.io/questions/generate-nft-metadata-and-ensure-uniqueness) | Hard | Mar 01, 2026 |
+| **Axon** | [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) | Medium | Mar 01, 2026 |
+| **Two Sigma** | [Evaluate piecewise linear function at x](https://trueinterview.io/questions/evaluate-piecewise-linear-function-at-x) | Medium | Mar 01, 2026 |
+| **Oracle** | [Compute letter frequencies from encoded string](https://trueinterview.io/questions/compute-letter-frequencies-from-encoded-string) | Medium | Mar 01, 2026 |
+| **Reddit** | [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Medium | Mar 2026 |
+| **Reddit / Apple** | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Medium | Mar 2026 |
+| **Reddit** | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Easy | Mar 2026 |
 
-<sub>[← Page 2](algorithm-2.md) · Page 3 of 11 · [Page 4 →](algorithm-4.md)</sub>
+<sub>[← Page 2](algorithm-2.md) · Page 3 of 10 · [Page 4 →](algorithm-4.md)</sub>

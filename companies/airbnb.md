@@ -2,7 +2,7 @@
 
 # Airbnb interview process, OA & interview questions
 
-**79 questions** reported at Airbnb · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
+**78 questions** reported at Airbnb · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/airbnb), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Airbnb interviews & the free questions](airbnb/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **79** |
+| Questions tracked | **78** |
 | Most recent sighting | Sep 04, 2026 |
 | Reported in the last 90 days | 11 |
-| Most common format | [Algorithm](../formats/algorithm.md) (44% of 79) |
-| Difficulty (easy / medium / hard) | 6 / 54 / 19 |
+| Most common format | [Algorithm](../formats/algorithm.md) (44% of 78) |
+| Difficulty (easy / medium / hard) | 6 / 54 / 18 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 79 questions reported at Airbnb. 60 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 78 questions reported at Airbnb. 59 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **79 of 79** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **78 of 78** questions at Airbnb that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 1 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 37 | ████████ | [Algorithm](../formats/algorithm.md) (62%) | 2 / 28 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 48 | ██████████ | [System Design](../formats/system-design.md) (42%) | 3 / 31 / 14 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 47 | ██████████ | [System Design](../formats/system-design.md) (43%) | 3 / 31 / 13 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -56,20 +56,20 @@ Which stage each question came from, for the **79 of 79** questions at Airbnb th
 
 ## What they ask about
 
-Of the **37 questions at Airbnb that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **36 questions at Airbnb that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 9 | 24% | ████████████ | Jun 26, 2026 |
-| `dynamic-programming` | 8 | 22% | ███████████ | Jun 26, 2026 |
-| `graphs` | 8 | 22% | ███████████ | Jun 17, 2026 |
-| `strings` | 7 | 19% | █████████ | Jun 03, 2026 |
-| `greedy` | 6 | 16% | ████████ | Jun 03, 2026 |
+| `dynamic-programming` | 8 | 22% | ████████████ | Jun 26, 2026 |
+| `graphs` | 8 | 22% | ████████████ | Jun 17, 2026 |
+| `hashing` | 8 | 22% | ████████████ | Jun 26, 2026 |
+| `strings` | 7 | 19% | ██████████ | Jun 03, 2026 |
+| `greedy` | 6 | 17% | █████████ | Jun 03, 2026 |
 | `intervals` | 3 | 8% | ████ | Jan 07, 2026 |
 | `math` | 3 | 8% | ████ | Jun 26, 2026 |
-| `arrays` | 2 | 5% | ███ | Feb 28, 2026 |
-| `backtracking` | 2 | 5% | ███ | Jun 03, 2026 |
-| `binary-search` | 2 | 5% | ███ | Jan 07, 2026 |
+| `arrays` | 2 | 6% | ███ | Feb 28, 2026 |
+| `backtracking` | 2 | 6% | ███ | Jun 03, 2026 |
+| `binary-search` | 2 | 6% | ███ | Jan 07, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -84,7 +84,7 @@ Every recorded sighting at Airbnb, by the month it was reported in — Sep 17, 2
 | [Jul 2026](../by-month/2026-07.md) | 1 | ███ |
 | [Jun 2026](../by-month/2026-06.md) | 8 | █████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 9 | ████████████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 8 | █████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 7 | ███████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 4 | ███████████ |
 | [Feb 2026](../by-month/2026-02.md) | 4 | ███████████ |
 | [Jan 2026](../by-month/2026-01.md) | 6 | ████████████████ |
@@ -165,7 +165,6 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Solve a Two-by-Three Sliding Puzzle](https://trueinterview.io/questions/solve-a-two-by-three-sliding-puzzle) | Algorithm | Hard | Apr 21, 2026 |
 | [Flatten a Nested Integer List](https://trueinterview.io/questions/flatten-a-nested-integer-list) | Algorithm | Medium | Apr 21, 2026 |
 | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | System Design | Easy | Apr 12, 2026 |
-| [Solve Linked-List and Iterator Problems](https://trueinterview.io/questions/solve-linked-list-and-iterator-problems) | Algorithm | Hard | Apr 08, 2026 |
 | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | System Design | Medium | Mar 30, 2026 |
 | [Home Page — Search + Availability + Ranking](https://trueinterview.io/questions/home-page-search-availability-design) | System Design | Hard | Mar 29, 2026 |
 | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Algorithm | Medium | Mar 20, 2026 |

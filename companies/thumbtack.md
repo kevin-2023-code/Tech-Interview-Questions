@@ -2,71 +2,56 @@
 
 # Thumbtack interview process, OA & interview questions
 
-**6 questions** reported at Thumbtack. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/thumbtack), judged server-side on the algorithm, low-level-design and SQL formats.
+**5 questions** reported at Thumbtack. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/thumbtack), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Thumbtack interviews & the free questions](thumbtack/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
-**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [When they asked it](#when-they-asked-it) · [Start here](#start-here) · [Every question](#every-question-reported-at-thumbtack)
+**On this page:** [At a glance](#at-a-glance) · [The loop, as reported](#the-loop-as-reported) · [Asked here in the last 90 days](#asked-here-in-the-last-90-days) · [What they ask about](#what-they-ask-about) · [Start here](#start-here) · [Every question](#every-question-reported-at-thumbtack)
 
 ## At a glance
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **6** |
-| Most recent sighting | Jan 09, 2026 |
-| Reported in the last 90 days | 0 |
-| Most common format | [SQL](../formats/sql.md) (33% of 6) |
-| Difficulty (easy / medium / hard) | 0 / 4 / 2 |
+| Questions tracked | **5** |
+| Most recent sighting | — _no sighting date on file_ |
+| Reported in the last 90 days | — _unmeasured: no row here carries a date_ |
+| Most common format | [SQL](../formats/sql.md) (40% of 5) |
+| Difficulty (easy / medium / hard) | 0 / 3 / 2 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 6 questions reported at Thumbtack. 1 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 5 questions reported at Thumbtack. 0 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **6 of 6** questions at Thumbtack that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **5 of 5** questions at Thumbtack that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Phone screen** | 2 | █████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 2 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 1 | ██ | [SQL](../formats/sql.md) (100%) | 0 / 1 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 4 | ██████████ | [System Design](../formats/system-design.md) (50%) | 0 / 2 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**Nothing has been reported at Thumbtack since Jan 09, 2026.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
+**No sighting has ever been dated at Thumbtack.** That is a statement about what candidates have reported, not about whether this company is interviewing. [Report one](../../../issues/new?template=question-report.yml) and it appears here within the hour.
 
 ## What they ask about
 
-Of the **1 question at Thumbtack that carries a topic label** (17% of them — the rest are unlabelled, which is not the same as having no topic):
-
-| Topic | Questions | Share of labelled |  | Last seen |
-| :-- | --: | --: | :-- | :-- |
-| `math` | 1 | 100% | ████████████ | Jan 09, 2026 |
-
-<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
-
-## When they asked it
-
-Every recorded sighting at Thumbtack, by the month it was reported in — Jan 09, 2026 to Jan 09, 2026. A quiet month is a month nobody reported, which is not the same as a month nobody interviewed.
-
-| Month | Sightings |  |
-| :-- | --: | :-- |
-| [Jan 2026](../by-month/2026-01.md) | 1 | ████████████████████████ |
+**None of the 5 questions reported at Thumbtack carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
 
 ## Start here
 
-The 6 questions to open first if you are preparing for Thumbtack, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 5 questions to open first if you are preparing for Thumbtack. **This is not a ranking:** no row here carries a sighting date and none is recorded at another employer, so neither of the keys this section normally uses separates them. They are the 5 questions on file, easiest first. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
-| **1** | [Estimate Two Conditional Win Probabilities by Simulation](https://trueinterview.io/questions/estimate-two-conditional-win-probabilities-by-simulation) | Algorithm | Medium | — | Jan 09, 2026 |
-| **2** | [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) 🆓 | SQL | Medium | — | — |
-| **3** | [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) 🆓 | System Design | Medium | — | — |
-| **4** | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | SQL | Medium | — | — |
-| **5** | [Design streaming new-vs-returning monthly metrics](https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics) | System Design | Hard | — | — |
-| **6** | [Implement TF–IDF with sparse matrices](https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices) | Object Oriented Programming | Hard | — | — |
+| **1** | [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) 🆓 | SQL | Medium | — | — |
+| **2** | [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) 🆓 | System Design | Medium | — | — |
+| **3** | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | SQL | Medium | — | — |
+| **4** | [Design streaming new-vs-returning monthly metrics](https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics) | System Design | Hard | — | — |
+| **5** | [Implement TF–IDF with sparse matrices](https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices) | Object Oriented Programming | Hard | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -80,7 +65,6 @@ The 6 questions to open first if you are preparing for Thumbtack, ranked by **th
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Estimate Two Conditional Win Probabilities by Simulation](https://trueinterview.io/questions/estimate-two-conditional-win-probabilities-by-simulation) | Algorithm | Medium | Jan 09, 2026 |
 | [Implement TF–IDF with sparse matrices](https://trueinterview.io/questions/implement-tfidf-with-sparse-matrices) | Object Oriented Programming | Hard | — |
 | [Design streaming new-vs-returning monthly metrics](https://trueinterview.io/questions/design-streaming-new-vs-returning-monthly-metrics) | System Design | Hard | — |
 | [Write monthly new-vs-returning requests SQL](https://trueinterview.io/questions/write-monthly-new-vs-returning-requests-sql) | SQL | Medium | — |

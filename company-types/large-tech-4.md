@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,352 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,22 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **SoFi** | [Rooms with Two Incoming Edges to Treasure](https://trueinterview.io/questions/rooms-with-two-incoming-edges-to-treasure) | Easy | Oct 31, 2025 |
-| **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
-| **Snapchat** | [Implement LRU cache and prime products array](https://trueinterview.io/questions/implement-lru-cache-and-prime-products-array) | Medium | Oct 28, 2025 |
-| **Snapchat** | [Design ride-hailing and price alert systems](https://trueinterview.io/questions/design-ride-hailing-and-price-alert-systems) | Hard | Oct 28, 2025 |
-| **Pinterest** | [Compute percent of first-cancel users who never return](https://trueinterview.io/questions/compute-percent-of-first-cancel-users-who-never-return) | Medium | Oct 26, 2025 |
-| **Stripe** | [Feature Flag SDK](https://trueinterview.io/questions/feature-flag-sdk) | Medium | Oct 26, 2025 |
-| **Stripe / Affirm / Robinhood / Roblox / Uber** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | Hard | Oct 26, 2025 |
-| **Discord** | [Implement an asyncio-based chat server](https://trueinterview.io/questions/implement-an-asyncio-based-chat-server) | Hard | Oct 25, 2025 |
-| **Discord** | [Design leader election using Redis leases](https://trueinterview.io/questions/design-leader-election-using-redis-leases) | Hard | Oct 25, 2025 |
-| **Discord** | [Debug and mitigate a CPU spike incident](https://trueinterview.io/questions/debug-and-mitigate-a-cpu-spike-incident) | Medium | Oct 25, 2025 |
-| **Stripe** | [Http Request Language Preference](https://trueinterview.io/questions/http-request-language-preference) | Medium | Oct 22, 2025 |
-| **Robinhood** | [Design a secure trading app on AWS](https://trueinterview.io/questions/design-a-secure-trading-app-on-aws) | Hard | Oct 21, 2025 |
-| **Stripe** | [Business Account Data Verification](https://trueinterview.io/questions/business-account-data-verification) | Medium | Oct 20, 2025 |
-| **Google / Stripe** | [Match payments to invoices by memo or amount](https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2) | Medium | Oct 19, 2025 |
-| **OpenAI / Uber** | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | Hard | Oct 19, 2025 |
-| **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |
 | **OpenAI** | [Design a Resumable Iterator with Checkpoint and Restore](https://trueinterview.io/questions/design-a-resumable-iterator-with-checkpoint-and-restore) | Medium | Oct 18, 2025 |
 | **OpenAI** | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | Medium | Oct 18, 2025 |
 | **Rippling** | [Design an ad-click aggregation and enrichment pipeline](https://trueinterview.io/questions/design-an-ad-click-aggregation-and-enrichment-pipeline) | Hard | Oct 17, 2025 |
@@ -92,7 +76,6 @@
 | **Robinhood** | [Prove causality for trading metric drop](https://trueinterview.io/questions/prove-causality-for-trading-metric-drop) | Hard | — |
 | **Roblox** | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit) | Hard | — |
 | **Roblox** | [Implement robust one/two-sided p-value function](https://trueinterview.io/questions/implement-robust-one-two-sided-p-value-function) | Hard | — |
-| **Upstart** | [Implement PAVA spend-smoothing under no-borrowing constraint](https://trueinterview.io/questions/implement-pava-spend-smoothing-under-no-borrowing-constraint) | Hard | — |
 | **Scale AI** | [Explain worker state machine load balancer design](https://trueinterview.io/questions/explain-worker-state-machine-load-balancer-design) | Hard | — |
 | **Airbnb** | [Design robust primary and guardrail metrics](https://trueinterview.io/questions/design-robust-primary-and-guardrail-metrics) | Medium | — |
 | **Roblox** | [Design real-time payments fraud model under constraints](https://trueinterview.io/questions/design-real-time-payments-fraud-model-under-constraints) | Hard | — |
@@ -112,7 +95,6 @@
 | **Coinbase** | [Design a blob storage system for lunar environment](https://trueinterview.io/questions/design-a-blob-storage-system-for-lunar-environment) | Hard | — |
 | **Upstart** | [Decide to ship a signup experiment](https://trueinterview.io/questions/decide-to-ship-a-signup-experiment) | Medium | — |
 | **Pinterest** | [Decide if ad load is optimized](https://trueinterview.io/questions/decide-if-ad-load-is-optimized) | Hard | — |
-| **OpenAI** | [Debug and harden trial-assignment Python code](https://trueinterview.io/questions/debug-and-harden-trial-assignment-python-code) | Medium | — |
 | **OpenAI** | [Debug and fix a PyTorch Transformer training loop](https://trueinterview.io/questions/debug-and-fix-a-pytorch-transformer-training-loop) | Hard | — |
 | **Pinterest** | [Write windowed retention and ARPU SQL](https://trueinterview.io/questions/write-windowed-retention-and-arpu-sql) | Hard | — |
 | **Pinterest** | [Write SQL to rank categories by impressions](https://trueinterview.io/questions/write-sql-to-rank-categories-by-impressions) | Medium | — |
@@ -134,7 +116,6 @@
 | **Lyft** | [Query and transform marketplace data in SQL/Python](https://trueinterview.io/questions/query-and-transform-marketplace-data-in-sql-python) | Medium | — |
 | **Coinbase** | [Paginate forward and backward through results](https://trueinterview.io/questions/paginate-forward-and-backward-through-results) | Medium | — |
 | **Roblox** | [Match requests and accepts into friendships in SQL](https://trueinterview.io/questions/match-requests-and-accepts-into-friendships-in-sql) | Medium | — |
-| **Stripe** | [Implement streaming per-user reservoir sampling](https://trueinterview.io/questions/implement-streaming-per-user-reservoir-sampling) | Hard | — |
 | **Roblox** | [Implement streaming CTR with deduplication](https://trueinterview.io/questions/implement-streaming-ctr-with-deduplication) | Hard | — |
 | **Pinterest** | [Implement scalable prime generator](https://trueinterview.io/questions/implement-scalable-prime-generator) | Medium | — |
 | **Snowflake** | [Implement DFS with cycle detection and topo order](https://trueinterview.io/questions/implement-dfs-with-cycle-detection-and-topo-order) | Hard | — |
@@ -153,7 +134,6 @@
 | **Dropbox** | [Compute max island with constrained flips](https://trueinterview.io/questions/compute-max-island-with-constrained-flips) | Hard | — |
 | **Roblox** | [Compute CTR, RPM, and daily RPM variability in SQL](https://trueinterview.io/questions/compute-ctr-rpm-and-daily-rpm-variability-in-sql) | Hard | — |
 | **Pinterest** | [Compute CTR by format for new US users](https://trueinterview.io/questions/compute-ctr-by-format-for-new-us-users) | Medium | — |
-| **Snapchat** | [Compute CTR and metrics with pandas](https://trueinterview.io/questions/compute-ctr-and-metrics-with-pandas) | Hard | — |
 | **Airbnb** | [Compute C/T metrics from bookings and visits](https://trueinterview.io/questions/compute-c-t-metrics-from-bookings-and-visits) | Medium | — |
 | **Airbnb** | [Compute browsing metrics in Python from logs](https://trueinterview.io/questions/compute-browsing-metrics-in-python-from-logs) | Hard | — |
 | **Pinterest** | [Compute average unique pins per user](https://trueinterview.io/questions/compute-average-unique-pins-per-user) | Medium | — |
@@ -163,7 +143,6 @@
 | **Airbnb** | [Build panel in SQL; run causal regression](https://trueinterview.io/questions/build-panel-in-sql-run-causal-regression) | Medium | — |
 | **Snowflake** | [Build a cohort dashboard with Streamlit and SQL](https://trueinterview.io/questions/build-a-cohort-dashboard-with-streamlit-and-sql) | Medium | — |
 | **Instacart** | [Aggregate weekly revenue and attribute 4% drop](https://trueinterview.io/questions/aggregate-weekly-revenue-and-attribute-4percent-drop) | Medium | — |
-| **Pinterest** | [Aggregate video time and unique pins in Python](https://trueinterview.io/questions/aggregate-video-time-and-unique-pins-in-python) | Medium | — |
 | **Pinterest** | [Find top category by video time spent](https://trueinterview.io/questions/find-top-category-by-video-time-spent) | Medium | — |
 | **Coinbase** | [Minimum Days to Execute Ordered Tasks with Cooldown](https://trueinterview.io/questions/aceaaa24-bfc7-5f9d-9dac-8462aa82ba07) | Medium | — |
 | **Coinbase** | [Transaction History System with Add, Delete, and Balance Calculation](https://trueinterview.io/questions/7c91bdaf-7852-4e5f-a023-d6b03d998867) | Easy | — |
@@ -260,5 +239,26 @@
 | **Yelp / xAI** | [N-gram Split](https://trueinterview.io/questions/n-gram-split-2) | Medium | — |
 | **Verkada / Amazon** | [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | Medium | — |
 | **Snowflake / ByteDance / Meta / Uber / Whatnot** | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | Medium | — |
+| **Snowflake / Citadel / Two Sigma / Uber** | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Medium | — |
+| **Scale AI / Google** | [Minimum Distance in N-ary Tree](https://trueinterview.io/questions/minimum-distance-in-n-ary-tree-2) | Medium | — |
+| **Roblox / Microsoft / Tesla** | [Subarray with Most Target Element](https://trueinterview.io/questions/subarray-with-most-target-element-2) | Medium | — |
+| **Reddit / Stripe** | [Design Feature Flag](https://trueinterview.io/questions/design-feature-flag-2) | Medium | — |
+| **Pinterest** | [Design Soft 404 Detection](https://trueinterview.io/questions/design-soft-404-detection) | Medium | — |
+| **OpenAI / Atlassian / Databricks / Lyft / Meta / Microsoft / Microsoft AI / Pinterest** | [Design Distributed Web Crawler](https://trueinterview.io/questions/design-distributed-web-crawler-4) | Medium | — |
+| **Lyft** | [MultiStream Reader](https://trueinterview.io/questions/multistream-reader) | Medium | — |
+| **Lyft** | [Asteroid Collision - Different Speed](https://trueinterview.io/questions/asteroid-collision-different-speed) | Medium | — |
+| **Lyft** | [Alien Base Attack](https://trueinterview.io/questions/alien-base-attack) | Medium | — |
+| **Google / Microsoft / Verkada** | [Find Common Free Days](https://trueinterview.io/questions/find-common-free-days-2) | Medium | — |
+| **Figma / Ebay / Perplexity / Pinterest** | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | Hard | — |
+| **Datadog** | [Design A Facial Image Matching System](https://trueinterview.io/questions/design-a-facial-image-matching-system) | Medium | — |
+| **Confluent / Amazon / ByteDance / Google / Instacart / LinkedIn / Meta** | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | Medium | — |
+| **Confluent / Databricks / LinkedIn / Whatnot** | [Design A Kafka-like Distributed Message Queue](https://trueinterview.io/questions/design-a-kafka-like-distributed-message-queue) | Hard | — |
+| **Confluent** | [Windowed Key-Value Store](https://trueinterview.io/questions/windowed-key-value-store) | Hard | — |
+| **Confluent** | [Wildcard Matching](https://trueinterview.io/questions/wildcard-matching) | Medium | — |
+| **Confluent** | [Monsters Battle](https://trueinterview.io/questions/monsters-battle) | Medium | — |
+| **Coinbase / Anthropic / HubSpot / Microsoft AI / Ramp** | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Easy | — |
+| **Atlassian / Amazon / Coinbase / Databricks / Google** | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | Medium | — |
+| **Airbnb** | [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection) | Medium | — |
+| **Airbnb / Google / Meta** | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Medium | — |
 
 <sub>[← Page 3](large-tech-3.md) · Page 4 of 6 · [Page 5 →](large-tech-5.md)</sub>

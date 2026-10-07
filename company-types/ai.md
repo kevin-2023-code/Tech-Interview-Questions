@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**359 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**356 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (148)](../companies/openai.md) · [Anthropic (79)](../companies/anthropic.md) · [xAI (38)](../companies/xai.md) · [Perplexity (24)](../companies/perplexity.md) · [Scale AI (21)](../companies/scale-ai.md) · [Harvey (20)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Cursor (5)](../companies/cursor.md) · [Mercor (5)](../companies/mercor.md) · [C3 AI (3)](../companies/c3-ai.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md) · [Together AI (2)](../companies/together-ai.md)
+[OpenAI (145)](../companies/openai.md) · [Anthropic (79)](../companies/anthropic.md) · [xAI (38)](../companies/xai.md) · [Perplexity (24)](../companies/perplexity.md) · [Scale AI (21)](../companies/scale-ai.md) · [Harvey (20)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Cursor (5)](../companies/cursor.md) · [Mercor (5)](../companies/mercor.md) · [C3 AI (3)](../companies/c3-ai.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md) · [Together AI (2)](../companies/together-ai.md)
 
 <sub>15 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,28 +18,28 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 147 | 41% | ██████████████ | 24 |
-| [System Design](../formats/system-design.md) | 90 | 25% | █████████ | 12 |
+| [Algorithm](../formats/algorithm.md) | 145 | 41% | ██████████████ | 24 |
+| [System Design](../formats/system-design.md) | 89 | 25% | █████████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 85 | 24% | ████████ | 12 |
 | [AI Coding](../formats/ai-coding.md) | 30 | 8% | ███ | 2 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **28 / 206 / 125**, over the rows the catalog has graded. 50 of the 359 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **28 / 204 / 124**, over the rows the catalog has graded. 50 of the 356 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **156 questions in this cut that carry a topic label** (43% of it):
+Of the **154 questions in this cut that carry a topic label** (43% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 31 | 20% | ████████████ |
-| `strings` | 24 | 15% | █████████ |
+| `strings` | 24 | 16% | █████████ |
 | `graphs` | 18 | 12% | ███████ |
 | `greedy` | 18 | 12% | ███████ |
-| `math` | 18 | 12% | ███████ |
+| `math` | 17 | 11% | ███████ |
 | `sorting` | 14 | 9% | █████ |
 | `matrix` | 13 | 8% | █████ |
-| `arrays` | 12 | 8% | █████ |
+| `arrays` | 11 | 7% | ████ |
 | `heap` | 10 | 6% | ████ |
 | `trees` | 8 | 5% | ███ |
 
@@ -186,7 +186,6 @@ Of the **156 questions in this cut that carry a topic label** (43% of it):
 | **Scale AI** | [Neuron Firing Cellular Automata](https://trueinterview.io/questions/neuron-firing-cellular-automata) | Medium | May 01, 2026 |
 | **Anthropic** | [Task Management System](https://trueinterview.io/questions/task-management-system-online-assessment) | Hard | May 2026 |
 | **Harvey** | [Implement a DB Connection Pool](https://trueinterview.io/questions/implement-a-db-connection-pool) | Medium | Apr 30, 2026 |
-| **OpenAI** | [Generate Data Labeling Schedules](https://trueinterview.io/questions/generate-data-labeling-schedules) | Hard | Apr 28, 2026 |
 | **Coinbase / Anthropic / Applied Intuition** | [In-Memory Database](https://trueinterview.io/questions/in-memory-database) | Medium | Apr 28, 2026 |
 | **OpenAI** | [Design a Slack-Like Messaging System](https://trueinterview.io/questions/design-a-slack-like-messaging-system-3) | Hard | Apr 26, 2026 |
 | **OpenAI** | [Compute entropy and implement 1-NN](https://trueinterview.io/questions/compute-entropy-and-implement-1-nn) | Hard | Apr 24, 2026 |
@@ -210,7 +209,6 @@ Of the **156 questions in this cut that carry a topic label** (43% of it):
 | **OpenAI** | [Design IDE Sandbox and Payments](https://trueinterview.io/questions/design-ide-sandbox-and-payments) | Hard | Apr 07, 2026 |
 | **Cursor** | [Hash a Repository with a Merkle Tree and Find Changed Files](https://trueinterview.io/questions/hash-a-repository-with-a-merkle-tree-and-find-changed-files) | Medium | Apr 07, 2026 |
 | **Cursor / Snowflake** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | Medium | Apr 07, 2026 |
-| **OpenAI** | [Prevent Duplicate Request Processing](https://trueinterview.io/questions/prevent-duplicate-request-processing) | Medium | Apr 04, 2026 |
 | **OpenAI** | [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui) | Medium | Apr 04, 2026 |
 | **xAI** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Medium | Apr 04, 2026 |
 | **xAI** | [Data Parallel & FSDP Matrix Multiplication](https://trueinterview.io/questions/data-parallel-fsdp-matrix-multiplication) | Hard | Apr 04, 2026 |
@@ -314,7 +312,6 @@ Of the **156 questions in this cut that carry a topic label** (43% of it):
 | **Scale AI** | [Explain worker state machine load balancer design](https://trueinterview.io/questions/explain-worker-state-machine-load-balancer-design) | Hard | — |
 | **Scale AI** | [Design pipeline using classification and embedding services](https://trueinterview.io/questions/design-pipeline-using-classification-and-embedding-services) | Medium | — |
 | **Scale AI** | [Design a large-scale ticketing system](https://trueinterview.io/questions/design-a-large-scale-ticketing-system) | Hard | — |
-| **OpenAI** | [Debug and harden trial-assignment Python code](https://trueinterview.io/questions/debug-and-harden-trial-assignment-python-code) | Medium | — |
 | **OpenAI** | [Debug and fix a PyTorch Transformer training loop](https://trueinterview.io/questions/debug-and-fix-a-pytorch-transformer-training-loop) | Hard | — |
 | **OpenAI** | [Write SQL for post-trial conversion cohorts](https://trueinterview.io/questions/write-sql-for-post-trial-conversion-cohorts) | Hard | — |
 | **Onemain Financial / Anthropic / Google / LinkedIn / Microsoft** | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Medium | — |
@@ -326,5 +323,8 @@ Of the **156 questions in this cut that carry a topic label** (43% of it):
 | **Anthropic / Applied Intuition** | [File Deduplication](https://trueinterview.io/questions/2c5a041b-d32a-53e1-9304-4b4d2680352f) | Easy | — |
 | **Perplexity** | [Implement Tokenize Function](https://trueinterview.io/questions/dcd37aa2-dbac-4c98-b5d1-35df728f8809) | Hard | — |
 | **OpenAI** | [Guess a Secret Number with One-Call Delayed Feedback](https://trueinterview.io/questions/e41553c0-20ac-51a0-bc69-17309dce31b6) | Medium | — |
+| **OpenAI** | [Find the Incorrect Data Labeler](https://trueinterview.io/questions/d2fcfdcf-7015-535c-aecb-8729bdd9edcf) | Medium | — |
+| **OpenAI** | [Spreadsheet Implementation with Cycle Detection and Caching](https://trueinterview.io/questions/b0fb2e35-02e8-45a9-bcfe-f1ad3e4778fd) | Medium | — |
+| **OpenAI** | [Multiprocessing Debugging for Neural Network Propagation](https://trueinterview.io/questions/a91050eb-ce04-4669-81b0-4219d72e6661) | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](ai-2.md)</sub>

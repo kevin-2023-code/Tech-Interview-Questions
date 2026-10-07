@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**596 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**592 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,10 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Figma** | [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445) | Hard | — |
-| **Tradedesk** | [Earn the Most](https://trueinterview.io/questions/de01d1f2-f8dc-44ab-a3ac-256f97bf946b) | Hard | — |
-| **Tradedesk / Google / NVIDIA** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Medium | — |
-| **Tradedesk** | [Versioned Recipe Management System](https://trueinterview.io/questions/7cc2781a-4716-537b-86f0-af8491a58f8b) | Medium | — |
 | **Tradedesk** | [Fastest Benchmark Completion in Activity](https://trueinterview.io/questions/3c61ef86-b26e-4cc4-88cf-3258acb9f8c8) | Medium | — |
 | **Tradedesk** | [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62) | Medium | — |
 | **Dropbox** | [Simulate a File System with Access Control](https://trueinterview.io/questions/f0867d5b-4d3f-4ff4-9af3-0c7f8b8160ca) | Medium | — |

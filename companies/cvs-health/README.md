@@ -8,7 +8,7 @@ How Cvs Health interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [13](../cvs-health.md) |
+| Questions reported | [10](../cvs-health.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -24,12 +24,12 @@ No written process guide yet. [The loop, as reported](../cvs-health.md#the-loop-
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
+| [Compute age-band spend and YoY in Georgia](../../questions/sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | SQL | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) |
 | [Calculate annual percentages and YoY by cohorts](../../questions/sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | SQL | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) |
-| [Aggregate radiology spend and derive fiscal month](../../questions/algorithm/aggregate-radiology-spend-and-derive-fiscal-month/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/aggregate-radiology-spend-and-derive-fiscal-month) |
 
 ## Everything else
 
-- [All 13 questions reported at Cvs Health](../cvs-health.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 10 questions reported at Cvs Health](../cvs-health.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Cvs Health question on TrueInterview](https://trueinterview.io/problems/company/cvs-health).
 
 ---

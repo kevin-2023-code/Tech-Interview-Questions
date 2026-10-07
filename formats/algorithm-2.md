@@ -2,20 +2,14 @@
 
 # Algorithm interview & OA questions
 
-**2,512 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,431 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
-<sub>[← Page 1](algorithm.md) · Page 2 of 11 · [Page 3 →](algorithm-3.md)</sub>
+<sub>[← Page 1](algorithm.md) · Page 2 of 10 · [Page 3 →](algorithm-3.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Apple** | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Hard | Jun 24, 2026 |
-| **Snowflake** | [Forest Parent Array Delete Node](https://trueinterview.io/questions/forest-parent-array-delete-node) | Medium | Jun 24, 2026 |
-| **Snowflake** | [Distributed Tree Node Count](https://trueinterview.io/questions/distributed-tree-node-count) | Medium | Jun 24, 2026 |
-| **Stripe** | [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Medium | Jun 24, 2026 |
-| **JPMorgan** | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Easy | Jun 23, 2026 |
-| **JPMorgan** | [Prerequisite Cycle](https://trueinterview.io/questions/prerequisite-cycle-oa) | Medium | Jun 23, 2026 |
 | **JPMorgan** | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa) | Medium | Jun 23, 2026 |
 | **Google** | [Streaming Points: Emit K Within Distance](https://trueinterview.io/questions/streaming-points-k-within-distance) | Medium | Jun 23, 2026 |
 | **Google** | [Expression Tree Single-Leaf Mutation](https://trueinterview.io/questions/expression-tree-single-leaf-mutation) | Hard | Jun 23, 2026 |
@@ -225,7 +219,6 @@
 | **Capital One** | [Tetris-Style Figure Placement](https://trueinterview.io/questions/tetris-figure-placement) | Medium | Apr 29, 2026 |
 | **DoorDash** | [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid) | Medium | Apr 29, 2026 |
 | **ByteDance** | [Implement Sorted Search and Array Updates](https://trueinterview.io/questions/implement-sorted-search-and-array-updates) | Medium | Apr 28, 2026 |
-| **OpenAI** | [Generate Data Labeling Schedules](https://trueinterview.io/questions/generate-data-labeling-schedules) | Hard | Apr 28, 2026 |
 | **Amazon** | [Find Valid IP Addresses in Files](https://trueinterview.io/questions/find-valid-ip-addresses-in-files) | Medium | Apr 28, 2026 |
 | **Google** | [Find the Longest Consecutive Path in a Binary Tree](https://trueinterview.io/questions/find-the-longest-consecutive-path-in-a-binary-tree) | Medium | Apr 28, 2026 |
 | **Optiver** | [Count Ordered Sequences That Sum to a Target](https://trueinterview.io/questions/count-ordered-sequences-that-sum-to-a-target) | Medium | Apr 28, 2026 |
@@ -260,5 +253,12 @@
 | **Waymo** | [Car Fleet Scheduler](https://trueinterview.io/questions/car-fleet-scheduler) | Medium | Apr 24, 2026 |
 | **Walmart Labs** | [Merge Intervals Returning Original Start/End Indices](https://trueinterview.io/questions/merge-intervals-with-indices) | Medium | Apr 24, 2026 |
 | **Waymo** | [Largest Rectangle Area](https://trueinterview.io/questions/max-area-rectangle-coordinate-set) | Medium | Apr 24, 2026 |
+| **Walmart Labs** | [Insert Spaces Around Palindrome Layers](https://trueinterview.io/questions/shrink-palindrome-spaces) | Easy | Apr 24, 2026 |
+| **Meta / Amazon** | [Random Pick with Weight](https://trueinterview.io/questions/random-pick-with-weight) | Medium | Apr 24, 2026 |
+| **Apple** | [Maximum Number of Eaten Apples](https://trueinterview.io/questions/maximum-number-of-eaten-apples) | Medium | Apr 24, 2026 |
+| **Netflix** | [Nested Map Path Query (JSON Parser)](https://trueinterview.io/questions/nested-map-path-query-json-parser) | Medium | Apr 24, 2026 |
+| **Snowflake** | [Minimum Clicks Between Wiki Pages](https://trueinterview.io/questions/solve-array-distance-and-wiki-navigation-minimum-clicks-between-wiki-pages) | Medium | Apr 23, 2026 |
+| **Glean** | [Implement Rate-Limited Wikipedia Crawler](https://trueinterview.io/questions/implement-rate-limited-wikipedia-crawler) | Hard | Apr 23, 2026 |
+| **Meta** | [Minimum Add to Make Parentheses Valid II](https://trueinterview.io/questions/minimum-add-to-make-valid-parens) | Medium | Apr 23, 2026 |
 
-<sub>[← Page 1](algorithm.md) · Page 2 of 11 · [Page 3 →](algorithm-3.md)</sub>
+<sub>[← Page 1](algorithm.md) · Page 2 of 10 · [Page 3 →](algorithm-3.md)</sub>

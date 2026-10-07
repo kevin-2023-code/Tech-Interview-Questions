@@ -8,8 +8,8 @@ How Meta interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [343](../meta.md) |
-| Free to read here | 27 |
+| Questions reported | [337](../meta.md) |
+| Free to read here | 26 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
 | Most recent sighting | Sep 04, 2026 |
@@ -38,7 +38,7 @@ This guide goes past the outline on the Meta company page. It covers how the scr
 
 ## Free Meta questions
 
-27 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+26 questions reported at Meta open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -61,7 +61,6 @@ This guide goes past the outline on the Meta company page. It covers how the scr
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Design Instagram](../../questions/system-design/design-instagram/README.md) | System Design | Medium | Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-instagram) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
-| [Verifying an Alien Dictionary](../../questions/algorithm/verifying-an-alien-dictionary/README.md) | Algorithm | Easy | Phone screen | Sep 2025 | [Solve](https://trueinterview.io/questions/verifying-an-alien-dictionary) |
 | [Simplify Expression](../../questions/algorithm/simplify-parentheses-expression/README.md) | Algorithm | Medium | Onsite / virtual onsite | Jun 2025 | [Solve](https://trueinterview.io/questions/simplify-parentheses-expression) |
 | [Best Time to Buy and Sell Stock IV](../../questions/algorithm/best-time-to-buy-and-sell-stock-iv/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) |
 | [Search from the end in a sorted array (variant)](../../questions/algorithm/search-from-the-end-in-a-sorted-array-variant/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) |
@@ -72,7 +71,7 @@ This guide goes past the outline on the Meta company page. It covers how the scr
 
 ## Everything else
 
-- [All 343 questions reported at Meta](../meta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 337 questions reported at Meta](../meta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Meta question on TrueInterview](https://trueinterview.io/problems/company/meta).
 
 ---

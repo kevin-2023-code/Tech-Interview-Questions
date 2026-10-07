@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**907 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**888 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Amazon / Pinterest** | [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking) | Medium | Apr 29, 2026 |
 | **DoorDash** | [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid) | Medium | Apr 29, 2026 |
 | **Airbnb** | [Design User Embedding Semantic Search](https://trueinterview.io/questions/design-user-embedding-semantic-search) | Hard | Apr 28, 2026 |
 | **Shopify** | [Design a Product Photography Upload Service](https://trueinterview.io/questions/design-a-product-photography-upload-service) | Medium | Apr 28, 2026 |
@@ -60,14 +59,11 @@
 | **Reddit / Airbnb / Amazon / DoorDash / Expedia / Google / Meta / Pinterest / Robinhood / Snapchat / Whatnot / xAI / Yelp** | [Design Notification System](https://trueinterview.io/questions/design-a-notification-system-for-reddit) | Easy | Apr 12, 2026 |
 | **Faire** | [Design an API for Pascal Triangle](https://trueinterview.io/questions/design-an-api-for-pascal-triangle) | Medium | Apr 10, 2026 |
 | **Uber** | [Design a Maps Address Search Bar](https://trueinterview.io/questions/design-a-maps-address-search-bar) | Medium | Apr 10, 2026 |
-| **Amazon** | [Solve Three Algorithm Variants](https://trueinterview.io/questions/solve-three-algorithm-variants) | Hard | Apr 10, 2026 |
-| **Amazon** | [Solve Union-Find, Graph, and Stream Problems](https://trueinterview.io/questions/solve-union-find-graph-and-stream-problems) | Hard | Apr 09, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
 | **Pinterest / DoorDash / Expedia / Instacart / Reddit** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | Medium | Apr 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
 | **Ebay** | [Design a Relational-to-DynamoDB Migration System](https://trueinterview.io/questions/design-a-relational-to-dynamodb-migration-system) | Hard | Apr 08, 2026 |
 | **Uber** | [Solve two interview coding problems](https://trueinterview.io/questions/solve-two-interview-coding-problems-2) | Hard | Apr 08, 2026 |
-| **Airbnb** | [Solve Linked-List and Iterator Problems](https://trueinterview.io/questions/solve-linked-list-and-iterator-problems) | Hard | Apr 08, 2026 |
 | **Ebay** | [Implement a Prefix-Based Word Store](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems-implement-a-prefix-based-word-store) | Medium | Apr 08, 2026 |
 | **Ebay** | [Solve Dependency, Prefix, and Cache Problems](https://trueinterview.io/questions/solve-dependency-prefix-and-cache-problems) | Hard | Apr 08, 2026 |
 | **DoorDash** | [Code Craft: Basic Calculator (No Parentheses)](https://trueinterview.io/questions/code-craft-basic-calculator-no-parens) | Medium | Apr 06, 2026 |
@@ -82,7 +78,6 @@
 | **Uber** | [Solve Knight and Reversal Problems](https://trueinterview.io/questions/solve-knight-and-reversal-problems) | Hard | Apr 02, 2026 |
 | **DoorDash** | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | Medium | Apr 02, 2026 |
 | **Apple / Amazon / GEICO / Microsoft / Squarepoint** | [Product of Array Except Self](https://trueinterview.io/questions/product-of-array-except-self) | Medium | Apr 02, 2026 |
-| **Shopify** | [Model Product Ranking](https://trueinterview.io/questions/model-product-ranking) | Hard | Apr 01, 2026 |
 | **Shopify** | [Design Personalized Product Feeds](https://trueinterview.io/questions/design-personalized-product-feeds) | Medium | Apr 01, 2026 |
 | **Uber / Google** | [Shortest Subarray with At Least K Distinct](https://trueinterview.io/questions/oa-shortest-subarray-k-distinct) | Medium | Apr 01, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
@@ -156,7 +151,6 @@
 | **Snowflake / Applied Intuition / Lyft** | [Design Key-Value Store with Transactions](https://trueinterview.io/questions/design-key-value-store-with-transactions) | Medium | Feb 26, 2026 |
 | **Walmart Labs** | [Plants Pesticide — Days Until Stable](https://trueinterview.io/questions/plants-pesticide-days) | Medium | Feb 24, 2026 |
 | **Walmart Labs** | [Design Multi-Carrier Package Delivery Routing System](https://trueinterview.io/questions/design-multi-carrier-delivery-system) | Hard | Feb 24, 2026 |
-| **Uber** | [Solve BFS and grid tasks](https://trueinterview.io/questions/solve-bfs-and-grid-tasks) | Medium | Feb 22, 2026 |
 | **Atlassian / Expedia / Ramp / Roblox / Snapchat / Snowflake / Stripe / Verkada** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | Medium | Feb 22, 2026 |
 | **Amazon** | [Music Player with Frequency Priority](https://trueinterview.io/questions/music-player-frequency-priority) | Medium | Feb 22, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
@@ -188,9 +182,7 @@
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
 | **Apple / Amazon / ByteDance / Google / Lyft / Meta / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Medium | Feb 04, 2026 |
 | **Coinbase / Lyft** | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Medium | Feb 04, 2026 |
-| **DoorDash** | [Build Resilient Aggregation and Debug Routing](https://trueinterview.io/questions/build-resilient-aggregation-and-debug-routing) | Medium | Feb 03, 2026 |
 | **DoorDash** | [Find Each Cell's Nearest Source](https://trueinterview.io/questions/find-each-cells-nearest-source) | Medium | Feb 03, 2026 |
-| **Amazon** | [Solve Nearby Inventory and Word Segmentation Tasks](https://trueinterview.io/questions/solve-nearby-inventory-and-word-segmentation-tasks) | Hard | Feb 02, 2026 |
 | **Amazon** | [Design a Multi-Provider Financial Dashboard](https://trueinterview.io/questions/design-a-multi-provider-financial-dashboard) | Hard | Feb 02, 2026 |
 | **Uber / Microsoft** | [Check Prefix Permutation](https://trueinterview.io/questions/oa-permutation-prefix-balanced) | Easy | Feb 02, 2026 |
 | **Uber** | [Optimize Transition from Elevator to Stairs](https://trueinterview.io/questions/oa-stairs-elevator-energy-tradeoff) | Medium | Feb 02, 2026 |
@@ -219,7 +211,6 @@
 | **OpenAI / Airbnb / LinkedIn** | [Design Google Calendar](https://trueinterview.io/questions/design-google-calendar) | Medium | Jan 22, 2026 |
 | **Airbnb** | [Find best downhill ski run from a start](https://trueinterview.io/questions/find-best-downhill-ski-run-from-a-start) | Medium | Jan 19, 2026 |
 | **Airbnb** | [Compute maze score using shortest path](https://trueinterview.io/questions/compute-maze-score-using-shortest-path) | Medium | Jan 19, 2026 |
-| **Walmart Labs** | [Convert Dictionary to DataFrame](https://trueinterview.io/questions/convert-dictionary-to-dataframe) | Medium | Jan 18, 2026 |
 | **Whatnot** | [Design trending livestream discovery](https://trueinterview.io/questions/design-trending-livestream-discovery) | Medium | Jan 17, 2026 |
 | **Uber** | [Count paths with prime-ending jumps](https://trueinterview.io/questions/count-paths-with-prime-ending-jumps) | Medium | Jan 15, 2026 |
 | **DoorDash** | [Design an API for pay computation with retries](https://trueinterview.io/questions/design-an-api-for-pay-computation-with-retries) | Medium | Jan 14, 2026 |
@@ -255,10 +246,19 @@
 | **Walmart Labs** | [Predict Item Category](https://trueinterview.io/questions/mlsd-predict-item-category) | Medium | Dec 17, 2025 |
 | **DoorDash** | [Design a donations service with 3-day rolling totals](https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals) | Medium | Dec 16, 2025 |
 | **DoorDash** | [Compute courier pay and implement load balancing](https://trueinterview.io/questions/compute-courier-pay-and-implement-load-balancing) | Hard | Dec 16, 2025 |
-| **Amazon** | [Implement SGD for linear regression and derive gradients](https://trueinterview.io/questions/implement-sgd-for-linear-regression-and-derive-gradients) | Medium | Dec 15, 2025 |
 | **Amazon** | [Implement K-means and solve interval/frequency tasks](https://trueinterview.io/questions/implement-k-means-and-solve-interval-frequency-tasks) | Medium | Dec 15, 2025 |
 | **Goldman Sachs / Amazon** | [First Unique Element III](https://trueinterview.io/questions/first-unique-character) | Easy | Dec 12, 2025 |
 | **Uber** | [Measure feature impact with switchback, PSM, and CACE](https://trueinterview.io/questions/measure-feature-impact-with-switchback-psm-and-cace) | Hard | Dec 11, 2025 |
 | **Uber** | [Transform DataFrame and compute diff-in-diff](https://trueinterview.io/questions/transform-dataframe-and-compute-diff-in-diff) | Medium | Dec 11, 2025 |
+| **DoorDash** | [Code Craft: Common Restaurant Pickup Order (LCS Variant)](https://trueinterview.io/questions/code-craft-common-restaurant-list) | Medium | Dec 11, 2025 |
+| **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
+| **DoorDash** | [Find All 5-Minute Intervals](https://trueinterview.io/questions/code-craft-day-time-interval-codes) | Medium | Dec 08, 2025 |
+| **DoorDash** | [Code Craft: Cart with Promotions](https://trueinterview.io/questions/code-craft-cart-promotions-ood) | Medium | Dec 07, 2025 |
+| **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Easy | Dec 06, 2025 |
+| **Amazon / Netflix** | [Maximum Interval Overlap Count](https://trueinterview.io/questions/maximum-interval-overlap-count) | Medium | Dec 05, 2025 |
+| **Amazon** | [Compute peak parking lot occupancy intervals](https://trueinterview.io/questions/compute-peak-parking-lot-occupancy-intervals) | Hard | Dec 02, 2025 |
+| **Uber** | [Service Dependency Topological Order](https://trueinterview.io/questions/phone-screen-topological-dependency-order) | Medium | Dec 01, 2025 |
+| **Airbnb** | [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search) | Medium | Nov 30, 2025 |
+| **Databricks / Salesforce / Uber** | [Maximal Square and Rectangle in Binary Matrix](https://trueinterview.io/questions/maximal-square-and-rectangle-in-binary-matrix) | Medium | Nov 26, 2025 |
 
 <sub>[← Page 1](ecommerce-marketplace.md) · Page 2 of 4 · [Page 3 →](ecommerce-marketplace-3.md)</sub>

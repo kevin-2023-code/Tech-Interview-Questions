@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**63 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**62 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -38,7 +38,6 @@
 | [Delivery Cost Calculate](https://trueinterview.io/questions/delivery-billing-system) | **Rippling** | Medium | Jun 18, 2026 |
 | [Design a Recommender System Based on Price and Distance](https://trueinterview.io/questions/4dce6781-6c41-4501-b217-804db6bfe794) | **Stubhub** | Medium | — |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](https://trueinterview.io/questions/18881fa6-2c09-4cd4-832d-7f0e3194371a) | **Tradedesk** | Medium | — |
-| [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) | **Uber** | Medium | — |
 | [Design Spreadsheet Undo and Redo](https://trueinterview.io/questions/1855e2e5-c079-5b9d-86be-33ea9b14c2ce) | **Airtable** | Medium | — |
 | [Deterministic Function Wrapper with Caching](https://trueinterview.io/questions/0cf0fd25-032f-4c72-ad79-e04517c706dc) | **Squarepoint** | Medium | — |
 | [Event Bus with Emit, Subscribe, and Unsubscribe](https://trueinterview.io/questions/event-bus-emit-subscribe) | **Tesla** | Medium | Jul 04, 2025 |

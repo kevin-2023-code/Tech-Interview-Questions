@@ -2,7 +2,7 @@
 
 # 🖥️ Hardware, devices & networking — interview & OA questions
 
-**178 questions** reported across the **4 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**175 questions** reported across the **4 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Apple (145)](../companies/apple.md) · [Cisco (25)](../companies/cisco.md) · [Arista (6)](../companies/arista.md) · [Axon (4)](../companies/axon.md)
+[Apple (142)](../companies/apple.md) · [Cisco (25)](../companies/cisco.md) · [Arista (6)](../companies/arista.md) · [Axon (4)](../companies/axon.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,22 +18,22 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 129 | 72% | ██████████████ | 35 |
+| [Algorithm](../formats/algorithm.md) | 126 | 72% | ██████████████ | 35 |
 | [System Design](../formats/system-design.md) | 26 | 15% | ███ | 3 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 17 | 10% | ██ | 2 |
 | [SQL](../formats/sql.md) | 4 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **48 / 98 / 32**, over the rows the catalog has graded. 41 of the 178 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **48 / 98 / 29**, over the rows the catalog has graded. 41 of the 175 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **127 questions in this cut that carry a topic label** (71% of it):
+Of the **125 questions in this cut that carry a topic label** (71% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 25 | 20% | ████████████ |
-| `arrays` | 22 | 17% | ███████████ |
+| `arrays` | 22 | 18% | ███████████ |
 | `graphs` | 19 | 15% | █████████ |
 | `matrix` | 16 | 13% | ████████ |
 | `strings` | 15 | 12% | ███████ |
@@ -179,7 +179,6 @@ Of the **127 questions in this cut that carry a topic label** (71% of it):
 | **Apple** | [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter) | Medium | Dec 02, 2025 |
 | **Apple** | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system) | Medium | Nov 30, 2025 |
 | **Apple** | [Concurrent users from online intervals](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks-concurrent-users-from-online-intervals) | Medium | Nov 27, 2025 |
-| **Apple** | [Solve interval, grid-fill, and heap tasks](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks) | Hard | Nov 27, 2025 |
 | **Apple** | [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua) | Medium | Nov 21, 2025 |
 | **Apple** | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Easy | Nov 20, 2025 |
 | **Apple** | [Solve three easy algorithm problems](https://trueinterview.io/questions/solve-three-easy-algorithm-problems) | Medium | Nov 11, 2025 |
@@ -200,8 +199,6 @@ Of the **127 questions in this cut that carry a topic label** (71% of it):
 | **Cisco** | [Maximum Non-Adjacent Chocolates](https://trueinterview.io/questions/3c880993-3030-4a5c-8474-3e74e89d32f3) | Medium | Jul 17, 2025 |
 | **Cisco** | [Word Search in Rows and Columns](https://trueinterview.io/questions/word-search-rows-columns) | Medium | Jul 17, 2025 |
 | **Cisco** | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | Easy | Jul 17, 2025 |
-| **Apple** | [Implement random forest with OOB and imbalance](https://trueinterview.io/questions/implement-random-forest-with-oob-and-imbalance) | Hard | — |
-| **Apple** | [Build leak-safe sklearn model with calibration](https://trueinterview.io/questions/build-leak-safe-sklearn-model-with-calibration) | Hard | — |
 | **Apple** | [Find longest uniform substring after k replacements](https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements) | Medium | — |
 | **Apple** | [Detect sessions and gaps using SQL LEAD](https://trueinterview.io/questions/detect-sessions-and-gaps-using-sql-lead) | Medium | — |
 | **Apple** | [Compute optimal matrix-chain multiplication order](https://trueinterview.io/questions/compute-optimal-matrix-chain-multiplication-order) | Hard | — |

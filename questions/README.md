@@ -6,7 +6,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 
 [← Question bank](../README.md) · [Companies](../companies/README.md) · [Free questions, with statistics](../free/README.md)
 
-## Algorithm (291)
+## Algorithm (288)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -78,7 +78,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Ruby only, ~10 min](algorithm/swe-intern-coding-oa-ruby-only-10-min/README.md) | Easy | Shopify |
 | [Second-Smallest Unique Element](algorithm/second-smallest-unique-element/README.md) | Easy | Goldman Sachs |
 | [Segregate Binary String (Move Ones to End)](algorithm/segregate-binary-string-move-ones/README.md) | Easy | Akuna Capital · Google |
-| [Shortest Path in Unweighted Graph](algorithm/shortest-path-in-unweighted-graph/README.md) | Easy | Pinterest · ByteDance |
 | [Simple TypeScript Program](algorithm/simple-typescript-program/README.md) | Easy | Snowflake |
 | [Sliding Window Problem](algorithm/sliding-window-problem/README.md) | Easy | Faire |
 | [Social Network Likes Count](algorithm/social-network-likes-count/README.md) | Easy | Lead Bank |
@@ -88,10 +87,8 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Split Array: Left Sum Greater](algorithm/split-array-left-sum-greater/README.md) | Easy | JPMorgan |
 | [String Shift](algorithm/string-shift/README.md) | Easy | Rubrik |
 | [Valid Parentheses](algorithm/valid-parentheses/README.md) | Easy | Apple · Amazon · Bloomberg · Boston Consulting Group · ByteDance |
-| [Verifying an Alien Dictionary](algorithm/verifying-an-alien-dictionary/README.md) | Easy | Uber · Meta |
 | [Vowel Substring](algorithm/vowel-substring/README.md) | Easy | Snowflake |
 | [1-D Valid Convolution with Multithreading Follow-up](algorithm/one-dimensional-valid-convolution/README.md) | Medium | IBM |
-| [Aggregate radiology spend and derive fiscal month](algorithm/aggregate-radiology-spend-and-derive-fiscal-month/README.md) | Medium | Cvs Health |
 | [Anagram Sentence Substitutions](algorithm/anagram-sentence-substitutions/README.md) | Medium | SoFi |
 | [Array Challenge: Left-Comparison Running Counter](algorithm/left-comparison-running-counter/README.md) | Medium | Akuna Capital |
 | [Basic Calculator](algorithm/basic-calculator-2/README.md) | Medium | Netflix · ByteDance · Google · Instacart · Meta |
@@ -302,7 +299,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
 | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](algorithm/windowed-map-time-windowed-key-value-store-with-o-1-operations-and-windo/README.md) | Hard | StackAdapt |
 
-## Object Oriented Programming (63)
+## Object Oriented Programming (62)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -323,7 +320,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Delivery Cost Calculate](object-oriented-programming/delivery-billing-system/README.md) | Medium | Rippling |
 | [Design a Recommender System Based on Price and Distance](object-oriented-programming/design-a-recommender-system-based-on-price-and-distance/README.md) | Medium | Stubhub |
 | [Design an In-Memory Cloud Storage System (Incremental Levels)](object-oriented-programming/design-an-in-memory-cloud-storage-system-incremental-levels/README.md) | Medium | Tradedesk |
-| [Design an In-Memory File System with Recursive Wildcards](object-oriented-programming/design-an-in-memory-file-system-with-recursive-wildcards/README.md) | Medium | Uber |
 | [Design Key-Value Store with Transactions](object-oriented-programming/design-key-value-store-with-transactions/README.md) | Medium | Snowflake · Applied Intuition · Lyft |
 | [Design Lazy Array](object-oriented-programming/implement-lazyarray-with-deferred-function-execution/README.md) | Medium | Databricks · Amazon |
 | [Design Spreadsheet Undo and Redo](object-oriented-programming/design-spreadsheet-undo-and-redo/README.md) | Medium | Airtable |
@@ -421,11 +417,12 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Web Crawler with Asyncio](ai-coding/web-crawler-with-asyncio/README.md) | Medium | Anthropic |
 | [Data Parallel & FSDP Matrix Multiplication](ai-coding/data-parallel-fsdp-matrix-multiplication/README.md) | Hard | xAI |
 
-## SQL (5)
+## SQL (6)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
 | [Calculate annual percentages and YoY by cohorts](sql/calculate-annual-percentages-and-yoy-by-cohorts/README.md) | Medium | Cvs Health |
+| [Compute age-band spend and YoY in Georgia](sql/compute-age-band-spend-and-yoy-in-georgia/README.md) | Medium | Cvs Health |
 | [Compute daily net users from event logs](sql/compute-daily-net-users-from-event-logs/README.md) | Medium | Tubi |
 | [Compute weekly 3-week rolling sums in SQL](sql/compute-weekly-3-week-rolling-sums-in-sql/README.md) | Medium | Thumbtack |
 | [Compute DAU and rolling MAU with zero days](sql/compute-dau-and-rolling-mau-with-zero-days/README.md) | Hard | Glean |

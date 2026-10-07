@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,352 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Anthropic** | [Implement a Banking System](https://trueinterview.io/questions/implement-a-banking-system) | Medium | May 24, 2026 |
 | **Airbnb / Snowflake / Square** | [Design Connect Four](https://trueinterview.io/questions/board-game-ood) | Medium | May 24, 2026 |
 | **Roblox** | [Cursor-Based Pagination Over Sorted Logs](https://trueinterview.io/questions/cursor-based-pagination-over-sorted-logs) | Medium | May 24, 2026 |
 | **Pinterest** | [Fresh Content Reach](https://trueinterview.io/questions/fresh-content-reach) | Medium | May 23, 2026 |
@@ -86,7 +85,6 @@
 | **Amazon / Pinterest** | [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking) | Medium | Apr 29, 2026 |
 | **Airbnb** | [Design User Embedding Semantic Search](https://trueinterview.io/questions/design-user-embedding-semantic-search) | Hard | Apr 28, 2026 |
 | **Shopify** | [Design a Product Photography Upload Service](https://trueinterview.io/questions/design-a-product-photography-upload-service) | Medium | Apr 28, 2026 |
-| **OpenAI** | [Generate Data Labeling Schedules](https://trueinterview.io/questions/generate-data-labeling-schedules) | Hard | Apr 28, 2026 |
 | **Shopify** | [Compute Jaccard Similarity for Lists](https://trueinterview.io/questions/compute-jaccard-similarity-for-lists) | Easy | Apr 28, 2026 |
 | **Shopify** | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact) | Medium | Apr 28, 2026 |
 | **Airbnb** | [Waitlist System Design](https://trueinterview.io/questions/waitlist-system-design) | Medium | Apr 28, 2026 |
@@ -161,13 +159,11 @@
 | **Pinterest / DoorDash / Expedia / Instacart / Reddit** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | Medium | Apr 09, 2026 |
 | **Stripe** | [Implement Dataset Join Operation](https://trueinterview.io/questions/dataset-join) | Medium | Apr 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
-| **Airbnb** | [Solve Linked-List and Iterator Problems](https://trueinterview.io/questions/solve-linked-list-and-iterator-problems) | Hard | Apr 08, 2026 |
 | **Roblox** | [Design Online Game Matching Service](https://trueinterview.io/questions/design-multiplayer-game-matchmaking-system) | Medium | Apr 08, 2026 |
 | **OpenAI** | [Design IDE Sandbox and Payments](https://trueinterview.io/questions/design-ide-sandbox-and-payments) | Hard | Apr 07, 2026 |
 | **Cursor / Snowflake** | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | Medium | Apr 07, 2026 |
 | **Roblox** | [Design Roblox Wallet](https://trueinterview.io/questions/design-roblox-wallet) | Medium | Apr 07, 2026 |
 | **Upstart** | [Solve Reported Coding Problems](https://trueinterview.io/questions/solve-reported-oa-coding-problems) | Medium | Apr 05, 2026 |
-| **OpenAI** | [Prevent Duplicate Request Processing](https://trueinterview.io/questions/prevent-duplicate-request-processing) | Medium | Apr 04, 2026 |
 | **OpenAI** | [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui) | Medium | Apr 04, 2026 |
 | **Instacart** | [File Matrix Lookup](https://trueinterview.io/questions/onsite-file-matrix-lookup) | Medium | Apr 04, 2026 |
 | **Instacart** | [Expression Evaluation with Variables](https://trueinterview.io/questions/onsite-expression-evaluation-with-variables) | Hard | Apr 04, 2026 |
@@ -184,7 +180,6 @@
 | **OpenAI** | [Compute Matrix Prefix Products And Gradients](https://trueinterview.io/questions/compute-matrix-prefix-products-and-gradients) | Hard | Apr 02, 2026 |
 | **xAI** | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Medium | Apr 02, 2026 |
 | **Reddit / Atlassian / Meta** | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | Medium | Apr 02, 2026 |
-| **Shopify** | [Model Product Ranking](https://trueinterview.io/questions/model-product-ranking) | Hard | Apr 01, 2026 |
 | **Shopify** | [Design Personalized Product Feeds](https://trueinterview.io/questions/design-personalized-product-feeds) | Medium | Apr 01, 2026 |
 | **xAI** | [In-Memory Database — Levels 1–4 (TTL + Backup/Restore)](https://trueinterview.io/questions/in-memory-database-ttl-backup) | Hard | Apr 01, 2026 |
 | **Roblox** | [Most Frequently Called Function From Logs](https://trueinterview.io/questions/most-frequently-called-function-from-logs) | Easy | Apr 2026 |
@@ -225,7 +220,6 @@
 | **Uber / Amazon / ByteDance / Gusto / Microsoft / Oracle** | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Medium | Mar 20, 2026 |
 | **Airbnb** | [Maximum Ski Score](https://trueinterview.io/questions/ski-path-max-score-dag) | Medium | Mar 20, 2026 |
 | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
-| **Snapchat** | [Solve Three Algorithmic Tasks](https://trueinterview.io/questions/solve-three-algorithmic-tasks) | Medium | Mar 18, 2026 |
 | **Snapchat** | [In-Memory Pub/Sub](https://trueinterview.io/questions/in-memory-pubsub) | Medium | Mar 18, 2026 |
 | **Robinhood** | [Design a Photo Management Service](https://trueinterview.io/questions/design-a-photo-management-service) | Easy | Mar 16, 2026 |
 | **Robinhood** | [Implement Calendar Layout and String Packing](https://trueinterview.io/questions/implement-calendar-layout-and-string-packing) | Medium | Mar 16, 2026 |
@@ -260,5 +254,11 @@
 | **Coinbase** | [Implement a crypto order management system](https://trueinterview.io/questions/implement-a-crypto-order-management-system) | Medium | Mar 01, 2026 |
 | **Coinbase** | [Generate NFT metadata and ensure uniqueness](https://trueinterview.io/questions/generate-nft-metadata-and-ensure-uniqueness) | Hard | Mar 01, 2026 |
 | **Axon** | [Find accessible devices via nested memberships](https://trueinterview.io/questions/find-accessible-devices-via-nested-memberships) | Medium | Mar 01, 2026 |
+| **Reddit** | [Shortest Palindrome](https://trueinterview.io/questions/9fb1f6ac-609e-46c6-bff0-b3a5ec450705) | Medium | Mar 2026 |
+| **Reddit / Apple** | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Medium | Mar 2026 |
+| **Reddit** | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Easy | Mar 2026 |
+| **Robinhood** | [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | Medium | Mar 2026 |
+| **Robinhood** | [Aggregate user logs into 30-minute sessions](https://trueinterview.io/questions/aggregate-user-logs-into-30-minute-sessions) | Medium | Feb 28, 2026 |
+| **Airbnb** | [Highlight Phrases in Review](https://trueinterview.io/questions/review-token-replace) | Medium | Feb 28, 2026 |
 
 <sub>[← Page 1](large-tech.md) · Page 2 of 6 · [Page 3 →](large-tech-3.md)</sub>

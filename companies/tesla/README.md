@@ -8,7 +8,7 @@ How Tesla interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [44](../tesla.md) |
+| Questions reported | [43](../tesla.md) |
 | Free to read here | 9 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -54,7 +54,7 @@ End to end, the process typically takes three to eight weeks, but the operationa
 
 ## Everything else
 
-- [All 44 questions reported at Tesla](../tesla.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 43 questions reported at Tesla](../tesla.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Tesla question on TrueInterview](https://trueinterview.io/problems/company/tesla).
 
 ---

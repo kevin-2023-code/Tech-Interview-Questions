@@ -2,7 +2,7 @@
 
 # NVIDIA interview process, OA & interview questions
 
-**39 questions** reported at NVIDIA · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
+**37 questions** reported at NVIDIA · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/nvidia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How NVIDIA interviews & the free questions](nvidia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **39** |
+| Questions tracked | **37** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 3 |
-| Most common format | [Algorithm](../formats/algorithm.md) (62% of 39) |
-| Difficulty (easy / medium / hard) | 7 / 23 / 9 |
+| Most common format | [Algorithm](../formats/algorithm.md) (59% of 37) |
+| Difficulty (easy / medium / hard) | 7 / 23 / 7 |
 | Free to practise | [6](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 39 questions reported at NVIDIA. 22 of them carry a sighting date; the other 17 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 37 questions reported at NVIDIA. 22 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **39 of 39** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **37 of 37** questions at NVIDIA that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | ██ | [Algorithm](../formats/algorithm.md) (75%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 25 | ██████████ | [Algorithm](../formats/algorithm.md) (76%) | 3 / 15 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 15 | ██████ | [Algorithm](../formats/algorithm.md) (47%) | 1 / 11 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 23 | ██████████ | [Algorithm](../formats/algorithm.md) (74%) | 3 / 15 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 15 | ███████ | [Algorithm](../formats/algorithm.md) (47%) | 1 / 11 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -48,20 +48,20 @@ Which stage each question came from, for the **39 of 39** questions at NVIDIA th
 
 ## What they ask about
 
-Of the **25 questions at NVIDIA that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **23 questions at NVIDIA that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `two-pointers` | 5 | 20% | ████████████ | Dec 08, 2025 |
-| `hashing` | 4 | 16% | ██████████ | Apr 15, 2026 |
-| `arrays` | 3 | 12% | ███████ | Aug 21, 2026 |
-| `sorting` | 3 | 12% | ███████ | Feb 04, 2026 |
-| `strings` | 3 | 12% | ███████ | Apr 26, 2026 |
-| `binary-search` | 2 | 8% | █████ | Aug 21, 2026 |
-| `heap` | 2 | 8% | █████ | Feb 05, 2026 |
-| `linked-list` | 2 | 8% | █████ | — |
-| `math` | 2 | 8% | █████ | Feb 12, 2026 |
-| `sliding-window` | 2 | 8% | █████ | Mar 06, 2026 |
+| `two-pointers` | 5 | 22% | ████████████ | Dec 08, 2025 |
+| `hashing` | 4 | 17% | ██████████ | Apr 15, 2026 |
+| `arrays` | 3 | 13% | ███████ | Aug 21, 2026 |
+| `sorting` | 3 | 13% | ███████ | Feb 04, 2026 |
+| `strings` | 3 | 13% | ███████ | Apr 26, 2026 |
+| `binary-search` | 2 | 9% | █████ | Aug 21, 2026 |
+| `heap` | 2 | 9% | █████ | Feb 05, 2026 |
+| `math` | 2 | 9% | █████ | Feb 12, 2026 |
+| `sliding-window` | 2 | 9% | █████ | Mar 06, 2026 |
+| `dynamic-programming` | 1 | 4% | ██ | — |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -138,8 +138,6 @@ The 8 questions to open first if you are preparing for NVIDIA, ranked by **the m
 | [Merge Intervals](https://trueinterview.io/questions/merge-intervals) | Algorithm | Medium | Feb 04, 2026 |
 | [2-D Convolution, Decaying Attention, and Training Loop](https://trueinterview.io/questions/ml-coding-conv-attention-training-loop) | Algorithm | Hard | Dec 10, 2025 |
 | [Return Unique Three-Sum Value Triples](https://trueinterview.io/questions/return-unique-three-sum-value-triples) | Algorithm | Hard | Dec 08, 2025 |
-| [Reverse linked lists, including k-group](https://trueinterview.io/questions/reverse-linked-lists-including-k-group) | Algorithm | Hard | — |
-| [Reverse a singly linked list robustly](https://trueinterview.io/questions/reverse-a-singly-linked-list-robustly) | Algorithm | Hard | — |
 | [Design and explain robust web APIs for ML inference](https://trueinterview.io/questions/design-and-explain-robust-web-apis-for-ml-inference) | System Design | Medium | — |
 | [Find All Unique Triplets Summing to Zero in Array](https://trueinterview.io/questions/b5288bfc-ed12-420e-ba65-0f1987df2acb) | Algorithm | Medium | — |
 | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Algorithm | Medium | — |

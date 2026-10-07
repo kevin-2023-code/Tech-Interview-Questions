@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**693 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**691 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -57,7 +57,6 @@
 | **Netflix** | [Design Publisher Configuration Rules](https://trueinterview.io/questions/design-publisher-configuration-rules) | Medium | Apr 05, 2026 |
 | **Netflix** | [Design an Ad Pacing System](https://trueinterview.io/questions/design-an-ad-pacing-system) | Hard | Apr 05, 2026 |
 | **Amazon** | [Credit Card System](https://trueinterview.io/questions/credit-card-system-ood) | Medium | Apr 05, 2026 |
-| **OpenAI** | [Prevent Duplicate Request Processing](https://trueinterview.io/questions/prevent-duplicate-request-processing) | Medium | Apr 04, 2026 |
 | **OpenAI** | [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui) | Medium | Apr 04, 2026 |
 | **Netflix** | [Model Direct-Sold DSP Orders](https://trueinterview.io/questions/model-direct-sold-dsp-orders) | Hard | Apr 03, 2026 |
 | **Netflix** | [MLP Portal Full-Stack Design](https://trueinterview.io/questions/mlp-portal-fullstack-design) | Medium | Apr 03, 2026 |
@@ -65,7 +64,6 @@
 | **Asana** | [Design a Collaborative Todo List](https://trueinterview.io/questions/design-a-collaborative-todo-list) | Medium | Apr 02, 2026 |
 | **DoorDash** | [Customer Review Page (EM)](https://trueinterview.io/questions/system-design-customer-review-page-em) | Medium | Apr 02, 2026 |
 | **Reddit / Atlassian / Meta** | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | Medium | Apr 02, 2026 |
-| **Shopify** | [Model Product Ranking](https://trueinterview.io/questions/model-product-ranking) | Hard | Apr 01, 2026 |
 | **Shopify** | [Design Personalized Product Feeds](https://trueinterview.io/questions/design-personalized-product-feeds) | Medium | Apr 01, 2026 |
 | **Robinhood / Coinbase / Databricks / Square** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-stock-order-trade-management-system) | Hard | Apr 2026 |
 | **Databricks / Anthropic / Netflix / OpenAI** | [Design GPU Scheduling Platform](https://trueinterview.io/questions/design-a-distributed-job-scheduler-for-gpu-compute-platform) | Hard | Apr 2026 |
@@ -260,5 +258,7 @@
 | **Pinterest** | [Leaderboard / Category Ranking](https://trueinterview.io/questions/system-design-leaderboard) | Medium | Dec 09, 2025 |
 | **ByteDance** | [Design system to detect privacy-leak records](https://trueinterview.io/questions/design-system-to-detect-privacy-leak-records) | Hard | Dec 08, 2025 |
 | **Rokt** | [Design Google-scale CI/CD pipeline](https://trueinterview.io/questions/design-google-scale-ci-cd-pipeline) | Hard | Dec 06, 2025 |
+| **Two Sigma** | [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data) | Hard | Dec 02, 2025 |
+| **Meta** | [Model entities for feed content and shares](https://trueinterview.io/questions/model-entities-for-feed-content-and-shares) | Medium | Dec 01, 2025 |
 
 <sub>[← Page 1](system-design.md) · Page 2 of 3 · [Page 3 →](system-design-3.md)</sub>

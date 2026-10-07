@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**148 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**145 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **148** |
+| Questions tracked | **145** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 20 |
-| Most common format | [Algorithm](../formats/algorithm.md) (38% of 148) |
-| Difficulty (easy / medium / hard) | 10 / 69 / 69 |
+| Most common format | [Algorithm](../formats/algorithm.md) (37% of 145) |
+| Difficulty (easy / medium / hard) | 10 / 67 / 68 |
 | Free to practise | [13](../free/README.md) |
 | Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 148 questions reported at OpenAI. 96 of them carry a sighting date; the other 52 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 145 questions reported at OpenAI. 94 of them carry a sighting date; the other 51 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **148 of 148** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **145 of 145** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (67%) | 3 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 79 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 43 / 33 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 76 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 41 / 32 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 80 | ██████████ | [System Design](../formats/system-design.md) (41%) | 4 / 34 / 42 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -60,20 +60,20 @@ Which stage each question came from, for the **148 of 148** questions at OpenAI 
 
 ## What they ask about
 
-Of the **56 questions at OpenAI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **54 questions at OpenAI that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 9 | 16% | ████████████ | Sep 08, 2026 |
-| `graphs` | 8 | 14% | ███████████ | Aug 15, 2026 |
-| `matrix` | 8 | 14% | ███████████ | Aug 27, 2026 |
-| `hashing` | 7 | 12% | █████████ | Aug 22, 2026 |
-| `strings` | 6 | 11% | ████████ | May 15, 2026 |
-| `arrays` | 5 | 9% | ███████ | Apr 04, 2026 |
-| `greedy` | 5 | 9% | ███████ | May 31, 2026 |
-| `sorting` | 4 | 7% | █████ | Mar 09, 2026 |
-| `backtracking` | 3 | 5% | ████ | Jun 19, 2026 |
-| `topological-sort` | 3 | 5% | ████ | Sep 17, 2026 |
+| `graphs` | 8 | 15% | ████████████ | Aug 15, 2026 |
+| `math` | 8 | 15% | ████████████ | Sep 08, 2026 |
+| `matrix` | 8 | 15% | ████████████ | Aug 27, 2026 |
+| `hashing` | 7 | 13% | ██████████ | Aug 22, 2026 |
+| `strings` | 6 | 11% | █████████ | May 15, 2026 |
+| `greedy` | 5 | 9% | ████████ | May 31, 2026 |
+| `arrays` | 4 | 7% | ██████ | Feb 04, 2026 |
+| `sorting` | 4 | 7% | ██████ | Mar 09, 2026 |
+| `backtracking` | 3 | 6% | ████ | Jun 19, 2026 |
+| `topological-sort` | 3 | 6% | ████ | Sep 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -83,18 +83,18 @@ Every recorded sighting at OpenAI, by the month it was reported in — Jun 01, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 3 | █████ |
-| [Aug 2026](../by-month/2026-08.md) | 13 | ██████████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 3 | ██████ |
+| [Aug 2026](../by-month/2026-08.md) | 13 | ████████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 4 | ███████ |
-| [Jun 2026](../by-month/2026-06.md) | 11 | ███████████████████ |
-| [May 2026](../by-month/2026-05.md) | 10 | █████████████████ |
-| [Apr 2026](../by-month/2026-04.md) | 14 | ████████████████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 6 | ██████████ |
-| [Feb 2026](../by-month/2026-02.md) | 7 | ████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 3 | █████ |
-| [Dec 2025](../by-month/2025-12.md) | 11 | ███████████████████ |
+| [Jun 2026](../by-month/2026-06.md) | 11 | ████████████████████ |
+| [May 2026](../by-month/2026-05.md) | 10 | ██████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 12 | ██████████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 6 | ███████████ |
+| [Feb 2026](../by-month/2026-02.md) | 7 | █████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 3 | ██████ |
+| [Dec 2025](../by-month/2025-12.md) | 11 | ████████████████████ |
 | [Nov 2025](../by-month/2025-11.md) | 5 | █████████ |
-| [Oct 2025](../by-month/2025-10.md) | 8 | ██████████████ |
+| [Oct 2025](../by-month/2025-10.md) | 8 | ███████████████ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | ██ |
 
 ## Start here
@@ -189,14 +189,12 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [In-Memory KV Cache with WAL Log](https://trueinterview.io/questions/in-memory-kv-cache-with-wal-log) | System Design | Hard | May 22, 2026 |
 | [Vectorized 1-NN and Neural Network Forward Pass](https://trueinterview.io/questions/vectorized-1-nn-and-neural-network-forward-pass) | Algorithm | Medium | May 20, 2026 |
 | [IPv4 Address Iterator with CIDR Support](https://trueinterview.io/questions/ipv4-address-iterator-with-cidr-support) | Algorithm | Medium | May 15, 2026 |
-| [Generate Data Labeling Schedules](https://trueinterview.io/questions/generate-data-labeling-schedules) | Algorithm | Hard | Apr 28, 2026 |
 | [Design a Slack-Like Messaging System](https://trueinterview.io/questions/design-a-slack-like-messaging-system-3) | System Design | Hard | Apr 26, 2026 |
 | [Compute entropy and implement 1-NN](https://trueinterview.io/questions/compute-entropy-and-implement-1-nn) | Algorithm | Hard | Apr 24, 2026 |
 | [Convert IPv4 Ranges to CIDR Blocks](https://trueinterview.io/questions/convert-ipv4-ranges-to-cidr-blocks) | Algorithm | Hard | Apr 22, 2026 |
 | [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system) | System Design | Hard | Apr 19, 2026 |
 | [Design a Real-Time Sensor Intelligence System](https://trueinterview.io/questions/design-a-real-time-sensor-intelligence-system) | System Design | Hard | Apr 13, 2026 |
 | [Design IDE Sandbox and Payments](https://trueinterview.io/questions/design-ide-sandbox-and-payments) | System Design | Hard | Apr 07, 2026 |
-| [Prevent Duplicate Request Processing](https://trueinterview.io/questions/prevent-duplicate-request-processing) | System Design | Medium | Apr 04, 2026 |
 | [Build a Reliable Streaming Chat UI](https://trueinterview.io/questions/build-a-reliable-streaming-chat-ui) | System Design | Medium | Apr 04, 2026 |
 | [Debug MiniGPT and Backpropagate Matmul](https://trueinterview.io/questions/debug-minigpt-and-backpropagate-matmul) | Algorithm | Hard | Apr 03, 2026 |
 | [Simulate Plant Infection With Controlled Burning](https://trueinterview.io/questions/simulate-plant-infection-with-controlled-burning) | Algorithm | Hard | Apr 02, 2026 |
@@ -244,7 +242,6 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Design A Nearby POI Service](https://trueinterview.io/questions/points-of-interest-yelp) | System Design | Medium | Oct 07, 2025 |
 | [Compute signup rate and retention from raw logs](https://trueinterview.io/questions/compute-signup-rate-and-retention-from-raw-logs) | SQL | Medium | Oct 04, 2025 |
 | [Design a Spreadsheet with Formula Evaluation](https://trueinterview.io/questions/design-excel-sum-formula) | Algorithm | Medium | Jun 2025 |
-| [Debug and harden trial-assignment Python code](https://trueinterview.io/questions/debug-and-harden-trial-assignment-python-code) | Algorithm | Medium | — |
 | [Debug and fix a PyTorch Transformer training loop](https://trueinterview.io/questions/debug-and-fix-a-pytorch-transformer-training-loop) | Algorithm | Hard | — |
 | [Write SQL for post-trial conversion cohorts](https://trueinterview.io/questions/write-sql-for-post-trial-conversion-cohorts) | SQL | Hard | — |
 | [Guess a Secret Number with One-Call Delayed Feedback](https://trueinterview.io/questions/e41553c0-20ac-51a0-bc69-17309dce31b6) | Algorithm | Medium | — |

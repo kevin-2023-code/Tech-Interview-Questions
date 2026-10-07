@@ -2,13 +2,14 @@
 
 # Free SQL questions
 
-**5 SQL questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**6 SQL questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
 | Question | Company | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) | **Cvs Health** | Medium | — |
+| [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | **Cvs Health** | Medium | — |
 | [Compute daily net users from event logs](https://trueinterview.io/questions/compute-daily-net-users-from-event-logs) | **Tubi** | Medium | — |
 | [Compute weekly 3-week rolling sums in SQL](https://trueinterview.io/questions/compute-weekly-3-week-rolling-sums-in-sql) | **Thumbtack** | Medium | — |
 | [Compute DAU and rolling MAU with zero days](https://trueinterview.io/questions/compute-dau-and-rolling-mau-with-zero-days) | **Glean** | Hard | Nov 10, 2025 |

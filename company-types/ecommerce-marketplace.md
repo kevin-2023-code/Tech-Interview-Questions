@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**907 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**888 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (330)](../companies/amazon.md) · [Uber (222)](../companies/uber.md) · [DoorDash (108)](../companies/doordash.md) · [Airbnb (79)](../companies/airbnb.md) · [Ebay (45)](../companies/ebay.md) · [Lyft (43)](../companies/lyft.md) · [Instacart (38)](../companies/instacart.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (30)](../companies/walmart-labs.md) · [Shopify (26)](../companies/shopify.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Whatnot (17)](../companies/whatnot.md) · [Faire (5)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
+[Amazon (320)](../companies/amazon.md) · [Uber (217)](../companies/uber.md) · [DoorDash (107)](../companies/doordash.md) · [Airbnb (78)](../companies/airbnb.md) · [Ebay (45)](../companies/ebay.md) · [Lyft (43)](../companies/lyft.md) · [Instacart (38)](../companies/instacart.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Shopify (25)](../companies/shopify.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Whatnot (17)](../companies/whatnot.md) · [Faire (5)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,36 +18,36 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 545 | 60% | ██████████████ | 64 |
-| [System Design](../formats/system-design.md) | 165 | 18% | ████ | 11 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 120 | 13% | ███ | 15 |
+| [Algorithm](../formats/algorithm.md) | 527 | 59% | ██████████████ | 63 |
+| [System Design](../formats/system-design.md) | 164 | 18% | ████ | 11 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 120 | 14% | ███ | 14 |
 | [SQL](../formats/sql.md) | 64 | 7% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 13 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **122 / 594 / 191**, over the rows the catalog has graded. 91 of the 907 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **122 / 587 / 179**, over the rows the catalog has graded. 89 of the 888 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **545 questions in this cut that carry a topic label** (60% of it):
+Of the **529 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 92 | 17% | ████████████ |
-| `hashing` | 86 | 16% | ███████████ |
-| `graphs` | 85 | 16% | ███████████ |
-| `strings` | 71 | 13% | █████████ |
-| `dynamic-programming` | 47 | 9% | ██████ |
-| `greedy` | 46 | 8% | ██████ |
-| `sorting` | 44 | 8% | ██████ |
-| `matrix` | 36 | 7% | █████ |
-| `trees` | 36 | 7% | █████ |
-| `math` | 34 | 6% | ████ |
+| `arrays` | 91 | 17% | ████████████ |
+| `graphs` | 84 | 16% | ███████████ |
+| `hashing` | 83 | 16% | ███████████ |
+| `strings` | 69 | 13% | █████████ |
+| `greedy` | 46 | 9% | ██████ |
+| `dynamic-programming` | 45 | 9% | ██████ |
+| `sorting` | 41 | 8% | █████ |
+| `matrix` | 35 | 7% | █████ |
+| `trees` | 35 | 7% | █████ |
+| `math` | 31 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**104 sightings** across this cut. Newest first.
+**103 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **545 questions in this cut that carry a topic label** (60% of it):
 | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | Amazon | System Design | Sep 11, 2026 |
 | [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | Instacart | System Design | Sep 11, 2026 |
 
-<sub>92 more in this window are in the table below.</sub>
+<sub>91 more in this window are in the table below.</sub>
 
 ---
 
@@ -142,7 +142,6 @@ Of the **545 questions in this cut that carry a topic label** (60% of it):
 | **Amazon** | [Design a Reliable AI Chatbot Architecture](https://trueinterview.io/questions/design-a-reliable-ai-chatbot-architecture) | Hard | Aug 19, 2026 |
 | **Amazon** | [Validate Properly Nested Brackets](https://trueinterview.io/questions/validate-properly-nested-brackets) | Medium | Aug 19, 2026 |
 | **Amazon** | [Repeat Customer Visits](https://trueinterview.io/questions/a654f3a3-e029-432a-926b-60ed98685ea5) | Easy | Aug 19, 2026 |
-| **Uber** | [Find a Lexicographically Optimal Robot Path with Charging Cells](https://trueinterview.io/questions/find-a-lexicographically-optimal-robot-path-with-charging-cells) | Hard | Aug 17, 2026 |
 | **Amazon / ByteDance** | [Create Binary Tree from Descriptions (LC 2196)](https://trueinterview.io/questions/create-binary-tree-from-descriptions-lc-2196) | Medium | Aug 17, 2026 |
 | **Salesforce / Amazon** | [Kth Smallest in a BST (LeetCode 230) with Follow-Ups](https://trueinterview.io/questions/kth-smallest-bst-follow-ups) | Hard | Aug 16, 2026 |
 | **DoorDash** | [Real-Time Restaurant Leaderboard](https://trueinterview.io/questions/system-design-realtime-restaurant-leaderboard) | Medium | Aug 16, 2026 |
@@ -326,5 +325,6 @@ Of the **545 questions in this cut that carry a topic label** (60% of it):
 | **Apple / Amazon / Cisco / Uber** | [Rotate a Matrix by 90 Degrees In Place](https://trueinterview.io/questions/8d60f16e-18e8-4945-a6a8-affa6c78ae56) | Medium | May 2026 |
 | **Uber** | [Strictly Convex Function Minimum](https://trueinterview.io/questions/strictly-convex-function-minimum) | Medium | May 2026 |
 | **Uber** | [Daily Puzzle / Submission Scoring](https://trueinterview.io/questions/onsite-sd-puzzle-scoring) | Easy | Apr 30, 2026 |
+| **Amazon / Pinterest** | [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking) | Medium | Apr 29, 2026 |
 
 <sub>Page 1 of 4 · [Page 2 →](ecommerce-marketplace-2.md)</sub>

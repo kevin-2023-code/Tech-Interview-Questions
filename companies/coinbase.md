@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**71 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**70 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **71** |
+| Questions tracked | **70** |
 | Most recent sighting | Aug 27, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (44% of 71) |
-| Difficulty (easy / medium / hard) | 12 / 44 / 15 |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (44% of 70) |
+| Difficulty (easy / medium / hard) | 12 / 43 / 15 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 4 |
 | Interview reports on the board | 5 in this snapshot |
 
-<sub>Counted from the 71 questions reported at Coinbase. 37 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 70 questions reported at Coinbase. 36 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **71 of 71** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **70 of 70** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 18 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (56%) | 6 / 9 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 13 | ███ | [Algorithm](../formats/algorithm.md) (62%) | 0 / 7 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 42 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (48%) | 7 / 29 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 41 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (49%) | 7 / 28 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -77,7 +77,7 @@ Every recorded sighting at Coinbase, by the month it was reported in — Jul 22,
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 8 | █████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | █████ |
-| [Dec 2025](../by-month/2025-12.md) | 5 | █████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 4 | ███████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
 | [Jul 2025](../by-month/2025-07.md) | 1 | ███ |
 
@@ -166,7 +166,6 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | [Jupyter Pair Programming on Messy Classification Data](https://trueinterview.io/questions/mle-jupyter-classification) | AI Coding | Medium | Dec 19, 2025 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
 | [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category) | SQL | Medium | Dec 04, 2025 |
-| [Build a baseline classification model from messy data](https://trueinterview.io/questions/build-a-baseline-classification-model-from-messy-data) | Algorithm | Medium | Dec 04, 2025 |
 | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | System Design | Medium | Dec 01, 2025 |
 | [Design an in-memory database with TTL and backups](https://trueinterview.io/questions/design-an-in-memory-database-with-ttl-and-backups) | Object Oriented Programming | Hard | Nov 08, 2025 |
 | [Food Delivery System](https://trueinterview.io/questions/food-delivery-system) | Object Oriented Programming | Medium | Jul 22, 2025 |

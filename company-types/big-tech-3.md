@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,104 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Microsoft** | [Sort Three Categories In Place](https://trueinterview.io/questions/sort-three-categories-in-place) | Medium | Apr 18, 2026 |
-| **Microsoft** | [Implement K-Means and Detect Divisible Subarrays](https://trueinterview.io/questions/implement-k-means-and-detect-divisible-subarrays) | Hard | Apr 18, 2026 |
-| **Tesla / Microsoft** | [Minimum Absolute Difference Pairs](https://trueinterview.io/questions/minimum-absolute-difference-pairs) | Medium | Apr 18, 2026 |
 | **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Medium | Apr 18, 2026 |
 | **Pinterest / Apple** | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Medium | Apr 18, 2026 |
 | **Meta** | [Random friend recommender](https://trueinterview.io/questions/solve-array-matrix-and-recommendation-problems-random-friend-recommender) | Hard | Apr 17, 2026 |
@@ -65,11 +62,8 @@
 | **LinkedIn** | [Count Trips From Vehicle Logs](https://trueinterview.io/questions/count-trips-from-vehicle-logs) | Medium | Apr 11, 2026 |
 | **Microsoft** | [Design User Re-engagement Notifications](https://trueinterview.io/questions/design-user-re-engagement-notifications) | Hard | Apr 10, 2026 |
 | **Uber** | [Design a Maps Address Search Bar](https://trueinterview.io/questions/design-a-maps-address-search-bar) | Medium | Apr 10, 2026 |
-| **Amazon** | [Solve Three Algorithm Variants](https://trueinterview.io/questions/solve-three-algorithm-variants) | Hard | Apr 10, 2026 |
 | **Microsoft** | [Implement SQL Table and DNA Ordering](https://trueinterview.io/questions/implement-sql-table-and-dna-ordering) | Medium | Apr 10, 2026 |
-| **Meta** | [Solve Parser, Trading, Tree, And Deck Tasks](https://trueinterview.io/questions/solve-parser-trading-tree-and-deck-tasks) | Hard | Apr 09, 2026 |
 | **Meta** | [Design Queue And Taxi Matching Services](https://trueinterview.io/questions/design-queue-and-taxi-matching-services) | Hard | Apr 09, 2026 |
-| **Amazon** | [Solve Union-Find, Graph, and Stream Problems](https://trueinterview.io/questions/solve-union-find-graph-and-stream-problems) | Hard | Apr 09, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Google / LinkedIn / Microsoft / Snapchat** | [Number of Islands (Plain and Streaming)](https://trueinterview.io/questions/phone-screen-number-of-islands) | Medium | Apr 09, 2026 |
 | **Pinterest / DoorDash / Expedia / Instacart / Reddit** | [Design An Online Ads Ranking System](https://trueinterview.io/questions/ml-system-design-notifications-ctr) | Medium | Apr 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | [LRU Cache](https://trueinterview.io/questions/lru-cache) | Medium | Apr 09, 2026 |
@@ -259,6 +253,12 @@
 | **Atlassian** | [Expanding Tennis Club Court Assignment](https://trueinterview.io/questions/expanding-tennis-club-court-assignment) | Medium | Feb 23, 2026 |
 | **Perplexity / Microsoft** | [Temporal Key-Value Store](https://trueinterview.io/questions/temporal-key-value-store-online-assessment) | Hard | Feb 23, 2026 |
 | **Google** | [Design a Dormitory Room-Assignment System](https://trueinterview.io/questions/design-a-dormitory-room-assignment-system-ood) | Medium | Feb 22, 2026 |
-| **Uber** | [Solve BFS and grid tasks](https://trueinterview.io/questions/solve-bfs-and-grid-tasks) | Medium | Feb 22, 2026 |
+| **Meta** | [Find Kth Largest and Tree Ancestors](https://trueinterview.io/questions/find-kth-largest-and-tree-ancestors) | Medium | Feb 22, 2026 |
+| **Atlassian** | [Design Tagging System](https://trueinterview.io/questions/tagging-system-rest-api) | Easy | Feb 22, 2026 |
+| **Atlassian / Expedia / Ramp / Roblox / Snapchat / Snowflake / Stripe / Verkada** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | Medium | Feb 22, 2026 |
+| **Amazon** | [Music Player with Frequency Priority](https://trueinterview.io/questions/music-player-frequency-priority) | Medium | Feb 22, 2026 |
+| **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
+| **Snowflake / ByteDance / Microsoft / Salesforce** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
+| **Snowflake / Google** | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Medium | Feb 19, 2026 |
 
 <sub>[← Page 2](big-tech-2.md) · Page 3 of 9 · [Page 4 →](big-tech-4.md)</sub>

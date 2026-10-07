@@ -2,7 +2,7 @@
 
 # DoorDash interview process, OA & interview questions
 
-**108 questions** reported at DoorDash · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
+**107 questions** reported at DoorDash · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/doordash), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How DoorDash interviews & the free questions](doordash/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **108** |
+| Questions tracked | **107** |
 | Most recent sighting | Sep 16, 2026 |
 | Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (39% of 108) |
-| Difficulty (easy / medium / hard) | 18 / 71 / 19 |
+| Most common format | [Algorithm](../formats/algorithm.md) (38% of 107) |
+| Difficulty (easy / medium / hard) | 18 / 70 / 19 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 108 questions reported at DoorDash. 73 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 107 questions reported at DoorDash. 72 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **108 of 108** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **107 of 107** questions at DoorDash that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 8 | █ | [Algorithm](../formats/algorithm.md) (50%) | 6 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 55 | ██████████ | [Algorithm](../formats/algorithm.md) (51%) | 8 / 37 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 52 | █████████ | [System Design](../formats/system-design.md) (48%) | 4 / 38 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 51 | █████████ | [System Design](../formats/system-design.md) (49%) | 4 / 37 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -87,7 +87,7 @@ Every recorded sighting at DoorDash, by the month it was reported in — Aug 23,
 | [May 2026](../by-month/2026-05.md) | 12 | ████████████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 10 | ████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 7 | ██████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 6 | ████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 5 | ██████████ |
 | [Jan 2026](../by-month/2026-01.md) | 10 | ████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 5 | ██████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
@@ -182,7 +182,6 @@ The 8 questions to open first if you are preparing for DoorDash, ranked by **the
 | [Code Craft: Batch with Capacity & Time Window](https://trueinterview.io/questions/code-craft-batch-with-capacity-window-mle) | Algorithm | Medium | Feb 07, 2026 |
 | [Design Real-Time Driver Pay Aggregation](https://trueinterview.io/questions/design-real-time-driver-pay-aggregation) | System Design | Hard | Feb 06, 2026 |
 | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Algorithm | Medium | Feb 04, 2026 |
-| [Build Resilient Aggregation and Debug Routing](https://trueinterview.io/questions/build-resilient-aggregation-and-debug-routing) | Algorithm | Medium | Feb 03, 2026 |
 | [Find Each Cell's Nearest Source](https://trueinterview.io/questions/find-each-cells-nearest-source) | Algorithm | Medium | Feb 03, 2026 |
 | [Menu Tree Diff — Count Changed Nodes](https://trueinterview.io/questions/code-craft-menu-tree-diff) | Algorithm | Hard | Jan 30, 2026 |
 | [Handle payment-service outages](https://trueinterview.io/questions/handle-payment-service-outages) | System Design | Hard | Jan 28, 2026 |

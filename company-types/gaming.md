@@ -2,7 +2,7 @@
 
 # 🎮 Gaming & interactive — interview & OA questions
 
-**87 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**84 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Roblox (87)](../companies/roblox.md)
+[Roblox (84)](../companies/roblox.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,29 +18,29 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 51 | 59% | ██████████████ | 10 |
-| [System Design](../formats/system-design.md) | 25 | 29% | ███████ | 3 |
+| [Algorithm](../formats/algorithm.md) | 48 | 57% | ██████████████ | 10 |
+| [System Design](../formats/system-design.md) | 25 | 30% | ███████ | 3 |
 | [SQL](../formats/sql.md) | 6 | 7% | ██ | 0 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 6% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **16 / 51 / 20**, over the rows the catalog has graded. 15 of the 87 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **16 / 50 / 18**, over the rows the catalog has graded. 15 of the 84 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **51 questions in this cut that carry a topic label** (59% of it):
+Of the **48 questions in this cut that carry a topic label** (57% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 12 | 24% | ████████████ |
-| `hashing` | 12 | 24% | ████████████ |
+| `arrays` | 12 | 25% | ████████████ |
+| `hashing` | 12 | 25% | ████████████ |
 | `sliding-window` | 6 | 12% | ██████ |
 | `sorting` | 6 | 12% | ██████ |
 | `heap` | 5 | 10% | █████ |
-| `math` | 5 | 10% | █████ |
 | `matrix` | 5 | 10% | █████ |
 | `strings` | 5 | 10% | █████ |
-| `graphs` | 4 | 8% | ████ |
 | `greedy` | 4 | 8% | ████ |
+| `stack` | 4 | 8% | ████ |
+| `graphs` | 3 | 6% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -105,14 +105,11 @@ Of the **51 questions in this cut that carry a topic label** (59% of it):
 | **Roblox** | [Maximize Distance to Closest Person](https://trueinterview.io/questions/maximize-distance-to-closest-person) | Medium | Dec 23, 2025 |
 | **Roblox** | [Design a Multi-Resource Resource Loader](https://trueinterview.io/questions/design-a-multi-resource-resource-loader) | Medium | Dec 23, 2025 |
 | **Roblox** | [Write SQL for influence score and follower growth](https://trueinterview.io/questions/write-sql-for-influence-score-and-follower-growth) | Hard | Dec 11, 2025 |
-| **Roblox** | [Find maximum follow depth using recursion](https://trueinterview.io/questions/find-maximum-follow-depth-using-recursion) | Hard | Dec 11, 2025 |
 | **Roblox** | [Remove Prefix String](https://trueinterview.io/questions/remove-prefix-strings) | Medium | Dec 11, 2025 |
 | **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
 | **Roblox** | [Minimum Height Difference Between Distant Peaks](https://trueinterview.io/questions/minimum-height-difference-between-distant-peaks) | Medium | Dec 09, 2025 |
 | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Easy | Dec 06, 2025 |
 | **Roblox** | [Maximum Number of Balls in a Box](https://trueinterview.io/questions/maximum-number-of-balls-in-a-box) | Easy | Dec 05, 2025 |
-| **Roblox** | [Normalize features and rank logistic coefficients](https://trueinterview.io/questions/normalize-features-and-rank-logistic-coefficients) | Medium | Nov 24, 2025 |
-| **Roblox** | [Fit logistic regression and return top features](https://trueinterview.io/questions/fit-logistic-regression-and-return-top-features) | Hard | Nov 23, 2025 |
 | **Roblox** | [Compute DiD and validate parallel trends](https://trueinterview.io/questions/compute-did-and-validate-parallel-trends) | Medium | Nov 23, 2025 |
 | **Stripe / Affirm / Robinhood / Roblox / Uber** | [Design An Account Takeover Detection System](https://trueinterview.io/questions/account-takeover-prediction-system) | Hard | Oct 26, 2025 |
 | **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |

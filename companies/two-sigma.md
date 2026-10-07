@@ -2,7 +2,7 @@
 
 # Two Sigma interview process, OA & interview questions
 
-**42 questions** reported at Two Sigma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
+**41 questions** reported at Two Sigma · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/two-sigma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Two Sigma interviews & the free questions](two-sigma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **42** |
+| Questions tracked | **41** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (83% of 42) |
-| Difficulty (easy / medium / hard) | 2 / 30 / 10 |
+| Most common format | [Algorithm](../formats/algorithm.md) (83% of 41) |
+| Difficulty (easy / medium / hard) | 2 / 29 / 10 |
 | Free to practise | [3](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 42 questions reported at Two Sigma. 31 of them carry a sighting date; the other 11 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 41 questions reported at Two Sigma. 31 of them carry a sighting date; the other 10 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **42 of 42** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **41 of 41** questions at Two Sigma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 18 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 2 / 14 / 2 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 17 | █████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 10 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 8 | ████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 2 / 13 / 2 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 17 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 0 / 10 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 8 | █████ | [Algorithm](../formats/algorithm.md) (88%) | 0 / 7 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,20 +46,20 @@ Which stage each question came from, for the **42 of 42** questions at Two Sigma
 
 ## What they ask about
 
-Of the **27 questions at Two Sigma that carry a topic label** (64% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **26 questions at Two Sigma that carry a topic label** (63% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 7 | 26% | ████████████ | May 10, 2026 |
-| `graphs` | 5 | 19% | █████████ | Mar 25, 2026 |
-| `greedy` | 4 | 15% | ███████ | Mar 25, 2026 |
-| `sorting` | 4 | 15% | ███████ | Mar 25, 2026 |
-| `binary-search` | 3 | 11% | █████ | May 10, 2026 |
-| `strings` | 3 | 11% | █████ | Feb 18, 2026 |
-| `trees` | 3 | 11% | █████ | Mar 25, 2026 |
-| `arrays` | 2 | 7% | ███ | Mar 25, 2026 |
-| `heap` | 2 | 7% | ███ | Jul 29, 2026 |
-| `stack` | 2 | 7% | ███ | Mar 25, 2026 |
+| `math` | 6 | 23% | ████████████ | May 10, 2026 |
+| `graphs` | 5 | 19% | ██████████ | Mar 25, 2026 |
+| `greedy` | 4 | 15% | ████████ | Mar 25, 2026 |
+| `sorting` | 4 | 15% | ████████ | Mar 25, 2026 |
+| `binary-search` | 3 | 12% | ██████ | May 10, 2026 |
+| `strings` | 3 | 12% | ██████ | Feb 18, 2026 |
+| `trees` | 3 | 12% | ██████ | Mar 25, 2026 |
+| `arrays` | 2 | 8% | ████ | Mar 25, 2026 |
+| `heap` | 2 | 8% | ████ | Jul 29, 2026 |
+| `stack` | 2 | 8% | ████ | Mar 25, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -146,7 +146,6 @@ The 8 questions to open first if you are preparing for Two Sigma, ranked by **th
 | [Exchange Order Matching Engine](https://trueinterview.io/questions/exchange-order-matching-engine) | Object Oriented Programming | Medium | Oct 13, 2025 |
 | [Palindrome Warmup + Two-Task Worker Scheduling](https://trueinterview.io/questions/palindrome-and-task-scheduling-round) | Algorithm | Medium | Oct 09, 2025 |
 | [Maximum Product Path in a Complete Directed Graph](https://trueinterview.io/questions/maximum-product-path-in-complete-directed-graph) | Algorithm | Hard | Oct 09, 2025 |
-| [Perform no-intercept linear regression from two datasets](https://trueinterview.io/questions/perform-no-intercept-linear-regression-from-two-datasets) | Algorithm | Medium | — |
 | [Analyze NYC taxi trips efficiently over last 7 days](https://trueinterview.io/questions/analyze-nyc-taxi-trips-efficiently-over-last-7-days) | SQL | Medium | — |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |

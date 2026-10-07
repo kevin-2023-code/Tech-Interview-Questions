@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,104 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,46 +10,15 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **ByteDance** | [Drive product decisions with causal product sense](https://trueinterview.io/questions/drive-product-decisions-with-causal-product-sense) | Hard | — |
-| **LinkedIn** | [Do US members upload more videos than non-US?](https://trueinterview.io/questions/do-us-members-upload-more-videos-than-non-us) | Medium | — |
-| **Meta** | [Design robust group size limiting for calls](https://trueinterview.io/questions/design-robust-group-size-limiting-for-calls) | Hard | — |
-| **ByteDance** | [Design recommendations objective balancing growth and monetization](https://trueinterview.io/questions/design-recommendations-objective-balancing-growth-and-monetization) | Hard | — |
-| **Google** | [Design pricing and multivariate button experiments](https://trueinterview.io/questions/design-pricing-and-multivariate-button-experiments) | Hard | — |
-| **Google** | [Design long-tail search evaluation under label budget](https://trueinterview.io/questions/design-long-tail-search-evaluation-under-label-budget) | Hard | — |
-| **Amazon** | [Design causal study for reminder impact](https://trueinterview.io/questions/design-causal-study-for-reminder-impact) | Hard | — |
-| **ByteDance** | [Design causal measurement without randomization](https://trueinterview.io/questions/design-causal-measurement-without-randomization) | Medium | — |
-| **Meta** | [Design bot detection and evaluate trade-offs](https://trueinterview.io/questions/design-bot-detection-and-evaluate-trade-offs) | Hard | — |
-| **Amazon** | [Design an operations dashboard with justifications](https://trueinterview.io/questions/design-an-operations-dashboard-with-justifications) | Medium | — |
-| **Amazon** | [Design an LLM quality validation system](https://trueinterview.io/questions/design-an-llm-quality-validation-system) | Hard | — |
-| **Amazon** | [Design an end-to-end spam detection system](https://trueinterview.io/questions/design-an-end-to-end-spam-detection-system) | Medium | — |
-| **ByteDance** | [Design an ad-selection system across objectives](https://trueinterview.io/questions/design-an-ad-selection-system-across-objectives) | Medium | — |
-| **Google** | [Design an A/B test with guardrails and SRM checks](https://trueinterview.io/questions/design-an-a-b-test-with-guardrails-and-srm-checks) | Medium | — |
-| **Meta** | [Design an A/B test for WhatsApp call reliability](https://trueinterview.io/questions/design-an-a-b-test-for-whatsapp-call-reliability) | Hard | — |
-| **Meta** | [Design an A/B test for WFH filter](https://trueinterview.io/questions/design-an-a-b-test-for-wfh-filter) | Medium | — |
-| **Uber** | [Design an A/B test for promo-targeting models](https://trueinterview.io/questions/design-an-a-b-test-for-promo-targeting-models) | Medium | — |
-| **Uber** | [Design airport dispatch with ETA uncertainty](https://trueinterview.io/questions/design-airport-dispatch-with-eta-uncertainty) | Hard | — |
-| **Uber** | [Design a switchback and choose block length](https://trueinterview.io/questions/design-a-switchback-and-choose-block-length) | Medium | — |
-| **Meta** | [Design a small-sample launch experiment in Europe](https://trueinterview.io/questions/design-a-small-sample-launch-experiment-in-europe) | Medium | — |
-| **Uber** | [Design a robust email A/B test](https://trueinterview.io/questions/design-a-robust-email-a-b-test) | Medium | — |
-| **Netflix** | [Design a robust conversion propensity model](https://trueinterview.io/questions/design-a-robust-conversion-propensity-model) | Hard | — |
-| **Meta** | [Design a restaurant recommender under cold start](https://trueinterview.io/questions/design-a-restaurant-recommender-under-cold-start) | Hard | — |
-| **Microsoft** | [Design a model for imbalanced conversions](https://trueinterview.io/questions/design-a-model-for-imbalanced-conversions) | Medium | — |
-| **Meta** | [Design a hashtag recommender for News Feed](https://trueinterview.io/questions/design-a-hashtag-recommender-for-news-feed) | Medium | — |
-| **Meta** | [Design a feed ads A/B test with guardrails](https://trueinterview.io/questions/design-a-feed-ads-a-b-test-with-guardrails) | Medium | — |
-| **Google** | [Design a battery-life predictor and cold-start strategy](https://trueinterview.io/questions/design-a-battery-life-predictor-and-cold-start-strategy) | Hard | — |
-| **Meta** | [Deploy multi-armed bandits safely](https://trueinterview.io/questions/deploy-multi-armed-bandits-safely) | Hard | — |
-| **Amazon** | [Decide standardization, sparse numerics, correlated features](https://trueinterview.io/questions/decide-standardization-sparse-numerics-correlated-features) | Medium | — |
 | **ByteDance** | [Decide launch of downranking suspected bad sellers](https://trueinterview.io/questions/decide-launch-of-downranking-suspected-bad-sellers) | Hard | — |
 | **Google** | [Decide between two vendors under constraints](https://trueinterview.io/questions/decide-between-two-vendors-under-constraints) | Hard | — |
 | **Meta** | [Compute view prevalence from views and labels](https://trueinterview.io/questions/compute-view-prevalence-from-views-and-labels) | Hard | — |
-| **Microsoft** | [Compare CNN/RNN/LSTM and implement K-means](https://trueinterview.io/questions/compare-cnn-rnn-lstm-and-implement-k-means) | Hard | — |
 | **Meta** | [Choose group-call size cap via experiment](https://trueinterview.io/questions/choose-group-call-size-cap-via-experiment) | Medium | — |
 | **Meta** | [Choose group-call participant cap via distribution](https://trueinterview.io/questions/choose-group-call-participant-cap-via-distribution) | Easy | — |
 | **Meta** | [Choose alternatives when randomization fails](https://trueinterview.io/questions/choose-alternatives-when-randomization-fails) | Hard | — |
 | **Google** | [Choose a precise A/B test primary metric](https://trueinterview.io/questions/choose-a-precise-a-b-test-primary-metric) | Medium | — |
 | **ByteDance** | [Calculate valid daily usage with gap constraints](https://trueinterview.io/questions/calculate-valid-daily-usage-with-gap-constraints) | Hard | — |
 | **Meta** | [Build predictive model for feature rollout targeting](https://trueinterview.io/questions/build-predictive-model-for-feature-rollout-targeting) | Medium | — |
-| **Apple** | [Build leak-safe sklearn model with calibration](https://trueinterview.io/questions/build-leak-safe-sklearn-model-with-calibration) | Hard | — |
 | **DoorDash** | [Build ETA prediction and simulate impact](https://trueinterview.io/questions/build-eta-prediction-and-simulate-impact) | Medium | — |
 | **Meta** | [Build dashboard; diagnose engagement–purchase gap](https://trueinterview.io/questions/build-dashboard-diagnose-engagementpurchase-gap) | Hard | — |
 | **Amazon** | [Build a package-allocation model for couriers](https://trueinterview.io/questions/build-a-package-allocation-model-for-couriers) | Hard | — |
@@ -89,35 +58,27 @@
 | **Meta** | [Write advanced SQL for sales support analytics](https://trueinterview.io/questions/write-advanced-sql-for-sales-support-analytics) | Medium | — |
 | **Amazon** | [Verify subscriptions and analyze orders with SQL/Python](https://trueinterview.io/questions/verify-subscriptions-and-analyze-orders-with-sql-python) | Medium | — |
 | **Meta** | [Validate complete binary tree](https://trueinterview.io/questions/validate-complete-binary-tree) | Medium | — |
-| **Amazon** | [Transform event logs with subscription windows in pandas](https://trueinterview.io/questions/transform-event-logs-with-subscription-windows-in-pandas) | Hard | — |
 | **Amazon** | [Solve two-sum variants at scale](https://trueinterview.io/questions/solve-two-sum-variants-at-scale) | Medium | — |
-| **Amazon** | [Solve subset-count and kth-factor problems](https://trueinterview.io/questions/solve-subset-count-and-kth-factor-problems) | Hard | — |
 | **Amazon** | [Solve stock, BFS path, and merge intervals](https://trueinterview.io/questions/solve-stock-bfs-path-and-merge-intervals) | Hard | — |
 | **ByteDance** | [Select max-discount product per category](https://trueinterview.io/questions/select-max-discount-product-per-category) | Easy | — |
-| **NVIDIA** | [Reverse a singly linked list robustly](https://trueinterview.io/questions/reverse-a-singly-linked-list-robustly) | Hard | — |
 | **Microsoft** | [Reverse a list in-place](https://trueinterview.io/questions/reverse-a-list-in-place) | Easy | — |
 | **Atlassian** | [Rank each team’s top 3 scores in 2024](https://trueinterview.io/questions/rank-each-teams-top-3-scores-in-2024) | Medium | — |
 | **Microsoft** | [Query email logs for deliverability insights](https://trueinterview.io/questions/query-email-logs-for-deliverability-insights) | Medium | — |
-| **Google** | [Minimize L2, L1, and quantile losses](https://trueinterview.io/questions/minimize-l2-l1-and-quantile-losses) | Hard | — |
 | **ByteDance** | [Maximize products bought under budget](https://trueinterview.io/questions/maximize-products-bought-under-budget) | Hard | — |
 | **Meta** | [Label new vs old users over time in SQL](https://trueinterview.io/questions/label-new-vs-old-users-over-time-in-sql) | Medium | — |
 | **Atlassian** | [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin) | Medium | — |
 | **Meta** | [Join datasets and compute conversion by assignment](https://trueinterview.io/questions/join-datasets-and-compute-conversion-by-assignment) | Medium | — |
 | **Uber** | [Implement weighted sampling without replacement](https://trueinterview.io/questions/implement-weighted-sampling-without-replacement) | Hard | — |
-| **PayPal** | [Implement sliding-window device anomaly](https://trueinterview.io/questions/implement-sliding-window-device-anomaly) | Hard | — |
 | **Microsoft** | [Implement rotated array binary search with duplicates](https://trueinterview.io/questions/implement-rotated-array-binary-search-with-duplicates) | Hard | — |
 | **Amazon** | [Implement PyTorch training loop](https://trueinterview.io/questions/implement-pytorch-training-loop) | Hard | — |
 | **Google** | [Implement piecewise linear interpolation for time-to-empty](https://trueinterview.io/questions/implement-piecewise-linear-interpolation-for-time-to-empty) | Hard | — |
-| **Google** | [Implement percentage RMSE and bootstrap its CI](https://trueinterview.io/questions/implement-percentage-rmse-and-bootstrap-its-ci) | Hard | — |
 | **DoorDash** | [Implement minimum window substring with counts](https://trueinterview.io/questions/implement-minimum-window-substring-with-counts) | Medium | — |
 | **Microsoft** | [Implement lower_bound on unknown-size sorted array](https://trueinterview.io/questions/implement-lower-bound-on-unknown-size-sorted-array) | Hard | — |
 | **Google** | [Implement longest subarray summing to k](https://trueinterview.io/questions/implement-longest-subarray-summing-to-k) | Hard | — |
-| **Netflix** | [Implement longest increasing subarray with one deletion](https://trueinterview.io/questions/implement-longest-increasing-subarray-with-one-deletion) | Hard | — |
 | **Amazon** | [Implement list overlap and dense-ranked word frequencies](https://trueinterview.io/questions/implement-list-overlap-and-dense-ranked-word-frequencies) | Medium | — |
 | **ByteDance** | [Implement K-means and run two iterations](https://trueinterview.io/questions/implement-k-means-and-run-two-iterations) | Hard | — |
 | **Amazon** | [Implement integer division without using division](https://trueinterview.io/questions/implement-integer-division-without-using-division) | Hard | — |
 | **LinkedIn** | [Implement fast sampling for weighted k-sided die](https://trueinterview.io/questions/implement-fast-sampling-for-weighted-k-sided-die) | Hard | — |
-| **Google** | [Implement anagram check and stable deduplication](https://trueinterview.io/questions/implement-anagram-check-and-stable-deduplication) | Hard | — |
 | **Onemain Financial / Anthropic / Google / LinkedIn / Microsoft** | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Medium | — |
 | **Amazon** | [Generate primes up to n efficiently](https://trueinterview.io/questions/generate-primes-up-to-n-efficiently) | Medium | — |
 | **Amazon** | [Find top-spend categories per customer with ranking](https://trueinterview.io/questions/find-top-spend-categories-per-customer-with-ranking) | Hard | — |
@@ -164,8 +125,6 @@
 | **ByteDance** | [Compute and rank top bad advertisers](https://trueinterview.io/questions/compute-and-rank-top-bad-advertisers) | Medium | — |
 | **ByteDance** | [Compute 7-day rolling complaint/order ratio in SQL](https://trueinterview.io/questions/compute-7-day-rolling-complaint-order-ratio-in-sql) | Medium | — |
 | **ByteDance** | [Compare SQL counts, windows, and NULL semantics](https://trueinterview.io/questions/compare-sql-counts-windows-and-null-semantics) | Medium | — |
-| **Uber** | [Clean, split, merge, and aggregate with pandas](https://trueinterview.io/questions/clean-split-merge-and-aggregate-with-pandas) | Hard | — |
-| **Uber** | [Check anagrams under real-world constraints](https://trueinterview.io/questions/check-anagrams-under-real-world-constraints) | Hard | — |
 | **Meta** | [Calculate survey response and quality metrics in SQL](https://trueinterview.io/questions/calculate-survey-response-and-quality-metrics-in-sql) | Hard | — |
 | **Meta** | [Calculate posts per DAU by country today](https://trueinterview.io/questions/calculate-posts-per-dau-by-country-today) | Medium | — |
 | **Amazon** | [Calculate cross-channel login user proportions](https://trueinterview.io/questions/calculate-cross-channel-login-user-proportions) | Medium | — |
@@ -260,5 +219,46 @@
 | **Apple** | [Merge Two Strings by Maximum Edge Overlap](https://trueinterview.io/questions/e375a17a-d43d-501b-b79c-2fa09b7bcabc) | Easy | — |
 | **Apple** | [Constrain an Increasing Array With Minimum Adjacent Difference](https://trueinterview.io/questions/d5642f20-01c2-549f-833c-8e654d14cbd6) | Easy | — |
 | **Apple** | [Constrain Every Five Consecutive Array Elements to Be Unique](https://trueinterview.io/questions/c9bd91f8-10cc-5032-9141-ac058ba5d7ca) | Medium | — |
+| **Apple** | [Count Set Bits in a 32-Bit Integer](https://trueinterview.io/questions/b163aaa9-31a0-5c0a-b2a4-ad91ae115390) | Medium | — |
+| **Apple** | [Validate and Aggregate HTTP Access Logs](https://trueinterview.io/questions/a0c61319-db55-58db-871b-be9dff51aee8) | Medium | — |
+| **Apple** | [All Subsets with a Given Sum](https://trueinterview.io/questions/9a58ba10-18c3-5f29-ae61-70e1882a22f5) | Medium | — |
+| **Apple** | [Write a One-Hot SystemVerilog Constraint Without $onehot](https://trueinterview.io/questions/7772306e-c2e1-50b0-b143-ea071affcf0b) | Easy | — |
+| **Apple** | [Check Whether a String Is a Palindrome](https://trueinterview.io/questions/712ab877-8fe1-5411-92ca-b00a54856057) | Easy | — |
+| **Apple / Oracle** | [Swap Two Variables Without Using Temporary Variable](https://trueinterview.io/questions/68870b4c-8508-4508-88c9-186133ebadf8) | Easy | — |
+| **Apple** | [Determine Whether an Undirected Graph Is Bipartite](https://trueinterview.io/questions/3e8d0c6c-7081-55ae-b3ee-3e5c8621d1b9) | Medium | — |
+| **Apple** | [Classify the Difference Between Two Calendar Dates](https://trueinterview.io/questions/1fd937c6-7de8-57d7-9b2d-c96a07d39ab2) | Easy | — |
+| **Apple** | [Design Task Manager](https://trueinterview.io/questions/011f47a1-c863-5396-80c8-026f0ef2702e) | Medium | — |
+| **Apple** | [Unit Conversion II](https://trueinterview.io/questions/00f63c5f-2290-52e8-bdeb-3514a6c97993) | Medium | — |
+| **Uber** | [Find Number of Joins in an Array](https://trueinterview.io/questions/fc4d092e-f8cd-4378-89a3-23839a79b360) | Medium | — |
+| **Uber** | [Cheapest Round-Trip Flight](https://trueinterview.io/questions/ef33eec5-3ed7-562d-90fa-74e18d20d37d) | Medium | — |
+| **Uber** | [Concurrent File Downloader with Request Coalescing](https://trueinterview.io/questions/e17f7845-6d5f-5238-af43-5d5a1680d562) | Hard | — |
+| **Uber** | [Minimum Delivery Cost Between Cities](https://trueinterview.io/questions/dea29338-f71c-59bd-be28-395099419d16) | Medium | — |
+| **Uber** | [Build a Directory Tree and Iteratively Find File Paths](https://trueinterview.io/questions/d1be1c23-b276-5163-a41f-0219b487f068) | Medium | — |
+| **Uber** | [Longest Diagonal Pattern](https://trueinterview.io/questions/ca8d82e9-bbbb-490a-baaf-0fb6d8be563c) | Medium | — |
+| **Uber** | [Alien Dictionary Evaluation](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec) | Hard | — |
+| **Uber** | [Find Target with Rotation](https://trueinterview.io/questions/b61576ab-0661-458e-ae7d-f1a3ed8e4d3d) | Easy | — |
+| **Uber** | [K-th Employee Receiving Data](https://trueinterview.io/questions/6ece7f1a-147f-5c9b-b3a6-459ca4c46c41) | Hard | — |
+| **Uber** | [Design an In-Memory File System with Recursive Wildcards](https://trueinterview.io/questions/6cbb765a-0358-5c10-aced-bc590e6d67cd) | Medium | — |
+| **Uber** | [Paint Line and Count Adjacent Same Colors](https://trueinterview.io/questions/688b80fe-8f40-45dc-8c98-61c2aaac7ea9) | Easy | — |
+| **Uber** | [Sort Clothing Sizes](https://trueinterview.io/questions/64053406-fd0a-5085-8c04-93f3d930b233) | Easy | — |
+| **Uber** | [Track Customer Website Visits](https://trueinterview.io/questions/4740731d-d292-4492-8816-5ef78fc6565f) | Medium | — |
+| **Uber** | [Last Truck to Leave a Lane](https://trueinterview.io/questions/33b9ea5e-773a-5a26-8594-aa7fff215e86) | Hard | — |
+| **Uber** | [Find Index of Max Rate to Price Ratio](https://trueinterview.io/questions/2d92d9fc-3676-44e1-a4f8-db5e99c47868) | Easy | — |
+| **Uber** | [Find Combinations After Flip](https://trueinterview.io/questions/1da69ce4-74fb-48ef-9eb8-ebca7578ec21) | Easy | — |
+| **Uber** | [Implement a YAML Parser](https://trueinterview.io/questions/1c342f27-ba5a-50b5-9cab-a2ef98aaba12) | Medium | — |
+| **Uber** | [Maximize Score Sum](https://trueinterview.io/questions/1aaab4e0-9f68-4ab4-b6f5-430ea315a3b6) | Medium | — |
+| **Microsoft** | [Subtract Two Numbers Represented by Forward-Order Linked Lists](https://trueinterview.io/questions/ff0e0f3b-5fa8-542c-9f99-2afc8d2457fa) | Hard | — |
+| **Microsoft** | [Most Visited Position on a Sprint Track](https://trueinterview.io/questions/f8fe9b56-4721-55a3-84eb-743d6bed0777) | Medium | — |
+| **Microsoft** | [Maximum Strength of Each Neuron in a Tree Network](https://trueinterview.io/questions/9d18d811-132f-5f8b-abca-0a58be27d911) | Hard | — |
+| **Microsoft** | [Validate an Employee Hierarchy and Find the Maximum Root-to-Employee Distance](https://trueinterview.io/questions/93e87368-0bd2-5f1e-8276-31796d240bbe) | Medium | — |
+| **Microsoft** | [Maximum Length Equal Arrays After Segment Merges](https://trueinterview.io/questions/291ad076-03eb-51f5-a1b1-a46ee92ff46f) | Medium | — |
+| **Microsoft** | [Generate Lexicographically Sorted String Subsets](https://trueinterview.io/questions/0de96483-d0cb-5095-8e67-dc544847a643) | Easy | — |
+| **Meta** | [Determine Whether a Target-Sum Subarray Exists](https://trueinterview.io/questions/c2ff0a86-05a2-5b73-ae32-07ebfae4c4c1) | Medium | — |
+| **Google** | [Maximum Assignment Between Problems and Programmers](https://trueinterview.io/questions/da013e43-63d8-5840-93c8-df123b1c76f9) | Hard | — |
+| **Google** | [Reconstruct the BFS Path Before Reaching a Target](https://trueinterview.io/questions/ceeafc15-ce16-50a3-8890-26d9bd82c3ca) | Medium | — |
+| **Google** | [Check Whether a Template Occurs in Leaf Text of a Binary Tree](https://trueinterview.io/questions/ccbcfb4f-2b34-53ef-a8da-4bedfb2889e5) | Hard | — |
+| **Google** | [Permutations II](https://trueinterview.io/questions/b6747ed0-abbd-562b-9c62-8203b7c69d06) | Medium | — |
+| **Google** | [Count Paths Matching Every Prefix in a Labeled Tree](https://trueinterview.io/questions/666e48b6-38b1-5803-9fbc-c5e3e5601f7b) | Hard | — |
+| **Google** | [Split a Log Line by Spaces Outside Quoted Fields](https://trueinterview.io/questions/63ad51fb-e5a7-516d-a385-28c429f52b59) | Medium | — |
 
 <sub>[← Page 5](big-tech-5.md) · Page 6 of 9 · [Page 7 →](big-tech-7.md)</sub>

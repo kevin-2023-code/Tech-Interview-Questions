@@ -2,7 +2,7 @@
 
 # Cvs Health interview process, OA & interview questions
 
-**13 questions** reported at Cvs Health. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cvs-health), judged server-side on the algorithm, low-level-design and SQL formats.
+**10 questions** reported at Cvs Health. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/cvs-health), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Cvs Health interviews & the free questions](cvs-health/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -12,24 +12,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **13** |
+| Questions tracked | **10** |
 | Most recent sighting | Oct 17, 2025 |
 | Reported in the last 90 days | 0 |
-| Most common format | [SQL](../formats/sql.md) (46% of 13) |
-| Difficulty (easy / medium / hard) | 0 / 11 / 2 |
+| Most common format | [SQL](../formats/sql.md) (60% of 10) |
+| Difficulty (easy / medium / hard) | 0 / 9 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 13 questions reported at Cvs Health. 1 of them carry a sighting date; the other 12 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 10 questions reported at Cvs Health. 1 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **13 of 13** questions at Cvs Health that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **10 of 10** questions at Cvs Health that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 4 | ████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 3 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 9 | ██████████ | [SQL](../formats/sql.md) (44%) | 0 / 8 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 2 | ██ | [SQL](../formats/sql.md) (100%) | 0 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 8 | ██████████ | [SQL](../formats/sql.md) (50%) | 0 / 7 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -39,13 +39,7 @@ Which stage each question came from, for the **13 of 13** questions at Cvs Healt
 
 ## What they ask about
 
-Of the **1 question at Cvs Health that carries a topic label** (8% of them — the rest are unlabelled, which is not the same as having no topic):
-
-| Topic | Questions | Share of labelled |  | Last seen |
-| :-- | --: | --: | :-- | :-- |
-| `math` | 1 | 100% | ████████████ | — |
-
-<sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
+**None of the 10 questions reported at Cvs Health carries a topic label yet.** Unlabelled is not untopiced; the labels are added by hand and this employer's rows have not been reached.
 
 ## When they asked it
 
@@ -62,13 +56,13 @@ The 8 questions to open first if you are preparing for Cvs Health, ranked by **t
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Compute specialty spend share and top age band](https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band) | SQL | Medium | — | Oct 17, 2025 |
-| **2** | [Aggregate radiology spend and derive fiscal month](https://trueinterview.io/questions/aggregate-radiology-spend-and-derive-fiscal-month) 🆓 | Algorithm | Medium | — | — |
-| **3** | [Build a leak-free sklearn churn pipeline](https://trueinterview.io/questions/build-a-leak-free-sklearn-churn-pipeline) | Algorithm | Medium | — | — |
-| **4** | [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) 🆓 | SQL | Medium | — | — |
-| **5** | [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | SQL | Medium | — | — |
-| **6** | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema) | SQL | Medium | — | — |
-| **7** | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | SQL | Medium | — | — |
-| **8** | [Design a flu-shot A/B/n campaign experiment](https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment) | System Design | Medium | — | — |
+| **2** | [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) 🆓 | SQL | Medium | — | — |
+| **3** | [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) 🆓 | SQL | Medium | — | — |
+| **4** | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema) | SQL | Medium | — | — |
+| **5** | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | SQL | Medium | — | — |
+| **6** | [Design a flu-shot A/B/n campaign experiment](https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment) | System Design | Medium | — | — |
+| **7** | [Design classification under missingness and imbalance](https://trueinterview.io/questions/design-classification-under-missingness-and-imbalance) | System Design | Medium | — | — |
+| **8** | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | Algorithm | Medium | — | — |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -84,14 +78,11 @@ The 8 questions to open first if you are preparing for Cvs Health, ranked by **t
 | :-- | :-- | :-: | :-- |
 | [Compute specialty spend share and top age band](https://trueinterview.io/questions/compute-specialty-spend-share-and-top-age-band) | SQL | Medium | Oct 17, 2025 |
 | [Launch and measure a TV campaign](https://trueinterview.io/questions/launch-and-measure-a-tv-campaign) | System Design | Hard | — |
-| [Implement R² and Compare PCA With/Without Scaling](https://trueinterview.io/questions/implement-r2-and-compare-pca-with-without-scaling) | Algorithm | Hard | — |
 | [Design classification under missingness and imbalance](https://trueinterview.io/questions/design-classification-under-missingness-and-imbalance) | System Design | Medium | — |
 | [Design a flu-shot A/B/n campaign experiment](https://trueinterview.io/questions/design-a-flu-shot-a-b-n-campaign-experiment) | System Design | Medium | — |
-| [Build a leak-free sklearn churn pipeline](https://trueinterview.io/questions/build-a-leak-free-sklearn-churn-pipeline) | Algorithm | Medium | — |
 | [Write SQL for dedup and purchase shares](https://trueinterview.io/questions/write-sql-for-dedup-and-purchase-shares) | SQL | Medium | — |
 | [Use pandas to aggregate, pivot, and label](https://trueinterview.io/questions/use-pandas-to-aggregate-pivot-and-label) | Algorithm | Medium | — |
 | [Create Views, Insert, and Update Correctly](https://trueinterview.io/questions/create-views-insert-and-update-correctly) | SQL | Medium | — |
 | [Create and query an e-commerce schema](https://trueinterview.io/questions/create-and-query-an-e-commerce-schema) | SQL | Medium | — |
 | [Compute age-band spend and YoY in Georgia](https://trueinterview.io/questions/compute-age-band-spend-and-yoy-in-georgia) | SQL | Medium | — |
 | [Calculate annual percentages and YoY by cohorts](https://trueinterview.io/questions/calculate-annual-percentages-and-yoy-by-cohorts) | SQL | Medium | — |
-| [Aggregate radiology spend and derive fiscal month](https://trueinterview.io/questions/aggregate-radiology-spend-and-derive-fiscal-month) | Algorithm | Medium | — |

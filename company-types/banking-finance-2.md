@@ -2,7 +2,7 @@
 
 # 🏦 Banks, insurers & asset managers — interview & OA questions
 
-**271 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**265 questions** reported across the **7 Banks, insurers & asset managers employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,12 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **ByteDance / Microsoft / Visa** | [Jump Game](https://trueinterview.io/questions/25fc504b-0fcb-40f7-9453-780b842efd06) | Medium | — |
-| **Bloomberg** | [Remove Invalid Parentheses (Minimum Removal, Return All Valid Strings)](https://trueinterview.io/questions/e38a6ded-7b03-4234-9652-85d23a01e7a8) | Hard | — |
-| **Bloomberg** | [Sort Words by Custom Alphabet Order](https://trueinterview.io/questions/cc94ea6c-3a6b-4cd7-8694-6f1770e09b83) | Medium | — |
-| **Bloomberg / Waymo** | [Gas Station Feasibility / Complete Circuit](https://trueinterview.io/questions/c190b4fe-494b-4c16-b5f1-2a480a0f4ab6) | Medium | — |
-| **Bloomberg** | [Nested Parentheses](https://trueinterview.io/questions/a4f9512c-b596-4e84-8c15-20ae5e555c6f) | Easy | — |
-| **Bloomberg** | [Trie Data Structure](https://trueinterview.io/questions/a2b9e70f-efe6-45bc-a342-32df93289657) | Medium | — |
 | **Bloomberg** | [String to Integer (atoi) (Digits Only)](https://trueinterview.io/questions/9d8ec9cd-fdc4-4fac-806c-07ff99d1c875) | Easy | — |
 | **Bloomberg** | [Add Two Numbers (Forward Order Linked Lists)](https://trueinterview.io/questions/97753443-80e2-4be1-a500-502b91e021a0) | Medium | — |
 | **Bloomberg** | [Find All Paths from Source to Target in DAG](https://trueinterview.io/questions/80710ab3-5ddf-4c43-b77e-82a3a85909e5) | Medium | — |

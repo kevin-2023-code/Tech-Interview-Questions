@@ -2,7 +2,7 @@
 
 # Free Algorithm questions
 
-**291 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**288 Algorithm questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -30,8 +30,6 @@
 | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | **Arista / Boston Consulting Group** | Easy | — |
 | [Remove Duplicates from Sorted Linked List](https://trueinterview.io/questions/3e6892f9-8fb4-4bb3-b2e6-4182b5a25eed) | **ByteDance / Rubrik** | Easy | — |
 | [Segregate Binary String (Move Ones to End)](https://trueinterview.io/questions/segregate-binary-string-move-ones) | **Akuna Capital / Google** | Easy | Aug 26, 2025 |
-| [Shortest Path in Unweighted Graph](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) | **Pinterest / ByteDance** | Easy | May 30, 2025 |
-| [Verifying an Alien Dictionary](https://trueinterview.io/questions/verifying-an-alien-dictionary) | **Uber / Meta** | Easy | Sep 2025 |
 | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | **Bobyard** | Easy | — |
 | [Add Two Reversed Digit Lists](https://trueinterview.io/questions/add-two-reversed-digit-lists) | **Cisco** | Easy | Sep 06, 2025 |
 | [Alphanumeric Vowel / Consonant Count](https://trueinterview.io/questions/alphanumeric-vowel-consonant-count) | **JPMorgan** | Easy | Jun 30, 2025 |
@@ -126,7 +124,6 @@
 | [String to Integer (atoi)](https://trueinterview.io/questions/string-to-integer-atoi) | **Netflix / Bloomberg** | Medium | Mar 03, 2026 |
 | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | **Palantir / SoFi** | Medium | — |
 | [1-D Valid Convolution with Multithreading Follow-up](https://trueinterview.io/questions/one-dimensional-valid-convolution) | **IBM** | Medium | Aug 13, 2025 |
-| [Aggregate radiology spend and derive fiscal month](https://trueinterview.io/questions/aggregate-radiology-spend-and-derive-fiscal-month) | **Cvs Health** | Medium | — |
 | [Anagram Sentence Substitutions](https://trueinterview.io/questions/anagram-sentence-substitutions) | **SoFi** | Medium | Sep 25, 2025 |
 | [Array Challenge: Left-Comparison Running Counter](https://trueinterview.io/questions/left-comparison-running-counter) | **Akuna Capital** | Medium | Sep 24, 2025 |
 | [Batch and Pad Variable-Length Vectors with Optional Final-Batch Dropping](https://trueinterview.io/questions/batch-and-pad-variable-length-vectors-with-optional-final-batch-dropping) | **Siemens** | Medium | 🆕 Sep 04, 2026 |
@@ -260,5 +257,8 @@
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | **Uber / Google** | Hard | Mar 22, 2026 |
 | [IPO Share Allocation](https://trueinterview.io/questions/swe-oa-ipo-share-allocation) | **Two Sigma / Point72** | Hard | Mar 25, 2026 |
 | [Largest Rectangle in Histogram](https://trueinterview.io/questions/largest-rectangle-histogram) | **ByteDance / Airwallex** | Hard | Jan 29, 2026 |
+| [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | **Apple / Scale AI** | Hard | Jun 16, 2026 |
+| [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | **Hudson River Trading** | Hard | — |
+| [Alien Dictionary Evaluation](https://trueinterview.io/questions/bc80d805-47d7-4115-87c2-7e63eee789ec) | **Uber** | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](algorithm-2.md)</sub>

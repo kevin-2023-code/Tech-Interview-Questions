@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,352 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,27 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **xAI** | [Handwrite parallelized sort](https://trueinterview.io/questions/a370ccf4-60ff-4255-9311-2434fb8a56ac) | Medium | — |
-| **Uber / Dropbox / Meta** | [Token Bucket Rate Limiter II](https://trueinterview.io/questions/58b8e172-126c-506d-9294-bd87ba76d9d9) | Medium | — |
-| **Uber / Amazon / Apple / Databricks / Meta / OKX / Roblox** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Medium | — |
-| **Stripe / Amazon** | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Medium | — |
-| **Stripe** | [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Medium | — |
-| **Stripe** | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | Medium | — |
-| **Stripe** | [Find linked merchants by ID](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Easy | — |
-| **Stripe** | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | Medium | — |
-| **Stripe** | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Easy | — |
-| **Stripe** | [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Medium | — |
-| **Stripe** | [Create a UI Component for Passport Validation](https://trueinterview.io/questions/6906bc8c-d026-4897-935f-ad4842034fa0) | Medium | — |
-| **Stripe** | [Email (Multi-part)](https://trueinterview.io/questions/48dbfe85-e973-4205-950a-2a075b7d0307) | Medium | — |
-| **Stripe** | [CSV Parsing Drops Quotes](https://trueinterview.io/questions/3edbdc05-8e28-41b5-b174-305e4e4e96bc) | Medium | — |
-| **Stripe / Bloomberg** | [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Medium | — |
-| **Stripe** | [Exception handling in debugging](https://trueinterview.io/questions/2db842ae-625f-4098-8075-aab97db253a8) | Easy | — |
-| **Stripe** | [Email Time Update Problem](https://trueinterview.io/questions/2ada198e-0cfe-4fea-9e44-c5737c04b3f8) | Easy | — |
-| **Stripe** | [Fee Calculation for Transactions](https://trueinterview.io/questions/012ccdf5-7691-4ff9-9a61-9b5cf3c60ead) | Easy | — |
-| **Snowflake** | [Modified Knapsack Problem](https://trueinterview.io/questions/e4d29efa-828d-4ebc-b3c6-c8e54ee8058f) | Medium | — |
-| **Snowflake** | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c) | Medium | — |
-| **Snowflake** | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Easy | — |
-| **Snowflake** | [Handle Intervals When Input Is Not Sorted](https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac) | Medium | — |
 | **Snowflake** | [Tree Height After Node Removal](https://trueinterview.io/questions/656949e3-a5f9-4e20-bf38-ee5b7cab1eef) | Medium | — |
 | **Roblox** | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Easy | — |
 | **Roblox** | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Easy | — |

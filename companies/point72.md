@@ -2,7 +2,7 @@
 
 # Point72 interview process, OA & interview questions
 
-**30 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
+**29 questions** reported at Point72 · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/point72), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Point72 interviews & the free questions](point72/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **30** |
+| Questions tracked | **29** |
 | Most recent sighting | Jul 29, 2026 |
 | Reported in the last 90 days | 7 |
-| Most common format | [Algorithm](../formats/algorithm.md) (73% of 30) |
-| Difficulty (easy / medium / hard) | 5 / 18 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (72% of 29) |
+| Difficulty (easy / medium / hard) | 5 / 18 / 6 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 30 questions reported at Point72. 11 of them carry a sighting date; the other 19 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 29 questions reported at Point72. 11 of them carry a sighting date; the other 18 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **30 of 30** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **29 of 29** questions at Point72 that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 5 / 4 / 5 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 13 | █████████ | [Algorithm](../formats/algorithm.md) (77%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (85%) | 5 / 4 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 13 | ██████████ | [Algorithm](../formats/algorithm.md) (77%) | 0 / 12 / 1 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 4 | ███ | [Object Oriented Programming](../formats/object-oriented-programming.md) (75%) | 0 / 3 / 1 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -52,19 +52,19 @@ Which stage each question came from, for the **30 of 30** questions at Point72 t
 
 ## What they ask about
 
-Of the **17 questions at Point72 that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **16 questions at Point72 that carry a topic label** (55% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `math` | 5 | 29% | ████████████ | — |
-| `dynamic-programming` | 4 | 24% | ██████████ | Jul 29, 2026 |
-| `greedy` | 4 | 24% | ██████████ | Jul 29, 2026 |
-| `sorting` | 4 | 24% | ██████████ | Jul 29, 2026 |
-| `arrays` | 2 | 12% | █████ | Jul 29, 2026 |
-| `strings` | 2 | 12% | █████ | — |
-| `binary-search` | 1 | 6% | ██ | — |
-| `hashing` | 1 | 6% | ██ | Jul 29, 2026 |
-| `stack` | 1 | 6% | ██ | Mar 25, 2026 |
+| `dynamic-programming` | 4 | 25% | ████████████ | Jul 29, 2026 |
+| `greedy` | 4 | 25% | ████████████ | Jul 29, 2026 |
+| `math` | 4 | 25% | ████████████ | — |
+| `sorting` | 4 | 25% | ████████████ | Jul 29, 2026 |
+| `arrays` | 2 | 12% | ██████ | Jul 29, 2026 |
+| `strings` | 2 | 12% | ██████ | — |
+| `binary-search` | 1 | 6% | ███ | — |
+| `hashing` | 1 | 6% | ███ | Jul 29, 2026 |
+| `stack` | 1 | 6% | ███ | Mar 25, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -128,7 +128,6 @@ The 8 questions to open first if you are preparing for Point72, ranked by **the 
 | [K-th missing number](https://trueinterview.io/questions/find-kth-missing-integer-and-redundant-operations-k-th-missing-number) | Algorithm | Medium | Oct 20, 2025 |
 | [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | SQL | Medium | — |
 | [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | SQL | Medium | — |
-| [Solve date, shopping, and circle problems](https://trueinterview.io/questions/solve-date-shopping-and-circle-problems) | Algorithm | Hard | — |
 | [Maximize outfits with distinct colors](https://trueinterview.io/questions/maximize-outfits-with-distinct-colors) | Algorithm | Hard | — |
 | [Convert integer dates to quarters](https://trueinterview.io/questions/convert-integer-dates-to-quarters) | SQL | Medium | — |
 | [Classify relationships for multiple circle pairs](https://trueinterview.io/questions/classify-relationships-for-multiple-circle-pairs) | Algorithm | Medium | — |

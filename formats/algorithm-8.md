@@ -2,95 +2,14 @@
 
 # Algorithm interview & OA questions
 
-**2,512 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,431 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
-<sub>[← Page 7](algorithm-7.md) · Page 8 of 11 · [Page 9 →](algorithm-9.md)</sub>
+<sub>[← Page 7](algorithm-7.md) · Page 8 of 10 · [Page 9 →](algorithm-9.md)</sub>
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **ByteDance** | [Intersection of Two Interval Lists](https://trueinterview.io/questions/intersection-of-two-interval-lists) | Medium | — |
-| **Amazon** | [Detect Overlapping Time Intervals](https://trueinterview.io/questions/05a8d371-14af-5f91-a280-c8e76c9e68ea) | Easy | — |
-| **ByteDance** | [Non-Overlapping Intervals (LeetCode 435)](https://trueinterview.io/questions/non-overlapping-intervals) | Medium | — |
-| **—** | [Sum of Two Integers](https://trueinterview.io/questions/sum-of-two-integers) | Medium | — |
-| **—** | [Subtree of Another Tree](https://trueinterview.io/questions/subtree-of-another-tree) | Easy | — |
-| **—** | [Same Tree](https://trueinterview.io/questions/same-tree) | Easy | — |
-| **—** | [Reverse Bits](https://trueinterview.io/questions/reverse-bits) | Easy | — |
-| **—** | [Pacific Atlantic Water Flow](https://trueinterview.io/questions/pacific-atlantic-water-flow) | Medium | — |
-| **—** | [Number of 1 Bits](https://trueinterview.io/questions/number-of-1-bits) | Easy | — |
-| **Amazon** | [House Robber II](https://trueinterview.io/questions/house-robber-ii) | Medium | — |
-| **Apple** | [Graph Valid Tree](https://trueinterview.io/questions/graph-valid-tree) | Medium | — |
-| **—** | [Counting Bits](https://trueinterview.io/questions/counting-bits) | Easy | — |
-| **—** | [Combination Sum](https://trueinterview.io/questions/combination-sum) | Medium | — |
-| **—** | [Combination Sum IV](https://trueinterview.io/questions/combination-sum-iv) | Medium | — |
-| **—** | [Climbing Stairs](https://trueinterview.io/questions/climbing-stairs) | Easy | — |
-| **Amazon** | [Add and Search Word](https://trueinterview.io/questions/add-and-search-word) | Medium | — |
-| **Voleon** | [Kac Ring Dynamic System Simulation](https://trueinterview.io/questions/f5aaac03-3817-4792-a184-4fdd0d419ead) | Hard | — |
-| **Voleon** | [Berkeley Exchange: Market Activity Tracker and Client Order Trading](https://trueinterview.io/questions/b872f7bf-50a6-41a9-9fb4-814bd3d88b0a) | Hard | — |
-| **Voleon** | [Earliest Time with Maximum Running Processes](https://trueinterview.io/questions/919a65ad-9af1-526c-afa5-beb2c0be5e61) | Medium | — |
-| **Voleon** | [Flipping Balls with Moving Marked Positions](https://trueinterview.io/questions/82bde9d9-d448-5077-86bf-e426c6b07190) | Hard | — |
-| **StackAdapt** | [Priority-Based Rate-Limited Web Crawler Design](https://trueinterview.io/questions/b03b2470-1381-490c-9ac6-cd85d1245d22) | Medium | — |
-| **StackAdapt** | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](https://trueinterview.io/questions/6dfaaed2-150f-436b-9d6d-d5977f06ec21) | Hard | — |
-| **Oscar Health** | [Decode Morse Code to All Possible Original Strings](https://trueinterview.io/questions/93be479d-c2bc-46b0-9f1f-36d31c30bfb6) | Medium | — |
-| **OKX** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Easy | — |
-| **OKX** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Medium | — |
-| **Moveworks** | [Filter Strings by Rarest Max-Character Proportion and Unique Common-Chars, Then Concatenate](https://trueinterview.io/questions/4e4c3265-31d9-4e3a-8181-6df223a8dda1) | Medium | — |
-| **Faire** | [Sliding Window Problem](https://trueinterview.io/questions/d11caa89-857e-4682-9d73-d5df09ca2782) | Easy | — |
-| **Faire** | [Print Pascal's Triangle (Symmetric Formatting)](https://trueinterview.io/questions/a2b7d03b-7a0d-459a-90fc-b9a502e3c3a3) | Medium | — |
-| **Faire** | [Peak Capacity Overlapping Events (Line Sweep)](https://trueinterview.io/questions/68ea79fb-809b-4d88-a41d-7e7fea1fefa8) | Hard | — |
-| **Faire** | [Funnel Algorithm Problem](https://trueinterview.io/questions/122a5f22-5d2f-4094-9b30-72430f11b3e2) | Hard | — |
-| **Bobyard** | [Filter nested comments and keep only matched nodes and their descendants](https://trueinterview.io/questions/a0f62b7d-1822-401b-8910-d8c3872dc67f) | Medium | — |
-| **Bobyard** | [Add sorting to a comment list with persistence across refresh](https://trueinterview.io/questions/9efb740a-713a-4618-aee6-a2161feaabc5) | Easy | — |
-| **Block** | [Minesweeper Board Generation](https://trueinterview.io/questions/a0eccf02-13b4-4c9b-a2ac-69c127f7cc18) | Easy | — |
-| **Block** | [Tournament Progression Chart with JavaScript Simulation and UI](https://trueinterview.io/questions/5d30d8fe-838b-4c5a-9e01-a47461a797fc) | Medium | — |
-| **Block** | [Optimal Crop Selection for Maximum Profit](https://trueinterview.io/questions/50177e10-60ce-48f3-8baa-05cae30ae9e2) | Medium | — |
-| **Airtable** | [Get Most Hydrated Team](https://trueinterview.io/questions/8eacc89f-d2b2-49c5-b881-148e51ebc811) | Medium | — |
-| **Airtable** | [Approximate Percentiles](https://trueinterview.io/questions/774c6614-c4f5-4f5b-8320-7278c55502e2) | Medium | — |
-| **Airtable** | [Determine Valid Build Order](https://trueinterview.io/questions/1fc0465d-5c24-4050-966e-693fb43fbddc) | Medium | — |
-| **StackAdapt** | [Median and Percentile from a Data Stream](https://trueinterview.io/questions/88889c89-92a7-5030-9755-7f876a069993) | Hard | — |
-| **Rokt / Instacart** | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Medium | — |
-| **Oscar Health** | [Morse Code Conversion](https://trueinterview.io/questions/f2fd49a4-36ff-4528-aade-cf3f781b1d59) | Medium | — |
-| **Moveworks** | [Find Maximum Number of Strings](https://trueinterview.io/questions/3e15b4f6-57e4-466f-a91d-f7ce9dd81019) | Medium | — |
-| **Moveworks** | [Get Minimum Operations to Sort Array](https://trueinterview.io/questions/065ba906-0d52-486d-bfdf-7857c57e574c) | Medium | — |
-| **Gusto** | [Fairly Distribute Money With Limits](https://trueinterview.io/questions/15342126-93db-52f6-a234-8f5da3a03fb2) | Medium | — |
-| **Oscar Health** | [Find Clients Outside Provider Coverage](https://trueinterview.io/questions/77313b88-1a9b-5047-b402-fced2dc1919c) | Medium | — |
-| **Brex** | [Card Game Gem Affordability and Discount Calculation Functions](https://trueinterview.io/questions/3a9b7dbc-43d6-4eeb-a3ab-7003077dd6b4) | Easy | — |
-| **Microsoft** | [Invert Binary Tree](https://trueinterview.io/questions/190e82fa-f7f8-43a7-88a5-c06003cd621c) | Easy | — |
-| **Sigmacomputing** | [Evaluate a Boolean Formula AST](https://trueinterview.io/questions/c0c189b4-d329-52b6-9daa-81165544bff7) | Medium | — |
-| **Luma AI** | [Transpose an Image Matrix](https://trueinterview.io/questions/f85a7968-6ba9-5be9-a5ab-4f13d57b3fd4) | Easy | — |
-| **Luma AI** | [Gaussian Image Filter](https://trueinterview.io/questions/8725ba22-7231-5ba5-9991-fbf266e5c571) | Medium | — |
-| **Luma AI** | [Copy an Image Matrix](https://trueinterview.io/questions/6f016452-d9b6-5e16-b260-34ec46994410) | Easy | — |
-| **Luma AI / Amazon** | [Implement Softmax](https://trueinterview.io/questions/18c240e2-f238-5284-82b7-f4153b3b8844) | Easy | — |
-| **Lead Bank** | [Stock Tick Store with Updates and Percentage Changes](https://trueinterview.io/questions/feab7dc4-c737-55f9-8fb8-b656678792af) | Medium | — |
-| **Lead Bank** | [Social Network Recommendation](https://trueinterview.io/questions/fcd13740-ff86-40d7-93ab-1ec33dfaaeb5) | Easy | — |
-| **Lead Bank** | [Social Likes: Best Friends and Friend Recommendations](https://trueinterview.io/questions/5c548467-eb91-5302-93d9-1d34978618e3) | Hard | — |
-| **Lead Bank** | [Social Network Likes Count](https://trueinterview.io/questions/1c742494-739f-424d-acbf-53c7d3252d76) | Easy | — |
-| **GEICO** | [Coin Change Problem](https://trueinterview.io/questions/b6285add-7dcf-4d6c-ad78-55de52854957) | Medium | — |
-| **GEICO** | [Text Editor String Operations: Insert, Delete, Get Character](https://trueinterview.io/questions/60a0d918-8055-4c96-9280-0c3fac523eba) | Easy | — |
-| **GEICO** | [Airplane Seat Parsing and Availability Computation](https://trueinterview.io/questions/5520d3bb-3303-4d7d-a26a-92467abe119a) | Easy | — |
-| **GEICO** | [Best Time to Buy and Sell Stock with Cooldown](https://trueinterview.io/questions/17356ec8-0d7f-4f5e-81ee-bf176869f1b2) | Medium | — |
-| **Circle** | [User Quota Scheduling with Expiring Assignments](https://trueinterview.io/questions/352f05c4-1319-4655-a5b4-7ce1c67f972c) | Medium | — |
-| **Circle** | [Task Query by Time and Name Filter with Sorting](https://trueinterview.io/questions/091d8486-b41a-4846-8a15-c30d696e1a7f) | Medium | — |
-| **Chicago Trading** | [Smart Queue / Stock Quote Container](https://trueinterview.io/questions/dc9b15b6-587c-50f2-b57d-e78f195df65e) | Medium | — |
-| **Chicago Trading** | [Simple Moving Average over a Fixed-Size Sliding Window](https://trueinterview.io/questions/795e49f3-5449-5082-aee0-ffc2cfed1baa) | Medium | — |
-| **Chicago Trading** | [Simplified Producer-Consumer System with Thread-Safe Bounded Storage](https://trueinterview.io/questions/15eeeb4d-047a-5c82-b3f2-0fe0eb40fe1c) | Hard | — |
-| **Arista** | [Generate Matrix B](https://trueinterview.io/questions/fada5fd9-6cc1-42dd-a284-ef4edc5b8fdd) | Medium | — |
-| **Arista** | [Remove all occurrences of a target value from a linked list](https://trueinterview.io/questions/c1b98ae1-5c9a-4dfc-b252-7d04bd84a544) | Easy | — |
-| **Arista** | [Missing Number (Not Starting From 0, Binary Search Variant)](https://trueinterview.io/questions/95eea5b2-a22e-4270-9c6d-e8f168534cc7) | Medium | — |
-| **Arista / Boston Consulting Group** | [Palindrome String Check (Handle Empty and Null)](https://trueinterview.io/questions/904ad21b-eb42-4b7f-a319-5ca42e393352) | Easy | — |
-| **Amplitude** | [Detect Cycles in Employee Reporting Structure](https://trueinterview.io/questions/f918843c-516e-47a2-b08a-6bf4c474cbf2) | Medium | — |
-| **Amplitude** | [Swap the K-th Node from the End with the Head in a Singly Linked List](https://trueinterview.io/questions/ca30acde-9531-4647-a4ae-ef65515ec71f) | Medium | — |
-| **Amplitude** | [Validate Employees in a Hierarchy with Recursive Rules](https://trueinterview.io/questions/8454aac4-681d-44d1-a68c-79d85c0ee3e7) | Medium | — |
-| **Amplitude** | [Dictionary Encoding (Lossless) for Comma-Separated Words](https://trueinterview.io/questions/82075e9a-8980-4522-bfeb-1fa58bdf7e03) | Medium | — |
-| **MongoDB** | [Binary Decoder / Simplified BSON Parser](https://trueinterview.io/questions/bde150ab-f900-5e06-8456-4650cdadd840) | Hard | — |
-| **MongoDB** | [Implement a Bounded Concurrent Web Crawler](https://trueinterview.io/questions/556280bb-835d-572e-96bd-2dca3c6ac9c6) | Hard | — |
-| **Pinduoduo** | [Transaction Settlement](https://trueinterview.io/questions/2d3f6203-6989-434b-88a1-3299068e034e) | Hard | — |
-| **Pinduoduo** | [Design a Simplified Twitter Feed](https://trueinterview.io/questions/1217c2a2-6a76-5dd8-95ac-c5bd0b5c9c44) | Hard | — |
-| **Pinduoduo** | [Minesweeper Variant](https://trueinterview.io/questions/e5567ea6-f961-428d-95f0-dea8ac70ddc6) | Medium | — |
-| **Pinduoduo** | [Perfect Squares Decomposition](https://trueinterview.io/questions/e02cbe9e-e2f6-51fd-9ff0-a32899f4dd84) | Hard | — |
-| **MongoDB** | [Predicate and Expression Tree Evaluator](https://trueinterview.io/questions/dfa12e17-212a-5abc-a721-68fbeb3e874f) | Medium | — |
-| **Palantir / Salesforce** | [Minimize Path Value](https://trueinterview.io/questions/dd4f6e70-6178-4ec4-b51f-5c77cea28a3d) | Hard | — |
 | **Palantir / SoFi** | [Swap Parity](https://trueinterview.io/questions/cf402112-727c-4f9f-b976-8d9352ad3615) | Medium | — |
 | **MongoDB** | [Find a Value by Key in Nested JSON](https://trueinterview.io/questions/b6932b13-bdf4-55b5-b902-2726b5238185) | Easy | — |
 | **MongoDB** | [Union Iterator for Two Sorted Iterators (Dedup, Streaming, O(1) Extra Space)](https://trueinterview.io/questions/89497b58-2eb1-4f78-9306-fbb8927e39f7) | Medium | — |
@@ -260,5 +179,86 @@
 | **Upstart** | [Buffet Restaurant Entry/Exit Billing with Capacity Constraints](https://trueinterview.io/questions/ad4d08a8-81ae-4e50-874c-42d39325d532) | Easy | — |
 | **Upstart** | [Compute File Size on Disk](https://trueinterview.io/questions/a211b99f-1398-5507-9083-717ef2216133) | Easy | — |
 | **Upstart** | [Bounding Rectangle of Points](https://trueinterview.io/questions/9d823331-a85f-512a-b445-25f5ef04e96d) | Easy | — |
+| **Upstart** | [Scale Ingredient Quantities](https://trueinterview.io/questions/9afaf0f8-87bc-5dfe-b93c-224f4075b902) | Easy | — |
+| **Upstart** | [Possible ABO Parent Genotypes](https://trueinterview.io/questions/7d7d9d81-b0b6-5ffc-92e9-d0384993433f) | Medium | — |
+| **Upstart** | [Decipher using two hashmaps](https://trueinterview.io/questions/6a88ab18-e062-493a-80b1-528e00f50d3e) | Easy | — |
+| **Upstart** | [Format Bytes into Human-Readable String (B/KB/MB)](https://trueinterview.io/questions/51be1242-45a4-47fc-9f37-e1bcd9800d17) | Easy | — |
+| **Tradedesk** | [Earn the Most](https://trueinterview.io/questions/de01d1f2-f8dc-44ab-a3ac-256f97bf946b) | Hard | — |
+| **Tradedesk / Google / NVIDIA** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Medium | — |
+| **Tradedesk** | [Fastest Benchmark Completion in Activity](https://trueinterview.io/questions/3c61ef86-b26e-4cc4-88cf-3258acb9f8c8) | Medium | — |
+| **Tradedesk** | [Calculate Bowling Game Score](https://trueinterview.io/questions/130f3e31-30ed-5be4-8247-1683346d0c62) | Medium | — |
+| **Squarepoint** | [Compute EMA Indicators and Detect Crossovers in Pandas](https://trueinterview.io/questions/eec3b2bb-0fda-44b2-bc31-5efa0e915e2d) | Easy | — |
+| **Squarepoint** | [Most Frequent Character with Lexicographical Tie-Breaking](https://trueinterview.io/questions/d51e32aa-3b44-5206-a122-5dc924dc34c9) | Easy | — |
+| **Squarepoint** | [Maximize revenue by selling items with diminishing price](https://trueinterview.io/questions/c198810d-3a95-4eda-99ad-a34acf587680) | Medium | — |
+| **Squarepoint** | [Implement Square Root Without Using sqrt (Precision Required)](https://trueinterview.io/questions/9e64a322-382b-47f3-8bdf-41f3a925fe32) | Medium | — |
+| **Squarepoint** | [Line by Line Document Generator](https://trueinterview.io/questions/8329ecc5-bc14-44bc-b6aa-1077c5677727) | Medium | — |
+| **Squarepoint** | [Merge Two Sorted Vectors](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) | Easy | — |
+| **Squarepoint** | [Grasshopper Problem](https://trueinterview.io/questions/6963da19-4f4b-4340-8237-43ced6656932) | Easy | — |
+| **Squarepoint** | [Minimum Number of Umbrellas](https://trueinterview.io/questions/3b3782d9-dd83-4be7-a787-f7c182f4ab30) | Medium | — |
+| **Squarepoint** | [Counting Words in a Text](https://trueinterview.io/questions/059bd91c-1f39-44d5-a729-775a1192ee7d) | Easy | — |
+| **Rubrik** | [Validate BFS Order on a Tree Built from Two Parent Vectors](https://trueinterview.io/questions/f23be60c-a2d3-405e-8606-bfd7b48410ba) | Hard | — |
+| **Rubrik** | [String Shift](https://trueinterview.io/questions/dae58234-6fb4-4c0f-9168-307c63e27905) | Easy | — |
+| **Rubrik** | [Simulate Stack](https://trueinterview.io/questions/57564f74-e5ee-4e1d-b65e-82d5eed72cfb) | Medium | — |
+| **Rubrik** | [Maximum Group Size by Overlapping Work Intervals (Connectivity via Overlap Paths)](https://trueinterview.io/questions/3fbf828e-0468-4c8c-b447-a341b471394a) | Medium | — |
+| **Point72** | [Pandas Data Wrangling](https://trueinterview.io/questions/b62a7a6c-e26a-4b8f-805b-1178f1b1b907) | Medium | — |
+| **Point72** | [Optimal Stopping with Up to Three Dice Rolls](https://trueinterview.io/questions/9eff884a-bb19-5ad4-9e9e-a278febdd3be) | Medium | — |
+| **Point72** | [Find Minimum in Rotated Sorted Array](https://trueinterview.io/questions/8cf40fc4-93d8-5172-8ff4-5f12c477c26c) | Medium | — |
+| **Point72** | [Find the Largest and Second Largest Elements](https://trueinterview.io/questions/8c65387b-27b5-51c6-b5da-e91b21e11a27) | Medium | — |
+| **Point72** | [Implement DictMixin and JSONMixin for object serialization](https://trueinterview.io/questions/7ad69fb1-c9a9-4b36-b763-d2f45f47cecc) | Easy | — |
+| **Point72** | [Simulate a Deterministic Finite Automaton](https://trueinterview.io/questions/0283970d-03dd-5dec-9c2f-df143d712cfe) | Easy | — |
+| **PayPal** | [Binary Search Tree Pruning](https://trueinterview.io/questions/96ce5b2a-e210-4161-8bb4-f820289d7605) | Medium | — |
+| **PayPal** | [Minimum Steps to Move Balls to Respective Holes](https://trueinterview.io/questions/34c74942-4b06-414a-a41c-67e01abccddb) | Hard | — |
+| **PayPal** | [Number of Unique Binary Trees](https://trueinterview.io/questions/25b64cd7-2596-4ac5-bdf2-abd7cc18aeb0) | Medium | — |
+| **PayPal** | [Graph Traversal using BFS/DFS](https://trueinterview.io/questions/14dcf4e9-f252-4713-b8d1-6cc42457502f) | Easy | — |
+| **Hudson River Trading** | [K Smallest Elements in an Unsorted Array](https://trueinterview.io/questions/eedce876-cde5-54ca-857e-b37f64e93d72) | Medium | — |
+| **Hudson River Trading** | [Implement buffer readers for char/int/string with pointer advancement](https://trueinterview.io/questions/dd77f43b-876b-4c4a-828b-2e48ea7294dc) | Medium | — |
+| **Hudson River Trading** | [Implement a Coroutine Step by Step](https://trueinterview.io/questions/c0380879-c2f8-4102-a3e7-20383793ed48) | Easy | — |
+| **Hudson River Trading** | [Two Sum Existence](https://trueinterview.io/questions/4afb91f6-e5ba-5712-a1db-c2970accb228) | Easy | — |
+| **Hudson River Trading** | [Implement itoa()](https://trueinterview.io/questions/4856d68c-2108-40c6-aac6-9ef1c545e397) | Medium | — |
+| **Expedia** | [Number of Provinces](https://trueinterview.io/questions/d781c7bb-6a85-41d4-bca8-7d9e17afd3e2) | Medium | — |
+| **Expedia** | [Maximize Hole in Prison Gate](https://trueinterview.io/questions/be2c1ee9-51d6-5cb4-aabc-f5c9b3298817) | Medium | — |
+| **Expedia** | [Merge One Linked List Into Another Between Two Indices](https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69) | Medium | — |
+| **Expedia** | [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d) | Hard | — |
+| **Expedia** | [Parse a JSON string and extract required information (open-ended)](https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce) | Medium | — |
+| **Expedia** | [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f) | Medium | — |
+| **Expedia** | [Count Strongly Connected Components Using Kosaraju's Algorithm](https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6) | Medium | — |
+| **Expedia** | [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9) | Hard | — |
+| **Expedia** | [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0) | Medium | — |
+| **Expedia** | [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) | Hard | — |
+| **Ebay** | [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b) | Medium | — |
+| **Ebay** | [Find Pattern Matching Words](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09) | Hard | — |
+| **Ebay** | [Balloon Explosion](https://trueinterview.io/questions/bec1bae5-6bc3-4a83-8430-077c684da76c) | Hard | — |
+| **Ebay** | [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b) | Medium | — |
+| **Ebay** | [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4) | Medium | — |
+| **Dropbox** | [Worker Registration Payroll Calculation](https://trueinterview.io/questions/c7dcf405-b5b0-405d-9164-b770da49caa0) | Medium | — |
+| **Dropbox** | [Word Guessing Feedback](https://trueinterview.io/questions/066f3b72-1a40-4fca-8001-eecd1ddc3565) | Easy | — |
+| **Datadog** | [File System Deletion](https://trueinterview.io/questions/f72ed4df-74c4-5b6f-94fd-d875a160e518) | Medium | — |
+| **Datadog** | [Implement Binary Focal Loss](https://trueinterview.io/questions/5bb12488-878a-5601-87cd-e71d171a50cc) | Easy | — |
+| **Datadog** | [Implement Grouped Query Attention Forward Pass](https://trueinterview.io/questions/25f251c6-3d69-5c7b-8143-1e0ac7df76d7) | Medium | — |
+| **Datadog** | [Latency Bucket Counter](https://trueinterview.io/questions/1cc17a7f-061a-481b-9748-074d43ffda9e) | Easy | — |
+| **Confluent** | [Retrieve Token List](https://trueinterview.io/questions/cc6a0750-1741-4f8c-bdb3-7cca719d0b30) | Easy | — |
+| **Confluent** | [Implement n-tail (return last n elements)](https://trueinterview.io/questions/c97ba551-772a-4164-8eef-2fde784db5f4) | Easy | — |
+| **Confluent** | [Warehouse Loading: Reach TargetWeight at Any Point with Reordered +/- Weights](https://trueinterview.io/questions/a15b120c-3931-4891-9663-20471e3207cb) | Medium | — |
+| **Confluent** | [Variadic Function Matching](https://trueinterview.io/questions/11a4e0a4-82a6-4aa2-9265-eb5e09144062) | Medium | — |
+| **Applied Intuition** | [Analyze Vehicle JSON Log](https://trueinterview.io/questions/d091f935-1e00-4404-9eb1-7b80c3db58f4) | Easy | — |
+| **Applied Intuition** | [Evaluate Formula](https://trueinterview.io/questions/b5cadb8e-2958-451a-ab72-6790820c5946) | Hard | — |
+| **Applied Intuition** | [Parse String](https://trueinterview.io/questions/85e44d08-cdef-4933-a912-c1217e339beb) | Easy | — |
+| **Applied Intuition** | [Resolve Variable Equations with Missing References and Cycles](https://trueinterview.io/questions/7d61d567-677d-5d12-a42f-d280477bfca1) | Medium | — |
+| **Applied Intuition** | [Find all points in a 2D plane](https://trueinterview.io/questions/68e151e2-a6e3-4ba3-8e33-ea5a38671887) | Hard | — |
+| **Applied Intuition** | [Merge 2D Line Segments](https://trueinterview.io/questions/61f47413-b128-4a85-bec3-36b12034e2a1) | Hard | — |
+| **Applied Intuition** | [First Collision Time in a Multi-Agent Unicycle Simulator](https://trueinterview.io/questions/602b6710-f264-58a7-8e1e-56e2c9cac37c) | Medium | — |
+| **Applied Intuition** | [Route Curve Simplification Function](https://trueinterview.io/questions/15694479-bf76-4767-95c9-6f076cc48020) | Medium | — |
+| **Applied Intuition** | [Sensor Data Query Processor](https://trueinterview.io/questions/12f19a25-7175-5224-8bf1-2e6262350b76) | Medium | — |
+| **Squarepoint** | [Sentence Variations with Anagram](https://trueinterview.io/questions/715c9fe9-1402-470e-b461-3433e80ff0f9) | Medium | — |
+| **Squarepoint** | [Generate Unique Usernames](https://trueinterview.io/questions/1ac76be5-90d6-4f8f-b5af-24baa7b56ea9) | Medium | — |
+| **Point72** | [Portfolio Trading Optimizer (Multiple Transactions + Input Validation + Report)](https://trueinterview.io/questions/931ca2a6-3886-4c5c-84f7-d2208582067e) | Medium | — |
+| **Hudson River Trading** | [1D Players and Watcher With Direction Changes](https://trueinterview.io/questions/d1e3b28c-0c0a-402a-8f90-9cbcd0400b77) | Hard | — |
+| **Datadog** | [Log Ingestion and Query](https://trueinterview.io/questions/c10482fd-12d2-4f57-8a05-f821a2f2d1c0) | Medium | — |
+| **Dropbox** | [Hangman Optimal Strategy](https://trueinterview.io/questions/03d208eb-7407-4966-b8c0-0f063d5fa252) | Hard | — |
+| **Applied Intuition** | [Finding Optimal Camp Location](https://trueinterview.io/questions/9cea9ab2-6484-4533-b59d-0020053aee3d) | Hard | — |
+| **Confluent** | [Tail N Lines](https://trueinterview.io/questions/539150a1-3189-5c3f-8455-d57c9fea2417) | Medium | — |
+| **Instacart** | [Design and Implement Idempotent Library Notifications for Due Dates and Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39) | Medium | — |
+| **Airbnb** | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Medium | — |
+| **Meta / Amazon** | [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Medium | — |
 
-<sub>[← Page 7](algorithm-7.md) · Page 8 of 11 · [Page 9 →](algorithm-9.md)</sub>
+<sub>[← Page 7](algorithm-7.md) · Page 8 of 10 · [Page 9 →](algorithm-9.md)</sub>

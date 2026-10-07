@@ -8,11 +8,11 @@ How Thumbtack interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [6](../thumbtack.md) |
+| Questions reported | [5](../thumbtack.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
-| Most recent sighting | Jan 09, 2026 |
+| Most recent sighting | — |
 
 ## How Thumbtack interviews
 
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../thumbtack.md#the-loop-a
 
 ## Everything else
 
-- [All 6 questions reported at Thumbtack](../thumbtack.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 5 questions reported at Thumbtack](../thumbtack.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Thumbtack question on TrueInterview](https://trueinterview.io/problems/company/thumbtack).
 
 ---

@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**343 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**337 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,12 +10,6 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Keypad Letter Combination](https://trueinterview.io/questions/keypad-letter-combination-2) | Algorithm | Medium | — |
-| [Second Highest Salary](https://trueinterview.io/questions/second-highest-salary-3) | SQL | Easy | — |
-| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
-| [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Medium | — |
-| [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
-| [Analyze Locations AI Algorithm](https://trueinterview.io/questions/b4a0a464-9517-4f9c-857f-51f0132159ca) | AI Coding | Hard | — |
 | [Implement a ReAct-style Agent Loop with Given APIs](https://trueinterview.io/questions/a81a953d-0af2-4e47-85bd-a1243047e6d9) | AI Coding | Hard | — |
 | [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Algorithm | Medium | — |
 | [Parse System Metrics and Warn on Threshold Breaches](https://trueinterview.io/questions/7cb3cfba-be69-52a2-bb54-8ffac2c723c4) | Algorithm | Easy | — |

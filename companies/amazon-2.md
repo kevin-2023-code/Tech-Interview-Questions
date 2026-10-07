@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**330 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**320 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,16 +10,6 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | System Design | Hard | — |
-| [Design Amazon Kindle](https://trueinterview.io/questions/design-amazon-kindle) | Object Oriented Programming | Easy | — |
-| [Design Amazon Locker](https://trueinterview.io/questions/design-amazon-locker) | System Design | Medium | — |
-| [Design Realtime Temperature Monitoring System](https://trueinterview.io/questions/design-realtime-temperature-monitoring-system) | System Design | Medium | — |
-| [Reversi Move Simulation](https://trueinterview.io/questions/reversi-move-simulation-2) | Algorithm | Medium | — |
-| [Design Unix Find Command](https://trueinterview.io/questions/design-unix-find-command-2) | Object Oriented Programming | Medium | — |
-| [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
-| [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
-| [Design a Library Management System](https://trueinterview.io/questions/design-a-library-management-system) | Object Oriented Programming | Medium | — |
-| [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search) | Object Oriented Programming | Hard | — |
 | [Design Tic-Tac-Toc](https://trueinterview.io/questions/design-tic-tac-toc) | Object Oriented Programming | Easy | — |
 | [Design Elevator Control System](https://trueinterview.io/questions/design-elevator-control-system) | Object Oriented Programming | Medium | — |
 | [Make Array Bitonic](https://trueinterview.io/questions/make-array-bitonic) | Algorithm | Hard | — |

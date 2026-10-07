@@ -2,7 +2,7 @@
 
 # Capital One interview process, OA & interview questions
 
-**89 questions** reported at Capital One · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
+**84 questions** reported at Capital One · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/capital-one), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Capital One interviews & the free questions](capital-one/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **89** |
+| Questions tracked | **84** |
 | Most recent sighting | Sep 16, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (56% of 89) |
-| Difficulty (easy / medium / hard) | 11 / 55 / 23 |
+| Most common format | [Algorithm](../formats/algorithm.md) (54% of 84) |
+| Difficulty (easy / medium / hard) | 11 / 52 / 21 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 89 questions reported at Capital One. 45 of them carry a sighting date; the other 44 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 84 questions reported at Capital One. 45 of them carry a sighting date; the other 39 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **89 of 89** questions at Capital One that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **84 of 84** questions at Capital One that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 38 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 10 / 25 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 26 | ███████ | [Algorithm](../formats/algorithm.md) (46%) | 0 / 16 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 25 | ███████ | [System Design](../formats/system-design.md) (48%) | 1 / 14 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 37 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 10 / 24 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 23 | ██████ | [Algorithm](../formats/algorithm.md) (39%) | 0 / 15 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 24 | ██████ | [System Design](../formats/system-design.md) (50%) | 1 / 13 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -50,7 +50,7 @@ Which stage each question came from, for the **89 of 89** questions at Capital O
 
 ## What they ask about
 
-Of the **40 questions at Capital One that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **40 questions at Capital One that carry a topic label** (48% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -169,7 +169,6 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Design a highly reliable account balance system](https://trueinterview.io/questions/design-a-highly-reliable-account-balance-system) | System Design | Hard | Dec 25, 2025 |
 | [Design a cross-region event processing platform](https://trueinterview.io/questions/design-a-cross-region-event-processing-platform) | System Design | Hard | Dec 25, 2025 |
 | [Process Execution Time (Merge Inclusive Intervals)](https://trueinterview.io/questions/process-execution-time-merge-intervals) | Algorithm | Medium | Nov 03, 2025 |
-| [Refactor code and enforce robustness](https://trueinterview.io/questions/refactor-code-and-enforce-robustness) | Algorithm | Medium | — |
 | [Prevent data registration outage and reduce loss](https://trueinterview.io/questions/prevent-data-registration-outage-and-reduce-loss) | System Design | Hard | — |
 | [Optimize theme park queues and revenue](https://trueinterview.io/questions/optimize-theme-park-queues-and-revenue) | System Design | Hard | — |
 | [Identify and mitigate risks to break-even](https://trueinterview.io/questions/identify-and-mitigate-risks-to-break-even) | System Design | Hard | — |
@@ -179,7 +178,6 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Design a production face recognition system](https://trueinterview.io/questions/design-a-production-face-recognition-system) | System Design | Medium | — |
 | [Decide content volume and price under uncertainty](https://trueinterview.io/questions/decide-content-volume-and-price-under-uncertainty) | System Design | Hard | — |
 | [Choose cashback segment and model post-launch impact](https://trueinterview.io/questions/choose-cashback-segment-and-model-post-launch-impact) | System Design | Medium | — |
-| [Build and validate a binary classifier](https://trueinterview.io/questions/build-and-validate-a-binary-classifier) | Algorithm | Medium | — |
 | [Build a causal ML pipeline end-to-end](https://trueinterview.io/questions/build-a-causal-ml-pipeline-end-to-end) | System Design | Hard | — |
 | [Write SQL to quantify outage revenue loss](https://trueinterview.io/questions/write-sql-to-quantify-outage-revenue-loss) | SQL | Hard | — |
 | [Write SQL to find top net-revenue products](https://trueinterview.io/questions/write-sql-to-find-top-net-revenue-products) | SQL | Medium | — |
@@ -188,10 +186,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | [Reconcile ledgers with SQL/Python and late events](https://trueinterview.io/questions/reconcile-ledgers-with-sql-python-and-late-events) | SQL | Hard | — |
 | [Optimize invites under capacity constraints](https://trueinterview.io/questions/optimize-invites-under-capacity-constraints) | Algorithm | Medium | — |
 | [Merge seven tables into one clean DataFrame](https://trueinterview.io/questions/merge-seven-tables-into-one-clean-dataframe) | Algorithm | Medium | — |
-| [Merge four CSVs locally, robustly and efficiently](https://trueinterview.io/questions/merge-four-csvs-locally-robustly-and-efficiently) | Algorithm | Hard | — |
-| [Merge CSVs and build revenue pivot with pandas](https://trueinterview.io/questions/merge-csvs-and-build-revenue-pivot-with-pandas) | Algorithm | Medium | — |
 | [Merge ad CSVs and compute CTR](https://trueinterview.io/questions/merge-ad-csvs-and-compute-ctr) | SQL | Hard | — |
-| [Impute missing values without leakage](https://trueinterview.io/questions/impute-missing-values-without-leakage) | Algorithm | Hard | — |
 | [Impute, join, and upsert using SQL and Python](https://trueinterview.io/questions/impute-join-and-upsert-using-sql-and-python) | SQL | Medium | — |
 | [Identify country with highest sunny-day probability](https://trueinterview.io/questions/identify-country-with-highest-sunny-day-probability) | SQL | Medium | — |
 | [Fix dash dates and aggregate watch time](https://trueinterview.io/questions/fix-dash-dates-and-aggregate-watch-time) | SQL | Medium | — |

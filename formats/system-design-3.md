@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**693 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**691 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,8 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Two Sigma** | [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data) | Hard | Dec 02, 2025 |
-| **Meta** | [Model entities for feed content and shares](https://trueinterview.io/questions/model-entities-for-feed-content-and-shares) | Medium | Dec 01, 2025 |
 | **Coinbase** | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | Medium | Dec 01, 2025 |
 | **Airbnb** | [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search) | Medium | Nov 30, 2025 |
 | **Apple** | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system) | Medium | Nov 30, 2025 |

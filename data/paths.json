@@ -378,6 +378,7 @@
  "question:commodity-price-checkpoints": "questions/object-oriented-programming/commodity-price-checkpoints",
  "question:compliance-alert-sliding-window": "questions/algorithm/compliance-alert-sliding-window",
  "question:compress-consecutive-ranges": "questions/algorithm/compress-consecutive-ranges",
+ "question:compute-age-band-spend-and-yoy-in-georgia": "questions/sql/compute-age-band-spend-and-yoy-in-georgia",
  "question:compute-daily-net-users-from-event-logs": "questions/sql/compute-daily-net-users-from-event-logs",
  "question:compute-dau-and-rolling-mau-with-zero-days": "questions/sql/compute-dau-and-rolling-mau-with-zero-days",
  "question:compute-moderation-view-metrics": "questions/sql/compute-moderation-view-metrics",

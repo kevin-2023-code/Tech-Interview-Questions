@@ -2,7 +2,7 @@
 
 # Shopify interview process, OA & interview questions
 
-**26 questions** reported at Shopify · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
+**25 questions** reported at Shopify · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/shopify), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Shopify interviews & the free questions](shopify/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **26** |
+| Questions tracked | **25** |
 | Most recent sighting | Sep 07, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (46% of 26) |
-| Difficulty (easy / medium / hard) | 5 / 17 / 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (48% of 25) |
+| Difficulty (easy / medium / hard) | 5 / 17 / 3 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 26 questions reported at Shopify. 21 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 25 questions reported at Shopify. 20 of them carry a sighting date; the other 5 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **26 of 26** questions at Shopify that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **25 of 25** questions at Shopify that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 3 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 12 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 1 / 9 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 11 | █████████ | [System Design](../formats/system-design.md) (55%) | 1 / 7 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 10 | ████████ | [System Design](../formats/system-design.md) (50%) | 1 / 7 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -46,7 +46,7 @@ Which stage each question came from, for the **26 of 26** questions at Shopify t
 
 ## What they ask about
 
-Of the **15 questions at Shopify that carry a topic label** (58% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at Shopify that carry a topic label** (60% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -69,14 +69,14 @@ Every recorded sighting at Shopify, by the month it was reported in — Jun 19, 
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 1 | ███ |
-| [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
-| [May 2026](../by-month/2026-05.md) | 3 | ██████████ |
-| [Apr 2026](../by-month/2026-04.md) | 7 | ████████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | ███████ |
-| [Jan 2026](../by-month/2026-01.md) | 2 | ███████ |
-| [Aug 2025](../by-month/2025-08.md) | 4 | ██████████████ |
-| [Jun 2025](../by-month/2025-06.md) | 1 | ███ |
+| [Sep 2026](../by-month/2026-09.md) | 1 | ████ |
+| [Jun 2026](../by-month/2026-06.md) | 1 | ████ |
+| [May 2026](../by-month/2026-05.md) | 3 | ████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 6 | ████████████████████████ |
+| [Feb 2026](../by-month/2026-02.md) | 2 | ████████ |
+| [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
+| [Aug 2025](../by-month/2025-08.md) | 4 | ████████████████ |
+| [Jun 2025](../by-month/2025-06.md) | 1 | ████ |
 
 ## Start here
 
@@ -123,7 +123,6 @@ The 8 questions to open first if you are preparing for Shopify, ranked by **the 
 | [Analyze Pirated Theme Usage Impact](https://trueinterview.io/questions/analyze-pirated-theme-usage-impact) | SQL | Medium | Apr 28, 2026 |
 | [LRU Cache with Expiration](https://trueinterview.io/questions/lru-cache-with-expiration) | Object Oriented Programming | Medium | Apr 14, 2026 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | AI Coding | Medium | Apr 09, 2026 |
-| [Model Product Ranking](https://trueinterview.io/questions/model-product-ranking) | System Design | Hard | Apr 01, 2026 |
 | [Design Personalized Product Feeds](https://trueinterview.io/questions/design-personalized-product-feeds) | System Design | Medium | Apr 01, 2026 |
 | [Design search autocomplete ML system](https://trueinterview.io/questions/design-search-autocomplete-ml-system) | System Design | Hard | Feb 18, 2026 |
 | [Build model to predict package delivery time](https://trueinterview.io/questions/build-model-to-predict-package-delivery-time) | System Design | Medium | Feb 18, 2026 |

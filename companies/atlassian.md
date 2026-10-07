@@ -2,7 +2,7 @@
 
 # Atlassian interview process, OA & interview questions
 
-**62 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
+**61 questions** reported at Atlassian · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/atlassian), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Atlassian interviews & the free questions](atlassian/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **62** |
+| Questions tracked | **61** |
 | Most recent sighting | Sep 04, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [Algorithm](../formats/algorithm.md) (45% of 62) |
-| Difficulty (easy / medium / hard) | 16 / 40 / 6 |
+| Most common format | [Algorithm](../formats/algorithm.md) (44% of 61) |
+| Difficulty (easy / medium / hard) | 16 / 39 / 6 |
 | Free to practise | [16](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 62 questions reported at Atlassian. 39 of them carry a sighting date; the other 23 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 61 questions reported at Atlassian. 39 of them carry a sighting date; the other 22 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **62 of 62** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **61 of 61** questions at Atlassian that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 4 | █ | [Algorithm](../formats/algorithm.md) (100%) | 4 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 28 | ████████ | [Algorithm](../formats/algorithm.md) (61%) | 4 / 22 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 27 | ███████ | [Algorithm](../formats/algorithm.md) (59%) | 4 / 21 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 37 | ██████████ | [System Design](../formats/system-design.md) (46%) | 8 / 24 / 5 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -49,20 +49,20 @@ Which stage each question came from, for the **62 of 62** questions at Atlassian
 
 ## What they ask about
 
-Of the **29 questions at Atlassian that carry a topic label** (47% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **28 questions at Atlassian that carry a topic label** (46% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `hashing` | 8 | 28% | ████████████ | Aug 26, 2026 |
+| `hashing` | 8 | 29% | ████████████ | Aug 26, 2026 |
 | `graphs` | 4 | 14% | ██████ | Apr 21, 2026 |
 | `greedy` | 4 | 14% | ██████ | Apr 01, 2026 |
 | `sliding-window` | 4 | 14% | ██████ | May 01, 2026 |
-| `sorting` | 3 | 10% | ████ | Oct 02, 2025 |
+| `sorting` | 3 | 11% | ████ | Oct 02, 2025 |
 | `arrays` | 2 | 7% | ███ | Oct 02, 2025 |
 | `heap` | 2 | 7% | ███ | Feb 23, 2026 |
 | `strings` | 2 | 7% | ███ | Aug 26, 2026 |
 | `two-pointers` | 2 | 7% | ███ | — |
-| `backtracking` | 1 | 3% | ██ | Feb 26, 2026 |
+| `backtracking` | 1 | 4% | ██ | Feb 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -161,7 +161,6 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Commodity Price Checkpoints](https://trueinterview.io/questions/commodity-price-checkpoints) | Object Oriented Programming | Medium | Sep 12, 2025 |
 | [Minimize Shopping Department Visits](https://trueinterview.io/questions/shopping-category-trip-difference) | Algorithm | Easy | Jul 03, 2025 |
 | [Campground Carpool](https://trueinterview.io/questions/karat-carpool-linear-routes) | Algorithm | Medium | Jul 03, 2025 |
-| [Train and evaluate logistic model with regularization](https://trueinterview.io/questions/train-and-evaluate-logistic-model-with-regularization) | Algorithm | Medium | — |
 | [Rank each team’s top 3 scores in 2024](https://trueinterview.io/questions/rank-each-teams-top-3-scores-in-2024) | SQL | Medium | — |
 | [Label game performance by margin](https://trueinterview.io/questions/label-game-performance-by-margin) | Algorithm | Medium | — |
 | [Find 2023 NCAA championship winner](https://trueinterview.io/questions/find-2023-ncaa-championship-winner) | SQL | Medium | — |

@@ -2,7 +2,7 @@
 
 # ☁️ Developer tools, cloud & data infrastructure — interview & OA questions
 
-**273 questions** reported across the **7 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**270 questions** reported across the **7 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,9 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Snowflake** | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4) | Medium | — |
-| **Snowflake** | [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Medium | — |
-| **Snowflake** | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Hard | — |
 | **Snowflake** | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Hard | — |
 | **Perplexity / Datadog** | [Design Mint.com](https://trueinterview.io/questions/mint-com) | Medium | — |
 | **Netflix / Apple / Snowflake** | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | Medium | — |

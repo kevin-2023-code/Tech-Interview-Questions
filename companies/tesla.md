@@ -2,7 +2,7 @@
 
 # Tesla interview process, OA & interview questions
 
-**44 questions** reported at Tesla · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
+**43 questions** reported at Tesla · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/tesla), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Tesla interviews & the free questions](tesla/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,44 +14,43 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **44** |
+| Questions tracked | **43** |
 | Most recent sighting | Sep 04, 2026 |
-| Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 44) |
-| Difficulty (easy / medium / hard) | 3 / 31 / 10 |
+| Reported in the last 90 days | 4 |
+| Most common format | [Algorithm](../formats/algorithm.md) (49% of 43) |
+| Difficulty (easy / medium / hard) | 3 / 30 / 10 |
 | Free to practise | [9](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 44 questions reported at Tesla. 35 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 43 questions reported at Tesla. 34 of them carry a sighting date; the other 9 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **44 of 44** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **43 of 43** questions at Tesla that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 5 | ██ | [SQL](../formats/sql.md) (60%) | 1 / 4 / 0 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 27 | ██████████ | [Algorithm](../formats/algorithm.md) (59%) | 1 / 19 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 13 | █████ | [System Design](../formats/system-design.md) (38%) | 1 / 9 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 12 | ████ | [System Design](../formats/system-design.md) (42%) | 1 / 8 / 3 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**5 sightings** in this window. Newest first.
+**4 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Object Oriented Programming | Medium | Phone screen | Sep 04, 2026 |
 | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | System Design | Medium | Phone screen | Sep 01, 2026 |
-| [Coordinate Counter Updates Across Threads](https://trueinterview.io/questions/coordinate-counter-updates-across-threads) | Algorithm | Medium | Onsite / virtual onsite | Aug 24, 2026 |
 | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | System Design | Hard | Onsite / virtual onsite | Aug 24, 2026 |
 | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | System Design | Hard | Onsite / virtual onsite | Aug 24, 2026 |
 
 ## What they ask about
 
-Of the **18 questions at Tesla that carry a topic label** (41% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **18 questions at Tesla that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -75,7 +74,7 @@ Every recorded sighting at Tesla, by the month it was reported in — Jul 04, 20
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 2 | ██████████ |
-| [Aug 2026](../by-month/2026-08.md) | 3 | ██████████████ |
+| [Aug 2026](../by-month/2026-08.md) | 2 | ██████████ |
 | [Jun 2026](../by-month/2026-06.md) | 2 | ██████████ |
 | [May 2026](../by-month/2026-05.md) | 2 | ██████████ |
 | [Apr 2026](../by-month/2026-04.md) | 5 | ████████████████████████ |
@@ -91,18 +90,18 @@ Every recorded sighting at Tesla, by the month it was reported in — Jul 04, 20
 
 ## Start here
 
-The 8 questions to open first if you are preparing for Tesla, ranked by **the most recently reported** — a fact about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. No row here is recorded at another employer, so the usual second key separates nothing and the easier questions come first instead. 🆓 opens without a paid plan.
+The 8 questions to open first if you are preparing for Tesla, ranked by **the most recently reported, then the ones the most other companies also ask**. Both are facts about the bank rather than an opinion of ours, and an undated question sorts last rather than being guessed at a date. 🆓 opens without a paid plan.
 
 | # | Question | Format | Difficulty | Also asked at | Reported |
 | --: | :-- | :-- | :-: | --: | :-- |
 | **1** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Object Oriented Programming | Medium | — | Sep 04, 2026 |
 | **2** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | System Design | Medium | — | Sep 01, 2026 |
-| **3** | [Coordinate Counter Updates Across Threads](https://trueinterview.io/questions/coordinate-counter-updates-across-threads) | Algorithm | Medium | — | Aug 24, 2026 |
-| **4** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | System Design | Hard | — | Aug 24, 2026 |
-| **5** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | System Design | Hard | — | Aug 24, 2026 |
-| **6** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | — | Jun 03, 2026 |
-| **7** | [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset) | Algorithm | Medium | — | Jun 01, 2026 |
-| **8** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | — | May 27, 2026 |
+| **3** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | System Design | Hard | — | Aug 24, 2026 |
+| **4** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | System Design | Hard | — | Aug 24, 2026 |
+| **5** | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | — | Jun 03, 2026 |
+| **6** | [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset) | Algorithm | Medium | — | Jun 01, 2026 |
+| **7** | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | — | May 27, 2026 |
+| **8** | [Design Dropbox](https://trueinterview.io/questions/design-dropbox) 🆓 | System Design | Hard | 4 | May 03, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -130,7 +129,6 @@ The 8 questions to open first if you are preparing for Tesla, ranked by **the mo
 | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | System Design | Medium | 🆕 Sep 01, 2026 |
 | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | System Design | Hard | 🆕 Aug 24, 2026 |
 | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | System Design | Hard | 🆕 Aug 24, 2026 |
-| [Coordinate Counter Updates Across Threads](https://trueinterview.io/questions/coordinate-counter-updates-across-threads) | Algorithm | Medium | 🆕 Aug 24, 2026 |
 | [Bulls and Cows with Per-Position Match Signal](https://trueinterview.io/questions/bulls-and-cows-position-signal) | Algorithm | Medium | Jun 03, 2026 |
 | [Find Size of Largest Subset](https://trueinterview.io/questions/find-size-of-largest-subset) | Algorithm | Medium | Jun 01, 2026 |
 | [Task Scheduler with Timed Execution and Dynamic Insertion](https://trueinterview.io/questions/task-scheduler-timed-execution) | Algorithm | Hard | May 27, 2026 |

@@ -2,7 +2,7 @@
 
 # 💳 Fintech, payments & crypto — interview & OA questions
 
-**367 questions** reported across the **14 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**362 questions** reported across the **14 Fintech, payments & crypto employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Stripe (94)](../companies/stripe.md) · [Coinbase (71)](../companies/coinbase.md) · [Robinhood (43)](../companies/robinhood.md) · [Ramp (33)](../companies/ramp.md) · [Upstart (31)](../companies/upstart.md) · [SoFi (30)](../companies/sofi.md) · [PayPal (24)](../companies/paypal.md) · [Affirm (17)](../companies/affirm.md) · [Square (14)](../companies/square.md) · [Airwallex (8)](../companies/airwallex.md) · [Circle (6)](../companies/circle.md) · [Block (5)](../companies/block.md) · [OKX (5)](../companies/okx.md) · [Brex (3)](../companies/brex.md)
+[Stripe (93)](../companies/stripe.md) · [Coinbase (70)](../companies/coinbase.md) · [Robinhood (43)](../companies/robinhood.md) · [Ramp (33)](../companies/ramp.md) · [SoFi (30)](../companies/sofi.md) · [Upstart (29)](../companies/upstart.md) · [PayPal (23)](../companies/paypal.md) · [Affirm (17)](../companies/affirm.md) · [Square (14)](../companies/square.md) · [Airwallex (8)](../companies/airwallex.md) · [Circle (6)](../companies/circle.md) · [Block (5)](../companies/block.md) · [OKX (5)](../companies/okx.md) · [Brex (3)](../companies/brex.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 205 | 56% | ██████████████ | 31 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 71 | 19% | █████ | 12 |
-| [System Design](../formats/system-design.md) | 50 | 14% | ███ | 7 |
+| [Algorithm](../formats/algorithm.md) | 200 | 55% | ██████████████ | 31 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 71 | 20% | █████ | 12 |
+| [System Design](../formats/system-design.md) | 50 | 14% | ████ | 7 |
 | [AI Coding](../formats/ai-coding.md) | 24 | 7% | ██ | 3 |
 | [SQL](../formats/sql.md) | 17 | 5% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **79 / 227 / 61**, over the rows the catalog has graded. 54 of the 367 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **79 / 225 / 58**, over the rows the catalog has graded. 54 of the 362 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **204 questions in this cut that carry a topic label** (56% of it):
+Of the **200 questions in this cut that carry a topic label** (55% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `hashing` | 56 | 27% | ████████████ |
+| `hashing` | 56 | 28% | ████████████ |
 | `strings` | 40 | 20% | █████████ |
-| `graphs` | 27 | 13% | ██████ |
-| `greedy` | 23 | 11% | █████ |
+| `graphs` | 27 | 14% | ██████ |
+| `greedy` | 23 | 12% | █████ |
 | `arrays` | 18 | 9% | ████ |
-| `sorting` | 15 | 7% | ███ |
+| `sorting` | 15 | 8% | ███ |
 | `dynamic-programming` | 13 | 6% | ███ |
-| `math` | 12 | 6% | ███ |
-| `trees` | 11 | 5% | ██ |
+| `trees` | 11 | 6% | ██ |
 | `backtracking` | 9 | 4% | ██ |
+| `math` | 9 | 4% | ██ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -242,11 +242,9 @@ Of the **204 questions in this cut that carry a topic label** (56% of it):
 | **Coinbase / Anthropic / HubSpot / Ramp** | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Medium | Dec 15, 2025 |
 | **Stripe** | [Moshi JSON Library](https://trueinterview.io/questions/debug-moshi-json-library) | Medium | Dec 14, 2025 |
 | **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
-| **Upstart** | [Implement factorial and count trailing zeros](https://trueinterview.io/questions/implement-factorial-and-count-trailing-zeros) | Medium | Dec 09, 2025 |
 | **PayPal** | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | Medium | Dec 07, 2025 |
 | **Stripe / Amazon / Atlassian / Google / Microsoft / Pinterest / Roblox / Snapchat / Snowflake / Waymo** | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Easy | Dec 06, 2025 |
 | **Coinbase** | [Write SQL to rank top products per category](https://trueinterview.io/questions/write-sql-to-rank-top-products-per-category) | Medium | Dec 04, 2025 |
-| **Coinbase** | [Build a baseline classification model from messy data](https://trueinterview.io/questions/build-a-baseline-classification-model-from-messy-data) | Medium | Dec 04, 2025 |
 | **Stripe** | [Linked User Records by Similarity](https://trueinterview.io/questions/record-linkage-similarity) | Hard | Dec 04, 2025 |
 | **Coinbase** | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | Medium | Dec 01, 2025 |
 | **Upstart** | [Implement decay simulation and trailing-zero counting](https://trueinterview.io/questions/implement-decay-simulation-and-trailing-zero-counting) | Medium | Nov 29, 2025 |
@@ -291,7 +289,6 @@ Of the **204 questions in this cut that carry a topic label** (56% of it):
 | **Robinhood** | [Find Middle Course](https://trueinterview.io/questions/find-middle-course) | Easy | Apr 10, 2025 |
 | **Ramp / Ebay** | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Easy | Apr 2025 |
 | **Robinhood** | [Prove causality for trading metric drop](https://trueinterview.io/questions/prove-causality-for-trading-metric-drop) | Hard | — |
-| **Upstart** | [Implement PAVA spend-smoothing under no-borrowing constraint](https://trueinterview.io/questions/implement-pava-spend-smoothing-under-no-borrowing-constraint) | Hard | — |
 | **Coinbase** | [Design KYC experiment amid crypto volatility](https://trueinterview.io/questions/design-kyc-experiment-amid-crypto-volatility) | Hard | — |
 | **Stripe** | [Design a model for subscription adoption prediction](https://trueinterview.io/questions/design-a-model-for-subscription-adoption-prediction) | Medium | — |
 | **SoFi** | [Design a fintech homepage ranker](https://trueinterview.io/questions/design-a-fintech-homepage-ranker) | Hard | — |
@@ -305,8 +302,6 @@ Of the **204 questions in this cut that carry a topic label** (56% of it):
 | **Upstart** | [Solve SQL CTR and Python analytics tasks](https://trueinterview.io/questions/solve-sql-ctr-and-python-analytics-tasks) | Medium | — |
 | **Coinbase** | [Shortest paths in a restaurant grid](https://trueinterview.io/questions/solve-restaurant-path-and-order-event-tasks-shortest-paths-in-a-restaurant-grid) | Hard | — |
 | **Coinbase** | [Paginate forward and backward through results](https://trueinterview.io/questions/paginate-forward-and-backward-through-results) | Medium | — |
-| **Stripe** | [Implement streaming per-user reservoir sampling](https://trueinterview.io/questions/implement-streaming-per-user-reservoir-sampling) | Hard | — |
-| **PayPal** | [Implement sliding-window device anomaly](https://trueinterview.io/questions/implement-sliding-window-device-anomaly) | Hard | — |
 | **Stripe** | [Design metrics and write SQL for a case](https://trueinterview.io/questions/design-metrics-and-write-sql-for-a-case) | Medium | — |
 | **Coinbase** | [Design crypto trading order control API](https://trueinterview.io/questions/design-crypto-trading-order-control-api) | Medium | — |
 | **Stripe** | [Design an idempotent SQL ETL for late data](https://trueinterview.io/questions/design-an-idempotent-sql-etl-for-late-data) | Hard | — |
@@ -326,5 +321,10 @@ Of the **204 questions in this cut that carry a topic label** (56% of it):
 | **Citadel / Ramp** | [Minimum Changes to Make Every Block a Palindrome](https://trueinterview.io/questions/c2284735-21ac-5eb1-aa2e-ffd7004334d7) | Medium | — |
 | **OKX** | [Basic coding to validate syntax and data structure familiarity](https://trueinterview.io/questions/f7e85517-2ec7-4102-b09a-dff03cd76939) | Easy | — |
 | **OKX** | [Sort Colors](https://trueinterview.io/questions/aaada6bb-55dc-518c-bd23-95d1e382c7bd) | Medium | — |
+| **Brex** | [React UI: Multi-select Color Dropdown and Selected Properties Table](https://trueinterview.io/questions/aaaeddab-d8de-4c30-a94c-6fcc5ff9e6d8) | Easy | — |
+| **Block** | [Minesweeper Board Generation](https://trueinterview.io/questions/a0eccf02-13b4-4c9b-a2ac-69c127f7cc18) | Easy | — |
+| **Block** | [Customer Transaction Network](https://trueinterview.io/questions/75fa093e-5e81-4716-9970-30851399b351) | Medium | — |
+| **Block** | [Tournament Progression Chart with JavaScript Simulation and UI](https://trueinterview.io/questions/5d30d8fe-838b-4c5a-9e01-a47461a797fc) | Medium | — |
+| **Block** | [Optimal Crop Selection for Maximum Profit](https://trueinterview.io/questions/50177e10-60ce-48f3-8baa-05cae30ae9e2) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](fintech-2.md)</sub>

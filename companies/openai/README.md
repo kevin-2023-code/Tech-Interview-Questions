@@ -8,7 +8,7 @@ How OpenAI interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [148](../openai.md) |
+| Questions reported | [145](../openai.md) |
 | Free to read here | 13 |
 | Interview-process guides | 7 |
 | Other guides | 0 |
@@ -56,7 +56,7 @@ The virtual onsite typically runs three to five rounds: another practical coding
 
 ## Everything else
 
-- [All 148 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 145 questions reported at OpenAI](../openai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every OpenAI question on TrueInterview](https://trueinterview.io/problems/company/openai).
 
 ---

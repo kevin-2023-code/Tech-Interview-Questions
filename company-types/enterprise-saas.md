@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**596 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**592 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Microsoft (187)](../companies/microsoft.md) · [Oracle (95)](../companies/oracle.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (62)](../companies/atlassian.md) · [Rippling (48)](../companies/rippling.md) · [Intuit (28)](../companies/intuit.md) · [Figma (22)](../companies/figma.md) · [Tradedesk (21)](../companies/tradedesk.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Palantir (11)](../companies/palantir.md) · [Airtable (8)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Bobyard (6)](../companies/bobyard.md) · [Gusto (5)](../companies/gusto.md) · [Rokt (5)](../companies/rokt.md) · [StackAdapt (5)](../companies/stackadapt.md)
+[Microsoft (185)](../companies/microsoft.md) · [Oracle (95)](../companies/oracle.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Rippling (48)](../companies/rippling.md) · [Intuit (28)](../companies/intuit.md) · [Figma (22)](../companies/figma.md) · [Tradedesk (20)](../companies/tradedesk.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Palantir (11)](../companies/palantir.md) · [Airtable (8)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Bobyard (6)](../companies/bobyard.md) · [Gusto (5)](../companies/gusto.md) · [Rokt (5)](../companies/rokt.md) · [StackAdapt (5)](../companies/stackadapt.md)
 
 <sub>17 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 362 | 61% | ██████████████ | 47 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 110 | 18% | ████ | 20 |
-| [System Design](../formats/system-design.md) | 98 | 16% | ████ | 8 |
+| [Algorithm](../formats/algorithm.md) | 358 | 60% | ██████████████ | 47 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 110 | 19% | ████ | 20 |
+| [System Design](../formats/system-design.md) | 98 | 17% | ████ | 8 |
 | [SQL](../formats/sql.md) | 21 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **92 / 377 / 127**, over the rows the catalog has graded. 76 of the 596 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **92 / 376 / 124**, over the rows the catalog has graded. 76 of the 592 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **379 questions in this cut that carry a topic label** (64% of it):
+Of the **376 questions in this cut that carry a topic label** (64% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -37,8 +37,8 @@ Of the **379 questions in this cut that carry a topic label** (64% of it):
 | `strings` | 53 | 14% | ███████████ |
 | `arrays` | 50 | 13% | ██████████ |
 | `greedy` | 41 | 11% | ████████ |
-| `math` | 30 | 8% | ██████ |
 | `dynamic-programming` | 28 | 7% | ██████ |
+| `math` | 27 | 7% | ██████ |
 | `trees` | 26 | 7% | █████ |
 | `two-pointers` | 25 | 7% | █████ |
 | `sorting` | 23 | 6% | █████ |
@@ -47,7 +47,7 @@ Of the **379 questions in this cut that carry a topic label** (64% of it):
 
 ## Asked here in the last 90 days
 
-**77 sightings** across this cut. Newest first.
+**76 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **379 questions in this cut that carry a topic label** (64% of it):
 | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Microsoft | Algorithm | Sep 10, 2026 |
 | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Microsoft | Algorithm | Sep 10, 2026 |
 
-<sub>65 more in this window are in the table below.</sub>
+<sub>64 more in this window are in the table below.</sub>
 
 ---
 
@@ -99,7 +99,6 @@ Of the **379 questions in this cut that carry a topic label** (64% of it):
 | **Atlassian** | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Medium | 🆕 Sep 03, 2026 |
 | **Microsoft** | [Detect Repeated Patterns in a String Sequence](https://trueinterview.io/questions/detect-repeated-patterns-in-a-string-sequence) | Medium | 🆕 Sep 02, 2026 |
 | **Salesforce** | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | Hard | 🆕 Aug 31, 2026 |
-| **Tradedesk** | [Fetch and Cache Daily Stock Prices Across a Date Range](https://trueinterview.io/questions/fetch-and-cache-daily-stock-prices-across-a-date-range) | Hard | 🆕 Aug 31, 2026 |
 | **Salesforce** | [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | Hard | 🆕 Aug 31, 2026 |
 | **Microsoft** | [Recover Sorted Digits from Scrambled English Number Words](https://trueinterview.io/questions/recover-sorted-digits-from-scrambled-english-number-words) | Medium | 🆕 Aug 30, 2026 |
 | **Microsoft** | [Parse a Signed Integer in an Arbitrary Base](https://trueinterview.io/questions/parse-a-signed-integer-in-an-arbitrary-base) | Medium | 🆕 Aug 30, 2026 |
@@ -326,5 +325,6 @@ Of the **379 questions in this cut that carry a topic label** (64% of it):
 | **Salesforce** | [Design a Concurrent Car Reservation Service](https://trueinterview.io/questions/design-a-concurrent-car-reservation-service) | Medium | Jan 18, 2026 |
 | **Rippling / Snapchat** | [Design a News Aggregation Feed](https://trueinterview.io/questions/design-a-news-aggregation-feed) | Hard | Jan 17, 2026 |
 | **Microsoft** | [Distance from Each Node to the Cycle in an Undirected Graph](https://trueinterview.io/questions/distance-to-cycle-in-undirected-graph) | Hard | Jan 16, 2026 |
+| **Roblox / Microsoft / Pinterest** | [Design Search Autocomplete System](https://trueinterview.io/questions/design-search-autocomplete-system) | Medium | Jan 16, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](enterprise-saas-2.md)</sub>

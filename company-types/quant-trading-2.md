@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**276 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**271 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,11 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Citadel** | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Medium | — |
-| **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
-| **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
-| **Optiver** | [Days Between Dates (Days Between 3.0 V2)](https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6) | Medium | — |
-| **Two Sigma / Waymo** | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Medium | — |
 | **Two Sigma** | [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Medium | — |
 | **Two Sigma** | [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Medium | — |
 | **Two Sigma** | [Redundant Connection: Underground Pipes](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) | Medium | — |

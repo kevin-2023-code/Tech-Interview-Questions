@@ -2,7 +2,7 @@
 
 # Apple interview process, OA & interview questions
 
-**145 questions** reported at Apple · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
+**142 questions** reported at Apple · **4 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/apple), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Apple interviews & the free questions](apple/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **145** |
+| Questions tracked | **142** |
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 12 |
-| Most common format | [Algorithm](../formats/algorithm.md) (70% of 145) |
-| Difficulty (easy / medium / hard) | 34 / 84 / 27 |
+| Most common format | [Algorithm](../formats/algorithm.md) (69% of 142) |
+| Difficulty (easy / medium / hard) | 34 / 84 / 24 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 4 |
 
-<sub>Counted from the 145 questions reported at Apple. 109 of them carry a sighting date; the other 36 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 142 questions reported at Apple. 108 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **145 of 145** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **142 of 142** questions at Apple that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 14 | █ | [Algorithm](../formats/algorithm.md) (86%) | 12 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 109 | ██████████ | [Algorithm](../formats/algorithm.md) (72%) | 20 / 67 / 22 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 42 | ████ | [Algorithm](../formats/algorithm.md) (45%) | 4 / 27 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 20 / 67 / 20 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 41 | ████ | [Algorithm](../formats/algorithm.md) (44%) | 4 / 27 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -57,7 +57,7 @@ Which stage each question came from, for the **145 of 145** questions at Apple t
 
 ## What they ask about
 
-Of the **102 questions at Apple that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **100 questions at Apple that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -89,7 +89,7 @@ Every recorded sighting at Apple, by the month it was reported in — Oct 28, 20
 | [Feb 2026](../by-month/2026-02.md) | 16 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 11 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 12 | ██████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 6 | █████████ |
+| [Nov 2025](../by-month/2025-11.md) | 5 | ████████ |
 | [Oct 2025](../by-month/2025-10.md) | 4 | ██████ |
 
 ## Start here
@@ -231,7 +231,6 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Implement an Image Filter](https://trueinterview.io/questions/implement-an-image-filter) | Algorithm | Medium | Dec 02, 2025 |
 | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system) | System Design | Medium | Nov 30, 2025 |
 | [Concurrent users from online intervals](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks-concurrent-users-from-online-intervals) | Algorithm | Medium | Nov 27, 2025 |
-| [Solve interval, grid-fill, and heap tasks](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks) | Algorithm | Hard | Nov 27, 2025 |
 | [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua) | System Design | Medium | Nov 21, 2025 |
 | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Algorithm | Easy | Nov 20, 2025 |
 | [Solve three easy algorithm problems](https://trueinterview.io/questions/solve-three-easy-algorithm-problems) | Algorithm | Medium | Nov 11, 2025 |
@@ -239,8 +238,6 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Scale Digit-Square Convergence Requests](https://trueinterview.io/questions/scale-digit-square-convergence-requests) | System Design | Medium | Oct 28, 2025 |
 | [Design Disk-Based Inventory Serving](https://trueinterview.io/questions/design-disk-based-inventory-serving) | System Design | Hard | Oct 28, 2025 |
 | [Solve Digit-Square and Grid BFS Problems](https://trueinterview.io/questions/solve-digit-square-and-grid-bfs-problems) | Algorithm | Hard | Oct 28, 2025 |
-| [Implement random forest with OOB and imbalance](https://trueinterview.io/questions/implement-random-forest-with-oob-and-imbalance) | Algorithm | Hard | — |
-| [Build leak-safe sklearn model with calibration](https://trueinterview.io/questions/build-leak-safe-sklearn-model-with-calibration) | Algorithm | Hard | — |
 | [Find longest uniform substring after k replacements](https://trueinterview.io/questions/find-longest-uniform-substring-after-k-replacements) | Algorithm | Medium | — |
 | [Detect sessions and gaps using SQL LEAD](https://trueinterview.io/questions/detect-sessions-and-gaps-using-sql-lead) | SQL | Medium | — |
 | [Compute optimal matrix-chain multiplication order](https://trueinterview.io/questions/compute-optimal-matrix-chain-multiplication-order) | Algorithm | Hard | — |

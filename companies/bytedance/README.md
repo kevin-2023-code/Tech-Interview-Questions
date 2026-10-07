@@ -9,7 +9,7 @@ How ByteDance interviews, and the questions candidates reported there. Free ques
 |  |  |
 | :-- | :-- |
 | Questions reported | [255](../bytedance.md) |
-| Free to read here | 27 |
+| Free to read here | 26 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
 | Most recent sighting | Sep 15, 2026 |
@@ -38,7 +38,7 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 
 ## Free ByteDance questions
 
-27 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
+26 questions reported at ByteDance open without a paid plan — the statement and hints are on each linked page here. Newest sighting first.
 
 | Question | Format | Difficulty | Round | Reported |  |
 | :-- | :-- | :-: | :-- | :-- | :-- |
@@ -59,7 +59,6 @@ This guide goes past the outline on the company page. It covers how each ByteDan
 | [Merge Intervals](../../questions/algorithm/merge-intervals/README.md) | Algorithm | Medium | Phone screen | Feb 2026 | [Solve](https://trueinterview.io/questions/merge-intervals) |
 | [Basic Calculator](../../questions/algorithm/basic-calculator-2/README.md) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/basic-calculator-2) |
 | [Largest Rectangle in Histogram](../../questions/algorithm/largest-rectangle-histogram/README.md) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/largest-rectangle-histogram) |
-| [Shortest Path in Unweighted Graph](../../questions/algorithm/shortest-path-in-unweighted-graph/README.md) | Algorithm | Easy | Onsite / virtual onsite | May 2025 | [Solve](https://trueinterview.io/questions/shortest-path-in-unweighted-graph) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
 | [Implement Power Function](../../questions/algorithm/implement-power-function/README.md) | Algorithm | Medium | Phone screen | — | [Solve](https://trueinterview.io/questions/7add206c-7845-46d7-8c8d-f05a9f5efdae) |
 | [Design Slack-like Chat System](../../questions/system-design/design-slack-like-chat-system/README.md) | System Design | Hard | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/5d7d8ccc-dacc-4e00-81cb-0b56694fc5c9) |

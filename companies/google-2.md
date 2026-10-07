@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**271 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**265 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,12 +10,6 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Binary Tree Level Average (Level-order traversal)](https://trueinterview.io/questions/317e2feb-db97-48b9-9a58-0959ba8569f5) | Algorithm | Medium | — |
-| [Shortest Directed Cycle Through a Node](https://trueinterview.io/questions/shortest-cycle-through-node) | Algorithm | Medium | — |
-| [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Algorithm | Medium | — |
-| [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
-| [Maximum Coins Eaten](https://trueinterview.io/questions/6eca8cb0-2bbe-4bed-8e49-48257111c9b7) | Algorithm | Easy | — |
-| [Find Nearest Favorite City](https://trueinterview.io/questions/5d8835c7-92b4-4902-be8d-28cfc27aa289) | Algorithm | Medium | — |
 | [Maximum Sum Subarray with Equal Endpoints](https://trueinterview.io/questions/47d55069-3882-49a5-b91a-236b638950be) | Algorithm | Medium | — |
 | [Russian Doll Envelopes](https://trueinterview.io/questions/russian-doll-envelopes) | Algorithm | Medium | — |
 | [Rotate Any m×n 2D Matrix](https://trueinterview.io/questions/rotate-matrix-rectangle) | Algorithm | Medium | — |

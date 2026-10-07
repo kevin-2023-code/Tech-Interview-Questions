@@ -2,7 +2,7 @@
 
 # Microsoft interview process, OA & interview questions
 
-**187 questions** reported at Microsoft · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
+**185 questions** reported at Microsoft · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Microsoft interviews & the free questions](microsoft/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **187** |
+| Questions tracked | **185** |
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 23 |
-| Most common format | [Algorithm](../formats/algorithm.md) (65% of 187) |
-| Difficulty (easy / medium / hard) | 30 / 111 / 46 |
+| Most common format | [Algorithm](../formats/algorithm.md) (64% of 185) |
+| Difficulty (easy / medium / hard) | 30 / 111 / 44 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 187 questions reported at Microsoft. 118 of them carry a sighting date; the other 69 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 185 questions reported at Microsoft. 118 of them carry a sighting date; the other 67 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **187 of 187** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **185 of 185** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 24 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 10 / 10 / 4 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 86 | █████████ | [Algorithm](../formats/algorithm.md) (70%) | 14 / 54 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 93 | ██████████ | [Algorithm](../formats/algorithm.md) (57%) | 9 / 57 / 27 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 91 | ██████████ | [Algorithm](../formats/algorithm.md) (56%) | 9 / 57 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,20 +59,20 @@ Which stage each question came from, for the **187 of 187** questions at Microso
 
 ## What they ask about
 
-Of the **123 questions at Microsoft that carry a topic label** (66% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **121 questions at Microsoft that carry a topic label** (65% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 21 | 17% | ████████████ | Aug 16, 2026 |
-| `strings` | 20 | 16% | ███████████ | Sep 02, 2026 |
-| `hashing` | 19 | 15% | ███████████ | Sep 10, 2026 |
+| `strings` | 20 | 17% | ███████████ | Sep 02, 2026 |
+| `hashing` | 19 | 16% | ███████████ | Sep 10, 2026 |
 | `arrays` | 17 | 14% | ██████████ | Sep 09, 2026 |
 | `trees` | 12 | 10% | ███████ | Aug 16, 2026 |
-| `math` | 10 | 8% | ██████ | Sep 10, 2026 |
 | `binary-search` | 9 | 7% | █████ | Mar 20, 2026 |
 | `greedy` | 9 | 7% | █████ | Aug 20, 2026 |
 | `two-pointers` | 9 | 7% | █████ | Sep 10, 2026 |
 | `dynamic-programming` | 8 | 7% | █████ | Sep 09, 2026 |
+| `heap` | 8 | 7% | █████ | Jul 29, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -253,10 +253,8 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Implement a Tic-Tac-Toe game class](https://trueinterview.io/questions/implement-a-tic-tac-toe-game-class) | Object Oriented Programming | Medium | Oct 14, 2025 |
 | [Spiral Matrix Traversal](https://trueinterview.io/questions/spiral-matrix-output) | Algorithm | Medium | Nov 15, 2024 |
-| [Implement robust k-means from scratch](https://trueinterview.io/questions/implement-robust-k-means-from-scratch) | Algorithm | Hard | — |
 | [Find common friends from directed edges](https://trueinterview.io/questions/find-common-friends-from-directed-edges) | SQL | Hard | — |
 | [Design a model for imbalanced conversions](https://trueinterview.io/questions/design-a-model-for-imbalanced-conversions) | System Design | Medium | — |
-| [Compare CNN/RNN/LSTM and implement K-means](https://trueinterview.io/questions/compare-cnn-rnn-lstm-and-implement-k-means) | Algorithm | Hard | — |
 | [Reverse a list in-place](https://trueinterview.io/questions/reverse-a-list-in-place) | Algorithm | Easy | — |
 | [Query email logs for deliverability insights](https://trueinterview.io/questions/query-email-logs-for-deliverability-insights) | SQL | Medium | — |
 | [Implement rotated array binary search with duplicates](https://trueinterview.io/questions/implement-rotated-array-binary-search-with-duplicates) | Algorithm | Hard | — |

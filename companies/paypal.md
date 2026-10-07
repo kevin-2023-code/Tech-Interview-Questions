@@ -2,7 +2,7 @@
 
 # PayPal interview process, OA & interview questions
 
-**24 questions** reported at PayPal · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/paypal), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at PayPal · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/paypal), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How PayPal interviews & the free questions](paypal/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **24** |
+| Questions tracked | **23** |
 | Most recent sighting | Apr 14, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (67% of 24) |
-| Difficulty (easy / medium / hard) | 4 / 13 / 7 |
+| Most common format | [Algorithm](../formats/algorithm.md) (65% of 23) |
+| Difficulty (easy / medium / hard) | 4 / 13 / 6 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 24 questions reported at PayPal. 8 of them carry a sighting date; the other 16 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at PayPal. 8 of them carry a sighting date; the other 15 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **24 of 24** questions at PayPal that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at PayPal that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 2 | █ | [Algorithm](../formats/algorithm.md) (100%) | 2 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 15 | ██████████ | [Algorithm](../formats/algorithm.md) (87%) | 2 / 10 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 14 | ██████████ | [Algorithm](../formats/algorithm.md) (86%) | 2 / 10 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 7 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (43%) | 0 / 3 / 4 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -42,18 +42,18 @@ Which stage each question came from, for the **24 of 24** questions at PayPal th
 
 ## What they ask about
 
-Of the **18 questions at PayPal that carry a topic label** (75% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **17 questions at PayPal that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 4 | 22% | ████████████ | Apr 14, 2026 |
-| `dynamic-programming` | 3 | 17% | █████████ | — |
-| `greedy` | 3 | 17% | █████████ | — |
-| `backtracking` | 2 | 11% | ██████ | Feb 26, 2026 |
-| `hashing` | 2 | 11% | ██████ | Apr 09, 2026 |
-| `heap` | 2 | 11% | ██████ | — |
-| `math` | 2 | 11% | ██████ | Oct 29, 2025 |
-| `trees` | 2 | 11% | ██████ | Feb 26, 2026 |
+| `graphs` | 4 | 24% | ████████████ | Apr 14, 2026 |
+| `dynamic-programming` | 3 | 18% | █████████ | — |
+| `greedy` | 3 | 18% | █████████ | — |
+| `backtracking` | 2 | 12% | ██████ | Feb 26, 2026 |
+| `hashing` | 2 | 12% | ██████ | Apr 09, 2026 |
+| `heap` | 2 | 12% | ██████ | — |
+| `math` | 2 | 12% | ██████ | Oct 29, 2025 |
+| `trees` | 2 | 12% | ██████ | Feb 26, 2026 |
 | `binary-search` | 1 | 6% | ███ | — |
 | `linked-list` | 1 | 6% | ███ | Apr 09, 2026 |
 
@@ -114,7 +114,6 @@ The 8 questions to open first if you are preparing for PayPal, ranked by **the m
 | [Design a fraud mitigation strategy under constraints](https://trueinterview.io/questions/design-a-fraud-mitigation-strategy-under-constraints) | System Design | Medium | Jan 02, 2026 |
 | [Write SQL for top drivers and cancellation rates](https://trueinterview.io/questions/write-sql-for-top-drivers-and-cancellation-rates) | SQL | Medium | Dec 07, 2025 |
 | [Compute Variance from a Python List](https://trueinterview.io/questions/compute-variance-from-a-python-list) | Algorithm | Easy | Oct 29, 2025 |
-| [Implement sliding-window device anomaly](https://trueinterview.io/questions/implement-sliding-window-device-anomaly) | Algorithm | Hard | — |
 | [Similar Password (Singapore)](https://trueinterview.io/questions/f3594e7e-7600-472c-b414-1cd919d3e0a0) | Algorithm | Medium | — |
 | [K-Means Clustering Implementation with Manual Initialization](https://trueinterview.io/questions/a6c5b902-e069-4338-a552-3b4fb74531ca) | Object Oriented Programming | Medium | — |
 | [Modify Array](https://trueinterview.io/questions/92f5f467-65b4-44de-b437-09d22915f525) | Algorithm | Hard | — |

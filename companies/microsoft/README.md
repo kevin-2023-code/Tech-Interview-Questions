@@ -8,7 +8,7 @@ How Microsoft interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [187](../microsoft.md) |
+| Questions reported | [185](../microsoft.md) |
 | Free to read here | 22 |
 | Interview-process guides | 5 |
 | Other guides | 0 |
@@ -67,7 +67,7 @@ This is the deep dive behind the company page: what each Microsoft stage actuall
 
 ## Everything else
 
-- [All 187 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 185 questions reported at Microsoft](../microsoft.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Microsoft question on TrueInterview](https://trueinterview.io/problems/company/microsoft).
 
 ---

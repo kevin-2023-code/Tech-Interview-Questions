@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**271 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**265 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **271** |
+| Questions tracked | **265** |
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 25 |
-| Most common format | [Algorithm](../formats/algorithm.md) (72% of 271) |
-| Difficulty (easy / medium / hard) | 31 / 170 / 70 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 265) |
+| Difficulty (easy / medium / hard) | 31 / 169 / 65 |
 | Free to practise | [25](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 271 questions reported at Google. 143 of them carry a sighting date; the other 128 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 265 questions reported at Google. 140 of them carry a sighting date; the other 125 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **271 of 271** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **265 of 265** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 23 | ██ | [Algorithm](../formats/algorithm.md) (96%) | 13 / 9 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 146 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 9 / 98 / 39 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 140 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 9 / 97 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 125 | █████████ | [Algorithm](../formats/algorithm.md) (57%) | 10 / 78 / 37 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -59,20 +59,20 @@ Which stage each question came from, for the **271 of 271** questions at Google 
 
 ## What they ask about
 
-Of the **196 questions at Google that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **190 questions at Google that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 41 | 21% | ████████████ | Aug 18, 2026 |
-| `arrays` | 30 | 15% | █████████ | Aug 30, 2026 |
-| `hashing` | 27 | 14% | ████████ | Sep 10, 2026 |
-| `strings` | 22 | 11% | ██████ | Sep 02, 2026 |
-| `greedy` | 20 | 10% | ██████ | Aug 11, 2026 |
+| `graphs` | 41 | 22% | ████████████ | Aug 18, 2026 |
+| `arrays` | 30 | 16% | █████████ | Aug 30, 2026 |
+| `hashing` | 24 | 13% | ███████ | Sep 10, 2026 |
+| `strings` | 21 | 11% | ██████ | Sep 02, 2026 |
+| `greedy` | 20 | 11% | ██████ | Aug 11, 2026 |
 | `trees` | 18 | 9% | █████ | Sep 16, 2026 |
-| `sorting` | 16 | 8% | █████ | Aug 11, 2026 |
 | `dynamic-programming` | 15 | 8% | ████ | Sep 09, 2026 |
-| `heap` | 14 | 7% | ████ | Jul 23, 2026 |
-| `intervals` | 14 | 7% | ████ | Jun 26, 2026 |
+| `sorting` | 15 | 8% | ████ | Aug 11, 2026 |
+| `backtracking` | 13 | 7% | ████ | Aug 16, 2026 |
+| `heap` | 13 | 7% | ████ | Jul 23, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -90,9 +90,9 @@ Every recorded sighting at Google, by the month it was reported in — Jun 10, 2
 | [Apr 2026](../by-month/2026-04.md) | 12 | ██████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 13 | ████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 20 | ████████████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 12 | ██████████████ |
+| [Jan 2026](../by-month/2026-01.md) | 10 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 15 | ██████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 9 | ███████████ |
+| [Nov 2025](../by-month/2025-11.md) | 8 | ██████████ |
 | [Oct 2025](../by-month/2025-10.md) | 4 | █████ |
 | [Aug 2025](../by-month/2025-08.md) | 1 | █ |
 | [Jun 2025](../by-month/2025-06.md) | 1 | █ |
@@ -244,8 +244,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Tree Distance Sum (Re-root DP)](https://trueinterview.io/questions/tree-distance-sum-reroot) | Algorithm | Hard | Jan 19, 2026 |
 | [Path Minimizing the Maximum Cell (Swim in Rising Water)](https://trueinterview.io/questions/path-min-max-grid-dijkstra) | Algorithm | Medium | Jan 19, 2026 |
 | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | System Design | Medium | Jan 14, 2026 |
-| [Build a bigram next-word predictor with weighted sampling](https://trueinterview.io/questions/build-a-bigram-next-word-predictor-with-weighted-sampling) | Algorithm | Medium | Jan 11, 2026 |
-| [Find top/bottom-k words in list or stream](https://trueinterview.io/questions/find-top-bottom-k-words-in-list-or-stream) | Algorithm | Hard | Jan 11, 2026 |
 | [Binary Tree Longest Consecutive Sequence II](https://trueinterview.io/questions/binary-tree-longest-consecutive-sequence-ii) | Algorithm | Medium | Jan 11, 2026 |
 | [Choose Fast or Cheap Models](https://trueinterview.io/questions/choose-fast-or-cheap-models) | System Design | Medium | Jan 10, 2026 |
 | [Find Median from Data Stream](https://trueinterview.io/questions/find-median-from-data-stream) | Algorithm | Hard | Jan 04, 2026 |
@@ -272,7 +270,6 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Compute minimal transfers to settle group expenses](https://trueinterview.io/questions/compute-minimal-transfers-to-settle-group-expenses) | Algorithm | Hard | Nov 16, 2025 |
 | [Design a global restaurant menu update system](https://trueinterview.io/questions/design-a-global-restaurant-menu-update-system) | System Design | Hard | Nov 12, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
-| [Compute servers needed for daily recurring jobs](https://trueinterview.io/questions/compute-servers-needed-for-daily-recurring-jobs) | Algorithm | Hard | Nov 05, 2025 |
 | [Match payments to invoices by memo or amount](https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2) | Algorithm | Medium | Oct 19, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Solve three coding interview problems](https://trueinterview.io/questions/solve-three-coding-interview-problems) | Algorithm | Hard | Oct 09, 2025 |
@@ -288,11 +285,8 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Design a battery-life predictor and cold-start strategy](https://trueinterview.io/questions/design-a-battery-life-predictor-and-cold-start-strategy) | Algorithm | Hard | — |
 | [Decide between two vendors under constraints](https://trueinterview.io/questions/decide-between-two-vendors-under-constraints) | System Design | Hard | — |
 | [Choose a precise A/B test primary metric](https://trueinterview.io/questions/choose-a-precise-a-b-test-primary-metric) | System Design | Medium | — |
-| [Minimize L2, L1, and quantile losses](https://trueinterview.io/questions/minimize-l2-l1-and-quantile-losses) | Algorithm | Hard | — |
 | [Implement piecewise linear interpolation for time-to-empty](https://trueinterview.io/questions/implement-piecewise-linear-interpolation-for-time-to-empty) | Algorithm | Hard | — |
-| [Implement percentage RMSE and bootstrap its CI](https://trueinterview.io/questions/implement-percentage-rmse-and-bootstrap-its-ci) | Algorithm | Hard | — |
 | [Implement longest subarray summing to k](https://trueinterview.io/questions/implement-longest-subarray-summing-to-k) | Algorithm | Hard | — |
-| [Implement anagram check and stable deduplication](https://trueinterview.io/questions/implement-anagram-check-and-stable-deduplication) | Algorithm | Hard | — |
 | [Implement an LRU cache with O(1) ops](https://trueinterview.io/questions/implement-an-lru-cache-with-o-1-ops) | Object Oriented Programming | Medium | — |
 | [Find most co‑purchased product pairs in SQL](https://trueinterview.io/questions/find-most-copurchased-product-pairs-in-sql) | SQL | Medium | — |
 | [Design data structure similar to LRU cache](https://trueinterview.io/questions/design-data-structure-similar-to-lru-cache) | Object Oriented Programming | Medium | — |
@@ -386,5 +380,11 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Shortest Distance to Taxi in a Grid](https://trueinterview.io/questions/05552f4a-424e-469b-ba5a-40c766f4d84a) | Algorithm | Medium | — |
 | [Determine Players with Unique Ranks from Match Results (Reachability Counts in a Directed Graph)](https://trueinterview.io/questions/f6331f0f-11ef-453f-a5fa-06bb97821266) | Algorithm | Hard | — |
 | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | System Design | Hard | — |
+| [Binary Tree Level Average (Level-order traversal)](https://trueinterview.io/questions/317e2feb-db97-48b9-9a58-0959ba8569f5) | Algorithm | Medium | — |
+| [Shortest Directed Cycle Through a Node](https://trueinterview.io/questions/shortest-cycle-through-node) | Algorithm | Medium | — |
+| [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Algorithm | Medium | — |
+| [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
+| [Maximum Coins Eaten](https://trueinterview.io/questions/6eca8cb0-2bbe-4bed-8e49-48257111c9b7) | Algorithm | Easy | — |
+| [Find Nearest Favorite City](https://trueinterview.io/questions/5d8835c7-92b4-4902-be8d-28cfc27aa289) | Algorithm | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](google-2.md)</sub>

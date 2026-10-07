@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**907 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**888 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,25 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Expedia** | [Merge One Linked List Into Another Between Two Indices](https://trueinterview.io/questions/aa58db20-af8b-5e98-a72c-9f56c6436b69) | Medium | — |
-| **Expedia** | [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d) | Hard | — |
-| **Expedia** | [Parse a JSON string and extract required information (open-ended)](https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce) | Medium | — |
-| **Expedia** | [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f) | Medium | — |
-| **Expedia** | [Count Strongly Connected Components Using Kosaraju's Algorithm](https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6) | Medium | — |
-| **Expedia** | [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9) | Hard | — |
-| **Expedia** | [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0) | Medium | — |
-| **Expedia** | [Counting Subsequence with Same Character Frequency](https://trueinterview.io/questions/3253f9f8-395c-41fb-a687-772f04b3883c) | Hard | — |
-| **Ebay** | [Maximum Length Balanced Subarray (Equal Sum Halves)](https://trueinterview.io/questions/f588f532-09ac-4651-97ca-e680fb0b1c3b) | Medium | — |
-| **Ebay** | [Find Pattern Matching Words](https://trueinterview.io/questions/d680cb59-9cef-5307-9b68-cd74bc912b09) | Hard | — |
-| **Ebay** | [Balloon Explosion](https://trueinterview.io/questions/bec1bae5-6bc3-4a83-8430-077c684da76c) | Hard | — |
-| **Ebay** | [Chinese Chess Horse Reachability with Blocked Legs](https://trueinterview.io/questions/8392aae1-1552-5e11-88a1-fe017ae1163b) | Medium | — |
-| **Ebay** | [Find the K Smallest Elements from Multiple Sorted Arrays](https://trueinterview.io/questions/6c9270e7-bcc5-5ab3-9146-6dba3f254ef4) | Medium | — |
-| **Instacart** | [Fix Incorrect Metrics Caused by Applying Filters After Aggregation](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e) | Medium | — |
-| **Amazon** | [Online Review Content Moderation](https://trueinterview.io/questions/3788662e-d4fb-58b3-944f-0d17e11dcc48) | Medium | — |
-| **Amazon** | [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5) | Medium | — |
-| **Amazon** | [Memory Size Calculation for DDN Model Structure](https://trueinterview.io/questions/38d0f1cd-7a43-453d-a61a-07bfe73aeffd) | Easy | — |
-| **Amazon** | [Machine Learning Coding: Reproduce a New Paper Experiment](https://trueinterview.io/questions/36bbfdc3-e117-4a78-bcb0-1e89dae78b5d) | Hard | — |
-| **Instacart** | [Design and Implement Idempotent Library Notifications for Due Dates and Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39) | Medium | — |
 | **Airbnb** | [Minimum Purchases to Fill an Exact Target Amount](https://trueinterview.io/questions/428b5932-30d7-5c7d-8b9a-f097f61a9888) | Medium | — |
 | **Meta / Amazon** | [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Medium | — |
 | **DoorDash** | [Dasher Pay](https://trueinterview.io/questions/054aef30-72eb-5371-97a8-c65988e21e4f) | Hard | — |

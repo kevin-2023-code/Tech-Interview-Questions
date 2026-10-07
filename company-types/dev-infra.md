@@ -2,7 +2,7 @@
 
 # ☁️ Developer tools, cloud & data infrastructure — interview & OA questions
 
-**273 questions** reported across the **7 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**270 questions** reported across the **7 Developer tools, cloud & data infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Snowflake (130)](../companies/snowflake.md) · [Databricks (79)](../companies/databricks.md) · [Confluent (30)](../companies/confluent.md) · [Datadog (27)](../companies/datadog.md) · [MongoDB (6)](../companies/mongodb.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Render (2)](../companies/render.md)
+[Snowflake (128)](../companies/snowflake.md) · [Databricks (79)](../companies/databricks.md) · [Confluent (29)](../companies/confluent.md) · [Datadog (27)](../companies/datadog.md) · [MongoDB (6)](../companies/mongodb.md) · [Sigmacomputing (5)](../companies/sigmacomputing.md) · [Render (2)](../companies/render.md)
 
 <sub>7 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,30 +18,30 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 170 | 62% | ██████████████ | 32 |
+| [Algorithm](../formats/algorithm.md) | 167 | 62% | ██████████████ | 32 |
 | [System Design](../formats/system-design.md) | 51 | 19% | ████ | 11 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 42 | 15% | ███ | 7 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 42 | 16% | ████ | 7 |
 | [SQL](../formats/sql.md) | 8 | 3% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **44 / 178 / 51**, over the rows the catalog has graded. 51 of the 273 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **44 / 177 / 49**, over the rows the catalog has graded. 51 of the 270 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **171 questions in this cut that carry a topic label** (63% of it):
+Of the **168 questions in this cut that carry a topic label** (62% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `graphs` | 27 | 16% | ████████████ |
 | `trees` | 26 | 15% | ████████████ |
-| `hashing` | 25 | 15% | ███████████ |
-| `dynamic-programming` | 23 | 13% | ██████████ |
+| `hashing` | 24 | 14% | ███████████ |
+| `dynamic-programming` | 23 | 14% | ██████████ |
 | `strings` | 21 | 12% | █████████ |
 | `arrays` | 19 | 11% | ████████ |
 | `backtracking` | 15 | 9% | ███████ |
 | `greedy` | 12 | 7% | █████ |
 | `sliding-window` | 12 | 7% | █████ |
-| `matrix` | 9 | 5% | ████ |
+| `heap` | 8 | 5% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -165,7 +165,6 @@ Of the **171 questions in this cut that carry a topic label** (63% of it):
 | **Snowflake** | [Service Failure Forensics](https://trueinterview.io/questions/service-failure-forensics) | Medium | Feb 24, 2026 |
 | **Confluent** | [Design a News Feed and Mail Service](https://trueinterview.io/questions/design-a-news-feed-and-mail-service) | Hard | Feb 22, 2026 |
 | **Confluent** | [Function signature matching](https://trueinterview.io/questions/solve-signature-file-and-queue-problems-function-signature-matching) | Medium | Feb 22, 2026 |
-| **Confluent** | [Solve Signature, File, and Queue Problems](https://trueinterview.io/questions/solve-signature-file-and-queue-problems) | Hard | Feb 22, 2026 |
 | **Atlassian / Expedia / Ramp / Roblox / Snapchat / Snowflake / Stripe / Verkada** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | Medium | Feb 22, 2026 |
 | **Snowflake / ByteDance / Microsoft / Salesforce** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
 | **Snowflake / Google** | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Medium | Feb 19, 2026 |
@@ -175,7 +174,6 @@ Of the **171 questions in this cut that carry a topic label** (63% of it):
 | **Snowflake / ByteDance** | [N-Queens](https://trueinterview.io/questions/n-queens) | Medium | Feb 16, 2026 |
 | **Snowflake / Amazon / Google** | [Design Quota Service](https://trueinterview.io/questions/design-a-quota-system) | Easy | Feb 13, 2026 |
 | **Databricks** | [Optimize least-k revenue queries for read/write load](https://trueinterview.io/questions/optimize-least-k-revenue-queries-for-read-write-load) | Hard | Feb 12, 2026 |
-| **Snowflake** | [Implement topological sort and tree boundary traversal](https://trueinterview.io/questions/implement-topological-sort-and-tree-boundary-traversal) | Medium | Feb 12, 2026 |
 | **Snowflake** | [Top K Hash Tags](https://trueinterview.io/questions/top-k-hash-tags) | Medium | Feb 09, 2026 |
 | **Apple / Amazon / Bloomberg / Boston Consulting Group / ByteDance / Intuit / LinkedIn / Meta / NVIDIA / Oracle / Pinduoduo / Snowflake / Walmart Labs / WeRide** | [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) | Easy | Feb 07, 2026 |
 | **Apple / Amazon / ByteDance / Databricks / DoorDash / Microsoft** | [Serialize and Deserialize Binary Tree](https://trueinterview.io/questions/serialize-and-deserialize-binary-tree) | Medium | Feb 04, 2026 |
@@ -203,7 +201,6 @@ Of the **171 questions in this cut that carry a topic label** (63% of it):
 | **Snowflake** | [ACL Service for Another Service](https://trueinterview.io/questions/acl-service-design) | Medium | Dec 27, 2025 |
 | **Snowflake / ByteDance / Databricks / Perplexity** | [Design In-Memory File System](https://trueinterview.io/questions/design-in-memory-file-system) | Medium | Dec 27, 2025 |
 | **Snowflake / Google** | [Longest Univalue Path](https://trueinterview.io/questions/longest-univalue-path) | Medium | Dec 23, 2025 |
-| **Snowflake** | [Validate an extended tic-tac-toe state](https://trueinterview.io/questions/validate-an-extended-tic-tac-toe-state) | Hard | Dec 15, 2025 |
 | **Snowflake** | [Copy List with Random Pointer](https://trueinterview.io/questions/copy-list-with-random-pointer) | Medium | Dec 14, 2025 |
 | **Snowflake** | [Serialize and Deserialize Dictionary Trie](https://trueinterview.io/questions/serialize-and-deserialize-dictionary-trie) | Medium | Dec 10, 2025 |
 | **Snowflake** | [Preorder Traversal Without Invalid Nodes](https://trueinterview.io/questions/preorder-traversal-without-invalid-nodes) | Easy | Dec 09, 2025 |
@@ -326,5 +323,8 @@ Of the **171 questions in this cut that carry a topic label** (63% of it):
 | **Amazon / Datadog / DoorDash / Google / LinkedIn / Rippling / Roblox / Snapchat / Stripe** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | Hard | — |
 | **Snowflake / Amazon / Meta / Snapchat** | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Medium | — |
 | **Snowflake** | [Sort Colors in a RecordCollection In-Place](https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb) | Medium | — |
+| **Snowflake** | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4) | Medium | — |
+| **Snowflake** | [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Medium | — |
+| **Snowflake** | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](dev-infra-2.md)</sub>

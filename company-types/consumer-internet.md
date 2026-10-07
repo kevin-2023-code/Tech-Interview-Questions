@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,139 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,119 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (343)](../companies/meta.md) · [Google (271)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (117)](../companies/linkedin.md) · [Pinterest (103)](../companies/pinterest.md) · [Netflix (89)](../companies/netflix.md) · [Snapchat (72)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
+[Meta (337)](../companies/meta.md) · [Google (265)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (87)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,36 +18,36 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 666 | 58% | ██████████████ | 49 |
-| [System Design](../formats/system-design.md) | 214 | 19% | ████ | 12 |
+| [Algorithm](../formats/algorithm.md) | 646 | 58% | ██████████████ | 47 |
+| [System Design](../formats/system-design.md) | 214 | 19% | █████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 124 | 11% | ███ | 10 |
 | [SQL](../formats/sql.md) | 121 | 11% | ███ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 14 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **136 / 724 / 279**, over the rows the catalog has graded. 73 of the 1,139 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **136 / 718 / 265**, over the rows the catalog has graded. 71 of the 1,119 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **675 questions in this cut that carry a topic label** (59% of it):
+Of the **656 questions in this cut that carry a topic label** (59% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `graphs` | 113 | 17% | ████████████ |
-| `hashing` | 105 | 16% | ███████████ |
-| `arrays` | 91 | 13% | ██████████ |
-| `strings` | 85 | 13% | █████████ |
+| `graphs` | 112 | 17% | ████████████ |
+| `hashing` | 101 | 15% | ███████████ |
+| `arrays` | 88 | 13% | █████████ |
+| `strings` | 81 | 12% | █████████ |
 | `trees` | 58 | 9% | ██████ |
 | `backtracking` | 52 | 8% | ██████ |
 | `greedy` | 48 | 7% | █████ |
-| `heap` | 46 | 7% | █████ |
-| `binary-search` | 45 | 7% | █████ |
-| `math` | 42 | 6% | ████ |
+| `binary-search` | 44 | 7% | █████ |
+| `heap` | 44 | 7% | █████ |
+| `two-pointers` | 39 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**101 sightings** across this cut. Newest first.
+**99 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -55,16 +55,16 @@ Of the **675 questions in this cut that carry a topic label** (59% of it):
 | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | LinkedIn | System Design | Sep 17, 2026 |
 | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Google | Algorithm | Sep 16, 2026 |
 | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | ByteDance | System Design | Sep 15, 2026 |
-| [Parse a Custom Record with Fixed Fields, Mapped Keys, and Nested Lists](https://trueinterview.io/questions/parse-a-custom-record-with-fixed-fields-mapped-keys-and-nested-lists) | Netflix | Algorithm | Sep 11, 2026 |
 | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Google | Algorithm | Sep 10, 2026 |
 | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Google | Algorithm | Sep 10, 2026 |
 | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Google | Algorithm | Sep 09, 2026 |
 | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | LinkedIn | System Design | Sep 09, 2026 |
 | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Snapchat | Algorithm | Sep 09, 2026 |
-| [Transform Biased and Uniform Random Bits Exactly](https://trueinterview.io/questions/transform-biased-and-uniform-random-bits-exactly) | LinkedIn | Algorithm | Sep 09, 2026 |
 | [Recommender Training Pipeline](https://trueinterview.io/questions/coding-recommender-training-pipeline) | LinkedIn | Object Oriented Programming | Sep 06, 2026 |
+| [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Object Oriented Programming | Sep 06, 2026 |
+| [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | LinkedIn | Algorithm | Sep 04, 2026 |
 
-<sub>89 more in this window are in the table below.</sub>
+<sub>87 more in this window are in the table below.</sub>
 
 ---
 
@@ -80,10 +80,8 @@ Of the **675 questions in this cut that carry a topic label** (59% of it):
 | **LinkedIn** | [Block Malicious IPs at an API Gateway Across Data Centers](https://trueinterview.io/questions/block-malicious-ips-at-an-api-gateway-across-data-centers) | Hard | 🆕 Sep 17, 2026 |
 | **Google** | [Repeatedly Delete Leaves Matching a Target Value From a Binary Tree](https://trueinterview.io/questions/repeatedly-delete-leaves-matching-a-target-value-from-a-binary-tree) | Medium | 🆕 Sep 16, 2026 |
 | **ByteDance** | [Design a Monitoring Dashboard with Explicit Latency Goals](https://trueinterview.io/questions/design-a-monitoring-dashboard-with-explicit-latency-goals) | Medium | 🆕 Sep 15, 2026 |
-| **Netflix** | [Parse a Custom Record with Fixed Fields, Mapped Keys, and Nested Lists](https://trueinterview.io/questions/parse-a-custom-record-with-fixed-fields-mapped-keys-and-nested-lists) | Hard | 🆕 Sep 11, 2026 |
 | **Google** | [Temperature Monitoring Data Structure](https://trueinterview.io/questions/temperature-monitor-moving-window) | Medium | 🆕 Sep 10, 2026 |
 | **Google** | [Robot Status Message Deduplication](https://trueinterview.io/questions/40a70e3f-cb56-5345-8d5e-718942ad0382) | Medium | 🆕 Sep 10, 2026 |
-| **LinkedIn** | [Transform Biased and Uniform Random Bits Exactly](https://trueinterview.io/questions/transform-biased-and-uniform-random-bits-exactly) | Hard | 🆕 Sep 09, 2026 |
 | **LinkedIn** | [Design a Personalized Feed and Compare Ranking Objectives](https://trueinterview.io/questions/design-a-personalized-feed-and-compare-ranking-objectives) | Hard | 🆕 Sep 09, 2026 |
 | **Snapchat** | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Medium | 🆕 Sep 09, 2026 |
 | **Google** | [Minimum-Cost Tree Disconnection](https://trueinterview.io/questions/binary-tree-root-leaf-minimum-cut) | Hard | 🆕 Sep 09, 2026 |
@@ -326,5 +324,7 @@ Of the **675 questions in this cut that carry a topic label** (59% of it):
 | **Pinterest** | [Escape Room](https://trueinterview.io/questions/escape-room-player-tracking) | Medium | Apr 19, 2026 |
 | **Pinterest** | [Expression Add Operators — Left-to-Right Variant (LC 282)](https://trueinterview.io/questions/expression-add-operators-simplified) | Medium | Apr 18, 2026 |
 | **Pinterest / Apple** | [Convert BST to Sorted Doubly Linked List (LC 426)](https://trueinterview.io/questions/bst-to-doubly-linked-list) | Medium | Apr 18, 2026 |
+| **Meta** | [Random friend recommender](https://trueinterview.io/questions/solve-array-matrix-and-recommendation-problems-random-friend-recommender) | Hard | Apr 17, 2026 |
+| **Meta** | [In-place unique prefix](https://trueinterview.io/questions/solve-array-matrix-and-recommendation-problems-in-place-unique-prefix) | Medium | Apr 17, 2026 |
 
 <sub>Page 1 of 5 · [Page 2 →](consumer-internet-2.md)</sub>
