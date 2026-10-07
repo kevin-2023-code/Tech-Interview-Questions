@@ -78,8 +78,8 @@ The sector and size of an employer are facts about the company rather than about
 | [Anthropic](anthropic.md) | AI labs & AI infrastructure · 1,000–9,999 people | 70 | 6 | 0 | Jun 21, 2026 | 9 |
 | [Databricks](databricks.md) | Developer tools, cloud & data infrastructure | 68 | 3 | 5 | Sep 15, 2026 | 14 |
 | [Roblox](roblox.md) | Gaming & interactive · 1,000–9,999 people | 66 | 4 | 3 | Sep 09, 2026 | 15 |
-| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 61 | 1 | 8 | Sep 18, 2026 | 5 |
-| [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 57 | 3 | 3 | Sep 09, 2026 | 13 |
+| [Citadel](citadel.md) | Quant trading & hedge funds · 1,000–9,999 people | 61 | 1 | 7 | Sep 18, 2026 | 5 |
+| [Snapchat](snapchat.md) | Consumer internet & media · 1,000–9,999 people | 57 | 3 | 2 | Sep 09, 2026 | 13 |
 | [Airbnb](airbnb.md) | E-commerce & marketplaces · 1,000–9,999 people | 55 | 3 | 3 | Sep 04, 2026 | 8 |
 | [Waymo](waymo.md) | Autonomy, automotive & mobility · 1,000–9,999 people | 55 | 1 | 1 | Jul 09, 2026 | 4 |
 | [Atlassian](atlassian.md) | Enterprise & business software · 10,000+ people | 53 | 3 | 2 | Sep 03, 2026 | 16 |

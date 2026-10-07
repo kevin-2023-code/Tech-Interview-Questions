@@ -17,8 +17,8 @@
 | [LinkedIn](../companies/linkedin.md) | 12 | 88 | Sep 06, 2026 | ████ |
 | [Salesforce](../companies/salesforce.md) | 11 | 78 | Aug 24, 2026 | ████ |
 | [Apple](../companies/apple.md) | 10 | 116 | Aug 26, 2026 | ████ |
-| [Citadel](../companies/citadel.md) | 8 | 61 | Sep 18, 2026 | ███ |
 | [Meta](../companies/meta.md) | 8 | 190 | Aug 27, 2026 | ███ |
+| [Citadel](../companies/citadel.md) | 7 | 61 | Sep 18, 2026 | ███ |
 | [DoorDash](../companies/doordash.md) | 7 | 71 | Sep 16, 2026 | ███ |
 | [Figma](../companies/figma.md) | 7 | 20 | Aug 12, 2026 | ███ |
 | [Oracle](../companies/oracle.md) | 7 | 84 | Sep 11, 2026 | ███ |
@@ -60,8 +60,8 @@
 | [Anthropic](../companies/anthropic.md) | 70 | 6 | 9 | 0 | Jun 21, 2026 | Algorithm | `hashing` |
 | [Databricks](../companies/databricks.md) | 68 | 3 | 14 | 5 | Sep 15, 2026 | Algorithm | `hashing` |
 | [Roblox](../companies/roblox.md) | 66 | 4 | 15 | 3 | Sep 09, 2026 | Algorithm | `arrays` |
-| [Citadel](../companies/citadel.md) | 61 | 1 | 5 | 8 | Sep 18, 2026 | Algorithm | `arrays` |
-| [Snapchat](../companies/snapchat.md) | 57 | 3 | 13 | 3 | Sep 09, 2026 | Algorithm | `graphs` |
+| [Citadel](../companies/citadel.md) | 61 | 1 | 5 | 7 | Sep 18, 2026 | Algorithm | `arrays` |
+| [Snapchat](../companies/snapchat.md) | 57 | 3 | 13 | 2 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Airbnb](../companies/airbnb.md) | 55 | 3 | 8 | 3 | Sep 04, 2026 | Algorithm | `dynamic-programming` |
 | [Waymo](../companies/waymo.md) | 55 | 1 | 4 | 1 | Jul 09, 2026 | Algorithm | `graphs` |
 | [Atlassian](../companies/atlassian.md) | 53 | 3 | 16 | 2 | Sep 03, 2026 | Algorithm | `hashing` |

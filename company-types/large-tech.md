@@ -47,7 +47,7 @@ Of the **598 questions in this cut that carry a topic label** (59% of it):
 
 ## Asked here in the last 90 days
 
-**55 sightings** across this cut. Newest first.
+**54 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **598 questions in this cut that carry a topic label** (59% of it):
 | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Stripe | Object Oriented Programming | Sep 11, 2026 |
 | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Rippling | Object Oriented Programming | Sep 11, 2026 |
 
-<sub>43 more in this window are in the table below.</sub>
+<sub>42 more in this window are in the table below.</sub>
 
 ---
 
@@ -97,7 +97,7 @@ Of the **598 questions in this cut that carry a topic label** (59% of it):
 | **Airbnb** | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | Hard | 🆕 Sep 04, 2026 |
 | **Pinterest** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Hard | 🆕 Aug 26, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | 🆕 Aug 24, 2026 |
-| **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Medium | 🆕 Aug 22, 2026 |
+| **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Medium | Aug 22, 2026 |
 | **Roblox** | [Piano Keys: Vanilla UI Interaction](https://trueinterview.io/questions/piano-keys-vanilla-ui) | Easy | Aug 17, 2026 |
 | **Snowflake** | [React / TypeScript Kanban Board](https://trueinterview.io/questions/react-typescript-kanban-board) | Medium | Aug 15, 2026 |
 | **OpenAI** | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Hard | Aug 13, 2026 |

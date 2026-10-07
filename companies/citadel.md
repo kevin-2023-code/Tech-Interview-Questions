@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **61** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 8 |
+| Reported in the last 90 days | 7 |
 | Most common format | [Algorithm](../formats/algorithm.md) (72% of 61) |
 | Difficulty (easy / medium / hard) | 8 / 40 / 13 |
 | Free to practise | [5](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **61 of 61** questions at Citadel t
 
 ## Asked here in the last 90 days
 
-**8 sightings** in this window. Newest first.
+**7 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -49,7 +49,6 @@ Which stage each question came from, for the **61 of 61** questions at Citadel t
 | [Fleet Configuration and Deployment Control Plane](https://trueinterview.io/questions/sre-configuration-deployment-control-plane) | System Design | Hard | Phone screen | Aug 05, 2026 |
 | [SRE Python Fundamentals — Five-Question Set](https://trueinterview.io/questions/sre-python-fundamentals-set) | Algorithm | Easy | Phone screen | Aug 05, 2026 |
 | [Real-Time Trading Event Feed Dashboard (React)](https://trueinterview.io/questions/react-trading-event-feed-dashboard) | Algorithm | Hard | Phone screen | Jul 27, 2026 |
-| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | Onsite / virtual onsite | Jul 08, 2026 |
 
 ## What they ask about
 

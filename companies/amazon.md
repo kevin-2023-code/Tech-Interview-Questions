@@ -153,8 +153,8 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Object Oriented Programming | Hard | 🆕 Aug 27, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 🆕 Aug 27, 2026 |
 | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Algorithm | Medium | 🆕 Aug 24, 2026 |
-| [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Algorithm | Medium | 🆕 Aug 22, 2026 |
-| [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | Medium | 🆕 Aug 22, 2026 |
+| [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Algorithm | Medium | Aug 22, 2026 |
+| [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Algorithm | Medium | Aug 22, 2026 |
 | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator) | Algorithm | Medium | Aug 21, 2026 |
 | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Algorithm | Hard | Aug 21, 2026 |
 | [Repeat Customer Visits](https://trueinterview.io/questions/a654f3a3-e029-432a-926b-60ed98685ea5) | Algorithm | Easy | Aug 19, 2026 |

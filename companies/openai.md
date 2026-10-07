@@ -139,7 +139,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Medium | 🆕 Aug 22, 2026 |
+| [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | System Design | Medium | Aug 22, 2026 |
 | [Fault-Tolerant Work Queue](https://trueinterview.io/questions/fault-tolerant-work-queue) | Object Oriented Programming | Hard | Aug 13, 2026 |
 | [Real-Time AI Product Feature](https://trueinterview.io/questions/real-time-ai-product-feature) | System Design | Hard | Aug 08, 2026 |
 | [Sharded Matmul and Backprop Debugging](https://trueinterview.io/questions/sharded-matmul-backprop-debugging) | Algorithm | Hard | Jul 31, 2026 |

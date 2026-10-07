@@ -47,7 +47,7 @@ Of the **140 questions in this cut that carry a topic label** (70% of it):
 
 ## Asked here in the last 90 days
 
-**17 sightings** across this cut. Newest first.
+**16 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **140 questions in this cut that carry a topic label** (70% of it):
 | [Count Maximum Borrowing Days](https://trueinterview.io/questions/count-maximum-borrowing-days) | Point72 | Algorithm | Jul 29, 2026 |
 | [League Earnings](https://trueinterview.io/questions/league-earnings) | Point72 | Algorithm | Jul 29, 2026 |
 
-<sub>5 more in this window are in the table below.</sub>
+<sub>4 more in this window are in the table below.</sub>
 
 ---
 

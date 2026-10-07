@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **57** |
 | Most recent sighting | Sep 09, 2026 |
-| Reported in the last 90 days | 3 |
+| Reported in the last 90 days | 2 |
 | Most common format | [Algorithm](../formats/algorithm.md) (51% of 57) |
 | Difficulty (easy / medium / hard) | 7 / 41 / 9 |
 | Free to practise | [13](../free/README.md) |
@@ -38,13 +38,12 @@ Which stage each question came from, for the **57 of 57** questions at Snapchat 
 
 ## Asked here in the last 90 days
 
-**3 sightings** in this window. Newest first.
+**2 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Algorithm | Medium | Onsite / virtual onsite | Sep 09, 2026 |
 | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Medium | Phone screen | Jul 22, 2026 |
-| [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | Onsite / virtual onsite | Jul 08, 2026 |
 
 ## What they ask about
 

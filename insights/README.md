@@ -2,7 +2,7 @@
 
 # What companies are actually asking
 
-**2,935 tracked questions** across **112 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 06, 2026**, and everything on this page is recomputed hourly.
+**2,935 tracked questions** across **112 companies**, counted rather than claimed. Sightings run from May 28, 2024 to Sep 20, 2026. Windows below are measured against **Oct 07, 2026**, and everything on this page is recomputed hourly.
 
 [← Question bank](../README.md) · [Topics](topics.md) · [Companies](companies.md) · [Trends](trends.md) · [Free to practise](../free/README.md)
 
@@ -10,7 +10,7 @@
 
 ## The last 90 days
 
-**260 sightings** recorded between Jul 08, 2026 → Oct 06, 2026 — 16% of the 1,644 questions in the bank that carry a sighting date at all.
+**259 sightings** recorded between Jul 09, 2026 → Oct 07, 2026 — 16% of the 1,644 questions in the bank that carry a sighting date at all.
 
 ### By format
 
@@ -18,7 +18,7 @@
 | :-- | --: | --: | :-- |
 | [Algorithm](../formats/algorithm.md) | 151 | 58% | ████████████████ |
 | [SQL](../formats/sql.md) | 30 | 12% | ███ |
-| [System Design](../formats/system-design.md) | 49 | 19% | █████ |
+| [System Design](../formats/system-design.md) | 48 | 19% | █████ |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 30 | 12% | ███ |
 
 ### Where
@@ -32,8 +32,8 @@
 | [LinkedIn](../companies/linkedin.md) | 12 | ████ |
 | [Salesforce](../companies/salesforce.md) | 11 | ████ |
 | [Apple](../companies/apple.md) | 10 | ████ |
-| [Citadel](../companies/citadel.md) | 8 | ███ |
 | [Meta](../companies/meta.md) | 8 | ███ |
+| [Citadel](../companies/citadel.md) | 7 | ███ |
 | [DoorDash](../companies/doordash.md) | 7 | ███ |
 | [Figma](../companies/figma.md) | 7 | ███ |
 | [Oracle](../companies/oracle.md) | 7 | ███ |
@@ -41,7 +41,7 @@
 | [Stripe](../companies/stripe.md) | 7 | ███ |
 | [Uber](../companies/uber.md) | 7 | ███ |
 
-<sub>A question reported at several employers counts under each, so this column sums to more than the 260 sightings above. [Every company →](companies.md)</sub>
+<sub>A question reported at several employers counts under each, so this column sums to more than the 259 sightings above. [Every company →](companies.md)</sub>
 
 ## Formats
 
@@ -51,7 +51,7 @@ Every question is asked in exactly one format, so this column sums to the whole 
 | :-- | --: | --: | --: | --: | --: | --: | --: | --: |
 | [Algorithm](../formats/algorithm.md) | 1,943 | 66% | 151 | 353 | 1,214 | 376 | 1,943 | 263 |
 | [SQL](../formats/sql.md) | 94 | 3% | 30 | 20 | 58 | 16 | 94 | 0 |
-| [System Design](../formats/system-design.md) | 312 | 11% | 49 | 17 | 156 | 139 | 312 | 28 |
+| [System Design](../formats/system-design.md) | 312 | 11% | 48 | 17 | 156 | 139 | 312 | 28 |
 | [AI Coding](../formats/ai-coding.md) | 126 | 4% | 0 | 12 | 68 | 46 | 126 | 10 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 460 | 16% | 30 | 41 | 364 | 55 | 460 | 58 |
 

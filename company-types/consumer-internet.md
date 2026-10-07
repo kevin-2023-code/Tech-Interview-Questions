@@ -47,7 +47,7 @@ Of the **520 questions in this cut that carry a topic label** (70% of it):
 
 ## Asked here in the last 90 days
 
-**60 sightings** across this cut. Newest first.
+**59 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **520 questions in this cut that carry a topic label** (70% of it):
 | [Seller Task Scheduler](https://trueinterview.io/questions/seller-task-scheduler) | ByteDance | Object Oriented Programming | Sep 02, 2026 |
 | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | ByteDance | System Design | Aug 30, 2026 |
 
-<sub>48 more in this window are in the table below.</sub>
+<sub>47 more in this window are in the table below.</sub>
 
 ---
 

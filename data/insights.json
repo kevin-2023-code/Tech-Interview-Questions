@@ -270,7 +270,7 @@
       "free": 5,
       "guides": 1,
       "inLastYear": 39,
-      "inWindow": 8,
+      "inWindow": 7,
       "lastSighting": "2026-09-18",
       "name": "Citadel",
       "questions": 61,
@@ -283,7 +283,7 @@
       "free": 13,
       "guides": 3,
       "inLastYear": 42,
-      "inWindow": 3,
+      "inWindow": 2,
       "lastSighting": "2026-09-09",
       "name": "Snapchat",
       "questions": 57,
@@ -555,7 +555,7 @@
       "dated": 15,
       "free": 5,
       "guides": 1,
-      "inLastYear": 12,
+      "inLastYear": 11,
       "inWindow": 0,
       "lastSighting": "2026-07-04",
       "name": "SoFi",
@@ -1497,7 +1497,7 @@
       "free": 28,
       "graded": 312,
       "hard": 139,
-      "inWindow": 49,
+      "inWindow": 48,
       "label": "System Design",
       "medium": 156,
       "questions": 312
@@ -1525,7 +1525,7 @@
       "questions": 460
     }
   ],
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2954,8 +2954,8 @@
     "futureDated": 0,
     "gradedDifficulty": 2935,
     "guides": 171,
-    "inLastYear": 1504,
-    "inWindow": 260,
+    "inLastYear": 1503,
+    "inWindow": 259,
     "labelledTopic": 1934,
     "namingARound": 2935,
     "questions": 2935,

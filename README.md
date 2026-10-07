@@ -5,7 +5,7 @@
 **Real Online Assessment and interview questions — and how each company actually runs its loop.**
 
 <!-- gen:stats:start -->
-**2,935 questions** · **171 writeups** · **112 companies** · **359 free to practise** · **260 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
+**2,935 questions** · **171 writeups** · **112 companies** · **359 free to practise** · **259 reported in the last 90 days** · synced from [the live catalog](https://trueinterview.io/developers/api) every hour
 <!-- gen:stats:end -->
 
 [**▶ Practice these questions**](https://trueinterview.io/problems) &nbsp;·&nbsp;
@@ -41,9 +41,9 @@ what the difficulty and topic mix actually is. Recomputed hourly, with every
 share naming the population it is a share of.
 
 <!-- gen:insights:start -->
-**Last 90 days:** 260 sightings at 53 companies — Algorithm 151 · SQL 30 · System Design 49 · Object Oriented Programming 30.
+**Last 90 days:** 259 sightings at 53 companies — Algorithm 151 · SQL 30 · System Design 48 · Object Oriented Programming 30.
 
-**Reported most:** [Amazon (43)](companies/amazon.md) · [Microsoft (20)](companies/microsoft.md) · [Google (19)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (12)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Citadel (8)](companies/citadel.md)
+**Reported most:** [Amazon (43)](companies/amazon.md) · [Microsoft (20)](companies/microsoft.md) · [Google (19)](companies/google.md) · [ByteDance (16)](companies/bytedance.md) · [LinkedIn (12)](companies/linkedin.md) · [Salesforce (11)](companies/salesforce.md) · [Apple (10)](companies/apple.md) · [Meta (8)](companies/meta.md)
 
 **Asked at the most companies:** [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) (17) · [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) (16) · [Merge Intervals](https://trueinterview.io/questions/merge-intervals) (16) · [Design News Feed](https://trueinterview.io/questions/design-news-feed) (16) · [Valid Parentheses](https://trueinterview.io/questions/valid-parentheses) (14)
 

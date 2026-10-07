@@ -102,8 +102,8 @@ Of the **451 questions in this cut that carry a topic label** (66% of it):
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
 | **Amazon / Meta** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Easy | 🆕 Aug 27, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Medium | 🆕 Aug 24, 2026 |
-| **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Medium | 🆕 Aug 22, 2026 |
-| **Amazon** | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Medium | 🆕 Aug 22, 2026 |
+| **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Medium | Aug 22, 2026 |
+| **Amazon** | [Print Hierarchical Comments](https://trueinterview.io/questions/hierarchical-comments-print) | Medium | Aug 22, 2026 |
 | **Amazon** | [Package Tracking & Status Aggregator Engine](https://trueinterview.io/questions/package-tracking-status-aggregator) | Medium | Aug 21, 2026 |
 | **Amazon** | [Minimum-Point Redemption Across Programs](https://trueinterview.io/questions/minimum-points-redemption) | Hard | Aug 21, 2026 |
 | **ByteDance / Ebay / NVIDIA** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Medium | Aug 21, 2026 |
