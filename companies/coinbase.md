@@ -186,7 +186,7 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Mine block coding question](https://trueinterview.io/questions/31a8c266-4a94-4e0d-b803-472764321103) | Algorithm | Hard | — |
 | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Object Oriented Programming | Medium | — |
-| [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
+| [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
 | [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Object Oriented Programming | Easy | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [Currency Exchange](https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971) | Algorithm | Medium | — |

@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 217) |
-| Difficulty (easy / medium / hard) | 29 / 145 / 43 |
+| Difficulty (easy / medium / hard) | 28 / 146 / 43 |
 | Free to practise | [37](../free/README.md) |
 | Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
@@ -31,8 +31,8 @@ Which stage each question came from, for the **217 of 217** questions at Uber th
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 33 | ███ | [Algorithm](../formats/algorithm.md) (97%) | 11 / 18 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 122 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 11 / 82 / 29 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 32 | ███ | [Algorithm](../formats/algorithm.md) (97%) | 10 / 18 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 123 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 11 / 83 / 29 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 86 | ███████ | [Algorithm](../formats/algorithm.md) (48%) | 8 / 63 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -60,14 +60,14 @@ Of the **153 questions at Uber that carry a topic label** (71% of them — the r
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
 | `graphs` | 39 | 25% | ████████████ | Sep 09, 2026 |
-| `arrays` | 30 | 20% | █████████ | Aug 16, 2026 |
+| `arrays` | 29 | 19% | █████████ | Aug 16, 2026 |
 | `hashing` | 16 | 10% | █████ | Aug 16, 2026 |
 | `matrix` | 15 | 10% | █████ | Sep 09, 2026 |
 | `strings` | 15 | 10% | █████ | Jun 24, 2026 |
 | `trees` | 14 | 9% | ████ | Jun 28, 2026 |
-| `greedy` | 12 | 8% | ████ | May 15, 2026 |
+| `greedy` | 13 | 8% | ████ | May 15, 2026 |
+| `sorting` | 12 | 8% | ████ | Sep 09, 2026 |
 | `dynamic-programming` | 11 | 7% | ███ | Jun 16, 2026 |
-| `sorting` | 11 | 7% | ███ | Sep 09, 2026 |
 | `binary-search` | 10 | 7% | ███ | Jun 16, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -309,7 +309,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Implement a YAML Parser](https://trueinterview.io/questions/1c342f27-ba5a-50b5-9cab-a2ef98aaba12) | Object Oriented Programming | Medium | — |
 | [Maximize Score Sum](https://trueinterview.io/questions/1aaab4e0-9f68-4ab4-b6f5-430ea315a3b6) | Algorithm | Medium | — |
 | [Meeting Rooms III](https://trueinterview.io/questions/c7deeb3e-3110-567c-bdbd-2d0511efaf01) | Algorithm | Hard | — |
-| [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Algorithm | Easy | — |
+| [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Algorithm | Medium | — |
 | [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Algorithm | Medium | — |
 | [Flip and Compare in Arrays](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) | Algorithm | Medium | — |
 | [Design A Nearby Restaurant Recommendation System](https://trueinterview.io/questions/design-a-nearby-restaurant-recommendation-system) | System Design | Medium | — |

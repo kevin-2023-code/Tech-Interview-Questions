@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (337)](../companies/meta.md) · [Amazon (320)](../companies/amazon.md) · [Google (265)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [Uber (217)](../companies/uber.md) · [Microsoft (185)](../companies/microsoft.md) · [Apple (142)](../companies/apple.md) · [LinkedIn (116)](../companies/linkedin.md) · [DoorDash (107)](../companies/doordash.md) · [Oracle (95)](../companies/oracle.md) · [Netflix (87)](../companies/netflix.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Ebay (45)](../companies/ebay.md) · [NVIDIA (37)](../companies/nvidia.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Intuit (28)](../companies/intuit.md) · [Cisco (25)](../companies/cisco.md) · [PayPal (23)](../companies/paypal.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
+[Meta (337)](../companies/meta.md) · [Amazon (321)](../companies/amazon.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [Uber (217)](../companies/uber.md) · [Microsoft (186)](../companies/microsoft.md) · [Apple (142)](../companies/apple.md) · [LinkedIn (116)](../companies/linkedin.md) · [DoorDash (107)](../companies/doordash.md) · [Oracle (95)](../companies/oracle.md) · [Netflix (88)](../companies/netflix.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Ebay (45)](../companies/ebay.md) · [NVIDIA (37)](../companies/nvidia.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Intuit (28)](../companies/intuit.md) · [Cisco (25)](../companies/cisco.md) · [PayPal (23)](../companies/paypal.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
 
 <sub>24 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -19,12 +19,12 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 1,246 | 60% | ██████████████ | 103 |
-| [System Design](../formats/system-design.md) | 367 | 18% | ████ | 16 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 241 | 12% | ███ | 19 |
+| [System Design](../formats/system-design.md) | 370 | 18% | ████ | 16 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 242 | 12% | ███ | 19 |
 | [SQL](../formats/sql.md) | 180 | 9% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 29 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **305 / 1288 / 470**, over the rows the catalog has graded. 140 of the 2,063 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **304 / 1292 / 471**, over the rows the catalog has graded. 140 of the 2,067 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -32,14 +32,14 @@ Of the **1,253 questions in this cut that carry a topic label** (61% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 194 | 15% | ████████████ |
+| `arrays` | 193 | 15% | ████████████ |
 | `graphs` | 189 | 15% | ████████████ |
 | `hashing` | 188 | 15% | ████████████ |
 | `strings` | 157 | 13% | ██████████ |
-| `greedy` | 105 | 8% | ██████ |
+| `greedy` | 106 | 8% | ███████ |
 | `dynamic-programming` | 90 | 7% | ██████ |
 | `trees` | 90 | 7% | ██████ |
-| `sorting` | 85 | 7% | █████ |
+| `sorting` | 86 | 7% | █████ |
 | `math` | 84 | 7% | █████ |
 | `two-pointers` | 79 | 6% | █████ |
 
@@ -179,9 +179,9 @@ Of the **1,253 questions in this cut that carry a topic label** (61% of it):
 | **Salesforce** | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Hard | 🆕 Aug 24, 2026 |
 | **Salesforce** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Medium | 🆕 Aug 24, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Medium | 🆕 Aug 24, 2026 |
-| **ByteDance** | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Hard | 🆕 Aug 23, 2026 |
-| **ByteDance** | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Medium | 🆕 Aug 23, 2026 |
-| **ByteDance** | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Hard | 🆕 Aug 23, 2026 |
+| **ByteDance** | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Hard | Aug 23, 2026 |
+| **ByteDance** | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Medium | Aug 23, 2026 |
+| **ByteDance** | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Hard | Aug 23, 2026 |
 | **Amazon** | [Design Faceted Product Search at Large Scale](https://trueinterview.io/questions/design-faceted-product-search-at-large-scale) | Hard | Aug 22, 2026 |
 | **Amazon** | [Design a Product Image Upload Pipeline for Sellers](https://trueinterview.io/questions/design-a-product-image-upload-pipeline-for-sellers) | Medium | Aug 22, 2026 |
 | **Uber** | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | Medium | Aug 22, 2026 |

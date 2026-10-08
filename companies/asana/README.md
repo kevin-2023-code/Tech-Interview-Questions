@@ -8,7 +8,7 @@ How Asana interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [7](../asana.md) |
+| Questions reported | [8](../asana.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../asana.md#the-loop-as-re
 
 ## Everything else
 
-- [All 7 questions reported at Asana](../asana.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 8 questions reported at Asana](../asana.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Asana question on TrueInterview](https://trueinterview.io/problems/company/asana).
 
 ---

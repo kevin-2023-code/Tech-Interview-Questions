@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**691 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**699 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -53,6 +53,7 @@
 | **Oracle** | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | Hard | 🆕 Sep 05, 2026 |
 | **DoorDash** | [Design Food-Item Reviews, Ratings, and Mutable Vote Counts](https://trueinterview.io/questions/design-food-item-reviews-ratings-and-mutable-vote-counts) | Medium | 🆕 Sep 05, 2026 |
 | **Oracle** | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | Hard | 🆕 Sep 05, 2026 |
+| **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | 🆕 Sep 04, 2026 |
 | **Airbnb** | [Model Cumulative Booking Metrics and First and Last Booking Times](https://trueinterview.io/questions/model-cumulative-booking-metrics-and-first-and-last-booking-times) | Medium | 🆕 Sep 04, 2026 |
 | **Meta** | [Find Nearby High Scores in a Large Game Leaderboard](https://trueinterview.io/questions/find-nearby-high-scores-in-a-large-game-leaderboard) | Hard | 🆕 Sep 04, 2026 |
 | **Atlassian** | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | Hard | 🆕 Sep 04, 2026 |
@@ -103,11 +104,12 @@
 | **Tesla** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | Hard | 🆕 Aug 24, 2026 |
 | **Snowflake** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Medium | 🆕 Aug 24, 2026 |
 | **Tesla** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Hard | 🆕 Aug 24, 2026 |
-| **Capital One** | [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | Hard | 🆕 Aug 23, 2026 |
+| **Capital One** | [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | Hard | Aug 23, 2026 |
 | **Amazon** | [Design Faceted Product Search at Large Scale](https://trueinterview.io/questions/design-faceted-product-search-at-large-scale) | Hard | Aug 22, 2026 |
 | **Amazon** | [Design a Product Image Upload Pipeline for Sellers](https://trueinterview.io/questions/design-a-product-image-upload-pipeline-for-sellers) | Medium | Aug 22, 2026 |
 | **Snapchat** | [Design a Pre-Login Risk and Challenge Service](https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service) | Medium | Aug 22, 2026 |
 | **Uber** | [Design a Highly Available URL Shortener](https://trueinterview.io/questions/design-a-highly-available-url-shortener) | Medium | Aug 22, 2026 |
+| **C3 AI** | [Evaluate a Retrieval-Augmented Generation System](https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system) | Medium | Aug 21, 2026 |
 | **OpenAI** | [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | Hard | Aug 21, 2026 |
 | **Cursor** | [Design a CI/CD Job Scheduler](https://trueinterview.io/questions/design-a-ci-cd-job-scheduler) | Hard | Aug 21, 2026 |
 | **C3 AI** | [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | Hard | Aug 21, 2026 |
@@ -258,7 +260,5 @@
 | **Meta** | [LeetCode / Online Judge + Contest Leaderboard](https://trueinterview.io/questions/system-design-leetcode-online-judge) | Medium | Apr 21, 2026 |
 | **Atlassian** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | Hard | Apr 21, 2026 |
 | **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
-| **Affirm** | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | Medium | Apr 19, 2026 |
-| **OpenAI** | [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system) | Hard | Apr 19, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](system-design-2.md)</sub>

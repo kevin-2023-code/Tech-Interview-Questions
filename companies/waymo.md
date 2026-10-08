@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **62** |
 | Most recent sighting | Aug 27, 2026 |
-| Reported in the last 90 days | 2 |
+| Reported in the last 90 days | 1 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 62) |
 | Difficulty (easy / medium / hard) | 6 / 39 / 17 |
 | Free to practise | [4](../free/README.md) |
@@ -38,12 +38,11 @@ Which stage each question came from, for the **62 of 62** questions at Waymo tha
 
 ## Asked here in the last 90 days
 
-**2 sightings** in this window. Newest first.
+**1 sighting** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Algorithm | Hard | Onsite / virtual onsite | Aug 27, 2026 |
-| [Build an Arithmetic Expression to Reach a Target](https://trueinterview.io/questions/arithmetic-expression-reach-target) | Algorithm | Hard | Phone screen | Jul 09, 2026 |
 
 ## What they ask about
 

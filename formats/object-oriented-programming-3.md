@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**591 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**595 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,10 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Walmart Labs** | [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Medium | — |
+| **Tesla / Google** | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Medium | — |
+| **SoFi** | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Easy | — |
+| **Snapchat** | [O(1) Get and Add Data Structure](https://trueinterview.io/questions/004790d3-cd6c-4d92-9e71-b810ddad3a63) | Easy | — |
 | **Scale AI** | [Create RESTful API with CSV and JSON Conversion](https://trueinterview.io/questions/44f4defb-82d9-46e7-a008-0c8e2f044a17) | Medium | — |
 | **Oracle** | [List All LRU Cache Possibilities](https://trueinterview.io/questions/8783a1ff-f1f9-404a-b4d1-d006ae36d2a1) | Medium | — |
 | **Microsoft** | [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3) | Easy | — |
@@ -53,7 +57,7 @@
 | **Capital One** | [Banking System with Transaction Activity](https://trueinterview.io/questions/29511aba-ee37-4801-8081-956ebe7d0a75) | Medium | — |
 | **Meta / Google / LinkedIn** | [Nested List Weight Sum](https://trueinterview.io/questions/288d55b6-c83f-4083-bb0d-66960e43f93e) | Easy | — |
 | **Stripe** | [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9) | Medium | — |
-| **Coinbase** | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
+| **Coinbase** | [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
 | **Uber / Apple / Google** | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Medium | — |
 | **OpenAI** | [Incremental Task Scheduling for Human Labelers and Models with Daily Streaming Constraints](https://trueinterview.io/questions/5584e468-fad4-4185-85f5-a71420266f7b) | Hard | — |
 | **Netflix** | [Command Executor with Execute and Undo](https://trueinterview.io/questions/3dd213c6-509e-4a61-b664-1bd24a8ed968) | Easy | — |

@@ -8,7 +8,7 @@ How C3 AI interviews, and the questions candidates reported there. Free question
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [3](../c3-ai.md) |
+| Questions reported | [4](../c3-ai.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../c3-ai.md#the-loop-as-re
 
 ## Everything else
 
-- [All 3 questions reported at C3 AI](../c3-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 4 questions reported at C3 AI](../c3-ai.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every C3 AI question on TrueInterview](https://trueinterview.io/problems/company/c3-ai).
 
 ---

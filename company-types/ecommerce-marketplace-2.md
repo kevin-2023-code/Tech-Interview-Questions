@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**888 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**890 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 

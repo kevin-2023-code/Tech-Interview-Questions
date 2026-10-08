@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 11, 2026 |
 | Reported in the last 90 days | 11 |
 | Most common format | [Algorithm](../formats/algorithm.md) (54% of 93) |
-| Difficulty (easy / medium / hard) | 17 / 60 / 16 |
+| Difficulty (easy / medium / hard) | 16 / 61 / 16 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
@@ -31,8 +31,8 @@ Which stage each question came from, for the **93 of 93** questions at Stripe th
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 25 | ██████ | [Algorithm](../formats/algorithm.md) (84%) | 8 / 14 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 34 | ████████ | [Algorithm](../formats/algorithm.md) (79%) | 6 / 21 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 24 | ██████ | [Algorithm](../formats/algorithm.md) (83%) | 7 / 14 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (80%) | 6 / 22 / 7 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 42 | ██████████ | [AI Coding](../formats/ai-coding.md) (29%) | 5 / 30 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -220,7 +220,7 @@ What candidates said happened in the room at Stripe — written up by the people
 | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Algorithm | Medium | — |
 | [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Object Oriented Programming | Medium | — |
 | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | SQL | Medium | — |
-| [Find linked merchants by ID](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Algorithm | Easy | — |
+| [Find Directly Linked Merchants by Shared Attributes](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Algorithm | Medium | — |
 | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | AI Coding | Medium | — |
 | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Algorithm | Easy | — |
 | [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Object Oriented Programming | Medium | — |

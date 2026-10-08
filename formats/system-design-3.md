@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**691 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**699 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,11 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Pinterest** | [Leaderboard / Category Ranking](https://trueinterview.io/questions/system-design-leaderboard) | Medium | Dec 09, 2025 |
+| **ByteDance** | [Design system to detect privacy-leak records](https://trueinterview.io/questions/design-system-to-detect-privacy-leak-records) | Hard | Dec 08, 2025 |
+| **Rokt** | [Design Google-scale CI/CD pipeline](https://trueinterview.io/questions/design-google-scale-ci-cd-pipeline) | Hard | Dec 06, 2025 |
+| **Two Sigma** | [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data) | Hard | Dec 02, 2025 |
+| **Meta** | [Model entities for feed content and shares](https://trueinterview.io/questions/model-entities-for-feed-content-and-shares) | Medium | Dec 01, 2025 |
 | **Coinbase** | [Signup Form](https://trueinterview.io/questions/fe-sd-signup-form) | Medium | Dec 01, 2025 |
 | **Airbnb** | [Query System — Time + Geo Filtered User Activity](https://trueinterview.io/questions/query-system-time-geo-search) | Medium | Nov 30, 2025 |
 | **Apple** | [Design a Concurrent Image Upload System](https://trueinterview.io/questions/design-a-concurrent-image-upload-system) | Medium | Nov 30, 2025 |
@@ -25,6 +30,7 @@
 | **Databricks** | [Network Throttling System Design](https://trueinterview.io/questions/network-throttling-system-design) | Medium | Nov 20, 2025 |
 | **Microsoft** | [Design local sports team recommendation system](https://trueinterview.io/questions/design-local-sports-team-recommendation-system) | Medium | Nov 19, 2025 |
 | **Atlassian** | [Full-Stack Craft: Login and Upload Flow](https://trueinterview.io/questions/fullstack-craft-login-and-upload-flow) | Easy | Nov 19, 2025 |
+| **Axon** | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | Medium | Nov 18, 2025 |
 | **DoorDash** | [Design experiment for bike delivery feature](https://trueinterview.io/questions/design-experiment-for-bike-delivery-feature) | Medium | Nov 15, 2025 |
 | **LinkedIn** | [Real-Time Collaborative Code Editor](https://trueinterview.io/questions/sd-collab-coderpad) | Medium | Nov 13, 2025 |
 | **ByteDance** | [Design low-latency large-scale hotel booking system](https://trueinterview.io/questions/design-low-latency-large-scale-hotel-booking-system) | Hard | Nov 12, 2025 |
@@ -64,6 +70,8 @@
 | **Robinhood** | [Financial News Recommendation Feed](https://trueinterview.io/questions/financial-news-recommendation-feed) | Medium | Jun 2025 |
 | **Oracle** | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | Medium | Jan 15, 2025 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
+| **Shopify** | [Justify and harden your analytics and BI stack](https://trueinterview.io/questions/justify-and-harden-your-analytics-and-bi-stack) | Hard | — |
+| **Amazon** | [Design end-to-end regression for energy demand](https://trueinterview.io/questions/design-end-to-end-regression-for-energy-demand) | Medium | — |
 | **ByteDance** | [Test 15s to 60s video length change](https://trueinterview.io/questions/test-15s-to-60s-video-length-change) | Hard | — |
 | **Meta** | [Prove source growth is cannibalization, not incremental](https://trueinterview.io/questions/prove-source-growth-is-cannibalization-not-incremental) | Hard | — |
 | **Amazon** | [Prove new allocation outperforms manual baseline](https://trueinterview.io/questions/prove-new-allocation-outperforms-manual-baseline) | Hard | — |

@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**888 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**890 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (320)](../companies/amazon.md) · [Uber (217)](../companies/uber.md) · [DoorDash (107)](../companies/doordash.md) · [Airbnb (78)](../companies/airbnb.md) · [Ebay (45)](../companies/ebay.md) · [Lyft (43)](../companies/lyft.md) · [Instacart (38)](../companies/instacart.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Shopify (25)](../companies/shopify.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Whatnot (17)](../companies/whatnot.md) · [Faire (5)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
+[Amazon (321)](../companies/amazon.md) · [Uber (217)](../companies/uber.md) · [DoorDash (107)](../companies/doordash.md) · [Airbnb (78)](../companies/airbnb.md) · [Ebay (45)](../companies/ebay.md) · [Lyft (43)](../companies/lyft.md) · [Instacart (38)](../companies/instacart.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Shopify (26)](../companies/shopify.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Whatnot (17)](../companies/whatnot.md) · [Faire (5)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -19,26 +19,26 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 527 | 59% | ██████████████ | 63 |
-| [System Design](../formats/system-design.md) | 164 | 18% | ████ | 11 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 120 | 14% | ███ | 14 |
+| [System Design](../formats/system-design.md) | 166 | 19% | ████ | 11 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 120 | 13% | ███ | 14 |
 | [SQL](../formats/sql.md) | 64 | 7% | ██ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 13 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **122 / 587 / 179**, over the rows the catalog has graded. 89 of the 888 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **121 / 589 / 180**, over the rows the catalog has graded. 89 of the 890 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **529 questions in this cut that carry a topic label** (60% of it):
+Of the **530 questions in this cut that carry a topic label** (60% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
-| `arrays` | 91 | 17% | ████████████ |
+| `arrays` | 90 | 17% | ████████████ |
 | `graphs` | 84 | 16% | ███████████ |
 | `hashing` | 83 | 16% | ███████████ |
 | `strings` | 69 | 13% | █████████ |
-| `greedy` | 46 | 9% | ██████ |
-| `dynamic-programming` | 45 | 9% | ██████ |
-| `sorting` | 41 | 8% | █████ |
+| `greedy` | 47 | 9% | ██████ |
+| `dynamic-programming` | 45 | 8% | ██████ |
+| `sorting` | 42 | 8% | ██████ |
 | `matrix` | 35 | 7% | █████ |
 | `trees` | 35 | 7% | █████ |
 | `math` | 31 | 6% | ████ |

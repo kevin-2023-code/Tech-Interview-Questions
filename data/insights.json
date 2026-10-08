@@ -1,7 +1,7 @@
 {
   "accessTiers": {
     "free": 397,
-    "insider": 3625,
+    "insider": 3637,
     "pro": 78
   },
   "companies": [
@@ -26,20 +26,20 @@
       "inWindow": 54,
       "lastSighting": "2026-09-20",
       "name": "Amazon",
-      "questions": 320,
+      "questions": 321,
       "slug": "amazon",
       "topFormat": "Algorithm",
       "topTopic": "hashing"
     },
     {
-      "dated": 140,
+      "dated": 141,
       "free": 25,
       "guides": 3,
-      "inLastYear": 137,
+      "inLastYear": 138,
       "inWindow": 25,
       "lastSighting": "2026-09-18",
       "name": "Google",
-      "questions": 265,
+      "questions": 266,
       "slug": "google",
       "topFormat": "Algorithm",
       "topTopic": "graphs"
@@ -61,7 +61,7 @@
       "dated": 141,
       "free": 37,
       "guides": 3,
-      "inLastYear": 139,
+      "inLastYear": 138,
       "inWindow": 9,
       "lastSighting": "2026-09-09",
       "name": "Uber",
@@ -71,14 +71,14 @@
       "topTopic": "graphs"
     },
     {
-      "dated": 118,
+      "dated": 119,
       "free": 22,
       "guides": 5,
-      "inLastYear": 117,
+      "inLastYear": 118,
       "inWindow": 23,
       "lastSighting": "2026-09-10",
       "name": "Microsoft",
-      "questions": 185,
+      "questions": 186,
       "slug": "microsoft",
       "topFormat": "Algorithm",
       "topTopic": "graphs"
@@ -87,7 +87,7 @@
       "dated": 94,
       "free": 13,
       "guides": 7,
-      "inLastYear": 92,
+      "inLastYear": 91,
       "inWindow": 20,
       "lastSighting": "2026-09-17",
       "name": "OpenAI",
@@ -178,7 +178,7 @@
       "dated": 60,
       "free": 5,
       "guides": 1,
-      "inLastYear": 60,
+      "inLastYear": 59,
       "inWindow": 11,
       "lastSighting": "2026-09-11",
       "name": "Stripe",
@@ -188,14 +188,14 @@
       "topTopic": "strings"
     },
     {
-      "dated": 54,
+      "dated": 55,
       "free": 12,
       "guides": 4,
-      "inLastYear": 54,
+      "inLastYear": 55,
       "inWindow": 1,
       "lastSighting": "2026-08-21",
       "name": "Netflix",
-      "questions": 87,
+      "questions": 88,
       "slug": "netflix",
       "topFormat": "Algorithm",
       "topTopic": "hashing"
@@ -244,7 +244,7 @@
       "free": 12,
       "guides": 1,
       "inLastYear": 58,
-      "inWindow": 4,
+      "inWindow": 3,
       "lastSighting": "2026-08-04",
       "name": "Bloomberg",
       "questions": 83,
@@ -282,7 +282,7 @@
       "dated": 59,
       "free": 8,
       "guides": 3,
-      "inLastYear": 56,
+      "inLastYear": 55,
       "inWindow": 11,
       "lastSighting": "2026-09-04",
       "name": "Airbnb",
@@ -335,7 +335,7 @@
       "free": 4,
       "guides": 1,
       "inLastYear": 54,
-      "inWindow": 2,
+      "inWindow": 1,
       "lastSighting": "2026-08-27",
       "name": "Waymo",
       "questions": 62,
@@ -396,6 +396,19 @@
       "topTopic": "arrays"
     },
     {
+      "dated": 36,
+      "free": 9,
+      "guides": 3,
+      "inLastYear": 28,
+      "inWindow": 6,
+      "lastSighting": "2026-09-13",
+      "name": "Tesla",
+      "questions": 45,
+      "slug": "tesla",
+      "topFormat": "Algorithm",
+      "topTopic": "arrays"
+    },
+    {
       "dated": 27,
       "free": 10,
       "guides": 1,
@@ -420,19 +433,6 @@
       "slug": "robinhood",
       "topFormat": "System Design",
       "topTopic": "graphs"
-    },
-    {
-      "dated": 34,
-      "free": 9,
-      "guides": 3,
-      "inLastYear": 26,
-      "inWindow": 4,
-      "lastSighting": "2026-09-04",
-      "name": "Tesla",
-      "questions": 43,
-      "slug": "tesla",
-      "topFormat": "Algorithm",
-      "topTopic": "arrays"
     },
     {
       "dated": 31,
@@ -529,7 +529,7 @@
       "dated": 22,
       "free": 10,
       "guides": 1,
-      "inLastYear": 13,
+      "inLastYear": 12,
       "inWindow": 2,
       "lastSighting": "2026-09-14",
       "name": "IBM",
@@ -682,6 +682,19 @@
       "topTopic": "hashing"
     },
     {
+      "dated": 20,
+      "free": 7,
+      "guides": 1,
+      "inLastYear": 15,
+      "inWindow": 1,
+      "lastSighting": "2026-09-07",
+      "name": "Shopify",
+      "questions": 26,
+      "slug": "shopify",
+      "topFormat": "Algorithm",
+      "topTopic": "hashing"
+    },
+    {
       "dated": 15,
       "free": 17,
       "guides": 1,
@@ -693,19 +706,6 @@
       "slug": "cisco",
       "topFormat": "Algorithm",
       "topTopic": "matrix"
-    },
-    {
-      "dated": 20,
-      "free": 7,
-      "guides": 1,
-      "inLastYear": 15,
-      "inWindow": 1,
-      "lastSighting": "2026-09-07",
-      "name": "Shopify",
-      "questions": 25,
-      "slug": "shopify",
-      "topFormat": "Algorithm",
-      "topTopic": "hashing"
     },
     {
       "dated": 15,
@@ -724,7 +724,7 @@
       "dated": 19,
       "free": 5,
       "guides": 3,
-      "inLastYear": 16,
+      "inLastYear": 15,
       "inWindow": 0,
       "lastSighting": "2026-06-15",
       "name": "Optiver",
@@ -751,7 +751,7 @@
       "free": 3,
       "guides": 1,
       "inLastYear": 17,
-      "inWindow": 7,
+      "inWindow": 6,
       "lastSighting": "2026-08-12",
       "name": "Figma",
       "questions": 22,
@@ -985,6 +985,19 @@
       "free": 2,
       "guides": 0,
       "inLastYear": 11,
+      "inWindow": 2,
+      "lastSighting": "2026-08-24",
+      "name": "Jane Street",
+      "questions": 11,
+      "slug": "jane-street",
+      "topFormat": "Algorithm",
+      "topTopic": "hashing"
+    },
+    {
+      "dated": 11,
+      "free": 2,
+      "guides": 0,
+      "inLastYear": 11,
       "inWindow": 6,
       "lastSighting": "2026-08-31",
       "name": "Nuro",
@@ -1046,19 +1059,6 @@
       "topTopic": null
     },
     {
-      "dated": 10,
-      "free": 2,
-      "guides": 0,
-      "inLastYear": 10,
-      "inWindow": 2,
-      "lastSighting": "2026-08-24",
-      "name": "Jane Street",
-      "questions": 10,
-      "slug": "jane-street",
-      "topFormat": "Algorithm",
-      "topTopic": "hashing"
-    },
-    {
       "dated": 5,
       "free": 2,
       "guides": 0,
@@ -1098,6 +1098,19 @@
       "topTopic": "matrix"
     },
     {
+      "dated": 8,
+      "free": 2,
+      "guides": 0,
+      "inLastYear": 8,
+      "inWindow": 0,
+      "lastSighting": "2026-04-13",
+      "name": "Asana",
+      "questions": 8,
+      "slug": "asana",
+      "topFormat": "System Design",
+      "topTopic": "arrays"
+    },
+    {
       "dated": 7,
       "free": 2,
       "guides": 0,
@@ -1122,19 +1135,6 @@
       "slug": "amplitude",
       "topFormat": "Algorithm",
       "topTopic": "graphs"
-    },
-    {
-      "dated": 7,
-      "free": 2,
-      "guides": 0,
-      "inLastYear": 7,
-      "inWindow": 0,
-      "lastSighting": "2026-04-13",
-      "name": "Asana",
-      "questions": 7,
-      "slug": "asana",
-      "topFormat": "System Design",
-      "topTopic": "arrays"
     },
     {
       "dated": 7,
@@ -1174,6 +1174,19 @@
       "slug": "arista",
       "topFormat": "Algorithm",
       "topTopic": "binary-search"
+    },
+    {
+      "dated": 6,
+      "free": 2,
+      "guides": 0,
+      "inLastYear": 6,
+      "inWindow": 0,
+      "lastSighting": "2026-03-29",
+      "name": "Axon",
+      "questions": 6,
+      "slug": "axon",
+      "topFormat": "System Design",
+      "topTopic": "graphs"
     },
     {
       "dated": 4,
@@ -1453,13 +1466,13 @@
       "free": 2,
       "guides": 0,
       "inLastYear": 4,
-      "inWindow": 0,
-      "lastSighting": "2026-03-01",
-      "name": "Axon",
+      "inWindow": 3,
+      "lastSighting": "2026-08-21",
+      "name": "C3 AI",
       "questions": 4,
-      "slug": "axon",
+      "slug": "c3-ai",
       "topFormat": "System Design",
-      "topTopic": "graphs"
+      "topTopic": "linked-list"
     },
     {
       "dated": 4,
@@ -1499,19 +1512,6 @@
       "slug": "brex",
       "topFormat": "Algorithm",
       "topTopic": "arrays"
-    },
-    {
-      "dated": 3,
-      "free": 2,
-      "guides": 0,
-      "inLastYear": 3,
-      "inWindow": 2,
-      "lastSighting": "2026-08-21",
-      "name": "C3 AI",
-      "questions": 3,
-      "slug": "c3-ai",
-      "topFormat": "System Design",
-      "topTopic": "linked-list"
     },
     {
       "dated": 3,
@@ -1710,21 +1710,21 @@
     }
   ],
   "difficulty": {
-    "easy": 583,
-    "hard": 969,
-    "medium": 2548
+    "easy": 581,
+    "hard": 973,
+    "medium": 2558
   },
   "earliestSighting": "2024-05-28",
   "formats": [
     {
-      "easy": 434,
+      "easy": 432,
       "format": "algorithm",
       "free": 288,
       "graded": 2431,
       "hard": 510,
-      "inWindow": 208,
+      "inWindow": 205,
       "label": "Algorithm",
-      "medium": 1487,
+      "medium": 1489,
       "questions": 2431
     },
     {
@@ -1742,12 +1742,12 @@
       "easy": 28,
       "format": "system-design",
       "free": 34,
-      "graded": 691,
-      "hard": 301,
-      "inWindow": 135,
+      "graded": 699,
+      "hard": 305,
+      "inWindow": 137,
       "label": "System Design",
-      "medium": 362,
-      "questions": 691
+      "medium": 366,
+      "questions": 699
     },
     {
       "easy": 7,
@@ -1764,15 +1764,15 @@
       "easy": 48,
       "format": "object-oriented-programming",
       "free": 62,
-      "graded": 591,
+      "graded": 595,
       "hard": 76,
-      "inWindow": 64,
+      "inWindow": 65,
       "label": "Object Oriented Programming",
-      "medium": 467,
-      "questions": 591
+      "medium": 471,
+      "questions": 595
     }
   ],
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -1785,12 +1785,12 @@
       ],
       "formats": {
         "algorithm": 67,
-        "object-oriented-programming": 25,
+        "object-oriented-programming": 26,
         "sql": 6,
-        "system-design": 63
+        "system-design": 64
       },
       "month": "2026-09",
-      "questions": 161
+      "questions": 163
     },
     {
       "companies": 58,
@@ -1802,10 +1802,10 @@
         "algorithm": 104,
         "object-oriented-programming": 34,
         "sql": 8,
-        "system-design": 69
+        "system-design": 70
       },
       "month": "2026-08",
-      "questions": 215
+      "questions": 216
     },
     {
       "companies": 35,
@@ -1862,12 +1862,12 @@
       "formats": {
         "ai-coding": 8,
         "algorithm": 179,
-        "object-oriented-programming": 48,
+        "object-oriented-programming": 49,
         "sql": 7,
         "system-design": 90
       },
       "month": "2026-04",
-      "questions": 332
+      "questions": 333
     },
     {
       "companies": 62,
@@ -1881,16 +1881,15 @@
         "algorithm": 121,
         "object-oriented-programming": 21,
         "sql": 11,
-        "system-design": 41
+        "system-design": 44
       },
       "month": "2026-03",
-      "questions": 199
+      "questions": 202
     },
     {
       "companies": 71,
       "firstReportedCompanies": [
         "Arista",
-        "Axon",
         "Cursor",
         "Harvey",
         "Lead Bank",
@@ -1957,10 +1956,11 @@
       "questions": 154
     },
     {
-      "companies": 57,
+      "companies": 58,
       "firstReportedCompanies": [
         "Airtable",
         "Airwallex",
+        "Axon",
         "C3 AI",
         "Capital One",
         "Disney",
@@ -1975,12 +1975,12 @@
       "formats": {
         "ai-coding": 2,
         "algorithm": 89,
-        "object-oriented-programming": 28,
+        "object-oriented-programming": 30,
         "sql": 9,
-        "system-design": 26
+        "system-design": 27
       },
       "month": "2025-11",
-      "questions": 154
+      "questions": 157
     },
     {
       "companies": 51,
@@ -2455,15 +2455,15 @@
   ],
   "rounds": [
     {
-      "questions": 673,
+      "questions": 671,
       "round": "oa"
     },
     {
-      "questions": 2099,
+      "questions": 2108,
       "round": "phone-screen"
     },
     {
-      "questions": 1628,
+      "questions": 1633,
       "round": "onsite"
     },
     {
@@ -2476,7 +2476,7 @@
       "easy": 97,
       "graded": 412,
       "hard": 60,
-      "inWindow": 51,
+      "inWindow": 50,
       "medium": 255,
       "questions": 412,
       "topCompanies": [
@@ -2545,12 +2545,12 @@
       "topic": "graphs"
     },
     {
-      "easy": 98,
-      "graded": 341,
+      "easy": 97,
+      "graded": 340,
       "hard": 41,
-      "inWindow": 33,
+      "inWindow": 32,
       "medium": 202,
-      "questions": 341,
+      "questions": 340,
       "topCompanies": [
         {
           "name": "Google",
@@ -2559,7 +2559,7 @@
         },
         {
           "name": "Uber",
-          "questions": 30,
+          "questions": 29,
           "slug": "uber"
         },
         {
@@ -2582,11 +2582,11 @@
     },
     {
       "easy": 86,
-      "graded": 321,
+      "graded": 320,
       "hard": 41,
-      "inWindow": 31,
-      "medium": 194,
-      "questions": 321,
+      "inWindow": 30,
+      "medium": 193,
+      "questions": 320,
       "topCompanies": [
         {
           "name": "ByteDance",
@@ -2618,11 +2618,11 @@
     },
     {
       "easy": 16,
-      "graded": 212,
+      "graded": 213,
       "hard": 47,
-      "inWindow": 19,
-      "medium": 149,
-      "questions": 212,
+      "inWindow": 18,
+      "medium": 150,
+      "questions": 213,
       "topCompanies": [
         {
           "name": "Google",
@@ -2640,14 +2640,14 @@
           "slug": "bytedance"
         },
         {
+          "name": "Uber",
+          "questions": 13,
+          "slug": "uber"
+        },
+        {
           "name": "Salesforce",
           "questions": 12,
           "slug": "salesforce"
-        },
-        {
-          "name": "Uber",
-          "questions": 12,
-          "slug": "uber"
         }
       ],
       "topic": "greedy"
@@ -2726,11 +2726,11 @@
     },
     {
       "easy": 33,
-      "graded": 177,
+      "graded": 178,
       "hard": 44,
       "inWindow": 22,
-      "medium": 100,
-      "questions": 177,
+      "medium": 101,
+      "questions": 178,
       "topCompanies": [
         {
           "name": "Amazon",
@@ -2743,14 +2743,14 @@
           "slug": "google"
         },
         {
+          "name": "Uber",
+          "questions": 12,
+          "slug": "uber"
+        },
+        {
           "name": "Meta",
           "questions": 11,
           "slug": "meta"
-        },
-        {
-          "name": "Uber",
-          "questions": 11,
-          "slug": "uber"
         },
         {
           "name": "ByteDance",
@@ -2800,7 +2800,7 @@
       "easy": 10,
       "graded": 136,
       "hard": 40,
-      "inWindow": 19,
+      "inWindow": 18,
       "medium": 86,
       "questions": 136,
       "topCompanies": [
@@ -2980,7 +2980,7 @@
       "easy": 18,
       "graded": 105,
       "hard": 14,
-      "inWindow": 6,
+      "inWindow": 5,
       "medium": 73,
       "questions": 105,
       "topCompanies": [
@@ -3014,11 +3014,11 @@
     },
     {
       "easy": 13,
-      "graded": 103,
-      "hard": 18,
+      "graded": 104,
+      "hard": 19,
       "inWindow": 9,
       "medium": 72,
-      "questions": 103,
+      "questions": 104,
       "topCompanies": [
         {
           "name": "Meta",
@@ -3050,11 +3050,11 @@
     },
     {
       "easy": 1,
-      "graded": 84,
+      "graded": 85,
       "hard": 21,
       "inWindow": 7,
-      "medium": 62,
-      "questions": 84,
+      "medium": 63,
+      "questions": 85,
       "topCompanies": [
         {
           "name": "Google",
@@ -3067,14 +3067,14 @@
           "slug": "amazon"
         },
         {
+          "name": "Uber",
+          "questions": 9,
+          "slug": "uber"
+        },
+        {
           "name": "ByteDance",
           "questions": 8,
           "slug": "bytedance"
-        },
-        {
-          "name": "Uber",
-          "questions": 8,
-          "slug": "uber"
         },
         {
           "name": "Apple",
@@ -3231,17 +3231,17 @@
   ],
   "totals": {
     "companies": 131,
-    "dated": 2474,
+    "dated": 2484,
     "free": 397,
     "futureDated": 0,
-    "gradedDifficulty": 4100,
+    "gradedDifficulty": 4112,
     "guides": 171,
-    "inLastYear": 2322,
+    "inLastYear": 2326,
     "inWindow": 445,
     "labelledTopic": 2408,
-    "namingARound": 4100,
-    "questions": 4100,
-    "undated": 1626
+    "namingARound": 4112,
+    "questions": 4112,
+    "undated": 1628
   },
   "windowDays": 90
 }

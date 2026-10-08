@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**691 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**699 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Affirm** | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | Medium | Apr 19, 2026 |
+| **OpenAI** | [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system) | Hard | Apr 19, 2026 |
 | **Microsoft** | [Design a Product Search System](https://trueinterview.io/questions/design-a-product-search-system) | Hard | Apr 18, 2026 |
 | **Apple** | [Ads Click Aggregator](https://trueinterview.io/questions/ad-click-aggregator) | Medium | Apr 18, 2026 |
 | **Waymo** | [Choose Passenger Drop-off Location](https://trueinterview.io/questions/sd-passenger-dropoff-location-ml) | Hard | Apr 18, 2026 |
@@ -70,6 +72,7 @@
 | **Stripe** | [Design Merchant Lender System](https://trueinterview.io/questions/ledger-system) | Medium | Mar 31, 2026 |
 | **Anthropic** | [Estimate FFN Compute, Memory, and Sharding Communication](https://trueinterview.io/questions/estimate-ffn-compute-memory-and-sharding-communication) | Medium | Mar 30, 2026 |
 | **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Figma / Google / LinkedIn / Lyft / Meta / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | Medium | Mar 30, 2026 |
+| **Axon** | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | Hard | Mar 29, 2026 |
 | **Airbnb** | [Home Page — Search + Availability + Ranking](https://trueinterview.io/questions/home-page-search-availability-design) | Hard | Mar 29, 2026 |
 | **Uber** | [Design Pricing Model Experiment](https://trueinterview.io/questions/design-pricing-model-experiment) | Hard | Mar 28, 2026 |
 | **Apple** | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation) | Hard | Mar 28, 2026 |
@@ -93,9 +96,11 @@
 | **Tesla** | [Ticketmaster-Style Seat Booking Design](https://trueinterview.io/questions/ticketmaster-double-booking-design) | Hard | Mar 11, 2026 |
 | **Salesforce** | [Design a Collaborative Spreadsheet (Google Sheets)](https://trueinterview.io/questions/google-sheets-design) | Hard | Mar 10, 2026 |
 | **Salesforce** | [Design an Analytics Metrics Dashboard for ChatGPT / LLM Service](https://trueinterview.io/questions/analytics-dashboard-llm-product) | Hard | Mar 10, 2026 |
+| **Netflix** | [Design demand-side ads relational tables](https://trueinterview.io/questions/design-demand-side-ads-relational-tables) | Medium | Mar 09, 2026 |
 | **Uber** | [ML System Design (Recommendation / Feed Ranking / ETA)](https://trueinterview.io/questions/mle-onsite-ml-system-design) | Medium | Mar 09, 2026 |
 | **Palantir** | [Design a Server Metrics Monitor](https://trueinterview.io/questions/design-a-server-metrics-monitor) | Medium | Mar 08, 2026 |
 | **Anthropic** | [System Design Q5 — Data Infrastructure](https://trueinterview.io/questions/sd-q5-data-infrastructure) | Hard | Mar 07, 2026 |
+| **Google** | [Design an Enterprise AI Adoption Agent for a Global Company](https://trueinterview.io/questions/design-an-enterprise-ai-adoption-agent-for-a-global-company) | Hard | Mar 06, 2026 |
 | **Uber** | [Uber Eats Search](https://trueinterview.io/questions/uber-eats-search) | Hard | Mar 06, 2026 |
 | **Meta** | [How would you evaluate stolen-post detection?](https://trueinterview.io/questions/how-would-you-evaluate-stolen-post-detection) | Hard | Mar 05, 2026 |
 | **Amplitude** | [Design a Shared Todo App](https://trueinterview.io/questions/design-a-shared-todo-app) | Easy | Mar 03, 2026 |
@@ -255,10 +260,5 @@
 | **Optiver** | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | Hard | Dec 13, 2025 |
 | **Uber** | [Measure feature impact with switchback, PSM, and CACE](https://trueinterview.io/questions/measure-feature-impact-with-switchback-psm-and-cace) | Hard | Dec 11, 2025 |
 | **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
-| **Pinterest** | [Leaderboard / Category Ranking](https://trueinterview.io/questions/system-design-leaderboard) | Medium | Dec 09, 2025 |
-| **ByteDance** | [Design system to detect privacy-leak records](https://trueinterview.io/questions/design-system-to-detect-privacy-leak-records) | Hard | Dec 08, 2025 |
-| **Rokt** | [Design Google-scale CI/CD pipeline](https://trueinterview.io/questions/design-google-scale-ci-cd-pipeline) | Hard | Dec 06, 2025 |
-| **Two Sigma** | [Predicting Stock Prices from Twitter Data](https://trueinterview.io/questions/predicting-stock-prices-from-twitter-data) | Hard | Dec 02, 2025 |
-| **Meta** | [Model entities for feed content and shares](https://trueinterview.io/questions/model-entities-for-feed-content-and-shares) | Medium | Dec 01, 2025 |
 
 <sub>[← Page 1](system-design.md) · Page 2 of 3 · [Page 3 →](system-design-3.md)</sub>

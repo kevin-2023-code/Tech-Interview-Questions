@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**888 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**890 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -58,6 +58,8 @@
 | **Uber** | [Round-Trip Mission Schedule](https://trueinterview.io/questions/oa-codesignal-multi-mission-routing) | Medium | Jul 10, 2025 |
 | **Shopify** | [Cows and Bulls (Guess the Number)](https://trueinterview.io/questions/cows-and-bulls) | Medium | Jun 19, 2025 |
 | **Ramp / Ebay** | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Easy | Apr 2025 |
+| **Shopify** | [Justify and harden your analytics and BI stack](https://trueinterview.io/questions/justify-and-harden-your-analytics-and-bi-stack) | Hard | — |
+| **Amazon** | [Design end-to-end regression for energy demand](https://trueinterview.io/questions/design-end-to-end-regression-for-energy-demand) | Medium | — |
 | **Amazon** | [Write and explain gradient descent pseudocode](https://trueinterview.io/questions/write-and-explain-gradient-descent-pseudocode) | Medium | — |
 | **Amazon** | [Prove new allocation outperforms manual baseline](https://trueinterview.io/questions/prove-new-allocation-outperforms-manual-baseline) | Hard | — |
 | **Amazon** | [Measure PMF for Alexa Shopping](https://trueinterview.io/questions/measure-pmf-for-alexa-shopping) | Medium | — |
@@ -156,7 +158,7 @@
 | **Amazon** | [Single Element in a Sorted Array](https://trueinterview.io/questions/45ee0fea-8dd3-5500-991a-6cb4565ae171) | Medium | — |
 | **Amazon** | [K-th Smallest Element in Two Sorted Arrays](https://trueinterview.io/questions/35593018-5643-5c81-ac20-1d52cf6a007f) | Hard | — |
 | **Amazon** | [Kth Smallest Element in a BST (LC 230)](https://trueinterview.io/questions/kth-smallest-element-in-a-bst-2) | Medium | — |
-| **Uber** | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Easy | — |
+| **Uber** | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Medium | — |
 | **Uber** | [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Medium | — |
 | **Uber** | [Flip and Compare in Arrays](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) | Medium | — |
 | **Amazon** | [Find the Top 10 Most Frequent IP Addresses](https://trueinterview.io/questions/043bcc4b-65d7-5602-86a0-e43f48487ab4) | Medium | — |
@@ -258,7 +260,5 @@
 | **Amazon** | [Online Review Content Moderation](https://trueinterview.io/questions/3788662e-d4fb-58b3-944f-0d17e11dcc48) | Medium | — |
 | **Amazon** | [Debug a Movie DB Watchlist Full-Stack Project](https://trueinterview.io/questions/01d139bb-66c2-5317-b9ee-d6817b67e4a5) | Medium | — |
 | **Amazon** | [Memory Size Calculation for DDN Model Structure](https://trueinterview.io/questions/38d0f1cd-7a43-453d-a61a-07bfe73aeffd) | Easy | — |
-| **Amazon** | [Machine Learning Coding: Reproduce a New Paper Experiment](https://trueinterview.io/questions/36bbfdc3-e117-4a78-bcb0-1e89dae78b5d) | Hard | — |
-| **Instacart** | [Design and Implement Idempotent Library Notifications for Due Dates and Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39) | Medium | — |
 
 <sub>[← Page 2](ecommerce-marketplace-2.md) · Page 3 of 4 · [Page 4 →](ecommerce-marketplace-4.md)</sub>

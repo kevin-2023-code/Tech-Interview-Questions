@@ -2,7 +2,7 @@
 
 # 🖥️ Hardware, devices & networking — interview & OA questions
 
-**175 questions** reported across the **4 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**177 questions** reported across the **4 Hardware, devices & networking employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Apple (142)](../companies/apple.md) · [Cisco (25)](../companies/cisco.md) · [Arista (6)](../companies/arista.md) · [Axon (4)](../companies/axon.md)
+[Apple (142)](../companies/apple.md) · [Cisco (25)](../companies/cisco.md) · [Arista (6)](../companies/arista.md) · [Axon (6)](../companies/axon.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 126 | 72% | ██████████████ | 35 |
-| [System Design](../formats/system-design.md) | 26 | 15% | ███ | 3 |
+| [Algorithm](../formats/algorithm.md) | 126 | 71% | ██████████████ | 35 |
+| [System Design](../formats/system-design.md) | 28 | 16% | ███ | 3 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 17 | 10% | ██ | 2 |
 | [SQL](../formats/sql.md) | 4 | 2% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **48 / 98 / 29**, over the rows the catalog has graded. 41 of the 175 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **48 / 99 / 30**, over the rows the catalog has graded. 41 of the 177 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -117,6 +117,7 @@ Of the **125 questions in this cut that carry a topic label** (71% of it):
 | **Apple / Amazon / Bloomberg / ByteDance / Goldman Sachs / Meta / Squarepoint / Tradedesk** | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Hard | Apr 01, 2026 |
 | **Apple / ByteDance / Citadel / Meta / Snowflake** | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Medium | Apr 01, 2026 |
 | **Apple / Amazon** | [Longest Mountain in Array](https://trueinterview.io/questions/longest-mountain-in-array) | Easy | Apr 01, 2026 |
+| **Axon** | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | Hard | Mar 29, 2026 |
 | **Apple** | [Siri Grounded Response Generation](https://trueinterview.io/questions/siri-grounded-response-generation) | Hard | Mar 28, 2026 |
 | **Apple** | [Implement K-Means in NumPy or PyTorch](https://trueinterview.io/questions/implement-k-means-in-numpy-or-pytorch) | Medium | Mar 25, 2026 |
 | **Apple / Amazon / ByteDance / DoorDash / Google / Meta / Netflix / Snapchat / Snowflake / Uber** | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Medium | Mar 20, 2026 |
@@ -181,6 +182,7 @@ Of the **125 questions in this cut that carry a topic label** (71% of it):
 | **Apple** | [Concurrent users from online intervals](https://trueinterview.io/questions/solve-interval-grid-fill-and-heap-tasks-concurrent-users-from-online-intervals) | Medium | Nov 27, 2025 |
 | **Apple** | [Distributed Rate Limiter with Lua Details](https://trueinterview.io/questions/distributed-rate-limiter-with-lua) | Medium | Nov 21, 2025 |
 | **Apple** | [Find Failed Login IPs](https://trueinterview.io/questions/find-failed-login-ips) | Easy | Nov 20, 2025 |
+| **Axon** | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | Medium | Nov 18, 2025 |
 | **Apple** | [Solve three easy algorithm problems](https://trueinterview.io/questions/solve-three-easy-algorithm-problems) | Medium | Nov 11, 2025 |
 | **OpenAI / Apple / Databricks / Microsoft AI / Uber** | [Design AI Chatbot App](https://trueinterview.io/questions/design-an-ai-chatbot-system) | Easy | Oct 29, 2025 |
 | **Apple** | [Scale Digit-Square Convergence Requests](https://trueinterview.io/questions/scale-digit-square-convergence-requests) | Medium | Oct 28, 2025 |

@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,9 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Atlassian / Amazon / Coinbase / Databricks / Google** | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | Medium | — |
+| **Airbnb** | [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection) | Medium | — |
+| **Airbnb / Google / Meta** | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Medium | — |
 | **Affirm** | [Sum of Islands Max](https://trueinterview.io/questions/sum-of-islands-max) | Medium | — |
 | **Affirm** | [Prefix to Postfix](https://trueinterview.io/questions/prefix-to-postfix) | Medium | — |
 | **Affirm** | [Persistent Stack](https://trueinterview.io/questions/persistent-stack) | Medium | — |
@@ -216,7 +219,7 @@
 | **xAI** | [Design Token Limiter](https://trueinterview.io/questions/cc6f7ab2-4bdd-4914-85c9-f4912c2ffd73) | Medium | — |
 | **Stripe** | [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9) | Medium | — |
 | **Rippling** | [Delivery Cost Problem](https://trueinterview.io/questions/bff10176-f542-49a7-972c-e05025a0460d) | Medium | — |
-| **Coinbase** | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
+| **Coinbase** | [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
 | **Uber / DoorDash / Meta / Yelp** | [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Hard | — |
 | **Ramp** | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | Medium | — |
 | **OpenAI / Uber** | [Minimum Time to Infect a Network](https://trueinterview.io/questions/5ef7f558-3e9a-5784-9873-c0dd3bc284bf) | Medium | — |
@@ -245,7 +248,7 @@
 | **Stripe / Amazon** | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Medium | — |
 | **Stripe** | [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Medium | — |
 | **Stripe** | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | Medium | — |
-| **Stripe** | [Find linked merchants by ID](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Easy | — |
+| **Stripe** | [Find Directly Linked Merchants by Shared Attributes](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Medium | — |
 | **Stripe** | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | Medium | — |
 | **Stripe** | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Easy | — |
 | **Stripe** | [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Medium | — |
@@ -257,8 +260,5 @@
 | **Stripe** | [Email Time Update Problem](https://trueinterview.io/questions/2ada198e-0cfe-4fea-9e44-c5737c04b3f8) | Easy | — |
 | **Stripe** | [Fee Calculation for Transactions](https://trueinterview.io/questions/012ccdf5-7691-4ff9-9a61-9b5cf3c60ead) | Easy | — |
 | **Snowflake** | [Modified Knapsack Problem](https://trueinterview.io/questions/e4d29efa-828d-4ebc-b3c6-c8e54ee8058f) | Medium | — |
-| **Snowflake** | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c) | Medium | — |
-| **Snowflake** | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Easy | — |
-| **Snowflake** | [Handle Intervals When Input Is Not Sorted](https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac) | Medium | — |
 
 <sub>[← Page 4](large-tech-4.md) · Page 5 of 6 · [Page 6 →](large-tech-6.md)</sub>

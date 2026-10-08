@@ -64,7 +64,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Matrix Multiplication](algorithm/matrix-multiplication/README.md) | Easy | Microsoft · GEICO · WeRide |
 | [Maximum Drop Points in One Line](algorithm/maximum-drop-points-in-one-line/README.md) | Easy | Cisco |
 | [Maximum Subarray](algorithm/maximum-subarray/README.md) | Easy | Apple · Amazon · Atlassian · ByteDance · Cisco |
-| [Meeting Rooms Allocation with Delay](algorithm/meeting-rooms-allocation-with-delay/README.md) | Easy | Uber |
 | [Merge Two Sorted Vectors](algorithm/merge-two-sorted-vectors/README.md) | Easy | Squarepoint |
 | [Minimize Shopping Department Visits](algorithm/shopping-category-trip-difference/README.md) | Easy | Atlassian |
 | [Minimum Swaps for Even / Odd Partition](algorithm/minimum-swaps-even-odd-partition/README.md) | Easy | Cisco |
@@ -177,6 +176,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Maximum Completable Tasks with Prerequisites (Topological)](algorithm/course-prerequisites-task-count/README.md) | Medium | Oracle |
 | [Maximum Non-Adjacent Chocolates](algorithm/maximum-non-adjacent-chocolates/README.md) | Medium | Cisco |
 | [Maximum Order Volume](algorithm/maximum-order-volume/README.md) | Medium | Snowflake |
+| [Meeting Rooms Allocation with Delay](algorithm/meeting-rooms-allocation-with-delay/README.md) | Medium | Uber |
 | [Merge Common Substring](algorithm/merge-common-substring/README.md) | Medium | Yelp |
 | [Merge Intervals](algorithm/merge-intervals/README.md) | Medium | Apple · Amazon · ByteDance · Google · Lyft |
 | [Merge K Sorted Lists](algorithm/merge-k-sorted-lists/README.md) | Medium | Apple · ByteDance · Citadel · Meta · Snowflake |
@@ -377,6 +377,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Design Notification System](system-design/design-a-notification-system-for-reddit/README.md) | Easy | Reddit · Airbnb · Amazon · DoorDash · Expedia |
 | [Design a Durable Cron Job Scheduler](system-design/design-a-durable-cron-job-scheduler/README.md) | Medium | Cursor · Snowflake |
 | [Design a robust pro-ranking A/B test](system-design/design-a-robust-pro-ranking-a-b-test/README.md) | Medium | Thumbtack |
+| [Design a Test Orchestration System](system-design/design-a-test-orchestration-system/README.md) | Medium | Axon |
 | [Design a Twitter-like microblogging service](system-design/design-a-twitter-like-microblogging-service/README.md) | Medium | Asana |
 | [Design Instagram](system-design/design-instagram/README.md) | Medium | Roblox · Datadog · DoorDash · Ebay · Google |
 | [Design Job Scheduler](system-design/job-scheduler-design/README.md) | Medium | Robinhood · Airbnb · Atlassian · ByteDance · Databricks |
@@ -394,7 +395,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Design a Project-to-Contractor Matching System](system-design/design-a-project-to-contractor-matching-system/README.md) | Hard | Mercor |
 | [Design A VM Bandwidth Rate Limiter](system-design/design-a-vm-bandwidth-rate-limiter-2/README.md) | Hard | Databricks · Amazon · Google |
 | [Design An Account Takeover Detection System](system-design/account-takeover-prediction-system/README.md) | Hard | Stripe · Affirm · Robinhood · Roblox · Uber |
-| [Design camera-footage upload with custody chain](system-design/design-camera-footage-upload-with-custody-chain/README.md) | Hard | Axon |
 | [Design Dropbox](system-design/design-dropbox/README.md) | Hard | Databricks · Apple · Google · Oracle · Tesla |
 | [Design Slack-like Chat System](system-design/design-slack-like-chat-system/README.md) | Hard | ByteDance · Airbnb · Databricks · Discord · Ebay |
 | [Design Stock Trading Platform](system-design/design-a-stock-order-trade-management-system/README.md) | Hard | Robinhood · Coinbase · Databricks · Square |

@@ -77,7 +77,7 @@
 | **Google / Citadel / SoFi / Squarepoint** | [LRU Cache II](https://trueinterview.io/questions/415e366d-5969-4953-9869-0c8106543ac6) | Medium | — |
 | **Robinhood** | [Distributed Job Scheduler II](https://trueinterview.io/questions/d7f93d7c-5482-4b4a-a828-ffa4e14efc86) | Medium | — |
 | **Stripe** | [Replay request handling](https://trueinterview.io/questions/c518bfcb-f16d-4898-8fb9-0f9b492fa7d9) | Medium | — |
-| **Coinbase** | [Banking System Design](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
+| **Coinbase** | [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Easy | — |
 | **Ramp** | [Fetch and Display Hidden Flag with React](https://trueinterview.io/questions/60b7894d-1cef-40b7-83ec-aaa5f887617f) | Medium | — |
 | **Stripe** | [Bitmap Character Lookup: Print, Compress/Decompress, and Manipulate](https://trueinterview.io/questions/581723d6-46ce-415b-a363-39e8c0a37a19) | Medium | — |
 | **Coinbase** | [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Easy | — |
@@ -85,7 +85,7 @@
 | **Stripe / Amazon** | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Medium | — |
 | **Stripe** | [Implement a Rule Parser and Evaluator](https://trueinterview.io/questions/c7629feb-54d2-4cfc-843b-ef1dfb7a0b03) | Medium | — |
 | **Stripe** | [Compute Total Cost from Two Tables (SQL Aggregation + Join) with Tiered Fees Follow-up](https://trueinterview.io/questions/bdcdde80-7010-4c5f-b26c-7fc83901d0f9) | Medium | — |
-| **Stripe** | [Find linked merchants by ID](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Easy | — |
+| **Stripe** | [Find Directly Linked Merchants by Shared Attributes](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Medium | — |
 | **Stripe** | [Implement Additional Features Based on GitHub Issues](https://trueinterview.io/questions/bd847b49-a752-4430-9fe1-a52869f5fdf0) | Medium | — |
 | **Stripe** | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Easy | — |
 | **Stripe** | [API Integration: Fetch and Aggregate Data from REST API (PokeAPI practice)](https://trueinterview.io/questions/858a5630-4db7-4780-ab13-a90b6c71d724) | Medium | — |

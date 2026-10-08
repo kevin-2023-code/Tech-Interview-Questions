@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,119 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,121 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (337)](../companies/meta.md) · [Google (265)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (87)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
+[Meta (337)](../companies/meta.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (88)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -19,12 +19,12 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 646 | 58% | ██████████████ | 47 |
-| [System Design](../formats/system-design.md) | 214 | 19% | █████ | 12 |
+| [System Design](../formats/system-design.md) | 216 | 19% | █████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 124 | 11% | ███ | 10 |
 | [SQL](../formats/sql.md) | 121 | 11% | ███ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 14 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **136 / 718 / 265**, over the rows the catalog has graded. 71 of the 1,119 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **136 / 719 / 266**, over the rows the catalog has graded. 71 of the 1,121 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -126,9 +126,9 @@ Of the **656 questions in this cut that carry a topic label** (59% of it):
 | **Meta** | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Hard | 🆕 Aug 25, 2026 |
 | **ByteDance** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | Medium | 🆕 Aug 25, 2026 |
 | **LinkedIn** | [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Hard | 🆕 Aug 24, 2026 |
-| **ByteDance** | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Hard | 🆕 Aug 23, 2026 |
-| **ByteDance** | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Medium | 🆕 Aug 23, 2026 |
-| **ByteDance** | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Hard | 🆕 Aug 23, 2026 |
+| **ByteDance** | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Hard | Aug 23, 2026 |
+| **ByteDance** | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Medium | Aug 23, 2026 |
+| **ByteDance** | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Hard | Aug 23, 2026 |
 | **Snapchat** | [Design a Pre-Login Risk and Challenge Service](https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service) | Medium | Aug 22, 2026 |
 | **Netflix** | [Implement a Key-Value Cache with Per-Entry Expiration](https://trueinterview.io/questions/implement-a-key-value-cache-with-per-entry-expiration) | Medium | Aug 21, 2026 |
 | **ByteDance / Ebay / NVIDIA** | [Search in Rotated Sorted Array](https://trueinterview.io/questions/search-in-rotated-sorted-array) | Medium | Aug 21, 2026 |

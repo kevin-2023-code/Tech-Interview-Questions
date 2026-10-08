@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**265 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**266 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| [Find Nearest Favorite City](https://trueinterview.io/questions/5d8835c7-92b4-4902-be8d-28cfc27aa289) | Algorithm | Medium | — |
 | [Maximum Sum Subarray with Equal Endpoints](https://trueinterview.io/questions/47d55069-3882-49a5-b91a-236b638950be) | Algorithm | Medium | — |
 | [Russian Doll Envelopes](https://trueinterview.io/questions/russian-doll-envelopes) | Algorithm | Medium | — |
 | [Rotate Any m×n 2D Matrix](https://trueinterview.io/questions/rotate-matrix-rectangle) | Algorithm | Medium | — |

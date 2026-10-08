@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Snowflake / ByteDance / Microsoft / Salesforce** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
+| **Snowflake / Google** | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Medium | Feb 19, 2026 |
 | **Uber / Amazon / Bloomberg / ByteDance / Reddit / Snowflake** | [Word Search II](https://trueinterview.io/questions/word-search-ii) | Hard | Feb 19, 2026 |
 | **ByteDance** | [Solve interval merging and histogram area](https://trueinterview.io/questions/solve-interval-merging-and-histogram-area) | Medium | Feb 18, 2026 |
 | **Two Sigma / Microsoft** | [Add Two Strings with a Single-Digit Adder](https://trueinterview.io/questions/add-two-strings-with-single-digit-adder) | Medium | Feb 18, 2026 |
@@ -258,7 +260,5 @@
 | **Apple** | [Apple News Search Without ML](https://trueinterview.io/questions/apple-news-search-without-ml) | Medium | Dec 18, 2025 |
 | **Microsoft** | [Design device telemetry pipeline for real-time and batch](https://trueinterview.io/questions/design-device-telemetry-pipeline-for-real-time-and-batch) | Hard | Dec 17, 2025 |
 | **Microsoft** | [Design a replicated key-value store with quorums](https://trueinterview.io/questions/design-a-replicated-key-value-store-with-quorums) | Medium | Dec 17, 2025 |
-| **Microsoft** | [Debug distributed-system performance problems](https://trueinterview.io/questions/debug-distributed-system-performance-problems) | Hard | Dec 17, 2025 |
-| **Apple** | [Solve stock and banana problems](https://trueinterview.io/questions/solve-stock-and-banana-problems) | Medium | Dec 17, 2025 |
 
 <sub>[← Page 3](big-tech-3.md) · Page 4 of 9 · [Page 5 →](big-tech-5.md)</sub>

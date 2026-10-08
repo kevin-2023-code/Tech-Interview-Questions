@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -196,6 +196,7 @@
 | **Robinhood / Airbnb / Atlassian / ByteDance / Databricks / DoorDash / Figma / Google / LinkedIn / Lyft / Meta / OpenAI / Pinterest / Reddit / Snapchat / Yelp** | [Design Job Scheduler](https://trueinterview.io/questions/job-scheduler-design) | Medium | Mar 30, 2026 |
 | **OpenAI** | [ModalLock and FairModalLock](https://trueinterview.io/questions/modallock-and-fairmodallock) | Hard | Mar 30, 2026 |
 | **Robinhood** | [Friends Money Transfer Request Processor](https://trueinterview.io/questions/friends-money-transfer-request-processor) | Medium | Mar 30, 2026 |
+| **Axon** | [Design Reliable Upload and Download for Very Large Files](https://trueinterview.io/questions/design-reliable-upload-and-download-for-very-large-files) | Hard | Mar 29, 2026 |
 | **Pinterest / Google** | [Trie Autocomplete / Prefix Search](https://trueinterview.io/questions/trie-autocomplete-prefix-search) | Medium | Mar 29, 2026 |
 | **Airbnb** | [Home Page — Search + Availability + Ranking](https://trueinterview.io/questions/home-page-search-availability-design) | Hard | Mar 29, 2026 |
 | **Scale AI** | [Party Time Blocks](https://trueinterview.io/questions/party-time-blocks) | Medium | Mar 29, 2026 |
@@ -259,6 +260,5 @@
 | **Reddit** | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Easy | Mar 2026 |
 | **Robinhood** | [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | Medium | Mar 2026 |
 | **Robinhood** | [Aggregate user logs into 30-minute sessions](https://trueinterview.io/questions/aggregate-user-logs-into-30-minute-sessions) | Medium | Feb 28, 2026 |
-| **Airbnb** | [Highlight Phrases in Review](https://trueinterview.io/questions/review-token-replace) | Medium | Feb 28, 2026 |
 
 <sub>[← Page 1](large-tech.md) · Page 2 of 6 · [Page 3 →](large-tech-3.md)</sub>

@@ -8,7 +8,7 @@ How Jane Street interviews, and the questions candidates reported there. Free qu
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [10](../jane-street.md) |
+| Questions reported | [11](../jane-street.md) |
 | Free to read here | 2 |
 | Interview-process guides | 0 |
 | Other guides | 0 |
@@ -29,7 +29,7 @@ No written process guide yet. [The loop, as reported](../jane-street.md#the-loop
 
 ## Everything else
 
-- [All 10 questions reported at Jane Street](../jane-street.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 11 questions reported at Jane Street](../jane-street.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Jane Street question on TrueInterview](https://trueinterview.io/problems/company/jane-street).
 
 ---

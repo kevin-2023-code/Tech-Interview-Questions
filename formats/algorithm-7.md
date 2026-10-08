@@ -169,7 +169,7 @@
 | **Amazon** | [Single Element in a Sorted Array](https://trueinterview.io/questions/45ee0fea-8dd3-5500-991a-6cb4565ae171) | Medium | — |
 | **Amazon** | [K-th Smallest Element in Two Sorted Arrays](https://trueinterview.io/questions/35593018-5643-5c81-ac20-1d52cf6a007f) | Hard | — |
 | **Amazon** | [Kth Smallest Element in a BST (LC 230)](https://trueinterview.io/questions/kth-smallest-element-in-a-bst-2) | Medium | — |
-| **Uber** | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Easy | — |
+| **Uber** | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Medium | — |
 | **Uber** | [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Medium | — |
 | **Uber** | [Flip and Compare in Arrays](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) | Medium | — |
 | **Microsoft** | [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7) | Medium | — |

@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -190,12 +190,14 @@
 | **Salesforce** | [Design an Analytics Metrics Dashboard for ChatGPT / LLM Service](https://trueinterview.io/questions/analytics-dashboard-llm-product) | Hard | Mar 10, 2026 |
 | **Salesforce** | [Onsite Mini Project — Concurrent Web Crawler](https://trueinterview.io/questions/web-crawler-mini-project) | Medium | Mar 10, 2026 |
 | **ByteDance** | [Reverse Words in a String (Preserve Spaces, In-Place)](https://trueinterview.io/questions/reverse-words-in-place) | Medium | Mar 10, 2026 |
+| **Netflix** | [Design demand-side ads relational tables](https://trueinterview.io/questions/design-demand-side-ads-relational-tables) | Medium | Mar 09, 2026 |
 | **Netflix** | [Compute subtree sums with tree DFS](https://trueinterview.io/questions/compute-subtree-sums-with-tree-dfs) | Medium | Mar 09, 2026 |
 | **Uber** | [ML System Design (Recommendation / Feed Ranking / ETA)](https://trueinterview.io/questions/mle-onsite-ml-system-design) | Medium | Mar 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
 | **Uber** | [Zero Array Transformation](https://trueinterview.io/questions/zero-array-transformation) | Hard | Mar 08, 2026 |
 | **Amazon** | [Implement Cache and Count Components](https://trueinterview.io/questions/implement-cache-and-count-components) | Medium | Mar 07, 2026 |
 | **Ebay** | [Find top co-viewed products](https://trueinterview.io/questions/find-top-co-viewed-products) | Medium | Mar 07, 2026 |
+| **Google** | [Design an Enterprise AI Adoption Agent for a Global Company](https://trueinterview.io/questions/design-an-enterprise-ai-adoption-agent-for-a-global-company) | Hard | Mar 06, 2026 |
 | **Uber** | [Uber Eats Search](https://trueinterview.io/questions/uber-eats-search) | Hard | Mar 06, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **ByteDance** | [Case-insensitive adjacent differences](https://trueinterview.io/questions/implement-several-oa-simulation-problems-case-insensitive-adjacent-differences) | Easy | Mar 05, 2026 |
@@ -258,7 +260,5 @@
 | **Atlassian / Expedia / Ramp / Roblox / Snapchat / Snowflake / Stripe / Verkada** | [Design Access Management System](https://trueinterview.io/questions/role-and-resource-access-system) | Medium | Feb 22, 2026 |
 | **Amazon** | [Music Player with Frequency Priority](https://trueinterview.io/questions/music-player-frequency-priority) | Medium | Feb 22, 2026 |
 | **Uber / Apple / Tesla** | [Shortest Bridge](https://trueinterview.io/questions/shortest-bridge-2) | Medium | Feb 21, 2026 |
-| **Snowflake / ByteDance / Microsoft / Salesforce** | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Medium | Feb 21, 2026 |
-| **Snowflake / Google** | [Grep With Context Lines](https://trueinterview.io/questions/grep-with-context-lines) | Medium | Feb 19, 2026 |
 
 <sub>[← Page 2](big-tech-2.md) · Page 3 of 9 · [Page 4 →](big-tech-4.md)</sub>

@@ -24,7 +24,7 @@
 | [AI Coding](../formats/ai-coding.md) | 24 | 7% | ██ | 3 |
 | [SQL](../formats/sql.md) | 17 | 5% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **79 / 225 / 58**, over the rows the catalog has graded. 54 of the 362 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **78 / 226 / 58**, over the rows the catalog has graded. 54 of the 362 open without a paid plan.</sub>
 
 ## What they ask about
 

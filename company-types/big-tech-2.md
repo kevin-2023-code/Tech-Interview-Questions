@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 

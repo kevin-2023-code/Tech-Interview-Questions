@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,119 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,121 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Yelp** | [Compute and Rank by Jaccard Similarity](https://trueinterview.io/questions/compute-and-rank-by-jaccard-similarity) | Hard | — |
+| **ByteDance** | [Compute 7-day rolling complaint/order ratio in SQL](https://trueinterview.io/questions/compute-7-day-rolling-complaint-order-ratio-in-sql) | Medium | — |
 | **ByteDance** | [Compare SQL counts, windows, and NULL semantics](https://trueinterview.io/questions/compare-sql-counts-windows-and-null-semantics) | Medium | — |
 | **Meta** | [Calculate survey response and quality metrics in SQL](https://trueinterview.io/questions/calculate-survey-response-and-quality-metrics-in-sql) | Hard | — |
 | **Meta** | [Calculate posts per DAU by country today](https://trueinterview.io/questions/calculate-posts-per-dau-by-country-today) | Medium | — |
@@ -258,7 +260,5 @@
 | **Google** | [Minimum Racks to Pack Machines with Two Resource Constraints](https://trueinterview.io/questions/27362191-59d6-46ac-be9d-e26334e84049) | Hard | — |
 | **Google** | [Find First Greater or Equal Element](https://trueinterview.io/questions/215ab576-ac0c-498c-b4b3-e14e50b24539) | Easy | — |
 | **Google** | [Determine Whether Two Horses Are Related (Pedigree Graph)](https://trueinterview.io/questions/1a2257f5-ce54-4f27-a801-90df812e0da4) | Medium | — |
-| **Google** | [Range Updates Using Difference Array (Template Problem)](https://trueinterview.io/questions/19526ad7-c78c-462e-a59d-80239253617a) | Easy | — |
-| **Google / Microsoft** | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Medium | — |
 
 <sub>[← Page 3](consumer-internet-3.md) · Page 4 of 5 · [Page 5 →](consumer-internet-5.md)</sub>

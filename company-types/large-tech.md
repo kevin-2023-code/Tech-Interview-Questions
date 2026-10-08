@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (145)](../companies/openai.md) · [Snowflake (128)](../companies/snowflake.md) · [Pinterest (101)](../companies/pinterest.md) · [Stripe (93)](../companies/stripe.md) · [Roblox (84)](../companies/roblox.md) · [Anthropic (79)](../companies/anthropic.md) · [Airbnb (78)](../companies/airbnb.md) · [Coinbase (70)](../companies/coinbase.md) · [Snapchat (69)](../companies/snapchat.md) · [Rippling (48)](../companies/rippling.md) · [Lyft (43)](../companies/lyft.md) · [Robinhood (43)](../companies/robinhood.md) · [Instacart (38)](../companies/instacart.md) · [xAI (38)](../companies/xai.md) · [Reddit (34)](../companies/reddit.md) · [Ramp (33)](../companies/ramp.md) · [Verkada (31)](../companies/verkada.md) · [SoFi (30)](../companies/sofi.md) · [Confluent (29)](../companies/confluent.md) · [Upstart (29)](../companies/upstart.md) · [Datadog (27)](../companies/datadog.md) · [Shopify (25)](../companies/shopify.md) · [Figma (22)](../companies/figma.md) · [Scale AI (21)](../companies/scale-ai.md) · [Tradedesk (20)](../companies/tradedesk.md) · [Yelp (20)](../companies/yelp.md) · [Rubrik (19)](../companies/rubrik.md) · [Affirm (17)](../companies/affirm.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Okta (11)](../companies/okta.md) · [Palantir (11)](../companies/palantir.md) · [Airwallex (8)](../companies/airwallex.md) · [Discord (8)](../companies/discord.md) · [Arista (6)](../companies/arista.md) · [MongoDB (6)](../companies/mongodb.md) · [Gusto (5)](../companies/gusto.md) · [OKX (5)](../companies/okx.md) · [Axon (4)](../companies/axon.md) · [Brex (3)](../companies/brex.md) · [Stubhub (3)](../companies/stubhub.md)
+[OpenAI (145)](../companies/openai.md) · [Snowflake (128)](../companies/snowflake.md) · [Pinterest (101)](../companies/pinterest.md) · [Stripe (93)](../companies/stripe.md) · [Roblox (84)](../companies/roblox.md) · [Anthropic (79)](../companies/anthropic.md) · [Airbnb (78)](../companies/airbnb.md) · [Coinbase (70)](../companies/coinbase.md) · [Snapchat (69)](../companies/snapchat.md) · [Rippling (48)](../companies/rippling.md) · [Lyft (43)](../companies/lyft.md) · [Robinhood (43)](../companies/robinhood.md) · [Instacart (38)](../companies/instacart.md) · [xAI (38)](../companies/xai.md) · [Reddit (34)](../companies/reddit.md) · [Ramp (33)](../companies/ramp.md) · [Verkada (31)](../companies/verkada.md) · [SoFi (30)](../companies/sofi.md) · [Confluent (29)](../companies/confluent.md) · [Upstart (29)](../companies/upstart.md) · [Datadog (27)](../companies/datadog.md) · [Shopify (26)](../companies/shopify.md) · [Figma (22)](../companies/figma.md) · [Scale AI (21)](../companies/scale-ai.md) · [Tradedesk (20)](../companies/tradedesk.md) · [Yelp (20)](../companies/yelp.md) · [Rubrik (19)](../companies/rubrik.md) · [Affirm (17)](../companies/affirm.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Okta (11)](../companies/okta.md) · [Palantir (11)](../companies/palantir.md) · [Airwallex (8)](../companies/airwallex.md) · [Discord (8)](../companies/discord.md) · [Arista (6)](../companies/arista.md) · [Axon (6)](../companies/axon.md) · [MongoDB (6)](../companies/mongodb.md) · [Gusto (5)](../companies/gusto.md) · [OKX (5)](../companies/okx.md) · [Brex (3)](../companies/brex.md) · [Stubhub (3)](../companies/stubhub.md)
 
 <sub>41 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 726 | 55% | ██████████████ | 97 |
+| [Algorithm](../formats/algorithm.md) | 726 | 54% | ██████████████ | 97 |
+| [System Design](../formats/system-design.md) | 245 | 18% | █████ | 16 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 244 | 18% | █████ | 29 |
-| [System Design](../formats/system-design.md) | 242 | 18% | █████ | 16 |
 | [SQL](../formats/sql.md) | 64 | 5% | █ | 1 |
 | [AI Coding](../formats/ai-coding.md) | 55 | 4% | █ | 5 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **183 / 848 / 300**, over the rows the catalog has graded. 148 of the 1,331 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **182 / 850 / 302**, over the rows the catalog has graded. 148 of the 1,334 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -33,7 +33,7 @@ Of the **733 questions in this cut that carry a topic label** (55% of it):
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 154 | 21% | ████████████ |
-| `strings` | 114 | 16% | █████████ |
+| `strings` | 113 | 15% | █████████ |
 | `graphs` | 110 | 15% | █████████ |
 | `arrays` | 81 | 11% | ██████ |
 | `greedy` | 68 | 9% | █████ |
@@ -47,7 +47,7 @@ Of the **733 questions in this cut that carry a topic label** (55% of it):
 
 ## Asked here in the last 90 days
 
-**131 sightings** across this cut. Newest first.
+**130 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **733 questions in this cut that carry a topic label** (55% of it):
 | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | xAI | Algorithm | Sep 15, 2026 |
 | [Object-Oriented Design of an Elevator Control System](https://trueinterview.io/questions/object-oriented-design-of-an-elevator-control-system) | Tradedesk | System Design | Sep 15, 2026 |
 
-<sub>119 more in this window are in the table below.</sub>
+<sub>118 more in this window are in the table below.</sub>
 
 ---
 
@@ -157,7 +157,7 @@ Of the **733 questions in this cut that carry a topic label** (55% of it):
 | **Anthropic** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Medium | 🆕 Aug 24, 2026 |
 | **Snowflake** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Medium | 🆕 Aug 24, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | 🆕 Aug 24, 2026 |
-| **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | 🆕 Aug 23, 2026 |
+| **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | Aug 23, 2026 |
 | **Snapchat** | [Design a Pre-Login Risk and Challenge Service](https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service) | Medium | Aug 22, 2026 |
 | **Tradedesk** | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Hard | Aug 22, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | Aug 22, 2026 |

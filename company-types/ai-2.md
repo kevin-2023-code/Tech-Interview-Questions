@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**356 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**357 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **OpenAI** | [Multiprocessing Debugging for Neural Network Propagation](https://trueinterview.io/questions/a91050eb-ce04-4669-81b0-4219d72e6661) | Hard | — |
 | **OpenAI** | [Versioned User Follow Graph with Snapshots](https://trueinterview.io/questions/a2405f87-543a-54c9-8884-3b476be29ece) | Hard | — |
 | **OpenAI** | [Snapshot Set](https://trueinterview.io/questions/8ed246bb-89da-5107-83a0-194469269a2a) | Hard | — |
 | **OpenAI** | [Dependency-Aware Multi-Agent Request Scheduler](https://trueinterview.io/questions/472b106a-5204-5e12-acf4-8a1fca2a099f) | Hard | — |

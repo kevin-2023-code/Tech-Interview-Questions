@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **OpenAI / Uber** | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | Hard | Oct 19, 2025 |
+| **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |
 | **OpenAI** | [Design a Resumable Iterator with Checkpoint and Restore](https://trueinterview.io/questions/design-a-resumable-iterator-with-checkpoint-and-restore) | Medium | Oct 18, 2025 |
 | **OpenAI** | [GPT-3 Playground - Full-Stack Architecture](https://trueinterview.io/questions/gpt-3-playground-full-stack-architecture) | Medium | Oct 18, 2025 |
 | **Rippling** | [Design an ad-click aggregation and enrichment pipeline](https://trueinterview.io/questions/design-an-ad-click-aggregation-and-enrichment-pipeline) | Hard | Oct 17, 2025 |
@@ -73,6 +75,7 @@
 | **Robinhood** | [Find Middle Course](https://trueinterview.io/questions/find-middle-course) | Easy | Apr 10, 2025 |
 | **Ramp / Ebay** | [Convert Snake Case to Camel Case](https://trueinterview.io/questions/convert-snake-case-names-to-lowercamelcase) | Easy | Apr 2025 |
 | **Figma** | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | Medium | May 28, 2024 |
+| **Shopify** | [Justify and harden your analytics and BI stack](https://trueinterview.io/questions/justify-and-harden-your-analytics-and-bi-stack) | Hard | — |
 | **Robinhood** | [Prove causality for trading metric drop](https://trueinterview.io/questions/prove-causality-for-trading-metric-drop) | Hard | — |
 | **Roblox** | [Optimize bread-factory pipeline for max profit](https://trueinterview.io/questions/optimize-bread-factory-pipeline-for-max-profit) | Hard | — |
 | **Roblox** | [Implement robust one/two-sided p-value function](https://trueinterview.io/questions/implement-robust-one-two-sided-p-value-function) | Hard | — |
@@ -257,8 +260,5 @@
 | **Confluent** | [Wildcard Matching](https://trueinterview.io/questions/wildcard-matching) | Medium | — |
 | **Confluent** | [Monsters Battle](https://trueinterview.io/questions/monsters-battle) | Medium | — |
 | **Coinbase / Anthropic / HubSpot / Microsoft AI / Ramp** | [Design In-memory Database with Backup](https://trueinterview.io/questions/design-in-memory-database-with-backup-2) | Easy | — |
-| **Atlassian / Amazon / Coinbase / Databricks / Google** | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | Medium | — |
-| **Airbnb** | [Design Airbnb Relisting Detection](https://trueinterview.io/questions/design-airbnb-relisting-detection) | Medium | — |
-| **Airbnb / Google / Meta** | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Medium | — |
 
 <sub>[← Page 3](large-tech-3.md) · Page 4 of 6 · [Page 5 →](large-tech-5.md)</sub>

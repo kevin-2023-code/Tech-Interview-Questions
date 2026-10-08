@@ -2,7 +2,7 @@
 
 # Microsoft interview process, OA & interview questions
 
-**185 questions** reported at Microsoft · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
+**186 questions** reported at Microsoft · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/microsoft), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Microsoft interviews & the free questions](microsoft/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **185** |
+| Questions tracked | **186** |
 | Most recent sighting | Sep 10, 2026 |
 | Reported in the last 90 days | 23 |
-| Most common format | [Algorithm](../formats/algorithm.md) (64% of 185) |
-| Difficulty (easy / medium / hard) | 30 / 111 / 44 |
+| Most common format | [Algorithm](../formats/algorithm.md) (64% of 186) |
+| Difficulty (easy / medium / hard) | 30 / 112 / 44 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 185 questions reported at Microsoft. 118 of them carry a sighting date; the other 67 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 186 questions reported at Microsoft. 119 of them carry a sighting date; the other 67 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **185 of 185** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **186 of 186** questions at Microsoft that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 24 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 10 / 10 / 4 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 86 | █████████ | [Algorithm](../formats/algorithm.md) (70%) | 14 / 54 / 18 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 91 | ██████████ | [Algorithm](../formats/algorithm.md) (56%) | 9 / 57 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 92 | ██████████ | [Algorithm](../formats/algorithm.md) (55%) | 9 / 58 / 25 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -92,7 +92,7 @@ Every recorded sighting at Microsoft, by the month it was reported in — Nov 15
 | [Feb 2026](../by-month/2026-02.md) | 20 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 13 | ████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 7 | ████████ |
-| [Nov 2025](../by-month/2025-11.md) | 6 | ███████ |
+| [Nov 2025](../by-month/2025-11.md) | 7 | ████████ |
 | [Oct 2025](../by-month/2025-10.md) | 5 | ██████ |
 | [Nov 2024](../by-month/2024-11.md) | 1 | █ |
 
@@ -247,6 +247,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Validate Lat/Long With Minimum Expensive API Calls](https://trueinterview.io/questions/geocode-api-call-minimization) | Object Oriented Programming | Medium | Nov 21, 2025 |
 | [Sort 0..32000 with Bit-Vector Storage](https://trueinterview.io/questions/bit-vector-sort-0-to-32000) | Algorithm | Easy | Nov 21, 2025 |
 | [Design local sports team recommendation system](https://trueinterview.io/questions/design-local-sports-team-recommendation-system) | System Design | Medium | Nov 19, 2025 |
+| [Design top-K frequency store for varying workloads](https://trueinterview.io/questions/design-top-k-frequency-store-for-varying-workloads) | Object Oriented Programming | Medium | Nov 03, 2025 |
 | [Schedule tasks with cooldown](https://trueinterview.io/questions/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown) | Algorithm | Hard | Oct 28, 2025 |
 | [Reverse linked list in fixed-size groups](https://trueinterview.io/questions/reverse-linked-list-in-fixed-size-groups) | Algorithm | Medium | Oct 28, 2025 |
 | [Merge multiple sorted arrays using min-heap](https://trueinterview.io/questions/merge-multiple-sorted-arrays-using-min-heap) | Algorithm | Medium | Oct 28, 2025 |

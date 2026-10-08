@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Microsoft** | [Debug distributed-system performance problems](https://trueinterview.io/questions/debug-distributed-system-performance-problems) | Hard | Dec 17, 2025 |
+| **Apple** | [Solve stock and banana problems](https://trueinterview.io/questions/solve-stock-and-banana-problems) | Medium | Dec 17, 2025 |
 | **Salesforce** | [Solve array duplicate flags and binary swaps](https://trueinterview.io/questions/solve-array-duplicate-flags-and-binary-swaps) | Medium | Dec 17, 2025 |
 | **Walmart Labs** | [Predict Item Category](https://trueinterview.io/questions/mlsd-predict-item-category) | Medium | Dec 17, 2025 |
 | **DoorDash** | [Design a donations service with 3-day rolling totals](https://trueinterview.io/questions/design-a-donations-service-with-3-day-rolling-totals) | Medium | Dec 16, 2025 |
@@ -134,6 +136,7 @@
 | **Expedia** | [Design a listing connectivity ingestion service](https://trueinterview.io/questions/design-a-listing-connectivity-ingestion-service) | Medium | Nov 05, 2025 |
 | **Amazon** | [Write SQL window functions for D7 retention](https://trueinterview.io/questions/write-sql-window-functions-for-d7-retention) | Medium | Nov 04, 2025 |
 | **Amazon** | [How would you evaluate adding video ads?](https://trueinterview.io/questions/how-would-you-evaluate-adding-video-ads) | Medium | Nov 04, 2025 |
+| **Microsoft** | [Design top-K frequency store for varying workloads](https://trueinterview.io/questions/design-top-k-frequency-store-for-varying-workloads) | Medium | Nov 03, 2025 |
 | **Meta** | [Longest balanced subarray](https://trueinterview.io/questions/find-balanced-subarray-and-increasing-tree-path-longest-balanced-subarray-0-1) | Medium | Nov 02, 2025 |
 | **Meta** | [Find K-th Largest and Longest Vacation](https://trueinterview.io/questions/find-k-th-largest-and-longest-vacation) | Medium | Nov 01, 2025 |
 | **Amazon** | [URL reachability from navigation table](https://trueinterview.io/questions/solve-two-set-and-graph-problems-url-reachability-from-navigation-table) | Medium | Oct 31, 2025 |
@@ -216,6 +219,7 @@
 | **Oracle** | [Body-Temperature Measurement Classes](https://trueinterview.io/questions/ood-patient-temperature-classes) | Medium | Jan 15, 2025 |
 | **Oracle** | [Event Ingestion + Top-K Aggregation](https://trueinterview.io/questions/system-design-event-ingestion-topk) | Medium | Jan 15, 2025 |
 | **Goldman Sachs / Microsoft** | [Spiral Matrix Traversal](https://trueinterview.io/questions/spiral-matrix-output) | Medium | Nov 15, 2024 |
+| **Amazon** | [Design end-to-end regression for energy demand](https://trueinterview.io/questions/design-end-to-end-regression-for-energy-demand) | Medium | — |
 | **Meta** | [Write dating profile report with final reviews](https://trueinterview.io/questions/write-dating-profile-report-with-final-reviews) | Hard | — |
 | **Amazon** | [Write and explain gradient descent pseudocode](https://trueinterview.io/questions/write-and-explain-gradient-descent-pseudocode) | Medium | — |
 | **ByteDance** | [Test 15s to 60s video length change](https://trueinterview.io/questions/test-15s-to-60s-video-length-change) | Hard | — |
@@ -256,9 +260,5 @@
 | **Meta** | [Design a restaurant recommender under cold start](https://trueinterview.io/questions/design-a-restaurant-recommender-under-cold-start) | Hard | — |
 | **Microsoft** | [Design a model for imbalanced conversions](https://trueinterview.io/questions/design-a-model-for-imbalanced-conversions) | Medium | — |
 | **Meta** | [Design a hashtag recommender for News Feed](https://trueinterview.io/questions/design-a-hashtag-recommender-for-news-feed) | Medium | — |
-| **Meta** | [Design a feed ads A/B test with guardrails](https://trueinterview.io/questions/design-a-feed-ads-a-b-test-with-guardrails) | Medium | — |
-| **Google** | [Design a battery-life predictor and cold-start strategy](https://trueinterview.io/questions/design-a-battery-life-predictor-and-cold-start-strategy) | Hard | — |
-| **Meta** | [Deploy multi-armed bandits safely](https://trueinterview.io/questions/deploy-multi-armed-bandits-safely) | Hard | — |
-| **Amazon** | [Decide standardization, sparse numerics, correlated features](https://trueinterview.io/questions/decide-standardization-sparse-numerics-correlated-features) | Medium | — |
 
 <sub>[← Page 4](big-tech-4.md) · Page 5 of 9 · [Page 6 →](big-tech-6.md)</sub>

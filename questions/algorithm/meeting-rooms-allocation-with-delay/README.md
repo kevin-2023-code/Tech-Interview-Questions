@@ -5,66 +5,102 @@
 <!-- meta:begin -->
 | Format | Difficulty | Asked at | Round | Topics | Last reported |
 | --- | --- | --- | --- | --- | --- |
-| Algorithm | Easy | Uber | Online assessment | arrays | — |
+| Algorithm | Medium | Uber | Phone screen | intervals, greedy, sorting | — |
 <!-- meta:end -->
 
 > **▶ [Solve it on TrueInterview](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1)** — free, no card: a runnable editor, the sample and hidden tests, a judged verdict, and the reference solution.
 
 ## Problem
 
-Design a schedule that assigns a collection of meetings to exactly two meeting rooms; the pair of rooms is fixed and never changes. Every meeting occupies a time interval, and the assignment must place each meeting into one of those two rooms while keeping the overall schedule workable. Report, room by room, the meetings that were placed there.
+You are given a set of meeting times and exactly two meeting rooms. The rooms are fixed. Schedule the meetings across the two rooms and report which meetings are held in each room. Meetings can be delayed. After each delay, update the schedule and show the new one. Both the update and the display of the new schedule should be efficient.
 
-The schedule is not static: a meeting can be delayed, which shifts the time at which it takes place. When that happens, the assignment has to be brought up to date so it still reflects the new times. Reacting to such a delay and showing the resulting schedule both need to be efficient, so that repeated updates do not become costly.
+Implement:
 
-Concretely, the work has four parts:
+```python
+def allocate_rooms(meetings: list[list[int]], delays: list[list[int]]) -> list[list[list[int]]]:
+```
 
-* Assign the meetings to the two fixed rooms.
-* Produce the per-room listing of which meetings are scheduled where.
-* Cope with the modifications that a delayed meeting time introduces.
-* Keep the update step and the display of the revised schedule efficient.
+- `meetings[i] = [start, end]` is meeting `i`. It occupies the half-open interval $$[start, end)$$, so a meeting that ends at time `t` and another that starts at time `t` can use the same room.
+- `delays[j] = [s, d]` means that the meeting whose **original** start time is `s` is pushed back by `d` time units. Its start and end both move by `d`, so its length stays the same. Delays are applied one at a time, in the given order. If the same meeting is delayed more than once, the delays add up.
 
-The logic is exercised through the function `sum_nums(nums)`.
+Return one schedule for the initial meeting times, then one more schedule after each delay. That is `len(delays) + 1` schedules in total. Schedule `k` describes the meeting times after the first `k` delays have been applied.
+
+- If all meetings of that state fit into the two rooms, the schedule is `[roomA, roomB]`. Each list holds the indices of the meetings placed in that room, in increasing order of their current start time. Every meeting appears in exactly one room, and no two meetings in the same room overlap. A room may be empty.
+- If the meetings of that state cannot all be held in two rooms, the schedule is an empty list `[]`.
+
+The two rooms are interchangeable. When more than one valid assignment exists, any of them is accepted. Do not modify `meetings` or `delays`.
 
 ## Examples
 
 **Example 1**
 
 ```text
-Input:
-5
-1 2 3 4 5
-Output: 15
+Input: meetings = [[0, 30], [5, 10], [15, 20]], delays = [[0, 5]]
+Output: [[[0], [1, 2]], [[1, 2], [0]]]
 ```
+
+Explanation: At first, meeting 0 has one room to itself. Meetings 1 and 2 share the other room. The delay moves meeting 0 (original start 0) to $$[5, 35)$$. It still overlaps meetings 1 and 2, but those two never overlap each other, so the same split still works.
 
 **Example 2**
 
 ```text
-Input:
-3
--1 0 1
-Output: 0
+Input: meetings = [[13, 15], [1, 13], [0, 2]], delays = [[1, 1]]
+Output: [[[2, 0], [1]], [[2, 1], [0]]]
 ```
+
+Explanation: The delay moves meeting 1 from $$[1, 13)$$ to $$[2, 14)$$. It now starts exactly when meeting 2 ends, so the two can share a room. Meeting 0 overlaps meeting 1 and goes to the other room.
+
+**Example 3**
+
+```text
+Input: meetings = [[0, 30], [5, 15], [10, 20]], delays = [[5, 10]]
+Output: [[], []]
+```
+
+Explanation: Between times 10 and 15, all three meetings run at once, so two rooms are not enough. Delaying meeting 1 to $$[15, 25)$$ does not help, because meetings 0, 1 and 2 all run between times 15 and 20.
+
+**Example 4**
+
+```text
+Input: meetings = [[0, 5], [5, 10], [10, 15]], delays = []
+Output: [[[0, 1, 2], []]]
+```
+
+Explanation: The meetings only touch at their endpoints, so one room is enough. Placing them in the other room, or splitting them across both rooms, is also accepted.
+
+## Constraints
+
+- $$1 \le n \le 500$$, where $$n$$ is the number of meetings.
+- $$0 \le m \le 500$$, where $$m$$ is the number of delays.
+- $$0 \le start < end \le 10^9$$
+- The original start times of the meetings are pairwise distinct.
+- In every delay `[s, d]`, `s` is the original start time of some meeting and $$0 \le d \le 10^9$$.
+
+## Follow-ups
+
+- After a single meeting is delayed, how do you update the schedule without rebuilding it from scratch? What does one update cost?
+- How do you display the new schedule efficiently after each change?
 
 ## Hints
 
 <details>
 <summary>Hint 1</summary>
 
-Think of each meeting as an interval that must be colored with one of two colors so that no two same-colored intervals overlap.
+Two rooms are enough exactly when no instant is covered by three meetings at once, with half-open intervals, a meeting that ends at t and one that starts at t do not overlap.
 
 </details>
 
 <details>
 <summary>Hint 2</summary>
 
-Model the conflict between overlapping meetings as a graph and check whether it is bipartite, then recompute after a delay shifts an interval.
+Sort the meetings by their current start time and put each one into a room that is already free, if neither room is free, that state cannot be scheduled.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-Watch for intervals that only touch at an endpoint (usually non-overlapping) and for delays that create new conflicts with previously safe meetings.
+Identify each delay by the meeting's original start time, apply delays cumulatively to a copy of the input, and rebuild or locally repair the assignment after each one.
 
 </details>
 

@@ -112,9 +112,9 @@
 | **Salesforce** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Medium | 🆕 Aug 24, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | 🆕 Aug 24, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Medium | 🆕 Aug 24, 2026 |
-| **ByteDance** | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Hard | 🆕 Aug 23, 2026 |
-| **ByteDance** | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Medium | 🆕 Aug 23, 2026 |
-| **ByteDance** | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Hard | 🆕 Aug 23, 2026 |
+| **ByteDance** | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Hard | Aug 23, 2026 |
+| **ByteDance** | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Medium | Aug 23, 2026 |
+| **ByteDance** | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Hard | Aug 23, 2026 |
 | **Amazon** | [Format a Forest of Nested Comments](https://trueinterview.io/questions/format-a-forest-of-nested-comments) | Hard | Aug 22, 2026 |
 | **Pinduoduo** | [Count Longest Substrings After Character Replacements](https://trueinterview.io/questions/count-longest-substrings-after-character-replacements) | Medium | Aug 22, 2026 |
 | **Amazon** | [Numbered Buttons with Data Popovers](https://trueinterview.io/questions/frontend-numbered-popovers) | Medium | Aug 22, 2026 |

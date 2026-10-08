@@ -153,7 +153,7 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | System Design | Hard | 🆕 Sep 07, 2026 |
 | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Object Oriented Programming | Hard | 🆕 Aug 27, 2026 |
 | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | System Design | Hard | 🆕 Aug 24, 2026 |
-| [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | 🆕 Aug 23, 2026 |
+| [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Object Oriented Programming | Easy | Aug 23, 2026 |
 | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Object Oriented Programming | Hard | Aug 22, 2026 |
 | [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | System Design | Hard | Aug 21, 2026 |
 | [Design Real-Time Electricity Monitoring and Policy Control](https://trueinterview.io/questions/design-real-time-electricity-monitoring-and-policy-control) | System Design | Hard | Aug 18, 2026 |

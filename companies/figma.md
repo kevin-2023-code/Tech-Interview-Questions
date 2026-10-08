@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **22** |
 | Most recent sighting | Aug 12, 2026 |
-| Reported in the last 90 days | 7 |
+| Reported in the last 90 days | 6 |
 | Most common format | [Algorithm](../formats/algorithm.md) (41% of 22) |
 | Difficulty (easy / medium / hard) | 3 / 15 / 4 |
 | Free to practise | [3](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **22 of 22** questions at Figma tha
 
 ## Asked here in the last 90 days
 
-**7 sightings** in this window. Newest first.
+**6 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -48,7 +48,6 @@ Which stage each question came from, for the **22 of 22** questions at Figma tha
 | [Sort Documents on a 2D Plane](https://trueinterview.io/questions/sort-documents-left-to-right) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Aug 12, 2026 |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
 | [Permission-Aware Retrieval & Ranking for Figma Files](https://trueinterview.io/questions/permission-aware-file-retrieval-ranking) | System Design | Medium | Onsite / virtual onsite | Aug 04, 2026 |
-| [Resize Stacked Rectangles — Distribute Height](https://trueinterview.io/questions/resize-rectangles-distribute-height) | Algorithm | Medium | Phone screen, Onsite / virtual onsite | Jul 09, 2026 |
 
 ## What they ask about
 

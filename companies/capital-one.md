@@ -126,7 +126,7 @@ The 8 questions to open first if you are preparing for Capital One, ranked by **
 | :-- | :-- | :-: | :-- |
 | [Team Ranking Based on Scores and Goal Difference](https://trueinterview.io/questions/9a4d2fca-782a-41ea-ad77-5cb7f1173e79) | Algorithm | Medium | 🆕 Sep 16, 2026 |
 | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Algorithm | Medium | 🆕 Sep 07, 2026 |
-| [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | System Design | Hard | 🆕 Aug 23, 2026 |
+| [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | System Design | Hard | Aug 23, 2026 |
 | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Algorithm | Easy | Jul 19, 2026 |
 | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Algorithm | Easy | Jul 19, 2026 |
 | [Matrix Border Sort & Clockwise Fill](https://trueinterview.io/questions/matrix-border-sort-clockwise-fill) | Algorithm | Medium | Jun 05, 2026 |

@@ -51,20 +51,20 @@ Which stage each question came from, for the **38 of 38** questions at xAI that 
 
 ## What they ask about
 
-Of the **16 questions at xAI that carry a topic label** (42% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **15 questions at xAI that carry a topic label** (39% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `greedy` | 6 | 38% | ████████████ | Apr 01, 2026 |
-| `hashing` | 2 | 12% | ████ | Jan 26, 2026 |
-| `heap` | 2 | 12% | ████ | Jan 26, 2026 |
-| `sorting` | 2 | 12% | ████ | Jan 15, 2026 |
-| `strings` | 2 | 12% | ████ | Sep 15, 2026 |
-| `arrays` | 1 | 6% | ██ | Jan 15, 2026 |
-| `backtracking` | 1 | 6% | ██ | Feb 26, 2026 |
-| `binary-search` | 1 | 6% | ██ | Dec 14, 2025 |
-| `math` | 1 | 6% | ██ | Apr 04, 2026 |
-| `trees` | 1 | 6% | ██ | Feb 26, 2026 |
+| `greedy` | 6 | 40% | ████████████ | Apr 01, 2026 |
+| `hashing` | 2 | 13% | ████ | Jan 26, 2026 |
+| `heap` | 2 | 13% | ████ | Jan 26, 2026 |
+| `sorting` | 2 | 13% | ████ | Jan 15, 2026 |
+| `arrays` | 1 | 7% | ██ | Jan 15, 2026 |
+| `backtracking` | 1 | 7% | ██ | Feb 26, 2026 |
+| `binary-search` | 1 | 7% | ██ | Dec 14, 2025 |
+| `math` | 1 | 7% | ██ | Apr 04, 2026 |
+| `strings` | 1 | 7% | ██ | Jan 17, 2026 |
+| `trees` | 1 | 7% | ██ | Feb 26, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 

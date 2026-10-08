@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,119 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,121 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -111,8 +111,10 @@
 | **Netflix / Goldman Sachs** | [First Missing Positive](https://trueinterview.io/questions/first-missing-positive) | Medium | Mar 11, 2026 |
 | **ByteDance** | [Compute square root with precision](https://trueinterview.io/questions/compute-square-root-with-precision) | Medium | Mar 10, 2026 |
 | **ByteDance** | [Reverse Words in a String (Preserve Spaces, In-Place)](https://trueinterview.io/questions/reverse-words-in-place) | Medium | Mar 10, 2026 |
+| **Netflix** | [Design demand-side ads relational tables](https://trueinterview.io/questions/design-demand-side-ads-relational-tables) | Medium | Mar 09, 2026 |
 | **Netflix** | [Compute subtree sums with tree DFS](https://trueinterview.io/questions/compute-subtree-sums-with-tree-dfs) | Medium | Mar 09, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Citadel / Google / Meta / Microsoft / Uber** | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Easy | Mar 09, 2026 |
+| **Google** | [Design an Enterprise AI Adoption Agent for a Global Company](https://trueinterview.io/questions/design-an-enterprise-ai-adoption-agent-for-a-global-company) | Hard | Mar 06, 2026 |
 | **Apple / Amazon / Bloomberg / ByteDance / Datadog / Meta / Microsoft / NVIDIA / Pinduoduo / Snapchat** | [Longest Substring Without Repeating Characters II](https://trueinterview.io/questions/longest-substring-without-repeating-characters) | Easy | Mar 06, 2026 |
 | **ByteDance** | [Case-insensitive adjacent differences](https://trueinterview.io/questions/implement-several-oa-simulation-problems-case-insensitive-adjacent-differences) | Easy | Mar 05, 2026 |
 | **Meta** | [How would you evaluate stolen-post detection?](https://trueinterview.io/questions/how-would-you-evaluate-stolen-post-detection) | Hard | Mar 05, 2026 |
@@ -258,7 +260,5 @@
 | **Netflix** | [Error Rate Monitor](https://trueinterview.io/questions/error-rate-monitor) | Easy | Jan 14, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
 | **Pinterest / Airbnb / Meta / Robinhood / Roblox / Snapchat** | [Design Ad Click Event Aggregation System](https://trueinterview.io/questions/system-design-ads-event-aggregation) | Hard | Jan 12, 2026 |
-| **Uber / Google / Meta** | [Binary Tree Longest Consecutive Sequence II](https://trueinterview.io/questions/binary-tree-longest-consecutive-sequence-ii) | Medium | Jan 11, 2026 |
-| **Google** | [Choose Fast or Cheap Models](https://trueinterview.io/questions/choose-fast-or-cheap-models) | Medium | Jan 10, 2026 |
 
 <sub>[← Page 1](consumer-internet.md) · Page 2 of 5 · [Page 3 →](consumer-internet-3.md)</sub>

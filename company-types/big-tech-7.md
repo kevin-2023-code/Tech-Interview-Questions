@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,10 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Google** | [Check Whether a Template Occurs in Leaf Text of a Binary Tree](https://trueinterview.io/questions/ccbcfb4f-2b34-53ef-a8da-4bedfb2889e5) | Hard | — |
+| **Google** | [Permutations II](https://trueinterview.io/questions/b6747ed0-abbd-562b-9c62-8203b7c69d06) | Medium | — |
+| **Google** | [Count Paths Matching Every Prefix in a Labeled Tree](https://trueinterview.io/questions/666e48b6-38b1-5803-9fbc-c5e3e5601f7b) | Hard | — |
+| **Google** | [Split a Log Line by Spaces Outside Quoted Fields](https://trueinterview.io/questions/63ad51fb-e5a7-516d-a385-28c429f52b59) | Medium | — |
 | **Google** | [Maximum Area Rectangle From Given Points](https://trueinterview.io/questions/587db02b-9437-5e6d-8a2a-cb2d0fbe4eeb) | Medium | — |
 | **Google** | [Deliver to All Grid Locations and Return Home](https://trueinterview.io/questions/4f2dcbed-a308-5c7e-abc6-151ec6fe8790) | Hard | — |
 | **Google** | [Maximize the Sum of Two Endpoint Values](https://trueinterview.io/questions/4c35c0d9-ec3d-5be8-a9ac-8c286f55cb59) | Medium | — |
@@ -49,7 +53,7 @@
 | **Amazon** | [Single Element in a Sorted Array](https://trueinterview.io/questions/45ee0fea-8dd3-5500-991a-6cb4565ae171) | Medium | — |
 | **Amazon** | [K-th Smallest Element in Two Sorted Arrays](https://trueinterview.io/questions/35593018-5643-5c81-ac20-1d52cf6a007f) | Hard | — |
 | **Amazon** | [Kth Smallest Element in a BST (LC 230)](https://trueinterview.io/questions/kth-smallest-element-in-a-bst-2) | Medium | — |
-| **Uber** | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Easy | — |
+| **Uber** | [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | Medium | — |
 | **Uber** | [Rotate Matrix with Gravity Effect](https://trueinterview.io/questions/470ac7e4-c3f9-481c-b3e2-e8ae3cadbf88) | Medium | — |
 | **Uber** | [Flip and Compare in Arrays](https://trueinterview.io/questions/3d755482-3491-4647-a3bb-6dd3d526613f) | Medium | — |
 | **Microsoft** | [Maximum XOR Product](https://trueinterview.io/questions/2e9b6434-fdc8-52e3-8863-e469e8a0f2a7) | Medium | — |
@@ -256,9 +260,5 @@
 | **NVIDIA** | [Python Data Processing Task (Parse, Aggregate, and Validate)](https://trueinterview.io/questions/3a714999-40ed-4da6-b12f-d0addf376068) | Easy | — |
 | **Microsoft / ByteDance** | [Reverse a Linked List](https://trueinterview.io/questions/e65902ca-ab54-4dcc-a633-e1d3b54d718c) | Easy | — |
 | **Microsoft** | [Find the Maximum Length of Subarray with Sum Less Than Target](https://trueinterview.io/questions/d79ccd99-253b-4c50-af8b-1721844580a0) | Medium | — |
-| **Microsoft** | [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3) | Easy | — |
-| **Microsoft** | [LLM Training Dataset Quality Check for Excel Copilot Tasks](https://trueinterview.io/questions/cca976aa-f821-4b1f-ba1a-44dafd0b7d8d) | Hard | — |
-| **Microsoft** | [Implement a SQL-like WHERE filter for in-memory rows](https://trueinterview.io/questions/cc96cc09-9d90-4ebf-b07c-d22d9a30aaf9) | Easy | — |
-| **Microsoft** | [Resource Change Database Design](https://trueinterview.io/questions/bcd45958-19cb-4471-90e5-86cdb8a138f5) | Medium | — |
 
 <sub>[← Page 6](big-tech-6.md) · Page 7 of 9 · [Page 8 →](big-tech-8.md)</sub>

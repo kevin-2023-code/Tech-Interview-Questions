@@ -2,7 +2,7 @@
 
 # 🚗 Autonomy, automotive & mobility — interview & OA questions
 
-**165 questions** reported across the **5 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**167 questions** reported across the **5 Autonomy, automotive & mobility employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Waymo (62)](../companies/waymo.md) · [Tesla (43)](../companies/tesla.md) · [Applied Intuition (29)](../companies/applied-intuition.md) · [WeRide (22)](../companies/weride.md) · [Nuro (11)](../companies/nuro.md)
+[Waymo (62)](../companies/waymo.md) · [Tesla (45)](../companies/tesla.md) · [Applied Intuition (29)](../companies/applied-intuition.md) · [WeRide (22)](../companies/weride.md) · [Nuro (11)](../companies/nuro.md)
 
 <sub>5 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 102 | 62% | ██████████████ | 18 |
-| [System Design](../formats/system-design.md) | 28 | 17% | ████ | 2 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 23 | 14% | ███ | 8 |
+| [Algorithm](../formats/algorithm.md) | 102 | 61% | ██████████████ | 18 |
+| [System Design](../formats/system-design.md) | 29 | 17% | ████ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 24 | 14% | ███ | 8 |
 | [SQL](../formats/sql.md) | 10 | 6% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 2 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **19 / 99 / 47**, over the rows the catalog has graded. 29 of the 165 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **19 / 100 / 48**, over the rows the catalog has graded. 29 of the 167 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **99 questions in this cut that carry a topic label** (60% of it):
+Of the **99 questions in this cut that carry a topic label** (59% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,10 +47,12 @@ Of the **99 questions in this cut that carry a topic label** (60% of it):
 
 ## Asked here in the last 90 days
 
-**14 sightings** across this cut. Newest first.
+**15 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
+| [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Tesla | Object Oriented Programming | Sep 13, 2026 |
+| [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Tesla | System Design | Sep 04, 2026 |
 | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Tesla | Object Oriented Programming | Sep 04, 2026 |
 | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Tesla | System Design | Sep 01, 2026 |
 | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | Nuro | System Design | Aug 31, 2026 |
@@ -61,10 +63,8 @@ Of the **99 questions in this cut that carry a topic label** (60% of it):
 | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | Nuro | System Design | Aug 31, 2026 |
 | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Applied Intuition | Object Oriented Programming | Aug 30, 2026 |
 | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Waymo | Algorithm | Aug 27, 2026 |
-| [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Tesla | System Design | Aug 24, 2026 |
-| [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | Tesla | System Design | Aug 24, 2026 |
 
-<sub>2 more in this window are in the table below.</sub>
+<sub>3 more in this window are in the table below.</sub>
 
 ---
 
@@ -74,6 +74,8 @@ Of the **99 questions in this cut that carry a topic label** (60% of it):
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Tesla** | [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Medium | 🆕 Sep 13, 2026 |
+| **Tesla** | [Design a Content Delivery Network](https://trueinterview.io/questions/design-a-content-delivery-network) | Hard | 🆕 Sep 04, 2026 |
 | **Tesla** | [Handle API Errors with Python Requests](https://trueinterview.io/questions/handle-api-errors-with-python-requests) | Medium | 🆕 Sep 04, 2026 |
 | **Tesla** | [Balance Backend Availability, Maintainability, and Scalability](https://trueinterview.io/questions/balance-backend-availability-maintainability-and-scalability) | Medium | 🆕 Sep 01, 2026 |
 | **Nuro** | [Search Large Vehicle Records with Bounded Memory](https://trueinterview.io/questions/search-large-vehicle-records-with-bounded-memory) | Hard | 🆕 Aug 31, 2026 |

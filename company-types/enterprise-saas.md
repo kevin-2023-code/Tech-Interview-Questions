@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**592 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**593 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Microsoft (185)](../companies/microsoft.md) · [Oracle (95)](../companies/oracle.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Rippling (48)](../companies/rippling.md) · [Intuit (28)](../companies/intuit.md) · [Figma (22)](../companies/figma.md) · [Tradedesk (20)](../companies/tradedesk.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Palantir (11)](../companies/palantir.md) · [Airtable (8)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Bobyard (6)](../companies/bobyard.md) · [Gusto (5)](../companies/gusto.md) · [Rokt (5)](../companies/rokt.md) · [StackAdapt (5)](../companies/stackadapt.md)
+[Microsoft (186)](../companies/microsoft.md) · [Oracle (95)](../companies/oracle.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Rippling (48)](../companies/rippling.md) · [Intuit (28)](../companies/intuit.md) · [Figma (22)](../companies/figma.md) · [Tradedesk (20)](../companies/tradedesk.md) · [Dropbox (15)](../companies/dropbox.md) · [HubSpot (13)](../companies/hubspot.md) · [Palantir (11)](../companies/palantir.md) · [Airtable (8)](../companies/airtable.md) · [Amplitude (7)](../companies/amplitude.md) · [Bobyard (6)](../companies/bobyard.md) · [Gusto (5)](../companies/gusto.md) · [Rokt (5)](../companies/rokt.md) · [StackAdapt (5)](../companies/stackadapt.md)
 
 <sub>17 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -19,16 +19,16 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 358 | 60% | ██████████████ | 47 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 110 | 19% | ████ | 20 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 111 | 19% | ████ | 20 |
 | [System Design](../formats/system-design.md) | 98 | 17% | ████ | 8 |
 | [SQL](../formats/sql.md) | 21 | 4% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 5 | 1% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **92 / 376 / 124**, over the rows the catalog has graded. 76 of the 592 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **92 / 377 / 124**, over the rows the catalog has graded. 76 of the 593 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **376 questions in this cut that carry a topic label** (64% of it):
+Of the **376 questions in this cut that carry a topic label** (63% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -47,7 +47,7 @@ Of the **376 questions in this cut that carry a topic label** (64% of it):
 
 ## Asked here in the last 90 days
 
-**76 sightings** across this cut. Newest first.
+**75 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **376 questions in this cut that carry a topic label** (64% of it):
 | [Find the First Value Repeated During a Left-to-Right Scan](https://trueinterview.io/questions/find-the-first-value-repeated-during-a-left-to-right-scan) | Microsoft | Algorithm | Sep 10, 2026 |
 | [Find Unique Zero-Sum Triplets](https://trueinterview.io/questions/find-unique-zero-sum-triplets) | Microsoft | Algorithm | Sep 10, 2026 |
 
-<sub>64 more in this window are in the table below.</sub>
+<sub>63 more in this window are in the table below.</sub>
 
 ---
 

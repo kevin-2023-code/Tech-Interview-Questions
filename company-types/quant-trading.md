@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**271 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**272 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (72)](../companies/citadel.md) · [Two Sigma (41)](../companies/two-sigma.md) · [Squarepoint (34)](../companies/squarepoint.md) · [Akuna Capital (31)](../companies/akuna-capital.md) · [Point72 (29)](../companies/point72.md) · [Optiver (23)](../companies/optiver.md) · [Hudson River Trading (18)](../companies/hudson-river-trading.md) · [Jane Street (10)](../companies/jane-street.md) · [Voleon (10)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Imc (4)](../companies/imc.md) · [Drw (3)](../companies/drw.md)
+[Citadel (72)](../companies/citadel.md) · [Two Sigma (41)](../companies/two-sigma.md) · [Squarepoint (34)](../companies/squarepoint.md) · [Akuna Capital (31)](../companies/akuna-capital.md) · [Point72 (29)](../companies/point72.md) · [Optiver (23)](../companies/optiver.md) · [Hudson River Trading (18)](../companies/hudson-river-trading.md) · [Jane Street (11)](../companies/jane-street.md) · [Voleon (10)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Imc (4)](../companies/imc.md) · [Drw (3)](../companies/drw.md)
 
 <sub>12 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 202 | 75% | ██████████████ | 38 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 45 | 17% | ███ | 5 |
+| [Algorithm](../formats/algorithm.md) | 202 | 74% | ██████████████ | 38 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 46 | 17% | ███ | 5 |
 | [System Design](../formats/system-design.md) | 16 | 6% | █ | 0 |
 | [SQL](../formats/sql.md) | 7 | 3% | █ | 0 |
 | [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **35 / 175 / 61**, over the rows the catalog has graded. 43 of the 271 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **35 / 176 / 61**, over the rows the catalog has graded. 43 of the 272 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **183 questions in this cut that carry a topic label** (68% of it):
+Of the **183 questions in this cut that carry a topic label** (67% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -207,6 +207,7 @@ Of the **183 questions in this cut that carry a topic label** (68% of it):
 | **Two Sigma** | [HashMap from Scratch](https://trueinterview.io/questions/hashmap-from-scratch) | Medium | Nov 13, 2025 |
 | **Akuna Capital** | [Rolling Statistics: Max, Mean, and Mode](https://trueinterview.io/questions/rolling-statistics-max-mean-mode) | Medium | Nov 11, 2025 |
 | **Squarepoint** | [Maximize profit from one or many stock trades](https://trueinterview.io/questions/maximize-profit-from-one-or-many-stock-trades) | Medium | Nov 07, 2025 |
+| **Jane Street** | [Turning Interview Code into a Reusable Library or API](https://trueinterview.io/questions/turning-interview-code-into-a-reusable-library-or-api) | Medium | Nov 06, 2025 |
 | **Jane Street** | [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | Hard | Nov 06, 2025 |
 | **Akuna Capital** | [Fun With Anagrams (Deduplicate Anagrams)](https://trueinterview.io/questions/fun-with-anagrams-dedup) | Easy | Nov 04, 2025 |
 | **Akuna Capital** | [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler) | Medium | Nov 04, 2025 |
@@ -325,6 +326,5 @@ Of the **183 questions in this cut that carry a topic label** (68% of it):
 | **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
 | **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
 | **Optiver** | [Days Between Dates (Days Between 3.0 V2)](https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6) | Medium | — |
-| **Two Sigma / Waymo** | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](quant-trading-2.md)</sub>

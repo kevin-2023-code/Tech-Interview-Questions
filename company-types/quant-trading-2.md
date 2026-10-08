@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**271 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**272 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Two Sigma / Waymo** | [Jump Game Series](https://trueinterview.io/questions/e6c27750-a318-4f3c-a767-bd7b64e702a8) | Medium | — |
 | **Two Sigma** | [Sewer Connectivity / Reachability in a Grid (DFS)](https://trueinterview.io/questions/d61b284b-b8b1-477e-b882-688944e48364) | Medium | — |
 | **Two Sigma** | [Directed Acyclic Graph (DAG) Algorithm Problem](https://trueinterview.io/questions/c791d6b5-3f47-4bd5-b642-81fbd15b2cdf) | Medium | — |
 | **Two Sigma** | [Redundant Connection: Underground Pipes](https://trueinterview.io/questions/b6bf0892-4ac9-4967-b928-e3e1ced0f9e8) | Medium | — |

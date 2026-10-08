@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **83** |
 | Most recent sighting | Aug 04, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 83) |
 | Difficulty (easy / medium / hard) | 15 / 50 / 18 |
 | Free to practise | [12](../free/README.md) |
@@ -38,14 +38,13 @@ Which stage each question came from, for the **83 of 83** questions at Bloomberg
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Algorithm | Hard | Phone screen, Onsite / virtual onsite | Aug 04, 2026 |
 | [FAANG Stock Min-Max](https://trueinterview.io/questions/faang-stock-min-max) | SQL | Medium | Phone screen | Jul 22, 2026 |
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | SQL | Medium | Phone screen | Jul 22, 2026 |
-| [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Algorithm | Medium | Phone screen | Jul 09, 2026 |
 
 ## What they ask about
 

@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,10 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Microsoft** | [Processing Service Logs for Error Detection and Reporting](https://trueinterview.io/questions/d179f051-5594-4883-b756-5c65264930c3) | Easy | — |
+| **Microsoft** | [LLM Training Dataset Quality Check for Excel Copilot Tasks](https://trueinterview.io/questions/cca976aa-f821-4b1f-ba1a-44dafd0b7d8d) | Hard | — |
+| **Microsoft** | [Implement a SQL-like WHERE filter for in-memory rows](https://trueinterview.io/questions/cc96cc09-9d90-4ebf-b07c-d22d9a30aaf9) | Easy | — |
+| **Microsoft** | [Resource Change Database Design](https://trueinterview.io/questions/bcd45958-19cb-4471-90e5-86cdb8a138f5) | Medium | — |
 | **Microsoft** | [Design RESTful API for JSON Files](https://trueinterview.io/questions/b03ed863-99c2-4277-87f0-fd74fa4a9331) | Medium | — |
 | **Microsoft / Ebay / Visa** | [Hash Map Counting / Lookup Problem](https://trueinterview.io/questions/ad5888a6-8606-4bb2-9983-c9f28184e6d6) | Easy | — |
 | **Microsoft** | [Woo Restaurant Design](https://trueinterview.io/questions/9b4cb899-5355-4016-b218-5bb90a044898) | Medium | — |
@@ -256,9 +260,5 @@
 | **Meta** | [Maze Problem](https://trueinterview.io/questions/110ab1b0-fab7-4c67-a9b4-569ce7d74c2f) | Medium | — |
 | **Google** | [Group Array](https://trueinterview.io/questions/19b3ac67-7f53-4497-9f89-93551984b216) | Easy | — |
 | **Snowflake / Amazon / Meta / Snapchat** | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Medium | — |
-| **Netflix** | [Count the Number of String Pairs With No Common Characters](https://trueinterview.io/questions/044e7295-5015-4975-b30c-5cdc060ccec8) | Medium | — |
-| **Uber** | [Serialize and Deserialize Binary Tree, then Extend to N-ary Tree](https://trueinterview.io/questions/dd87d39f-2574-5a10-a447-0f7f3340ce44) | Medium | — |
-| **Uber / Amazon / Microsoft** | [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Easy | — |
-| **Uber / DoorDash / Meta / Yelp** | [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Hard | — |
 
 <sub>[← Page 7](big-tech-7.md) · Page 8 of 9 · [Page 9 →](big-tech-9.md)</sub>

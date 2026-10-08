@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,067 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,10 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Netflix** | [Count the Number of String Pairs With No Common Characters](https://trueinterview.io/questions/044e7295-5015-4975-b30c-5cdc060ccec8) | Medium | — |
+| **Uber** | [Serialize and Deserialize Binary Tree, then Extend to N-ary Tree](https://trueinterview.io/questions/dd87d39f-2574-5a10-a447-0f7f3340ce44) | Medium | — |
+| **Uber / Amazon / Microsoft** | [Top-K Using a Priority Queue](https://trueinterview.io/questions/dc419410-0835-45d4-8b4c-0e4b2a320880) | Easy | — |
+| **Uber / DoorDash / Meta / Yelp** | [Binary Tree: Subtree Sum, Maximum Path Value, and Path Nodes](https://trueinterview.io/questions/ac87144a-2edd-4973-bfa5-43b00c06912f) | Hard | — |
 | **Uber / Apple / Google** | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Medium | — |
 | **Netflix** | [Contains Duplicate](https://trueinterview.io/questions/7557ec37-3b6a-4359-9137-f6bec8d174ec) | Easy | — |
 | **Uber** | [Count Concurrent Meeting Rooms Over Time](https://trueinterview.io/questions/64012470-cb3e-4716-9b83-2159f40021fe) | Medium | — |

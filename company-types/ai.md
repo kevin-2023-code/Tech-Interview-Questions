@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**356 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**357 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (145)](../companies/openai.md) · [Anthropic (79)](../companies/anthropic.md) · [xAI (38)](../companies/xai.md) · [Perplexity (24)](../companies/perplexity.md) · [Scale AI (21)](../companies/scale-ai.md) · [Harvey (20)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Cursor (5)](../companies/cursor.md) · [Mercor (5)](../companies/mercor.md) · [C3 AI (3)](../companies/c3-ai.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md) · [Together AI (2)](../companies/together-ai.md)
+[OpenAI (145)](../companies/openai.md) · [Anthropic (79)](../companies/anthropic.md) · [xAI (38)](../companies/xai.md) · [Perplexity (24)](../companies/perplexity.md) · [Scale AI (21)](../companies/scale-ai.md) · [Harvey (20)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Cursor (5)](../companies/cursor.md) · [Mercor (5)](../companies/mercor.md) · [C3 AI (4)](../companies/c3-ai.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md) · [Together AI (2)](../companies/together-ai.md)
 
 <sub>15 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -19,35 +19,35 @@
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
 | [Algorithm](../formats/algorithm.md) | 145 | 41% | ██████████████ | 24 |
-| [System Design](../formats/system-design.md) | 89 | 25% | █████████ | 12 |
+| [System Design](../formats/system-design.md) | 90 | 25% | █████████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 85 | 24% | ████████ | 12 |
 | [AI Coding](../formats/ai-coding.md) | 30 | 8% | ███ | 2 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **28 / 204 / 124**, over the rows the catalog has graded. 50 of the 356 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **28 / 205 / 124**, over the rows the catalog has graded. 50 of the 357 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **154 questions in this cut that carry a topic label** (43% of it):
+Of the **153 questions in this cut that carry a topic label** (43% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `hashing` | 31 | 20% | ████████████ |
-| `strings` | 24 | 16% | █████████ |
+| `strings` | 23 | 15% | █████████ |
 | `graphs` | 18 | 12% | ███████ |
 | `greedy` | 18 | 12% | ███████ |
 | `math` | 17 | 11% | ███████ |
 | `sorting` | 14 | 9% | █████ |
 | `matrix` | 13 | 8% | █████ |
 | `arrays` | 11 | 7% | ████ |
-| `heap` | 10 | 6% | ████ |
+| `heap` | 10 | 7% | ████ |
 | `trees` | 8 | 5% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**48 sightings** across this cut. Newest first.
+**49 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **154 questions in this cut that carry a topic label** (43% of it):
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | Anthropic | System Design | Sep 08, 2026 |
 | [Design an IoT Logging Platform with Late-Arriving Metrics](https://trueinterview.io/questions/design-an-iot-logging-platform-with-late-arriving-metrics) | OpenAI | System Design | Sep 07, 2026 |
 
-<sub>36 more in this window are in the table below.</sub>
+<sub>37 more in this window are in the table below.</sub>
 
 ---
 
@@ -102,8 +102,9 @@ Of the **154 questions in this cut that carry a topic label** (43% of it):
 | **Scale AI** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Medium | 🆕 Aug 26, 2026 |
 | **OpenAI** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | Hard | 🆕 Aug 24, 2026 |
 | **Anthropic** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Medium | 🆕 Aug 24, 2026 |
-| **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | 🆕 Aug 23, 2026 |
+| **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | Aug 23, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | Aug 22, 2026 |
+| **C3 AI** | [Evaluate a Retrieval-Augmented Generation System](https://trueinterview.io/questions/evaluate-a-retrieval-augmented-generation-system) | Medium | Aug 21, 2026 |
 | **OpenAI** | [Design a User-Respecting Smart-Grid Controller](https://trueinterview.io/questions/design-a-user-respecting-smart-grid-controller) | Hard | Aug 21, 2026 |
 | **Cursor** | [Design a CI/CD Job Scheduler](https://trueinterview.io/questions/design-a-ci-cd-job-scheduler) | Hard | Aug 21, 2026 |
 | **C3 AI** | [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | Hard | Aug 21, 2026 |
@@ -325,6 +326,5 @@ Of the **154 questions in this cut that carry a topic label** (43% of it):
 | **OpenAI** | [Guess a Secret Number with One-Call Delayed Feedback](https://trueinterview.io/questions/e41553c0-20ac-51a0-bc69-17309dce31b6) | Medium | — |
 | **OpenAI** | [Find the Incorrect Data Labeler](https://trueinterview.io/questions/d2fcfdcf-7015-535c-aecb-8729bdd9edcf) | Medium | — |
 | **OpenAI** | [Spreadsheet Implementation with Cycle Detection and Caching](https://trueinterview.io/questions/b0fb2e35-02e8-45a9-bcfe-f1ad3e4778fd) | Medium | — |
-| **OpenAI** | [Multiprocessing Debugging for Neural Network Propagation](https://trueinterview.io/questions/a91050eb-ce04-4669-81b0-4219d72e6661) | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](ai-2.md)</sub>

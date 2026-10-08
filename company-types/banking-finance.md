@@ -47,7 +47,7 @@ Of the **176 questions in this cut that carry a topic label** (66% of it):
 
 ## Asked here in the last 90 days
 
-**12 sightings** across this cut. Newest first.
+**11 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -62,7 +62,6 @@ Of the **176 questions in this cut that carry a topic label** (66% of it):
 | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Bloomberg | SQL | Jul 22, 2026 |
 | [Outside-In String Reordering](https://trueinterview.io/questions/outside-in-string-reordering) | Capital One | Algorithm | Jul 19, 2026 |
 | [W-D-L Outcome Reordering](https://trueinterview.io/questions/wdl-cyclic-reordering) | Capital One | Algorithm | Jul 19, 2026 |
-| [Detect Duplicate Items Within a 60-Second Sliding Window](https://trueinterview.io/questions/e2b305b7-7113-5e3c-be3b-34b487f5cdb2) | Bloomberg | Algorithm | Jul 09, 2026 |
 
 ---
 
@@ -78,7 +77,7 @@ Of the **176 questions in this cut that carry a topic label** (66% of it):
 | **Goldman Sachs** | [Design a Pastebin Service: Requirements, Entities, APIs and End-to-End Architecture](https://trueinterview.io/questions/design-a-pastebin-service-requirements-entities-apis-and-end-to-end-architecture) | Easy | 🆕 Sep 13, 2026 |
 | **Goldman Sachs** | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Medium | 🆕 Sep 13, 2026 |
 | **Capital One** | [Find Repeated-Value Patterns in a Matrix](https://trueinterview.io/questions/find-repeated-value-patterns-in-a-matrix) | Medium | 🆕 Sep 07, 2026 |
-| **Capital One** | [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | Hard | 🆕 Aug 23, 2026 |
+| **Capital One** | [Design Credit-Card Authorization, Limit Decisions, and Reporting](https://trueinterview.io/questions/design-credit-card-authorization-limit-decisions-and-reporting) | Hard | Aug 23, 2026 |
 | **Goldman Sachs** | [Design a Ten-Minute In-Memory Notification Deduplication Engine](https://trueinterview.io/questions/design-a-ten-minute-in-memory-notification-deduplication-engine) | Easy | Aug 15, 2026 |
 | **Figma / Bloomberg / Boston Consulting Group** | [Nested String with Brackets Parsing](https://trueinterview.io/questions/nested-brackets-rich-text-parse) | Hard | Aug 04, 2026 |
 | **Bloomberg** | [FAANG Stock Monthly Change](https://trueinterview.io/questions/faang-stock-monthly-change) | Medium | Jul 22, 2026 |

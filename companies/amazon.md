@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**320 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**321 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **320** |
+| Questions tracked | **321** |
 | Most recent sighting | Sep 20, 2026 |
 | Reported in the last 90 days | 54 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 320) |
-| Difficulty (easy / medium / hard) | 54 / 206 / 60 |
+| Most common format | [Algorithm](../formats/algorithm.md) (61% of 321) |
+| Difficulty (easy / medium / hard) | 54 / 207 / 60 |
 | Free to practise | [31](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 320 questions reported at Amazon. 187 of them carry a sighting date; the other 133 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 321 questions reported at Amazon. 187 of them carry a sighting date; the other 134 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **320 of 320** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **321 of 321** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 43 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 19 / 17 / 7 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 153 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 21 / 104 / 28 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 151 | ██████████ | [Algorithm](../formats/algorithm.md) (42%) | 18 / 105 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 152 | ██████████ | [Algorithm](../formats/algorithm.md) (41%) | 18 / 106 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -324,6 +324,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Check if adding edge creates cycle in digraph](https://trueinterview.io/questions/check-if-adding-edge-creates-cycle-in-digraph) | Algorithm | Medium | Oct 26, 2025 |
 | [Design TinyURL](https://trueinterview.io/questions/design-tinyurl) | System Design | Easy | Oct 15, 2025 |
 | [Oldest One-Time Visitor](https://trueinterview.io/questions/oldest-one-time-visitor) | Object Oriented Programming | Medium | Aug 23, 2025 |
+| [Design end-to-end regression for energy demand](https://trueinterview.io/questions/design-end-to-end-regression-for-energy-demand) | System Design | Medium | — |
 | [Write and explain gradient descent pseudocode](https://trueinterview.io/questions/write-and-explain-gradient-descent-pseudocode) | Algorithm | Medium | — |
 | [Prove new allocation outperforms manual baseline](https://trueinterview.io/questions/prove-new-allocation-outperforms-manual-baseline) | System Design | Hard | — |
 | [Measure PMF for Alexa Shopping](https://trueinterview.io/questions/measure-pmf-for-alexa-shopping) | System Design | Medium | — |
@@ -386,6 +387,5 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design a Library Management System](https://trueinterview.io/questions/design-a-library-management-system) | Object Oriented Programming | Medium | — |
-| [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search) | Object Oriented Programming | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](amazon-2.md)</sub>

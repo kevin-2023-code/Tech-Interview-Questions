@@ -70,7 +70,6 @@
 | [Linked List Binary to Decimal](https://trueinterview.io/questions/linked-list-binary-to-decimal) | **Cisco** | Easy | Sep 06, 2025 |
 | [Longest Substring of All Same Letter](https://trueinterview.io/questions/longest-same-letter-substring) | **Goldman Sachs** | Easy | Nov 21, 2024 |
 | [Maximum Drop Points in One Line](https://trueinterview.io/questions/maximum-drop-points-in-one-line) | **Cisco** | Easy | Jul 17, 2025 |
-| [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | **Uber** | Easy | — |
 | [Merge Two Sorted Vectors](https://trueinterview.io/questions/80025de7-bb7b-4d7a-bbef-34ca4648dad8) | **Squarepoint** | Easy | — |
 | [Minimize Shopping Department Visits](https://trueinterview.io/questions/shopping-category-trip-difference) | **Atlassian** | Easy | Jul 03, 2025 |
 | [Minimum Swaps for Even / Odd Partition](https://trueinterview.io/questions/minimum-swaps-even-odd-partition) | **Cisco** | Easy | Sep 04, 2025 |
@@ -197,6 +196,7 @@
 | [Maximum Completable Tasks with Prerequisites (Topological)](https://trueinterview.io/questions/course-prerequisites-task-count) | **Oracle** | Medium | Apr 02, 2025 |
 | [Maximum Non-Adjacent Chocolates](https://trueinterview.io/questions/3c880993-3030-4a5c-8474-3e74e89d32f3) | **Cisco** | Medium | Jul 17, 2025 |
 | [Maximum Order Volume](https://trueinterview.io/questions/62a38f9e-6342-4ba4-9341-db4070d39cc5) | **Snowflake** | Medium | — |
+| [Meeting Rooms Allocation with Delay](https://trueinterview.io/questions/b924cbdd-9530-43e5-9b0b-80bd8b825ca1) | **Uber** | Medium | — |
 | [Merge Common Substring](https://trueinterview.io/questions/merge-common-substring) | **Yelp** | Medium | Apr 20, 2025 |
 | [Merge K Sorted Lists (incl. K = 3)](https://trueinterview.io/questions/merge-k-sorted-lists-3) | **Goldman Sachs** | Medium | Jun 09, 2025 |
 | [Mike and Gems](https://trueinterview.io/questions/0d53579a-7075-43b2-9ea9-13807803a1a7) | **Rubrik** | Medium | — |

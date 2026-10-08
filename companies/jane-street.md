@@ -2,7 +2,7 @@
 
 # Jane Street interview process, OA & interview questions
 
-**10 questions** reported at Jane Street. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jane-street), judged server-side on the algorithm, low-level-design and SQL formats.
+**11 questions** reported at Jane Street. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/jane-street), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Jane Street interviews & the free questions](jane-street/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **10** |
+| Questions tracked | **11** |
 | Most recent sighting | Aug 24, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (50% of 10) |
-| Difficulty (easy / medium / hard) | 0 / 2 / 8 |
+| Most common format | [Algorithm](../formats/algorithm.md) (45% of 11) |
+| Difficulty (easy / medium / hard) | 0 / 3 / 8 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 0 |
 
-<sub>Counted from the 10 questions reported at Jane Street. 10 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 11 questions reported at Jane Street. 11 of them carry a sighting date; the other 0 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **10 of 10** questions at Jane Street that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **11 of 11** questions at Jane Street that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (50%) | 0 / 1 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 3 | █████ | [System Design](../formats/system-design.md) (67%) | 0 / 1 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 0 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 7 | ██████████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 2 / 5 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 3 | ████ | [System Design](../formats/system-design.md) (67%) | 0 / 1 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -47,7 +47,7 @@ Which stage each question came from, for the **10 of 10** questions at Jane Stre
 
 ## What they ask about
 
-Of the **4 questions at Jane Street that carry a topic label** (40% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **4 questions at Jane Street that carry a topic label** (36% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -68,7 +68,7 @@ Every recorded sighting at Jane Street, by the month it was reported in — Oct 
 | [Feb 2026](../by-month/2026-02.md) | 1 | ██████ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ██████ |
 | [Dec 2025](../by-month/2025-12.md) | 4 | ████████████████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 1 | ██████ |
+| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██████ |
 
 ## Start here
@@ -106,5 +106,6 @@ The 8 questions to open first if you are preparing for Jane Street, ranked by **
 | [Validate order book data across multiple databases](https://trueinterview.io/questions/validate-order-book-data-across-multiple-databases) | System Design | Hard | Dec 15, 2025 |
 | [Design exchange–trading system message flow](https://trueinterview.io/questions/design-exchangetrading-system-message-flow) | System Design | Hard | Dec 15, 2025 |
 | [Sort trade executions into a canonical order](https://trueinterview.io/questions/sort-trade-executions-into-a-canonical-order) | Algorithm | Medium | Dec 15, 2025 |
+| [Turning Interview Code into a Reusable Library or API](https://trueinterview.io/questions/turning-interview-code-into-a-reusable-library-or-api) | Object Oriented Programming | Medium | Nov 06, 2025 |
 | [Bottom-Insertion Connect Game: Detect the First k-in-a-Row Winner](https://trueinterview.io/questions/bottom-insertion-connect-game-detect-the-first-k-in-a-row-winner) | Algorithm | Hard | Nov 06, 2025 |
 | [Solve queue switch and coin change puzzles](https://trueinterview.io/questions/solve-queue-switch-and-coin-change-puzzles) | Algorithm | Hard | Oct 14, 2025 |

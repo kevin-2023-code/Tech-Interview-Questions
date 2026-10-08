@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**591 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**595 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -18,6 +18,7 @@
 | **Tradedesk** | [Implement a Publish-Subscribe Event Bus in JavaScript or TypeScript](https://trueinterview.io/questions/implement-a-publish-subscribe-event-bus-in-javascript-or-typescript) | Medium | 🆕 Sep 15, 2026 |
 | **Robinhood** | [Design an iOS Timer App with Consistent State and Asynchronous UI Updates](https://trueinterview.io/questions/design-an-ios-timer-app-with-consistent-state-and-asynchronous-ui-updates) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Render Nested JSON in a Code-Style Viewer](https://trueinterview.io/questions/render-nested-json-in-a-code-style-viewer) | Medium | 🆕 Sep 15, 2026 |
+| **Tesla** | [Implement Reduce and Derive Map and Filter from It](https://trueinterview.io/questions/implement-reduce-and-derive-map-and-filter-from-it) | Medium | 🆕 Sep 13, 2026 |
 | **Goldman Sachs** | [Cache Trade-offs and a Constant-Time Least-Recently-Used Cache](https://trueinterview.io/questions/cache-trade-offs-and-a-constant-time-least-recently-used-cache) | Medium | 🆕 Sep 13, 2026 |
 | **Rippling** | [Extend an Expense Rules Engine with Nested Boolean Conditions](https://trueinterview.io/questions/extend-an-expense-rules-engine-with-nested-boolean-conditions) | Hard | 🆕 Sep 11, 2026 |
 | **Stripe** | [Design a String-Rule Validator for Transaction Records](https://trueinterview.io/questions/design-a-string-rule-validator-for-transaction-records) | Medium | 🆕 Sep 11, 2026 |
@@ -50,7 +51,7 @@
 | **Scale AI** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Medium | 🆕 Aug 26, 2026 |
 | **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | 🆕 Aug 25, 2026 |
 | **Anthropic** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Medium | 🆕 Aug 24, 2026 |
-| **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | 🆕 Aug 23, 2026 |
+| **OpenAI** | [Design Alternating Card Dealing and Hand Comparison](https://trueinterview.io/questions/design-alternating-card-dealing-and-hand-comparison) | Easy | Aug 23, 2026 |
 | **Amazon** | [Design a Debounced Product Search Box](https://trueinterview.io/questions/design-a-debounced-product-search-box) | Medium | Aug 22, 2026 |
 | **Tradedesk** | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Hard | Aug 22, 2026 |
 | **OpenAI** | [Image Sharing with Content Deduplication](https://trueinterview.io/questions/image-sharing-content-deduplication) | Hard | Aug 22, 2026 |
@@ -199,6 +200,7 @@
 | **xAI** | [Multithreaded BankAccount Race-Condition Bug Hunt](https://trueinterview.io/questions/multithreaded-bank-account-bug-hunt) | Medium | Apr 04, 2026 |
 | **Discord** | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | Medium | Apr 03, 2026 |
 | **Waymo** | [Battleship Board (React, Frontend Onsite)](https://trueinterview.io/questions/battleship-react-frontend) | Medium | Apr 03, 2026 |
+| **Asana** | [Design a 2048 Game](https://trueinterview.io/questions/design-a-2048-game) | Medium | Apr 02, 2026 |
 | **Rippling** | [Design an Extensible Rule Engine](https://trueinterview.io/questions/design-an-extensible-rule-engine) | Medium | Apr 02, 2026 |
 | **Coinbase** | [Implement Game Physics and Block Mining](https://trueinterview.io/questions/implement-game-physics-and-block-mining) | Medium | Apr 02, 2026 |
 | **xAI** | [Resumable Iterator with Save / Restore State](https://trueinterview.io/questions/resumable-iterator-design) | Medium | Apr 02, 2026 |
@@ -258,7 +260,5 @@
 | **Google** | [Implement Batched Undo/Redo Layer](https://trueinterview.io/questions/implement-batched-undo-redo-layer) | Hard | Feb 04, 2026 |
 | **Oracle** | [Simplified Redis-Like KV / List Store](https://trueinterview.io/questions/simplified-redis-kv-store) | Medium | Feb 04, 2026 |
 | **Oracle** | [Hospital Appointment Booking API](https://trueinterview.io/questions/hospital-appointment-booking-api) | Medium | Feb 04, 2026 |
-| **LinkedIn** | [Alert Monitor — Rolling Window + Severity Distribution + Spike Detection](https://trueinterview.io/questions/coding-alert-monitor) | Medium | Feb 04, 2026 |
-| **Coinbase / Lyft** | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Medium | Feb 04, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](object-oriented-programming-2.md)</sub>

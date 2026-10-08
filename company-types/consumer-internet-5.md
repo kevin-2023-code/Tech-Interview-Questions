@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,119 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,121 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Google** | [Range Updates Using Difference Array (Template Problem)](https://trueinterview.io/questions/19526ad7-c78c-462e-a59d-80239253617a) | Easy | — |
+| **Google / Microsoft** | [Employee Shift Timeline Table](https://trueinterview.io/questions/0dbc81af-dd9a-45a6-8f23-c42c1feb88e1) | Medium | — |
 | **Google** | [Shortest Distance to Taxi in a Grid](https://trueinterview.io/questions/05552f4a-424e-469b-ba5a-40c766f4d84a) | Medium | — |
 | **Goldman Sachs / LinkedIn / Oracle** | [Implement Queue using Two Stacks](https://trueinterview.io/questions/fcc37027-f6b7-49ec-85c1-100853576313) | Medium | — |
 | **ByteDance / Google** | [Determine Players with Unique Ranks from Match Results (Reachability Counts in a Directed Graph)](https://trueinterview.io/questions/f6331f0f-11ef-453f-a5fa-06bb97821266) | Hard | — |

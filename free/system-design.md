@@ -22,6 +22,7 @@
 | [Design a Durable Cron Job Scheduler](https://trueinterview.io/questions/design-a-durable-cron-job-scheduler) | **Cursor / Snowflake** | Medium | Apr 07, 2026 |
 | [Stock Trading Agent System Design](https://trueinterview.io/questions/stock-trading-agent-system-design) | **Databricks / Square** | Medium | Apr 06, 2026 |
 | [Design a robust pro-ranking A/B test](https://trueinterview.io/questions/design-a-robust-pro-ranking-a-b-test) | **Thumbtack** | Medium | — |
+| [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | **Axon** | Medium | Nov 18, 2025 |
 | [Design a Twitter-like microblogging service](https://trueinterview.io/questions/design-a-twitter-like-microblogging-service) | **Asana** | Medium | Feb 08, 2026 |
 | [Design Real-Time Comments with Optimistic Updates](https://trueinterview.io/questions/design-real-time-comments-with-optimistic-updates) | **Cohere** | Medium | 🆕 Sep 15, 2026 |
 | [Design the Data Model for an Ads Demand Platform](https://trueinterview.io/questions/design-the-data-model-for-an-ads-demand-platform) | **Netflix** | Medium | May 21, 2026 |
@@ -35,7 +36,6 @@
 | [Design A VM Bandwidth Rate Limiter](https://trueinterview.io/questions/design-a-vm-bandwidth-rate-limiter-2) | **Databricks / Amazon / Google** | Hard | — |
 | [Design a PDF-to-Markdown Inference API](https://trueinterview.io/questions/design-a-pdf-to-markdown-inference-api) | **Mistral AI** | Hard | Apr 16, 2026 |
 | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | **Mercor** | Hard | 🆕 Aug 30, 2026 |
-| [Design camera-footage upload with custody chain](https://trueinterview.io/questions/design-camera-footage-upload-with-custody-chain) | **Axon** | Hard | Feb 11, 2026 |
 | [Forecast Food Stocking Needs Under Waste and Stockout Costs](https://trueinterview.io/questions/forecast-food-stocking-needs-under-waste-and-stockout-costs) | **C3 AI** | Hard | Aug 21, 2026 |
 | [Million-User Flash Sale System](https://trueinterview.io/questions/million-user-flash-sale-system) | **JPMorgan** | Hard | Jun 21, 2025 |
 | [Parking Lot + Robotaxi Dispatch](https://trueinterview.io/questions/sd-parking-and-dispatch) | **Waymo** | Hard | Sep 29, 2025 |

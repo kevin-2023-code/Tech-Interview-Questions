@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Airbnb** | [Highlight Phrases in Review](https://trueinterview.io/questions/review-token-replace) | Medium | Feb 28, 2026 |
 | **Airbnb** | [Terrain Rendering + Water Drop Simulation](https://trueinterview.io/questions/terrain-water-drop) | Hard | Feb 28, 2026 |
 | **Airbnb** | [Split Stay Booking](https://trueinterview.io/questions/split-stay-availability-combinations) | Medium | Feb 28, 2026 |
 | **Roblox** | [Grid Reachability With Jump/Walk Cells](https://trueinterview.io/questions/grid-reachability-with-jump-walk-cells) | Medium | Feb 28, 2026 |
@@ -223,6 +224,7 @@
 | **Ramp** | [Detect Recurring Transactions](https://trueinterview.io/questions/detect-recurring-transactions) | Medium | Nov 22, 2025 |
 | **Stripe** | [Currency Exchange Rate Converter](https://trueinterview.io/questions/currency-exchange-rate-converter) | Medium | Nov 21, 2025 |
 | **Anthropic** | [Implement staircase printing and distributed mode/median](https://trueinterview.io/questions/implement-staircase-printing-and-distributed-mode-median) | Medium | Nov 19, 2025 |
+| **Axon** | [Design a Test Orchestration System](https://trueinterview.io/questions/design-a-test-orchestration-system) | Medium | Nov 18, 2025 |
 | **Pinterest** | [Call Elevator](https://trueinterview.io/questions/call-elevator) | Medium | Nov 18, 2025 |
 | **Pinterest** | [Reverse Count and Say](https://trueinterview.io/questions/string-from-rle-digits) | Medium | Nov 18, 2025 |
 | **Lyft** | [Frontend Incremental Clicker with Configurable Buttons](https://trueinterview.io/questions/frontend-incremental-clicker-table) | Medium | Nov 17, 2025 |
@@ -258,7 +260,5 @@
 | **Robinhood** | [Design a secure trading app on AWS](https://trueinterview.io/questions/design-a-secure-trading-app-on-aws) | Hard | Oct 21, 2025 |
 | **Stripe** | [Business Account Data Verification](https://trueinterview.io/questions/business-account-data-verification) | Medium | Oct 20, 2025 |
 | **Google / Stripe** | [Match payments to invoices by memo or amount](https://trueinterview.io/questions/match-payments-to-invoices-by-memo-or-amount-2) | Medium | Oct 19, 2025 |
-| **OpenAI / Uber** | [Time-Based Key-Value Store with Production Testing](https://trueinterview.io/questions/time-based-kv-store) | Hard | Oct 19, 2025 |
-| **Roblox** | [Implement four DS coding tasks](https://trueinterview.io/questions/implement-four-ds-coding-tasks) | Hard | Oct 18, 2025 |
 
 <sub>[← Page 2](large-tech-2.md) · Page 3 of 6 · [Page 4 →](large-tech-4.md)</sub>

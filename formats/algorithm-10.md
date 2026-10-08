@@ -122,7 +122,7 @@
 | **Uber / Meta** | [Robot Bounded In Circle](https://trueinterview.io/questions/30e9378c-0012-5e2d-a657-04786183807a) | Medium | — |
 | **Uber / ByteDance / Databricks** | [Max Area of Island](https://trueinterview.io/questions/10444131-24d7-4989-88fc-82a67c8fd20f) | Medium | — |
 | **Stripe / Amazon** | [Bitfront](https://trueinterview.io/questions/db557074-a502-462d-bc26-8b981a4d3e7c) | Medium | — |
-| **Stripe** | [Find linked merchants by ID](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Easy | — |
+| **Stripe** | [Find Directly Linked Merchants by Shared Attributes](https://trueinterview.io/questions/bd8e4f4a-1201-4022-83ab-7f907b98c0e3) | Medium | — |
 | **Stripe** | [Email Log Processing / Grouping and Sorting](https://trueinterview.io/questions/a47b5493-0083-4083-a969-c296d8be6d2b) | Easy | — |
 | **Stripe** | [Email (Multi-part)](https://trueinterview.io/questions/48dbfe85-e973-4205-950a-2a075b7d0307) | Medium | — |
 | **Stripe / Bloomberg** | [Evaluate Reverse Polish Notation](https://trueinterview.io/questions/3a77854f-49c9-41b1-9678-b0a29df247d9) | Medium | — |

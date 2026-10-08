@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,331 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,9 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Snowflake** | [Implement a JSON Parser](https://trueinterview.io/questions/c6b4b198-4bfa-5cce-8819-a16bdcd3a02c) | Medium | — |
+| **Snowflake** | [Root Equals Average of All Subtrees](https://trueinterview.io/questions/aaea0cb6-4ce4-4788-a014-8b1c1f507bd9) | Easy | — |
+| **Snowflake** | [Handle Intervals When Input Is Not Sorted](https://trueinterview.io/questions/995eacc5-16af-4b7a-abb8-945b784c90ac) | Medium | — |
 | **Snowflake** | [Tree Height After Node Removal](https://trueinterview.io/questions/656949e3-a5f9-4e20-bf38-ee5b7cab1eef) | Medium | — |
 | **Roblox** | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Easy | — |
 | **Roblox** | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Easy | — |

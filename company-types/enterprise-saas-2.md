@@ -2,7 +2,7 @@
 
 # 🏢 Enterprise & business software — interview & OA questions
 
-**592 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**593 questions** reported across the **17 Enterprise & business software employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -69,6 +69,7 @@
 | **Atlassian** | [Robot Parts Assembly](https://trueinterview.io/questions/robot-parts-assembly) | Easy | Nov 06, 2025 |
 | **Atlassian** | [Cart Routes Origin Destinations](https://trueinterview.io/questions/cart-routes-origin-destinations) | Medium | Nov 06, 2025 |
 | **Airtable** | [Design NL-to-Formula assistant for Airtable](https://trueinterview.io/questions/design-nl-to-formula-assistant-for-airtable) | Hard | Nov 04, 2025 |
+| **Microsoft** | [Design top-K frequency store for varying workloads](https://trueinterview.io/questions/design-top-k-frequency-store-for-varying-workloads) | Medium | Nov 03, 2025 |
 | **Microsoft** | [Schedule tasks with cooldown](https://trueinterview.io/questions/solve-three-scheduling-and-array-problems-schedule-tasks-with-cooldown) | Hard | Oct 28, 2025 |
 | **Microsoft** | [Reverse linked list in fixed-size groups](https://trueinterview.io/questions/reverse-linked-list-in-fixed-size-groups) | Medium | Oct 28, 2025 |
 | **Microsoft** | [Merge multiple sorted arrays using min-heap](https://trueinterview.io/questions/merge-multiple-sorted-arrays-using-min-heap) | Medium | Oct 28, 2025 |
@@ -259,6 +260,5 @@
 | **Figma** | [Display Sort](https://trueinterview.io/questions/bd0ea67e-c112-509d-9f77-688c4ae97445) | Hard | — |
 | **Tradedesk** | [Earn the Most](https://trueinterview.io/questions/de01d1f2-f8dc-44ab-a3ac-256f97bf946b) | Hard | — |
 | **Tradedesk / Google / NVIDIA** | [3Sum Variant: Find Unique Triplets Summing to Target](https://trueinterview.io/questions/acd9530f-bc7a-59e4-91f8-4804a6156578) | Medium | — |
-| **Tradedesk** | [Versioned Recipe Management System](https://trueinterview.io/questions/7cc2781a-4716-537b-86f0-af8491a58f8b) | Medium | — |
 
 <sub>[← Page 1](enterprise-saas.md) · Page 2 of 3 · [Page 3 →](enterprise-saas-3.md)</sub>

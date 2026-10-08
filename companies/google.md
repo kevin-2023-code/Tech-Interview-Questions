@@ -2,7 +2,7 @@
 
 # Google interview process, OA & interview questions
 
-**265 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
+**266 questions** reported at Google · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/google), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Google interviews & the free questions](google/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **265** |
+| Questions tracked | **266** |
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 25 |
-| Most common format | [Algorithm](../formats/algorithm.md) (71% of 265) |
-| Difficulty (easy / medium / hard) | 31 / 169 / 65 |
+| Most common format | [Algorithm](../formats/algorithm.md) (71% of 266) |
+| Difficulty (easy / medium / hard) | 31 / 169 / 66 |
 | Free to practise | [25](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 265 questions reported at Google. 140 of them carry a sighting date; the other 125 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 266 questions reported at Google. 141 of them carry a sighting date; the other 125 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **265 of 265** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **266 of 266** questions at Google that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 23 | ██ | [Algorithm](../formats/algorithm.md) (96%) | 13 / 9 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 140 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 9 / 97 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 125 | █████████ | [Algorithm](../formats/algorithm.md) (57%) | 10 / 78 / 37 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 126 | █████████ | [Algorithm](../formats/algorithm.md) (56%) | 10 / 78 / 38 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -59,7 +59,7 @@ Which stage each question came from, for the **265 of 265** questions at Google 
 
 ## What they ask about
 
-Of the **190 questions at Google that carry a topic label** (72% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **190 questions at Google that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -88,7 +88,7 @@ Every recorded sighting at Google, by the month it was reported in — Jun 10, 2
 | [Jun 2026](../by-month/2026-06.md) | 15 | ██████████████████ |
 | [May 2026](../by-month/2026-05.md) | 13 | ████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 12 | ██████████████ |
-| [Mar 2026](../by-month/2026-03.md) | 13 | ████████████████ |
+| [Mar 2026](../by-month/2026-03.md) | 14 | █████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 20 | ████████████████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 10 | ████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 15 | ██████████████████ |
@@ -217,6 +217,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Check if all substrings are dictionary words](https://trueinterview.io/questions/check-if-all-substrings-are-dictionary-words) | Algorithm | Hard | Mar 11, 2026 |
 | [Check if all substrings are anagrams of words](https://trueinterview.io/questions/check-if-all-substrings-are-anagrams-of-words) | Algorithm | Hard | Mar 11, 2026 |
 | [Best Time to Buy and Sell Stock II](https://trueinterview.io/questions/best-time-to-buy-and-sell-stock-ii) | Algorithm | Easy | Mar 09, 2026 |
+| [Design an Enterprise AI Adoption Agent for a Global Company](https://trueinterview.io/questions/design-an-enterprise-ai-adoption-agent-for-a-global-company) | System Design | Hard | Mar 06, 2026 |
 | [Maximum Concurrent Processes / Meeting Rooms](https://trueinterview.io/questions/maximum-concurrent-processes) | Algorithm | Medium | Feb 26, 2026 |
 | [Lowest Common Ancestor of a Binary Tree](https://trueinterview.io/questions/lowest-common-ancestor-of-a-binary-tree) | Algorithm | Easy | Feb 26, 2026 |
 | [Apply Range Overwrite Queries](https://trueinterview.io/questions/apply-range-overwrite-queries) | Algorithm | Hard | Feb 25, 2026 |
@@ -385,6 +386,5 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Rotten Oranges / Multi-Source BFS (taxis)](https://trueinterview.io/questions/rotten-oranges-multi-source-bfs-taxis) | Algorithm | Medium | — |
 | [Search from the end in a sorted array (variant)](https://trueinterview.io/questions/642e58af-9415-45cf-afdf-ed0d0a400adb) | Algorithm | Medium | — |
 | [Maximum Coins Eaten](https://trueinterview.io/questions/6eca8cb0-2bbe-4bed-8e49-48257111c9b7) | Algorithm | Easy | — |
-| [Find Nearest Favorite City](https://trueinterview.io/questions/5d8835c7-92b4-4902-be8d-28cfc27aa289) | Algorithm | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](google-2.md)</sub>

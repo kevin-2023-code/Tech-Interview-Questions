@@ -2,7 +2,7 @@
 
 # Object Oriented Programming interview & OA questions
 
-**591 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
+**595 questions** in the Object Oriented Programming format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=object-oriented-programming).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,8 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **LinkedIn** | [Alert Monitor — Rolling Window + Severity Distribution + Spike Detection](https://trueinterview.io/questions/coding-alert-monitor) | Medium | Feb 04, 2026 |
+| **Coinbase / Lyft** | [Query Pagination](https://trueinterview.io/questions/query-pagination) | Medium | Feb 04, 2026 |
 | **Optiver** | [Implement a Level-Aware Expiring Inventory Store](https://trueinterview.io/questions/implement-a-level-aware-expiring-inventory-store) | Medium | Feb 03, 2026 |
 | **Oracle** | [Apply List of Operations (Command Pattern)](https://trueinterview.io/questions/apply-operations-command-pattern) | Medium | Feb 03, 2026 |
 | **OpenAI** | [Implement follow graph with snapshots and recommendations](https://trueinterview.io/questions/implement-follow-graph-with-snapshots-and-recommendations) | Hard | Feb 02, 2026 |
@@ -100,7 +102,9 @@
 | **Coinbase** | [Design an in-memory database with TTL and backups](https://trueinterview.io/questions/design-an-in-memory-database-with-ttl-and-backups) | Hard | Nov 08, 2025 |
 | **OpenAI / Airbnb / Amazon / Confluent / Databricks / Google / LinkedIn / Pinterest / Snapchat / Snowflake** | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Easy | Nov 08, 2025 |
 | **OpenAI / Airbnb** | [In-Memory Database with SQL Operations](https://trueinterview.io/questions/in-memory-database-with-sql-operations) | Medium | Nov 07, 2025 |
+| **Jane Street** | [Turning Interview Code into a Reusable Library or API](https://trueinterview.io/questions/turning-interview-code-into-a-reusable-library-or-api) | Medium | Nov 06, 2025 |
 | **Akuna Capital** | [Communications Handler (CommsHandler)](https://trueinterview.io/questions/communications-handler) | Medium | Nov 04, 2025 |
+| **Microsoft** | [Design top-K frequency store for varying workloads](https://trueinterview.io/questions/design-top-k-frequency-store-for-varying-workloads) | Medium | Nov 03, 2025 |
 | **Imc** | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system) | Medium | Nov 03, 2025 |
 | **Akuna Capital** | [Enemy Factory with Shared Instances](https://trueinterview.io/questions/enemy-factory-shared-instances) | Medium | Nov 02, 2025 |
 | **Snapchat** | [Implement LRU cache and prime products array](https://trueinterview.io/questions/implement-lru-cache-and-prime-products-array) | Medium | Oct 28, 2025 |
@@ -256,9 +260,5 @@
 | **SoFi** | [Design a Multi-threaded Task Executor with Extensible Task Types (Semaphore-based)](https://trueinterview.io/questions/4e7be800-1e64-44b9-ada0-f2cb1c43c816) | Medium | — |
 | **DoorDash** | [Debugging a Load Balancer Implementation and Add Round-Robin Routing](https://trueinterview.io/questions/406b68b1-5f95-4b81-8620-0988f89d5076) | Medium | — |
 | **xAI / Lyft** | [Transactional Key-Value Store](https://trueinterview.io/questions/transactional-key-value-store) | Hard | — |
-| **Walmart Labs** | [Design System for Downstream Data Retrieval](https://trueinterview.io/questions/45ec8907-7df9-4259-982a-45d245b3eab8) | Medium | — |
-| **Tesla / Google** | [Guess the Word (Master API)](https://trueinterview.io/questions/e3d2cdfb-6485-4b61-aef3-d7183f49e6fc) | Medium | — |
-| **SoFi** | [Build a Search Bar with HTML/CSS (No Framework)](https://trueinterview.io/questions/41ece47c-96fe-4b5b-b5ce-c093234fdc1d) | Easy | — |
-| **Snapchat** | [O(1) Get and Add Data Structure](https://trueinterview.io/questions/004790d3-cd6c-4d92-9e71-b810ddad3a63) | Easy | — |
 
 <sub>[← Page 1](object-oriented-programming.md) · Page 2 of 3 · [Page 3 →](object-oriented-programming-3.md)</sub>
