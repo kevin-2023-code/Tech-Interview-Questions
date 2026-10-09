@@ -59,7 +59,7 @@ The sector and size of an employer are facts about the company rather than about
 | Company | Type | Questions | Guides | Last 90d | Last reported | Free |
 | :-- | :-- | --: | --: | --: | :-- | --: |
 | [Meta](meta.md) | Consumer internet & media · 10,000+ people | 337 | 6 | 15 | Sep 04, 2026 | 26 |
-| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 321 | 5 | 54 | Sep 20, 2026 | 31 |
+| [Amazon](amazon.md) | E-commerce & marketplaces · 10,000+ people | 321 | 5 | 53 | Sep 20, 2026 | 31 |
 | [Google](google.md) | Consumer internet & media · 10,000+ people | 266 | 3 | 25 | Sep 18, 2026 | 25 |
 | [ByteDance](bytedance.md) | Consumer internet & media · 10,000+ people | 255 | 5 | 25 | Sep 15, 2026 | 26 |
 | [Uber](uber.md) | E-commerce & marketplaces · 10,000+ people | 217 | 3 | 9 | Sep 09, 2026 | 37 |
@@ -130,7 +130,7 @@ The sector and size of an employer are facts about the company rather than about
 | [Dropbox](dropbox.md) | Enterprise & business software · 1,000–9,999 people | 15 | 1 | 0 | Jan 25, 2026 | 2 |
 | [Visa](visa.md) | Banks, insurers & asset managers · 10,000+ people | 15 | 1 | — | — | 2 |
 | [Square](square.md) | Fintech, payments & crypto | 14 | — | 0 | Jun 17, 2026 | 2 |
-| [Vanta](vanta.md) | Cybersecurity · 200–999 people | 14 | 1 | 4 | Sep 12, 2026 | 6 |
+| [Vanta](vanta.md) | Cybersecurity · 200–999 people | 14 | 1 | 3 | Sep 12, 2026 | 6 |
 | [HubSpot](hubspot.md) | Enterprise & business software · 1,000–9,999 people | 13 | — | 0 | May 21, 2026 | 4 |
 | [Microsoft AI](microsoft-ai.md) | AI labs & AI infrastructure · 10,000+ people | 13 | — | 2 | Jul 29, 2026 | 3 |
 | [Jane Street](jane-street.md) | Quant trading & hedge funds · 1,000–9,999 people | 11 | — | 2 | Aug 24, 2026 | 2 |

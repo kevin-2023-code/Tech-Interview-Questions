@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **321** |
 | Most recent sighting | Sep 20, 2026 |
-| Reported in the last 90 days | 54 |
+| Reported in the last 90 days | 53 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 321) |
 | Difficulty (easy / medium / hard) | 54 / 207 / 60 |
 | Free to practise | [31](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **321 of 321** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**54 sightings** in this window. Newest first.
+**53 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **321 of 321** questions at Amazon 
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | Online assessment | Sep 02, 2026 |
 | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Object Oriented Programming | Medium | Phone screen | Sep 02, 2026 |
 
-<sub>42 more in this window are in the table below.</sub>
+<sub>41 more in this window are in the table below.</sub>
 
 ## What they ask about
 
@@ -157,7 +157,7 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Delivery-Center Grid — Minimum Inconvenience](https://trueinterview.io/questions/delivery-center-grid-minimum-inconvenience) | Algorithm | Hard | 🆕 Aug 30, 2026 |
 | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Object Oriented Programming | Hard | 🆕 Aug 27, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 🆕 Aug 27, 2026 |
-| [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Algorithm | Medium | 🆕 Aug 24, 2026 |
+| [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Algorithm | Medium | Aug 24, 2026 |
 | [Design Faceted Product Search at Large Scale](https://trueinterview.io/questions/design-faceted-product-search-at-large-scale) | System Design | Hard | Aug 22, 2026 |
 | [Design a Product Image Upload Pipeline for Sellers](https://trueinterview.io/questions/design-a-product-image-upload-pipeline-for-sellers) | System Design | Medium | Aug 22, 2026 |
 | [Design a Debounced Product Search Box](https://trueinterview.io/questions/design-a-debounced-product-search-box) | Object Oriented Programming | Medium | Aug 22, 2026 |

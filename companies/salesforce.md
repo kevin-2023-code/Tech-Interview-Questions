@@ -142,8 +142,8 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | :-- | :-- | :-: | :-- |
 | [Track Top-K Frequent Elements from an Unbounded Stream](https://trueinterview.io/questions/track-top-k-frequent-elements-from-an-unbounded-stream) | System Design | Hard | 🆕 Aug 31, 2026 |
 | [Design an Idempotent Payment Processing Platform](https://trueinterview.io/questions/design-an-idempotent-payment-processing-platform) | System Design | Hard | 🆕 Aug 31, 2026 |
-| [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | 🆕 Aug 24, 2026 |
-| [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | 🆕 Aug 24, 2026 |
+| [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Algorithm | Hard | Aug 24, 2026 |
+| [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Algorithm | Medium | Aug 24, 2026 |
 | [Design an Enterprise Messaging / Collaboration System](https://trueinterview.io/questions/enterprise-messaging-collaboration-system) | System Design | Hard | Aug 16, 2026 |
 | [Valid Word Abbreviation (LeetCode 408) with Follow-Up Variant](https://trueinterview.io/questions/valid-word-abbreviation) | Algorithm | Medium | Aug 16, 2026 |
 | [Lowest Common Ancestor with Parent Pointers (LeetCode 1650)](https://trueinterview.io/questions/lowest-common-ancestor-parent-pointers) | Algorithm | Medium | Aug 16, 2026 |

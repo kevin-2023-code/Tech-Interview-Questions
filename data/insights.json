@@ -23,7 +23,7 @@
       "free": 31,
       "guides": 5,
       "inLastYear": 186,
-      "inWindow": 54,
+      "inWindow": 53,
       "lastSighting": "2026-09-20",
       "name": "Amazon",
       "questions": 321,
@@ -946,7 +946,7 @@
       "free": 6,
       "guides": 1,
       "inLastYear": 6,
-      "inWindow": 4,
+      "inWindow": 3,
       "lastSighting": "2026-09-12",
       "name": "Vanta",
       "questions": 14,
@@ -1530,7 +1530,7 @@
       "dated": 3,
       "free": 2,
       "guides": 0,
-      "inLastYear": 3,
+      "inLastYear": 0,
       "inWindow": 0,
       "lastSighting": "2025-10-08",
       "name": "Drw",
@@ -1722,7 +1722,7 @@
       "free": 288,
       "graded": 2431,
       "hard": 510,
-      "inWindow": 205,
+      "inWindow": 204,
       "label": "Algorithm",
       "medium": 1489,
       "questions": 2431
@@ -1744,7 +1744,7 @@
       "free": 34,
       "graded": 699,
       "hard": 305,
-      "inWindow": 137,
+      "inWindow": 136,
       "label": "System Design",
       "medium": 366,
       "questions": 699
@@ -1772,7 +1772,7 @@
       "questions": 595
     }
   ],
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2548,7 +2548,7 @@
       "easy": 97,
       "graded": 340,
       "hard": 41,
-      "inWindow": 32,
+      "inWindow": 31,
       "medium": 202,
       "questions": 340,
       "topCompanies": [
@@ -2656,7 +2656,7 @@
       "easy": 29,
       "graded": 192,
       "hard": 59,
-      "inWindow": 27,
+      "inWindow": 26,
       "medium": 104,
       "questions": 192,
       "topCompanies": [
@@ -2692,7 +2692,7 @@
       "easy": 10,
       "graded": 179,
       "hard": 64,
-      "inWindow": 16,
+      "inWindow": 15,
       "medium": 105,
       "questions": 179,
       "topCompanies": [
@@ -3236,8 +3236,8 @@
     "futureDated": 0,
     "gradedDifficulty": 4112,
     "guides": 171,
-    "inLastYear": 2326,
-    "inWindow": 445,
+    "inLastYear": 2323,
+    "inWindow": 443,
     "labelledTopic": 2408,
     "namingARound": 4112,
     "questions": 4112,

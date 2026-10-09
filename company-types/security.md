@@ -45,7 +45,7 @@ Of the **51 questions in this cut that carry a topic label** (68% of it):
 
 ## Asked here in the last 90 days
 
-**7 sightings** across this cut. Newest first.
+**6 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -55,7 +55,6 @@ Of the **51 questions in this cut that carry a topic label** (68% of it):
 | [Evaluate Role-Based Access with Deny Precedence](https://trueinterview.io/questions/evaluate-role-based-access-with-deny-precedence) | Okta | Algorithm | Aug 20, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Vanta | Algorithm | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Vanta | Algorithm | Jul 16, 2026 |
-| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | Vanta | System Design | Jul 10, 2026 |
 
 ---
 

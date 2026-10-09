@@ -90,7 +90,7 @@ The 4 questions to open first if you are preparing for Imc, ranked by **the most
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Algorithm | Hard | 🆕 Aug 24, 2026 |
+| [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Algorithm | Hard | Aug 24, 2026 |
 | [Find k-th recipient in command propagation order](https://trueinterview.io/questions/find-k-th-recipient-in-command-propagation-order) | Algorithm | Medium | Dec 15, 2025 |
 | [Design an in-memory hotel booking system](https://trueinterview.io/questions/design-an-in-memory-hotel-booking-system) | Object Oriented Programming | Medium | Nov 03, 2025 |
 | [Choose container set to minimize waste](https://trueinterview.io/questions/choose-container-set-to-minimize-waste) | Algorithm | Medium | Oct 06, 2025 |

@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **14** |
 | Most recent sighting | Sep 12, 2026 |
-| Reported in the last 90 days | 4 |
+| Reported in the last 90 days | 3 |
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 14) |
 | Difficulty (easy / medium / hard) | 3 / 10 / 1 |
 | Free to practise | [6](../free/README.md) |
@@ -38,14 +38,13 @@ Which stage each question came from, for the **14 of 14** questions at Vanta tha
 
 ## Asked here in the last 90 days
 
-**4 sightings** in this window. Newest first.
+**3 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
 | [Measure Most-Viewed URLs and Subscription Conversion Rates](https://trueinterview.io/questions/measure-most-viewed-urls-and-subscription-conversion-rates) | System Design | Medium | Onsite / virtual onsite | Sep 12, 2026 |
 | [Task Dependency Resolution (Topological Sort)](https://trueinterview.io/questions/task-dependency-resolution) | Algorithm | Medium | Phone screen | Jul 16, 2026 |
 | [Implement `uniq` — Unique Lines in a File](https://trueinterview.io/questions/unique-lines-command) | Algorithm | Medium | Onsite / virtual onsite | Jul 16, 2026 |
-| [RAG Q&A Chatbot — ML / AI Technical Deep Dive](https://trueinterview.io/questions/rag-chatbot-ml-design) | System Design | Medium | Onsite / virtual onsite | Jul 10, 2026 |
 
 ## What they ask about
 
