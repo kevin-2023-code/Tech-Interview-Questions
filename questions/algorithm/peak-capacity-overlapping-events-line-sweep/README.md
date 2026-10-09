@@ -91,6 +91,19 @@ Constraints:
 * `1 <= demand <= 10^9`
 * All times are integers. A line-sweep approach with sorting is expected to pass within time limits.
 
+### Example (as reported)
+
+```text
+Input:
+1
+1 3 10
+
+Output:
+10
+1
+1 3
+```
+
 ## Hints
 
 <details>

@@ -54,6 +54,19 @@ Constraints:
 * $$2 \le \text{length}(\text{words}[i]) \le 20000$$
 * Each character of every string is in the range `'a'` to `'z'`.
 
+### Example (as reported)
+
+```text
+Input:
+3
+add
+boook
+break
+
+Output:
+1 1 0
+```
+
 ## Hints
 
 <details>

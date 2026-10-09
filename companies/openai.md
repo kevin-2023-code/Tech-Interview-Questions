@@ -2,7 +2,7 @@
 
 # OpenAI interview process, OA & interview questions
 
-**145 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
+**144 questions** reported at OpenAI · **7 writeups** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/openai), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How OpenAI interviews & the free questions](openai/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **145** |
+| Questions tracked | **144** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 20 |
-| Most common format | [Algorithm](../formats/algorithm.md) (37% of 145) |
-| Difficulty (easy / medium / hard) | 10 / 67 / 68 |
+| Most common format | [Algorithm](../formats/algorithm.md) (38% of 144) |
+| Difficulty (easy / medium / hard) | 10 / 67 / 67 |
 | Free to practise | [13](../free/README.md) |
 | Guides & writeups | 7 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 145 questions reported at OpenAI. 94 of them carry a sighting date; the other 51 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 144 questions reported at OpenAI. 94 of them carry a sighting date; the other 50 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **145 of 145** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **144 of 144** questions at OpenAI that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 6 | █ | [Algorithm](../formats/algorithm.md) (67%) | 3 / 2 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 76 | ██████████ | [Algorithm](../formats/algorithm.md) (53%) | 3 / 41 / 32 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 80 | ██████████ | [System Design](../formats/system-design.md) (41%) | 4 / 34 / 42 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 79 | ██████████ | [System Design](../formats/system-design.md) (42%) | 4 / 34 / 41 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -60,7 +60,7 @@ Which stage each question came from, for the **145 of 145** questions at OpenAI 
 
 ## What they ask about
 
-Of the **54 questions at OpenAI that carry a topic label** (37% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **54 questions at OpenAI that carry a topic label** (38% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -69,11 +69,11 @@ Of the **54 questions at OpenAI that carry a topic label** (37% of them — the 
 | `matrix` | 8 | 15% | ████████████ | Aug 27, 2026 |
 | `hashing` | 7 | 13% | ██████████ | Aug 22, 2026 |
 | `strings` | 6 | 11% | █████████ | May 15, 2026 |
-| `greedy` | 5 | 9% | ████████ | May 31, 2026 |
 | `arrays` | 4 | 7% | ██████ | Feb 04, 2026 |
+| `greedy` | 4 | 7% | ██████ | May 31, 2026 |
 | `sorting` | 4 | 7% | ██████ | Mar 09, 2026 |
+| `topological-sort` | 4 | 7% | ██████ | Sep 17, 2026 |
 | `backtracking` | 3 | 6% | ████ | Jun 19, 2026 |
-| `topological-sort` | 3 | 6% | ████ | Sep 17, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
@@ -286,7 +286,6 @@ What candidates said happened in the room at OpenAI — written up by the people
 | [Image Classification with Noise Analysis](https://trueinterview.io/questions/65f6fa15-cead-46bc-bd86-5f74c566baf5) | AI Coding | Hard | — |
 | [Find Duplicate Files + Follow-ups on Optimization and Distributed Systems](https://trueinterview.io/questions/59fd3a47-dd91-4cc7-8ed2-310f93f26568) | Algorithm | Medium | — |
 | [Basic SQL Querying (Filtering, Aggregation, Join, Window Functions)](https://trueinterview.io/questions/4b150157-f8fc-435c-9ee4-348a49343e55) | SQL | Medium | — |
-| [CICD and GPU Utilization](https://trueinterview.io/questions/3460d47c-d129-46a8-bac1-c6e9698acb04) | AI Coding | Hard | — |
 | [Toy Language](https://trueinterview.io/questions/0f8dda91-aa68-4c31-9a38-953bd650efe7) | Algorithm | Medium | — |
 | [Debug a Buggy Distributed Job Scheduler (Concurrency, Deadlocks, Rate Limiting, and Testing)](https://trueinterview.io/questions/07e2180a-6a33-4570-ab86-d276ce424ecf) | AI Coding | Hard | — |
 | [Implement an Async Message Bus for sendAsyncMessage (Simulation)](https://trueinterview.io/questions/b06f318b-6c42-43eb-baec-ae8a0e10c31e) | Object Oriented Programming | Medium | — |

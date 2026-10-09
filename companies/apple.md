@@ -18,7 +18,7 @@
 | Most recent sighting | Aug 26, 2026 |
 | Reported in the last 90 days | 12 |
 | Most common format | [Algorithm](../formats/algorithm.md) (69% of 142) |
-| Difficulty (easy / medium / hard) | 34 / 84 / 24 |
+| Difficulty (easy / medium / hard) | 33 / 84 / 25 |
 | Free to practise | [22](../free/README.md) |
 | Guides & writeups | 4 |
 
@@ -31,8 +31,8 @@ Which stage each question came from, for the **142 of 142** questions at Apple t
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 14 | █ | [Algorithm](../formats/algorithm.md) (86%) | 12 / 2 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 20 / 67 / 20 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 41 | ████ | [Algorithm](../formats/algorithm.md) (44%) | 4 / 27 / 10 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 107 | ██████████ | [Algorithm](../formats/algorithm.md) (71%) | 19 / 67 / 21 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 41 | ████ | [Algorithm](../formats/algorithm.md) (44%) | 4 / 26 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -147,7 +147,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Log Processing System](https://trueinterview.io/questions/log-processing-system) | System Design | Hard | Jun 28, 2026 |
 | [Frontend React Screen](https://trueinterview.io/questions/frontend-react-screen) | Algorithm | Hard | Jun 24, 2026 |
 | [Transformer Attention Mask and Heads Coding](https://trueinterview.io/questions/transformer-attention-mask-and-heads-coding) | Algorithm | Hard | Jun 16, 2026 |
-| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Jun 08, 2026 |
 | [Shortest Path in a Grid with Obstacle Removal](https://trueinterview.io/questions/shortest-path-in-grid-with-obstacle-removal) | Algorithm | Medium | May 27, 2026 |
 | [Happy Number II](https://trueinterview.io/questions/happy-number-2) | Algorithm | Medium | May 27, 2026 |
@@ -261,7 +261,7 @@ The 8 questions to open first if you are preparing for Apple, ranked by **the mo
 | [Best Time to Buy and Sell Stock IV](https://trueinterview.io/questions/f9da6f17-1d14-41d2-9217-eb4dc1bd4eb1) | Algorithm | Medium | — |
 | [All Nodes Distance K in Binary Tree](https://trueinterview.io/questions/c8f0b32a-6b2d-4555-a72d-59d7ec845170) | Algorithm | Hard | — |
 | [Number of Islands in a Matrix](https://trueinterview.io/questions/a7b479fc-577c-42fb-a470-9124376c4b85) | Object Oriented Programming | Medium | — |
-| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Easy | — |
+| [Valid Sudoku](https://trueinterview.io/questions/263c9c7c-07fd-508a-82a5-234de613401c) | Algorithm | Medium | — |
 | [Earliest Arrival Time with Bus Schedules (Time-Dependent Shortest Path)](https://trueinterview.io/questions/20459865-d594-47a9-9b3f-d8e0aadd56fa) | Algorithm | Hard | — |
 | [Design an Ad Event Aggregator](https://trueinterview.io/questions/design-an-ad-event-aggregator) | System Design | Medium | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |

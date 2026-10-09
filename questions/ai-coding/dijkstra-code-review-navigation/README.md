@@ -12,19 +12,47 @@
 
 ## Problem
 
-## Requirements
+## Overview
 
-- Review an existing Java class that finds the shortest route from a source city to a destination city using weighted edges.
-- Determine the intended time and space complexity. With a heap, the expected time complexity is `O((V + E) log V)`.
-- Locate and correct errors in the edge-relaxation and distance-update logic.
-- Explain why Dijkstra's algorithm fits this navigation scenario, and compare it with A\* and Floyd-Warshall.
-- Follow-up: explain how the approach changes when edges may have negative weights, including Bellman-Ford and its operating method.
+A Java phone screen for a car navigation (infotainment) team. After writing Dijkstra yourself, the interviewer hands you an existing shortest-path finder that routes from a source city to a destination city over weighted roads. It has mistakes in its edge-update (relaxation) logic. Find and fix them without rewriting the class, then discuss complexity and alternatives.
 
-## Preparation
+## What is in the workspace
 
-- Practice writing heap-based Dijkstra from memory, including the stale-entry check. Then intentionally damage the relaxation step so you can explain which invariant the review uncovers.
-- Create a small counterexample showing Dijkstra's failure in the presence of a negative edge, and trace Bellman-Ford on that same graph.
-- Be ready to make the following comparison: use Dijkstra for sparse navigation graphs with non-negative weights, A\* when an admissible geographic heuristic exists, and Floyd-Warshall for all-pairs shortest paths on small or dense graphs.
+`navkit`, a small routing codebase (Java 17, JDK only, runs offline):
+
+- `src/main/java/navkit/graph`: cities, directed roads and an adjacency-list `RoadNetwork`.
+- `src/main/java/navkit/io`: a CSV loader for map extracts. It rejects negative lengths and times.
+- `src/main/java/navkit/routing`: the Dijkstra-based shortest-path finder (binary heap, lazy deletion, early exit at the destination), a routing service with live road closures, and an EV range planner.
+- `src/main/java/navkit/format` and `cli`: the route card (ETA, distance, merged turn list) and a developer CLI.
+- `data/bay_area`: a 29-city, 40-road Bay Area map extract.
+- `tickets/`: two QA reports from a test drive.
+- `FOLLOWUPS.md`: the interviewer's discussion questions.
+- `src/test/java`: the test suite, which uses a zero-dependency runner and includes a Bellman-Ford oracle cross-check.
+
+## The reported symptoms
+
+- **NAV-2141:** some suggested routes are longer than the obvious one. San Francisco to Palo Alto by distance shows 88.0 km through Oakland and the Dumbarton Bridge instead of about 57 km on US-101. Modesto to Monterey shows 3 h 22 min where the previous release showed just over 3 hours. The range screen still lists the correct cities and distances.
+- **NAV-2156:** the turn list does not match the route card. For San Francisco to Sacramento (fastest), the card says 2 h 00 min, but the listed steps go through Tracy and add up to about 2 h 35 min.
+
+## Your task
+
+1. Reproduce both tickets with `java tools/Build.java run route ...`.
+2. Run `java tools/Build.java test`. The suite fails as shipped.
+3. Locate the defects in the relaxation logic. Fix them with a small, targeted patch, keeping the class structure and leaving the tests unchanged.
+4. Explain, for each defect, which Dijkstra invariant it breaks, and why some features (such as the range planner) still produced correct numbers.
+
+## Follow-up discussion (no code)
+
+- Time and space complexity of the finder. The expected answer is `O((V + E) log V)` with a binary heap. Explain where each factor comes from.
+- Why Dijkstra is correct, and why stopping when the destination is polled is safe.
+- Why Dijkstra fits this navigation use case, compared with A\* (with an admissible geographic heuristic) and Floyd-Warshall (all-pairs).
+- Negative edge weights: give a counterexample for Dijkstra, explain how Bellman-Ford works and what it costs, and how it detects negative cycles.
+
+## What is evaluated
+
+- The test suite passes (`java tools/Build.java test` exits 0) after a minimal diff.
+- Your explanation of each defect, from symptom to root cause.
+- The quality of the complexity and algorithm-choice discussion.
 
 ## Solution
 

@@ -54,6 +54,12 @@ Constraints:
 * $$1 \le \text{grid.length},\ \text{grid[i].length} \le 100$$
 * Each `grid[i][j]` is either `'0'` or `'1'`.
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- How would you handle the case where the grid is too large to hold in memory?
+
 ## Hints
 
 <details>

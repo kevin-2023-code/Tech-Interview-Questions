@@ -32,6 +32,18 @@ When repeated values are common, how can you guarantee that the returned index i
 - `nums` is arranged in non-decreasing order
 
 ## Examples
+
+### Example (as reported)
+
+```text
+Input:
+[1,2,2,2,3]
+2
+
+Output:
+3
+```
+
 1. `nums = [0,4,4,4,9], target = 4` -> `3`  
    Index `3` is the rightmost location whose value is `4`.
 2. `nums = [7,7,7], target = 7` -> `2`  

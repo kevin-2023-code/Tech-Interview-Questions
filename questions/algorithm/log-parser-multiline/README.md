@@ -48,6 +48,12 @@ For the follow-up input, the records occupy lines 1, lines 2-3, and lines 4-6, r
 - Build the straightforward parser within 15 minutes, then layer in multiline handling without starting over; the design should make that enhancement natural.
 - Before coding, rehearse describing a single test case aloud, since ambiguity around when a record begins should be resolved through a confirmed example.
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Discuss memory usage for the case where logs are streaming and only the most recent N entries matter, ensuring that all entries are not loaded into memory.
+
 ## Hints
 
 <details>

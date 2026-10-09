@@ -18,28 +18,41 @@ Debugging — Software Engineer
 
 ### Problem Overview
 
-This debugging exercise asks you to locate and correct defects in a Python templating-library repository. You will be given a repository containing a deliberately altered copy of the Mako template engine. Use the test suite along with your debugging approach to discover and describe the defects.
+This debugging round asks you to locate and correct defects in a Python templating-library repository. You are given a
+checkout of the Mako template engine (version 1.0.8) in which the library code has been altered in a few places. Use the
+project's own test suite and a debugger to discover the defects, explain them, and repair them.
 
-This assessment evaluates how well you can explore an unfamiliar project, rapidly reason about nontrivial code, apply debugging tools, and clearly narrate your reasoning.
-
-**Repository**: You will receive access to the repository for this exercise.
+The round evaluates how well you can explore an unfamiliar project, reason quickly about nontrivial code, use debugging
+tools, and narrate your reasoning clearly.
 
 #### Assessment Format
 
 * **Duration**: Around 45–60 minutes
-* **Environment**: Clone the supplied repository, work on your local machine, and share your screen
+* **Environment**: Download the supplied repository, work on your own machine, and share your screen
 * **Language**: Python
-* **Interaction**: The interviewer watches your debugging workflow, so explain your thinking as you proceed
+* **Interaction**: The interviewer watches your debugging workflow and gives little help by design, so explain your
+  thinking as you go
+* **Passing bar**: Two defects found and correctly explained is reported as a pass; all three, explained clearly, is a
+  strong result
+
+### What is in the workspace
+
+- `PROBLEM.md` -- the round and how it is judged; `ISSUE.md` -- the bug report from the team that uses this checkout;
+  `README.md` -- install and run instructions, including an offline variant.
+- `mako/` -- the repository: `mako/mako/` is the library source, `mako/test/` is the project's own pytest suite
+  (23 test modules plus the fixture templates they render), and `bugsquash-requirements.txt` pins the dependencies.
 
 ### Background: The Mako Template Library
 
-Mako is a popular Python templating system that turns templates into Python modules to improve runtime performance. Its major capabilities include:
+Mako is a popular Python templating system that compiles templates into Python modules for runtime speed. Its main
+capabilities include:
 
-* **Embedded Python**: Python snippets may appear in templates through `<%... %>` blocks
+* **Embedded Python**: Python snippets may appear in templates through `<% ... %>` blocks
 * **Variable Interpolation**: Insert a value with `${variable}`
 * **Template Inheritance**: A template can derive from a parent template with `<%inherit>`
 * **Reusable Components**: Template functions can be declared with `<%def>` elements
-* **Control Flow**: Regular Python flow constructs, including loops and conditionals, can be used directly
+* **Control Flow**: Line-prefixed `% for ...:` / `% if ...:` blocks map to Python loops and conditionals; `##` starts a
+  template comment
 
 **Example Template:**
 
@@ -55,33 +68,31 @@ Mako is a popular Python templating system that turns templates into Python modu
 % endfor
 ```
 
-You are not expected to know Mako beforehand; the project’s extensive tests should guide you toward the broken behavior.
+You are not expected to know Mako beforehand; the project's extensive tests should guide you toward the broken behavior.
 
 ### Getting Started
 
-#### Setup Instructions
-
-1. Copy the repository locally and change into the `debug-mako` directory.
-2. Install the required packages with `pip install -r bugsquash-requirements.txt`.
-3. Execute the tests using `python -m pytest test/`.
-4. Review the failing tests, then start tracing the cause.
+1. Unzip the workspace and change into the `mako` directory.
+2. Install the pinned packages with `pip install -r bugsquash-requirements.txt` (this also installs Mako itself in
+   editable mode).
+3. Run the tests with `python -m pytest test/ -q`. As handed over, the suite reports
+   `11 failed, 397 passed, 58 skipped`.
+4. Group the failures by what goes wrong in each, then trace one group at a time to its cause.
 
 #### Codebase Structure
 
-The repository provides a complete implementation of a template library:
-
 ```
-mako/
+mako/mako/
 ├── template.py # Primary Template type and render behavior
 ├── lexer.py # Breaks template text into tokens
+├── parsetree.py # Parse-tree node declarations (ControlLine, Comment, ...)
 ├── codegen.py # Builds Python code from parsed templates
-├── ast.py # AST-node declarations for template constructs
-├── _ast_util.py # Helpers for working with ASTs
+├── pygen.py # Produces Python source code
+├── pyparser.py # Parses embedded Python expressions
+├── ast.py # Helpers around Python expressions in templates
+├── _ast_util.py # AST visitors, including source regeneration
 ├── lookup.py # Finds template files and manages caching
 ├── runtime.py # Runtime context and helper functionality
-├── parsetree.py # Parse-tree node declarations
-├── pygen.py # Produces Python source code
-├── pyparser.py # Parses Python expressions
 ├── filters.py # Functions that filter rendered output
 ├── cache.py # Template-cache implementation
 ├── exceptions.py # Library-specific exception types
@@ -89,45 +100,30 @@ mako/
 ├── compat.py # Compatibility support across Python versions
 └── util.py # Shared utility helpers
 
-test/
-├── test_template.py # Tests for fundamental template rendering
-├── test_lexer.py # Tests for lexing and tokenization
-├── test_lookup.py # Tests for locating and loading files
-├── test_ast.py # Tests for AST processing
-└──... # Other test modules
+mako/test/
+├── test_template.py # Template rendering, including control-line tests
+├── test_lexer.py # Lexing and tokenization
+├── test_lookup.py # Locating and loading template files
+├── test_ast.py # Expression parsing and regeneration
+└── ... # 19 other modules + templates/ fixtures
 ```
 
-### Debugging Strategy
+### Rules
 
-#### Recommended Approach
+* Only library code was changed. The tests, fixtures and templates under `test/` are trustworthy: when a test
+  disagrees with the library, the test is right. Do not edit tests or relax assertions.
+* The snapshot is pinned at Mako 1.0.8. Do not upgrade it or install another Mako to diff against -- reason from the
+  failures in front of you.
 
-1. **Start With the Entire Test Suite**: First, see the full set of failures.
+### What is evaluated
 
-   ```
-   python -m pytest test/ -v
-   ```
-2. **Narrow Down Individual Failures**: Re-run a failing test by itself to get more focused output.
-
-   ```
-   python -m pytest test/test_lookup.py::TestClass::test_name -v
-   ```
-3. **Inspect the Tests**: Determine the behavior that each test is asserting.
-4. **Follow the Execution Path**: Trace processing from the test’s input through to the point where it fails.
-5. **Use Print Statements or pdb**: Add breakpoints when you need to examine program state.
-
-   ```
-   import pdb; pdb.set_trace()
-   ```
-6. **Review Suspicious Modifications**: Examine code regions that look unusual or internally inconsistent.
-
-#### What to Look For
-
-Defects in this repository commonly fit the following patterns:
-
-* **Incorrect Conditionals**: Boolean expressions or comparison operations differ from the required behavior
-* **Missing Edge Case Handling**: Certain states or input kinds are not handled by a code path
-* **AST/Parse Tree Issues**: Nodes or transformations generate the wrong result
-* **String Processing Errors**: Template-syntax text is processed incorrectly
+* **The test suite is the oracle**: a complete answer takes it from 11 failures to `408 passed, 58 skipped`.
+* **Root cause, not symptom**: for each change, say what the code did, what it should do, and why that difference
+  produces exactly the observed failure. A well-argued diagnosis you ran out of time to patch still counts.
+* **Method**: hypothesis-first, debugger-driven navigation (`pytest --pdb`, breakpoints in your IDE, stepping into the
+  library). Interviewers have pushed candidates on whether a change is *the* right repair or merely *a* change that
+  makes the test pass.
+* **Communication**: noticing that many failures share one cause, and saying so, is part of the signal.
 
 ## Solution
 

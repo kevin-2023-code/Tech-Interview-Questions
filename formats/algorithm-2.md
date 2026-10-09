@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,431 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,429 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **JPMorgan** | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa) | Medium | Jun 23, 2026 |
 | **Google** | [Streaming Points: Emit K Within Distance](https://trueinterview.io/questions/streaming-points-k-within-distance) | Medium | Jun 23, 2026 |
 | **Google** | [Expression Tree Single-Leaf Mutation](https://trueinterview.io/questions/expression-tree-single-leaf-mutation) | Hard | Jun 23, 2026 |
 | **Google** | [Active Communication Top Users](https://trueinterview.io/questions/active-communication-top-users) | Medium | Jun 23, 2026 |
@@ -65,7 +64,7 @@
 | **Roblox** | [Most Frequent Function Call Stack](https://trueinterview.io/questions/most-frequent-function-call-stack) | Hard | Jun 10, 2026 |
 | **Amazon** | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Hard | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Easy | Jun 08, 2026 |
 | **OpenAI / Perplexity** | [GPU Credits II](https://trueinterview.io/questions/gpu-credit-tracker) | Hard | Jun 08, 2026 |
 | **Snowflake** | [Max Credits with K Classes (Interval-Style)](https://trueinterview.io/questions/course-credit-max-k-classes) | Medium | Jun 07, 2026 |
@@ -260,5 +259,6 @@
 | **Snowflake** | [Minimum Clicks Between Wiki Pages](https://trueinterview.io/questions/solve-array-distance-and-wiki-navigation-minimum-clicks-between-wiki-pages) | Medium | Apr 23, 2026 |
 | **Glean** | [Implement Rate-Limited Wikipedia Crawler](https://trueinterview.io/questions/implement-rate-limited-wikipedia-crawler) | Hard | Apr 23, 2026 |
 | **Meta** | [Minimum Add to Make Parentheses Valid II](https://trueinterview.io/questions/minimum-add-to-make-valid-parens) | Medium | Apr 23, 2026 |
+| **Meta** | [Continuous Subarray Sum](https://trueinterview.io/questions/continuous-subarray-sum) | Medium | Apr 23, 2026 |
 
 <sub>[← Page 1](algorithm.md) · Page 2 of 10 · [Page 3 →](algorithm-3.md)</sub>

@@ -43,6 +43,28 @@ Write one result per `ALLOW` operation: either `true` or `false`.
 - `1 <= m <= 200000`
 - Values of `now` appear in non-decreasing order.
 
+### Example (as reported)
+
+```text
+Input:
+5 1
+6
+ALLOW 0 1
+ALLOW 0 1
+ALLOW 0 1
+ALLOW 0 1
+ALLOW 0 1
+ALLOW 0 1
+
+Output:
+true
+true
+true
+true
+true
+false
+```
+
 ### Example
 ```text
 Input:

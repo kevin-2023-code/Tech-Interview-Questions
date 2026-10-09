@@ -35,6 +35,19 @@ Find the smallest number of rooms needed to accommodate every meeting.
 - `0 <= start <= end <= 10^9`
 - The intervals may appear in any order.
 
+### Example (as reported)
+
+```text
+Input:
+3
+0 30
+5 10
+15 20
+
+Output:
+2
+```
+
 ### Example
 
 Input:

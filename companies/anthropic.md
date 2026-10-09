@@ -2,7 +2,7 @@
 
 # Anthropic interview process, OA & interview questions
 
-**79 questions** reported at Anthropic · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
+**78 questions** reported at Anthropic · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Anthropic interviews & the free questions](anthropic/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **79** |
+| Questions tracked | **78** |
 | Most recent sighting | Sep 08, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (35% of 79) |
-| Difficulty (easy / medium / hard) | 9 / 49 / 21 |
+| Most common format | [Algorithm](../formats/algorithm.md) (36% of 78) |
+| Difficulty (easy / medium / hard) | 8 / 50 / 20 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 79 questions reported at Anthropic. 50 of them carry a sighting date; the other 29 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 78 questions reported at Anthropic. 50 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **79 of 79** questions at Anthropic that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **78 of 78** questions at Anthropic that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (59%) | 6 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 24 / 11 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 44 | ██████████ | [System Design](../formats/system-design.md) (30%) | 4 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 43 | ██████████ | [System Design](../formats/system-design.md) (30%) | 3 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -51,7 +51,7 @@ Which stage each question came from, for the **79 of 79** questions at Anthropic
 
 ## What they ask about
 
-Of the **35 questions at Anthropic that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **35 questions at Anthropic that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -136,7 +136,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Algorithm | Medium | Jun 15, 2026 |
 | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | System Design | Medium | Jun 15, 2026 |
-| [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Hard | Jun 15, 2026 |
+| [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | AI Coding | Medium | Jun 15, 2026 |
 | [Find Duplicate Files](https://trueinterview.io/questions/42afe615-f6b2-494c-807f-37c309841f8b) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Stack Trace Reconstruction](https://trueinterview.io/questions/coding-q3-stack-trace) | Algorithm | Medium | Jun 04, 2026 |
 | [Design GPU Inference Serving System](https://trueinterview.io/questions/inference-api-system-design) | System Design | Hard | Jun 04, 2026 |
@@ -198,7 +198,6 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Basic SQL Exercise + Learning/Skill-Growth Discussion](https://trueinterview.io/questions/a278d355-79f7-44a0-8a10-ce7e6c8e055f) | SQL | Medium | — |
 | [Find All Possible Recipes from Given Supplies](https://trueinterview.io/questions/89c84243-c0ab-5947-8e9b-9a29a3f7895c) | Algorithm | Medium | — |
 | [Debug / Fix an Extremely Randomized Trees (ExtraTrees) Implementation in NumPy](https://trueinterview.io/questions/84071144-2958-4ae1-aeca-131436139171) | AI Coding | Hard | — |
-| [Debugging Real-World Problem](https://trueinterview.io/questions/7e8f1598-d1dd-45e4-b464-09578d81c66e) | AI Coding | Easy | — |
 | [Efficiency of Distributed Systems](https://trueinterview.io/questions/5c90398f-3a09-4523-ad38-146d6669d337) | System Design | Hard | — |
 | [Route Multiple Prompt Calls to Multiple GPT Servers Using a Hash Table](https://trueinterview.io/questions/46a64535-7d55-4b9f-af3e-9db6d856187a) | Algorithm | Easy | — |
 | [Token Usage Calculation](https://trueinterview.io/questions/1f861fb5-8d4f-46c0-b1f4-d2599788cc8a) | Algorithm | Easy | — |

@@ -22,6 +22,16 @@
 public int countPalindromicSubstrings(String s)
 ```
 
+### Example (as reported)
+
+```text
+Input:
+abc
+
+Output:
+3
+```
+
 ## Notes
 
 - Boundary cases include an empty input, which produces `0`, and a one-letter input, which produces `1`.

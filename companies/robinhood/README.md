@@ -8,7 +8,7 @@ How Robinhood interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [43](../robinhood.md) |
+| Questions reported | [44](../robinhood.md) |
 | Free to read here | 10 |
 | Interview-process guides | 3 |
 | Other guides | 0 |
@@ -55,7 +55,7 @@ System design draws from a small, stable bank that varies by track. The job sche
 
 ## Everything else
 
-- [All 43 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 44 questions reported at Robinhood](../robinhood.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Robinhood question on TrueInterview](https://trueinterview.io/problems/company/robinhood).
 
 ---

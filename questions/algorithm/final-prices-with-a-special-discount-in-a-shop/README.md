@@ -20,6 +20,17 @@ Produce an integer array `answer` such that `answer[i]` gives the amount paid fo
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+5
+8 4 6 2 3
+
+Output:
+4 2 4 2 3
+```
+
 Example 1:
 
 Input: `prices = [7, 3, 5, 2, 4]`

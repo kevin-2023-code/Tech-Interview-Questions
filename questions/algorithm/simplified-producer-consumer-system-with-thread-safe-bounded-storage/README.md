@@ -100,6 +100,31 @@ Subsequent `Q` lines each contain one command:
 
 ---
 
+### Example (as reported)
+
+```text
+Input:
+2 8
+STORE 1
+STORE 2
+STORE 3
+COUNT
+TAKE
+STORE 4
+TAKE
+TAKE
+
+Output:
+true
+true
+false
+2
+1
+true
+2
+4
+```
+
 ### Example  
 
 ```text

@@ -8,7 +8,7 @@ How Coinbase interviews, and the questions candidates reported there. Free quest
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [70](../coinbase.md) |
+| Questions reported | [71](../coinbase.md) |
 | Free to read here | 8 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -51,7 +51,7 @@ Live rounds start with a 60-minute screen that fits either two medium problems o
 
 ## Everything else
 
-- [All 70 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 71 questions reported at Coinbase](../coinbase.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Coinbase question on TrueInterview](https://trueinterview.io/problems/company/coinbase).
 
 ---

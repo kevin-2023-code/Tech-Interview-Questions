@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,431 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,429 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| **Uber / Meta** | [Making a Large Island](https://trueinterview.io/questions/making-a-large-island) | Medium | Jan 07, 2026 |
 | **Expedia** | [Solve three interview coding problems](https://trueinterview.io/questions/solve-three-interview-coding-problems) | Hard | Jan 06, 2026 |
 | **Oracle** | [Container With Most Water](https://trueinterview.io/questions/container-with-most-water-2) | Medium | Jan 06, 2026 |
 | **Perplexity** | [Byte Tokenizer](https://trueinterview.io/questions/8edaef48-6a51-41bc-aa63-1a491ca4bcf3) | Medium | Jan 06, 2026 |
@@ -151,7 +150,7 @@
 | **Oracle** | [Eliminate Adjacent Duplicate Characters](https://trueinterview.io/questions/eliminate-adjacent-duplicate-characters) | Medium | Nov 24, 2025 |
 | **Oracle** | [Circular Prime Number Check](https://trueinterview.io/questions/circular-prime-number-check) | Medium | Nov 24, 2025 |
 | **Roblox** | [Compute DiD and validate parallel trends](https://trueinterview.io/questions/compute-did-and-validate-parallel-trends) | Medium | Nov 23, 2025 |
-| **Snowflake** | [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Medium | Nov 23, 2025 |
+| **Snowflake** | [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Hard | Nov 23, 2025 |
 | **Amazon** | [Implement Interview Coding Problems](https://trueinterview.io/questions/implement-interview-coding-problems) | Hard | Nov 22, 2025 |
 | **Tesla** | [NumPy Conv2D Forward and Parameter Count](https://trueinterview.io/questions/numpy-conv2d-forward) | Hard | Nov 22, 2025 |
 | **Bloomberg** | [Friends Of Appropriate Ages](https://trueinterview.io/questions/friends-of-appropriate-ages) | Medium | Nov 22, 2025 |
@@ -260,5 +259,6 @@
 | **Drw** | [Robot Path Planning](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-robot-path-planning) | Hard | Oct 08, 2025 |
 | **Drw** | [Knockout Tournament Match Counts](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems-knockout-tournament-match-counts) | Medium | Oct 08, 2025 |
 | **Drw** | [Solve Three Algorithmic Problems](https://trueinterview.io/questions/solve-three-algorithmic-oa-problems) | Hard | Oct 08, 2025 |
+| **Uber** | [Solve three algorithmic optimization and search problems](https://trueinterview.io/questions/solve-three-algorithmic-optimization-and-search-problems) | Hard | Oct 07, 2025 |
 
 <sub>[← Page 4](algorithm-4.md) · Page 5 of 10 · [Page 6 →](algorithm-6.md)</sub>

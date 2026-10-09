@@ -61,6 +61,12 @@ Treat these figures as planning assumptions. They provide concrete inputs for re
 - Uploading arbitrary user code and designing its sandbox. Tasks are pre-registered handlers from a catalog.
 - Global active-active multi-region scheduling without a single-region authority boundary.
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Design the retry strategy and backoff, and explain how retries interact with the at-most-once guarantee.
+
 ## Hints
 
 <details>

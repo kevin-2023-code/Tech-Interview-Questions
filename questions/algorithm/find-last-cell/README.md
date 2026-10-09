@@ -29,6 +29,19 @@ Output one integer: the value of the last cell Lucy hops onto after applying the
 
 **Constraints:**
 
+### Example (as reported)
+
+```text
+Input:
+3 3
+29 8 37
+15 41 3
+1 10 14
+
+Output:
+41
+```
+
 ### Example
 ```text
 Input: matrix = [[6, 12, 19], [4, 27, 8], [11, 3, 15]]

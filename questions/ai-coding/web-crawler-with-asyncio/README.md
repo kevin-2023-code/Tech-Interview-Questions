@@ -14,90 +14,80 @@
 
 ## Build an asynchronous web crawler
 
-Crawl a list of pages, read each one's title, download every image it
-references, and report what happened — concurrently, and without one bad page
-sinking the run.
+Write an asynchronous web crawler in Python. Given a list of page URLs, fetch every
+page, extract its title and every image it references, download those images to a
+local folder, and report for each URL the title and the number of images downloaded.
+Pages and images are fetched concurrently with `asyncio`; a timeout or a missing page
+is reported in that URL's row, never raised.
+
+Python 3.10+, **standard library only** (`asyncio`, `html.parser`, `urllib.parse`) --
+no third-party scraping libraries. Nothing needs network access: the grading suite
+serves its own small web site on 127.0.0.1. About 60 minutes.
+
+### What is in the workspace
+
+```
+SPEC.md                    the full contract: interface, numbered rules, worked examples
+python/crawler/            the package you implement -- signatures only
+  models.py                PageInfo / PageResult (given)
+  parse.py fetch.py crawl.py __main__.py
+tests/conformance/         one test per rule + the local fixture site
+examples/urls.txt          the five demo URLs
+answer/                    a worked answer -- open it only after your attempt
+```
+
+### The interface
+
+1. **`parse_page(html, base_url) -> PageInfo`** -- the first `<title>` with entities
+   decoded and whitespace collapsed and stripped (`None` if missing or blank; `<svg>`
+   captions do not count), and every `<img src>` resolved against `base_url`
+   (relative, `../`, root-relative, scheme-relative), fragment dropped, `http`/`https`
+   only, duplicates kept once in first-seen order.
+2. **`await fetch(url, *, timeout) -> bytes`** -- one HTTP GET over asyncio streams.
+   Non-2xx, refused connections, bad URLs and non-HTTP replies all raise `FetchError`.
+   The timeout covers the whole exchange, including a server that sends headers and
+   then stalls in the middle of the body.
+3. **`await crawl(urls, out_dir, *, concurrency=10, timeout=5.0) -> list[PageResult]`**
+   - exactly one row `{url, title, images_found, images_downloaded, error}` per input
+     URL, **in input order**;
+   - a failed page is a row with an error message, not an exception;
+   - a failed image lowers its page's count and does not fail the page;
+   - every image is saved as one file in `out_dir`, unique per image URL
+     (`/a/logo.png` and `/b/logo.png` are two files);
+   - each image URL is fetched **at most once per crawl**, even when two pages reach
+     it at the same moment;
+   - at most `concurrency` requests in flight, pages and images **together**.
+4. **`python -m crawler [--out DIR] [--concurrency N] [--timeout S] [--file F] URL...`**
+   prints one line per URL: `<url>\t<title>\t<n> of <m> images downloaded`, or
+   `<url>\tERROR\t<message>`.
+
+### Example -- five URLs in (the round's own test case)
+
+```
+http://127.0.0.1:8765/news            Daily News      2 of 2 images downloaded
+http://127.0.0.1:8765/about           About Us        0 of 0 images downloaded
+http://127.0.0.1:8765/gallery         Gallery         3 of 3 images downloaded
+http://127.0.0.1:8765/broken-images   Broken Images   1 of 3 images downloaded
+http://127.0.0.1:8765/missing         ERROR           HTTP 404: http://127.0.0.1:8765/missing
+```
+
+### How to run
 
 ```bash
-python -m pytest tests -q     # 41 tests, 26 failing
-python main.py                # crawls the bundled demo site
+python -m unittest discover -s tests/conformance -t .   # 58 conformance tests; all fail on the skeleton
+python tests/conformance/site.py                         # serve the demo site on :8765
+cd python && python -m crawler --file ../examples/urls.txt
 ```
 
-Python 3.11+, standard library only. Third-party HTTP and scraping libraries are
-out of scope — `asyncio`, `html.parser` and `urllib.parse` are what you have.
-Nothing needs network access: the suite serves its own site on a local port.
+### What is evaluated
 
-45 minutes.
-
-### Part 1 — fix the page reader and the HTTP client (~12 min)
-
-Gates: `tests/test_parser.py`, `tests/test_fetcher.py`
-
-`src/parser.py` and `src/fetcher.py` are written and run. **There are three
-defects: two in `src/parser.py`, one in `src/fetcher.py`.** Each contradicts the
-docstring directly above it.
-
-All three look fine on the happy path. A page whose `<title>` sits on one line,
-and an `<img>` whose `src` is already an absolute URL, both come out correct —
-which is why they shipped.
-
-### Part 2 — implement the crawl (~20 min)
-
-Gate: `tests/test_crawl.py`
-
-`crawl` and `_crawl_one` in `src/crawler.py` are stubs. The docstring carries
-the whole contract:
-
-- one row per input URL, **in input order**:
-  `{"url", "title", "images_downloaded", "error"}`
-- a page that fails gets a row with an error string, not an exception — one bad
-  URL never sinks the run
-- an image that fails to download lowers its page's count and does not fail the
-  page; a broken `<img>` is a fact about the site, not about the crawl
-- `crawl` never raises for a per-URL failure
-
-### Part 3 — make it actually concurrent (~13 min)
-
-Gate: `tests/test_performance.py`
-
-This is what the task exists for, and where a working part 2 can still be the
-wrong answer. Two budgets, over 40 pages with 3 images each:
-
-| gate | what it measures | budget |
-|---|---|---|
-| `test_pages_are_crawled_concurrently` | wall clock for the whole crawl | 3.0 s |
-| `test_the_limit_is_global_not_per_page` | peak simultaneous connections | ≤ `concurrency` |
-
-Both are properties of *how* the work is scheduled, not of the answer. A
-sequential crawler and an unbounded one both return byte-identical results —
-same rows, same order, same counts — so no correctness test can tell them apart.
-That is why there are two of these, and why neither substitutes for the other.
-
-The fixture server counts connections itself, so the second gate measures what
-your crawler really did rather than what it claims.
-
-### Layout
-
-```
-src/
-  fetcher.py     async HTTP over asyncio streams   (part 1 fix)
-  parser.py      title and <img> extraction        (part 1 fixes)
-  storage.py     where images land                 (correct as shipped)
-  crawler.py     the crawl                         (part 2 stub, part 3 budgets)
-main.py          run it; with no arguments, against the bundled demo site
-tests/
-  fixture_site.py   the site the suite crawls
-```
-
-### How this is scored
-
-- All 41 tests pass.
-- `tests/` is unchanged.
-- Part 1 fixes match what the docstrings state, rather than the single assertion
-  that caught them.
-- Part 3 is met by scheduling the work correctly — one shared limiter, pages
-  gathered — not by raising `concurrency`, shrinking the fixture, or skipping
-  images.
+- The conformance suite passes, with `tests/` unchanged.
+- Structure: parser, HTTP client, crawl and command line kept apart and readable.
+- Concurrency done right: one shared limit acquired around each request, pages and
+  images gathered, no slot held while waiting on other work.
+- Failure containment: timeouts and HTTP errors become rows, never crash the run.
+- The discussion: why `asyncio` over threads for this I/O-bound job, and what you
+  would add next (retries with backoff, per-host limits, a persistent cache).
 
 ## Hints
 

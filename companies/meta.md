@@ -2,7 +2,7 @@
 
 # Meta interview process, OA & interview questions
 
-**337 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
+**334 questions** reported at Meta · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/meta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Meta interviews & the free questions](meta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **337** |
+| Questions tracked | **334** |
 | Most recent sighting | Sep 04, 2026 |
 | Reported in the last 90 days | 15 |
-| Most common format | [Algorithm](../formats/algorithm.md) (51% of 337) |
-| Difficulty (easy / medium / hard) | 46 / 201 / 90 |
+| Most common format | [Algorithm](../formats/algorithm.md) (51% of 334) |
+| Difficulty (easy / medium / hard) | 44 / 201 / 89 |
 | Free to practise | [26](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 337 questions reported at Meta. 179 of them carry a sighting date; the other 158 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 334 questions reported at Meta. 178 of them carry a sighting date; the other 156 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **337 of 337** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **334 of 334** questions at Meta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 32 | ██ | [Algorithm](../formats/algorithm.md) (59%) | 21 / 7 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 184 | ██████████ | [Algorithm](../formats/algorithm.md) (66%) | 20 / 130 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 145 | ████████ | [System Design](../formats/system-design.md) (39%) | 9 / 81 / 55 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 31 | ██ | [Algorithm](../formats/algorithm.md) (61%) | 20 / 7 / 4 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 183 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 19 / 130 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 143 | ████████ | [System Design](../formats/system-design.md) (40%) | 9 / 80 / 54 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -85,14 +85,14 @@ Every recorded sighting at Meta, by the month it was reported in — Jun 10, 202
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 5 | ███ |
 | [Aug 2026](../by-month/2026-08.md) | 5 | ███ |
-| [Jul 2026](../by-month/2026-07.md) | 6 | ███ |
+| [Jul 2026](../by-month/2026-07.md) | 6 | ████ |
 | [Jun 2026](../by-month/2026-06.md) | 14 | ████████ |
 | [May 2026](../by-month/2026-05.md) | 15 | █████████ |
-| [Apr 2026](../by-month/2026-04.md) | 42 | ████████████████████████ |
+| [Apr 2026](../by-month/2026-04.md) | 41 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 14 | ████████ |
 | [Feb 2026](../by-month/2026-02.md) | 28 | ████████████████ |
-| [Jan 2026](../by-month/2026-01.md) | 20 | ███████████ |
-| [Dec 2025](../by-month/2025-12.md) | 13 | ███████ |
+| [Jan 2026](../by-month/2026-01.md) | 20 | ████████████ |
+| [Dec 2025](../by-month/2025-12.md) | 13 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 10 | ██████ |
 | [Oct 2025](../by-month/2025-10.md) | 5 | ███ |
 | [Sep 2025](../by-month/2025-09.md) | 1 | █ |
@@ -223,7 +223,6 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Implement Multi-Level In-Memory Services](https://trueinterview.io/questions/implement-multi-level-in-memory-services) | Object Oriented Programming | Hard | Apr 04, 2026 |
 | [Tree Diameter / Longest Path](https://trueinterview.io/questions/tree-diameter) | Algorithm | Medium | Apr 02, 2026 |
 | [Design Online Game Leaderboard](https://trueinterview.io/questions/design-a-gaming-leaderboard-service) | System Design | Medium | Apr 02, 2026 |
-| [PE Troubleshooting — Web Server / Disk Full](https://trueinterview.io/questions/pe-troubleshooting) | AI Coding | Medium | Apr 01, 2026 |
 | [Min Remove to Make Valid Parentheses](https://trueinterview.io/questions/min-remove-to-make-valid-parens) | Algorithm | Medium | Apr 01, 2026 |
 | [Trapping Rain Water](https://trueinterview.io/questions/trapping-rain-water) | Algorithm | Hard | Apr 01, 2026 |
 | [Merge K Sorted Lists](https://trueinterview.io/questions/merge-k-sorted-lists) | Algorithm | Medium | Apr 01, 2026 |
@@ -389,6 +388,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Find Median In Large Array](https://trueinterview.io/questions/find-median-in-large-array-2) | Algorithm | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
-| [Analyze Locations AI Algorithm](https://trueinterview.io/questions/b4a0a464-9517-4f9c-857f-51f0132159ca) | AI Coding | Hard | — |
+| [Implement a ReAct-style Agent Loop with Given APIs](https://trueinterview.io/questions/a81a953d-0af2-4e47-85bd-a1243047e6d9) | AI Coding | Hard | — |
+| [Implement Scaled Dot-Product Attention](https://trueinterview.io/questions/333d09b0-86b9-5c94-bdcb-5c408518fbeb) | Algorithm | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](meta-2.md)</sub>

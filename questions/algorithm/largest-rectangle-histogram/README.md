@@ -24,6 +24,17 @@ As you work, explain the time complexity of your approach and why the selected d
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+6
+2 1 5 6 2 3
+
+Output:
+10
+```
+
 ```text
 Input: heights = [2, 1, 2]
 Output:

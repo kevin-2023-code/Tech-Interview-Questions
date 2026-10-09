@@ -20,6 +20,18 @@ You are given two aligned arrays, each containing `n` entries: `operations`, who
 min_max_product(operations, values)
 ```
 
+### Example (as reported)
+
+```text
+Input:
+4
+push push push pop
+1 2 3 1
+
+Output:
+1 2 3 6
+```
+
 ## Notes
 
 - The specification does not define what should happen when `pop` names a value absent from the multiset. Confirm the desired interview behavior before implementation, such as ignoring that request or raising an error.

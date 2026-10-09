@@ -60,6 +60,18 @@ Constraints:
 
 The function signature provided to the judge is `min_xor_sum(nums1, nums2)`, and you must return the minimum XOR sum.
 
+### Example (as reported)
+
+```text
+Input:
+2
+1 2
+2 3
+
+Output:
+2
+```
+
 ## Hints
 
 <details>

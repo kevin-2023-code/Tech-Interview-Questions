@@ -37,6 +37,17 @@ Print each valid IPv4 address on a separate line, ordered lexicographically.
 - `1 <= len(s) <= 20`
 - `s` consists exclusively of digits.
 
+### Example (as reported)
+
+```text
+Input:
+25525511135
+
+Output:
+255.255.11.135
+255.255.111.35
+```
+
 ### Example
 
 Input:

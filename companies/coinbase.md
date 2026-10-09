@@ -2,7 +2,7 @@
 
 # Coinbase interview process, OA & interview questions
 
-**70 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
+**71 questions** reported at Coinbase · **4 writeups** · **5 interview reports**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/coinbase), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Coinbase interviews & the free questions](coinbase/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **70** |
+| Questions tracked | **71** |
 | Most recent sighting | Aug 27, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (44% of 70) |
-| Difficulty (easy / medium / hard) | 12 / 43 / 15 |
+| Most common format | [Object Oriented Programming](../formats/object-oriented-programming.md) (44% of 71) |
+| Difficulty (easy / medium / hard) | 12 / 44 / 15 |
 | Free to practise | [8](../free/README.md) |
 | Guides & writeups | 4 |
 | Interview reports on the board | 5 in this snapshot |
 
-<sub>Counted from the 70 questions reported at Coinbase. 36 of them carry a sighting date; the other 34 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 71 questions reported at Coinbase. 36 of them carry a sighting date; the other 35 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **70 of 70** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **71 of 71** questions at Coinbase that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 18 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (56%) | 6 / 9 / 3 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 19 | █████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (53%) | 6 / 10 / 3 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 13 | ███ | [Algorithm](../formats/algorithm.md) (62%) | 0 / 7 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 41 | ██████████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (49%) | 7 / 28 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -187,6 +187,7 @@ What candidates said happened in the room at Coinbase — written up by the peop
 | [Mine block coding question](https://trueinterview.io/questions/31a8c266-4a94-4e0d-b803-472764321103) | Algorithm | Hard | — |
 | [Design a Transaction Class](https://trueinterview.io/questions/5104c2ee-797e-460f-bba0-00a6b615881e) | Object Oriented Programming | Medium | — |
 | [Bank System Class with Deposit, Withdraw, and Balance Check](https://trueinterview.io/questions/bed9ddf9-c51d-4c94-b887-ffe3ba622a43) | Object Oriented Programming | Easy | — |
+| [Flappy-Bird-like Autopilot With Coins as Jump Budget](https://trueinterview.io/questions/bb1c3959-faaf-438a-b87a-d07fb13b9668) | AI Coding | Medium | — |
 | [NFT Generation](https://trueinterview.io/questions/27760151-a268-44bf-9ada-8883fb82565f) | Object Oriented Programming | Easy | — |
 | [Banking System with Payments and Account Merging](https://trueinterview.io/questions/c8060613-c56e-5708-920f-2455777b3d9f) | Object Oriented Programming | Medium | — |
 | [Currency Exchange](https://trueinterview.io/questions/980e641d-e0c5-4fc5-a12c-13e0c669f971) | Algorithm | Medium | — |

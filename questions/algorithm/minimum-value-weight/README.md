@@ -56,6 +56,17 @@ Constraints:
 * $$1 \le weights[i] \le 10^7$$
 * The answer can be represented in a 64‑bit signed integer.
 
+### Example (as reported)
+
+```text
+Input:
+3 4
+30 20 25
+
+Output:
+31
+```
+
 ## Hints
 
 <details>

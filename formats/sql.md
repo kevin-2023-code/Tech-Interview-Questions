@@ -2,7 +2,7 @@
 
 # SQL interview & OA questions
 
-**298 questions** in the SQL format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=sql).
+**297 questions** in the SQL format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=sql).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 

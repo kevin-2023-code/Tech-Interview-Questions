@@ -20,6 +20,19 @@ Test cases are represented as `[listA, listB, skipA, skipB]`. The values `skipA`
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+5 5
+4 1 8 4 5
+5 6 1 8 4
+2 3
+
+Output:
+8
+```
+
 Example 1:
 
 Input: `listA = [7,3,9,2], listB = [6,9,2], skipA = 2, skipB = 1`

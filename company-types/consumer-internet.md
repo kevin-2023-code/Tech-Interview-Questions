@@ -2,7 +2,7 @@
 
 # 📱 Consumer internet & media — interview & OA questions
 
-**1,121 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,118 questions** reported across the **10 Consumer internet & media employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (337)](../companies/meta.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (88)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
+[Meta (334)](../companies/meta.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [LinkedIn (116)](../companies/linkedin.md) · [Pinterest (101)](../companies/pinterest.md) · [Netflix (88)](../companies/netflix.md) · [Snapchat (69)](../companies/snapchat.md) · [Reddit (34)](../companies/reddit.md) · [Yelp (20)](../companies/yelp.md) · [Discord (8)](../companies/discord.md)
 
 <sub>10 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -21,10 +21,10 @@
 | [Algorithm](../formats/algorithm.md) | 646 | 58% | ██████████████ | 47 |
 | [System Design](../formats/system-design.md) | 216 | 19% | █████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 124 | 11% | ███ | 10 |
-| [SQL](../formats/sql.md) | 121 | 11% | ███ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 14 | 1% | █ | 2 |
+| [SQL](../formats/sql.md) | 120 | 11% | ███ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 12 | 1% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **136 / 719 / 266**, over the rows the catalog has graded. 71 of the 1,121 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **133 / 719 / 266**, over the rows the catalog has graded. 71 of the 1,118 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -224,7 +224,7 @@ Of the **656 questions in this cut that carry a topic label** (59% of it):
 | **Meta** | [Shared Substring in String List](https://trueinterview.io/questions/ai-coding-substring-from-list) | Medium | Jun 09, 2026 |
 | **Meta** | [Reels / Short Video Recommendation](https://trueinterview.io/questions/mlsd-reels-short-video-recommendation) | Hard | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Easy | Jun 08, 2026 |
 | **ByteDance / Amazon / Ebay** | [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Medium | Jun 06, 2026 |
 | **ByteDance / Amazon** | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Medium | Jun 06, 2026 |

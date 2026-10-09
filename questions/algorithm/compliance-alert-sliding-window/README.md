@@ -24,6 +24,18 @@ public static int numberOfAlerts(int[] numCalls, int alertThreshold, int precedi
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+0 11 10 10 7
+10
+3
+
+Output:
+1
+```
+
 ```
 n = 8
 numCalls = [1, 3, 3, 3, 6, 6, 6, 9]

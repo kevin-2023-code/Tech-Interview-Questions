@@ -8,7 +8,7 @@ How Meta interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [337](../meta.md) |
+| Questions reported | [334](../meta.md) |
 | Free to read here | 26 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
@@ -71,7 +71,7 @@ This guide goes past the outline on the Meta company page. It covers how the scr
 
 ## Everything else
 
-- [All 337 questions reported at Meta](../meta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 334 questions reported at Meta](../meta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Meta question on TrueInterview](https://trueinterview.io/problems/company/meta).
 
 ---

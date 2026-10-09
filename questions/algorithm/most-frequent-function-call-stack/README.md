@@ -74,6 +74,24 @@ def most_frequent_call_path_deepest_tie(traces: List[str]) -> str:
     pass
 ```
 
+#### Example (as reported)
+
+```text
+Input:
+8
+-> main
+-> handleEvents
+-> handleClickEvent
+<- handleClickEvent
+-> handleClickEvent
+<- handleClickEvent
+<- handleEvents
+<- main
+
+Output:
+main->handleEvents->handleClickEvent
+```
+
 #### Example
 
 ```

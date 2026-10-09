@@ -23,6 +23,16 @@
 public static int decode_ways(String s)
 ```
 
+### Example (as reported)
+
+```text
+Input:
+2112
+
+Output:
+5
+```
+
 ## Notes
 
 - Important boundary cases that may be absent from visible tests: `"0"` must produce 0; `"20"` and `"10"` each produce 1; `"28"` produces 1 because only separate single-digit letters are allowed.

@@ -41,6 +41,19 @@ def rate_limiter(
     pass
 ```
 
+#### Example (as reported)
+
+```text
+Input:
+6
+1 2 3 4 11 12
+1
+global 10 3 x x x x x x
+
+Output:
+true true true false true true
+```
+
 #### Example
 
 ```python

@@ -2,7 +2,7 @@
 
 # 🏗️ Large tech (1,000–9,999) — interview & OA questions
 
-**1,334 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**1,336 questions** reported across the **41 Large tech (1,000–9,999) employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -57,6 +57,7 @@
 | **Brex** | [Design a Peer-to-Peer Money Transfer System](https://trueinterview.io/questions/design-a-peer-to-peer-money-transfer-system) | Hard | May 08, 2026 |
 | **Coinbase** | [Frontend Tech Execution — Reusable Dropdown Component](https://trueinterview.io/questions/fe-dropdown-tech-execution) | Medium | May 08, 2026 |
 | **Coinbase / Databricks / Robinhood** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | Hard | May 08, 2026 |
+| **Roblox / Robinhood** | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | Medium | May 07, 2026 |
 | **Reddit** | [Design Tennis Scoring with Pluggable Rules](https://trueinterview.io/questions/design-tennis-scoring-with-pluggable-rules) | Medium | May 06, 2026 |
 | **Reddit** | [Debug and Improve a Load Balancer](https://trueinterview.io/questions/debug-and-improve-a-load-balancer) | Medium | May 06, 2026 |
 | **Coinbase** | [Worker Salary](https://trueinterview.io/questions/worker-salary-oa) | Medium | May 06, 2026 |
@@ -259,6 +260,5 @@
 | **Reddit / Apple** | [Odd Even Linked List](https://trueinterview.io/questions/45167cab-0478-41bc-a326-564c3e34a76a) | Medium | Mar 2026 |
 | **Reddit** | [Logger Rate Limiter](https://trueinterview.io/questions/logger-rate-limiter) | Easy | Mar 2026 |
 | **Robinhood** | [Load Factor Calculation](https://trueinterview.io/questions/service-dependency-load-factor) | Medium | Mar 2026 |
-| **Robinhood** | [Aggregate user logs into 30-minute sessions](https://trueinterview.io/questions/aggregate-user-logs-into-30-minute-sessions) | Medium | Feb 28, 2026 |
 
 <sub>[← Page 1](large-tech.md) · Page 2 of 6 · [Page 3 →](large-tech-3.md)</sub>

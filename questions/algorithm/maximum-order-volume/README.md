@@ -55,6 +55,19 @@ Constraints:
 * `1 ≤ volume[i] ≤ 5,000`
 * Only one call can be answered at any moment; a call starting exactly when another ends is allowed.
 
+### Example (as reported)
+
+```text
+Input:
+5
+10 5 15 18 30
+30 12 20 35 35
+50 51 20 25 10
+
+Output:
+76
+```
+
 ## Hints
 
 <details>

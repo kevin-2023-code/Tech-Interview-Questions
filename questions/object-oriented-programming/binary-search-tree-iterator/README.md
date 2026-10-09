@@ -52,6 +52,12 @@ Explanation: The tree's in-order sequence is `4, 10, 13, 18, 21`, so each `next(
 - `0 <= Node.val <= 10^6`
 - Across the entire usage of the iterator, there are no more than `10^5` calls to `hasNext` and `next` combined.
 
+### Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- How would you support multiple iterators over the same tree simultaneously, and how would you make the iterator thread-safe?
+
 ## Hints
 
 <details>

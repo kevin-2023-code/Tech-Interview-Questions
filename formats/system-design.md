@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**699 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**700 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -216,6 +216,7 @@
 | **Brex** | [Design a Peer-to-Peer Money Transfer System](https://trueinterview.io/questions/design-a-peer-to-peer-money-transfer-system) | Hard | May 08, 2026 |
 | **Meta** | [Online Auction / eBay](https://trueinterview.io/questions/system-design-online-auction) | Hard | May 08, 2026 |
 | **Coinbase / Databricks / Robinhood** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | Hard | May 08, 2026 |
+| **Roblox / Robinhood** | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | Medium | May 07, 2026 |
 | **Reddit** | [Debug and Improve a Load Balancer](https://trueinterview.io/questions/debug-and-improve-a-load-balancer) | Medium | May 06, 2026 |
 | **Meta** | [Harmful / Weapon-Sales Content Detection](https://trueinterview.io/questions/mlsd-harmful-content-detection) | Hard | May 06, 2026 |
 | **Shopify** | [Choose Between Batch and Streaming for a Data Pipeline](https://trueinterview.io/questions/choose-between-batch-and-streaming-for-a-data-pipeline) | Hard | May 05, 2026 |
@@ -259,6 +260,5 @@
 | **Snapchat** | [Short Video Recommendation & Ranking](https://trueinterview.io/questions/short-video-recommendation-and-ranking) | Hard | Apr 21, 2026 |
 | **Meta** | [LeetCode / Online Judge + Contest Leaderboard](https://trueinterview.io/questions/system-design-leetcode-online-judge) | Medium | Apr 21, 2026 |
 | **Atlassian** | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | Hard | Apr 21, 2026 |
-| **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
 
 <sub>Page 1 of 3 · [Page 2 →](system-design-2.md)</sub>

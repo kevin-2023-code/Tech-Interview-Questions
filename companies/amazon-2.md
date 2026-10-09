@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**321 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**320 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,6 @@
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search) | Object Oriented Programming | Hard | — |
 | [Design Tic-Tac-Toc](https://trueinterview.io/questions/design-tic-tac-toc) | Object Oriented Programming | Easy | — |
 | [Design Elevator Control System](https://trueinterview.io/questions/design-elevator-control-system) | Object Oriented Programming | Medium | — |
 | [Make Array Bitonic](https://trueinterview.io/questions/make-array-bitonic) | Algorithm | Hard | — |

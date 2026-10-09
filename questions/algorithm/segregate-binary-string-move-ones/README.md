@@ -22,6 +22,12 @@ For a binary string `s`, keep shifting each `'1'` rightward until it either reac
 s = "10100" -> 5
 ```
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Consider the related variant framed as "maximum number of operations to move ones to the end," where one operation moves a whole run of leading '1's past a single '0'; return the number of operations rather than the total displacement.
+
 ## Hints
 
 <details>

@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 18, 2026 |
 | Reported in the last 90 days | 25 |
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 266) |
-| Difficulty (easy / medium / hard) | 31 / 169 / 66 |
+| Difficulty (easy / medium / hard) | 30 / 169 / 67 |
 | Free to practise | [25](../free/README.md) |
 | Guides & writeups | 3 |
 
@@ -31,8 +31,8 @@ Which stage each question came from, for the **266 of 266** questions at Google 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 23 | ██ | [Algorithm](../formats/algorithm.md) (96%) | 13 / 9 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 140 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 9 / 97 / 34 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 126 | █████████ | [Algorithm](../formats/algorithm.md) (56%) | 10 / 78 / 38 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 140 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 8 / 97 / 35 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 126 | █████████ | [Algorithm](../formats/algorithm.md) (56%) | 10 / 77 / 39 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -176,7 +176,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [First Bad Version with Parallel Search Follow-up](https://trueinterview.io/questions/first-bad-version-parallel-search) | Algorithm | Medium | Jun 15, 2026 |
 | [Employee Hierarchy Add / Delete](https://trueinterview.io/questions/employee-hierarchy-add-delete) | Object Oriented Programming | Medium | Jun 10, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
-| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Jun 08, 2026 |
 | [Huffman Tree Construction](https://trueinterview.io/questions/huffman-tree-construction) | Algorithm | Medium | Jun 01, 2026 |
 | [Matrix Flower Placement with House Adjacency](https://trueinterview.io/questions/matrix-flower-placement-with-house-adjacency) | Algorithm | Hard | May 31, 2026 |
@@ -211,7 +211,7 @@ The 8 questions to open first if you are preparing for Google, ranked by **the m
 | [Design A Top K Popular Items System](https://trueinterview.io/questions/design-popular-products-for-a-shopping-homepage) | System Design | Easy | Mar 24, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
 | [Morse Code Encoder / Decoder with Word-Break](https://trueinterview.io/questions/morse-code-encoder-decoder) | Algorithm | Medium | Mar 21, 2026 |
-| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Easy | Mar 21, 2026 |
+| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | Mar 21, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [LFU Cache](https://trueinterview.io/questions/lfu-cache) | Object Oriented Programming | Medium | Mar 17, 2026 |
 | [Check if all substrings are dictionary words](https://trueinterview.io/questions/check-if-all-substrings-are-dictionary-words) | Algorithm | Hard | Mar 11, 2026 |

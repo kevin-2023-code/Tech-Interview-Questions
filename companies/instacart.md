@@ -146,7 +146,7 @@ The 8 questions to open first if you are preparing for Instacart, ranked by **th
 | [Modified Basic Calculator](https://trueinterview.io/questions/498c0804-84fe-43e8-89c5-7e08cbe4a197) | Algorithm | Medium | — |
 | [Design A Video Recommendation System](https://trueinterview.io/questions/design-a-video-recommendation-system-2) | System Design | Hard | — |
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
-| [Fix Incorrect Metrics Caused by Applying Filters After Aggregation](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e) | AI Coding | Medium | — |
+| [Debug the Library Dashboard Metrics (FastAPI)](https://trueinterview.io/questions/188b0a14-9295-5582-85d5-f77c1ac6826e) | AI Coding | Medium | — |
 | [Design and Implement Idempotent Library Notifications for Due Dates and Holds](https://trueinterview.io/questions/7d71a4ee-7826-5c5d-97ec-af7be9f3fc39) | Algorithm | Medium | — |
 | [Fix Backend Filtering for Book Search Results](https://trueinterview.io/questions/f622c3ca-f863-55e1-bc76-4e83354abd22) | Algorithm | Easy | — |
 | [Implement Search and Filter UI for a Library Management Table](https://trueinterview.io/questions/13842aa8-073d-57c3-8665-473866727b81) | Object Oriented Programming | Medium | — |

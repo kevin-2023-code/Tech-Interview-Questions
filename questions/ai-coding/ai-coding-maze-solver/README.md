@@ -12,96 +12,52 @@
 
 ## Problem
 
-## Overview
+You are handed `mazesolver`, a small Python project that reads text mazes, finds the fewest-moves route from `S` (start) to `E` (exit) with a breadth-first search, and prints the maze with the route drawn on it. `#` is a wall and `.` is open floor. The project has a solver, a print helper and a `tests/` folder, plus a ticket board. The round is staged: fix what is broken, then extend the rules. An AI assistant is available in the editor, and you must be able to explain every line it writes.
 
-A small Python maze project: a grid parsed from text, a breadth-first search over it, a printer that draws a route back onto the maze, and two solvers that are not finished. `S` is the start, `E` the end, `#` a wall, `.` an open cell.
-
-The round runs as a staged conversation in an editor with an AI assistant: fix what is broken, then extend the rules, then make the extension fast enough to be worth having. Expect to explain every change you make -- including every line the AI wrote for you.
-
-## The workspace
+## What is in the workspace
 
 ```
-main.py                     run this to see how your code is called
-mazes/                      four maze files, one per feature
-  simple.txt  gates.txt  keys.txt  energy.txt
-src/
-  grid.py                   Grid: parsing, bounds, glyphs, neighbours
-  render.py                 render_path: draw a route onto the maze
-  search.py                 shortest_route: plain BFS over walls
-  solver.py                 KeyedSolver: gates, keys and doors
-  costs.py                  cheapest_route: least-energy routes
-tests/
-  test_grid.py              Phase 1
-  test_render.py            Phase 1
-  test_search.py            Phase 1
-  test_solver.py            Phase 2
-  test_performance.py       Phase 3
+mazesolver/
+  maze.py        Maze: cells, bounds, move(), get_neighbors()
+  parser.py      text -> Maze, with line-numbered format errors
+  search.py      generic breadth-first search over states (+ limits and stats)
+  solver.py      MazeSolver: the maze rules as a search problem
+  printer.py     the print helper: render_path, side-by-side, move letters
+  energy.py      entry costs, path_cost, cheapest_route (not implemented yet)
+  formats.py, generate.py, cli.py, glyphs.py, errors.py
+mazes/           12 sample mazes (tiny, warehouse, open room, labyrinth, gates, keys, energy ...)
+tests/           one unittest suite per area / ticket
+tickets/         T1-T5
+docs/            MAZE_FORMAT.md (the specification), ARCHITECTURE.md
 ```
 
-Maze glyphs: `S` start, `E` end, `#` wall, `.` open cell (costs 1 to enter), `1`-`9` open cell costing that much, `>` `<` `^` `v` gates, `a`-`z` keys, `A`-`Z` doors. Python 3.9 or newer, standard library only -- nothing to install, no network.
+Python 3.9+, standard library only, works offline.
 
-## Phase 1 -- Fix the bugs
+## The tickets
 
-There are exactly **3 bugs**: one in `src/render.py` and two in `Grid` (`src/grid.py`). Nothing in `src/search.py` is wrong -- everything it gets wrong, it gets wrong because of something underneath it. The docstrings state the intended behavior; the code does not always match them. Read the failing tests, then fix the code.
+1. **T1 (bug).** `python -m mazesolver solve mazes/tiny.txt` prints the route, but the start and exit markers have disappeared under it. The format says `S` and `E` must always stay visible.
+2. **T2 (bug).** `solve` never finishes on some mazes. An unreachable 27-cell maze gives up after 100,000 expansions, and a 54-cell open room expands more than 90,000 states before it answers. Corridor-only mazes are fine. Every maze should solve instantly, and a search should never expand more states than exist.
+3. **T3 (feature).** One-way gates: on `>` the next move must go right, on `<` it must go left. Entering a gate is unrestricted. A gate facing a wall or the edge is a dead end.
+4. **T4 (feature).** Keys `a`-`z` and doors `A`-`Z`. A door can be entered only while holding its key, keys are kept for the rest of the route, and `S`/`E` are not doors. A route may have to walk a cell again once it holds a new key.
+5. **T5 (stretch).** Least-energy route: a digit costs that much energy to enter and every other cell costs 1. Same movement rules, a different objective.
 
-```
-python -m unittest discover -s tests -p "test_grid.py" -v
-python -m unittest discover -s tests -p "test_render.py" -v
-python -m unittest discover -s tests -p "test_search.py" -v
-```
+Each ticket names the test suite that accepts it. Getting through T4 with every earlier suite still green is a strong result.
 
-## Phase 2 -- Gates, keys and doors
+One warning from people who have sat this round: a test can itself be wrong. If a test contradicts the documented behaviour, say so and fix the test rather than bending the code.
 
-Implement the four stubs in `KeyedSolver` (`src/solver.py`) per their docstrings.
-
-- **Gates.** A cell holding `>`, `<`, `^` or `v` fixes the direction of the move made *from* it. Entering a gate is never restricted; only leaving is. A gate pointing into a wall is a dead end.
-- **Keys and doors.** A lowercase letter is a key; its uppercase counterpart is the door it opens. Keys are kept for the rest of the route and are not consumed. `S` and `E` are not doors.
-- The keyring changes what is passable, so a cell may have to be walked **more than once** -- once per keyring it can be reached with. That decides the shape of your search state.
+## How to run
 
 ```
-python -m unittest discover -s tests -p "test_solver.py" -v
-```
-
-## Phase 3 -- Least-energy routes, at scale
-
-`cheapest_route` (`src/costs.py`) is correct and does not scale. It is Dijkstra with a list for a frontier: it scans the whole frontier for the cheapest cell on every settle, and scans it again to remove that cell. Keep the answer identical and get it inside the time budget.
-
-```
-python -m unittest discover -s tests -p "test_performance.py" -v
-```
-
-`test_performance.py` is slow until Phase 3 is done; run the other four suites while you work.
-
-## Running everything
-
-```
-python -m unittest discover -s tests -v
-python main.py
-python main.py mazes/energy.txt --cheapest
+python -m unittest discover -s tests -t . -p "test_*.py"
+python -m unittest tests.test_gates -v
+python -m mazesolver solve mazes/vault.txt --stats
 ```
 
 ## What is evaluated
 
-- The suites for each phase pass, and the earlier phases stay green.
-- You can explain each fix, the search state you chose for keys and doors, and why the Phase 3 change keeps the answer identical while getting faster.
-
-## About the live round
-
-Reports of the real round describe a Python starter (a solver, a print helper and a `tests/` folder) worked through in four or five stages:
-
-1. a bug in how the found route is printed onto the maze (AI usually not allowed for this stage);
-2. a BFS/DFS that never finishes because it does not track visited cells;
-3. one-way gates (`>` / `<` force the next move direction);
-4. keys and doors, where a cell may need to be revisited once new keys are held;
-5. (added in April 2026) either **bombs** -- a bomb clears walls in a fixed area, commonly a radius-2 Chebyshev neighbourhood or a one-cell `+`, which means a `get_affected_area(x, y)` helper, the destroyed walls folded into the search state, and a decision on whether the blast is one-shot or persistent -- or the **energy** variant, a minimum-total-energy route via Dijkstra.
-
-This workspace covers stages 1-4 and the energy variant (as Phase 3). **If time remains**, discuss the bomb variant: its rules are deliberately underspecified, so first settle with the interviewer whether a bomb fires when entered, when left, or from an adjacent cell.
-
-Other notes from those reports:
-
-- Several reports mention seven hidden tests, with passing the first four stages as the bar; reaching stage 4 is the usual "strong" signal.
-- One candidate reported that the stage 1 starter had an invalid test that had to be commented out; if a test still fails after a fix you are confident in, ask whether the test itself is wrong.
-- The AI assistant edits the editor directly. A working solution you cannot explain is a common rejection reason.
+- The acceptance suites pass ticket by ticket, and earlier suites stay green.
+- You can explain each root cause, why your T2 change keeps the routes identical, and what the search state is once keys exist (and why it has to be that).
+- If time remains, you can discuss a bomb variant: a bomb clears walls in a fixed area. Agree on the trigger and whether the blast is one-shot before you design the state.
 
 ## Solution
 

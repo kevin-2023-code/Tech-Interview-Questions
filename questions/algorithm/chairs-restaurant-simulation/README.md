@@ -25,6 +25,17 @@ calculate_chairs(events)
 - `U` behaves like `C` — seat a customer.
 - `L` behaves like `R` — release a chair back to the available pool.
 
+### Example (as reported)
+
+```text
+Input:
+1
+CRUL
+
+Output:
+1
+```
+
 ## Notes
 
 - Because `C` and `U` have matching behavior, as do `R` and `L`, the initial version may have represented `C/R` and `U/L` as separate categories, such as distinct seating areas.

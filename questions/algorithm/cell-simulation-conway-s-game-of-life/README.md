@@ -52,6 +52,24 @@ Write `R` lines, with `C` characters per line, showing the board once `T` genera
 - `1 <= R, C <= 200`
 - `0 <= T <= 100`
 
+### Example (as reported)
+
+```text
+Input:
+3
+3
+1
+3
+000
+111
+000
+
+Output:
+010
+010
+010
+```
+
 ### Example
 
 Input:

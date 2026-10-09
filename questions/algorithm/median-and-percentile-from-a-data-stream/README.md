@@ -57,6 +57,24 @@ Constraints:
 * $$-1,000,000,000 \le x \le 1,000,000,000$$
 * Strive to make both `addNum` and `findMedian` as fast as possible (ideally `O(log n)` for insertion and `O(1)` for median retrieval, where `n` is the current number of elements).
 
+### Example (as reported)
+
+```text
+Input:
+6
+add 1
+add 2
+median
+add 3
+median
+median
+
+Output:
+1.5
+2
+2
+```
+
 ## Hints
 
 <details>

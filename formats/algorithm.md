@@ -2,7 +2,7 @@
 
 # Algorithm interview & OA questions
 
-**2,431 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
+**2,429 questions** in the Algorithm format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=algorithm).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -24,7 +24,6 @@
 | **xAI** | [Load and Display a React List with useEffect](https://trueinterview.io/questions/load-and-display-a-react-list-with-useeffect) | Medium | 🆕 Sep 15, 2026 |
 | **xAI** | [Implement an Asynchronous React Typeahead](https://trueinterview.io/questions/implement-an-asynchronous-react-typeahead) | Medium | 🆕 Sep 15, 2026 |
 | **Cohere** | [Implement a Card-Details Form with Dependent Validation](https://trueinterview.io/questions/implement-a-card-details-form-with-dependent-validation) | Medium | 🆕 Sep 15, 2026 |
-| **Amazon** | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Medium | 🆕 Sep 14, 2026 |
 | **AMD** | [Find the Largest K Elements with Partitioning](https://trueinterview.io/questions/find-the-largest-k-elements-with-partitioning) | Medium | 🆕 Sep 14, 2026 |
@@ -260,5 +259,6 @@
 | **Stripe** | [Six Degrees of Collusion](https://trueinterview.io/questions/six-degrees-of-collusion) | Medium | Jun 24, 2026 |
 | **JPMorgan** | [Zero Compaction Array Coding](https://trueinterview.io/questions/zero-compaction-array-coding) | Easy | Jun 23, 2026 |
 | **JPMorgan** | [Prerequisite Cycle](https://trueinterview.io/questions/prerequisite-cycle-oa) | Medium | Jun 23, 2026 |
+| **JPMorgan** | [Interval Consolidation](https://trueinterview.io/questions/interval-consolidation-oa) | Medium | Jun 23, 2026 |
 
 <sub>Page 1 of 10 · [Page 2 →](algorithm-2.md)</sub>

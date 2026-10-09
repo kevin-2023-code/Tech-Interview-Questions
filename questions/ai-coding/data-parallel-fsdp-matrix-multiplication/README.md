@@ -14,98 +14,55 @@
 
 ## Data Parallel & FSDP Matrix Multiplication
 
-### Background
+### Overview
 
-This question tests distributed-systems intuition and NumPy fundamentals: a `Communicator` that simulates device-to-device messaging with queues, and two ways to spread one matrix multiply across a fleet of devices. Suggested time: about 45 minutes, three phases.
+You are given starter code with a `Communicator` class that simulates inter-device communication with queues; each device is a Python thread. Implement two ways to spread `C = A @ B` across `num_devices` devices:
 
-**Data parallel** shards the batch and replicates the parameters. Every rank keeps a full copy of the parameter matrix `B`, takes a different block of rows of `A`, multiplies, and the row blocks are gathered back to rank 0. Simple, and it only works while `B` fits on a device.
+1. **Data Parallel (DP)** -- split `A` row-wise. Every device holds the full `B`, computes its block of rows, and the blocks are gathered to rank 0.
+2. **Fully Sharded Data Parallel (FSDP)** -- shard `A` row-wise **and** `B` column-wise. No device ever holds the whole of `B`: the `B` shards rotate around the devices (each device passes its shard to its right neighbour and takes one from its left), and every device accumulates `a_chunk @ shard` into the matching column slice of its output block before the blocks are gathered to rank 0.
 
-**Fully sharded data parallel (FSDP)** shards the parameters too. Rank `r` owns one column shard of `B` and nothing more. No rank ever holds the whole thing, so the shards have to travel: each rank multiplies its rows by the shard it is holding, passes that shard to its right-hand neighbour, takes one from its left, and goes again, until every shard has visited every rank. Same answer, a fraction of the memory, a lot more wire.
-
-The workspace has both, plus the training step that goes with them: the ranks computed their gradients on different slices of the batch, so they have to agree on one averaged gradient before they may take a step.
-
-Ranks are simulated **in this process, as threads** -- no second GPU, no launcher. The `Communicator` in `src/comm.py` is the only channel between ranks: a rank hands data to another rank with `send` and gets data with `recv`. Reaching into a peer's arrays is not communication and does not count; every byte that crosses a rank boundary is counted, and the tests check the counters.
+The result must equal `a @ b` (`np.allclose`) for any `num_devices` that divides `M` and `N`, including `num_devices = 1`.
 
 ### What is in the workspace
 
 ```text
-src/
-  comm.py          Communicator: one inbox per rank, send / recv, traffic counters
-  sharding.py      who owns which rows of A, which columns of B, where a block goes back
-  collectives.py   gather_to_root, reduce_mean, ring_neighbors
-  dp.py            data parallel: dp_mat_mul, dp_train_step        (complete)
-  fsdp.py          fully sharded: fsdp_mat_mul, fsdp_grad_step     (yours to write)
-main.py            a demo of the call shapes
-tests/
-  test_sharding.py      Phase 1
-  test_collectives.py   Phase 1
-  test_dp.py            Phase 1
-  test_fsdp.py          Phase 2
-  test_performance.py   Phase 3 (wall clock)
-  test_fsdp_wire.py     Phase 3 (largest message on the wire)
-requirements.txt   numpy
+matmul/dp.py        Part 1 -- compute_fn(comm, rank, a_chunk, b, result)  (dp_mat_mul is given)
+matmul/fsdp.py      Part 2 -- fsdp_mat_mul(a, b, num_devices), from scratch
+simdist/            the simulated device runtime: Communicator, run_ranks, trace capture
+docs/               COMMUNICATOR.md (semantics), TRACE.md (reading traffic)
+tools/trace_report.py   run a strategy and print who sent what to whom
+tests/              acceptance suite (unittest), fixtures/ (the starter's test cases, shape grid)
+main.py             the starter's driver (8x6 @ 6x4 on 2 devices)
 ```
 
-### Phase 1 -- Fix the bugs
+The `Communicator` keeps the starter's API -- `comm.send(src, dst, data)` and `src, data = comm.recv(dst)`, plus `comm.recv(dst, src=k)` -- and behaves like a real interconnect underneath:
 
-Data parallel is fully implemented and it does not work.
+- payloads are **copied** on send (devices share no memory); tuples such as `(owner_index, shard)` are fine;
+- messages arrive after a random delay: one link is FIFO, different links are not, so rank 0 receives blocks in **arrival order, not rank order**;
+- payloads above 16 KiB use **rendezvous** -- `send` blocks until the receiver takes the message -- so a ring in which every device sends before it receives hangs on real-sized shards;
+- a rank stuck longer than the deadlock timeout raises `DeadlockError` with a snapshot of every rank, instead of hanging.
 
-There are exactly **4 bugs**: two in `src/sharding.py` and two in `src/collectives.py`. There are none in `src/dp.py`, none in `src/comm.py`, and none in the tests. `src/dp.py` is where you will *see* most of the damage; it is not where the damage is.
+### Parts
 
-Every docstring states the intended behaviour; the code does not always agree with it. Read the failing tests, then make the code agree.
+- **Part 1 -- DP.** Fill in `compute_fn`: compute the local block, send it to rank 0, and on rank 0 assemble the rows in rank order into `result[0]`.
+- **Part 2 -- FSDP.** Write `fsdp_mat_mul`: shard with `np.array_split` (`axis=0` for `A`, `axis=1` for `B`), run the ring rotation without deadlocking, place every partial product in the right columns, gather to rank 0. Keep the output dtype equal to `(a @ b).dtype`.
 
-```text
-python -m unittest discover -s tests -p "test_sharding.py" -v
-python -m unittest discover -s tests -p "test_collectives.py" -v
-python -m unittest discover -s tests -p "test_dp.py" -v
-```
-
-### Phase 2 -- Implement FSDP
-
-`src/fsdp.py` is empty. Write both functions to their docstrings.
-
-- `fsdp_mat_mul(a, b, num_devices)` -- `a` sharded by rows, `b` sharded by columns, ring rotation of the parameter shards, the full product returned on rank 0. Track which columns of the output the shard in your hands feeds: after `k` rotations it is not the shard you started with.
-- `fsdp_grad_step(param_shards, local_grads, num_devices, lr)` -- one synchronous optimizer step. Every rank ends holding its own updated shard of the parameter, stepped on the mean of every rank's gradient.
-
-The result must match `a @ b` (up to float tolerance) for every `num_devices`, including 1. No rank may be handed the whole `b`, and no single message may carry it.
-
-```text
-python -m unittest discover -s tests -p "test_fsdp.py" -v
-```
-
-### Phase 3 -- Make the reduction cheap
-
-The obvious way to write `fsdp_grad_step` is the way `src/dp.py` already reduces: every rank ships its whole gradient to every other rank and adds them all up. It is correct. It costs `num_devices` times more arithmetic and `num_devices` times more wire than it has to, and it quietly puts a full-size parameter tensor back on a device that was sharded precisely because that tensor did not fit.
-
-Both of those are gated: one test watches the clock, one watches the wire.
-
-```text
-python -m unittest discover -s tests -p "test_performance.py" -v
-python -m unittest discover -s tests -p "test_fsdp_wire.py" -v
-```
-
-### Running everything
+### How to run (offline, numpy only)
 
 ```text
 pip install -r requirements.txt
-python -m unittest discover -s tests -v
-python main.py
+python -m unittest discover -s tests -p "test_*.py"     # or run.cmd / run.sh
+python -m unittest -v tests.test_part1_dp
+python -m unittest -v tests.test_part2_fsdp
+python main.py --trace
+python -m tools.trace_report fsdp -p 4 --timeline
 ```
-
-Python 3.9+ and numpy, nothing else, no network. The Phase 3 test allocates about 270 MB of float32 gradients and takes a couple of seconds; the other suites are instant.
 
 ### What is evaluated
 
-- All suites pass with the tests unedited.
-- All inter-rank data moves through the `Communicator`; a rank only touches its own shard.
-- FSDP never materializes the full parameter (or the full averaged gradient) on any one rank, and no message carries more than one shard.
-- You can explain the memory, compute and communication trade-offs between the two schemes.
-
-### Follow-up discussion
-
-- **Why FSDP over DP?** At production LLM scale the parameters (and optimizer state) do not fit on one device -- for example an 80 GB GPU against a 400 GB model. Replicating them is impossible; sharding takes per-device storage from O(model) to O(model / D).
-- **Communication patterns in practice:** all-reduce for data-parallel gradient sync, all-gather to reassemble parameters in the FSDP forward pass, reduce-scatter for the FSDP backward pass; ring topologies for bandwidth on large tensors, tree topologies for latency on small messages.
-- **Hybrid parallelism at very large scale:** FSDP across nodes, tensor parallelism within a node over fast NVLink, pipeline parallelism across layer stages with micro-batches, and sequence parallelism for long contexts.
+- **Numerical equality** with single-process `a @ b`: the starter's test cases (seed 42), randomized shapes for 1 to 8 devices under jitter, uneven splits, `int64` exactness and `float32` dtype, and matrices large enough that every transfer is rendezvous.
+- **Communication pattern**, read from a traffic trace of every message: in DP each non-zero rank sends its row block to rank 0 exactly once and `B` never travels; in FSDP `B` never travels whole and nothing on the wire is wider than one shard, shards only move to the right neighbour, every rank receives every other rank's shard, and the only other traffic is each rank's output rows going once to rank 0.
+- **Discussion**: memory of DP (`O(model)` per device) versus FSDP (`O(model / num_devices)`), the communication cost of each, and the production analog -- PyTorch FSDP's all-gather in the forward pass and reduce-scatter in the backward pass, all-reduce for DP, ring versus tree topologies, and hybrid parallelism.
 
 ## Hints
 
@@ -119,14 +76,14 @@ Separate the two strategies by what gets sharded: data parallel splits the batch
 <details>
 <summary>Hint 2</summary>
 
-Model each rank as an object holding its local shard and use the communicator's send/receive queues to move blocks between ranks.
+Each rank runs in its own thread and holds only its local shard, move blocks with the communicator's send/recv, and order sends and receives so two ranks never block waiting on each other.
 
 </details>
 
 <details>
 <summary>Hint 3</summary>
 
-For FSDP, remember that each rank needs the other ranks' parameter shards before it can compute its output block, so plan the all-gather step carefully.
+For FSDP, pass the weight shards around a ring so each rank multiplies against one shard at a time instead of materialising the full weight matrix.
 
 </details>
 

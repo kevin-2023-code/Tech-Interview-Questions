@@ -22,6 +22,16 @@ For every position `i` in an array:
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+2 4 3
+
+Output:
+0 2 0
+```
+
 ```
 n = 3
 arr = [5, 2, 4]

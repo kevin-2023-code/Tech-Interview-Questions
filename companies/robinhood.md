@@ -2,7 +2,7 @@
 
 # Robinhood interview process, OA & interview questions
 
-**43 questions** reported at Robinhood · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
+**44 questions** reported at Robinhood · **3 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/robinhood), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Robinhood interviews & the free questions](robinhood/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **43** |
+| Questions tracked | **44** |
 | Most recent sighting | Sep 17, 2026 |
 | Reported in the last 90 days | 4 |
-| Most common format | [System Design](../formats/system-design.md) (44% of 43) |
-| Difficulty (easy / medium / hard) | 6 / 29 / 8 |
+| Most common format | [System Design](../formats/system-design.md) (45% of 44) |
+| Difficulty (easy / medium / hard) | 6 / 30 / 8 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 3 |
 
-<sub>Counted from the 43 questions reported at Robinhood. 35 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 44 questions reported at Robinhood. 36 of them carry a sighting date; the other 8 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **43 of 43** questions at Robinhood that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **44 of 44** questions at Robinhood that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 18 | ██████ | [Algorithm](../formats/algorithm.md) (44%) | 1 / 15 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 31 | ██████████ | [System Design](../formats/system-design.md) (52%) | 4 / 21 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 19 | ██████ | [Algorithm](../formats/algorithm.md) (42%) | 1 / 16 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 32 | ██████████ | [System Design](../formats/system-design.md) (53%) | 4 / 22 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -49,7 +49,7 @@ Which stage each question came from, for the **43 of 43** questions at Robinhood
 
 ## What they ask about
 
-Of the **19 questions at Robinhood that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **19 questions at Robinhood that carry a topic label** (43% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -73,7 +73,7 @@ Every recorded sighting at Robinhood, by the month it was reported in — Apr 10
 | Month | Sightings |  |
 | :-- | --: | :-- |
 | [Sep 2026](../by-month/2026-09.md) | 4 | ██████████████ |
-| [May 2026](../by-month/2026-05.md) | 4 | ██████████████ |
+| [May 2026](../by-month/2026-05.md) | 5 | █████████████████ |
 | [Apr 2026](../by-month/2026-04.md) | 7 | ████████████████████████ |
 | [Mar 2026](../by-month/2026-03.md) | 6 | █████████████████████ |
 | [Feb 2026](../by-month/2026-02.md) | 2 | ███████ |
@@ -98,7 +98,7 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | **5** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | 1 | May 09, 2026 |
 | **6** | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Algorithm | Medium | — | May 09, 2026 |
 | **7** | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | 2 | May 08, 2026 |
-| **8** | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | 2 | May 2026 |
+| **8** | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | System Design | Medium | 1 | May 07, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -129,6 +129,7 @@ The 8 questions to open first if you are preparing for Robinhood, ranked by **th
 | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | System Design | Medium | May 09, 2026 |
 | [Frontend Calendar UI](https://trueinterview.io/questions/frontend-calendar-ui) | Algorithm | Medium | May 09, 2026 |
 | [Design Stock Trading Platform](https://trueinterview.io/questions/design-a-crypto-exchange-order-flow-system) | System Design | Hard | May 08, 2026 |
+| [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | System Design | Medium | May 07, 2026 |
 | [Role Privilege System](https://trueinterview.io/questions/role-privilege-inheritance) | Algorithm | Medium | May 2026 |
 | [Employee Referral Program](https://trueinterview.io/questions/referral-program-leaderboard) | Algorithm | Medium | Apr 28, 2026 |
 | [Design a Real-Time Stock Price System](https://trueinterview.io/questions/stock-trading-quote-system-design) | System Design | Medium | Apr 23, 2026 |

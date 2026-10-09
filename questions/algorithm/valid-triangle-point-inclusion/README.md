@@ -38,6 +38,25 @@ public static int pointsBelong(int x1, int y1, int x2, int y2, int x3, int y3,
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+0
+0
+2
+0
+4
+0
+2
+0
+4
+0
+
+Output:
+0
+```
+
 **Example 1**
 
 ```text

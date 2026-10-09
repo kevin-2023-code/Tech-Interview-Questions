@@ -8,7 +8,7 @@ How Roblox interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [84](../roblox.md) |
+| Questions reported | [86](../roblox.md) |
 | Free to read here | 15 |
 | Interview-process guides | 4 |
 | Other guides | 0 |
@@ -60,7 +60,7 @@ The company page sketches the shape of the Roblox loop; this guide covers what h
 
 ## Everything else
 
-- [All 84 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 86 questions reported at Roblox](../roblox.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Roblox question on TrueInterview](https://trueinterview.io/problems/company/roblox).
 
 ---

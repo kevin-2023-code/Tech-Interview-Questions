@@ -62,6 +62,9 @@ The concurrent crawler must:
 2. Protect shared structures, including the visited set and result list, from race conditions.
 3. Ensure that concurrent execution still crawls each URL at most once.
 4. Continue limiting traversal to URLs with the same hostname.
+- Justify the choice between threads, processes, and asyncio for this crawler.
+- How would you shard hostnames across N machines, dedupe across them, throttle per-host, and resume after a worker dies?
+- What is the difference between asyncio.gather, asyncio.as_completed, and a manual semaphore-bounded pool?
 
 ## Hints
 

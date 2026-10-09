@@ -8,7 +8,7 @@ How Stripe interviews, and the questions candidates reported there. Free questio
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [93](../stripe.md) |
+| Questions reported | [95](../stripe.md) |
 | Free to read here | 5 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -46,7 +46,7 @@ Stripe's loop rewards a different kind of preparation than most big-tech process
 
 ## Everything else
 
-- [All 93 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 95 questions reported at Stripe](../stripe.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Stripe question on TrueInterview](https://trueinterview.io/problems/company/stripe).
 
 ---

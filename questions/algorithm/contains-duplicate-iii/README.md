@@ -56,6 +56,12 @@ No pair of distinct indices meets both the index-distance requirement and the va
 * `1 ≤ indexDiff ≤ nums.length`
 * `0 ≤ valueDiff ≤ 10^9`
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Solve the same problem when nums is an array of strings instead of integers, and explain when bitmasking works and when it does not.
+
 ## Hints
 
 <details>

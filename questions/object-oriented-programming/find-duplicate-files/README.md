@@ -73,6 +73,12 @@ class FileSystem {
 > - `DuplicateFileFinder finder = new DuplicateFileFinder(fs);` // Initialize with a file system containing the specified files.
 > - `finder.findDuplicateFiles();` // Returns [["/a/x.txt", "/c/y.txt"]].
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- How would you optimize `findDuplicateFiles` if the system is I/O bound (disk reads are the bottleneck)? How would you optimize if the system is CPU bound (hashing/comparison is the bottleneck)?
+
 ## Hints
 
 <details>

@@ -12,7 +12,7 @@
 
 ## Problem
 
-1. Designing a Top‑K Best‑selling Items Feature for Restaurants
+1. 🍽️ Designing a Top‑K Best‑selling Items Feature for Restaurants
 
 An online restaurant marketplace often highlights each store’s best‑selling dishes, helping customers decide faster and helping merchants gauge what sells well. On the surface it looks like a compact “Popular items” shelf, but three questions drive the entire design: how do we define “popular”, how current must the answer be, and how do we serve it inexpensively across thousands of restaurant pages?
 
@@ -68,6 +68,15 @@ These anchors justify why reads should hit a pre‑published snapshot keyed by `
 
 > [!NOTE]
 > Restaurant pages need fast, repeated reads. The rankings, however, come from slower batch work over finalized orders. The design must make that gap visible through freshness metadata and a clear correction path.
+
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Extend the design to a near-realtime variant that maintains top-K rankings from streaming item-view/item-order events.
+- How would you support pagination when K is greater than 100?
+- How would you handle an item being deleted or removed from the menu mid-window?
+- How would you handle a hot key, such as a viral item, that can swamp a single shard?
 
 ## Hints
 

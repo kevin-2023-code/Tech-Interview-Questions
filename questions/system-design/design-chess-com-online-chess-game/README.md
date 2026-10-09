@@ -70,6 +70,12 @@ _High-Level Architecture — Matchmaking Pipeline and Authoritative Game Server_
 - Full anti-cheat or fair-play investigation pipelines beyond a short follow-up mention.
 - Social chat, friends, notifications, and monetization features.
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Allow a player to abort a game, but only at the start of the game.
+
 ## Hints
 
 <details>

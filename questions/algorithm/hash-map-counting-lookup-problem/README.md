@@ -30,6 +30,18 @@ Output the pair of zero-indexed positions. When more than one valid pair is avai
 - `2 <= n <= 2 * 10^5`
 - `-1e9 <= nums[i], target <= 1e9`
 
+### Example (as reported)
+
+```text
+Input:
+4
+2 7 11 15
+9
+
+Output:
+0 1
+```
+
 ### Example
 Input:
 ```

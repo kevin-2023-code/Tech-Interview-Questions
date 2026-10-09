@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 09, 2026 |
 | Reported in the last 90 days | 9 |
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 217) |
-| Difficulty (easy / medium / hard) | 28 / 146 / 43 |
+| Difficulty (easy / medium / hard) | 27 / 146 / 44 |
 | Free to practise | [37](../free/README.md) |
 | Guides & writeups | 3 |
 | Interview reports on the board | 2 in this snapshot |
@@ -32,8 +32,8 @@ Which stage each question came from, for the **217 of 217** questions at Uber th
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 32 | ███ | [Algorithm](../formats/algorithm.md) (97%) | 10 / 18 / 4 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 123 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 11 / 83 / 29 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 86 | ███████ | [Algorithm](../formats/algorithm.md) (48%) | 8 / 63 / 15 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Phone screen** | 122 | ██████████ | [Algorithm](../formats/algorithm.md) (82%) | 10 / 82 / 30 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 87 | ███████ | [Algorithm](../formats/algorithm.md) (47%) | 8 / 63 / 16 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -55,17 +55,17 @@ Which stage each question came from, for the **217 of 217** questions at Uber th
 
 ## What they ask about
 
-Of the **153 questions at Uber that carry a topic label** (71% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **152 questions at Uber that carry a topic label** (70% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
-| `graphs` | 39 | 25% | ████████████ | Sep 09, 2026 |
+| `graphs` | 39 | 26% | ████████████ | Sep 09, 2026 |
 | `arrays` | 29 | 19% | █████████ | Aug 16, 2026 |
-| `hashing` | 16 | 10% | █████ | Aug 16, 2026 |
+| `hashing` | 16 | 11% | █████ | Aug 16, 2026 |
 | `matrix` | 15 | 10% | █████ | Sep 09, 2026 |
 | `strings` | 15 | 10% | █████ | Jun 24, 2026 |
 | `trees` | 14 | 9% | ████ | Jun 28, 2026 |
-| `greedy` | 13 | 8% | ████ | May 15, 2026 |
+| `greedy` | 13 | 9% | ████ | May 15, 2026 |
 | `sorting` | 12 | 8% | ████ | Sep 09, 2026 |
 | `dynamic-programming` | 11 | 7% | ███ | Jun 16, 2026 |
 | `binary-search` | 10 | 7% | ███ | Jun 16, 2026 |
@@ -162,7 +162,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [First Customer Who Visited Only Once](https://trueinterview.io/questions/phone-screen-first-unique-visitor) | Object Oriented Programming | Medium | Jun 15, 2026 |
 | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Algorithm | Medium | Jun 10, 2026 |
 | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Algorithm | Hard | Jun 08, 2026 |
-| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Medium | Jun 08, 2026 |
+| [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Algorithm | Hard | Jun 08, 2026 |
 | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Algorithm | Easy | Jun 08, 2026 |
 | [Random Bingo Card Generator](https://trueinterview.io/questions/bingo-card-generator) | Object Oriented Programming | Medium | Jun 06, 2026 |
 | [Parking Lot System II](https://trueinterview.io/questions/design-parking-lot-ood) | Object Oriented Programming | Medium | Jun 06, 2026 |
@@ -217,7 +217,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Customer Revenue and Referral Tracking](https://trueinterview.io/questions/customer-revenue-and-referral-tracking) | Object Oriented Programming | Medium | Mar 22, 2026 |
 | [Checking Existence of Edge Length Limited Paths](https://trueinterview.io/questions/checking-existence-of-edge-length-limited-paths) | Algorithm | Hard | Mar 22, 2026 |
 | [Count Paths That Can Form a Palindrome in a Tree](https://trueinterview.io/questions/count-paths-that-can-form-a-palindrome-in-a-tree) | Algorithm | Hard | Mar 22, 2026 |
-| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Easy | Mar 21, 2026 |
+| [Squares of a Sorted Array](https://trueinterview.io/questions/e1f619c5-e21e-49ac-a3d9-fdfc720cb32c) | Algorithm | Medium | Mar 21, 2026 |
 | [Time Based Key-Value Store](https://trueinterview.io/questions/time-based-key-value-store-2) | Algorithm | Medium | Mar 20, 2026 |
 | [Course Schedule](https://trueinterview.io/questions/course-schedule) | Algorithm | Medium | Mar 20, 2026 |
 | [Design a Stock Price Alert Notification System](https://trueinterview.io/questions/design-a-stock-price-alert-notification-system) | System Design | Hard | Mar 16, 2026 |
@@ -318,7 +318,6 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Design Leetcode](https://trueinterview.io/questions/design-leetcode-2) | System Design | Medium | — |
 | [Maximum Throughput](https://trueinterview.io/questions/maximum-throughput) | Algorithm | Medium | — |
 | [Design Facebook Messenger](https://trueinterview.io/questions/c42d8b8a-21fe-4004-8e4b-4c84969d7f7a) | System Design | Medium | — |
-| [Word Search (Grid DFS Backtracking)](https://trueinterview.io/questions/a6c576df-84c1-481e-be3c-2f205d8b7c81) | Algorithm | Medium | — |
 | [Minimum Number of Refueling Stops](https://trueinterview.io/questions/95fdca49-56e1-5288-ba84-4eb580ab2d0c) | Algorithm | Medium | — |
 | [Implement an LRU Cache (HashMap + Doubly Linked List) and Debug an Existing Implementation](https://trueinterview.io/questions/4d278295-f27d-4425-9bc3-2be3388a320c) | Object Oriented Programming | Medium | — |
 | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Algorithm | Medium | — |
@@ -342,6 +341,7 @@ What candidates said happened in the room at Uber — written up by the people w
 | [Implement a Quadtree for Geospatial Point Storage and Range Query](https://trueinterview.io/questions/9fce13a5-2923-5538-97c0-e69f174b435f) | Object Oriented Programming | Medium | — |
 | [Task Dependency Completion Time](https://trueinterview.io/questions/98b9acbe-4393-4f2d-b6f2-023dda164e9a) | Algorithm | Medium | — |
 | [The Earliest Moment When Everyone Become Friends](https://trueinterview.io/questions/967301de-f814-5c2b-8023-d834f84d5b1c) | Algorithm | Medium | — |
+| [React Parking Lot System](https://trueinterview.io/questions/893e8e44-58d9-4d46-80c6-fecceb6d3b43) | AI Coding | Medium | — |
 | [Minimum Moves to Unlock a Lock Combination](https://trueinterview.io/questions/869023dd-5cb3-4937-a392-f217dcb8dffe) | Algorithm | Medium | — |
 | [Connectivity Queries on Dynamic Components (Union-Find)](https://trueinterview.io/questions/6403f04b-b9cf-4350-a0a6-61f10aa6dc1f) | Algorithm | Medium | — |
 | [Design a TinyURL service (encode/decode)](https://trueinterview.io/questions/5bf82361-e2aa-4c14-b224-cd4c5689f83c) | Object Oriented Programming | Medium | — |

@@ -25,6 +25,21 @@
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+3 3
+C A T
+I D O
+N O M
+4
+CAT TOM ADO MOM
+
+Output:
+Yes Yes Yes No
+```
+
 Input:
 
 ```

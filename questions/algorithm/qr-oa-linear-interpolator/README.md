@@ -27,6 +27,27 @@ Return the results in the same order as the queries.
 - There are at least **two distinct** x-values in `points`
 - Answers within 10^{-3} of the correct value are accepted
 
+### Example (as reported)
+
+```text
+Input:
+3
+2 2
+0 0
+1 1
+4
+-1
+0.5
+2
+3
+
+Output:
+-1.0
+0.5
+2.0
+3.0
+```
+
 **Example 1:**
 > **Input:** points = [[1, 2], [1, 6], [3, 8], [5, 4]], queries = [1, 2, 4, 0, 6]
 > **Output:** [6.0, 7.0, 6.0, -1.0, 2.0]

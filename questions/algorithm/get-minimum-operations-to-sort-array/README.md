@@ -29,6 +29,17 @@ An element may be split any number of times. Determine the smallest number of op
 - `1 <= n <= 10^5`
 - `1 <= arr[i] <= 10^9`
 
+### Example (as reported)
+
+```text
+Input:
+3
+3 4 3
+
+Output:
+2
+```
+
 ## Example
 
 **Input:**

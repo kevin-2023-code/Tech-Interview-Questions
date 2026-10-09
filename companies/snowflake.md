@@ -18,7 +18,7 @@
 | Most recent sighting | Sep 05, 2026 |
 | Reported in the last 90 days | 8 |
 | Most common format | [Algorithm](../formats/algorithm.md) (74% of 128) |
-| Difficulty (easy / medium / hard) | 20 / 90 / 18 |
+| Difficulty (easy / medium / hard) | 21 / 88 / 19 |
 | Free to practise | [28](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 4 in this snapshot |
@@ -31,8 +31,8 @@ Which stage each question came from, for the **128 of 128** questions at Snowfla
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 16 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 9 / 7 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 89 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 7 / 68 / 14 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Online assessment** | 16 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 10 / 6 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 89 | ██████████ | [Algorithm](../formats/algorithm.md) (81%) | 7 / 67 / 15 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 53 | ██████ | [Algorithm](../formats/algorithm.md) (53%) | 6 / 40 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -217,7 +217,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Rate Limiter](https://trueinterview.io/questions/rate-limiter) | Object Oriented Programming | Easy | Dec 06, 2025 |
 | [Step-By-Step Directions From a Binary Tree Node to Another](https://trueinterview.io/questions/binary-tree-step-by-step-directions) | Algorithm | Medium | Dec 02, 2025 |
 | [Dropped Requests (Rate Limiter)](https://trueinterview.io/questions/dropped-requests-rate-limiter) | Algorithm | Medium | Nov 29, 2025 |
-| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Medium | Nov 23, 2025 |
+| [Valid Tic-Tac-Toe State (Extended)](https://trueinterview.io/questions/tic-tac-toe-valid-state-extended) | Algorithm | Hard | Nov 23, 2025 |
 | [S3-Style Storage with Dedup](https://trueinterview.io/questions/s3-dedup-storage-design) | System Design | Medium | Nov 23, 2025 |
 | [Durable Key-Value Store Serialization](https://trueinterview.io/questions/durable-key-value-store-serialization) | Object Oriented Programming | Easy | Nov 08, 2025 |
 | [Work Schedule](https://trueinterview.io/questions/work-schedule) | Algorithm | Medium | Jul 20, 2025 |
@@ -256,7 +256,7 @@ What candidates said happened in the room at Snowflake — written up by the peo
 | [Shortest Path in a Binary Matrix with Obstacles](https://trueinterview.io/questions/55c071d4-9b02-564b-ab0c-f766c602e360) | Algorithm | Medium | — |
 | [Sort Colors in a RecordCollection In-Place](https://trueinterview.io/questions/6402ad69-f7b4-5827-a495-d1f675ef19eb) | Algorithm | Medium | — |
 | [Distance from Each 1 to the Nearest 2 in an Array](https://trueinterview.io/questions/473fe3ed-b49d-5d11-b6c6-ce03b84b55b4) | Algorithm | Medium | — |
-| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Medium | — |
+| [Happy Number](https://trueinterview.io/questions/3a2210a0-15ef-5007-840a-e26869dbf4a9) | Algorithm | Easy | — |
 | [Maximum Number of Events That Can Be Attended II](https://trueinterview.io/questions/2d61f2ea-00fb-5c13-83f6-50a8e8095178) | Algorithm | Hard | — |
 | [Tree Levels After Node Deletions](https://trueinterview.io/questions/tree-levels-after-node-deletions) | Algorithm | Hard | — |
 | [ML Job Scheduler](https://trueinterview.io/questions/ml-job-scheduler) | System Design | Medium | — |

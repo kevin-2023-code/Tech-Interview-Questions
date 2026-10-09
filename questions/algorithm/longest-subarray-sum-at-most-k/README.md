@@ -22,6 +22,16 @@
 longest_subarray_at_most_k(arr, k)
 ```
 
+### Example (as reported)
+
+```text
+Input:
+4 4 3 1 2 3
+
+Output:
+2
+```
+
 ## Notes
 
 - Consider the case where `k < arr[0]` while every value is positive: the answer may be 0 when no individual value qualifies, or 1 when the smallest value qualifies, based on the precise problem statement. Confirm that detail before implementing.

@@ -43,6 +43,16 @@ Use one fixed visiting order so that results are predictable:
 
 You may rely on the insertion-order behavior of dictionaries in Python 3.7 and later.
 
+#### Example (as reported)
+
+```text
+Input:
+{"a": [1, 2, 3], "b": {"c": [{"d": 4}], "e": 5}}
+
+Output:
+[1, 2, 3, 4, 5]
+```
+
 #### Example
 
 ```

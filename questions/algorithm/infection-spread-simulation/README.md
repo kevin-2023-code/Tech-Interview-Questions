@@ -336,6 +336,12 @@ You are given `K` as the death threshold. At the transition point:
 
 The supplied statement ends while continuing the Level 4 daily-update specification.
 
+### Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Extend the simulation so that each day you may choose any row or column and burn everything on it; minimize the total number of deaths.
+
 ## Hints
 
 <details>

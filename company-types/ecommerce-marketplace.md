@@ -2,7 +2,7 @@
 
 # 🛒 E-commerce & marketplaces — interview & OA questions
 
-**890 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**889 questions** reported across the **14 E-commerce & marketplaces employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Amazon (321)](../companies/amazon.md) · [Uber (217)](../companies/uber.md) · [DoorDash (107)](../companies/doordash.md) · [Airbnb (78)](../companies/airbnb.md) · [Ebay (45)](../companies/ebay.md) · [Lyft (43)](../companies/lyft.md) · [Instacart (38)](../companies/instacart.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Shopify (26)](../companies/shopify.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Whatnot (17)](../companies/whatnot.md) · [Faire (5)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
+[Amazon (320)](../companies/amazon.md) · [Uber (217)](../companies/uber.md) · [DoorDash (107)](../companies/doordash.md) · [Airbnb (78)](../companies/airbnb.md) · [Ebay (45)](../companies/ebay.md) · [Lyft (43)](../companies/lyft.md) · [Instacart (38)](../companies/instacart.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Shopify (25)](../companies/shopify.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Whatnot (17)](../companies/whatnot.md) · [Faire (5)](../companies/faire.md) · [Stubhub (3)](../companies/stubhub.md)
 
 <sub>14 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,17 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 527 | 59% | ██████████████ | 63 |
+| [Algorithm](../formats/algorithm.md) | 525 | 59% | ██████████████ | 63 |
 | [System Design](../formats/system-design.md) | 166 | 19% | ████ | 11 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 120 | 13% | ███ | 14 |
 | [SQL](../formats/sql.md) | 64 | 7% | ██ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 13 | 1% | █ | 1 |
+| [AI Coding](../formats/ai-coding.md) | 14 | 2% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **121 / 589 / 180**, over the rows the catalog has graded. 89 of the 890 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **120 / 588 / 181**, over the rows the catalog has graded. 89 of the 889 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **530 questions in this cut that carry a topic label** (60% of it):
+Of the **527 questions in this cut that carry a topic label** (59% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -37,17 +37,17 @@ Of the **530 questions in this cut that carry a topic label** (60% of it):
 | `hashing` | 83 | 16% | ███████████ |
 | `strings` | 69 | 13% | █████████ |
 | `greedy` | 47 | 9% | ██████ |
-| `dynamic-programming` | 45 | 8% | ██████ |
+| `dynamic-programming` | 45 | 9% | ██████ |
 | `sorting` | 42 | 8% | ██████ |
 | `matrix` | 35 | 7% | █████ |
-| `trees` | 35 | 7% | █████ |
-| `math` | 31 | 6% | ████ |
+| `trees` | 34 | 6% | █████ |
+| `math` | 30 | 6% | ████ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
 
 ## Asked here in the last 90 days
 
-**102 sightings** across this cut. Newest first.
+**101 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -58,13 +58,13 @@ Of the **530 questions in this cut that carry a topic label** (60% of it):
 | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | Amazon | System Design | Sep 14, 2026 |
 | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Amazon | Algorithm | Sep 14, 2026 |
 | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Amazon | Algorithm | Sep 14, 2026 |
-| [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Amazon | Algorithm | Sep 14, 2026 |
 | [Design a Grocery-Ordering Backend with Reliable Inventory Reservations](https://trueinterview.io/questions/design-a-grocery-ordering-backend-with-reliable-inventory-reservations) | Instacart | System Design | Sep 11, 2026 |
 | [Make a Variable Resolver Safe for Production Use](https://trueinterview.io/questions/make-a-variable-resolver-safe-for-production-use) | Instacart | System Design | Sep 11, 2026 |
 | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | Amazon | System Design | Sep 11, 2026 |
 | [Specify the Lowest Price Across Percentage and Buy-X-Get-Y Discounts](https://trueinterview.io/questions/specify-the-lowest-price-across-percentage-and-buy-x-get-y-discounts) | Instacart | System Design | Sep 11, 2026 |
+| [Build an Order-Exception Microservice with Explicit Refund Policies](https://trueinterview.io/questions/build-an-order-exception-microservice-with-explicit-refund-policies) | DoorDash | Algorithm | Sep 10, 2026 |
 
-<sub>90 more in this window are in the table below.</sub>
+<sub>89 more in this window are in the table below.</sub>
 
 ---
 
@@ -80,7 +80,6 @@ Of the **530 questions in this cut that carry a topic label** (60% of it):
 | **Amazon** | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | Medium | 🆕 Sep 20, 2026 |
 | **Instacart** | [Calculate Inventory Purchases with Buy-X-Get-Y-Free Coupons](https://trueinterview.io/questions/calculate-inventory-purchases-with-buy-x-get-y-free-coupons) | Medium | 🆕 Sep 18, 2026 |
 | **DoorDash** | [Handle Upstream Failures in a Payment-Calculation Service](https://trueinterview.io/questions/handle-upstream-failures-in-a-payment-calculation-service) | Medium | 🆕 Sep 16, 2026 |
-| **Amazon** | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Medium | 🆕 Sep 14, 2026 |
 | **Amazon** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | Hard | 🆕 Sep 14, 2026 |
@@ -242,7 +241,7 @@ Of the **530 questions in this cut that carry a topic label** (60% of it):
 | **Google / Affirm / Uber** | [Evaluate String Expression](https://trueinterview.io/questions/nested-function-expression-evaluator) | Medium | Jun 10, 2026 |
 | **Amazon** | [Minimum Redistribution Cost](https://trueinterview.io/questions/min-redistribution-cost-ring) | Hard | Jun 09, 2026 |
 | **Uber / Pinterest** | [Bus Routes (LC 815)](https://trueinterview.io/questions/phone-screen-bus-routes) | Hard | Jun 08, 2026 |
-| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Medium | Jun 08, 2026 |
+| **Uber / Apple / Google** | [Number of Islands II](https://trueinterview.io/questions/6c51644c-7ef3-5f36-910b-21a4fffc800d) | Hard | Jun 08, 2026 |
 | **Apple / Amazon / ByteDance / Google / LinkedIn / Microsoft / Pinduoduo / Uber** | [Top K Frequent Elements](https://trueinterview.io/questions/2acc6b8b-bbda-51ad-871f-96b08b6bae47) | Easy | Jun 08, 2026 |
 | **ByteDance / Amazon / Ebay** | [Print Execution Order in a DAG and Detect Cycles](https://trueinterview.io/questions/408b147f-c3d9-554c-ab3b-2b07e657b14a) | Medium | Jun 06, 2026 |
 | **ByteDance / Amazon** | [Course Schedule and Topological Sort on a Directed Graph](https://trueinterview.io/questions/course-schedule-topo-sort) | Medium | Jun 06, 2026 |
@@ -326,5 +325,6 @@ Of the **530 questions in this cut that carry a topic label** (60% of it):
 | **Uber** | [Strictly Convex Function Minimum](https://trueinterview.io/questions/strictly-convex-function-minimum) | Medium | May 2026 |
 | **Uber** | [Daily Puzzle / Submission Scoring](https://trueinterview.io/questions/onsite-sd-puzzle-scoring) | Easy | Apr 30, 2026 |
 | **Amazon / Pinterest** | [Search / Ranking / Experimentation](https://trueinterview.io/questions/as-ml-system-design-search-ranking) | Medium | Apr 29, 2026 |
+| **DoorDash** | [Code Craft: Nearest Destination on 2D Grid (Multi-Source BFS)](https://trueinterview.io/questions/code-craft-multi-source-bfs-grid) | Medium | Apr 29, 2026 |
 
 <sub>Page 1 of 4 · [Page 2 →](ecommerce-marketplace-2.md)</sub>

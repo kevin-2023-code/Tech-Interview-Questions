@@ -2,7 +2,7 @@
 
 # 🎮 Gaming & interactive — interview & OA questions
 
-**84 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
+**86 questions** reported across the **1 Gaming & interactive employer** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Roblox (84)](../companies/roblox.md)
+[Roblox (86)](../companies/roblox.md)
 
 <sub>1 employer. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,16 +18,17 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 48 | 57% | ██████████████ | 10 |
-| [System Design](../formats/system-design.md) | 25 | 30% | ███████ | 3 |
+| [Algorithm](../formats/algorithm.md) | 48 | 56% | ██████████████ | 10 |
+| [System Design](../formats/system-design.md) | 26 | 30% | ████████ | 3 |
 | [SQL](../formats/sql.md) | 6 | 7% | ██ | 0 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 5 | 6% | █ | 2 |
+| [AI Coding](../formats/ai-coding.md) | 1 | 1% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **16 / 50 / 18**, over the rows the catalog has graded. 15 of the 84 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **16 / 52 / 18**, over the rows the catalog has graded. 15 of the 86 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **48 questions in this cut that carry a topic label** (57% of it):
+Of the **48 questions in this cut that carry a topic label** (56% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -76,6 +77,7 @@ Of the **48 questions in this cut that carry a topic label** (57% of it):
 | **Roblox** | [Fixed-Size Window Target Counting](https://trueinterview.io/questions/fixed-size-window-target-counting) | Easy | May 19, 2026 |
 | **Robinhood / Roblox** | [Photo Album System Design](https://trueinterview.io/questions/photo-album-frontend-design) | Medium | May 09, 2026 |
 | **Roblox** | [Phone Battery Discharge Scheduling](https://trueinterview.io/questions/phone-battery-discharge-scheduling) | Medium | May 09, 2026 |
+| **Roblox / Robinhood** | [Photo Album App](https://trueinterview.io/questions/frontend-system-design-photo-album-app) | Medium | May 07, 2026 |
 | **Roblox / Atlassian / Okta / Ramp / Snapchat** | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Medium | May 2026 |
 | **Roblox** | [Game Genre Classification](https://trueinterview.io/questions/game-genre-classification) | Medium | Apr 18, 2026 |
 | **Roblox** | [Design Real-time Like Interation System](https://trueinterview.io/questions/design-like-unlike-favorite-system) | Medium | Apr 13, 2026 |
@@ -140,6 +142,7 @@ Of the **48 questions in this cut that carry a topic label** (57% of it):
 | **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
 | **Amazon / Datadog / DoorDash / Google / LinkedIn / Rippling / Roblox / Snapchat / Stripe** | [Design Metrics System](https://trueinterview.io/questions/ff47cb77-48e6-495a-b78e-84121502d66b) | Hard | — |
 | **Roblox** | [Rate Limit by Multiple Request Fields (Per-Field / Multi-Dimensional)](https://trueinterview.io/questions/e2d79c2d-ac40-4ca5-9aa3-5cf438f26893) | Medium | — |
+| **Roblox** | [Build an Image Feed (Infinite Scroll + Offline Support + Testing)](https://trueinterview.io/questions/e2867a7a-4237-432e-be98-b694a3f3ca9e) | Medium | — |
 | **Uber / Amazon / Apple / Databricks / Meta / OKX / Roblox** | [Group Anagrams](https://trueinterview.io/questions/5106ce59-2f3a-542f-822a-dd10da487424) | Medium | — |
 | **Roblox** | [Realtime Bot IP Detection](https://trueinterview.io/questions/a974780e-276a-4c7d-8b1b-72b87f5c1b12) | Easy | — |
 | **Roblox** | [Customized Programming Challenge for Roblox Business](https://trueinterview.io/questions/a391376f-4a36-466b-8e9a-3e9d95d82511) | Easy | — |

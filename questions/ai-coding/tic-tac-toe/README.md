@@ -14,103 +14,49 @@
 
 ## Tic Tac Toe
 
-**Medium** · 3 phases · TypeScript, no dependencies · phone screen
+**Easy** · build from a spec · Kotlin (Android) or TypeScript (React Native) · phone screen
 
-Build a single-screen tic tac toe mini-game, then handle the small follow-up requirements the interviewer keeps adding once it works. In this workspace the follow-ups are already folded in: the board is **N x N and K in a row wins**, there is undo and redo, the winning run gets a line drawn through it, a computer opponent sits behind a "Hint" button, and on a 100 x 100 board it still has to feel instant.
-
-Suggested time box: 45 to 60 minutes (Phase 1 about 10, Phase 2 about 25, Phase 3 about 15). AI assistance is fine, but be ready to explain every line you keep.
+Build a single-screen tic tac toe mini-game. That is the whole prompt in this Mobile Engineer phone screen; once the base game works, the interviewer adds several small follow-up requirements, one at a time. The follow-ups are not known in advance, so this workspace pins down the base game every follow-up builds on and grades it with conformance tests. Suggested time box: about 45 minutes.
 
 #### The game
 
-- The default board is the classic 3 x 3, three in a row to win; a new round can reshape it to any N x N with a win length K.
-- `X` always moves first and the players alternate; a mark may only go on an empty square.
-- A player wins with K marks in an unbroken line along a row, a column or either diagonal. If every square is taken and nobody has won, the round is a draw.
-- Once a round is decided no further moves are accepted.
-- The screen shows the board, whose turn it is while the round is live, and `X wins` / `O wins` / `Draw` when it ends. "New round" clears the board and its history and keeps the scoreboard.
+1. The board is 3 x 3; squares are numbered 0 to 8 row by row.
+2. `X` moves first and the players alternate. Whose turn it is follows from the board alone.
+3. Tapping a square that already holds a mark changes nothing.
+4. Three of one player's marks in a row, a column or either diagonal win, and the round is over.
+5. A full board with no line is a draw. A ninth move that completes a line is a win, not a draw.
+6. After the round is over, taps change nothing.
+7. A square number outside 0..8 is a programming error and throws.
+8. Playing a move never modifies the state it was given; it returns a new one (what Compose, SwiftUI and React Native need to notice a change and redraw).
+9. "New game" starts an empty board with `X` to move.
 
-For example, on the 3 x 3 board, `X` top-left, `O` center, `X` top-middle, `O` bottom-right, `X` top-right is a win for `X` along the top row.
+#### The interface
 
-#### How the screen is put together
+Implement four functions in one file, `kotlin/src/tictactoe/Game.kt` or `typescript/src/game.ts`:
 
-`app/` owns no logic. The state lives in one reducer, the rules live in one pure module, and everything the screen draws (every square, label and disabled button) comes out of one function, `buildViewModel`:
+| function | returns |
+|---|---|
+| `newGame()` | the starting state |
+| `play(state, index)` | the state after the player to move taps square `index` |
+| `status(state)` | in progress (and who moves next), won (and by whom), or draw |
+| `screen(state)` | what the single screen shows: nine squares, each with a label (`"X"`, `"O"` or empty) and whether it can be tapped, plus a status line `"X's turn"`, `"O wins"` or `"Draw"` |
 
-```
-                                    src/board.ts   the grid: bounds, axes, runs
-   app/app.ts  --dispatch(action)--> src/store.ts   the reducer: one GameState
-      ^                              src/game.ts    the rules: who won, what to play
-      |                              src/view.ts    state -> ViewModel (what to draw)
-      +------------- ViewModel -----------+
-```
+A square can be tapped exactly when it is empty and the round is still live. The view itself (a Composable, a SwiftUI view or a React Native component) is a thin function of `screen(state)` that forwards taps to `play`.
 
-That split is what the phases grade, and it is why the whole game can be exercised from Node without a browser. `app/app.ts` is the reference wiring that renders the snapshot; read it to see exactly how your code is called. Rendering it in a browser needs a bundler, but the graded phases need nothing at all.
+#### Example
+
+Taps `0, 4, 1, 8, 2` give `X` the top row: the status reads `X wins` and every square is disabled. Taps `0, 1, 2, 4, 3, 5, 7, 6, 8` fill the board with no line: `Draw`. Taps `0, 1, 2, 3, 4, 5, 7, 6, 8` fill the board too, but the last move completes the diagonal 0-4-8, so `X` wins.
 
 #### What is in the workspace
 
-```
-src/
-  types.ts      the data model + the render contract (yours to widen)
-  board.ts      the grid: indexOf, inBounds, DIRECTIONS, countRun   <- 2 bugs
-  store.ts      the reducer: play, undo, redo, new round, scores    <- 1 bug
-  game.ts       findOutcome + chooseAiMove                          <- Phase 2, then Phase 3
-  view.ts       buildViewModel: the screen as one snapshot          <- Phase 2
-app/
-  app.ts        the screen: dispatch, view model, draw              <- read this
-  index.html    the markup it hangs on
-  styles.css
-main.ts         plays a round on the console
-tests/          one suite per phase; do not edit them
-```
+- `SPEC.md`: the rules, the interface for both languages, three worked examples, what is out of scope.
+- `kotlin/` and `typescript/`: an empty skeleton and a 15-test conformance suite per track (plain Kotlin `main`; `node:test`).
+- `run_tests.py`: runs one or both tracks, offline, with no installs (`python run_tests.py --lang kotlin`).
+- `answer/`: a worked answer for both tracks. Do not open it until you are done.
 
-#### Phase 1 - fix the bugs (about 10 min)
+#### What is evaluated
 
-There are exactly **3 bugs**: **two in `src/board.ts`** and **one in `src/store.ts`**. Every function's documented behaviour is right; the code under it does not always agree.
-
-Symptoms, if you want to reproduce them before reading the tests: a row of three that ends at the right-hand edge can be "completed" by a mark at the start of the row below; a genuine three in a row down the anti-diagonal is not a win at all; and a move played after an undo leaves the undone move waiting, so Redo drops a mark from a game nobody is playing any more.
-
-`src/game.ts` is a placeholder during Phase 1 that reports every position as still being played, which is why nothing can be won yet. The Phase 1 tests do not depend on it.
-
-```
-node --test tests/board.test.ts tests/store.test.ts
-```
-
-#### Phase 2 - implement the rules and the render layer (about 25 min)
-
-Two files, three functions; their docstrings are the contract.
-
-- `src/game.ts` - `findOutcome(position)`: has anyone made `winLength` in a row, who, and which squares. `chooseAiMove(position)`: win if you can, block if you must, otherwise take the middle.
-- `src/view.ts` - `buildViewModel(state)`: the whole screen as one immutable snapshot - squares with their marks and flags, the status line, the winning run, whether undo and redo are live, and the scoreboard.
-
-```
-node --test tests/game.test.ts tests/view.test.ts
-node main.ts          # the acceptance script, printed
-```
-
-#### Phase 3 - hold up on a big board (about 15 min)
-
-The same screen on a gomoku board: 100 x 100, five in a row to win, and `findOutcome` runs on **every play, every undo and every redo**. A Phase 2 answer that decides "has anybody won?" by reading all 10,000 squares again makes the board crawl.
-
-```
-node --test tests/performance.test.ts
-```
-
-There are two gates, both on wall-clock time: playing a board out to the last square, and walking the history back and forth over a full board. The header of the test explains what the brute force costs and how the budgets were sized.
-
-#### Running everything
-
-```
-node --test "tests/*.test.ts"     # all five suites
-node main.ts                      # a round on the console
-```
-
-Node 22.18 or newer runs the TypeScript directly. No dependencies, no install, no network.
-
-#### Grading
-
-- All three gates green with the tests unedited.
-- Fixes address the cause, not the failing assertion; no special cases shaped like a test.
-- The split holds: state stays in the reducer, the rules stay pure, the screen stays dumb.
-- No `any`; the types say what the data is.
-- For each bug, you can explain why it produced the symptom it did.
+All conformance tests green on your track; a state the UI can observe (no mutation); the rules kept out of the view; and how easily your design absorbs the interviewer's follow-ups.
 
 ## Hints
 

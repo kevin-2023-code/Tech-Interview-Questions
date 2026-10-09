@@ -80,6 +80,12 @@ Constraints:
 - The function must maintain the invariant that after each order the fractional inventory is strictly less than 100 (i.e., `amount < 100`).
 - The returned inventory must be sorted by symbol.
 
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Extend the solution so that it can also output the position snapshot after each operation, not just the final inventory.
+
 ## Hints
 
 <details>

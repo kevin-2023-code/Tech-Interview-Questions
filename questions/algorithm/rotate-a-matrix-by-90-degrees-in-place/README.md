@@ -29,6 +29,17 @@ Requirements:
 - `1 <= N <= 200`
 - Every matrix value can be represented by a signed 32-bit integer.
 
+### Example (as reported)
+
+```text
+Input:
+1
+5
+
+Output:
+5
+```
+
 ### Example
 **Input**
 
@@ -66,6 +77,12 @@ The bottom row becomes the leftmost column, producing a clockwise quarter-turn.
 ```
 
 A matrix containing one element remains unchanged after rotation.
+
+## Follow-ups
+
+Extensions the interviewer raised after the main task:
+
+- Rotate the matrix by an arbitrary angle, and clarify how to represent non-integer output coordinates, how to resample pixels, and what rotation center and output bounds to use.
 
 ## Hints
 

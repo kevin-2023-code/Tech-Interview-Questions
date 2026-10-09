@@ -2,7 +2,7 @@
 
 # System Design interview & OA questions
 
-**699 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
+**700 questions** in the System Design format. Open one to practise it on [TrueInterview](https://trueinterview.io/problems?type=system-design).
 
 [← All formats](README.md) · [← Question bank](../README.md)
 
@@ -10,6 +10,7 @@
 
 | Company | Question | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
+| **Snowflake** | [Job Scheduler with Cron / Pause / Resume](https://trueinterview.io/questions/job-scheduler-cron-pause-resume) | Hard | Apr 20, 2026 |
 | **Affirm** | [Design Installment-Loan Payment Processing](https://trueinterview.io/questions/design-installment-loan-payment-processing) | Medium | Apr 19, 2026 |
 | **OpenAI** | [Design an Agent Harness and Evaluation System](https://trueinterview.io/questions/design-an-agent-harness-and-evaluation-system) | Hard | Apr 19, 2026 |
 | **Microsoft** | [Design a Product Search System](https://trueinterview.io/questions/design-a-product-search-system) | Hard | Apr 18, 2026 |
@@ -259,6 +260,5 @@
 | **Moveworks** | [Design a car rental booking system](https://trueinterview.io/questions/design-a-car-rental-booking-system) | Hard | Dec 15, 2025 |
 | **Optiver** | [Low-Latency Trading System Design](https://trueinterview.io/questions/trading-system-design) | Hard | Dec 13, 2025 |
 | **Uber** | [Measure feature impact with switchback, PSM, and CACE](https://trueinterview.io/questions/measure-feature-impact-with-switchback-psm-and-cace) | Hard | Dec 11, 2025 |
-| **ByteDance / Affirm / Expedia / Google / Microsoft AI / OpenAI / Robinhood / Roblox / Stripe / Yelp** | [Design Payment System](https://trueinterview.io/questions/payment-platform-design) | Hard | Dec 10, 2025 |
 
 <sub>[← Page 1](system-design.md) · Page 2 of 3 · [Page 3 →](system-design-3.md)</sub>

@@ -22,6 +22,16 @@ Output:
 Produce true when s is a palindrome; otherwise produce false.
 ```
 
+### Example (as reported)
+
+```text
+Input:
+A man, a plan, a canal: Panama
+
+Output:
+true
+```
+
 ### Example
 ```text
 Input: Never odd, or even.

@@ -23,6 +23,19 @@
 
 ## Examples
 
+### Example (as reported)
+
+```text
+Input:
+3
+2 4 6
+3
+8 0 9
+
+Output:
+0 5 5 1
+```
+
 Input:
 
 ```

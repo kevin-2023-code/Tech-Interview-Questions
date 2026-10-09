@@ -2,7 +2,7 @@
 
 # Amazon interview process, OA & interview questions
 
-**321 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
+**320 questions** reported at Amazon · **5 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/amazon), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Amazon interviews & the free questions](amazon/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,31 +14,31 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **321** |
+| Questions tracked | **320** |
 | Most recent sighting | Sep 20, 2026 |
-| Reported in the last 90 days | 53 |
-| Most common format | [Algorithm](../formats/algorithm.md) (61% of 321) |
-| Difficulty (easy / medium / hard) | 54 / 207 / 60 |
+| Reported in the last 90 days | 52 |
+| Most common format | [Algorithm](../formats/algorithm.md) (61% of 320) |
+| Difficulty (easy / medium / hard) | 54 / 206 / 60 |
 | Free to practise | [31](../free/README.md) |
 | Guides & writeups | 5 |
 
-<sub>Counted from the 321 questions reported at Amazon. 187 of them carry a sighting date; the other 134 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 320 questions reported at Amazon. 186 of them carry a sighting date; the other 134 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **321 of 321** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **320 of 320** questions at Amazon that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 43 | ███ | [Algorithm](../formats/algorithm.md) (88%) | 19 / 17 / 7 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 153 | ██████████ | [Algorithm](../formats/algorithm.md) (75%) | 21 / 104 / 28 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 152 | ██████████ | [Algorithm](../formats/algorithm.md) (41%) | 18 / 106 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 151 | ██████████ | [Algorithm](../formats/algorithm.md) (41%) | 18 / 105 / 28 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
 ## Asked here in the last 90 days
 
-**53 sightings** in this window. Newest first.
+**52 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -47,19 +47,19 @@ Which stage each question came from, for the **321 of 321** questions at Amazon 
 | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | System Design | Hard | Onsite / virtual onsite | Sep 14, 2026 |
 | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Algorithm | Medium | Onsite / virtual onsite | Sep 14, 2026 |
 | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Algorithm | Medium | Onsite / virtual onsite | Sep 14, 2026 |
-| [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | Medium | Onsite / virtual onsite | Sep 14, 2026 |
 | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | System Design | Medium | Phone screen | Sep 11, 2026 |
 | [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency) | System Design | Hard | Phone screen | Sep 07, 2026 |
 | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | Phone screen | Sep 05, 2026 |
 | [Design a Distributed Job Scheduler with Run Logs and Exactly-Once Execution](https://trueinterview.io/questions/design-a-distributed-job-scheduler-with-run-logs-and-exactly-once-execution) | System Design | Hard | Onsite / virtual onsite | Sep 03, 2026 |
 | [Binary Array Rearrangement](https://trueinterview.io/questions/binary-array-minimum-adjacent-swaps) | Algorithm | Medium | Online assessment | Sep 02, 2026 |
 | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Object Oriented Programming | Medium | Phone screen | Sep 02, 2026 |
+| [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Algorithm | Medium | Onsite / virtual onsite | Sep 02, 2026 |
 
-<sub>41 more in this window are in the table below.</sub>
+<sub>40 more in this window are in the table below.</sub>
 
 ## What they ask about
 
-Of the **199 questions at Amazon that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **197 questions at Amazon that carry a topic label** (62% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -69,9 +69,9 @@ Of the **199 questions at Amazon that carry a topic label** (62% of them — the
 | `strings` | 21 | 11% | ███████ | Aug 19, 2026 |
 | `greedy` | 19 | 10% | ██████ | Sep 03, 2026 |
 | `sorting` | 18 | 9% | ██████ | Sep 01, 2026 |
-| `trees` | 16 | 8% | █████ | Sep 14, 2026 |
 | `dynamic-programming` | 15 | 8% | █████ | Jul 14, 2026 |
 | `heap` | 15 | 8% | █████ | Sep 14, 2026 |
+| `trees` | 15 | 8% | █████ | Aug 22, 2026 |
 | `two-pointers` | 14 | 7% | ████ | Jun 22, 2026 |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -82,7 +82,7 @@ Every recorded sighting at Amazon, by the month it was reported in — Aug 23, 2
 
 | Month | Sightings |  |
 | :-- | --: | :-- |
-| [Sep 2026](../by-month/2026-09.md) | 17 | ████████████████ |
+| [Sep 2026](../by-month/2026-09.md) | 16 | ███████████████ |
 | [Aug 2026](../by-month/2026-08.md) | 25 | ████████████████████████ |
 | [Jul 2026](../by-month/2026-07.md) | 18 | █████████████████ |
 | [Jun 2026](../by-month/2026-06.md) | 24 | ███████████████████████ |
@@ -106,10 +106,10 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | **2** | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | Medium | — | Sep 20, 2026 |
 | **3** | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Algorithm | Medium | — | Sep 14, 2026 |
 | **4** | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Algorithm | Medium | — | Sep 14, 2026 |
-| **5** | [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | Medium | — | Sep 14, 2026 |
-| **6** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | System Design | Hard | — | Sep 14, 2026 |
-| **7** | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | System Design | Medium | — | Sep 11, 2026 |
-| **8** | [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency) | System Design | Hard | — | Sep 07, 2026 |
+| **5** | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | System Design | Hard | — | Sep 14, 2026 |
+| **6** | [Predict Click Probability for Music Recommendations](https://trueinterview.io/questions/predict-click-probability-for-music-recommendations) | System Design | Medium | — | Sep 11, 2026 |
+| **7** | [Accept Notification Bursts With Low Latency](https://trueinterview.io/questions/accept-notification-bursts-with-low-latency) | System Design | Hard | — | Sep 07, 2026 |
+| **8** | [Timestamped Key-Value Store](https://trueinterview.io/questions/timestamped-key-value-store) | Algorithm | Easy | — | Sep 05, 2026 |
 
 <sub>*Also asked at* counts the other employers this same question is reported at — `—` means this one is only recorded here.</sub>
 
@@ -139,7 +139,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | :-- | :-- | :-: | :-- |
 | [Design a Kafka-Based File Watcher for Millions of Files](https://trueinterview.io/questions/design-a-kafka-based-file-watcher-for-millions-of-files) | System Design | Medium | 🆕 Sep 20, 2026 |
 | [Coordinate a Fleet of Restaurant Robots](https://trueinterview.io/questions/coordinate-a-fleet-of-restaurant-robots) | System Design | Medium | 🆕 Sep 20, 2026 |
-| [Search a Folder Hierarchy with Extensible Document Filters](https://trueinterview.io/questions/search-a-folder-hierarchy-with-extensible-document-filters) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Algorithm | Medium | 🆕 Sep 14, 2026 |
 | [Design a Distribution-Center Inventory Update Service](https://trueinterview.io/questions/design-a-distribution-center-inventory-update-service) | System Design | Hard | 🆕 Sep 14, 2026 |
@@ -387,5 +386,6 @@ The 8 questions to open first if you are preparing for Amazon, ranked by **the m
 | [Design Spotify](https://trueinterview.io/questions/design-spotify-2) | System Design | Medium | — |
 | [Design S3-like Object Storage System](https://trueinterview.io/questions/design-s3-like-object-storage-system-2) | System Design | Medium | — |
 | [Design a Library Management System](https://trueinterview.io/questions/design-a-library-management-system) | Object Oriented Programming | Medium | — |
+| [Design Unix File Search](https://trueinterview.io/questions/design-unix-file-search) | Object Oriented Programming | Hard | — |
 
 <sub>Page 1 of 2 · [Page 2 →](amazon-2.md)</sub>

@@ -2,7 +2,7 @@
 
 # 🧠 AI labs & AI infrastructure — interview & OA questions
 
-**357 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**355 questions** reported across the **15 AI labs & AI infrastructure employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[OpenAI (145)](../companies/openai.md) · [Anthropic (79)](../companies/anthropic.md) · [xAI (38)](../companies/xai.md) · [Perplexity (24)](../companies/perplexity.md) · [Scale AI (21)](../companies/scale-ai.md) · [Harvey (20)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Cursor (5)](../companies/cursor.md) · [Mercor (5)](../companies/mercor.md) · [C3 AI (4)](../companies/c3-ai.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md) · [Together AI (2)](../companies/together-ai.md)
+[OpenAI (144)](../companies/openai.md) · [Anthropic (78)](../companies/anthropic.md) · [xAI (38)](../companies/xai.md) · [Perplexity (24)](../companies/perplexity.md) · [Scale AI (21)](../companies/scale-ai.md) · [Harvey (20)](../companies/harvey.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Luma AI (6)](../companies/luma-ai.md) · [Moveworks (6)](../companies/moveworks.md) · [Cursor (5)](../companies/cursor.md) · [Mercor (5)](../companies/mercor.md) · [C3 AI (4)](../companies/c3-ai.md) · [Cohere (3)](../companies/cohere.md) · [Mistral AI (2)](../companies/mistral-ai.md) · [Together AI (2)](../companies/together-ai.md)
 
 <sub>15 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -21,10 +21,10 @@
 | [Algorithm](../formats/algorithm.md) | 145 | 41% | ██████████████ | 24 |
 | [System Design](../formats/system-design.md) | 90 | 25% | █████████ | 12 |
 | [Object Oriented Programming](../formats/object-oriented-programming.md) | 85 | 24% | ████████ | 12 |
-| [AI Coding](../formats/ai-coding.md) | 30 | 8% | ███ | 2 |
+| [AI Coding](../formats/ai-coding.md) | 28 | 8% | ███ | 2 |
 | [SQL](../formats/sql.md) | 7 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **28 / 205 / 124**, over the rows the catalog has graded. 50 of the 357 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **27 / 206 / 122**, over the rows the catalog has graded. 50 of the 355 open without a paid plan.</sub>
 
 ## What they ask about
 
@@ -35,12 +35,12 @@ Of the **153 questions in this cut that carry a topic label** (43% of it):
 | `hashing` | 31 | 20% | ████████████ |
 | `strings` | 23 | 15% | █████████ |
 | `graphs` | 18 | 12% | ███████ |
-| `greedy` | 18 | 12% | ███████ |
+| `greedy` | 17 | 11% | ███████ |
 | `math` | 17 | 11% | ███████ |
 | `sorting` | 14 | 9% | █████ |
 | `matrix` | 13 | 8% | █████ |
 | `arrays` | 11 | 7% | ████ |
-| `heap` | 10 | 7% | ████ |
+| `heap` | 11 | 7% | ████ |
 | `trees` | 8 | 5% | ███ |
 
 <sub>A question can carry more than one topic, so this column sums to more than the number of labelled questions. [Every topic across the whole bank →](../insights/topics.md)</sub>
@@ -137,7 +137,7 @@ Of the **153 questions in this cut that carry a topic label** (43% of it):
 | **Anthropic** | [Repair Bootloader Program](https://trueinterview.io/questions/61e8a96a-9a4c-4360-8605-6dc9dced96a8) | Medium | Jun 15, 2026 |
 | **Anthropic** | [Bank System with Transfer/Accept and Merge](https://trueinterview.io/questions/oa-bank-system) | Medium | Jun 15, 2026 |
 | **Anthropic** | [Design AI Prompt Playground](https://trueinterview.io/questions/prompt-playground-system-design) | Medium | Jun 15, 2026 |
-| **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Hard | Jun 15, 2026 |
+| **Anthropic** | [Agents / Coding with LLMs](https://trueinterview.io/questions/agents-coding-llm-tool-use) | Medium | Jun 15, 2026 |
 | **Perplexity / Harvey / Shopify** | [In-Memory Unix File System](https://trueinterview.io/questions/in-memory-unix-file-system) | Medium | Jun 15, 2026 |
 | **Scale AI** | [Task Processor: Dependencies and Deadlines](https://trueinterview.io/questions/task-processor-dependencies-and-deadlines) | Hard | Jun 14, 2026 |
 | **OpenAI** | [Monster Team Battle](https://trueinterview.io/questions/monster-battle-system) | Medium | Jun 12, 2026 |

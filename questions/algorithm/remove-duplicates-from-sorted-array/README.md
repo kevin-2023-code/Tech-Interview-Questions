@@ -32,6 +32,17 @@ Your implementation must satisfy all of the following:
 - `nums` is ordered non-decreasingly
 
 ## Examples
+
+### Example (as reported)
+
+```text
+Input:
+1 1 2
+
+Output:
+2
+```
+
 ### Example 1
 Input:
 
