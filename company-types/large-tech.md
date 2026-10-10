@@ -151,8 +151,8 @@ Of the **732 questions in this cut that carry a topic label** (55% of it):
 | **Scale AI** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Medium | 🆕 Aug 26, 2026 |
 | **Pinterest** | [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Hard | 🆕 Aug 26, 2026 |
 | **Pinterest** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Hard | 🆕 Aug 26, 2026 |
-| **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | 🆕 Aug 25, 2026 |
-| **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | 🆕 Aug 25, 2026 |
+| **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | Aug 25, 2026 |
+| **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | Aug 25, 2026 |
 | **OpenAI** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | Hard | Aug 24, 2026 |
 | **Anthropic** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Medium | Aug 24, 2026 |
 | **Snowflake** | [Design an Interactive Query Execution Notebook](https://trueinterview.io/questions/design-an-interactive-query-execution-notebook) | Medium | Aug 24, 2026 |

@@ -101,9 +101,9 @@
 | **Atlassian** | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Hard | 🆕 Aug 26, 2026 |
 | **Pinterest** | [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Hard | 🆕 Aug 26, 2026 |
 | **Apple** | [Sparse Matrix Multiplication (LC 311)](https://trueinterview.io/questions/sparse-matrix-multiplication) | Medium | 🆕 Aug 26, 2026 |
-| **Meta** | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Hard | 🆕 Aug 25, 2026 |
-| **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | 🆕 Aug 25, 2026 |
-| **Microsoft** | [Maximize Points by Deleting Values and Their Neighbors](https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors) | Medium | 🆕 Aug 25, 2026 |
+| **Meta** | [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Hard | Aug 25, 2026 |
+| **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | Aug 25, 2026 |
+| **Microsoft** | [Maximize Points by Deleting Values and Their Neighbors](https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors) | Medium | Aug 25, 2026 |
 | **Apple** | [Choose File Storage Tiers Using Access Predictions](https://trueinterview.io/questions/choose-file-storage-tiers-using-access-predictions) | Hard | Aug 24, 2026 |
 | **Imc** | [Choose Between Two Machines and Allocate Work from Performance Curves](https://trueinterview.io/questions/choose-between-two-machines-and-allocate-work-from-performance-curves) | Hard | Aug 24, 2026 |
 | **LinkedIn** | [Logistic Regression Debugging](https://trueinterview.io/questions/coding-logistic-regression-debugging) | Hard | Aug 24, 2026 |

@@ -147,7 +147,7 @@ The 8 questions to open first if you are preparing for Microsoft, ranked by **th
 | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Algorithm | Hard | 🆕 Aug 30, 2026 |
 | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Object Oriented Programming | Medium | 🆕 Aug 30, 2026 |
 | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Algorithm | Medium | 🆕 Aug 30, 2026 |
-| [Maximize Points by Deleting Values and Their Neighbors](https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors) | Algorithm | Medium | 🆕 Aug 25, 2026 |
+| [Maximize Points by Deleting Values and Their Neighbors](https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors) | Algorithm | Medium | Aug 25, 2026 |
 | [Multi-Key Bounded Task Executor](https://trueinterview.io/questions/multi-key-bounded-task-executor) | Object Oriented Programming | Hard | Aug 20, 2026 |
 | [Spiral Matrix (LC 54) + Follow-Ups](https://trueinterview.io/questions/spiral-matrix-traversal) | Algorithm | Medium | Aug 16, 2026 |
 | [Palindrome Linked List (LC 234) + Engineering Follow-Up](https://trueinterview.io/questions/palindrome-linked-list) | Algorithm | Medium | Aug 16, 2026 |

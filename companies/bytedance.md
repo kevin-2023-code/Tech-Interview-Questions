@@ -146,7 +146,7 @@ The 8 questions to open first if you are preparing for ByteDance, ranked by **th
 | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | System Design | Medium | 🆕 Aug 28, 2026 |
 | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | System Design | Medium | 🆕 Aug 28, 2026 |
 | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | System Design | Medium | 🆕 Aug 28, 2026 |
-| [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | Medium | 🆕 Aug 25, 2026 |
+| [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | System Design | Medium | Aug 25, 2026 |
 | [Trace and Debug Agent Tool-Call Failures](https://trueinterview.io/questions/trace-and-debug-agent-tool-call-failures) | Algorithm | Hard | Aug 23, 2026 |
 | [Enumerate All Simple Directed Paths](https://trueinterview.io/questions/enumerate-all-simple-directed-paths) | Algorithm | Medium | Aug 23, 2026 |
 | [Enumerate All Simple Directed Cycles](https://trueinterview.io/questions/enumerate-all-simple-directed-cycles) | Algorithm | Hard | Aug 23, 2026 |

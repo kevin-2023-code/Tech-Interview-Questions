@@ -110,7 +110,7 @@ Of the **376 questions in this cut that carry a topic label** (63% of it):
 | **Palantir** | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Hard | 🆕 Aug 27, 2026 |
 | **Palantir** | [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Medium | 🆕 Aug 27, 2026 |
 | **Atlassian** | [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Hard | 🆕 Aug 26, 2026 |
-| **Microsoft** | [Maximize Points by Deleting Values and Their Neighbors](https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors) | Medium | 🆕 Aug 25, 2026 |
+| **Microsoft** | [Maximize Points by Deleting Values and Their Neighbors](https://trueinterview.io/questions/maximize-points-by-deleting-values-and-their-neighbors) | Medium | Aug 25, 2026 |
 | **Salesforce** | [Minimum One-Character Word Transformations](https://trueinterview.io/questions/minimum-word-transformation-steps) | Hard | Aug 24, 2026 |
 | **Salesforce** | [Find the Celebrity](https://trueinterview.io/questions/find-the-celebrity) | Medium | Aug 24, 2026 |
 | **Tradedesk** | [Process Operations in a Timestamped In-Memory Database](https://trueinterview.io/questions/process-operations-in-a-timestamped-in-memory-database) | Hard | Aug 22, 2026 |

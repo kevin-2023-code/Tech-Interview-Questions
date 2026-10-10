@@ -124,7 +124,7 @@ Of the **527 questions in this cut that carry a topic label** (59% of it):
 | **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | 🆕 Aug 29, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
 | **Amazon / Meta** | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Easy | 🆕 Aug 27, 2026 |
-| **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | 🆕 Aug 25, 2026 |
+| **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | Aug 25, 2026 |
 | **Amazon** | [Package Weight Rearrangement](https://trueinterview.io/questions/adjacent-package-weight-rearrangement) | Medium | Aug 24, 2026 |
 | **Amazon** | [Design Faceted Product Search at Large Scale](https://trueinterview.io/questions/design-faceted-product-search-at-large-scale) | Hard | Aug 22, 2026 |
 | **Amazon** | [Design a Product Image Upload Pipeline for Sellers](https://trueinterview.io/questions/design-a-product-image-upload-pipeline-for-sellers) | Medium | Aug 22, 2026 |

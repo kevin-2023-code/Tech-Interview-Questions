@@ -94,7 +94,7 @@ Of the **200 questions in this cut that carry a topic label** (55% of it):
 | **Pinterest / Airwallex** | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | Medium | 🆕 Sep 01, 2026 |
 | **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | 🆕 Aug 31, 2026 |
 | **Coinbase** | [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Medium | 🆕 Aug 27, 2026 |
-| **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | 🆕 Aug 25, 2026 |
+| **Stripe** | [Parse and Format Arbitrarily Nested Tasks from CSV](https://trueinterview.io/questions/parse-and-format-arbitrarily-nested-tasks-from-csv) | Hard | Aug 25, 2026 |
 | **Stripe** | [Deployment Window Scheduler](https://trueinterview.io/questions/deployment-window-scheduler-oa) | Hard | Aug 24, 2026 |
 | **Stripe** | [Design a Scalable Idempotent Ledger Service](https://trueinterview.io/questions/design-a-scalable-idempotent-ledger-service) | Hard | Aug 20, 2026 |
 | **Affirm** | [Find Redeemable Offers](https://trueinterview.io/questions/find-redeemable-offers) | Hard | Aug 12, 2026 |

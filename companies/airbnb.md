@@ -139,7 +139,7 @@ The 8 questions to open first if you are preparing for Airbnb, ranked by **the m
 | [Generate Customer-Support Instructions from Company Policies](https://trueinterview.io/questions/generate-customer-support-instructions-from-company-policies) | System Design | Hard | 🆕 Sep 04, 2026 |
 | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Object Oriented Programming | Medium | 🆕 Aug 30, 2026 |
 | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Object Oriented Programming | Hard | 🆕 Aug 29, 2026 |
-| [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Object Oriented Programming | Medium | 🆕 Aug 25, 2026 |
+| [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Object Oriented Programming | Medium | Aug 25, 2026 |
 | [Matching Rental Amenities](https://trueinterview.io/questions/matching-rental-amenities) | SQL | Easy | Jul 22, 2026 |
 | [Fill Layover With Experiences](https://trueinterview.io/questions/layover-experiences-exact-fill) | Algorithm | Hard | Jun 26, 2026 |
 | [Code Review — Multi-PR Walkthrough](https://trueinterview.io/questions/code-review-multi-pr) | AI Coding | Hard | Jun 22, 2026 |

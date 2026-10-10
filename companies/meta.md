@@ -147,7 +147,7 @@ The 8 questions to open first if you are preparing for Meta, ranked by **the mos
 | [Find Values Owned Only by the Selected User](https://trueinterview.io/questions/find-values-owned-only-by-the-selected-user) | SQL | Easy | 🆕 Sep 03, 2026 |
 | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | System Design | Easy | 🆕 Aug 29, 2026 |
 | [Sort Elements by Frequency](https://trueinterview.io/questions/3486512d-d05e-42de-b149-76d9f0e11814) | Algorithm | Easy | 🆕 Aug 27, 2026 |
-| [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | 🆕 Aug 25, 2026 |
+| [Execute Dependency-Constrained Work at Scale](https://trueinterview.io/questions/execute-dependency-constrained-work-at-scale) | Algorithm | Hard | Aug 25, 2026 |
 | [Number of Islands API Variant](https://trueinterview.io/questions/number-of-islands-api-variant) | Object Oriented Programming | Medium | Aug 16, 2026 |
 | [Sum Root-to-Leaf Numbers](https://trueinterview.io/questions/486bf23e-c69a-45cc-8ef7-692688bb2648) | Algorithm | Medium | Aug 16, 2026 |
 | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Algorithm | Medium | Jul 29, 2026 |
