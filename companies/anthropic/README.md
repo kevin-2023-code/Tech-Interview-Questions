@@ -8,7 +8,7 @@ How Anthropic interviews, and the questions candidates reported there. Free ques
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [78](../anthropic.md) |
+| Questions reported | [79](../anthropic.md) |
 | Free to read here | 10 |
 | Interview-process guides | 6 |
 | Other guides | 0 |
@@ -53,7 +53,7 @@ This guide goes deeper than the short outline on the Anthropic company page: wha
 
 ## Everything else
 
-- [All 78 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 79 questions reported at Anthropic](../anthropic.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Anthropic question on TrueInterview](https://trueinterview.io/problems/company/anthropic).
 
 ---

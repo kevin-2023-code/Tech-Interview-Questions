@@ -2,7 +2,7 @@
 
 # Expedia interview process, OA & interview questions
 
-**33 questions** reported at Expedia · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/expedia), judged server-side on the algorithm, low-level-design and SQL formats.
+**34 questions** reported at Expedia · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/expedia), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Expedia interviews & the free questions](expedia/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,25 +14,25 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **33** |
+| Questions tracked | **34** |
 | Most recent sighting | Jun 28, 2026 |
 | Reported in the last 90 days | 0 |
-| Most common format | [Algorithm](../formats/algorithm.md) (79% of 33) |
-| Difficulty (easy / medium / hard) | 2 / 22 / 9 |
+| Most common format | [Algorithm](../formats/algorithm.md) (76% of 34) |
+| Difficulty (easy / medium / hard) | 2 / 23 / 9 |
 | Free to practise | [5](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 33 questions reported at Expedia. 13 of them carry a sighting date; the other 20 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 34 questions reported at Expedia. 13 of them carry a sighting date; the other 21 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **33 of 33** questions at Expedia that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **34 of 34** questions at Expedia that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 7 | ████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (89%) | 0 / 13 / 6 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 10 | █████ | [System Design](../formats/system-design.md) (60%) | 1 / 7 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 11 | ██████ | [System Design](../formats/system-design.md) (55%) | 1 / 8 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -42,7 +42,7 @@ Which stage each question came from, for the **33 of 33** questions at Expedia t
 
 ## What they ask about
 
-Of the **25 questions at Expedia that carry a topic label** (76% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **25 questions at Expedia that carry a topic label** (74% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -135,6 +135,7 @@ The 8 questions to open first if you are preparing for Expedia, ranked by **the 
 | [Scattered Palindrome Substring Count (Swappable to Palindrome)](https://trueinterview.io/questions/8e6b85b8-933e-4aee-a502-746ffb820b1d) | Algorithm | Hard | — |
 | [Parse a JSON string and extract required information (open-ended)](https://trueinterview.io/questions/8a6ac321-b88a-4686-abf2-851967bbfbce) | Algorithm | Medium | — |
 | [Restore String with Target Digit Sum](https://trueinterview.io/questions/6f5c41ce-ccde-4325-8fb5-cfeae1a8a82f) | Algorithm | Medium | — |
+| [Implement a Basic Tokenizer and Train a Simple LLM-like Model in a Notebook Case Study](https://trueinterview.io/questions/3fce3482-1d0c-4a6c-b134-e4ac6a07601b) | AI Coding | Medium | — |
 | [Count Strongly Connected Components Using Kosaraju's Algorithm](https://trueinterview.io/questions/39c75406-4316-5f40-ac80-844dccac3ba6) | Algorithm | Medium | — |
 | [Beautiful Towers II](https://trueinterview.io/questions/34491db6-0231-5d69-ac89-adc7b4b9f6e9) | Algorithm | Hard | — |
 | [Find Round-Trip Flight Itineraries](https://trueinterview.io/questions/33618d05-1e81-5f3a-a11c-df55a693eaa0) | Algorithm | Medium | — |

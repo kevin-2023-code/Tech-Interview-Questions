@@ -8,7 +8,7 @@ How Salesforce interviews, and the questions candidates reported there. Free que
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [87](../salesforce.md) |
+| Questions reported | [88](../salesforce.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -47,7 +47,7 @@ Onsite coding rounds mix classic and pragmatic problems. The LFU cache with O(1)
 
 ## Everything else
 
-- [All 87 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 88 questions reported at Salesforce](../salesforce.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Salesforce question on TrueInterview](https://trueinterview.io/problems/company/salesforce).
 
 ---

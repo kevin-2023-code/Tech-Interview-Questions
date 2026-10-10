@@ -17,7 +17,7 @@
 | Questions tracked | **45** |
 | Most recent sighting | Aug 21, 2026 |
 | Reported in the last 90 days | 2 |
-| Most common format | [Algorithm](../formats/algorithm.md) (69% of 45) |
+| Most common format | [Algorithm](../formats/algorithm.md) (67% of 45) |
 | Difficulty (easy / medium / hard) | 9 / 26 / 10 |
 | Free to practise | [7](../free/README.md) |
 | Guides & writeups | 1 |
@@ -30,9 +30,9 @@ Which stage each question came from, for the **45 of 45** questions at Ebay that
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 13 | ██████ | [Algorithm](../formats/algorithm.md) (85%) | 6 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 20 | ██████████ | [Algorithm](../formats/algorithm.md) (85%) | 1 / 16 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 17 | ████████ | [System Design](../formats/system-design.md) (47%) | 2 / 9 / 6 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Online assessment** | 13 | ███████ | [Algorithm](../formats/algorithm.md) (85%) | 6 / 6 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Phone screen** | 19 | ██████████ | [Algorithm](../formats/algorithm.md) (84%) | 1 / 16 / 2 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Onsite / virtual onsite** | 18 | █████████ | [System Design](../formats/system-design.md) (44%) | 2 / 9 / 7 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -144,7 +144,7 @@ The 8 questions to open first if you are preparing for Ebay, ranked by **the mos
 | [Number of Islands with Diagonal Connectivity](https://trueinterview.io/questions/305f8037-56c2-58a9-bf48-7aa7f999f65a) | Algorithm | Medium | — |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
 | [Top-K Co-Occurring Products in Sessions (Recommendation by Frequency)](https://trueinterview.io/questions/e4a92e49-cff6-43ee-9862-1c0391db7357) | Algorithm | Medium | — |
-| [Build a Simplified Image–Text Retrieval Training and Evaluation Pipeline](https://trueinterview.io/questions/be7ec2df-18b0-4e87-bfaf-33dccc991ab2) | Algorithm | Hard | — |
+| [Build a Simplified Image–Text Retrieval Training and Evaluation Pipeline](https://trueinterview.io/questions/be7ec2df-18b0-4e87-bfaf-33dccc991ab2) | AI Coding | Hard | — |
 | [Assign Random Ads](https://trueinterview.io/questions/b7779728-93e1-48e7-86ec-9b9ecbcd40c1) | Algorithm | Medium | — |
 | [Unique Word Abbreviation](https://trueinterview.io/questions/55c4e4d1-3f81-4af8-ae7a-53d0a4c2699e) | Object Oriented Programming | Easy | — |
 | [Validate US Phone Numbers with Regular Expression](https://trueinterview.io/questions/1714f199-0812-421e-8e1a-edb4b9379eb8) | Algorithm | Easy | — |

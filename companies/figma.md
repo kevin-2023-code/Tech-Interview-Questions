@@ -2,7 +2,7 @@
 
 # Figma interview process, OA & interview questions
 
-**22 questions** reported at Figma · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
+**23 questions** reported at Figma · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/figma), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Figma interviews & the free questions](figma/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,24 +14,24 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **22** |
+| Questions tracked | **23** |
 | Most recent sighting | Aug 12, 2026 |
 | Reported in the last 90 days | 6 |
-| Most common format | [Algorithm](../formats/algorithm.md) (41% of 22) |
-| Difficulty (easy / medium / hard) | 3 / 15 / 4 |
-| Free to practise | [3](../free/README.md) |
+| Most common format | [Algorithm](../formats/algorithm.md) (39% of 23) |
+| Difficulty (easy / medium / hard) | 3 / 16 / 4 |
+| Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 22 questions reported at Figma. 18 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 23 questions reported at Figma. 19 of them carry a sighting date; the other 4 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **22 of 22** questions at Figma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **23 of 23** questions at Figma that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 1 | █ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 12 | ████████ | [Algorithm](../formats/algorithm.md) (58%) | 0 / 9 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 13 | ████████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 10 / 3 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 16 | ██████████ | [System Design](../formats/system-design.md) (56%) | 2 / 12 / 2 | The loop itself: several back-to-back rounds, on site or over video. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -51,7 +51,7 @@ Which stage each question came from, for the **22 of 22** questions at Figma tha
 
 ## What they ask about
 
-Of the **13 questions at Figma that carry a topic label** (59% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **13 questions at Figma that carry a topic label** (57% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -78,6 +78,7 @@ Every recorded sighting at Figma, by the month it was reported in — May 28, 20
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████ |
 | [Mar 2026](../by-month/2026-03.md) | 3 | ████████████ |
 | [Jan 2026](../by-month/2026-01.md) | 2 | ████████ |
+| [Dec 2024](../by-month/2024-12.md) | 1 | ████ |
 | [May 2024](../by-month/2024-05.md) | 1 | ████ |
 
 ## Start here
@@ -132,6 +133,7 @@ The 8 questions to open first if you are preparing for Figma, ranked by **the mo
 | [Data Engineer Screen — SQL Collaborator Model + IPv4 Validation](https://trueinterview.io/questions/data-engineer-sql-collaborator-ip-validation) | Algorithm | Medium | Mar 03, 2026 |
 | [Write SQL for first share and closest collaborator](https://trueinterview.io/questions/write-sql-for-first-share-and-closest-collaborator) | SQL | Hard | Jan 20, 2026 |
 | [Validate an IPv4 address string](https://trueinterview.io/questions/validate-an-ipv4-address-string) | Algorithm | Medium | Jan 20, 2026 |
+| [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction) | AI Coding | Medium | Dec 24, 2024 |
 | [Template & Instance System with Update Propagation](https://trueinterview.io/questions/template-instance-propagation-system) | System Design | Medium | May 28, 2024 |
 | [Design A Feed Recommendation System](https://trueinterview.io/questions/design-a-feed-recommendation-system-2) | System Design | Hard | — |
 | [Path Existence in Directed and Undirected Graphs with a Blocked Edge](https://trueinterview.io/questions/e7f7ba6c-551c-5ef7-9ccc-04f30e4aa149) | Algorithm | Medium | — |

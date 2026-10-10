@@ -2,7 +2,7 @@
 
 # Okta interview process, OA & interview questions
 
-**11 questions** reported at Okta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
+**12 questions** reported at Okta · **1 writeup**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/okta), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Okta interviews & the free questions](okta/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,23 +14,23 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **11** |
+| Questions tracked | **12** |
 | Most recent sighting | Aug 20, 2026 |
 | Reported in the last 90 days | 1 |
-| Most common format | [Algorithm](../formats/algorithm.md) (82% of 11) |
-| Difficulty (easy / medium / hard) | 3 / 8 / 0 |
+| Most common format | [Algorithm](../formats/algorithm.md) (75% of 12) |
+| Difficulty (easy / medium / hard) | 3 / 8 / 1 |
 | Free to practise | [2](../free/README.md) |
 | Guides & writeups | 1 |
 
-<sub>Counted from the 11 questions reported at Okta. 10 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 12 questions reported at Okta. 11 of them carry a sighting date; the other 1 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **11 of 11** questions at Okta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **12 of 12** questions at Okta that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 1 | ██ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 0 / 0 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 2 | ███ | [AI Coding](../formats/ai-coding.md) (50%) | 1 / 0 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (100%) | 1 / 5 / 0 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 6 | ██████████ | [Algorithm](../formats/algorithm.md) (67%) | 2 / 4 / 0 | The loop itself: several back-to-back rounds, on site or over video. |
 
@@ -46,7 +46,7 @@ Which stage each question came from, for the **11 of 11** questions at Okta that
 
 ## What they ask about
 
-Of the **8 questions at Okta that carry a topic label** (73% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **8 questions at Okta that carry a topic label** (67% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -70,7 +70,7 @@ Every recorded sighting at Okta, by the month it was reported in — Nov 05, 202
 | [Jun 2026](../by-month/2026-06.md) | 4 | ████████████████████████ |
 | [May 2026](../by-month/2026-05.md) | 1 | ██████ |
 | [Apr 2026](../by-month/2026-04.md) | 2 | ████████████ |
-| [Nov 2025](../by-month/2025-11.md) | 2 | ████████████ |
+| [Nov 2025](../by-month/2025-11.md) | 3 | ██████████████████ |
 
 ## Start here
 
@@ -115,6 +115,7 @@ The 8 questions to open first if you are preparing for Okta, ranked by **the mos
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Python + SQL Technical Round (Typing, Debugging, Joins)](https://trueinterview.io/questions/python-sql-debugging-round) | Algorithm | Easy | Apr 20, 2026 |
 | [Validate IPv4 Addresses in an Array](https://trueinterview.io/questions/ipv4-validation) | Algorithm | Easy | Apr 20, 2026 |
+| [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server) | AI Coding | Hard | Nov 22, 2025 |
 | [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3) | Algorithm | Medium | Nov 05, 2025 |
 | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | Algorithm | Medium | Nov 05, 2025 |
 | [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Algorithm | Easy | — |

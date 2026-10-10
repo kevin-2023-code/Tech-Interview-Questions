@@ -8,7 +8,7 @@ How Okta interviews, and the questions candidates reported there. Free questions
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [11](../okta.md) |
+| Questions reported | [12](../okta.md) |
 | Free to read here | 2 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -43,7 +43,7 @@ Okta's loop is more conversational than most security-company processes, and the
 
 ## Everything else
 
-- [All 11 questions reported at Okta](../okta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 12 questions reported at Okta](../okta.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Okta question on TrueInterview](https://trueinterview.io/problems/company/okta).
 
 ---

@@ -2,7 +2,7 @@
 
 # Free Object Oriented Programming questions
 
-**62 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**61 Object Oriented Programming questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -51,7 +51,6 @@
 | [Implement a Generic Stack in C++](https://trueinterview.io/questions/49bddf67-87ec-5306-b0ec-da52376f511a) | **Arista** | Medium | — |
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](https://trueinterview.io/questions/acc18159-9911-4c70-a6ae-662f9c59eeec) | **Sigmacomputing** | Medium | — |
 | [Implement a Text Editor](https://trueinterview.io/questions/07668c03-6d78-4974-89af-e3cda62e5dd5) | **Rokt** | Medium | — |
-| [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | **Verkada** | Medium | — |
 | [Implement Game Metadata Lookups](https://trueinterview.io/questions/implement-game-metadata-lookups) | **Discord** | Medium | Apr 03, 2026 |
 | [Key-Value Store with getLast](https://trueinterview.io/questions/key-value-store-with-getlast) | **SoFi** | Medium | Jul 14, 2025 |
 | [Kubernetes Controller for Pod Balance](https://trueinterview.io/questions/kubernetes-controller-pod-balance) | **IBM** | Medium | Aug 25, 2025 |

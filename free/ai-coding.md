@@ -2,7 +2,7 @@
 
 # Free AI Coding questions
 
-**7 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
+**9 AI Coding questions** that open without a paid plan — full statement, editor and judged verdict. Easiest first.
 
 [← Free questions](README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,9 @@
 | :-- | :-- | :-: | :-- |
 | [Tic Tac Toe](https://trueinterview.io/questions/tic-tac-toe) | **Ramp / Databricks / SoFi** | Easy | Jun 2025 |
 | [LRU Cache](https://trueinterview.io/questions/lru-cache) | **Apple / Amazon / Bloomberg / ByteDance / LinkedIn / Meta / Microsoft / Oracle / PayPal / Pinduoduo / Shopify** | Medium | Apr 09, 2026 |
+| [BERT Span / Keyphrase Extraction](https://trueinterview.io/questions/bert-keyphrase-span-extraction) | **Figma** | Medium | Dec 24, 2024 |
 | [Debug Dijkstra Shortest Path for Navigation](https://trueinterview.io/questions/dijkstra-code-review-navigation) | **Tesla** | Medium | Aug 23, 2025 |
+| [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | **Verkada** | Medium | — |
 | [Mako Template Engine](https://trueinterview.io/questions/debug-mako-template-engine) | **Stripe** | Medium | Jun 03, 2026 |
 | [Maze Solver](https://trueinterview.io/questions/ai-coding-maze-solver) | **Meta** | Medium | May 30, 2026 |
 | [Web Crawler with Asyncio](https://trueinterview.io/questions/1bf863e2-d68b-44ec-b2a6-d1f1592a0b58) | **Anthropic** | Medium | — |

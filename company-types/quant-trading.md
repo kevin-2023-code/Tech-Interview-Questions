@@ -2,7 +2,7 @@
 
 # 📈 Quant trading & hedge funds — interview & OA questions
 
-**272 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**273 questions** reported across the **12 Quant trading & hedge funds employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Citadel (72)](../companies/citadel.md) · [Two Sigma (41)](../companies/two-sigma.md) · [Squarepoint (34)](../companies/squarepoint.md) · [Akuna Capital (31)](../companies/akuna-capital.md) · [Point72 (29)](../companies/point72.md) · [Optiver (23)](../companies/optiver.md) · [Hudson River Trading (18)](../companies/hudson-river-trading.md) · [Jane Street (11)](../companies/jane-street.md) · [Voleon (10)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Imc (4)](../companies/imc.md) · [Drw (3)](../companies/drw.md)
+[Citadel (72)](../companies/citadel.md) · [Two Sigma (41)](../companies/two-sigma.md) · [Squarepoint (34)](../companies/squarepoint.md) · [Akuna Capital (31)](../companies/akuna-capital.md) · [Point72 (29)](../companies/point72.md) · [Optiver (23)](../companies/optiver.md) · [Hudson River Trading (18)](../companies/hudson-river-trading.md) · [Jane Street (11)](../companies/jane-street.md) · [Voleon (11)](../companies/voleon.md) · [Chicago Trading (5)](../companies/chicago-trading.md) · [Imc (4)](../companies/imc.md) · [Drw (3)](../companies/drw.md)
 
 <sub>12 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,24 +18,24 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 202 | 74% | ██████████████ | 38 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 46 | 17% | ███ | 5 |
+| [Algorithm](../formats/algorithm.md) | 201 | 74% | ██████████████ | 38 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 44 | 16% | ███ | 5 |
 | [System Design](../formats/system-design.md) | 16 | 6% | █ | 0 |
 | [SQL](../formats/sql.md) | 7 | 3% | █ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 1 | 0% | █ | 0 |
+| [AI Coding](../formats/ai-coding.md) | 5 | 2% | █ | 0 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **35 / 176 / 61**, over the rows the catalog has graded. 43 of the 272 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **35 / 177 / 61**, over the rows the catalog has graded. 43 of the 273 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **183 questions in this cut that carry a topic label** (67% of it):
+Of the **184 questions in this cut that carry a topic label** (67% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
 | `arrays` | 30 | 16% | ████████████ |
 | `hashing` | 28 | 15% | ███████████ |
-| `math` | 25 | 14% | ██████████ |
-| `sorting` | 23 | 13% | █████████ |
+| `math` | 26 | 14% | ██████████ |
+| `sorting` | 23 | 12% | █████████ |
 | `greedy` | 22 | 12% | █████████ |
 | `dynamic-programming` | 19 | 10% | ████████ |
 | `strings` | 18 | 10% | ███████ |
@@ -242,6 +242,7 @@ Of the **183 questions in this cut that carry a topic label** (67% of it):
 | **Goldman Sachs / Citadel / Voleon** | [Count Palindromic Substrings](https://trueinterview.io/questions/palindromic-substrings) | Medium | Oct 26, 2024 |
 | **Citadel** | [Estimate OLS via streaming sufficient statistics](https://trueinterview.io/questions/estimate-ols-via-streaming-sufficient-statistics) | Hard | — |
 | **Citadel** | [Design city home-price prediction system](https://trueinterview.io/questions/design-city-home-price-prediction-system) | Medium | — |
+| **Voleon** | [Build a regularized regression pipeline](https://trueinterview.io/questions/build-a-regularized-regression-pipeline) | Medium | — |
 | **Point72** | [Write SQL for top student per department](https://trueinterview.io/questions/write-sql-for-top-student-per-department) | Medium | — |
 | **Point72** | [Write SQL for recent customer activity](https://trueinterview.io/questions/write-sql-for-recent-customer-activity) | Medium | — |
 | **Squarepoint** | [Parse payroll file and answer queries](https://trueinterview.io/questions/parse-payroll-file-and-answer-queries) | Hard | — |
@@ -325,6 +326,5 @@ Of the **183 questions in this cut that carry a topic label** (67% of it):
 | **Citadel** | [External Merge Sort with a Heap](https://trueinterview.io/questions/565b03c7-1825-58a7-92d3-8c508446951d) | Medium | — |
 | **Citadel / Verkada** | [Tree Diameter](https://trueinterview.io/questions/1553f8b2-f647-5b6c-82c7-e48852add677) | Medium | — |
 | **Meta / Amazon / Apple / Atlassian / ByteDance / Google / Lyft / Microsoft / Netflix / NVIDIA / OpenAI / Optiver / Rippling / Roblox / Snowflake / Two Sigma / Uber** | [Merge Two Interval Lists](https://trueinterview.io/questions/aaf19257-7725-4e52-8c40-d17ba3fd9390) | Medium | — |
-| **Optiver** | [Days Between Dates (Days Between 3.0 V2)](https://trueinterview.io/questions/a94f7865-5feb-4f9c-93aa-327909c70dd6) | Medium | — |
 
 <sub>Page 1 of 2 · [Page 2 →](quant-trading-2.md)</sub>

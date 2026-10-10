@@ -2,7 +2,7 @@
 
 # Salesforce interview process, OA & interview questions
 
-**87 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
+**88 questions** reported at Salesforce · **1 writeup** · **1 interview report**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/salesforce), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Salesforce interviews & the free questions](salesforce/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **87** |
+| Questions tracked | **88** |
 | Most recent sighting | Aug 31, 2026 |
 | Reported in the last 90 days | 13 |
-| Most common format | [Algorithm](../formats/algorithm.md) (78% of 87) |
-| Difficulty (easy / medium / hard) | 16 / 51 / 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (77% of 88) |
+| Difficulty (easy / medium / hard) | 16 / 52 / 20 |
 | Free to practise | [4](../free/README.md) |
 | Guides & writeups | 1 |
 | Interview reports on the board | 1 in this snapshot |
 
-<sub>Counted from the 87 questions reported at Salesforce. 43 of them carry a sighting date; the other 44 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 88 questions reported at Salesforce. 44 of them carry a sighting date; the other 44 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **87 of 87** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **88 of 88** questions at Salesforce that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
-| **Online assessment** | 24 | ██████ | [Algorithm](../formats/algorithm.md) (96%) | 14 / 9 / 1 | A timed set you sit alone, usually before a human has read your CV. |
+| **Online assessment** | 25 | ██████ | [Algorithm](../formats/algorithm.md) (92%) | 14 / 10 / 1 | A timed set you sit alone, usually before a human has read your CV. |
 | **Phone screen** | 41 | ██████████ | [Algorithm](../formats/algorithm.md) (88%) | 2 / 31 / 8 | 45–60 minutes with an engineer, one or two problems, shared editor. |
-| **Onsite / virtual onsite** | 27 | ███████ | [Algorithm](../formats/algorithm.md) (44%) | 0 / 16 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
+| **Onsite / virtual onsite** | 28 | ███████ | [Algorithm](../formats/algorithm.md) (43%) | 0 / 17 / 11 | The loop itself: several back-to-back rounds, on site or over video. |
 | **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 0 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
@@ -89,7 +89,7 @@ Every recorded sighting at Salesforce, by the month it was reported in — Oct 1
 | [Jun 2026](../by-month/2026-06.md) | 1 | ███ |
 | [Apr 2026](../by-month/2026-04.md) | 4 | ███████████ |
 | [Mar 2026](../by-month/2026-03.md) | 8 | █████████████████████ |
-| [Feb 2026](../by-month/2026-02.md) | 2 | █████ |
+| [Feb 2026](../by-month/2026-02.md) | 3 | ████████ |
 | [Jan 2026](../by-month/2026-01.md) | 9 | ████████████████████████ |
 | [Dec 2025](../by-month/2025-12.md) | 3 | ████████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ███ |
@@ -168,6 +168,7 @@ What candidates said happened in the room at Salesforce — written up by the pe
 | [Code Review of a Python Repository](https://trueinterview.io/questions/code-review-oa) | AI Coding | Medium | Mar 05, 2026 |
 | [Find All Anagrams in a String](https://trueinterview.io/questions/find-all-anagrams-in-a-string) | Algorithm | Medium | Feb 21, 2026 |
 | [Coffee Ordering System Design](https://trueinterview.io/questions/coffee-ordering-system) | System Design | Medium | Feb 09, 2026 |
+| [TypeScript Test and Code Refactor](https://trueinterview.io/questions/typescript-refactor-oa) | AI Coding | Medium | Feb 05, 2026 |
 | [Rate Limiter for Expensive API with User-Configurable Monthly Quota](https://trueinterview.io/questions/rate-limiter-user-configurable-quota) | Object Oriented Programming | Medium | Jan 30, 2026 |
 | [Singly Linked List — Remove Duplicate Values](https://trueinterview.io/questions/linked-list-remove-duplicates) | Algorithm | Easy | Jan 30, 2026 |
 | [Frontend Curry: addTwoNumbers → addThreeNumbers(a)(b)(c)](https://trueinterview.io/questions/frontend-currying-add-numbers) | Algorithm | Medium | Jan 30, 2026 |

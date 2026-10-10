@@ -2,7 +2,7 @@
 
 # 🏛️ Big Tech — interview & OA questions
 
-**2,063 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**2,065 questions** reported across the **24 Big Tech employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Meta (334)](../companies/meta.md) · [Amazon (320)](../companies/amazon.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [Uber (217)](../companies/uber.md) · [Microsoft (186)](../companies/microsoft.md) · [Apple (142)](../companies/apple.md) · [LinkedIn (116)](../companies/linkedin.md) · [DoorDash (107)](../companies/doordash.md) · [Oracle (95)](../companies/oracle.md) · [Netflix (88)](../companies/netflix.md) · [Salesforce (87)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Ebay (45)](../companies/ebay.md) · [NVIDIA (37)](../companies/nvidia.md) · [Expedia (33)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Intuit (28)](../companies/intuit.md) · [Cisco (25)](../companies/cisco.md) · [PayPal (23)](../companies/paypal.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
+[Meta (334)](../companies/meta.md) · [Amazon (320)](../companies/amazon.md) · [Google (266)](../companies/google.md) · [ByteDance (255)](../companies/bytedance.md) · [Uber (217)](../companies/uber.md) · [Microsoft (186)](../companies/microsoft.md) · [Apple (142)](../companies/apple.md) · [LinkedIn (116)](../companies/linkedin.md) · [DoorDash (107)](../companies/doordash.md) · [Oracle (95)](../companies/oracle.md) · [Netflix (88)](../companies/netflix.md) · [Salesforce (88)](../companies/salesforce.md) · [Atlassian (61)](../companies/atlassian.md) · [Ebay (45)](../companies/ebay.md) · [NVIDIA (37)](../companies/nvidia.md) · [Expedia (34)](../companies/expedia.md) · [Walmart Labs (29)](../companies/walmart-labs.md) · [Intuit (28)](../companies/intuit.md) · [Cisco (25)](../companies/cisco.md) · [PayPal (23)](../companies/paypal.md) · [Pinduoduo (21)](../companies/pinduoduo.md) · [Microsoft AI (13)](../companies/microsoft-ai.md) · [Block (5)](../companies/block.md) · [AMD (3)](../companies/amd.md)
 
 <sub>24 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,13 +18,13 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 1,244 | 60% | ██████████████ | 103 |
+| [Algorithm](../formats/algorithm.md) | 1,243 | 60% | ██████████████ | 103 |
 | [System Design](../formats/system-design.md) | 370 | 18% | ████ | 16 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 242 | 12% | ███ | 19 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 241 | 12% | ███ | 19 |
 | [SQL](../formats/sql.md) | 179 | 9% | ██ | 0 |
-| [AI Coding](../formats/ai-coding.md) | 28 | 1% | █ | 2 |
+| [AI Coding](../formats/ai-coding.md) | 32 | 2% | █ | 2 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **301 / 1291 / 471**, over the rows the catalog has graded. 140 of the 2,063 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **301 / 1293 / 471**, over the rows the catalog has graded. 140 of the 2,065 open without a paid plan.</sub>
 
 ## What they ask about
 

@@ -2,7 +2,7 @@
 
 # Anthropic interview process, OA & interview questions
 
-**78 questions** reported at Anthropic · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
+**79 questions** reported at Anthropic · **6 writeups**. How the loop runs, what has been asked lately, and where to start — counted from what candidates reported, never asserted. Every title opens the full problem in a runnable workspace on [TrueInterview](https://trueinterview.io/problems/company/anthropic), judged server-side on the algorithm, low-level-design and SQL formats.
 
 [📖 How Anthropic interviews & the free questions](anthropic/README.md) · [← All companies](README.md) · [← Question bank](../README.md)
 
@@ -14,26 +14,26 @@
 
 |  |  |
 | :-- | :-- |
-| Questions tracked | **78** |
+| Questions tracked | **79** |
 | Most recent sighting | Sep 08, 2026 |
 | Reported in the last 90 days | 5 |
-| Most common format | [Algorithm](../formats/algorithm.md) (36% of 78) |
-| Difficulty (easy / medium / hard) | 8 / 50 / 20 |
+| Most common format | [Algorithm](../formats/algorithm.md) (34% of 79) |
+| Difficulty (easy / medium / hard) | 8 / 51 / 20 |
 | Free to practise | [10](../free/README.md) |
 | Guides & writeups | 6 |
 
-<sub>Counted from the 78 questions reported at Anthropic. 50 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
+<sub>Counted from the 79 questions reported at Anthropic. 51 of them carry a sighting date; the other 28 are *unmeasured*, which is a different fact from *old* — they are in every total here and in no window.</sub>
 
 ## The loop, as reported
 
-Which stage each question came from, for the **78 of 78** questions at Anthropic that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
+Which stage each question came from, for the **79 of 79** questions at Anthropic that name one. A question can be reported in more than one round — the same problem turns up in a phone screen one year and onsite the next — so this column sums to more than that.
 
 | Round | Questions |  | Mostly | E / M / H | What this round is |
 | :-- | --: | :-- | :-- | :-: | :-- |
 | **Online assessment** | 17 | ████ | [Object Oriented Programming](../formats/object-oriented-programming.md) (59%) | 6 / 8 / 3 | A timed set you sit alone, usually before a human has read your CV. |
-| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (54%) | 0 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
+| **Phone screen** | 35 | ████████ | [Algorithm](../formats/algorithm.md) (51%) | 0 / 25 / 10 | 45–60 minutes with an engineer, one or two problems, shared editor. |
 | **Onsite / virtual onsite** | 43 | ██████████ | [System Design](../formats/system-design.md) (30%) | 3 / 28 / 12 | The loop itself: several back-to-back rounds, on site or over video. |
-| **Take-home** | 1 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 0 / 1 | A project with a deadline, reviewed after you send it. |
+| **Take-home** | 2 | █ | [AI Coding](../formats/ai-coding.md) (100%) | 0 / 1 / 1 | A project with a deadline, reviewed after you send it. |
 
 <sub>*E / M / H* counts the rows in that round the catalog has graded; a question with no grade is in neither column. *What this round is* describes the format, which is the same everywhere — the counts beside it are what is specific to this employer.</sub>
 
@@ -51,7 +51,7 @@ Which stage each question came from, for the **78 of 78** questions at Anthropic
 
 ## What they ask about
 
-Of the **35 questions at Anthropic that carry a topic label** (45% of them — the rest are unlabelled, which is not the same as having no topic):
+Of the **35 questions at Anthropic that carry a topic label** (44% of them — the rest are unlabelled, which is not the same as having no topic):
 
 | Topic | Questions | Share of labelled |  | Last seen |
 | :-- | --: | --: | :-- | :-- |
@@ -82,7 +82,7 @@ Every recorded sighting at Anthropic, by the month it was reported in — Oct 15
 | [Mar 2026](../by-month/2026-03.md) | 4 | ██████ |
 | [Feb 2026](../by-month/2026-02.md) | 1 | ██ |
 | [Jan 2026](../by-month/2026-01.md) | 1 | ██ |
-| [Dec 2025](../by-month/2025-12.md) | 2 | ███ |
+| [Dec 2025](../by-month/2025-12.md) | 3 | █████ |
 | [Nov 2025](../by-month/2025-11.md) | 1 | ██ |
 | [Oct 2025](../by-month/2025-10.md) | 1 | ██ |
 
@@ -146,7 +146,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [Tokenize (Python)](https://trueinterview.io/questions/tokenize-python) | Algorithm | Medium | Jun 2026 |
 | [Design Distributed AI Model Downloader](https://trueinterview.io/questions/distributed-model-deployment-system-design) | System Design | Medium | Jun 2026 |
 | [Generate Function Profiling Events](https://trueinterview.io/questions/converting-stack-samples-to-trace-events) | Algorithm | Medium | Jun 2026 |
-| [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor) | Algorithm | Medium | May 30, 2026 |
+| [Batch Image Processor](https://trueinterview.io/questions/batch-image-processor) | AI Coding | Medium | May 30, 2026 |
 | [Longest-Match Tokenizer](https://trueinterview.io/questions/coding-q6-tokenizer-2) | Algorithm | Medium | May 28, 2026 |
 | [File Systems](https://trueinterview.io/questions/oa-file-systems) | Object Oriented Programming | Medium | May 28, 2026 |
 | [String Tokenization](https://trueinterview.io/questions/coding-q6-tokenizer) | Algorithm | Medium | May 28, 2026 |
@@ -173,6 +173,7 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | [ML Programming Screen — QKV Attention & einsum](https://trueinterview.io/questions/ml-programming-screen) | Algorithm | Medium | Feb 18, 2026 |
 | [Web URL Crawler at Scale](https://trueinterview.io/questions/web-url-crawler-at-scale) | Algorithm | Hard | Jan 22, 2026 |
 | [Recipe Manager](https://trueinterview.io/questions/recipe-manager) | Object Oriented Programming | Medium | Dec 15, 2025 |
+| [Performance Engineer Take-Home — Kernel Optimization](https://trueinterview.io/questions/performance-engineer-take-home) | AI Coding | Medium | Dec 11, 2025 |
 | [Performance Modeling — Matmul Arithmetic Intensity](https://trueinterview.io/questions/performance-engineer-modeling) | Algorithm | Medium | Dec 11, 2025 |
 | [Implement staircase printing and distributed mode/median](https://trueinterview.io/questions/implement-staircase-printing-and-distributed-mode-median) | Algorithm | Medium | Nov 19, 2025 |
 | [Find duplicate files and apply image operations](https://trueinterview.io/questions/find-duplicate-files-and-apply-image-operations) | Algorithm | Hard | Oct 15, 2025 |

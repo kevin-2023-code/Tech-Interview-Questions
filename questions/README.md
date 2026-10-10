@@ -299,7 +299,7 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Trapping Rain Water](algorithm/trapping-rain-water/README.md) | Hard | Apple · Amazon · Bloomberg · ByteDance · Goldman Sachs |
 | [Windowed Map (Time-Windowed Key-Value Store) with O(1) Operations and Window Average](algorithm/windowed-map-time-windowed-key-value-store-with-o-1-operations-and-windo/README.md) | Hard | StackAdapt |
 
-## Object Oriented Programming (62)
+## Object Oriented Programming (61)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
@@ -336,7 +336,6 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Implement a Mini Spreadsheet with Get/Set, Row Printing, and Add Formulas with Cycle Handling](object-oriented-programming/implement-a-mini-spreadsheet-with-get-set-row-printing-and-add-formulas/README.md) | Medium | Sigmacomputing |
 | [Implement a Text Editor](object-oriented-programming/implement-a-text-editor/README.md) | Medium | Rokt |
 | [Implement an LRU cache with O(1) ops](object-oriented-programming/implement-an-lru-cache-with-o-1-ops/README.md) | Medium | Onemain Financial · Anthropic · Google · LinkedIn · Microsoft |
-| [Implement APIs in a Flask Application](object-oriented-programming/implement-apis-in-a-flask-application/README.md) | Medium | Verkada |
 | [Implement Game Metadata Lookups](object-oriented-programming/implement-game-metadata-lookups/README.md) | Medium | Discord |
 | [In-Memory Database](object-oriented-programming/in-memory-database/README.md) | Medium | Coinbase · Anthropic · Applied Intuition |
 | [In-Memory Database with SQL Operations](object-oriented-programming/in-memory-database-with-sql-operations/README.md) | Medium | OpenAI · Airbnb |
@@ -405,12 +404,14 @@ Every free question in the TrueInterview bank, published here in full — the st
 | [Redesign a Spam Classifier for Production](system-design/redesign-a-spam-classifier-for-production/README.md) | Hard | Indeed |
 | [Set Bids for Search Advertising from Business Value](system-design/set-bids-for-search-advertising-from-business-value/README.md) | Hard | Wayfair |
 
-## AI Coding (7)
+## AI Coding (9)
 
 | Question | Difficulty | Asked at |
 | :-- | :-: | :-- |
 | [Tic Tac Toe](ai-coding/tic-tac-toe/README.md) | Easy | Ramp · Databricks · SoFi |
+| [BERT Span / Keyphrase Extraction](ai-coding/bert-keyphrase-span-extraction/README.md) | Medium | Figma |
 | [Debug Dijkstra Shortest Path for Navigation](ai-coding/dijkstra-code-review-navigation/README.md) | Medium | Tesla |
+| [Implement APIs in a Flask Application](ai-coding/implement-apis-in-a-flask-application/README.md) | Medium | Verkada |
 | [LRU Cache](ai-coding/lru-cache/README.md) | Medium | Apple · Amazon · Bloomberg · ByteDance · LinkedIn |
 | [Mako Template Engine](ai-coding/debug-mako-template-engine/README.md) | Medium | Stripe |
 | [Maze Solver](ai-coding/ai-coding-maze-solver/README.md) | Medium | Meta |

@@ -8,7 +8,7 @@ How Verkada interviews, and the questions candidates reported there. Free questi
 
 |  |  |
 | :-- | :-- |
-| Questions reported | [31](../verkada.md) |
+| Questions reported | [32](../verkada.md) |
 | Free to read here | 4 |
 | Interview-process guides | 1 |
 | Other guides | 0 |
@@ -41,11 +41,11 @@ Two constraints recur inside these rounds and catch people off guard. Interviewe
 | [Design Youtube](../../questions/system-design/design-youtube/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Feb 2026 | [Solve](https://trueinterview.io/questions/design-youtube) |
 | [Design News Feed](../../questions/system-design/design-news-feed/README.md) | System Design | Medium | Phone screen, Onsite / virtual onsite | Jan 2026 | [Solve](https://trueinterview.io/questions/design-news-feed) |
 | [LRU Cache III](../../questions/object-oriented-programming/lru-cache-iii/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/aa8c1163-1a81-4ea5-975a-d662e56ccc51) |
-| [Implement APIs in a Flask Application](../../questions/object-oriented-programming/implement-apis-in-a-flask-application/README.md) | Object Oriented Programming | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) |
+| [Implement APIs in a Flask Application](../../questions/ai-coding/implement-apis-in-a-flask-application/README.md) | AI Coding | Medium | Onsite / virtual onsite | — | [Solve](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) |
 
 ## Everything else
 
-- [All 31 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
+- [All 32 questions reported at Verkada](../verkada.md) — the loop by round, topics, what was asked in the last 90 days, and where to start.
 - [Practise every Verkada question on TrueInterview](https://trueinterview.io/problems/company/verkada).
 
 ---

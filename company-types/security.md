@@ -2,7 +2,7 @@
 
 # 🔒 Cybersecurity — interview & OA questions
 
-**75 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
+**77 questions** reported across the **4 Cybersecurity employers** in this bank. What this kind of company asks, counted from what candidates reported.
 
 [← All company types](README.md) · [← All companies](../companies/README.md) · [← Question bank](../README.md)
 
@@ -10,7 +10,7 @@
 
 ## The companies in this cut
 
-[Verkada (31)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (14)](../companies/vanta.md) · [Okta (11)](../companies/okta.md)
+[Verkada (32)](../companies/verkada.md) · [Rubrik (19)](../companies/rubrik.md) · [Vanta (14)](../companies/vanta.md) · [Okta (12)](../companies/okta.md)
 
 <sub>4 employers. A question reported at two of them is counted once here and appears on both of their pages.</sub>
 
@@ -18,15 +18,16 @@
 
 | Format | Questions | Share |  | Free |
 | :-- | --: | --: | :-- | --: |
-| [Algorithm](../formats/algorithm.md) | 53 | 71% | ██████████████ | 11 |
-| [Object Oriented Programming](../formats/object-oriented-programming.md) | 11 | 15% | ███ | 3 |
-| [System Design](../formats/system-design.md) | 11 | 15% | ███ | 2 |
+| [Algorithm](../formats/algorithm.md) | 53 | 69% | ██████████████ | 11 |
+| [System Design](../formats/system-design.md) | 11 | 14% | ███ | 2 |
+| [Object Oriented Programming](../formats/object-oriented-programming.md) | 10 | 13% | ███ | 2 |
+| [AI Coding](../formats/ai-coding.md) | 3 | 4% | █ | 1 |
 
-<sub>Difficulty across the cut (easy / medium / hard): **9 / 51 / 15**, over the rows the catalog has graded. 16 of the 75 open without a paid plan.</sub>
+<sub>Difficulty across the cut (easy / medium / hard): **10 / 51 / 16**, over the rows the catalog has graded. 16 of the 77 open without a paid plan.</sub>
 
 ## What they ask about
 
-Of the **51 questions in this cut that carry a topic label** (68% of it):
+Of the **51 questions in this cut that carry a topic label** (66% of it):
 
 | Topic | Questions | Share of labelled |  |
 | :-- | --: | --: | :-- |
@@ -92,6 +93,7 @@ Of the **51 questions in this cut that carry a topic label** (68% of it):
 | **Verkada** | [Design access control and heartbeat systems](https://trueinterview.io/questions/design-access-control-and-heartbeat-systems) | Medium | Jan 23, 2026 |
 | **Verkada** | [Implement LRU and LFU caches](https://trueinterview.io/questions/implement-lru-and-lfu-caches) | Hard | Jan 23, 2026 |
 | **Amazon / Bloomberg / Confluent / Google / Lyft / Meta / Pinterest / Rippling / Robinhood / Roblox / Snapchat / Snowflake / Uber / Verkada / Whatnot / Yelp** | [Design News Feed](https://trueinterview.io/questions/design-news-feed) | Medium | Jan 14, 2026 |
+| **Okta** | [Build an Auth0-based MCP Server (Hands-on)](https://trueinterview.io/questions/oa-mcp-auth0-server) | Hard | Nov 22, 2025 |
 | **Okta** | [Memory Allocator (Allocate / Free)](https://trueinterview.io/questions/memory-allocator-3) | Medium | Nov 05, 2025 |
 | **Okta** | [Dependency Cycle Detection (Deadlock)](https://trueinterview.io/questions/dependency-cycle-detection) | Medium | Nov 05, 2025 |
 | **Vanta** | [Test Run Status Monitor (Failing → Passing Windows)](https://trueinterview.io/questions/test-status-monitor) | Hard | Jul 31, 2025 |
@@ -123,6 +125,7 @@ Of the **51 questions in this cut that carry a topic label** (68% of it):
 | **Okta** | [Unique Paths](https://trueinterview.io/questions/6d951c54-52b0-4703-b541-a928b1d855ed) | Easy | — |
 | **Verkada / Amazon / Microsoft** | [Longest Substring Without Repeating Characters](https://trueinterview.io/questions/4b08af58-e4c4-4059-8320-b7e9f0c38de0) | Medium | — |
 | **Vanta** | [Implement Unix uniq](https://trueinterview.io/questions/cd987f0a-05bc-5107-a6eb-49b660ccffce) | Easy | — |
+| **Verkada** | [React UI Implementation from Figma (Flexbox/Grid heavy)](https://trueinterview.io/questions/fdefc42f-efc5-4cce-b95d-a9881714b78c) | Easy | — |
 | **Verkada** | [Find IPv4 Addresses in Nested Files](https://trueinterview.io/questions/d5905d81-f1d5-4f11-97ad-b8162610cc37) | Medium | — |
 | **Verkada** | [Matrix Transpose with Workers](https://trueinterview.io/questions/d2c51fe8-e8cb-4b41-9fb4-1dc03c1b4c3b) | Easy | — |
 | **Verkada** | [Implement APIs in a Flask Application](https://trueinterview.io/questions/b1ddfa0e-5157-4aac-9de4-6777f33c983a) | Medium | — |
