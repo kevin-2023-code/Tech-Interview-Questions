@@ -2,7 +2,7 @@
 
 # How each company interviews
 
-**171 writeups** across **82 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
+**176 writeups** across **82 companies** — how a round runs, a problem worked end to end, notes on a process. The *Topics* column says what each one covers. Read one before you practise for it.
 
 [← Question bank](../README.md)
 
@@ -10,6 +10,11 @@
 
 | Writeup | Company | Topics |
 | :-- | :-- | :-- |
+| [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | **General** | — |
+| [Big Tech Behavioral Questions by Company and Round](https://trueinterview.io/study/big-tech-behavioral-interview-questions-by-company-round-2026) | **General** | — |
+| [Big Tech System Design Questions by Company and Round (2026)](https://trueinterview.io/study/big-tech-system-design-questions-by-company-and-round-2026) | **General** | — |
+| [How to Prepare from Candidate-Reported Interview Questions](https://trueinterview.io/study/prepare-from-candidate-reported-interview-questions-2026) | **General** | — |
+| [What is on a big tech OA in 2026, and what to drill first](https://trueinterview.io/study/big-tech-online-assessment-whats-on-it-2026) | **General** | — |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | **General** | — |
 | [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | **General** | — |
 | [Hack2hire Review 2026: Company-Tagged SDE Questions — Worth It?](https://trueinterview.io/study/hack2hire-review-2026) | **General** | — |
@@ -17,11 +22,6 @@
 | [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | **General** | — |
 | [LeetCode Premium Review 2026: Is $159 a Year Worth It?](https://trueinterview.io/study/leetcode-review-2026) | **General** | — |
 | [NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?](https://trueinterview.io/study/neetcode-review-2026) | **General** | — |
-| [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | **General** | — |
-| [Amplitude Interview Process & Questions](https://trueinterview.io/study/amplitude-interview-process) | **Amplitude** | — |
-| [Arista Networks Interview Process & Questions](https://trueinterview.io/study/arista-interview-process) | **Arista** | — |
-| [Chicago Trading Company Interview Process & Questions](https://trueinterview.io/study/chicago-trading-interview-process) | **Chicago Trading** | — |
-| [Circle Interview Process & Questions](https://trueinterview.io/study/circle-interview-process) | **Circle** | — |
 
 [Grouped by topic instead →](by-topic.md)
 
@@ -29,18 +29,23 @@
 
 ### General
 
-<sub>8 guides · no questions reported at this employer yet</sub>
+<sub>13 guides · no questions reported at this employer yet</sub>
 
 | Writeup | Topics |
 | :-- | :-- |
+| [AI-Assisted Coding Interviews at Big Tech: What to Drill](https://trueinterview.io/study/ai-assisted-coding-interview-big-tech-prep-2026) | — |
+| [Big Tech Behavioral Questions by Company and Round](https://trueinterview.io/study/big-tech-behavioral-interview-questions-by-company-round-2026) | — |
+| [Big Tech System Design Questions by Company and Round (2026)](https://trueinterview.io/study/big-tech-system-design-questions-by-company-and-round-2026) | — |
 | [DarkInterview Review 2026: Fresh AI-Lab Question Banks — Worth It?](https://trueinterview.io/study/darkinterview-review-2026) | — |
 | [Exponent (Now Aced) Review 2026: Is the All-in-One Prep Worth It?](https://trueinterview.io/study/exponent-review-2026) | — |
 | [Hack2hire Review 2026: Company-Tagged SDE Questions — Worth It?](https://trueinterview.io/study/hack2hire-review-2026) | — |
 | [Hello Interview Review 2026: Best for System Design — Worth It?](https://trueinterview.io/study/hellointerview-review-2026) | — |
+| [How to Prepare from Candidate-Reported Interview Questions](https://trueinterview.io/study/prepare-from-candidate-reported-interview-questions-2026) | — |
 | [interviewing.io Review 2026: Anonymous Mock Interviews — Worth It?](https://trueinterview.io/study/interviewing-io-review-2026) | — |
 | [LeetCode Premium Review 2026: Is $159 a Year Worth It?](https://trueinterview.io/study/leetcode-review-2026) | — |
 | [NeetCode Pro Review 2026: Worth It Beyond the Free Roadmap?](https://trueinterview.io/study/neetcode-review-2026) | — |
 | [PracHub Review 2026: A Low-Cost Question Bank — Worth It?](https://trueinterview.io/study/prachub-review-2026) | — |
+| [What is on a big tech OA in 2026, and what to drill first](https://trueinterview.io/study/big-tech-online-assessment-whats-on-it-2026) | — |
 
 ### OpenAI
 
