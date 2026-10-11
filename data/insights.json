@@ -269,7 +269,7 @@
       "dated": 56,
       "free": 14,
       "guides": 3,
-      "inLastYear": 54,
+      "inLastYear": 53,
       "inWindow": 5,
       "lastSighting": "2026-09-15",
       "name": "Databricks",
@@ -360,7 +360,7 @@
       "dated": 40,
       "free": 24,
       "guides": 1,
-      "inLastYear": 20,
+      "inLastYear": 19,
       "inWindow": 3,
       "lastSighting": "2026-09-13",
       "name": "Goldman Sachs",
@@ -1772,7 +1772,7 @@
       "questions": 589
     }
   ],
-  "generated": "2026-10-10",
+  "generated": "2026-10-11",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -3238,7 +3238,7 @@
     "futureDated": 0,
     "gradedDifficulty": 4121,
     "guides": 171,
-    "inLastYear": 2319,
+    "inLastYear": 2317,
     "inWindow": 443,
     "labelledTopic": 2406,
     "namingARound": 4121,

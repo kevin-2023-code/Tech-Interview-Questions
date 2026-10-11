@@ -148,8 +148,8 @@ What candidates said happened in the room at Pinterest — written up by the peo
 | [Design a Large-File Upload and Analysis Flow](https://trueinterview.io/questions/design-a-large-file-upload-and-analysis-flow) | System Design | Medium | 🆕 Sep 01, 2026 |
 | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Object Oriented Programming | Hard | 🆕 Aug 28, 2026 |
 | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | System Design | Hard | 🆕 Aug 28, 2026 |
-| [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Algorithm | Hard | 🆕 Aug 26, 2026 |
-| [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Algorithm | Hard | 🆕 Aug 26, 2026 |
+| [Minimum Transfers Between Pin Boards](https://trueinterview.io/questions/minimum-transfers-between-pin-boards) | Algorithm | Hard | Aug 26, 2026 |
+| [Tree-Encoded Subtree Deletion and Stable Compaction](https://trueinterview.io/questions/tree-encoded-subtree-deletion-compaction) | Algorithm | Hard | Aug 26, 2026 |
 | [Experiment Bucket Allocation / Rebalancing](https://trueinterview.io/questions/experiment-bucket-allocation-rebalancing) | Object Oriented Programming | Medium | Aug 03, 2026 |
 | [Patient Support Analysis](https://trueinterview.io/questions/patient-support-analysis) | SQL | Easy | Jul 23, 2026 |
 | [User Concurrent Sessions](https://trueinterview.io/questions/user-concurrent-sessions) | SQL | Medium | Jul 22, 2026 |

@@ -125,7 +125,7 @@ The 8 questions to open first if you are preparing for Atlassian, ranked by **th
 | [Design Monitoring and Reliability for 99.99% Availability](https://trueinterview.io/questions/design-monitoring-and-reliability-for-99-99percent-availability) | System Design | Hard | 🆕 Sep 04, 2026 |
 | [Design a Social-Media Comments and Notifications System](https://trueinterview.io/questions/design-a-social-media-comments-and-notifications-system) | System Design | Easy | 🆕 Sep 03, 2026 |
 | [Design a Music Player with Queue, Loop, and Shuffle](https://trueinterview.io/questions/design-a-music-player-with-queue-loop-and-shuffle) | Object Oriented Programming | Medium | 🆕 Sep 03, 2026 |
-| [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | 🆕 Aug 26, 2026 |
+| [Highlight the Shortest Unique Substring in Each Label](https://trueinterview.io/questions/highlight-the-shortest-unique-substring-in-each-label) | Algorithm | Hard | Aug 26, 2026 |
 | [Sliding-Window Rate Limiter II](https://trueinterview.io/questions/sliding-window-rate-limiter) | Algorithm | Medium | May 2026 |
 | [Popular Content Counter](https://trueinterview.io/questions/popular-content-all-o-one) | Object Oriented Programming | Medium | Apr 21, 2026 |
 | [Image Link Crawler Service](https://trueinterview.io/questions/image-link-crawler-service) | System Design | Hard | Apr 21, 2026 |

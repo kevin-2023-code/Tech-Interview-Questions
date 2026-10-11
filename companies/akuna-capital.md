@@ -117,7 +117,7 @@ The 8 questions to open first if you are preparing for Akuna Capital, ranked by 
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | 🆕 Aug 26, 2026 |
+| [Find the Maximum Value in a Binary Tree Recursively](https://trueinterview.io/questions/find-the-maximum-value-in-a-binary-tree-recursively) | Algorithm | Easy | Aug 26, 2026 |
 | [Array Frequency Sort](https://trueinterview.io/questions/array-frequency-sort) | Algorithm | Easy | Jul 29, 2026 |
 | [Cloud Resource Utilization Dashboard](https://trueinterview.io/questions/sql-cloud-resource-utilization-dashboard) | SQL | Easy | May 25, 2026 |
 | [Portfolio Rebalancer](https://trueinterview.io/questions/portfolio-rebalancer) | Object Oriented Programming | Medium | May 25, 2026 |
