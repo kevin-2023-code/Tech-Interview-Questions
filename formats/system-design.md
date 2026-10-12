@@ -93,9 +93,9 @@
 | **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | 🆕 Aug 28, 2026 |
 | **ByteDance** | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | Medium | 🆕 Aug 28, 2026 |
 | **ByteDance** | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | Medium | 🆕 Aug 28, 2026 |
-| **Anthropic** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | Hard | 🆕 Aug 27, 2026 |
-| **Anthropic** | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | Medium | 🆕 Aug 27, 2026 |
-| **LinkedIn** | [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity) | Medium | 🆕 Aug 27, 2026 |
+| **Anthropic** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | Hard | Aug 27, 2026 |
+| **Anthropic** | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | Medium | Aug 27, 2026 |
+| **LinkedIn** | [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity) | Medium | Aug 27, 2026 |
 | **ByteDance** | [AI-Driven QA Pipeline Workflow](https://trueinterview.io/questions/ai-driven-qa-pipeline-workflow) | Medium | Aug 25, 2026 |
 | **Jane Street** | [Process One Million Quote Updates per Second](https://trueinterview.io/questions/process-one-million-quote-updates-per-second) | Hard | Aug 24, 2026 |
 | **OpenAI** | [Monitor Devices Over an Unreliable Network](https://trueinterview.io/questions/monitor-devices-over-an-unreliable-network) | Hard | Aug 24, 2026 |

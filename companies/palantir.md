@@ -106,9 +106,9 @@ The 8 questions to open first if you are preparing for Palantir, ranked by **the
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Algorithm | Hard | 🆕 Aug 27, 2026 |
-| [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Algorithm | Hard | 🆕 Aug 27, 2026 |
-| [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Algorithm | Medium | 🆕 Aug 27, 2026 |
+| [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Algorithm | Hard | Aug 27, 2026 |
+| [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Algorithm | Hard | Aug 27, 2026 |
+| [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Algorithm | Medium | Aug 27, 2026 |
 | [Design a Server Metrics Monitor](https://trueinterview.io/questions/design-a-server-metrics-monitor) | System Design | Medium | Mar 08, 2026 |
 | [Find Shortest Paths in Road Network](https://trueinterview.io/questions/find-shortest-paths-in-road-network) | Algorithm | Medium | Mar 08, 2026 |
 | [Minimal Operations](https://trueinterview.io/questions/1eaa7066-9ac8-467b-a088-175cfbfda50e) | Algorithm | Medium | — |

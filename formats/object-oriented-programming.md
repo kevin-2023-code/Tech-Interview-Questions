@@ -45,9 +45,9 @@
 | **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | 🆕 Aug 29, 2026 |
 | **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | 🆕 Aug 28, 2026 |
 | **Snapchat** | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Medium | 🆕 Aug 28, 2026 |
-| **OpenAI** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Hard | 🆕 Aug 27, 2026 |
-| **Coinbase** | [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Medium | 🆕 Aug 27, 2026 |
-| **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | 🆕 Aug 27, 2026 |
+| **OpenAI** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Hard | Aug 27, 2026 |
+| **Coinbase** | [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Medium | Aug 27, 2026 |
+| **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | Aug 27, 2026 |
 | **Scale AI** | [Design and Simulate a Four-Player Card Game](https://trueinterview.io/questions/design-and-simulate-a-four-player-card-game) | Medium | Aug 26, 2026 |
 | **Airbnb** | [Design a Multi-Level In-Memory Cloud Storage Service](https://trueinterview.io/questions/design-a-multi-level-in-memory-cloud-storage-service) | Medium | Aug 25, 2026 |
 | **Anthropic** | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Medium | Aug 24, 2026 |

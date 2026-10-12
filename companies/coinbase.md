@@ -133,7 +133,7 @@ What candidates said happened in the room at Coinbase — written up by the peop
 
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
-| [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Object Oriented Programming | Medium | 🆕 Aug 27, 2026 |
+| [Build Task Management Through Records, Search, Assignment, and Completion](https://trueinterview.io/questions/build-task-management-through-records-search-assignment-and-completion) | Object Oriented Programming | Medium | Aug 27, 2026 |
 | [Ring Buffer (Producer / Consumer with Backpressure)](https://trueinterview.io/questions/ring-buffer-producer-consumer) | Object Oriented Programming | Hard | Jun 15, 2026 |
 | [Design a Task Assignment System](https://trueinterview.io/questions/design-a-task-assignment-system) | Object Oriented Programming | Medium | May 21, 2026 |
 | [Flappy Bird Jump Strategy](https://trueinterview.io/questions/flappy-bird-jump-strategy) | Algorithm | Easy | May 19, 2026 |

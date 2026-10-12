@@ -128,8 +128,8 @@ The 8 questions to open first if you are preparing for Anthropic, ranked by **th
 | :-- | :-- | :-: | :-- |
 | [Route and Batch Inference with Eight GPUs](https://trueinterview.io/questions/route-and-batch-inference-with-eight-gpus) | System Design | Hard | 🆕 Sep 08, 2026 |
 | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | System Design | Medium | 🆕 Aug 28, 2026 |
-| [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | System Design | Hard | 🆕 Aug 27, 2026 |
-| [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | System Design | Medium | 🆕 Aug 27, 2026 |
+| [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | System Design | Hard | Aug 27, 2026 |
+| [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | System Design | Medium | Aug 27, 2026 |
 | [Implement a Duplicate-File Reporter](https://trueinterview.io/questions/implement-a-duplicate-file-reporter) | Object Oriented Programming | Medium | Aug 24, 2026 |
 | [Design Facebook Messenger](https://trueinterview.io/questions/design-messenger) | System Design | Medium | Jun 21, 2026 |
 | [Infection Spread Simulation](https://trueinterview.io/questions/infection-spread-simulation) | Algorithm | Medium | Jun 19, 2026 |

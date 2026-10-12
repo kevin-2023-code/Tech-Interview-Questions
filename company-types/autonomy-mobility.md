@@ -85,7 +85,7 @@ Of the **99 questions in this cut that carry a topic label** (59% of it):
 | **Nuro** | [Compare Locks and MVCC in a Versioned Store](https://trueinterview.io/questions/compare-locks-and-mvcc-in-a-versioned-store) | Hard | 🆕 Aug 31, 2026 |
 | **Nuro** | [Aggregate and Query Vehicle Obstacle Data](https://trueinterview.io/questions/aggregate-and-query-vehicle-obstacle-data) | Hard | 🆕 Aug 31, 2026 |
 | **Applied Intuition** | [Locate Cars with a Boolean Square-Scan API](https://trueinterview.io/questions/locate-cars-with-a-boolean-square-scan-api) | Medium | 🆕 Aug 30, 2026 |
-| **Waymo** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Hard | 🆕 Aug 27, 2026 |
+| **Waymo** | [Minimize Total Grid Distance to Every Building](https://trueinterview.io/questions/minimize-total-grid-distance-to-every-building) | Hard | Aug 27, 2026 |
 | **Tesla** | [Design an Order Fulfillment System](https://trueinterview.io/questions/design-an-order-fulfillment-system) | Hard | Aug 24, 2026 |
 | **Tesla** | [Design a Video Sharing Platform](https://trueinterview.io/questions/design-a-video-sharing-platform) | Hard | Aug 24, 2026 |
 | **Microsoft / Amazon / Apple / ByteDance / LinkedIn / Meta / Microsoft AI / Two Sigma / WeRide** | [Top K Largest Elements](https://trueinterview.io/questions/top-k-largest-elements) | Medium | Jul 29, 2026 |
