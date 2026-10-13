@@ -136,11 +136,11 @@ Of the **732 questions in this cut that carry a topic label** (55% of it):
 | **Stripe** | [Find the Latest Balance for a Bank Account](https://trueinterview.io/questions/find-the-latest-balance-for-a-bank-account) | Easy | 🆕 Aug 31, 2026 |
 | **Airbnb** | [Design an In-Memory Object Manager with TTL](https://trueinterview.io/questions/design-an-in-memory-object-manager-with-ttl) | Medium | 🆕 Aug 30, 2026 |
 | **Airbnb** | [Define a File Store with User Quotas and Compression](https://trueinterview.io/questions/define-a-file-store-with-user-quotas-and-compression) | Hard | 🆕 Aug 29, 2026 |
-| **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | 🆕 Aug 28, 2026 |
-| **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | 🆕 Aug 28, 2026 |
-| **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | 🆕 Aug 28, 2026 |
-| **Snapchat** | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Medium | 🆕 Aug 28, 2026 |
-| **Snapchat** | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Hard | 🆕 Aug 28, 2026 |
+| **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | Aug 28, 2026 |
+| **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
+| **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |
+| **Snapchat** | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Medium | Aug 28, 2026 |
+| **Snapchat** | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Hard | Aug 28, 2026 |
 | **Palantir** | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Hard | Aug 27, 2026 |
 | **Anthropic** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | Hard | Aug 27, 2026 |
 | **Palantir** | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Hard | Aug 27, 2026 |

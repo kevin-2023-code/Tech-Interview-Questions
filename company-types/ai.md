@@ -95,7 +95,7 @@ Of the **153 questions in this cut that carry a topic label** (43% of it):
 | **Harvey** | [Allocate Unique File Names in an In-Memory Vault](https://trueinterview.io/questions/allocate-unique-file-names-in-an-in-memory-vault) | Medium | 🆕 Sep 01, 2026 |
 | **Mercor** | [Shortest Grid Path with Obstacle Eliminations](https://trueinterview.io/questions/shortest-grid-path-with-obstacle-eliminations) | Hard | 🆕 Aug 30, 2026 |
 | **Mercor** | [Design a Project-to-Contractor Matching System](https://trueinterview.io/questions/design-a-project-to-contractor-matching-system) | Hard | 🆕 Aug 30, 2026 |
-| **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | 🆕 Aug 28, 2026 |
+| **Anthropic** | [Design Telemetry Ingestion and Reconcile Metric Names](https://trueinterview.io/questions/design-telemetry-ingestion-and-reconcile-metric-names) | Medium | Aug 28, 2026 |
 | **Anthropic** | [Review and Scale an Inference Service Design](https://trueinterview.io/questions/review-and-scale-an-inference-service-design) | Hard | Aug 27, 2026 |
 | **OpenAI** | [Model Infection, Immunity, Delayed Death, and Burn Interventions on a Grid](https://trueinterview.io/questions/model-infection-immunity-delayed-death-and-burn-interventions-on-a-grid) | Hard | Aug 27, 2026 |
 | **Anthropic** | [Design Distributed Sorting Around an Explicit Helper Contract](https://trueinterview.io/questions/design-distributed-sorting-around-an-explicit-helper-contract) | Medium | Aug 27, 2026 |

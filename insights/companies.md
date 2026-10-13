@@ -10,9 +10,9 @@
 
 | Company | Last 90d | Questions | Last sighting |  |
 | :-- | --: | --: | :-- | :-- |
-| [Amazon](../companies/amazon.md) | 52 | 320 | Sep 20, 2026 | ████████████████ |
+| [Amazon](../companies/amazon.md) | 51 | 320 | Sep 20, 2026 | ████████████████ |
 | [ByteDance](../companies/bytedance.md) | 25 | 255 | Sep 15, 2026 | ████████ |
-| [Google](../companies/google.md) | 25 | 266 | Sep 18, 2026 | ████████ |
+| [Google](../companies/google.md) | 24 | 266 | Sep 18, 2026 | ████████ |
 | [Microsoft](../companies/microsoft.md) | 23 | 186 | Sep 10, 2026 | ███████ |
 | [OpenAI](../companies/openai.md) | 20 | 144 | Sep 17, 2026 | ██████ |
 | [LinkedIn](../companies/linkedin.md) | 18 | 116 | Sep 17, 2026 | ██████ |
@@ -26,7 +26,7 @@
 | [Stripe](../companies/stripe.md) | 11 | 95 | Sep 11, 2026 | ███ |
 | [Citadel](../companies/citadel.md) | 9 | 72 | Sep 18, 2026 | ███ |
 | [Uber](../companies/uber.md) | 9 | 217 | Sep 09, 2026 | ███ |
-| [Snowflake](../companies/snowflake.md) | 8 | 128 | Sep 05, 2026 | ██ |
+| [Snowflake](../companies/snowflake.md) | 8 | 128 | Sep 05, 2026 | ███ |
 | [Point72](../companies/point72.md) | 7 | 29 | Jul 29, 2026 | ██ |
 | [Figma](../companies/figma.md) | 6 | 23 | Aug 12, 2026 | ██ |
 | [Instacart](../companies/instacart.md) | 6 | 38 | Sep 18, 2026 | ██ |
@@ -41,8 +41,8 @@
 | Company | Questions | Guides | Free | Last 90d | Last sighting | Most asked format | Most asked topic |
 | :-- | --: | --: | --: | --: | :-- | :-- | :-- |
 | [Meta](../companies/meta.md) | 334 | 6 | 26 | 15 | Sep 04, 2026 | Algorithm | `graphs` |
-| [Amazon](../companies/amazon.md) | 320 | 5 | 31 | 52 | Sep 20, 2026 | Algorithm | `hashing` |
-| [Google](../companies/google.md) | 266 | 3 | 25 | 25 | Sep 18, 2026 | Algorithm | `graphs` |
+| [Amazon](../companies/amazon.md) | 320 | 5 | 31 | 51 | Sep 20, 2026 | Algorithm | `hashing` |
+| [Google](../companies/google.md) | 266 | 3 | 25 | 24 | Sep 18, 2026 | Algorithm | `graphs` |
 | [ByteDance](../companies/bytedance.md) | 255 | 5 | 26 | 25 | Sep 15, 2026 | Algorithm | `graphs` |
 | [Uber](../companies/uber.md) | 217 | 3 | 37 | 9 | Sep 09, 2026 | Algorithm | `graphs` |
 | [Microsoft](../companies/microsoft.md) | 186 | 5 | 22 | 23 | Sep 10, 2026 | Algorithm | `graphs` |

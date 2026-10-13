@@ -23,7 +23,7 @@
       "free": 31,
       "guides": 5,
       "inLastYear": 185,
-      "inWindow": 52,
+      "inWindow": 51,
       "lastSighting": "2026-09-20",
       "name": "Amazon",
       "questions": 320,
@@ -36,7 +36,7 @@
       "free": 25,
       "guides": 3,
       "inLastYear": 137,
-      "inWindow": 25,
+      "inWindow": 24,
       "lastSighting": "2026-09-18",
       "name": "Google",
       "questions": 266,
@@ -139,7 +139,7 @@
       "dated": 72,
       "free": 5,
       "guides": 3,
-      "inLastYear": 71,
+      "inLastYear": 70,
       "inWindow": 12,
       "lastSighting": "2026-09-16",
       "name": "DoorDash",
@@ -711,7 +711,7 @@
       "dated": 15,
       "free": 4,
       "guides": 3,
-      "inLastYear": 12,
+      "inLastYear": 11,
       "inWindow": 1,
       "lastSighting": "2026-09-01",
       "name": "Perplexity",
@@ -1722,7 +1722,7 @@
       "free": 288,
       "graded": 2426,
       "hard": 511,
-      "inWindow": 203,
+      "inWindow": 201,
       "label": "Algorithm",
       "medium": 1484,
       "questions": 2426
@@ -1772,7 +1772,7 @@
       "questions": 589
     }
   ],
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "latestSighting": "2026-09-20",
   "months": [
     {
@@ -2586,7 +2586,7 @@
       "easy": 86,
       "graded": 320,
       "hard": 41,
-      "inWindow": 30,
+      "inWindow": 28,
       "medium": 193,
       "questions": 320,
       "topCompanies": [
@@ -2694,7 +2694,7 @@
       "easy": 10,
       "graded": 179,
       "hard": 64,
-      "inWindow": 15,
+      "inWindow": 13,
       "medium": 105,
       "questions": 179,
       "topCompanies": [
@@ -3238,8 +3238,8 @@
     "futureDated": 0,
     "gradedDifficulty": 4121,
     "guides": 196,
-    "inLastYear": 2317,
-    "inWindow": 443,
+    "inLastYear": 2315,
+    "inWindow": 441,
     "labelledTopic": 2406,
     "namingARound": 4121,
     "questions": 4121,

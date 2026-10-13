@@ -47,7 +47,7 @@ Of the **656 questions in this cut that carry a topic label** (59% of it):
 
 ## Asked here in the last 90 days
 
-**99 sightings** across this cut. Newest first.
+**98 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **656 questions in this cut that carry a topic label** (59% of it):
 | [LRU Cache (with TTL and LFU Follow-ups)](https://trueinterview.io/questions/lru-cache-with-ttl) | ByteDance | Object Oriented Programming | Sep 06, 2026 |
 | [Nested List Weight Sum II (LC 364)](https://trueinterview.io/questions/coding-nested-list-weight-sum-ii) | LinkedIn | Algorithm | Sep 04, 2026 |
 
-<sub>87 more in this window are in the table below.</sub>
+<sub>86 more in this window are in the table below.</sub>
 
 ---
 
@@ -110,13 +110,13 @@ Of the **656 questions in this cut that carry a topic label** (59% of it):
 | **ByteDance** | [Top Songs by Country Leaderboard](https://trueinterview.io/questions/top-songs-by-country-leaderboard) | Hard | 🆕 Aug 30, 2026 |
 | **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | 🆕 Aug 29, 2026 |
 | **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | 🆕 Aug 29, 2026 |
-| **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | 🆕 Aug 28, 2026 |
-| **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | 🆕 Aug 28, 2026 |
-| **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | 🆕 Aug 28, 2026 |
-| **Snapchat** | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Medium | 🆕 Aug 28, 2026 |
-| **ByteDance** | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | Medium | 🆕 Aug 28, 2026 |
-| **ByteDance** | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | Medium | 🆕 Aug 28, 2026 |
-| **Snapchat** | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Hard | 🆕 Aug 28, 2026 |
+| **Pinterest** | [Model Elevator Dispatch for Sequential and Overlapping Calls](https://trueinterview.io/questions/model-elevator-dispatch-for-sequential-and-overlapping-calls) | Hard | Aug 28, 2026 |
+| **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | Aug 28, 2026 |
+| **Pinterest** | [Keep Merchant Addresses, Social Followers, and Wiki Facts Up to Date](https://trueinterview.io/questions/keep-merchant-addresses-social-followers-and-wiki-facts-up-to-date) | Hard | Aug 28, 2026 |
+| **Snapchat** | [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Medium | Aug 28, 2026 |
+| **ByteDance** | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | Medium | Aug 28, 2026 |
+| **ByteDance** | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | Medium | Aug 28, 2026 |
+| **Snapchat** | [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Hard | Aug 28, 2026 |
 | **LinkedIn** | [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity) | Medium | Aug 27, 2026 |
 | **Yelp** | [Return Integers in Descending Ranked Order](https://trueinterview.io/questions/return-integers-in-descending-ranked-order) | Easy | Aug 27, 2026 |
 | **LinkedIn** | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Medium | Aug 27, 2026 |

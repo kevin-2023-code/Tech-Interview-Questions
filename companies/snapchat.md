@@ -124,8 +124,8 @@ The 8 questions to open first if you are preparing for Snapchat, ranked by **the
 | Question | Format | Difficulty | Reported |
 | :-- | :-- | :-: | :-- |
 | [Render an Organization Chart and Find Skip-Level Pairs](https://trueinterview.io/questions/render-an-organization-chart-and-find-skip-level-pairs) | Algorithm | Medium | 🆕 Sep 09, 2026 |
-| [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Object Oriented Programming | Medium | 🆕 Aug 28, 2026 |
-| [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Algorithm | Hard | 🆕 Aug 28, 2026 |
+| [Design and Implement a Thread-Safe LRU Cache](https://trueinterview.io/questions/design-and-implement-a-thread-safe-lru-cache) | Object Oriented Programming | Medium | Aug 28, 2026 |
+| [Find the Smallest Range Covering K Sorted Lists](https://trueinterview.io/questions/find-the-smallest-range-covering-k-sorted-lists) | Algorithm | Hard | Aug 28, 2026 |
 | [Design a Pre-Login Risk and Challenge Service](https://trueinterview.io/questions/design-a-pre-login-risk-and-challenge-service) | System Design | Medium | Aug 22, 2026 |
 | [Sending vs. Opening Snaps](https://trueinterview.io/questions/sending-vs-opening-snaps) | SQL | Easy | Jul 22, 2026 |
 | [Metrics Collection & Alerting System](https://trueinterview.io/questions/metrics-alerting-system-design) | System Design | Hard | Jul 08, 2026 |

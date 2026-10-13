@@ -47,7 +47,7 @@ Of the **1,250 questions in this cut that carry a topic label** (61% of it):
 
 ## Asked here in the last 90 days
 
-**223 sightings** across this cut. Newest first.
+**221 sightings** across this cut. Newest first.
 
 | Question | In this cut | Format | Reported |
 | :-- | :-- | :-- | :-- |
@@ -64,7 +64,7 @@ Of the **1,250 questions in this cut that carry a topic label** (61% of it):
 | [Merge Sorted Event Streams Through an Iterator](https://trueinterview.io/questions/merge-sorted-event-streams-through-an-iterator) | Amazon | Algorithm | Sep 14, 2026 |
 | [Order Dependent Tasks and Identify Work to Rerun](https://trueinterview.io/questions/order-dependent-tasks-and-identify-work-to-rerun) | Amazon | Algorithm | Sep 14, 2026 |
 
-<sub>211 more in this window are in the table below.</sub>
+<sub>209 more in this window are in the table below.</sub>
 
 ---
 
@@ -159,10 +159,10 @@ Of the **1,250 questions in this cut that carry a topic label** (61% of it):
 | **Meta** | [Design a String Calculator with Explicit Grammar and Evaluation Rules](https://trueinterview.io/questions/design-a-string-calculator-with-explicit-grammar-and-evaluation-rules) | Easy | 🆕 Aug 29, 2026 |
 | **Squarepoint / Uber** | [Shortest Subarray with at Least K Distinct Values](https://trueinterview.io/questions/shortest-subarray-with-at-least-k-distinct-values) | Medium | 🆕 Aug 29, 2026 |
 | **Google** | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | Medium | 🆕 Aug 29, 2026 |
-| **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | 🆕 Aug 28, 2026 |
-| **ByteDance** | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | Medium | 🆕 Aug 28, 2026 |
-| **ByteDance** | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | Medium | 🆕 Aug 28, 2026 |
-| **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | 🆕 Aug 28, 2026 |
+| **ByteDance** | [Model Data for Analytics, Reporting, and Applications](https://trueinterview.io/questions/model-data-for-analytics-reporting-and-applications) | Medium | Aug 28, 2026 |
+| **ByteDance** | [Design a Data Service for Downstream Consumers](https://trueinterview.io/questions/design-a-data-service-for-downstream-consumers) | Medium | Aug 28, 2026 |
+| **ByteDance** | [Choose Components for a Data Warehouse](https://trueinterview.io/questions/choose-components-for-a-data-warehouse) | Medium | Aug 28, 2026 |
+| **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | Aug 28, 2026 |
 | **LinkedIn** | [Collect and Query Recent User Activity](https://trueinterview.io/questions/collect-and-query-recent-user-activity) | Medium | Aug 27, 2026 |
 | **LinkedIn** | [Merge N-ary Trees by Node Key](https://trueinterview.io/questions/coding-merge-nary-trees-by-key) | Medium | Aug 27, 2026 |
 | **Amazon** | [Spreadsheet Cell Relationships](https://trueinterview.io/questions/spreadsheet-cell-relationships) | Hard | Aug 27, 2026 |

@@ -166,7 +166,7 @@ What candidates said happened in the room at Oracle — written up by the people
 | [Find Global and Rolling Top-K URLs Under a Memory Limit](https://trueinterview.io/questions/find-global-and-rolling-top-k-urls-under-a-memory-limit) | System Design | Hard | 🆕 Sep 05, 2026 |
 | [Design a Five-Minute Top-K Error Log Service](https://trueinterview.io/questions/design-a-five-minute-top-k-error-log-service) | System Design | Hard | 🆕 Sep 05, 2026 |
 | [GPU Health and Repair](https://trueinterview.io/questions/system-design-gpu-health-repair) | System Design | Hard | 🆕 Sep 03, 2026 |
-| [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | 🆕 Aug 28, 2026 |
+| [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Algorithm | Hard | Aug 28, 2026 |
 | [Rank Departments by Student Count](https://trueinterview.io/questions/rank-departments-by-student-count) | SQL | Easy | Aug 21, 2026 |
 | [Healthcare Data Ingestion Pipeline](https://trueinterview.io/questions/system-design-healthcare-data-ingestion-pipeline) | System Design | Medium | Aug 19, 2026 |
 | [Design an Internal Metrics Ingestion Service](https://trueinterview.io/questions/design-an-internal-metrics-ingestion-service) | System Design | Medium | Aug 14, 2026 |

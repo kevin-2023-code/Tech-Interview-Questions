@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **320** |
 | Most recent sighting | Sep 20, 2026 |
-| Reported in the last 90 days | 52 |
+| Reported in the last 90 days | 51 |
 | Most common format | [Algorithm](../formats/algorithm.md) (61% of 320) |
 | Difficulty (easy / medium / hard) | 54 / 206 / 60 |
 | Free to practise | [31](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **320 of 320** questions at Amazon 
 
 ## Asked here in the last 90 days
 
-**52 sightings** in this window. Newest first.
+**51 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **320 of 320** questions at Amazon 
 | [Design an Object-Oriented Shopping Cart](https://trueinterview.io/questions/design-an-object-oriented-shopping-cart) | Object Oriented Programming | Medium | Phone screen | Sep 02, 2026 |
 | [Generalize Dictionary Merging](https://trueinterview.io/questions/generalize-dictionary-merging) | Algorithm | Medium | Onsite / virtual onsite | Sep 02, 2026 |
 
-<sub>40 more in this window are in the table below.</sub>
+<sub>39 more in this window are in the table below.</sub>
 
 ## What they ask about
 

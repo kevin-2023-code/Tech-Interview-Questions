@@ -16,7 +16,7 @@
 | :-- | :-- |
 | Questions tracked | **266** |
 | Most recent sighting | Sep 18, 2026 |
-| Reported in the last 90 days | 25 |
+| Reported in the last 90 days | 24 |
 | Most common format | [Algorithm](../formats/algorithm.md) (71% of 266) |
 | Difficulty (easy / medium / hard) | 30 / 169 / 67 |
 | Free to practise | [25](../free/README.md) |
@@ -38,7 +38,7 @@ Which stage each question came from, for the **266 of 266** questions at Google 
 
 ## Asked here in the last 90 days
 
-**25 sightings** in this window. Newest first.
+**24 sightings** in this window. Newest first.
 
 | Question | Format | Difficulty | Round | Reported |
 | :-- | :-- | :-: | :-- | :-- |
@@ -55,7 +55,7 @@ Which stage each question came from, for the **266 of 266** questions at Google 
 | [Large-Scale Interactive Map Visualization](https://trueinterview.io/questions/interactive-map-100m-datapoints) | System Design | Medium | Onsite / virtual onsite | Aug 29, 2026 |
 | [Implement Python's itertools.tee](https://trueinterview.io/questions/python-tee-independent-iterators) | Object Oriented Programming | Medium | Onsite / virtual onsite | Aug 20, 2026 |
 
-<sub>13 more in this window are in the table below.</sub>
+<sub>12 more in this window are in the table below.</sub>
 
 ## What they ask about
 

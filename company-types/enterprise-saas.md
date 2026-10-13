@@ -106,7 +106,7 @@ Of the **376 questions in this cut that carry a topic label** (63% of it):
 | **Microsoft** | [Keep Stable Unique Column Names Across Schema Changes](https://trueinterview.io/questions/keep-stable-unique-column-names-across-schema-changes) | Hard | 🆕 Aug 30, 2026 |
 | **Microsoft** | [Design a Dictionary for Heterogeneous Key and Value Types](https://trueinterview.io/questions/design-a-dictionary-for-heterogeneous-key-and-value-types) | Medium | 🆕 Aug 30, 2026 |
 | **Microsoft** | [Convert a Hexadecimal Address to Dotted IPv4](https://trueinterview.io/questions/convert-a-hexadecimal-address-to-dotted-ipv4) | Medium | 🆕 Aug 30, 2026 |
-| **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | 🆕 Aug 28, 2026 |
+| **Oracle** | [Accounts Merge (LC 721)](https://trueinterview.io/questions/accounts-merge-lc721) | Hard | Aug 28, 2026 |
 | **Palantir** | [Stack Item and Category Coupons with an Eighty-Percent Cap](https://trueinterview.io/questions/stack-item-and-category-coupons-with-an-eighty-percent-cap) | Hard | Aug 27, 2026 |
 | **Palantir** | [Optimize Coupon Selection Under a Twenty-Point Budget](https://trueinterview.io/questions/optimize-coupon-selection-under-a-twenty-point-budget) | Hard | Aug 27, 2026 |
 | **Palantir** | [Apply Item Coupons with Exact Per-Item Cent Rounding](https://trueinterview.io/questions/apply-item-coupons-with-exact-per-item-cent-rounding) | Medium | Aug 27, 2026 |
